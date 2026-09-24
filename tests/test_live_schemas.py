@@ -1,8 +1,11 @@
 """Regressions for source-schema differences found in the first live run."""
 import unittest
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
 from datetime import date
 from scripts.sync_crs import (access_scope, source_version, mirror_covers_publication,
-                              mirror_tasks, download_format)
+                              mirror_tasks, download_format, archive_task)
 from test_sync import FakeHTTP, make_pdf
 
 class LiveSchemaTests(unittest.TestCase):
@@ -54,6 +57,28 @@ class LiveSchemaTests(unittest.TestCase):
         obj = {'id': 'R10000', 'versions': [{'date': '2026-09-25', 'formats': [
             {'format': 'PDF', 'filename': 'files/test.pdf'}]}]}
         self.assertEqual(mirror_tasks(obj, date(2026, 9, 17), date(2026, 9, 24), include_latest=True), [])
+
+    def test_bad_mirror_pdf_uses_independent_official_same_date(self):
+        mirror = 'https://www.everycrsreport.com/files/bad.pdf'
+        official = 'https://www.congress.gov/crs_external_products/R/PDF/R10000/R10000.3.pdf'
+        task = {'id': 'R10000', 'title': 'Fixture', 'date': '2020-05-13', 'version': 'unknown',
+                'metadata_source': 'EveryCRSReport.com', 'formats': {'PDF': {'urls': [mirror], 'sha1': '0' * 40}}}
+        alternative = {**task, 'version': '3', 'metadata_source': 'Congress.gov API', 'formats': {'PDF': {'urls': [official]}}}
+        http = FakeHTTP({mirror: make_pdf(), official: make_pdf()})
+        with tempfile.TemporaryDirectory() as folder, patch('scripts.sync_crs.official_task', return_value=alternative):
+            entry, is_new, notices = archive_task(http, Path(folder), task, [])
+            self.assertEqual(entry['pdf_source'], official)
+            self.assertEqual(entry['version'], '3')
+            self.assertIn('source_recovery', entry)
+            self.assertTrue(is_new)
+
+    def test_bad_historical_pdf_not_replaced_by_newer_publication(self):
+        mirror = 'https://www.everycrsreport.com/files/bad.pdf'
+        task = {'id': 'R10000', 'title': 'Fixture', 'date': '2020-05-13', 'version': 'unknown',
+                'metadata_source': 'EveryCRSReport.com', 'formats': {'PDF': {'urls': [mirror], 'sha1': '0' * 40}}}
+        with tempfile.TemporaryDirectory() as folder, patch('scripts.sync_crs.official_task', return_value={**task, 'date': '2026-09-24'}):
+            with self.assertRaises(RuntimeError):
+                archive_task(FakeHTTP({mirror: make_pdf()}), Path(folder), task, [])
 
 if __name__ == '__main__':
     unittest.main()

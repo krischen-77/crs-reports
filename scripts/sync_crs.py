@@ -366,7 +366,22 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
     if cached:
         pdf, pdf_url, warnings = (root / cached["pdf"]).read_bytes(), cached["pdf_source"], []
     else:
-        pdf, pdf_url, warnings = download_format(http, task["formats"]["PDF"], "PDF")
+        try:
+            pdf, pdf_url, warnings = download_format(http, task["formats"]["PDF"], "PDF")
+        except Exception as source_error:
+            # Never relax a failed mirror PDF checksum. Resolve a separately
+            # authoritative official file, and only for the SAME publication.
+            if task.get("metadata_source") == "Congress.gov API":
+                raise
+            alternative = official_task(http, {"id": task["id"], "title": task["title"],
+                                       "publishDate": task["date"], "version": task.get("api_version", "unknown")})
+            if day(alternative["date"]) != day(task["date"]):
+                raise RuntimeError(f"Mirror failed and official publication date differs: {source_error}") from None
+            entry, is_new, notices = archive_task(http, root, alternative, known)
+            entry["source_recovery"] = {"failed_source": task["metadata_source"],
+                                        "failed_expected_pdf_sha1": expected or "", "reason": str(source_error),
+                                        "resolution": "Independently downloaded official PDF for the same publication date; failed mirror bytes not accepted"}
+            return entry, is_new, [f"Recovered using independent official PDF: {source_error}"] + notices
     with fitz.open(stream=pdf, filetype="pdf") as document:
         if document.needs_pass or len(document) == 0:
             raise ValueError("Unreadable or encrypted PDF")
