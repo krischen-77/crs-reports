@@ -27,6 +27,7 @@ API = "https://api.congress.gov/v3/crsreport"
 RSS = MIRROR + "rss.xml"
 HOSTS = {"www.everycrsreport.com", "everycrsreport.com", "www.congress.gov", "congress.gov", "crsreports.congress.gov", "api.congress.gov"}
 MAX_BYTES = 80 * 1024 * 1024
+SCHEMA_VERSION = 2
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -70,6 +71,38 @@ def safe_url(url: str) -> str:
     return urlunsplit((p.scheme, p.netloc, p.path, urlencode(query), ""))
 
 
+def access_scope(url: str) -> str:
+    """An HTML access denial must not disable independently public PDF routes."""
+    p = urlsplit(url)
+    if p.hostname == "api.congress.gov":
+        return p.hostname
+    if p.hostname in ("www.congress.gov", "congress.gov"):
+        for kind in ("HTML", "PDF"):
+            if f"/{kind}/" in p.path:
+                return f"{p.hostname}:{kind}"
+    return p.hostname or ""
+
+
+def source_version(url: str, source_record: str = "") -> str:
+    for pattern in (r"\.(\d+)\.pdf(?:$|\?)", r"/product/pdf/[^/]+/[^/]+/(\d+)(?:$|\?)"):
+        m = re.search(pattern, url)
+        if m:
+            return m[1]
+    m = re.search(r"_A?(\d+)_\d{4}-", source_record)
+    return m[1] if m else "unknown"
+
+
+def mirror_covers_publication(tasks: list[dict], row: dict) -> bool:
+    """API metadata version numbers can lag/differ from actual PDF revisions.
+
+    This compares publication coverage, NOT byte-equivalence across sources.
+    Preserve both version namespaces rather than request an older PDF solely
+    because its API metadata version differs from the PDF filename.
+    """
+    published = day(row.get("publishDate") or row.get("date"))
+    return published is not None and any(day(t.get("date")) and day(t["date"]) >= published for t in tasks)
+
+
 def write(path: Path, data: bytes | str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     raw = data.encode("utf-8") if isinstance(data, str) else data
@@ -102,7 +135,8 @@ class HTTP:
         url = safe_url(url)
         for redirect in range(5):
             host = urlsplit(url).hostname
-            if host in self.blocked:
+            scope = access_scope(url)
+            if host in self.blocked or scope in self.blocked:
                 raise RuntimeError(f"{host}: unavailable for this run after access/rate-limit response")
             headers = {"User-Agent": "crs-reports-archive/1.0 (+https://github.com/krischen-77/crs-reports)"}
             if host == "api.congress.gov":
@@ -121,8 +155,8 @@ class HTTP:
                             url = safe_url(urljoin(url, response.headers["Location"]))
                             break
                         if status in (401, 403):
-                            self.blocked.add(host)
-                            raise RuntimeError(f"{host}: HTTP {status}; not bypassing access restrictions")
+                            self.blocked.add(scope)
+                            raise RuntimeError(f"{scope}: HTTP {status}; not bypassing access restrictions")
                         if status == 429:
                             self.blocked.add(host)
                             raise RuntimeError(f"{host}: HTTP 429; defer to next run")
@@ -204,27 +238,40 @@ def mirror_tasks(obj: dict, start: date, end: date, include_latest: bool = False
     ident = report_id(obj.get("id") or obj.get("number"))
     tasks = []
     for i, version in enumerate(obj.get("versions", [])):
-        if not within(version.get("date"), start, end) and not (include_latest and i == 0):
+        if not within(version.get("date"), start, end) and not (include_latest and i == 0 and day(version.get("date")) and day(version["date"]) <= end):
             continue
-        formats = {}
+        formats, ignored = {}, []
         number = "unknown"
         for fmt in version.get("formats", []):
             kind = str(fmt.get("format", "")).upper()
             if kind not in ("PDF", "HTML"):
                 continue
-            official = fmt.get("url", "")
+            original = fmt.get("url", "")
             mirror = urljoin(MIRROR, fmt["filename"]) if fmt.get("filename") else ""
-            urls = list(dict.fromkeys(safe_url(u) for u in [official, mirror] if u))
+            urls = []
+            for url in [original, mirror]:
+                if not url:
+                    continue
+                try:
+                    checked = safe_url(url)
+                except ValueError:
+                    # Older source records refer to the non-public crs.gov site.
+                    # Do not request it; the public immutable mirror is separate.
+                    ignored.append(url)
+                    continue
+                if checked not in urls:
+                    urls.append(checked)
             if urls:
-                formats[kind] = {"urls": urls, "sha1": fmt.get("sha1", "")}
-            m = re.search(r"\.(\d+)\.pdf(?:$|\?)", official)
-            if m:
-                number = m[1]
+                formats[kind] = {"urls": urls, "sha1": fmt.get("sha1", ""),
+                                 "report_id": ident, "source_format": fmt.get("source", "source HTML" if kind == "HTML" else "original PDF"),
+                                 "allow_transformed_html": kind == "HTML" and bool(mirror)}
+            if kind == "PDF":
+                number = source_version(original, str(version.get("id", "")))
         if "PDF" not in formats:
             continue
         tasks.append({"id": ident, "title": version.get("title", ident), "date": str(version.get("date", ""))[:10],
                       "version": number, "formats": formats, "metadata_source": "EveryCRSReport.com",
-                      "source_record": str(version.get("id", ""))})
+                      "source_record": str(version.get("id", "")), "ignored_nonpublic_source_urls": ignored})
     return tasks
 
 
@@ -243,7 +290,8 @@ def official_task(http: HTTP, row: dict) -> dict:
     if "PDF" not in formats:
         raise ValueError(f"{ident}: API did not provide a PDF URL")
     return {"id": ident, "title": item.get("title", row["title"]), "date": str(item.get("publishDate", row.get("publishDate", "")))[:10],
-            "version": str(item.get("version", row.get("version", "unknown"))), "formats": formats,
+            "version": source_version(formats["PDF"]["urls"][0]) if source_version(formats["PDF"]["urls"][0]) != "unknown" else str(item.get("version", row.get("version", "unknown"))),
+            "api_version": str(item.get("version", row.get("version", "unknown"))), "formats": formats,
             "metadata_source": "Congress.gov API", "source_record": ident}
 
 
@@ -257,7 +305,17 @@ def download_format(http: HTTP, spec: dict, kind: str) -> tuple[bytes, str, list
         try:
             body, actual = http.get(url)
             if spec.get("sha1") and digest(body, "sha1") != spec["sha1"]:
-                raise ValueError("Source bytes differ from the catalogued version checksum")
+                if kind == "HTML" and spec.get("allow_transformed_html") and urlsplit(actual).hostname in ("www.everycrsreport.com", "everycrsreport.com"):
+                    # EveryCRSReport serves cleaned HTML fragments; their name may
+                    # retain the hash of the pre-transformation official HTML.
+                    # Keep this as a DERIVATIVE with its own hash, never as verified
+                    # original bytes. PDF checksum requirements remain unchanged.
+                    text = BeautifulSoup(body, "html.parser").get_text(" ", strip=True)
+                    if not spec.get("report_id") or spec["report_id"] not in text:
+                        raise ValueError("Mirror HTML identity check failed")
+                    errors.append("Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative")
+                else:
+                    raise ValueError("Source bytes differ from the catalogued version checksum")
             if kind == "PDF" and not body.lstrip().startswith(b"%PDF-"):
                 raise ValueError("Response is not a PDF")
             if kind == "HTML":
@@ -295,12 +353,20 @@ def body_markdown(html: bytes | None, base_url: str, pdf: bytes) -> tuple[str, s
 
 def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple[dict, bool, list[str]]:
     expected = task["formats"]["PDF"].get("sha1")
+    cached = None
     for old in known:
-        if old["id"] != task["id"] or not expected or old.get("pdf_sha1") != expected or old.get("retry_html"):
+        if old["id"] != task["id"] or not expected or old.get("pdf_sha1") != expected:
             continue
-        if all((root / old[k]).is_file() for k in ("pdf", "markdown")) and digest((root / old["pdf"]).read_bytes()) == old["pdf_sha256"]:
-            return old, False, []
-    pdf, pdf_url, warnings = download_format(http, task["formats"]["PDF"], "PDF")
+        if (root / old["pdf"]).is_file() and digest((root / old["pdf"]).read_bytes()) == old["pdf_sha256"]:
+            cached = old
+            break
+    if cached and cached.get("schema_version", 0) >= SCHEMA_VERSION and not cached.get("retry_html"):
+        if all((root / cached[k]).is_file() for k in ("pdf", "markdown")) and (not cached.get("html") or (root / cached["html"]).is_file()):
+            return cached, False, []
+    if cached:
+        pdf, pdf_url, warnings = (root / cached["pdf"]).read_bytes(), cached["pdf_source"], []
+    else:
+        pdf, pdf_url, warnings = download_format(http, task["formats"]["PDF"], "PDF")
     with fitz.open(stream=pdf, filetype="pdf") as document:
         if document.needs_pass or len(document) == 0:
             raise ValueError("Unreadable or encrypted PDF")
@@ -323,16 +389,26 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
         except Exception as exc:
             warnings.append(f"HTML unavailable; preserve PDF and extract its text: {exc}")
             retry_html = True
+    html_spec = task["formats"].get("HTML", {})
+    if not html:
+        html_kind = "unavailable"
+    elif html_spec.get("source_format") == "pymupdf":
+        html_kind = "provider PDF-to-HTML derivative; not official HTML"
+    elif urlsplit(html_url).hostname in ("www.everycrsreport.com", "everycrsreport.com"):
+        html_kind = "provider HTML snapshot; may be reformatted; not byte-identical official HTML"
+    else:
+        html_kind = "official HTML response"
     text, method, pages = body_markdown(html, html_url, pdf)
     md_path = f"markdown/{folder}/{stem}.md"
     header = {"report_number": ident, "title": task["title"], "publication_date": task["date"], "crs_version": task["version"],
               "official_page": f"https://www.congress.gov/crs-product/{ident}", "downloaded_pdf_from": pdf_url,
-              "downloaded_html_from": html_url, "pdf_sha256": sha, "conversion": method}
+              "downloaded_html_from": html_url, "html_provenance": html_kind, "api_metadata_version": task.get("api_version", ""), "pdf_sha256": sha, "conversion": method}
     front = "---\n" + "\n".join(f"{k}: {json.dumps(v, ensure_ascii=False)}" for k, v in header.items()) + "\n---\n\n"
     write(root / md_path, front + text + "\n")
-    entry = {"id": ident, "title": task["title"], "date": task["date"], "version": task["version"], "pdf": pdf_path,
+    entry = {"schema_version": SCHEMA_VERSION, "id": ident, "title": task["title"], "date": task["date"], "version": task["version"], "pdf": pdf_path,
              "pdf_sha256": sha, "pdf_sha1": digest(pdf, "sha1"), "pdf_source": pdf_url, "html": html_path,
-             "html_source": html_url, "markdown": md_path, "pages": pages, "conversion": method,
+             "html_source": html_url, "html_provenance": html_kind, "html_sha256": digest(html) if html else "",
+             "api_metadata_version": task.get("api_version", ""), "markdown": md_path, "pages": pages, "conversion": method,
              "metadata_source": task["metadata_source"], "retry_html": retry_html,
              "archived_at": datetime.now(timezone.utc).isoformat()}
     old = next((v for v in known if v["id"] == ident and v.get("pdf_sha256") == sha), None)
@@ -399,6 +475,7 @@ def sync(args) -> int:
         write(root / "data/sources/everycrsreport-catalog.csv", raw)
         status["sources"]["everycrsreport"] = {"ok": True, "reports": len(fresh_mirror), "coverage": "complete published CSV, not a claim of complete official CRS coverage"}
     except Exception as exc:
+        fresh_mirror = {}
         status["sources"]["everycrsreport"] = {"ok": False, "error": str(exc)}
         warnings.append(f"Catalog refresh failed: {exc}")
     full = args.full_catalog
@@ -427,18 +504,26 @@ def sync(args) -> int:
     recent_api = {report_id(r["id"]): r for r in api_rows if within(r.get("publishDate"), start, end) or within(r.get("updateDate"), start, end)}
     ids = {i for i, r in fresh_mirror.items() if within(r.get("published"), start, end)} | set(recent_api) | set(pending["reports"])
     ids |= {r["id"] for r in rss_rows if within(r["published"], start, end)}
+    ids |= {t["id"] for t in pending["tasks"]}
+    print(f"Sources collected: {len(catalog)} catalog IDs; {len(ids)} candidate reports", flush=True)
     failed_reports = []
-    for ident in sorted(ids):
+    for position, ident in enumerate(sorted(ids), 1):
+        print(f"Metadata [{position}/{len(ids)}] {ident}", flush=True)
         try:
             obj = http.json(MIRROR + f"reports/{report_id(ident)}.json")
             if report_id(obj.get("id") or obj.get("number")) != ident:
                 raise ValueError("Report metadata ID mismatch")
             write_json(root / f"metadata/sources/{ident}.json", obj)
-            found = mirror_tasks(obj, start, end, include_latest=ident in recent_api or ident in pending["reports"])
+            found = mirror_tasks(obj, start, end, include_latest=ident in recent_api or ident in pending["reports"] or any(t["id"] == ident for t in pending["tasks"]))
+            api_row = recent_api.get(ident) or catalog.get(ident, {}).get("api")
             for task in found:
+                if api_row:
+                    task["api_version"] = str(api_row.get("version", ""))
                 tasks[task_key(task)] = task
-            api_row = recent_api.get(ident)
-            if api_row and not any(t["version"] == str(api_row.get("version")) for t in found):
+            if api_row and found and any(t["version"] != str(api_row.get("version")) for t in found):
+                warnings.append({"id": ident, "api_version": api_row.get("version"), "pdf_revisions": [t["version"] for t in found],
+                                 "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"})
+            if api_row and not mirror_covers_publication(found, api_row):
                 t = official_task(http, api_row)
                 tasks[task_key(t)] = t
             if not found and not api_row:
@@ -453,8 +538,18 @@ def sync(args) -> int:
                     exc = RuntimeError(f"{exc}; official fallback: {api_exc}")
             failed_reports.append(ident)
             errors.append(f"{ident}: metadata resolution failed: {exc}")
+    reconciled = []
     for task in pending["tasks"]:
+        fresh = [t for t in tasks.values() if t["id"] == task["id"]]
+        old_hash = task["formats"]["PDF"].get("sha1")
+        if old_hash and any(t["formats"]["PDF"].get("sha1") == old_hash for t in fresh):
+            continue  # Fresh metadata is the authoritative retry specification.
+        if task.get("metadata_source") == "Congress.gov API" and mirror_covers_publication(fresh, task):
+            reconciled.append({"id": task["id"], "previous_api_version": task["version"],
+                               "reason": "API/PDF version namespaces reconciled against same-or-newer publication metadata"})
+            continue
         tasks.setdefault(task_key(task), task)
+    status["reconciled_pending_discoveries"] = reconciled
     queued, new_count, ok_count = [], 0, 0
     for n, task in enumerate(tasks.values(), 1):
         print(f"[{n}/{len(tasks)}] {task['id']} v{task['version']} ({task['date']})", flush=True)
@@ -476,7 +571,10 @@ def sync(args) -> int:
     write_json(root / "data/pending.json", {"reports": failed_reports, "tasks": queued})
     export_indexes(root, catalog, archives, start, end)
     status.update(catalog_reports=len(catalog), candidate_reports=len(ids), attempted_versions=len(tasks), successful_versions=ok_count,
-                  new_pdf_versions=new_count, total_archived_pdf_versions=len(archives), pending_reports=len(failed_reports), pending_versions=len(queued))
+                  new_pdf_versions=new_count, total_archived_pdf_versions=len(archives),
+                  total_html_snapshots=sum(bool(v.get("html")) for v in archives),
+                  total_pdf_bytes=sum((root / v["pdf"]).stat().st_size for v in archives),
+                  pending_reports=len(failed_reports), pending_versions=len(queued))
     status["result"] = "failed" if errors else ("success_with_warnings" if warnings else "success")
     write_json(root / "data/status.json", status)
     run_id = os.getenv("GITHUB_RUN_ID", now.strftime("%Y%m%dT%H%M%S"))
