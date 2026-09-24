@@ -1,0 +1,744 @@
+{
+  "attempted_versions": 101,
+  "candidate_reports": 94,
+  "catalog_reports": 23516,
+  "errors": [
+    "IF11218: metadata resolution failed: api.congress.gov: HTTP 429; defer to next run; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF11357: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF11365: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF11557: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF11806: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF11891: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12173: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12193: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12240: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12265: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12271: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12373: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12595: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12654: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12760: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12852: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF12853: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF13314: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF13315: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF13316: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF13320: metadata resolution failed: www.everycrsreport.com: HTTP 404; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12304: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12328: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12331: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12418: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12439: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12519: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12576: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12697: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IN12709: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "LSB11401: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "LSB11403: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "LSB11413: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "LSB11438: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "LSB11484: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R41759: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R42346: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R44467: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R45210: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R45997: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R46354: metadata resolution failed: Disallowed upstream URL; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R46435: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R46808: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R46946: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R47077: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R47339: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R47663: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48064: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48067: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48093: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48126: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48704: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48705: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48859: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48874: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R48887: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R49334: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R49341: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R49344: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "R49355: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "RL34209: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "RL34480: metadata resolution failed: api.congress.gov: unavailable for this run after access/rate-limit response; official fallback: api.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF10119: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF10165: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF10292: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF10464: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF10542: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF10733: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF10767: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+    "IF11120: original archive failed: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
+  ],
+  "lookback_days": 7,
+  "new_pdf_versions": 92,
+  "pending_reports": 62,
+  "pending_versions": 87,
+  "result": "failed",
+  "run_at": "2026-09-24T12:57:15.974586+00:00",
+  "sources": {
+    "congress_api": {
+      "credential": "public DEMO_KEY",
+      "ok": true,
+      "reported_count": 95,
+      "reports": 95,
+      "scope": "update-date window"
+    },
+    "everycrsreport": {
+      "coverage": "complete published CSV, not a claim of complete official CRS coverage",
+      "ok": true,
+      "reports": 23515
+    },
+    "rss": {
+      "items": 25,
+      "ok": true,
+      "scope": "supplement only; feed is not the complete catalog"
+    }
+  },
+  "successful_versions": 93,
+  "total_archived_pdf_versions": 92,
+  "warnings": [
+    {
+      "id": "IF10045",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: HTTP 403; not bypassing access restrictions"
+      ]
+    },
+    {
+      "id": "IF10045",
+      "messages": [
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: HTTP 403; not bypassing access restrictions"
+      ]
+    },
+    {
+      "id": "IF10119",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF10165",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF10292",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF10464",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF10542",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF10733",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF10767",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF11120",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF11218",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF11357",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF11365",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF11557",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF11806",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF11891",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "IF12173",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF12193",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF12240",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF12265",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF12271",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "IF12373",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "IF12595",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF12654",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "IF12760",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF12852",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF12853",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13273",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13312",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13314",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13315",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13316",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13317",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13318",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IF13319",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12304",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12328",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "IN12331",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12418",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "IN12439",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "IN12509",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
+      ]
+    },
+    {
+      "id": "IN12519",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12576",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12697",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12709",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12736",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12737",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12738",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12739",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "IN12740",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "LSB11401",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "LSB11403",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "LSB11413",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "LSB11438",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "LSB11460",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "LSB11483",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "LSB11484",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R41759",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R42346",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R44467",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R45210",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R45997",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R46435",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R46808",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "R46946",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "R47077",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "R47339",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "R47663",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "R48064",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R48067",
+      "messages": [
+        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
+      ]
+    },
+    {
+      "id": "R48093",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R48126",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R48704",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R48705",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R48859",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R48874",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R48887",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49334",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49336",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49341",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49342",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49344",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49351",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49352",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49353",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49354",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49355",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49356",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49357",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49358",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "R49359",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "RL34209",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    },
+    {
+      "id": "RL34480",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response; www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
+    }
+  ],
+  "window_end_inclusive": "2026-09-24",
+  "window_start_inclusive": "2026-09-17"
+}
