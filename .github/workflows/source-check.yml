@@ -1,0 +1,46 @@
+name: CRS source connectivity check
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/source-check.yml
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check public metadata sources without credentials
+        shell: python
+        run: |
+          import urllib.request, json, xml.etree.ElementTree as ET
+          targets = {
+            'congress_sitemaps': 'https://www.congress.gov/sitemap/index.xml',
+            'congress_api_demo': 'https://api.congress.gov/v3/crsreport?api_key=DEMO_KEY&format=json&limit=2',
+            'everycrs_catalog': 'https://www.everycrsreport.com/reports.csv',
+            'everycrs_metadata': 'https://www.everycrsreport.com/reports/IF11806.json',
+            'everycrs_rss': 'https://www.everycrsreport.com/rss.xml',
+          }
+          for name, url in targets.items():
+            print('\nSOURCE:', name, flush=True)
+            try:
+              req = urllib.request.Request(url, headers={'User-Agent': 'crs-reports-archive/1.0 (+https://github.com/krischen-77/crs-reports)'})
+              with urllib.request.urlopen(req, timeout=25) as r:
+                data = r.read(20_000_000)
+                print('HTTP:', r.status, 'TYPE:', r.headers.get('Content-Type'), 'BYTES:', len(data))
+              text = data.decode('utf-8-sig')
+              if name == 'everycrs_catalog':
+                print('LINES:', len(text.splitlines()), 'PREVIEW:', '\n'.join(text.splitlines()[:3]))
+              elif name == 'congress_sitemaps':
+                root = ET.fromstring(data)
+                print('SITEMAPS:', [n.text for n in root.iter() if n.tag.endswith('loc') and 'crs' in (n.text or '').lower()])
+                print('PREVIEW:', text[:1200])
+              elif name == 'everycrs_metadata':
+                obj = json.loads(text)
+                obj['versions'] = obj.get('versions', [])[:1]
+                print(json.dumps(obj, ensure_ascii=False)[:6500])
+              else:
+                print(text[:4000])
+            except Exception as exc:
+              print(type(exc).__name__ + ': ' + str(exc))
