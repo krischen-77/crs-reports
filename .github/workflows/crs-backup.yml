@@ -1,0 +1,124 @@
+name: CRS daily backup
+
+"on":
+  schedule:
+    - cron: '23 10 * * *' # 10:23 UTC = 18:23 Asia/Shanghai
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Look back this many days; retain all existing archives'
+        default: '7'
+        required: true
+        type: string
+      until:
+        description: 'Optional inclusive UTC end date: YYYY-MM-DD'
+        default: ''
+        required: false
+        type: string
+      full_catalog:
+        description: 'Refresh full official API catalog (requires CONGRESS_API_KEY)'
+        default: false
+        required: false
+        type: boolean
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/crs-backup.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'requirements.txt'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: crs-archive-main
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - name: Check out main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install pinned dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect sources and archive originals
+        id: sync
+        continue-on-error: true
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          LOOKBACK_DAYS: ${{ inputs.days || '7' }}
+          UNTIL_DATE: ${{ inputs.until || '' }}
+          FULL_CATALOG: ${{ inputs.full_catalog || false }}
+          PYTHONUNBUFFERED: '1'
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=(--days "$LOOKBACK_DAYS")
+          if [[ -n "$UNTIL_DATE" ]]; then args+=(--until "$UNTIL_DATE"); fi
+          if [[ "$FULL_CATALOG" == 'true' ]]; then args+=(--full-catalog); fi
+          python scripts/sync_crs.py "${args[@]}"
+      - name: Verify saved originals and manifests
+        id: verify
+        if: always() && steps.sync.outcome != 'skipped'
+        continue-on-error: true
+        shell: python
+        run: |
+          import hashlib, json
+          from pathlib import Path
+          status = json.loads(Path('data/status.json').read_text())
+          manifest = json.loads(Path('data/archive-manifest.json').read_text())
+          for item in manifest:
+              pdf = Path(item['pdf']).read_bytes()
+              assert pdf.lstrip().startswith(b'%PDF-'), item['pdf']
+              assert hashlib.sha256(pdf).hexdigest() == item['pdf_sha256'], item['pdf']
+              assert Path(item['markdown']).is_file(), item['markdown']
+              if item.get('html'):
+                  assert Path(item['html']).is_file(), item['html']
+          print('Verified PDF versions:', len(manifest))
+          print('HTML originals:', sum(bool(v.get('html')) for v in manifest))
+          print('PDF bytes:', sum(Path(v['pdf']).stat().st_size for v in manifest))
+          print('Current run result:', status['result'])
+          print('Errors:', json.dumps(status['errors'], ensure_ascii=False))
+      - name: Commit archives, indexes and persistent retry queue
+        if: always() && steps.sync.outcome != 'skipped' && steps.verify.outcome == 'success'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for path in data pdf html markdown metadata LATEST.md; do
+            if [[ -e "$path" ]]; then git add -- "$path"; fi
+          done
+          if git diff --cached --quiet; then
+            echo 'No archive changes to commit.'
+            exit 0
+          fi
+          git commit -m "archive: CRS originals and source indexes $(date -u +%F)"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            sleep "$((attempt * 5))"
+            git pull --rebase origin main
+          done
+          echo 'Archive push failed after three attempts.' >&2
+          exit 1
+      - name: Fail visibly when collection or verification was incomplete
+        if: always() && (steps.sync.outcome == 'failure' || steps.verify.outcome == 'failure')
+        run: |
+          echo 'Incomplete backup: inspect data/status.json and this run. Successful originals and retries are retained when verification passed.' >&2
+          exit 1
