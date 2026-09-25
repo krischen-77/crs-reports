@@ -1,9 +1,12 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-17 to 2026-09-24**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-18 to 2026-09-25**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-09-24 | IN12689 v5 | Colombia’s 2026 Elections: Implications for U.S. Relations | [PDF](pdf/insights/IN12689v5-2026-09-24-07f1afaeb5f2df95.pdf) | [Markdown](markdown/insights/IN12689v5-2026-09-24-07f1afaeb5f2df95.md) |
+| 2026-09-24 | IF13321 v1 | Estimated Effects on Effective Tax Rates and Revenues of Increasing the 199A Deduction for Pass-Through Businesses | [PDF](pdf/in-focus/IF13321v1-2026-09-24-17a4133c9399f620.pdf) | [Markdown](markdown/in-focus/IF13321v1-2026-09-24-17a4133c9399f620.md) |
+| 2026-09-24 | IF12047 v19 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.pdf) | [Markdown](markdown/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.md) |
 | 2026-09-23 | RL34480 v11 | Enrollment of Legislation: Relevant Congressional Procedures | [PDF](pdf/reports/RL34480v11-2026-09-23-3140a436b82bbecb.pdf) | [Markdown](markdown/reports/RL34480v11-2026-09-23-3140a436b82bbecb.md) |
 | 2026-09-23 | R49359 v1 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v1-2026-09-23-0b6a76f2a3d872c4.pdf) | [Markdown](markdown/reports/R49359v1-2026-09-23-0b6a76f2a3d872c4.md) |
 | 2026-09-23 | R48859 v6 | Mexico: Background and Key Issues in U.S. Relations | [PDF](pdf/reports/R48859v6-2026-09-23-4007c643af6ced9f.pdf) | [Markdown](markdown/reports/R48859v6-2026-09-23-4007c643af6ced9f.md) |
@@ -13,6 +16,7 @@ Publication-date window (inclusive): **2026-09-17 to 2026-09-24**. Older archive
 | 2026-09-23 | IF13320 v1 | Defense Contractors, Data Rights, and the “Right to Repair” | [PDF](pdf/in-focus/IF13320v1-2026-09-23-3838b920625b5fad.pdf) | [Markdown](markdown/in-focus/IF13320v1-2026-09-23-3838b920625b5fad.md) |
 | 2026-09-23 | IF13319 v1 | Private Investments and Insurance Companies | [PDF](pdf/in-focus/IF13319v1-2026-09-23-440f12cc714032dd.pdf) | [Markdown](markdown/in-focus/IF13319v1-2026-09-23-440f12cc714032dd.md) |
 | 2026-09-23 | IF13318 v1 | Air Force MQ-9A Reaper: Background and Issues for Congress | [PDF](pdf/in-focus/IF13318v1-2026-09-23-a2af2fcfaa665e0c.pdf) | [Markdown](markdown/in-focus/IF13318v1-2026-09-23-a2af2fcfaa665e0c.md) |
+| 2026-09-23 | 95-1013 v191 | Bahrain: Issues for U.S. Policy | [PDF](pdf/reports/95-1013v191-2026-09-23-7998ab5e76ec6946.pdf) | [Markdown](markdown/reports/95-1013v191-2026-09-23-7998ab5e76ec6946.md) |
 | 2026-09-22 | R49358 v1 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v1-2026-09-22-89b218c0d9494241.pdf) | [Markdown](markdown/reports/R49358v1-2026-09-22-89b218c0d9494241.md) |
 | 2026-09-22 | LSB11403 v3 | International Agreements and Non-binding Instruments: The Case-Zablocki Act (Case Act) | [PDF](pdf/sidebars/LSB11403v3-2026-09-22-42e0d03caccbd543.pdf) | [Markdown](markdown/sidebars/LSB11403v3-2026-09-22-42e0d03caccbd543.md) |
 | 2026-09-22 | IF12240 v6 | Defense Primer: Statutory Military Readiness Reporting | [PDF](pdf/in-focus/IF12240v6-2026-09-22-0c5a224769defd19.pdf) | [Markdown](markdown/in-focus/IF12240v6-2026-09-22-0c5a224769defd19.md) |
@@ -38,15 +42,3 @@ Publication-date window (inclusive): **2026-09-17 to 2026-09-24**. Older archive
 | 2026-09-18 | IF12760 v7 | Russia-North Korea Relations | [PDF](pdf/in-focus/IF12760v7-2026-09-18-532eb15862084f91.pdf) | [Markdown](markdown/in-focus/IF12760v7-2026-09-18-532eb15862084f91.md) |
 | 2026-09-18 | IF11357 v6 | Expedited Removal of Aliens: An Introduction | [PDF](pdf/in-focus/IF11357v6-2026-09-18-c729d1ea72f5b046.pdf) | [Markdown](markdown/in-focus/IF11357v6-2026-09-18-c729d1ea72f5b046.md) |
 | 2026-09-18 | IF10464 v26 | United Nations Issues: Congressional Representatives to the UN General Assembly | [PDF](pdf/in-focus/IF10464v26-2026-09-18-f03659492880cd1b.pdf) | [Markdown](markdown/in-focus/IF10464v26-2026-09-18-f03659492880cd1b.md) |
-| 2026-09-17 | R49354 v1 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v1-2026-09-17-3e0d4037aa386997.pdf) | [Markdown](markdown/reports/R49354v1-2026-09-17-3e0d4037aa386997.md) |
-| 2026-09-17 | R49353 v1 | Overview of Continuing Appropriations for FY2027 (Division A of P.L. 119-103) | [PDF](pdf/reports/R49353v1-2026-09-17-72d8cb7947841e25.pdf) | [Markdown](markdown/reports/R49353v1-2026-09-17-72d8cb7947841e25.md) |
-| 2026-09-17 | R49351 v1 | GENIUS Act (P.L. 119-27): Creating a Regulatory Framework for Stablecoins | [PDF](pdf/reports/R49351v1-2026-09-17-3675ad90600b36f3.pdf) | [Markdown](markdown/reports/R49351v1-2026-09-17-3675ad90600b36f3.md) |
-| 2026-09-17 | R45997 v38 | Federal Regional Commissions and Authorities: Structural Features and Function | [PDF](pdf/reports/R45997v38-2026-09-17-7edb0430078ff23f.pdf) | [Markdown](markdown/reports/R45997v38-2026-09-17-7edb0430078ff23f.md) |
-| 2026-09-17 | LSB11438 v4 | Mandatory Detention During Removal Proceedings: Circuit Split | [PDF](pdf/sidebars/LSB11438v4-2026-09-17-2f6e04dd0d66c62a.pdf) | [Markdown](markdown/sidebars/LSB11438v4-2026-09-17-2f6e04dd0d66c62a.md) |
-| 2026-09-17 | LSB11413 v2 | Updates on Litigation over the IRS-ICE Information-Sharing Agreement | [PDF](pdf/sidebars/LSB11413v2-2026-09-17-3d3d22a2d332b14c.pdf) | [Markdown](markdown/sidebars/LSB11413v2-2026-09-17-3d3d22a2d332b14c.md) |
-| 2026-09-17 | IN12519 v15 | Section 232 Tariffs on Steel and Aluminum | [PDF](pdf/insights/IN12519v15-2026-09-17-704d3fad591b201a.pdf) | [Markdown](markdown/insights/IN12519v15-2026-09-17-704d3fad591b201a.md) |
-| 2026-09-17 | IF13315 v2 | Selected Federal Legislation on Search and Seizure Authority | [PDF](pdf/in-focus/IF13315v2-2026-09-17-95546a68a0e5f6a7.pdf) | [Markdown](markdown/in-focus/IF13315v2-2026-09-17-95546a68a0e5f6a7.md) |
-| 2026-09-17 | IF13314 v2 | The IRS Direct File Program | [PDF](pdf/in-focus/IF13314v2-2026-09-17-e4064c325d6c8f40.pdf) | [Markdown](markdown/in-focus/IF13314v2-2026-09-17-e4064c325d6c8f40.md) |
-| 2026-09-17 | IF10767 v22 | Farm Credit Administration and Its Board Members | [PDF](pdf/in-focus/IF10767v22-2026-09-17-203ca08ed40e2a6a.pdf) | [Markdown](markdown/in-focus/IF10767v22-2026-09-17-203ca08ed40e2a6a.md) |
-| 2026-09-17 | IF10733 v21 | U.S.-South Korea Bilateral Trade Relations | [PDF](pdf/in-focus/IF10733v21-2026-09-17-1294acc24ec9f5b7.pdf) | [Markdown](markdown/in-focus/IF10733v21-2026-09-17-1294acc24ec9f5b7.md) |
-| 2026-09-17 | IF10165 v66 | South Korea: Background and U.S. Relations | [PDF](pdf/in-focus/IF10165v66-2026-09-17-894fee7dcccd5c25.pdf) | [Markdown](markdown/in-focus/IF10165v66-2026-09-17-894fee7dcccd5c25.md) |
