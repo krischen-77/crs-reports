@@ -1,12 +1,19 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-18 to 2026-09-25**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-19 to 2026-09-26**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-09-25 | RL32781 v59 | Federal Deductibility of State and Local Taxes | [PDF](pdf/reports/RL32781v59-2026-09-25-22994ce2b3036ed6.pdf) | [Markdown](markdown/reports/RL32781v59-2026-09-25-22994ce2b3036ed6.md) |
+| 2026-09-25 | R49360 v1 | The Second Amendment and Aliens Unlawfully Present in the United States | [PDF](pdf/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.pdf) | [Markdown](markdown/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.md) |
+| 2026-09-25 | R49327 v6 | Army Corps Provisions in Water Resources Development Act of 2026 (WRDA 2026) Legislation: In Brief | [PDF](pdf/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.pdf) | [Markdown](markdown/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.md) |
+| 2026-09-25 | R48743 v3 | Housing Issues in the 119th Congress | [PDF](pdf/reports/R48743v3-2026-09-25-9357ff8f1d41d12b.pdf) | [Markdown](markdown/reports/R48743v3-2026-09-25-9357ff8f1d41d12b.md) |
+| 2026-09-24 | R49361 v1 | Corporate Average Fuel Economy (CAFE) Standards | [PDF](pdf/reports/R49361v1-2026-09-24-2293a19a3f414a62.pdf) | [Markdown](markdown/reports/R49361v1-2026-09-24-2293a19a3f414a62.md) |
 | 2026-09-24 | IN12689 v5 | Colombia’s 2026 Elections: Implications for U.S. Relations | [PDF](pdf/insights/IN12689v5-2026-09-24-07f1afaeb5f2df95.pdf) | [Markdown](markdown/insights/IN12689v5-2026-09-24-07f1afaeb5f2df95.md) |
 | 2026-09-24 | IF13321 v1 | Estimated Effects on Effective Tax Rates and Revenues of Increasing the 199A Deduction for Pass-Through Businesses | [PDF](pdf/in-focus/IF13321v1-2026-09-24-17a4133c9399f620.pdf) | [Markdown](markdown/in-focus/IF13321v1-2026-09-24-17a4133c9399f620.md) |
 | 2026-09-24 | IF12047 v19 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.pdf) | [Markdown](markdown/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.md) |
+| 2026-09-24 | IF10525 v20 | Defense Primer: National and Defense Intelligence | [PDF](pdf/in-focus/IF10525v20-2026-09-24-d4212575726d5b90.pdf) | [Markdown](markdown/in-focus/IF10525v20-2026-09-24-d4212575726d5b90.md) |
+| 2026-09-24 | IF10002 v41 | World Trade Organization | [PDF](pdf/in-focus/IF10002v41-2026-09-24-513828c383a595e9.pdf) | [Markdown](markdown/in-focus/IF10002v41-2026-09-24-513828c383a595e9.md) |
 | 2026-09-23 | RL34480 v11 | Enrollment of Legislation: Relevant Congressional Procedures | [PDF](pdf/reports/RL34480v11-2026-09-23-3140a436b82bbecb.pdf) | [Markdown](markdown/reports/RL34480v11-2026-09-23-3140a436b82bbecb.md) |
 | 2026-09-23 | R49359 v1 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v1-2026-09-23-0b6a76f2a3d872c4.pdf) | [Markdown](markdown/reports/R49359v1-2026-09-23-0b6a76f2a3d872c4.md) |
 | 2026-09-23 | R48859 v6 | Mexico: Background and Key Issues in U.S. Relations | [PDF](pdf/reports/R48859v6-2026-09-23-4007c643af6ced9f.pdf) | [Markdown](markdown/reports/R48859v6-2026-09-23-4007c643af6ced9f.md) |
@@ -34,11 +41,3 @@ Publication-date window (inclusive): **2026-09-18 to 2026-09-25**. Older archive
 | 2026-09-21 | IF13316 v2 | Federal Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13316v2-2026-09-21-1d56d54b9ddc1076.pdf) | [Markdown](markdown/in-focus/IF13316v2-2026-09-21-1d56d54b9ddc1076.md) |
 | 2026-09-21 | IF12265 v8 | China Primer: Human Rights | [PDF](pdf/in-focus/IF12265v8-2026-09-21-466508c40b61ccf3.pdf) | [Markdown](markdown/in-focus/IF12265v8-2026-09-21-466508c40b61ccf3.md) |
 | 2026-09-21 | IF10292 v22 | The Debt Limit | [PDF](pdf/in-focus/IF10292v22-2026-09-21-35cdcd16a1336080.pdf) | [Markdown](markdown/in-focus/IF10292v22-2026-09-21-35cdcd16a1336080.md) |
-| 2026-09-18 | RL34209 v32 | [Archived] Fishery Resource Disaster Assistance | [PDF](pdf/reports/RL34209v32-2026-09-18-0ff4536a4d586d54.pdf) | [Markdown](markdown/reports/RL34209v32-2026-09-18-0ff4536a4d586d54.md) |
-| 2026-09-18 | R49355 v2 | Fishery Resource Disaster Assistance | [PDF](pdf/reports/R49355v2-2026-09-18-4e0c2823eff81092.pdf) | [Markdown](markdown/reports/R49355v2-2026-09-18-4e0c2823eff81092.md) |
-| 2026-09-18 | R48887 v3 | U.S. Conflict with Iran | [PDF](pdf/reports/R48887v3-2026-09-18-a5628c9a17d4e6f3.pdf) | [Markdown](markdown/reports/R48887v3-2026-09-18-a5628c9a17d4e6f3.md) |
-| 2026-09-18 | IN12738 v1 | Federal Retirement Processing: Background and Recent Developments | [PDF](pdf/insights/IN12738v1-2026-09-18-6eea475047446231.pdf) | [Markdown](markdown/insights/IN12738v1-2026-09-18-6eea475047446231.md) |
-| 2026-09-18 | IN12709 v5 | HUD’s FY2026 Continuum of Care Program Competition | [PDF](pdf/insights/IN12709v5-2026-09-18-75155d9bbc32bee0.pdf) | [Markdown](markdown/insights/IN12709v5-2026-09-18-75155d9bbc32bee0.md) |
-| 2026-09-18 | IF12760 v7 | Russia-North Korea Relations | [PDF](pdf/in-focus/IF12760v7-2026-09-18-532eb15862084f91.pdf) | [Markdown](markdown/in-focus/IF12760v7-2026-09-18-532eb15862084f91.md) |
-| 2026-09-18 | IF11357 v6 | Expedited Removal of Aliens: An Introduction | [PDF](pdf/in-focus/IF11357v6-2026-09-18-c729d1ea72f5b046.pdf) | [Markdown](markdown/in-focus/IF11357v6-2026-09-18-c729d1ea72f5b046.md) |
-| 2026-09-18 | IF10464 v26 | United Nations Issues: Congressional Representatives to the UN General Assembly | [PDF](pdf/in-focus/IF10464v26-2026-09-18-f03659492880cd1b.pdf) | [Markdown](markdown/in-focus/IF10464v26-2026-09-18-f03659492880cd1b.md) |
