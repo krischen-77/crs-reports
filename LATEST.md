@@ -1,6 +1,6 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-20 to 2026-09-27**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-21 to 2026-09-28**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
