@@ -1,9 +1,13 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-21 to 2026-09-28**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-22 to 2026-09-29**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-09-28 | R49363 v1 | Temporary Protected Status: History and Issues for Congress | [PDF](pdf/reports/R49363v1-2026-09-28-2737676a89f5ad0f.pdf) | [Markdown](markdown/reports/R49363v1-2026-09-28-2737676a89f5ad0f.md) |
+| 2026-09-28 | LSB11485 v1 | Artificial Intelligence Safety Collaboration and Antitrust Law | [PDF](pdf/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.pdf) | [Markdown](markdown/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.md) |
+| 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
+| 2026-09-28 | IF13136 v5 | Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy | [PDF](pdf/in-focus/IF13136v5-2026-09-28-b3dc93bc9cae4b2b.pdf) | [Markdown](markdown/in-focus/IF13136v5-2026-09-28-b3dc93bc9cae4b2b.md) |
 | 2026-09-25 | RL32781 v59 | Federal Deductibility of State and Local Taxes | [PDF](pdf/reports/RL32781v59-2026-09-25-22994ce2b3036ed6.pdf) | [Markdown](markdown/reports/RL32781v59-2026-09-25-22994ce2b3036ed6.md) |
 | 2026-09-25 | R49360 v1 | The Second Amendment and Aliens Unlawfully Present in the United States | [PDF](pdf/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.pdf) | [Markdown](markdown/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.md) |
 | 2026-09-25 | R49327 v6 | Army Corps Provisions in Water Resources Development Act of 2026 (WRDA 2026) Legislation: In Brief | [PDF](pdf/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.pdf) | [Markdown](markdown/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.md) |
@@ -30,14 +34,3 @@ Publication-date window (inclusive): **2026-09-21 to 2026-09-28**. Older archive
 | 2026-09-22 | IF11806 v11 | Citizenship and Immigration Statuses of the U.S. Foreign-Born Population | [PDF](pdf/in-focus/IF11806v11-2026-09-22-377ddb166702ff87.pdf) | [Markdown](markdown/in-focus/IF11806v11-2026-09-22-377ddb166702ff87.md) |
 | 2026-09-22 | IF11120 v26 | U.S.-Japan Trade Agreements and Tariff Negotiations | [PDF](pdf/in-focus/IF11120v26-2026-09-22-3f29569aba5c360a.pdf) | [Markdown](markdown/in-focus/IF11120v26-2026-09-22-3f29569aba5c360a.md) |
 | 2026-09-22 | IF10119 v126 | China Primer: U.S.-China Relations | [PDF](pdf/in-focus/IF10119v126-2026-09-22-1d341fe95172f50c.pdf) | [Markdown](markdown/in-focus/IF10119v126-2026-09-22-1d341fe95172f50c.md) |
-| 2026-09-21 | R49357 v1 | Judiciary Appropriations, FY2026 | [PDF](pdf/reports/R49357v1-2026-09-21-5e21d0f9f0d65f7d.pdf) | [Markdown](markdown/reports/R49357v1-2026-09-21-5e21d0f9f0d65f7d.md) |
-| 2026-09-21 | R49356 v1 | Internal Revenue Service’s Statistics of Income (SOI): Current Available Tabulations by State and Local Area | [PDF](pdf/reports/R49356v1-2026-09-21-7cf4715a8eb96e20.pdf) | [Markdown](markdown/reports/R49356v1-2026-09-21-7cf4715a8eb96e20.md) |
-| 2026-09-21 | R49334 v4 | Judicial and Administrative Developments in the Tax Treatment of Digital Assets | [PDF](pdf/reports/R49334v4-2026-09-21-5afcf8982118f5f0.pdf) | [Markdown](markdown/reports/R49334v4-2026-09-21-5afcf8982118f5f0.md) |
-| 2026-09-21 | LSB11483 v1 | Federal Preemption of State Pesticide Failure-to-Warn Claims After Monsanto v. Durnell | [PDF](pdf/sidebars/LSB11483v1-2026-09-21-981f24afbd7a2c73.pdf) | [Markdown](markdown/sidebars/LSB11483v1-2026-09-21-981f24afbd7a2c73.md) |
-| 2026-09-21 | LSB11401 v3 | The United States’ Prosecution of Nicolás Maduro Moros: United States v. Maduro | [PDF](pdf/sidebars/LSB11401v3-2026-09-21-5c8369a37c2ff1af.pdf) | [Markdown](markdown/sidebars/LSB11401v3-2026-09-21-5c8369a37c2ff1af.md) |
-| 2026-09-21 | IN12740 v1 | SBA’s Proposed Expansion of Small Business Program Eligibility | [PDF](pdf/insights/IN12740v1-2026-09-21-571c99c94fb2eb5b.pdf) | [Markdown](markdown/insights/IN12740v1-2026-09-21-571c99c94fb2eb5b.md) |
-| 2026-09-21 | IN12739 v1 | U.S. Space Academy Proposal: Considerations for Congress | [PDF](pdf/insights/IN12739v1-2026-09-21-3ef597cc71cc59f1.pdf) | [Markdown](markdown/insights/IN12739v1-2026-09-21-3ef597cc71cc59f1.md) |
-| 2026-09-21 | IF13317 v1 | Federal Wiretaps and the Fourth Amendment | [PDF](pdf/in-focus/IF13317v1-2026-09-21-4b0590711faccf1d.pdf) | [Markdown](markdown/in-focus/IF13317v1-2026-09-21-4b0590711faccf1d.md) |
-| 2026-09-21 | IF13316 v2 | Federal Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13316v2-2026-09-21-1d56d54b9ddc1076.pdf) | [Markdown](markdown/in-focus/IF13316v2-2026-09-21-1d56d54b9ddc1076.md) |
-| 2026-09-21 | IF12265 v8 | China Primer: Human Rights | [PDF](pdf/in-focus/IF12265v8-2026-09-21-466508c40b61ccf3.pdf) | [Markdown](markdown/in-focus/IF12265v8-2026-09-21-466508c40b61ccf3.md) |
-| 2026-09-21 | IF10292 v22 | The Debt Limit | [PDF](pdf/in-focus/IF10292v22-2026-09-21-35cdcd16a1336080.pdf) | [Markdown](markdown/in-focus/IF10292v22-2026-09-21-35cdcd16a1336080.md) |
