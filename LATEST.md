@@ -1,9 +1,15 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-22 to 2026-09-29**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-23 to 2026-09-30**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-09-29 | R48787 v4 | USMCA Joint Review: Process and Role of Congress | [PDF](pdf/reports/R48787v4-2026-09-29-625d62fa41411cdd.pdf) | [Markdown](markdown/reports/R48787v4-2026-09-29-625d62fa41411cdd.md) |
+| 2026-09-29 | R43141 v32 | The National Earthquake Hazards Reduction Program (NEHRP): Overview and Issues for Congress | [PDF](pdf/reports/R43141v32-2026-09-29-2537512884c67dc0.pdf) | [Markdown](markdown/reports/R43141v32-2026-09-29-2537512884c67dc0.md) |
+| 2026-09-29 | R40094 v152 | Iran’s Nuclear Program: Tehran’s Compliance with International Obligations | [PDF](pdf/reports/R40094v152-2026-09-29-79407c59fb033457.pdf) | [Markdown](markdown/reports/R40094v152-2026-09-29-79407c59fb033457.md) |
+| 2026-09-29 | IN12742 v1 | Suspension of Countervailing Duties on Phosphate Fertilizer: Options for Congress | [PDF](pdf/insights/IN12742v1-2026-09-29-8f9146d37ae11680.pdf) | [Markdown](markdown/insights/IN12742v1-2026-09-29-8f9146d37ae11680.md) |
+| 2026-09-29 | IF13323 v1 | Defense Primer: U.S. Army Force Structure Development Process | [PDF](pdf/in-focus/IF13323v1-2026-09-29-31411f0fba6871b5.pdf) | [Markdown](markdown/in-focus/IF13323v1-2026-09-29-31411f0fba6871b5.md) |
+| 2026-09-29 | IF13322 v1 | U.S. Measles Outbreaks 2025-2026: Overview and Issues for Congress | [PDF](pdf/in-focus/IF13322v1-2026-09-29-38c0b8fe5df3e810.pdf) | [Markdown](markdown/in-focus/IF13322v1-2026-09-29-38c0b8fe5df3e810.md) |
 | 2026-09-28 | R49363 v1 | Temporary Protected Status: History and Issues for Congress | [PDF](pdf/reports/R49363v1-2026-09-28-2737676a89f5ad0f.pdf) | [Markdown](markdown/reports/R49363v1-2026-09-28-2737676a89f5ad0f.md) |
 | 2026-09-28 | LSB11485 v1 | Artificial Intelligence Safety Collaboration and Antitrust Law | [PDF](pdf/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.pdf) | [Markdown](markdown/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.md) |
 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
@@ -28,9 +34,3 @@ Publication-date window (inclusive): **2026-09-22 to 2026-09-29**. Older archive
 | 2026-09-23 | IF13319 v1 | Private Investments and Insurance Companies | [PDF](pdf/in-focus/IF13319v1-2026-09-23-440f12cc714032dd.pdf) | [Markdown](markdown/in-focus/IF13319v1-2026-09-23-440f12cc714032dd.md) |
 | 2026-09-23 | IF13318 v1 | Air Force MQ-9A Reaper: Background and Issues for Congress | [PDF](pdf/in-focus/IF13318v1-2026-09-23-a2af2fcfaa665e0c.pdf) | [Markdown](markdown/in-focus/IF13318v1-2026-09-23-a2af2fcfaa665e0c.md) |
 | 2026-09-23 | 95-1013 v191 | Bahrain: Issues for U.S. Policy | [PDF](pdf/reports/95-1013v191-2026-09-23-7998ab5e76ec6946.pdf) | [Markdown](markdown/reports/95-1013v191-2026-09-23-7998ab5e76ec6946.md) |
-| 2026-09-22 | R49358 v1 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v1-2026-09-22-89b218c0d9494241.pdf) | [Markdown](markdown/reports/R49358v1-2026-09-22-89b218c0d9494241.md) |
-| 2026-09-22 | LSB11403 v3 | International Agreements and Non-binding Instruments: The Case-Zablocki Act (Case Act) | [PDF](pdf/sidebars/LSB11403v3-2026-09-22-42e0d03caccbd543.pdf) | [Markdown](markdown/sidebars/LSB11403v3-2026-09-22-42e0d03caccbd543.md) |
-| 2026-09-22 | IF12240 v6 | Defense Primer: Statutory Military Readiness Reporting | [PDF](pdf/in-focus/IF12240v6-2026-09-22-0c5a224769defd19.pdf) | [Markdown](markdown/in-focus/IF12240v6-2026-09-22-0c5a224769defd19.md) |
-| 2026-09-22 | IF11806 v11 | Citizenship and Immigration Statuses of the U.S. Foreign-Born Population | [PDF](pdf/in-focus/IF11806v11-2026-09-22-377ddb166702ff87.pdf) | [Markdown](markdown/in-focus/IF11806v11-2026-09-22-377ddb166702ff87.md) |
-| 2026-09-22 | IF11120 v26 | U.S.-Japan Trade Agreements and Tariff Negotiations | [PDF](pdf/in-focus/IF11120v26-2026-09-22-3f29569aba5c360a.pdf) | [Markdown](markdown/in-focus/IF11120v26-2026-09-22-3f29569aba5c360a.md) |
-| 2026-09-22 | IF10119 v126 | China Primer: U.S.-China Relations | [PDF](pdf/in-focus/IF10119v126-2026-09-22-1d341fe95172f50c.pdf) | [Markdown](markdown/in-focus/IF10119v126-2026-09-22-1d341fe95172f50c.md) |
