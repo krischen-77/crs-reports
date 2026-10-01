@@ -1,9 +1,17 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-23 to 2026-09-30**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-24 to 2026-10-01**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-09-30 | R49421 v1 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v1-2026-09-30-a64afc9c8fafb8db.pdf) | [Markdown](markdown/reports/R49421v1-2026-09-30-a64afc9c8fafb8db.md) |
+| 2026-09-30 | R49419 v1 | State-Law Climate Tort Suits and Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County: A Primer for Congress | [PDF](pdf/reports/R49419v1-2026-09-30-5a83de76f883e38f.pdf) | [Markdown](markdown/reports/R49419v1-2026-09-30-5a83de76f883e38f.md) |
+| 2026-09-30 | R49408 v1 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v1-2026-09-30-d9d67b3710b5805f.pdf) | [Markdown](markdown/reports/R49408v1-2026-09-30-d9d67b3710b5805f.md) |
+| 2026-09-30 | R48864 v5 | The SUPPORT for Patients and Communities Reauthorization Act of 2025: SectionbySection Summary | [PDF](pdf/reports/R48864v5-2026-09-30-3920c55d81069fe8.pdf) | [Markdown](markdown/reports/R48864v5-2026-09-30-3920c55d81069fe8.md) |
+| 2026-09-30 | IN12743 v1 | International Conservation Funding, FY2023-FY2027 Request | [PDF](pdf/insights/IN12743v1-2026-09-30-ecd73a67aba6caa1.pdf) | [Markdown](markdown/insights/IN12743v1-2026-09-30-ecd73a67aba6caa1.md) |
+| 2026-09-30 | IF13324 v1 | Crypto and Bank-Permissible Activities | [PDF](pdf/in-focus/IF13324v1-2026-09-30-67314f915f353190.pdf) | [Markdown](markdown/in-focus/IF13324v1-2026-09-30-67314f915f353190.md) |
+| 2026-09-30 | IF12148 v7 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v7-2026-09-30-eae478904450f097.pdf) | [Markdown](markdown/in-focus/IF12148v7-2026-09-30-eae478904450f097.md) |
+| 2026-09-30 | IF10761 v6 | The International Joint Commission (IJC) | [PDF](pdf/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.pdf) | [Markdown](markdown/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.md) |
 | 2026-09-29 | R48787 v4 | USMCA Joint Review: Process and Role of Congress | [PDF](pdf/reports/R48787v4-2026-09-29-625d62fa41411cdd.pdf) | [Markdown](markdown/reports/R48787v4-2026-09-29-625d62fa41411cdd.md) |
 | 2026-09-29 | R43141 v32 | The National Earthquake Hazards Reduction Program (NEHRP): Overview and Issues for Congress | [PDF](pdf/reports/R43141v32-2026-09-29-2537512884c67dc0.pdf) | [Markdown](markdown/reports/R43141v32-2026-09-29-2537512884c67dc0.md) |
 | 2026-09-29 | R40094 v152 | Iran’s Nuclear Program: Tehran’s Compliance with International Obligations | [PDF](pdf/reports/R40094v152-2026-09-29-79407c59fb033457.pdf) | [Markdown](markdown/reports/R40094v152-2026-09-29-79407c59fb033457.md) |
@@ -24,13 +32,3 @@ Publication-date window (inclusive): **2026-09-23 to 2026-09-30**. Older archive
 | 2026-09-24 | IF12047 v19 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.pdf) | [Markdown](markdown/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.md) |
 | 2026-09-24 | IF10525 v20 | Defense Primer: National and Defense Intelligence | [PDF](pdf/in-focus/IF10525v20-2026-09-24-d4212575726d5b90.pdf) | [Markdown](markdown/in-focus/IF10525v20-2026-09-24-d4212575726d5b90.md) |
 | 2026-09-24 | IF10002 v41 | World Trade Organization | [PDF](pdf/in-focus/IF10002v41-2026-09-24-513828c383a595e9.pdf) | [Markdown](markdown/in-focus/IF10002v41-2026-09-24-513828c383a595e9.md) |
-| 2026-09-23 | RL34480 v11 | Enrollment of Legislation: Relevant Congressional Procedures | [PDF](pdf/reports/RL34480v11-2026-09-23-3140a436b82bbecb.pdf) | [Markdown](markdown/reports/RL34480v11-2026-09-23-3140a436b82bbecb.md) |
-| 2026-09-23 | R49359 v1 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v1-2026-09-23-0b6a76f2a3d872c4.pdf) | [Markdown](markdown/reports/R49359v1-2026-09-23-0b6a76f2a3d872c4.md) |
-| 2026-09-23 | R48859 v6 | Mexico: Background and Key Issues in U.S. Relations | [PDF](pdf/reports/R48859v6-2026-09-23-4007c643af6ced9f.pdf) | [Markdown](markdown/reports/R48859v6-2026-09-23-4007c643af6ced9f.md) |
-| 2026-09-23 | R48093 v4 | Federal-Tribal Consultation: Background and Issues for Congress | [PDF](pdf/reports/R48093v4-2026-09-23-83d613e3c35e80e5.pdf) | [Markdown](markdown/reports/R48093v4-2026-09-23-83d613e3c35e80e5.md) |
-| 2026-09-23 | R45210 v26 | Farm Bills: Major Legislative Actions, 19652026 | [PDF](pdf/reports/R45210v26-2026-09-23-c6cf56b34a56316a.pdf) | [Markdown](markdown/reports/R45210v26-2026-09-23-c6cf56b34a56316a.md) |
-| 2026-09-23 | LSB11484 v2 | The Protect College Sports Act of 2026: Potential Implications for Title IX | [PDF](pdf/sidebars/LSB11484v2-2026-09-23-d5a06dc80f02232c.pdf) | [Markdown](markdown/sidebars/LSB11484v2-2026-09-23-d5a06dc80f02232c.md) |
-| 2026-09-23 | IF13320 v1 | Defense Contractors, Data Rights, and the “Right to Repair” | [PDF](pdf/in-focus/IF13320v1-2026-09-23-3838b920625b5fad.pdf) | [Markdown](markdown/in-focus/IF13320v1-2026-09-23-3838b920625b5fad.md) |
-| 2026-09-23 | IF13319 v1 | Private Investments and Insurance Companies | [PDF](pdf/in-focus/IF13319v1-2026-09-23-440f12cc714032dd.pdf) | [Markdown](markdown/in-focus/IF13319v1-2026-09-23-440f12cc714032dd.md) |
-| 2026-09-23 | IF13318 v1 | Air Force MQ-9A Reaper: Background and Issues for Congress | [PDF](pdf/in-focus/IF13318v1-2026-09-23-a2af2fcfaa665e0c.pdf) | [Markdown](markdown/in-focus/IF13318v1-2026-09-23-a2af2fcfaa665e0c.md) |
-| 2026-09-23 | 95-1013 v191 | Bahrain: Issues for U.S. Policy | [PDF](pdf/reports/95-1013v191-2026-09-23-7998ab5e76ec6946.pdf) | [Markdown](markdown/reports/95-1013v191-2026-09-23-7998ab5e76ec6946.md) |
