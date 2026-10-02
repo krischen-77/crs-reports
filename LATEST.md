@@ -1,9 +1,18 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-24 to 2026-10-01**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-25 to 2026-10-02**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-01 | R49457 v1 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.pdf) | [Markdown](markdown/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.md) |
+| 2026-10-01 | IN12744 v2 | Diesel Export Ban: Transportation Policy Considerations for Congress | [PDF](pdf/insights/IN12744v2-2026-10-01-35dfe6d8ad05d521.pdf) | [Markdown](markdown/insights/IN12744v2-2026-10-01-35dfe6d8ad05d521.md) |
+| 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
+| 2026-10-01 | IF12859 v4 | Connecting Constituents with Federal Assistance for Broadband | [PDF](pdf/in-focus/IF12859v4-2026-10-01-167c6c1fb336afb5.pdf) | [Markdown](markdown/in-focus/IF12859v4-2026-10-01-167c6c1fb336afb5.md) |
+| 2026-10-01 | IF12629 v9 | Regulation of U.S. Outbound Investment to China | [PDF](pdf/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.pdf) | [Markdown](markdown/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.md) |
+| 2026-10-01 | IF10023 v12 | The Congressional Review Act (CRA): A Brief Overview | [PDF](pdf/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.pdf) | [Markdown](markdown/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.md) |
+| 2026-09-30 | RS21852 v159 | The United Arab Emirates (UAE): Issues for U.S. Policy | [PDF](pdf/reports/RS21852v159-2026-09-30-b4a97bb3c8aa078e.pdf) | [Markdown](markdown/reports/RS21852v159-2026-09-30-b4a97bb3c8aa078e.md) |
+| 2026-09-30 | R49432 v1 | Online Scam Centers in Southeast Asia: Background and U.S. Responses | [PDF](pdf/reports/R49432v1-2026-09-30-42a1c09d10d4e0c8.pdf) | [Markdown](markdown/reports/R49432v1-2026-09-30-42a1c09d10d4e0c8.md) |
+| 2026-09-30 | R49427 v2 | Department of Homeland Security Appropriations: FY2027 State of Play | [PDF](pdf/reports/R49427v2-2026-09-30-254a9f4736e16e98.pdf) | [Markdown](markdown/reports/R49427v2-2026-09-30-254a9f4736e16e98.md) |
 | 2026-09-30 | R49421 v1 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v1-2026-09-30-a64afc9c8fafb8db.pdf) | [Markdown](markdown/reports/R49421v1-2026-09-30-a64afc9c8fafb8db.md) |
 | 2026-09-30 | R49419 v1 | State-Law Climate Tort Suits and Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County: A Primer for Congress | [PDF](pdf/reports/R49419v1-2026-09-30-5a83de76f883e38f.pdf) | [Markdown](markdown/reports/R49419v1-2026-09-30-5a83de76f883e38f.md) |
 | 2026-09-30 | R49408 v1 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v1-2026-09-30-d9d67b3710b5805f.pdf) | [Markdown](markdown/reports/R49408v1-2026-09-30-d9d67b3710b5805f.md) |
@@ -12,6 +21,7 @@ Publication-date window (inclusive): **2026-09-24 to 2026-10-01**. Older archive
 | 2026-09-30 | IF13324 v1 | Crypto and Bank-Permissible Activities | [PDF](pdf/in-focus/IF13324v1-2026-09-30-67314f915f353190.pdf) | [Markdown](markdown/in-focus/IF13324v1-2026-09-30-67314f915f353190.md) |
 | 2026-09-30 | IF12148 v7 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v7-2026-09-30-eae478904450f097.pdf) | [Markdown](markdown/in-focus/IF12148v7-2026-09-30-eae478904450f097.md) |
 | 2026-09-30 | IF10761 v6 | The International Joint Commission (IJC) | [PDF](pdf/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.pdf) | [Markdown](markdown/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.md) |
+| 2026-09-29 | R49436 v1 | Digital Health Information Interoperability: Background and Selected Policy Considerations | [PDF](pdf/reports/R49436v1-2026-09-29-3659befa48c22bb4.pdf) | [Markdown](markdown/reports/R49436v1-2026-09-29-3659befa48c22bb4.md) |
 | 2026-09-29 | R48787 v4 | USMCA Joint Review: Process and Role of Congress | [PDF](pdf/reports/R48787v4-2026-09-29-625d62fa41411cdd.pdf) | [Markdown](markdown/reports/R48787v4-2026-09-29-625d62fa41411cdd.md) |
 | 2026-09-29 | R43141 v32 | The National Earthquake Hazards Reduction Program (NEHRP): Overview and Issues for Congress | [PDF](pdf/reports/R43141v32-2026-09-29-2537512884c67dc0.pdf) | [Markdown](markdown/reports/R43141v32-2026-09-29-2537512884c67dc0.md) |
 | 2026-09-29 | R40094 v152 | Iran’s Nuclear Program: Tehran’s Compliance with International Obligations | [PDF](pdf/reports/R40094v152-2026-09-29-79407c59fb033457.pdf) | [Markdown](markdown/reports/R40094v152-2026-09-29-79407c59fb033457.md) |
@@ -26,9 +36,3 @@ Publication-date window (inclusive): **2026-09-24 to 2026-10-01**. Older archive
 | 2026-09-25 | R49360 v1 | The Second Amendment and Aliens Unlawfully Present in the United States | [PDF](pdf/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.pdf) | [Markdown](markdown/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.md) |
 | 2026-09-25 | R49327 v6 | Army Corps Provisions in Water Resources Development Act of 2026 (WRDA 2026) Legislation: In Brief | [PDF](pdf/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.pdf) | [Markdown](markdown/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.md) |
 | 2026-09-25 | R48743 v3 | Housing Issues in the 119th Congress | [PDF](pdf/reports/R48743v3-2026-09-25-9357ff8f1d41d12b.pdf) | [Markdown](markdown/reports/R48743v3-2026-09-25-9357ff8f1d41d12b.md) |
-| 2026-09-24 | R49361 v1 | Corporate Average Fuel Economy (CAFE) Standards | [PDF](pdf/reports/R49361v1-2026-09-24-2293a19a3f414a62.pdf) | [Markdown](markdown/reports/R49361v1-2026-09-24-2293a19a3f414a62.md) |
-| 2026-09-24 | IN12689 v5 | Colombia’s 2026 Elections: Implications for U.S. Relations | [PDF](pdf/insights/IN12689v5-2026-09-24-07f1afaeb5f2df95.pdf) | [Markdown](markdown/insights/IN12689v5-2026-09-24-07f1afaeb5f2df95.md) |
-| 2026-09-24 | IF13321 v1 | Estimated Effects on Effective Tax Rates and Revenues of Increasing the 199A Deduction for Pass-Through Businesses | [PDF](pdf/in-focus/IF13321v1-2026-09-24-17a4133c9399f620.pdf) | [Markdown](markdown/in-focus/IF13321v1-2026-09-24-17a4133c9399f620.md) |
-| 2026-09-24 | IF12047 v19 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.pdf) | [Markdown](markdown/in-focus/IF12047v19-2026-09-24-d5c848dcf5d3545c.md) |
-| 2026-09-24 | IF10525 v20 | Defense Primer: National and Defense Intelligence | [PDF](pdf/in-focus/IF10525v20-2026-09-24-d4212575726d5b90.pdf) | [Markdown](markdown/in-focus/IF10525v20-2026-09-24-d4212575726d5b90.md) |
-| 2026-09-24 | IF10002 v41 | World Trade Organization | [PDF](pdf/in-focus/IF10002v41-2026-09-24-513828c383a595e9.pdf) | [Markdown](markdown/in-focus/IF10002v41-2026-09-24-513828c383a595e9.md) |
