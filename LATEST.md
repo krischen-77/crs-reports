@@ -1,14 +1,19 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-25 to 2026-10-02**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-26 to 2026-10-03**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-02 | R49477 v1 | Classwide Scheduling of Controlled Substances | [PDF](pdf/reports/R49477v1-2026-10-02-6618be566b7b5e61.pdf) | [Markdown](markdown/reports/R49477v1-2026-10-02-6618be566b7b5e61.md) |
+| 2026-10-02 | IF12892 v5 | Prevailing Wage Requirements for H-1B, H-1B1, and E-3 Workers in Specialty Occupations | [PDF](pdf/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.pdf) | [Markdown](markdown/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.md) |
 | 2026-10-01 | R49457 v1 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.pdf) | [Markdown](markdown/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.md) |
+| 2026-10-01 | R48568 v9 | Federal Power Act: The Department of Energy’s Emergency Authority | [PDF](pdf/reports/R48568v9-2026-10-01-0247143b4d410e55.pdf) | [Markdown](markdown/reports/R48568v9-2026-10-01-0247143b4d410e55.md) |
+| 2026-10-01 | R45546 v52 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v52-2026-10-01-808a92d6a52dd83b.pdf) | [Markdown](markdown/reports/R45546v52-2026-10-01-808a92d6a52dd83b.md) |
 | 2026-10-01 | IN12744 v2 | Diesel Export Ban: Transportation Policy Considerations for Congress | [PDF](pdf/insights/IN12744v2-2026-10-01-35dfe6d8ad05d521.pdf) | [Markdown](markdown/insights/IN12744v2-2026-10-01-35dfe6d8ad05d521.md) |
 | 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
 | 2026-10-01 | IF12859 v4 | Connecting Constituents with Federal Assistance for Broadband | [PDF](pdf/in-focus/IF12859v4-2026-10-01-167c6c1fb336afb5.pdf) | [Markdown](markdown/in-focus/IF12859v4-2026-10-01-167c6c1fb336afb5.md) |
 | 2026-10-01 | IF12629 v9 | Regulation of U.S. Outbound Investment to China | [PDF](pdf/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.pdf) | [Markdown](markdown/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.md) |
+| 2026-10-01 | IF10199 v49 | U.S.-Japan Relations | [PDF](pdf/in-focus/IF10199v49-2026-10-01-e3faff240416b8d5.pdf) | [Markdown](markdown/in-focus/IF10199v49-2026-10-01-e3faff240416b8d5.md) |
 | 2026-10-01 | IF10023 v12 | The Congressional Review Act (CRA): A Brief Overview | [PDF](pdf/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.pdf) | [Markdown](markdown/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.md) |
 | 2026-09-30 | RS21852 v159 | The United Arab Emirates (UAE): Issues for U.S. Policy | [PDF](pdf/reports/RS21852v159-2026-09-30-b4a97bb3c8aa078e.pdf) | [Markdown](markdown/reports/RS21852v159-2026-09-30-b4a97bb3c8aa078e.md) |
 | 2026-09-30 | R49432 v1 | Online Scam Centers in Southeast Asia: Background and U.S. Responses | [PDF](pdf/reports/R49432v1-2026-09-30-42a1c09d10d4e0c8.pdf) | [Markdown](markdown/reports/R49432v1-2026-09-30-42a1c09d10d4e0c8.md) |
@@ -32,7 +37,3 @@ Publication-date window (inclusive): **2026-09-25 to 2026-10-02**. Older archive
 | 2026-09-28 | LSB11485 v1 | Artificial Intelligence Safety Collaboration and Antitrust Law | [PDF](pdf/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.pdf) | [Markdown](markdown/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.md) |
 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
 | 2026-09-28 | IF13136 v5 | Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy | [PDF](pdf/in-focus/IF13136v5-2026-09-28-b3dc93bc9cae4b2b.pdf) | [Markdown](markdown/in-focus/IF13136v5-2026-09-28-b3dc93bc9cae4b2b.md) |
-| 2026-09-25 | RL32781 v59 | Federal Deductibility of State and Local Taxes | [PDF](pdf/reports/RL32781v59-2026-09-25-22994ce2b3036ed6.pdf) | [Markdown](markdown/reports/RL32781v59-2026-09-25-22994ce2b3036ed6.md) |
-| 2026-09-25 | R49360 v1 | The Second Amendment and Aliens Unlawfully Present in the United States | [PDF](pdf/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.pdf) | [Markdown](markdown/reports/R49360v1-2026-09-25-0edd5e5b29f87c74.md) |
-| 2026-09-25 | R49327 v6 | Army Corps Provisions in Water Resources Development Act of 2026 (WRDA 2026) Legislation: In Brief | [PDF](pdf/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.pdf) | [Markdown](markdown/reports/R49327v6-2026-09-25-80e5e03a6c5f98f4.md) |
-| 2026-09-25 | R48743 v3 | Housing Issues in the 119th Congress | [PDF](pdf/reports/R48743v3-2026-09-25-9357ff8f1d41d12b.pdf) | [Markdown](markdown/reports/R48743v3-2026-09-25-9357ff8f1d41d12b.md) |
