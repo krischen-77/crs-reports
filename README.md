@@ -2,13 +2,21 @@
 
 [![CRS daily backup](https://github.com/krischen-77/crs-reports/actions/workflows/crs-backup.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/crs-backup.yml)
 
-每天抓取最近一周新增或更新的 CRS 报告，保存 **原始 PDF、可获得的 HTML 阅读快照、Markdown 全文**及全部已发现报告的链接目录。GitHub Actions 自动执行并提交文件，无需自建服务器。
+每天抓取最近一周新增或修订的 CRS 报告，保存 **原始 PDF、可获得的 HTML 阅读快照、Markdown 全文**及全部已发现报告的链接目录。GitHub Actions 自动执行并提交文件，无需自建服务器。
 
 **入口：** [最近一周报告](LATEST.md) · [全部链接 CSV](data/all-report-links.csv) · [纯文本链接](data/all-report-links.txt) · [已归档清单](data/archived-reports.csv) · [最新状态](data/status.json) · [Actions](https://github.com/krischen-77/crs-reports/actions/workflows/crs-backup.yml)
 
+## 2026-10-04 可靠性修复
+
+已修复 10 月 2—3 日因大量历史报告元数据更新、重复官方恢复请求导致的限流问题。详见 [修复记录及测试](docs/repair-2026-10-04.md)。
+
+**当前窗口的原文任务与范围外的历史补抓分开统计。** `data/pending.json` 保存真正需要完成的近期原文/辅助 HTML 重试；`data/historical-pending.json` 保存最早请求窗口以前的额外历史任务，逐项保留原始请求规格、错误、次数和下次重试日，每次在近期原文完成后最多处理 2 项。不是删除失败任务，也不是声称全部历史文件已备份。
+
+判断本次结果请同时查看 `result`、`primary_pdf_complete`、`pending_versions`、`historical_pending_versions` 和 `sources`。绿色工作流可以伴随历史补抓或辅助格式告警；主范围原文失败、校验失败仍会导致工作流失败。官方 API 不可用而镜像可用时会明确记录来源降级，不保证与完整官方覆盖相同。
+
 ## 部署验收快照：2026-09-24
 
-[正式工作流第 3 次运行](https://github.com/krischen-77/crs-reports/actions/runs/36005091598)于 2026-09-24 13:22 UTC / 北京时间 21:22 成功结束；24 项回归测试、文件校验、提交均通过。
+[正式工作流第 3 次运行](https://github.com/krischen-77/crs-reports/actions/runs/36005091598)于 2026-09-24 13:22 UTC / 北京时间 21:22 成功结束；当时 24 项回归测试、文件校验、提交均通过。
 
 | 验收项 | 结果 |
 |---|---|
@@ -21,23 +29,25 @@
 | 仍需重试 | 3 份辅助 HTML；对应 PDF 已保存 |
 | 本次来源 | 官方 API 95 条记录；镜像完整目录 23,515 个编号；RSS 25 条 |
 
-这是部署当日的静态验收快照，不随每日抓取自动改写。实时数字以 **[data/status.json](data/status.json)** 为准。`success_with_warnings` 表示原文保存成功但仍保留来源差异或辅助格式告警，不等于所有来源、所有格式都无异常。
+这是最初部署当日的静态快照，不随每日抓取自动改写。实时数字以 **[data/status.json](data/status.json)** 为准。`success_with_warnings` 不等于所有来源、所有格式、全部历史补抓都无异常。
 
-> “全部链接”指所用公开目录中已发现的报告，不等于下载了所有历史 PDF，也不保证覆盖所有未公开或尚未收录的 CRS 产品。默认下载最近一周新增/更新的报告及未完成重试；已保存原文不会因离开一周窗口被删除。
+> “全部链接”指所用公开目录中已发现的报告，不等于下载了所有历史 PDF，也不保证覆盖所有未公开或尚未收录的 CRS 产品。已保存原文不会因离开一周窗口被删除。
 
 ## 自动运行规则
 
 | 项目 | 设置 |
 |---|---|
 | 定时 | **每天 10:23 UTC / 北京时间 18:23**，cron `23 10 * * *` |
-| 时间窗口 | UTC 当日减 7 天，起止日期均包含。例如 9 月 24 日检查 9 月 17—24 日；完整纳入边界日，避免只有日期精度的数据漏抓 |
-| 新增 / 更新识别 | 镜像目录的发布日期、版本历史，结合官方 API 的发布时间与更新时间 |
+| 时间窗口 | UTC 当日减 7 天，起止日期均包含；完整纳入边界日，避免只有日期精度的数据漏抓 |
+| 新增 / 修订识别 | 按官方 `publishDate`、镜像最新发布日期和版本历史识别原文；未知发布日期保留待核查 |
+| 元数据更新 | API `updateDate` 用于发现目录变化，纯元数据/状态更新不再自动触发多年以前 PDF 的批量下载；另存 `data/metadata-only-updates.json` |
 | 链接目录 | 每天刷新 EveryCRSReport 完整 CSV，合并官方 API 新发现的编号，保留原目录条目 |
 | 去重与版本 | 以报告编号和 PDF SHA-256 去重；不同内容分别保存，不覆盖旧 PDF |
-| 重试 | 失败任务保存在 `data/pending.json`，下次继续处理，即使已离开一周窗口 |
+| 必需重试 | 最早请求窗口（初始为 2026-09-17）以来未完成的原文不会因离开滚动一周而放弃 |
+| 历史补抓 | 最早请求窗口以前的额外任务单独留存、限量处理，失败按 2—30 日退避；手动扩大窗口会提升相关任务为必需重试 |
 | 手动执行 | Actions → CRS daily backup → Run workflow |
 
-GitHub 定时任务可能排队延迟，不承诺精确到秒。官方 API 的 `updateDate` 可能只是元数据或状态更新，因此归档也可能包含发布日期较早、但本周被 API 标为更新的报告。代码和工作流更新会触发一次备份，归档提交不会循环触发。
+GitHub 定时任务可能排队延迟，不承诺精确到秒。代码和工作流更新会触发一次备份，归档提交不会循环触发。
 
 ## 数据源与免费 API
 
@@ -52,7 +62,7 @@ GitHub 定时任务可能排队延迟，不承诺精确到秒。官方 API 的 `
 
 ### 推荐：配置个人免费 API Key
 
-零配置模式已跑通：公开镜像配合官方 API 的演示 key。演示 key 有共享 IP 限额，不应视为生产稳定性保证；脚本每次最多使用 20 个演示 API 请求并记录限流 / 降级。
+零配置模式使用公开镜像和官方 API 的演示 key。演示 key 有共享 IP 限额，不应视为生产稳定性保证；脚本每次最多使用 20 个演示 API 实际网络请求（重试也计数），读取剩余配额并记录限流/降级。
 
 在 <https://api.congress.gov/sign-up/> 申请个人 key，然后进入仓库 **Settings → Secrets and variables → Actions → New repository secret**，名称填写 **`CONGRESS_API_KEY`**，值填写自己的 key。
 
@@ -64,7 +74,9 @@ GitHub 定时任务可能排队延迟，不承诺精确到秒。官方 API 的 `
 
 镜像 PDF 校验失败时，可独立向官方 API 解析原文地址；仅在官方元数据的发布日期与待归档版本相同的条件下尝试独立官方原文，并记录 `source_recovery`。这不是接受校验失败的镜像，也不声称两个来源的文件字节一致。官方日期不同则不拿新报告替换旧报告。
 
-**HTML 是辅助阅读快照，不保证是官方原始字节。** 镜像可能提供清理后的 HTML 片段或由 PDF 转换的 HTML；文件名有时仍带转换前的哈希。此类文件仅在明确标为衍生格式并通过报告编号检查后保存，记录自身 SHA-256 和 `html_provenance`。HTML 失败时仍保留原始 PDF，并从 PDF 提取文本。
+已经独立恢复的 PDF，只有报告编号、发布日期、失败来源/校验值和本地真实 SHA-256 均匹配时才可复用，避免每天重复消耗官方 API 配额。辅助 HTML 重试不会丢失恢复记录，也不会改写对应 PDF 的修订号和文件路径。
+
+**HTML 是辅助阅读快照，不保证是官方原始字节。** 镜像可能提供清理后的 HTML 片段或由 PDF 转换的 HTML；文件名有时仍带转换前的哈希。此类文件仅在明确标为衍生格式并通过报告编号检查后保存，记录自身 SHA-256 和 `html_provenance`。HTML 失败时仍保留原始 PDF，并从 PDF 提取文本。提交前也会核验已存 HTML 的 SHA-256。
 
 **Markdown 是全文转换，不是 AI 摘要或改写。** 表格、公式、外链图片及版式可能不完整；PDF 才是最终依据。无可用文本层时明确标注，不自动 OCR。
 
@@ -81,7 +93,7 @@ GitHub 定时任务可能排队延迟，不承诺精确到秒。官方 API 的 `
 .github/workflows/source-check.yml  来源连通性诊断
 .github/workflows/source-audit.yml  来源格式诊断
 scripts/sync_crs.py             抓取、分页、下载、索引、版本与重试
-tests/                         24 项离线回归测试
+tests/                         43 项离线回归测试
 pdf/{类型}/                    原始 PDF
 html/{类型}/                   HTML 阅读快照，衍生性质见 manifest
 markdown/{类型}/               全文格式转换与来源说明
@@ -91,10 +103,14 @@ data/all-report-links.txt      去重链接列表
 data/archived-reports.csv      实际已归档版本
 data/archive-manifest.json     路径、哈希、页数、实际来源、转换方式
 data/catalog.json              累积发现目录
-data/pending.json              继续重试的报告及版本
+data/pending.json              必需原文及辅助格式的重试任务
+data/historical-pending.json   范围外历史任务、错误和下一重试日
+data/metadata-only-updates.json  本轮仅更新元数据的记录
+data/sync-state.json           最早请求窗口，防止漏抓任务因过期丢失
 data/status.json               最新计数、来源覆盖、告警和错误
 data/runs/                     每次运行的独立记录
 data/sources/                  原始 CSV / RSS 响应
+docs/repair-2026-10-04.md       故障分析与修复记录
 LATEST.md                      发布日期在当前窗口内的已备份报告
 ```
 
@@ -114,9 +130,9 @@ LATEST.md                      发布日期在当前窗口内的已备份报告
 
 ## 故障与完整性判断
 
-PDF 或元数据失败会让本次工作流明确失败；已经成功且通过校验的文件与重试队列仍提交。只有 HTML 失败时保留 PDF、抽取文本并记录告警。备用来源可用不等于覆盖全部官方报告；尚未进入任何公开数据源的材料可能暂时不可发现。
+主范围 PDF 或元数据失败会让本次工作流明确失败；已经成功且通过校验的文件与重试队列仍提交。只有 HTML 失败时保留 PDF、抽取文本并记录告警。范围外历史任务失败单独披露，不视为主范围已漏抓，也不冒充历史任务已完成。备用来源可用不等于覆盖全部官方报告；尚未进入任何公开数据源的材料可能暂时不可发现。
 
-`data/status.json` 分开记录候选报告、尝试版本、成功版本、新增 / 累计 PDF、HTML 快照、待重试数量和来源状态。来源版本字段不同、镜像格式经过处理、校验失败后由官方独立恢复，都保留记录，不为了让状态变绿而隐去事实。
+`data/status.json` 分开记录候选报告、尝试版本、成功版本、新增/累计 PDF、HTML 快照、主范围待重试、额外历史队列和来源状态。每次运行记录包含 GitHub run ID 和 attempt，提交前验证，防止脚本崩溃后把旧状态当成新结果。
 
 ## 本地运行与维护
 
@@ -129,6 +145,8 @@ python -m unittest discover -s tests -v
 python scripts/sync_crs.py --days 7
 # 通过环境变量安全设置个人 CONGRESS_API_KEY 后：
 python scripts/sync_crs.py --days 7 --full-catalog
+# 每轮最多处理 5 项额外历史任务；0 表示本轮暂不尝试，任务仍保留：
+python scripts/sync_crs.py --days 7 --historical-limit 5
 ```
 
 文件直接提交到 Git，不依赖会过期的 Actions artifact。长期保存会增大仓库，单个下载上限 80 MiB，超大文件明确报错；当前不自动删除历史。未来数据量大时可另行按年份拆仓或迁移存储。
