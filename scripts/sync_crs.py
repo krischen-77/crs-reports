@@ -125,8 +125,9 @@ class HTTP:
     """Bounded downloads, host allow-list, scoped credentials and polite retries."""
     def __init__(self, api_key: str = ""):
         self.key = api_key or "DEMO_KEY"
-        self.has_key = bool(api_key)
+        self.has_key = bool(api_key and api_key != "DEMO_KEY")
         self.api_calls = 0
+        self.api_remaining: int | None = None
         self.session = requests.Session()
         self.last: dict[str, float] = {}
         self.blocked: set[str] = set()
@@ -140,17 +141,25 @@ class HTTP:
                 raise RuntimeError(f"{host}: unavailable for this run after access/rate-limit response")
             headers = {"User-Agent": "crs-reports-archive/1.0 (+https://github.com/krischen-77/crs-reports)"}
             if host == "api.congress.gov":
-                if not self.has_key and self.api_calls >= 20:
-                    raise RuntimeError("DEMO_KEY request budget reached; configure CONGRESS_API_KEY")
                 headers["X-Api-Key"] = self.key
-                self.api_calls += 1
             wait = 2.1 if host and host.endswith("congress.gov") else 0.3
             for attempt in range(4):
+                # Count actual wire requests, including retries, not only get() calls.
+                if host == "api.congress.gov":
+                    if self.api_remaining is not None and self.api_remaining <= 0:
+                        raise RuntimeError("Congress API remaining quota is zero; defer without another request")
+                    if not self.has_key and self.api_calls >= 20:
+                        raise RuntimeError("DEMO_KEY request budget reached; configure CONGRESS_API_KEY")
+                    self.api_calls += 1
                 time.sleep(max(0, wait - (time.monotonic() - self.last.get(host, 0))))
                 self.last[host] = time.monotonic()
                 try:
                     with self.session.get(url, headers=headers, timeout=(20, 90), stream=True, allow_redirects=False) as response:
                         status = response.status_code
+                        if host == "api.congress.gov":
+                            remaining = response.headers.get("X-RateLimit-Remaining", "")
+                            if str(remaining).isdigit():
+                                self.api_remaining = int(remaining)
                         if status in (301, 302, 303, 307, 308):
                             url = safe_url(urljoin(url, response.headers["Location"]))
                             break
@@ -355,7 +364,12 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
     expected = task["formats"]["PDF"].get("sha1")
     cached = None
     for old in known:
-        if old["id"] != task["id"] or not expected or old.get("pdf_sha1") != expected:
+        if old["id"] != task["id"] or not expected or day(old.get("date")) != day(task.get("date")):
+            continue
+        recovery = old.get("source_recovery", {})
+        recovered = (recovery.get("failed_expected_pdf_sha1") == expected
+                     and recovery.get("failed_source") == task.get("metadata_source"))
+        if old.get("pdf_sha1") != expected and not recovered:
             continue
         if (root / old["pdf"]).is_file() and digest((root / old["pdf"]).read_bytes()) == old["pdf_sha256"]:
             cached = old
@@ -373,8 +387,11 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
             # authoritative official file, and only for the SAME publication.
             if task.get("metadata_source") == "Congress.gov API":
                 raise
-            alternative = official_task(http, {"id": task["id"], "title": task["title"],
-                                       "publishDate": task["date"], "version": task.get("api_version", "unknown")})
+            try:
+                alternative = official_task(http, {"id": task["id"], "title": task["title"],
+                                           "publishDate": task["date"], "version": task.get("api_version", "unknown")})
+            except Exception as recovery_error:
+                raise RuntimeError(f"Original source failed: {source_error}; official recovery failed: {recovery_error}") from None
             if day(alternative["date"]) != day(task["date"]):
                 raise RuntimeError(f"Mirror failed and official publication date differs: {source_error}") from None
             entry, is_new, notices = archive_task(http, root, alternative, known)
@@ -390,7 +407,10 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
     ident = report_id(task["id"])
     version = re.sub(r"[^A-Za-z0-9-]", "", task["version"]) or "unknown"
     publication = str(day(task["date"]) or "undated")
-    stem = f"{ident}v{version}-{publication}-{sha[:16]}"
+    # Keep the canonical filename and independently verified revision on retries.
+    if cached:
+        task = {**task, "version": cached["version"]}
+    stem = Path(cached["pdf"]).stem if cached else f"{ident}v{version}-{publication}-{sha[:16]}"
     folder = category(ident)
     pdf_path = f"pdf/{folder}/{stem}.pdf"
     write(root / pdf_path, pdf)
@@ -404,6 +424,10 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
         except Exception as exc:
             warnings.append(f"HTML unavailable; preserve PDF and extract its text: {exc}")
             retry_html = True
+            if cached and cached.get("html") and (root / cached["html"]).is_file():
+                previous_html = (root / cached["html"]).read_bytes()
+                if digest(previous_html) == cached.get("html_sha256"):
+                    html, html_url, html_path = previous_html, cached["html_source"], cached["html"]
     html_spec = task["formats"].get("HTML", {})
     if not html:
         html_kind = "unavailable"
@@ -426,6 +450,8 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
              "api_metadata_version": task.get("api_version", ""), "markdown": md_path, "pages": pages, "conversion": method,
              "metadata_source": task["metadata_source"], "retry_html": retry_html,
              "archived_at": datetime.now(timezone.utc).isoformat()}
+    if cached and cached.get("source_recovery"):
+        entry["source_recovery"] = cached["source_recovery"]
     old = next((v for v in known if v["id"] == ident and v.get("pdf_sha256") == sha), None)
     if old:
         entry["archived_at"] = old["archived_at"]
@@ -466,6 +492,101 @@ def export_indexes(root: Path, catalog: dict, archives: list[dict], start: date,
     write(root / "data/archived-reports.csv", "\ufeff" + buf.getvalue())
 
 
+
+def archive_start_date(root: Path, requested_start: date) -> date:
+    """Earliest requested window. Genuine missed reports stay required forever."""
+    previous = day(read_json(root / "data/sync-state.json", {}).get("archive_start"))
+    if previous is None:
+        # One-time migration from the original run receipts; do not use PDF dates,
+        # as the old implementation downloaded unrelated 2000s metadata updates.
+        starts = [day(read_json(p, {}).get("window_start_inclusive"))
+                  for p in sorted((root / "data/runs").glob("*/*.json"))]
+        previous = min((d for d in starts if d), default=requested_start)
+    return min(previous, requested_start)
+
+
+def retry_identity(task: dict) -> str:
+    spec = task["formats"]["PDF"]
+    return digest(json.dumps([task["id"], task["date"],
+                              spec.get("sha1") or spec.get("urls", [])], sort_keys=True).encode())
+
+
+def split_pending(pending: dict, historical: list[dict], archive_start: date) -> tuple[dict, list[dict]]:
+    """Keep exact old task specifications, but separate accidental old backfills.
+
+    A report published in any requested archive window remains a required retry,
+    even after it leaves the rolling week. Unknown dates are never demoted.
+    """
+    background = {retry_identity(entry["task"]): entry for entry in historical}
+    required = {}
+    for task in pending.get("tasks", []):
+        d = day(task.get("date"))
+        key = retry_identity(task)
+        if d is None or d >= archive_start:
+            required[key] = task
+            background.pop(key, None)
+        else:
+            background.setdefault(key, {"task": task, "attempts": 0, "next_retry": "",
+                                        "reason": "Publication predates all requested archive windows; retained as optional historical backfill"})
+    # A manual backfill can promote historical tasks back to mandatory work.
+    for key, entry in list(background.items()):
+        d = day(entry["task"].get("date"))
+        if d is None or d >= archive_start:
+            required[key] = entry["task"]
+            del background[key]
+    return {"reports": list(pending.get("reports", [])), "tasks": list(required.values())}, list(background.values())
+
+
+def publication_candidates(api_rows: list[dict], mirror: dict, start: date, end: date) -> tuple[dict, list[dict]]:
+    """Do not confuse API status/index updates with publication or revision dates.
+
+    Mirror publication dates still discover revised reports whose API date lags.
+    Undated API rows stay required, so missing metadata never implies completion.
+    """
+    required, metadata_only = {}, []
+    for row in api_rows:
+        ident = report_id(row["id"])
+        if not (within(row.get("publishDate"), start, end) or within(row.get("updateDate"), start, end)):
+            continue
+        if (day(row.get("publishDate")) is None or within(row.get("publishDate"), start, end)
+                or within(mirror.get(ident, {}).get("published"), start, end)):
+            required[ident] = row
+        else:
+            metadata_only.append({"id": ident, "publishDate": row.get("publishDate"),
+                                  "updateDate": row.get("updateDate"), "status": row.get("status"),
+                                  "reason": "Index/status update outside publication window; links and metadata retained"})
+    return required, metadata_only
+
+
+def retry_historical(http: HTTP, root: Path, entries: list[dict], archives: list[dict],
+                     today: date, limit: int) -> tuple[list[dict], list[dict], int, list[dict]]:
+    """Bounded, fair background work AFTER all required PDFs. Never discard failures."""
+    queued, attempted, added, notices = [], 0, 0, []
+    for entry in sorted(entries, key=lambda e: (e.get("next_retry", ""), e.get("attempts", 0), e["task"]["id"])):
+        task = entry["task"]
+        if attempted >= limit or (day(entry.get("next_retry")) and day(entry["next_retry"]) > today):
+            queued.append(entry)
+            continue
+        attempted += 1
+        update = {**entry, "attempts": entry.get("attempts", 0) + 1, "last_attempt": str(today)}
+        update["next_retry"] = str(today + timedelta(days=min(30, 2 ** min(update["attempts"], 5))))
+        try:
+            saved, is_new, warnings = archive_task(http, root, task, archives)
+            archives[:] = [v for v in archives if not (v["id"] == saved["id"] and v["pdf_sha256"] == saved["pdf_sha256"])] + [saved]
+            added += int(is_new)
+            if saved["retry_html"]:
+                update["last_error"] = "Original PDF saved; auxiliary HTML still unavailable"
+                update["pdf_preserved"] = True
+                queued.append(update)
+            if warnings:
+                notices.append({"id": task["id"], "scope": "optional historical backfill", "messages": warnings})
+        except Exception as exc:
+            update["last_error"] = str(exc)
+            queued.append(update)
+            notices.append({"id": task["id"], "scope": "optional historical backfill", "error": str(exc)})
+    return queued, archives, added, notices
+
+
 def sync(args) -> int:
     root = Path(args.root)
     now = datetime.now(timezone.utc)
@@ -478,6 +599,11 @@ def sync(args) -> int:
     catalog = read_json(root / "data/catalog.json", {})
     archives = read_json(root / "data/archive-manifest.json", [])
     pending = read_json(root / "data/pending.json", {"reports": [], "tasks": []})
+    archive_start = archive_start_date(root, start)
+    historical = read_json(root / "data/historical-pending.json", {}).get("entries", [])
+    pending, historical = split_pending(pending, historical, archive_start)
+    status.update(github_run_id=os.getenv("GITHUB_RUN_ID", ""), github_run_attempt=os.getenv("GITHUB_RUN_ATTEMPT", ""),
+                  archive_start_inclusive=str(archive_start))
     api_rows, fresh_mirror, tasks = [], {}, {}
     try:
         raw, _ = http.get(MIRROR + "reports.csv")
@@ -516,7 +642,9 @@ def sync(args) -> int:
         warnings.append(f"Supplemental RSS unavailable: {exc}")
     if not fresh_mirror and not status["sources"].get("congress_api", {}).get("ok"):
         errors.append("No current catalog source succeeded; cached entries are not proof of a successful refresh")
-    recent_api = {report_id(r["id"]): r for r in api_rows if within(r.get("publishDate"), start, end) or within(r.get("updateDate"), start, end)}
+    recent_api, metadata_only = publication_candidates(api_rows, fresh_mirror, start, end)
+    status["metadata_only_updates"] = len(metadata_only)
+    write_json(root / "data/metadata-only-updates.json", metadata_only)
     ids = {i for i, r in fresh_mirror.items() if within(r.get("published"), start, end)} | set(recent_api) | set(pending["reports"])
     ids |= {r["id"] for r in rss_rows if within(r["published"], start, end)}
     ids |= {t["id"] for t in pending["tasks"]}
@@ -538,7 +666,7 @@ def sync(args) -> int:
             if api_row and found and any(t["version"] != str(api_row.get("version")) for t in found):
                 warnings.append({"id": ident, "api_version": api_row.get("version"), "pdf_revisions": [t["version"] for t in found],
                                  "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"})
-            if api_row and not mirror_covers_publication(found, api_row):
+            if ident in recent_api and not mirror_covers_publication(found, api_row):
                 t = official_task(http, api_row)
                 tasks[task_key(t)] = t
             if not found and not api_row:
@@ -566,7 +694,8 @@ def sync(args) -> int:
         tasks.setdefault(task_key(task), task)
     status["reconciled_pending_discoveries"] = reconciled
     queued, new_count, ok_count = [], 0, 0
-    for n, task in enumerate(tasks.values(), 1):
+    # Recent publications precede older legitimate retries. Optional history is last.
+    for n, task in enumerate(sorted(tasks.values(), key=lambda t: (t.get("date", ""), t["id"]), reverse=True), 1):
         print(f"[{n}/{len(tasks)}] {task['id']} v{task['version']} ({task['date']})", flush=True)
         try:
             entry, is_new, notices = archive_task(http, root, task, archives)
@@ -580,16 +709,31 @@ def sync(args) -> int:
         except Exception as exc:
             queued.append(task)
             errors.append(f"{task['id']}: original archive failed: {exc}")
+    primary_new_count = new_count
+    historical, archives, background_new, background_notices = retry_historical(
+        http, root, historical, archives, now.date(), getattr(args, "historical_limit", 2))
+    warnings.extend(background_notices)
+    new_count += background_new
+    if historical:
+        warnings.append({"historical_backfill_remaining": len(historical),
+                         "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."})
     archives.sort(key=lambda v: (v["id"], v["date"], v["pdf_sha256"]))
     write_json(root / "data/catalog.json", catalog)
     write_json(root / "data/archive-manifest.json", archives)
     write_json(root / "data/pending.json", {"reports": failed_reports, "tasks": queued})
+    write_json(root / "data/historical-pending.json", {"scope": "Optional historical backfill, outside requested publication windows",
+                                                      "entries": historical})
+    write_json(root / "data/sync-state.json", {"archive_start": str(archive_start)})
     export_indexes(root, catalog, archives, start, end)
     status.update(catalog_reports=len(catalog), candidate_reports=len(ids), attempted_versions=len(tasks), successful_versions=ok_count,
                   new_pdf_versions=new_count, total_archived_pdf_versions=len(archives),
                   total_html_snapshots=sum(bool(v.get("html")) for v in archives),
                   total_pdf_bytes=sum((root / v["pdf"]).stat().st_size for v in archives),
-                  pending_reports=len(failed_reports), pending_versions=len(queued))
+                  pending_reports=len(failed_reports), pending_versions=len(queued),
+                  historical_pending_versions=len(historical), historical_new_pdf_versions=background_new,
+                  primary_new_pdf_versions=primary_new_count, api_requests=http.api_calls,
+                  api_remaining_quota=http.api_remaining, required_pdf_failures=len(errors),
+                  primary_pdf_complete=not errors)
     status["result"] = "failed" if errors else ("success_with_warnings" if warnings else "success")
     write_json(root / "data/status.json", status)
     run_id = os.getenv("GITHUB_RUN_ID", now.strftime("%Y%m%dT%H%M%S"))
@@ -598,7 +742,9 @@ def sync(args) -> int:
     summary = (f"## CRS archive: {status['result']}\n\nWindow: {start} to {end} (inclusive UTC dates).\n\n"
                f"Catalog: **{len(catalog)}** report IDs; attempted versions: **{len(tasks)}**; successfully preserved: **{ok_count}**; "
                f"new PDFs: **{new_count}**; cumulative PDF versions: **{len(archives)}**.\n\n"
-               f"Pending reports: {len(failed_reports)}; pending versions: {len(queued)}. "
+               f"Required pending reports: {len(failed_reports)}; required/HTML pending versions: {len(queued)}; "
+               f"optional historical backfill remaining: {len(historical)} (not claimed complete). "
+               f"Metadata-only updates: {len(metadata_only)}; API wire requests: {http.api_calls}. "
                "See `data/status.json` for source coverage, warnings and errors. A link in the catalog does not mean its PDF is archived.\n")
     print(summary)
     if os.getenv("GITHUB_STEP_SUMMARY"):
@@ -612,10 +758,13 @@ def main() -> int:
     parser.add_argument("--days", type=int, default=7)
     parser.add_argument("--until", default="", help="Inclusive UTC end date, YYYY-MM-DD")
     parser.add_argument("--full-catalog", action="store_true", help="Refresh the complete official API catalog; requires a personal free API key")
+    parser.add_argument("--historical-limit", type=int, default=2, help="Maximum optional historical retries per run, after required PDFs")
     parser.add_argument("--root", default=str(ROOT))
     args = parser.parse_args()
     if not 1 <= args.days <= 3650:
         parser.error("--days must be between 1 and 3650")
+    if not 0 <= args.historical_limit <= 100:
+        parser.error("--historical-limit must be between 0 and 100")
     return sync(args)
 
 

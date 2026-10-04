@@ -79,9 +79,11 @@ jobs:
         continue-on-error: true
         shell: python
         run: |
-          import hashlib, json
+          import hashlib, json, os
           from pathlib import Path
           status = json.loads(Path('data/status.json').read_text())
+          assert status.get('github_run_id') == os.environ['GITHUB_RUN_ID'], 'Stale run receipt'
+          assert status.get('github_run_attempt') == os.environ['GITHUB_RUN_ATTEMPT'], 'Stale run attempt'
           manifest = json.loads(Path('data/archive-manifest.json').read_text())
           for item in manifest:
               pdf = Path(item['pdf']).read_bytes()
@@ -89,11 +91,15 @@ jobs:
               assert hashlib.sha256(pdf).hexdigest() == item['pdf_sha256'], item['pdf']
               assert Path(item['markdown']).is_file(), item['markdown']
               if item.get('html'):
-                  assert Path(item['html']).is_file(), item['html']
+                  raw_html = Path(item['html']).read_bytes()
+                  assert hashlib.sha256(raw_html).hexdigest() == item['html_sha256'], item['html']
           print('Verified PDF versions:', len(manifest))
-          print('HTML originals:', sum(bool(v.get('html')) for v in manifest))
+          print('HTML reading snapshots:', sum(bool(v.get('html')) for v in manifest))
           print('PDF bytes:', sum(Path(v['pdf']).stat().st_size for v in manifest))
           print('Current run result:', status['result'])
+          print('Required PDF failures:', status['required_pdf_failures'])
+          print('Optional historical backlog (NOT complete):', status['historical_pending_versions'])
+          print('API requests:', status['api_requests'])
           print('Errors:', json.dumps(status['errors'], ensure_ascii=False))
       - name: Commit archives, indexes and persistent retry queue
         if: always() && steps.sync.outcome != 'skipped' && steps.verify.outcome == 'success'
