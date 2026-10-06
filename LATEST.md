@@ -1,10 +1,18 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-28 to 2026-10-05**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-29 to 2026-10-06**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-05 | R49361 v3 | Corporate Average Fuel Economy Standards | [PDF](pdf/reports/R49361v3-2026-10-05-cad74c1bd4484cae.pdf) | [Markdown](markdown/reports/R49361v3-2026-10-05-cad74c1bd4484cae.md) |
+| 2026-10-05 | R47627 v15 | Electricity Transmission Permitting Reform: Issues and Legislative Proposals | [PDF](pdf/reports/R47627v15-2026-10-05-1b4bc88d4aba3ae8.pdf) | [Markdown](markdown/reports/R47627v15-2026-10-05-1b4bc88d4aba3ae8.md) |
+| 2026-10-05 | R44593 v76 | Introduction to the National Flood Insurance Program (NFIP) | [PDF](pdf/reports/R44593v76-2026-10-05-12dcd573ffa8533b.pdf) | [Markdown](markdown/reports/R44593v76-2026-10-05-12dcd573ffa8533b.md) |
+| 2026-10-05 | LSB11445 v5 | Food Additives and GRAS Substances: A Legal Framework | [PDF](pdf/sidebars/LSB11445v5-2026-10-05-6c4d059178070113.pdf) | [Markdown](markdown/sidebars/LSB11445v5-2026-10-05-6c4d059178070113.md) |
+| 2026-10-05 | IN12723 v6 | Senate Committee Reports a Farm Bill That Would Delay Onset of States Sharing SNAP Benefit Costs | [PDF](pdf/insights/IN12723v6-2026-10-05-cb98e5023d1013c7.pdf) | [Markdown](markdown/insights/IN12723v6-2026-10-05-cb98e5023d1013c7.md) |
+| 2026-10-05 | IN12669 v4 | Pentagon-Anthropic Dispute over Autonomous Weapon Systems: Potential Issues for Congress | [PDF](pdf/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.pdf) | [Markdown](markdown/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.md) |
+| 2026-10-05 | IN12668 v3 | U.S. Military Operations Against Iran: Munitions and Missile Defense | [PDF](pdf/insights/IN12668v3-2026-10-05-9250418b43788d31.pdf) | [Markdown](markdown/insights/IN12668v3-2026-10-05-9250418b43788d31.md) |
 | 2026-10-02 | R49477 v1 | Classwide Scheduling of Controlled Substances | [PDF](pdf/reports/R49477v1-2026-10-02-6618be566b7b5e61.pdf) | [Markdown](markdown/reports/R49477v1-2026-10-02-6618be566b7b5e61.md) |
+| 2026-10-02 | R46911 v7 | Drought in the United States: Science, Policy, and Selected Federal Authorities | [PDF](pdf/reports/R46911v7-2026-10-02-610e12757e807eab.pdf) | [Markdown](markdown/reports/R46911v7-2026-10-02-610e12757e807eab.md) |
 | 2026-10-02 | IF12892 v5 | Prevailing Wage Requirements for H-1B, H-1B1, and E-3 Workers in Specialty Occupations | [PDF](pdf/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.pdf) | [Markdown](markdown/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.md) |
 | 2026-10-01 | R49457 v1 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.pdf) | [Markdown](markdown/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.md) |
 | 2026-10-01 | R48568 v9 | Federal Power Act: The Department of Energy’s Emergency Authority | [PDF](pdf/reports/R48568v9-2026-10-01-0247143b4d410e55.pdf) | [Markdown](markdown/reports/R48568v9-2026-10-01-0247143b4d410e55.md) |
@@ -33,7 +41,3 @@ Publication-date window (inclusive): **2026-09-28 to 2026-10-05**. Older archive
 | 2026-09-29 | IN12742 v1 | Suspension of Countervailing Duties on Phosphate Fertilizer: Options for Congress | [PDF](pdf/insights/IN12742v1-2026-09-29-8f9146d37ae11680.pdf) | [Markdown](markdown/insights/IN12742v1-2026-09-29-8f9146d37ae11680.md) |
 | 2026-09-29 | IF13323 v1 | Defense Primer: U.S. Army Force Structure Development Process | [PDF](pdf/in-focus/IF13323v1-2026-09-29-31411f0fba6871b5.pdf) | [Markdown](markdown/in-focus/IF13323v1-2026-09-29-31411f0fba6871b5.md) |
 | 2026-09-29 | IF13322 v1 | U.S. Measles Outbreaks 2025-2026: Overview and Issues for Congress | [PDF](pdf/in-focus/IF13322v1-2026-09-29-38c0b8fe5df3e810.pdf) | [Markdown](markdown/in-focus/IF13322v1-2026-09-29-38c0b8fe5df3e810.md) |
-| 2026-09-28 | R49363 v1 | Temporary Protected Status: History and Issues for Congress | [PDF](pdf/reports/R49363v1-2026-09-28-2737676a89f5ad0f.pdf) | [Markdown](markdown/reports/R49363v1-2026-09-28-2737676a89f5ad0f.md) |
-| 2026-09-28 | LSB11485 v1 | Artificial Intelligence Safety Collaboration and Antitrust Law | [PDF](pdf/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.pdf) | [Markdown](markdown/sidebars/LSB11485v1-2026-09-28-557c1c0ec1e5a68c.md) |
-| 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
-| 2026-09-28 | IF13136 v5 | Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy | [PDF](pdf/in-focus/IF13136v5-2026-09-28-b3dc93bc9cae4b2b.pdf) | [Markdown](markdown/in-focus/IF13136v5-2026-09-28-b3dc93bc9cae4b2b.md) |
