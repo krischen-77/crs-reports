@@ -1,15 +1,28 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-29 to 2026-10-06**. Older archived files are retained.
+Publication-date window (inclusive): **2026-09-30 to 2026-10-07**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-06 | R49478 v1 | El Salvador in Brief: Overview and U.S. Relations | [PDF](pdf/reports/R49478v1-2026-10-06-302a8a4adc106377.pdf) | [Markdown](markdown/reports/R49478v1-2026-10-06-302a8a4adc106377.md) |
+| 2026-10-06 | R46911 v9 | Drought in the United States: Science, Policy, and Selected Federal Authorities | [PDF](pdf/reports/R46911v9-2026-10-06-71981cb63acc503e.pdf) | [Markdown](markdown/reports/R46911v9-2026-10-06-71981cb63acc503e.md) |
+| 2026-10-06 | R44628 v7 | Election and Voting Law: Resources for Congressional Offices | [PDF](pdf/reports/R44628v7-2026-10-06-e195b94077ef8f33.pdf) | [Markdown](markdown/reports/R44628v7-2026-10-06-e195b94077ef8f33.md) |
+| 2026-10-06 | R40118 v29 | An Overview of the HOME Investment Partnerships Program | [PDF](pdf/reports/R40118v29-2026-10-06-5408af8cb5ae70cc.pdf) | [Markdown](markdown/reports/R40118v29-2026-10-06-5408af8cb5ae70cc.md) |
+| 2026-10-06 | LSB11457 v3 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v3-2026-10-06-30de5a1fd1e543c4.pdf) | [Markdown](markdown/sidebars/LSB11457v3-2026-10-06-30de5a1fd1e543c4.md) |
+| 2026-10-06 | IF13325 v1 | Private Rights of Action: Authorizing Lawsuits to Enforce Federal Law | [PDF](pdf/in-focus/IF13325v1-2026-10-06-08d5f53ac38f0b25.pdf) | [Markdown](markdown/in-focus/IF13325v1-2026-10-06-08d5f53ac38f0b25.md) |
+| 2026-10-06 | IF11807 v2 | GAO and Inspector General Recommendations to Agencies: An Introduction | [PDF](pdf/in-focus/IF11807v2-2026-10-06-c744a2b6894dcf42.pdf) | [Markdown](markdown/in-focus/IF11807v2-2026-10-06-c744a2b6894dcf42.md) |
+| 2026-10-06 | IF11755 v20 | The Marine Corps’ Amphibious Combat Vehicle | [PDF](pdf/in-focus/IF11755v20-2026-10-06-eac22edf9469f6c9.pdf) | [Markdown](markdown/in-focus/IF11755v20-2026-10-06-eac22edf9469f6c9.md) |
+| 2026-10-06 | IF11349 v4 | Lawsuits Against the Federal Government: Basic Federal Court Procedure and Timelines | [PDF](pdf/in-focus/IF11349v4-2026-10-06-e8508d1db3f2fe85.pdf) | [Markdown](markdown/in-focus/IF11349v4-2026-10-06-e8508d1db3f2fe85.md) |
+| 2026-10-05 | R49361 v4 | Corporate Average Fuel Economy Standards | [PDF](pdf/reports/R49361v4-2026-10-05-931b55aff5cda438.pdf) | [Markdown](markdown/reports/R49361v4-2026-10-05-931b55aff5cda438.md) |
 | 2026-10-05 | R49361 v3 | Corporate Average Fuel Economy Standards | [PDF](pdf/reports/R49361v3-2026-10-05-cad74c1bd4484cae.pdf) | [Markdown](markdown/reports/R49361v3-2026-10-05-cad74c1bd4484cae.md) |
 | 2026-10-05 | R47627 v15 | Electricity Transmission Permitting Reform: Issues and Legislative Proposals | [PDF](pdf/reports/R47627v15-2026-10-05-1b4bc88d4aba3ae8.pdf) | [Markdown](markdown/reports/R47627v15-2026-10-05-1b4bc88d4aba3ae8.md) |
 | 2026-10-05 | R44593 v76 | Introduction to the National Flood Insurance Program (NFIP) | [PDF](pdf/reports/R44593v76-2026-10-05-12dcd573ffa8533b.pdf) | [Markdown](markdown/reports/R44593v76-2026-10-05-12dcd573ffa8533b.md) |
+| 2026-10-05 | R44593 v77 | Introduction to the National Flood Insurance Program (NFIP) | [PDF](pdf/reports/R44593v77-2026-10-05-5400c0ca12a73943.pdf) | [Markdown](markdown/reports/R44593v77-2026-10-05-5400c0ca12a73943.md) |
 | 2026-10-05 | LSB11445 v5 | Food Additives and GRAS Substances: A Legal Framework | [PDF](pdf/sidebars/LSB11445v5-2026-10-05-6c4d059178070113.pdf) | [Markdown](markdown/sidebars/LSB11445v5-2026-10-05-6c4d059178070113.md) |
 | 2026-10-05 | IN12723 v6 | Senate Committee Reports a Farm Bill That Would Delay Onset of States Sharing SNAP Benefit Costs | [PDF](pdf/insights/IN12723v6-2026-10-05-cb98e5023d1013c7.pdf) | [Markdown](markdown/insights/IN12723v6-2026-10-05-cb98e5023d1013c7.md) |
+| 2026-10-05 | IN12692 v5 | U.S. Aircraft Combat Losses in Operation Epic Fury: Considerations for Congress | [PDF](pdf/insights/IN12692v5-2026-10-05-1248b248d3f61874.pdf) | [Markdown](markdown/insights/IN12692v5-2026-10-05-1248b248d3f61874.md) |
 | 2026-10-05 | IN12669 v4 | Pentagon-Anthropic Dispute over Autonomous Weapon Systems: Potential Issues for Congress | [PDF](pdf/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.pdf) | [Markdown](markdown/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.md) |
+| 2026-10-05 | IN12669 v5 | Pentagon-Anthropic Dispute over Autonomous Weapon Systems: Potential Issues for Congress | [PDF](pdf/insights/IN12669v5-2026-10-05-4e1e9333fad76088.pdf) | [Markdown](markdown/insights/IN12669v5-2026-10-05-4e1e9333fad76088.md) |
 | 2026-10-05 | IN12668 v3 | U.S. Military Operations Against Iran: Munitions and Missile Defense | [PDF](pdf/insights/IN12668v3-2026-10-05-9250418b43788d31.pdf) | [Markdown](markdown/insights/IN12668v3-2026-10-05-9250418b43788d31.md) |
 | 2026-10-02 | R49477 v1 | Classwide Scheduling of Controlled Substances | [PDF](pdf/reports/R49477v1-2026-10-02-6618be566b7b5e61.pdf) | [Markdown](markdown/reports/R49477v1-2026-10-02-6618be566b7b5e61.md) |
 | 2026-10-02 | R46911 v7 | Drought in the United States: Science, Policy, and Selected Federal Authorities | [PDF](pdf/reports/R46911v7-2026-10-02-610e12757e807eab.pdf) | [Markdown](markdown/reports/R46911v7-2026-10-02-610e12757e807eab.md) |
@@ -30,14 +43,8 @@ Publication-date window (inclusive): **2026-09-29 to 2026-10-06**. Older archive
 | 2026-09-30 | R49419 v1 | State-Law Climate Tort Suits and Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County: A Primer for Congress | [PDF](pdf/reports/R49419v1-2026-09-30-5a83de76f883e38f.pdf) | [Markdown](markdown/reports/R49419v1-2026-09-30-5a83de76f883e38f.md) |
 | 2026-09-30 | R49408 v1 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v1-2026-09-30-d9d67b3710b5805f.pdf) | [Markdown](markdown/reports/R49408v1-2026-09-30-d9d67b3710b5805f.md) |
 | 2026-09-30 | R48864 v5 | The SUPPORT for Patients and Communities Reauthorization Act of 2025: SectionbySection Summary | [PDF](pdf/reports/R48864v5-2026-09-30-3920c55d81069fe8.pdf) | [Markdown](markdown/reports/R48864v5-2026-09-30-3920c55d81069fe8.md) |
+| 2026-09-30 | R44835 v33 | Paid Family and Medical Leave in the United States | [PDF](pdf/reports/R44835v33-2026-09-30-cabb394c03c30d32.pdf) | [Markdown](markdown/reports/R44835v33-2026-09-30-cabb394c03c30d32.md) |
 | 2026-09-30 | IN12743 v1 | International Conservation Funding, FY2023-FY2027 Request | [PDF](pdf/insights/IN12743v1-2026-09-30-ecd73a67aba6caa1.pdf) | [Markdown](markdown/insights/IN12743v1-2026-09-30-ecd73a67aba6caa1.md) |
 | 2026-09-30 | IF13324 v1 | Crypto and Bank-Permissible Activities | [PDF](pdf/in-focus/IF13324v1-2026-09-30-67314f915f353190.pdf) | [Markdown](markdown/in-focus/IF13324v1-2026-09-30-67314f915f353190.md) |
 | 2026-09-30 | IF12148 v7 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v7-2026-09-30-eae478904450f097.pdf) | [Markdown](markdown/in-focus/IF12148v7-2026-09-30-eae478904450f097.md) |
 | 2026-09-30 | IF10761 v6 | The International Joint Commission (IJC) | [PDF](pdf/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.pdf) | [Markdown](markdown/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.md) |
-| 2026-09-29 | R49436 v1 | Digital Health Information Interoperability: Background and Selected Policy Considerations | [PDF](pdf/reports/R49436v1-2026-09-29-3659befa48c22bb4.pdf) | [Markdown](markdown/reports/R49436v1-2026-09-29-3659befa48c22bb4.md) |
-| 2026-09-29 | R48787 v4 | USMCA Joint Review: Process and Role of Congress | [PDF](pdf/reports/R48787v4-2026-09-29-625d62fa41411cdd.pdf) | [Markdown](markdown/reports/R48787v4-2026-09-29-625d62fa41411cdd.md) |
-| 2026-09-29 | R43141 v32 | The National Earthquake Hazards Reduction Program (NEHRP): Overview and Issues for Congress | [PDF](pdf/reports/R43141v32-2026-09-29-2537512884c67dc0.pdf) | [Markdown](markdown/reports/R43141v32-2026-09-29-2537512884c67dc0.md) |
-| 2026-09-29 | R40094 v152 | Iran’s Nuclear Program: Tehran’s Compliance with International Obligations | [PDF](pdf/reports/R40094v152-2026-09-29-79407c59fb033457.pdf) | [Markdown](markdown/reports/R40094v152-2026-09-29-79407c59fb033457.md) |
-| 2026-09-29 | IN12742 v1 | Suspension of Countervailing Duties on Phosphate Fertilizer: Options for Congress | [PDF](pdf/insights/IN12742v1-2026-09-29-8f9146d37ae11680.pdf) | [Markdown](markdown/insights/IN12742v1-2026-09-29-8f9146d37ae11680.md) |
-| 2026-09-29 | IF13323 v1 | Defense Primer: U.S. Army Force Structure Development Process | [PDF](pdf/in-focus/IF13323v1-2026-09-29-31411f0fba6871b5.pdf) | [Markdown](markdown/in-focus/IF13323v1-2026-09-29-31411f0fba6871b5.md) |
-| 2026-09-29 | IF13322 v1 | U.S. Measles Outbreaks 2025-2026: Overview and Issues for Congress | [PDF](pdf/in-focus/IF13322v1-2026-09-29-38c0b8fe5df3e810.pdf) | [Markdown](markdown/in-focus/IF13322v1-2026-09-29-38c0b8fe5df3e810.md) |

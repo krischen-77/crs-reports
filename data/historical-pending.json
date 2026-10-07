@@ -1,8 +1,11 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-07",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-09",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "12",
@@ -39,8 +42,11 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-07",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-09",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "8",
@@ -7863,6 +7869,42 @@
         "source_record": "625112",
         "title": "Suspension of the Rules: House Practice in the 115th Congress (2017-2018)",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "6",
+        "date": "2023-03-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R46911",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2023-03-09_R46911_a4a2e6b54fd93427196a7f540d4e09e41c27d74b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R46911",
+            "sha1": "a4a2e6b54fd93427196a7f540d4e09e41c27d74b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R46911/5",
+              "https://www.everycrsreport.com/files/2023-03-09_R46911_a4a2e6b54fd93427196a7f540d4e09e41c27d74b.pdf"
+            ]
+          }
+        },
+        "id": "R46911",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "R46911_5_2023-03-09",
+        "title": "Drought in the United States: Science, Policy, and Selected Federal Authorities",
+        "version": "5"
       }
     },
     {
