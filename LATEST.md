@@ -1,9 +1,15 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-09-30 to 2026-10-07**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-01 to 2026-10-08**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-07 | R49479 v2 | Environmental Remediation of Per- and Polyfluoroalkyl Substances (PFAS) | [PDF](pdf/reports/R49479v2-2026-10-07-726655188b430839.pdf) | [Markdown](markdown/reports/R49479v2-2026-10-07-726655188b430839.md) |
+| 2026-10-07 | R46827 v4 | Federal Funding Conditions: Constitutional Limits from the Spending Clause and Related Legal Doctrines | [PDF](pdf/reports/R46827v4-2026-10-07-a0d2c762ee7e8187.pdf) | [Markdown](markdown/reports/R46827v4-2026-10-07-a0d2c762ee7e8187.md) |
+| 2026-10-07 | LSB11486 v1 | Appointing the Comptroller General: Law and History | [PDF](pdf/sidebars/LSB11486v1-2026-10-07-aa526dc69a45b75d.pdf) | [Markdown](markdown/sidebars/LSB11486v1-2026-10-07-aa526dc69a45b75d.md) |
+| 2026-10-07 | IF13326 v1 | Medicaid Program Integrity: Background and Resources | [PDF](pdf/in-focus/IF13326v1-2026-10-07-cafe47c18164b747.pdf) | [Markdown](markdown/in-focus/IF13326v1-2026-10-07-cafe47c18164b747.md) |
+| 2026-10-07 | IF12766 v4 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v4-2026-10-07-4da025a1f39cfef4.pdf) | [Markdown](markdown/in-focus/IF12766v4-2026-10-07-4da025a1f39cfef4.md) |
+| 2026-10-07 | IF10890 v23 | China Primer: Illicit Fentanyl and China’s Role | [PDF](pdf/in-focus/IF10890v23-2026-10-07-fbfa23c5bc54bf1b.pdf) | [Markdown](markdown/in-focus/IF10890v23-2026-10-07-fbfa23c5bc54bf1b.md) |
 | 2026-10-06 | R49478 v1 | El Salvador in Brief: Overview and U.S. Relations | [PDF](pdf/reports/R49478v1-2026-10-06-302a8a4adc106377.pdf) | [Markdown](markdown/reports/R49478v1-2026-10-06-302a8a4adc106377.md) |
 | 2026-10-06 | R46911 v9 | Drought in the United States: Science, Policy, and Selected Federal Authorities | [PDF](pdf/reports/R46911v9-2026-10-06-71981cb63acc503e.pdf) | [Markdown](markdown/reports/R46911v9-2026-10-06-71981cb63acc503e.md) |
 | 2026-10-06 | R44628 v7 | Election and Voting Law: Resources for Congressional Offices | [PDF](pdf/reports/R44628v7-2026-10-06-e195b94077ef8f33.pdf) | [Markdown](markdown/reports/R44628v7-2026-10-06-e195b94077ef8f33.md) |
@@ -36,15 +42,3 @@ Publication-date window (inclusive): **2026-09-30 to 2026-10-07**. Older archive
 | 2026-10-01 | IF12629 v9 | Regulation of U.S. Outbound Investment to China | [PDF](pdf/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.pdf) | [Markdown](markdown/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.md) |
 | 2026-10-01 | IF10199 v49 | U.S.-Japan Relations | [PDF](pdf/in-focus/IF10199v49-2026-10-01-e3faff240416b8d5.pdf) | [Markdown](markdown/in-focus/IF10199v49-2026-10-01-e3faff240416b8d5.md) |
 | 2026-10-01 | IF10023 v12 | The Congressional Review Act (CRA): A Brief Overview | [PDF](pdf/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.pdf) | [Markdown](markdown/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.md) |
-| 2026-09-30 | RS21852 v159 | The United Arab Emirates (UAE): Issues for U.S. Policy | [PDF](pdf/reports/RS21852v159-2026-09-30-b4a97bb3c8aa078e.pdf) | [Markdown](markdown/reports/RS21852v159-2026-09-30-b4a97bb3c8aa078e.md) |
-| 2026-09-30 | R49432 v1 | Online Scam Centers in Southeast Asia: Background and U.S. Responses | [PDF](pdf/reports/R49432v1-2026-09-30-42a1c09d10d4e0c8.pdf) | [Markdown](markdown/reports/R49432v1-2026-09-30-42a1c09d10d4e0c8.md) |
-| 2026-09-30 | R49427 v2 | Department of Homeland Security Appropriations: FY2027 State of Play | [PDF](pdf/reports/R49427v2-2026-09-30-254a9f4736e16e98.pdf) | [Markdown](markdown/reports/R49427v2-2026-09-30-254a9f4736e16e98.md) |
-| 2026-09-30 | R49421 v1 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v1-2026-09-30-a64afc9c8fafb8db.pdf) | [Markdown](markdown/reports/R49421v1-2026-09-30-a64afc9c8fafb8db.md) |
-| 2026-09-30 | R49419 v1 | State-Law Climate Tort Suits and Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County: A Primer for Congress | [PDF](pdf/reports/R49419v1-2026-09-30-5a83de76f883e38f.pdf) | [Markdown](markdown/reports/R49419v1-2026-09-30-5a83de76f883e38f.md) |
-| 2026-09-30 | R49408 v1 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v1-2026-09-30-d9d67b3710b5805f.pdf) | [Markdown](markdown/reports/R49408v1-2026-09-30-d9d67b3710b5805f.md) |
-| 2026-09-30 | R48864 v5 | The SUPPORT for Patients and Communities Reauthorization Act of 2025: SectionbySection Summary | [PDF](pdf/reports/R48864v5-2026-09-30-3920c55d81069fe8.pdf) | [Markdown](markdown/reports/R48864v5-2026-09-30-3920c55d81069fe8.md) |
-| 2026-09-30 | R44835 v33 | Paid Family and Medical Leave in the United States | [PDF](pdf/reports/R44835v33-2026-09-30-cabb394c03c30d32.pdf) | [Markdown](markdown/reports/R44835v33-2026-09-30-cabb394c03c30d32.md) |
-| 2026-09-30 | IN12743 v1 | International Conservation Funding, FY2023-FY2027 Request | [PDF](pdf/insights/IN12743v1-2026-09-30-ecd73a67aba6caa1.pdf) | [Markdown](markdown/insights/IN12743v1-2026-09-30-ecd73a67aba6caa1.md) |
-| 2026-09-30 | IF13324 v1 | Crypto and Bank-Permissible Activities | [PDF](pdf/in-focus/IF13324v1-2026-09-30-67314f915f353190.pdf) | [Markdown](markdown/in-focus/IF13324v1-2026-09-30-67314f915f353190.md) |
-| 2026-09-30 | IF12148 v7 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v7-2026-09-30-eae478904450f097.pdf) | [Markdown](markdown/in-focus/IF12148v7-2026-09-30-eae478904450f097.md) |
-| 2026-09-30 | IF10761 v6 | The International Joint Commission (IJC) | [PDF](pdf/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.pdf) | [Markdown](markdown/in-focus/IF10761v6-2026-09-30-a50f976be06dc366.md) |
