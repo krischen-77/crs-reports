@@ -1,9 +1,15 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-01 to 2026-10-08**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-02 to 2026-10-09**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-08 | R49483 v1 | Ex Parte Communications in Informal Rulemaking: A Legal Framework | [PDF](pdf/reports/R49483v1-2026-10-08-c70182fe3a6f075f.pdf) | [Markdown](markdown/reports/R49483v1-2026-10-08-c70182fe3a6f075f.md) |
+| 2026-10-08 | R49482 v1 | Retail Electricity Rates and Utility Return on Equity: State Primacy and Federal Influence | [PDF](pdf/reports/R49482v1-2026-10-08-a679afdd7eff7d07.pdf) | [Markdown](markdown/reports/R49482v1-2026-10-08-a679afdd7eff7d07.md) |
+| 2026-10-08 | R49481 v1 | Active Presidential Tariff Actions in 2026: Fact Sheet | [PDF](pdf/reports/R49481v1-2026-10-08-507bde98b70fb605.pdf) | [Markdown](markdown/reports/R49481v1-2026-10-08-507bde98b70fb605.md) |
+| 2026-10-08 | LSB11487 v1 | Artificial Intelligence and Federal Criminal Law: Considerations for Congress | [PDF](pdf/sidebars/LSB11487v1-2026-10-08-ec1b67044ca8b97f.pdf) | [Markdown](markdown/sidebars/LSB11487v1-2026-10-08-ec1b67044ca8b97f.md) |
+| 2026-10-08 | IF13034 v7 | Offshore Wind: Status and Issues for the 119th Congress | [PDF](pdf/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.pdf) | [Markdown](markdown/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.md) |
+| 2026-10-07 | R49480 v1 | The Good Neighbor Authority on Federal Lands: In Brief | [PDF](pdf/reports/R49480v1-2026-10-07-bbb7d9c1da26c44e.pdf) | [Markdown](markdown/reports/R49480v1-2026-10-07-bbb7d9c1da26c44e.md) |
 | 2026-10-07 | R49479 v2 | Environmental Remediation of Per- and Polyfluoroalkyl Substances (PFAS) | [PDF](pdf/reports/R49479v2-2026-10-07-726655188b430839.pdf) | [Markdown](markdown/reports/R49479v2-2026-10-07-726655188b430839.md) |
 | 2026-10-07 | R46827 v4 | Federal Funding Conditions: Constitutional Limits from the Spending Clause and Related Legal Doctrines | [PDF](pdf/reports/R46827v4-2026-10-07-a0d2c762ee7e8187.pdf) | [Markdown](markdown/reports/R46827v4-2026-10-07-a0d2c762ee7e8187.md) |
 | 2026-10-07 | LSB11486 v1 | Appointing the Comptroller General: Law and History | [PDF](pdf/sidebars/LSB11486v1-2026-10-07-aa526dc69a45b75d.pdf) | [Markdown](markdown/sidebars/LSB11486v1-2026-10-07-aa526dc69a45b75d.md) |
@@ -33,12 +39,3 @@ Publication-date window (inclusive): **2026-10-01 to 2026-10-08**. Older archive
 | 2026-10-02 | R49477 v1 | Classwide Scheduling of Controlled Substances | [PDF](pdf/reports/R49477v1-2026-10-02-6618be566b7b5e61.pdf) | [Markdown](markdown/reports/R49477v1-2026-10-02-6618be566b7b5e61.md) |
 | 2026-10-02 | R46911 v7 | Drought in the United States: Science, Policy, and Selected Federal Authorities | [PDF](pdf/reports/R46911v7-2026-10-02-610e12757e807eab.pdf) | [Markdown](markdown/reports/R46911v7-2026-10-02-610e12757e807eab.md) |
 | 2026-10-02 | IF12892 v5 | Prevailing Wage Requirements for H-1B, H-1B1, and E-3 Workers in Specialty Occupations | [PDF](pdf/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.pdf) | [Markdown](markdown/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.md) |
-| 2026-10-01 | R49457 v1 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.pdf) | [Markdown](markdown/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.md) |
-| 2026-10-01 | R48568 v9 | Federal Power Act: The Department of Energy’s Emergency Authority | [PDF](pdf/reports/R48568v9-2026-10-01-0247143b4d410e55.pdf) | [Markdown](markdown/reports/R48568v9-2026-10-01-0247143b4d410e55.md) |
-| 2026-10-01 | R45546 v52 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v52-2026-10-01-808a92d6a52dd83b.pdf) | [Markdown](markdown/reports/R45546v52-2026-10-01-808a92d6a52dd83b.md) |
-| 2026-10-01 | IN12744 v2 | Diesel Export Ban: Transportation Policy Considerations for Congress | [PDF](pdf/insights/IN12744v2-2026-10-01-35dfe6d8ad05d521.pdf) | [Markdown](markdown/insights/IN12744v2-2026-10-01-35dfe6d8ad05d521.md) |
-| 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
-| 2026-10-01 | IF12859 v4 | Connecting Constituents with Federal Assistance for Broadband | [PDF](pdf/in-focus/IF12859v4-2026-10-01-167c6c1fb336afb5.pdf) | [Markdown](markdown/in-focus/IF12859v4-2026-10-01-167c6c1fb336afb5.md) |
-| 2026-10-01 | IF12629 v9 | Regulation of U.S. Outbound Investment to China | [PDF](pdf/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.pdf) | [Markdown](markdown/in-focus/IF12629v9-2026-10-01-8753e8c84b48d5b1.md) |
-| 2026-10-01 | IF10199 v49 | U.S.-Japan Relations | [PDF](pdf/in-focus/IF10199v49-2026-10-01-e3faff240416b8d5.pdf) | [Markdown](markdown/in-focus/IF10199v49-2026-10-01-e3faff240416b8d5.md) |
-| 2026-10-01 | IF10023 v12 | The Congressional Review Act (CRA): A Brief Overview | [PDF](pdf/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.pdf) | [Markdown](markdown/in-focus/IF10023v12-2026-10-01-95ece8349ec509be.md) |
