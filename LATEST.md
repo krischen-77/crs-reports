@@ -1,13 +1,18 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-02 to 2026-10-09**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-03 to 2026-10-10**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-09 | R49484 v1 | 2026 Ebola Outbreak: Frequently Asked Questions | [PDF](pdf/reports/R49484v1-2026-10-09-79a91f301b9ba507.pdf) | [Markdown](markdown/reports/R49484v1-2026-10-09-79a91f301b9ba507.md) |
+| 2026-10-09 | IF13328 v5 | State and Local Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.pdf) | [Markdown](markdown/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.md) |
+| 2026-10-09 | IF13327 v3 | Disabled Adult Child (DAC) Passalong of Medicaid Coverage | [PDF](pdf/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.pdf) | [Markdown](markdown/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.md) |
+| 2026-10-09 | IF11090 v9 | The Terrorism Risk Insurance Act (TRIA) | [PDF](pdf/in-focus/IF11090v9-2026-10-09-3425bbd807eb0aa2.pdf) | [Markdown](markdown/in-focus/IF11090v9-2026-10-09-3425bbd807eb0aa2.md) |
 | 2026-10-08 | R49483 v1 | Ex Parte Communications in Informal Rulemaking: A Legal Framework | [PDF](pdf/reports/R49483v1-2026-10-08-c70182fe3a6f075f.pdf) | [Markdown](markdown/reports/R49483v1-2026-10-08-c70182fe3a6f075f.md) |
 | 2026-10-08 | R49482 v1 | Retail Electricity Rates and Utility Return on Equity: State Primacy and Federal Influence | [PDF](pdf/reports/R49482v1-2026-10-08-a679afdd7eff7d07.pdf) | [Markdown](markdown/reports/R49482v1-2026-10-08-a679afdd7eff7d07.md) |
 | 2026-10-08 | R49481 v1 | Active Presidential Tariff Actions in 2026: Fact Sheet | [PDF](pdf/reports/R49481v1-2026-10-08-507bde98b70fb605.pdf) | [Markdown](markdown/reports/R49481v1-2026-10-08-507bde98b70fb605.md) |
 | 2026-10-08 | LSB11487 v1 | Artificial Intelligence and Federal Criminal Law: Considerations for Congress | [PDF](pdf/sidebars/LSB11487v1-2026-10-08-ec1b67044ca8b97f.pdf) | [Markdown](markdown/sidebars/LSB11487v1-2026-10-08-ec1b67044ca8b97f.md) |
+| 2026-10-08 | LSB10837 v2 | Ranked-Choice Voting: Legal Challenges and Considerations for Congress | [PDF](pdf/sidebars/LSB10837v2-2026-10-08-788ee59cb13dacfb.pdf) | [Markdown](markdown/sidebars/LSB10837v2-2026-10-08-788ee59cb13dacfb.md) |
 | 2026-10-08 | IF13034 v7 | Offshore Wind: Status and Issues for the 119th Congress | [PDF](pdf/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.pdf) | [Markdown](markdown/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.md) |
 | 2026-10-07 | R49480 v1 | The Good Neighbor Authority on Federal Lands: In Brief | [PDF](pdf/reports/R49480v1-2026-10-07-bbb7d9c1da26c44e.pdf) | [Markdown](markdown/reports/R49480v1-2026-10-07-bbb7d9c1da26c44e.md) |
 | 2026-10-07 | R49479 v2 | Environmental Remediation of Per- and Polyfluoroalkyl Substances (PFAS) | [PDF](pdf/reports/R49479v2-2026-10-07-726655188b430839.pdf) | [Markdown](markdown/reports/R49479v2-2026-10-07-726655188b430839.md) |
@@ -36,6 +41,3 @@ Publication-date window (inclusive): **2026-10-02 to 2026-10-09**. Older archive
 | 2026-10-05 | IN12669 v4 | Pentagon-Anthropic Dispute over Autonomous Weapon Systems: Potential Issues for Congress | [PDF](pdf/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.pdf) | [Markdown](markdown/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.md) |
 | 2026-10-05 | IN12669 v5 | Pentagon-Anthropic Dispute over Autonomous Weapon Systems: Potential Issues for Congress | [PDF](pdf/insights/IN12669v5-2026-10-05-4e1e9333fad76088.pdf) | [Markdown](markdown/insights/IN12669v5-2026-10-05-4e1e9333fad76088.md) |
 | 2026-10-05 | IN12668 v3 | U.S. Military Operations Against Iran: Munitions and Missile Defense | [PDF](pdf/insights/IN12668v3-2026-10-05-9250418b43788d31.pdf) | [Markdown](markdown/insights/IN12668v3-2026-10-05-9250418b43788d31.md) |
-| 2026-10-02 | R49477 v1 | Classwide Scheduling of Controlled Substances | [PDF](pdf/reports/R49477v1-2026-10-02-6618be566b7b5e61.pdf) | [Markdown](markdown/reports/R49477v1-2026-10-02-6618be566b7b5e61.md) |
-| 2026-10-02 | R46911 v7 | Drought in the United States: Science, Policy, and Selected Federal Authorities | [PDF](pdf/reports/R46911v7-2026-10-02-610e12757e807eab.pdf) | [Markdown](markdown/reports/R46911v7-2026-10-02-610e12757e807eab.md) |
-| 2026-10-02 | IF12892 v5 | Prevailing Wage Requirements for H-1B, H-1B1, and E-3 Workers in Specialty Occupations | [PDF](pdf/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.pdf) | [Markdown](markdown/in-focus/IF12892v5-2026-10-02-7aabea1bee05e195.md) |
