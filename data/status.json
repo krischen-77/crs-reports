@@ -7,7 +7,7 @@
   "catalog_reports": 23550,
   "errors": [],
   "github_run_attempt": "1",
-  "github_run_id": "38132330240",
+  "github_run_id": "38237597149",
   "historical_new_pdf_versions": 2,
   "historical_pending_versions": 240,
   "lookback_days": 7,
@@ -20,7 +20,7 @@
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-10-11T10:33:08.739441+00:00",
+  "run_at": "2026-10-12T10:39:01.057455+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -41,9 +41,9 @@
     }
   },
   "successful_versions": 34,
-  "total_archived_pdf_versions": 365,
+  "total_archived_pdf_versions": 367,
   "total_html_snapshots": 345,
-  "total_pdf_bytes": 281635525,
+  "total_pdf_bytes": 283258229,
   "warnings": [
     {
       "api_version": 18,
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "id": "98-512",
+      "id": "98-612",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions"
@@ -246,7 +246,7 @@
       "scope": "optional historical backfill"
     },
     {
-      "id": "98-560",
+      "id": "98-613",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
@@ -258,6 +258,6 @@
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
-  "window_end_inclusive": "2026-10-11",
-  "window_start_inclusive": "2026-10-04"
+  "window_end_inclusive": "2026-10-12",
+  "window_start_inclusive": "2026-10-05"
 }
