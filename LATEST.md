@@ -1,6 +1,6 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-05 to 2026-10-12**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-06 to 2026-10-13**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -30,14 +30,3 @@ Publication-date window (inclusive): **2026-10-05 to 2026-10-12**. Older archive
 | 2026-10-06 | IF11807 v2 | GAO and Inspector General Recommendations to Agencies: An Introduction | [PDF](pdf/in-focus/IF11807v2-2026-10-06-c744a2b6894dcf42.pdf) | [Markdown](markdown/in-focus/IF11807v2-2026-10-06-c744a2b6894dcf42.md) |
 | 2026-10-06 | IF11755 v20 | The Marine Corps’ Amphibious Combat Vehicle | [PDF](pdf/in-focus/IF11755v20-2026-10-06-eac22edf9469f6c9.pdf) | [Markdown](markdown/in-focus/IF11755v20-2026-10-06-eac22edf9469f6c9.md) |
 | 2026-10-06 | IF11349 v4 | Lawsuits Against the Federal Government: Basic Federal Court Procedure and Timelines | [PDF](pdf/in-focus/IF11349v4-2026-10-06-e8508d1db3f2fe85.pdf) | [Markdown](markdown/in-focus/IF11349v4-2026-10-06-e8508d1db3f2fe85.md) |
-| 2026-10-05 | R49361 v4 | Corporate Average Fuel Economy Standards | [PDF](pdf/reports/R49361v4-2026-10-05-931b55aff5cda438.pdf) | [Markdown](markdown/reports/R49361v4-2026-10-05-931b55aff5cda438.md) |
-| 2026-10-05 | R49361 v3 | Corporate Average Fuel Economy Standards | [PDF](pdf/reports/R49361v3-2026-10-05-cad74c1bd4484cae.pdf) | [Markdown](markdown/reports/R49361v3-2026-10-05-cad74c1bd4484cae.md) |
-| 2026-10-05 | R47627 v15 | Electricity Transmission Permitting Reform: Issues and Legislative Proposals | [PDF](pdf/reports/R47627v15-2026-10-05-1b4bc88d4aba3ae8.pdf) | [Markdown](markdown/reports/R47627v15-2026-10-05-1b4bc88d4aba3ae8.md) |
-| 2026-10-05 | R44593 v76 | Introduction to the National Flood Insurance Program (NFIP) | [PDF](pdf/reports/R44593v76-2026-10-05-12dcd573ffa8533b.pdf) | [Markdown](markdown/reports/R44593v76-2026-10-05-12dcd573ffa8533b.md) |
-| 2026-10-05 | R44593 v77 | Introduction to the National Flood Insurance Program (NFIP) | [PDF](pdf/reports/R44593v77-2026-10-05-5400c0ca12a73943.pdf) | [Markdown](markdown/reports/R44593v77-2026-10-05-5400c0ca12a73943.md) |
-| 2026-10-05 | LSB11445 v5 | Food Additives and GRAS Substances: A Legal Framework | [PDF](pdf/sidebars/LSB11445v5-2026-10-05-6c4d059178070113.pdf) | [Markdown](markdown/sidebars/LSB11445v5-2026-10-05-6c4d059178070113.md) |
-| 2026-10-05 | IN12723 v6 | Senate Committee Reports a Farm Bill That Would Delay Onset of States Sharing SNAP Benefit Costs | [PDF](pdf/insights/IN12723v6-2026-10-05-cb98e5023d1013c7.pdf) | [Markdown](markdown/insights/IN12723v6-2026-10-05-cb98e5023d1013c7.md) |
-| 2026-10-05 | IN12692 v5 | U.S. Aircraft Combat Losses in Operation Epic Fury: Considerations for Congress | [PDF](pdf/insights/IN12692v5-2026-10-05-1248b248d3f61874.pdf) | [Markdown](markdown/insights/IN12692v5-2026-10-05-1248b248d3f61874.md) |
-| 2026-10-05 | IN12669 v4 | Pentagon-Anthropic Dispute over Autonomous Weapon Systems: Potential Issues for Congress | [PDF](pdf/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.pdf) | [Markdown](markdown/insights/IN12669v4-2026-10-05-2fb7b2a12f03c7c8.md) |
-| 2026-10-05 | IN12669 v5 | Pentagon-Anthropic Dispute over Autonomous Weapon Systems: Potential Issues for Congress | [PDF](pdf/insights/IN12669v5-2026-10-05-4e1e9333fad76088.pdf) | [Markdown](markdown/insights/IN12669v5-2026-10-05-4e1e9333fad76088.md) |
-| 2026-10-05 | IN12668 v3 | U.S. Military Operations Against Iran: Munitions and Missile Defense | [PDF](pdf/insights/IN12668v3-2026-10-05-9250418b43788d31.pdf) | [Markdown](markdown/insights/IN12668v3-2026-10-05-9250418b43788d31.md) |

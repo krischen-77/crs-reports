@@ -2,16 +2,16 @@
   "api_remaining_quota": 7,
   "api_requests": 3,
   "archive_start_inclusive": "2026-09-17",
-  "attempted_versions": 34,
-  "candidate_reports": 34,
+  "attempted_versions": 26,
+  "candidate_reports": 26,
   "catalog_reports": 23550,
   "errors": [],
   "github_run_attempt": "1",
-  "github_run_id": "38237597149",
+  "github_run_id": "38384782335",
   "historical_new_pdf_versions": 2,
   "historical_pending_versions": 240,
   "lookback_days": 7,
-  "metadata_only_updates": 19,
+  "metadata_only_updates": 27,
   "new_pdf_versions": 2,
   "pending_reports": 0,
   "pending_versions": 0,
@@ -20,7 +20,7 @@
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-10-12T10:39:01.057455+00:00",
+  "run_at": "2026-10-13T10:39:17.385952+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -40,10 +40,10 @@
       "scope": "supplement only; feed is not the complete catalog"
     }
   },
-  "successful_versions": 34,
-  "total_archived_pdf_versions": 367,
+  "successful_versions": 26,
+  "total_archived_pdf_versions": 369,
   "total_html_snapshots": 345,
-  "total_pdf_bytes": 283258229,
+  "total_pdf_bytes": 284787199,
   "warnings": [
     {
       "api_version": 18,
@@ -119,50 +119,10 @@
     },
     {
       "api_version": 1,
-      "id": "IN12668",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "3"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "IN12669",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "5"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "IN12692",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "5"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "IN12723",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "6"
-      ]
-    },
-    {
-      "api_version": 1,
       "id": "LSB10837",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "2"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "LSB11445",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "5"
       ]
     },
     {
@@ -179,14 +139,6 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "29"
-      ]
-    },
-    {
-      "api_version": 69,
-      "id": "R44593",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "77"
       ]
     },
     {
@@ -214,22 +166,6 @@
       ]
     },
     {
-      "api_version": 12,
-      "id": "R47627",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "15"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "R49361",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "4"
-      ]
-    },
-    {
       "api_version": 1,
       "id": "R49479",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
@@ -238,7 +174,7 @@
       ]
     },
     {
-      "id": "98-612",
+      "id": "98-614",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions"
@@ -246,7 +182,7 @@
       "scope": "optional historical backfill"
     },
     {
-      "id": "98-613",
+      "id": "98-736",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
@@ -258,6 +194,6 @@
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
-  "window_end_inclusive": "2026-10-12",
-  "window_start_inclusive": "2026-10-05"
+  "window_end_inclusive": "2026-10-13",
+  "window_start_inclusive": "2026-10-06"
 }
