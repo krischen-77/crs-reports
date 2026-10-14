@@ -4,35 +4,35 @@
   "archive_start_inclusive": "2026-09-17",
   "attempted_versions": 26,
   "candidate_reports": 26,
-  "catalog_reports": 23550,
+  "catalog_reports": 23553,
   "errors": [],
   "github_run_attempt": "1",
-  "github_run_id": "38384782335",
+  "github_run_id": "38552376163",
   "historical_new_pdf_versions": 2,
   "historical_pending_versions": 240,
   "lookback_days": 7,
-  "metadata_only_updates": 27,
-  "new_pdf_versions": 2,
+  "metadata_only_updates": 47,
+  "new_pdf_versions": 11,
   "pending_reports": 0,
   "pending_versions": 0,
-  "primary_new_pdf_versions": 0,
+  "primary_new_pdf_versions": 9,
   "primary_pdf_complete": true,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-10-13T10:39:17.385952+00:00",
+  "run_at": "2026-10-14T10:51:06.425689+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
       "ok": true,
-      "reported_count": 53,
-      "reports": 53,
+      "reported_count": 73,
+      "reports": 73,
       "scope": "update-date window"
     },
     "everycrsreport": {
       "coverage": "complete published CSV, not a claim of complete official CRS coverage",
       "ok": true,
-      "reports": 23550
+      "reports": 23552
     },
     "rss": {
       "items": 25,
@@ -41,10 +41,18 @@
     }
   },
   "successful_versions": 26,
-  "total_archived_pdf_versions": 369,
-  "total_html_snapshots": 345,
-  "total_pdf_bytes": 284787199,
+  "total_archived_pdf_versions": 380,
+  "total_html_snapshots": 354,
+  "total_pdf_bytes": 293222770,
   "warnings": [
+    {
+      "api_version": 38,
+      "id": "IF10472",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "44"
+      ]
+    },
     {
       "api_version": 18,
       "id": "IF10890",
@@ -62,27 +70,19 @@
       ]
     },
     {
-      "api_version": 3,
-      "id": "IF11349",
+      "api_version": 20,
+      "id": "IF11583",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "4"
+        "31"
       ]
     },
     {
-      "api_version": 14,
-      "id": "IF11755",
+      "api_version": 17,
+      "id": "IF12106",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "20"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "IF11807",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "2"
+        "23"
       ]
     },
     {
@@ -126,27 +126,11 @@
       ]
     },
     {
-      "api_version": 1,
-      "id": "LSB11457",
+      "api_version": 32,
+      "id": "R40962",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "3"
-      ]
-    },
-    {
-      "api_version": 25,
-      "id": "R40118",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "29"
-      ]
-    },
-    {
-      "api_version": 6,
-      "id": "R44628",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "7"
+        "33"
       ]
     },
     {
@@ -158,11 +142,27 @@
       ]
     },
     {
-      "api_version": 6,
-      "id": "R46911",
+      "api_version": 3,
+      "id": "R47563",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "9"
+        "7"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R48948",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R48956",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
       ]
     },
     {
@@ -174,15 +174,78 @@
       ]
     },
     {
-      "id": "98-614",
+      "id": "R48956",
+      "messages": [
+        "www.congress.gov: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "R48948",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "R47563",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "R40962",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "IN12745",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "IF12106",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "IF11583",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "IF10472",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "R49485",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "98-747",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
-        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions"
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "98-736",
+      "id": "98-812",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
@@ -194,6 +257,6 @@
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
-  "window_end_inclusive": "2026-10-13",
-  "window_start_inclusive": "2026-10-06"
+  "window_end_inclusive": "2026-10-14",
+  "window_start_inclusive": "2026-10-07"
 }

@@ -1,9 +1,18 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-06 to 2026-10-13**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-07 to 2026-10-14**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-13 | R48956 v5 | National Security, Department of State, and Related Programs: FY2027 Budget and Appropriations | [PDF](pdf/reports/R48956v5-2026-10-13-c6d279d60b0ecf05.pdf) | [Markdown](markdown/reports/R48956v5-2026-10-13-c6d279d60b0ecf05.md) |
+| 2026-10-13 | R48948 v3 | Suspension of the Federal Gas Tax: In Brief | [PDF](pdf/reports/R48948v3-2026-10-13-83c66221862c03d6.pdf) | [Markdown](markdown/reports/R48948v3-2026-10-13-83c66221862c03d6.md) |
+| 2026-10-13 | R47563 v7 | Tribal Co-Management of Federal Lands: Overview and Selected Issues for Congress | [PDF](pdf/reports/R47563v7-2026-10-13-7a1bb6914d9836b8.pdf) | [Markdown](markdown/reports/R47563v7-2026-10-13-7a1bb6914d9836b8.md) |
+| 2026-10-13 | R40962 v33 | Members’ Representational Allowance: History and Usage | [PDF](pdf/reports/R40962v33-2026-10-13-28a00bc4bfebefdd.pdf) | [Markdown](markdown/reports/R40962v33-2026-10-13-28a00bc4bfebefdd.md) |
+| 2026-10-13 | IN12745 v1 | Hurricane Isaias: Brief Overview of FEMA Programs, Resources, and Selected Issues | [PDF](pdf/insights/IN12745v1-2026-10-13-eec797cdc6d4704c.pdf) | [Markdown](markdown/insights/IN12745v1-2026-10-13-eec797cdc6d4704c.md) |
+| 2026-10-13 | IF12106 v23 | Iran and Nuclear Weapons Production | [PDF](pdf/in-focus/IF12106v23-2026-10-13-cf6dc20e854b7387.pdf) | [Markdown](markdown/in-focus/IF12106v23-2026-10-13-cf6dc20e854b7387.md) |
+| 2026-10-13 | IF11583 v31 | Iran’s Nuclear Program and 2025 UN Sanctions Reimposition | [PDF](pdf/in-focus/IF11583v31-2026-10-13-daeafbd388a80a43.pdf) | [Markdown](markdown/in-focus/IF11583v31-2026-10-13-daeafbd388a80a43.md) |
+| 2026-10-13 | IF10472 v44 | North Korea’s Nuclear Weapons and Missile Programs | [PDF](pdf/in-focus/IF10472v44-2026-10-13-a7c2b178ba0caa2a.pdf) | [Markdown](markdown/in-focus/IF10472v44-2026-10-13-a7c2b178ba0caa2a.md) |
+| 2026-10-09 | R49485 v1 | Amending the National Environmental Policy Act: Analysis of the SPEED Act (H.R. 4776) | [PDF](pdf/reports/R49485v1-2026-10-09-1d7af760f26284a9.pdf) | [Markdown](markdown/reports/R49485v1-2026-10-09-1d7af760f26284a9.md) |
 | 2026-10-09 | R49484 v1 | 2026 Ebola Outbreak: Frequently Asked Questions | [PDF](pdf/reports/R49484v1-2026-10-09-79a91f301b9ba507.pdf) | [Markdown](markdown/reports/R49484v1-2026-10-09-79a91f301b9ba507.md) |
 | 2026-10-09 | IF13328 v5 | State and Local Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.pdf) | [Markdown](markdown/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.md) |
 | 2026-10-09 | IF13327 v3 | Disabled Adult Child (DAC) Passalong of Medicaid Coverage | [PDF](pdf/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.pdf) | [Markdown](markdown/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.md) |
@@ -21,12 +30,3 @@ Publication-date window (inclusive): **2026-10-06 to 2026-10-13**. Older archive
 | 2026-10-07 | IF13326 v1 | Medicaid Program Integrity: Background and Resources | [PDF](pdf/in-focus/IF13326v1-2026-10-07-cafe47c18164b747.pdf) | [Markdown](markdown/in-focus/IF13326v1-2026-10-07-cafe47c18164b747.md) |
 | 2026-10-07 | IF12766 v4 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v4-2026-10-07-4da025a1f39cfef4.pdf) | [Markdown](markdown/in-focus/IF12766v4-2026-10-07-4da025a1f39cfef4.md) |
 | 2026-10-07 | IF10890 v23 | China Primer: Illicit Fentanyl and China’s Role | [PDF](pdf/in-focus/IF10890v23-2026-10-07-fbfa23c5bc54bf1b.pdf) | [Markdown](markdown/in-focus/IF10890v23-2026-10-07-fbfa23c5bc54bf1b.md) |
-| 2026-10-06 | R49478 v1 | El Salvador in Brief: Overview and U.S. Relations | [PDF](pdf/reports/R49478v1-2026-10-06-302a8a4adc106377.pdf) | [Markdown](markdown/reports/R49478v1-2026-10-06-302a8a4adc106377.md) |
-| 2026-10-06 | R46911 v9 | Drought in the United States: Science, Policy, and Selected Federal Authorities | [PDF](pdf/reports/R46911v9-2026-10-06-71981cb63acc503e.pdf) | [Markdown](markdown/reports/R46911v9-2026-10-06-71981cb63acc503e.md) |
-| 2026-10-06 | R44628 v7 | Election and Voting Law: Resources for Congressional Offices | [PDF](pdf/reports/R44628v7-2026-10-06-e195b94077ef8f33.pdf) | [Markdown](markdown/reports/R44628v7-2026-10-06-e195b94077ef8f33.md) |
-| 2026-10-06 | R40118 v29 | An Overview of the HOME Investment Partnerships Program | [PDF](pdf/reports/R40118v29-2026-10-06-5408af8cb5ae70cc.pdf) | [Markdown](markdown/reports/R40118v29-2026-10-06-5408af8cb5ae70cc.md) |
-| 2026-10-06 | LSB11457 v3 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v3-2026-10-06-30de5a1fd1e543c4.pdf) | [Markdown](markdown/sidebars/LSB11457v3-2026-10-06-30de5a1fd1e543c4.md) |
-| 2026-10-06 | IF13325 v1 | Private Rights of Action: Authorizing Lawsuits to Enforce Federal Law | [PDF](pdf/in-focus/IF13325v1-2026-10-06-08d5f53ac38f0b25.pdf) | [Markdown](markdown/in-focus/IF13325v1-2026-10-06-08d5f53ac38f0b25.md) |
-| 2026-10-06 | IF11807 v2 | GAO and Inspector General Recommendations to Agencies: An Introduction | [PDF](pdf/in-focus/IF11807v2-2026-10-06-c744a2b6894dcf42.pdf) | [Markdown](markdown/in-focus/IF11807v2-2026-10-06-c744a2b6894dcf42.md) |
-| 2026-10-06 | IF11755 v20 | The Marine Corps’ Amphibious Combat Vehicle | [PDF](pdf/in-focus/IF11755v20-2026-10-06-eac22edf9469f6c9.pdf) | [Markdown](markdown/in-focus/IF11755v20-2026-10-06-eac22edf9469f6c9.md) |
-| 2026-10-06 | IF11349 v4 | Lawsuits Against the Federal Government: Basic Federal Court Procedure and Timelines | [PDF](pdf/in-focus/IF11349v4-2026-10-06-e8508d1db3f2fe85.pdf) | [Markdown](markdown/in-focus/IF11349v4-2026-10-06-e8508d1db3f2fe85.md) |
