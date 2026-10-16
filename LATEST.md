@@ -1,11 +1,21 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-08 to 2026-10-15**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-09 to 2026-10-16**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-15 | R49488 v1 | The Unemployment Trust Fund: FY2026 Income, Outlays, and End-of-Year Balances | [PDF](pdf/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.pdf) | [Markdown](markdown/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.md) |
+| 2026-10-15 | R48136 v5 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.pdf) | [Markdown](markdown/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.md) |
+| 2026-10-15 | R43657 v5 | Funding for the Impact Aid Program: Options for Budget Year Appropriations, Forward Funding, and Advance Appropriations | [PDF](pdf/reports/R43657v5-2026-10-15-ed1434e17c64c5ec.pdf) | [Markdown](markdown/reports/R43657v5-2026-10-15-ed1434e17c64c5ec.md) |
+| 2026-10-15 | IN12748 v1 | Department of Transportation’s “Family Friendly” Policy and Public Transit Project Funding | [PDF](pdf/insights/IN12748v1-2026-10-15-a948b4e20bbc7c67.pdf) | [Markdown](markdown/insights/IN12748v1-2026-10-15-a948b4e20bbc7c67.md) |
+| 2026-10-15 | IF12408 v9 | New Adverse Effect Wage Rate Methodology for Temporary Employment of H-2A Nonimmigrants in the United States | [PDF](pdf/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.pdf) | [Markdown](markdown/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.md) |
+| 2026-10-15 | IF12094 v22 | The Army’s XM-30 Mechanized Infantry Combat Vehicle | [PDF](pdf/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.pdf) | [Markdown](markdown/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.md) |
+| 2026-10-15 | IF10767 v23 | Farm Credit Administration and Its Board Members | [PDF](pdf/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.pdf) | [Markdown](markdown/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.md) |
+| 2026-10-14 | R49487 v1 | Russia’s Arctic Military Posture: Considerations for Congress | [PDF](pdf/reports/R49487v1-2026-10-14-68d3e48ecab3b101.pdf) | [Markdown](markdown/reports/R49487v1-2026-10-14-68d3e48ecab3b101.md) |
+| 2026-10-14 | R49486 v2 | Clean Water Act Permitting: Overview and Policy Issues | [PDF](pdf/reports/R49486v2-2026-10-14-551396fc79dbcbcc.pdf) | [Markdown](markdown/reports/R49486v2-2026-10-14-551396fc79dbcbcc.md) |
 | 2026-10-14 | R44504 v26 | Five-Year Offshore Oil and Gas Leasing Program: History and Background | [PDF](pdf/reports/R44504v26-2026-10-14-e71959fdbc2ba8fc.pdf) | [Markdown](markdown/reports/R44504v26-2026-10-14-e71959fdbc2ba8fc.md) |
 | 2026-10-14 | LSB11489 v1 | SEC Proposes Rescission of the Shareholder Proposal Rule | [PDF](pdf/sidebars/LSB11489v1-2026-10-14-b086161bfcc22891.pdf) | [Markdown](markdown/sidebars/LSB11489v1-2026-10-14-b086161bfcc22891.md) |
+| 2026-10-14 | IN12747 v1 | H-1B Executive Actions in 2026 | [PDF](pdf/insights/IN12747v1-2026-10-14-1fb7d9356adb7839.pdf) | [Markdown](markdown/insights/IN12747v1-2026-10-14-1fb7d9356adb7839.md) |
 | 2026-10-14 | IN12746 v1 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v1-2026-10-14-bd3d7105b09a2817.pdf) | [Markdown](markdown/insights/IN12746v1-2026-10-14-bd3d7105b09a2817.md) |
 | 2026-10-14 | IF13217 v4 | Federal Government and Anthropic: Considerations for AI Innovation and Competition | [PDF](pdf/in-focus/IF13217v4-2026-10-14-6c9f1a786993ce3d.pdf) | [Markdown](markdown/in-focus/IF13217v4-2026-10-14-6c9f1a786993ce3d.md) |
 | 2026-10-14 | IF12953 v4 | The Office of Navajo and Hopi Indian Relocation | [PDF](pdf/in-focus/IF12953v4-2026-10-14-b72ac650b67b4bc1.pdf) | [Markdown](markdown/in-focus/IF12953v4-2026-10-14-b72ac650b67b4bc1.md) |
@@ -25,9 +35,3 @@ Publication-date window (inclusive): **2026-10-08 to 2026-10-15**. Older archive
 | 2026-10-09 | IF13328 v5 | State and Local Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.pdf) | [Markdown](markdown/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.md) |
 | 2026-10-09 | IF13327 v3 | Disabled Adult Child (DAC) Passalong of Medicaid Coverage | [PDF](pdf/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.pdf) | [Markdown](markdown/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.md) |
 | 2026-10-09 | IF11090 v9 | The Terrorism Risk Insurance Act (TRIA) | [PDF](pdf/in-focus/IF11090v9-2026-10-09-3425bbd807eb0aa2.pdf) | [Markdown](markdown/in-focus/IF11090v9-2026-10-09-3425bbd807eb0aa2.md) |
-| 2026-10-08 | R49483 v1 | Ex Parte Communications in Informal Rulemaking: A Legal Framework | [PDF](pdf/reports/R49483v1-2026-10-08-c70182fe3a6f075f.pdf) | [Markdown](markdown/reports/R49483v1-2026-10-08-c70182fe3a6f075f.md) |
-| 2026-10-08 | R49482 v1 | Retail Electricity Rates and Utility Return on Equity: State Primacy and Federal Influence | [PDF](pdf/reports/R49482v1-2026-10-08-a679afdd7eff7d07.pdf) | [Markdown](markdown/reports/R49482v1-2026-10-08-a679afdd7eff7d07.md) |
-| 2026-10-08 | R49481 v1 | Active Presidential Tariff Actions in 2026: Fact Sheet | [PDF](pdf/reports/R49481v1-2026-10-08-507bde98b70fb605.pdf) | [Markdown](markdown/reports/R49481v1-2026-10-08-507bde98b70fb605.md) |
-| 2026-10-08 | LSB11487 v1 | Artificial Intelligence and Federal Criminal Law: Considerations for Congress | [PDF](pdf/sidebars/LSB11487v1-2026-10-08-ec1b67044ca8b97f.pdf) | [Markdown](markdown/sidebars/LSB11487v1-2026-10-08-ec1b67044ca8b97f.md) |
-| 2026-10-08 | LSB10837 v2 | Ranked-Choice Voting: Legal Challenges and Considerations for Congress | [PDF](pdf/sidebars/LSB10837v2-2026-10-08-788ee59cb13dacfb.pdf) | [Markdown](markdown/sidebars/LSB10837v2-2026-10-08-788ee59cb13dacfb.md) |
-| 2026-10-08 | IF13034 v7 | Offshore Wind: Status and Issues for the 119th Congress | [PDF](pdf/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.pdf) | [Markdown](markdown/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.md) |
