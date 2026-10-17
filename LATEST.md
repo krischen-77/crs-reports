@@ -1,9 +1,11 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-09 to 2026-10-16**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-10 to 2026-10-17**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-16 | R48566 v3 | The Motion to Recommit in the House | [PDF](pdf/reports/R48566v3-2026-10-16-bec92c7b1de8de86.pdf) | [Markdown](markdown/reports/R48566v3-2026-10-16-bec92c7b1de8de86.md) |
+| 2026-10-16 | IF13329 v1 | When a Case Can Be Filed: Statutes of Limitations and Statutes of Repose | [PDF](pdf/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.pdf) | [Markdown](markdown/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.md) |
 | 2026-10-15 | R49488 v1 | The Unemployment Trust Fund: FY2026 Income, Outlays, and End-of-Year Balances | [PDF](pdf/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.pdf) | [Markdown](markdown/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.md) |
 | 2026-10-15 | R48136 v5 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.pdf) | [Markdown](markdown/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.md) |
 | 2026-10-15 | R43657 v5 | Funding for the Impact Aid Program: Options for Budget Year Appropriations, Forward Funding, and Advance Appropriations | [PDF](pdf/reports/R43657v5-2026-10-15-ed1434e17c64c5ec.pdf) | [Markdown](markdown/reports/R43657v5-2026-10-15-ed1434e17c64c5ec.md) |
@@ -30,8 +32,3 @@ Publication-date window (inclusive): **2026-10-09 to 2026-10-16**. Older archive
 | 2026-10-13 | IF12106 v23 | Iran and Nuclear Weapons Production | [PDF](pdf/in-focus/IF12106v23-2026-10-13-cf6dc20e854b7387.pdf) | [Markdown](markdown/in-focus/IF12106v23-2026-10-13-cf6dc20e854b7387.md) |
 | 2026-10-13 | IF11583 v31 | Iran’s Nuclear Program and 2025 UN Sanctions Reimposition | [PDF](pdf/in-focus/IF11583v31-2026-10-13-daeafbd388a80a43.pdf) | [Markdown](markdown/in-focus/IF11583v31-2026-10-13-daeafbd388a80a43.md) |
 | 2026-10-13 | IF10472 v44 | North Korea’s Nuclear Weapons and Missile Programs | [PDF](pdf/in-focus/IF10472v44-2026-10-13-a7c2b178ba0caa2a.pdf) | [Markdown](markdown/in-focus/IF10472v44-2026-10-13-a7c2b178ba0caa2a.md) |
-| 2026-10-09 | R49485 v1 | Amending the National Environmental Policy Act: Analysis of the SPEED Act (H.R. 4776) | [PDF](pdf/reports/R49485v1-2026-10-09-1d7af760f26284a9.pdf) | [Markdown](markdown/reports/R49485v1-2026-10-09-1d7af760f26284a9.md) |
-| 2026-10-09 | R49484 v1 | 2026 Ebola Outbreak: Frequently Asked Questions | [PDF](pdf/reports/R49484v1-2026-10-09-79a91f301b9ba507.pdf) | [Markdown](markdown/reports/R49484v1-2026-10-09-79a91f301b9ba507.md) |
-| 2026-10-09 | IF13328 v5 | State and Local Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.pdf) | [Markdown](markdown/in-focus/IF13328v5-2026-10-09-c2c1e5f85481176b.md) |
-| 2026-10-09 | IF13327 v3 | Disabled Adult Child (DAC) Passalong of Medicaid Coverage | [PDF](pdf/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.pdf) | [Markdown](markdown/in-focus/IF13327v3-2026-10-09-363b13301fdacc67.md) |
-| 2026-10-09 | IF11090 v9 | The Terrorism Risk Insurance Act (TRIA) | [PDF](pdf/in-focus/IF11090v9-2026-10-09-3425bbd807eb0aa2.pdf) | [Markdown](markdown/in-focus/IF11090v9-2026-10-09-3425bbd807eb0aa2.md) |
