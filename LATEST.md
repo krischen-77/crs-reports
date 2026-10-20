@@ -1,10 +1,20 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-12 to 2026-10-19**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-13 to 2026-10-20**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-19 | R48645 v3 | Establishment Clause Limits on Government Support for Religion | [PDF](pdf/reports/R48645v3-2026-10-19-ce9d297792ca8b2d.pdf) | [Markdown](markdown/reports/R48645v3-2026-10-19-ce9d297792ca8b2d.md) |
+| 2026-10-19 | R48033 v6 | Class VI Carbon Sequestration Wells: Permitting and State Program Primacy | [PDF](pdf/reports/R48033v6-2026-10-19-fd8f1e0c7e8aa340.pdf) | [Markdown](markdown/reports/R48033v6-2026-10-19-fd8f1e0c7e8aa340.md) |
+| 2026-10-19 | R46565 v8 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v8-2026-10-19-53475dad00dc85a8.pdf) | [Markdown](markdown/reports/R46565v8-2026-10-19-53475dad00dc85a8.md) |
+| 2026-10-19 | LSB11491 v2 | IRS Proposed Regulations on Racial Nondiscrimination in Private Schools | [PDF](pdf/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.pdf) | [Markdown](markdown/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.md) |
+| 2026-10-19 | LSB11170 v5 | Circuit Split on Constitutionality of Federal Felon-in-Possession Prohibition Persists After Supreme Court Denies Review | [PDF](pdf/sidebars/LSB11170v5-2026-10-19-8b9737e76a055900.pdf) | [Markdown](markdown/sidebars/LSB11170v5-2026-10-19-8b9737e76a055900.md) |
+| 2026-10-19 | IG10102 v1 | State Proposals to Change Daylight Saving Time Observance | [PDF](pdf/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.pdf) | [Markdown](markdown/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.md) |
+| 2026-10-19 | IF13330 v1 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.pdf) | [Markdown](markdown/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.md) |
+| 2026-10-19 | IF12201 v3 | Farm Bill Primer: Federal Crop Insurance Program | [PDF](pdf/in-focus/IF12201v3-2026-10-19-268e83dc02369817.pdf) | [Markdown](markdown/in-focus/IF12201v3-2026-10-19-268e83dc02369817.md) |
+| 2026-10-19 | IF11797 v31 | The Army’s Multi-Domain Task Force | [PDF](pdf/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.pdf) | [Markdown](markdown/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.md) |
 | 2026-10-16 | R48566 v3 | The Motion to Recommit in the House | [PDF](pdf/reports/R48566v3-2026-10-16-bec92c7b1de8de86.pdf) | [Markdown](markdown/reports/R48566v3-2026-10-16-bec92c7b1de8de86.md) |
+| 2026-10-16 | LSB11490 v1 | The Commerce Clause and Federal Firearms Prohibitions | [PDF](pdf/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.pdf) | [Markdown](markdown/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.md) |
 | 2026-10-16 | IF13329 v1 | When a Case Can Be Filed: Statutes of Limitations and Statutes of Repose | [PDF](pdf/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.pdf) | [Markdown](markdown/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.md) |
 | 2026-10-15 | R49488 v1 | The Unemployment Trust Fund: FY2026 Income, Outlays, and End-of-Year Balances | [PDF](pdf/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.pdf) | [Markdown](markdown/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.md) |
 | 2026-10-15 | R48136 v5 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.pdf) | [Markdown](markdown/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.md) |
