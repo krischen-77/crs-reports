@@ -2,89 +2,10 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-10-21",
+      "last_attempt": "2026-10-22",
       "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-23",
+      "next_retry": "2026-10-24",
       "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "7",
-        "date": "2011-06-03",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R41241",
-            "sha1": "af43561aac37f3493a991fe9c205c5f654a3d1ce",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20110603_R41241_af43561aac37f3493a991fe9c205c5f654a3d1ce.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R41241",
-            "sha1": "8dc00e6b695c3fb461792a4cda2ca5f6987ea744",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20110603_R41241_8dc00e6b695c3fb461792a4cda2ca5f6987ea744.pdf"
-            ]
-          }
-        },
-        "id": "R41241",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R41241",
-          "http://www.crs.gov/Reports/pdf/R41241"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "414979",
-        "title": "Economic Development Administration: A Review of Elements of Its Statutory History",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-21",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-23",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "11",
-        "date": "2016-03-07",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R41283",
-            "sha1": "1fcaafb94febc1fb1774cfd2317f633f9d4829a8",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160307_R41283_1fcaafb94febc1fb1774cfd2317f633f9d4829a8.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R41283",
-            "sha1": "2a1f9b637593eef08270a66e3b0c2589aa5951c5",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160307_R41283_2a1f9b637593eef08270a66e3b0c2589aa5951c5.pdf"
-            ]
-          }
-        },
-        "id": "R41283",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R41283",
-          "http://www.crs.gov/Reports/pdf/R41283"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "450609",
-        "title": "First-Term Members of the House of Representatives and Senate, 64th-114th Congresses",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -121,8 +42,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-22",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-10-24",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "5",
@@ -9210,6 +9133,88 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "441701",
         "title": "Reconciliation Directives: Components and Enforcement",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-21",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-23",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "7",
+        "date": "2011-06-03",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R41241",
+            "sha1": "af43561aac37f3493a991fe9c205c5f654a3d1ce",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20110603_R41241_af43561aac37f3493a991fe9c205c5f654a3d1ce.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R41241",
+            "sha1": "8dc00e6b695c3fb461792a4cda2ca5f6987ea744",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20110603_R41241_8dc00e6b695c3fb461792a4cda2ca5f6987ea744.pdf"
+            ]
+          }
+        },
+        "id": "R41241",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R41241",
+          "http://www.crs.gov/Reports/pdf/R41241"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "414979",
+        "title": "Economic Development Administration: A Review of Elements of Its Statutory History",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-21",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-23",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "11",
+        "date": "2016-03-07",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R41283",
+            "sha1": "1fcaafb94febc1fb1774cfd2317f633f9d4829a8",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20160307_R41283_1fcaafb94febc1fb1774cfd2317f633f9d4829a8.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R41283",
+            "sha1": "2a1f9b637593eef08270a66e3b0c2589aa5951c5",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20160307_R41283_2a1f9b637593eef08270a66e3b0c2589aa5951c5.pdf"
+            ]
+          }
+        },
+        "id": "R41283",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R41283",
+          "http://www.crs.gov/Reports/pdf/R41283"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "450609",
+        "title": "First-Term Members of the House of Representatives and Senate, 64th-114th Congresses",
         "version": "unknown"
       }
     }

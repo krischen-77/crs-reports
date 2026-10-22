@@ -1,15 +1,23 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-14 to 2026-10-21**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-15 to 2026-10-22**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-21 | R49359 v3 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.pdf) | [Markdown](markdown/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.md) |
+| 2026-10-21 | R49292 v3 | Interior, Environment, and Related Agencies: Overview of FY2027 Appropriations | [PDF](pdf/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.pdf) | [Markdown](markdown/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.md) |
+| 2026-10-21 | IF13333 v1 | Fair Labor Standards Act Overtime Pay Requirements | [PDF](pdf/in-focus/IF13333v1-2026-10-21-33402b7441b37a4c.pdf) | [Markdown](markdown/in-focus/IF13333v1-2026-10-21-33402b7441b37a4c.md) |
+| 2026-10-21 | IF13332 v2 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v2-2026-10-21-604f0d156c694bd0.pdf) | [Markdown](markdown/in-focus/IF13332v2-2026-10-21-604f0d156c694bd0.md) |
+| 2026-10-21 | IF12323 v2 | The Social Security Retirement Age: An Overview | [PDF](pdf/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.pdf) | [Markdown](markdown/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.md) |
+| 2026-10-20 | RL33546 v97 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v97-2026-10-20-bb54f66fe810fd78.pdf) | [Markdown](markdown/reports/RL33546v97-2026-10-20-bb54f66fe810fd78.md) |
+| 2026-10-20 | R49490 v1 | Algorithmic Discrimination: Legal Principles | [PDF](pdf/reports/R49490v1-2026-10-20-cce38f0295e594f3.pdf) | [Markdown](markdown/reports/R49490v1-2026-10-20-cce38f0295e594f3.md) |
 | 2026-10-20 | R49489 v2 | Puerto Rico Electric Power Authority (PREPA): History and Finances | [PDF](pdf/reports/R49489v2-2026-10-20-078cb7c205dd4314.pdf) | [Markdown](markdown/reports/R49489v2-2026-10-20-078cb7c205dd4314.md) |
 | 2026-10-20 | R49354 v4 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v4-2026-10-20-e270e6afcc413846.pdf) | [Markdown](markdown/reports/R49354v4-2026-10-20-e270e6afcc413846.md) |
 | 2026-10-20 | R48922 v16 | Comparison of Selected Versions of H.R. 6644 | [PDF](pdf/reports/R48922v16-2026-10-20-76dae2b971f6192e.pdf) | [Markdown](markdown/reports/R48922v16-2026-10-20-76dae2b971f6192e.md) |
 | 2026-10-20 | R48849 v10 | Housing for the 21st Century Act | [PDF](pdf/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.pdf) | [Markdown](markdown/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.md) |
 | 2026-10-20 | R48732 v7 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v7-2026-10-20-e74ce1675252b123.pdf) | [Markdown](markdown/reports/R48732v7-2026-10-20-e74ce1675252b123.md) |
 | 2026-10-20 | R46833 v6 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v6-2026-10-20-c89565604a23e3ae.pdf) | [Markdown](markdown/reports/R46833v6-2026-10-20-c89565604a23e3ae.md) |
+| 2026-10-20 | LSB11492 v1 | The Fourth Amendment and the Speech or Debate Clause | [PDF](pdf/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.pdf) | [Markdown](markdown/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.md) |
 | 2026-10-20 | IN12665 v6 | U.S. Military Operations Against Iran’s Missile and Nuclear Programs | [PDF](pdf/insights/IN12665v6-2026-10-20-3c347d3e055b23e5.pdf) | [Markdown](markdown/insights/IN12665v6-2026-10-20-3c347d3e055b23e5.md) |
 | 2026-10-20 | IF13331 v1 | Geothermal Resources for Energy Development in the United States | [PDF](pdf/in-focus/IF13331v1-2026-10-20-d543fb54a744682f.pdf) | [Markdown](markdown/in-focus/IF13331v1-2026-10-20-d543fb54a744682f.md) |
 | 2026-10-20 | IF12809 v3 | The Section 45X Advanced Manufacturing Production Credit | [PDF](pdf/in-focus/IF12809v3-2026-10-20-7b29dc68c2075dd1.pdf) | [Markdown](markdown/in-focus/IF12809v3-2026-10-20-7b29dc68c2075dd1.md) |
@@ -36,14 +44,3 @@ Publication-date window (inclusive): **2026-10-14 to 2026-10-21**. Older archive
 | 2026-10-15 | IF12408 v9 | New Adverse Effect Wage Rate Methodology for Temporary Employment of H-2A Nonimmigrants in the United States | [PDF](pdf/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.pdf) | [Markdown](markdown/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.md) |
 | 2026-10-15 | IF12094 v22 | The Army’s XM-30 Mechanized Infantry Combat Vehicle | [PDF](pdf/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.pdf) | [Markdown](markdown/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.md) |
 | 2026-10-15 | IF10767 v23 | Farm Credit Administration and Its Board Members | [PDF](pdf/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.pdf) | [Markdown](markdown/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.md) |
-| 2026-10-14 | R49487 v1 | Russia’s Arctic Military Posture: Considerations for Congress | [PDF](pdf/reports/R49487v1-2026-10-14-68d3e48ecab3b101.pdf) | [Markdown](markdown/reports/R49487v1-2026-10-14-68d3e48ecab3b101.md) |
-| 2026-10-14 | R49486 v2 | Clean Water Act Permitting: Overview and Policy Issues | [PDF](pdf/reports/R49486v2-2026-10-14-551396fc79dbcbcc.pdf) | [Markdown](markdown/reports/R49486v2-2026-10-14-551396fc79dbcbcc.md) |
-| 2026-10-14 | R44504 v26 | Five-Year Offshore Oil and Gas Leasing Program: History and Background | [PDF](pdf/reports/R44504v26-2026-10-14-e71959fdbc2ba8fc.pdf) | [Markdown](markdown/reports/R44504v26-2026-10-14-e71959fdbc2ba8fc.md) |
-| 2026-10-14 | LSB11489 v1 | SEC Proposes Rescission of the Shareholder Proposal Rule | [PDF](pdf/sidebars/LSB11489v1-2026-10-14-b086161bfcc22891.pdf) | [Markdown](markdown/sidebars/LSB11489v1-2026-10-14-b086161bfcc22891.md) |
-| 2026-10-14 | IN12747 v1 | H-1B Executive Actions in 2026 | [PDF](pdf/insights/IN12747v1-2026-10-14-1fb7d9356adb7839.pdf) | [Markdown](markdown/insights/IN12747v1-2026-10-14-1fb7d9356adb7839.md) |
-| 2026-10-14 | IN12746 v1 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v1-2026-10-14-bd3d7105b09a2817.pdf) | [Markdown](markdown/insights/IN12746v1-2026-10-14-bd3d7105b09a2817.md) |
-| 2026-10-14 | IF13217 v4 | Federal Government and Anthropic: Considerations for AI Innovation and Competition | [PDF](pdf/in-focus/IF13217v4-2026-10-14-6c9f1a786993ce3d.pdf) | [Markdown](markdown/in-focus/IF13217v4-2026-10-14-6c9f1a786993ce3d.md) |
-| 2026-10-14 | IF12953 v4 | The Office of Navajo and Hopi Indian Relocation | [PDF](pdf/in-focus/IF12953v4-2026-10-14-b72ac650b67b4bc1.pdf) | [Markdown](markdown/in-focus/IF12953v4-2026-10-14-b72ac650b67b4bc1.md) |
-| 2026-10-14 | IF11911 v5 | Connecting Constituents with Federal Programs for Drinking Water and Wastewater Infrastructure Projects | [PDF](pdf/in-focus/IF11911v5-2026-10-14-9ab3d0c7d0990a82.pdf) | [Markdown](markdown/in-focus/IF11911v5-2026-10-14-9ab3d0c7d0990a82.md) |
-| 2026-10-14 | IF11096 v5 | The Congressional Review Act: Defining a “Rule” and Overturning a Rule an Agency Did Not Submit to Congress | [PDF](pdf/in-focus/IF11096v5-2026-10-14-63d12eb289e1f7d8.pdf) | [Markdown](markdown/in-focus/IF11096v5-2026-10-14-63d12eb289e1f7d8.md) |
-| 2026-10-14 | 94-834 v35 | Cost-of-Living Adjustments for Federal Civil Service Annuities | [PDF](pdf/reports/94-834v35-2026-10-14-495eaa7c9425aa86.pdf) | [Markdown](markdown/reports/94-834v35-2026-10-14-495eaa7c9425aa86.md) |
