@@ -1,0 +1,75 @@
+name: CRS canonical freshness guard
+"on":
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/finalize-crs-repair.yml']
+permissions:
+  contents: read
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: crs-archive-main
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with: {ref: main, fetch-depth: 1}
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with: {python-version: '3.12', cache: pip}
+      - run: python -m pip install -r requirements.txt
+      - name: Apply bounded cache freshness guard
+        shell: python
+        run: |
+          from pathlib import Path
+          path=Path('tools/official_pipeline.py');text=path.read_text()
+          old="            if record.get('signal')!=signal(row) or not record.get('task'):raise ValueError('Current official details not verified; retry retained')"
+          new="            if (record.get('signal')!=signal(row) or not record.get('task') or str(record.get('detail_checked_at',''))[:10]!=p['end']):raise ValueError('Current official details not verified for this date; retry retained')"
+          if old in text:
+              assert text.count(old)==1;text=text.replace(old,new)
+          else:assert new in text,'Unexpected source; refusing to patch'
+          text=text.replace("official_current_pending=len(pending),official_reconciled_at=now,","official_current_pending=len(pending),official_reconciled_at=now,official_new_pdf_versions=len(new),")
+          path.write_text(text)
+          test=Path('tools/tests/test_official_freshness.py')
+          test.write_text('''import contextlib,io,tempfile,unittest,sys
+          from pathlib import Path
+          from unittest.mock import patch
+          sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+          import official_pipeline as p
+          class FreshnessTests(unittest.TestCase):
+              def test_old_cache_cannot_hide_failed_refresh(self):
+                  with tempfile.TemporaryDirectory() as d:
+                      root=Path(d);(root/'data').mkdir();parts=root/'parts';parts.mkdir()
+                      row={'id':'R10001','title':'Example','publishDate':'2026-07-31','updateDate':'2026-10-22'}
+                      task={'id':'R10001','title':'Example','date':'2026-07-31','version':'5','formats':{'PDF':{'urls':['https://www.congress.gov/example.pdf'],'sha1':''}}}
+                      cache={'R10001':{'signal':p.signal(row),'task':task,'detail_checked_at':'2026-10-22T23:00:00Z','pdf_sha256':'unused'}}
+                      plan={'start':'2026-10-16','end':'2026-10-23','cache':cache,'required':{'R10001':row},'official_rows':[row],'source_count':1,'coverage_note':'test'}
+                      p.s.write_json(root/'plan.json',plan)
+                      with patch.object(p,'save_current',side_effect=AssertionError('Stale cache must not reach archive reuse')) as save,contextlib.redirect_stdout(io.StringIO()):
+                          result=p.aggregate(root,root/'out',root/'plan.json',parts)
+                      self.assertEqual(result,1);save.assert_not_called()
+                      self.assertEqual(len(p.s.read_json(root/'data/official-pending.json',[])),1)
+          ''')
+      - name: Validate all collector and canonical tests
+        run: |
+          python -m unittest discover -s tests -v
+          python -m unittest discover -s tools/tests -v
+          python -m unittest discover -s .github/audits -p 'test_*.py' -v
+      - name: Commit the verified guard without rewriting archived data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tools/official_pipeline.py tools/tests/test_official_freshness.py
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'fix: reject stale official-current cache when metadata refresh was unresolved'
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            sleep "$((attempt * 5))"
+            git pull --rebase origin main
+          done
+          exit 1
