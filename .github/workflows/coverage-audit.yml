@@ -1,0 +1,120 @@
+name: CRS independent coverage audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/coverage-audit.yml']
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Independently collect current source evidence and validate stored files
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        shell: python
+        run: |
+          import sys, os, json, hashlib, csv, io, time, shutil, subprocess
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+          from urllib.parse import urlencode
+          sys.path.insert(0, 'scripts')
+          import sync_crs as s
+          out = Path('coverage-evidence'); out.mkdir(exist_ok=True)
+          now = datetime.now(timezone.utc); end = now.date(); start = end - timedelta(days=7)
+          http = s.HTTP(os.getenv('CONGRESS_API_KEY', ''))
+          receipt = {'checked_at': now.isoformat(), 'start': str(start), 'end': str(end), 'head': subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip(), 'sources': {}, 'missing': [], 'invalid_files': []}
+          def save(name, value):
+              (out / name).write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n')
+          for url, name in [('https://www.congress.gov/crs-products', 'official-browse.html')]:
+              try:
+                  raw, actual = http.get(url); (out/name).write_bytes(raw)
+                  receipt['sources'][name] = {'ok': True, 'url': actual, 'bytes': len(raw)}
+              except Exception as exc:
+                  receipt['sources'][name] = {'ok': False, 'error': str(exc)}
+          rows = []
+          try:
+              # Query the full live update window independently of candidate selection.
+              offset = 0
+              while True:
+                  params = {'format':'json','limit':250,'offset':offset,'fromDateTime':str(start)+'T00:00:00Z','toDateTime':str(end)+'T23:59:59Z'}
+                  page = http.json(s.API+'?'+urlencode(params)); save('official-page-'+str(offset)+'.json', page)
+                  batch = next(v for k,v in page.items() if k.lower()=='crsreports')
+                  rows.extend(batch); offset += len(batch)
+                  if not page.get('pagination',{}).get('next'):
+                      assert offset >= int(page.get('pagination',{}).get('count',0)); break
+                  assert batch and offset < 10000
+              receipt['sources']['official_api'] = {'ok':True,'count':len(rows)}
+          except Exception as exc:
+              receipt['sources']['official_api'] = {'ok':False,'error':str(exc),'partial_count':len(rows)}
+          save('official-list.json', rows)
+          mirror = {}
+          try:
+              raw, actual = http.get(s.MIRROR+'reports.csv'); (out/'mirror.csv').write_bytes(raw)
+              mirror = s.parse_catalog(raw)
+              receipt['sources']['mirror'] = {'ok':True,'count':len(mirror)}
+          except Exception as exc:
+              receipt['sources']['mirror'] = {'ok':False,'error':str(exc)}
+          manifest = json.loads(Path('data/archive-manifest.json').read_text())
+          for v in manifest:
+              try:
+                  pdf = Path(v['pdf']).read_bytes()
+                  assert pdf.lstrip().startswith(b'%PDF-')
+                  assert hashlib.sha256(pdf).hexdigest()==v['pdf_sha256']
+                  assert hashlib.sha1(pdf).hexdigest()==v['pdf_sha1']
+                  with s.fitz.open(stream=pdf,filetype='pdf') as doc:
+                      assert len(doc)>0 and not doc.needs_pass
+                  assert Path(v['markdown']).is_file()
+                  if v.get('html'): assert hashlib.sha256(Path(v['html']).read_bytes()).hexdigest()==v['html_sha256']
+              except Exception as exc:
+                  receipt['invalid_files'].append({'id':v['id'],'pdf':v['pdf'],'error':str(exc)})
+          recent_api = {r['id']:r for r in rows if start <= str(r.get('publishDate',''))[:10] <= str(end)}
+          recent_mirror = {i:r for i,r in mirror.items() if str(start)<=r.get('published','')<=str(end)}
+          # Python date/string comparisons are deliberately normalized below.
+          ids = sorted(set(recent_api)|set(recent_mirror))
+          checks = []
+          for ident in ids:
+              a = recent_api.get(ident, {})
+              local = [v for v in manifest if v['id']==ident]
+              check = {'id':ident,'api':a,'mirror':recent_mirror.get(ident,{}),'local':[{'date':v['date'],'version':v['version'],'pdf':v['pdf'],'sha1':v['pdf_sha1'],'sha256':v['pdf_sha256'],'pdf_source':v['pdf_source']} for v in local]}
+              try:
+                  obj = http.json(s.MIRROR+'reports/'+ident+'.json'); save('mirror-'+ident+'.json', obj)
+                  wanted = [v for v in obj.get('versions',[]) if str(start)<=str(v.get('date',''))[:10]<=str(end)]
+                  check['mirror_versions'] = []
+                  for version in wanted:
+                      f = next((f for f in version.get('formats',[]) if str(f.get('format','')).upper()=='PDF'),None)
+                      if f:
+                          match = [v for v in local if f.get('sha1') and v.get('pdf_sha1')==f['sha1']]
+                          check['mirror_versions'].append({'date':version['date'],'id':version.get('id'),'format':f,'exact_hash_present':bool(match)})
+                          if not match: receipt['missing'].append({'id':ident,'reason':'mirror PDF hash not archived','date':version['date'],'format':f})
+              except Exception as exc:
+                  check['mirror_error'] = str(exc)
+              if a and not any(v['date']>=a['publishDate'][:10] for v in local):
+                  receipt['missing'].append({'id':ident,'reason':'no current official publication date in archive','api':a})
+              checks.append(check)
+          save('comparisons.json',checks)
+          receipt.update(official_recent_ids=len(recent_api),mirror_recent_ids=len(recent_mirror),union_ids=len(ids),archived_versions=len(manifest),newest_archived=max(v['date'] for v in manifest),api_requests=http.api_calls)
+          save('receipt.json',receipt)
+          print(json.dumps(receipt,ensure_ascii=False,indent=2))
+      - name: Preserve audit inputs and current implementation for review
+        if: always()
+        run: |
+          mkdir -p coverage-evidence/repository
+          cp -R scripts tests .github requirements.txt README.md LATEST.md coverage-evidence/repository/
+          cp -R data metadata coverage-evidence/repository/
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: crs-independent-coverage-evidence
+          path: coverage-evidence/
+          retention-days: 7
