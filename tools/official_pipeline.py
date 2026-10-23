@@ -150,7 +150,7 @@ def aggregate(root,out,plan_path,parts):
         record=cache.get(ident,{})
         check=dict(id=ident,title=row.get('title',''),api_publication=row.get('publishDate','')[:10],api_update=row.get('updateDate',''))
         try:
-            if record.get('signal')!=signal(row) or not record.get('task'):raise ValueError('Current official details not verified; retry retained')
+            if (record.get('signal')!=signal(row) or not record.get('task') or str(record.get('detail_checked_at',''))[:10]!=p['end']):raise ValueError('Current official details not verified for this date; retry retained')
             entry,is_new,notices=save_current(http,root,record,archives)
             if not verify_local(root,entry):raise ValueError('Saved PDF failed actual hash verification')
             archives=[v for v in archives if not (v['id']==ident and v['pdf_sha256']==entry['pdf_sha256'])]+[entry]
@@ -195,7 +195,7 @@ def aggregate(root,out,plan_path,parts):
         writer.writeheader();writer.writerows(checks)
     status=s.read_json(root/'data/status.json',{})
     status.update(official_current_required=len(checks),official_current_verified=receipt['official_current_verified'],
-        official_current_pending=len(pending),official_reconciled_at=now,
+        official_current_pending=len(pending),official_reconciled_at=now,official_new_pdf_versions=len(new),
         total_archived_pdf_versions=len(archives),total_html_snapshots=sum(bool(v.get('html')) for v in archives),
         total_pdf_bytes=sum((root/v['pdf']).stat().st_size for v in archives))
     if pending:status.update(result='failed',primary_pdf_complete=False)
