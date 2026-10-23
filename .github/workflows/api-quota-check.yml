@@ -1,0 +1,23 @@
+name: CRS API quota observation
+"on":
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/api-quota-check.yml']
+permissions:
+  contents: read
+jobs:
+  quota:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Observe public API response quota headers once
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        shell: python
+        run: |
+          import urllib.request,os,json
+          req=urllib.request.Request('https://api.congress.gov/v3/crsreport/R42107?format=json',headers={'X-Api-Key':os.getenv('CONGRESS_API_KEY') or 'DEMO_KEY','User-Agent':'crs-reports-archive/1.0'})
+          with urllib.request.urlopen(req,timeout=30) as r:
+              print('HTTP',r.status)
+              print(json.dumps({k:v for k,v in r.headers.items() if k.lower().startswith(('x-ratelimit','ratelimit','retry-after','date'))},indent=2))
