@@ -2,88 +2,10 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-10-22",
+      "last_attempt": "2026-10-23",
       "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-24",
+      "next_retry": "2026-10-25",
       "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "4",
-        "date": "2010-08-16",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R41337",
-            "sha1": "76e2b6bf9609c308aa20df864dd213635625d6b4",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20100816_R41337_76e2b6bf9609c308aa20df864dd213635625d6b4.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R41337",
-            "sha1": "946376f45ef38383b8694666204114266e5f1fae",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20100816_R41337_946376f45ef38383b8694666204114266e5f1fae.pdf"
-            ]
-          }
-        },
-        "id": "R41337",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R41337",
-          "http://www.crs.gov/Reports/pdf/R41337"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "366590",
-        "title": "Independent Evaluators of Federal Programs: Approaches, Devices, and Examples",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-22",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-10-24",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "5",
-        "date": "2012-05-18",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R41413",
-            "sha1": "519ad465a1830bd87152a7d148d8d4cfd8c9808a",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20120518_R41413_519ad465a1830bd87152a7d148d8d4cfd8c9808a.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R41413",
-            "sha1": "509080236501fd6746a58c83b0fafde35c68aa8c",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20120518_R41413_509080236501fd6746a58c83b0fafde35c68aa8c.pdf"
-            ]
-          }
-        },
-        "id": "R41413",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R41413",
-          "http://www.crs.gov/Reports/pdf/R41413"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "408666",
-        "title": "The 3.8% Medicare Contribution Tax on Unearned Income, Including Real Estate Transactions",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "35",
@@ -120,8 +42,11 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-23",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-25",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "26",
@@ -9215,6 +9140,87 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "450609",
         "title": "First-Term Members of the House of Representatives and Senate, 64th-114th Congresses",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-22",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-24",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "4",
+        "date": "2010-08-16",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R41337",
+            "sha1": "76e2b6bf9609c308aa20df864dd213635625d6b4",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20100816_R41337_76e2b6bf9609c308aa20df864dd213635625d6b4.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R41337",
+            "sha1": "946376f45ef38383b8694666204114266e5f1fae",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20100816_R41337_946376f45ef38383b8694666204114266e5f1fae.pdf"
+            ]
+          }
+        },
+        "id": "R41337",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R41337",
+          "http://www.crs.gov/Reports/pdf/R41337"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "366590",
+        "title": "Independent Evaluators of Federal Programs: Approaches, Devices, and Examples",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-22",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-10-24",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "5",
+        "date": "2012-05-18",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R41413",
+            "sha1": "519ad465a1830bd87152a7d148d8d4cfd8c9808a",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20120518_R41413_519ad465a1830bd87152a7d148d8d4cfd8c9808a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R41413",
+            "sha1": "509080236501fd6746a58c83b0fafde35c68aa8c",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20120518_R41413_509080236501fd6746a58c83b0fafde35c68aa8c.pdf"
+            ]
+          }
+        },
+        "id": "R41413",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R41413",
+          "http://www.crs.gov/Reports/pdf/R41413"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "408666",
+        "title": "The 3.8% Medicare Contribution Tax on Unearned Income, Including Real Estate Transactions",
         "version": "unknown"
       }
     }

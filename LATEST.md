@@ -1,14 +1,25 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-15 to 2026-10-22**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-16 to 2026-10-23**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-22 | R49491 v1 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.pdf) | [Markdown](markdown/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.md) |
+| 2026-10-22 | R49346 v3 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.pdf) | [Markdown](markdown/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.md) |
+| 2026-10-22 | R42853 v45 | Nuclear Energy: Overview of Congressional Issues | [PDF](pdf/reports/R42853v45-2026-10-22-90116e21c39b109c.pdf) | [Markdown](markdown/reports/R42853v45-2026-10-22-90116e21c39b109c.md) |
+| 2026-10-22 | R41833 v25 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v25-2026-10-22-c60106eeaf606d8f.pdf) | [Markdown](markdown/reports/R41833v25-2026-10-22-c60106eeaf606d8f.md) |
+| 2026-10-22 | IF13092 v11 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.pdf) | [Markdown](markdown/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.md) |
+| 2026-10-22 | IF12889 v3 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.pdf) | [Markdown](markdown/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.md) |
+| 2026-10-21 | R49359 v4 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v4-2026-10-21-f1c9df285d655ddf.pdf) | [Markdown](markdown/reports/R49359v4-2026-10-21-f1c9df285d655ddf.md) |
 | 2026-10-21 | R49359 v3 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.pdf) | [Markdown](markdown/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.md) |
 | 2026-10-21 | R49292 v3 | Interior, Environment, and Related Agencies: Overview of FY2027 Appropriations | [PDF](pdf/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.pdf) | [Markdown](markdown/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.md) |
+| 2026-10-21 | IF13334 v1 | ANC, Tribal, NHO, and CDC Participation in the 8(a) Business Development Program | [PDF](pdf/in-focus/IF13334v1-2026-10-21-4d28658a647b4649.pdf) | [Markdown](markdown/in-focus/IF13334v1-2026-10-21-4d28658a647b4649.md) |
 | 2026-10-21 | IF13333 v1 | Fair Labor Standards Act Overtime Pay Requirements | [PDF](pdf/in-focus/IF13333v1-2026-10-21-33402b7441b37a4c.pdf) | [Markdown](markdown/in-focus/IF13333v1-2026-10-21-33402b7441b37a4c.md) |
+| 2026-10-21 | IF13333 v2 | Fair Labor Standards Act Overtime Pay Requirements | [PDF](pdf/in-focus/IF13333v2-2026-10-21-e6091e3ce93eb343.pdf) | [Markdown](markdown/in-focus/IF13333v2-2026-10-21-e6091e3ce93eb343.md) |
 | 2026-10-21 | IF13332 v2 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v2-2026-10-21-604f0d156c694bd0.pdf) | [Markdown](markdown/in-focus/IF13332v2-2026-10-21-604f0d156c694bd0.md) |
+| 2026-10-21 | IF13332 v3 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.pdf) | [Markdown](markdown/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.md) |
 | 2026-10-21 | IF12323 v2 | The Social Security Retirement Age: An Overview | [PDF](pdf/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.pdf) | [Markdown](markdown/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.md) |
+| 2026-10-20 | RL33546 v98 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.pdf) | [Markdown](markdown/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.md) |
 | 2026-10-20 | RL33546 v97 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v97-2026-10-20-bb54f66fe810fd78.pdf) | [Markdown](markdown/reports/RL33546v97-2026-10-20-bb54f66fe810fd78.md) |
 | 2026-10-20 | R49490 v1 | Algorithmic Discrimination: Legal Principles | [PDF](pdf/reports/R49490v1-2026-10-20-cce38f0295e594f3.pdf) | [Markdown](markdown/reports/R49490v1-2026-10-20-cce38f0295e594f3.md) |
 | 2026-10-20 | R49489 v2 | Puerto Rico Electric Power Authority (PREPA): History and Finances | [PDF](pdf/reports/R49489v2-2026-10-20-078cb7c205dd4314.pdf) | [Markdown](markdown/reports/R49489v2-2026-10-20-078cb7c205dd4314.md) |
@@ -24,6 +35,7 @@ Publication-date window (inclusive): **2026-10-15 to 2026-10-22**. Older archive
 | 2026-10-20 | IF12597 v7 | The Clery Act, as Amended by the Stop Campus Hazing Act | [PDF](pdf/in-focus/IF12597v7-2026-10-20-42b9cc6eeb9a7aa4.pdf) | [Markdown](markdown/in-focus/IF12597v7-2026-10-20-42b9cc6eeb9a7aa4.md) |
 | 2026-10-20 | IF12140 v3 | Farm Bill Primer: MAL and LDP Farm Support Programs | [PDF](pdf/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.pdf) | [Markdown](markdown/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.md) |
 | 2026-10-20 | IF11808 v13 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.pdf) | [Markdown](markdown/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.md) |
+| 2026-10-20 | IF10275 v91 | Taiwan: Background and U.S. Relations | [PDF](pdf/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.pdf) | [Markdown](markdown/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.md) |
 | 2026-10-19 | R48645 v3 | Establishment Clause Limits on Government Support for Religion | [PDF](pdf/reports/R48645v3-2026-10-19-ce9d297792ca8b2d.pdf) | [Markdown](markdown/reports/R48645v3-2026-10-19-ce9d297792ca8b2d.md) |
 | 2026-10-19 | R48033 v6 | Class VI Carbon Sequestration Wells: Permitting and State Program Primacy | [PDF](pdf/reports/R48033v6-2026-10-19-fd8f1e0c7e8aa340.pdf) | [Markdown](markdown/reports/R48033v6-2026-10-19-fd8f1e0c7e8aa340.md) |
 | 2026-10-19 | R47656 v5 | Copyright in Standards Incorporated by Reference into Law and the Pro Codes Act | [PDF](pdf/reports/R47656v5-2026-10-19-7f9a0c009c494746.pdf) | [Markdown](markdown/reports/R47656v5-2026-10-19-7f9a0c009c494746.md) |
@@ -37,10 +49,3 @@ Publication-date window (inclusive): **2026-10-15 to 2026-10-22**. Older archive
 | 2026-10-16 | R48566 v3 | The Motion to Recommit in the House | [PDF](pdf/reports/R48566v3-2026-10-16-bec92c7b1de8de86.pdf) | [Markdown](markdown/reports/R48566v3-2026-10-16-bec92c7b1de8de86.md) |
 | 2026-10-16 | LSB11490 v1 | The Commerce Clause and Federal Firearms Prohibitions | [PDF](pdf/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.pdf) | [Markdown](markdown/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.md) |
 | 2026-10-16 | IF13329 v1 | When a Case Can Be Filed: Statutes of Limitations and Statutes of Repose | [PDF](pdf/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.pdf) | [Markdown](markdown/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.md) |
-| 2026-10-15 | R49488 v1 | The Unemployment Trust Fund: FY2026 Income, Outlays, and End-of-Year Balances | [PDF](pdf/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.pdf) | [Markdown](markdown/reports/R49488v1-2026-10-15-3f0277a55b6d95a2.md) |
-| 2026-10-15 | R48136 v5 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.pdf) | [Markdown](markdown/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.md) |
-| 2026-10-15 | R43657 v5 | Funding for the Impact Aid Program: Options for Budget Year Appropriations, Forward Funding, and Advance Appropriations | [PDF](pdf/reports/R43657v5-2026-10-15-ed1434e17c64c5ec.pdf) | [Markdown](markdown/reports/R43657v5-2026-10-15-ed1434e17c64c5ec.md) |
-| 2026-10-15 | IN12748 v1 | Department of Transportation’s “Family Friendly” Policy and Public Transit Project Funding | [PDF](pdf/insights/IN12748v1-2026-10-15-a948b4e20bbc7c67.pdf) | [Markdown](markdown/insights/IN12748v1-2026-10-15-a948b4e20bbc7c67.md) |
-| 2026-10-15 | IF12408 v9 | New Adverse Effect Wage Rate Methodology for Temporary Employment of H-2A Nonimmigrants in the United States | [PDF](pdf/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.pdf) | [Markdown](markdown/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.md) |
-| 2026-10-15 | IF12094 v22 | The Army’s XM-30 Mechanized Infantry Combat Vehicle | [PDF](pdf/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.pdf) | [Markdown](markdown/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.md) |
-| 2026-10-15 | IF10767 v23 | Farm Credit Administration and Its Board Members | [PDF](pdf/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.pdf) | [Markdown](markdown/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.md) |
