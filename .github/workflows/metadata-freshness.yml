@@ -9,7 +9,7 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
@@ -18,51 +18,42 @@ jobs:
             scripts
             data
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
-        with:
-          python-version: '3.12'
-          cache: pip
+        with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
-      - name: Resolve and verify current official PDFs for every repaired report
+      - name: Verify official current-format PDF of the mirror-only recent discovery
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         shell: python
         run: |
-          import sys, os, json, hashlib
+          import sys,os,json,hashlib
           from datetime import datetime,timezone
           from pathlib import Path
           sys.path.insert(0,'scripts')
           import sync_crs as s
           out=Path('metadata-evidence');out.mkdir(exist_ok=True)
           http=s.HTTP(os.getenv('CONGRESS_API_KEY',''))
-          manifest=json.loads(Path('data/archive-manifest.json').read_text())
-          results=[]
-          for ident in ['R49057','R47857','R49028','R42107','R48538','RL30787','RL30788','RS21255']:
-              item={'id':ident,'checked_at':datetime.now(timezone.utc).isoformat()}
-              try:
-                  obj=http.json(s.API+'/'+ident+'?format=json')
-                  s.write_json(out/(ident+'.json'),obj)
-                  row=next(v for k,v in obj.items() if k.lower()=='crsreport')
-                  spec=next(f for f in row['formats'] if f['format'].upper()=='PDF')
-                  url=spec.get('url') or spec['URL']
-                  body,actual=http.get(url)
-                  with s.fitz.open(stream=body,filetype='pdf') as doc:
-                      assert len(doc)>0 and not doc.needs_pass
-                      text=doc[0].get_text()+doc[-1].get_text()
-                  s.write(out/(ident+'.txt'),text)
-                  sha=hashlib.sha256(body).hexdigest()
-                  item.update(title=row['title'],api_publication_date=row['publishDate'],api_update_date=row.get('updateDate'),pdf_url=actual,
-                              pdf_sha256=sha,first_page_text=text[:1500],
-                              exact_pdf_archived=any(v['id']==ident and v['pdf_sha256']==sha for v in manifest))
-              except Exception as exc:item['error']=str(exc)
-              print(json.dumps(item,ensure_ascii=False),flush=True);results.append(item)
-          s.write_json(out/'results.json',results)
-          summary={'checked_at':datetime.now(timezone.utc).isoformat(),'github_run_id':os.environ['GITHUB_RUN_ID'],
-                   'official_latest_details_checked':len(results),
-                   'official_latest_pdfs_archived':sum(bool(r.get('exact_pdf_archived')) for r in results),
-                   'failed_or_unverified':[r['id'] for r in results if not r.get('exact_pdf_archived')]}
-          s.write_json(out/'receipt.json',summary)
-          print(json.dumps(summary,ensure_ascii=False,indent=2))
-          if summary['failed_or_unverified']:sys.exit(1)
+          ident='IF13330'
+          result={'id':ident,'checked_at':datetime.now(timezone.utc).isoformat(),'github_run_id':os.environ['GITHUB_RUN_ID']}
+          try:
+              obj=http.json(s.API+'/'+ident+'?format=json')
+              s.write_json(out/(ident+'.json'),obj)
+              row=next(v for k,v in obj.items() if k.lower()=='crsreport')
+              assert row['id']==ident
+              spec=next(f for f in row['formats'] if f['format'].upper()=='PDF')
+              body,actual=http.get(spec.get('url') or spec['URL'])
+              assert body.lstrip().startswith(b'%PDF-')
+              with s.fitz.open(stream=body,filetype='pdf') as doc:
+                  assert len(doc)>0 and not doc.needs_pass
+              sha=hashlib.sha256(body).hexdigest()
+              manifest=json.loads(Path('data/archive-manifest.json').read_text())
+              matches=[v for v in manifest if v['id']==ident and v['pdf_sha256']==sha]
+              result.update(title=row['title'],api_publication_date=row.get('publishDate'),api_update_date=row.get('updateDate'),
+                            official_pdf_url=actual,pdf_sha256=sha,exact_pdf_archived=bool(matches),
+                            archived_paths=[v['pdf'] for v in matches])
+          except Exception as exc:result.update(exact_pdf_archived=False,error=str(exc))
+          s.write_json(out/'receipt.json',result)
+          print(json.dumps(result,ensure_ascii=False,indent=2))
+          if not result.get('exact_pdf_archived'):sys.exit(1)
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
