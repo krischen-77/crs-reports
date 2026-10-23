@@ -1,18 +1,18 @@
 {
   "result": "refreshing",
   "errors": [],
-  "checked_at": "2026-10-23T13:38:09.471615+00:00",
+  "checked_at": "2026-10-23T13:42:40.722419+00:00",
   "notices": [
     "Pipeline is running; do not launch duplicate work"
   ],
   "recovery_stage": null,
   "source_times": {
     "crs-backup.yml": "2026-10-23T13:36:24.797825+00:00",
-    "official-reconcile.yml": "2026-10-23T12:07:23.505829+00:00",
+    "official-reconcile.yml": "2026-10-23T13:42:18.274005+00:00",
     "coverage-audit.yml": "2026-10-23T12:10:33.094347+00:00"
   },
   "active_stages": [
-    "official-reconcile.yml"
+    "coverage-audit.yml"
   ],
   "latest_runs": {
     "crs-backup.yml": {
@@ -25,22 +25,22 @@
     },
     "official-reconcile.yml": {
       "id": 39962831087,
-      "status": "in_progress",
-      "conclusion": null,
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/39962831087",
-      "run_started_at": "2026-10-23T13:38:02Z",
-      "updated_at": "2026-10-23T13:38:06Z"
-    },
-    "coverage-audit.yml": {
-      "id": 39950992668,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/39950992668",
-      "run_started_at": "2026-10-23T12:07:34Z",
-      "updated_at": "2026-10-23T12:10:39Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/39962831087",
+      "run_started_at": "2026-10-23T13:38:02Z",
+      "updated_at": "2026-10-23T13:42:28Z"
+    },
+    "coverage-audit.yml": {
+      "id": 39963452261,
+      "status": "in_progress",
+      "conclusion": null,
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/39963452261",
+      "run_started_at": "2026-10-23T13:42:31Z",
+      "updated_at": "2026-10-23T13:42:34Z"
     }
   },
-  "github_run_id": "39962829842",
+  "github_run_id": "39963452145",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
