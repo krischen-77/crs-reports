@@ -1,5 +1,12 @@
 # CRS Reports Archive | 美国国会研究局报告备份
 
+## 每日刷新可靠性
+
+每天北京时间 **06:23、18:23** 执行；随后自动官方当前版本对账和独立原文核验。每小时独立看门狗检查，超过 26 小时未成功刷新或流程失败时创建／更新告警 Issue，并进行有上限的自动重试。监控自身的提交不计作源站刷新。
+
+[刷新健康状态](HEALTH.md) · [可靠性规则与边界](docs/daily-reliability.md) · [官方当前版本](CURRENT.md)
+
+
 [![Daily collection](https://github.com/krischen-77/crs-reports/actions/workflows/crs-backup.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/crs-backup.yml)
 [![Official current reconciliation](https://github.com/krischen-77/crs-reports/actions/workflows/official-reconcile.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/official-reconcile.yml)
 [![Independent verification](https://github.com/krischen-77/crs-reports/actions/workflows/coverage-audit.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/coverage-audit.yml)

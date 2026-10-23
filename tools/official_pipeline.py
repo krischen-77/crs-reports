@@ -18,6 +18,8 @@ from datetime import date, datetime, timedelta, timezone
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import sync_crs as s
+sys.path.insert(0,str(ROOT/'.github/ops'))
+from freshness import recovery_days, parse_time
 
 
 def signal(row):
@@ -43,7 +45,7 @@ def is_required(row,start,end):
 
 def plan(root,out):
     out.mkdir(parents=True,exist_ok=True)
-    now=datetime.now(timezone.utc);end=now.date();start=end-timedelta(days=7)
+    now=datetime.now(timezone.utc);end=now.date();start=end-timedelta(days=recovery_days(root,end))
     http=s.HTTP(os.getenv('CONGRESS_API_KEY','').strip())
     rows,count=s.api_scan(http,start,end)
     if len(rows)!=count:raise ValueError('Official list incomplete')
@@ -54,7 +56,7 @@ def plan(root,out):
     unresolved=[]
     for ident,row in required.items():
         item=cache.get(ident,{})
-        fresh=str(item.get('detail_checked_at',''))[:10]==str(end)
+        fresh=(str(item.get('detail_checked_at',''))[:10]==str(end) and (now-parse_time(item['detail_checked_at'])).total_seconds() < 6*3600)
         if item.get('signal')!=signal(row) or not item.get('task') or not fresh:unresolved.append(row)
     unresolved.sort(key=lambda r:(r.get('updateDate',''),r['id']),reverse=True)
     chunks=[unresolved[i:i+8] for i in range(0,len(unresolved),8)] or [[]]
@@ -121,10 +123,9 @@ def verify_local(root,entry):
 
 
 def save_current(http,root,record,archives):
-    task=copy.deepcopy(record['task']);expected=record.get('pdf_sha256')
+    task=copy.deepcopy(record['task']) # Live current bytes must be fetched on every reconciliation.
     if task['id']!=record.get('signal',{}).get('id'):raise ValueError('Cached official task identity mismatch')
-    old=next((v for v in archives if v['id']==task['id'] and expected and v['pdf_sha256']==expected),None)
-    if verify_local(root,old):return old,False,[]
+    # A valid local hash does not prove that an unchanged URL still serves the same bytes.
     url=task['formats']['PDF']['urls'][0]
     body,actual=http.get(url)
     if not body.lstrip().startswith(b'%PDF-'):raise ValueError('Official response is not a PDF')

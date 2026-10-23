@@ -7,12 +7,14 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'.github/audits'))
 import verify_crs as a
 s=a.s
+sys.path.insert(0,str(ROOT/'.github/ops'))
+from freshness import recovery_days
 
 def main():
-    now=datetime.now(timezone.utc);end=now.date();start=end-timedelta(days=7)
+    now=datetime.now(timezone.utc);end=now.date();start=end-timedelta(days=recovery_days(ROOT,end))
     out=ROOT/'coverage-evidence';out.mkdir(exist_ok=True)
     http=s.HTTP(os.getenv('CONGRESS_API_KEY','').strip())
-    receipt=dict(checked_at=now.isoformat(),start=str(start),end=str(end),github_run_id=os.getenv('GITHUB_RUN_ID',''),sources={},missing=[],unverified=[],invalid_files=[])
+    receipt=dict(checked_at=now.isoformat(),start=str(start),end=str(end),github_run_id=os.getenv('GITHUB_RUN_ID',''),github_run_attempt=os.getenv('GITHUB_RUN_ATTEMPT',''),sources={},missing=[],unverified=[],invalid_files=[])
     official,mirror=[],{}
     try:
         official=a.official_list(http,start,end,out)
