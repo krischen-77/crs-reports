@@ -1,0 +1,151 @@
+name: CRS active-update repair and verified backfill
+"on":
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/apply-active-updates-fix.yml']
+permissions:
+  contents: read
+concurrency:
+  group: crs-archive-main
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Apply reviewed repair idempotently
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git apply --check .github/repairs/active-updates.patch; then
+            git apply .github/repairs/active-updates.patch
+          elif git apply --reverse --check .github/repairs/active-updates.patch; then
+            echo 'The tested repair is already applied.'
+          else
+            echo 'Source changed; refusing to apply an incompatible patch.' >&2
+            exit 1
+          fi
+      - name: Test old-date active updates and existing archiving invariants
+        run: |
+          python -m unittest discover -s tests -v
+          python -m unittest discover -s .github/audits -p 'test_*.py' -v
+      - name: Preserve baseline and queue exact official files found missing
+        shell: python
+        run: |
+          import json,sys,os
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          import sync_crs as s
+          targets=[
+            {'id':'R49057','title':'Data Centers and Water: Frequently Asked Questions','date':'2026-07-31','version':'5','update':'2026-10-22T13:38:13Z','sha256':'6154e49b161f2b2abbb7c443ca3018219876b7a3717c589dfb8b242aa95586b8'},
+            {'id':'R47857','title':'U.S. Tourism: Recent Developments and Data','date':'2026-10-09','version':'9','update':'2026-10-20T15:38:03Z','sha256':'145010857d94222c4b3bb63ae44c06d743e0f5a5f470d8930bbe1de4bca718fc'},
+            {'id':'R49028','title':'Fixing Emergency Management for Americans (FEMA) Act of 2025: Context, Overview, and Summary of Provisions','date':'2026-07-10','version':'5','update':'2026-10-20T12:52:57Z','sha256':'cf4a66995147e1a17e4966cdb84bc3b08596c03bb0ef70f61d473e6cc3d51b70'}
+          ]
+          manifest=s.read_json(Path('data/archive-manifest.json'),[])
+          baseline={'total_pdf_versions':len(manifest),'targets':[]}
+          pending=s.read_json(Path('data/pending.json'),{'reports':[],'tasks':[]})
+          for target in targets:
+              ident=target['id']; url=f"https://www.congress.gov/crs_external_products/R/PDF/{ident}/{ident}.{target['version']}.pdf"
+              baseline['targets'].append({**target,'official_pdf_url':url,'exact_pdf_present_before':any(v['id']==ident and v['pdf_sha256']==target['sha256'] for v in manifest)})
+              task={'id':ident,'title':target['title'],'date':target['date'],'version':target['version'],
+                    'formats':{'PDF':{'urls':[url],'sha1':''}},'metadata_source':'Congress.gov API',
+                    'source_record':ident,'required_by_recent_update':True,'observed_update_date':target['update']}
+              if not any(s.retry_identity(t)==s.retry_identity(task) for t in pending['tasks']):
+                  pending['tasks'].append(task)
+          s.write_json(Path('data/pending.json'),pending)
+          s.write_json(Path(os.environ['RUNNER_TEMP'])/'crs-repair-baseline.json',baseline)
+      - name: Refresh current publications and active updates regardless of cover date
+        id: sync
+        continue-on-error: true
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          PYTHONUNBUFFERED: '1'
+        run: python scripts/sync_crs.py --days 7 --historical-limit 0
+      - name: Verify real files and the three independent official hashes
+        id: verify
+        if: always() && steps.sync.outcome != 'skipped'
+        continue-on-error: true
+        shell: python
+        run: |
+          import hashlib,json,os,sys
+          from datetime import datetime,timezone
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          import sync_crs as s
+          status=json.loads(Path('data/status.json').read_text())
+          assert status.get('github_run_id')==os.environ['GITHUB_RUN_ID'],'Stale run receipt'
+          assert status.get('github_run_attempt')==os.environ['GITHUB_RUN_ATTEMPT'],'Stale run attempt'
+          manifest=json.loads(Path('data/archive-manifest.json').read_text())
+          for item in manifest:
+              body=Path(item['pdf']).read_bytes()
+              assert body.lstrip().startswith(b'%PDF-'),item['pdf']
+              assert hashlib.sha256(body).hexdigest()==item['pdf_sha256'],item['pdf']
+              assert hashlib.sha1(body).hexdigest()==item['pdf_sha1'],item['pdf']
+              with s.fitz.open(stream=body,filetype='pdf') as doc:
+                  assert len(doc)>0 and not doc.needs_pass,item['pdf']
+              assert Path(item['markdown']).is_file(),item['markdown']
+              if item.get('html'):
+                  assert hashlib.sha256(Path(item['html']).read_bytes()).hexdigest()==item['html_sha256'],item['html']
+          baseline=json.loads((Path(os.environ['RUNNER_TEMP'])/'crs-repair-baseline.json').read_text())
+          for target in baseline['targets']:
+              matches=[v for v in manifest if v['id']==target['id'] and v['pdf_sha256']==target['sha256']]
+              target['exact_pdf_present_after']=bool(matches)
+              target['archived_paths']=[v['pdf'] for v in matches]
+              target['markdown_paths']=[v['markdown'] for v in matches]
+              assert matches,'Verified missing official original remains absent: '+target['id']
+          baseline.update(checked_at=datetime.now(timezone.utc).isoformat(),github_run_id=os.environ['GITHUB_RUN_ID'],
+                          github_run_attempt=os.environ['GITHUB_RUN_ATTEMPT'],total_pdf_versions_after=len(manifest),
+                          primary_candidates=status['candidate_reports'],attempted_versions=status['attempted_versions'],
+                          successful_versions=status['successful_versions'],new_pdf_versions=status['new_pdf_versions'],
+                          required_pdf_failures=status['required_pdf_failures'],source_status=status['sources'],
+                          scope='Verifies every archived file and three current official PDFs previously missed by publication-date-only filtering. Original cover dates are preserved.')
+          s.write_json(Path('data/audits/2026-10-23-active-update-repair.json'),baseline)
+          print(json.dumps(baseline,ensure_ascii=False,indent=2))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('## Active update repair verification\n\n```json\n'+json.dumps(baseline,ensure_ascii=False,indent=2)+'\n```\n')
+      - name: Commit repaired source, originals, indexes and truthful retry state
+        if: always() && steps.sync.outcome != 'skipped' && steps.verify.outcome == 'success'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/sync_crs.py tests/test_active_updates.py data pdf html markdown metadata LATEST.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'fix: retain active CRS updates with older cover dates and backfill verified missing originals'
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            sleep "$((attempt * 5))"
+            git pull --rebase origin main
+          done
+          exit 1
+      - name: Retain repair evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: crs-active-update-repair-evidence
+          path: |
+            data/status.json
+            data/audits/
+            data/archive-manifest.json
+            data/sources/congress-api-latest.json
+            data/pending.json
+            LATEST.md
+            scripts/sync_crs.py
+            tests/test_active_updates.py
+          retention-days: 30
+      - name: Fail when required originals or verification are incomplete
+        if: always() && (steps.sync.outcome == 'failure' || steps.verify.outcome == 'failure')
+        run: exit 1
