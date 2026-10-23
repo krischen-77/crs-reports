@@ -1,15 +1,20 @@
 name: CRS independent coverage audit
 "on":
   workflow_dispatch:
+  workflow_run:
+    workflows: ['CRS daily backup']
+    types: [completed]
+    branches: [main]
   push:
     branches: [main]
     paths:
       - '.github/workflows/coverage-audit.yml'
       - '.github/audits/**'
+      - '.github/verification/**'
 permissions:
   contents: read
 concurrency:
-  group: crs-independent-audit
+  group: crs-archive-main
   cancel-in-progress: false
 jobs:
   audit:
@@ -18,19 +23,22 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
+          ref: main
           fetch-depth: 1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with:
           python-version: '3.12'
           cache: pip
       - run: python -m pip install -r requirements.txt
-      - name: Run independent audit regression tests
-        run: python -m unittest discover -s .github/audits -p 'test_*.py' -v
-      - name: Verify live catalogs and original PDF bytes
+      - name: Run collector and independent audit regressions
+        run: |
+          python -m unittest discover -s tests -v
+          python -m unittest discover -s .github/audits -p 'test_*.py' -v
+      - name: Verify current official PDF bytes for all recent publication and active-update signals
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
           PYTHONUNBUFFERED: '1'
-        run: python .github/audits/verify_crs.py --days 7 --detail-limit 6 --direct-pdfs
+        run: python .github/verification/verify_active.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
