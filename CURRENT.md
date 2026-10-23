@@ -1,19 +1,20 @@
 # Official current CRS files
 
-Checked: 2026-10-23T12:07:23.505829+00:00. Official current entries verified: **67/67**.
+Checked: 2026-10-23T13:42:18.274005+00:00. Official current entries verified: **68/68**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official PDF.
 
 | API update | Cover date | Report | Title | Current PDF | Full text |
 |---|---|---|---|---|---|
+| 2026-10-23 | 2026-10-22 | IF13249 v2 | Farm Bill Primer: Rural Development Title | [PDF](pdf/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.pdf) | [Markdown](markdown/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.md) |
 | 2026-10-23 | 2026-10-22 | IF13092 v11 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.pdf) | [Markdown](markdown/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.md) |
 | 2026-10-23 | 2026-10-21 | R49359 v4 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v4-2026-10-21-f1c9df285d655ddf.pdf) | [Markdown](markdown/reports/R49359v4-2026-10-21-f1c9df285d655ddf.md) |
 | 2026-10-23 | 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
 | 2026-10-23 | 2026-10-21 | IF13332 v3 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.pdf) | [Markdown](markdown/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.md) |
 | 2026-10-23 | 2026-10-20 | RL33546 v98 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.pdf) | [Markdown](markdown/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.md) |
 | 2026-10-23 | 2026-10-20 | R46833 v7 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.pdf) | [Markdown](markdown/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.md) |
-| 2026-10-23 | 2026-10-22 | R49346 v3 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.pdf) | [Markdown](markdown/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.md) |
 | 2026-10-23 | 2026-10-22 | IF12889 v3 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.pdf) | [Markdown](markdown/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.md) |
+| 2026-10-23 | 2026-10-22 | R49346 v3 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.pdf) | [Markdown](markdown/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.md) |
 | 2026-10-23 | 2026-10-22 | R41833 v25 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v25-2026-10-22-c60106eeaf606d8f.pdf) | [Markdown](markdown/reports/R41833v25-2026-10-22-c60106eeaf606d8f.md) |
 | 2026-10-23 | 2026-10-22 | R49491 v1 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.pdf) | [Markdown](markdown/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.md) |
 | 2026-10-23 | 2026-10-20 | IF10275 v91 | Taiwan: Background and U.S. Relations | [PDF](pdf/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.pdf) | [Markdown](markdown/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.md) |
