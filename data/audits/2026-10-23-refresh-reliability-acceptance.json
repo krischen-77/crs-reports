@@ -1,0 +1,62 @@
+{
+  "scope": "Acceptance of known omission fixes and operational safeguards, not a promise of permanent upstream or GitHub availability.",
+  "configuration_commit": "532e8c20a5d6969c0b2825023dbf6e73cda979b8",
+  "tested_implementation_commit": "bd5d6bfdd284a0b3e53512514956a9dcd299c89a",
+  "regression_tests": {
+    "collector": 49,
+    "official_current": 12,
+    "independent_audit": 9,
+    "new_reliability": 28,
+    "total_passed": 98,
+    "deployment_run": 39962269714,
+    "deployment_test_job": 120442972321,
+    "read_only_ci_run": 39962547219,
+    "result": "passed"
+  },
+  "live_acceptance": {
+    "collector_run": 39962547165,
+    "collector_result": "success",
+    "collector_started_at": "2026-10-23T13:36:24.797825+00:00",
+    "collector_required_pdf_failures": 0,
+    "collector_new_primary_pdf_versions": 2,
+    "collector_new_optional_historical_pdf_versions": 2,
+    "official_reconciliation_run": 39962831087,
+    "official_reconciliation_checked_at": "2026-10-23T13:42:18.274005+00:00",
+    "official_current_required": 68,
+    "official_current_verified": 68,
+    "official_current_pending": 0,
+    "independent_verification_run": 39963452261,
+    "independent_verification_finished_at": "2026-10-23T13:45:29.729954+00:00",
+    "independent_pdf_files_verified": 69,
+    "independent_missing": 0,
+    "independent_unverified": 0,
+    "independent_invalid_files": 0,
+    "total_archived_pdf_versions": 506,
+    "successful_receipt_committed": "data/last-successful-verification.json",
+    "note": "69 byte-verified files include 68 current official entries and a supplemental mirror discovery. This does not convert a mirror-only metadata exception into an official current-version confirmation."
+  },
+  "operational_controls": {
+    "backup_cron_utc": "23 10,22 * * *",
+    "backup_times_asia_shanghai": ["06:23", "18:23"],
+    "watchdog_cron_utc": "17 * * * *",
+    "source_stale_alarm_hours": 26,
+    "missed_slot_recovery_hours": 14,
+    "downstream_chain_recovery_hours": 2,
+    "retry_cooldown_per_stage_hours": 6,
+    "recovery_dispatch_cap_per_24h": 4,
+    "official_detail_cache_max_hours": 6,
+    "current_pdf_redownload_every_reconciliation": true,
+    "failed_verification_advances_success_watermark": false,
+    "catchup_window_expands_from_last_verified_day": true,
+    "rerun_artifacts_isolated_by_run_and_attempt": true,
+    "monitor_commit_counts_as_source_refresh": false,
+    "alert_issue": "Created or updated only on actual unhealthy findings; recovered findings close the marked issue.",
+    "external_monitor": "Separate ChatGPT condition watch enabled every six hours; normal results are silent."
+  },
+  "verification_limits": [
+    "The end-to-end refresh and health read/commit paths were exercised live. Failure decision, cooldown, watermark and catchup branches were tested offline; no synthetic incident was sent to the owner.",
+    "No future scheduled run can be proven before its scheduled time. Hourly internal and six-hour external checks detect failures or missed schedules.",
+    "GitHub may delay/drop scheduled jobs; upstream APIs may limit access or change schemas. A personal CONGRESS_API_KEY remains recommended.",
+    "Unpublished or not-yet-indexed material, supplemental current-version metadata exceptions, and optional historical backlog are outside the current official completeness claim."
+  ]
+}
