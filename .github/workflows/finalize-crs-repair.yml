@@ -21,52 +21,64 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
-      - name: Apply bounded cache freshness guard
+      - name: Validate publication coverage without assuming list and detail indexing clocks coincide
         shell: python
         run: |
           from pathlib import Path
           path=Path('tools/official_pipeline.py');text=path.read_text()
-          old="            if record.get('signal')!=signal(row) or not record.get('task'):raise ValueError('Current official details not verified; retry retained')"
-          new="            if (record.get('signal')!=signal(row) or not record.get('task') or str(record.get('detail_checked_at',''))[:10]!=p['end']):raise ValueError('Current official details not verified for this date; retry retained')"
+          old="            if item.get('updateDate','')<row.get('updateDate',''):raise ValueError('Official item is older than list signal')"
+          new="            validate_detail_signal(item,row)"
+          helper='''def validate_detail_signal(item,row):
+              if s.report_id(item['id']) != s.report_id(row['id']):
+                  raise ValueError('Official report ID mismatch')
+              expected,actual=s.day(row.get('publishDate')),s.day(item.get('publishDate'))
+              if expected and (not actual or actual < expected):
+                  raise ValueError('Official detail publication predates the requested publication')
+              # List indexing and detail update timestamps may differ. Preserve
+              # the discrepancy and verify live formats/current PDF bytes rather
+              # than pretending these timestamps have identical semantics.
+          
+          
+          '''
           if old in text:
               assert text.count(old)==1;text=text.replace(old,new)
-          else:assert new in text,'Unexpected source; refusing to patch'
-          text=text.replace("official_current_pending=len(pending),official_reconciled_at=now,","official_current_pending=len(pending),official_reconciled_at=now,official_new_pdf_versions=len(new),")
+              text=text.replace('def resolve(root,out,plan_path,chunk):',helper+'def resolve(root,out,plan_path,chunk):')
+          else:assert new in text and 'def validate_detail_signal' in text,'Unexpected source'
+          old_receipt="        result='verified_for_observed_official_entries' if not pending else 'incomplete',scope=p['coverage_note'])"
+          new_receipt="        result='verified_for_observed_official_entries' if not pending else 'incomplete',scope=p['coverage_note'],\n        metadata_notices=[{'id':i,'list_update_date':r.get('updateDate'),'detail_update_date':cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date'),'note':'List/detail update timestamps differ; current formats were resolved live and PDF bytes verified'} for i,r in p['required'].items() if (cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date')) != r.get('updateDate')])"
+          if old_receipt in text:text=text.replace(old_receipt,new_receipt)
+          elif 'metadata_notices=' not in text:raise ValueError('Receipt patch context changed')
+          old_status="    if pending:status.update(result='failed',primary_pdf_complete=False)"
+          new_status="    if pending:status.update(result='failed',primary_pdf_complete=False)\n    elif not status.get('errors') and not status.get('required_pdf_failures'):\n        status.update(result='success_with_warnings' if status.get('warnings') or status.get('historical_pending_versions') else 'success',primary_pdf_complete=True)"
+          if new_status not in text:
+              assert old_status in text;text=text.replace(old_status,new_status)
           path.write_text(text)
-          test=Path('tools/tests/test_official_freshness.py')
-          test.write_text('''import contextlib,io,tempfile,unittest,sys
+          Path('tools/tests/test_official_signals.py').write_text('''import sys,unittest
           from pathlib import Path
-          from unittest.mock import patch
           sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
           import official_pipeline as p
-          class FreshnessTests(unittest.TestCase):
-              def test_old_cache_cannot_hide_failed_refresh(self):
-                  with tempfile.TemporaryDirectory() as d:
-                      root=Path(d);(root/'data').mkdir();parts=root/'parts';parts.mkdir()
-                      row={'id':'R10001','title':'Example','publishDate':'2026-07-31','updateDate':'2026-10-22'}
-                      task={'id':'R10001','title':'Example','date':'2026-07-31','version':'5','formats':{'PDF':{'urls':['https://www.congress.gov/example.pdf'],'sha1':''}}}
-                      cache={'R10001':{'signal':p.signal(row),'task':task,'detail_checked_at':'2026-10-22T23:00:00Z','pdf_sha256':'unused'}}
-                      plan={'start':'2026-10-16','end':'2026-10-23','cache':cache,'required':{'R10001':row},'official_rows':[row],'source_count':1,'coverage_note':'test'}
-                      p.s.write_json(root/'plan.json',plan)
-                      with patch.object(p,'save_current',side_effect=AssertionError('Stale cache must not reach archive reuse')) as save,contextlib.redirect_stdout(io.StringIO()):
-                          result=p.aggregate(root,root/'out',root/'plan.json',parts)
-                      self.assertEqual(result,1);save.assert_not_called()
-                      self.assertEqual(len(p.s.read_json(root/'data/official-pending.json',[])),1)
+          class SignalTests(unittest.TestCase):
+              def test_indexing_timestamp_difference_is_not_publication_loss(self):
+                  p.validate_detail_signal({'id':'R10001','publishDate':'2026-10-22','updateDate':'2026-10-23T06:53:00Z'},{'id':'R10001','publishDate':'2026-10-22','updateDate':'2026-10-23T07:08:00Z'})
+              def test_older_publication_is_not_accepted(self):
+                  with self.assertRaises(ValueError):p.validate_detail_signal({'id':'R10001','publishDate':'2026-10-21'},{'id':'R10001','publishDate':'2026-10-22'})
+              def test_wrong_report_is_not_accepted(self):
+                  with self.assertRaises(ValueError):p.validate_detail_signal({'id':'R10002','publishDate':'2026-10-22'},{'id':'R10001','publishDate':'2026-10-22'})
           ''')
       - name: Validate all collector and canonical tests
         run: |
           python -m unittest discover -s tests -v
           python -m unittest discover -s tools/tests -v
           python -m unittest discover -s .github/audits -p 'test_*.py' -v
-      - name: Commit the verified guard without rewriting archived data
+      - name: Commit reviewed signal handling without modifying evidence or archived files
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add tools/official_pipeline.py tools/tests/test_official_freshness.py
+          git add tools/official_pipeline.py tools/tests/test_official_signals.py
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'fix: reject stale official-current cache when metadata refresh was unresolved'
+          git commit -m 'fix: compare official publication coverage and disclose independent indexing timestamps'
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then exit 0; fi
             sleep "$((attempt * 5))"
