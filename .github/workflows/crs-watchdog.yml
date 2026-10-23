@@ -1,0 +1,59 @@
+name: CRS refresh watchdog
+"on":
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/crs-watchdog.yml']
+  workflow_run:
+    workflows: ['CRS daily backup', 'CRS official-current reconciliation', 'CRS independent coverage audit']
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: crs-refresh-watchdog
+  cancel-in-progress: false
+jobs:
+  health:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      actions: write
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 1
+          sparse-checkout: |
+            .github/ops
+            data
+      - name: Evaluate source freshness and recover boundedly
+        id: health
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/ops/reliability.py watchdog --repair --notify
+      - name: Persist health evidence even when unhealthy
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s data/health.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/health.json data/health-retry-state.json HEALTH.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "health: CRS refresh evidence $(date -u +%FT%TZ)"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+          done
+          exit 1
+      - name: Do not turn incomplete monitoring green
+        if: always() && steps.health.outcome != 'success'
+        run: exit 1

@@ -5,11 +5,6 @@ name: CRS official-current reconciliation
     workflows: ['CRS daily backup']
     types: [completed]
     branches: [main]
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/official-reconcile.yml'
-      - 'tools/**'
 permissions:
   contents: read
   actions: read
@@ -18,6 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   plan:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 15
     outputs:
@@ -29,59 +25,6 @@ jobs:
         with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tools/tests -v
-      - id: seed
-        shell: bash
-        run: |
-          if [[ ! -s data/official-current.json && "$(date -u +%F)" == '2026-10-23' ]]; then
-            echo 'needed=true' >> "$GITHUB_OUTPUT"
-          else
-            echo 'needed=false' >> "$GITHUB_OUTPUT"
-          fi
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
-        if: steps.seed.outputs.needed == 'true'
-        with:
-          name: crs-metadata-freshness-evidence
-          run-id: 39946003922
-          github-token: ${{ github.token }}
-          path: seed-six
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
-        if: steps.seed.outputs.needed == 'true'
-        with:
-          name: crs-metadata-freshness-evidence
-          run-id: 39947841170
-          github-token: ${{ github.token }}
-          path: seed-eight
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
-        if: steps.seed.outputs.needed == 'true'
-        with:
-          name: crs-independent-coverage-evidence
-          run-id: 39945243529
-          github-token: ${{ github.token }}
-          path: seed-newest
-      - name: Reuse actual official-detail and PDF evidence already checked in this repair
-        if: steps.seed.outputs.needed == 'true'
-        shell: python
-        run: |
-          import sys,json
-          from pathlib import Path
-          sys.path.insert(0,'tools')
-          import official_pipeline as p
-          seeds={}
-          for directory in ['seed-six','seed-eight']:
-              base=Path(directory)
-              for result in json.loads((base/'results.json').read_text()):
-                  if not result.get('pdf_sha256'): continue
-                  obj=json.loads((base/(result['id']+'.json')).read_text())
-                  item=next(v for k,v in obj.items() if k.lower()=='crsreport')
-                  seeds[result['id']]={'signal':p.signal(item),'task':p.task_from_item(item),'pdf_sha256':result['pdf_sha256'],'detail_checked_at':result['checked_at']}
-          base=Path('seed-newest')
-          for result in json.loads((base/'comparisons.json').read_text()):
-              if not result.get('official_latest_detail',{}).get('archived_exact_bytes'): continue
-              obj=json.loads((base/'official-detail'/(result['id']+'.json')).read_text())
-              item=next(v for k,v in obj.items() if k.lower()=='crsreport')
-              seeds[result['id']]={'signal':p.signal(item),'task':p.task_from_item(item),'pdf_sha256':result['official_latest_detail']['sha256'],'detail_checked_at':'2026-10-23T11:21:26+00:00'}
-          p.s.write_json(Path('.github/repairs/official-seed.json'),seeds)
-          print('Reused independently checked official entries:',len(seeds))
       - name: Plan current official entries and bounded metadata batches
         id: plan
         env:
@@ -89,7 +32,7 @@ jobs:
         run: python tools/official_pipeline.py plan --out official-plan
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: official-plan
+          name: official-plan-${{ github.run_id }}-${{ github.run_attempt }}
           path: official-plan/
           retention-days: 30
           if-no-files-found: error
@@ -108,12 +51,15 @@ jobs:
           sparse-checkout: |
             scripts
             tools
+            .github/ops
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
-        with: {name: official-plan, path: official-plan}
-      - name: Resolve assigned official details, honoring quota headers and retaining failures
+        with:
+          name: official-plan-${{ github.run_id }}-${{ github.run_attempt }}
+          path: official-plan
+      - name: Resolve assigned official details and retain all failures
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
           CHUNK: ${{ matrix.chunk }}
@@ -122,7 +68,7 @@ jobs:
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
-          name: official-resolved-${{ matrix.chunk }}
+          name: official-resolved-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.chunk }}
           path: official-resolved/
           retention-days: 30
           if-no-files-found: error
@@ -130,7 +76,7 @@ jobs:
     needs: [plan, resolve]
     if: always() && needs.plan.result == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     concurrency:
       group: crs-archive-main
       cancel-in-progress: false
@@ -144,12 +90,14 @@ jobs:
         with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
-        with: {name: official-plan, path: official-plan}
+        with:
+          name: official-plan-${{ github.run_id }}-${{ github.run_attempt }}
+          path: official-plan
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
-          pattern: official-resolved-*
+          pattern: official-resolved-${{ github.run_id }}-${{ github.run_attempt }}-*
           path: official-parts
-      - name: Save current official PDFs, retain older versions and report unresolved entries
+      - name: Save live current official PDFs and report unresolved entries
         id: official
         continue-on-error: true
         env:
@@ -162,7 +110,7 @@ jobs:
         continue-on-error: true
         shell: python
         run: |
-          import json,os,hashlib,sys
+          import json,os,sys
           from pathlib import Path
           sys.path.insert(0,'.github/audits')
           import verify_crs as a
@@ -194,7 +142,7 @@ jobs:
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
-          name: official-current-verification
+          name: official-current-verification-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
             official-evidence/
             data/official-status.json

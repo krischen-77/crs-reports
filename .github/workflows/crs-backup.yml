@@ -1,12 +1,11 @@
 name: CRS daily backup
-
 "on":
   schedule:
-    - cron: '23 10 * * *' # 10:23 UTC = 18:23 Asia/Shanghai
+    - cron: '23 10,22 * * *' # UTC 10:23/22:23 = Beijing 18:23/06:23
   workflow_dispatch:
     inputs:
       days:
-        description: 'Look back this many days; retain all existing archives'
+        description: 'Minimum lookback days; automatic recovery expands after outages'
         default: '7'
         required: true
         type: string
@@ -26,15 +25,14 @@ name: CRS daily backup
       - '.github/workflows/crs-backup.yml'
       - 'scripts/**'
       - 'tests/**'
+      - 'tools/**'
+      - '.github/ops/**'
       - 'requirements.txt'
-
 permissions:
   contents: read
-
 concurrency:
   group: crs-archive-main
   cancel-in-progress: false
-
 jobs:
   backup:
     if: github.ref == 'refs/heads/main'
@@ -44,15 +42,11 @@ jobs:
       contents: write
     steps:
       - name: Check out main
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          ref: main
-          fetch-depth: 1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with: {ref: main, fetch-depth: 1}
       - name: Set up Python
-        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
-        with:
-          python-version: '3.12'
-          cache: pip
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with: {python-version: '3.12', cache: pip}
       - name: Install pinned dependencies
         run: python -m pip install --disable-pip-version-check -r requirements.txt
       - name: Run offline regression tests
@@ -69,7 +63,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          args=(--days "$LOOKBACK_DAYS")
+          effective_days=$(python .github/ops/freshness.py --days "$LOOKBACK_DAYS" --until "$UNTIL_DATE")
+          args=(--days "$effective_days")
           if [[ -n "$UNTIL_DATE" ]]; then args+=(--until "$UNTIL_DATE"); fi
           if [[ "$FULL_CATALOG" == 'true' ]]; then args+=(--full-catalog); fi
           python scripts/sync_crs.py "${args[@]}"
@@ -94,12 +89,9 @@ jobs:
                   raw_html = Path(item['html']).read_bytes()
                   assert hashlib.sha256(raw_html).hexdigest() == item['html_sha256'], item['html']
           print('Verified PDF versions:', len(manifest))
-          print('HTML reading snapshots:', sum(bool(v.get('html')) for v in manifest))
-          print('PDF bytes:', sum(Path(v['pdf']).stat().st_size for v in manifest))
           print('Current run result:', status['result'])
           print('Required PDF failures:', status['required_pdf_failures'])
           print('Optional historical backlog (NOT complete):', status['historical_pending_versions'])
-          print('API requests:', status['api_requests'])
           print('Errors:', json.dumps(status['errors'], ensure_ascii=False))
       - name: Commit archives, indexes and persistent retry queue
         if: always() && steps.sync.outcome != 'skipped' && steps.verify.outcome == 'success'
@@ -111,20 +103,16 @@ jobs:
           for path in data pdf html markdown metadata LATEST.md; do
             if [[ -e "$path" ]]; then git add -- "$path"; fi
           done
-          if git diff --cached --quiet; then
-            echo 'No archive changes to commit.'
-            exit 0
-          fi
+          if git diff --cached --quiet; then exit 0; fi
           git commit -m "archive: CRS originals and source indexes $(date -u +%F)"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then exit 0; fi
             sleep "$((attempt * 5))"
             git pull --rebase origin main
           done
-          echo 'Archive push failed after three attempts.' >&2
           exit 1
       - name: Fail visibly when collection or verification was incomplete
         if: always() && (steps.sync.outcome == 'failure' || steps.verify.outcome == 'failure')
         run: |
-          echo 'Incomplete backup: inspect data/status.json and this run. Successful originals and retries are retained when verification passed.' >&2
+          echo 'Incomplete backup: inspect data/status.json; successful files and retry tasks remain preserved.' >&2
           exit 1
