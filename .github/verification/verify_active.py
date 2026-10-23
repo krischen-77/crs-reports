@@ -16,6 +16,25 @@ import verify_crs as a
 s = a.s
 
 
+def fetch_official(http, url, task, row):
+    """Resolve an independently public API URL, never bypass a denied route."""
+    try:
+        body, actual = http.get(url)
+        return body, actual, None
+    except Exception as original_error:
+        if not row:
+            raise
+        alternative = s.official_task(http, row)
+        if alternative['date'] != task['date']:
+            raise ValueError('Unavailable legacy route and current official publication date differs; historical bytes not substituted') from original_error
+        candidate = alternative['formats']['PDF']['urls'][0]
+        if candidate == url:
+            raise RuntimeError('Official API returned the same unavailable URL') from original_error
+        body, actual = http.get(candidate)
+        return body, actual, dict(previous_url=url,previous_error=str(original_error),
+            resolution='Downloaded independent public URL returned by official API for the same publication date; compared actual bytes with archive')
+
+
 def main():
     out = ROOT / 'coverage-evidence'
     out.mkdir(exist_ok=True)
@@ -23,7 +42,7 @@ def main():
     end, start = now.date(), now.date() - timedelta(days=7)
     receipt = dict(checked_at=now.isoformat(), start=str(start), end=str(end),
         repository_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
-        github_run_id=os.getenv('GITHUB_RUN_ID',''), sources={},missing=[],unverified=[],invalid_files=[])
+        github_run_id=os.getenv('GITHUB_RUN_ID',''), sources={},missing=[],unverified=[],invalid_files=[],source_recoveries=[])
     http = s.HTTP(os.getenv('CONGRESS_API_KEY','').strip())
     rows, mirror = [], {}
     try:
@@ -92,7 +111,10 @@ def main():
             seen.add(url)
             record=dict(date=task['date'],version=task['version'],official_pdf_url=url)
             try:
-                body,actual=http.get(url)
+                body,actual,recovery=fetch_official(http,url,task,row)
+                if recovery:
+                    record['source_recovery']=recovery
+                    receipt['source_recoveries'].append(dict(id=ident,**recovery))
                 if not body.lstrip().startswith(b'%PDF-'): raise ValueError('Response is not a PDF')
                 with s.fitz.open(stream=body,filetype='pdf') as doc:
                     if not len(doc) or doc.needs_pass: raise ValueError('Official PDF is unreadable')
