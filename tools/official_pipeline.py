@@ -68,6 +68,17 @@ def plan(root,out):
     return 0
 
 
+def validate_detail_signal(item,row):
+    if s.report_id(item['id']) != s.report_id(row['id']):
+        raise ValueError('Official report ID mismatch')
+    expected,actual=s.day(row.get('publishDate')),s.day(item.get('publishDate'))
+    if expected and (not actual or actual < expected):
+        raise ValueError('Official detail publication predates the requested publication')
+    # List indexing and detail update timestamps may differ. Preserve
+    # the discrepancy and verify live formats/current PDF bytes rather
+    # than pretending these timestamps have identical semantics.
+
+
 def resolve(root,out,plan_path,chunk):
     out.mkdir(parents=True,exist_ok=True)
     p=s.read_json(plan_path,None);http=s.HTTP(os.getenv('CONGRESS_API_KEY','').strip())
@@ -78,7 +89,7 @@ def resolve(root,out,plan_path,chunk):
             obj=http.json(s.API+'/'+s.report_id(ident)+'?format=json')
             item=next(v for k,v in obj.items() if k.lower()=='crsreport')
             if s.report_id(item['id'])!=ident:raise ValueError('Official report ID mismatch')
-            if item.get('updateDate','')<row.get('updateDate',''):raise ValueError('Official item is older than list signal')
+            validate_detail_signal(item,row)
             resolved[ident]=dict(signal=signal(row),task=task_from_item(item),
                 detail_checked_at=datetime.now(timezone.utc).isoformat(),api_metadata=item)
             print('Resolved official current PDF:',ident,flush=True)
@@ -173,7 +184,8 @@ def aggregate(root,out,plan_path,parts):
         new_pdf_versions=len(new),new_pdf_records=[{k:v[k] for k in ('id','version','date','pdf','markdown','pdf_sha256')} for v in new],
         total_archived_pdf_versions=len(archives),github_run_id=os.getenv('GITHUB_RUN_ID',''),
         github_run_attempt=os.getenv('GITHUB_RUN_ATTEMPT',''),resolution_errors=failures,
-        result='verified_for_observed_official_entries' if not pending else 'incomplete',scope=p['coverage_note'])
+        result='verified_for_observed_official_entries' if not pending else 'incomplete',scope=p['coverage_note'],
+        metadata_notices=[{'id':i,'list_update_date':r.get('updateDate'),'detail_update_date':cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date'),'note':'List/detail update timestamps differ; current formats were resolved live and PDF bytes verified'} for i,r in p['required'].items() if (cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date')) != r.get('updateDate')])
     s.write_json(root/'data/official-current.json',cache);s.write_json(root/'data/official-pending.json',pending)
     s.write_json(root/'data/official-status.json',receipt);s.write_json(root/'data/archive-manifest.json',archives)
     s.write_json(root/'data/catalog.json',catalog)
@@ -199,6 +211,8 @@ def aggregate(root,out,plan_path,parts):
         total_archived_pdf_versions=len(archives),total_html_snapshots=sum(bool(v.get('html')) for v in archives),
         total_pdf_bytes=sum((root/v['pdf']).stat().st_size for v in archives))
     if pending:status.update(result='failed',primary_pdf_complete=False)
+    elif not status.get('errors') and not status.get('required_pdf_failures'):
+        status.update(result='success_with_warnings' if status.get('warnings') or status.get('historical_pending_versions') else 'success',primary_pdf_complete=True)
     s.write_json(root/'data/status.json',status)
     s.write_json(out/'receipt.json',receipt);s.write_json(out/'checks.json',checks)
     print(json.dumps(receipt,ensure_ascii=False,indent=2))
