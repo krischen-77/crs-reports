@@ -1,5 +1,3 @@
-**Official-current verification: 67/67. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-16 to 2026-10-23**. Older archived files are retained.
@@ -10,6 +8,7 @@ Publication-date window (inclusive): **2026-10-16 to 2026-10-23**. Older archive
 | 2026-10-22 | R49346 v3 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.pdf) | [Markdown](markdown/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.md) |
 | 2026-10-22 | R42853 v45 | Nuclear Energy: Overview of Congressional Issues | [PDF](pdf/reports/R42853v45-2026-10-22-90116e21c39b109c.pdf) | [Markdown](markdown/reports/R42853v45-2026-10-22-90116e21c39b109c.md) |
 | 2026-10-22 | R41833 v25 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v25-2026-10-22-c60106eeaf606d8f.pdf) | [Markdown](markdown/reports/R41833v25-2026-10-22-c60106eeaf606d8f.md) |
+| 2026-10-22 | IF13249 v2 | Farm Bill Primer: Rural Development Title | [PDF](pdf/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.pdf) | [Markdown](markdown/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.md) |
 | 2026-10-22 | IF13092 v11 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.pdf) | [Markdown](markdown/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.md) |
 | 2026-10-22 | IF12889 v3 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.pdf) | [Markdown](markdown/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.md) |
 | 2026-10-21 | R49359 v4 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v4-2026-10-21-f1c9df285d655ddf.pdf) | [Markdown](markdown/reports/R49359v4-2026-10-21-f1c9df285d655ddf.md) |
