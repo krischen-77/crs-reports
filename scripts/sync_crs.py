@@ -301,7 +301,9 @@ def official_task(http: HTTP, row: dict) -> dict:
     return {"id": ident, "title": item.get("title", row["title"]), "date": str(item.get("publishDate", row.get("publishDate", "")))[:10],
             "version": source_version(formats["PDF"]["urls"][0]) if source_version(formats["PDF"]["urls"][0]) != "unknown" else str(item.get("version", row.get("version", "unknown"))),
             "api_version": str(item.get("version", row.get("version", "unknown"))), "formats": formats,
-            "metadata_source": "Congress.gov API", "source_record": ident}
+            "metadata_source": "Congress.gov API", "source_record": ident,
+            "required_by_recent_update": bool(row.get("required_by_recent_update")),
+            "observed_update_date": row.get("updateDate", "")}
 
 
 def task_key(task: dict) -> str:
@@ -483,6 +485,26 @@ def export_indexes(root: Path, catalog: dict, archives: list[dict], start: date,
     for v in selected:
         title = v["title"].replace("|", "\\|").replace("\n", " ")
         lines.append(f"| {v['date']} | {v['id']} v{v['version']} | {title} | [PDF]({v['pdf']}) | [Markdown]({v['markdown']}) |")
+    # A second section exposes updates whose original cover date is older.
+    # Do not falsify publication dates just to make them appear in the first table.
+    updated_old = []
+    for ident, row in catalog.items():
+        api = row.get("api", {})
+        if str(api.get("status", "")).lower() != "active" or not within(api.get("updateDate"), start, end):
+            continue
+        saved = [v for v in archives if v["id"] == ident and day(v.get("date")) and day(v["date"]) <= end]
+        if not saved:
+            continue
+        v = max(saved, key=lambda x: (x["date"], int(x["version"]) if str(x["version"]).isdigit() else -1, x.get("archived_at", "")))
+        if not within(v["date"], start, end):
+            updated_old.append((api.get("updateDate", "")[:10], v))
+    if updated_old:
+        lines += ["", "## Active reports updated in this window with older publication dates", "",
+                  "API update dates can describe metadata or file changes. These current PDF files are checked and retained without changing their original cover dates.", "",
+                  "| API update | Original publication | Report | Title | Original | Text |", "|---|---|---|---|---|---|"]
+        for updated, v in sorted(updated_old, key=lambda x: (x[0], x[1]["id"]), reverse=True):
+            title = v["title"].replace("|", "\\|").replace("\n", " ")
+            lines.append(f"| {updated} | {v['date']} | {v['id']} v{v['version']} | {title} | [PDF]({v['pdf']}) | [Markdown]({v['markdown']}) |")
     write(root / "LATEST.md", "\n".join(lines) + "\n")
     buf = io.StringIO(newline="")
     fs = ["id", "title", "date", "version", "pdf", "html", "markdown", "pdf_sha256", "pdf_source", "metadata_source"]
@@ -522,7 +544,7 @@ def split_pending(pending: dict, historical: list[dict], archive_start: date) ->
     for task in pending.get("tasks", []):
         d = day(task.get("date"))
         key = retry_identity(task)
-        if d is None or d >= archive_start:
+        if d is None or d >= archive_start or task.get("required_by_recent_update"):
             required[key] = task
             background.pop(key, None)
         else:
@@ -531,30 +553,36 @@ def split_pending(pending: dict, historical: list[dict], archive_start: date) ->
     # A manual backfill can promote historical tasks back to mandatory work.
     for key, entry in list(background.items()):
         d = day(entry["task"].get("date"))
-        if d is None or d >= archive_start:
+        if d is None or d >= archive_start or entry["task"].get("required_by_recent_update"):
             required[key] = entry["task"]
             del background[key]
     return {"reports": list(pending.get("reports", [])), "tasks": list(required.values())}, list(background.values())
 
 
 def publication_candidates(api_rows: list[dict], mirror: dict, start: date, end: date) -> tuple[dict, list[dict]]:
-    """Do not confuse API status/index updates with publication or revision dates.
+    """Keep active update signals even when a report's cover date has not changed.
 
-    Mirror publication dates still discover revised reports whose API date lags.
-    Undated API rows stay required, so missing metadata never implies completion.
+    Archived historical status changes remain metadata-only, preventing the old
+    mass-backfill bug. Active updates are checked against fresh version metadata
+    and exact file hashes; their original publication dates are never rewritten.
     """
     required, metadata_only = {}, []
     for row in api_rows:
         ident = report_id(row["id"])
+        published = day(row.get("publishDate"))
+        if published and published > end:
+            continue
         if not (within(row.get("publishDate"), start, end) or within(row.get("updateDate"), start, end)):
             continue
-        if (day(row.get("publishDate")) is None or within(row.get("publishDate"), start, end)
-                or within(mirror.get(ident, {}).get("published"), start, end)):
-            required[ident] = row
+        active_update = (str(row.get("status", "")).lower() == "active"
+                         and within(row.get("updateDate"), start, end))
+        if (published is None or within(row.get("publishDate"), start, end)
+                or within(mirror.get(ident, {}).get("published"), start, end) or active_update):
+            required[ident] = {**row, "required_by_recent_update": active_update}
         else:
             metadata_only.append({"id": ident, "publishDate": row.get("publishDate"),
                                   "updateDate": row.get("updateDate"), "status": row.get("status"),
-                                  "reason": "Index/status update outside publication window; links and metadata retained"})
+                                  "reason": "Non-active historical index/status update; links and metadata retained"})
     return required, metadata_only
 
 
@@ -625,6 +653,8 @@ def sync(args) -> int:
         full = False
     try:
         api_rows, count = api_scan(http, start, end, full)
+        write_json(root / "data/sources/congress-api-latest.json", {"fetched_at": now.isoformat(),
+                   "window_start": str(start), "window_end": str(end), "reported_count": count, "reports": api_rows})
         for row in api_rows:
             ident = report_id(row["id"])
             catalog.setdefault(ident, {"id": ident, "title": row.get("title", ident)})["api"] = row
@@ -644,6 +674,9 @@ def sync(args) -> int:
         errors.append("No current catalog source succeeded; cached entries are not proof of a successful refresh")
     recent_api, metadata_only = publication_candidates(api_rows, fresh_mirror, start, end)
     status["metadata_only_updates"] = len(metadata_only)
+    status["active_update_candidates"] = sum(bool(r.get("required_by_recent_update")) for r in recent_api.values())
+    status["active_updates_with_older_publication"] = sum(bool(r.get("required_by_recent_update"))
+        and not within(r.get("publishDate"), start, end) for r in recent_api.values())
     write_json(root / "data/metadata-only-updates.json", metadata_only)
     ids = {i for i, r in fresh_mirror.items() if within(r.get("published"), start, end)} | set(recent_api) | set(pending["reports"])
     ids |= {r["id"] for r in rss_rows if within(r["published"], start, end)}
@@ -662,6 +695,8 @@ def sync(args) -> int:
             for task in found:
                 if api_row:
                     task["api_version"] = str(api_row.get("version", ""))
+                    task["required_by_recent_update"] = bool(api_row.get("required_by_recent_update"))
+                    task["observed_update_date"] = api_row.get("updateDate", "")
                 tasks[task_key(task)] = task
             if api_row and found and any(t["version"] != str(api_row.get("version")) for t in found):
                 warnings.append({"id": ident, "api_version": api_row.get("version"), "pdf_revisions": [t["version"] for t in found],
@@ -687,9 +722,10 @@ def sync(args) -> int:
         old_hash = task["formats"]["PDF"].get("sha1")
         if old_hash and any(t["formats"]["PDF"].get("sha1") == old_hash for t in fresh):
             continue  # Fresh metadata is the authoritative retry specification.
-        if task.get("metadata_source") == "Congress.gov API" and mirror_covers_publication(fresh, task):
+        if (task.get("metadata_source") == "Congress.gov API" and mirror_covers_publication(fresh, task)
+                and any(set(task["formats"]["PDF"]["urls"]) & set(t["formats"]["PDF"]["urls"]) for t in fresh)):
             reconciled.append({"id": task["id"], "previous_api_version": task["version"],
-                               "reason": "API/PDF version namespaces reconciled against same-or-newer publication metadata"})
+                               "reason": "Exact official PDF URL also present in refreshed version metadata"})
             continue
         tasks.setdefault(task_key(task), task)
     status["reconciled_pending_discoveries"] = reconciled

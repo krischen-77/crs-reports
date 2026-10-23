@@ -1,0 +1,85 @@
+{
+  "attempted_versions": 71,
+  "checked_at": "2026-10-23T11:38:01.579696+00:00",
+  "github_run_attempt": "1",
+  "github_run_id": "39947299412",
+  "new_pdf_versions": 11,
+  "primary_candidates": 68,
+  "required_pdf_failures": 0,
+  "scope": "Verifies every archived file and three current official PDFs previously missed by publication-date-only filtering. Original cover dates are preserved.",
+  "source_status": {
+    "congress_api": {
+      "credential": "public DEMO_KEY",
+      "ok": true,
+      "reported_count": 80,
+      "reports": 80,
+      "scope": "update-date window"
+    },
+    "everycrsreport": {
+      "coverage": "complete published CSV, not a claim of complete official CRS coverage",
+      "ok": true,
+      "reports": 23573
+    },
+    "rss": {
+      "items": 25,
+      "ok": true,
+      "scope": "supplement only; feed is not the complete catalog"
+    }
+  },
+  "successful_versions": 71,
+  "targets": [
+    {
+      "archived_paths": [
+        "pdf/reports/R49057v5-2026-07-31-6154e49b161f2b2a.pdf"
+      ],
+      "date": "2026-07-31",
+      "exact_pdf_present_after": true,
+      "exact_pdf_present_before": false,
+      "id": "R49057",
+      "markdown_paths": [
+        "markdown/reports/R49057v5-2026-07-31-6154e49b161f2b2a.md"
+      ],
+      "official_pdf_url": "https://www.congress.gov/crs_external_products/R/PDF/R49057/R49057.5.pdf",
+      "sha256": "6154e49b161f2b2abbb7c443ca3018219876b7a3717c589dfb8b242aa95586b8",
+      "title": "Data Centers and Water: Frequently Asked Questions",
+      "update": "2026-10-22T13:38:13Z",
+      "version": "5"
+    },
+    {
+      "archived_paths": [
+        "pdf/reports/R47857v9-2026-10-09-145010857d94222c.pdf"
+      ],
+      "date": "2026-10-09",
+      "exact_pdf_present_after": true,
+      "exact_pdf_present_before": false,
+      "id": "R47857",
+      "markdown_paths": [
+        "markdown/reports/R47857v9-2026-10-09-145010857d94222c.md"
+      ],
+      "official_pdf_url": "https://www.congress.gov/crs_external_products/R/PDF/R47857/R47857.9.pdf",
+      "sha256": "145010857d94222c4b3bb63ae44c06d743e0f5a5f470d8930bbe1de4bca718fc",
+      "title": "U.S. Tourism: Recent Developments and Data",
+      "update": "2026-10-20T15:38:03Z",
+      "version": "9"
+    },
+    {
+      "archived_paths": [
+        "pdf/reports/R49028v5-2026-07-10-cf4a66995147e1a1.pdf"
+      ],
+      "date": "2026-07-10",
+      "exact_pdf_present_after": true,
+      "exact_pdf_present_before": false,
+      "id": "R49028",
+      "markdown_paths": [
+        "markdown/reports/R49028v5-2026-07-10-cf4a66995147e1a1.md"
+      ],
+      "official_pdf_url": "https://www.congress.gov/crs_external_products/R/PDF/R49028/R49028.5.pdf",
+      "sha256": "cf4a66995147e1a17e4966cdb84bc3b08596c03bb0ef70f61d473e6cc3d51b70",
+      "title": "Fixing Emergency Management for Americans (FEMA) Act of 2025: Context, Overview, and Summary of Provisions",
+      "update": "2026-10-20T12:52:57Z",
+      "version": "5"
+    }
+  ],
+  "total_pdf_versions": 464,
+  "total_pdf_versions_after": 475
+}
