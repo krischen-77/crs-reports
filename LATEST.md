@@ -1,4 +1,4 @@
-**Official-current verification: 61/67. [View current official files](CURRENT.md).**
+**Official-current verification: 67/67. [View current official files](CURRENT.md).**
 
 # Recently archived CRS reports
 
@@ -33,6 +33,7 @@ Publication-date window (inclusive): **2026-10-16 to 2026-10-23**. Older archive
 | 2026-10-20 | R48849 v10 | Housing for the 21st Century Act | [PDF](pdf/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.pdf) | [Markdown](markdown/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.md) |
 | 2026-10-20 | R48732 v8 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.pdf) | [Markdown](markdown/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.md) |
 | 2026-10-20 | R48732 v7 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v7-2026-10-20-e74ce1675252b123.pdf) | [Markdown](markdown/reports/R48732v7-2026-10-20-e74ce1675252b123.md) |
+| 2026-10-20 | R46833 v7 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.pdf) | [Markdown](markdown/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.md) |
 | 2026-10-20 | R46833 v6 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v6-2026-10-20-c89565604a23e3ae.pdf) | [Markdown](markdown/reports/R46833v6-2026-10-20-c89565604a23e3ae.md) |
 | 2026-10-20 | LSB11492 v1 | The Fourth Amendment and the Speech or Debate Clause | [PDF](pdf/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.pdf) | [Markdown](markdown/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.md) |
 | 2026-10-20 | IN12665 v6 | U.S. Military Operations Against Iran’s Missile and Nuclear Programs | [PDF](pdf/insights/IN12665v6-2026-10-20-3c347d3e055b23e5.pdf) | [Markdown](markdown/insights/IN12665v6-2026-10-20-3c347d3e055b23e5.md) |
