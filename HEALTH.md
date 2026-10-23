@@ -1,8 +1,8 @@
 # CRS refresh health
 
-**REFRESHING**
+**HEALTHY**
 
-Watchdog checked UTC: 2026-10-23T13:42:40.722419+00:00
+Watchdog checked UTC: 2026-10-23T13:45:49.743988+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -10,7 +10,7 @@ Monitor commits are NOT source refreshes. No new reports can be normal; stale ve
 |---|---|
 | crs-backup.yml | 2026-10-23T13:36:24.797825+00:00 |
 | official-reconcile.yml | 2026-10-23T13:42:18.274005+00:00 |
-| coverage-audit.yml | 2026-10-23T12:10:33.094347+00:00 |
+| coverage-audit.yml | 2026-10-23T13:45:29.729954+00:00 |
 
 ## Findings
 
