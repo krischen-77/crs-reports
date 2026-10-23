@@ -5,11 +5,9 @@
     "coverage-audit.yml: latest run failure",
     "Official-current coverage is incomplete"
   ],
-  "checked_at": "2026-10-23T22:59:41.840420+00:00",
-  "notices": [
-    "Independent verification is due after the new reconciliation"
-  ],
-  "recovery_stage": null,
+  "checked_at": "2026-10-23T23:44:45.912037+00:00",
+  "notices": [],
+  "recovery_stage": "official-reconcile.yml",
   "source_times": {
     "crs-backup.yml": "2026-10-23T22:48:52.115083+00:00",
     "official-reconcile.yml": "2026-10-23T22:55:47.855059+00:00",
@@ -42,8 +40,9 @@
       "updated_at": "2026-10-23T22:59:32Z"
     }
   },
+  "recovery_action": "Dispatched official-reconcile.yml; completion is NOT yet verified",
   "alert_issue": "https://github.com/krischen-77/crs-reports/issues/1",
-  "github_run_id": "40037026256",
+  "github_run_id": "40041357431",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
