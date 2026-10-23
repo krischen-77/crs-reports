@@ -1,31 +1,35 @@
 {
-  "result": "healthy",
+  "result": "refreshing",
   "errors": [],
-  "checked_at": "2026-10-23T22:46:35.978957+00:00",
-  "notices": [],
+  "checked_at": "2026-10-23T22:49:58.481964+00:00",
+  "notices": [
+    "Pipeline is running; do not launch duplicate work"
+  ],
   "recovery_stage": null,
   "source_times": {
-    "crs-backup.yml": "2026-10-23T13:36:24.797825+00:00",
+    "crs-backup.yml": "2026-10-23T22:48:52.115083+00:00",
     "official-reconcile.yml": "2026-10-23T13:42:18.274005+00:00",
     "coverage-audit.yml": "2026-10-23T13:45:29.729954+00:00"
   },
-  "active_stages": [],
+  "active_stages": [
+    "official-reconcile.yml"
+  ],
   "latest_runs": {
     "crs-backup.yml": {
-      "id": 39962547165,
+      "id": 40035928999,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/39962547165",
-      "run_started_at": "2026-10-23T13:35:58Z",
-      "updated_at": "2026-10-23T13:37:58Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40035928999",
+      "run_started_at": "2026-10-23T22:48:24Z",
+      "updated_at": "2026-10-23T22:49:48Z"
     },
     "official-reconcile.yml": {
-      "id": 39962831087,
-      "status": "completed",
-      "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/39962831087",
-      "run_started_at": "2026-10-23T13:38:02Z",
-      "updated_at": "2026-10-23T13:42:28Z"
+      "id": 40036075880,
+      "status": "in_progress",
+      "conclusion": null,
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40036075880",
+      "run_started_at": "2026-10-23T22:49:50Z",
+      "updated_at": "2026-10-23T22:49:54Z"
     },
     "coverage-audit.yml": {
       "id": 39963452261,
@@ -36,7 +40,7 @@
       "updated_at": "2026-10-23T13:45:37Z"
     }
   },
-  "github_run_id": "40035745423",
+  "github_run_id": "40036075708",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
