@@ -1,48 +1,44 @@
 {
-  "result": "unhealthy",
-  "errors": [
-    "official-reconcile.yml: latest run failure",
-    "coverage-audit.yml: latest run failure",
-    "Official-current coverage is incomplete"
-  ],
-  "checked_at": "2026-10-24T07:00:13.950118+00:00",
+  "result": "healthy",
+  "errors": [],
+  "checked_at": "2026-10-24T07:39:36.349903+00:00",
+  "monitor_result": "completed",
   "notices": [],
-  "recovery_stage": "official-reconcile.yml",
+  "recovery_stage": null,
   "source_times": {
-    "crs-backup.yml": "2026-10-23T22:48:52.115083+00:00",
-    "official-reconcile.yml": "2026-10-24T05:53:26.058769+00:00",
-    "coverage-audit.yml": "2026-10-23T13:45:29.729954+00:00"
+    "crs-backup.yml": "2026-10-24T07:32:18.266502+00:00",
+    "official-reconcile.yml": "2026-10-24T07:36:25.184140+00:00",
+    "coverage-audit.yml": "2026-10-24T07:39:23.015970+00:00"
   },
   "active_stages": [],
   "latest_runs": {
     "crs-backup.yml": {
-      "id": 40035928999,
+      "id": 40074491177,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40035928999",
-      "run_started_at": "2026-10-23T22:48:24Z",
-      "updated_at": "2026-10-23T22:49:48Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40074491177",
+      "run_started_at": "2026-10-24T07:31:41Z",
+      "updated_at": "2026-10-24T07:33:00Z"
     },
     "official-reconcile.yml": {
-      "id": 40067688404,
+      "id": 40074573917,
       "status": "completed",
-      "conclusion": "failure",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40067688404",
-      "run_started_at": "2026-10-24T05:48:20Z",
-      "updated_at": "2026-10-24T05:53:36Z"
+      "conclusion": "success",
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40074573917",
+      "run_started_at": "2026-10-24T07:32:56Z",
+      "updated_at": "2026-10-24T07:36:48Z"
     },
     "coverage-audit.yml": {
-      "id": 40036689718,
+      "id": 40074826830,
       "status": "completed",
-      "conclusion": "failure",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40036689718",
-      "run_started_at": "2026-10-23T22:56:00Z",
-      "updated_at": "2026-10-23T22:59:32Z"
+      "conclusion": "success",
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40074826830",
+      "run_started_at": "2026-10-24T07:36:46Z",
+      "updated_at": "2026-10-24T07:39:32Z"
     }
   },
-  "recovery_action": "Retry cooldown/cap active; failure remains visible",
   "alert_issue": "https://github.com/krischen-77/crs-reports/issues/1",
-  "github_run_id": "40072405184",
+  "github_run_id": "40074996493",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
