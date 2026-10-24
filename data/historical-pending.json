@@ -8,44 +8,6 @@
       "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "9",
-        "date": "2014-12-09",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R41974",
-            "sha1": "3f7cf6a8784560ac84de4022434715031335864f",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20141209_R41974_3f7cf6a8784560ac84de4022434715031335864f.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R41974",
-            "sha1": "1669555d9bd1223c89fbf7d7a37ff53a68b2a60b",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20141209_R41974_1669555d9bd1223c89fbf7d7a37ff53a68b2a60b.pdf"
-            ]
-          }
-        },
-        "id": "R41974",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R41974",
-          "http://www.crs.gov/Reports/pdf/R41974"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "436219",
-        "title": "Cost-Benefit and Other Analysis Requirements in the Rulemaking Process",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "27",
         "date": "2017-03-27",
         "formats": {
@@ -80,8 +42,11 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-24",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-26",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "12",
@@ -9204,6 +9169,47 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "389618",
         "title": "Statutory Limits on Total Spending as a Method of Budget Control",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-24",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-26",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "9",
+        "date": "2014-12-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R41974",
+            "sha1": "3f7cf6a8784560ac84de4022434715031335864f",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20141209_R41974_3f7cf6a8784560ac84de4022434715031335864f.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R41974",
+            "sha1": "1669555d9bd1223c89fbf7d7a37ff53a68b2a60b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20141209_R41974_1669555d9bd1223c89fbf7d7a37ff53a68b2a60b.pdf"
+            ]
+          }
+        },
+        "id": "R41974",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R41974",
+          "http://www.crs.gov/Reports/pdf/R41974"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "436219",
+        "title": "Cost-Benefit and Other Analysis Requirements in the Rulemaking Process",
         "version": "unknown"
       }
     }

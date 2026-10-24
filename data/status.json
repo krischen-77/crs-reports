@@ -1,8 +1,8 @@
 {
   "active_update_candidates": 57,
   "active_updates_with_older_publication": 16,
-  "api_remaining_quota": 8,
-  "api_requests": 2,
+  "api_remaining_quota": 7,
+  "api_requests": 3,
   "archive_start_inclusive": "2026-09-17",
   "attempted_versions": 58,
   "candidate_reports": 58,
@@ -10,17 +10,12 @@
   "deferred_official_format_ids": [],
   "errors": [],
   "github_run_attempt": "1",
-  "github_run_id": "40087370767",
-  "historical_new_pdf_versions": 1,
+  "github_run_id": "40139874711",
+  "historical_new_pdf_versions": 2,
   "historical_pending_versions": 239,
   "lookback_days": 7,
   "metadata_only_updates": 5,
-  "new_pdf_versions": 1,
-  "official_current_pending": 0,
-  "official_current_required": 57,
-  "official_current_verified": 57,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-10-24T10:53:08.342286+00:00",
+  "new_pdf_versions": 2,
   "pending_reports": 0,
   "pending_versions": 0,
   "primary_new_pdf_versions": 0,
@@ -28,7 +23,7 @@
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-10-24T10:49:10.665641+00:00",
+  "run_at": "2026-10-24T22:45:25.882235+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -49,10 +44,9 @@
     }
   },
   "successful_versions": 58,
-  "total_archived_pdf_versions": 524,
-  "total_html_original_versions": 0,
+  "total_archived_pdf_versions": 526,
   "total_html_snapshots": 431,
-  "total_pdf_bytes": 412129680,
+  "total_pdf_bytes": 415348373,
   "warnings": [
     {
       "api_version": 83,
@@ -399,7 +393,7 @@
       ]
     },
     {
-      "id": "R41974",
+      "id": "R42079",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions"
@@ -407,9 +401,10 @@
       "scope": "optional historical backfill"
     },
     {
-      "id": "R42016",
+      "id": "R42091",
       "messages": [
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
+        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
       ],
       "scope": "optional historical backfill"
     },
