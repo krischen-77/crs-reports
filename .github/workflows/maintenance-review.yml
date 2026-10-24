@@ -1,52 +1,55 @@
-name: CRS maintenance review
+name: CRS tested system repair
 "on":
   workflow_dispatch:
   push:
     branches: [main]
     paths: ['.github/workflows/maintenance-review.yml']
-permissions: {contents: read}
+permissions:
+  contents: read
 jobs:
-  review:
+  deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-        with: {ref: main, sparse-checkout: scripts}
+        with:
+          ref: main
+          fetch-depth: 1
+          sparse-checkout: |
+            scripts
+            tools
+            tests
+            .github
+            docs
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
-      - name: Verify public original independently from incomplete formats metadata
-        env:
-          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-        shell: python
+      - name: Apply exact-hash source repair without changing any archive
+        run: python .github/repairs/deploy_systemic_refresh.py
+      - name: Run all 132 collector, original-format, verification and reliability tests
         run: |
-          import sys,os,json,re
-          from pathlib import Path
-          sys.path.insert(0,'scripts')
-          import sync_crs as s
-          out=Path('review-evidence');out.mkdir()
-          h=s.HTTP(os.getenv('CONGRESS_API_KEY',''))
-          obj=h.json(s.API+'/R49491?format=json');s.write_json(out/'detail.json',obj)
-          item=next(v for k,v in obj.items() if k.lower()=='crsreport')
-          version=item.get('currentVersion')
-          assert isinstance(version,int) and version>0
-          url=f'https://www.congress.gov/crs_external_products/R/PDF/R49491/R49491.{version}.pdf'
-          result={'candidate_url':url,'derived_from':'official detail currentVersion, NOT list version','official_currentVersion':version,'declared_formats':item['formats']}
-          try:
-              raw,actual=h.get(url)
-              assert raw.startswith(b'%PDF-')
-              with s.fitz.open(stream=raw,filetype='pdf') as doc:
-                  first=doc[0].get_text();last=doc[-1].get_text()
-                  result.update(ok=True,actual_url=actual,sha256=s.digest(raw),bytes=len(raw),pages=len(doc),first_page=first,last_page=last)
-              (out/'candidate.pdf').write_bytes(raw)
-          except Exception as e:result.update(ok=False,error=type(e).__name__+': '+str(e))
-          try:
-              raw,_=h.get(s.API+'/R49491?format=xml');(out/'detail.xml').write_bytes(raw)
-          except Exception as e:result['xml_error']=type(e).__name__+': '+str(e)
-          s.write_json(out/'results.json',result);print(json.dumps(result,indent=2))
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        with:
-          name: crs-missing-format-evidence
-          path: review-evidence/
-          retention-days: 7
-          if-no-files-found: error
+          python -m unittest discover -s tests -v
+          python -m unittest discover -s tools/tests -v
+          python -m unittest discover -s .github/audits -p 'test_*.py' -v
+          python -m unittest discover -s .github/ops/tests -v
+      - name: Commit only tested implementation and documentation
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/crs_formats.py scripts/sync_crs.py tools/official_pipeline.py tools/tests/test_original_formats.py .github/current-verification/verify_current.py .github/ops/reliability.py .github/ops/dispatch_next.py .github/ops/tests/test_quiet_monitoring.py docs/repair-2026-10-24.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'fix: recover omitted CRS formats, verify real originals and stop duplicate watchdog failures'
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then break; fi
+              if [[ "$attempt" == 3 ]]; then exit 1; fi
+              git pull --rebase origin main
+            done
+          fi
+      - name: Start real end-to-end refresh on the tested implementation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/ops/dispatch_next.py backup

@@ -19,15 +19,6 @@ name: CRS daily backup
         default: false
         required: false
         type: boolean
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/crs-backup.yml'
-      - 'scripts/**'
-      - 'tests/**'
-      - 'tools/**'
-      - '.github/ops/**'
-      - 'requirements.txt'
 permissions:
   contents: read
 concurrency:
@@ -40,6 +31,7 @@ jobs:
     timeout-minutes: 90
     permissions:
       contents: write
+      actions: write
     steps:
       - name: Check out main
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -116,3 +108,13 @@ jobs:
         run: |
           echo 'Incomplete backup: inspect data/status.json; successful files and retry tasks remain preserved.' >&2
           exit 1
+      - name: Start official-current reconciliation after successful persisted collection
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/ops/dispatch_next.py reconcile
+      - name: Report failed collection once through health monitoring
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/ops/dispatch_next.py watchdog

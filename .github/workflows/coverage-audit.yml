@@ -1,10 +1,6 @@
 name: CRS independent coverage audit
 "on":
   workflow_dispatch:
-  workflow_run:
-    workflows: ['CRS official-current reconciliation']
-    types: [completed]
-    branches: [main]
 permissions:
   contents: read
 concurrency:
@@ -12,11 +8,11 @@ concurrency:
   cancel-in-progress: false
 jobs:
   audit:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with: {ref: main, fetch-depth: 1}
@@ -75,3 +71,8 @@ jobs:
       - name: Fail on missing, unverifiable or stale receipts
         if: always() && (steps.audit.outcome != 'success' || steps.receipt.outcome != 'success')
         run: exit 1
+      - name: Refresh health after audit result and receipt have been persisted
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/ops/dispatch_next.py watchdog

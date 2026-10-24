@@ -1,10 +1,6 @@
 name: CRS official-current reconciliation
 "on":
   workflow_dispatch:
-  workflow_run:
-    workflows: ['CRS daily backup']
-    types: [completed]
-    branches: [main]
 permissions:
   contents: read
   actions: read
@@ -13,7 +9,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   plan:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 15
     outputs:
@@ -120,6 +115,10 @@ jobs:
           manifest=json.loads(Path('data/archive-manifest.json').read_text())
           valid,invalid=a.verify_manifest(Path('.').resolve(),manifest)
           assert not invalid,invalid
+          sys.path.insert(0,'scripts')
+          import crs_formats
+          for item in json.loads(Path('data/html-original-manifest.json').read_text()) if Path('data/html-original-manifest.json').exists() else []:
+              assert crs_formats.verify_html_entry(Path('.'),item),item['id']
           print('Actual PDF versions verified:',len(manifest))
           print('Official-current coverage:',status['official_current_verified'],'/',status['official_current_required'])
           print('Unresolved official current entries:',status['official_current_pending'])
@@ -157,3 +156,24 @@ jobs:
       - name: Fail visibly when official-current coverage or verification is incomplete
         if: always() && (steps.official.outcome != 'success' || steps.verify.outcome != 'success')
         run: exit 1
+  handoff:
+    needs: [plan, resolve, archive]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with: {ref: main, sparse-checkout: '.github/ops'}
+      - name: Start independent audit only after complete reconciliation
+        if: needs.archive.result == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/ops/dispatch_next.py audit
+      - name: Report incomplete reconciliation without launching a doomed audit
+        if: needs.archive.result != 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/ops/dispatch_next.py watchdog

@@ -3,13 +3,6 @@ name: CRS refresh watchdog
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/crs-watchdog.yml']
-  workflow_run:
-    workflows: ['CRS daily backup', 'CRS official-current reconciliation', 'CRS independent coverage audit']
-    types: [completed]
-    branches: [main]
 permissions:
   contents: read
 concurrency:
@@ -17,7 +10,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   health:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -54,6 +46,6 @@ jobs:
             git pull --rebase origin main
           done
           exit 1
-      - name: Do not turn incomplete monitoring green
+      - name: Fail only if the monitor could not complete its checks or publish evidence
         if: always() && steps.health.outcome != 'success'
         run: exit 1
