@@ -1,0 +1,68 @@
+name: CRS maintenance review
+"on":
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/maintenance-review.yml']
+permissions:
+  contents: read
+  actions: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          sparse-checkout: |
+            .github
+            scripts
+            tools
+            tests
+            data
+            metadata
+            docs
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with: {python-version: '3.12', cache: pip}
+      - run: python -m pip install -r requirements.txt
+      - name: Capture read-only response evidence and six-hour run inventory
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import json,os,sys,subprocess,shutil
+          from datetime import datetime,timedelta,timezone
+          from pathlib import Path
+          import requests
+          out=Path('review-evidence');out.mkdir()
+          sys.path.insert(0,'scripts')
+          import sync_crs as s
+          h=s.HTTP(os.getenv('CONGRESS_API_KEY',''))
+          for name,url in [('R49491-detail',s.API+'/R49491?format=json'),('R49491-mirror',s.MIRROR+'reports/R49491.json'),('R49491-page','https://www.congress.gov/crs-product/R49491')]:
+              try:
+                  raw,actual=h.get(url)
+                  (out/(name+'.txt')).write_bytes(raw)
+                  print(name,'received',len(raw),'bytes')
+              except Exception as e:
+                  (out/(name+'-error.txt')).write_text(type(e).__name__+': '+str(e))
+          since=(datetime.now(timezone.utc)-timedelta(hours=6)).isoformat()
+          headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'}
+          response=requests.get('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/actions/runs',params={'per_page':100,'created':'>='+since},headers=headers,timeout=60)
+          response.raise_for_status()
+          runs=response.json()['workflow_runs']
+          minimal=[{k:r.get(k) for k in ('id','name','path','event','status','conclusion','run_attempt','created_at','run_started_at','updated_at','html_url')} for r in runs]
+          (out/'recent-runs.json').write_text(json.dumps(minimal,indent=2))
+          (out/'head.txt').write_text(subprocess.check_output(['git','rev-parse','HEAD'],text=True))
+          for directory in ['.github','scripts','tools','tests','data','metadata','docs']:
+              if Path(directory).is_dir():shutil.copytree(directory,out/'repository'/directory,ignore=shutil.ignore_patterns('__pycache__'))
+          for filename in ['requirements.txt','README.md','LATEST.md','CURRENT.md','HEALTH.md']:
+              if Path(filename).is_file():shutil.copy(filename,out/'repository'/filename)
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: crs-maintenance-review
+          path: review-evidence/
+          include-hidden-files: true
+          retention-days: 7
+          if-no-files-found: error
