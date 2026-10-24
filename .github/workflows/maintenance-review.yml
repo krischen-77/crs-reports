@@ -4,48 +4,49 @@ name: CRS maintenance review
   push:
     branches: [main]
     paths: ['.github/workflows/maintenance-review.yml']
-permissions:
-  contents: read
+permissions: {contents: read}
 jobs:
   review:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-        with:
-          ref: main
-          sparse-checkout: |
-            scripts
+        with: {ref: main, sparse-checkout: scripts}
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
-      - name: Inspect advertised current original without assuming a PDF exists
+      - name: Verify public original independently from incomplete formats metadata
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         shell: python
         run: |
-          import sys,os,json
+          import sys,os,json,re
           from pathlib import Path
           sys.path.insert(0,'scripts')
           import sync_crs as s
           out=Path('review-evidence');out.mkdir()
           h=s.HTTP(os.getenv('CONGRESS_API_KEY',''))
-          obj=h.json(s.API+'/R49491?format=json')
-          s.write_json(out/'detail.json',obj)
+          obj=h.json(s.API+'/R49491?format=json');s.write_json(out/'detail.json',obj)
           item=next(v for k,v in obj.items() if k.lower()=='crsreport')
-          results=[]
-          for fmt in item.get('formats',[]):
-              url=fmt.get('url') or fmt.get('URL')
-              try:
-                  raw,actual=h.get(url)
-                  (out/('original.'+fmt['format'].lower())).write_bytes(raw)
-                  results.append({'format':fmt['format'],'url':actual,'bytes':len(raw),'sha256':s.digest(raw),'ok':True})
-              except Exception as e:results.append({'url':url,'error':type(e).__name__+': '+str(e),'ok':False})
-          s.write_json(out/'results.json',results)
-          print(json.dumps(results,indent=2))
+          version=item.get('currentVersion')
+          assert isinstance(version,int) and version>0
+          url=f'https://www.congress.gov/crs_external_products/R/PDF/R49491/R49491.{version}.pdf'
+          result={'candidate_url':url,'derived_from':'official detail currentVersion, NOT list version','official_currentVersion':version,'declared_formats':item['formats']}
+          try:
+              raw,actual=h.get(url)
+              assert raw.startswith(b'%PDF-')
+              with s.fitz.open(stream=raw,filetype='pdf') as doc:
+                  first=doc[0].get_text();last=doc[-1].get_text()
+                  result.update(ok=True,actual_url=actual,sha256=s.digest(raw),bytes=len(raw),pages=len(doc),first_page=first,last_page=last)
+              (out/'candidate.pdf').write_bytes(raw)
+          except Exception as e:result.update(ok=False,error=type(e).__name__+': '+str(e))
+          try:
+              raw,_=h.get(s.API+'/R49491?format=xml');(out/'detail.xml').write_bytes(raw)
+          except Exception as e:result['xml_error']=type(e).__name__+': '+str(e)
+          s.write_json(out/'results.json',result);print(json.dumps(result,indent=2))
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: crs-maintenance-original-format
+          name: crs-missing-format-evidence
           path: review-evidence/
           retention-days: 7
           if-no-files-found: error
