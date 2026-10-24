@@ -1,0 +1,42 @@
+{
+  "record_type": "static repair acceptance snapshot; not a refresh heartbeat",
+  "date": "2026-10-24",
+  "repository": "krischen-77/crs-reports",
+  "incident_inventory_captured_at_utc": "2026-10-24T07:08:00Z",
+  "incident_lookback_hours": 6,
+  "incident_failed_runs": 7,
+  "incident_watchdog_failures": 6,
+  "incident_official_reconciliation_failures": 1,
+  "root_cause": "Official R49491 detail omitted PDF in formats despite currentVersion=2 and an accessible version-2 official PDF. The old parser raised StopIteration with an empty diagnostic. Hourly monitoring converted the same persistent business incident into repeated failed Actions.",
+  "implementation_commit": "5114baeed648ab0c2a66bac3e77c2c0814b1668e",
+  "workflow_commit": "aee5c89c8f2c7e3a68454edc09d18509e0db1e8e",
+  "deployed_regression_run": 40074473777,
+  "regression_tests_passed": 132,
+  "regression_suites": {"collector":49,"official_and_formats":36,"independent_audit":9,"reliability":38},
+  "window_start_inclusive": "2026-10-17",
+  "window_end_inclusive": "2026-10-24",
+  "runs": {
+    "daily_backup": {"id":40074491177,"conclusion":"success","actual_source_run_at":"2026-10-24T07:32:18.266502+00:00"},
+    "official_reconciliation": {"id":40074573917,"conclusion":"success","actual_official_checked_at":"2026-10-24T07:36:25.184140+00:00","required":57,"verified":57,"pending":0},
+    "independent_verification": {"id":40074826830,"conclusion":"success","finished_at":"2026-10-24T07:39:23.015970+00:00","required_originals":58,"verified_originals":58,"verified_pdfs":58,"verified_html_originals":0,"missing":[],"unverified":[],"invalid_files":[]},
+    "watchdog": {"id":40074996493,"conclusion":"success","checked_at":"2026-10-24T07:39:36.349903+00:00","monitor_result":"completed","archive_health":"healthy","errors":[]}
+  },
+  "catalog_report_ids": 23576,
+  "total_archived_pdf_versions": 523,
+  "R49491": {
+    "current_revision": "2",
+    "pdf": "pdf/reports/R49491v2-2026-10-22-8daccd774bd61ce8.pdf",
+    "markdown": "markdown/reports/R49491v2-2026-10-22-8daccd774bd61ce8.md",
+    "official_pdf_url": "https://www.congress.gov/crs_external_products/R/PDF/R49491/R49491.2.pdf",
+    "pdf_sha256": "8daccd774bd61ce8a6f362dbfa77d1e22a98c86903e4d5dc77e0af8f0c21753d",
+    "validation": "Accessible official PDF, embedded report ID, VERSION 2 footer, matching cover title; independently redownloaded and matched to actual archive bytes. Old v1 retained."
+  },
+  "incident_issue": {"number":1,"state":"closed","closed_by":"github-actions[bot]","closed_at":"2026-10-24T07:39:39Z"},
+  "scope_notes": [
+    "57 officially resolved current records plus one mirror-only discovery were independently byte-verified; the mirror-only entry is not counted as an official-detail current-version declaration.",
+    "Historical optional backlog remains separate and is not claimed complete.",
+    "Receipt times above are source execution, current-original checking and independent download times, not Git commit timestamps.",
+    "Watchdog success means monitoring executed and persisted its result; health remains a separate truthful field. Real production failures are not suppressed.",
+    "One-shot deployment workflow and compressed patch transport were removed after tested source deployment; historical commits and run records remain available."
+  ]
+}
