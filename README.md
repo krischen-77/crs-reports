@@ -1,131 +1,68 @@
 # CRS Reports Archive | 美国国会研究局报告备份
 
-## 每日刷新可靠性
+**目标：每天自动保存最近一周新增或更新的 CRS 报告原文，并刷新全部已发现报告的链接目录。** 已归档版本永久保留，不会因超出一周窗口而删除。
 
-每天北京时间 **06:23、18:23** 执行；随后自动官方当前版本对账和独立原文核验。每小时独立看门狗检查，超过 26 小时未成功刷新或流程失败时创建／更新告警 Issue，并进行有上限的自动重试。监控自身的提交不计作源站刷新。
-
-[刷新健康状态](HEALTH.md) · [可靠性规则与边界](docs/daily-reliability.md) · [官方当前版本](CURRENT.md)
-
+**阅读入口：** [官方当前原文](CURRENT.md) · [最近一周报告](LATEST.md) · [全部链接 CSV](data/all-report-links.csv) · [纯文本链接](data/all-report-links.txt) · [健康状态](HEALTH.md)
 
 [![Daily collection](https://github.com/krischen-77/crs-reports/actions/workflows/crs-backup.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/crs-backup.yml)
-[![Official current reconciliation](https://github.com/krischen-77/crs-reports/actions/workflows/official-reconcile.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/official-reconcile.yml)
+[![Official reconciliation](https://github.com/krischen-77/crs-reports/actions/workflows/official-reconcile.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/official-reconcile.yml)
 [![Independent verification](https://github.com/krischen-77/crs-reports/actions/workflows/coverage-audit.yml/badge.svg)](https://github.com/krischen-77/crs-reports/actions/workflows/coverage-audit.yml)
 
-每天保存 CRS 原始 PDF、Markdown 全文、可取得的 HTML 阅读快照及报告链接目录。**抓取程序运行成功，不等于当前官方版本已经收齐。** 本仓库将收集、官方当前版本对账、独立文件核验分开执行和展示。
+## 每天怎样运行
 
-## 先从这里阅读
+每天北京时间 **06:23、18:23** 各有一次刷新机会。GitHub 可能排队，时间不是精确执行承诺。
 
-**[CURRENT.md：按官方当前下载地址核验的最新文件](CURRENT.md)**
+**抓取和归档 → 官方当前版本对账 → 独立重新下载核验 → 健康检查。** 阶段之间使用明确的 `workflow_dispatch` 接续，不依赖多层 `workflow_run` 链。抓取成功且文件提交后才开始官方对账；官方对账成功后才开始独立核验。上游失败时保留已保存文件与待办，报告同一故障，不再启动注定失败的下游任务。
 
-[最近一周发布／修订及旧日期更新](LATEST.md) · [全部已发现报告链接 CSV](data/all-report-links.csv) · [纯文本链接](data/all-report-links.txt) · [实际已归档版本](data/archived-reports.csv)
+默认回看 7 天并包含边界日，同时处理本周仍有更新的 Active 报告，即使它的封面日期很早。中断恢复时从最后成功核验日向前追赶。镜像用于历史版本和补充发现，不能把镜像旧版冒充官方当前版。
 
-**[官方当前版本验收状态](data/official-status.json)** · [逐份对账 CSV](data/audits/latest-official-current.csv) · [逐份对账 JSON](data/audits/latest-official-current-comparisons.json) · [基础抓取状态](data/status.json)
+修改普通文档不会启动整套抓取。代码变更由回归测试检查；需要立即验证源站时，在 Actions → **CRS daily backup** → **Run workflow** 执行，成功后自动接续后续阶段。
 
-`CURRENT.md` 分开显示 API 更新日期、报告封面日期、官方 PDF 修订号及文件入口。较早的封面日期不代表这份报告本周没有更新；镜像文件名的修订号也不一定是官方当前修订号。
+## 原文与完整性
 
-## 自动化链路
+优先保存官方 PDF，按 `(报告编号, PDF SHA-256)` 去重，不覆盖不同内容的旧版。每个 PDF 有 Markdown 全文转换，图表和版式以原件为准。
 
-| 阶段 | 执行内容 | 验收依据 |
-|---|---|---|
-| CRS daily backup | 每日 10:23 UTC／北京时间 18:23；回看 7 天并纳入边界日，刷新镜像完整目录、官方更新列表、RSS，保存近期原文和重试任务 | `data/status.json` |
-| CRS official-current reconciliation | 每次每日抓取结束后，解析近期发布及本周有更新的 Active 报告的官方详情接口 `formats`；按官方当前 PDF 地址保存文件，不用镜像修订号代替 | `data/official-status.json`、`CURRENT.md` |
-| CRS independent coverage audit | 在官方对账后重新检查官方更新信号，取回当前 PDF，并比较仓库实际字节；另覆盖近期镜像发现但尚不在 API 列表中的报告 | Actions 独立核验结果及逐份证据 artifact |
+官方详情接口有时漏列 PDF。仅当详情 `currentVersion` 和官方 HTML 路径明确时，程序才构造一个待核验的官方 PDF 地址；下载后必须同时匹配文内报告编号、修订号和标题，才可接受。**列表 `version` 不用于猜测最新版。** 如果官方只提供可验证的 HTML 原文，则保存其原始字节、SHA-256 及 Markdown，计入独立 HTML 原文清单，不伪造 PDF、也不混入 PDF 数量。访问拒绝页面、错误编号、错误版本均不接受。
 
-GitHub 定时任务可能排队；这不是精确到秒的执行承诺。完整性判断必须结合三个阶段及它们的**实际检查时间**，不能只看第一个绿色徽章。
+独立核验重新读取实时更新信号并下载原文，比较实际仓库字节。仅时间戳变化时重新解析元数据；若确有新内容未保存、文件损坏或无法核实，必须如实保留失败。UTC 午夜翻页本身不使新鲜证据失效。
 
-## 2026-10-23 漏抓修复
+## 看什么才知道真的刷新成功
 
-深入核对证实此前存在两类问题：
-
-1. 旧代码把部分 Active 报告的本周更新，因 `publishDate` 较早误归为仅元数据更新，导致原文漏存。
-2. 镜像的 PDF 修订号可能落后于官方详情接口，即使镜像中有同编号、同发布日期的 PDF，也不能据此证明官方当前文件已备份。
-
-现已把近期 Active 更新纳入必需范围，修正旧日期重试分流；另增加官方当前版本对账层，以实际文件 SHA-256 验证，不只比较编号、日期或任务成功次数。同内容不重复计数，不同内容分别保留，原始发布日期不为满足窗口而改写。
-
-[第一阶段修复与发现过程](docs/repair-2026-10-23.md) · [实时官方对账结果](data/official-status.json) · [最初 3 份明确漏项的前后证据](data/audits/2026-10-23-active-update-repair.json)
-
-第一阶段记录的补入数量只是当时阶段性结果；后续官方详情对账发现的缺失修订版，以 `data/official-status.json` 和完整 manifest 为准。
-
-## 可靠性与范围
-
-**原文以 PDF 为准。** 保存时验证 PDF 文件头、可解析性；提交前复核实际 SHA-1、SHA-256、Markdown 文件存在性，以及已有 HTML 的 SHA-256。镜像提供的 PDF 校验值不匹配时不放宽要求，只能独立解析和保存可验证的官方文件。
-
-**官方目录版本、官方当前 PDF 修订号、镜像修订号分别记录。** 官方 API 的列表 `version`、详情 `currentVersion`、文件名修订号不混用。当前文件以官方详情 `formats` 返回的 PDF URL 为依据，已有同字节文件保留真实封面日期和历史路径。
-
-**HTML／Markdown 是阅读辅助。** 镜像 HTML 可能重新排版或来自 PDF 转换，必须记录衍生性质。Markdown 是全文转换，不是 AI 摘要或改写；复杂表格、公式、图片、布局以 PDF 为最终依据。无可用文本层时明确标记，不默认 OCR。
-
-**API 失败不能被缓存掩盖。** 使用当天的官方详情证据并匹配最新更新信号；配额、网络或格式错误留下未解决任务。旧详情缓存不代替未完成的当日核查。部分成功的原文可以先保存，但对账不完整仍报错。
-
-**历史待办不冒充完成。** `data/historical-pending.json` 保存较早窗口外的历史任务，逐条保留请求规格、错误、尝试次数和重试日；主窗口失败保存在 `data/pending.json`，官方当前版本未解决项另存 `data/official-pending.json`。超过一周不会删除已归档原文。
-
-**全部链接不等于全部 PDF。** 链接目录覆盖所用公开来源已经发现的编号；不保证覆盖未公开或尚未进入 API／镜像的官网变化，也不保证恢复所有历史中间版本。对账成功的含义是：在明确时间和来源范围内，应核验的当前文件已经实际保存。
-
-## 数据源与密钥
-
-| 来源 | 用途 |
+| 文件 | 含义 |
 |---|---|
-| Congress.gov `/v3/crsreport` | 官方更新列表、状态、发布日期及详情接口 |
-| Congress.gov `/v3/crsreport/{id}` | 官方当前文件地址、`currentVersion`、作者等元数据 |
-| EveryCRSReport `reports.csv` 与报告 JSON | 完整镜像链接目录、近期发现及版本历史，补充 API 尚未反映的日期变化 |
-| EveryCRSReport `rss.xml` | 补充发现，不代替完整目录；这是第三方 RSS，不冒称 CRS 官方 RSS |
+| `data/status.json` | 抓取来源、候选和实际归档结果；`run_at` 是实际抓取开始时间 |
+| `data/official-status.json` | 官方当前版本对账；待核验数量必须为 0 |
+| `data/last-successful-official.json` | 上一次真正完成的官方对账，不被失败尝试覆盖 |
+| `data/verification-status.json` | 最近一次独立核验，包括 `missing`、`unverified`、`invalid_files` |
+| `data/last-successful-verification.json` | 最近一次真正成功的独立核验；失败时不推进成功时间 |
+| `data/health.json` / `HEALTH.md` | 当前健康状态与三个阶段的实际成功时间 |
 
-默认使用公开 `DEMO_KEY`，但其实际配额较低，不能当作生产稳定性保证。程序读取并遵守服务返回的剩余配额，按有限批次处理，遇到拒绝或限流不绕过。**建议配置个人免费 API Key**：
+**Git 提交时间、看门狗 `checked_at` 都不是报告刷新时间。** 没有新报告可以是正常情况，成功核验持续过期则不是。
 
-申请：<https://api.congress.gov/sign-up/>
+每小时看门狗仍检查故障、26 小时过期及流程接续，按冷却时间和次数上限尝试恢复。`monitor_result=completed` 表示监控自身执行并报告成功；仓库是否健康必须看独立的 `result=healthy/unhealthy/refreshing`。发现同一个持续故障时更新一个去重 Issue，不再每小时制造一条失败 Action。无法读取、执行或持久保存监控证据时，看门狗任务仍明确失败。**真实生产失败不会被改成成功。**
 
-仓库 **Settings → Secrets and variables → Actions → New repository secret**：名称 `CONGRESS_API_KEY`，值为个人 key。不要把 key 放入代码、README、Issue 或聊天。归档提交使用 GitHub 自动提供的 `GITHUB_TOKEN`，不需要个人 GitHub token。
+## 索引与保存范围
 
-## 文件结构
+- `pdf/{类型}/`、`data/archive-manifest.json`：PDF 原文及哈希清单。
+- `html/originals/`、`data/html-original-manifest.json`：官方 HTML 原文，单独计数。
+- `html/{类型}/`：可获得的辅助阅读快照，可能经过镜像重新排版。
+- `markdown/`：全文转换，不是 AI 摘要；复杂表格、图片、公式可能需要查阅原件。
+- `data/all-report-links.csv`：所用公开来源发现的全部链接，不等于已下载所有历史原文。
+- `data/official-pending.json`、`data/deferred-official-formats.json`：未完成的官方当前原文任务，不能默默删除。
+- `data/historical-pending.json`：窗口外可选历史补抓，单独披露，不冒充近期任务失败或全部完成。
 
-```text
-CURRENT.md                         官方当前文件入口，包含日期、修订号与原文链接
-LATEST.md                          按发布日期显示近期报告，并另列旧日期 Active 更新
-pdf/{类型}/                        原始 PDF，不覆盖旧内容版本
-markdown/{类型}/                   全文转换与来源说明
-html/{类型}/                       可取得的 HTML 阅读快照
-metadata/sources/                  来源版本元数据
-data/archive-manifest.json         所有已归档文件的路径、哈希、页数、来源
-data/all-report-links.csv          全部已发现报告的链接目录
-data/archived-reports.csv          实际已归档版本清单
-data/official-current.json         官方当前格式、更新信号、文件哈希与验证时间
-data/official-status.json          官方当前版本对账结果
-data/official-pending.json         官方对账尚未解决的报告
-data/status.json                   基础抓取结果及官方对账汇总
-data/pending.json                  主范围失败／辅助 HTML 重试
-data/historical-pending.json       范围外历史待办
-data/audits/                       可追溯对账证据
-data/runs/                         每次基础抓取运行记录
-scripts/sync_crs.py                 目录发现、下载、转换、版本与重试
-tools/official_pipeline.py          官方当前格式解析与逐文件对账
-.github/current-verification/       独立当前文件核验
-```
+IF13330 的既有例外：官方 PDF 字节已核验，但详情 API 曾返回 404；它作为镜像补充发现保留，不能据此声称已由官方详情确认当前版本。未公开、尚未被任何来源索引的材料不在可证明完整的范围内。
 
-类型包含 `in-focus`、`insights`、`reports`、`sidebars`、`infographics`、`testimony`。文件名包含报告编号、PDF 修订号、发布日期、SHA-256 前缀。统计以 manifest 中的编号与完整哈希去重，不按可能存在的历史路径别名重复计数。
+## 数据源、免费 Key 和手动补抓
 
-## 手动补抓与维护
+官方 API：<https://api.congress.gov/v3/crsreport>；公开镜像目录：<https://www.everycrsreport.com/reports.csv>；第三方 RSS：<https://www.everycrsreport.com/rss.xml>。RSS 只是补充，不代替完整目录。
 
-**Actions → CRS daily backup → Run workflow**：`days` 默认 `7`，可改为 `30`、`90`；`until` 为可选的 UTC 结束日期；`full_catalog=true` 刷新官方完整链接目录，需要个人 key，不等于下载全部历史 PDF。官方当前对账固定检查当前近一周更新；历史回填不会把今日当前文件冒充历史版本。
+默认使用 `DEMO_KEY` 并遵守实际剩余配额。可在 <https://api.congress.gov/sign-up/> 申请个人免费 key，在仓库 Actions Secret 中保存为 `CONGRESS_API_KEY`；不要写入代码、Issue 或聊天。提交使用 GitHub 自动注入的 token，无需个人 GitHub token。
 
-```bash
-python -m pip install -r requirements.txt
-python -m unittest discover -s tests -v
-python -m unittest discover -s tools/tests -v
-python -m unittest discover -s .github/audits -p 'test_*.py' -v
-python scripts/sync_crs.py --days 7
-```
+手动补抓：Actions → CRS daily backup → Run workflow。`days` 调整回看天数，`until` 可指定 UTC 结束日；`full_catalog=true` 刷新完整官方链接目录，需要个人 key，不等于下载所有历史 PDF。
 
-第三方 Actions 固定 commit SHA；依赖升级先测试。文件直接提交到 Git，不依赖临时 artifact 长期保存。较大规模历史回填应分批；单个下载上限 80 MiB，超限明确报错。长期归档会增大仓库，未来可按年份拆分或迁移存储，但当前不会自动删除旧文件。
+## 维护记录
 
-## 历史记录与使用边界
+[2026-10-24：格式漏列、空错误、重复失败告警和流程接续修复](docs/repair-2026-10-24.md) · [2026-10-23：漏抓及旧版本修复](docs/repair-2026-10-23.md) · [每日可靠性规则](docs/daily-reliability.md)
 
-[2026-10-04 限流与历史任务分流修复](docs/repair-2026-10-04.md) · [2026-10-23 漏抓核查过程](docs/repair-2026-10-23.md)
-
-本项目不代表 CRS、美国国会或 EveryCRSReport。报告中的第三方图片等可能保留第三方权利；仓库已有 `LICENSE` 未修改，不能据此认为来源报告与图片自动采用软件许可证。
-
-官方说明：<https://github.com/LibraryOfCongress/api.congress.gov/blob/main/Documentation/CRSReportEndpoint.md>
-
-镜像数据说明：<https://www.everycrsreport.com/download.html>
-
-API 配额说明：<https://api.data.gov/docs/developer-manual/>
-
-最初目录布局参考：<https://github.com/ProfAmiot/crs-reports>。本项目不是其副本，文件由所列公开来源采集。
+本项目不代表 CRS、美国国会或 EveryCRSReport；报告中的第三方内容可能有独立版权。已有 LICENSE 不自动改变来源报告的权利状态。旧失败记录保留用于审计，不承诺外部网站或平台永远不故障。
