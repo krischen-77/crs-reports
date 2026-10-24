@@ -1,11 +1,12 @@
-**Official-current verification: 70/71. [View current official files](CURRENT.md).**
+**Official-current verification: 56/57. [View current official files](CURRENT.md).**
 
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-16 to 2026-10-23**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-17 to 2026-10-24**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-23 | IF13336 v1 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.pdf) | [Markdown](markdown/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.md) |
 | 2026-10-23 | IF13335 v1 | Student Loans: Late Payment Trends, Servicing Practices, and Credit Reporting Issues | [PDF](pdf/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.pdf) | [Markdown](markdown/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.md) |
 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
 | 2026-10-22 | R49491 v1 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.pdf) | [Markdown](markdown/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.md) |
@@ -23,6 +24,7 @@ Publication-date window (inclusive): **2026-10-16 to 2026-10-23**. Older archive
 | 2026-10-21 | R49359 v4 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v4-2026-10-21-f1c9df285d655ddf.pdf) | [Markdown](markdown/reports/R49359v4-2026-10-21-f1c9df285d655ddf.md) |
 | 2026-10-21 | R49359 v3 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.pdf) | [Markdown](markdown/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.md) |
 | 2026-10-21 | R49292 v3 | Interior, Environment, and Related Agencies: Overview of FY2027 Appropriations | [PDF](pdf/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.pdf) | [Markdown](markdown/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.md) |
+| 2026-10-21 | LSB11493 v1 | The Airline Deregulation Act of 1978: Preemption of State Law | [PDF](pdf/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.pdf) | [Markdown](markdown/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.md) |
 | 2026-10-21 | IF13334 v1 | ANC, Tribal, NHO, and CDC Participation in the 8(a) Business Development Program | [PDF](pdf/in-focus/IF13334v1-2026-10-21-4d28658a647b4649.pdf) | [Markdown](markdown/in-focus/IF13334v1-2026-10-21-4d28658a647b4649.md) |
 | 2026-10-21 | IF13334 v2 | ANC, Tribal, NHO, and CDC Participation in the 8(a) Business Development Program | [PDF](pdf/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.pdf) | [Markdown](markdown/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.md) |
 | 2026-10-21 | IF13333 v1 | Fair Labor Standards Act Overtime Pay Requirements | [PDF](pdf/in-focus/IF13333v1-2026-10-21-33402b7441b37a4c.pdf) | [Markdown](markdown/in-focus/IF13333v1-2026-10-21-33402b7441b37a4c.md) |
@@ -69,9 +71,6 @@ Publication-date window (inclusive): **2026-10-16 to 2026-10-23**. Older archive
 | 2026-10-19 | IF13330 v1 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.pdf) | [Markdown](markdown/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.md) |
 | 2026-10-19 | IF12201 v3 | Farm Bill Primer: Federal Crop Insurance Program | [PDF](pdf/in-focus/IF12201v3-2026-10-19-268e83dc02369817.pdf) | [Markdown](markdown/in-focus/IF12201v3-2026-10-19-268e83dc02369817.md) |
 | 2026-10-19 | IF11797 v31 | The Army’s Multi-Domain Task Force | [PDF](pdf/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.pdf) | [Markdown](markdown/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.md) |
-| 2026-10-16 | R48566 v3 | The Motion to Recommit in the House | [PDF](pdf/reports/R48566v3-2026-10-16-bec92c7b1de8de86.pdf) | [Markdown](markdown/reports/R48566v3-2026-10-16-bec92c7b1de8de86.md) |
-| 2026-10-16 | LSB11490 v1 | The Commerce Clause and Federal Firearms Prohibitions | [PDF](pdf/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.pdf) | [Markdown](markdown/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.md) |
-| 2026-10-16 | IF13329 v1 | When a Case Can Be Filed: Statutes of Limitations and Statutes of Repose | [PDF](pdf/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.pdf) | [Markdown](markdown/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -83,26 +82,13 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-10-22 | 2026-07-31 | R49057 v5 | Data Centers and Water: Frequently Asked Questions | [PDF](pdf/reports/R49057v5-2026-07-31-6154e49b161f2b2a.pdf) | [Markdown](markdown/reports/R49057v5-2026-07-31-6154e49b161f2b2a.md) |
 | 2026-10-20 | 2026-07-10 | R49028 v5 | Fixing Emergency Management for Americans (FEMA) Act of 2025: Context, Overview, and Summary of Provisions | [PDF](pdf/reports/R49028v5-2026-07-10-cf4a66995147e1a1.pdf) | [Markdown](markdown/reports/R49028v5-2026-07-10-cf4a66995147e1a1.md) |
 | 2026-10-20 | 2026-10-09 | R47857 v9 | U.S. Tourism: Recent Developments and Data | [PDF](pdf/reports/R47857v9-2026-10-09-145010857d94222c.pdf) | [Markdown](markdown/reports/R47857v9-2026-10-09-145010857d94222c.md) |
+| 2026-10-20 | 2026-10-16 | LSB11490 v1 | The Commerce Clause and Federal Firearms Prohibitions | [PDF](pdf/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.pdf) | [Markdown](markdown/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.md) |
 | 2026-10-17 | 2026-10-15 | R49488 v2 | The Unemployment Trust Fund: FY2026 Income, Outlays, and End-of-Year Balances | [PDF](pdf/reports/R49488v2-2026-10-15-ae337741c905fbf2.pdf) | [Markdown](markdown/reports/R49488v2-2026-10-15-ae337741c905fbf2.md) |
 | 2026-10-17 | 2026-10-14 | R49486 v3 | Clean Water Act Permitting: Overview and Policy Issues | [PDF](pdf/reports/R49486v3-2026-10-14-061aba17ab96bd50.pdf) | [Markdown](markdown/reports/R49486v3-2026-10-14-061aba17ab96bd50.md) |
 | 2026-10-17 | 2026-10-13 | R48956 v7 | National Security, Department of State, and Related Programs: FY2027 Budget and Appropriations | [PDF](pdf/reports/R48956v7-2026-10-13-93d14cc9a9ce402d.pdf) | [Markdown](markdown/reports/R48956v7-2026-10-13-93d14cc9a9ce402d.md) |
+| 2026-10-17 | 2026-10-16 | R48566 v3 | The Motion to Recommit in the House | [PDF](pdf/reports/R48566v3-2026-10-16-bec92c7b1de8de86.pdf) | [Markdown](markdown/reports/R48566v3-2026-10-16-bec92c7b1de8de86.md) |
 | 2026-10-17 | 2026-10-15 | R43657 v6 | Funding for the Impact Aid Program: Options for Budget Year Appropriations, Forward Funding, and Advance Appropriations | [PDF](pdf/reports/R43657v6-2026-10-15-ae8f63ed053627ab.pdf) | [Markdown](markdown/reports/R43657v6-2026-10-15-ae8f63ed053627ab.md) |
 | 2026-10-17 | 2025-03-10 | R42107 v40 | The Federal Employees’ Compensation Act (FECA): Workers’ Compensation for Federal Employees | [PDF](pdf/reports/R42107v40-2025-03-10-e394e96f30540b2a.pdf) | [Markdown](markdown/reports/R42107v40-2025-03-10-e394e96f30540b2a.md) |
 | 2026-10-17 | 2026-10-14 | IN12747 v2 | H-1B Executive Actions in 2026 | [PDF](pdf/insights/IN12747v2-2026-10-14-6bbd4818fac4e78e.pdf) | [Markdown](markdown/insights/IN12747v2-2026-10-14-6bbd4818fac4e78e.md) |
+| 2026-10-17 | 2026-10-16 | IF13329 v1 | When a Case Can Be Filed: Statutes of Limitations and Statutes of Repose | [PDF](pdf/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.pdf) | [Markdown](markdown/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.md) |
 | 2026-10-17 | 2026-10-09 | IF13328 v6 | State and Local Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13328v6-2026-10-09-5ec691358184fd04.pdf) | [Markdown](markdown/in-focus/IF13328v6-2026-10-09-5ec691358184fd04.md) |
-| 2026-10-16 | 2024-10-03 | RS21255 v12 | Motions to Proceed to Consider Measures in the Senate: Who Offers Them? | [PDF](pdf/reports/RS21255v12-2024-10-03-9aafb83b03af3296.pdf) | [Markdown](markdown/reports/RS21255v12-2024-10-03-9aafb83b03af3296.md) |
-| 2026-10-16 | 2026-06-09 | RL30788 v23 | Parliamentary Reference Sources: Senate | [PDF](pdf/reports/RL30788v23-2026-06-09-35bf0637ee96854a.pdf) | [Markdown](markdown/reports/RL30788v23-2026-06-09-35bf0637ee96854a.md) |
-| 2026-10-16 | 2026-04-29 | RL30787 v30 | Parliamentary Reference Sources: House of Representatives | [PDF](pdf/reports/RL30787v30-2026-04-29-4be15c8ab84cde98.pdf) | [Markdown](markdown/reports/RL30787v30-2026-04-29-4be15c8ab84cde98.md) |
-| 2026-10-16 | 2026-10-14 | R49487 v1 | Russia’s Arctic Military Posture: Considerations for Congress | [PDF](pdf/reports/R49487v1-2026-10-14-68d3e48ecab3b101.pdf) | [Markdown](markdown/reports/R49487v1-2026-10-14-68d3e48ecab3b101.md) |
-| 2026-10-16 | 2026-10-08 | R49483 v3 | Ex Parte Communications in Informal Rulemaking: A Legal Framework | [PDF](pdf/reports/R49483v3-2026-10-08-3692e4ee309c779a.pdf) | [Markdown](markdown/reports/R49483v3-2026-10-08-3692e4ee309c779a.md) |
-| 2026-10-16 | 2026-09-18 | R49355 v3 | Fishery Resource Disaster Assistance | [PDF](pdf/reports/R49355v3-2026-09-18-27e88eba50e6d948.pdf) | [Markdown](markdown/reports/R49355v3-2026-09-18-27e88eba50e6d948.md) |
-| 2026-10-16 | 2025-11-26 | R48538 v9 | Advanced Lithium-Ion Energy Storage Battery Manufacturing in the United States | [PDF](pdf/reports/R48538v9-2025-11-26-e464ecdba2a7db13.pdf) | [Markdown](markdown/reports/R48538v9-2025-11-26-e464ecdba2a7db13.md) |
-| 2026-10-16 | 2026-10-15 | R48136 v5 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.pdf) | [Markdown](markdown/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.md) |
-| 2026-10-16 | 2026-10-14 | LSB11489 v1 | SEC Proposes Rescission of the Shareholder Proposal Rule | [PDF](pdf/sidebars/LSB11489v1-2026-10-14-b086161bfcc22891.pdf) | [Markdown](markdown/sidebars/LSB11489v1-2026-10-14-b086161bfcc22891.md) |
-| 2026-10-16 | 2026-10-15 | IN12748 v1 | Department of Transportation’s “Family Friendly” Policy and Public Transit Project Funding | [PDF](pdf/insights/IN12748v1-2026-10-15-a948b4e20bbc7c67.pdf) | [Markdown](markdown/insights/IN12748v1-2026-10-15-a948b4e20bbc7c67.md) |
-| 2026-10-16 | 2026-10-05 | IN12668 v5 | U.S. Military Operations Against Iran: Munitions and Missile Defense | [PDF](pdf/insights/IN12668v5-2026-10-05-3eebb16e0db8f766.pdf) | [Markdown](markdown/insights/IN12668v5-2026-10-05-3eebb16e0db8f766.md) |
-| 2026-10-16 | 2026-10-14 | IF12953 v5 | The Office of Navajo and Hopi Indian Relocation | [PDF](pdf/in-focus/IF12953v5-2026-10-14-cdcd631fc049a44a.pdf) | [Markdown](markdown/in-focus/IF12953v5-2026-10-14-cdcd631fc049a44a.md) |
-| 2026-10-16 | 2026-10-15 | IF12408 v9 | New Adverse Effect Wage Rate Methodology for Temporary Employment of H-2A Nonimmigrants in the United States | [PDF](pdf/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.pdf) | [Markdown](markdown/in-focus/IF12408v9-2026-10-15-2514821a01cdd145.md) |
-| 2026-10-16 | 2026-10-15 | IF12094 v22 | The Army’s XM-30 Mechanized Infantry Combat Vehicle | [PDF](pdf/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.pdf) | [Markdown](markdown/in-focus/IF12094v22-2026-10-15-06301a2fe0c7e515.md) |
-| 2026-10-16 | 2026-10-14 | IF11911 v6 | Connecting Constituents with Federal Programs for Drinking Water and Wastewater Infrastructure Projects | [PDF](pdf/in-focus/IF11911v6-2026-10-14-30ad42a9d8c9b1d3.pdf) | [Markdown](markdown/in-focus/IF11911v6-2026-10-14-30ad42a9d8c9b1d3.md) |
-| 2026-10-16 | 2026-10-15 | IF10767 v23 | Farm Credit Administration and Its Board Members | [PDF](pdf/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.pdf) | [Markdown](markdown/in-focus/IF10767v23-2026-10-15-3a9deb6cd215040a.md) |
