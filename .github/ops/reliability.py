@@ -46,13 +46,18 @@ def valid_audit(receipt):
             and receipt.get('sources', {}).get('official_api', {}).get('ok') is True
             and receipt.get('sources', {}).get('mirror_catalog', {}).get('ok') is True
             and isinstance(receipt.get('candidate_report_ids'), int)
-            and receipt.get('verified_current_pdf_files') == receipt['candidate_report_ids'])
+            and receipt.get('verified_current_original_files', receipt.get('verified_current_pdf_files')) == receipt['candidate_report_ids'])
 
 
 def evaluate(now, backup, official, audit, runs, workflows):
     """Pure decision logic, covered by offline failure-injection tests."""
     errors, notices, recovery = [], [], None
-    times = [backup.get('run_at'), official.get('checked_at'), audit.get('finished_at')]
+    # A new failed attempt must NEVER refresh the last-success timestamp.
+    official_ok = (official.get('result') == 'verified_for_observed_official_entries'
+                   and official.get('official_current_pending') == 0)
+    times = [backup.get('run_at') if not backup.get('errors') and not backup.get('required_pdf_failures') else backup.get('last_successful_run_at'),
+             official.get('checked_at') if official_ok else official.get('last_successful_checked_at'),
+             audit.get('finished_at') if valid_audit(audit) else audit.get('last_successful_finished_at')]
     ages = []
     for stage, value in zip(STAGES, times):
         try:
@@ -123,6 +128,13 @@ def evaluate(now, backup, official, audit, runs, workflows):
         recovery = None  # Never override an owner's manual workflow disable.
     if running:
         notices.append('Pipeline is running; do not launch duplicate work')
+        # Startup/recovery grace suppresses ONLY age warnings, never actual content failures.
+        recent_running = any(age_hours(runs[k].get('run_started_at') or runs[k].get('created_at'), now) <= 2 for k in running)
+        if recent_running:
+            stale = [e for e in errors if 'no verified refresh within 26 hours' in e]
+            errors = [e for e in errors if e not in stale]
+            if stale:
+                notices.append('Two-hour recovery grace for old success timestamps; completion is not yet verified')
     return dict(result='unhealthy' if errors else ('refreshing' if running or notices else 'healthy'),
                 errors=errors, notices=notices, recovery_stage=recovery,
                 source_times=dict(zip(STAGES, times)), active_stages=running)
@@ -202,14 +214,17 @@ def watchdog(root, repair, notify):
     now = datetime.now(timezone.utc)
     state = load(root / 'data/health-retry-state.json', {})
     api = GitHubAPI()
-    report = dict(result='unhealthy', errors=[], checked_at=now.isoformat())
+    report = dict(result='unhealthy', errors=[], checked_at=now.isoformat(), monitor_result='completed')
     try:
         all_runs = {stage: api.runs(stage) for stage in STAGES}
         runs = {stage: rows[0] if rows else {} for stage, rows in all_runs.items()}
         workflows = {stage: api.call('/actions/workflows/' + stage) for stage in STAGES}
+        latest_audit = load(root / 'data/verification-status.json', {})
+        latest_audit['last_successful_finished_at'] = last_verification(root).get('finished_at')
+        latest_official = load(root / 'data/official-status.json', {})
+        latest_official['last_successful_checked_at'] = load(root / 'data/last-successful-official.json', {}).get('checked_at') or latest_official.get('last_successful_checked_at')
         report.update(evaluate(now, load(root / 'data/status.json', {}),
-                     load(root / 'data/official-status.json', {}),
-                     last_verification(root), runs, workflows))
+                     latest_official, latest_audit, runs, workflows))
         report['latest_runs'] = {k: {f: v.get(f) for f in ('id', 'status', 'conclusion', 'html_url', 'run_started_at', 'updated_at')}
                                  for k, v in runs.items()}
         stage = report['recovery_stage']
@@ -231,7 +246,8 @@ def watchdog(root, repair, notify):
             issue_update(api, report, state)
     except Exception as exc:
         report['result'] = 'unhealthy'
-        report['errors'].append(str(exc))
+        report['errors'].append(type(exc).__name__ + ': ' + (str(exc) or repr(exc)))
+        report['monitor_result'] = 'failed'
     report.update(github_run_id=os.getenv('GITHUB_RUN_ID', ''),
                   stale_after_hours=26, recovery_due_hours=14,
                   retry_cooldown_hours=6, retry_cap_per_24h=4,
@@ -253,7 +269,10 @@ def watchdog(root, repair, notify):
     if os.getenv('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
             f.write('\n'.join(lines))
-    return 1 if report['result'] == 'unhealthy' else 0
+    # Health is carried in JSON + one deduplicated Issue. A correctly executed
+    # monitor is not another failed production job for the same incident.
+    # Transport, parsing, notification or persistence failures still fail this job.
+    return 1 if report['monitor_result'] == 'failed' else 0
 
 
 def publish_receipt(root):
@@ -262,6 +281,8 @@ def publish_receipt(root):
         raise ValueError('Refusing stale independent verification receipt')
     if str(receipt.get('github_run_attempt')) != os.environ['GITHUB_RUN_ATTEMPT']:
         raise ValueError('Refusing stale independent verification attempt')
+    if not valid_audit(receipt):
+        receipt['last_successful_finished_at'] = last_verification(root).get('finished_at')
     save(root / 'data/verification-status.json', receipt)
     save(root / f"data/audits/verification-{receipt['github_run_id']}-{receipt['github_run_attempt']}.json", receipt)
     if not valid_audit(receipt):

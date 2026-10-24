@@ -18,6 +18,7 @@ from datetime import date, datetime, timedelta, timezone
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import sync_crs as s
+import crs_formats as formats
 sys.path.insert(0,str(ROOT/'.github/ops'))
 from freshness import recovery_days, parse_time
 
@@ -27,13 +28,7 @@ def signal(row):
 
 
 def task_from_item(item):
-    ident=s.report_id(item['id'])
-    fmt=next(f for f in item['formats'] if f['format'].upper()=='PDF')
-    url=s.safe_url(fmt.get('url') or fmt['URL'])
-    return dict(id=ident,title=item['title'],date=item['publishDate'][:10],version=s.source_version(url),
-        api_version=str(item.get('currentVersion',item.get('version',''))),formats={'PDF':{'urls':[url],'sha1':''}},
-        metadata_source='Congress.gov API',source_record=ident,required_by_recent_update=True,
-        observed_update_date=item.get('updateDate',''))
+    return formats.task_from_item(item)
 
 
 def is_required(row,start,end):
@@ -51,12 +46,16 @@ def plan(root,out):
     if len(rows)!=count:raise ValueError('Official list incomplete')
     required={r['id']:r for r in rows if is_required(r,start,end)}
     for row in s.read_json(root/'data/official-pending.json',[]):required.setdefault(row['id'],row)
+    for row in s.read_json(root/'data/deferred-official-formats.json',[]):required.setdefault(row['id'],row)
     cache=s.read_json(root/'data/official-current.json',{})
     for ident,value in s.read_json(root/'.github/repairs/official-seed.json',{}).items():cache.setdefault(ident,value)
     unresolved=[]
     for ident,row in required.items():
         item=cache.get(ident,{})
-        fresh=(str(item.get('detail_checked_at',''))[:10]==str(end) and (now-parse_time(item['detail_checked_at'])).total_seconds() < 6*3600)
+        try:
+            fresh=0 <= (now-parse_time(item.get('detail_checked_at',''))).total_seconds() < 6*3600
+        except (ValueError,TypeError):
+            fresh=False
         if item.get('signal')!=signal(row) or not item.get('task') or not fresh:unresolved.append(row)
     unresolved.sort(key=lambda r:(r.get('updateDate',''),r['id']),reverse=True)
     chunks=[unresolved[i:i+8] for i in range(0,len(unresolved),8)] or [[]]
@@ -89,14 +88,14 @@ def resolve(root,out,plan_path,chunk):
         ident=row['id']
         try:
             obj=http.json(s.API+'/'+s.report_id(ident)+'?format=json')
-            item=next(v for k,v in obj.items() if k.lower()=='crsreport')
+            item=formats.report_item(obj)
             if s.report_id(item['id'])!=ident:raise ValueError('Official report ID mismatch')
             validate_detail_signal(item,row)
             resolved[ident]=dict(signal=signal(row),task=task_from_item(item),
                 detail_checked_at=datetime.now(timezone.utc).isoformat(),api_metadata=item)
             print('Resolved official current PDF:',ident,flush=True)
         except Exception as exc:
-            errors.append(dict(id=ident,error=str(exc)));print('Unresolved:',ident,str(exc),flush=True)
+            errors.append(dict(id=ident,error=formats.error_text(exc)));print('Unresolved:',ident,formats.error_text(exc),flush=True)
     s.write_json(out/f'resolved-{chunk}.json',dict(resolved=resolved,errors=errors,api_calls=http.api_calls,
         quota_remaining=http.api_remaining,chunk=chunk))
     # Transport partial evidence; aggregate will fail if any current entry is unresolved.
@@ -123,24 +122,31 @@ def verify_local(root,entry):
 
 
 def save_current(http,root,record,archives):
-    task=copy.deepcopy(record['task']) # Live current bytes must be fetched on every reconciliation.
-    if task['id']!=record.get('signal',{}).get('id'):raise ValueError('Cached official task identity mismatch')
-    # A valid local hash does not prove that an unchanged URL still serves the same bytes.
-    url=task['formats']['PDF']['urls'][0]
-    body,actual=http.get(url)
-    if not body.lstrip().startswith(b'%PDF-'):raise ValueError('Official response is not a PDF')
+    task=copy.deepcopy(record['task'])
+    if task['id']!=record.get('signal',{}).get('id'):
+        raise ValueError('Cached official task identity mismatch')
+    body,actual,kind,notices=formats.fetch_original(http,task)
+    if kind == 'HTML':
+        entry,is_new=formats.save_html(root,task,body,actual)
+        return entry,is_new,notices
     sha=s.digest(body)
     old=next((v for v in archives if v['id']==task['id'] and v['pdf_sha256']==sha),None)
-    if verify_local(root,old):return old,False,[]
+    if verify_local(root,old):return old,False,notices
     task['api_publication_date']=task['date'];task['date']=cover_date(body,task['date'])
+    # The original HTML URL is auxiliary when a verified current PDF is available.
+    task['formats']={'PDF': task['formats']['PDF']}
+    url=task['formats']['PDF']['urls'][0]
     class Buffered:
         def get(self,candidate):
             if candidate==url:return body,actual
             return http.get(candidate)
         def json(self,candidate):return http.json(candidate)
-    entry,is_new,notices=s.archive_task(Buffered(),root,task,archives)
+    entry,is_new,extra=s.archive_task(Buffered(),root,task,archives)
     entry['api_publication_date']=task['api_publication_date']
-    return entry,is_new,notices
+    if task.get('official_pdf_format_missing'):
+        entry['current_format_recovery']={'method':'live currentVersion + official namespace + embedded ID/revision/title',
+                                          'currentVersion':task['api_version'],'official_formats_omitted_pdf':True}
+    return entry,is_new,notices+extra
 
 
 def aggregate(root,out,plan_path,parts):
@@ -158,57 +164,88 @@ def aggregate(root,out,plan_path,parts):
     catalog=s.read_json(root/'data/catalog.json',{})
     for row in p['official_rows']:catalog.setdefault(row['id'],{'id':row['id']})['api']=row
     checks=[];pending=[]
+    html_before={(v['id'],v['sha256']) for v in s.read_json(root/'data/html-original-manifest.json',[])}
     for ident,row in sorted(p['required'].items()):
         record=cache.get(ident,{})
         check=dict(id=ident,title=row.get('title',''),api_publication=row.get('publishDate','')[:10],api_update=row.get('updateDate',''))
         try:
-            if (record.get('signal')!=signal(row) or not record.get('task') or str(record.get('detail_checked_at',''))[:10]!=p['end']):raise ValueError('Current official details not verified for this date; retry retained')
+            if record.get('signal')!=signal(row) or not record.get('task'):
+                raise ValueError('Current official details do not match the requested signal; retry retained')
+            checked=parse_time(record.get('detail_checked_at',''))
+            if not 0 <= (datetime.now(timezone.utc)-checked).total_seconds() <= 26*3600:
+                raise ValueError('Current official detail evidence expired; retry retained')
             entry,is_new,notices=save_current(http,root,record,archives)
-            if not verify_local(root,entry):raise ValueError('Saved PDF failed actual hash verification')
-            archives=[v for v in archives if not (v['id']==ident and v['pdf_sha256']==entry['pdf_sha256'])]+[entry]
-            record.update(pdf_sha256=entry['pdf_sha256'],pdf=entry['pdf'],markdown=entry['markdown'],
-                original_cover_date=entry['date'],pdf_verified_at=datetime.now(timezone.utc).isoformat())
+            kind=entry.get('original_format','PDF')
+            if kind=='HTML':
+                if not formats.verify_html_entry(root,entry):raise ValueError('Saved HTML original failed byte verification')
+                path,sha=entry['original'],entry['sha256']
+                for key in ('pdf','pdf_sha256','pdf_verified_at'):
+                    record.pop(key,None)
+            else:
+                if not verify_local(root,entry):raise ValueError('Saved PDF failed actual hash verification')
+                archives=[v for v in archives if not (v['id']==ident and v['pdf_sha256']==entry['pdf_sha256'])]+[entry]
+                path,sha=entry['pdf'],entry['pdf_sha256']
+                record.update(pdf_sha256=sha,pdf=path,pdf_verified_at=datetime.now(timezone.utc).isoformat())
+            record.update(original_format=kind,original_path=path,original_sha256=sha,
+                          markdown=entry['markdown'],original_cover_date=entry['date'],
+                          original_verified_at=datetime.now(timezone.utc).isoformat())
             cache[ident]=record
-            check.update(verified=True,official_pdf_url=record['task']['formats']['PDF']['urls'][0],
-                official_pdf_revision=record['task']['version'],pdf_sha256=entry['pdf_sha256'],
-                pdf=entry['pdf'],markdown=entry['markdown'],cover_date=entry['date'],new_pdf=is_new)
-        except Exception as exc:check.update(verified=False,error=str(exc));pending.append(row)
+            check.update(verified=True,original_format=kind,original_url=record['task']['formats'][kind]['urls'][0],
+                         original_path=path,original_sha256=sha,official_pdf_revision=record['task']['version'],
+                         markdown=entry['markdown'],cover_date=entry['date'],new_original=is_new,
+                         new_pdf=is_new if kind=='PDF' else False,notices=notices)
+            if kind=='PDF':check.update(official_pdf_url=check['original_url'],pdf_sha256=sha,pdf=path)
+        except Exception as exc:check.update(verified=False,error=formats.error_text(exc));pending.append(row)
         checks.append(check);print('Official-current',ident,'verified' if check['verified'] else check['error'],flush=True)
     for item in archives:
         if not verify_local(root,item):raise ValueError('Archive integrity failure: '+item['pdf'])
     archives.sort(key=lambda v:(v['id'],v['date'],v['pdf_sha256']))
     new=[v for v in archives if (v['id'],v['pdf_sha256']) not in before]
+    html_entries=s.read_json(root/'data/html-original-manifest.json',[])
+    for entry in html_entries:
+        if not formats.verify_html_entry(root,entry):raise ValueError('HTML original archive integrity failure: '+entry['id'])
+    new_html=[v for v in html_entries if (v['id'],v['sha256']) not in html_before]
     now=datetime.now(timezone.utc).isoformat()
     receipt=dict(checked_at=now,window_start=p['start'],window_end=p['end'],
         official_list_records=p['source_count'],official_current_required=len(checks),
         official_current_verified=sum(c['verified'] for c in checks),official_current_pending=len(pending),
-        new_pdf_versions=len(new),new_pdf_records=[{k:v[k] for k in ('id','version','date','pdf','markdown','pdf_sha256')} for v in new],
+        new_html_original_versions=len(new_html),total_html_original_versions=len(html_entries),
+        official_pdf_verified=sum(c.get('verified',False) and c.get('original_format')=='PDF' for c in checks),
+        official_html_verified=sum(c.get('verified',False) and c.get('original_format')=='HTML' for c in checks),
+        source_refreshed_at=p.get('created_at'),new_pdf_versions=len(new),new_pdf_records=[{k:v[k] for k in ('id','version','date','pdf','markdown','pdf_sha256')} for v in new],
         total_archived_pdf_versions=len(archives),github_run_id=os.getenv('GITHUB_RUN_ID',''),
-        github_run_attempt=os.getenv('GITHUB_RUN_ATTEMPT',''),resolution_errors=failures,
+        github_run_attempt=os.getenv('GITHUB_RUN_ATTEMPT',''),resolution_errors=[f for f in failures if f['id'] in {r['id'] for r in pending}],
         result='verified_for_observed_official_entries' if not pending else 'incomplete',scope=p['coverage_note'],
-        metadata_notices=[{'id':i,'list_update_date':r.get('updateDate'),'detail_update_date':cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date'),'note':'List/detail update timestamps differ; current formats were resolved live and PDF bytes verified'} for i,r in p['required'].items() if (cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date')) != r.get('updateDate')])
+        metadata_notices=[{'id':i,'list_update_date':r.get('updateDate'),'detail_update_date':cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date'),'note':'List/detail update timestamps differ; current formats were resolved live and PDF bytes verified'} for i,r in p['required'].items() if i not in {r['id'] for r in pending} and (cache.get(i,{}).get('api_metadata',{}).get('updateDate') or cache.get(i,{}).get('task',{}).get('observed_update_date')) != r.get('updateDate')])
     s.write_json(root/'data/official-current.json',cache);s.write_json(root/'data/official-pending.json',pending)
+    previous_success=s.read_json(root/'data/last-successful-official.json',{})
+    if pending:
+        receipt['last_successful_checked_at']=previous_success.get('checked_at')
+    else:
+        s.write_json(root/'data/last-successful-official.json',receipt)
+    s.write_json(root/'data/deferred-official-formats.json',[r for r in s.read_json(root/'data/deferred-official-formats.json',[]) if r['id'] in {v['id'] for v in pending}])
     s.write_json(root/'data/official-status.json',receipt);s.write_json(root/'data/archive-manifest.json',archives)
     s.write_json(root/'data/catalog.json',catalog)
     s.write_json(root/f'data/audits/{p["end"]}-official-current.json',receipt)
     s.write_json(root/'data/audits/latest-official-current-comparisons.json',checks)
     s.export_indexes(root,catalog,archives,date.fromisoformat(p['start']),date.fromisoformat(p['end']))
     lines=['# Official current CRS files','',f"Checked: {now}. Official current entries verified: **{receipt['official_current_verified']}/{len(checks)}**.",
-        '', 'The original cover date is distinct from the API update date. Only verified rows link to a current official PDF.', '',
-        '| API update | Cover date | Report | Title | Current PDF | Full text |','|---|---|---|---|---|---|']
+        '', 'The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).', '',
+        '| API update | Cover date | Report | Title | Current original | Full text |','|---|---|---|---|---|---|']
     for c in sorted(checks,key=lambda c:(c['api_update'],c['id']),reverse=True):
         title=c['title'].replace('|','\\|')
-        links=f"[PDF]({c['pdf']}) | [Markdown]({c['markdown']})" if c['verified'] else 'UNVERIFIED | Retry pending'
+        links=f"[{c['original_format']}]({c['original_path']}) | [Markdown]({c['markdown']})" if c['verified'] else 'UNVERIFIED | Retry pending'
         lines.append(f"| {c['api_update'][:10]} | {c.get('cover_date',c['api_publication'])} | {c['id']} v{c.get('official_pdf_revision','?')} | {title} | {links} |")
     s.write(root/'CURRENT.md','\n'.join(lines)+'\n')
     latest=root/'LATEST.md'
     s.write(latest,f"**Official-current verification: {receipt['official_current_verified']}/{len(checks)}. [View current official files](CURRENT.md).**\n\n"+latest.read_text())
     with (root/'data/audits/latest-official-current.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        writer=csv.DictWriter(f,['id','title','api_publication','api_update','cover_date','official_pdf_revision','verified','official_pdf_url','pdf_sha256','pdf','markdown','error'],extrasaction='ignore')
+        writer=csv.DictWriter(f,['id','title','api_publication','api_update','cover_date','official_pdf_revision','verified','official_pdf_url','pdf_sha256','pdf','markdown','error','original_format','original_url','original_path','original_sha256'],extrasaction='ignore')
         writer.writeheader();writer.writerows(checks)
     status=s.read_json(root/'data/status.json',{})
     status.update(official_current_required=len(checks),official_current_verified=receipt['official_current_verified'],
         official_current_pending=len(pending),official_reconciled_at=now,official_new_pdf_versions=len(new),
+        total_html_original_versions=len(html_entries),
         total_archived_pdf_versions=len(archives),total_html_snapshots=sum(bool(v.get('html')) for v in archives),
         total_pdf_bytes=sum((root/v['pdf']).stat().st_size for v in archives))
     if pending:status.update(result='failed',primary_pdf_complete=False)

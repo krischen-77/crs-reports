@@ -285,25 +285,15 @@ def mirror_tasks(obj: dict, start: date, end: date, include_latest: bool = False
 
 
 def official_task(http: HTTP, row: dict) -> dict:
-    ident = report_id(row["id"])
-    obj = http.json(API + "/" + ident + "?format=json")
-    item = next((v for k, v in obj.items() if k.lower() == "crsreport"), None)
-    if not isinstance(item, dict):
-        raise ValueError("Unexpected Congress.gov item schema")
-    formats = {}
-    for fmt in item.get("formats", []):
-        kind = str(fmt.get("format", "")).upper()
-        url = fmt.get("url") or fmt.get("URL")
-        if kind in ("PDF", "HTML") and url:
-            formats[kind] = {"urls": [safe_url(url)], "sha1": ""}
-    if "PDF" not in formats:
-        raise ValueError(f"{ident}: API did not provide a PDF URL")
-    return {"id": ident, "title": item.get("title", row["title"]), "date": str(item.get("publishDate", row.get("publishDate", "")))[:10],
-            "version": source_version(formats["PDF"]["urls"][0]) if source_version(formats["PDF"]["urls"][0]) != "unknown" else str(item.get("version", row.get("version", "unknown"))),
-            "api_version": str(item.get("version", row.get("version", "unknown"))), "formats": formats,
-            "metadata_source": "Congress.gov API", "source_record": ident,
-            "required_by_recent_update": bool(row.get("required_by_recent_update")),
-            "observed_update_date": row.get("updateDate", "")}
+    from crs_formats import report_item, task_from_item
+    ident = report_id(row['id'])
+    item = report_item(http.json(API + '/' + ident + '?format=json'))
+    if report_id(item.get('id', ident)) != ident:
+        raise ValueError('Official detail report ID mismatch')
+    task = task_from_item({**row, **item, 'id': ident})
+    task['required_by_recent_update'] = bool(row.get('required_by_recent_update'))
+    task['observed_update_date'] = row.get('updateDate', item.get('updateDate', ''))
+    return task
 
 
 def task_key(task: dict) -> str:
@@ -401,6 +391,9 @@ def archive_task(http: HTTP, root: Path, task: dict, known: list[dict]) -> tuple
                                         "failed_expected_pdf_sha1": expected or "", "reason": str(source_error),
                                         "resolution": "Independently downloaded official PDF for the same publication date; failed mirror bytes not accepted"}
             return entry, is_new, [f"Recovered using independent official PDF: {source_error}"] + notices
+    if task.get('formats', {}).get('PDF', {}).get('require_embedded_revision'):
+        from crs_formats import validate_pdf
+        validate_pdf(pdf, task)
     with fitz.open(stream=pdf, filetype="pdf") as document:
         if document.needs_pass or len(document) == 0:
             raise ValueError("Unreadable or encrypted PDF")
@@ -716,6 +709,21 @@ def sync(args) -> int:
                     exc = RuntimeError(f"{exc}; official fallback: {api_exc}")
             failed_reports.append(ident)
             errors.append(f"{ident}: metadata resolution failed: {exc}")
+    # The official-current phase owns primary HTML and independently validated
+    # recovery of an omitted PDF format. Preserve the discovery, never discard it.
+    deferred = {r['id']: r for r in read_json(root / 'data/deferred-official-formats.json', [])}
+    for key, task in list(tasks.items()):
+        if 'PDF' not in task['formats'] or task.get('official_pdf_format_missing'):
+            ident = task['id']
+            deferred[ident] = recent_api.get(ident) or catalog.get(ident, {}).get('api') or {
+                'id': ident, 'title': task['title'], 'publishDate': task['date'],
+                'updateDate': task.get('observed_update_date', ''), 'status': 'Active'}
+            del tasks[key]
+    write_json(root / 'data/deferred-official-formats.json', list(deferred.values()))
+    status['deferred_official_format_ids'] = sorted(deferred)
+    if deferred:
+        warnings.append({'official_originals_awaiting_reconciliation': sorted(deferred),
+                         'note': 'Advertised HTML or omitted PDF metadata retained for the authoritative current-original stage; not counted as archived PDFs.'})
     reconciled = []
     for task in pending["tasks"]:
         fresh = [t for t in tasks.values() if t["id"] == task["id"]]
