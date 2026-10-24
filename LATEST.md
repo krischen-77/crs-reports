@@ -1,3 +1,5 @@
+**Official-current verification: 57/57. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-17 to 2026-10-24**. Older archived files are retained.
@@ -7,6 +9,7 @@ Publication-date window (inclusive): **2026-10-17 to 2026-10-24**. Older archive
 | 2026-10-23 | IF13336 v1 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.pdf) | [Markdown](markdown/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.md) |
 | 2026-10-23 | IF13335 v1 | Student Loans: Late Payment Trends, Servicing Practices, and Credit Reporting Issues | [PDF](pdf/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.pdf) | [Markdown](markdown/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.md) |
 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
+| 2026-10-22 | R49491 v2 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v2-2026-10-22-8daccd774bd61ce8.pdf) | [Markdown](markdown/reports/R49491v2-2026-10-22-8daccd774bd61ce8.md) |
 | 2026-10-22 | R49491 v1 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.pdf) | [Markdown](markdown/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.md) |
 | 2026-10-22 | R49408 v2 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.pdf) | [Markdown](markdown/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.md) |
 | 2026-10-22 | R49346 v3 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.pdf) | [Markdown](markdown/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.md) |

@@ -1,10 +1,10 @@
 # Official current CRS files
 
-Checked: 2026-10-24T05:53:26.058769+00:00. Official current entries verified: **56/57**.
+Checked: 2026-10-24T07:36:25.184140+00:00. Official current entries verified: **57/57**.
 
-The original cover date is distinct from the API update date. Only verified rows link to a current official PDF.
+The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
-| API update | Cover date | Report | Title | Current PDF | Full text |
+| API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
 | 2026-10-24 | 2026-10-23 | IF13336 v1 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.pdf) | [Markdown](markdown/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.md) |
 | 2026-10-24 | 2026-10-21 | LSB11493 v1 | The Airline Deregulation Act of 1978: Preemption of State Law | [PDF](pdf/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.pdf) | [Markdown](markdown/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.md) |
@@ -17,7 +17,7 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-10-24 | 2026-10-22 | R49346 v4 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v4-2026-10-22-a3e11acce9f1e181.pdf) | [Markdown](markdown/reports/R49346v4-2026-10-22-a3e11acce9f1e181.md) |
 | 2026-10-24 | 2026-10-22 | R41833 v26 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v26-2026-10-22-59b64f62d8726f41.pdf) | [Markdown](markdown/reports/R41833v26-2026-10-22-59b64f62d8726f41.md) |
 | 2026-10-24 | 2026-10-20 | R49354 v6 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v6-2026-10-20-675b4384850eff04.pdf) | [Markdown](markdown/reports/R49354v6-2026-10-20-675b4384850eff04.md) |
-| 2026-10-24 | 2026-10-22 | R49491 v? | Federal Government Shutdowns and the Impact on Civil Aviation | UNVERIFIED | Retry pending |
+| 2026-10-24 | 2026-10-22 | R49491 v2 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v2-2026-10-22-8daccd774bd61ce8.pdf) | [Markdown](markdown/reports/R49491v2-2026-10-22-8daccd774bd61ce8.md) |
 | 2026-10-24 | 2026-10-22 | IF13249 v2 | Farm Bill Primer: Rural Development Title | [PDF](pdf/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.pdf) | [Markdown](markdown/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.md) |
 | 2026-10-23 | 2026-10-21 | R49359 v4 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v4-2026-10-21-f1c9df285d655ddf.pdf) | [Markdown](markdown/reports/R49359v4-2026-10-21-f1c9df285d655ddf.md) |
 | 2026-10-23 | 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
