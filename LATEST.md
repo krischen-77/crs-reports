@@ -1,8 +1,6 @@
-**Official-current verification: 57/57. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-17 to 2026-10-24**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-18 to 2026-10-25**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -84,12 +82,3 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-10-20 | 2026-07-10 | R49028 v5 | Fixing Emergency Management for Americans (FEMA) Act of 2025: Context, Overview, and Summary of Provisions | [PDF](pdf/reports/R49028v5-2026-07-10-cf4a66995147e1a1.pdf) | [Markdown](markdown/reports/R49028v5-2026-07-10-cf4a66995147e1a1.md) |
 | 2026-10-20 | 2026-10-09 | R47857 v9 | U.S. Tourism: Recent Developments and Data | [PDF](pdf/reports/R47857v9-2026-10-09-145010857d94222c.pdf) | [Markdown](markdown/reports/R47857v9-2026-10-09-145010857d94222c.md) |
 | 2026-10-20 | 2026-10-16 | LSB11490 v1 | The Commerce Clause and Federal Firearms Prohibitions | [PDF](pdf/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.pdf) | [Markdown](markdown/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.md) |
-| 2026-10-17 | 2026-10-15 | R49488 v2 | The Unemployment Trust Fund: FY2026 Income, Outlays, and End-of-Year Balances | [PDF](pdf/reports/R49488v2-2026-10-15-ae337741c905fbf2.pdf) | [Markdown](markdown/reports/R49488v2-2026-10-15-ae337741c905fbf2.md) |
-| 2026-10-17 | 2026-10-14 | R49486 v3 | Clean Water Act Permitting: Overview and Policy Issues | [PDF](pdf/reports/R49486v3-2026-10-14-061aba17ab96bd50.pdf) | [Markdown](markdown/reports/R49486v3-2026-10-14-061aba17ab96bd50.md) |
-| 2026-10-17 | 2026-10-13 | R48956 v7 | National Security, Department of State, and Related Programs: FY2027 Budget and Appropriations | [PDF](pdf/reports/R48956v7-2026-10-13-93d14cc9a9ce402d.pdf) | [Markdown](markdown/reports/R48956v7-2026-10-13-93d14cc9a9ce402d.md) |
-| 2026-10-17 | 2026-10-16 | R48566 v3 | The Motion to Recommit in the House | [PDF](pdf/reports/R48566v3-2026-10-16-bec92c7b1de8de86.pdf) | [Markdown](markdown/reports/R48566v3-2026-10-16-bec92c7b1de8de86.md) |
-| 2026-10-17 | 2026-10-15 | R43657 v6 | Funding for the Impact Aid Program: Options for Budget Year Appropriations, Forward Funding, and Advance Appropriations | [PDF](pdf/reports/R43657v6-2026-10-15-ae8f63ed053627ab.pdf) | [Markdown](markdown/reports/R43657v6-2026-10-15-ae8f63ed053627ab.md) |
-| 2026-10-17 | 2025-03-10 | R42107 v40 | The Federal Employees’ Compensation Act (FECA): Workers’ Compensation for Federal Employees | [PDF](pdf/reports/R42107v40-2025-03-10-e394e96f30540b2a.pdf) | [Markdown](markdown/reports/R42107v40-2025-03-10-e394e96f30540b2a.md) |
-| 2026-10-17 | 2026-10-14 | IN12747 v2 | H-1B Executive Actions in 2026 | [PDF](pdf/insights/IN12747v2-2026-10-14-6bbd4818fac4e78e.pdf) | [Markdown](markdown/insights/IN12747v2-2026-10-14-6bbd4818fac4e78e.md) |
-| 2026-10-17 | 2026-10-16 | IF13329 v1 | When a Case Can Be Filed: Statutes of Limitations and Statutes of Repose | [PDF](pdf/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.pdf) | [Markdown](markdown/in-focus/IF13329v1-2026-10-16-4011ff2e5576a49a.md) |
-| 2026-10-17 | 2026-10-09 | IF13328 v6 | State and Local Role in Elections Policy: Selected Recent Developments | [PDF](pdf/in-focus/IF13328v6-2026-10-09-5ec691358184fd04.pdf) | [Markdown](markdown/in-focus/IF13328v6-2026-10-09-5ec691358184fd04.md) |
