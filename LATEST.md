@@ -1,3 +1,5 @@
+**Official-current verification: 51/51. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-19 to 2026-10-26**. Older archived files are retained.
@@ -12,6 +14,7 @@ Publication-date window (inclusive): **2026-10-19 to 2026-10-26**. Older archive
 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
 | 2026-10-22 | R49491 v2 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v2-2026-10-22-8daccd774bd61ce8.pdf) | [Markdown](markdown/reports/R49491v2-2026-10-22-8daccd774bd61ce8.md) |
 | 2026-10-22 | R49491 v1 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.pdf) | [Markdown](markdown/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.md) |
+| 2026-10-22 | R49408 v3 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v3-2026-10-22-10ac5c7079b6d546.pdf) | [Markdown](markdown/reports/R49408v3-2026-10-22-10ac5c7079b6d546.md) |
 | 2026-10-22 | R49408 v2 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.pdf) | [Markdown](markdown/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.md) |
 | 2026-10-22 | R49346 v3 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.pdf) | [Markdown](markdown/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.md) |
 | 2026-10-22 | R49346 v4 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v4-2026-10-22-a3e11acce9f1e181.pdf) | [Markdown](markdown/reports/R49346v4-2026-10-22-a3e11acce9f1e181.md) |
@@ -23,6 +26,7 @@ Publication-date window (inclusive): **2026-10-19 to 2026-10-26**. Older archive
 | 2026-10-22 | IF13092 v12 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.pdf) | [Markdown](markdown/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.md) |
 | 2026-10-22 | IF13092 v11 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.pdf) | [Markdown](markdown/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.md) |
 | 2026-10-22 | IF12889 v3 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.pdf) | [Markdown](markdown/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.md) |
+| 2026-10-22 | IF12889 v4 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.pdf) | [Markdown](markdown/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.md) |
 | 2026-10-21 | R49359 v4 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v4-2026-10-21-f1c9df285d655ddf.pdf) | [Markdown](markdown/reports/R49359v4-2026-10-21-f1c9df285d655ddf.md) |
 | 2026-10-21 | R49359 v3 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.pdf) | [Markdown](markdown/reports/R49359v3-2026-10-21-f2ce5ed1a01d1f4e.md) |
 | 2026-10-21 | R49292 v3 | Interior, Environment, and Related Agencies: Overview of FY2027 Appropriations | [PDF](pdf/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.pdf) | [Markdown](markdown/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.md) |

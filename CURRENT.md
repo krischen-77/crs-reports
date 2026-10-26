@@ -1,18 +1,22 @@
 # Official current CRS files
 
-Checked: 2026-10-26T00:32:48.017969+00:00. Official current entries verified: **48/48**.
+Checked: 2026-10-26T16:55:47.300143+00:00. Official current entries verified: **51/51**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
+| 2026-10-26 | 2026-10-22 | R49408 v3 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v3-2026-10-22-10ac5c7079b6d546.pdf) | [Markdown](markdown/reports/R49408v3-2026-10-22-10ac5c7079b6d546.md) |
+| 2026-10-26 | 2026-10-26 | LSB11494 v1 | Recent Changes to DOJ’s Interpretation of Olmstead v. L.C. ex rel. Zimring | [PDF](pdf/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.pdf) | [Markdown](markdown/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.md) |
+| 2026-10-26 | 2026-10-26 | IN12749 v1 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.pdf) | [Markdown](markdown/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.md) |
+| 2026-10-26 | 2026-10-22 | IF12889 v4 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.pdf) | [Markdown](markdown/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.md) |
+| 2026-10-26 | 2026-10-26 | LSB11457 v5 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.pdf) | [Markdown](markdown/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.md) |
 | 2026-10-24 | 2026-10-23 | IF13336 v1 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.pdf) | [Markdown](markdown/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.md) |
 | 2026-10-24 | 2026-10-21 | LSB11493 v1 | The Airline Deregulation Act of 1978: Preemption of State Law | [PDF](pdf/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.pdf) | [Markdown](markdown/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.md) |
 | 2026-10-24 | 2026-10-22 | IF13092 v12 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.pdf) | [Markdown](markdown/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.md) |
 | 2026-10-24 | 2026-10-21 | IF13334 v2 | ANC, Tribal, NHO, and CDC Participation in the 8(a) Business Development Program | [PDF](pdf/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.pdf) | [Markdown](markdown/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.md) |
 | 2026-10-24 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
 | 2026-10-24 | 2026-10-22 | R42853 v46 | Nuclear Energy: Overview of Congressional Issues | [PDF](pdf/reports/R42853v46-2026-10-22-11f80f07cb38da84.pdf) | [Markdown](markdown/reports/R42853v46-2026-10-22-11f80f07cb38da84.md) |
-| 2026-10-24 | 2026-10-22 | R49408 v2 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.pdf) | [Markdown](markdown/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.md) |
 | 2026-10-24 | 2026-10-23 | IF13335 v1 | Student Loans: Late Payment Trends, Servicing Practices, and Credit Reporting Issues | [PDF](pdf/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.pdf) | [Markdown](markdown/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.md) |
 | 2026-10-24 | 2026-10-22 | R49346 v4 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v4-2026-10-22-a3e11acce9f1e181.pdf) | [Markdown](markdown/reports/R49346v4-2026-10-22-a3e11acce9f1e181.md) |
 | 2026-10-24 | 2026-10-22 | R41833 v26 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v26-2026-10-22-59b64f62d8726f41.pdf) | [Markdown](markdown/reports/R41833v26-2026-10-22-59b64f62d8726f41.md) |
@@ -24,7 +28,6 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-10-23 | 2026-10-21 | IF13332 v3 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.pdf) | [Markdown](markdown/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.md) |
 | 2026-10-23 | 2026-10-20 | RL33546 v98 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.pdf) | [Markdown](markdown/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.md) |
 | 2026-10-23 | 2026-10-20 | R46833 v7 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.pdf) | [Markdown](markdown/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.md) |
-| 2026-10-23 | 2026-10-22 | IF12889 v3 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.pdf) | [Markdown](markdown/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.md) |
 | 2026-10-23 | 2026-10-20 | IF10275 v91 | Taiwan: Background and U.S. Relations | [PDF](pdf/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.pdf) | [Markdown](markdown/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.md) |
 | 2026-10-23 | 2026-10-20 | R48732 v8 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.pdf) | [Markdown](markdown/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.md) |
 | 2026-10-23 | 2026-10-21 | IF13333 v2 | Fair Labor Standards Act Overtime Pay Requirements | [PDF](pdf/in-focus/IF13333v2-2026-10-21-e6091e3ce93eb343.pdf) | [Markdown](markdown/in-focus/IF13333v2-2026-10-21-e6091e3ce93eb343.md) |
