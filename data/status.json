@@ -10,17 +10,12 @@
   "deferred_official_format_ids": [],
   "errors": [],
   "github_run_attempt": "1",
-  "github_run_id": "40202226887",
+  "github_run_id": "40249441424",
   "historical_new_pdf_versions": 2,
   "historical_pending_versions": 239,
   "lookback_days": 7,
   "metadata_only_updates": 4,
   "new_pdf_versions": 2,
-  "official_current_pending": 0,
-  "official_current_required": 48,
-  "official_current_verified": 48,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-10-25T14:31:37.368449+00:00",
   "pending_reports": 0,
   "pending_versions": 0,
   "primary_new_pdf_versions": 0,
@@ -28,7 +23,7 @@
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-10-25T14:26:45.575945+00:00",
+  "run_at": "2026-10-26T00:27:51.208045+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -49,10 +44,9 @@
     }
   },
   "successful_versions": 49,
-  "total_archived_pdf_versions": 528,
-  "total_html_original_versions": 0,
+  "total_archived_pdf_versions": 530,
   "total_html_snapshots": 431,
-  "total_pdf_bytes": 417405514,
+  "total_pdf_bytes": 419790809,
   "warnings": [
     {
       "api_version": 83,
@@ -359,7 +353,7 @@
       ]
     },
     {
-      "id": "R42106",
+      "id": "R42150",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions"
@@ -367,7 +361,7 @@
       "scope": "optional historical backfill"
     },
     {
-      "id": "R42111",
+      "id": "R42329",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
@@ -379,6 +373,6 @@
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
-  "window_end_inclusive": "2026-10-25",
-  "window_start_inclusive": "2026-10-18"
+  "window_end_inclusive": "2026-10-26",
+  "window_start_inclusive": "2026-10-19"
 }
