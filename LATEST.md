@@ -1,11 +1,12 @@
-**Official-current verification: 48/48. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-19 to 2026-10-26**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-26 | LSB11494 v1 | Recent Changes to DOJ’s Interpretation of Olmstead v. L.C. ex rel. Zimring | [PDF](pdf/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.pdf) | [Markdown](markdown/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.md) |
+| 2026-10-26 | LSB11457 v5 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.pdf) | [Markdown](markdown/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.md) |
+| 2026-10-26 | IN12749 v1 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.pdf) | [Markdown](markdown/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.md) |
 | 2026-10-23 | IF13336 v1 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.pdf) | [Markdown](markdown/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.md) |
 | 2026-10-23 | IF13335 v1 | Student Loans: Late Payment Trends, Servicing Practices, and Credit Reporting Issues | [PDF](pdf/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.pdf) | [Markdown](markdown/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.md) |
 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
