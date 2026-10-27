@@ -1,14 +1,16 @@
-**Official-current verification: 51/51. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-19 to 2026-10-26**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-20 to 2026-10-27**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-26 | R49493 v1 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.pdf) | [Markdown](markdown/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.md) |
+| 2026-10-26 | R49492 v2 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v2-2026-10-26-43804154d9ae645e.pdf) | [Markdown](markdown/reports/R49492v2-2026-10-26-43804154d9ae645e.md) |
+| 2026-10-26 | R46413 v10 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v10-2026-10-26-14f4913001d8f380.pdf) | [Markdown](markdown/reports/R46413v10-2026-10-26-14f4913001d8f380.md) |
 | 2026-10-26 | LSB11494 v1 | Recent Changes to DOJ’s Interpretation of Olmstead v. L.C. ex rel. Zimring | [PDF](pdf/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.pdf) | [Markdown](markdown/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.md) |
 | 2026-10-26 | LSB11457 v5 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.pdf) | [Markdown](markdown/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.md) |
 | 2026-10-26 | IN12749 v1 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.pdf) | [Markdown](markdown/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.md) |
+| 2026-10-26 | IF13337 v2 | Proposed Rule Affecting Noncitizen Eligibility for Refundable Tax Credits | [PDF](pdf/in-focus/IF13337v2-2026-10-26-8516671f9ce4e433.pdf) | [Markdown](markdown/in-focus/IF13337v2-2026-10-26-8516671f9ce4e433.md) |
 | 2026-10-23 | IF13336 v1 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.pdf) | [Markdown](markdown/in-focus/IF13336v1-2026-10-23-982a423b772e3cd4.md) |
 | 2026-10-23 | IF13335 v1 | Student Loans: Late Payment Trends, Servicing Practices, and Credit Reporting Issues | [PDF](pdf/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.pdf) | [Markdown](markdown/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.md) |
 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
@@ -63,20 +65,6 @@ Publication-date window (inclusive): **2026-10-19 to 2026-10-26**. Older archive
 | 2026-10-20 | IF12140 v3 | Farm Bill Primer: MAL and LDP Farm Support Programs | [PDF](pdf/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.pdf) | [Markdown](markdown/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.md) |
 | 2026-10-20 | IF11808 v13 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.pdf) | [Markdown](markdown/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.md) |
 | 2026-10-20 | IF10275 v91 | Taiwan: Background and U.S. Relations | [PDF](pdf/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.pdf) | [Markdown](markdown/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.md) |
-| 2026-10-19 | R48645 v4 | Establishment Clause Limits on Government Support for Religion | [PDF](pdf/reports/R48645v4-2026-10-19-7825c29fb7597d43.pdf) | [Markdown](markdown/reports/R48645v4-2026-10-19-7825c29fb7597d43.md) |
-| 2026-10-19 | R48645 v3 | Establishment Clause Limits on Government Support for Religion | [PDF](pdf/reports/R48645v3-2026-10-19-ce9d297792ca8b2d.pdf) | [Markdown](markdown/reports/R48645v3-2026-10-19-ce9d297792ca8b2d.md) |
-| 2026-10-19 | R48033 v7 | Class VI Carbon Sequestration Wells: Permitting and State Program Primacy | [PDF](pdf/reports/R48033v7-2026-10-19-6301aa1d25619438.pdf) | [Markdown](markdown/reports/R48033v7-2026-10-19-6301aa1d25619438.md) |
-| 2026-10-19 | R48033 v6 | Class VI Carbon Sequestration Wells: Permitting and State Program Primacy | [PDF](pdf/reports/R48033v6-2026-10-19-fd8f1e0c7e8aa340.pdf) | [Markdown](markdown/reports/R48033v6-2026-10-19-fd8f1e0c7e8aa340.md) |
-| 2026-10-19 | R47656 v5 | Copyright in Standards Incorporated by Reference into Law and the Pro Codes Act | [PDF](pdf/reports/R47656v5-2026-10-19-7f9a0c009c494746.pdf) | [Markdown](markdown/reports/R47656v5-2026-10-19-7f9a0c009c494746.md) |
-| 2026-10-19 | R46565 v8 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v8-2026-10-19-53475dad00dc85a8.pdf) | [Markdown](markdown/reports/R46565v8-2026-10-19-53475dad00dc85a8.md) |
-| 2026-10-19 | R46565 v9 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v9-2026-10-19-8e97247f40327d91.pdf) | [Markdown](markdown/reports/R46565v9-2026-10-19-8e97247f40327d91.md) |
-| 2026-10-19 | LSB11491 v2 | IRS Proposed Regulations on Racial Nondiscrimination in Private Schools | [PDF](pdf/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.pdf) | [Markdown](markdown/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.md) |
-| 2026-10-19 | LSB11170 v6 | Circuit Split on Constitutionality of Federal Felon-in-Possession Prohibition Persists After Supreme Court Denies Review | [PDF](pdf/sidebars/LSB11170v6-2026-10-19-76e2368d3a6b47fd.pdf) | [Markdown](markdown/sidebars/LSB11170v6-2026-10-19-76e2368d3a6b47fd.md) |
-| 2026-10-19 | LSB11170 v5 | Circuit Split on Constitutionality of Federal Felon-in-Possession Prohibition Persists After Supreme Court Denies Review | [PDF](pdf/sidebars/LSB11170v5-2026-10-19-8b9737e76a055900.pdf) | [Markdown](markdown/sidebars/LSB11170v5-2026-10-19-8b9737e76a055900.md) |
-| 2026-10-19 | IG10102 v1 | State Proposals to Change Daylight Saving Time Observance | [PDF](pdf/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.pdf) | [Markdown](markdown/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.md) |
-| 2026-10-19 | IF13330 v1 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.pdf) | [Markdown](markdown/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.md) |
-| 2026-10-19 | IF12201 v3 | Farm Bill Primer: Federal Crop Insurance Program | [PDF](pdf/in-focus/IF12201v3-2026-10-19-268e83dc02369817.pdf) | [Markdown](markdown/in-focus/IF12201v3-2026-10-19-268e83dc02369817.md) |
-| 2026-10-19 | IF11797 v31 | The Army’s Multi-Domain Task Force | [PDF](pdf/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.pdf) | [Markdown](markdown/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -84,8 +72,19 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-10-26 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
 | 2026-10-23 | 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
 | 2026-10-22 | 2026-07-31 | R49057 v5 | Data Centers and Water: Frequently Asked Questions | [PDF](pdf/reports/R49057v5-2026-07-31-6154e49b161f2b2a.pdf) | [Markdown](markdown/reports/R49057v5-2026-07-31-6154e49b161f2b2a.md) |
+| 2026-10-22 | 2026-10-19 | R46565 v9 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v9-2026-10-19-8e97247f40327d91.pdf) | [Markdown](markdown/reports/R46565v9-2026-10-19-8e97247f40327d91.md) |
+| 2026-10-21 | 2026-10-19 | R48645 v4 | Establishment Clause Limits on Government Support for Religion | [PDF](pdf/reports/R48645v4-2026-10-19-7825c29fb7597d43.pdf) | [Markdown](markdown/reports/R48645v4-2026-10-19-7825c29fb7597d43.md) |
+| 2026-10-21 | 2026-10-19 | R48033 v7 | Class VI Carbon Sequestration Wells: Permitting and State Program Primacy | [PDF](pdf/reports/R48033v7-2026-10-19-6301aa1d25619438.pdf) | [Markdown](markdown/reports/R48033v7-2026-10-19-6301aa1d25619438.md) |
+| 2026-10-21 | 2026-10-19 | R47656 v5 | Copyright in Standards Incorporated by Reference into Law and the Pro Codes Act | [PDF](pdf/reports/R47656v5-2026-10-19-7f9a0c009c494746.pdf) | [Markdown](markdown/reports/R47656v5-2026-10-19-7f9a0c009c494746.md) |
+| 2026-10-21 | 2026-10-19 | LSB11491 v2 | IRS Proposed Regulations on Racial Nondiscrimination in Private Schools | [PDF](pdf/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.pdf) | [Markdown](markdown/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.md) |
+| 2026-10-21 | 2026-10-19 | LSB11170 v6 | Circuit Split on Constitutionality of Federal Felon-in-Possession Prohibition Persists After Supreme Court Denies Review | [PDF](pdf/sidebars/LSB11170v6-2026-10-19-76e2368d3a6b47fd.pdf) | [Markdown](markdown/sidebars/LSB11170v6-2026-10-19-76e2368d3a6b47fd.md) |
 | 2026-10-20 | 2026-07-10 | R49028 v5 | Fixing Emergency Management for Americans (FEMA) Act of 2025: Context, Overview, and Summary of Provisions | [PDF](pdf/reports/R49028v5-2026-07-10-cf4a66995147e1a1.pdf) | [Markdown](markdown/reports/R49028v5-2026-07-10-cf4a66995147e1a1.md) |
 | 2026-10-20 | 2026-10-09 | R47857 v9 | U.S. Tourism: Recent Developments and Data | [PDF](pdf/reports/R47857v9-2026-10-09-145010857d94222c.pdf) | [Markdown](markdown/reports/R47857v9-2026-10-09-145010857d94222c.md) |
 | 2026-10-20 | 2026-10-16 | LSB11490 v1 | The Commerce Clause and Federal Firearms Prohibitions | [PDF](pdf/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.pdf) | [Markdown](markdown/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.md) |
+| 2026-10-20 | 2026-10-19 | IG10102 v1 | State Proposals to Change Daylight Saving Time Observance | [PDF](pdf/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.pdf) | [Markdown](markdown/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.md) |
+| 2026-10-20 | 2026-10-19 | IF13330 v1 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.pdf) | [Markdown](markdown/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.md) |
+| 2026-10-20 | 2026-10-19 | IF12201 v3 | Farm Bill Primer: Federal Crop Insurance Program | [PDF](pdf/in-focus/IF12201v3-2026-10-19-268e83dc02369817.pdf) | [Markdown](markdown/in-focus/IF12201v3-2026-10-19-268e83dc02369817.md) |
+| 2026-10-20 | 2026-10-19 | IF11797 v31 | The Army’s Multi-Domain Task Force | [PDF](pdf/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.pdf) | [Markdown](markdown/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.md) |
