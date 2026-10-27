@@ -4,6 +4,10 @@ Publication-date window (inclusive): **2026-10-20 to 2026-10-27**. Older archive
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-27 | R43397 v37 | Legislative Branch Appropriations: Frequently Asked Questions | [PDF](pdf/reports/R43397v37-2026-10-27-86faf7b42f66156b.pdf) | [Markdown](markdown/reports/R43397v37-2026-10-27-86faf7b42f66156b.md) |
+| 2026-10-27 | LSB11495 v1 | Congressional Court Watcher: Circuit Splits from August 2026 | [PDF](pdf/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.pdf) | [Markdown](markdown/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.md) |
+| 2026-10-27 | LSB11340 v2 | Environmental Justice and Title VI of the Civil Rights Act of 1964 | [PDF](pdf/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.pdf) | [Markdown](markdown/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.md) |
+| 2026-10-27 | IF11780 v11 | United Nations Issues: Overview of the United Nations System | [PDF](pdf/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.pdf) | [Markdown](markdown/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.md) |
 | 2026-10-26 | R49493 v1 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.pdf) | [Markdown](markdown/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.md) |
 | 2026-10-26 | R49492 v2 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v2-2026-10-26-43804154d9ae645e.pdf) | [Markdown](markdown/reports/R49492v2-2026-10-26-43804154d9ae645e.md) |
 | 2026-10-26 | R46413 v10 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v10-2026-10-26-14f4913001d8f380.pdf) | [Markdown](markdown/reports/R46413v10-2026-10-26-14f4913001d8f380.md) |
@@ -76,7 +80,10 @@ API update dates can describe metadata or file changes. These current PDF files 
 |---|---|---|---|---|---|
 | 2026-10-27 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
 | 2026-10-27 | 2017-04-14 | R44819 v3 | Senate Proceedings Establishing Majority Cloture for Supreme Court Nominations: In Brief | [PDF](pdf/reports/R44819v3-2017-04-14-c695158f51635f12.pdf) | [Markdown](markdown/reports/R44819v3-2017-04-14-c695158f51635f12.md) |
+| 2026-10-27 | 2026-01-22 | IN12598 v4 | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | [PDF](pdf/insights/IN12598v4-2026-01-22-1643c918fae9a430.pdf) | [Markdown](markdown/insights/IN12598v4-2026-01-22-1643c918fae9a430.md) |
 | 2026-10-27 | 2020-12-02 | IN10875 v5 | Eight Mechanisms to Enact Procedural Change in the U.S. Senate | [PDF](pdf/insights/IN10875v5-2020-12-02-e0ea201e9c9f3a22.pdf) | [Markdown](markdown/insights/IN10875v5-2020-12-02-e0ea201e9c9f3a22.md) |
+| 2026-10-27 | 2025-02-20 | IF12914 v1 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v1-2025-02-20-1417a3be9e40a414.pdf) | [Markdown](markdown/in-focus/IF12914v1-2025-02-20-1417a3be9e40a414.md) |
+| 2026-10-27 | 2023-02-23 | IF12333 v1 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v1-2023-02-23-2b443d5535875b60.pdf) | [Markdown](markdown/in-focus/IF12333v1-2023-02-23-2b443d5535875b60.md) |
 | 2026-10-23 | 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
 | 2026-10-22 | 2026-07-31 | R49057 v5 | Data Centers and Water: Frequently Asked Questions | [PDF](pdf/reports/R49057v5-2026-07-31-6154e49b161f2b2a.pdf) | [Markdown](markdown/reports/R49057v5-2026-07-31-6154e49b161f2b2a.md) |
 | 2026-10-22 | 2026-10-19 | R46565 v9 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v9-2026-10-19-8e97247f40327d91.pdf) | [Markdown](markdown/reports/R46565v9-2026-10-19-8e97247f40327d91.md) |
