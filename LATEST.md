@@ -1,5 +1,3 @@
-**Official-current verification: 56/56. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-20 to 2026-10-27**. Older archived files are retained.
@@ -9,6 +7,7 @@ Publication-date window (inclusive): **2026-10-20 to 2026-10-27**. Older archive
 | 2026-10-26 | R49493 v1 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.pdf) | [Markdown](markdown/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.md) |
 | 2026-10-26 | R49492 v2 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v2-2026-10-26-43804154d9ae645e.pdf) | [Markdown](markdown/reports/R49492v2-2026-10-26-43804154d9ae645e.md) |
 | 2026-10-26 | R46413 v10 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v10-2026-10-26-14f4913001d8f380.pdf) | [Markdown](markdown/reports/R46413v10-2026-10-26-14f4913001d8f380.md) |
+| 2026-10-26 | R45635 v5 | Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements | [PDF](pdf/reports/R45635v5-2026-10-26-e43682f46d8d80f5.pdf) | [Markdown](markdown/reports/R45635v5-2026-10-26-e43682f46d8d80f5.md) |
 | 2026-10-26 | LSB11494 v1 | Recent Changes to DOJ’s Interpretation of Olmstead v. L.C. ex rel. Zimring | [PDF](pdf/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.pdf) | [Markdown](markdown/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.md) |
 | 2026-10-26 | LSB11457 v5 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.pdf) | [Markdown](markdown/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.md) |
 | 2026-10-26 | IN12749 v1 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.pdf) | [Markdown](markdown/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.md) |
@@ -75,7 +74,9 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-10-26 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
+| 2026-10-27 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
+| 2026-10-27 | 2017-04-14 | R44819 v3 | Senate Proceedings Establishing Majority Cloture for Supreme Court Nominations: In Brief | [PDF](pdf/reports/R44819v3-2017-04-14-c695158f51635f12.pdf) | [Markdown](markdown/reports/R44819v3-2017-04-14-c695158f51635f12.md) |
+| 2026-10-27 | 2020-12-02 | IN10875 v5 | Eight Mechanisms to Enact Procedural Change in the U.S. Senate | [PDF](pdf/insights/IN10875v5-2020-12-02-e0ea201e9c9f3a22.pdf) | [Markdown](markdown/insights/IN10875v5-2020-12-02-e0ea201e9c9f3a22.md) |
 | 2026-10-23 | 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
 | 2026-10-22 | 2026-07-31 | R49057 v5 | Data Centers and Water: Frequently Asked Questions | [PDF](pdf/reports/R49057v5-2026-07-31-6154e49b161f2b2a.pdf) | [Markdown](markdown/reports/R49057v5-2026-07-31-6154e49b161f2b2a.md) |
 | 2026-10-22 | 2026-10-19 | R46565 v9 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v9-2026-10-19-8e97247f40327d91.pdf) | [Markdown](markdown/reports/R46565v9-2026-10-19-8e97247f40327d91.md) |
