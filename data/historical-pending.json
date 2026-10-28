@@ -8,85 +8,6 @@
       "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "3",
-        "date": "2012-11-21",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R42831",
-            "sha1": "5332c81ed830aa27cb03e3d7eb7e92f42572edf5",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20121121_R42831_5332c81ed830aa27cb03e3d7eb7e92f42572edf5.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R42831",
-            "sha1": "f568d2e8ad3804e24c3b19567df03407619495a8",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20121121_R42831_f568d2e8ad3804e24c3b19567df03407619495a8.pdf"
-            ]
-          }
-        },
-        "id": "R42831",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R42831",
-          "http://www.crs.gov/Reports/pdf/R42831"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "414198",
-        "title": "Congressional Redistricting: An Overview",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-28",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-30",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "9",
-        "date": "2013-10-18",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R42878",
-            "sha1": "7068323047b72265351a3787319362fcd5c75982",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20131018_R42878_7068323047b72265351a3787319362fcd5c75982.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R42878",
-            "sha1": "1c60990c8e25e23bb23c2665e8c9648ef44aa82e",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20131018_R42878_1c60990c8e25e23bb23c2665e8c9648ef44aa82e.pdf"
-            ]
-          }
-        },
-        "id": "R42878",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R42878",
-          "http://www.crs.gov/Reports/pdf/R42878"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "425017",
-        "title": "Improper Payments and Recovery Audits: Legislation, Implementation, and Analysis",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "4",
         "date": "2013-01-18",
         "formats": {
@@ -121,8 +42,11 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-28",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-30",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "10",
@@ -8896,6 +8820,195 @@
       }
     },
     {
+      "attempts": 0,
+      "next_retry": "2026-10-29",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "8",
+        "date": "2026-01-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11780",
+            "sha1": "fe13ee35355f697ab54208886d362b0f00c00209",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF11780.web.html",
+              "https://www.everycrsreport.com/files/2026-01-09_IF11780_fe13ee35355f697ab54208886d362b0f00c00209.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11780",
+            "sha1": "484c7d67d194bf85d7d44745b7bb1a3c31f5f1a4",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF11780/IF11780.10.pdf",
+              "https://www.everycrsreport.com/files/2026-01-09_IF11780_484c7d67d194bf85d7d44745b7bb1a3c31f5f1a4.pdf"
+            ]
+          }
+        },
+        "id": "IF11780",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-27T21:26:49Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11780_A10_2026-01-09",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-09",
+          "id": "IF11780",
+          "official_pdf_sha256": "978a97ec2326b27f630a4574bf135e7e7db40a84ed9a54f129303c8dae60a3e0",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11780/IF11780.11.pdf",
+          "official_publication": "2026-10-27",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "United Nations Issues: Overview of the United Nations System",
+        "version": "10"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-29",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2025-07-15",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "LSB11340",
+            "sha1": "fada31a0bb557d70b3dafba97c644ef3d3a38f78",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/LSB/HTML/LSB11340.web.html",
+              "https://www.everycrsreport.com/files/2025-07-15_LSB11340_fada31a0bb557d70b3dafba97c644ef3d3a38f78.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "LSB11340",
+            "sha1": "49f7b3c36502d962179e7561e8649a34672bb74a",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11340/LSB11340.1.pdf",
+              "https://www.everycrsreport.com/files/2025-07-15_LSB11340_49f7b3c36502d962179e7561e8649a34672bb74a.pdf"
+            ]
+          }
+        },
+        "id": "LSB11340",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-27T21:27:17Z",
+        "required_by_recent_update": false,
+        "source_record": "LSB11340_A1_2025-07-15",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-07-15",
+          "id": "LSB11340",
+          "official_pdf_sha256": "1420392c31e9ebf4d35ddcee037d02b0082502efb6861f074a8a52dccc8edbe1",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11340/LSB11340.2.pdf",
+          "official_publication": "2026-10-27",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Environmental Justice and Title VI of the Civil Rights Act of 1964",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-29",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "32",
+        "date": "2026-04-24",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43397",
+            "sha1": "4af3396ca11cb457544f7b77f912440e7f5c03cf",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R43397.web.html",
+              "https://www.everycrsreport.com/files/2026-04-24_R43397_4af3396ca11cb457544f7b77f912440e7f5c03cf.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43397",
+            "sha1": "438b8a268575ed5ed7fcba5be177b0d9701f06ea",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R43397/R43397.35.pdf",
+              "https://www.everycrsreport.com/files/2026-04-24_R43397_438b8a268575ed5ed7fcba5be177b0d9701f06ea.pdf"
+            ]
+          }
+        },
+        "id": "R43397",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-27T21:26:52Z",
+        "required_by_recent_update": false,
+        "source_record": "R43397_A35_2026-04-24",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-04-24",
+          "id": "R43397",
+          "official_pdf_sha256": "86faf7b42f66156b316be9322bc809aea9fb758850ff33c9806b399ec09b5694",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R43397/R43397.37.pdf",
+          "official_publication": "2026-10-27",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Legislative Branch Appropriations: Frequently Asked Questions",
+        "version": "35"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-29",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "3",
+        "date": "2019-03-26",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45635",
+            "sha1": "25c2b06684e5bf65cd2811960d3966cbf06c938b",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190326_R45635_25c2b06684e5bf65cd2811960d3966cbf06c938b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45635",
+            "sha1": "9fbe73a53a2c42612b670dcff44500be63ded82e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190326_R45635_9fbe73a53a2c42612b670dcff44500be63ded82e.pdf"
+            ]
+          }
+        },
+        "id": "R45635",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45635",
+          "https://www.crs.gov/Reports/pdf/R45635"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-27T21:26:45Z",
+        "required_by_recent_update": false,
+        "source_record": "595060",
+        "superseded_by_official_current": {
+          "historical_publication": "2019-03-26",
+          "id": "R45635",
+          "official_pdf_sha256": "e43682f46d8d80f5be8744d84812202f3d79660d6c257612fa96fb8bb6eb4877",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R45635/R45635.5.pdf",
+          "official_publication": "2026-10-26",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Categories of Federal Civil Service Employment: A Snapshot",
+        "version": "unknown"
+      }
+    },
+    {
       "attempts": 1,
       "last_attempt": "2026-10-27",
       "last_error": "Original PDF saved; auxiliary HTML still unavailable",
@@ -9220,6 +9333,88 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "585404",
         "title": "Tax-Preferred College Savings Plans: An Introduction to Coverdells",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-28",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-30",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "3",
+        "date": "2012-11-21",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R42831",
+            "sha1": "5332c81ed830aa27cb03e3d7eb7e92f42572edf5",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20121121_R42831_5332c81ed830aa27cb03e3d7eb7e92f42572edf5.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R42831",
+            "sha1": "f568d2e8ad3804e24c3b19567df03407619495a8",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20121121_R42831_f568d2e8ad3804e24c3b19567df03407619495a8.pdf"
+            ]
+          }
+        },
+        "id": "R42831",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R42831",
+          "http://www.crs.gov/Reports/pdf/R42831"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "414198",
+        "title": "Congressional Redistricting: An Overview",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-28",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-30",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "9",
+        "date": "2013-10-18",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R42878",
+            "sha1": "7068323047b72265351a3787319362fcd5c75982",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20131018_R42878_7068323047b72265351a3787319362fcd5c75982.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R42878",
+            "sha1": "1c60990c8e25e23bb23c2665e8c9648ef44aa82e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20131018_R42878_1c60990c8e25e23bb23c2665e8c9648ef44aa82e.pdf"
+            ]
+          }
+        },
+        "id": "R42878",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R42878",
+          "http://www.crs.gov/Reports/pdf/R42878"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "425017",
+        "title": "Improper Payments and Recovery Audits: Legislation, Implementation, and Analysis",
         "version": "unknown"
       }
     }
