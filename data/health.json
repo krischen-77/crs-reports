@@ -4,14 +4,14 @@
     "Official-current coverage is incomplete",
     "No valid independent byte-verification receipt"
   ],
-  "checked_at": "2026-10-28T01:56:42.784527+00:00",
+  "checked_at": "2026-10-28T02:31:31.753737+00:00",
   "monitor_result": "completed",
   "notices": [
     "Official reconciliation is due after the new collection"
   ],
   "recovery_stage": null,
   "source_times": {
-    "crs-backup.yml": "2026-10-28T01:47:50.681001+00:00",
+    "crs-backup.yml": "2026-10-28T02:24:33.861275+00:00",
     "official-reconcile.yml": "2026-10-27T01:37:31.331205+00:00",
     "coverage-audit.yml": "2026-10-27T01:40:31.544739+00:00"
   },
@@ -22,24 +22,24 @@
       "status": "completed",
       "conclusion": "success",
       "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40617044540",
-      "run_started_at": "2026-10-28T01:46:36Z",
-      "updated_at": "2026-10-28T01:47:59Z"
+      "run_started_at": "2026-10-28T02:23:11Z",
+      "updated_at": "2026-10-28T02:24:44Z"
     },
     "official-reconcile.yml": {
-      "id": 40617170861,
+      "id": 40620763174,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40617170861",
-      "run_started_at": "2026-10-28T01:47:56Z",
-      "updated_at": "2026-10-28T01:53:40Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40620763174",
+      "run_started_at": "2026-10-28T02:24:40Z",
+      "updated_at": "2026-10-28T02:28:38Z"
     },
     "coverage-audit.yml": {
-      "id": 40617712723,
+      "id": 40621145944,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40617712723",
-      "run_started_at": "2026-10-28T01:53:37Z",
-      "updated_at": "2026-10-28T01:56:36Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40621145944",
+      "run_started_at": "2026-10-28T02:28:35Z",
+      "updated_at": "2026-10-28T02:31:25Z"
     }
   },
   "daily_delivery": {
@@ -51,7 +51,7 @@
   "notification_severity": "warning",
   "notification_required": false,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
-  "github_run_id": "40617994205",
+  "github_run_id": "40621428350",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
