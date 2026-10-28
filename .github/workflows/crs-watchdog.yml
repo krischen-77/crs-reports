@@ -23,6 +23,7 @@ jobs:
           fetch-depth: 1
           sparse-checkout: |
             .github/ops
+            scripts
             data
       - name: Evaluate source freshness and recover boundedly
         id: health

@@ -92,7 +92,7 @@ jobs:
         with:
           pattern: official-resolved-${{ github.run_id }}-${{ github.run_attempt }}-*
           path: official-parts
-      - name: Save live current official PDFs and report unresolved entries
+      - name: Save live current official originals and unresolved entries
         id: official
         continue-on-error: true
         env:
@@ -122,8 +122,13 @@ jobs:
           print('Actual PDF versions verified:',len(manifest))
           print('Official-current coverage:',status['official_current_verified'],'/',status['official_current_required'])
           print('Unresolved official current entries:',status['official_current_pending'])
-      - name: Commit verified files and honest official-current coverage
+      - name: Preserve successful watermark and classify partial source results
+        id: gate
         if: always() && steps.verify.outcome == 'success'
+        run: python .github/ops/stage_gate.py official
+      - name: Commit verified files and honest official-current coverage
+        id: persist
+        if: always() && steps.gate.outcome == 'success'
         shell: bash
         run: |
           set -euo pipefail
@@ -153,8 +158,8 @@ jobs:
             CURRENT.md
             LATEST.md
           retention-days: 30
-      - name: Fail visibly when official-current coverage or verification is incomplete
-        if: always() && (steps.official.outcome != 'success' || steps.verify.outcome != 'success')
+      - name: Fail on execution, archive integrity or persistence errors
+        if: always() && (steps.verify.outcome != 'success' || steps.gate.outcome != 'success' || steps.persist.outcome != 'success')
         run: exit 1
   handoff:
     needs: [plan, resolve, archive]
@@ -166,13 +171,17 @@ jobs:
       actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-        with: {ref: main, sparse-checkout: '.github/ops'}
-      - name: Start independent audit only after complete reconciliation
+        with:
+          ref: main
+          sparse-checkout: |
+            .github/ops
+            scripts
+      - name: Independently audit persisted originals, including partial results
         if: needs.archive.result == 'success'
         env:
           GH_TOKEN: ${{ github.token }}
         run: python .github/ops/dispatch_next.py audit
-      - name: Report incomplete reconciliation without launching a doomed audit
+      - name: Report execution failure
         if: needs.archive.result != 'success'
         env:
           GH_TOKEN: ${{ github.token }}
