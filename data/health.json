@@ -5,7 +5,7 @@
     "coverage-audit.yml: latest run failure",
     "No valid independent byte-verification receipt"
   ],
-  "checked_at": "2026-10-28T18:53:41.962699+00:00",
+  "checked_at": "2026-10-28T23:16:28.116137+00:00",
   "monitor_result": "completed",
   "notices": [],
   "recovery_stage": "coverage-audit.yml",
@@ -41,13 +41,13 @@
       "updated_at": "2026-10-28T16:53:27Z"
     }
   },
-  "recovery_action": "Retry cooldown/cap active; failure remains visible",
+  "recovery_action": "Dispatched coverage-audit.yml; completion is NOT yet verified",
   "daily_delivery": null,
   "notification_severity": "critical",
   "notification_required": true,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
   "alert_issue": "https://github.com/krischen-77/crs-reports/issues/1",
-  "github_run_id": "40749313355",
+  "github_run_id": "40786165343",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
