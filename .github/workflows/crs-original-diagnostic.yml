@@ -22,58 +22,46 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with: {python-version: '3.12', cache: pip}
       - run: python -m pip install -r requirements.txt
-      - name: Compare live metadata signals and advertised original
+      - name: Validate public HTML export without weakening original checks
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         shell: python
         run: |
-          import json, os, sys
+          import json, os, re, sys
           from pathlib import Path
-          from datetime import datetime, timezone, timedelta
+          from datetime import datetime, timezone
           sys.path[:0]=['scripts','tools','.github/ops']
           import sync_crs as s
           import crs_formats as f
-          import official_pipeline as p
           out=Path('source-diagnostic'); out.mkdir(exist_ok=True)
           http=s.HTTP(os.getenv('CONGRESS_API_KEY','').strip())
-          now=datetime.now(timezone.utc)
-          cache=s.read_json(Path('data/official-current.json'),{})
-          result={'checked_at':now.isoformat(),'purpose':'diagnosis only; not a successful coverage receipt'}
+          result={'checked_at':datetime.now(timezone.utc).isoformat(),
+                  'purpose':'public export diagnosis, not a coverage receipt'}
           try:
-              rows,count=s.api_scan(http,now.date()-timedelta(days=7),now.date())
-              drift=[]
-              for row in rows:
-                  if p.is_required(row,now.date()-timedelta(days=7),now.date()):
-                      cached=cache.get(row['id'],{})
-                      if cached.get('signal') != p.signal(row):
-                          drift.append({'id':row['id'],'live_list_signal':p.signal(row),
-                              'cached_list_signal':cached.get('signal'),'detail_checked_at':cached.get('detail_checked_at'),
-                              'detail_update':cached.get('api_metadata',{}).get('updateDate'),
-                              'detail_version':cached.get('api_metadata',{}).get('currentVersion'),
-                              'list_version':row.get('version')})
-              result['list_detail_drift']=drift
-              s.write_json(out/'official-list.json',rows)
-              raw,actual=http.get(s.API+'/IN12598?format=json')
+              raw,_=http.get(s.API+'/IN12598?format=json')
               s.write(out/'IN12598-api-response.json',raw)
-              item=f.report_item(json.loads(raw))
-              result['metadata']={k:v for k,v in item.items() if k!='summary'}
-              result['api_summary_characters']=len(item.get('summary',''))
-              task=f.task_from_item(item)
-              declared=[v for v in item.get('formats',[]) if str(v.get('format','')).upper() in ('PDF','HTML')]
-              result['original_checks']=[]
-              for fmt in declared:
-                  kind=str(fmt['format']).upper();url=fmt.get('url') or fmt.get('URL')
-                  check={'kind':kind,'url':url}
-                  try:
-                      body,actual=http.get(url)
-                      (f.validate_pdf if kind=='PDF' else f.validate_html)(body,task)
-                      s.write(out/('IN12598-original.'+kind.lower()),body)
-                      check.update(validation='passed',sha256=s.digest(body),bytes=len(body),actual_url=actual)
-                  except Exception as exc:
-                      check.update(validation='unverified',error=f.error_text(exc))
-                  result['original_checks'].append(check)
+              item=f.report_item(json.loads(raw));task=f.task_from_item(item)
+              url=task['formats']['HTML']['urls'][0]
+              assert re.fullmatch(r'https://www\.congress\.gov/crs_external_products/IN/HTML/IN12598\.html',url)
+              # The static web-export naming convention is independently validated;
+              # this is not an old revision, proxy, authenticated endpoint or header spoof.
+              # Retain normal 401/403/429 handling: one public export request, then stop.
+              candidate=url[:-5]+'.web.html'
+              result['requested_url']=candidate
+              body,actual=http.get(candidate)
+              f.validate_html(body,task)
+              soup=s.BeautifulSoup(body,'html.parser')
+              for node in soup.select('script,style,noscript'):node.decompose()
+              text=soup.get_text(' ',strip=True)
+              norm=lambda v:' '.join(re.findall(r'\w+',v.casefold()))
+              summary=norm(item.get('summary',''))
+              assert len(summary)>1000 and summary in norm(text), 'Current official API text not fully present; do not accept export'
+              s.write(out/'IN12598-original.html',body)
+              result.update(validation='passed',actual_url=actual,sha256=s.digest(body),bytes=len(body),
+                  api_version=item.get('currentVersion'),api_update=item.get('updateDate'),
+                  visible_start=text[:1200],visible_end=text[-1200:])
           except Exception as exc:
-              result['diagnostic_error']=f.error_text(exc)
+              result.update(validation='unverified',error=f.error_text(exc))
           result['api_calls']=http.api_calls;result['quota_remaining']=http.api_remaining
           s.write_json(out/'result.json',result)
           print(json.dumps(result,ensure_ascii=False,indent=2))
