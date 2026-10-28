@@ -123,6 +123,7 @@ def fetch_original(http, task: dict) -> tuple[bytes, str, str, list[str]]:
     """Prefer PDF; a missing-metadata candidate may fall back to declared HTML.
 
     Never fall back from an explicitly advertised but invalid PDF to a stale mirror.
+    Preserve both failures if the independently advertised HTML also fails.
     """
     kind = original_kind(task)
     try:
@@ -133,8 +134,12 @@ def fetch_original(http, task: dict) -> tuple[bytes, str, str, list[str]]:
         if kind != 'PDF' or not task.get('official_pdf_format_missing') or 'HTML' not in task['formats']:
             raise
         # This is an independently advertised original, not a guessed alternate route.
-        raw, url = http.get(task['formats']['HTML']['urls'][0])
-        validate_html(raw, task)
+        try:
+            raw, url = http.get(task['formats']['HTML']['urls'][0])
+            validate_html(raw, task)
+        except Exception as html_exc:
+            raise RuntimeError('Unlisted PDF could not be validated: ' + error_text(exc)
+                               + '; advertised HTML also failed: ' + error_text(html_exc)) from html_exc
         return raw, url, 'HTML', ['Unlisted PDF could not be validated; saved advertised HTML original: ' + error_text(exc)]
 
 
