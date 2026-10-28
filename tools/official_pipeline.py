@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import sync_crs as s
 import crs_formats as formats
+import official_evidence as evidence
 sys.path.insert(0,str(ROOT/'.github/ops'))
 from freshness import recovery_days, parse_time
 
@@ -48,6 +49,10 @@ def plan(root,out):
     for row in s.read_json(root/'data/official-pending.json',[]):required.setdefault(row['id'],row)
     for row in s.read_json(root/'data/deferred-official-formats.json',[]):required.setdefault(row['id'],row)
     cache=s.read_json(root/'data/official-current.json',{})
+    audit_cache=s.read_json(root/'data/audit-detail-cache.json',{})
+    for ident,row in required.items():
+        candidate=evidence.choose_cached_record(row,[cache.get(ident,{}),audit_cache.get(ident,{})],now,max_age_hours=6)
+        if candidate:cache[ident]=candidate
     for ident,value in s.read_json(root/'.github/repairs/official-seed.json',{}).items():cache.setdefault(ident,value)
     unresolved=[]
     for ident,row in required.items():
@@ -154,6 +159,9 @@ def aggregate(root,out,plan_path,parts):
     p=s.read_json(plan_path,None);http=s.HTTP(os.getenv('CONGRESS_API_KEY','').strip())
     cache=s.read_json(root/'data/official-current.json',{})
     for ident,item in p['cache'].items():cache.setdefault(ident,item)
+    for ident,row in p['required'].items():
+        candidate=evidence.choose_cached_record(row,[cache.get(ident,{}),p['cache'].get(ident,{})],datetime.now(timezone.utc))
+        if candidate:cache[ident]=candidate
     failures=[]
     for path in parts.glob('**/resolved-*.json'):
         part=s.read_json(path,{});failures.extend(part.get('errors',[]))
@@ -195,7 +203,15 @@ def aggregate(root,out,plan_path,parts):
                          markdown=entry['markdown'],cover_date=entry['date'],new_original=is_new,
                          new_pdf=is_new if kind=='PDF' else False,notices=notices)
             if kind=='PDF':check.update(official_pdf_url=check['original_url'],pdf_sha256=sha,pdf=path)
-        except Exception as exc:check.update(verified=False,error=formats.error_text(exc));pending.append(row)
+        except Exception as exc:
+            check.update(verified=False,error=formats.error_text(exc));pending.append(row)
+            # Preserve useful official API text, but never count it as an original.
+            try:
+                matching=evidence.choose_cached_record(row,[record],datetime.now(timezone.utc))
+                if matching:
+                    check['api_summary_supplement']=evidence.archive_api_summary(root,matching)
+            except Exception as snapshot_exc:
+                check['api_summary_error']=formats.error_text(snapshot_exc)
         checks.append(check);print('Official-current',ident,'verified' if check['verified'] else check['error'],flush=True)
     for item in archives:
         if not verify_local(root,item):raise ValueError('Archive integrity failure: '+item['pdf'])
@@ -209,6 +225,7 @@ def aggregate(root,out,plan_path,parts):
     receipt=dict(checked_at=now,window_start=p['start'],window_end=p['end'],
         official_list_records=p['source_count'],official_current_required=len(checks),
         official_current_verified=sum(c['verified'] for c in checks),official_current_pending=len(pending),
+        supplementary_api_summaries=sum(bool(c.get('api_summary_supplement')) for c in checks),
         new_html_original_versions=len(new_html),total_html_original_versions=len(html_entries),
         official_pdf_verified=sum(c.get('verified',False) and c.get('original_format')=='PDF' for c in checks),
         official_html_verified=sum(c.get('verified',False) and c.get('original_format')=='HTML' for c in checks),
@@ -235,6 +252,8 @@ def aggregate(root,out,plan_path,parts):
     for c in sorted(checks,key=lambda c:(c['api_update'],c['id']),reverse=True):
         title=c['title'].replace('|','\\|')
         links=f"[{c['original_format']}]({c['original_path']}) | [Markdown]({c['markdown']})" if c['verified'] else 'UNVERIFIED | Retry pending'
+        if not c['verified'] and c.get('api_summary_supplement'):
+            links="UNVERIFIED | [Supplementary API summary; not original]("+c['api_summary_supplement']['markdown']+")"
         lines.append(f"| {c['api_update'][:10]} | {c.get('cover_date',c['api_publication'])} | {c['id']} v{c.get('official_pdf_revision','?')} | {title} | {links} |")
     s.write(root/'CURRENT.md','\n'.join(lines)+'\n')
     latest=root/'LATEST.md'

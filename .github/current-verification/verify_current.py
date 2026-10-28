@@ -13,27 +13,28 @@ sys.path.insert(0, str(ROOT/'tools'))
 import verify_crs as a
 import official_pipeline as p
 import crs_formats as formats
+import official_evidence as evidence
 s = a.s
 sys.path.insert(0, str(ROOT/'.github/ops'))
 from freshness import recovery_days, parse_time
 
 
-def live_task(http, row, record, now):
-    """Re-resolve a changed signal instead of failing merely on timestamp drift.
+def live_record(http, row, records, now):
+    """Persist independently resolved metadata so quota-limited runs make progress."""
+    cached=evidence.choose_cached_record(row,records,now)
+    if cached:
+        return cached, False
+    obj=http.json(s.API+'/'+s.report_id(row['id'])+'?format=json')
+    item=formats.report_item(obj)
+    p.validate_detail_signal(item,row)
+    return dict(signal=p.signal(row),task=formats.task_from_item(item),
+                api_metadata=item,detail_checked_at=datetime.now(timezone.utc).isoformat()), True
 
-    It is still necessary for the resulting CURRENT original bytes to be archived.
-    Re-resolution does not turn a missing new revision into a successful check.
-    """
-    try:
-        age = (now-parse_time(record.get('detail_checked_at', ''))).total_seconds()
-    except (ValueError, TypeError):
-        age = float('inf')
-    if record.get('signal') == p.signal(row) and record.get('task') and 0 <= age <= 26*3600:
-        return record['task'], False
-    obj = http.json(s.API+'/'+s.report_id(row['id'])+'?format=json')
-    item = formats.report_item(obj)
-    p.validate_detail_signal(item, row)
-    return formats.task_from_item(item), True
+
+def live_task(http, row, record, now):
+    """Compatibility wrapper; success still requires independently fetched originals."""
+    resolved,refreshed=live_record(http,row,[record],now)
+    return resolved['task'],refreshed
 
 
 def main():
@@ -73,6 +74,7 @@ def main():
         else:
             receipt['invalid_files'].append({'id': entry.get('id'), 'error': 'HTML original byte/hash/path validation failed'})
     current = s.read_json(ROOT/'data/official-current.json', {})
+    detail_cache = s.read_json(ROOT/'data/audit-detail-cache.json', {})
     checks = []
     for n, ident in enumerate(ids, 1):
         row = required.get(ident, {})
@@ -81,8 +83,11 @@ def main():
         print(f'Independent original verification {n}/{len(ids)}: {ident}', flush=True)
         try:
             if row:
-                task, refreshed = live_task(http, row, current.get(ident, {}), now)
+                resolved, refreshed = live_record(http, row, [current.get(ident, {}), detail_cache.get(ident, {})], now)
+                task = resolved['task']
                 if refreshed:
+                    detail_cache[ident] = resolved
+                    s.write_json(ROOT/'data/audit-detail-cache.json', detail_cache)
                     receipt['notices'].append({'id': ident, 'note': 'Live signal changed or cached detail expired; official formats re-resolved before byte comparison'})
             else:
                 obj = http.json(s.MIRROR+'reports/'+ident+'.json')
@@ -104,15 +109,28 @@ def main():
                 receipt['missing'].append(check)
         except Exception as exc:
             check.update(verified=False, error=formats.error_text(exc))
-            receipt['unverified'].append({'id': ident, 'error': formats.error_text(exc)})
+            failure={'id': ident, 'error': formats.error_text(exc)}
+            if row:
+                try:
+                    supplement=evidence.verify_api_summary(ROOT,ident,http.json)
+                    if supplement is not None:
+                        check['api_summary_supplement']=supplement
+                        failure['api_summary_independently_verified']=supplement['verified']
+                except Exception as supplement_exc:
+                    check['api_summary_error']=formats.error_text(supplement_exc)
+            receipt['unverified'].append(failure)
         checks.append(check)
     receipt.update(official_current_ids=len(required), candidate_report_ids=len(ids),
                    verified_current_original_files=sum(bool(c.get('verified')) for c in checks),
+                   supplementary_api_summaries_verified=sum(bool(c.get('api_summary_supplement',{}).get('verified')) for c in checks),
                    verified_current_pdf_files=sum(bool(c.get('verified')) and c.get('original_format') == 'PDF' for c in checks),
                    verified_current_html_files=sum(bool(c.get('verified')) and c.get('original_format') == 'HTML' for c in checks),
                    total_archive_versions=len(manifest), total_html_original_versions=len(html_entries),
                    finished_at=datetime.now(timezone.utc).isoformat(),
                    scope='Live official current originals and recent mirror-only discoveries; PDF or advertised HTML bytes independently redownloaded and compared. Derived PDF paths require matching live currentVersion, embedded report ID/revision and title. Mirror-only metadata exceptions are not counted as official-current declarations.')
+    receipt['api_requests'] = http.api_calls
+    receipt['api_remaining_quota'] = http.api_remaining
+    receipt['supplementary_api_scope'] = 'API summaries are independently compared separately and never counted as PDF/HTML originals; original failures remain unverified.'
     receipt['result'] = a.result_state(receipt)
     s.write_json(out/'current-receipt.json', receipt)
     s.write_json(out/'current-comparisons.json', checks)
