@@ -1,33 +1,28 @@
 {
-  "active_update_candidates": 60,
-  "active_updates_with_older_publication": 30,
-  "api_remaining_quota": 2,
-  "api_requests": 8,
+  "active_update_candidates": 63,
+  "active_updates_with_older_publication": 31,
+  "api_remaining_quota": 5,
+  "api_requests": 5,
   "archive_start_inclusive": "2026-09-17",
-  "attempted_versions": 60,
-  "candidate_reports": 60,
-  "catalog_reports": 23582,
+  "attempted_versions": 63,
+  "candidate_reports": 63,
+  "catalog_reports": 23584,
   "deferred_official_format_ids": [],
   "errors": [],
-  "finished_at": "2026-10-28T03:51:44.244020+00:00",
-  "github_run_attempt": "3",
-  "github_run_id": "40617044540",
+  "finished_at": "2026-10-28T16:46:51.619075+00:00",
+  "github_run_attempt": "1",
+  "github_run_id": "40728636138",
   "historical_new_pdf_versions": 2,
   "historical_pending_versions": 242,
-  "last_successful_run_at": "2026-10-28T03:51:44.244020+00:00",
+  "last_successful_run_at": "2026-10-28T16:46:51.619075+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 96,
-  "new_pdf_versions": 2,
-  "official_current_pending": 1,
-  "official_current_required": 60,
-  "official_current_verified": 59,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-10-28T13:10:16.474768+00:00",
+  "new_pdf_versions": 6,
   "pending_reports": 0,
-  "pending_versions": 6,
-  "planned_versions": 64,
-  "primary_new_pdf_versions": 0,
-  "primary_pdf_complete": false,
+  "pending_versions": 3,
+  "planned_versions": 63,
+  "primary_new_pdf_versions": 4,
+  "primary_pdf_complete": true,
   "reconciled_pending_discoveries": [
     {
       "id": "R43397",
@@ -56,20 +51,20 @@
     }
   ],
   "required_pdf_failures": 0,
-  "result": "failed",
-  "run_at": "2026-10-28T03:51:03.210039+00:00",
+  "result": "success_with_warnings",
+  "run_at": "2026-10-28T16:46:08.335385+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
       "ok": true,
-      "reported_count": 156,
-      "reports": 156,
+      "reported_count": 159,
+      "reports": 159,
       "scope": "update-date window"
     },
     "everycrsreport": {
       "coverage": "complete published CSV, not a claim of complete official CRS coverage",
       "ok": true,
-      "reports": 23581
+      "reports": 23582
     },
     "rss": {
       "items": 25,
@@ -77,45 +72,10 @@
       "scope": "supplement only; feed is not the complete catalog"
     }
   },
-  "successful_versions": 60,
-  "superseded_historical_versions": [
-    {
-      "historical_publication": "2026-04-24",
-      "id": "R43397",
-      "official_pdf_sha256": "86faf7b42f66156b316be9322bc809aea9fb758850ff33c9806b399ec09b5694",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R43397/R43397.37.pdf",
-      "official_publication": "2026-10-27",
-      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
-    },
-    {
-      "historical_publication": "2026-01-09",
-      "id": "IF11780",
-      "official_pdf_sha256": "978a97ec2326b27f630a4574bf135e7e7db40a84ed9a54f129303c8dae60a3e0",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11780/IF11780.11.pdf",
-      "official_publication": "2026-10-27",
-      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
-    },
-    {
-      "historical_publication": "2025-07-15",
-      "id": "LSB11340",
-      "official_pdf_sha256": "1420392c31e9ebf4d35ddcee037d02b0082502efb6861f074a8a52dccc8edbe1",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11340/LSB11340.2.pdf",
-      "official_publication": "2026-10-27",
-      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
-    },
-    {
-      "historical_publication": "2019-03-26",
-      "id": "R45635",
-      "official_pdf_sha256": "e43682f46d8d80f5be8744d84812202f3d79660d6c257612fa96fb8bb6eb4877",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R45635/R45635.5.pdf",
-      "official_publication": "2026-10-26",
-      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
-    }
-  ],
-  "total_archived_pdf_versions": 580,
-  "total_html_original_versions": 0,
-  "total_html_snapshots": 446,
-  "total_pdf_bytes": 464707976,
+  "successful_versions": 63,
+  "total_archived_pdf_versions": 586,
+  "total_html_snapshots": 453,
+  "total_pdf_bytes": 468494901,
   "warnings": [
     {
       "api_version": 83,
@@ -130,7 +90,7 @@
       "id": "IF11780",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "10"
+        "11"
       ]
     },
     {
@@ -247,10 +207,18 @@
     },
     {
       "api_version": 1,
+      "id": "IN12588",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "2"
+      ]
+    },
+    {
+      "api_version": 1,
       "id": "IN12598",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "4"
+        "5"
       ]
     },
     {
@@ -267,6 +235,14 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "5"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "LSB11340",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "2"
       ]
     },
     {
@@ -306,7 +282,7 @@
       "id": "R43397",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "35"
+        "37"
       ]
     },
     {
@@ -322,7 +298,7 @@
       "id": "R45635",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "unknown"
+        "5"
       ]
     },
     {
@@ -470,19 +446,41 @@
       ]
     },
     {
-      "id": "R43397",
+      "id": "IF13339",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions"
       ]
     },
     {
+      "id": "R43397",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
       "id": "LSB11495",
       "messages": [
-        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
       ]
     },
     {
       "id": "LSB11340",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "IN12598",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "IF13338",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
       ]
@@ -490,13 +488,22 @@
     {
       "id": "IF11780",
       "messages": [
-        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
       ]
     },
     {
       "id": "R45635",
       "messages": [
-        "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
+      "id": "IN12588",
+      "messages": [
+        "www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
       ]
     },
     {
@@ -506,7 +513,7 @@
       ]
     },
     {
-      "id": "R43039",
+      "id": "R43095",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
@@ -514,7 +521,7 @@
       "scope": "optional historical backfill"
     },
     {
-      "id": "R43058",
+      "id": "R43102",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: www.congress.gov: unavailable for this run after access/rate-limit response"
