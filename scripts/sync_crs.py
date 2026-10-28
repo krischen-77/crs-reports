@@ -29,6 +29,9 @@ HOSTS = {"www.everycrsreport.com", "everycrsreport.com", "www.congress.gov", "co
 MAX_BYTES = 80 * 1024 * 1024
 SCHEMA_VERSION = 2
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from current_scope import superseded_history
+from refresh_receipts import record_collection
 
 
 def digest(data: bytes, algorithm: str = "sha256") -> str:
@@ -740,6 +743,17 @@ def sync(args) -> int:
     queued, new_count, ok_count = [], 0, 0
     # Recent publications precede older legitimate retries. Optional history is last.
     for n, task in enumerate(sorted(tasks.values(), key=lambda t: (t.get("date", ""), t["id"]), reverse=True), 1):
+        evidence = superseded_history(root, task, list(tasks.values()), archives, archive_start)
+        if evidence:
+            historical_task = {**task, "required_by_recent_update": False,
+                               "superseded_by_official_current": evidence}
+            key = retry_identity(historical_task)
+            if not any(retry_identity(x["task"]) == key for x in historical):
+                historical.append({"task": historical_task, "attempts": 0,
+                                   "next_retry": str(now.date() + timedelta(days=1)),
+                                   "reason": evidence["reason"]})
+            status.setdefault("superseded_historical_versions", []).append(evidence)
+            continue
         print(f"[{n}/{len(tasks)}] {task['id']} v{task['version']} ({task['date']})", flush=True)
         try:
             entry, is_new, notices = archive_task(http, root, task, archives)
@@ -769,7 +783,7 @@ def sync(args) -> int:
                                                       "entries": historical})
     write_json(root / "data/sync-state.json", {"archive_start": str(archive_start)})
     export_indexes(root, catalog, archives, start, end)
-    status.update(catalog_reports=len(catalog), candidate_reports=len(ids), attempted_versions=len(tasks), successful_versions=ok_count,
+    status.update(catalog_reports=len(catalog), candidate_reports=len(ids), planned_versions=len(tasks), attempted_versions=len(tasks) - len(status.get("superseded_historical_versions", [])), successful_versions=ok_count,
                   new_pdf_versions=new_count, total_archived_pdf_versions=len(archives),
                   total_html_snapshots=sum(bool(v.get("html")) for v in archives),
                   total_pdf_bytes=sum((root / v["pdf"]).stat().st_size for v in archives),
@@ -779,12 +793,13 @@ def sync(args) -> int:
                   api_remaining_quota=http.api_remaining, required_pdf_failures=len(errors),
                   primary_pdf_complete=not errors)
     status["result"] = "failed" if errors else ("success_with_warnings" if warnings else "success")
+    record_collection(root, status)
     write_json(root / "data/status.json", status)
     run_id = os.getenv("GITHUB_RUN_ID", now.strftime("%Y%m%dT%H%M%S"))
     run_attempt = os.getenv("GITHUB_RUN_ATTEMPT", "1")
     write_json(root / f"data/runs/{now.date()}/{run_id}-{run_attempt}.json", status)
     summary = (f"## CRS archive: {status['result']}\n\nWindow: {start} to {end} (inclusive UTC dates).\n\n"
-               f"Catalog: **{len(catalog)}** report IDs; attempted versions: **{len(tasks)}**; successfully preserved: **{ok_count}**; "
+               f"Catalog: **{len(catalog)}** report IDs; attempted versions: **{status['attempted_versions']}**; successfully preserved: **{ok_count}**; "
                f"new PDFs: **{new_count}**; cumulative PDF versions: **{len(archives)}**.\n\n"
                f"Required pending reports: {len(failed_reports)}; required/HTML pending versions: {len(queued)}; "
                f"optional historical backfill remaining: {len(historical)} (not claimed complete). "

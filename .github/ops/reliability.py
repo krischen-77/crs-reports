@@ -14,6 +14,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / '.github/ops'))
 from freshness import parse_time, recovery_days, last_verification
+from alert_policy import prepare_notification
+sys.path.insert(0, str(ROOT / "scripts"))
+from refresh_receipts import last_collection
 
 STAGES = ('crs-backup.yml', 'official-reconcile.yml', 'coverage-audit.yml')
 MARKER = '<!-- crs-refresh-health:v1 -->'
@@ -55,7 +58,7 @@ def evaluate(now, backup, official, audit, runs, workflows):
     # A new failed attempt must NEVER refresh the last-success timestamp.
     official_ok = (official.get('result') == 'verified_for_observed_official_entries'
                    and official.get('official_current_pending') == 0)
-    times = [backup.get('run_at') if not backup.get('errors') and not backup.get('required_pdf_failures') else backup.get('last_successful_run_at'),
+    times = [(backup.get('finished_at') or backup.get('run_at')) if not backup.get('errors') and not backup.get('required_pdf_failures') else backup.get('last_successful_run_at'),
              official.get('checked_at') if official_ok else official.get('last_successful_checked_at'),
              audit.get('finished_at') if valid_audit(audit) else audit.get('last_successful_finished_at')]
     ages = []
@@ -223,7 +226,10 @@ def watchdog(root, repair, notify):
         latest_audit['last_successful_finished_at'] = last_verification(root).get('finished_at')
         latest_official = load(root / 'data/official-status.json', {})
         latest_official['last_successful_checked_at'] = load(root / 'data/last-successful-official.json', {}).get('checked_at') or latest_official.get('last_successful_checked_at')
-        report.update(evaluate(now, load(root / 'data/status.json', {}),
+        latest_backup = load(root / 'data/status.json', {})
+        previous_collection = last_collection(root)
+        latest_backup['last_successful_run_at'] = previous_collection.get('finished_at') or previous_collection.get('run_at')
+        report.update(evaluate(now, latest_backup,
                      latest_official, latest_audit, runs, workflows))
         report['latest_runs'] = {k: {f: v.get(f) for f in ('id', 'status', 'conclusion', 'html_url', 'run_started_at', 'updated_at')}
                                  for k, v in runs.items()}
@@ -242,8 +248,13 @@ def watchdog(root, repair, notify):
                 report['recovery_action'] = 'Dispatched ' + stage + '; completion is NOT yet verified'
             else:
                 report['recovery_action'] = 'Retry cooldown/cap active; failure remains visible'
-        if notify:
-            issue_update(api, report, state)
+        notification = prepare_notification(root, report, state, now, latest_audit)
+        if notify and notification is not None:
+            issue_update(api, notification, state)
+            if notification.get('zero_delivery_day'):
+                state['zero_delivery_notified_day'] = notification['zero_delivery_day']
+            if notification.get('alert_issue'):
+                report['alert_issue'] = notification['alert_issue']
     except Exception as exc:
         report['result'] = 'unhealthy'
         report['errors'].append(type(exc).__name__ + ': ' + (str(exc) or repr(exc)))
