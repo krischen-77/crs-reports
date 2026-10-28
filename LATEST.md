@@ -1,6 +1,6 @@
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-20 to 2026-10-27**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-21 to 2026-10-28**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -46,31 +46,6 @@ Publication-date window (inclusive): **2026-10-20 to 2026-10-27**. Older archive
 | 2026-10-21 | IF13332 v2 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v2-2026-10-21-604f0d156c694bd0.pdf) | [Markdown](markdown/in-focus/IF13332v2-2026-10-21-604f0d156c694bd0.md) |
 | 2026-10-21 | IF13332 v3 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.pdf) | [Markdown](markdown/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.md) |
 | 2026-10-21 | IF12323 v2 | The Social Security Retirement Age: An Overview | [PDF](pdf/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.pdf) | [Markdown](markdown/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.md) |
-| 2026-10-20 | RL33546 v98 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.pdf) | [Markdown](markdown/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.md) |
-| 2026-10-20 | RL33546 v97 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v97-2026-10-20-bb54f66fe810fd78.pdf) | [Markdown](markdown/reports/RL33546v97-2026-10-20-bb54f66fe810fd78.md) |
-| 2026-10-20 | R49490 v1 | Algorithmic Discrimination: Legal Principles | [PDF](pdf/reports/R49490v1-2026-10-20-cce38f0295e594f3.pdf) | [Markdown](markdown/reports/R49490v1-2026-10-20-cce38f0295e594f3.md) |
-| 2026-10-20 | R49489 v2 | Puerto Rico Electric Power Authority (PREPA): History and Finances | [PDF](pdf/reports/R49489v2-2026-10-20-078cb7c205dd4314.pdf) | [Markdown](markdown/reports/R49489v2-2026-10-20-078cb7c205dd4314.md) |
-| 2026-10-20 | R49489 v6 | Puerto Rico Electric Power Authority (PREPA): History and Finances | [PDF](pdf/reports/R49489v6-2026-10-20-d14ebcacf96287aa.pdf) | [Markdown](markdown/reports/R49489v6-2026-10-20-d14ebcacf96287aa.md) |
-| 2026-10-20 | R49354 v5 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v5-2026-10-20-138926a5d64be284.pdf) | [Markdown](markdown/reports/R49354v5-2026-10-20-138926a5d64be284.md) |
-| 2026-10-20 | R49354 v6 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v6-2026-10-20-675b4384850eff04.pdf) | [Markdown](markdown/reports/R49354v6-2026-10-20-675b4384850eff04.md) |
-| 2026-10-20 | R49354 v4 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v4-2026-10-20-e270e6afcc413846.pdf) | [Markdown](markdown/reports/R49354v4-2026-10-20-e270e6afcc413846.md) |
-| 2026-10-20 | R48922 v17 | Comparison of Selected Versions of H.R. 6644 | [PDF](pdf/reports/R48922v17-2026-10-20-00f8fd44f2a51106.pdf) | [Markdown](markdown/reports/R48922v17-2026-10-20-00f8fd44f2a51106.md) |
-| 2026-10-20 | R48922 v16 | Comparison of Selected Versions of H.R. 6644 | [PDF](pdf/reports/R48922v16-2026-10-20-76dae2b971f6192e.pdf) | [Markdown](markdown/reports/R48922v16-2026-10-20-76dae2b971f6192e.md) |
-| 2026-10-20 | R48849 v10 | Housing for the 21st Century Act | [PDF](pdf/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.pdf) | [Markdown](markdown/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.md) |
-| 2026-10-20 | R48732 v8 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.pdf) | [Markdown](markdown/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.md) |
-| 2026-10-20 | R48732 v7 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v7-2026-10-20-e74ce1675252b123.pdf) | [Markdown](markdown/reports/R48732v7-2026-10-20-e74ce1675252b123.md) |
-| 2026-10-20 | R46833 v7 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.pdf) | [Markdown](markdown/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.md) |
-| 2026-10-20 | R46833 v6 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v6-2026-10-20-c89565604a23e3ae.pdf) | [Markdown](markdown/reports/R46833v6-2026-10-20-c89565604a23e3ae.md) |
-| 2026-10-20 | LSB11492 v1 | The Fourth Amendment and the Speech or Debate Clause | [PDF](pdf/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.pdf) | [Markdown](markdown/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.md) |
-| 2026-10-20 | IN12665 v6 | U.S. Military Operations Against Iran’s Missile and Nuclear Programs | [PDF](pdf/insights/IN12665v6-2026-10-20-3c347d3e055b23e5.pdf) | [Markdown](markdown/insights/IN12665v6-2026-10-20-3c347d3e055b23e5.md) |
-| 2026-10-20 | IN12665 v7 | U.S. Military Operations Against Iran’s Missile and Nuclear Programs | [PDF](pdf/insights/IN12665v7-2026-10-20-7e3421cdffa05f52.pdf) | [Markdown](markdown/insights/IN12665v7-2026-10-20-7e3421cdffa05f52.md) |
-| 2026-10-20 | IF13331 v2 | Geothermal Resources for Energy Development in the United States | [PDF](pdf/in-focus/IF13331v2-2026-10-20-a91ca3f30b56721e.pdf) | [Markdown](markdown/in-focus/IF13331v2-2026-10-20-a91ca3f30b56721e.md) |
-| 2026-10-20 | IF13331 v1 | Geothermal Resources for Energy Development in the United States | [PDF](pdf/in-focus/IF13331v1-2026-10-20-d543fb54a744682f.pdf) | [Markdown](markdown/in-focus/IF13331v1-2026-10-20-d543fb54a744682f.md) |
-| 2026-10-20 | IF12809 v3 | The Section 45X Advanced Manufacturing Production Credit | [PDF](pdf/in-focus/IF12809v3-2026-10-20-7b29dc68c2075dd1.pdf) | [Markdown](markdown/in-focus/IF12809v3-2026-10-20-7b29dc68c2075dd1.md) |
-| 2026-10-20 | IF12597 v7 | The Clery Act, as Amended by the Stop Campus Hazing Act | [PDF](pdf/in-focus/IF12597v7-2026-10-20-42b9cc6eeb9a7aa4.pdf) | [Markdown](markdown/in-focus/IF12597v7-2026-10-20-42b9cc6eeb9a7aa4.md) |
-| 2026-10-20 | IF12140 v3 | Farm Bill Primer: MAL and LDP Farm Support Programs | [PDF](pdf/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.pdf) | [Markdown](markdown/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.md) |
-| 2026-10-20 | IF11808 v13 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.pdf) | [Markdown](markdown/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.md) |
-| 2026-10-20 | IF10275 v91 | Taiwan: Background and U.S. Relations | [PDF](pdf/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.pdf) | [Markdown](markdown/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -84,18 +59,27 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-10-27 | 2020-12-02 | IN10875 v5 | Eight Mechanisms to Enact Procedural Change in the U.S. Senate | [PDF](pdf/insights/IN10875v5-2020-12-02-e0ea201e9c9f3a22.pdf) | [Markdown](markdown/insights/IN10875v5-2020-12-02-e0ea201e9c9f3a22.md) |
 | 2026-10-27 | 2025-02-20 | IF12914 v1 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v1-2025-02-20-1417a3be9e40a414.pdf) | [Markdown](markdown/in-focus/IF12914v1-2025-02-20-1417a3be9e40a414.md) |
 | 2026-10-27 | 2023-02-23 | IF12333 v1 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v1-2023-02-23-2b443d5535875b60.pdf) | [Markdown](markdown/in-focus/IF12333v1-2023-02-23-2b443d5535875b60.md) |
+| 2026-10-24 | 2026-10-20 | R49354 v6 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v6-2026-10-20-675b4384850eff04.pdf) | [Markdown](markdown/reports/R49354v6-2026-10-20-675b4384850eff04.md) |
+| 2026-10-23 | 2026-10-20 | RL33546 v98 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.pdf) | [Markdown](markdown/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.md) |
+| 2026-10-23 | 2026-10-20 | R48732 v8 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.pdf) | [Markdown](markdown/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.md) |
+| 2026-10-23 | 2026-10-20 | R46833 v7 | The Office of Personnel Management (OPM): An Overview | [PDF](pdf/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.pdf) | [Markdown](markdown/reports/R46833v7-2026-10-20-c58b7a31d250c7b3.md) |
 | 2026-10-23 | 2026-10-01 | IN11831 v21 | Election Worker Safety and Privacy | [PDF](pdf/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.pdf) | [Markdown](markdown/insights/IN11831v21-2026-10-01-9f92b4fd90ca01e3.md) |
+| 2026-10-23 | 2026-10-20 | IF10275 v91 | Taiwan: Background and U.S. Relations | [PDF](pdf/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.pdf) | [Markdown](markdown/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.md) |
+| 2026-10-22 | 2026-10-20 | R49490 v1 | Algorithmic Discrimination: Legal Principles | [PDF](pdf/reports/R49490v1-2026-10-20-cce38f0295e594f3.pdf) | [Markdown](markdown/reports/R49490v1-2026-10-20-cce38f0295e594f3.md) |
+| 2026-10-22 | 2026-10-20 | R49489 v6 | Puerto Rico Electric Power Authority (PREPA): History and Finances | [PDF](pdf/reports/R49489v6-2026-10-20-d14ebcacf96287aa.pdf) | [Markdown](markdown/reports/R49489v6-2026-10-20-d14ebcacf96287aa.md) |
 | 2026-10-22 | 2026-07-31 | R49057 v5 | Data Centers and Water: Frequently Asked Questions | [PDF](pdf/reports/R49057v5-2026-07-31-6154e49b161f2b2a.pdf) | [Markdown](markdown/reports/R49057v5-2026-07-31-6154e49b161f2b2a.md) |
+| 2026-10-22 | 2026-10-20 | R48922 v17 | Comparison of Selected Versions of H.R. 6644 | [PDF](pdf/reports/R48922v17-2026-10-20-00f8fd44f2a51106.pdf) | [Markdown](markdown/reports/R48922v17-2026-10-20-00f8fd44f2a51106.md) |
 | 2026-10-22 | 2026-10-19 | R46565 v9 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v9-2026-10-19-8e97247f40327d91.pdf) | [Markdown](markdown/reports/R46565v9-2026-10-19-8e97247f40327d91.md) |
+| 2026-10-22 | 2026-10-20 | LSB11492 v1 | The Fourth Amendment and the Speech or Debate Clause | [PDF](pdf/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.pdf) | [Markdown](markdown/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.md) |
+| 2026-10-22 | 2026-10-20 | IN12665 v7 | U.S. Military Operations Against Iran’s Missile and Nuclear Programs | [PDF](pdf/insights/IN12665v7-2026-10-20-7e3421cdffa05f52.pdf) | [Markdown](markdown/insights/IN12665v7-2026-10-20-7e3421cdffa05f52.md) |
+| 2026-10-22 | 2026-10-20 | IF13331 v2 | Geothermal Resources for Energy Development in the United States | [PDF](pdf/in-focus/IF13331v2-2026-10-20-a91ca3f30b56721e.pdf) | [Markdown](markdown/in-focus/IF13331v2-2026-10-20-a91ca3f30b56721e.md) |
+| 2026-10-21 | 2026-10-20 | R48849 v10 | Housing for the 21st Century Act | [PDF](pdf/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.pdf) | [Markdown](markdown/reports/R48849v10-2026-10-20-15dc80fdcd1c5a8c.md) |
 | 2026-10-21 | 2026-10-19 | R48645 v4 | Establishment Clause Limits on Government Support for Religion | [PDF](pdf/reports/R48645v4-2026-10-19-7825c29fb7597d43.pdf) | [Markdown](markdown/reports/R48645v4-2026-10-19-7825c29fb7597d43.md) |
 | 2026-10-21 | 2026-10-19 | R48033 v7 | Class VI Carbon Sequestration Wells: Permitting and State Program Primacy | [PDF](pdf/reports/R48033v7-2026-10-19-6301aa1d25619438.pdf) | [Markdown](markdown/reports/R48033v7-2026-10-19-6301aa1d25619438.md) |
 | 2026-10-21 | 2026-10-19 | R47656 v5 | Copyright in Standards Incorporated by Reference into Law and the Pro Codes Act | [PDF](pdf/reports/R47656v5-2026-10-19-7f9a0c009c494746.pdf) | [Markdown](markdown/reports/R47656v5-2026-10-19-7f9a0c009c494746.md) |
 | 2026-10-21 | 2026-10-19 | LSB11491 v2 | IRS Proposed Regulations on Racial Nondiscrimination in Private Schools | [PDF](pdf/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.pdf) | [Markdown](markdown/sidebars/LSB11491v2-2026-10-19-7f1461de95fec9fc.md) |
 | 2026-10-21 | 2026-10-19 | LSB11170 v6 | Circuit Split on Constitutionality of Federal Felon-in-Possession Prohibition Persists After Supreme Court Denies Review | [PDF](pdf/sidebars/LSB11170v6-2026-10-19-76e2368d3a6b47fd.pdf) | [Markdown](markdown/sidebars/LSB11170v6-2026-10-19-76e2368d3a6b47fd.md) |
-| 2026-10-20 | 2026-07-10 | R49028 v5 | Fixing Emergency Management for Americans (FEMA) Act of 2025: Context, Overview, and Summary of Provisions | [PDF](pdf/reports/R49028v5-2026-07-10-cf4a66995147e1a1.pdf) | [Markdown](markdown/reports/R49028v5-2026-07-10-cf4a66995147e1a1.md) |
-| 2026-10-20 | 2026-10-09 | R47857 v9 | U.S. Tourism: Recent Developments and Data | [PDF](pdf/reports/R47857v9-2026-10-09-145010857d94222c.pdf) | [Markdown](markdown/reports/R47857v9-2026-10-09-145010857d94222c.md) |
-| 2026-10-20 | 2026-10-16 | LSB11490 v1 | The Commerce Clause and Federal Firearms Prohibitions | [PDF](pdf/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.pdf) | [Markdown](markdown/sidebars/LSB11490v1-2026-10-16-880f9e789b11916c.md) |
-| 2026-10-20 | 2026-10-19 | IG10102 v1 | State Proposals to Change Daylight Saving Time Observance | [PDF](pdf/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.pdf) | [Markdown](markdown/infographics/IG10102v1-2026-10-19-753623a4e4bb3d13.md) |
-| 2026-10-20 | 2026-10-19 | IF13330 v1 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.pdf) | [Markdown](markdown/in-focus/IF13330v1-2026-10-19-8937976dea5f6de8.md) |
-| 2026-10-20 | 2026-10-19 | IF12201 v3 | Farm Bill Primer: Federal Crop Insurance Program | [PDF](pdf/in-focus/IF12201v3-2026-10-19-268e83dc02369817.pdf) | [Markdown](markdown/in-focus/IF12201v3-2026-10-19-268e83dc02369817.md) |
-| 2026-10-20 | 2026-10-19 | IF11797 v31 | The Army’s Multi-Domain Task Force | [PDF](pdf/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.pdf) | [Markdown](markdown/in-focus/IF11797v31-2026-10-19-d828adfe175a5609.md) |
+| 2026-10-21 | 2026-10-20 | IF12809 v3 | The Section 45X Advanced Manufacturing Production Credit | [PDF](pdf/in-focus/IF12809v3-2026-10-20-7b29dc68c2075dd1.pdf) | [Markdown](markdown/in-focus/IF12809v3-2026-10-20-7b29dc68c2075dd1.md) |
+| 2026-10-21 | 2026-10-20 | IF12597 v7 | The Clery Act, as Amended by the Stop Campus Hazing Act | [PDF](pdf/in-focus/IF12597v7-2026-10-20-42b9cc6eeb9a7aa4.pdf) | [Markdown](markdown/in-focus/IF12597v7-2026-10-20-42b9cc6eeb9a7aa4.md) |
+| 2026-10-21 | 2026-10-20 | IF12140 v3 | Farm Bill Primer: MAL and LDP Farm Support Programs | [PDF](pdf/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.pdf) | [Markdown](markdown/in-focus/IF12140v3-2026-10-20-d400f5402dc26d6b.md) |
+| 2026-10-21 | 2026-10-20 | IF11808 v13 | The IRS Free File Program: An Overview | [PDF](pdf/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.pdf) | [Markdown](markdown/in-focus/IF11808v13-2026-10-20-4e25152d941847ac.md) |
