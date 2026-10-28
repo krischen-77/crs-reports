@@ -1,50 +1,15 @@
 {
+  "api_remaining_quota": 8,
+  "api_requests": 2,
   "candidate_report_ids": 60,
-  "checked_at": "2026-10-28T02:29:14.534369+00:00",
+  "checked_at": "2026-10-28T03:56:47.892334+00:00",
   "end": "2026-10-28",
-  "finished_at": "2026-10-28T02:31:15.196332+00:00",
+  "finished_at": "2026-10-28T03:58:57.706065+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "40621145944",
+  "github_run_id": "40629467425",
   "invalid_files": [],
   "missing": [],
-  "notices": [
-    {
-      "id": "IF11780",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF12333",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF12914",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF13337",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IN10875",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IN12598",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IN12749",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "LSB11340",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "LSB11494",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    }
-  ],
+  "notices": [],
   "official_current_ids": 60,
   "result": "unverified",
   "scope": "Live official current originals and recent mirror-only discoveries; PDF or advertised HTML bytes independently redownloaded and compared. Derived PDF paths require matching live currentVersion, embedded report ID/revision and title. Mirror-only metadata exceptions are not counted as official-current declarations.",
@@ -59,44 +24,19 @@
     }
   },
   "start": "2026-10-21",
-  "total_archive_versions": 578,
+  "supplementary_api_scope": "API summaries are independently compared separately and never counted as PDF/HTML originals; original failures remain unverified.",
+  "supplementary_api_summaries_verified": 1,
+  "total_archive_versions": 580,
   "total_html_original_versions": 0,
   "unverified": [
     {
+      "api_summary_independently_verified": true,
       "error": "RuntimeError: Unlisted PDF could not be validated: RuntimeError: www.congress.gov: HTTP 404; advertised HTML also failed: RuntimeError: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions",
       "id": "IN12598"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "LSB11495"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R43397"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R44819"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R45635"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R46413"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R49492"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R49493"
     }
   ],
   "verified_current_html_files": 0,
-  "verified_current_original_files": 52,
-  "verified_current_pdf_files": 52,
+  "verified_current_original_files": 59,
+  "verified_current_pdf_files": 59,
   "last_successful_finished_at": "2026-10-27T01:40:31.544739+00:00"
 }
