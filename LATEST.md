@@ -1,3 +1,5 @@
+**Official-current verification: 63/63. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-21 to 2026-10-28**. Older archived files are retained.
@@ -7,7 +9,9 @@ Publication-date window (inclusive): **2026-10-21 to 2026-10-28**. Older archive
 | 2026-10-28 | IF13339 v1 | Time Capsules for the Semiquincentennial of the Signing of the Declaration of Independence | [PDF](pdf/in-focus/IF13339v1-2026-10-28-da586e6c618a5eff.pdf) | [Markdown](markdown/in-focus/IF13339v1-2026-10-28-da586e6c618a5eff.md) |
 | 2026-10-27 | R43397 v37 | Legislative Branch Appropriations: Frequently Asked Questions | [PDF](pdf/reports/R43397v37-2026-10-27-86faf7b42f66156b.pdf) | [Markdown](markdown/reports/R43397v37-2026-10-27-86faf7b42f66156b.md) |
 | 2026-10-27 | LSB11495 v1 | Congressional Court Watcher: Circuit Splits from August 2026 | [PDF](pdf/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.pdf) | [Markdown](markdown/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.md) |
+| 2026-10-27 | LSB11495 v2 | Congressional Court Watcher: Circuit Splits from August 2026 | [PDF](pdf/sidebars/LSB11495v2-2026-10-27-f475b672e75a606d.pdf) | [Markdown](markdown/sidebars/LSB11495v2-2026-10-27-f475b672e75a606d.md) |
 | 2026-10-27 | LSB11340 v2 | Environmental Justice and Title VI of the Civil Rights Act of 1964 | [PDF](pdf/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.pdf) | [Markdown](markdown/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.md) |
+| 2026-10-27 | IN12598 v7 | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | [PDF](pdf/insights/IN12598v7-2026-10-27-602892f8ec5fb756.pdf) | [Markdown](markdown/insights/IN12598v7-2026-10-27-602892f8ec5fb756.md) |
 | 2026-10-27 | IN12598 v5 | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | [PDF](pdf/insights/IN12598v5-2026-10-27-c7c240b4e7c80722.pdf) | [Markdown](markdown/insights/IN12598v5-2026-10-27-c7c240b4e7c80722.md) |
 | 2026-10-27 | IF13338 v2 | Social Security Coverage for Members of the Clergy | [PDF](pdf/in-focus/IF13338v2-2026-10-27-e9299dc2ec38cc27.pdf) | [Markdown](markdown/in-focus/IF13338v2-2026-10-27-e9299dc2ec38cc27.md) |
 | 2026-10-27 | IF11780 v11 | United Nations Issues: Overview of the United Nations System | [PDF](pdf/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.pdf) | [Markdown](markdown/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.md) |
@@ -61,7 +65,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-10-28 | 2025-07-28 | IN12588 v2 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v2-2025-07-28-13bda8ac2828fd33.pdf) | [Markdown](markdown/insights/IN12588v2-2025-07-28-13bda8ac2828fd33.md) |
+| 2026-10-28 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
 | 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
 | 2026-10-27 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
