@@ -6,7 +6,7 @@
     "Official-current coverage is incomplete",
     "No valid independent byte-verification receipt"
   ],
-  "checked_at": "2026-10-28T05:50:51.485235+00:00",
+  "checked_at": "2026-10-28T13:04:39.402376+00:00",
   "monitor_result": "completed",
   "notices": [],
   "recovery_stage": "official-reconcile.yml",
@@ -42,7 +42,7 @@
       "updated_at": "2026-10-28T03:59:06Z"
     }
   },
-  "recovery_action": "Retry cooldown/cap active; failure remains visible",
+  "recovery_action": "Dispatched official-reconcile.yml; completion is NOT yet verified",
   "daily_delivery": {
     "date_beijing": "2026-10-27",
     "new_original_versions": 11,
@@ -53,7 +53,7 @@
   "notification_required": true,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
   "alert_issue": "https://github.com/krischen-77/crs-reports/issues/1",
-  "github_run_id": "40640334782",
+  "github_run_id": "40693150772",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
