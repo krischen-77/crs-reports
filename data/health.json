@@ -4,9 +4,10 @@
     "official-reconcile.yml: no verified refresh within 26 hours",
     "coverage-audit.yml: no verified refresh within 26 hours",
     "Official-current coverage is incomplete",
-    "No valid independent byte-verification receipt"
+    "No valid independent byte-verification receipt",
+    "Collector finished, but official reconciliation did not follow"
   ],
-  "checked_at": "2026-10-28T13:04:39.402376+00:00",
+  "checked_at": "2026-10-28T13:13:45.172984+00:00",
   "monitor_result": "completed",
   "notices": [],
   "recovery_stage": "official-reconcile.yml",
@@ -26,23 +27,23 @@
       "updated_at": "2026-10-28T03:51:56Z"
     },
     "official-reconcile.yml": {
-      "id": 40629080158,
+      "id": 40693184967,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40629080158",
-      "run_started_at": "2026-10-28T03:51:52Z",
-      "updated_at": "2026-10-28T03:56:14Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40693184967",
+      "run_started_at": "2026-10-28T13:04:44Z",
+      "updated_at": "2026-10-28T13:10:35Z"
     },
     "coverage-audit.yml": {
-      "id": 40629467425,
+      "id": 40694038105,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40629467425",
-      "run_started_at": "2026-10-28T03:56:10Z",
-      "updated_at": "2026-10-28T03:59:06Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/40694038105",
+      "run_started_at": "2026-10-28T13:10:32Z",
+      "updated_at": "2026-10-28T13:13:38Z"
     }
   },
-  "recovery_action": "Dispatched official-reconcile.yml; completion is NOT yet verified",
+  "recovery_action": "Retry cooldown/cap active; failure remains visible",
   "daily_delivery": {
     "date_beijing": "2026-10-27",
     "new_original_versions": 11,
@@ -53,7 +54,7 @@
   "notification_required": true,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
   "alert_issue": "https://github.com/krischen-77/crs-reports/issues/1",
-  "github_run_id": "40693150772",
+  "github_run_id": "40694483131",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,

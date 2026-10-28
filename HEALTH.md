@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-10-28T13:04:39.402376+00:00
+Watchdog checked UTC: 2026-10-28T13:13:45.172984+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -18,10 +18,11 @@ official-reconcile.yml: no verified refresh within 26 hours
 coverage-audit.yml: no verified refresh within 26 hours
 Official-current coverage is incomplete
 No valid independent byte-verification receipt
+Collector finished, but official reconciliation did not follow
 
 ## Recovery
 
-Dispatched official-reconcile.yml; completion is NOT yet verified
+Retry cooldown/cap active; failure remains visible
 
 Hourly checks; overdue after 26 hours; retry at most once per stage per six hours and four times total per 24 hours.
 A GitHub-wide outage can also stop this watchdog. External monitoring is a separate safety net.
