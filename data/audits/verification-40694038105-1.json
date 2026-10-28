@@ -1,0 +1,42 @@
+{
+  "api_remaining_quota": 8,
+  "api_requests": 2,
+  "candidate_report_ids": 60,
+  "checked_at": "2026-10-28T13:11:18.065118+00:00",
+  "end": "2026-10-28",
+  "finished_at": "2026-10-28T13:13:28.294009+00:00",
+  "github_run_attempt": "1",
+  "github_run_id": "40694038105",
+  "invalid_files": [],
+  "missing": [],
+  "notices": [],
+  "official_current_ids": 60,
+  "result": "unverified",
+  "scope": "Live official current originals and recent mirror-only discoveries; PDF or advertised HTML bytes independently redownloaded and compared. Derived PDF paths require matching live currentVersion, embedded report ID/revision and title. Mirror-only metadata exceptions are not counted as official-current declarations.",
+  "sources": {
+    "mirror_catalog": {
+      "ok": true,
+      "records": 23582
+    },
+    "official_api": {
+      "ok": true,
+      "records": 156
+    }
+  },
+  "start": "2026-10-21",
+  "supplementary_api_scope": "API summaries are independently compared separately and never counted as PDF/HTML originals; original failures remain unverified.",
+  "supplementary_api_summaries_verified": 1,
+  "total_archive_versions": 580,
+  "total_html_original_versions": 0,
+  "unverified": [
+    {
+      "api_summary_independently_verified": true,
+      "error": "RuntimeError: Unlisted PDF could not be validated: RuntimeError: www.congress.gov: HTTP 404; advertised HTML also failed: RuntimeError: www.congress.gov:HTML: HTTP 403; not bypassing access restrictions",
+      "id": "IN12598"
+    }
+  ],
+  "verified_current_html_files": 0,
+  "verified_current_original_files": 59,
+  "verified_current_pdf_files": 59,
+  "last_successful_finished_at": "2026-10-27T01:40:31.544739+00:00"
+}
