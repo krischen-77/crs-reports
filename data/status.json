@@ -18,11 +18,16 @@
   "lookback_days": 7,
   "metadata_only_updates": 96,
   "new_pdf_versions": 2,
+  "official_current_pending": 1,
+  "official_current_required": 60,
+  "official_current_verified": 59,
+  "official_new_pdf_versions": 0,
+  "official_reconciled_at": "2026-10-28T02:28:19.886559+00:00",
   "pending_reports": 0,
   "pending_versions": 6,
   "planned_versions": 64,
   "primary_new_pdf_versions": 0,
-  "primary_pdf_complete": true,
+  "primary_pdf_complete": false,
   "reconciled_pending_discoveries": [
     {
       "id": "R43397",
@@ -51,7 +56,7 @@
     }
   ],
   "required_pdf_failures": 0,
-  "result": "success_with_warnings",
+  "result": "failed",
   "run_at": "2026-10-28T02:23:52.556438+00:00",
   "sources": {
     "congress_api": {
@@ -108,6 +113,7 @@
     }
   ],
   "total_archived_pdf_versions": 578,
+  "total_html_original_versions": 0,
   "total_html_snapshots": 446,
   "total_pdf_bytes": 462381256,
   "warnings": [
