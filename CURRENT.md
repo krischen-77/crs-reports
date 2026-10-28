@@ -1,19 +1,19 @@
 # Official current CRS files
 
-Checked: 2026-10-28T02:28:19.886559+00:00. Official current entries verified: **59/60**.
+Checked: 2026-10-28T03:55:53.917938+00:00. Official current entries verified: **59/60**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
-| 2026-10-27 | 2026-10-26 | IF13337 v3 | Proposed Rule Affecting Noncitizen Eligibility for Refundable Tax Credits | [PDF](pdf/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.pdf) | [Markdown](markdown/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.md) |
 | 2026-10-27 | 2026-10-27 | LSB11340 v2 | Environmental Justice and Title VI of the Civil Rights Act of 1964 | [PDF](pdf/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.pdf) | [Markdown](markdown/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.md) |
+| 2026-10-27 | 2026-10-26 | IF13337 v3 | Proposed Rule Affecting Noncitizen Eligibility for Refundable Tax Credits | [PDF](pdf/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.pdf) | [Markdown](markdown/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.md) |
 | 2026-10-27 | 2026-10-26 | IN12749 v2 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.pdf) | [Markdown](markdown/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.md) |
 | 2026-10-27 | 2026-10-26 | R46413 v11 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v11-2026-10-26-434f6c90900f33d5.pdf) | [Markdown](markdown/reports/R46413v11-2026-10-26-434f6c90900f33d5.md) |
 | 2026-10-27 | 2026-10-26 | R49493 v2 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v2-2026-10-26-c50a688607b40578.pdf) | [Markdown](markdown/reports/R49493v2-2026-10-26-c50a688607b40578.md) |
-| 2026-10-27 | 2026-01-22 | IN12598 v? | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | UNVERIFIED | Retry pending |
-| 2026-10-27 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
+| 2026-10-27 | 2026-01-22 | IN12598 v? | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | UNVERIFIED | [Supplementary API summary; not original](metadata/official-api-text/IN12598-85010188f81e463fa036.md) |
 | 2026-10-27 | 2026-10-27 | LSB11495 v1 | Congressional Court Watcher: Circuit Splits from August 2026 | [PDF](pdf/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.pdf) | [Markdown](markdown/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.md) |
+| 2026-10-27 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-27 | 2026-10-27 | R43397 v37 | Legislative Branch Appropriations: Frequently Asked Questions | [PDF](pdf/reports/R43397v37-2026-10-27-86faf7b42f66156b.pdf) | [Markdown](markdown/reports/R43397v37-2026-10-27-86faf7b42f66156b.md) |
 | 2026-10-27 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
 | 2026-10-27 | 2026-10-27 | IF11780 v11 | United Nations Issues: Overview of the United Nations System | [PDF](pdf/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.pdf) | [Markdown](markdown/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.md) |
