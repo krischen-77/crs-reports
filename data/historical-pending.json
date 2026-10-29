@@ -9,84 +9,6 @@
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
-        "date": "2013-06-24",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43117",
-            "sha1": "30fd29bbef99bd5e531250e455ddeb24cda0fbe7",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20130624_R43117_30fd29bbef99bd5e531250e455ddeb24cda0fbe7.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43117",
-            "sha1": "aa620330b8409cab74e8ce2b6ad7afcce8ddd1f3",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20130624_R43117_aa620330b8409cab74e8ce2b6ad7afcce8ddd1f3.pdf"
-            ]
-          }
-        },
-        "id": "R43117",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43117",
-          "http://www.crs.gov/Reports/pdf/R43117"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "421889",
-        "title": "The Commodity Futures Trading Commission: Background and Current Issues",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-29",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-10-31",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "6",
-        "date": "2013-10-24",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43252",
-            "sha1": "9920e9ec700f2d60e8959255356e821e3e985551",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20131024_R43252_9920e9ec700f2d60e8959255356e821e3e985551.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43252",
-            "sha1": "604e74943cda9896093cbaeb89130821e78e99f6",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20131024_R43252_604e74943cda9896093cbaeb89130821e78e99f6.pdf"
-            ]
-          }
-        },
-        "id": "R43252",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43252",
-          "http://www.crs.gov/Reports/pdf/R43252"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "425136",
-        "title": "FY2014 Appropriations Lapse and the Department of Homeland Security: Impact and Legislation",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
         "date": "2013-11-20",
         "formats": {
           "HTML": {
@@ -120,8 +42,11 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-29",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-31",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "17",
@@ -9130,6 +9055,53 @@
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
       "task": {
         "api_version": "4",
+        "date": "2026-02-12",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R47337",
+            "sha1": "b82624b9cc060f7e95be411614dbe3bc4ee8b812",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R47337.web.html",
+              "https://www.everycrsreport.com/files/2026-02-12_R47337_b82624b9cc060f7e95be411614dbe3bc4ee8b812.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R47337",
+            "sha1": "b5b7f78b07fdff05bc015fb81be65838482d72b9",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R47337/R47337.5.pdf",
+              "https://www.everycrsreport.com/files/2026-02-12_R47337_b5b7f78b07fdff05bc015fb81be65838482d72b9.pdf"
+            ]
+          }
+        },
+        "id": "R47337",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-29T11:55:18Z",
+        "required_by_recent_update": false,
+        "source_record": "R47337_A5_2026-02-12",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-02-12",
+          "id": "R47337",
+          "official_pdf_sha256": "0e29262756751b3747272ccbf6bced1ab9c425c58382b5a72899415d4dd59a1c",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R47337/R47337.7.pdf",
+          "official_publication": "2026-10-29",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding",
+        "version": "5"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-30",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "4",
         "date": "2024-09-25",
         "formats": {
           "HTML": {
@@ -9577,6 +9549,87 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "443646",
         "title": "“Fast Track” Legislative Procedures Governing Congressional Consideration of a Defense Base Closure and Realignment (BRAC) Commission Report",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-29",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-31",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "3",
+        "date": "2013-06-24",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43117",
+            "sha1": "30fd29bbef99bd5e531250e455ddeb24cda0fbe7",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20130624_R43117_30fd29bbef99bd5e531250e455ddeb24cda0fbe7.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43117",
+            "sha1": "aa620330b8409cab74e8ce2b6ad7afcce8ddd1f3",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20130624_R43117_aa620330b8409cab74e8ce2b6ad7afcce8ddd1f3.pdf"
+            ]
+          }
+        },
+        "id": "R43117",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R43117",
+          "http://www.crs.gov/Reports/pdf/R43117"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "421889",
+        "title": "The Commodity Futures Trading Commission: Background and Current Issues",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-29",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-10-31",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "6",
+        "date": "2013-10-24",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43252",
+            "sha1": "9920e9ec700f2d60e8959255356e821e3e985551",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20131024_R43252_9920e9ec700f2d60e8959255356e821e3e985551.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43252",
+            "sha1": "604e74943cda9896093cbaeb89130821e78e99f6",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20131024_R43252_604e74943cda9896093cbaeb89130821e78e99f6.pdf"
+            ]
+          }
+        },
+        "id": "R43252",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R43252",
+          "http://www.crs.gov/Reports/pdf/R43252"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "425136",
+        "title": "FY2014 Appropriations Lapse and the Department of Homeland Security: Impact and Legislation",
         "version": "unknown"
       }
     }

@@ -1,11 +1,11 @@
-**Official-current verification: 59/59. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-22 to 2026-10-29**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-29 | R47337 v7 | Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding | [PDF](pdf/reports/R47337v7-2026-10-29-0e29262756751b37.pdf) | [Markdown](markdown/reports/R47337v7-2026-10-29-0e29262756751b37.md) |
+| 2026-10-29 | LSB11497 v1 | Equity and Good Conscience Debt Waiver Statutes | [PDF](pdf/sidebars/LSB11497v1-2026-10-29-b439e5c8444c43de.pdf) | [Markdown](markdown/sidebars/LSB11497v1-2026-10-29-b439e5c8444c43de.md) |
 | 2026-10-28 | R49494 v3 | The Federal Fleet of Oceanographic Research Vessels: Issues for Congress | [PDF](pdf/reports/R49494v3-2026-10-28-c155d9c5f367d397.pdf) | [Markdown](markdown/reports/R49494v3-2026-10-28-c155d9c5f367d397.md) |
 | 2026-10-28 | R48078 v5 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v5-2026-10-28-50d2df5b96099ba2.pdf) | [Markdown](markdown/reports/R48078v5-2026-10-28-50d2df5b96099ba2.md) |
 | 2026-10-28 | R46143 v7 | The Office of Federal Student Aid as a Performance-Based Organization | [PDF](pdf/reports/R46143v7-2026-10-28-1cbc960598e6e621.pdf) | [Markdown](markdown/reports/R46143v7-2026-10-28-1cbc960598e6e621.md) |
@@ -63,7 +63,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-10-28 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
+| 2026-10-29 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
+| 2026-10-29 | 2026-01-12 | IF11769 v6 | Law Enforcement and Technology: The “Lawful Access” Debate | [PDF](pdf/in-focus/IF11769v6-2026-01-12-49cf4a8229e0ed8e.pdf) | [Markdown](markdown/in-focus/IF11769v6-2026-01-12-49cf4a8229e0ed8e.md) |
 | 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
 | 2026-10-27 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
