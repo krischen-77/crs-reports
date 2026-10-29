@@ -2,89 +2,10 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-10-28",
+      "last_attempt": "2026-10-29",
       "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-30",
+      "next_retry": "2026-10-31",
       "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "17",
-        "date": "2015-01-20",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43095",
-            "sha1": "4a11330d2e801799e3efcc45dfd5bb18f776bfb9",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150120_R43095_4a11330d2e801799e3efcc45dfd5bb18f776bfb9.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43095",
-            "sha1": "7bf8b74ed9b6fff932d2fbb0a29ee2c9ec61b17f",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150120_R43095_7bf8b74ed9b6fff932d2fbb0a29ee2c9ec61b17f.pdf"
-            ]
-          }
-        },
-        "id": "R43095",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43095",
-          "http://www.crs.gov/Reports/pdf/R43095"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "437241",
-        "title": "Insurance Agent Licensing: Overview and Background on Federal NARAB Legislation",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-28",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-30",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "5",
-        "date": "2015-08-05",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43102",
-            "sha1": "17a99a8d46ce3b4e3923e30eaff15b268ddc3272",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150805_R43102_17a99a8d46ce3b4e3923e30eaff15b268ddc3272.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43102",
-            "sha1": "50b7e63f59404c5b64784cb6e1f106176b53a18c",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150805_R43102_50b7e63f59404c5b64784cb6e1f106176b53a18c.pdf"
-            ]
-          }
-        },
-        "id": "R43102",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43102",
-          "http://www.crs.gov/Reports/pdf/R43102"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "443646",
-        "title": "“Fast Track” Legislative Procedures Governing Congressional Consideration of a Defense Base Closure and Realignment (BRAC) Commission Report",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -121,8 +42,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-29",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-10-31",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "6",
@@ -9109,6 +9032,145 @@
       }
     },
     {
+      "attempts": 0,
+      "next_retry": "2026-10-30",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "15",
+        "date": "2025-12-11",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10293",
+            "sha1": "d8cda31a2264ab6499ec30460060d3ed927349ea",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10293.web.html",
+              "https://www.everycrsreport.com/files/2025-12-11_IF10293_d8cda31a2264ab6499ec30460060d3ed927349ea.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10293",
+            "sha1": "0a6cde26d51c8a0e862d214f8b60e8cf4e7393bf",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10293/IF10293.16.pdf",
+              "https://www.everycrsreport.com/files/2025-12-11_IF10293_0a6cde26d51c8a0e862d214f8b60e8cf4e7393bf.pdf"
+            ]
+          }
+        },
+        "id": "IF10293",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-28T21:40:32Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10293_A16_2025-12-11",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-12-11",
+          "id": "IF10293",
+          "official_pdf_sha256": "918951824490c042b299873b7d0fd1b3a7efeacc90bbb1456dcc5a7e6ae46ba4",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10293/IF10293.17.pdf",
+          "official_publication": "2026-10-28",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Foreign Relations Reauthorization: Background and Issues",
+        "version": "16"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-30",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2022-05-16",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12114",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2022-05-16_IF12114_5ae447b9395daac276ece2cc8ce20f50867d1e9e.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12114",
+            "sha1": "5ae447b9395daac276ece2cc8ce20f50867d1e9e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12114/1",
+              "https://www.everycrsreport.com/files/2022-05-16_IF12114_5ae447b9395daac276ece2cc8ce20f50867d1e9e.pdf"
+            ]
+          }
+        },
+        "id": "IF12114",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-28T21:40:36Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12114_1_2022-05-16",
+        "superseded_by_official_current": {
+          "historical_publication": "2022-05-16",
+          "id": "IF12114",
+          "official_pdf_sha256": "98c598e50278ca042068b86b931e3e0a905501dd328a411f3e51703972b5e76d",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12114/IF12114.2.pdf",
+          "official_publication": "2026-10-28",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Farm Bill Primer: PLC and ARC Farm Support Programs",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-30",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "4",
+        "date": "2024-09-25",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48078",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-09-25_R48078_9edae0be0d01c74f3ca52e05b7774d5de84b0083.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48078",
+            "sha1": "9edae0be0d01c74f3ca52e05b7774d5de84b0083",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R48078/3",
+              "https://www.everycrsreport.com/files/2024-09-25_R48078_9edae0be0d01c74f3ca52e05b7774d5de84b0083.pdf"
+            ]
+          }
+        },
+        "id": "R48078",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-28T21:40:27Z",
+        "required_by_recent_update": false,
+        "source_record": "R48078_3_2024-09-25",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-09-25",
+          "id": "R48078",
+          "official_pdf_sha256": "50d2df5b96099ba23dbe7f50505cec32987d9fa58b27cff45ef4f27aa0024513",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48078/R48078.5.pdf",
+          "official_publication": "2026-10-28",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Credible Fear and Defensive Asylum Processes: Frequently Asked Questions",
+        "version": "3"
+      }
+    },
+    {
       "attempts": 1,
       "last_attempt": "2026-10-28",
       "last_error": "Original PDF saved; auxiliary HTML still unavailable",
@@ -9433,6 +9495,88 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "420384",
         "title": "President Obama’s First-Term U.S. Circuit and District Court Nominations: An Analysis and Comparison with Presidents Since Reagan",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-28",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-30",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "17",
+        "date": "2015-01-20",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43095",
+            "sha1": "4a11330d2e801799e3efcc45dfd5bb18f776bfb9",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150120_R43095_4a11330d2e801799e3efcc45dfd5bb18f776bfb9.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43095",
+            "sha1": "7bf8b74ed9b6fff932d2fbb0a29ee2c9ec61b17f",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150120_R43095_7bf8b74ed9b6fff932d2fbb0a29ee2c9ec61b17f.pdf"
+            ]
+          }
+        },
+        "id": "R43095",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R43095",
+          "http://www.crs.gov/Reports/pdf/R43095"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "437241",
+        "title": "Insurance Agent Licensing: Overview and Background on Federal NARAB Legislation",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-28",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-30",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "5",
+        "date": "2015-08-05",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43102",
+            "sha1": "17a99a8d46ce3b4e3923e30eaff15b268ddc3272",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150805_R43102_17a99a8d46ce3b4e3923e30eaff15b268ddc3272.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43102",
+            "sha1": "50b7e63f59404c5b64784cb6e1f106176b53a18c",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150805_R43102_50b7e63f59404c5b64784cb6e1f106176b53a18c.pdf"
+            ]
+          }
+        },
+        "id": "R43102",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R43102",
+          "http://www.crs.gov/Reports/pdf/R43102"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "443646",
+        "title": "“Fast Track” Legislative Procedures Governing Congressional Consideration of a Defense Base Closure and Realignment (BRAC) Commission Report",
         "version": "unknown"
       }
     }
