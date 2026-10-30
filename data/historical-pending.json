@@ -2,127 +2,9 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-10-29",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-31",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "4",
-        "date": "2014-03-07",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43347",
-            "sha1": "03e4cc30ad65bae69c26f711288f37dbdf4bcc5b",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20140307_R43347_03e4cc30ad65bae69c26f711288f37dbdf4bcc5b.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43347",
-            "sha1": "bac5c60d051d87c57c99be8000fb547fa3da2ab6",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20140307_R43347_bac5c60d051d87c57c99be8000fb547fa3da2ab6.pdf"
-            ]
-          }
-        },
-        "id": "R43347",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43347",
-          "http://www.crs.gov/Reports/pdf/R43347"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "428620",
-        "title": "Budgetary and Distributional Effects of Adopting the Chained CPI ",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-29",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-31",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "6",
-        "date": "2018-09-12",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43413",
-            "sha1": "66626c5f808410d3dec2fcd039359eae4719dbaf",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180912_R43413_66626c5f808410d3dec2fcd039359eae4719dbaf.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43413",
-            "sha1": "9e28d3da44b32011549bb06fd066ccd6d2e4f24b",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180912_R43413_9e28d3da44b32011549bb06fd066ccd6d2e4f24b.pdf"
-            ]
-          }
-        },
-        "id": "R43413",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R43413",
-          "https://www.crs.gov/Reports/pdf/R43413"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "587316",
-        "title": "Costs of Government Interventions in Response to the Financial Crisis: A Retrospective",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2014-03-10",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43418",
-            "sha1": "1f880f37f647ee827d937351acd2ad92073912e5",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20140310_R43418_1f880f37f647ee827d937351acd2ad92073912e5.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43418",
-            "sha1": "7f7c11fbcc95bc5957d1f5df4c7ade8963f7e9bb",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20140310_R43418_7f7c11fbcc95bc5957d1f5df4c7ade8963f7e9bb.pdf"
-            ]
-          }
-        },
-        "id": "R43418",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43418",
-          "http://www.crs.gov/Reports/pdf/R43418"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "428746",
-        "title": "The Taxation of Dividends: Background and Overview",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "last_attempt": "2026-10-30",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-01",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "6",
@@ -9477,6 +9359,239 @@
       }
     },
     {
+      "attempts": 0,
+      "next_retry": "2026-10-31",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "8",
+        "date": "2026-08-28",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12608",
+            "sha1": "3e089098e67ba5d1000bad29a25937d1af5e3c03",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12608.web.html",
+              "https://www.everycrsreport.com/files/2026-08-28_IF12608_3e089098e67ba5d1000bad29a25937d1af5e3c03.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12608",
+            "sha1": "6173430f4922e4063c4870058ce9199724129a9a",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12608/IF12608.20.pdf",
+              "https://www.everycrsreport.com/files/2026-08-28_IF12608_6173430f4922e4063c4870058ce9199724129a9a.pdf"
+            ]
+          }
+        },
+        "id": "IF12608",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-29T21:55:04Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12608_A20_2026-08-28",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-08-28",
+          "id": "IF12608",
+          "official_pdf_sha256": "64739e927d1eb874d5f118af8816bb3334e9ab9f2860e73a27e2159c56615421",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12608/IF12608.21.pdf",
+          "official_publication": "2026-10-29",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "U.S. Interest in Seabed Mining in Areas Beyond National Jurisdiction: Brief Background and Recent Developments",
+        "version": "20"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-31",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-08-28",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13226",
+            "sha1": "a7cea1e7972fc13f0f2f2f6a60477e6a5521656a",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13226.web.html",
+              "https://www.everycrsreport.com/files/2026-08-28_IF13226_a7cea1e7972fc13f0f2f2f6a60477e6a5521656a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13226",
+            "sha1": "820887562c2328b85cd7748223c5c9aabd7d2535",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13226/IF13226.6.pdf",
+              "https://www.everycrsreport.com/files/2026-08-28_IF13226_820887562c2328b85cd7748223c5c9aabd7d2535.pdf"
+            ]
+          }
+        },
+        "id": "IF13226",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-29T21:54:59Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13226_A6_2026-08-28",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-08-28",
+          "id": "IF13226",
+          "official_pdf_sha256": "dae945f5932b7c54bbbb202785fb3cc2e8bb7203f0f8dd7dd03afc19d8b59b36",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13226/IF13226.7.pdf",
+          "official_publication": "2026-10-29",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Seabed Mining on the U.S. Outer Continental Shelf: Recent Developments",
+        "version": "6"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-31",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "23",
+        "date": "2024-11-01",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44258",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-11-01_R44258_facf1fd6f354811e8f094b0f03bd9710fcc1de1f.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44258",
+            "sha1": "facf1fd6f354811e8f094b0f03bd9710fcc1de1f",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R44258/23",
+              "https://www.everycrsreport.com/files/2024-11-01_R44258_facf1fd6f354811e8f094b0f03bd9710fcc1de1f.pdf"
+            ]
+          }
+        },
+        "id": "R44258",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-29T21:54:28Z",
+        "required_by_recent_update": false,
+        "source_record": "R44258_23_2024-11-01",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-11-01",
+          "id": "R44258",
+          "official_pdf_sha256": "388307880d66b5acde7246ae5efb5f4939253355ef1b21a3fa3c908ff57cc722",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44258/R44258.24.pdf",
+          "official_publication": "2026-10-29",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Native American Heritage Month: Fact Sheet",
+        "version": "23"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-31",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "14",
+        "date": "2025-02-07",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45030",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2025-02-07_R45030_6cfd97604c003290debf0c3a883c5ca1436f51b4.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45030",
+            "sha1": "6cfd97604c003290debf0c3a883c5ca1436f51b4",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R45030/13",
+              "https://www.everycrsreport.com/files/2025-02-07_R45030_6cfd97604c003290debf0c3a883c5ca1436f51b4.pdf"
+            ]
+          }
+        },
+        "id": "R45030",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-29T21:54:32Z",
+        "required_by_recent_update": false,
+        "source_record": "R45030_13_2025-02-07",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-02-07",
+          "id": "R45030",
+          "official_pdf_sha256": "89e5d55656060b22a6f589179766b8a57a1b01eab3a0ccd8b8a167c86353e21d",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R45030/R45030.15.pdf",
+          "official_publication": "2026-10-29",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments",
+        "version": "13"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-10-31",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "7",
+        "date": "2025-08-05",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R46236",
+            "sha1": "42b0252a7b481181077e313085c1ebd931e54742",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R46236.web.html",
+              "https://www.everycrsreport.com/files/2025-08-05_R46236_42b0252a7b481181077e313085c1ebd931e54742.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R46236",
+            "sha1": "a901004f18e6e8422d37934bb6036612baae010e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R46236/R46236.11.pdf",
+              "https://www.everycrsreport.com/files/2025-08-05_R46236_a901004f18e6e8422d37934bb6036612baae010e.pdf"
+            ]
+          }
+        },
+        "id": "R46236",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-29T21:55:08Z",
+        "required_by_recent_update": false,
+        "source_record": "R46236_A11_2025-08-05",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-08-05",
+          "id": "R46236",
+          "official_pdf_sha256": "ce2b50cf8bf5bf16d49760bcfffdfc6611b5148d4fa73b252250696847b736fd",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R46236/R46236.12.pdf",
+          "official_publication": "2026-10-29",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Brazil: Background and U.S. Relations",
+        "version": "11"
+      }
+    },
+    {
       "attempts": 1,
       "last_attempt": "2026-10-29",
       "last_error": "Original PDF saved; auxiliary HTML still unavailable",
@@ -9636,6 +9751,88 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "442393",
         "title": "The Medical Device Excise Tax: Economic Analysis",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-29",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-31",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "4",
+        "date": "2014-03-07",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43347",
+            "sha1": "03e4cc30ad65bae69c26f711288f37dbdf4bcc5b",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20140307_R43347_03e4cc30ad65bae69c26f711288f37dbdf4bcc5b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43347",
+            "sha1": "bac5c60d051d87c57c99be8000fb547fa3da2ab6",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20140307_R43347_bac5c60d051d87c57c99be8000fb547fa3da2ab6.pdf"
+            ]
+          }
+        },
+        "id": "R43347",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R43347",
+          "http://www.crs.gov/Reports/pdf/R43347"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "428620",
+        "title": "Budgetary and Distributional Effects of Adopting the Chained CPI ",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-29",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-10-31",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "6",
+        "date": "2018-09-12",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43413",
+            "sha1": "66626c5f808410d3dec2fcd039359eae4719dbaf",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20180912_R43413_66626c5f808410d3dec2fcd039359eae4719dbaf.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43413",
+            "sha1": "9e28d3da44b32011549bb06fd066ccd6d2e4f24b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20180912_R43413_9e28d3da44b32011549bb06fd066ccd6d2e4f24b.pdf"
+            ]
+          }
+        },
+        "id": "R43413",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R43413",
+          "https://www.crs.gov/Reports/pdf/R43413"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "587316",
+        "title": "Costs of Government Interventions in Response to the Financial Crisis: A Retrospective",
         "version": "unknown"
       }
     }

@@ -1,13 +1,17 @@
-**Official-current verification: 62/62. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-22 to 2026-10-29**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-23 to 2026-10-30**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-29 | R49495 v2 | Decommissioning Offshore Oil and Gas Infrastructure: Issues for Congress | [PDF](pdf/reports/R49495v2-2026-10-29-bd73c586c3967c51.pdf) | [Markdown](markdown/reports/R49495v2-2026-10-29-bd73c586c3967c51.md) |
 | 2026-10-29 | R47337 v7 | Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding | [PDF](pdf/reports/R47337v7-2026-10-29-0e29262756751b37.pdf) | [Markdown](markdown/reports/R47337v7-2026-10-29-0e29262756751b37.md) |
+| 2026-10-29 | R46236 v12 | Brazil: Background and U.S. Relations | [PDF](pdf/reports/R46236v12-2026-10-29-ce2b50cf8bf5bf16.pdf) | [Markdown](markdown/reports/R46236v12-2026-10-29-ce2b50cf8bf5bf16.md) |
+| 2026-10-29 | R45030 v15 | Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments | [PDF](pdf/reports/R45030v15-2026-10-29-89e5d55656060b22.pdf) | [Markdown](markdown/reports/R45030v15-2026-10-29-89e5d55656060b22.md) |
+| 2026-10-29 | R44258 v24 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v24-2026-10-29-388307880d66b5ac.pdf) | [Markdown](markdown/reports/R44258v24-2026-10-29-388307880d66b5ac.md) |
 | 2026-10-29 | LSB11497 v1 | Equity and Good Conscience Debt Waiver Statutes | [PDF](pdf/sidebars/LSB11497v1-2026-10-29-b439e5c8444c43de.pdf) | [Markdown](markdown/sidebars/LSB11497v1-2026-10-29-b439e5c8444c43de.md) |
+| 2026-10-29 | IF13226 v7 | Seabed Mining on the U.S. Outer Continental Shelf: Recent Developments | [PDF](pdf/in-focus/IF13226v7-2026-10-29-dae945f5932b7c54.pdf) | [Markdown](markdown/in-focus/IF13226v7-2026-10-29-dae945f5932b7c54.md) |
+| 2026-10-29 | IF12608 v21 | U.S. Interest in Seabed Mining in Areas Beyond National Jurisdiction: Brief Background and Recent Developments | [PDF](pdf/in-focus/IF12608v21-2026-10-29-64739e927d1eb874.pdf) | [Markdown](markdown/in-focus/IF12608v21-2026-10-29-64739e927d1eb874.md) |
 | 2026-10-29 | IF11769 v7 | Law Enforcement and Technology: The “Lawful Access” Debate | [PDF](pdf/in-focus/IF11769v7-2026-10-29-1fcd6520009dc1bc.pdf) | [Markdown](markdown/in-focus/IF11769v7-2026-10-29-1fcd6520009dc1bc.md) |
 | 2026-10-28 | R49494 v3 | The Federal Fleet of Oceanographic Research Vessels: Issues for Congress | [PDF](pdf/reports/R49494v3-2026-10-28-c155d9c5f367d397.pdf) | [Markdown](markdown/reports/R49494v3-2026-10-28-c155d9c5f367d397.md) |
 | 2026-10-28 | R48078 v5 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v5-2026-10-28-50d2df5b96099ba2.pdf) | [Markdown](markdown/reports/R48078v5-2026-10-28-50d2df5b96099ba2.md) |
@@ -44,21 +48,6 @@ Publication-date window (inclusive): **2026-10-22 to 2026-10-29**. Older archive
 | 2026-10-23 | IF13336 v2 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v2-2026-10-23-dd7c26c6d9b55ffb.pdf) | [Markdown](markdown/in-focus/IF13336v2-2026-10-23-dd7c26c6d9b55ffb.md) |
 | 2026-10-23 | IF13335 v1 | Student Loans: Late Payment Trends, Servicing Practices, and Credit Reporting Issues | [PDF](pdf/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.pdf) | [Markdown](markdown/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.md) |
 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
-| 2026-10-22 | R49491 v2 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v2-2026-10-22-8daccd774bd61ce8.pdf) | [Markdown](markdown/reports/R49491v2-2026-10-22-8daccd774bd61ce8.md) |
-| 2026-10-22 | R49491 v1 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.pdf) | [Markdown](markdown/reports/R49491v1-2026-10-22-d86b8aaa79799eb6.md) |
-| 2026-10-22 | R49408 v3 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v3-2026-10-22-10ac5c7079b6d546.pdf) | [Markdown](markdown/reports/R49408v3-2026-10-22-10ac5c7079b6d546.md) |
-| 2026-10-22 | R49408 v2 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.pdf) | [Markdown](markdown/reports/R49408v2-2026-10-22-f50a3c73ba3c1667.md) |
-| 2026-10-22 | R49346 v3 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.pdf) | [Markdown](markdown/reports/R49346v3-2026-10-22-6d5dc82962ede4f5.md) |
-| 2026-10-22 | R49346 v4 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v4-2026-10-22-a3e11acce9f1e181.pdf) | [Markdown](markdown/reports/R49346v4-2026-10-22-a3e11acce9f1e181.md) |
-| 2026-10-22 | R42853 v46 | Nuclear Energy: Overview of Congressional Issues | [PDF](pdf/reports/R42853v46-2026-10-22-11f80f07cb38da84.pdf) | [Markdown](markdown/reports/R42853v46-2026-10-22-11f80f07cb38da84.md) |
-| 2026-10-22 | R42853 v45 | Nuclear Energy: Overview of Congressional Issues | [PDF](pdf/reports/R42853v45-2026-10-22-90116e21c39b109c.pdf) | [Markdown](markdown/reports/R42853v45-2026-10-22-90116e21c39b109c.md) |
-| 2026-10-22 | R41833 v26 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v26-2026-10-22-59b64f62d8726f41.pdf) | [Markdown](markdown/reports/R41833v26-2026-10-22-59b64f62d8726f41.md) |
-| 2026-10-22 | R41833 v25 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v25-2026-10-22-c60106eeaf606d8f.pdf) | [Markdown](markdown/reports/R41833v25-2026-10-22-c60106eeaf606d8f.md) |
-| 2026-10-22 | IF13249 v2 | Farm Bill Primer: Rural Development Title | [PDF](pdf/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.pdf) | [Markdown](markdown/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.md) |
-| 2026-10-22 | IF13092 v12 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.pdf) | [Markdown](markdown/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.md) |
-| 2026-10-22 | IF13092 v11 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.pdf) | [Markdown](markdown/in-focus/IF13092v11-2026-10-22-ec156d800c21a1aa.md) |
-| 2026-10-22 | IF12889 v3 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.pdf) | [Markdown](markdown/in-focus/IF12889v3-2026-10-22-b341f50dee672aed.md) |
-| 2026-10-22 | IF12889 v4 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.pdf) | [Markdown](markdown/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -69,12 +58,20 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-10-29 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
 | 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
+| 2026-10-27 | 2026-10-22 | R49408 v3 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v3-2026-10-22-10ac5c7079b6d546.pdf) | [Markdown](markdown/reports/R49408v3-2026-10-22-10ac5c7079b6d546.md) |
 | 2026-10-27 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
 | 2026-10-27 | 2017-04-14 | R44819 v3 | Senate Proceedings Establishing Majority Cloture for Supreme Court Nominations: In Brief | [PDF](pdf/reports/R44819v3-2017-04-14-c695158f51635f12.pdf) | [Markdown](markdown/reports/R44819v3-2017-04-14-c695158f51635f12.md) |
 | 2026-10-27 | 2026-10-21 | LSB11493 v1 | The Airline Deregulation Act of 1978: Preemption of State Law | [PDF](pdf/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.pdf) | [Markdown](markdown/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.md) |
 | 2026-10-27 | 2020-12-02 | IN10875 v6 | Eight Mechanisms to Enact Procedural Change in the U.S. Senate | [PDF](pdf/insights/IN10875v6-2020-12-02-08a083591f003670.pdf) | [Markdown](markdown/insights/IN10875v6-2020-12-02-08a083591f003670.md) |
+| 2026-10-27 | 2026-10-22 | IF12889 v4 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.pdf) | [Markdown](markdown/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.md) |
+| 2026-10-24 | 2026-10-22 | R49491 v2 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v2-2026-10-22-8daccd774bd61ce8.pdf) | [Markdown](markdown/reports/R49491v2-2026-10-22-8daccd774bd61ce8.md) |
 | 2026-10-24 | 2026-10-20 | R49354 v6 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v6-2026-10-20-675b4384850eff04.pdf) | [Markdown](markdown/reports/R49354v6-2026-10-20-675b4384850eff04.md) |
+| 2026-10-24 | 2026-10-22 | R49346 v4 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v4-2026-10-22-a3e11acce9f1e181.pdf) | [Markdown](markdown/reports/R49346v4-2026-10-22-a3e11acce9f1e181.md) |
+| 2026-10-24 | 2026-10-22 | R42853 v46 | Nuclear Energy: Overview of Congressional Issues | [PDF](pdf/reports/R42853v46-2026-10-22-11f80f07cb38da84.pdf) | [Markdown](markdown/reports/R42853v46-2026-10-22-11f80f07cb38da84.md) |
+| 2026-10-24 | 2026-10-22 | R41833 v26 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v26-2026-10-22-59b64f62d8726f41.pdf) | [Markdown](markdown/reports/R41833v26-2026-10-22-59b64f62d8726f41.md) |
 | 2026-10-24 | 2026-10-21 | IF13334 v2 | ANC, Tribal, NHO, and CDC Participation in the 8(a) Business Development Program | [PDF](pdf/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.pdf) | [Markdown](markdown/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.md) |
+| 2026-10-24 | 2026-10-22 | IF13249 v2 | Farm Bill Primer: Rural Development Title | [PDF](pdf/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.pdf) | [Markdown](markdown/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.md) |
+| 2026-10-24 | 2026-10-22 | IF13092 v12 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.pdf) | [Markdown](markdown/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.md) |
 | 2026-10-23 | 2026-10-20 | RL33546 v98 | Jordan: Background and U.S. Relations | [PDF](pdf/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.pdf) | [Markdown](markdown/reports/RL33546v98-2026-10-20-4931d0a35f6e1590.md) |
 | 2026-10-23 | 2026-10-21 | R49359 v4 | College Sports Media Rights: Background and Issues for Congressional Consideration | [PDF](pdf/reports/R49359v4-2026-10-21-f1c9df285d655ddf.pdf) | [Markdown](markdown/reports/R49359v4-2026-10-21-f1c9df285d655ddf.md) |
 | 2026-10-23 | 2026-10-20 | R48732 v8 | ROAD to Housing Act of 2025 | [PDF](pdf/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.pdf) | [Markdown](markdown/reports/R48732v8-2026-10-20-79dd86dfd029e6bb.md) |
@@ -83,13 +80,3 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-10-23 | 2026-10-21 | IF13333 v2 | Fair Labor Standards Act Overtime Pay Requirements | [PDF](pdf/in-focus/IF13333v2-2026-10-21-e6091e3ce93eb343.pdf) | [Markdown](markdown/in-focus/IF13333v2-2026-10-21-e6091e3ce93eb343.md) |
 | 2026-10-23 | 2026-10-21 | IF13332 v3 | Opportunities for Tribal Engagement in National Environmental Policy Act (NEPA) Reviews | [PDF](pdf/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.pdf) | [Markdown](markdown/in-focus/IF13332v3-2026-10-21-cf7c786ed10ff18a.md) |
 | 2026-10-23 | 2026-10-20 | IF10275 v91 | Taiwan: Background and U.S. Relations | [PDF](pdf/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.pdf) | [Markdown](markdown/in-focus/IF10275v91-2026-10-20-c2d2a3bf94f769dc.md) |
-| 2026-10-22 | 2026-10-20 | R49490 v1 | Algorithmic Discrimination: Legal Principles | [PDF](pdf/reports/R49490v1-2026-10-20-cce38f0295e594f3.pdf) | [Markdown](markdown/reports/R49490v1-2026-10-20-cce38f0295e594f3.md) |
-| 2026-10-22 | 2026-10-20 | R49489 v6 | Puerto Rico Electric Power Authority (PREPA): History and Finances | [PDF](pdf/reports/R49489v6-2026-10-20-d14ebcacf96287aa.pdf) | [Markdown](markdown/reports/R49489v6-2026-10-20-d14ebcacf96287aa.md) |
-| 2026-10-22 | 2026-10-21 | R49292 v3 | Interior, Environment, and Related Agencies: Overview of FY2027 Appropriations | [PDF](pdf/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.pdf) | [Markdown](markdown/reports/R49292v3-2026-10-21-66ceaddc1c5b8acd.md) |
-| 2026-10-22 | 2026-07-31 | R49057 v5 | Data Centers and Water: Frequently Asked Questions | [PDF](pdf/reports/R49057v5-2026-07-31-6154e49b161f2b2a.pdf) | [Markdown](markdown/reports/R49057v5-2026-07-31-6154e49b161f2b2a.md) |
-| 2026-10-22 | 2026-10-20 | R48922 v17 | Comparison of Selected Versions of H.R. 6644 | [PDF](pdf/reports/R48922v17-2026-10-20-00f8fd44f2a51106.pdf) | [Markdown](markdown/reports/R48922v17-2026-10-20-00f8fd44f2a51106.md) |
-| 2026-10-22 | 2026-10-19 | R46565 v9 | Federal Election Results: Frequently Asked Questions | [PDF](pdf/reports/R46565v9-2026-10-19-8e97247f40327d91.pdf) | [Markdown](markdown/reports/R46565v9-2026-10-19-8e97247f40327d91.md) |
-| 2026-10-22 | 2026-10-20 | LSB11492 v1 | The Fourth Amendment and the Speech or Debate Clause | [PDF](pdf/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.pdf) | [Markdown](markdown/sidebars/LSB11492v1-2026-10-20-ec0a9104a520b69c.md) |
-| 2026-10-22 | 2026-10-20 | IN12665 v7 | U.S. Military Operations Against Iran’s Missile and Nuclear Programs | [PDF](pdf/insights/IN12665v7-2026-10-20-7e3421cdffa05f52.pdf) | [Markdown](markdown/insights/IN12665v7-2026-10-20-7e3421cdffa05f52.md) |
-| 2026-10-22 | 2026-10-20 | IF13331 v2 | Geothermal Resources for Energy Development in the United States | [PDF](pdf/in-focus/IF13331v2-2026-10-20-a91ca3f30b56721e.pdf) | [Markdown](markdown/in-focus/IF13331v2-2026-10-20-a91ca3f30b56721e.md) |
-| 2026-10-22 | 2026-10-21 | IF12323 v2 | The Social Security Retirement Age: An Overview | [PDF](pdf/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.pdf) | [Markdown](markdown/in-focus/IF12323v2-2026-10-21-310d14ba2c66698b.md) |
