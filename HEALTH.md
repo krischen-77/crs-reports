@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-10-30T16:51:19.094254+00:00
+Watchdog checked UTC: 2026-10-30T20:51:17.023417+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -18,7 +18,7 @@ coverage-audit.yml: latest run failure
 
 ## Recovery
 
-No recovery dispatch required.
+Retry cooldown/cap active; failure remains visible
 
 Hourly checks; overdue after 26 hours; retry at most once per stage per six hours and four times total per 24 hours.
 A GitHub-wide outage can also stop this watchdog. External monitoring is a separate safety net.

@@ -3,12 +3,10 @@
   "errors": [
     "coverage-audit.yml: latest run failure"
   ],
-  "checked_at": "2026-10-30T16:51:19.094254+00:00",
+  "checked_at": "2026-10-30T20:51:17.023417+00:00",
   "monitor_result": "completed",
-  "notices": [
-    "Independent verification is due after the new reconciliation"
-  ],
-  "recovery_stage": null,
+  "notices": [],
+  "recovery_stage": "coverage-audit.yml",
   "source_times": {
     "crs-backup.yml": "2026-10-30T16:44:55.199585+00:00",
     "official-reconcile.yml": "2026-10-30T16:50:23.035433+00:00",
@@ -41,11 +39,12 @@
       "updated_at": "2026-10-30T16:51:12Z"
     }
   },
+  "recovery_action": "Retry cooldown/cap active; failure remains visible",
   "daily_delivery": null,
   "notification_severity": "warning",
   "notification_required": false,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
-  "github_run_id": "41093613352",
+  "github_run_id": "41126468953",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
