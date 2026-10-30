@@ -1,3 +1,5 @@
+**Official-current verification: 58/58. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-23 to 2026-10-30**. Older archived files are retained.
@@ -15,10 +17,13 @@ Publication-date window (inclusive): **2026-10-23 to 2026-10-30**. Older archive
 | 2026-10-29 | IF11769 v7 | Law Enforcement and Technology: The “Lawful Access” Debate | [PDF](pdf/in-focus/IF11769v7-2026-10-29-1fcd6520009dc1bc.pdf) | [Markdown](markdown/in-focus/IF11769v7-2026-10-29-1fcd6520009dc1bc.md) |
 | 2026-10-28 | R49494 v3 | The Federal Fleet of Oceanographic Research Vessels: Issues for Congress | [PDF](pdf/reports/R49494v3-2026-10-28-c155d9c5f367d397.pdf) | [Markdown](markdown/reports/R49494v3-2026-10-28-c155d9c5f367d397.md) |
 | 2026-10-28 | R48078 v5 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v5-2026-10-28-50d2df5b96099ba2.pdf) | [Markdown](markdown/reports/R48078v5-2026-10-28-50d2df5b96099ba2.md) |
+| 2026-10-28 | R48078 v6 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v6-2026-10-28-dff0bf14d99981c8.pdf) | [Markdown](markdown/reports/R48078v6-2026-10-28-dff0bf14d99981c8.md) |
 | 2026-10-28 | R46143 v7 | The Office of Federal Student Aid as a Performance-Based Organization | [PDF](pdf/reports/R46143v7-2026-10-28-1cbc960598e6e621.pdf) | [Markdown](markdown/reports/R46143v7-2026-10-28-1cbc960598e6e621.md) |
 | 2026-10-28 | LSB11496 v1 | Delay in Changes to Hemp Definition: Cannabinoids Not Capable of Being Naturally Produced by the Cannabis Plant | [PDF](pdf/sidebars/LSB11496v1-2026-10-28-47cf7685a3c8ab95.pdf) | [Markdown](markdown/sidebars/LSB11496v1-2026-10-28-47cf7685a3c8ab95.md) |
+| 2026-10-28 | IF13339 v2 | Time Capsules for the Semiquincentennial of the Signing of the Declaration of Independence | [PDF](pdf/in-focus/IF13339v2-2026-10-28-7c58c78075deee19.pdf) | [Markdown](markdown/in-focus/IF13339v2-2026-10-28-7c58c78075deee19.md) |
 | 2026-10-28 | IF13339 v1 | Time Capsules for the Semiquincentennial of the Signing of the Declaration of Independence | [PDF](pdf/in-focus/IF13339v1-2026-10-28-da586e6c618a5eff.pdf) | [Markdown](markdown/in-focus/IF13339v1-2026-10-28-da586e6c618a5eff.md) |
 | 2026-10-28 | IF12114 v2 | Farm Bill Primer: PLC and ARC Farm Support Programs | [PDF](pdf/in-focus/IF12114v2-2026-10-28-98c598e50278ca04.pdf) | [Markdown](markdown/in-focus/IF12114v2-2026-10-28-98c598e50278ca04.md) |
+| 2026-10-28 | IF10293 v18 | Foreign Relations Reauthorization: Background and Issues | [PDF](pdf/in-focus/IF10293v18-2026-10-28-2150f8b02c109111.pdf) | [Markdown](markdown/in-focus/IF10293v18-2026-10-28-2150f8b02c109111.md) |
 | 2026-10-28 | IF10293 v17 | Foreign Relations Reauthorization: Background and Issues | [PDF](pdf/in-focus/IF10293v17-2026-10-28-918951824490c042.pdf) | [Markdown](markdown/in-focus/IF10293v17-2026-10-28-918951824490c042.md) |
 | 2026-10-27 | R43397 v37 | Legislative Branch Appropriations: Frequently Asked Questions | [PDF](pdf/reports/R43397v37-2026-10-27-86faf7b42f66156b.pdf) | [Markdown](markdown/reports/R43397v37-2026-10-27-86faf7b42f66156b.md) |
 | 2026-10-27 | LSB11495 v1 | Congressional Court Watcher: Circuit Splits from August 2026 | [PDF](pdf/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.pdf) | [Markdown](markdown/sidebars/LSB11495v1-2026-10-27-a320b1d27cee12e5.md) |
@@ -26,6 +31,7 @@ Publication-date window (inclusive): **2026-10-23 to 2026-10-30**. Older archive
 | 2026-10-27 | LSB11340 v2 | Environmental Justice and Title VI of the Civil Rights Act of 1964 | [PDF](pdf/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.pdf) | [Markdown](markdown/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.md) |
 | 2026-10-27 | IN12598 v7 | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | [PDF](pdf/insights/IN12598v7-2026-10-27-602892f8ec5fb756.pdf) | [Markdown](markdown/insights/IN12598v7-2026-10-27-602892f8ec5fb756.md) |
 | 2026-10-27 | IN12598 v5 | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | [PDF](pdf/insights/IN12598v5-2026-10-27-c7c240b4e7c80722.pdf) | [Markdown](markdown/insights/IN12598v5-2026-10-27-c7c240b4e7c80722.md) |
+| 2026-10-27 | IF13338 v3 | Social Security Coverage for Members of the Clergy | [PDF](pdf/in-focus/IF13338v3-2026-10-27-69467f5e996156d2.pdf) | [Markdown](markdown/in-focus/IF13338v3-2026-10-27-69467f5e996156d2.md) |
 | 2026-10-27 | IF13338 v2 | Social Security Coverage for Members of the Clergy | [PDF](pdf/in-focus/IF13338v2-2026-10-27-e9299dc2ec38cc27.pdf) | [Markdown](markdown/in-focus/IF13338v2-2026-10-27-e9299dc2ec38cc27.md) |
 | 2026-10-27 | IF13336 v4 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v4-2026-10-27-18e59bf5776e5c4b.pdf) | [Markdown](markdown/in-focus/IF13336v4-2026-10-27-18e59bf5776e5c4b.md) |
 | 2026-10-27 | IF11780 v11 | United Nations Issues: Overview of the United Nations System | [PDF](pdf/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.pdf) | [Markdown](markdown/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.md) |
