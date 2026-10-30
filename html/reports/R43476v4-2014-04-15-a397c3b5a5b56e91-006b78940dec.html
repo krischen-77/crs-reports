@@ -1,0 +1,712 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R43476.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Returning to Full Employment: <br xmlns:ns2="http://schemas.microsoft.com/vsto/samples"/>What Do the Indicators Tell Us?</div>
+<div class="CoverDate">Updated April 15, 2014
+            (R43476)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc1645482"><span class="Hyperlink">Labor Market Conditions During the Great Recession and Current Recovery</span></a></li>
+<li class="TOC2"><a href="#_Toc1645483"><span class="Hyperlink">Contraction and Recovery in the Labor Market as Measured by Unemployment and Employment</span></a></li>
+<li class="TOC2"><a href="#_Toc1645484"><span class="Hyperlink">The Labor Force Participation Rate Has Continued to Fall During the Recovery</span></a></li>
+<li class="TOC2"><a href="#_Toc1645485"><span class="Hyperlink">The Labor Market Experience of Selected Groups</span></a></li>
+<li class="TOC3"><a href="#_Toc1645486"><span class="Hyperlink">Long-Term Unemployment</span></a></li>
+<li class="TOC3"><a href="#_Toc1645487"><span class="Hyperlink">Youth Employment and Unemployment</span></a></li>
+<li class="TOC3"><a href="#_Toc1645488"><span class="Hyperlink">Alternative Measurements of Labor Underutilization</span></a></li>
+<li class="TOC1"><a href="#_Toc1645489"><span class="Hyperlink">A Rising Natural Rate of Unemployment?</span></a></li>
+<li class="TOC1"><a href="#_Toc1645490"><span class="Hyperlink">Macroeconomic Policy Implications</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc1645479"><span class="Hyperlink">Figure 1. Average Monthly Employment Growth</span></a></li>
+<li><a href="#_Toc1645480"><span class="Hyperlink">Figure 2. Unemployment and Labor Force Participation</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc1645481"><span class="Hyperlink">Table 1. Studies Explaining the Decline in the Labor Force Participation Rate</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Until recently, the economy and labor market were experiencing an unusually slow recovery from the longest and deepest recession since the Great Depression compared to other expansions since World War II. The rapid decline in the unemployment rate from 7.9% in January to 6.7% in December 2013 (where it remained in the first quarter of 2014) would seem to indicate that the labor market is returning to normal. The current unemployment rate is only 0.5 to 1.5 percentage points higher than the consensus range of full employment.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unusually, the unemployment rate may not currently be a good proxy for the overall state of the labor market or economy. Some of the decline in the unemployment rate in 2013 is attributable to a recovery in employment, but some is attributable to workers dropping out of the labor force. The labor force participation rate has continued to fall during the recovery and is at its lowest level since the 1970s. In fact, it has fallen more in the past five years than at any time since data have been collected. Studies have identified multiple reasons for the decline. Some workers have left the labor force because they have become discouraged and given up on seeking employment. Others have left for reasons stemming from long-term trends that are unrelated to the recession, such as age or enrollment in school or training. This trend could reverse—for example, more workers returned to the labor force than found jobs in the first quarter of 2014, which prevented the unemployment rate from falling. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Other evidence also points to more slack in the economy than the headline unemployment rate suggests. Economic output and employment have grown since mid-2009 and 2010, respectively, but at relatively sluggish rates. The long-term unemployment rate and youth unemployment rates have fallen only modestly since the recession ended and are still at historically high levels. Inflation has remained slightly lower than the Federal Reserve's (Fed's) goal of 2%.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These other economic indicators could be sending a misleading signal about significant slack in the economy, however, if the economy's potential capacity has been eroded by structural changes or by the length and depth of the Great Recession. Cyclical deterioration in the U.S. labor market is usually considered temporary—recessions are thought to have no lasting effect on overall employment and unemployment rates. This recession could cause a departure from conventional wisdom if labor market problems that started as cyclical persisted so long that they became structural. For example, long-term unemployment could have caused workers' skills to erode, which would then prevent them from finding a job when the economy recovered. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress conducts fiscal policy and oversees the Fed's implementation of monetary policy, the two tools of macroeconomic stabilization. Policy makers are grappling with the transition from the highly expansionary monetary and fiscal policy put in place during the Great Recession. Many economists advocate reducing the budget deficit only when the economy is at or near full employment. Likewise, the Fed has stated that it would begin to raise interest rates once the economy is near full employment. If the economy remains far from full employment, then declining unemployment would not yet call for a tightening of monetary and fiscal policy. Alternatively, if lower unemployment is being driven by a cyclical upswing and the economy is now closer to full employment than historical experience would predict, policy would likely need to be tightened sooner in order to avoid rising inflation. It would also suggest that structural policies (e.g., those that increase the incentives to hire, seek work, delay retirement, or train) would be more effective at improving labor market conditions than counter-cyclical monetary and fiscal policies.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span style="float: left;                       width: 0.75em;                       font-size: 400%;                       line-height: 80%;">T</span>he unemployment rate declined markedly in 2013, to 6.7% in December from 7.9% in January, seeming to signal that the labor market is approaching full employment. Other economic and labor market indicators paint a more pessimistic picture, however. For example, the decline in the unemployment rate was caused in part by workers dropping out of the labor force. The labor force participation rate has fallen to under 63% at the end of 2013 from 66% before the recession. Understanding this divergence is crucial for an accurate assessment of the current state of the economic recovery and of how close the economy is to full employment. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report analyzes recent trends in labor market indicators during the current economic recovery, with a particular focus on the contrast between the unemployment rate and other labor market indicators.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="For an overall analysis of the economic recovery, see CRS Report R41332, Economic Recovery: Sustaining U.S. Economic Growth in a Post-Crisis Economy , by Craig K. Elwell .">1</a></sup> It reviews studies that have sought to determine how much of the decline in the labor force participation rate is caused by the recession and how much is caused by structural factors, such as the aging of the labor force. It then considers whether the economy might reach full employment at a higher rate of unemployment compared to recent expansions.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="This issue is analyzed in greater depth in CRS Report R41785, The Increase in Unemployment Since 2007: Is It Cyclical or Structural? , by Craig K. Elwell .">2</a></sup> It concludes by analyzing the implications of these developments for macroeconomic stabilization policy, as policy makers grapple with the transition from the expansionary fiscal and monetary policy put in place during the "Great Recession." If the labor market has experienced structural changes, it would also have implications for labor market and other microeconomic policies (e.g., spending or tax provisions that increase the incentives to hire, seek work, delay retirement, or train), which are beyond the scope of this report.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc385417441"></a><a name="_Toc1645371"></a><a name="_Toc1645482"></a>Labor Market Conditions During the<br/>Great Recession and Current Recovery</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc385417442"></a><a name="_Toc1645372"></a><a name="_Toc1645483"></a>Contraction and Recovery in the Labor Market<br/>as Measured by Unemployment and Employment </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The most recent recession, often referred to as the Great Recession, caused the unemployment rate to rise to 10.0% in October 2009 from 4.4% in May 2007.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='Recessions are determined by the National Bureau of Economic Research. It defines a recession as "a significant decline in economic activity [that] spreads across the economy and can last from a few months to more than a year." See National Bureau of Economic Research, Statement of the NBER Business Cycle Dating Committee on the Determination of the Dates of Turning Points in the U.S. Economy , webpage, http://www.nber.org/cycles/general_statement.html .'>3</a></sup> That increase was the largest since the Great Depression, and only the second time that unemployment has reached double digits since the Great Depression.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="The first time was from 1982 to 1983, when unemployment peaked at 10.8%.">4</a></sup> The recession caused the economy to move far below full employment. Full employment is the concept that all of the economy's labor and capital resources are in use—there is little idle capacity and unemployment is at its natural rate (defined in the text box below). At its peak, the unemployment rate was 4.3 percentage points above the Congressional Budget Office's (CBO's) estimate of the natural rate of unemployment, the second highest level reached since 1949.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="CBO data available at http://cbo.gov/publication/45068 .">5</a></sup> The number of workers employed fell by 8.7 million during and after the recession, from a peak of 138.4 million in January 2008 to a low of 129.7 million in February 2010.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style=""><br/>What Is the Natural Rate of Unemployment?</p>
+<p class="TableText" style="">The unemployment rate follows a predictable cyclical pattern—it trends down when the economy is growing, and it trends up when the economy is in recession. It never reaches zero, however, as there will always be some people moving between jobs at any given time, even when the economy is booming. This has led economists to posit that there is a <em>natural rate of unemployment</em> that the economy gravitates to when the economy is at full employment. At any point in time, the actual unemployment rate consists of a cyclical component and the underlying natural rate. The unemployment rate may briefly decline below the natural rate, but economic theory predicts that this will trigger rising inflation, as it is indicative of an overheating economy.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Therefore, economists sometimes refer to the natural rate as the non-accelerating inflation rate of unemployment (NAIRU) or the full employment rate of unemployment.">6</a></sup></p>
+<p class="TableText" style="">Because the natural rate of unemployment is a theoretical construct, it cannot be observed directly and must be inferred. Different economists have different estimates, but the consensus falls within a relatively narrow range. For example, the Federal Reserve governors and regional bank presidents estimate a natural rate of 5.2% to 6.0%.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Fed estimates are available at http://federalreserve.gov/monetarypolicy/files/fomcprojtabl20131218.pdf .">7</a></sup> CBO estimates that the natural rate has currently been elevated to 6.0%, but will eventually return to 5.5%.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="CBO data available at http://cbo.gov/publication/45068 .">8</a></sup> In the FY2015 President's budget, the Office of Management and Budget projected an unemployment rate of 5.4% in the out years of the budget window. (By comparison, the <em>actual</em> unemployment rate ranged from 4.4% to 4.7% at the end of the previous economic expansion.) The natural rate may vary over time, and the question of whether it has recently risen is discussed in the section below entitled "<a class="InternalLink" href="#_Ref384890522">A Rising Natural Rate of Unemployment?</a>"</p>
+<p class="TableText" style="">For background on the natural rate, see CRS Report RL30391, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=RL30391"><em>Inflation and Unemployment: What is the Connection?</em></a>, by Brian W. Cashell.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The unusually deep recession has been followed by an unusually slow recovery. Although the recession officially ended in June 2009, the <em>unemployment rate</em> continued to rise until October 2009, and showed no marked decline until the second quarter of 2010. It has fallen in spurts since. Overall, the unemployment rate has fallen more gradually than in other recoveries since World War II. After 18 quarters of recovery and counting, the unemployment rate is still above what most economists believe to be the natural rate of unemployment. Only the 1980s recovery faced a comparably long return to full employment, nearing full employment after 19 quarters.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="CRS calculations based on CBO data.">9</a></sup> And, because the unemployment rate was so high at its peak in the Great Recession and has fallen slowly, it has been at historically high levels for most of the recovery. In 2012, three years into the recovery, it averaged 8.1%, which was a higher unemployment rate than experienced during all except the two deepest recessions between 1948 and 2001.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another method to gauge the pace of labor market improvement is to count the number of months until <em>total employment</em> returned to its pre-recession peak level. In every recession since World War II through the 1990s, employment surpassed its previous peak in less than a year and a half. After the 2001 recession, it took over three years. After six years, employment today has still not returned to its peak level in January 2008 of 138.4 million workers. Since the non-elderly adult population is expanding by over one million each year, in order to return to full employment, the number of people employed should not only return to its former peak, but surpass it. One study put the economy at 10 million jobs short of full employment in mid-2009.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='Christopher Erceg and Andrew Levin, "Labor Force Participation and Monetary Policy in the Wake of the Great Recession," International Monetary Fund, working paper no. 13/245, December 2013, p. 20, available at http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf .'>10</a></sup> CBO estimated that the economy was still 6 million jobs short of full employment at the end of 2013.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Congressional Budget Office, The Slow Recovery of the Labor Market , February 2014, p. 1, available at http://www.cbo.gov/publication/45011 .">11</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Employment has not returned to its peak because the decline in employment during the recession was so great, and because the rate of employment growth during the recovery has been relatively tepid compared to other recoveries, particularly those that followed deep recessions. <a class="InternalLink" href="#_Ref383616681"><strong></strong><strong>Figure 1</strong></a> shows that the average monthly job loss was much greater from 2008 to 2010 than in the three preceding episodes (1982, 1991, 2002 to 2003), where recessions caused employment to fall. It also shows that average monthly job growth in this recovery was much lower than in the 1980s or 1990s expansions, and comparable to the 2000s expansion, even though far fewer jobs were lost in 2002 and 2003. </p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref383616681"></a><a name="_Toc385417437"></a><a name="_Toc1645368"></a><a name="_Toc1645479"></a>Figure 1. Average Monthly Employment Growth</p>
+<p class="FigureSubTitle">1982 to 2013</p>
+</td>
+</tr>
+<tr>
+<td><img alt="" class="Figure" src="" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:NaNpt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Bureau of Labor Statistics, Current Employment Statistics.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The <em>unemployment rate</em> fell relatively rapidly in 2013, to 6.7% in December from 7.9% in January. It has remained around that level in the first quarter of 2014. If the natural rate of unemployment is between 5.2% and 6.0%, then unemployment moved from well above the natural rate at the beginning of 2013 to within about a half of a percentage point of the high end of the estimated range by the end of 2013.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title='Precisely how close the current unemployment rate is to the natural rate depends on whether the natural rate has increased in recent years—an issue discussed in the section below entitled " A Rising Natural Rate of Unemployment? "'>12</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><br/>The relatively rapid decline in the unemployment rate in 2013 was not matched by consistently rapid <em>job growth</em>, however. (For an explanation of how these data are measured, see the following text box.) The number of unemployed workers declined by a monthly average of 160,000 per month in 2013. According to CPS data, job growth averaged 115,000 per month in 2013, lower than in 2011 or 2012.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="CPS data accessed in February 2014, available at http://data.bls.gov/pdq/querytool.jsp?survey=ln . According to the CES, job growth averaged 194,000 per month in 2013, slightly higher than in 2011 and 2012. As noted above, unemployment data cannot be directly compared to employment data from the CES. CES data accessed in February 2014, available at http://data.bls.gov/pdq/querytool.jsp?survey=ce .">13</a></sup> Unemployment declined faster than employment grew in 2013 because an average of 45,000 workers exited the labor force each month. In normal economic expansions, the labor force grows along with the population. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style="">How Are Unemployment and Employment Measured?</p>
+<p class="TableText" style="">The Bureau of Labor Statistics has two separate measures of employment. The Current Employment Statistics survey (CES, "payroll survey") measures employment based on a survey of employers, and the Current Population Survey (CPS, "household survey") measures employment based on a survey of households. Both measures are official, but the Current Employment Statistics survey is generally the preferred source of data on employment because it has the larger, more robust sample. There are some definitional differences between the two surveys. For example, the CPS includes the self-employed, but the CES does not. For the CES, workers are considered employed if they are "on establishment payrolls employed full- or part-time who received pay (whether they worked or not) for any part of the pay period that includes the 12<sup>th</sup> day of the month."</p>
+<p class="TableText" style="">Unemployment and other labor force measures can only be measured through the CPS, however—the CES, based on payroll records, provides no information on the unemployed or those who have left the labor force. As a result, discussions of what is driving the unemployment rate can only be based on the CPS, although this is not the preferred source of employment data. Workers are considered unemployed "if they do not have a job, have actively looked for work in the prior 4 weeks, and are currently available for work." The labor force consists of employed and unemployed workers. If workers would like a job, but are not actively seeking employment, they are not counted as unemployed; rather, they are considered out of the labor force. Labor force data are typically reported for the population 16 years and older. The unemployment rate is expressed as a percentage of the labor force, not the population.</p>
+<p class="TableText" style="">Because the two surveys use different samples and concepts, they report different rates of job growth on a month-to-month basis. These differences tend to average out over longer periods of time. In 2013, employment increased by 2.3 million according to the CES and by 1.5 million according to the CPS.</p>
+<p class="TableText" style=""><strong>Source:</strong> Bureau of Labor Statistics, <em>Frequently Asked Questions</em>, <a class="ExternalLink" href="http://www.bls.gov/ces/cesfaq.htm"><span class="Hyperlink">http://www.bls.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">ces/</span><span class="Hyperlink"></span><span class="Hyperlink">cesfaq.htm</span></a> and <a class="ExternalLink" href="http://www.bls.gov/cps/faq.htm"><span class="Hyperlink">http://www.bls.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">cps/</span><span class="Hyperlink"></span><span class="Hyperlink">faq.htm</span></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Any interpretation of the current health of the economic recovery must explain why 45,000 workers left the labor force each month in 2013, and why over 3% of the population has left the labor force since 2008, as shown in <a class="InternalLink" href="#_Ref383617045"><strong></strong><strong>Figure 2</strong></a>—the topic of the next section.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref383617045"></a><a name="_Toc385417438"></a><a name="_Toc1645369"></a><a name="_Toc1645480"></a>Figure 2. Unemployment and Labor Force Participation</p>
+<p class="FigureSubTitle">1948 to 2014</p>
+</td>
+</tr>
+<tr>
+<td><img alt="" class="Figure" src="" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:NaNpt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Bureau of Labor Statistics, Current Population Survey.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc385417443"></a><a name="_Toc1645373"></a><a name="_Toc1645484"></a>The Labor Force Participation Rate Has Continued to Fall During the Recovery</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The labor force participation rate (LFPR) is the share of the population that is employed or unemployed. As can be seen in <a class="InternalLink" href="#_Ref383617045"><strong></strong><strong>Figure 2</strong></a>, the LFPR hovered around 59% from after World War II to the late 1960s. It then experienced a long upward trend primarily because of the increased participation of women in the labor force, peaking at 67% in the late 1990s. Following the 2001 recession, it fell to 66%, where it remained until the Great Recession began.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='This period is analyzed in Robert Moffitt, "The Reversal of the Employment-Population Ratio in the 2000s," Brookings Papers on Economic Activity , Fall 2012, available at http://www.brookings.edu/~/media/Projects/BPEA/Fall%202012/2012b_Moffitt.pdf .'>14</a></sup> Since 2008, it has continued to fall, and stood at 62.8% at the end of 2013.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This decline is unprecedented. Since World War II, the participation rate has never before fallen significantly in an expansion and has exhibited only modest cyclicality<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='One study characterizes the labor force participation rate as "weakly pro-cyclical." See Willem Van Zandweghe, "Interpreting the Recent Decline in Labor Force Participation," Federal Reserve Bank of Kansas City, Economic Review , First Quarter 2012, p. 9, available at http://www.kc.frb.org/publicat/econrev/pdf/12q1VanZandweghe.pdf .'>15</a></sup>—it declined by less than one percentage point during the 1980, 1991-1992, and 2001 recessions, and did not decline in the others. (If all workers who lost their jobs in a recession became unemployed (according to the official definition), the labor force participation rate would not change, all else being equal.) According to one study: "In the four years [2007-2011] since the start of the recent recession, the LFPR has declined faster than in any preceding four-year period on record."<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Willem Van Zandweghe, "Interpreting the Recent Decline in Labor Force Participation," Federal Reserve Bank of Kansas City, Economic Review , First Quarter 2012, p. 7, available at http://www.kc.frb.org/publicat/econrev/pdf/12q1VanZandweghe.pdf .'>16</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While the long-term upward trend in the LFPR until 2000 was dominated by the entry of women into the work force, the recent recession caused both male and female participation to decline. The female participation rate experienced a nearly uninterrupted ascent to 60.0% in 2000 from 32.7% in 1948. Since, it has fallen to 57.2% in 2013 from 59.5% in 2008. By contrast, the long-term trend in the male participation rate has been downward in the post-war period, falling to 73.0% in 2008 from 86.6% in 1948. The decline has been particularly rapid since 2008, however, falling to 69.7% in 2013—the lowest level ever recorded. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Viewed by age cohort, the LFPR decline has been concentrated among prime age adults (age 25 to 54) and particularly among youth (age 16 to 24), whose participation rate has fallen by more than ten percentage points since 2000.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='For more information, see the section below entitled " Youth Employment and Unemployment ."'>17</a></sup> By contrast, the participation rate of older workers (age 55 and older) rose from the late 1990s through 2009, the last year of the recession; it has since levelled off. There are different theories as to why the participation rate of older workers would be higher than before the recession while it fell for other age cohorts. One hypothesis is that older workers have postponed retirement because of the decline in wealth caused by the housing and financial crises.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title='Hui Shan and Jari Stehn, "Young vs. Old as Drivers of Labor Force Participation," Goldman Sachs U.S. Daily Newsletter , February 11, 2014.'>18</a></sup> Another hypothesis is that the LFPR of older workers has not fallen because the cohort of women recently turning age 55 has a much higher labor force participation rate than earlier cohorts of women when they turned age 55; however, the LFPR for older men has also risen.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='Heidi Shierholz, "Most of the Decline in Labor Force Participation in the Last Six Years is Cyclical," The Economic Policy Institute Blog , February 21, 2014, available at http://www.epi.org/blog/decline-labor-force-participation-years/  .'>19</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The implications of the decline in the LFPR for an assessment of the health of the economic recovery depend on why workers are leaving the labor force. Workers can leave for various reasons, including retirement, injury or illness, family reasons, study or training, or because they have become discouraged and stopped looking for a job. As noted above, once workers stop looking for a job, they are no longer officially counted as unemployed.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Why did the LFPR fall so much during the recession and why is it still falling in the recovery? It could be cyclical, caused by the Great Recession, or it could be structural, caused by long-term forces unrelated to the recession. If the latter, these structural factors would reduce growth in the economy's potential output, rather than be a symptom of weak economic growth. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Several recent studies (which are compared in <a class="InternalLink" href="#_Ref383002364"><strong></strong><strong>Table 1</strong></a>) have attempted to identify the causes of the decline in the participation rate.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Attempts to explain a phenomenon after it occurs are vulnerable to problems of confusing correlation with causality . As a check against this, it is interesting to note that, in its 2007 projection, BLS projected the labor force participation rate would fall by only 0.3 percentage points by 2012. According to one study, the BLS projections were accurate for older workers, but did not predict any decline in the participation rate of prime age workers or as large a decline in young workers. See...">20</a></sup> All studies found that the decline has been caused by both structural and cyclical factors, although the relative importance of the two factors varied across studies. All of these studies agree that the aging of the population is a structural factor behind the recent decline—as more "baby boomers" move out of the prime working age cohorts, into older cohorts, they are retiring.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="Although the participation rate of older workers has not fallen, since there are relatively more older workers and their participation rate is relatively lower than that of prime age workers, the overall participation rate has fallen. One criticism of some of these studies is that because they are not adjusting for the fact that baby boomer women have a higher participation rate than earlier cohorts, they are overestimating the contribution of demographics to the recent decline in the labor fo...">21</a></sup> Another cause of a declining LFPR has been an increase in workers claiming disability, who tend to be older workers.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='See Congressional Budget Office, The Slow Recovery of the Labor Market , February 2014, p. 11, available at http://www.cbo.gov/publication/45011 ; Christopher Erceg and Andrew Levin, "Labor Force Participation and Monetary Policy in the Wake of the Great Recession," International Monetary Fund, working paper no. 13/245, December 2013, pp. 17-18, available at http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf ; Morgan Stanley, "Explaining the Exodus in Labor Force...'>22</a></sup> Some studies also identified higher rates of school enrollment as another cause of the decline in the participation rate.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title='See Julie Hotchkiss, Melinda Pitts, and Fernando Rios-Avila, "A Closer Look at Nonparticipants During and After the Great Recession," Federal Reserve Bank of Atlanta, working paper no. 2012-10, August 2012, available at http://www.frbatlanta.org/documents/pubs/wp/wp1210.pdf ; and Hui Shan and Jari Stehn, "Young vs. Old as Drivers of Labor Force Participation," Goldman Sachs U.S. Daily Newsletter , February 11, 2014.'>23</a></sup> But the studies found that these factors cannot account for the entire drop in the participation rate, and the studies attribute the rest of the decline to cyclical factors.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='Goldman Sachs views the negative correlation between employment growth and labor force participation at the state level as evidence that the decline is cyclical. See David Mericle, "A State-Level Look at Declining Labor Force Participation," Goldman Sachs U.S. Daily Newsletter , April 17 2013.'>24</a></sup> The increase in workers classified by BLS as discouraged or marginally attached to the labor force, from about 1% of the labor force before the recession to 1.5% of the labor force since, is further evidence that some of the recent decline in the participation rate is cyclical.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="Individuals who are discouraged or marginally attached to the labor force are not included in the official definition of unemployment.">25</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref383002364"></a><a name="_Toc385417439"></a><a name="_Toc1645370"></a><a name="_Toc1645481"></a>Table 1. Studies Explaining the Decline in the Labor Force Participation Rate</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:67.1328pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Study</p>
+</td>
+<td style="width:78.7104pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Period Covered</p>
+</td>
+<td style="width:109.5552pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Cyclical or Structural?</p>
+</td>
+<td style="width:65.92320000000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Methods</p>
+</td>
+<td style="width:110.6784pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Notes</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Erceg/Levin</p>
+</td>
+<td style="width:78.7104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2007 to early 2013</p>
+</td>
+<td style="width:109.5552pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">25% of 2.5 pp overall decline is structural, 75% is cyclical; 100% of 2 pp decline is cyclical for ages 25-54.</p>
+</td>
+<td style="width:65.92320000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">state level data; reweighting of age cohorts</p>
+</td>
+<td style="width:110.6784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">CBO</p>
+</td>
+<td style="width:78.7104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">end of 2007 to end of 2013</p>
+</td>
+<td style="width:109.5552pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.5 pp due to structural trends, 1 pp cyclical and temporary, 0.5 pp caused by recession and permanent.</p>
+</td>
+<td style="width:65.92320000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">not available</p>
+</td>
+<td style="width:110.6784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Structural is attributed primarily to aging of population; increased disability claimants and early retirements are classified as caused by recession and permanent.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Aaronson et al.</p>
+</td>
+<td style="width:78.7104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2000 to end of 2011</p>
+</td>
+<td style="width:109.5552pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.2 pp decline structural, 1.5 pp other.</p>
+</td>
+<td style="width:65.92320000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">demographic microdata </p>
+</td>
+<td style="width:110.6784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Age 16 to 79. "Other" could be cyclical; of structural, 0.8 pp chg in age distribution, 0.4 pp chg in gender share or educational attainment.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Aaronson et al.</p>
+</td>
+<td style="width:78.7104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2008 to end of 2011</p>
+</td>
+<td style="width:109.5552pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">25% of 1.8 pp decline is structural, 75% other.</p>
+</td>
+<td style="width:65.92320000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">demographic microdata</p>
+</td>
+<td style="width:110.6784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Age 16 to 79. "Other" could be cyclical.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Hotchkiss et al.</p>
+</td>
+<td style="width:78.7104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2008 to end of 2011</p>
+</td>
+<td style="width:109.5552pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Increase in "Schooling" and "Other" as reasons given for leaving LF for age 25-54 and increase in "Other" category for age 16 to 24.</p>
+</td>
+<td style="width:65.92320000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">questionnaire on reasons for leaving LF</p>
+</td>
+<td style="width:110.6784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Questionnaire includes discouraged workers in "Other" category. Authors believe that "Schooling" and "Other" categories are most likely to re-enter LF in the future. No change in trend for age 55 and older. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Van Zandweghe</p>
+</td>
+<td style="width:78.7104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Dec. 2007 to Dec. 2011</p>
+</td>
+<td style="width:109.5552pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">A = half of 2 pp decline is attributable to shift in age distribution; B = 1.1 pp due to cyclical downturn, 0.8 pp due to long-term trends.</p>
+</td>
+<td style="width:65.92320000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">A= demographic data; B = trend-cycle (Beveridge-Nelson) decomposition</p>
+</td>
+<td style="width:110.6784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Two methods are used to derive two separate estimates (A and B).</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Sherk</p>
+</td>
+<td style="width:78.7104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2007 to 2012</p>
+</td>
+<td style="width:109.5552pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">A = of 2.3 pp decline, reason for leaving was 0.8 pp retirement, 0.7 pp disability, 0.9 pp school, <br/>-0.2 pp family; B = demographic adjustment explains 0.6 pp; of remaining 1.7 pp, <br/>-0.6 pp retirement, 0.9 pp disability, 1.1 pp school, 0.1 pp other</p>
+</td>
+<td style="width:65.92320000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">questionnaire on reasons for leaving LF; demographic data</p>
+</td>
+<td style="width:110.6784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Two methods are used: A = questionnaire with no demographic adjustment; B = questionnaire with demographic adjustment. Retirement becomes negative after demographic adjustment b/c retirement rate has not gone up among older workers.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.1328pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Morgan Stanley </p>
+</td>
+<td style="width:78.7104pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Dec. 2007 to Dec. 2013</p>
+</td>
+<td style="width:109.5552pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Of 3.2 pp decline, 2.0 pp is demographic, 0.3 pp is disability, 0.4 pp is school enrollment, and 0.5 is other discouraged (residual). </p>
+</td>
+<td style="width:65.92320000000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">demographic data; data on disability and school enrollment</p>
+</td>
+<td style="width:110.6784pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Authors label disability as structural (permanent); schooling and other LF dropouts as cyclical (temporary).</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Sources: </strong>Erceg/Levin = Christopher Erceg and Andrew Levin, "Labor Force Participation and Monetary Policy in the Wake of the Great Recession," International Monetary Fund, working paper no. 13/245, December 2013; CBO = Congressional Budget Office, <em>The Slow Recovery of the Labor </em>Market, February 2014; Aaronson et al. = Daniel Aaronson et al., "Explaining the Decline in the U.S. Labor Force Participation Rate," Federal Reserve Bank of Chicago, <em>Chicago Fed Letter</em>, no. 296, March 2012, available at <a class="ExternalLink" href="http://www.chicagofed.org/digital_assets/publications/chicago_fed_letter/2012/cflmarch2012_296.pdf"><span class="Hyperlink">http://www.chicagofed.org/</span><span class="Hyperlink"></span><span class="Hyperlink">digital_assets/</span><span class="Hyperlink"></span><span class="Hyperlink">publications/</span><span class="Hyperlink"></span><span class="Hyperlink">chicago_fed_letter/</span><span class="Hyperlink"></span><span class="Hyperlink">2012/</span><span class="Hyperlink"></span><span class="Hyperlink">cflmarch2012_296.pdf</span></a>; Hotchkiss et al. = Julie Hotchkiss, Melinda Pitts, and Fernando Rios-Avila, "A Closer Look at Nonparticipants During and After the Great Recession," Federal Reserve Bank of Atlanta, working paper no. 2012-10, August 2012, available at <a class="ExternalLink" href="http://www.frbatlanta.org/documents/pubs/wp/wp1210.pdf"><span class="Hyperlink">http://www.frbatlanta.org/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">pubs/</span><span class="Hyperlink"></span><span class="Hyperlink">wp/</span><span class="Hyperlink"></span><span class="Hyperlink">wp1210.pdf</span></a>; Van Zandweghe = Willem Van Zandweghe, "Interpreting the Recent Decline in Labor Force Participation," Federal Reserve Bank of Kansas City, <em>Economic </em><em>Review</em>, First Quarter 2012, p. 5, available at <a class="ExternalLink" href="http://www.kc.frb.org/publicat/econrev/pdf/12q1VanZandweghe.pdf"><span class="Hyperlink">http://www.kc.frb.org/</span><span class="Hyperlink"></span><span class="Hyperlink">publicat/</span><span class="Hyperlink"></span><span class="Hyperlink">econrev/</span><span class="Hyperlink"></span><span class="Hyperlink">pdf/</span><span class="Hyperlink"></span><span class="Hyperlink">12q1VanZandweghe.pdf</span></a> ; Sherk = James Sherk, "Not Looking for Work," Heritage Foundation, Backgrounder, no. 2722, September 5, 2013, available at <a class="ExternalLink" href="http://www.heritage.org/research/reports/2013/09/not-looking-for-work-why-labor-force-participation-has-fallen-during-the-recession"><span class="Hyperlink">http://www.heritage.org/</span><span class="Hyperlink"></span><span class="Hyperlink">research/</span><span class="Hyperlink"></span><span class="Hyperlink">reports/</span><span class="Hyperlink"></span><span class="Hyperlink">2013/</span><span class="Hyperlink"></span><span class="Hyperlink">09/</span><span class="Hyperlink"></span><span class="Hyperlink">not-looking-for-work-why-labor-force-participation-has-fallen-during-the-recession</span></a>; Morgan Stanley = Morgan Stanley, "Explaining the Exodus in Labor Force Participation," <em>U.S. Economics Newsletter</em>, January 29, 2014.</p>
+<p class="TableNote"><strong>Notes: </strong>All studies based on BLS data. Abbreviations and single words used in this table: pp = percentage point; chg = change; LF = labor force; schooling = left labor force to enter training or school; other = left labor force for reasons not otherwise identified.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While these studies have categorized reasons for leaving the labor force as either cyclical or structural, both reasons can cause a person to leave the labor force. Cyclical considerations are sometimes a contributing factor to an individual's decision to leave the labor force for reasons assumed to be structural (retirement, disability,<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='One study argues that the increase in disability claimants is structural and not cyclical because the long-term upward trend in claimants showed no acceleration during or since the Great Recession. Dave Reifschneider, William Wascher, and David Wilcox, "Aggregate Supply in the United States," working paper presented at the International Monetary Fund research conference, November 7, 2013, p. 23, available at https://www.imf.org/external/np/res/seminars/2013/arc/pdf/wilcox.pdf . Anothe...'>26</a></sup> or school enrollment)—when job prospects are poor, the alternatives to working become relatively more attractive. For example, if a worker returned to school to switch careers, this could be considered structural, but if a worker returned to school because there was temporarily no work available, this could be considered cyclical.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the LFPR has not been cyclical in the past, that does not rule out a cyclical decline since 2007 due to the unusual severity of the recent recession and the weakness of the recovery. If some of the decline in the participation rate is cyclical, that portion would be expected to be reversed in the coming years. Counterintuitively, an improving recovery could potentially result in a higher unemployment rate if workers return to the labor force faster than positions are created or filled. This explains why the unemployment rate did not fall in the first quarter of 2014—more people entered the labor force than gained employment, leading to an increase in the number of people unemployed.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="The increase in the numerator (number unemployed) and denominator (number in the labor force) left the unemployment rate unchanged.">27</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Workers who take early retirement or claim disability benefits are characterized across studies as likely to remain outside the labor force permanently.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="According to Social Security Administration data, among individuals who had their disability benefits terminated in 2012, about 90% had benefits terminated because they either died or reached federal retirement age. U.S. Social Security Administration, Annual Statistical Supplement , 2013 Table 6.F2, available at http://www.ssa.gov/policy/docs/statcomps/supplement/2013/6f.html#table6.f2 .">28</a></sup><span class="FootnoteReference"> </span>CBO attributes 0.5 percentage points of the decline to people who left the labor force because of the recession and are unlikely to return.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="Congressional Budget Office, The Slow Recovery of the Labor Market , Feb. 2014, p. 11, available at http://www.cbo.gov/publication/45011 .">29</a></sup> A challenge for policy makers is to encourage and support the re-entry into the labor force of workers who left involuntarily (e.g., because they lost their job) as the job market strengthens.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc385417444"></a><a name="_Toc1645374"></a><a name="_Toc1645485"></a>The Labor Market Experience of Selected Groups</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Recovery in the labor market has been uneven. Some groups have lower employment and higher unemployment rates than the overall labor force, and these groups have experienced a weaker rebound during the economic recovery than the overall labor force. Their experience points to areas of continued labor market weakness that are masked by the improvement in the overall unemployment rate.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc385417445"></a><a name="_Toc1645375"></a><a name="_Toc1645486"></a>Long-Term Unemployment</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage of workers who are unemployed long-term (defined by BLS as 27 weeks or more) rose to 4.3% of all workers in the second quarter of 2010 from 0.8% in 2007—the highest rate recorded since data were first collected in 1948. It then fell to 2.6% at the end of 2013; despite the decline, it remained higher than at any point from 1948 to 2008.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="Congressional Budget Office, The Slow Recovery of the Labor Market , February 2014, p. 2, available at http://www.cbo.gov/publication/45011 .">30</a></sup> In 2013, the percentage of unemployed workers who were unemployed long-term was 37.6%, up from 17.6% in 2007 and higher than at any time before 2008. The long-term unemployed are less likely to find work and more likely to leave the labor force than the short-term unemployed; this difference in outcomes is greater during an expansion.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='Alan Krueger, Judd Cramer, and David Cho, "Are the Long-Term Unemployed on the Margins of the Labor Market?", Brookings Papers on Economic Activity , March 2014, available at http://www.brookings.edu/~/media/projects/bpea/spring%202014/2014a_krueger ; and Rand Ghayad, "The Jobless Trap," working paper, 2013, available at http://media.wix.com/ugd/576e9a_f6cf3b6661e44621ad26547112f66691.pdf .'>31</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref384995013"></a><a name="_Toc385417446"></a><a name="_Toc1645376"></a><a name="_Toc1645487"></a>Youth Employment and Unemployment</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Great Recession hit the young particularly hard. In 2010, employment rates were the lowest (45.0%) and unemployment rates were the highest (18.4%) on record for the 16 to 24 age group, with data going back to 1948.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="Labor force participation rates for ages 16 to 24 were the lowest ever recorded in 2012.">32</a></sup> Since then, the youth employment rate has improved only modestly—in contrast to previous recoveries—to 47.4% at the end of 2013; it remains lower than in any year between 1948 and 2008. The youth unemployment rate declined significantly in 2013, to 13.5% at the end of 2013, before increasing to 14.4% in February 2014. It nevertheless remains at a historically high level. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As discussed above, the youth labor force participation rate has not increased since the recession ended. According to one study, the most frequent reason given by youth for leaving the labor force was education/training, but that reason did not increase in relative frequency during the recession. The only category of reason for leaving the labor force that increased during that period was the "other" category, that is, people who did not give one of the survey's pre-identified reasons for leaving. The authors believe that individuals who gave these two reasons for leaving the labor force were most likely to re-enter in the future.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='Julie Hotchkiss, Melinda Pitts, and Fernando Rios-Avila, "A Closer Look at Nonparticipants During and After the Great Recession," Federal Reserve Bank of Atlanta, working paper no. 2012-10, Aug. 2012, p. 5, available at http://www.frbatlanta.org/documents/pubs/wp/wp1210.pdf . See also Joyce Kwok et al., "Labor Force Participation and the Future Path of Unemployment," Federal Reserve Bank of San Francisco, Economic Letter , no. 2010-27, September 13, 2010. This study found that "the perce...'>33</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc385417447"></a><a name="_Toc1645377"></a><a name="_Toc1645488"></a>Alternative Measurements of Labor Underutilization</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Bureau of Labor Statistics compiles six measures of labor underutilization based on varying categories of work status, one of which is the official unemployment rate (technically, it is referred to as the U-3). Two of these measures include fewer workers than the official unemployment rate and three include more. The broadest BLS measure of labor underutilization is called the U-6 measure, and it includes the unemployed, persons marginally attached to the labor force, and those employed part-time for economic reasons. Workers employed part-time for economic reasons account for most of the difference between the U-6 and U-3 historically. All of these measures follow a similar pattern—a sharp increase during the recession, followed by a slow and modest decline during the recovery. For example, U-6 peaked at 17.1% in the fourth quarter of 2009, and then fell to 13.3% in fourth quarter of 2013, which is higher than at any point from 1994 to before the financial crisis. According to the president of the Boston Fed: </p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While there is always a difference between U-3 and U-6, as there are always some marginally attached and part-time workers in the economy, the spread between the U-3 and U-6 measures of unemployment has increased dramatically since the start of the financial crisis.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='Eric Rosengren, "Labor Market Slack and Monetary Policy, speech before the Boston Economic Club, February 26, 2014, available at http://www.bostonfed.org/news/speeches/rosengren/2014/022614/022614text.pdf .'>34</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A high U-6 rate does not imply that the economy will not reach full employment until the U-6 declines to the natural rate. Conceptually, just as the actual U-6 is always higher than the actual U-3 (headline) unemployment rate, a natural rate for U-6 could be estimated that would be higher than the natural rate for U-3. The drawback to using U-6 data to measure the relative slack in the economy is that data go back only to 1994, so there is data covering only the last two recessions. This makes it difficult to ascertain whether the U-6 or U-3 is currently providing more accurate information on the state of the economy.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref384890522"></a><a name="_Ref384902055"></a><a name="_Toc385417448"></a><a name="_Toc1645378"></a><a name="_Toc1645489"></a>A Rising Natural Rate of Unemployment?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The slow decline in the unemployment rate and continued lack of employment opportunities for youth and the long-term unemployed in the current recovery have raised concerns that the natural rate of unemployment may have risen recently. In other words, there is a concern that when the economy returns to full employment, it will be at a higher unemployment rate than that obtained in prior expansions. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since the natural rate is defined as the underlying rate of unemployment once cyclical factors are removed, conventional economic theory posits that changes in the natural rate would be driven only by structural factors unrelated to the business cycle, such as demographics. An alternative theory that economists are now considering is that the natural rate of unemployment has permanently increased as a result of the depth and duration of the Great Recession and subsequent jobless recovery, and not because of any long-term structural causes.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title='See, for example, Brad Delong, "Hysteresis and the American Unemployment Problem," blog post, January 31, 2012, available at http://delong.typepad.com/sdj/2012/01/hysteresis-and-the-american-unemployment-problem.html ; Dave Reifschneider, William Wascher, and David Wilcox, "Aggregate Supply in the United States," working paper presented at the International Monetary Fund research conference, November 7, 2013, p. 22, available at https://www.imf.org/external/np/res/seminars/2013/ar...'>35</a></sup> Economists refer to this concept as "hysteresis." One reason that hysteresis might occur is because workers' skills erode during bouts of long-term unemployment, making them less employable going forward.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="Given the recent behavior of the unemployment and labor force participation rates, hysteresis could arguably be affecting the latter measure more than the former. As workers become discouraged and leave the labor force, they no longer exert upward pressure on the natural rate of unemployment because they are no longer officially unemployed. The atypically high rate of long-term unemployment provides a potential avenue for increased hysteresis in the LFPR if the long-term unemployed continue to...">36</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reaching a consensus on whether the protracted period of high unemployment was the result of temporarily inadequate aggregate demand, an upward shift in the natural rate of unemployment unrelated to the recession, or an upward shift caused by hysteresis will require more evidence—notably, how much further unemployment falls in the current expansion before inflation rises. In the past, there has been little evidence of hysteresis in the United States, but the phenomenon has been observed in parts of Europe.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='See Olivier Blanchard and Lawrence Summers, "Hysteresis in Unemployment," European Economic Review , vol. 31, no. 1/2, 1987, p. 288; and Laurence Ball, "Hysteresis in Unemployment: Old and New Evidence," National Bureau of Economic Research, working paper, no. 14818, March 2009.'>37</a></sup> That does not preclude hysteresis in this case, however, given the unusual depth and duration of the Great Recession and subsequent tepid recovery. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CBO has estimated that the natural rate of unemployment rose to 6% in 2013 from 5% in 2007.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="By comparison, the actual unemployment rate ranged from 4.4% to 4.7% at the end of the previous economic expansion.">38</a></sup> CBO attributed 0.5 percentage points of the increase to "the stigma of long-term unemployment," 0.5 percentage points to "a decrease in the efficiency with which employers filled vacancies," and 0.1 percentage points to "the incentives generated in 2013 by extensions of unemployment insurance benefits." CBO attributed the decrease in the efficiency of filling vacancies at least in part to mismatches between skills and openings, and expects the increase in the natural rate attributable to it to be temporary.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="Congressional Budget Office, The Slow Recovery of the Labor Market , February 2014, p. 7, available at http://www.cbo.gov/publication/45011 .">39</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Changes in the natural rate are not uncommon historically. For example, economists believe that it rose in the 1970s and fell in the 1990s. Estimated variations in the natural rate over time are typically modest, however. CBO has estimated that it has ranged from 5.0% to 6.3% since 1949.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="CBO data available at http://cbo.gov/publication/45068 .">40</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Evidence for and against a rise in the natural rate is presented in CRS Report R41785, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R41785"><em>The Increase in Unemployment Since 2007: Is It Cyclical or Structural?</em></a> If the natural rate has increased, it would mean that the economy is closer to full employment today than estimates based on the natural rate prevailing before the recession would suggest. If so, there are macroeconomic policy implications, which are discussed in the next section.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc385417449"></a><a name="_Toc1645379"></a><a name="_Toc1645490"></a>Macroeconomic Policy Implications</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Historically, the headline unemployment rate has been viewed as a simple, timely, and transparent indicator of the state of the economy. There are several other indicators of slack in the economy and the labor market, but, as long as those measures are relatively well correlated with the headline unemployment rate, as they typically are, the unemployment rate provides a simple rule-of-thumb gauge of how close the economy is to full employment.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title='According to one study: "A longstanding and well-established fact in labor economics is that the labor supply of prime-age and older adults has been essentially acyclical throughout the postwar period, while that of teenagers has been moderately procyclical.... Consequently, macroeconomists have largely focused on the unemployment rate as a business cycle indicator while abstracting from movements in labor force participation.... " Christopher Erceg and Andrew Levin, "Labor Force Participation...'>41</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Until recently, the economy was unambiguously operating far below full employment. By the end of 2013, the unemployment rate was coming within a percentage point of the mainstream range of the natural rate of unemployment. Were the recent pace of improvement in the unemployment rate to continue, unemployment could fall to the natural rate in the next year or two. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As this report has discussed, other indicators have diverged from the unemployment rate and suggest that significant slack remains in the economy. These include labor market indicators (e.g., modest employment growth and flat wages) and other indicators (e.g., the large output gap<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="The output gap is the difference between actual GDP and potential GDP. It is an attempt to quantify the slack in the economy relative to GDP and is independently estimated by various forecasters.">42</a></sup> and the low inflation rate). While most measures show the economy modestly improving since the recession ended, the labor force participation rate has continued to deteriorate over the course of the recovery. Studies have concluded that the participation rate has fallen partly for cyclical reasons and partly for structural reasons. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most economists believe the primary goal of short-term macroeconomic stabilization policy is to bring the economy back to full employment in a timely fashion and keep it there, while maintaining price stability. They believe "counter-cyclical" policy, which boosts growth when the economy is distressed and reins in growth when it is overheating, can be used to blunt the extremes of the business cycle. While there is consensus that policy can hypothetically achieve this goal, there is disagreement on the likelihood that appropriate policies will be chosen in reality, and whether the policies that are likely to be chosen could make matters worse. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Policy makers have two macroeconomic stabilization tools, fiscal policy and monetary policy, at their disposal. Congress is directly responsible for fiscal policy through its control of federal revenue and spending provisions. Congress has delegated the operation of monetary policy to the Federal Reserve, but exercises oversight.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the mainstream economic view, Congress can hasten economic recovery by increasing the budget deficit (fiscal stimulus).<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="For a recap of the use of fiscal policy since the recession, see CRS Report R41578, Unemployment: Issues in the 113 th Congress , by Jane G. Gravelle .">43</a></sup> But borrowing has long-term economic costs and inter-generational equity implications, and the benefits of fiscal stimulus decline as the economy approaches full employment. Thus, in choosing the appropriate fiscal policy, policy makers balance short-term considerations related to macroeconomic stabilization with long-term considerations about the costs of debt. A common view among economists is that the government should run deficits when the economy is far below full employment and balanced budgets or surpluses when the economy is near full employment. The deficit has already declined markedly from historically high levels in fiscal years 2009 to 2011, but a structural deficit remains that is projected to grow over time under current policy.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="Congressional Budget Office, The Budget and Economic Outlook , March 2014; Congressional Budget Office, The 2013 Long-Term Budget Outlook , September 2013. The budget deficit automatically grows when the economy falls below full employment and shrinks when the economy approaches full employment. The structural deficit is an estimate of the underlying deficit that remains when these cyclical factors are removed.">44</a></sup> Thus, many economists advocate further deficit reduction (fiscal austerity) as the economy nears full employment. This view has often been expressed as a prescription of deficit-reduction in the medium term (i.e., when the economy is near full employment), but not the short term.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="See, for example, I nternational M onetary F und, United States: 2013 Article IV Consultation , IMF Country Report, no. 13/236, July 2013, http://www.imf.org/external/pubs/ft/scr/2013/cr13236.pdf ; The National Commission on Fiscal Responsibility and Reform, The Moment of Truth , December 2010, p. 12, available at http://www.fiscalcommission.gov/sites/fiscalcommission.gov/files/documents/TheMomentofTruth12_1_2010.pdf . Macroeconomic stabilization reasons to delay defic...">45</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Likewise, the Fed has followed a policy of monetary stimulus since the financial crisis—reducing the federal funds rate to near zero and engaging in large-scale asset purchases—in an attempt to hasten a return to full employment.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="For more information, see CRS Report R42962, Federal Reserve: Unconventional Monetary Policy Options , by Marc Labonte .">46</a></sup> The Fed has already scaled back its asset purchases and has stated: "In determining how long to maintain the current 0 to 1/4 percent target range for the federal funds rate, the Committee will assess progress—both realized and expected—toward its objectives of maximum employment and 2 percent inflation."<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='Federal Reserve, "Federal Reserve Issues FOMC Statement," press release , March 19, 2014, http://federalreserve.gov/newsevents/press/monetary/20140319a.htm .'>47</a></sup> In other words, the Fed intends to raise interest rates only when it judges the economy to be closer to full employment.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The current unemployment rate would seemingly call for a near-term tightening of fiscal and monetary policy. For example, from December 2012 to January 2014, the Fed's announced policy was that it would keep interest rates "exceptionally low" at least until the unemployment rate reached 6.5%—which is close to current levels.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title='From January to March 2014, the Fed modified this language to read that "it likely will be appropriate to maintain the current ... federal funds rate well past the time that the unemployment rate declines below 6½%.... " Federal Reserve, "Federal Reserve Issues FOMC Statement," press release , January 29, 2014, available at http://federalreserve.gov/newsevents/press/monetary/20140129a.htm .'>48</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The preponderance of evidence suggests that the economy is not as close to full employment as the current unemployment rate might suggest. For that reason, the Fed decided in March 2014 to drop its threshold unemployment rate of 6.5% from its forward guidance of when it would raise interest rates.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title='Federal Reserve, "Federal Reserve Issues FOMC Statement," press release , March 19, 2014, available at http://federalreserve.gov/newsevents/press/monetary/20140319a.htm .'>49</a></sup> In a press conference following the decision, Fed Chair Janet Yellen provided this explanation of the Fed's decision:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">We initially started with an unemployment rate as a threshold. That was easy enough for the Committee to say, "With an unemployment rate above 6½ percent, we know we're not close to full employment, not close to an employment level consistent with our mandate, and unless inflation were a significant concern, we wouldn't dream of raising the federal funds rate target." Now, the Committee has never felt that the unemployment rate is a sufficient statistic for the labor market. I think if I had to choose one indicator of the labor market, the unemployment rate is probably as good a one as I could find. But in assessing the real state of slack in the labor market and ultimately of inflationary pressures that might—or deflationary pressures that could result from that—it's appropriate to look at many more things. And that's why the Committee now states we will look at a broad range of information.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="The Federal Reserve press conference transcript is available at http://federalreserve.gov/mediacenter/files/FOMCpresconf20140319.pdf .">50</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Divergence between the unemployment rate and other indicators complicates formulating and communicating a policy response. If there is still considerable slack in the economy, despite the decline in the unemployment rate, then tightening policy could be premature and there is less concern that continued stimulus would cause inflation to rise. That evaluation could be proven wrong, however, if there turns out to be less slack in the economy than most economists currently estimate. This would be the case if structural changes or the Great Recession (i.e., hysteresis) permanently reduced the potential capacity of output and labor markets, so that the economy is no longer capable of returning to the historical trend.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="In other words, potential output and labor supply is higher today than it was before the Great Recession, but not as high as it would have been had the Great Recession not occurred. One study estimates that potential output has been reduced by 6¾% at the end of 2013 compared to what it would have been. Despite this decline in potential output, the study's authors estimate that significant slack remains in the economy. See Dave Reifschneider, William Wascher, and David Wilcox, &quot;Aggregate Supply...">51</a></sup> In this scenario, microeconomic structural policy measures (e.g., spending or tax provisions that increase the incentives to hire, seek work, delay retirement, or train) are more likely to have positive results than fiscal or monetary stimulus.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="A discussion of these microeconomic measures are beyond the scope of this report. For more information, see CRS Report 92-939, Countercyclical Job Creation Programs , by Linda Levine ; and CRS Report R43044, Expediting the Return to Work: Approaches in the Unemployment Compensation Program , by Julie M. Whittaker ; and CRS Report R42018, The Role of Public Works Infrastructure in Economic Recovery , by Claudia Copeland, Linda Levine, and William J. Mallett .">52</a></sup> For example, if the natural rate of unemployment is now higher, fiscal or monetary stimulus to reduce unemployment to levels attained in previous expansions and maintain price stability would, by definition, not be successful.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="If the economy's productive potential were still being eroded for as long as the economy remains below full employment, this would be another rationale for stimulative policies. In this context, some economists have argued that temporarily higher than desired inflation could be worthwhile if it brought the economy back to full employment faster, thereby avoiding further hysteresis and erosion of potential output. It is less clear, however, whether more stimulus could successfully reverse the e...">53</a></sup> If the economy is getting close to full employment (because the economy's productive potential is lower than projected), then continued stimulus would in theory cause inflation to rise. If policy makers were to wait to tighten policy until inflation starts rising, it might be too late to achieve full employment and maintain price stability, due to lags in the effects of policy changes on the economy. As this example illustrates, some economists see the risks of choosing an unsuitable macroeconomic policy stance based on incomplete and contradictory data as an argument against pursuing activist macroeconomic policies.</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For an overall analysis of the economic recovery, see CRS Report R41332, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R41332"><em>Economic Recovery: Sustaining U.S. Economic Growth in a Post-Crisis Economy</em></a>, by Craig K. Elwell.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This issue is analyzed in greater depth in CRS Report R41785, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R41785"><em>The Increase in Unemployment Since 2007: Is It Cyclical or Structural?</em></a>, by Craig K. Elwell.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Recessions are determined by the National Bureau of Economic Research. It defines a recession as "a significant decline in economic activity [that] spreads across the economy and can last from a few months to more than a year." See National Bureau of Economic Research, <em>Statement of the NBER Business Cycle Dating Committee on the Determination of the Dates of Turning Points in the U.S. Economy</em>, webpage, <a class="ExternalLink" href="http://www.nber.org/cycles/general_statement.html"><span class="Hyperlink">http://www.nber.org/cycles/general_statement.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The first time was from 1982 to 1983, when unemployment peaked at 10.8%.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CBO data available at <a class="ExternalLink" href="http://cbo.gov/publication/45068"><span class="Hyperlink">http://cbo.gov/publication/45068</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Therefore, economists sometimes refer to the natural rate as the non-accelerating inflation rate of unemployment (NAIRU) or the full employment rate of unemployment.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Fed estimates are available at <a class="ExternalLink" href="http://federalreserve.gov/monetarypolicy/files/fomcprojtabl20131218.pdf"><span class="Hyperlink">http://federalreserve.gov/monetarypolicy/files/fomcprojtabl20131218.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CBO data available at <a class="ExternalLink" href="http://cbo.gov/publication/45068"><span class="Hyperlink">http://cbo.gov/publication/45068</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS calculations based on CBO data.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Christopher Erceg and Andrew Levin, "Labor Force Participation and Monetary Policy in the Wake of the Great Recession," International Monetary Fund, working paper no. 13/245, December 2013, p. 20, available at <a class="ExternalLink" href="http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf"><span class="Hyperlink">http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, <em>The Slow Recovery of the Labor </em><em>Market</em>, February 2014, p. 1, available at <a class="ExternalLink" href="http://www.cbo.gov/publication/45011"><span class="Hyperlink">http://www.cbo.gov/publication/45011</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Precisely how close the current unemployment rate is to the natural rate depends on whether the natural rate has increased in recent years—an issue discussed in the section below entitled "<a class="InternalLink" href="#_Ref384902055">A Rising Natural Rate of Unemployment?</a>"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CPS data accessed in February 2014, available at <a class="ExternalLink" href="http://data.bls.gov/pdq/querytool.jsp?survey=ln"><span class="Hyperlink">http://data.bls.gov/pdq/querytool.jsp?survey=ln</span></a>. According to the CES, job growth averaged 194,000 per month in 2013, slightly higher than in 2011 and 2012. As noted above, unemployment data cannot be directly compared to employment data from the CES. CES data accessed in February 2014, available at <a class="ExternalLink" href="http://data.bls.gov/pdq/querytool.jsp?survey=ce"><span class="Hyperlink">http://data.bls.gov/pdq/querytool.jsp?survey=ce</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This period is analyzed in Robert Moffitt, "The Reversal of the Employment-Population Ratio in the 2000s," <em>Brookings Papers on Economic Activity</em>, Fall 2012,<em> </em>available at <a class="ExternalLink" href="http://www.brookings.edu/~/media/Projects/BPEA/Fall%202012/2012b_Moffitt.pdf"><span class="Hyperlink">http://www.brookings.edu/~/media/Projects/BPEA/Fall%202012/2012b_Moffitt.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> One study characterizes the labor force participation rate as "weakly pro-cyclical." See Willem Van Zandweghe, "Interpreting the Recent Decline in Labor Force Participation," Federal Reserve Bank of Kansas City, <em>Economic </em><em>Review</em>, First Quarter 2012, p. 9, available at <a class="ExternalLink" href="http://www.kc.frb.org/publicat/econrev/pdf/12q1VanZandweghe.pdf"><span class="Hyperlink">http://www.kc.frb.org/publicat/econrev/pdf/12q1VanZandweghe.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Willem Van Zandweghe, "Interpreting the Recent Decline in Labor Force Participation," Federal Reserve Bank of Kansas City, <em>Economic </em><em>Review</em>, First Quarter 2012, p. 7, available at <a class="ExternalLink" href="http://www.kc.frb.org/publicat/econrev/pdf/12q1VanZandweghe.pdf"><span class="Hyperlink">http://www.kc.frb.org/publicat/econrev/pdf/12q1VanZandweghe.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see the section below entitled "<a class="InternalLink" href="#_Ref384995013">Youth Employment and Unemployment</a>."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Hui Shan and Jari Stehn, "Young vs. Old as Drivers of Labor Force Participation," <em>Goldman Sachs U.S. Daily Newsletter</em>, February 11, 2014.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Heidi Shierholz, "Most of the Decline in Labor Force Participation in the Last Six Years is Cyclical," <em>The Economic Policy Institute Blog</em>, February 21, 2014, available at <a class="ExternalLink" href="http://www.epi.org/blog/decline-labor-force-participation-years/"><span class="Hyperlink">http://www.epi.org/blog/decline-labor-force-participation-years/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Attempts to explain a phenomenon after it occurs are vulnerable to problems of confusing correlation with causality. As a check against this, it is interesting to note that, in its 2007 projection, BLS projected the labor force participation rate would fall by only 0.3 percentage points by 2012. According to one study, the BLS projections were accurate for older workers, but did not predict any decline in the participation rate of prime age workers or as large a decline in young workers. See Christopher Erceg and Andrew Levin, "Labor Force Participation and Monetary Policy in the Wake of the Great Recession," International Monetary Fund, working paper no. 13/245, December 2013, p. 11, available at <a class="ExternalLink" href="http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf"><span class="Hyperlink">http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although the participation rate of older workers has not fallen, since there are relatively more older workers and their participation rate is relatively lower than that of prime age workers, the overall participation rate has fallen. One criticism of some of these studies is that because they are not adjusting for the fact that baby boomer women have a higher participation rate than earlier cohorts, they are overestimating the contribution of demographics to the recent decline in the labor force participation rate. See Heidi Shierholz, "Most of the Decline in Labor Force Participation in the Last Six Years is Cyclical," <em>The Economic Policy Institute Blog</em>, February 21, 2014, available at <a class="ExternalLink" href="http://www.epi.org/blog/decline-labor-force-participation-years/"><span class="Hyperlink">http://www.epi.org/blog/decline-labor-force-participation-years/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Congressional Budget Office, <em>The Slow Recovery of the Labor </em><em>Market</em>, February 2014, p. 11, available at<span class="Hyperlink"> </span><a class="ExternalLink" href="http://www.cbo.gov/publication/45011"><span class="Hyperlink">http://www.cbo.gov/publication/45011</span></a>; Christopher Erceg and Andrew Levin, "Labor Force Participation and Monetary Policy in the Wake of the Great Recession," International Monetary Fund, working paper no. 13/245, December 2013, pp. 17-18, available at <a class="ExternalLink" href="http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf"><span class="Hyperlink">http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf</span></a>; Morgan Stanley, "Explaining the Exodus in Labor Force Participation," <em>U.S. Economics Newsletter</em>, January 29, 2014.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Julie Hotchkiss, Melinda Pitts, and Fernando Rios-Avila, "A Closer Look at Nonparticipants During and After the Great Recession," Federal Reserve Bank of Atlanta, working paper no. 2012-10, August 2012, available at <a class="ExternalLink" href="http://www.frbatlanta.org/documents/pubs/wp/wp1210.pdf"><span class="Hyperlink">http://www.frbatlanta.org/documents/pubs/wp/wp1210.pdf</span></a>; and Hui Shan and Jari Stehn, "Young vs. Old as Drivers of Labor Force Participation," <em>Goldman Sachs U.S. Daily Newsletter</em>, February 11, 2014.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Goldman Sachs views the negative correlation between employment growth and labor force participation at the state level as evidence that the decline is cyclical. See David Mericle, "A State-Level Look at Declining Labor Force Participation," <em>Goldman Sachs U.S. Daily Newsletter</em>, April 17 2013.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Individuals who are discouraged or marginally attached to the labor force are not included in the official definition of unemployment.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> One study argues that the increase in disability claimants is structural and not cyclical because the long-term upward trend in claimants showed no acceleration during or since the Great Recession. Dave Reifschneider, William Wascher, and David Wilcox, "Aggregate Supply in the United States," working paper presented at the International Monetary Fund research conference, November 7, 2013, p. 23, available at <a class="ExternalLink" href="https://www.imf.org/external/np/res/seminars/2013/arc/pdf/wilcox.pdf"><span class="Hyperlink">https://www.imf.org/external/np/res/seminars/2013/arc/pdf/wilcox.pdf</span></a>. Another study points to the increase in new claimants (i.e., the incremental increase, rather than the trend) during the recession as signs that disability claims were affected by the recession. The increase was reversed in the economic recovery. James Sherk, "Not Looking for Work," Heritage Foundation, Backgrounder, no. 2722, September 5, 2013, available at <a class="ExternalLink" href="http://www.heritage.org/research/reports/2013/09/not-looking-for-work-why-labor-force-participation-has-fallen-during-the-recession"><span class="Hyperlink">http://www.heritage.org/research/reports/2013/09/not-looking-for-work-why-labor-force-participation-has-fallen-during-the-recession</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The increase in the numerator (number unemployed) and denominator (number in the labor force) left the unemployment rate unchanged.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> According to Social Security Administration data, among individuals who had their disability benefits terminated in 2012, about 90% had benefits terminated because they either died or reached federal retirement age. U.S. Social Security Administration, <em>Annual Statistical Supplement</em>, 2013 Table 6.F2, available at <a class="ExternalLink" href="http://www.ssa.gov/policy/docs/statcomps/supplement/2013/6f.html#table6.f2"><span class="Hyperlink">http://www.ssa.gov/policy/docs/statcomps/supplement/2013/6f.html#table6.f2</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, <em>The Slow Recovery of the Labor </em><em>Market</em>, Feb. 2014, p. 11, available at <a class="ExternalLink" href="http://www.cbo.gov/publication/45011"><span class="Hyperlink">http://www.cbo.gov/publication/45011</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, <em>The Slow Recovery of the Labor </em><em>Market</em>, February 2014, p. 2, available at <a class="ExternalLink" href="http://www.cbo.gov/publication/45011"><span class="Hyperlink">http://www.cbo.gov/publication/45011</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Alan Krueger, Judd Cramer, and David Cho, "Are the Long-Term Unemployed on the Margins of the Labor Market?", <em>Brookings Papers on Economic Activity</em>, March 2014, available at <a class="ExternalLink" href="http://www.brookings.edu/~/media/projects/bpea/spring%202014/2014a_krueger"><span class="Hyperlink">http://www.brookings.edu/~/media/projects/bpea/spring%202014/2014a_krueger</span></a>; and Rand Ghayad, "The Jobless Trap," working paper, 2013, available at <a class="ExternalLink" href="http://media.wix.com/ugd/576e9a_f6cf3b6661e44621ad26547112f66691.pdf"><span class="Hyperlink">http://media.wix.com/ugd/576e9a_f6cf3b6661e44621ad26547112f66691.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Labor force participation rates for ages 16 to 24 were the lowest ever recorded in 2012.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Julie Hotchkiss, Melinda Pitts, and Fernando Rios-Avila, "A Closer Look at Nonparticipants During and After the Great Recession," Federal Reserve Bank of Atlanta, working paper no. 2012-10, Aug. 2012, p. 5, available at <a class="ExternalLink" href="http://www.frbatlanta.org/documents/pubs/wp/wp1210.pdf"><span class="Hyperlink">http://www.frbatlanta.org/documents/pubs/wp/wp1210.pdf</span></a>. See also Joyce Kwok et al., "Labor Force Participation and the Future Path of Unemployment," Federal Reserve Bank of San Francisco, <em>Economic Letter</em>, no. 2010-27, September 13, 2010. This study found that "the percentage of teenagers enrolled in school but not participation in the labor force has gone from about 40% to almost 60% over the past 25 years." </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Eric Rosengren, "Labor Market Slack and Monetary Policy, speech before the Boston Economic Club, February 26, 2014, available at <a class="ExternalLink" href="http://www.bostonfed.org/news/speeches/rosengren/2014/022614/022614text.pdf"><span class="Hyperlink">http://www.bostonfed.org/news/speeches/rosengren/2014/022614/022614text.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, Brad Delong, "Hysteresis and the American Unemployment Problem," blog post, January 31, 2012, available at <a class="ExternalLink" href="http://delong.typepad.com/sdj/2012/01/hysteresis-and-the-american-unemployment-problem.html"><span class="Hyperlink">http://delong.typepad.com/sdj/2012/01/hysteresis-and-the-american-unemployment-problem.html</span></a>; Dave Reifschneider, William Wascher, and David Wilcox, "Aggregate Supply in the United States," working paper presented at the International Monetary Fund research conference, November 7, 2013, p. 22, available at <a class="ExternalLink" href="https://www.imf.org/external/np/res/seminars/2013/arc/pdf/wilcox.pdf"><span class="Hyperlink">https://www.imf.org/external/np/res/seminars/2013/arc/pdf/wilcox.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Given the recent behavior of the unemployment and labor force participation rates, hysteresis could arguably be affecting the latter measure more than the former. As workers become discouraged and leave the labor force, they no longer exert upward pressure on the natural rate of unemployment because they are no longer officially unemployed. The atypically high rate of long-term unemployment provides a potential avenue for increased hysteresis in the LFPR if the long-term unemployed continue to drop out of the labor force in the future.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Olivier Blanchard and Lawrence Summers, "Hysteresis in Unemployment," <em>European Economic Review</em>, vol. 31, no. 1/2, 1987, p. 288; and Laurence Ball, "Hysteresis in Unemployment: Old and New Evidence," National Bureau of Economic Research, working paper, no. 14818, March 2009.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> By comparison, the <em>actual</em> unemployment rate ranged from 4.4% to 4.7% at the end of the previous economic expansion.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, <em>The Slow Recovery of the Labor </em><em>Market</em>, February 2014, p. 7, available at <a class="ExternalLink" href="http://www.cbo.gov/publication/45011"><span class="Hyperlink">http://www.cbo.gov/publication/45011</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CBO data available at <a class="ExternalLink" href="http://cbo.gov/publication/45068"><span class="Hyperlink">http://cbo.gov/publication/45068</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> According to one study: "A longstanding and well-established fact in labor economics is that the labor supply of prime-age and older adults has been essentially acyclical throughout the postwar period, while that of teenagers has been moderately procyclical.... Consequently, macroeconomists have largely focused on the unemployment rate as a business cycle indicator while abstracting from movements in labor force participation.... " Christopher Erceg and Andrew Levin, "Labor Force Participation and Monetary Policy in the Wake of the Great Recession," International Monetary Fund, working paper no. 13/245, December 2013, p. 1, available at <a class="ExternalLink" href="http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf"><span class="Hyperlink">http://www.bostonfed.org/employment2013/papers/Erceg_Levin_Session1.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The output gap is the difference between actual GDP and potential GDP. It is an attempt to quantify the slack in the economy relative to GDP and is independently estimated by various forecasters.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a recap of the use of fiscal policy since the recession, see CRS Report R41578, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R41578"><em>Unemployment: Issues in the 113</em><em><sup>th</sup></em><em> Congress</em></a>, by Jane G. Gravelle.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, <em>The Budget and Economic Outlook</em>, March 2014; Congressional Budget Office, <em>The 2013 Long-Term Budget Outlook</em>, September 2013. The budget deficit automatically grows when the economy falls below full employment and shrinks when the economy approaches full employment. The structural deficit is an estimate of the underlying deficit that remains when these cyclical factors are removed.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, International Monetary Fund, <em>United States: 2013 Article IV Consultation</em>, IMF Country Report, no. 13/236, July 2013, <a class="ExternalLink" href="http://www.imf.org/external/pubs/ft/scr/2013/cr13236.pdf"><span class="Hyperlink">http://www.imf.org/external/pubs/ft/scr/2013/cr13236.pdf</span></a>;<strong> </strong>The National Commission on Fiscal Responsibility and Reform, <em>The Moment of Truth</em>, December 2010, p. 12, available at <a class="ExternalLink" href="http://www.fiscalcommission.gov/sites/fiscalcommission.gov/files/documents/TheMomentofTruth12_1_2010.pdf"><span class="Hyperlink">http://www.fiscalcommission.gov/sites/fiscalcommission.gov/files/documents/TheMomentofTruth12_1_2010.pdf</span></a>. Macroeconomic stabilization reasons to delay deficit reduction to the medium term can be weighed against other reasons for short-term reduction, such as the pressures put on elderly entitlement programs by the aging of the population.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R42962, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R42962"><em>Federal Reserve: Unconventional Monetary Policy Options</em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "Federal Reserve Issues FOMC Statement," press release, March 19, 2014, <a class="ExternalLink" href="http://federalreserve.gov/newsevents/press/monetary/20140319a.htm"><span class="Hyperlink">http://federalreserve.gov/newsevents/press/monetary/20140319a.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> From January to March 2014, the Fed modified this language to read that "it likely will be appropriate to maintain the current ... federal funds rate well past the time that the unemployment rate declines below 6½%.... " Federal Reserve, "Federal Reserve Issues FOMC Statement," <em>press release</em>, January 29, 2014, available at <a class="ExternalLink" href="http://federalreserve.gov/newsevents/press/monetary/20140129a.htm"><span class="Hyperlink">http://federalreserve.gov/newsevents/press/monetary/20140129a.htm</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "Federal Reserve Issues FOMC Statement," press release, March 19, 2014, available at <a class="ExternalLink" href="http://federalreserve.gov/newsevents/press/monetary/20140319a.htm"><span class="Hyperlink">http://federalreserve.gov/newsevents/press/monetary/20140319a.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Federal Reserve press conference transcript is available at <a class="ExternalLink" href="http://federalreserve.gov/mediacenter/files/FOMCpresconf20140319.pdf"><span class="Hyperlink">http://federalreserve.gov/mediacenter/files/FOMCpresconf20140319.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In other words, potential output and labor supply is higher today than it was before the Great Recession, but not as high as it would have been had the Great Recession not occurred. One study estimates that potential output has been reduced by 6¾% at the end of 2013 compared to what it would have been. Despite this decline in potential output, the study's authors estimate that significant slack remains in the economy. See Dave Reifschneider, William Wascher, and David Wilcox, "Aggregate Supply in the United States," working paper presented at the International Monetary Fund research conference, November 7, 2013, available at <a class="ExternalLink" href="https://www.imf.org/external/np/res/seminars/2013/arc/pdf/wilcox.pdf"><span class="Hyperlink">https://www.imf.org/external/np/res/seminars/2013/arc/pdf/wilcox.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A discussion of these microeconomic measures are beyond the scope of this report. For more information, see CRS Report 92-939, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=92-939"><em>Countercyclical Job Creation Programs</em></a>, by Linda Levine; and CRS Report R43044, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43044"><em>Expediting the Return to Work: Approaches in the Unemployment Compensation Program</em></a>, by Julie M. Whittaker; and CRS Report R42018, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R42018"><em>The Role of Public Works Infrastructure in Economic Recovery</em></a>, by Claudia Copeland, Linda Levine, and William J. Mallett.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> If the economy's productive potential were still being eroded for as long as the economy remains below full employment, this would be another rationale for stimulative policies. In this context, some economists have argued that temporarily higher than desired inflation could be worthwhile if it brought the economy back to full employment faster, thereby avoiding further hysteresis and erosion of potential output. It is less clear, however, whether more stimulus could successfully reverse the effects (if any) of hysteresis that have already occurred since the Great Recession.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

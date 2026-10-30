@@ -1,12 +1,14 @@
-**Official-current verification: 58/58. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-23 to 2026-10-30**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-30 | R46406 v9 | Voter Registration: Recent Developments and Issues for Congress | [PDF](pdf/reports/R46406v9-2026-10-30-0fafb7206f2ef2d5.pdf) | [Markdown](markdown/reports/R46406v9-2026-10-30-0fafb7206f2ef2d5.md) |
+| 2026-10-30 | IN12750 v1 | A Slowdown in U.S. Labor Supply Growth | [PDF](pdf/insights/IN12750v1-2026-10-30-cc906949666bd1ae.pdf) | [Markdown](markdown/insights/IN12750v1-2026-10-30-cc906949666bd1ae.md) |
+| 2026-10-30 | IF13340 v3 | MSPB Moves Away from Douglas Factors in Misconduct Cases | [PDF](pdf/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.pdf) | [Markdown](markdown/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.md) |
 | 2026-10-29 | R49495 v2 | Decommissioning Offshore Oil and Gas Infrastructure: Issues for Congress | [PDF](pdf/reports/R49495v2-2026-10-29-bd73c586c3967c51.pdf) | [Markdown](markdown/reports/R49495v2-2026-10-29-bd73c586c3967c51.md) |
+| 2026-10-29 | R49188 v3 | Ecuador in Brief: Overview and U.S. Relations | [PDF](pdf/reports/R49188v3-2026-10-29-ecab7de47c8edd75.pdf) | [Markdown](markdown/reports/R49188v3-2026-10-29-ecab7de47c8edd75.md) |
 | 2026-10-29 | R47337 v7 | Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding | [PDF](pdf/reports/R47337v7-2026-10-29-0e29262756751b37.pdf) | [Markdown](markdown/reports/R47337v7-2026-10-29-0e29262756751b37.md) |
 | 2026-10-29 | R46236 v12 | Brazil: Background and U.S. Relations | [PDF](pdf/reports/R46236v12-2026-10-29-ce2b50cf8bf5bf16.pdf) | [Markdown](markdown/reports/R46236v12-2026-10-29-ce2b50cf8bf5bf16.md) |
 | 2026-10-29 | R45030 v15 | Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments | [PDF](pdf/reports/R45030v15-2026-10-29-89e5d55656060b22.pdf) | [Markdown](markdown/reports/R45030v15-2026-10-29-89e5d55656060b22.md) |

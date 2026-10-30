@@ -1,0 +1,412 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R43443.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Authorization of General Services Administration Real Property Projects: Current Process and Proposed Legislation</div>
+<div class="CoverDate">Updated March 27, 2014
+            (R43443)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc1732972"><span class="Hyperlink">The Government's Landlord</span></a></li>
+<li class="TOC1"><a href="#_Toc1732973"><span class="Hyperlink">Prospectus Approval Process</span></a></li>
+<li class="TOC1"><a href="#_Toc1732974"><span class="Hyperlink">Prospectus Approval as Oversight</span></a></li>
+<li class="TOC2"><a href="#_Toc1732975"><span class="Hyperlink">Factors that Limit Oversight</span></a></li>
+<li class="TOC3"><a href="#_Toc1732976"><span class="Hyperlink">Lack of Comparative Cost Data</span></a></li>
+<li class="TOC3"><a href="#_Toc1732977"><span class="Hyperlink">Lack of Data on the Cost of Alterations</span></a></li>
+<li class="TOC3"><a href="#_Toc1732978"><span class="Hyperlink">Failure to Meet Prospectus Submission Requirements</span></a></li>
+<li class="TOC1"><a href="#_Toc1732979"><span class="Hyperlink">Legislative Proposal to Change the Prospectus Process</span></a></li>
+<li class="TOC2"><a href="#_Toc1732980"><span class="Hyperlink">Key Provisions Related to Prospectus Process</span></a></li>
+<li class="TOC3"><a href="#_Toc1732981"><span class="Hyperlink">Required Offsets for New Space</span></a></li>
+<li class="TOC3"><a href="#_Toc1732982"><span class="Hyperlink">Restrictions on Below-Prospectus Projects</span></a></li>
+<li class="TOC3"><a href="#_Toc1732983"><span class="Hyperlink">Reports on Leases</span></a></li>
+<li class="TOC3"><a href="#_Toc1732984"><span class="Hyperlink">Zero-Based Space Justification</span></a></li>
+<li class="TOC3"><a href="#_Toc1732985"><span class="Hyperlink">Eliminating Project Cost Escalation</span></a></li>
+<li class="TOC2"><a href="#_Toc1732986"><span class="Hyperlink">Analysis</span></a></li>
+<li class="TOC1"><a href="#_Toc1732987"><span class="Hyperlink">Concluding Observations</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc1732971"><span class="Hyperlink">Table 1. Dollar Thresholds for Submission of Prospectuses, FY2014</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The General Services Administration (GSA) controls more than 8,700 owned and leased buildings with 422 million square feet of floor space, which represents about 12.6% of the government's 3.354 billion total building square footage .Sometimes referred to as the "government's landlord," GSA has the authority to acquire, operate, and dispose of real property on behalf of other federal agencies, including the judiciary. Its portfolio includes courthouses, land ports of entry, and federal office space.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Prior to seeking appropriations, GSA is required to obtain congressional authorization for constructing, purchasing, leasing, or renovating real property. To that end, GSA submits a prospectus to two committees—the Senate Committee on Environment and Public Works and the House Committee on Transportation and Infrastructure—for each proposal that exceeds $2.85 million. The prospectus provides detailed information about the project, including its location and estimated cost. By law, a project that exceeds the $2.85 million threshold may not receive appropriations unless both committees pass resolutions approving of the prospectus.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While the prospectus process provides Congress an opportunity to evaluate GSA real property activities, oversight may be limited by data that are not available to the authorizing committees. GSA's prospectuses, for example, do not always include a comparison of the costs of leasing versus owning space over time, which means Congress is making decisions without knowing whether a proposed project is the most cost effective option. Similarly, many lease prospectuses do not include the cost of altering space to meet agency needs, such as upgraded security, which means authorizing committees may not be aware of the full costs of the projects they are considering. In addition, there are instances where GSA fails to submit prospectuses for projects that exceed the threshold.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Several bills in the 113<sup>th</sup> Congress propose reforms to the real property process, particularly the process for disposing of unneeded buildings. Examples include the Excess Federal Building and Property Disposal Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.328:"><span class="Hyperlink">H.R. 328</span></a>), the Federal Real Property Asset Management Reform Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1398:"><span class="Hyperlink">S. 1398</span></a>), and the Civilian Property Realignment Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.695:"><span class="Hyperlink">H.R. 695</span></a> and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1715:"><span class="Hyperlink">S. 1715</span></a>). Another bill, the Public Building Service Savings and Reform Act of 2013 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>) proposes changing the prospectus approval process. The bill would require GSA to include in its prospectuses a plan to offset any new space acquired by eliminating an equal amount of existing space from its inventory. It would also require GSA to ensure it is obtaining the best possible rental rate for leases that fall below the prospectus threshold. Other provisions would require GSA to provide the authorizing committees with an annual report listing all of the leases it entered into during the previous fiscal year; to notify Congress if a project's costs increased by 5% or more; and, when requesting authorization to acquire space, to explain why existing federal space could not be used.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> could mitigate several long-standing weaknesses in the prospectus process. The bill proposes to help control costs by ensuring that the authorizing committees have access to comparative cost data, and by requiring GSA to provide cost estimates of alterations associated with a new lease that are not included in the estimate of rent. In addition, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> might enhance oversight by requiring GSA to provide a more detailed justification for requesting new space, and to notify Congress when a project exceeds the cost and size parameters established in the prospectus. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report will be updated as events warrant.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Government's Landlord</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The General Services Administration (GSA) is the federal government's primary civilian real property management agency with 11 regional offices that oversee GSA owned and leased properties across the nation. At the end of FY2012, GSA—through its real property office, the Public Buildings Service (PBS)—owned or leased 8,708 buildings with more than 422 million square feet of floor space, which represents about 12.6% of the government's 3.354 billion total building square footage.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Federal Real Property Council, FY 2012 Federal Real Property Report , Appendix, p. 4.">1</a></sup> GSA's inventory includes offices, courthouses, and land ports of entry.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="Ibid.">2</a></sup> Given the breadth of GSA's holdings, the agency is sometimes referred to as "the government's landlord."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Until Congress enacted the Public Buildings Act in 1926, construction authority for each federal building was approved and funded in separate pieces of legislation.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="44 Stat. 630.">3</a></sup> The 1926 act provided the basic authority for the construction of federal buildings through the congressional authorization and appropriation process. Congress later enacted the Public Buildings Act of 1949 to authorize the planning, site acquisition, and design of federal buildings located outside of Washington, DC, and for improvements to existing federal buildings.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="63 Stat. 176.">4</a></sup> Congress also enacted the Federal Property and Administrative Services Act of 1949, which established the General Services Administration (GSA), and gave the GSA Administrator (Administrator) responsibility for administering federal real property.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="63 Stat. 377.">5</a></sup> In 1954, Congress amended the Public Buildings Act of 1949 to authorize the Administrator to acquire titles to real property and to construct federal buildings through lease-purchase contracts. Under this procedure, a building was financed by private capital, and the federal government made installment payments on the purchase price in lieu of rent payments. Title to the property was vested in the federal government at the end of the contract period, which could range from 10 to 30 years. When authority for lease-purchase contracts expired in 1957, Congress approved a successor statute, the Public Buildings Act of 1959.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="73 Stat. 479.">6</a></sup> The 1959 act re-established earlier requirements to provide for direct federal construction of public buildings through the congressional authorization and appropriation process. This act, as amended and re-codified over the years, remains the basic statute authorizing the Administrator to construct, own, lease, operate, maintain, and renovate buildings to serve civilian agencies of the federal government.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="The U.S. General Services Administration (GSA) promulgates the Federal Management Regulation (FMR), which is codified in 41 C.F.R. § 102 et seq . The FMR includes the agency's real property regulations and policies.">7</a></sup> Notably, while GSA works with many executive branch agencies and the judiciary to meet their space needs, it generally does not perform real property functions on behalf of the legislative branch.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">GSA is responsible for the design and construction of its buildings and courthouses, and for repairs and alterations to existing facilities, including those that are leased. As part of the President's annual budget submission to Congress, GSA requests funding for new construction projects, as well as for purchasing, renovating, and leasing existing properties. Congress authorizes appropriations for these projects, however, through the prospectus approval process, which is discussed below.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702656"></a><a name="_Toc1732973"></a>Prospectus Approval Process</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the Public Buildings Act, as amended (PBA), GSA is required to submit a formal document, known as a prospectus, to the Senate Committee on Environment and Public Works and the House Committee on Transportation and Infrastructure (referred to throughout this report as the authorizing committees) as part of the process to authorize and appropriate funds for constructing, purchasing, leasing, or renovating real property.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="40 U.S.C. § 3307 (a) .">8</a></sup> Each prospectus must include</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">a brief description of the building to be constructed, altered, or leased;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">the building's location;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">an estimate of the maximum cost of the project;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">a statement by the Administrator that suitable space in existing government-owned buildings is not available;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">a statement of rents and other housing costs currently being paid by agencies that would occupy the newly constructed, renovated, or leased space; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">an estimate of the future energy performance of the building.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A prospectus is only required for projects with estimated costs that meet or exceed a specified amount, referred to as the prospectus threshold. Under authorities provided in 40 U.S.C. § 3307, GSA establishes annual prospectus thresholds for four different types of real property activities. A description of each threshold is provided in <strong><a class="InternalLink" href="#_Ref383702602"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong><strong> </strong>below. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref383702602"></a><a name="_Toc383702653"></a><a name="_Toc1732971"></a>Table 1. Dollar Thresholds for Submission of Prospectuses, FY2014</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:293.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Real Property Activity</p>
+</td>
+<td style="width:54pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Amount</p>
+</td>
+<td style="width:95.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Authority</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:293.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">Construction, alteration, or acquisition of a public building</p>
+</td>
+<td style="width:54pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$2,850,000</p>
+</td>
+<td style="width:95.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">40 U.S.C. § 3307(a)(1)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:293.4pt;" valign="top">
+<p class="TableText" style="">Acquisition of leased space</p>
+</td>
+<td style="width:54pt;" valign="top">
+<p class="TableText" style="text-align:center;">$2,850,000</p>
+</td>
+<td style="width:95.4pt;" valign="top">
+<p class="TableText" style="">40 U.S.C. § 3307(a)(2)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:293.4pt;" valign="top">
+<p class="TableText" style="">Alteration of leased space</p>
+</td>
+<td style="width:54pt;" valign="top">
+<p class="TableText" style="text-align:center;">$1,425,000</p>
+</td>
+<td style="width:95.4pt;" valign="top">
+<p class="TableText" style="">40 U.S.C. § 3307(a)(3)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:293.4pt;" valign="top">
+<p class="TableText" style="">Acquisition of leased space specifically to accommodate computer and telecommunications operations; secure or sensitive activities related to national defense and security; and permanent courtrooms, judicial chambers, or administrative offices for any U.S. court</p>
+</td>
+<td style="width:54pt;" valign="top">
+<p class="TableText" style="text-align:center;">$2,850,000</p>
+</td>
+<td style="width:95.4pt;" valign="top">
+<p class="TableText" style="">40 U.S.C. § 3307(g)</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source</strong>: Letter from Dan Tangherlini, General Services Administration Acting Administrator, to Senator Barbara Boxer, Chairman, Committee on Environment and Public Works, June 4, 2013.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">GSA has the authority to adjust these thresholds each year in order "to reflect a percentage increase or decrease in construction costs during the prior calendar year."<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="40 U.S.C. § 3307 (h) .">9</a></sup> GSA adjusts the thresholds based on the Building Cost Index of the <em>Engineering News-Record</em>, an industry trade journal published by McGraw-Hill.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Letter from Dan Tang h erlini, General Services Administration Acting Administrator, to Senator Barbara Boxer, Chairman, Committee on Environment and Public Works, June 4, 2013.">10</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As noted, for each project that meets or exceeds the appropriate threshold, GSA must submit a prospectus to the authorizing committees. Each committee must pass a resolution approving the prospectus before the project is authorized to receive appropriations.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="40 U.S.C. § 3307 (a) .">11</a></sup> The resolutions must only be approved at the committee level—floor action is not required. If an appropriation is not made within one year after the date the prospectus was approved, the committees may pass resolutions rescinding their approval.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="40 U.S.C. § 3307( d ).">12</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress appropriates funds for GSA's authorized construction and leasing projects each fiscal year through the Financial Services and General Government appropriations bill. Once a proposed project receives congressional funding—and not all authorized projects do—GSA's Public Buildings Service contracts with private sector firms for design and construction work. When leasing space, GSA searches for space that meets energy efficiency and renewable energy performance goals.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="40 U.S.C. § 3307 (f) .">13</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In times of emergency or disaster—such as when a hurricane causes structural damage to a federal building—the normal prospectus thresholds and procedures are temporarily lifted to enable GSA to quickly find new space for displaced federal employees. To that end, GSA is authorized to enter into an emergency lease agreement without an approved prospectus during any period "declared by the President to require emergency leasing authority."<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="40 U.S.C. § 3307 (e) .">14</a></sup> Emergency leases may not exceed 180 days, however, without an approved prospectus.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="Ibid.">15</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It is not uncommon for the cost of real property projects—particularly the construction of new buildings—to escalate as the project proceeds. GSA is required to resubmit an amended prospectus for congressional approval if the cost of the project exceeds the approved estimated maximum amount by more than 10%.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="40 U.S.C. § 3307 (c) .">16</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702657"></a><a name="_Toc1732974"></a>Prospectus Approval as Oversight</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The prospectus approval process provides Congress with an opportunity to exercise oversight of GSA's real property activities. With a multi-billion dollar budget and thousands of buildings under its control, GSA manages one of the government's largest and most diverse real property portfolios. Moreover, given its role as the procurer of space for numerous other agencies, congressional oversight of GSA's prospectus-level proposals has broad implications. In recent years, for example, GSA has submitted prospectuses to consolidate the headquarters of the Department of Homeland Security at the St. Elizabeth's Campus in Washington, DC; construct a new courthouse in Rockford, IL; and expand a land port of entry in San Diego, CA. These projects illustrate the central role GSA-controlled buildings often play in helping federal agencies fulfill their unique missions. The prospectus process provides an opportunity for Congress to assess how well GSA's proposals meet the needs of its clients and to reject those that it finds poorly conceived or unnecessary.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress may also use the prospectus approval process to evaluate cost and space projections. It is not uncommon for GSA to estimate that a single real property project will cost hundreds of millions, or even billions of dollars. Poor project planning may result in cost escalation and unneeded space. The 33 courthouses built between 2000 and 2010, for example, included 3.56 million square feet of unneeded space, which in turn resulted in an additional $835 million in construction expenditures.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="U.S. Government Accountability Office, Federal Courthouse Construction: Better Planning, Oversight, and Courtroom Sharing Needed to Address Future Costs , GAO-10-417, June 2010, p. 9.">17</a></sup> This prompted Congress to ask the Government Accountability Office (GAO) to audit multiple courthouse construction and renovation projects to identify the origins of widespread cost overruns, and to hold hearings on how to address courthouse cost escalation.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="Ibid.">18</a></sup> At a time when the debt and deficit are salient issues, prospectus approval may be considered an opportunity for Congress to control costs and avoid wasteful spending.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702658"></a><a name="_Toc1732975"></a>Factors that Limit Oversight</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The usefulness of the prospectus approval process as an oversight tool may be limited by data that are not available to authorizing committees. The lack of data that directly compare the cost of leasing versus owning space means that Congress is unable to determine whether it is being asked to approve the most cost-effective option for meeting an agency's real property needs. Similarly, the lack of data on the cost of alterations may prevent Congress from knowing the full costs associated with a particular lease prospectus. Oversight may also be limited by the number of real property projects for which prospectuses should be submitted as required by statute, but are not.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702659"></a><a name="_Toc1732976"></a>Lack of Comparative Cost Data</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One of the primary reasons GAO has listed federal real property management as a high-risk area since 2003 is that the government increasingly acquires space through leases rather than by constructing or purchasing buildings.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="U.S. Government Accountability Office, High-Risk Series: An Update , GAO-13-283, February 2013, p. 107.">19</a></sup> Since 2008, GSA's portfolio has included more leased than owned space, even though leasing is often less cost effective, particularly if the space will be needed for long-term occupancy (20 years or more).<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="U.S. Government Accountability Office, Federal Buildings Fund: Improved Transparency and Long-term Plan Needed to Clarify Capital Funding Priorities , GAO-12-646, July 2012, p. 4.">20</a></sup> One study of 27 long-term leases estimated that the government will spend $866 million more than it would have spent building or buying comparable space.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="U.S. Government Accountability Office, Federal Real Property: Greater Transparency and Strategic Focus Needed for High-Value GSA Leases , GAO-13-744, September 2013, p. 22.">21</a></sup> Nonetheless, GSA's lease prospectuses do not include a comparison of the costs of leasing versus owning space over time, known as an alternative analysis. While GSA is not required by law to include an alternative analysis in its prospectuses, the absence of comparative cost data means Congress is making decisions without knowing whether a proposed lease is the most cost-effective option.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702660"></a><a name="_Toc1732977"></a>Lack of Data on the Cost of Alterations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The cost of leasing space is more than the sum of rent and operating expenses—in some cases, agencies need to alter leased space in order for it to meet the agencies' needs. An agency may determine, for example, that while the location and square footage are suitable, security features may need to be enhanced, technological capabilities upgraded, or conference rooms added.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Ibid.">22</a></sup> Such alterations are not necessarily included in the cost estimate of a lease prospectus because the actual building in which space will be leased has not been selected when GSA submits a prospectus. Typically, GSA first seeks authorization to enter into a lease and then identifies suitable space through a competitive process. Moreover, any investment in alterations will be lost if the agency moves to another location at the end of the lease term—a factor that may dissuade the agency relocating, even if a different property was less costly or otherwise more suitable. Alterations to leased space can add millions of dollars to the cost of the lease and affect agency decision-making, but authorizing committees may not know about them and thus not take them into consideration because they are not part of the prospectus.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702661"></a><a name="_Toc1732978"></a>Failure to Meet Prospectus Submission Requirements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As noted, GSA is required by law to obtain congressional approval if a project exceeds its authorized cost estimate by more than 10%. This approval is obtained by submitting an amended prospectus with the new estimate to the House and Senate authorizing committees. For example, GSA submitted amended prospectuses for courthouse construction projects that exceeded their authorized cost estimates by more than 10%, as required. While the same rule applies to leased space, there is evidence that GSA does not consistently submit amended prospectuses when the cost of a previously authorized lease increased by more than 10%.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="U.S. General Services Administration, Office of Inspector General, Review of Management Controls over the Lease Prospectus Process , Report Number A070199/P/R/R09002, July 15, 2009, pp. 4-6.">23</a></sup> Similarly, a prospectus must be submitted for leases that initially fell below the prospectus threshold—and therefore did not require congressional authorization—but which were amended so that the new cost of the lease exceeded the threshold. As with leases that increased in cost by more than 10%, auditors have identified multiple instances where GSA did not submit a prospectus for leases that exceeded the prospectus threshold after being amended.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="Ibid.">24</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702662"></a><a name="_Toc1732979"></a>Legislative Proposal to Change the Prospectus Process</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In an effort to make GSA's real property activities more cost effective and transparent, Representative Lou Barletta introduced <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>, the Public Buildings Service Savings and Reform Act, on July 8, 2013. The legislation was co-sponsored by Delegate Eleanor Holmes Norton, Representative Bill Shuster, and Representative Nick Rahall. The bill was referred to the Committee on Transportation and Infrastructure, and then on July 9, to the Subcommittee on Economic Development, Public Buildings and Emergency Management. The following day, after committee markup, the committee ordered the bill to be reported; the subcommittee was discharged from further consideration of the bill. No further action has been taken.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The bill would make numerous changes to the way that the Public Buildings Service (PBS)—the office within GSA responsible for real property management—constructs and leases space, reports on the size and cost of GSA's portfolio, and tracks administrative expenses, such as travel and conference costs. The provisions that relate specifically to the prospectus approval process are discussed below. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702663"></a><a name="_Toc1732980"></a>Key Provisions Related to Prospectus Process</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702664"></a><a name="_Toc1732981"></a>Required Offsets for New Space</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 2(a) would require any prospectus that proposes new space, whether leased or owned, in fiscal years 2014, 2015, 2016, and 2017, to include the details of the elimination of at least an equal amount of space from GSA's inventory. The following paragraph, 2(b), does not apply to prospectuses but would prohibit GSA from increasing its leased or owned space when compared to its FY2012 inventory as a baseline. Section 2(a) therefore appears to establish a mechanism for Congress to verify that GSA is implementing the offset requirements of Section 2(b). </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702665"></a><a name="_Toc1732982"></a>Restrictions on Below-Prospectus Projects</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 3(b) would prohibit GSA from entering into a lease that falls below the prospectus threshold but exceeds the "maximum rental rate established by the Administrator for the respective geographical location" unless GSA notifies the authorizing committees in writing at least 10 days before entering into the lease. This provision appears to codify existing GSA policy.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="U.S. General Services Administration, Pricing Desk Guide , April 5, 2010, p. 2-25.">25</a></sup> In essence, the proposed language would prevent GSA from signing a lease where the rental rate would be greater than that paid for comparable properties in a geographic area. This language would apply specifically to leases that fall below the annual threshold and therefore do not have prospectuses approved by authorizing committees. This may suggest that the provision is intended to prevent GSA from paying above-market rental rates on smaller leases that have less oversight.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702666"></a><a name="_Toc1732983"></a>Reports on Leases</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 4(a) would require GSA to submit to the authorizing committees, by December 3 of each year, a list of all leases that it entered into during the previous fiscal year. The list must include, for each lease, its size, location, tenant agency, total annual rent, and authorized annual rent (for prospectus-level leases only).</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702667"></a><a name="_Toc1732984"></a>Zero-Based Space Justification</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 5(3) would require GSA to include in all prospectuses, whether for construction, purchase, alteration, or lease of space, an explanation of why such space could not be obtained from existing unused space in federal properties.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702668"></a><a name="_Toc1732985"></a>Eliminating Project Cost Escalation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 13 would clarify that a project may not increase or decrease in scope or size by more than 10% unless an amended prospectus is submitted to, and approved by the authorizing committees. It would also require GSA to notify the authorizing committees, in writing, of any project that would increase in cost, or increase or decrease in scope or size beyond its authorized size or scope by 5% or more.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702669"></a><a name="_Toc1732986"></a>Analysis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> is enacted it could result in significant changes in GSA's management of real property, the most sweeping of which might be the offset of space requirements. These requirements, found in Section 2 of the bill, would prohibit GSA from increasing the size of its portfolio above its FY2012 level. Any proposal to build, lease, or purchase new space would have to be offset by an equivalent reduction in existing GSA space, and the details of that offset would have to be included in the project's prospectus. The government owns tens of thousands of properties with unused space—including approximately 11,600 buildings that are less than half-occupied—and GSA is currently required to first try to fill new space needs at those underutilized federal properties before constructing, purchasing, or leasing space from the private sector.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="Federal Real Property Council, FY 2012 Federal Real Property Report , Appendix, p. 9, at http://www.gsa.gov/portal/content/102880?utm_source=OGP&amp;utm_medium=print-radio&amp;utm_term=frppreport&amp;utm_campaign=shortcuts .">26</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> would go further, mandating that GSA actually dispose of—rather than merely consider utilizing—unneeded federal building space as a condition of obtaining new space. The principle of offsetting space is consistent with current legislative proposals to streamline and accelerate the disposal of unneeded federal property.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="For more information see CRS Report R43247, Disposal of Unneeded Federal Buildings: Legislative Proposals in the 113 th Congress , by Garrett Hatch .">27</a></sup> With regard to <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>, the current disposal process presents a challenge of timing: statutory disposal requirements and local market conditions make it difficult to estimate how long it will take to dispose of a property. Agencies are required by statute, for example, to first offer to transfer unneeded property to other federal agencies that may need it, then offer to convey it to state or local governments and non-profits that might use it for a public benefit, such as a homeless shelter or medical center, and, finally, if the property was neither transferred nor conveyed, offer it for sale to the public.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="U.S. General Services Administration, Realty Services, The Disposal Process , at http://www.gsa.gov/portal/content/101694 .">28</a></sup> Each step can take weeks—or months—as properties are assessed by interested parties, applications are submitted and reviewed, and financial and legal terms established. Moreover, the condition of the building, the need for the kind of space that is available, and the cost of any required historical or environmental remediation are all local factors that could affect how long it takes to dispose of the property. Some properties may generate no interest at all. It is not clear how <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> would take the unpredictable nature of disposition into account. The bill requires "the details of the elimination" of space, but it does not specify whether the space must have already been disposed of prior to the submission of the prospectus, or whether GSA would meet the offsetting requirement by providing a plan for disposing of equivalent space within a given timeframe. It is also not clear how Congress would track proposed disposals to ensure they are completed as detailed in the prospectus. Congress may consider requiring GSA to include in its Performance and Accountability Report or annual budget justification a list of the status of all offset activities approved through the prospectus process.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A related provision of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>, the zero-space justification requirement, would also use the prospectus process to constrain the size of GSA's portfolio. By requiring GSA to justify, in its prospectuses, why it must obtain the space requested from a private landholder instead of a federal agency, the provision would increase transparency into GSA's decision-making. Currently, GSA is required to first consider acquiring space in underutilized federal buildings before looking to the private sector to lease or buy space, or to construct new buildings. It is not known how consistently it is undertaken or what criteria are evaluated when determining suitability. The bill does not establish what specific information should be included in the explanation, which could limit the usefulness of the prospectus as an oversight mechanism. GSA could simply state, for example, that there was no suitable space available given the tenant's requirements. Congress may wish to consider whether to require certain information, such as the criteria used to determine whether a federal property was suitable for the tenant, the properties evaluated, and the factors that disqualified each property from consideration.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> also includes provisions designed to monitor and control real property acquisition costs. As noted, project cost escalation has become a concern to many Members of Congress, highlighted by massive cost overruns among courthouse construction projects. The bill proposes a new requirement that may provide Congress with a "red flag" for projects at risk for significant cost escalation. This requirement—that GSA notify the authorizing committees in writing of any increase or decrease of more than 5% of the estimated maximum cost or scope or size of a project—may give Congress an opportunity to hold hearings and work with GSA to prevent further cost escalation. The 5% requirement also stipulates that GSA must provide an explanation of why a project's cost or size exceeds the amount authorized. The explanation may be useful in making revisions to the project management plan and preventing further escalation, but it also may help identify factors that contribute to escalation across projects. It was determined, for example, that courthouse costs often escalated because the method for calculating the amount of courtroom space needed was flawed, resulting in costly over-building, and GSA agreed to use a new asset management planning method for courthouses going forward.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="U.S. Government Accountability Office, Federal Courthouses: Recommended Construction Projects Should be Evaluated under New Capital-Planning Process , GAO-13-263, April 2013, pp.22-23.">29</a></sup> Quickly identifying the factors that drive cost escalation may allow GSA to take steps to prevent similar problems in other projects.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A second cost containment measure in the bill would require GSA to notify the authorizing committees in writing before entering into certain leases that fall below the prospectus threshold. This provision would apply specifically to leases for which a prospectus is not required to be submitted and therefore have little congressional oversight. It reaffirms the principle that the government should obtain suitable space in the most cost-effective manner, regardless of the amount of funds involved. As policy, the bill would require GSA to ensure it is not paying above the local market rate for the type and amount of space being leased, even if the lease is below the prospectus threshold. With little data available on these leases, Congress may wish to request periodic audits from the GSA Inspector General or from GAO to (1) determine the extent to which GSA complies with the requirement and (2) estimate of the cost of leases that exceed local market rates.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> would require additional reporting on GSA leases. Much, but not all of the information the bill would require to be reported is already made available in spreadsheets on GSA's website.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="U.S. General Services Administration, Leasing Policy and Procedures, Lease Inventory , at http://www.gsa.gov/portal/content/101840 .">30</a></sup> These lease inventory reports provide data on the size, address, tenant agency, and rental rate of GSA's leases—which represents four of the five data elements GSA would be required to report under <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>. The one required data element that GSA does not currently report is the amount authorized for leases that exceed the prospectus threshold. GSA's inventory reports also differ from the requirements of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> in that they are issued monthly, rather than annually, and they include data on all of GSA's active leases, not just leases entered into during the previous fiscal year. However, given that the data required by the bill are either already being reported or should be readily accessible, there should not be significant burden placed on GSA in meeting these requirements. In addition, given the limitations on oversight discussed in this report, Congress may wish to consider whether to require GSA to provide additional data, either through the report mandated by <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> or through GSA's monthly lease inventory reports. Congress may find it useful to know, for example, the projected and actual costs invested in each lease beyond rent (i.e., upgrades and renovations), whether the lease has increased 5% in cost or size beyond authorized parameters, whether GSA has notified the authorizing committees of this increase, whether the lease has increased 10% in cost or size beyond authorized parameters, and whether an amended prospectus has been approved. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc383702670"></a><a name="_Toc1732987"></a>Concluding Observations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While GSA may be commonly referred to as "the government's landlord," it only controls approximately 422 million square feet in buildings, which represents about 12.6% of the government's 3.354 billion total building square footage.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="Federal Real Property Council, FY 2012 Federal Real Property Report , Appendix, p. 3, at http://www.gsa.gov/portal/content/102880?utm_source=OGP&amp;utm_medium=print-radio&amp;utm_term=frppreport&amp;utm_campaign=shortcuts . This figure is not comprehensive because not all federal agencies are required to report annually on their real property portfolios but it does include 24 of the largest landholders, commonly referred to as the CFO Act agencies.">31</a></sup> There may be oversight provisions that would be useful if they applied to all federal landholding agencies, or at least the 24 large agencies commonly referred to as the Chief Financial Officer Act (CFO Act) agencies, which control 3.302 billion square feet in federal buildings.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="The 24 agencies subject to the provisions of the Chief Financial Officers Act of 1990 ( P.L. 101-576 , 104 Stat. 2839) are the Department of Agriculture, Department of Commerce, Department of Defense, Department of Education, Department of Energy, Department of Health and Human Services, Department of Homeland Security, Department of Housing and Urban Development, Department of the Interior, Department of Justice, Department of Labor, Department of State, Department of Transportation, Departme...">32</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are several committees that are considering real property reform bills which share some of the core objectives of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>—reducing inventory, increasing transparency, and controlling costs—but which would apply to a broader range of federal landholders.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="Examples of committees considering government-wide real property reform bills include the House Committee on Oversight and Government Reform ( H.R. 328 , Excess Federal Building and Property Disposal Act of 2013); the House Committee on Transportation and Infrastructure ( H.R. 695 , Civilian Property Realignment Act of 2013); the Senate Committee on Homeland Security and Governmental Affairs ( S. 1398 , Federal Real Property Asset Management Reform Act of 2013 and S. 1715 , Civilian Property...">33</a></sup> Particular provisions that do not appear in these government-wide real property reform bills but that committees might consider incorporating could include the required offset of new space, zero-based space-justification, and additional cost-escalation warnings.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">By the same token, there may be provisions in active legislation which, if enacted, could provide mechanisms for implementing provisions of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>. Several bills propose increased public reporting of agency real-property data or providing public access to GSA's Federal Real Property Profile, an existing database which contains a great deal of information about owned and leased properties government-wide. A publicly accessible, government-wide real-property database, if established, might be able to incorporate additional information as proposed in <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a>, such as lease data, as well as data that are not specifically required by <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.2612:"><span class="Hyperlink">H.R. 2612</span></a> or other reform bills but which might be a valuable cost-assessment tool—an alternative analysis of all proposed leases which would compare the cost of leasing versus owning new space over a 20- or 30-year period.</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Real Property Council, <em>FY</em><em>2012 Federal Real Property Report</em>, Appendix, p. 4.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 Stat. 630.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 63 Stat. 176.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 63 Stat. 377.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 73 Stat. 479.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The U.S. General Services Administration (GSA) promulgates the Federal Management Regulation (FMR), which is codified in 41 C.F.R. § 102 <em>et seq</em>. The FMR includes the agency's real property regulations and policies.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 40 U.S.C. § 3307(a).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 40 U.S.C. § 3307(h).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Letter from Dan Tangherlini, General Services Administration Acting Administrator, to Senator Barbara Boxer, Chairman, Committee on Environment and Public Works, June 4, 2013.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 40 U.S.C. § 3307(a).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 40 U.S.C. § 3307(d).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 40 U.S.C. § 3307(f).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 40 U.S.C. § 3307(e).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 40 U.S.C. § 3307(c).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Government Accountability Office, <em>Federal Courthouse Construction: Better Planning, Oversight, and Courtroom Sharing Needed to Address Future Costs</em>, GAO-10-417, June 2010, p. 9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Government Accountability Office, <em>High-Risk Series: An Update</em>, GAO-13-283, February 2013, p. 107.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Government Accountability Office, <em>Federal Buildings Fund: Improved Transparency and Long-term Plan Needed to Clarify Capital Funding Priorities</em>, GAO-12-646, July 2012, p. 4.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Government Accountability Office, <em>Federal Real Property:</em> <em>Greater Transparency and Strategic Focus Needed for High-Value GSA Leases</em>, GAO-13-744, September 2013, p. 22.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. General Services Administration, Office of Inspector General, <em>Review of Management Controls over the Lease Prospectus Process</em>, Report Number A070199/P/R/R09002, July 15, 2009, pp. 4-6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. General Services Administration, <em>Pricing Desk Guide</em>, April 5, 2010, p. 2-25.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Real Property Council, <em>FY 2012 Federal Real Property Report</em>, Appendix, p. 9, at <a class="ExternalLink" href="http://www.gsa.gov/portal/content/102880?utm_source=OGP&amp;utm_medium=print-radio&amp;utm_term=frppreport&amp;utm_campaign=shortcuts"><span class="Hyperlink">http://www.gsa.gov/portal/content/102880?utm_source=OGP&amp;utm_medium=print-radio&amp;utm_term=frppreport&amp;utm_campaign=shortcuts</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information see CRS Report R43247, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43247"><em>Disposal of Unneeded Federal Buildings: Legislative Proposals in the 113</em><em><sup>th</sup></em><em> Congress</em></a>, by Garrett Hatch.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. General Services Administration, Realty Services, <em>The Disposal Process</em>, at <a class="ExternalLink" href="http://www.gsa.gov/portal/content/101694"><span class="Hyperlink">http://www.gsa.gov/portal/content/101694</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Government Accountability Office, <em>Federal Courthouses: Recommended Construction Projects Should be Evaluated under New Capital-Planning Process</em>, GAO-13-263, April 2013, pp.22-23.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. General Services Administration, Leasing Policy and Procedures, <em>Lease Inventory</em>, at <a class="ExternalLink" href="http://www.gsa.gov/portal/content/101840"><span class="Hyperlink">http://www.gsa.gov/portal/content/101840</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Real Property Council, <em>FY 2012 Federal Real Property Report</em>, Appendix, p. 3, at <a class="ExternalLink" href="http://www.gsa.gov/portal/content/102880?utm_source=OGP&amp;utm_medium=print-radio&amp;utm_term=frppreport&amp;utm_campaign=shortcuts"><span class="Hyperlink">http://www.gsa.gov/portal/content/102880?utm_source=OGP&amp;utm_medium=print-radio&amp;utm_term=frppreport&amp;utm_campaign=shortcuts</span></a>. This figure is not comprehensive because not all federal agencies are required to report annually on their real property portfolios but it does include 24 of the largest landholders, commonly referred to as the CFO Act agencies.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The 24 agencies subject to the provisions of the Chief Financial Officers Act of 1990 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d101:FLD002:@1(101+576)"><span class="Hyperlink">P.L. 101-576</span></a>, 104 Stat. 2839) are the Department of Agriculture, Department of Commerce, Department of Defense, Department of Education, Department of Energy, Department of Health and Human Services, Department of Homeland Security, Department of Housing and Urban Development, Department of the Interior, Department of Justice, Department of Labor, Department of State, Department of Transportation, Department of Treasury, Department of Veterans Affairs, Environmental Protection Agency, National Aeronautics and Space Administration, Agency for International Development, General Services Administration, National Science Foundation, Nuclear Regulatory Commission, Office of Personnel Management, Small Business Administration, and the Social Security Administration.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Examples of committees considering government-wide real property reform bills include the House Committee on Oversight and Government Reform (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.328:"><span class="Hyperlink">H.R. 328</span></a>, Excess Federal Building and Property Disposal Act of 2013); the House Committee on Transportation and Infrastructure (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.695:"><span class="Hyperlink">H.R. 695</span></a>, Civilian Property Realignment Act of 2013); the Senate Committee on Homeland Security and Governmental Affairs (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1398:"><span class="Hyperlink">S. 1398</span></a>, Federal Real Property Asset Management Reform Act of 2013 and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1715:"><span class="Hyperlink">S. 1715</span></a>, Civilian Property Realignment Act of 2013, which is the companion bill to <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.795:"><span class="Hyperlink">H.R. 795</span></a>).</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
