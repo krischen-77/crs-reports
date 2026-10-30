@@ -3,7 +3,7 @@
   "errors": [
     "coverage-audit.yml: latest run failure"
   ],
-  "checked_at": "2026-10-29T21:50:32.700351+00:00",
+  "checked_at": "2026-10-30T01:59:47.827375+00:00",
   "monitor_result": "completed",
   "notices": [],
   "recovery_stage": "coverage-audit.yml",
@@ -39,12 +39,17 @@
       "updated_at": "2026-10-29T17:05:53Z"
     }
   },
-  "recovery_action": "Retry cooldown/cap active; failure remains visible",
-  "daily_delivery": null,
+  "recovery_action": "Dispatched coverage-audit.yml; completion is NOT yet verified",
+  "daily_delivery": {
+    "date_beijing": "2026-10-29",
+    "new_original_versions": 17,
+    "persisted_attempts": 4,
+    "interpretation": "No new originals is a delivery notice, not by itself proof of refresh failure."
+  },
   "notification_severity": "warning",
   "notification_required": false,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
-  "github_run_id": "40961109656",
+  "github_run_id": "40989053590",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
