@@ -1,0 +1,330 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R43691.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Social Networking and Constituent Communications: Members' Use of Vine in Congress</div>
+<div class="CoverDate">Updated August 21, 2014
+            (R43691)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc396469393"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc396469394"><span class="Hyperlink">Vine</span></a></li>
+<li class="TOC1"><a href="#_Toc396469395"><span class="Hyperlink">Data Analysis</span></a></li>
+<li class="TOC2"><a href="#_Toc396469396"><span class="Hyperlink">Methodology</span></a></li>
+<li class="TOC2"><a href="#_Toc396469397"><span class="Hyperlink">Who Is Using Vine?</span></a></li>
+<li class="TOC2"><a href="#_Toc396469398"><span class="Hyperlink">How Much Is Vine Being Used?</span></a></li>
+<li class="TOC2"><a href="#_Toc396469399"><span class="Hyperlink">What Are Members Vineing About?</span></a></li>
+<li class="TOC3"><a href="#_Toc396469400"><span class="Hyperlink">Position Taking</span></a></li>
+<li class="TOC3"><a href="#_Toc396469401"><span class="Hyperlink">Homestyle (District/State)</span></a></li>
+<li class="TOC3"><a href="#_Toc396469402"><span class="Hyperlink">Official Action</span></a></li>
+<li class="TOC3"><a href="#_Toc396469403"><span class="Hyperlink">Personal/Family</span></a></li>
+<li class="TOC3"><a href="#_Toc396469404"><span class="Hyperlink">Information</span></a></li>
+<li class="TOC3"><a href="#_Toc396469405"><span class="Hyperlink">Other</span></a></li>
+<li class="TOC2"><a href="#_Toc396469406"><span class="Hyperlink">Issues Areas</span></a></li>
+<li class="TOC1"><a href="#_Toc396469407"><span class="Hyperlink">Concluding Observations</span></a></li>
+<li class="TOC2"><a href="#_Toc396469408"><span class="Hyperlink">The Evolution of Social Media</span></a></li>
+<li class="TOC2"><a href="#_Toc396469409"><span class="Hyperlink">Member Communications Strategies</span></a></li>
+<li class="TOC2"><a href="#_Toc396469410"><span class="Hyperlink">Regulation</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc396469387"><span class="Hyperlink">Figure 1. Vine Adoption in the House of Representatives and Senate</span></a></li>
+<li><a href="#_Toc396469388"><span class="Hyperlink">Figure 2. Total Number of Vine Posts</span></a></li>
+<li><a href="#_Toc396469389"><span class="Hyperlink">Figure 3. Proportions of Vine Posts by Chamber and Party</span></a></li>
+<li><a href="#_Toc396469390"><span class="Hyperlink">Figure 4. Vine Posts by Category and Chamber</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the past 10 years, the rise of social media has expanded the number of options available for communication between Members of Congress and their constituents. Virtually all Members, including all 100 Senators, use Twitter as a tool to communicate legislative, policy, and official actions to interested parties; and the use of other forms of social media, including Facebook, has also proliferated.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The adoption of these technologies has enhanced the ability of Members of Congress to fulfill their representational duties by providing greater opportunities for constituents to communicate with Members and their staff. Electronic communications have also raised some concerns. Existing law and chamber regulations on the use of communications media such as the franking privilege have proven difficult to adapt to new technologies.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">More recently, Members have begun to adopt video and picture sharing social media services. This report examines Members' use of one of these new electronic communications platforms: Vine. After providing an overview of Vine, the report analyzes patterns of Members' use of Vine. This report is inherently a snapshot of a dynamic process. As with any new technology, the number of Members using Vine and the patterns of use may change rapidly. Thus, the conclusions drawn from these data cannot be easily generalized, nor can these results be used to predict future behavior.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For more information on the adoption and use of social media by Members of Congress, see CRS Report R43018, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43018"><em>Social Networking and Constituent Communications: Members' Use of Twitter and Facebook During a Two-Month Period in the 112</em><em><sup>th</sup></em><em> Congress</em></a>, by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan and CRS Report R43477, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43477"><em>Social Media in the House of Representatives: Frequently Asked Questions</em></a>, by Jacob R. Straus and Matthew E. Glassman.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members of Congress have more choices and options available to communicate with constituents than they did 20 years ago. In addition to traditional modes of communication such as townhall meetings, telephone calls, and postal mail, Members can now engage their constituents via email, websites, tele-townhalls, online videos, social networking sites, and other electronic-based communications applications.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The rise of electronic communications has altered the traditional patterns of communication between Members and constituents. Although virtually all Members continue to use traditional communications tools, the use of new technology is increasing. For example, past research on the adoption of Twitter has shown that by August 2009, 29% of Members had adopted it.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="CRS Report R40823, Social Networking and Constituent Communication: Member Use of Twitter During a Two-Week Period in the 111 th Congress , by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan .">1</a></sup> The percentages of Members who adopted had increased to 38% by September 2009,<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="CRS Report R41066, Social Networking and Constituent Communications: Member Use of Twitter During a Two-Month Period in the 111 th Congress , by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan .">2</a></sup> 57% by December 2010,<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='Jacob R. Straus, Matthew Eric Glassman, Colleen J. Shogan, and Susan Navarro Smelcer, "Communicating in 140 Characters or Less: Congressional Adoption of Twitter in the 111 th Congress," PS: Political Science &amp; Politics , vol. 46, no. 1 (January 2013), p. 62.'>3</a></sup> and 79% by January 2012.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="CRS Report R43018, Social Networking and Constituent Communications: Members' Use of Twitter and Facebook During a Two-Month Period in the 112 th Congress , by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan .">4</a></sup> By January 2013, 100% of Senators and 90% of Representatives had adopted Twitter.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='Adam Sharp, "100 Senators and the 57 th Inauguration," Twitter Blog , January 18, 2013, at https://blog.twitter.com/2013/100-senators-and-57th-inauguration .'>5</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">More recently, Members have begun to adopt video and picture sharing social media services. This report examines Members' use of one of these new electronic communications platforms: Vine. After providing an overview of Vine, the report analyzes patterns of Members' use of Vine. Finally, the report offers a discussion of the implications of the rise of video sharing services like Vine, and of social media more generally.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469394"></a>Vine</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Vine is a social media video sharing service, owned by Twitter, which allows users to create six-second videos that can be short snippets of conversation, a series of still shots, or a moving panorama that automatically repeats in a loop. These videos (Vines) can be shared with Vine followers and on Twitter and Facebook.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='"Getting Started with Vine," Twitter Help Center , at https://support.twitter.com/articles/20171743-getting-started-with-vine .'>6</a></sup> Vine is primarily designed for use on mobile devices such as iPhone, Android, and Windows supported devices.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Ibid.">7</a></sup> Vine combines many features of Twitter—short posts and hashtags—with the ability to share short, looping videos or compilations of pictures. It also allows users to reach followers with both text and video images.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='"FAQs about Vine," Twitter Help Center , at https://support.twitter.com/groups/54-mobile-apps/topics/269-vine/articles/20170317-faqs-about-vine .'>8</a></sup> Up to 140 characters of text can accompany a Vine post.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469395"></a>Data Analysis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report analyses the following questions related to Members' use of Vine:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What proportion of Members use Vine?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">How often do Members use Vine?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What do Members Vine about?</li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469396"></a>Methodology</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In June 2014, the Congressional Research Service (CRS) collected data on the adoption and use of Vine. To collect the data, CRS first determined which Representatives and Senators had registered with Vine. Using the Vine search engine, CRS searched for each Representative and Senator by name. The adoption data were the basis for analyzing Members' use of Vine.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CRS examined all Vines for all registered Representatives and Senators to create a second dataset capturing Members' use of Vine. The unit of analysis of this second dataset was individual Vines. This dataset includes a total of 487 Vines. To categorize each Vine, CRS devised a comprehensive set of coding categories. The researchers then examined each Vine and recorded the appropriate coding results.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Several caveats accompany the results presented. First, the analysis treats all Member Vines as structurally identical, because each individual Vine reveals no information about who physically took the video. In some cases, Members might personally appear in a Vine, whereas other Members might choose to highlight constituents, staff, or other items. CRS draws no distinction between the two. Second, as with any new technology, the number of Members using Vine and the patterns of use may change rapidly in short periods of time. Thus, the conclusions drawn from these data cannot be easily generalized. Finally, these results cannot be used to predict future behavior.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469397"></a>Who Is Using Vine?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As of June 25, 2014, 141 of all 541 Members of Congress (26.1%) had an account registered with Vine. This represents an increase from 105 Members (19.4%) who, according to a January 2014 CRS report, had adopted Vine.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="CRS In Focus IF00019, Congressional Adoption of Vine , by Jacob R. Straus and Matthew E. Glassman .">9</a></sup> When examined by chamber, 21% of registered Members were found to be Senators and 79% Representatives. When examined by party, 57% of Vine-registered Members were found to be Republicans and 43% Democrats. The proportion of adoption by party is consistent with previous research on the adoption of other social media platforms—such as Twitter and Facebook.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="CRS Report R43018, Social Networking and Constituent Communications: Members' Use of Twitter and Facebook During a Two-Month Period in the 112 th Congress , by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan .">10</a></sup> <a class="InternalLink" href="#_Ref393443891"><strong></strong><strong>Figure 1</strong></a> shows the percentage of Member adoption of Vine by political party and chamber. </p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref393443891"></a><a name="_Toc396469387"></a>Figure 1. Vine Adoption in the House of Representatives and Senate</p>
+<p class="FigureSubTitle">By Chamber and Party</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R43691_files/0.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> CRS Data Analysis.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Earlier studies of social media adoption found that House Republicans were the most likely early adopters of Twitter.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='CRS Report R41066, Social Networking and Constituent Communications: Member Use of Twitter During a Two-Month Period in the 111 th Congress , by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan ; and Jacob R. Straus, Matthew Eric Glassman, Colleen J. Shogan, and Susan Navarro Smelcer, " Communicating in 140 Characters or Less: Congressional Adoption of Twitter in the 111 th Congress, " PS: Political Science &amp; Politics , vol. 46, no. 1 (January 2013), pp. 60-66.'>11</a></sup> That finding also appears to be true for Vine; House Republicans had the most adoptions—with a total of 69 Members on Vine. Adoptions for House Democrats (42), Senate Democrats (19), and Senate Republicans (11), were lower. By percentage, the majority party in each chamber—the House Republicans and the Senate Democrats—had the highest proportion of Members adopt Vine.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469398"></a>How Much Is Vine Being Used?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On February 6, 2013, the first Member Vine was posted. Between that date and June 25, 2014, a total of 487 Vines were posted by Representatives and Senators, for an average of 29 Vines per month. Representatives posted an average of 74 Vines per month. Senators posted an average of seven per month. <strong><a class="InternalLink" href="#_Ref396397757"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong> shows the total number of Vines posted per month, divided by chamber.</p>
+<p class="Figure" style="padding-left:-203.6pt;padding-right:-203.6pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref396397757"></a><a name="_Toc396469388"></a>Figure 2. Total Number of Vine Posts </p>
+<p class="FigureSubTitle">Per Month, by Representatives and Senators</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R43691_files/1.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS Data Analysis.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">House Republicans posted a majority of the Vines (51%). Next were House Democrats (24%), then Senate Democrats (18%), and Senate Republicans (8%). <a class="InternalLink" href="#_Ref393443938"><strong></strong><strong>Figure 3</strong></a> shows the proportion of Vines by chamber and party.</p>
+<p class="Figure" style="padding-left:-52.9pt;padding-right:-52.9pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref393443938"></a><a name="_Toc396469389"></a>Figure 3. Proportions of Vine Posts by Chamber and Party</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R43691_files/2.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS Data Analysis.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469399"></a>What Are Members Vineing About?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CRS created six major message categories for classifying Members' Vines: position taking, homestyle, official action, personal/family, information, and other. Each observed Member Vine post was coded as belonging in one category based on the primary contents of the message.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Following are definitions of the categories:</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469400"></a>Position Taking</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In these Vines, a Representative or Senator took a position on a policy or political issue. The expressed position could concern a specific bill under consideration or a general policy issue. The Member might or might not have appeared.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469401"></a>Homestyle (District/State)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These Vines featured a Representative or Senator highlighting the district in an official capacity. The Member could be discussing a trip, visit, or event in the district or state; highlighting a factory or district or state feature; or engaging in some other non-Washington official action, such as travel to or from the district.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469402"></a>Official Action</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In these Vines, a Representative or Senator described, showed, or recounted an official action. Examples included signing letters, voting on the floor or in committee, and introducing legislation.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469403"></a>Personal/Family</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These were Vines in which a Representative or Senator discussed events in his or her personal life or provided opinions concerning matters that were explicitly unrelated to the Member's work in Congress.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469404"></a>Information</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In this category of Vines, a Representative or Senator gave factual information on a variety of topics, such as historical events, holidays, Congressional staff, or interns. The Member might or might not have appeared.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469405"></a>Other</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Vines that did not fit into other categories were classified as "other."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref393443973"><strong></strong><strong>Figure 4</strong></a> shows the percentages of total Vines posted by Representatives and Senators that were in the each of the six categories.</p>
+<p class="Figure" style="padding-left:-44.6pt;padding-right:-44.6pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref393443973"></a><a name="_Toc396469390"></a>Figure 4. Vine Posts by Category and Chamber</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image6.png" class="Figure" src="R43691_files/3.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS Data Analysis.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Overall, position-taking Vines were the most common (33.5%). This category was followed by information (29.6%), then homestyle (16%), personal/family (11.7%), official action (7.1%), and other (2.3%). When Members were examined by chamber, Senators were found to have Vined most often about information (9%), followed by homestyle (7%), and personal/family and position taking (roughly 4% each). Representatives Vined most often about position taking (30%), followed by information (20%), and homestyle (9%). At this early stage of the Vine adoption and use process, Member posts are similar to early use of Twitter, when Members primarily used the platform to provide information, often in the form of press releases.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="For more information on the initial adoption of Twitter, see CRS Report R40823, Social Networking and Constituent Communication: Member Use of Twitter During a Two-Week Period in the 111 th Congress , by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan .">12</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Further, Members were visible in 53% of Vines overall, and 61% of Vines appear to have been recorded in the District of Columbia, judging from images of Members' offices, DC landmarks, and Members' tagging posts to indicate their locations. Vine provides an opportunity for Members to be seen directly by followers in a way that is not possible on Twitter—where it can be difficult to know whether the Member is personally tweeting or has delegated that action to a staff member.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469406"></a>Issues Areas</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After coding each Vine for contents, CRS recorded the issue area that was mentioned in each of the position-taking Vines. Some Vines covered more than one issue. A total of 38 issue areas received mention in 163 Vines. Six issues were mentioned most frequently. They were:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Patient Protection and Affordable Care Act (19 Vines—12%); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">immigration (19 Vines—12%); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">unemployment benefits (17 Vines—10%); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">better wage or minimum wage (17 Vines—10%); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2013 government shutdown (14 Vines—9%); and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">jobs (10 Vines—6%). </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The remaining 32 issues were each mentioned in six Vines or fewer.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Other issues mentioned included government abuse, energy, equal pay, unilateral action, debt, budget, IRS, social issues (abortion and marriage), Latin America (Venezuela/Free Cuba), President Obama, farm bill, Republican obstruction, students loans, commemorative coins, bureaucracy, nominations, ladders of opportunity, open government, corporate greed, federal workers, sale tax deductions, forests, militias, State of the Union Address, paid sick leave, child care, Benghazi, shark protection,...">13</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Overall, Members are using Vine to take positions on specific policy issues (see <a class="InternalLink" href="#_Ref393443973"><strong></strong><strong>Figure 4</strong></a>). The most common issue areas generally reflect the contents of congressional media coverage; the Patient Protection and Affordable Care Act, immigration, jobs, and the government shutdown have dominated media coverage of the 113<sup>th</sup> Congress (2013-2014).</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469407"></a>Concluding Observations</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469408"></a>The Evolution of Social Media</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The use of Vine by Members of Congress is an evolving phenomenon. As Members continue to embrace new technologies, their use of social media applications, like Vine and other platforms, may increase. Vine allows Members to communicate directly with constituents (and others) in a potentially interactive way that is not always possible using more traditional modes of communication. For Members and their staff, the ability to transmit real time information through videos and pictures, and observe how that information is shared across the Internet, could be influential for issue prioritization, policy decisions, and voting behavior.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unlike other forms of social media such as Twitter, Vine's emphasis is on visual instead of written communication. Whereas Twitter's focus is on communicating short bursts of information in 140 characters or fewer, Vine has the ability to translate those written thoughts into short series of pictures or videos that could potentially allow Members of Congress to disseminate their messages more effectively. One strength of social media, including Vine, is the potential for posts to go "viral,"<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='For social media, Dictionary.com defines "viral" as "becoming very popular by circulating quickly from person to person, especially through the Internet." "Viral," Dictionary.com , at http://dictionary.reference.com/browse/viral .'>14</a></sup> which would allow Members to communicate policy ideas, stake out positions, or announce events to an audience potentially far wider than just their followers.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Further, Vine allows for a clear distinction between Member and staff postings. Twitter, and other text-centric social media platforms, can obscure whether posts are coming directly from a Representative or Senator or from a staff member. To combat this problem, some offices have the Member sign his or her tweets, often with initials, to indicate that the post came directly from the Member. For Vine, this process can be straightforward because a Member can appear on camera to deliver his or her message directly. If the Member does not appear in the Vine, then the public may assume that staff posted the message.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Even with the ability to provide short video contents, Vine is currently not nearly as popular as Twitter or many other social media sites. While specific analysis on the percentage of adults using Vine is not currently available, the Pew Internet Research Project conducted a study on the use of Vine-like applications to watch videos on smartphones and the web. The Pew Project found that "... apps such as Vine are emerging which allow users to easily record and share short videos. Among online video consumers, 17% say they watch videos using a cell phone app like Vine. And among online video posters, 23% say that they have posted a video using this kind of app."<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='Kristen Purcell, "Main Findings," Online Video 2013 , Pew Research Center, October 10, 2013, at http://www.pewinternet.org/2013/10/10/main-findings/ .'>15</a></sup> The use of video sharing applications is becoming more popular. Consequently, the opportunities for Members of Congress to use these applications and websites to disseminate public policy positions and constituent services information are also increasing.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469409"></a>Member Communications Strategies</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">How Members use social media continues to evolve. Some reports have suggested that Members are dedicating additional staff (or hiring new staff) to handle social media as part of their messaging and communications strategy.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Congressional Management Foundation, "How Capitol Hill Is Coping With the Surge in Citizen Advocacy," 2005, at http://www.congressfoundation.org/storage/documents/CMF_Pubs/cwc_capitolhillcoping.pdf .'>16</a></sup> In the current budget climate, how Members allocate staff—especially in the House of Representatives, which limits the number of full time staff that a Member can hire—is crucial.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='Pursuant to 2 U.S.C. §5321, "... each Member of the House of Representatives may employ not more than 18 permanent employees.... " Additionally, House Members may not employ more than four additional employees from the following categories: (1) interns, (2) part-time employees, (3) shared employees, (4) temporary employees, or (5) employees on leave without pay.'>17</a></sup> If Members spend more resources on social media, the priorities of other representational functions possibly could change.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Further research on the adoption and use of social media platforms—such as Vine—could provide insight into the changing approaches to representation, messaging to constituents and non-constituents, internal congressional communications (i.e., Members interacting with other Members through social media), and potential regulations. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Also, while official Member communications cannot include campaign rhetoric, what Members say on official House or Senate social media accounts arguably can be used in elections.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="Jacob R. Straus, &quot;Use of 'Dear Colleague' Letters in the US House of Representatives: A Study of Internal Communications, &quot; Journal of Legislative Studies , vol. 19, no. 1 (2013), p. 64.">18</a></sup> The impact of a video sharing service like Vine, as compared to a text-based service like Twitter, is unknown. Potential challengers could possibly use a Member's appearance in a Vine more directly than a Member's Twitter statement. The potential use of a Vine as part of a campaign commercial, for example, could alter a Member's decision on the type of contents included in future Vines.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396469410"></a>Regulation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Electronic communications have also raised some concerns. While a complete discussion of this topic is beyond the scope of this report, a few observations warrant mentioning. First, existing law and chamber regulations on the use of communications media such as the franking privilege have proven difficult to adapt to new electronic technologies. Currently, House regulations largely treat social media communications as similar to franked mail.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="For more information on social media regulation in the House of Representatives, see CRS Report R43477, Social Media in the House of Representatives: Frequently Asked Questions , by Jacob R. Straus and Matthew E. Glassman .">19</a></sup> Several key differences, however, exist between electronic communications and franked mail—most notably the lack of marginal cost for sending electronic communications, the inability to differentiate between constituents and non-constituents, the opt-in nature of social media, and the ability of campaign challengers to adopt and utilize identical applications. These factors raise questions about both the suitability and necessity of applying the franking model to social media communications.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Second, the use of social media communications is rapidly changing. In 2012, Vine did not exist. Going forward, there is no way to predict whether Vine, or other similar video-sharing services, will continue to enjoy popularity. Policy makers thus may choose to seek general rather than specific structures when considering social media regulation, to avoid the need to revisit policies as new technologies are developed. Similarly, Members of Congress may choose to adopt social media platforms that provide similar user experiences in order to simplify messaging and the impact on staff time.</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Amber Wilhelm, graphics specialists, created all figures in this report.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R40823, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R40823"><em>Social Networking and Constituent Communication: Member Use of Twitter During a Two-Week Period in the 111</em><em><sup>th</sup></em><em> Congress</em></a>, by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R41066, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R41066"><em>Social Networking and Constituent Communications: Member Use of Twitter During a Two-Month Period in the 111</em><em><sup>th</sup></em><em> Congress</em></a>, by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jacob R. Straus, Matthew Eric Glassman, Colleen J. Shogan, and Susan Navarro Smelcer, "Communicating in 140 Characters or Less: Congressional Adoption of Twitter in the 111<sup>th</sup> Congress," <em>PS: Political Science &amp; Politics</em>, vol. 46, no. 1 (January 2013), p. 62.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43018, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43018"><em>Social Networking and Constituent Communications: Members' Use of Twitter and Facebook During a Two-Month Period in the 112</em><em><sup>th</sup></em><em> Congress</em></a>, by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Adam Sharp, "100 Senators and the 57<sup>th</sup> Inauguration," <em>Twitter Blog</em>, January 18, 2013, at <a class="ExternalLink" href="https://blog.twitter.com/2013/100-senators-and-57th-inauguration"><span class="Hyperlink">https://blog.twitter.com/2013/100-senators-and-57th-inauguration</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Getting Started with Vine," <em>Twitter Help Center</em>, at <a class="ExternalLink" href="https://support.twitter.com/articles/20171743-getting-started-with-vine"><span class="Hyperlink">https://support.twitter.com/articles/20171743-getting-started-with-vine</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "FAQs about Vine," <em>Twitter Help Center</em>, at <a class="ExternalLink" href="https://support.twitter.com/groups/54-mobile-apps/topics/269-vine/articles/20170317-faqs-about-vine"><span class="Hyperlink">https://support.twitter.com/groups/54-mobile-apps/topics/269-vine/articles/20170317-faqs-about-vine</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS In Focus IF00019, <a class="ExternalLink" href="http://www.crs.gov/products/if/pdf/IF00019.pdf"><em>Congressional Adoption of Vine</em></a>, by Jacob R. Straus and Matthew E. Glassman.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43018, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43018"><em>Social Networking and Constituent Communications: Members' Use of Twitter and Facebook During a Two-Month Period in the 112</em><em><sup>th</sup></em><em> Congress</em></a>, by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R41066, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R41066"><em>Social Networking and Constituent Communications: Member Use of Twitter During a Two-Month Period in the 111</em><em><sup>th</sup></em><em> Congress</em></a>, by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan; and Jacob R. Straus, Matthew Eric Glassman, Colleen J. Shogan, and Susan Navarro Smelcer, "Communicating in 140 Characters or Less: Congressional Adoption of Twitter in the 111<sup>th</sup> Congress," <em>PS: Political Science &amp; Politics</em>, vol. 46, no. 1 (January 2013), pp. 60-66.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the initial adoption of Twitter, see CRS Report R40823, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R40823"><em>Social Networking and Constituent Communication: Member Use of Twitter During a Two-Week Period in the 111</em><em><sup>th</sup></em><em> Congress</em></a>, by Matthew E. Glassman, Jacob R. Straus, and Colleen J. Shogan.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Other issues mentioned included government abuse, energy, equal pay, unilateral action, debt, budget, IRS, social issues (abortion and marriage), Latin America (Venezuela/Free Cuba), President Obama, farm bill, Republican obstruction, students loans, commemorative coins, bureaucracy, nominations, ladders of opportunity, open government, corporate greed, federal workers, sale tax deductions, forests, militias, State of the Union Address, paid sick leave, child care, Benghazi, shark protection, Consumer Financial Protection Bureau (CFPB), media shield, digital surveillance, and school choice.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For social media, Dictionary.com defines "viral" as "becoming very popular by circulating quickly from person to person, especially through the Internet." "Viral," <em>Dictionary.com</em>, at <a class="ExternalLink" href="http://dictionary.reference.com/browse/viral"><span class="Hyperlink">http://dictionary.reference.com/browse/viral</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kristen Purcell, "Main Findings," <em>Online Video 2013</em>, Pew Research Center, October 10, 2013, at <a class="ExternalLink" href="http://www.pewinternet.org/2013/10/10/main-findings/"><span class="Hyperlink">http://www.pewinternet.org/2013/10/10/main-findings/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Management Foundation, "How Capitol Hill Is Coping With the Surge in Citizen Advocacy," 2005, at <a class="ExternalLink" href="http://www.congressfoundation.org/storage/documents/CMF_Pubs/cwc_capitolhillcoping.pdf"><span class="Hyperlink">http://www.congressfoundation.org/storage/documents/CMF_Pubs/cwc_capitolhillcoping.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Pursuant to 2 U.S.C. §5321, "... each Member of the House of Representatives may employ not more than 18 permanent employees.... " Additionally, House Members may not employ more than four additional employees from the following categories: (1) interns, (2) part-time employees, (3) shared employees, (4) temporary employees, or (5) employees on leave without pay.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jacob R. Straus, "Use of 'Dear Colleague' Letters in the US House of Representatives: A Study of Internal Communications," <em>Journal of Legislative Studies</em>, vol. 19, no. 1 (2013), p. 64.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on social media regulation in the House of Representatives, see CRS Report R43477, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43477"><em>Social Media in the House of Representatives: Frequently Asked Questions</em></a>, by Jacob R. Straus and Matthew E. Glassman.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

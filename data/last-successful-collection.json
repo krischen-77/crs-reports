@@ -1,12 +1,12 @@
 {
-  "run_at": "2026-10-31T07:02:58.772423+00:00",
+  "run_at": "2026-10-31T15:47:25.055728+00:00",
   "window_start_inclusive": "2026-10-24",
   "window_end_inclusive": "2026-10-31",
   "lookback_days": 7,
   "sources": {
     "everycrsreport": {
       "ok": true,
-      "reports": 23588,
+      "reports": 23594,
       "coverage": "complete published CSV, not a claim of complete official CRS coverage"
     },
     "congress_api": {
@@ -132,6 +132,14 @@
       "api_version": 1,
       "pdf_revisions": [
         "2"
+      ],
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
+    },
+    {
+      "id": "IF13340",
+      "api_version": 1,
+      "pdf_revisions": [
+        "3"
       ],
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
@@ -344,28 +352,40 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
     {
+      "id": "R49498",
+      "api_version": 1,
+      "pdf_revisions": [
+        "4"
+      ],
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
+    },
+    {
       "id": "IF12914",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
       ]
     },
     {
-      "id": "R43535",
+      "id": "R43608",
       "scope": "optional historical backfill",
-      "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request"
+      "messages": [
+        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
     },
     {
-      "id": "R43538",
+      "id": "R43691",
       "scope": "optional historical backfill",
-      "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request"
+      "messages": [
+        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+      ]
     },
     {
-      "historical_backfill_remaining": 252,
+      "historical_backfill_remaining": 250,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "41179001491",
+  "github_run_id": "41216475570",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 118,
@@ -404,20 +424,20 @@
   "planned_versions": 65,
   "attempted_versions": 62,
   "successful_versions": 62,
-  "new_pdf_versions": 0,
-  "total_archived_pdf_versions": 641,
-  "total_html_snapshots": 486,
-  "total_pdf_bytes": 513847980,
+  "new_pdf_versions": 2,
+  "total_archived_pdf_versions": 643,
+  "total_html_snapshots": 488,
+  "total_pdf_bytes": 516242866,
   "pending_reports": 0,
   "pending_versions": 1,
-  "historical_pending_versions": 252,
-  "historical_new_pdf_versions": 0,
+  "historical_pending_versions": 250,
+  "historical_new_pdf_versions": 2,
   "primary_new_pdf_versions": 0,
-  "api_requests": 10,
-  "api_remaining_quota": 0,
+  "api_requests": 6,
+  "api_remaining_quota": 4,
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-10-31T07:04:12.484111+00:00",
-  "last_successful_run_at": "2026-10-31T07:04:12.484111+00:00"
+  "finished_at": "2026-10-31T15:48:13.121878+00:00",
+  "last_successful_run_at": "2026-10-31T15:48:13.121878+00:00"
 }
