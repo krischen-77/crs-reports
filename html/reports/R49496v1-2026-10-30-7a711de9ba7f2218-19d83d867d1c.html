@@ -1,0 +1,963 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">U.S. Aluminum Manufacturing: Industry Trends and Policy Options</div>
+<div class="CoverDate">October 30, 2026
+            (R49496)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc244257364"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc244257365"><span class="Hyperlink">Aluminum Manufacturing</span></a></li>
+<li class="TOC2"><a href="#_Toc244257366"><span class="Hyperlink">Domestic Primary Aluminum Production</span></a></li>
+<li class="TOC2"><a href="#_Toc244257367"><span class="Hyperlink">Domestic Secondary Aluminum Production</span></a></li>
+<li class="TOC1"><a href="#_Toc244257368"><span class="Hyperlink">Applications of Aluminum</span></a></li>
+<li class="TOC2"><a href="#_Toc244257369"><span class="Hyperlink">Consumer and Industrial Goods</span></a></li>
+<li class="TOC2"><a href="#_Toc244257370"><span class="Hyperlink">Defense Products</span></a></li>
+<li class="TOC1"><a href="#_Toc244257371"><span class="Hyperlink">Aluminum Market</span></a></li>
+<li class="TOC2"><a href="#_Toc244257372"><span class="Hyperlink">Global Capacity</span></a></li>
+<li class="TOC2"><a href="#_Toc244257373"><span class="Hyperlink">U.S. Aluminum Trade and Tariff Policy</span></a></li>
+<li class="TOC2"><a href="#_Toc244257374"><span class="Hyperlink">Price Determination</span></a></li>
+<li class="TOC1"><a href="#_Toc244257375"><span class="Hyperlink">Selected Considerations for Congress</span></a></li>
+<li class="TOC2"><a href="#_Toc244257376"><span class="Hyperlink">Public Support for Primary Aluminum Production</span></a></li>
+<li class="TOC2"><a href="#_Toc244257377"><span class="Hyperlink">Domestic Scrap Consumption</span></a></li>
+<li class="TOC2"><a href="#_Toc244257378"><span class="Hyperlink">Research and Development</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc244257358"><span class="Hyperlink">Figure 1. Aluminum Manufacturing Supply Chain</span></a></li>
+<li><a href="#_Toc244257359"><span class="Hyperlink">Figure 2. U.S. Aluminum Production, 2000-2025</span></a></li>
+<li><a href="#_Toc244257360"><span class="Hyperlink">Figure 3. U.S. Primary Aluminum Smelters, October 2026</span></a></li>
+<li><a href="#_Toc244257361"><span class="Hyperlink">Figure 4. U.S. Aluminum Production and Apparent Consumption</span></a></li>
+<li><a href="#_Toc244257362"><span class="Hyperlink">Figure 5. Global Primary Aluminum Production, 2025</span></a></li>
+<li><a href="#_Toc244257363"><span class="Hyperlink">Figure 6. Aluminum Midwest Premium as a Percentage of the London Metal Exchange Price and Estimated Average U.S. Duties</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Aluminum—a lightweight, ductile, malleable, and corrosion-resistant metal—is used in a variety of consumer, industrial, and technological goods, including aircraft, food packaging, building materials, motor vehicles, and several types of military equipment. The wide array of products and infrastructures containing aluminum make the metal essential to the economy and national security of the United States. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Aluminum production broadly goes through two processes. Primary aluminum production is an energy-intensive process that dissolves alumina—a chemical compound made from refining bauxite—to form aluminum. Secondary aluminum production melts scrap and recycled aluminum to form new products. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since 2000, primary aluminum production has generally decreased in the United States. A contributing factor to this decline is the relatively high cost of primary aluminum production in the United States compared with countries that have lower energy costs, including Canada, Russia, and the United Arab Emirates.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The United States is a major producer of secondary aluminum. Secondary aluminum production is less energy-intensive than primary aluminum production, and an abundance of domestic scrap provides advantages to U.S. producers. Secondary aluminum often contains more impurities than primary aluminum, as it is derived from recycled aluminum products or scrap. Thus, manufacturers of components used in electronics and aerospace manufacturing often favor primary aluminum that meets specified purity standards. Many defense-related products must comply with purity standards and therefore contain aluminum alloys made with refined primary aluminum. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">U.S. aluminum manufacturers function within a global market that affects the prices and availability of their products. The U.S. and Canadian aluminum industries are highly integrated, as each market is a major trading partner of the other across the aluminum value chain. The People's Republic of China holds over half of the global primary aluminum smelting capacity and has become the world's leading producer of aluminum over the past two decades. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tariff increases, global supply chain disruptions, and federal investments might be changing the global and national competitive landscape in the aluminum industry. Such tariff increases and disruptions are contributing to higher prices, which can make it profitable for aluminum producers to expand production in the United States. Concurrent to these changing market conditions, a federal grant is contributing to the construction of the first primary aluminum smelter in the United States since 1980. These developments could restore domestic capacity to levels not seen in decades.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Simultaneously, the rise in the price of aluminum may adversely affect industries that use it, such as manufacturers of transportation equipment and food. In addition, increases in the cost of producing end products with aluminum content, such as automotive vehicles and beverage cans, may raise the cost of living. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Policies that raise aluminum prices and foster domestic aluminum production may negatively affect consumers and industries that use aluminum. Congress might consider whether and, if so, how it might negotiate this tension. Among other options, Congress could assess public support, such as tax credits or other financial support, for primary aluminum smelters to acquire energy-efficient technologies that could lower the domestic cost of production. Congress also could consider options that increase the consumption of U.S. aluminum scrap by domestic producers. Additionally, Congress may consider support for research and development of innovations that might improve domestic aluminum production or affect the demand from industries that rely on specific aluminum products.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Aluminum—a lightweight, ductile, malleable, and corrosion-resistant metal—is used in a wide variety of consumer, industrial, and technological goods, including food packaging, aircraft, building materials, motor vehicles, and many types of military equipment. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In recent years, some observers have raised concerns about the fall in the domestic production of aluminum. In 2025, the U.S. Geological Survey estimated that the United States relied on imported aluminum—mainly from Canada (56% of imports), the United Arab Emirates (UAE; 8%), Bahrain (4%), and the People's Republic of China (China; 3%)—for 60% of its consumption.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='See "Aluminum" in U.S. Geological Survey (USGS), Mineral Commodity Summaries 2026 , February 2026, https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-aluminum.pdf (hereinafter USGS, "Aluminum," February 2026).'>1</a></sup> In addition, the domestic production of certain aluminum products needed for national security takes place in few locations. This may pose risks to national security if any single site were to experience an unplanned outage.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some U.S. aluminum producers have claimed that recent changes in U.S. tariff policies contributed to their decisions to invest in expanding domestic production capacity. These tariff policies—alongside disruptions in international trade, such as the drop in ship traffic through the Strait of Hormuz—have contributed to increases in the domestic price of aluminum. High domestic aluminum prices benefit domestic aluminum makers. Observers have noted that the high cost of aluminum also may negatively affect consumers and industries that use aluminum. Members of Congress might consider whether and, if so, how they might assess or negotiate the emerging tension between supply chain resilience and the cost of domestic production borne by consumers and industries that use aluminum.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides an overview of aluminum production in the United States and factors affecting its price. The report then discusses selected issues that may be of interest to Congress and some policy options. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc106023476"></a><a name="_Toc106357891"></a><a name="_Toc106869026"></a><a name="_Toc106958973"></a><a name="_Toc107319733"></a><a name="_Toc108184236"></a><a name="_Toc108437003"></a><a name="_Toc108678915"></a><a name="_Toc109127132"></a><a name="_Toc109221855"></a><a name="_Toc109377630"></a><a name="_Toc110346628"></a><a name="_Toc111810722"></a><a name="_Toc111813276"></a><a name="_Toc112067657"></a><a name="_Toc112138174"></a><a name="_Toc113874507"></a><a name="_Toc113885965"></a><a name="_Toc114037295"></a><a name="_Toc114046723"></a><a name="_Toc114555643"></a><a name="_Toc114562501"></a><a name="_Toc114836861"></a><a name="_Toc115079717"></a><a name="_Toc117079607"></a><a name="_Toc117681979"></a><a name="_Toc117683355"></a><a name="_Toc117687163"></a><a name="_Toc117687338"></a><a name="_Toc117687461"></a><a name="_Toc117764105"></a><a name="_Toc117764285"></a><a name="_Toc117858592"></a><a name="_Toc232180370"></a><a name="_Toc232184123"></a><a name="_Toc234759702"></a><a name="_Toc234857466"></a><a name="_Toc234857506"></a><a name="_Toc234857576"></a><a name="_Toc236232353"></a><a name="_Toc236233655"></a><a name="_Toc236309293"></a><a name="_Toc240745390"></a><a name="_Toc242195939"></a><a name="_Toc243647208"></a><a name="_Toc244251404"></a><a name="_Toc244257365"></a>Aluminum Manufacturing</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Aluminum production occurs through two types of processes: </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Primary </em><em>production</em><em> </em>yields aluminum by dissolving alumina—a chemical compound made from refining bauxite—using an electric current. Aluminum made from primary production can be further refined to achieve a higher concentration of elemental aluminum than is possible through secondary production. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">S<em>e</em><em>condary </em><em>production</em> yields aluminum by melting scrap metal. The scrap may be old and recovered from consumer or industrial products, such as cans and auto parts. It may also be new scrap left over from processing aluminum into consumer or industrial products. </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Aluminum made from these two processes is called <em>unwrought alu</em><em>minum</em>. Aluminum mills extrude, roll, and mechanically process unwrought aluminum into desired shapes such as sheets, tubes, and foil<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='The Aluminum Association, "Processing 101," accessed July 1, 2026, https://www.aluminum.org/processing-101 ; Roy Woodward, " The Rolling of Aluminium: T he Process and the Product ," lecture prepared for the Training in Alumin i um Application Technologies, 1994; and North American Industry Classification System (NAICS) Association, " 331318 - Other Aluminum Rolling, Drawing, and Extruding ," https://www.naics.com/naics-code-description/?v=2022&amp;code=331318 .'>2</a></sup> that are then referred to as <em>wrought aluminum</em>. Unwrought aluminum may also be melted and cast into shapes. Cast and wrought aluminum are also referred to as <em>semi</em><em>-</em><em>fabricated</em> products.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='The Aluminum Association defined semi-fabrication as follows: " Aluminum semi-fabrication is a forming process to transform aluminum ingots into a semi-finished shape. Typical aluminum semi-fabrication processes include rolling, extrusion, forging and casting. Product of a semi-fabrication process often requires further manufacturing (fabrication, finishing, and assembly) to turn it into a final product for end use. " See Marshall Jinlong Wang, " The Environmental Footprint of Semi - Fa...'>3</a></sup> Producers of semi-fabricated products in the United States accounted for about 75% of the domestic aluminum industry's $41.1 billion sales in 2024.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='Calculation achieved using da t a from U.S. Census Bureau . S um of sales, value of shipment, or revenue for NAICS code 331315 (aluminum sheet, plate, and foil manufacturing) and 331318 (other aluminum rolling, drawing, and extruding) divided by NAI C S code 3313 (alumina and aluminum production and processing). See U.S. Census Bureau, "Annual Integrated Economic Survey," accessed October 20, 2026, https://data.census.gov/table/AIESBASIC2024.AIES31BASIC01?q=AIES31BASIC01&amp;code...'>4</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Semi-fabricated products are used in the manufacture of consumer, industrial, and defense products.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='Aluminum Extruders Council, "Industries," accessed July 1, 2026, https://aec.org/industries .'>5</a></sup> <a class="InternalLink" href="#_Ref108677735"><strong></strong><strong>Figure 1</strong></a> depicts this supply chain.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref108677735"></a><a name="_Toc108678909"></a><a name="_Toc109127126"></a><a name="_Toc109221849"></a><a name="_Toc109377624"></a><a name="_Toc110346622"></a><a name="_Toc111810717"></a><a name="_Toc111813270"></a><a name="_Toc112067651"></a><a name="_Toc112138168"></a><a name="_Toc113874500"></a><a name="_Toc113885958"></a><a name="_Toc114037288"></a><a name="_Toc114046716"></a><a name="_Toc114555636"></a><a name="_Toc114562494"></a><a name="_Toc114836854"></a><a name="_Toc115079710"></a><a name="_Toc117079600"></a><a name="_Toc117681972"></a><a name="_Toc117683348"></a><a name="_Toc117687156"></a><a name="_Toc117687331"></a><a name="_Toc117687454"></a><a name="_Toc117764098"></a><a name="_Toc117764278"></a><a name="_Toc117858585"></a><a name="_Toc232180362"></a><a name="_Toc232184115"></a><a name="_Toc234759694"></a><a name="_Toc234857458"></a><a name="_Toc234857498"></a><a name="_Toc234857568"></a><a name="_Toc236232345"></a><a name="_Toc236308921"></a><a name="_Toc236309285"></a><a name="_Toc240745383"></a><a name="_Toc242195953"></a><a name="_Toc243647201"></a><a name="_Toc244251397"></a><a name="_Toc244257358"></a>Figure 1. Aluminum Manufacturing Supply Chain</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R49496_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Figure created by CRS from Jeffrey E. Eisenach et al., "Impacts of Potential Aluminum Tariffs on the U.S. Economy," NERA Economic Consulting, June 2017, p. 1. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Domestic_Primary_Aluminum"></a><a name="_Toc110346629"></a><a name="_Toc111810723"></a><a name="_Toc111813277"></a><a name="_Toc112067658"></a><a name="_Toc112138175"></a><a name="_Toc113874508"></a><a name="_Toc113885966"></a><a name="_Toc114037296"></a><a name="_Toc114046724"></a><a name="_Toc114555644"></a><a name="_Toc114562502"></a><a name="_Toc114836862"></a><a name="_Toc115079718"></a><a name="_Toc117079608"></a><a name="_Toc117681980"></a><a name="_Toc117683356"></a><a name="_Toc117687164"></a><a name="_Toc117687339"></a><a name="_Toc117687462"></a><a name="_Toc117764106"></a><a name="_Toc117764286"></a><a name="_Toc117858593"></a><a name="_Toc232180371"></a><a name="_Toc232184124"></a><a name="_Toc234759703"></a><a name="_Toc234857467"></a><a name="_Toc234857507"></a><a name="_Toc234857577"></a><a name="_Toc236232354"></a><a name="_Toc236233656"></a><a name="_Toc236309294"></a><a name="_Toc240745391"></a><a name="_Ref241762746"></a><a name="_Toc242195940"></a><a name="_Toc243647209"></a><a name="_Toc244251405"></a><a name="_Toc244257366"></a>Domestic Primary Aluminum Production </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2000, the United States ranked as the world's top producer of primary aluminum. Domestic primary aluminum production began decreasing thereafter<span class="cf01"> </span>(see <a class="InternalLink" href="#_Ref113350933"><strong></strong><strong>Figure 2</strong></a>). In 2025, the United States produced 660,000 metric tons of primary aluminum, below a previous domestic output peak of 4.7 million metric tons in 1980 and the lowest level recorded since 1950.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='USGS, National Minerals Information Center (NMIC) , Aluminum – Historical Statistics (Data Series 140) , February 26, 2024, https://www.usgs.gov/media/files/aluminum-historical-statistics-data-series-140 ; and USGS, " Aluminum , " February 2026.'>6</a></sup> Currently, it is not among the top 10 producers and accounts for less than 1% of global primary aluminum production.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='USGS, " Aluminum , " February 2026.'>7</a></sup></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref113350933"></a><a name="_Toc113874501"></a><a name="_Toc113885959"></a><a name="_Toc114037289"></a><a name="_Toc114046717"></a><a name="_Toc114555637"></a><a name="_Toc114562495"></a><a name="_Toc114836855"></a><a name="_Toc115079711"></a><a name="_Toc117079601"></a><a name="_Toc117681973"></a><a name="_Toc117683349"></a><a name="_Toc117687157"></a><a name="_Toc117687332"></a><a name="_Toc117687455"></a><a name="_Toc117764099"></a><a name="_Toc117764279"></a><a name="_Toc117858586"></a><a name="_Toc232180363"></a><a name="_Toc232184116"></a><a name="_Toc234759695"></a><a name="_Toc234857459"></a><a name="_Toc234857499"></a><a name="_Toc234857569"></a><a name="_Toc236232346"></a><a name="_Toc236308922"></a><a name="_Toc236309286"></a><a name="_Toc240745384"></a><a name="_Toc242195954"></a><a name="_Toc243647202"></a><a name="_Toc244251398"></a><a name="_Toc244257359"></a>Figure 2. U.S. Aluminum Production, 2000-2025</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R49496_files/1.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong><strong> </strong>U.S. Geological Survey (USGS), <em>Aluminum – Historical Statistics (Data Series 140)</em>, updated February 26, 2024, <a class="ExternalLink" href="https://www.usgs.gov/media/files/aluminum-historical-statistics-data-series-140"><span class="Hyperlink">https://www.usgs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">media/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">aluminum-historical-statistics-data-series-140</span></a>; and "Aluminum" in USGS, <em>Mineral Commodity Summaries</em><em> 2026</em>,<em> </em>February 2026, <a class="ExternalLink" href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-aluminum.pdf"><span class="Hyperlink">https://pubs.usgs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">periodicals/</span><span class="Hyperlink"></span><span class="Hyperlink">mcs2026/</span><span class="Hyperlink"></span><span class="Hyperlink">mcs2026-aluminum.pdf</span></a>.</p>
+<p class="FigureNote"><a name="_Toc234759704"></a><a name="_Toc234857468"></a><a name="_Toc234857508"></a><a name="_Toc234857578"></a><strong>Note:</strong> Total production is the sum of primary and secondary aluminum production.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A contributing factor to the decline in U.S. primary aluminum production is competition from countries that have lower energy costs than the United States. Primary aluminum production is energy-intensive, with electricity estimated to account for up to 40% of the cost.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='The Aluminum Association, " Primary Production 101 ," https://www.aluminum.org/primary-production-101 .'>8</a></sup> In 2025, U.S.-headquartered aluminum producer Alcoa reported that electric power represented approximately 24% of the company's primary aluminum production costs.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Alcoa Corporation, Form 10-K for the Y ear E nding December 31, 2025, p. 6, https://www.sec.gov/ix?doc=/Archives/edgar/data/0001675149/000119312526077167/aa-20251231.htm .">9</a></sup> U.S.-headquartered Century Aluminum cited electricity as one of the company's largest operating costs and attributed the closure of its primary aluminum facility (or smelter) in Hawesville, KY, directly to an increase in such costs.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Century Aluminum Company, Form 10-K for the Y ear E nding December 31, 2025, https://www.sec.gov/ix?doc=/Archives/edgar/data/0000949157/000162828026013788/cenx-20251231.htm .">10</a></sup> Generally, countries with the largest aluminum sectors include those with lower energy costs than the United States, such as Canada, Russia, and the UAE. According to the World Bank, one kilowatt-hour of electricity cost, on average, $0.181 in the United States in 2019 compared with $0.123 in Canada, $0.084 in Russia, and $0.109 in the UAE.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='The most recent year for which data are available is 2019. World Bank Group , DataBank, "DataBank, Doing Business : Price of E lectricity ," 2019, https://databank.worldbank.org/Electric-Prices-by-Country/id/7b12e700 .'>11</a></sup> A May 2025 report from The Aluminum Association—an industry trade group representing U.S.- and foreign-based aluminum producers, including Alcoa, and providers of services to the aluminum industry—noted that U.S. aluminum producers pay between $32 and $46 more per megawatt-hour compared with Canadian counterparts.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title='The Aluminum Association, " Powering Up American Aluminum: A Roadmap for Next Generation Supply Chain Resilience , " May 2025, https://www.aluminum.org/sites/default/files/2025-05/PoweringUpAluminum_WhitePaper_2025.pdf .'>12</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As domestic primary aluminum production has decreased, so has the number of active smelters in the United States. In 2000, 12 companies operated 23 primary smelting facilities in the United States.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='" Aluminum" in USGS, Mineral Commodity Summaries 2001 , January 2001, https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/aluminum/050301.pdf .'>13</a></sup> As of October 2026, two companies—Alcoa and Century Aluminum—each operate two primary smelters that actively produce aluminum (see <a class="InternalLink" href="#_Ref236307400"><strong></strong><strong>Figure 3</strong></a>).<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='USGS, " Aluminum , " February 2026.'>14</a></sup> The total production capacity across these four smelters is about 795,000 metric tons per year. <a class="InternalLink" href="#_Ref236307400"><strong></strong><strong>Figure 3</strong></a> also shows three facilities that were shut down in recent years—one by each of Alcoa, Century Aluminum, and Magnitude 7 Metals—and their most recent status.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref236307400"></a><a name="_Toc236308923"></a><a name="_Toc236309287"></a><a name="_Toc240745385"></a><a name="_Toc242195955"></a><a name="_Toc243647203"></a><a name="_Toc244251399"></a><a name="_Toc244257360"></a>Figure 3. U.S. Primary Aluminum Smelters, October 2026</p>
+<p class="FigureSubTitle">Annual production capacity in metric tons (MT)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image6.png" class="Figure" src="R49496_files/2.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Figure created by CRS using locations of smelters obtained from Homeland Infrastructure Foundation-Level Data, Nonferrous Metal Processing Plants dataset. Data for smelter production capacities are based on Alcoa Corporation, Form 10-K for the Year Ending December 31, 2025, p. 5; Century Aluminum Company, Form 10-K for the Year Ending December 31, 2025, p. 2; and "Aluminum" in U.S. Geological Survey, <em>Mineral Commodity Summaries 2019</em>, February 2019, p. 1. See also Century Aluminum, "New Digital Infrastructure Campus to Be Built at Hawesville," press release, February 2, 2026, <a class="ExternalLink" href="https://centuryaluminum.com/insights/hawesville-redevelopment/"><span class="Hyperlink">https://centuryaluminum.com/</span><span class="Hyperlink"></span><span class="Hyperlink">insights/</span><span class="Hyperlink"></span><span class="Hyperlink">hawesville-redevelopment/</span></a>. </p>
+<p class="FigureNote"><strong>Notes:</strong> Alaska and Hawaii are not shown on the map; no primary smelters are located in either state. This map is a snapshot of smelter status as of June 2026. Alcoa and Century Aluminum are U.S.-based companies that own and operate primary aluminum smelters. U.S.-based company Magnitude 7 Metals owns one primary aluminum smelter in New Madrid, MO, that ceased operations in 2024. In July 2026, the company announced plans to restart part of the facility. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Generally, U.S. primary smelters use older, less energy-efficient technologies than facilities abroad. The newest U.S. primary aluminum facility is Century Aluminum's smelter in Mt. Holly, SC, which opened in 1980.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='Century Aluminum, "Mt. Holly, SC," https://centuryaluminum.com/products-and-plants/mt-holly-sc/default.aspx ; and Century Aluminum Company, Form 10-K for the Y ear E nding December 31, 2021, p. 3.'>15</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Construction of a new primary smelter requires a capital investment of at least $1 billion and may take a minimum of three years to build and bring online.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Kirk Maltais, "US A luminium I ndustry P onders C ase for B uilding N ew S melter," Metal Bulletin , Fastmarket s, April 3, 2018, https://www.metalbulletin.com/Article/3798442/US-aluminium-industry-ponders-case-for-building-new-smelter.html .'>16</a></sup> Tariff increases, global supply chain disruptions, and availability of federal funding may contribute to the construction of new primary smelters or expansion of an existing facility (see <strong>text b</strong><strong>ox</strong>, below). </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:431pt;" valign="top">
+<p class="ShadedBoxHeading" style=""><a name="Textbox"></a>Planned Expansions in Domestic Primary Aluminum Capacity</p>
+<p class="TableText" style="">Some companies have announced plans to expand primary aluminum smelting capacity in the United States. </p>
+<p class="TableText" style="">On January 26, 2026, Century Aluminum announced plans to jointly construct a primary aluminum production plant in Inola, OK, with the United Arab Emirates-headquartered Emirates Global Aluminum (EGA).<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='Some report s suggest that the total planned investment stands at $4 billion. Century Aluminum, "Century Aluminum Joins EGA Project to Build First U.S. Smelter in Almost 50 Years," press release, January 26, 2026, https://centuryaluminum.com/insights/century-joins-ega-project-oklahoma/  ; and Brian Smallwood, " Proposed Inola S melter E xpected to B ring $4 B illion to Oklahoma E conomy , " News9 , September 23, 2026, https://www.news9.com/oklahoma-city-news/inola-aluminum-pl...'>17</a></sup> Century Aluminum expected to start construction by the end of 2026. The planned smelter in Inola is projected to have a total capacity of 750,000 metric tons per year. If completed, this smelter would increase total U.S. active smelter capacity by about 94%.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="CRS calculations based on USGS and Century Aluminum data.">18</a></sup> Some reporting suggests that the total cost of the planned investment is $4 billion.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='OK Energy Today , "Aluminum P lant P roposed for Inola B ecomes a J oint V enture," January 27, 2026, https://okenergytoday.com/2026/01/aluminum-plant-proposed-for-inola-becomes-a-joint-venture/  .'>19</a></sup> </p>
+<p class="TableText" style="">In January 2025, the U.S. Department of Energy (DOE) obligated $500 million to Century Aluminum as part of an earlier Industrial Demonstrations Program (IDP) award to construct a new primary smelter.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title='U.S. Department of Energy (DOE) , "In dustrial Decarbonization and Emissions Reduction Demonstration-to-Deployment Funding Opportunity Announcement," press release, July 21, 2023 ( archived ) , https://web.archive.org/web/20240704015656/https:/oced-exchange.energy.gov/Default.aspx#FoaId3d36f88c-0527-4539-b90b-41895ad5edb2 ; and USA s pending .gov , " Grant Award Summary , " Prime Award ID DECD0000111, https://www.usaspending.gov/award/ASST_NON_DECD0000111_089 .'>20</a></sup> A DOE press release issued on February 10, 2026, stated that the IDP award would support the joint project between Century Aluminum and EGA in Inola.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='D OE , "Energy Department Awardee to Build First American Aluminum Smelter Since 1980," press release, February 10, 2026, https://www.energy.gov/articles/energy-department-awardee-build-first-american-aluminum-smelter-1980 .'>21</a></sup> The companies have also referenced tariff increases and global supply chain risks as contributing factors to their decision to make the investment.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Nathan Owens, &quot;Century Aluminum Advances Oklahoma Smelter Project, CEO Says,&quot; Manufacturing Dive , May 11, 2026, https://www.manufacturingdive.com/news/century-aluminum-advances-oklahoma-smelter-project-ceo-says-q1-2026/819829/  ; Arabella Bennet t , &quot;CEO Warns Aluminum Supply Chain I s ' S o T hin' a Single Fire Could Trigger Nationwide Cr i sis,&quot; Fox Business , January 27, 2026, https://www.foxbusiness.com/media/ceo-warns-aluminum-supply-chain-so-thin-single-fire-could-trigge...">22</a></sup> </p>
+<p class="TableText" style="">The planned project in Inola has received local criticism and support. On June 2, 2026, Oklahoma Attorney General Gentner Drummond filed a petition with the local district court to block the smelter project at Inola from moving forward.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title='Office of the Oklahoma Attorney General, "Drummond F iles A ction to B lock Inola A luminum S melter," press release, June 2, 2026, https://oklahoma.gov/oag/news/newsroom/2026/june/drummond-files-action-to-block-inola-aluminum-smelter.html .'>23</a></sup> The petition raised concerns regarding the foreign ownership of EGA, pollution, and other factors. Oklahoma Governor Kevin Stitt released a public video supporting the project after the petition was filed.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='Hayden Alexander, "Stitt R eleases V ideo S tatement A fter Drummond S eeks C ourt B lock on Inola S melter P lant," Fox 25 , June 7, 2026, https://okcfox.com/news/local/stitt-releases-video-statement-after-drummond-seeks-court-block-on-inola-smelter-plant .'>24</a></sup> </p>
+<p class="TableText" style="">In July 2026, Magnitude 7 Metals announced plans to restart production at its idle smelter in New Madrid, MO, and produce 75,000 metric tons of primary aluminum per year.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title='Shree Mishra, "Magnitude 7 Metals to Restart Marston Aluminum Smelter in Missouri," Yahoo! Finance , July 2, 2026, https://finance.yahoo.com/energy/articles/magnitude-7-metals-restart-marston-111544979.html .'>25</a></sup> This effort would increase active domestic smelting capacity by about 9%. A representative of Magnitude 7 Metals reportedly stated, "President Trump's 50% aluminum tariff has created the conditions" for the company's investments to restart the New Madrid smelter.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='Mishra, "Magnitude 7 Metals to Restart Marston Aluminum Smelter in Missouri."'>26</a></sup> </p>
+<p class="TableText" style="">Federal investments have also supported projects that propose to expand the domestic production of alumina, a key input for primary aluminum production. According to the U.S. Geological Survey, the United States has had a net import reliance of 71% for alumina.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title='According to USGS, "net import reliance refers to the percentage of a mineral commodity used by the United States that must be imported from another country" and is calculated by USGS as (imports – exports + Δ inventories) ÷ apparent consumption. The leading suppliers of bauxite to the United States include Jamaica, Turkey, Guyana, and Australia. The leading suppliers of alumina to the United States include Brazil, Jamaica, Australia, and Canada. USGS, Office of Communications and Publishin...'>27</a></sup> Domestic refining of alumina takes place at a single facility operated by Atlantic Alumina (Atalco) in Gramercy, LA, that produced approximately 710,000 metric tons in 2025.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title='USGS, " Bauxite and Alumina, " 2026 ; and Atalco, https://www.atalco.com/  .'>28</a></sup> In January 2026, Atalco announced a $450 million strategic partnership with the U.S. Department of Defense (which is "using a secondary Department of War designation" under Executive Order 14347 of September 5, 2025) to expand domestic production of alumina and gallium at its refinery in Gramercy.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="BusinessWire , &quot;Atlantic Alumina Announces $450 Million Strategic Partnership with United States Government to Secure U.S. Alumina Production and Build America's First Large Scale Primary Gallium Production Circuit,&quot; January 12, 2026, https://www.businesswire.com/news/home/20260111484503/en/Atlantic-Alumina-Announces-%24450-Million-Strategic-Partnership-with-United-States-Government-to-Secure-U.S.-Alumina-Production-and-Build-Americas-First-Large-Scale-Primary-Gallium-Production-Circuit...">29</a></sup> Through this expansion, Atalco anticipates production to increase to over one million metric tons of alumina per year,<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='BusinessWire , "Atlantic Alumina Announces $450 Million Strategic Partnership."'>30</a></sup> which would support potential expansions of domestic primary aluminum production.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc113874509"></a><a name="_Toc113885967"></a><a name="_Toc114037297"></a><a name="_Toc114046725"></a><a name="_Toc114555645"></a><a name="_Toc114562503"></a><a name="_Toc114836863"></a><a name="_Toc115079719"></a><a name="_Toc117079610"></a><a name="_Toc117681982"></a><a name="_Toc117683358"></a><a name="_Toc117687166"></a><a name="_Toc117687341"></a><a name="_Toc117687464"></a><a name="_Toc117764108"></a><a name="_Toc117764288"></a><a name="_Toc117858595"></a><a name="_Toc232180373"></a><a name="_Toc232184126"></a><a name="_Toc234759705"></a><a name="_Toc234857469"></a><a name="_Toc234857509"></a><a name="_Toc234857579"></a><a name="_Toc236232356"></a><a name="_Toc236233658"></a><a name="_Toc236309296"></a><a name="_Toc240745392"></a><a name="_Toc242195941"></a><a name="_Toc243647210"></a><a name="_Toc244251406"></a><a name="_Toc244257367"></a>Domestic Secondary Aluminum Production</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since the 2000s, most unwrought aluminum production in the United States has been secondary aluminum (see <a class="InternalLink" href="#_Ref113350933"><strong></strong><strong>Figure 2</strong></a>). Unlike primary production, secondary aluminum production in the United States has increased overall since the early 1980s; in 2025, it was over twice the level of production in 1985.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='USGS, NMIC , " Aluminum - Historical Statistics (Data Series 140) ," February 26, 2024, https://www.usgs.gov/media/files/aluminum-historical-statistics-data-series-140 .'>31</a></sup> However, from 2000 to 2025, production fluctuated and was about the same level in 2000 and 2025.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Secondary aluminum producers face a different cost structure from primary producers. Notably, secondary production is roughly 95% less energy-intensive than primary production,<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title='The Aluminum Association, " Secondary Production 101 ," https://www.aluminum.org/secondary-production-101 .'>32</a></sup> and the capital cost of secondary production is comparatively low. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Secondary aluminum accounted for 85% of the 4.3 million metric tons of unwrought aluminum produced by U.S. smelters in 2025. Of that secondary production, 56% came from new scrap, which is generally excess material generated by aluminum product manufacturers, and 44% came from old scrap, which is generally post-consumer or post-industrial scrap.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='USGS, " Aluminum , " February 2026.'>33</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to The Aluminum Association, "a recycled aluminum beverage can, car door, or window frame is often recycled directly back into itself."<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='The Aluminum Association, "Infinitely Recyclable," https://www.aluminum.org/Recycling .'>34</a></sup> The Aluminum Association highlighted the value of certain types of post-consumer scrap materials—such as used beverage containers—for secondary aluminum production due to their ease of collection and readiness for smelting.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title='The Aluminum Association, "Scrap the Exports, Save U.S. Supply: Treating Aluminum Scrap as a Strategic Asset ," October 14, 2025, https://www.aluminum.org/sites/default/files/2025-10/Scrap-Export-Policy-White-Paper_Oct2025.pdf (hereinafter The Aluminum Association, "Scrap the Exports, Save U.S. Supply ") .'>35</a></sup> The trade group noted that increased recycling of these scrap materials could grow domestic secondary aluminum production and related employment.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title='The Aluminum Association, "Scrap the Exports, Save U.S. Supply . "'>36</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Post-consumer aluminum scrap sometimes requires separation and processing to become usable by smelters. Some industry observers have noted that emerging technologies may improve aluminum recovery and lower costs for smelters looking to utilize certain types of post-consumer scrap.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='An e xample of such technologies i s Laser-Induced Breakdown Spectroscopy . See SAFE, " Turning Scrap into Strength: The Strategic Importance of Aluminum Recycling ," February 19, 2026, https://secureenergy.org/turningscrap-intostrength-aluminumrecycling/  .'>37</a></sup> Generally, the mixing of different aluminum scrap products, as well as the presence of other materials in aluminum scrap, can contribute to secondary aluminum sometimes having lower purity levels than primary aluminum. Secondary aluminum sometimes goes through additional processing to achieve higher purity levels. One method for secondary aluminum to reach higher purity is by mixing it with primary aluminum.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some industrial and consumer product manufacturers have performance requirements that limit the use of secondary aluminum. For example, certain aerospace components require aluminum alloys with a specific chemical composition that can be more predictably refined from primary aluminum than from secondary aluminum. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc240745393"></a><a name="_Toc242195942"></a><a name="_Toc243647211"></a><a name="_Toc244251407"></a><a name="_Toc244257368"></a><a name="_Toc106023478"></a><a name="_Toc106357893"></a><a name="_Toc106869028"></a><a name="_Toc106958975"></a><a name="_Toc107319735"></a><a name="_Toc108184238"></a><a name="_Toc108437005"></a><a name="_Toc108678917"></a><a name="_Toc109127134"></a><a name="_Toc109221857"></a><a name="_Toc109377632"></a><a name="_Toc110346630"></a><a name="_Toc111810724"></a><a name="_Toc111813278"></a><a name="_Toc112067659"></a><a name="_Toc112138178"></a><a name="_Toc113874510"></a><a name="_Toc113885968"></a><a name="_Toc114037298"></a><a name="_Toc114046726"></a><a name="_Toc114555646"></a><a name="_Toc114562504"></a><a name="_Toc114836864"></a><a name="_Toc115079720"></a><a name="_Toc117079611"></a><a name="_Toc117681983"></a><a name="_Toc117683359"></a><a name="_Toc117687167"></a><a name="_Toc117687342"></a><a name="_Toc117687465"></a><a name="_Toc117764109"></a><a name="_Toc117764289"></a><a name="_Toc117858596"></a><a name="_Toc232180375"></a><a name="_Toc232184128"></a><a name="_Toc234759707"></a><a name="_Toc234857471"></a><a name="_Toc234857511"></a><a name="_Toc234857581"></a><a name="_Toc236232358"></a><a name="_Toc236233660"></a><a name="_Toc236309298"></a>Applications of Aluminum</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many parts of the U.S. economy rely on aluminum. Consumer products that utilize aluminum include canned beverages, automotive vehicles, and home appliances. Industry also relies on products containing aluminum, from electrical transformers to machinery. Manufacturers of hardware with military applications, such as aircraft and munitions, also use aluminum. The section below addresses selected trends among users of aluminum, including current demand and emerging bottlenecks. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc240745394"></a><a name="_Toc242195943"></a><a name="_Toc243647212"></a><a name="_Toc244251408"></a><a name="_Toc244257369"></a>Consumer and Industrial Goods</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Consumption of aluminum fluctuates (<a class="InternalLink" href="#_Ref244179898"><strong></strong><strong>Figure 4</strong></a>) and partly depends on the state of the manufacturing sector. The three largest domestic markets for aluminum in 2025 were transportation equipment, packaging, and building and construction. These markets accounted for a combined 73% of U.S. aluminum consumption in 2025.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title='USGS, "Aluminum," February 2026'>38</a></sup> Another leading form of U.S.-smelted aluminum product is new scrap, which is sometimes exported and subsequently manufactured into aluminum products in foreign countries.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref244179898"></a><a name="_Toc242195956"></a><a name="Figure4"></a><a name="_Toc243647204"></a><a name="_Toc244251400"></a><a name="_Toc244257361"></a>Figure 4. U.S. Aluminum Production and Apparent Consumption</p>
+<p class="FigureSubTitle">2000-2025</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image7.png" class="Figure" src="R49496_files/3.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS calculations using data and methods from the U.S. Geological Survey (USGS). USGS, <em>Aluminum – Historical Statistics (Data Series 140)</em>; and "Aluminum" in USGS, <em>Mineral Commodity Summaries</em><em> 2026</em>, February 2026.</p>
+<p class="FigureNote"><strong>Notes:</strong> Production and apparent consumption include primary and secondary aluminum. As defined by USGS, apparent consumption = primary production + secondary production from old scrap + imports – exports + changes in aluminum inventories. The year 2000 was chosen as the starting year for consistency with <strong><a class="InternalLink" href="#_Ref113350933"></a></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong>. <strong><a class="InternalLink" href="#_Ref113350933"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong> shows "total production," reflected in <a class="InternalLink" href="#_Ref244179898"><strong></strong><strong>Figure 4</strong></a> as "production." </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Changes in future aluminum consumption are unclear. Publicly available forecasts are based on projected growth in certain manufacturing industries.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title='See as an example, CRU International, " Opportunities for A luminum in a P ost-Covid E conomy , " January 28, 2022, p. 20, https://international-aluminium.org/resource/opportunities-for-aluminium-in-a-post-covid-economy/      .'>39</a></sup> The U.S. food and beverage manufacturing subsectors could drive growth in U.S. aluminum consumption. These two subsectors are projected by the U.S. Bureau of Labor Statistics to contribute the largest number of new U.S. manufacturing jobs from 2024 to 2034.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title='Nic holas Hale, "Feeding the Economy: Employment Growth in Food and Beverage Manufacturing Expected to Continue T hrough the 2024 - 34 Decade," Monthly Labor Review , BLS (June 2026), https://www.bls.gov/opub/mlr/2026/article/feeding-the-economy-employment-growth-in-food-and-beverage-manufacturing-expected-to-continue-through-the-2024-34-decade.htm .'>40</a></sup> According to the latest available figures from the Bureau of Economic Analysis, the two subsectors together consumed about half of the metal cans and containers produced in the United States in 2017.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="Calculations done by CRS based on data published by the Bureau of Economic Analysis (BEA) . Sum of all metal can, box, and other metal containers ( NAICS 332430) consumed by subsectors under food manufacturing (NAICS 311) and beverage manufacturing (NAICS 3121) as share of total metal can output. BEA, Use Table , After Redefinitions , Purchasers' Value, 2017 , accessed June 11, 2026 , https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fapps.bea.gov%2Findustry%2F...">41</a></sup> The battery manufacturing industry—which consumes aluminum and would, according to some analysts, experience growth in response to demand from electric vehicle manufacturing—could also contribute to the growth of aluminum demand.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title='Anh Bui and Peter Slowik, " Powering the F uture: Assessment of U.S. L ight- D uty V ehicle B attery M anufacturing J obs by 2032 , " International Council on Clean Transportation, working paper, January 9, 2025, https://theicct.org/publication/us-ldv-battery-manufacturing-jobs-by-2032-jan24/  .'>42</a></sup> Construction growth could also contribute to increased aluminum consumption, as semi-fabricated products are used to construct buildings and other infrastructures. In contrast, reduced production by aluminum-consuming industries could contribute to reduced aluminum consumption.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some commentators expect global demand for semi-fabricated aluminum products to increase by up to 80% by 2050.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title='Reuters, "World A luminium I ndustry M ust C ut E missions by 77% by 2050 -IAI," March 16, 2021, https://www.reuters.com/world/china/world-aluminium-industry-must-cut-emissions-by-77-by-2050-iai-2021-03-16/  .'>43</a></sup> This could be a positive development for U.S. producers. Moreover, the United States-Mexico-Canada Agreement, in effect since July 2020, requires 70% North American aluminum content for automobiles and auto parts to qualify for exemption from certain duties.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="For more information on the United States-Mexico-Canada Agreement (USMCA) , see CRS Report R48787, USMCA Joint Review: Process and Role of Congress , by Kyla H. Kitamura and Danielle M. Trachtenberg ; and CRS In Focus IF12082, USMCA: Automotive Rules of Origin , by Kyla H. Kitamura and Liana Wong .">44</a></sup> This may also drive demand for U.S.-made semi-fabricated products.<a name="_Toc240745395"></a></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242195944"></a><a name="_Toc243647213"></a><a name="_Toc244251409"></a><a name="_Toc244257370"></a>Defense Products</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many products with military applications (e.g., aircraft frames, shell casings, and explosive chemical compounds) use aluminum. Manufacturers of products with military applications often favor the use of primary aluminum, which allows them to manufacture alloys with predictable chemical composition and properties that satisfy DOD specifications.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title='Danilo C. Curtolo et al., "High- and Ultra-High-Purity Aluminum, a Review on Technical Production Methodologies," Metals , vol. 11, no. 1407 (September 6, 2021), p. 4, https://www.mdpi.com/2075-4701/11/9/1407/htm .'>45</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many defense products use high purity aluminum (HPA), which is made by eliminating impurities in primary aluminum.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title='A 2022 report by the Department of Defense (DOD, which is "using a secondary Department of War designation" under Executive Order 14347 of September 5, 2025 ) , defined high purity aluminum (HPA) as "a low-iron/low-silicon form of primary aluminum metal that is used in the production of 7000- and 2000-series alloys." A document prepared in 2018 by the Bureau of Industry and Security (BIS) , an agency of the U.S. Department of Commerce (DOC) , described HPA as aluminum g rades P04...'>46</a></sup> According to a 2018 investigation by the U.S. Department of Commerce (DOC), U.S. manufacturers required about 250,000 metric tons of HPA per year, 10% of which supported production of defense-related materials.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='DOC , The Effect of Imports of Aluminum on the National Security: An Investigation Conducted Under Section 232 of the Trade Expansion Act of 1962, as Amended , January 17, 2018, https://web.archive.org/web/20190109125933/https://www.commerce.gov/sites/default/files/the_effect_of_imports_of_aluminum_on_the_national_security_-_with_redactions_-_20180117.pdf (hereinafter DOC, The Effect of Imports of Aluminum on the National Security ) ; and Nicholas Bell, "Arconic D oubles H ig...'>47</a></sup> The Bureau of Industry and Security, a DOC agency, assessed in 2018 that the United States was "at risk of becoming completely reliant" on foreign producers of HPA because of limited U.S. production.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="DOC , The Effect of Imports of Aluminum on the National Security , p. 5.">48</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A few domestic facilities currently produce HPA. A facility owned by the company Arconic in Davenport, IA, employs a process called fractional crystallization to produce HPA using purchased aluminum ingots. In 2025, the site could produce 43,000 metric tons of HPA per year.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title='D OD , "DoD Enters Agreement to Expand Domestic Manufacturing to Strengthen U.S. Missiles and Munitions Supply Chains," press release, June 16, 2023, https://www.war.gov/News/Releases/Release/Article/3431173/dod-enters-agreement-to-expand-domestic-manufacturing-to-strengthen-us-missiles/  .'>49</a></sup> A facility operated by C-KOE near Dallas, TX, also produces HPA using purchased aluminum ingots.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="Aluminum ingots refer to unwrought aluminum products or aluminum alloys that have not yet been mechanically processed or cast into semi - fabricated products. Century Aluminum, Arconic, and C-KOE publicly identified themselves as producers of HPA in the 2018 investigation by DOC . DOC , The Effect of Imports of Aluminum on the National Security , Appendix B, p p . 27, 73, 105.">50</a></sup> The planned construction of the primary aluminum smelter in Inola, OK (see <a class="ExternalLink"><strong><span class="Hyperlink">t</span></strong><strong><span class="Hyperlink">ext </span></strong><strong><span class="Hyperlink">b</span></strong><strong><span class="Hyperlink">ox</span></strong></a>, above), could expand annual HPA production capacity in the United States by 20,000 metric tons.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title='D OE , "Energy Department Awardee to Build First American Aluminum Smelter Since 1980." February 10, 2026, https://www.energy.gov/articles/energy-department-awardee-build-first-american-aluminum-smelter-1980 .'>51</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Arconic achieved its current capacity to produce HPA by investing in a $57.5 million expansion of its facility, which was supported by a $45.5 million agreement with DOD under Title III of the Defense Production Act of 1950 (P.L. 81-774; 50 U.S.C. §§4501 et seq.).<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title='D OD , "DoD Enters Agreement to Expand Domestic Manufacturing to Strengthen U.S. Missiles and Munitions Supply Chains . "'>52</a></sup> The U.S. government has made investments in other parts of the aluminum supply chain that were considered important for national security needs, including investments in the expansion of alumina production and aluminum casting.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title='Reuters, " ATALCO S ecures I nvestment from US, Pinnacle A ffiliate to B oost A lumina, G allium O utput ," January 12, 2026, https://www.reuters.com/business/energy/atalco-secures-investment-us-pinnacle-affiliate-boost-alumina-gallium-output-2026-01-12/  ; U.S. Department of War, " Department of Defense Awards $23 Million to Augment the United States Domestic Aluminum Casting Supply Chain ," press release, July 22, 2024, https://www.war.gov/News/Releases/Release/Article/38...'>53</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc240745396"></a><a name="_Toc242195945"></a><a name="_Toc243647214"></a><a name="_Toc244251410"></a><a name="_Toc244257371"></a>Aluminum Market</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">U.S. aluminum producers compete in a global aluminum market that is affected by factors such as global supply and U.S. trade policies. The interaction of these factors determines the availability and price of aluminum. This section discusses recent developments that have affected these factors.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc240745397"></a><a name="_Toc242195946"></a><a name="_Toc243647215"></a><a name="_Toc244251411"></a><a name="_Toc244257372"></a>Global Capacity</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The global aluminum sector saw major changes over the last two decades as China became the leading producer of aluminum. China's output of primary aluminum grew by approximately 1,631%, from 2.6 million metric tons in 2000 to 45 million metric tons in 2025, accounting for 60.6% of global primary aluminum output (see <a class="InternalLink" href="#_Ref244180170"><strong></strong><strong>Figure 5</strong></a>).</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref244180170"></a><a name="_Toc240745387"></a><a name="_Toc242195957"></a><a name="_Toc243647205"></a><a name="_Toc244251401"></a><a name="_Toc244257362"></a>Figure 5. Global Primary Aluminum Production, 2025</p>
+<p class="FigureSubTitle">Top 12 producing countries and all other countries</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image8.png" class="Figure" src="R49496_files/4.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>U.S. Geological Survey (USGS), National Minerals Information Center, "Aluminum Statistics and Information," <a class="ExternalLink" href="https://www.usgs.gov/centers/national-minerals-information-center/aluminum-statistics-and-information"><span class="Hyperlink">https://www.usgs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">centers/</span><span class="Hyperlink"></span><span class="Hyperlink">national-minerals-information-center/</span><span class="Hyperlink"></span><span class="Hyperlink">aluminum-statistics-and-information</span></a>.</p>
+<p class="FigureNote"><strong>Note:</strong> USGS estimates that in 2025, global primary aluminum smelting capacity was 74 million metric tons. Percentages do not add to 100% due to rounding. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In a 2019 study, Organisation for Economic Co-operation and Development (OECD) economists found that subsidies and other market-distorting practices, particularly in China and the countries of the Gulf Cooperation Council, contributed to excess capacity and impacted global competition in the aluminum sector.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="The Gulf Cooperation Council includ es Saudi Arabia, Kuwait, the United Arab Emirates, Qatar, Bahrain, and Oman . The Organisation for Economic Co-operation and Development ( OECD ) noted that excess capacity in the aluminum sector is hard to measure, as reliable capacity information may not be available for producers that are not publicly listed on stock exchanges. See OECD, Measuring D istortions in I nternational M arkets: T he A luminium V alue C hain , OECD Trade Policy Papers...">54</a></sup> China has acknowledged that its aluminum sector, which is partly state-owned, exhibited signs of excess capacity and indicated as of 2019 that continued efforts to reduce inventory, cut overcapacity, and achieve a balance in supply and demand remain policy priorities.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="OECD, Measuring D istortions in I nternational M arkets , p. 51.">55</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The OECD estimated that governments extended approximately $83 billion in support to primary aluminum producers between 2014 and 2024.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title='OECD, "MAGIC Database of Industrial Subsidies," accessed October 5, 2026, https://www.oecd.org/en/data/dashboards/magic-database-industrial-subsidies/Subsidies-by-sector.html?oecdcontrol-chart-control-bar-80cf69747f-var1=ALUM .'>56</a></sup> Support measures included government grants, income tax concessions, and below-market loans. The OECD estimate did not include other forms of support that aluminum firms received from governments, notably subsidized energy prices.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title='OECD, "OECD MAGIC Database of Industrial Subsidies," June 1, 2026, p. 21 , https://www.oecd.org/en/publications/oecd-magic-database-of-industrial-subsidies_ce94f33b-en.html .'>57</a></sup> A 2019 OECD analysis showed that China was the largest provider of public subsidies between 2013 and 2017, accounting for over 92% of government support.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="OECD , Measuring Distortions in International Markets , p. 120 .">58</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2026, disruptions in the Strait of Hormuz have resulted in demand tending to exceed supply, which has contributed to higher aluminum prices.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title='For additional discussion, see the " Price Determination " section.'>59</a></sup> It is unclear whether this decrease in supply relative to demand will persist beyond 2026 or if the typical condition of global overcapacity will resume. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc240745398"></a><a name="_Toc242195947"></a><a name="_Toc243647216"></a><a name="_Toc244251412"></a><a name="_Toc244257373"></a>U.S. Aluminum Trade and Tariff Policy </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">U.S., Canadian, and Mexican aluminum markets are interconnected. More than half of U.S. aluminum imports in 2025 came from Canada.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title='USGS, " Aluminum , " February 2026.'>60</a></sup> After Canada, the leading foreign suppliers of aluminum to the U.S. market included the UAE, Mexico, and South Korea (among others not listed).<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title='"Aluminum in December 2025 " in USGS, Mineral Industry Surveys , April 2026, https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/mis-202512-alumi.pdf .'>61</a></sup> Mexico was the leading destination for U.S. export of aluminum in 2025, accounting for 17% of total aluminum exports. After Mexico, leading foreign buyers of U.S. aluminum included Thailand, India, and Canada (among others not listed). Scrap composed 72% of U.S. aluminum exports. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 232 of the Trade Expansion Act of 1962 (TEA)<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title="Codified as amended at 19 U.S.C. §1862 .">62</a></sup> has been used to investigate and take action to adjust aluminum imports. Section 232 allows restrictions to be placed on imports that have been found to "threaten to impair" national security.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title='A statutory definition of national security is " the national defense and foreign relations of the United States. " 10 U.S.C. §801(16) .'>63</a></sup> The law states that when using this authority, the Secretary of Commerce and the President shall "recognize the close relation of the economic welfare of the Nation to our national security" and consider "the impact of foreign competition on the economic welfare of individual domestic industries."<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title="19 U.S.C. §1862 (d).">64</a></sup> In March 2018, the first Trump Administration used this authority to impose a 10% tariff on aluminum imports (but temporarily excluded aluminum imports from some countries, including Canada, Australia, and Brazil).<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='For more information on Section 232 of the Trade Expansion Act of 1962, see CRS In Focus IF13006, Section 232 of the Trade Expansion Act of 1962 , by Kyla H. Kitamura ; Executive Office of the President, "Adjusting Imports of Aluminum i nto the United States," 83 Federal Register 11619, March 8, 2018 ; and Executive Office of the President, "Adjusting Imports of Aluminum i nto the United States," 83 Federal Register 13355, March 22, 2018.'>65</a></sup> Generally, the economic welfare, economic security,<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title='A statutory definition of economic security is "t he condition of having secure and resilient domestic production capacity, combined with reliable access to the global resources necessary to maintain an acceptable standard of living and to protect core national values. " 6 U.S.C. §474(c)(2).'>66</a></sup> and national security of the United States were themes in DOC's 2018 investigation that supported these Section 232 tariffs.<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="DOC , The Effect of Imports of Aluminum on the National Security , January 17, 2018.">67</a></sup> This DOC investigation would go on to be cited in subsequent Section 232 actions.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2025, President Trump generally increased the Section 232 aluminum tariff rates and their coverage. Pursuant to a proclamation issued by President Trump in February 2025,<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title='DOC, BIS , "Implementation of Duties on Aluminum Pursuant to Proclamation 10895 Adjusting Imports of Aluminum i nto the United States," 90 Federal Register 11251, March 5, 2025.'>68</a></sup> imports of aluminum from "all countries" became subject to a Section 232 tariff, effective March 12, 2025.<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title="For discussion of elimination of certain trading partner exemptions and alternative tariff rate quotas , see CRS Insight IN12519, Section 232 Tariffs on Steel and Aluminum , by Kyla H. Kitamura .">69</a></sup> Additionally, President Trump increased the general Section 232 tariff rate on imports of aluminum to 25%,<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title="Primary a luminum imports that were produced in Russia continue to be subject to a 200% Section 232 tariff.">70</a></sup> effective March 12, 2025, and then further increased the general Section 232 tariff rate on imports of aluminum to 50% for nearly all countries,<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title='Primary a luminum imports that were produced in Russia continue to be subject to a 200% Section 232 tariff, and aluminum imports from the United Kingdom continue to be subject to a 25% Section 232 tariff. Executive Office of the President, "Adjusting Imports of Aluminum and Steel i nto the United States," 90 Federal Register 24199, June 9, 2025.'>71</a></sup> effective June 4, 2025.<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title="For discussion of timeline and coverage , see CRS Insight IN12519, Section 232 Tariffs on Steel and Aluminum , by Kyla H. Kitamura .">72</a></sup> Subsequently, President Trump made modifications to tariff rates on certain products and on imports from certain trading partners.<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title='For additional discussion of Section 232 modifications and their timeline, see CRS Insight IN12519, Section 232 Tariffs on Steel and Aluminum , by Kyla H. Kitamura ; and B IS , " Section 232 Steel and Aluminum , " accessed June 11, 2026, https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/section-232-investigations/section-232-steel-aluminum .'>73</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Research indicates a range of potential effects from Section 232 aluminum tariffs. Some research analyzing Section 232 tariffs implemented by the first Trump Administration on steel and aluminum found that the immediate effect was an increase of tariff-inclusive U.S. import prices of those metals.<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title='Mary Amiti et al., "The Impact of the 2018 Tariffs on Prices and Welfare," Journal of Economic Perspectives , vol. 33, no. 4 (Fall 2019), https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.33.4.187 .'>74</a></sup> Because imported aluminum and domestically produced aluminum are sometimes comparable substitutes to each other, higher import prices could result in higher prices and demand for domestically produced aluminum and thus potentially incentivize higher domestic production of aluminum.<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title="For example, as was found by a 2023 U.S. International Trade Commission analysis of Section 232 tariffs that were active as of March 15, 2022 . Peter Herman et al., Economic Impact of Section 232 and 301 Tariffs on U.S. Industries , U .S. International Trade Commission, Investigation no. 332-591, March 2023, https://www.usitc.gov/publications/332/pub5405.pdf .">75</a></sup> In March 2026, the chief executive officer (CEO) of Century Aluminum, a company that primarily produces its aluminum in the United States, stated that the "tariffs are working."<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title="Fox Business , &quot;'Tariffs A re Working': Century Aluminum CEO Details Impact of Trade Moves,&quot; YouTube video, March 2026, https://www.youtube.com/watch?v=_1VIv1jWvO8 .">76</a></sup> In January 2026, the CEO suggested that tariff increases were a contributing factor to increased aluminum production and capacity investments in the United States.<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title="Benne t t, &quot;CEO Warns Aluminum Supply Chain I s ' S o T hin . '&quot;">77</a></sup> The CEO of Alcoa, a company that maintains a majority of its aluminum production capacity outside the United States, reportedly said the company is responding to U.S. tariffs by shifting sales of foreign-produced aluminum to countries other than the United States rather than increasing domestic investments.<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title='Editorial Board, "Alcoa: The Tariff Damage in Profile," Wall Street Journal , July 31, 2025, https://www.wsj.com/opinion/alcoa-aluminum-donald-trump-tariffs-bill-oplinger-edf1c6ff .'>78</a></sup> A representative of Magnitude 7 Metals reportedly attributed the company's decision to restart smelting capacity in the United States to the 50% aluminum tariffs.<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title='Mishra, "Magnitude 7 Metals to Restart Marston Aluminum Smelter in Missouri."'>79</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">By increasing the price of aluminum, the tariffs may have also resulted in domestic manufacturers that use aluminum facing higher input costs. Consequently, some U.S. manufacturers claimed to have difficulty competing with imported finished or derivative products.<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title="Chad P. Bown, &quot; Trump ' s S teel and A luminum T ariffs A re C ascading out of C ontrol ,&quot; Peterson Institute for International Economics, February 4, 2020, https://www.piie.com/blogs/trade-and-investment-policy-watch/trumps-steel-and-aluminum-tariffs-are-cascading-out-control .">80</a></sup> Research from HARBOR Aluminum consultants on behalf of the trade association Beer Institute estimates that between March 2018 and February 2022, those Section 232 aluminum tariffs cost the U.S. beverage industry $1.4 billion.<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title='Beer Institute, "New Research Shows the Tariffs on Aluminum Have Cost the U.S. Beverage Industry $1.4 Billion," press release, April 14, 2022, https://www.beerinstitute.org/press-releases/new-research-shows-the-tariffs-on-aluminum-have-cost-the-u-s-beverage-industry-1-4-billion/      .'>81</a></sup> Others disagreed. A 2021 report from the Economic Policy Institute estimated that Section 232 measures in place during the first Trump Administration and the Biden Administration improved aluminum output, employment, and capital investments while creating no adverse effects for aluminum-consuming industries.<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title='Adam S. Hersh and Robert E. Scott, " Aluminum P roducing and C onsuming I ndustries H ave T hrived U nder U.S. Section 232 I mport M easures, " Economic Policy Institute, May 25, 2021, https://www.epi.org/publication/aluminum-producing-and-consuming-industries-have-thrived-under-u-s-section-232-import-measures/      .'>82</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Following the revision of the aluminum tariffs to 50% in 2025, some trade groups representing manufacturers that use aluminum raised concerns regarding the rising cost of aluminum.<sup><a class="FootnoteLink" href="#fn83" name="ifn83" title="Maria Rachal, &quot; Metal T ariff A djustments A ren't a W in for P ackaging, T rade G roups S ay , &quot; Packaging Dive , April 6, 2026, https://www.packagingdive.com/news/section-232-tariffs-adjustments-aluminum-steel-cans-lids/816643/  ( hereinafter Rachal, &quot; Metal T ariff A djustments A ren't a W in for P ackaging &quot;) .">83</a></sup> The trade association Can Manufacturers Institute noted that the combination of the increase in Section 232 tariffs to 50% and exclusion of filled beverage cans from these duties meant that manufacturers that use aluminum cans anticipated "even greater threat of injurious increases in filled beverage can imports in the near future."<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title='Scott Breen, " Section 232 Aluminum Tariff Inclusion Request for Filled Beverage Cans ," BIS , September 29, 2025, https://www.regulations.gov/document/BIS-2025-0023-0724 .'>84</a></sup><span class="FootnoteReference"> </span>The Brewers Association similarly commented that the current tariff arrangement impacted "already strained packaging processes."<sup><a class="FootnoteLink" href="#fn85" name="ifn85" title="Rachal, &quot; Metal T ariff A djustments A ren't a W in for P ackaging .&quot;">85</a></sup><span class="CommentReference"> </span></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc106023480"></a><a name="_Toc106357895"></a><a name="_Toc106869030"></a><a name="_Toc106958977"></a><a name="_Toc107319737"></a><a name="_Toc108184240"></a><a name="_Toc108437007"></a><a name="_Toc108678919"></a><a name="_Toc109127136"></a><a name="_Toc109221859"></a><a name="_Toc109377634"></a><a name="_Toc110346633"></a><a name="_Toc111810728"></a><a name="_Toc111813282"></a><a name="_Toc112067662"></a><a name="_Toc112138181"></a><a name="_Toc113874513"></a><a name="_Toc113885971"></a><a name="_Toc114037301"></a><a name="_Toc114046729"></a><a name="_Toc114555649"></a><a name="_Toc114562507"></a><a name="_Toc114836867"></a><a name="_Toc115079723"></a><a name="_Toc117079614"></a><a name="_Toc117681986"></a><a name="_Toc117683362"></a><a name="_Toc117687170"></a><a name="_Toc117687345"></a><a name="_Toc117687468"></a><a name="_Toc117764112"></a><a name="_Toc117764292"></a><a name="_Toc117858599"></a><a name="_Toc232180377"></a><a name="_Toc232184130"></a><a name="_Ref234758372"></a><a name="_Toc234759709"></a><a name="_Toc234857474"></a><a name="_Toc234857514"></a><a name="_Toc234857584"></a><a name="_Toc236232361"></a><a name="_Toc236233663"></a><a name="_Toc236309301"></a><a name="_Toc240745399"></a><a name="_Toc242195948"></a><a name="_Toc243647217"></a><a name="_Toc244251413"></a><a name="_Toc244257374"></a>Price Determination</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Aluminum is a globally traded commodity, so its price is affected by global demand and supply. The balance between global demand and supply is reflected in the price of futures contracts traded on the London Metal Exchange (LME).<sup><a class="FootnoteLink" href="#fn86" name="ifn86" title="A futures contract is a legally binding agreement to buy or sell something at a specific price on a future date.">86</a></sup> The U.S. benchmark aluminum price, the <em>Midwest </em><em>price</em>, establishes the base price of aluminum in the United States. This price is usually higher than the LME price, as it reflects the transportation cost of delivery to LME-approved warehouses in the United States, tariffs and other duties,<sup><a class="FootnoteLink" href="#fn87" name="ifn87" title="A tariff is a type of duty.">87</a></sup> supply chain conditions, and U.S. demand conditions. The difference between the LME and the Midwest price is called the <em>Midwest Premium</em>. For example, in October 2024, the LME price of primary aluminum was 117.840 cents per pound, and the Midwest price of aluminum was 136.848 cents per pound. The Midwest Premium was therefore around 19 cents per pound, or around 16% of the LME price. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For much of the 21<sup>st</sup> century, the Midwest Premium was relatively stable, and U.S. aluminum price variation was largely explained by global demand and supply changes reflected in the global LME price. Disruptions and frictions in global trade in the 2020s have somewhat weakened the link between global and U.S. aluminum prices. Price trends have diverged between U.S. and global markets as tariff increases and supply chain frictions—such as logistical bottlenecks during the COVID-19 pandemic—have erected barriers between global and U.S. markets for aluminum. This divergence between U.S. and global aluminum price trends is reflected in a higher Midwest Premium as a percent of LME price, which is shown alongside the estimated average effective duty percentage for aluminum in <a class="InternalLink" href="#_Ref232100055"><strong></strong><strong>Figure 6</strong></a>. The data show a widening gap between U.S. and global aluminum prices (represented by the growth in aluminum Midwest Premium as a percent of LME) in 2025 that corresponds with increases in estimated average effective duties of aluminum imported to the United States. In December 2025, for example, the Midwest Premium was nearly 70% of the LME price.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref232100055"></a><a name="_Toc232180368"></a><a name="_Toc232184121"></a><a name="_Toc234759700"></a><a name="_Toc234857464"></a><a name="_Toc234857504"></a><a name="_Toc234857574"></a><a name="_Toc236232351"></a><a name="_Toc236308928"></a><a name="_Toc236309291"></a><a name="_Toc240745388"></a><a name="_Toc242195958"></a><a name="_Toc243647206"></a><a name="_Toc244251402"></a><a name="_Toc244257363"></a>Figure 6. Aluminum Midwest Premium as a Percentage of the London Metal Exchange Price and Estimated Average U.S. Duties</p>
+<p class="FigureSubTitle">July 2019-December 2025</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image9.png" class="Figure" src="R49496_files/5.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Figure created by CRS with data from the U.S. Geological Survey (USGS) and U.S. Census Bureau. USGS, National Minerals Information Center, "Aluminum Statistics and Information," accessed June 11, 2026, <a class="ExternalLink" href="https://www.usgs.gov/centers/national-minerals-information-center/aluminum-statistics-and-information"><span class="Hyperlink">https://www.usgs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">centers/</span><span class="Hyperlink"></span><span class="Hyperlink">national-minerals-information-center/</span><span class="Hyperlink"></span><span class="Hyperlink">aluminum-statistics-and-information</span></a>; and U.S. Census Bureau, "USA Trade Online," accessed June 11, 2026, <a class="ExternalLink" href="https://usatrade.census.gov/"><span class="Hyperlink">https://usatrade.census.gov/</span></a><span class="Hyperlink"></span>. </p>
+<p class="FigureNote"><strong>Notes:</strong> <em>Aluminum Midwest Premium Percent</em> = (Midwest U.S. market price – London Metal Exchange [LME] Cash Price Grade A) ÷ LME Cash Price Grade A. <em>Estimated Average Effective Duty Percent for Aluminum</em> = Total Calculated Duty Estimate for Chapter 76 Imports ÷ Total Customs Value of Chapter 76 Imports. All underlying values for Aluminum Midwest Premium Percent were obtained from USGS. All underlying values for Estimated Average Effective Duty Percent were obtained from the U.S. Census Bureau. Chapter 76 refers to Chapter 76 of the Harmonized Tariff Schedule of the United States. The executive branch increased tariffs in 2025, including increases to aluminum imports specifically, which were announced in February and June 2025. Tariffs are a type of duty. July 2019 was chosen as the starting month to provide pre-COVID-19 context and because it is the furthest back that this data source is available. December 2025 was chosen as the ending month because it is the most recent month of data available from this source. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Increases in the Section 232 tariffs likely contributed to a higher Midwest Premium in 2025 (see <a class="InternalLink" href="#_Ref232100055"><strong></strong><strong>Figure 6</strong></a>).<sup><a class="FootnoteLink" href="#fn88" name="ifn88" title="The U.S. market price used in the Midwest Premium calculation is a delivery and duties paid price . I n general, if foreign aluminum exporters to the U nited S tates do not decrease their selling price s in response to a tariff increase , then the tariff increase will increase the Mid west Premium by a commensurate amount. The Midwest Premium percent age began increasing at an accelerated rate in February 2025 as domestic manufacturers increased their purchases of aluminum...">88</a></sup> Because tariffs add a cost on top of the market import price, they tend to increase the gap between the average tariff-inclusive U.S. price and the average global LME price (i.e., increase the Midwest Premium).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2026, supply chain disruptions contributed to increases in the LME price and potentially affected the Midwest Premium. Generally, disruptions in the Strait of Hormuz have affected the global supply of aluminum<sup><a class="FootnoteLink" href="#fn89" name="ifn89" title="For discussion of the logistical effects of blockages in the Strait of Hormuz, see CRS Report R48903, The Strait of Hormuz in Brief: Non-Oil Shipments and Effects on U.S. Shippers , by John Frittelli and Ben Goldman .">89</a></sup> and contributed to increases in the LME price in 2026. On May 29, 2026, <em>Bloomberg</em> reported that global aluminum inventories tracked by major metal exchanges had fallen to "less than five" days' worth of supply and that "supply is running short of demand."<sup><a class="FootnoteLink" href="#fn90" name="ifn90" title='Mark Burton, "Aluminum Squeeze Deepens as Spreads Tighten and Inventories Drop," Bloomberg , May 29, 2026, https://www.bloomberg.com/news/articles/2026-05-29/aluminum-squeeze-deepens-as-spreads-tighten-and-inventories-drop .'>90</a></sup> Additionally, logistical frictions in the Strait of Hormuz could have increased the Midwest Premium in part because such frictions are reportedly increasing freight rates.<sup><a class="FootnoteLink" href="#fn91" name="ifn91" title="Greg Miller, &quot;Hormuz Crisis Side Effect: A Sharp Rise in Container Shipping Rates,&quot; Lloyd's List Intelligence , May 29, 2026, https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates .">91</a></sup> Higher freight rates generally mean the cost to deliver aluminum to U.S. markets will be higher; if such delivery costs increase more than global averages, they could increase the Midwest Premium.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc112067668"></a><a name="_Toc112138185"></a><a name="_Toc113874517"></a><a name="_Toc113885975"></a><a name="_Toc114037305"></a><a name="_Toc114046733"></a><a name="_Toc114555653"></a><a name="_Toc114562511"></a><a name="_Toc114836871"></a><a name="_Toc115079727"></a><a name="_Toc117079618"></a><a name="_Toc117681990"></a><a name="_Toc117683366"></a><a name="_Toc117687174"></a><a name="_Toc117687349"></a><a name="_Toc117687472"></a><a name="_Toc117764116"></a><a name="_Toc117764296"></a><a name="_Toc117858603"></a><a name="_Toc232180380"></a><a name="_Toc232184133"></a><a name="_Toc234759712"></a><a name="_Toc234857477"></a><a name="_Toc234857517"></a><a name="_Toc234857587"></a><a name="_Toc236232364"></a><a name="_Toc236233666"></a><a name="_Toc236309304"></a><a name="_Toc240745400"></a><a name="_Toc242195949"></a><a name="_Toc243647218"></a><a name="_Toc244251414"></a><a name="_Toc244257375"></a>Selected Considerations for Congress</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Ongoing global supply chain disruptions, tariff increases, and certain industrial policies of the United States have seemingly incentivized the expansion of domestic primary aluminum production capacity. This market condition might support supply chain resilience and reduce the likelihood of aluminum shortages in the United States. It could also contribute to a general increase in costs for aluminum-consuming manufacturers and consumers because the cost of producing aluminum—particularly, primary aluminum—in the United States is generally higher than in other aluminum-producing countries. Congress might consider whether and, if so, how it might negotiate the tension between supply chain resilience and private sector costs. Potential policy responses include consideration of public support for primary aluminum production, expansion of domestic scrap consumption, and funding of research and development (R&amp;D). Additional actions may be taken regarding the Section 232 tariffs or other trade remedies,<sup><a class="FootnoteLink" href="#fn92" name="ifn92" title="In June 2026, T he Aluminum Association, alongside associations of aluminum producers from Canada, Europe, and Japan , advocated for collective action among nations, through mechanisms such as common tariffs, to offset China's subsidies to its domestic industry. See The Aluminum Association, &quot;Global Aluminium Associations Welcome New OECD Data on Industrial Subsidies,&quot; press release, June 1, 2026, https://www.aluminum.org/news/global-aluminium-associations-welcome-new-oecd-data-industri...">92</a></sup> which other CRS reports have addressed.<sup><a class="FootnoteLink" href="#fn93" name="ifn93" title="CRS Insight IN12519, Section 232 Tariffs on Steel and Aluminum , by Kyla H. Kitamura .">93</a></sup> Congress may also take no action while continuing to monitor market responses to current events. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc240745401"></a><a name="_Toc242195950"></a><a name="_Toc243647219"></a><a name="_Toc244251415"></a><a name="_Toc244257376"></a>Public Support for Primary Aluminum Production</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress could consider whether to support primary aluminum production by offering smelters financial resources, such as grants, tax credits, or other incentives. As discussed in "<a class="InternalLink" href="#_Ref241762746">Domestic Primary Aluminum Production</a>," above, electricity represents a sizable share of primary aluminum production costs. Congress could assess whether to allocate funding for grants that would subsidize the acquisition and installation of new equipment that could improve primary aluminum smelters' energy efficiency. An example of past legislation that created such a program is Section 50161 of the Inflation Reduction Act of 2022.<sup><a class="FootnoteLink" href="#fn94" name="ifn94" title="See § 50161 in P.L. 117-169 . The DOE g rant for the planned primary smelter in Inola, OK , originated from this program.">94</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition, Congress could evaluate whether to expand existing tax credits that manufacturers can access when investing in equipment such as on-site electricity generation capacity or power storage.<sup><a class="FootnoteLink" href="#fn95" name="ifn95" title="CRS Insight IN12719, Technology-Neutral Clean Electricity Tax Credits Under the IRA and the OBBBA , by Nicholas E. Buffie .">95</a></sup> An example of an existing tax credit is the Clean Electricity Investment Tax Credit (26 U.S.C. §48E). Smelters sourcing some of their energy needs through on-site solar panels or managing the purchase of electricity by using batteries may lower the costs of producing aluminum.<sup><a class="FootnoteLink" href="#fn96" name="ifn96" title="For an example of a manufacturing facility using on - site energy generation to supplement its electricity consumption , see Robyn Griggs Lawrence , &quot; World's L argest S olar- P owered S teel M ill B reaks G round in Colorado , &quot; Construction Dive , March 2, 2022, https://www.constructiondive.com/news/worlds-largest-solar-powered-steel-mill-breaks-ground-in-colorado/619381/  .">96</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These vehicles of public support may decrease federal government revenues or increase government expenditures. Depending on how the public support is structured, potential public financial support may additionally raise concerns in certain U.S. trade agreements as they relate to subsidies.<sup><a class="FootnoteLink" href="#fn97" name="ifn97" title="For example, World Trade Organization (WTO) agreements. For more information on the WTO, see CRS In Focus IF10002, World Trade Organization , by Cathleen D. Cimino-Isaacs .">97</a></sup> <a name="_Toc240745402"></a></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242195951"></a><a name="_Toc243647220"></a><a name="_Toc244251416"></a><a name="_Toc244257377"></a>Domestic Scrap Consumption </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another option to ease the potential tension between supply chain resilience and private sector costs could be to increase the domestic consumption of aluminum scrap. Currently, the United States exports a substantial amount of aluminum scrap. Policymakers could consider options that would increase the amount of U.S. aluminum scrap that is directed to U.S. secondary aluminum smelters, which may lower the costs of goods containing secondary aluminum. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One bill introduced in the 119<sup>th</sup> Congress—the CANS Act of 2026 (<a class="ExternalLink" href="https://www.congress.gov/bill/119/hr/7992"><span class="Hyperlink">H.R. 7992</span></a>, as introduced)—would direct the executive branch to study options to redirect would-be scrap exports back to domestic aluminum supply chains. Another bill—the Secure Aluminum Supply Chains Act (<a class="ExternalLink" href="https://www.congress.gov/bill/119/hr/9161"><span class="Hyperlink">H.R. 9161</span></a>, as introduced)—would direct the executive branch to study economic security risks posed by the export of aluminum scrap to certain countries and options to address such risks. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Generally, a policy that would limit U.S. aluminum scrap exports might reduce costs for U.S. aluminum smelters while decreasing revenues for U.S. entities that sell scrap, such as aluminum fabricators and recyclers. A policy that would subsidize (e.g., with consumption tax credits) U.S. smelters for purchasing U.S. scrap would increase demand for U.S. scrap and therefore may increase revenues for fabricators and recyclers. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc240745403"></a><a name="_Toc242195952"></a><a name="_Toc243647221"></a><a name="_Toc244251417"></a><a name="_Toc244257378"></a>Research and Development </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress might consider the extent of support for R&amp;D funding to commercialize technologies that could improve the productivity of the domestic aluminum industry or lower demand for aluminum from certain sectors. Examples may include technologies that allow facilities to produce HPA using scrap. Such breakthroughs could enable the U.S. aluminum sector to utilize abundant domestic scrap and more competitively produce higher-value aluminum products. Alternatively, research into new materials that could substitute aluminum in industrial or military applications may also reduce the national security and economic risks posed by disruptions in domestic supply.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress may assess current levels of funding for agencies and public-private partnerships that advance R&amp;D relating to the aluminum industry. For example, the U.S. Department of Energy's Advanced Research Projects Agency-Energy (ARPA-E) is authorized to "to enhance the economic and energy security of the United States through the development of energy technologies that … improve the energy efficiency of all economic sectors."<sup><a class="FootnoteLink" href="#fn98" name="ifn98" title="42 U.S.C. §16538 .">98</a></sup> Past ARPA-E projects have focused on aluminum production.<sup><a class="FootnoteLink" href="#fn99" name="ifn99" title='D OE , Advanced Research Projects Agency-Energy , " Energy Research Company (ERCo) , Integrated Minimill to Produce Aluminum from Scrap , " accessed September 23, 2026, https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/integrated-minimill-produce-aluminum-scrap .'>99</a></sup> An example of a public-private partnership is the Manufacturing USA program, which is authorized to "facilitate the transition of innovative technologies into scalable, cost-effective, and high-performing manufacturing capabilities."<sup><a class="FootnoteLink" href="#fn100" name="ifn100" title="15 U.S.C. §278s .">100</a></sup> There might be additional programs, or programs that Congress might consider creating, that could advance aluminum manufacturing, identify alternative materials to substitute aluminum, or innovate in other ways.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Michael Havlin, former CRS Analyst in Industrial Organization and Business, contributed to this report. CRS Visual Information Specialists Juan Pablo Madrid and Brion Long prepared the graphics.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See "Aluminum" in U.S. Geological Survey (USGS), <em>Mineral Commodity Summaries</em><em> 2026</em>, February 2026, <a class="ExternalLink" href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-aluminum.pdf"><span class="Hyperlink">https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-aluminum.pdf</span></a> (hereinafter USGS, "Aluminum," February 2026).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association, "Processing 101," accessed July 1, 2026, <a class="ExternalLink" href="https://www.aluminum.org/processing-101"><span class="Hyperlink">https://www.aluminum.org/processing-101</span></a>; Roy Woodward, "The Rolling of Aluminium: The Process and the Product," lecture prepared for the Training in Aluminium Application Technologies, 1994; and North American Industry Classification System (NAICS) Association, "331318 - Other Aluminum Rolling, Drawing, and Extruding," <a class="ExternalLink" href="https://www.naics.com/naics-code-description/?v=2022&amp;code=331318"><span class="Hyperlink">https://www.naics.com/naics-code-description/?v=2022&amp;code=331318</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association defined <em>semi-fabrication</em> as follows: "Aluminum semi-fabrication is a forming process to transform aluminum ingots into a semi-finished shape. Typical aluminum semi-fabrication processes include rolling, extrusion, forging and casting. Product of a semi-fabrication process often requires further manufacturing (fabrication, finishing, and assembly) to turn it into a final product for end use." See Marshall Jinlong Wang, "The Environmental Footprint of Semi-Fabricated Aluminum Products in North America," The Aluminum Association, January 2022, <a class="ExternalLink" href="https://www.aluminum.org/sites/default/files/2022-01/2022_Semi-Fab_LCA_Report.pdf"><span class="Hyperlink">https://www.aluminum.org/sites/default/files/2022-01/2022_Semi-Fab_LCA_Report.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Calculation achieved using data from U.S. Census Bureau. Sum of sales, value of shipment, or revenue for NAICS code 331315 (aluminum sheet, plate, and foil manufacturing) and 331318 (other aluminum rolling, drawing, and extruding) divided by NAICS code 3313 (alumina and aluminum production and processing). See U.S. Census Bureau, "Annual Integrated Economic Survey," accessed October 20, 2026, <a class="ExternalLink" href="https://data.census.gov/table/AIESBASIC2024.AIES31BASIC01?q=AIES31BASIC01&amp;codeset=naics~3313:331313:331314:331315:331318"><span class="Hyperlink">https://data.census.gov/table/AIESBASIC2024.AIES31BASIC01?q=AIES31BASIC01&amp;codeset=naics~3313:331313:331314:331315:331318</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Aluminum Extruders Council, "Industries," accessed July 1, 2026, <a class="ExternalLink" href="https://aec.org/industries"><span class="Hyperlink">https://aec.org/industries</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USGS, National Minerals Information Center (NMIC), <em>Aluminum – Historical Statistics (Data Series 140)</em>, February 26, 2024, <a class="ExternalLink" href="https://www.usgs.gov/media/files/aluminum-historical-statistics-data-series-140"><span class="Hyperlink">https://www.usgs.gov/media/files/aluminum-historical-statistics-data-series-140</span></a>; and USGS, "Aluminum," February 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USGS, "Aluminum," February 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association, "Primary Production 101," <a class="ExternalLink" href="https://www.aluminum.org/primary-production-101"><span class="Hyperlink">https://www.aluminum.org/primary-production-101</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Alcoa Corporation, Form 10-K for the Year Ending December 31, 2025, p. 6, <a class="ExternalLink" href="https://www.sec.gov/ix?doc=/Archives/edgar/data/0001675149/000119312526077167/aa-20251231.htm"><span class="Hyperlink">https://www.sec.gov/ix?doc=/Archives/edgar/data/0001675149/000119312526077167/aa-20251231.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Century Aluminum Company, Form 10-K for the Year Ending December 31, 2025, <a class="ExternalLink" href="https://www.sec.gov/ix?doc=/Archives/edgar/data/0000949157/000162828026013788/cenx-20251231.htm"><span class="Hyperlink">https://www.sec.gov/ix?doc=/Archives/edgar/data/0000949157/000162828026013788/cenx-20251231.htm</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The most recent year for which data are available is 2019. World Bank Group, DataBank, "DataBank, Doing Business: Price of Electricity," 2019, <a class="ExternalLink" href="https://databank.worldbank.org/Electric-Prices-by-Country/id/7b12e700"><span class="Hyperlink">https://databank.worldbank.org/Electric-Prices-by-Country/id/7b12e700</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association, "Powering Up American Aluminum: A Roadmap for Next Generation Supply Chain Resilience," May 2025, <a class="ExternalLink" href="https://www.aluminum.org/sites/default/files/2025-05/PoweringUpAluminum_WhitePaper_2025.pdf"><span class="Hyperlink">https://www.aluminum.org/sites/default/files/2025-05/PoweringUpAluminum_WhitePaper_2025.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Aluminum" in USGS, <em>Mineral Commodity Summaries 2001</em>, January 2001, <a class="ExternalLink" href="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/aluminum/050301.pdf"><span class="Hyperlink">https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/aluminum/050301.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USGS, "Aluminum," February 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Century Aluminum, "Mt. Holly, SC," <a class="ExternalLink" href="https://centuryaluminum.com/products-and-plants/mt-holly-sc/default.aspx"><span class="Hyperlink">https://centuryaluminum.com/products-and-plants/mt-holly-sc/default.aspx</span></a>; and Century Aluminum Company, Form 10-K for the Year Ending December 31, 2021, p. 3. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kirk Maltais, "US Aluminium Industry Ponders Case for Building New Smelter," <em>Metal </em><em>Bulletin</em>, Fastmarkets, April 3, 2018, <a class="ExternalLink" href="https://www.metalbulletin.com/Article/3798442/US-aluminium-industry-ponders-case-for-building-new-smelter.html"><span class="Hyperlink">https://www.metalbulletin.com/Article/3798442/US-aluminium-industry-ponders-case-for-building-new-smelter.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Some reports suggest that the total planned investment stands at $4 billion. Century Aluminum, "Century Aluminum Joins EGA Project to Build First U.S. Smelter in Almost 50 Years," press release, January 26, 2026, <a class="ExternalLink" href="https://centuryaluminum.com/insights/century-joins-ega-project-oklahoma/"><span class="Hyperlink">https://centuryaluminum.com/insights/century-joins-ega-project-oklahoma/</span></a>; and Brian Smallwood, "Proposed Inola Smelter Expected to Bring $4 Billion to Oklahoma Economy," <em>News9</em>, September 23, 2026, <a class="ExternalLink" href="https://www.news9.com/oklahoma-city-news/inola-aluminum-plant-oklahoma-economic-impact"><span class="Hyperlink">https://www.news9.com/oklahoma-city-news/inola-aluminum-plant-oklahoma-economic-impact</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS calculations based on USGS and Century Aluminum data.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>OK Energy Today</em>, "Aluminum Plant Proposed for Inola Becomes a Joint Venture," January 27, 2026, <a class="ExternalLink" href="https://okenergytoday.com/2026/01/aluminum-plant-proposed-for-inola-becomes-a-joint-venture/"><span class="Hyperlink">https://okenergytoday.com/2026/01/aluminum-plant-proposed-for-inola-becomes-a-joint-venture/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Department of Energy (DOE), "Industrial Decarbonization and Emissions Reduction Demonstration-to-Deployment Funding Opportunity Announcement," press release, July 21, 2023 (archived), <a class="ExternalLink" href="https://web.archive.org/web/20240704015656/https:/oced-exchange.energy.gov/Default.aspx#FoaId3d36f88c-0527-4539-b90b-41895ad5edb2"><span class="Hyperlink">https://web.archive.org/web/20240704015656/https:/oced-exchange.energy.gov/Default.aspx#FoaId3d36f88c-0527-4539-b90b-41895ad5edb2</span></a>; and USAspending.gov, "Grant Award Summary," Prime Award ID DECD0000111, <a class="ExternalLink" href="https://www.usaspending.gov/award/ASST_NON_DECD0000111_089"><span class="Hyperlink">https://www.usaspending.gov/award/ASST_NON_DECD0000111_089</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOE, "Energy Department Awardee to Build First American Aluminum Smelter Since 1980," press release, February 10, 2026, <a class="ExternalLink" href="https://www.energy.gov/articles/energy-department-awardee-build-first-american-aluminum-smelter-1980"><span class="Hyperlink">https://www.energy.gov/articles/energy-department-awardee-build-first-american-aluminum-smelter-1980</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Nathan Owens, "Century Aluminum Advances Oklahoma Smelter Project, CEO Says," <em>Manufacturing</em><em> </em><em>Dive</em>, May 11, 2026, <a class="ExternalLink" href="https://www.manufacturingdive.com/news/century-aluminum-advances-oklahoma-smelter-project-ceo-says-q1-2026/819829/"><span class="Hyperlink">https://www.manufacturingdive.com/news/century-aluminum-advances-oklahoma-smelter-project-ceo-says-q1-2026/819829/</span></a><span class="Hyperlink"></span>; Arabella Bennett, "CEO Warns Aluminum Supply Chain Is 'So Thin' a Single Fire Could Trigger Nationwide Crisis," <em>Fox</em><em> </em><em>Business</em>, January 27, 2026, <a class="ExternalLink" href="https://www.foxbusiness.com/media/ceo-warns-aluminum-supply-chain-so-thin-single-fire-could-trigger-nationwide-crisis"><span class="Hyperlink">https://www.foxbusiness.com/media/ceo-warns-aluminum-supply-chain-so-thin-single-fire-could-trigger-nationwide-crisis</span></a> (hereinafter Bennett, "CEO Warns Aluminum Supply Chain Is 'So Thin'"); and Ryan Dezember, "How Oklahoma Landed America's First Aluminum Smelter in Half a Century," <em>Wall Street Journal</em>, April 12, 2026, <a class="ExternalLink" href="https://www.wsj.com/business/how-oklahoma-landed-americas-first-aluminum-smelter-in-half-a-century-e00c83d3"><span class="Hyperlink">https://www.wsj.com/business/how-oklahoma-landed-americas-first-aluminum-smelter-in-half-a-century-e00c83d3</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of the Oklahoma Attorney General, "Drummond Files Action to Block Inola Aluminum Smelter," press release, June 2, 2026, <a class="ExternalLink" href="https://oklahoma.gov/oag/news/newsroom/2026/june/drummond-files-action-to-block-inola-aluminum-smelter.html"><span class="Hyperlink">https://oklahoma.gov/oag/news/newsroom/2026/june/drummond-files-action-to-block-inola-aluminum-smelter.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Hayden Alexander, "Stitt Releases Video Statement After Drummond Seeks Court Block on Inola Smelter Plant," <em>Fox 25</em>, June 7, 2026, <a class="ExternalLink" href="https://okcfox.com/news/local/stitt-releases-video-statement-after-drummond-seeks-court-block-on-inola-smelter-plant"><span class="Hyperlink">https://okcfox.com/news/local/stitt-releases-video-statement-after-drummond-seeks-court-block-on-inola-smelter-plant</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Shree Mishra, "Magnitude 7 Metals to Restart Marston Aluminum Smelter in Missouri," <em>Yahoo! Finance</em>, July 2, 2026, <a class="ExternalLink" href="https://finance.yahoo.com/energy/articles/magnitude-7-metals-restart-marston-111544979.html"><span class="Hyperlink">https://finance.yahoo.com/energy/articles/magnitude-7-metals-restart-marston-111544979.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mishra, "Magnitude 7 Metals to Restart Marston Aluminum Smelter in Missouri."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""><span class="FootnoteReference"> </span><span class="FootnoteTextChar">According to USGS, "net import reliance refers to the percentage of a mineral commodity used by the United States that must be imported from another country" and is calculated by USGS as (imports – exports + Δ inventories) ÷ apparent consumption. The leading suppliers of bauxite to the United States include Jamaica, Turkey, Guyana, and Australia. The leading suppliers of alumina to the United States include Brazil, Jamaica, Australia, and Canada. </span><span class="FootnoteTextChar">USGS, Office of </span><span class="FootnoteTextChar">Communications and Publishing, </span><span class="FootnoteTextChar">"</span><span class="FootnoteTextChar">Risk and Reliance: The U.S. Economy and Mineral Resource,</span><span class="FootnoteTextChar">"</span><span class="FootnoteTextChar"> April 12, 2017, </span><a class="ExternalLink" href="https://www.usgs.gov/news/featured-story/risk-and-reliance-us-economy-and-mineral-resources"><span class="Hyperlink">https://www.usgs.gov/news/featured-story/risk-and-reliance-us-economy-and-mineral-resources</span></a><span class="FootnoteTextChar">; and</span><span class="FootnoteTextChar"> "</span><span class="FootnoteTextChar">Bauxite and Alumina</span><span class="FootnoteTextChar">" in</span><span class="FootnoteTextChar"> </span><span class="FootnoteTextChar">USGS, "Aluminum," February 2026</span><span class="FootnoteTextChar">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <span class="FootnoteTextChar">USGS, </span><span class="FootnoteTextChar">"</span><span class="FootnoteTextChar">Bauxite and Alumina,</span><span class="FootnoteTextChar">"</span><span class="FootnoteTextChar"> 2026</span><span class="FootnoteTextChar">;</span><span class="FootnoteTextChar"> and</span> Atalco, <a class="ExternalLink" href="https://www.atalco.com/"><span class="Hyperlink">https://www.atalco.com/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>BusinessWire</em>, "Atlantic Alumina Announces $450 Million Strategic Partnership with United States Government to Secure U.S. Alumina Production and Build America's First Large Scale Primary Gallium Production Circuit," January 12, 2026, <a class="ExternalLink" href="https://www.businesswire.com/news/home/20260111484503/en/Atlantic-Alumina-Announces-%24450-Million-Strategic-Partnership-with-United-States-Government-to-Secure-U.S.-Alumina-Production-and-Build-Americas-First-Large-Scale-Primary-Gallium-Production-Circuit"><span class="Hyperlink">https://www.businesswire.com/news/home/20260111484503/en/Atlantic-Alumina-Announces-%24450-Million-Strategic-Partnership-with-United-States-Government-to-Secure-U.S.-Alumina-Production-and-Build-Americas-First-Large-Scale-Primary-Gallium-Production-Circuit</span></a> (hereinafter <em>BusinessWire</em>, "Atlantic Alumina Announces $450 Million Strategic Partnership").</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>BusinessWire</em>, "Atlantic Alumina Announces $450 Million Strategic Partnership." </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USGS, NMIC, "Aluminum - Historical Statistics (Data Series 140)," February 26, 2024, <a class="ExternalLink" href="https://www.usgs.gov/media/files/aluminum-historical-statistics-data-series-140"><span class="Hyperlink">https://www.usgs.gov/media/files/aluminum-historical-statistics-data-series-140</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association, "Secondary Production 101," <a class="ExternalLink" href="https://www.aluminum.org/secondary-production-101"><span class="Hyperlink">https://www.aluminum.org/secondary-production-101</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USGS, "Aluminum," February 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association, "Infinitely Recyclable," <a class="ExternalLink" href="https://www.aluminum.org/Recycling"><span class="Hyperlink">https://www.aluminum.org/Recycling</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association, "Scrap the Exports, Save U.S. Supply: Treating Aluminum Scrap as a Strategic Asset," October 14, 2025, <a class="ExternalLink" href="https://www.aluminum.org/sites/default/files/2025-10/Scrap-Export-Policy-White-Paper_Oct2025.pdf"><span class="Hyperlink">https://www.aluminum.org/sites/default/files/2025-10/Scrap-Export-Policy-White-Paper_Oct2025.pdf</span></a> (hereinafter The Aluminum Association, "Scrap the Exports, Save U.S. Supply").</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Aluminum Association, "Scrap the Exports, Save U.S. Supply."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An example of such technologies is Laser-Induced Breakdown Spectroscopy. See SAFE, "Turning Scrap into Strength: The Strategic Importance of Aluminum Recycling," February 19, 2026, <a class="ExternalLink" href="https://secureenergy.org/turningscrap-intostrength-aluminumrecycling/"><span class="Hyperlink">https://secureenergy.org/turningscrap-intostrength-aluminumrecycling/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USGS, "Aluminum," February 2026</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See as an example, CRU International, "Opportunities for Aluminum in a Post-Covid Economy," January 28, 2022, p. 20, <a class="ExternalLink" href="https://international-aluminium.org/resource/opportunities-for-aluminium-in-a-post-covid-economy/"><span class="Hyperlink">https://international-aluminium.org/resource/opportunities-for-aluminium-in-a-post-covid-economy/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Nicholas Hale, "Feeding the Economy: Employment Growth in Food and Beverage Manufacturing Expected to Continue Through the 2024-34 Decade," <em>Monthly Labor Review</em>, BLS (June 2026), <a class="ExternalLink" href="https://www.bls.gov/opub/mlr/2026/article/feeding-the-economy-employment-growth-in-food-and-beverage-manufacturing-expected-to-continue-through-the-2024-34-decade.htm"><span class="Hyperlink">https://www.bls.gov/opub/mlr/2026/article/feeding-the-economy-employment-growth-in-food-and-beverage-manufacturing-expected-to-continue-through-the-2024-34-decade.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Calculations done by CRS based on data published by the Bureau of Economic Analysis (BEA). Sum of all metal can, box, and other metal containers (NAICS 332430) consumed by subsectors under food manufacturing (NAICS 311) and beverage manufacturing (NAICS 3121) as share of total metal can output. BEA, <em>Use Table</em><em>, After Redefinitions</em><em>,</em><em> Purchasers' </em><em>Value, 2017</em>, accessed June 11, 2026, <a class="ExternalLink" href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fapps.bea.gov%2Findustry%2FRelease%2FXLSX%2FIOUse_After_Redefinitions_PUR_Detail.xlsx&amp;wdOrigin=BROWSELINK"><span class="Hyperlink">https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fapps.bea.gov%2Findustry%2FRelease%2FXLSX%2FIOUse_After_Redefinitions_PUR_Detail.xlsx&amp;wdOrigin=BROWSELINK</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Anh Bui and Peter Slowik, "Powering the Future: Assessment of U.S. Light-Duty Vehicle Battery Manufacturing Jobs by 2032," International Council on Clean Transportation, working paper, January 9, 2025, <a class="ExternalLink" href="https://theicct.org/publication/us-ldv-battery-manufacturing-jobs-by-2032-jan24/"><span class="Hyperlink">https://theicct.org/publication/us-ldv-battery-manufacturing-jobs-by-2032-jan24/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Reuters, "World Aluminium Industry Must Cut Emissions by 77% by 2050 -IAI," March 16, 2021, <a class="ExternalLink" href="https://www.reuters.com/world/china/world-aluminium-industry-must-cut-emissions-by-77-by-2050-iai-2021-03-16/"><span class="Hyperlink">https://www.reuters.com/world/china/world-aluminium-industry-must-cut-emissions-by-77-by-2050-iai-2021-03-16/</span></a><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the United States-Mexico-Canada Agreement (USMCA), see CRS Report R48787, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48787"><em><span class="Hyperlink">USMCA Joint Review: Process and Role of Congress</span></em></a>, by Kyla H. Kitamura and Danielle M. Trachtenberg; and CRS In Focus IF12082, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF12082"><em><span class="Hyperlink">USMCA: Automotive Rules of Origin</span></em></a>, by Kyla H. Kitamura and Liana Wong. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Danilo C. Curtolo et al., "High- and Ultra-High-Purity Aluminum, a Review on Technical Production Methodologies," <em>Metals</em>, vol. 11, no. 1407 (September 6, 2021), p. 4, <a class="ExternalLink" href="https://www.mdpi.com/2075-4701/11/9/1407/htm"><span class="Hyperlink">https://www.mdpi.com/2075-4701/11/9/1407/htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""><span class="FootnoteReference"> </span>A 2022 report by the Department of Defense (DOD, which is "using a secondary Department of War designation" under Executive Order 14347 of September 5, 2025), defined <em>high purity aluminum</em> (HPA) as "a low-iron/low-silicon form of primary aluminum metal that is used in the production of 7000- and 2000-series alloys." A document prepared in 2018 by the Bureau of Industry and Security (BIS), an agency of the U.S. Department of Commerce (DOC), described HPA as aluminum grades P0404, P0303, P0202—which one international smelter described as alloys with at least 99.85%, 99.85%, and 99.9% aluminum content, respectively. In a document prepared by the U.S. Defense Logistics Agency, HPA used as coating was defined as "99 percent plus." The U.S. government appears to acquire products on the basis of industry-defined aluminum grades rather than specifically defining HPA. Century Aluminum's annual submission to the Securities and Exchange Commission reported in 2003 that its Hawesville facility, which idled in 2022, produced "high purity primary aluminum" with an average purity level of 99.9%. See DOD, Under Secretary of Defense for Acquisition and Sustainment, <em>Report to Congress: Aluminum Refining, Processing, and Manufacturing</em>, October 2022, <a class="ExternalLink" href="https://delbene.house.gov/uploadedfiles/usa000204422_report_on_aluminum_refining_processing_and_manufacturing_redacted.pdf"><span class="Hyperlink">https://delbene.house.gov/uploadedfiles/usa000204422_report_on_aluminum_refining_processing_and_manufacturing_redacted.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOC, <em>The Effect of Imports of Aluminum on the National Security: An Investigation Conducted Under Section 232 of the Trade Expansion Act of 1962, as Amended</em>, January 17, 2018, <a class="ExternalLink" href="https://web.archive.org/web/20190109125933/https://www.commerce.gov/sites/default/files/the_effect_of_imports_of_aluminum_on_the_national_security_-_with_redactions_-_20180117.pdf"><span class="Hyperlink">https://web.archive.org/web/20190109125933/https://www.commerce.gov/sites/default/files/the_effect_of_imports_of_aluminum_on_the_national_security_-_with_redactions_-_20180117.pdf</span></a> (hereinafter DOC, <em>The Effect of Imports of Aluminum on the National Security</em>); and Nicholas Bell, "Arconic Doubles High-Purity Output at Davenport," Aluminum Market Update, September 29, 2025, <a class="ExternalLink" href="https://www.aluminummarketupdate.crugroup.com/global-trade/arconic-doubles-high-purity-output-at-davenport/"><span class="Hyperlink">https://www.aluminummarketupdate.crugroup.com/global-trade/arconic-doubles-high-purity-output-at-davenport/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOC, <em>The Effect of Imports of Aluminum on the National Security</em>, p. 5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "DoD Enters Agreement to Expand Domestic Manufacturing to Strengthen U.S. Missiles and Munitions Supply Chains," press release, June 16, 2023, <a class="ExternalLink" href="https://www.war.gov/News/Releases/Release/Article/3431173/dod-enters-agreement-to-expand-domestic-manufacturing-to-strengthen-us-missiles/"><span class="Hyperlink">https://www.war.gov/News/Releases/Release/Article/3431173/dod-enters-agreement-to-expand-domestic-manufacturing-to-strengthen-us-missiles/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Aluminum ingots refer to unwrought aluminum products or aluminum alloys that have not yet been mechanically processed or cast into semi-fabricated products. Century Aluminum, Arconic, and C-KOE publicly identified themselves as producers of HPA in the 2018 investigation by DOC. DOC, <em>The Effect of Imports of Aluminum on the National Security</em>, Appendix B, pp. 27, 73, 105.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOE, "Energy Department Awardee to Build First American Aluminum Smelter Since 1980." February 10, 2026, <a class="ExternalLink" href="https://www.energy.gov/articles/energy-department-awardee-build-first-american-aluminum-smelter-1980"><span class="Hyperlink">https://www.energy.gov/articles/energy-department-awardee-build-first-american-aluminum-smelter-1980</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "DoD Enters Agreement to Expand Domestic Manufacturing to Strengthen U.S. Missiles and Munitions Supply Chains."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Reuters, "ATALCO Secures Investment from US, Pinnacle Affiliate to Boost Alumina, Gallium Output," January 12, 2026, <a class="ExternalLink" href="https://www.reuters.com/business/energy/atalco-secures-investment-us-pinnacle-affiliate-boost-alumina-gallium-output-2026-01-12/"><span class="Hyperlink">https://www.reuters.com/business/energy/atalco-secures-investment-us-pinnacle-affiliate-boost-alumina-gallium-output-2026-01-12/</span></a><span class="Hyperlink"></span>; U.S. Department of War, "Department of Defense Awards $23 Million to Augment the United States Domestic Aluminum Casting Supply Chain," press release, July 22, 2024, <a class="ExternalLink" href="https://www.war.gov/News/Releases/Release/Article/3846293/department-of-defense-awards-23-million-to-augment-the-united-states-domestic-a/"><span class="Hyperlink">https://www.war.gov/News/Releases/Release/Article/3846293/department-of-defense-awards-23-million-to-augment-the-united-states-domestic-a/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Gulf Cooperation Council includes Saudi Arabia, Kuwait, the United Arab Emirates, Qatar, Bahrain, and Oman. The Organisation for Economic Co-operation and Development (OECD) noted that excess capacity in the aluminum sector is hard to measure, as reliable capacity information may not be available for producers that are not publicly listed on stock exchanges. See OECD, <em>Measuring </em><em>D</em><em>istortions in </em><em>I</em><em>nternational </em><em>M</em><em>arkets: </em><em>T</em><em>he </em><em>A</em><em>luminium </em><em>V</em><em>alue </em><em>C</em><em>hain</em>, OECD Trade Policy Papers no. 218, 2019, pp. 6, 9, 53, <a class="ExternalLink" href="https://www.oecd.org/en/publications/measuring-distortions-in-international-markets-the-aluminium-value-chain_c82911ab-en.html"><span class="Hyperlink">https://www.oecd.org/en/publications/measuring-distortions-in-international-markets-the-aluminium-value-chain_c82911ab-en.html</span></a> (hereinafter OECD, <em>Measuring </em><em>D</em><em>istortions in </em><em>I</em><em>nternational </em><em>M</em><em>arkets</em>). </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OECD, <em>Measuring </em><em>D</em><em>istortions in </em><em>I</em><em>nternational </em><em>M</em><em>arkets</em>, p. 51.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OECD, "MAGIC Database of Industrial Subsidies," accessed October 5, 2026, <a class="ExternalLink" href="https://www.oecd.org/en/data/dashboards/magic-database-industrial-subsidies/Subsidies-by-sector.html?oecdcontrol-chart-control-bar-80cf69747f-var1=ALUM"><span class="Hyperlink">https://www.oecd.org/en/data/dashboards/magic-database-industrial-subsidies/Subsidies-by-sector.html?oecdcontrol-chart-control-bar-80cf69747f-var1=ALUM</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OECD, "OECD MAGIC Database of Industrial Subsidies," June 1, 2026, p. 21, <a class="ExternalLink" href="https://www.oecd.org/en/publications/oecd-magic-database-of-industrial-subsidies_ce94f33b-en.html"><span class="Hyperlink">https://www.oecd.org/en/publications/oecd-magic-database-of-industrial-subsidies_ce94f33b-en.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OECD, <em>Measuring Distortions in International Markets</em>, p. 120.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional discussion, see the "<a class="InternalLink" href="#_Ref234758372">Price Determination</a>" section.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USGS, "Aluminum," February 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Aluminum in December 2025" in USGS, <em>Mineral Industry Surveys</em>, April 2026, <a class="ExternalLink" href="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/mis-202512-alumi.pdf"><span class="Hyperlink">https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/mis-202512-alumi.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Codified as amended at 19 U.S.C. §1862.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A statutory definition of <em>national security</em> is "the national defense and foreign relations of the United States." 10 U.S.C. §801(16).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 19 U.S.C. §1862(d).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on Section 232 of the Trade Expansion Act of 1962, see CRS In Focus IF13006, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF13006"><em><span class="Hyperlink">Section 232 of the Trade Expansion Act of 1962</span></em></a>, by Kyla H. Kitamura; Executive Office of the President, "Adjusting Imports of Aluminum into the United States," 83<em> Federal Register</em> 11619, March 8, 2018; and Executive Office of the President, "Adjusting Imports of Aluminum into the United States," 83<em> Federal Register</em> 13355, March 22, 2018. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A statutory definition of <em>economic security</em> is "the condition of having secure and resilient domestic production capacity, combined with reliable access to the global resources necessary to maintain an acceptable standard of living and to protect core national values." 6 U.S.C. §474(c)(2).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a name="_Hlk232178901"></a>DOC, <em>The Effect of Imports of Aluminum on the National Security</em>, January 17, 2018.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOC, BIS, "Implementation of Duties on Aluminum Pursuant to Proclamation 10895 Adjusting Imports of Aluminum into the United States," 90<em> Federal Register</em> 11251, March 5, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For discussion of elimination of certain trading partner exemptions and alternative tariff rate quotas, see CRS Insight IN12519, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12519"><em><span class="Hyperlink">Section 232 Tariffs on Steel and Aluminum</span></em></a>, by Kyla H. Kitamura.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Primary aluminum imports that were produced in Russia continue to be subject to a 200% Section 232 tariff.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Primary aluminum imports that were produced in Russia continue to be subject to a 200% Section 232 tariff, and aluminum imports from the United Kingdom continue to be subject to a 25% Section 232 tariff. Executive Office of the President, "Adjusting Imports of Aluminum and Steel into the United States," 90<em> Federal Register</em> 24199, June 9, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For discussion of timeline and coverage, see CRS Insight IN12519, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12519"><em><span class="Hyperlink">Section 232 Tariffs on Steel and Aluminum</span></em></a>, by Kyla H. Kitamura. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional discussion of Section 232 modifications and their timeline, see CRS Insight IN12519, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12519"><em><span class="Hyperlink">Section 232 Tariffs on Steel and Aluminum</span></em></a>, by Kyla H. Kitamura; and BIS, "Section 232 Steel and Aluminum," accessed June 11, 2026, <a class="ExternalLink" href="https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/section-232-investigations/section-232-steel-aluminum"><span class="Hyperlink">https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/section-232-investigations/section-232-steel-aluminum</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mary Amiti et al., "The Impact of the 2018 Tariffs on Prices and Welfare," <em>Journal of Economic Perspectives</em>, vol. 33, no. 4 (Fall 2019), <a class="ExternalLink" href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.33.4.187"><span class="Hyperlink">https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.33.4.187</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, as was found by a 2023 U.S. International Trade Commission analysis of Section 232 tariffs that were active as of March 15, 2022. Peter Herman et al., <em>Economic Impact of Section 232 and 301 Tariffs on U.S. Industries</em>, U.S. International Trade Commission, Investigation no. 332-591, March 2023, <a class="ExternalLink" href="https://www.usitc.gov/publications/332/pub5405.pdf"><span class="Hyperlink">https://www.usitc.gov/publications/332/pub5405.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Fox Business</em>, "'Tariffs Are Working': Century Aluminum CEO Details Impact of Trade Moves," YouTube video, March 2026, <a class="ExternalLink" href="https://www.youtube.com/watch?v=_1VIv1jWvO8"><span class="Hyperlink">https://www.youtube.com/watch?v=_1VIv1jWvO8</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Bennett, "CEO Warns Aluminum Supply Chain Is 'So Thin.'"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Editorial Board, "Alcoa: The Tariff Damage in Profile," <em>Wall Street Journal</em>, July 31, 2025, <a class="ExternalLink" href="https://www.wsj.com/opinion/alcoa-aluminum-donald-trump-tariffs-bill-oplinger-edf1c6ff"><span class="Hyperlink">https://www.wsj.com/opinion/alcoa-aluminum-donald-trump-tariffs-bill-oplinger-edf1c6ff</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mishra, "Magnitude 7 Metals to Restart Marston Aluminum Smelter in Missouri."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Chad P. Bown, "Trump's Steel and Aluminum Tariffs Are Cascading out of Control," Peterson Institute for International Economics, February 4, 2020, <a class="ExternalLink" href="https://www.piie.com/blogs/trade-and-investment-policy-watch/trumps-steel-and-aluminum-tariffs-are-cascading-out-control"><span class="Hyperlink">https://www.piie.com/blogs/trade-and-investment-policy-watch/trumps-steel-and-aluminum-tariffs-are-cascading-out-control</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Beer Institute, "New Research Shows the Tariffs on Aluminum Have Cost the U.S. Beverage Industry $1.4 Billion," press release, April 14, 2022, <a class="ExternalLink" href="https://www.beerinstitute.org/press-releases/new-research-shows-the-tariffs-on-aluminum-have-cost-the-u-s-beverage-industry-1-4-billion/"><span class="Hyperlink">https://www.beerinstitute.org/press-releases/new-research-shows-the-tariffs-on-aluminum-have-cost-the-u-s-beverage-industry-1-4-billion/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Adam S. Hersh and Robert E. Scott, "Aluminum Producing and Consuming Industries Have Thrived Under U.S. Section 232 Import Measures," Economic Policy Institute, May 25, 2021, <a class="ExternalLink" href="https://www.epi.org/publication/aluminum-producing-and-consuming-industries-have-thrived-under-u-s-section-232-import-measures/"><span class="Hyperlink">https://www.epi.org/publication/aluminum-producing-and-consuming-industries-have-thrived-under-u-s-section-232-import-measures/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Maria Rachal, "Metal Tariff Adjustments Aren't a Win for Packaging, Trade Groups Say," <em>Packaging Dive</em>, April 6, 2026, <a class="ExternalLink" href="https://www.packagingdive.com/news/section-232-tariffs-adjustments-aluminum-steel-cans-lids/816643/"><span class="Hyperlink">https://www.packagingdive.com/news/section-232-tariffs-adjustments-aluminum-steel-cans-lids/816643/</span></a><span class="Hyperlink"></span> (hereinafter Rachal, "Metal Tariff Adjustments Aren't a Win for Packaging").</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Scott Breen, "Section 232 Aluminum Tariff Inclusion Request for Filled Beverage Cans," BIS, September 29, 2025, <a class="ExternalLink" href="https://www.regulations.gov/document/BIS-2025-0023-0724"><span class="Hyperlink">https://www.regulations.gov/document/BIS-2025-0023-0724</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Rachal, "Metal Tariff Adjustments Aren't a Win for Packaging."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn86" name="fn86">86</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A <em>futures contract</em> is a legally binding agreement to buy or sell something at a specific price on a future date.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn87" name="fn87">87</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A tariff is a type of duty.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn88" name="fn88">88</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The U.S. market price used in the Midwest Premium calculation is a delivery and duties paid price. In general, if foreign aluminum exporters to the United States do not decrease their selling prices in response to a tariff increase, then the tariff increase will increase the Midwest Premium by a commensurate amount. The Midwest Premium percentage began increasing at an accelerated rate in February 2025 as domestic manufacturers increased their purchases of aluminum stored at U.S. warehouses in advance of the March 2025 tariff increases that were announced in February 2025. Kirk Maltais, "U.S. Aluminum Buyers Scramble for Metal as Trump Tariff Looms," <em>Wall Street Journal</em>, February 21, 2025, <a class="ExternalLink" href="https://www.wsj.com/finance/commodities-futures/u-s-aluminum-buyers-scramble-for-metal-as-trump-tariff-looms-5ca8a0f4"><span class="Hyperlink">https://www.wsj.com/finance/commodities-futures/u-s-aluminum-buyers-scramble-for-metal-as-trump-tariff-looms-5ca8a0f4</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn89" name="fn89">89</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For discussion of the logistical effects of blockages in the Strait of Hormuz, see CRS Report R48903, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48903"><em><span class="Hyperlink">The Strait of Hormuz in Brief: Non-Oil Shipments and Effects on U.S. Shippers</span></em></a>, by John Frittelli and Ben Goldman. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn90" name="fn90">90</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mark Burton, "Aluminum Squeeze Deepens as Spreads Tighten and Inventories Drop," <em>Bloomberg</em>, May 29, 2026, <a class="ExternalLink" href="https://www.bloomberg.com/news/articles/2026-05-29/aluminum-squeeze-deepens-as-spreads-tighten-and-inventories-drop"><span class="Hyperlink">https://www.bloomberg.com/news/articles/2026-05-29/aluminum-squeeze-deepens-as-spreads-tighten-and-inventories-drop</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn91" name="fn91">91</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Greg Miller, "Hormuz Crisis Side Effect: A Sharp Rise in Container Shipping Rates," <em>Lloyd's List</em><em> Intelligence</em>, May 29, 2026, <a class="ExternalLink" href="https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates"><span class="Hyperlink">https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn92" name="fn92">92</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In June 2026, The Aluminum Association, alongside associations of aluminum producers from Canada, Europe, and Japan, advocated for collective action among nations, through mechanisms such as common tariffs, to offset China's subsidies to its domestic industry. See The Aluminum Association, "Global Aluminium Associations Welcome New OECD Data on Industrial Subsidies," press release, June 1, 2026, <a class="ExternalLink" href="https://www.aluminum.org/news/global-aluminium-associations-welcome-new-oecd-data-industrial-subsidies"><span class="Hyperlink">https://www.aluminum.org/news/global-aluminium-associations-welcome-new-oecd-data-industrial-subsidies</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn93" name="fn93">93</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Insight IN12519, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12519"><em><span class="Hyperlink">Section 232 Tariffs on Steel and Aluminum</span></em></a>, by Kyla H. Kitamura. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn94" name="fn94">94</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See §50161 in <a class="ExternalLink" href="http://www.congress.gov/law/117/pub/169"><span class="Hyperlink">P.L. 117-169</span></a>. The DOE grant for the planned primary smelter in Inola, OK, originated from this program. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn95" name="fn95">95</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Insight IN12719, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12719"><em><span class="Hyperlink">Technology-Neutral Clean Electricity Tax Credits Under the IRA and the OBBBA</span></em></a>, by Nicholas E. Buffie. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn96" name="fn96">96</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For an example of a manufacturing facility using on-site energy generation to supplement its electricity consumption, see Robyn Griggs Lawrence, "World's Largest Solar-Powered Steel Mill Breaks Ground in Colorado," <em>Construction Dive</em>, March 2, 2022, <a class="ExternalLink" href="https://www.constructiondive.com/news/worlds-largest-solar-powered-steel-mill-breaks-ground-in-colorado/619381/"><span class="Hyperlink">https://www.constructiondive.com/news/worlds-largest-solar-powered-steel-mill-breaks-ground-in-colorado/619381/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn97" name="fn97">97</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, World Trade Organization (WTO) agreements. For more information on the WTO, see CRS In Focus IF10002, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10002"><em><span class="Hyperlink">World Trade Organization</span></em></a>, by Cathleen D. Cimino-Isaacs. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn98" name="fn98">98</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 42 U.S.C. §16538.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn99" name="fn99">99</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOE, Advanced Research Projects Agency-Energy, "Energy Research Company (ERCo), Integrated Minimill to Produce Aluminum from Scrap," accessed September 23, 2026, <a class="ExternalLink" href="https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/integrated-minimill-produce-aluminum-scrap"><span class="Hyperlink">https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/integrated-minimill-produce-aluminum-scrap</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn100" name="fn100">100</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 15 U.S.C. §278s.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-31",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-02",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "8",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-31",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-02",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "5",
@@ -9811,6 +9815,100 @@
         "source_record": "587316",
         "title": "Costs of Government Interventions in Response to the Financial Crisis: A Retrospective",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-01",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "18",
+        "date": "2019-07-22",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "96-548",
+            "sha1": "cbb69487925425fd79eac1c79c6bbe6c5fa5d4f3",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190722_96-548_cbb69487925425fd79eac1c79c6bbe6c5fa5d4f3.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "96-548",
+            "sha1": "77f6f4eef8aaa848e47c29451879878a5e8b010e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190722_96-548_77f6f4eef8aaa848e47c29451879878a5e8b010e.pdf"
+            ]
+          }
+        },
+        "id": "96-548",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/96-548",
+          "https://www.crs.gov/Reports/pdf/96-548"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-30T20:40:41Z",
+        "required_by_recent_update": false,
+        "source_record": "602784",
+        "superseded_by_official_current": {
+          "historical_publication": "2019-07-22",
+          "id": "96-548",
+          "official_pdf_sha256": "d6a495c904ace457a6077c64a5f727b5bb0cbdcd3f7e225e0143805e88153886",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/RL/PDF/96-548/96-548.19.pdf",
+          "official_publication": "2026-10-30",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Legislative Process on the Senate Floor: An Introduction",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-01",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "15",
+        "date": "2024-11-04",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44263",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-11-04_R44263_cdba8433ade81752d54df8c917c97814b8197b6c.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44263",
+            "sha1": "cdba8433ade81752d54df8c917c97814b8197b6c",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R44263/14",
+              "https://www.everycrsreport.com/files/2024-11-04_R44263_cdba8433ade81752d54df8c917c97814b8197b6c.pdf"
+            ]
+          }
+        },
+        "id": "R44263",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-30T20:40:22Z",
+        "required_by_recent_update": false,
+        "source_record": "R44263_14_2024-11-04",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-11-04",
+          "id": "R44263",
+          "official_pdf_sha256": "772d86201d2d8e8d11161802628f7686b89135b3535c9543340b423d6394c7fe",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44263/R44263.16.pdf",
+          "official_publication": "2026-10-30",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Veterans Day Speech Resources: Fact Sheet",
+        "version": "14"
       }
     },
     {

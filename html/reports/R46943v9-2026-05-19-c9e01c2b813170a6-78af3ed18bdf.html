@@ -1,0 +1,896 @@
+<div><p></p><div><div>
+<div>
+<div></div>
+</div>
+<div class="ReportHeader">
+<h1>Voter Registration Records and List Maintenance for Federal Elections</h1>
+<div>Updated May 19, 2026
+            (R46943)
+          <br><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr>
+<div>
+<h2>Contents</h2>
+<ul>
+<li><a href="#_Toc230076041"><span>Introduction</span></a></li>
+<li><a href="#_Toc230076042"><span>Voter Registration Records in a VRDB</span></a></li>
+<li><a href="#_Toc230076043"><span>Recent Legislative Proposals Related to Voter Registration Records</span></a></li>
+<li><a href="#_Toc230076044"><span>Verification of Voter Registration Information</span></a></li>
+<li><a href="#_Toc230076045"><span>Recent Legislative Proposals Related to Verification</span></a></li>
+<li><a href="#_Toc230076046"><span>Voter Data Privacy, Transparency, and Security</span></a></li>
+<li><a href="#_Toc230076047"><span>Recent Legislative Proposals Related to Voter Data Privacy, Transparency, and Security</span></a></li>
+<li><a href="#_Toc230076048"><span>List Maintenance Requirements for States</span></a></li>
+<li><a href="#_Toc230076049"><span>Recent Legislative Proposals Related to List Maintenance</span></a></li>
+<li><a href="#_Toc230076050"><span>Concluding Observations</span></a></li>
+</ul>
+<div>
+<h2>Figures</h2>
+<ul>
+<li><a href="#_Toc230076040"><span>Figure 1. Sample Components of a Voter Registration System</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div>
+<h2>Summary</h2>
+<p>Each state except North Dakota requires voter registration as a prerequisite for voting in federal elections. The accuracy of voter registration records is often considered important for election administration, as these records are typically used to create <em>poll books</em> (lists of eligible voters) or otherwise assess the eligibility of individuals to cast a ballot in an election. This information can help election officials with other administrative purposes, such as preparing sufficient election materials or appropriately distributing resources (such as poll workers, ballots, and equipment) across voting sites within a jurisdiction. The data contained in voter registration records also enable election officials to contact prospective voters with relevant election information, such as updates or notifications about election dates, polling place locations, or methods of casting a ballot.</p>
+<p>States generally determine most of their own voter registration practices, subject to certain federal statutory requirements, such as those found in the National Voter Registration Act of 1993 (NVRA) and the Help America Vote Act of 2002 (HAVA). For state election officials, updating and maintaining a HAVA-required computerized, statewide voter registration list is an ongoing element of voter registration administration. This list is commonly referred to as a state's <em>voter registration database</em> (VRDB). </p>
+<p>Voter registration records management involves a series of processes, and the particular details of how states update and maintain VRDBs vary by state. The following description provides a broad overview of general practices common across many states, based, in part, on requirements or procedures outlined in NVRA and HAVA. Typically, election officials receive new and updated information about individual voters on an ongoing basis from a variety of sources, including the individuals themselves or records provided by certain agencies (e.g., the state department of motor vehicles [DMV]) or other partnering entities. Election officials then take steps to verify this information before it becomes a part of the voter's registration record in the VRDB by, for example, checking other administrative records or requesting additional information from the applicant. </p>
+<p>Periodically, state election officials also check the VRDB for records that may be incorrect or outdated for reasons such as an individual's request for removal, change of address, death, or (as provided by state law) criminal conviction or mental incapacity. VRDB records are often compared with data from other sources to help identify potentially ineligible voters; this could include various agency records, other states' voter records, or additional resources, as permitted under state law and practice. Before a voter is removed from the VRDB, however, state election officials generally undertake steps to notify the voter and provide the individual with an opportunity to correct his or her record. Voter removal processes generally must meet standards of uniformity and nondiscrimination set forth in NVRA and the Voting Rights Act of 1965 (VRA).</p>
+<p>Congress has addressed certain parameters for state VRDB records and list maintenance in federal elections through provisions in NVRA and HAVA, while allowing states flexibility and discretion to determine a number of related administrative elements. Voter registration records and list maintenance continue to be of ongoing congressional interest from a variety of perspectives, including improving efficiencies in election administration. Voter list accuracy, more generally, is related to aspects of election integrity, as verified, up-to-date voter information can help prevent ineligible individuals from voting or prevent eligible voters from voting multiple times in an election. List maintenance or voter removal practices, however, may also raise concerns about voter access and the ability of eligible registered voters to maintain their eligibility status. Ensuring cybersecurity for VRDBs is also important, as they store a variety of personally identifiable information on individuals and may also be a target for those who seek to obtain personal data or interfere in an election. Prior to the 2016 election, for example, foreign actors attempted to access or accessed voter registration systems in some states.</p>
+<hr>
+</div><a name="Content"></a><div></div>
+<div>
+<h2>Introduction</h2>
+<p>Voter registration records often serve as an important source of information for election officials and are primarily used to assess the eligibility of individuals to cast a ballot in an election. Accurate and secure voter registration records help ensure aspects of election integrity, and certain practices related to voter registration data management can also improve efficiencies in election administration.<sup><a href="#fn1" name="ifn1">1</a></sup> Election officials, for example, often use voter registration records to create <em>poll books </em>(lists of eligible voters) to check in voters at voting sites, and they can also use voter registration information to help prepare sufficient amounts of election materials or appropriately distribute resources (such as poll workers, ballots, and equipment) across a jurisdiction. </p>
+<p>Congress has addressed certain parameters for state voter registration records in federal elections through provisions in the National Voter Registration Act of 1993 (NVRA; 52 U.S.C. ch. 205) and the Help America Vote Act of 2002 (HAVA; 52 U.S.C. ch. 209), while allowing states some flexibility and discretion to determine a number of related administrative elements.<sup><a href="#fn2" name="ifn2">2</a></sup> One key requirement for states is that they must maintain a computerized, statewide voter registration list for use in federal elections under HAVA.<sup><a href="#fn3" name="ifn3">3</a></sup> This list is commonly referred to as a state's <em>voter registration database</em> (VRDB). HAVA and NVRA contain other provisions affecting state voter registration lists, including some requirements addressing what types of personal information are collected and establishing record-sharing arrangements between state election officials and certain agencies, such as the state department of motor vehicles (DMV). Some requirements addressing voter registration specifically for members of the military, their families, and overseas U.S. citizens are addressed in the Uniformed and Overseas Citizens Absentee Voting Act (UOCAVA), but are generally beyond the scope of this report.<sup><a href="#fn4" name="ifn4">4</a></sup> </p>
+<p>States engage in processes known as voter registration list maintenance, which, for the purposes of this report, involves efforts to identify errors or ineligible voters in existing VRDB records and remove or correct those records, as necessary. NVRA specifies certain reasons why a voter may be removed from a state's registration list, and requires that states engage in practices that are uniform, nondiscriminatory, and in compliance with the Voting Rights Act of 1965 (VRA) if removing a voter from that list.<sup><a href="#fn5" name="ifn5">5</a></sup> Other provisions in HAVA direct states to conduct VRDB maintenance on a "regular basis" and to follow NVRA's provisions for removing voters.<sup><a href="#fn6" name="ifn6">6</a></sup> Other details regarding voter registration records and list maintenance are contained in NVRA and HAVA, but the acts generally give states the ability to determine many aspects of how to manage these data. State practices vary, but <a href="#_Ref35439242"><strong></strong><strong>Figure 1</strong></a> provides a sample illustration of the ways in which a state VRDB might interact with other information sources and serve multiple election administration purposes.</p>
+<p>Voter registration records continue to be of ongoing congressional interest from a variety of perspectives. Voter list accuracy, more generally, is related to aspects of election integrity, as verified, up-to-date voter information can help prevent ineligible individuals from voting or prevent eligible voters from voting multiple times in an election. List maintenance or voter removal practices, however, may also raise concerns about voter access and the ability of eligible registered voters to maintain their eligibility status. Ensuring cybersecurity for VRDBs is also important, as they store a variety of personally identifiable information on individuals and may also be a target for those who seek to obtain personal data or interfere in an election. Prior to the 2016 election, for example, foreign actors attempted to access or accessed voter registration systems in some states.</p>
+<p>This report addresses federal requirements affecting state voter registration records and list maintenance; provides information on some associated practices across states; and discusses related legislative proposals introduced in recent Congresses. The first section provides information on what constitutes voter registration records and the type of individual-level data typically stored in a VRDB. The following sections discuss how states verify or ensure the accuracy of the individual records stored in a VRDB, and how states address transparency considerations and privacy protections for voter data. The final section discusses voter registration list maintenance activities, such as identifying voters whose eligibility status may have changed and removing records for those who are no longer eligible to vote. Although attempts have been made to distinguish these categories from one another, they are not necessarily mutually exclusive, as certain policies or practices may serve multiple purposes related to administering voter registration and the management of VRDB data. References to legislation may not reflect a comprehensive listing of all policy proposals introduced in recent Congresses. </p>
+<p>
+</p><table>
+<tbody><tr>
+<td>
+<p><a name="_Ref35439242"></a><a name="_Toc35597230"></a><a name="_Toc85722603"></a><a name="_Toc85794125"></a><a name="_Toc85810191"></a><a name="_Toc180588917"></a><a name="_Toc180679755"></a><a name="_Toc180679818"></a><a name="_Toc190346584"></a><a name="_Toc230076040"></a>Figure 1. Sample Components of a Voter Registration System</p>
+</td>
+</tr>
+<tr>
+<td><img></td>
+</tr>
+<tr>
+<td>
+<p><strong>Source:</strong> CRS examination of federal and various state laws related to voter registration practices. Graphic created by Amber Hope Wilhelm, CRS Visual Information Specialist.</p>
+<p><strong>Notes</strong><strong>:</strong> Many of these relationships will vary depending upon state laws and practices. The Help America Vote Act (HAVA; 52 U.S.C. §§20921 et seq.), however, requires each state to have a centralized voter registration database (VRDB) and requires state departments of motor vehicles (DMVs) to enter into information-sharing agreements with state election officials and the Social Security Administration (SSA).</p>
+</td>
+</tr>
+</tbody></table> 
+<h2><a name="_Ref81920143"></a><a name="_Toc82768413"></a><a name="_Toc85722605"></a><a name="_Toc85794127"></a><a name="_Toc85810193"></a><a name="_Toc180588919"></a><a name="_Toc180679757"></a><a name="_Toc180679820"></a><a name="_Toc190346586"></a><a name="_Toc230076042"></a>Voter Registration Records in a VRDB</h2>
+<p>HAVA requires that a state VRDB contain at least the name, registration information, and a unique identifier for each legally registered voter in the state.<sup><a href="#fn7" name="ifn7">7</a></sup> HAVA further specifies that state election officials cannot accept or process a voter registration application unless the applicant provides certain information. An individual with a current and valid driver's license must provide his or her driver's license number, or an individual without a driver's license can provide the last four digits of his or her Social Security number to meet this requirement.<sup><a href="#fn8" name="ifn8">8</a></sup> In an instance where an individual has neither a driver's license nor a Social Security number, "the State shall assign the applicant a number which will serve to identify the applicant for voter registration purposes" to allow his or her application to be accepted and processed by state election officials.<sup><a href="#fn9" name="ifn9">9</a></sup> For applicants using the federal mail-based voter registration form developed under NVRA, HAVA added questions asking whether the applicant is a U.S. citizen and whether he or she will be 18 years old on or before the election.<sup><a href="#fn10" name="ifn10">10</a></sup></p>
+<p>Additional data fields or records contained in a VRDB for individual voters can vary across states.<sup><a href="#fn11" name="ifn11">11</a></sup> Often, the information contained in voter registration records is correlated with a state's voter registration requirements and may also aid in state election officials' verification efforts to confirm the identity or eligibility of an applicant.<sup><a href="#fn12" name="ifn12">12</a></sup> For example, most states ask for an applicant's date of birth, which provides information on if and when an applicant is of legal voting age for the next election and can also help election officials differentiate between individuals who share the same name.<sup><a href="#fn13" name="ifn13">13</a></sup> Because states generally have residency or domicile requirements for voter eligibility,<sup><a href="#fn14" name="ifn14">14</a></sup> VRDBs typically also contain residential address information for individuals, which may include a permanent address and a mailing address. Residential address information, as well as telephone numbers and/or email addresses, may be data stored in a VRDB to help election officials contact individuals regarding matters related to their voter registration information or an upcoming election. </p>
+<p>VRDBs also often contain records of certain dates or similar information related to an individual's status as a voter, such as when and via what method a registration application was submitted; when and whether the application was accepted or rejected and why; and what recent elections an individual has voted in. These types of records can aid election officials with administering an election, maintaining a voter list, and tracking compliance with certain NVRA provisions or state laws. </p>
+<p>Information related to when and how an application was submitted, for example, can help state election officials determine whether the applicant met any applicable voter registration deadline. States' voter registration deadlines vary, and states may have different deadlines depending on the method of registration used.<sup><a href="#fn15" name="ifn15">15</a></sup> Under NVRA, however, states may not impose a voter registration deadline for federal elections that is more than 30 days before the election.<sup><a href="#fn16" name="ifn16">16</a></sup> Certain provisions of NVRA and HAVA also address the transmittal of voter registration applications. For example, DMVs and voter registration agencies under NVRA must transmit any completed voter registration applications received to the appropriate state election official within 10 days of receipt (or within 5 days, if received within 5 days of the registration deadline).<sup><a href="#fn17" name="ifn17">17</a></sup> HAVA requires that local election officials submit all voter registration information obtained into the state's VRDB "on an expedited basis at the time the information is provided to the local official."<sup><a href="#fn18" name="ifn18">18</a></sup></p>
+<p>NVRA, as amended by HAVA, directs the Election Assistance Commission (EAC) to provide a biennial report to Congress regarding the NVRA's impact on the administration of federal elections. Since 2014, the NVRA report has been included in the EAC's <em>Election Administration and Voting Survey (EAVS) Comprehensive Report</em>.<sup><a href="#fn19" name="ifn19">19</a></sup> In recent years, the EAC has asked states to report data on the total number of registered voters, as well as breakdowns of active and inactive voters; the EAC also asks for data on where the application was received (e.g., by mail, email, or fax; from a DMV; in-person).<sup><a href="#fn20" name="ifn20">20</a></sup></p>
+<p>States may also keep records related to which elections a voter participated in and track whether the voter is considered active or inactive. Information on the number of eligible and active voters can help election officials discern likely turnout and prepare a sufficient amount of election materials or appropriately allocate resources (such as poll workers, ballots, and equipment) across voting sites within a jurisdiction. Most states provide information on active and inactive voters as part of the biennial NVRA data contained in the EAC's EAVS report.<sup><a href="#fn21" name="ifn21">21</a></sup> Inactive voters typically have been contacted by election officials and require address verification under NVRA,<sup><a href="#fn22" name="ifn22">22</a></sup> as discussed further in "<a href="#_Ref78813913">List Maintenance Requirements for States</a>."</p>
+<h3><a name="_Toc82768414"></a><a name="_Toc85722606"></a><a name="_Toc85794128"></a><a name="_Toc85810194"></a><a name="_Toc180588920"></a><a name="_Toc180679758"></a><a name="_Toc180679821"></a><a name="_Toc190346587"></a><a name="_Toc230076043"></a>Recent Legislative Proposals Related to Voter Registration Records</h3>
+<p>In recent Congresses, several bills have been introduced that would address what types of information states request or store as voter registration records. Generally, these policy options either direct states to require applicants to provide certain additional information in order to register to vote or prohibit states from requiring or storing certain information from individuals in order to be registered to vote. For example, some bills in the 119<sup>th</sup> Congress propose amending NVRA to require that individuals provide documentary proof of U.S. citizenship in order to register to vote in federal elections, and similar measures were introduced in the 118<sup>th</sup> Congress.<sup><a href="#fn23" name="ifn23">23</a></sup> Among these are two House-passed bills, the Safeguard American Voter Eligibility (SAVE) Act (<a><span>H.R. 22</span></a>) and the Safeguard American Voter Eligibility (SAVE America) Act (<a><span>S. 1383</span></a>); for further discussion, see CRS In Focus IF12902, <a><em><span>Safeguard American Voter Eligibility Act (SAVE America Act) and Federal Voter Registration Policy and Law</span></em></a>. Some bills from the 117<sup>th</sup> Congress would have prohibited states from accepting or processing voter registration applications unless an individual provided a full Social Security number.<sup><a href="#fn24" name="ifn24">24</a></sup> Other proposals from recent Congresses have proposed amending NVRA to prohibit states from requiring more than the last four digits of an individual's Social Security number when submitting a voter registration application at a DMV or on the National Mail Voter Registration Form.<sup><a href="#fn25" name="ifn25">25</a></sup> Some measures would require state DMVs to ask whether individuals reside in or resided in another state prior to applying for a driver's license, and to ask whether or not the individual intends for the state in which the DMV is located to serve as his or her residence for the purpose of registering to vote for federal elections.<sup><a href="#fn26" name="ifn26">26</a></sup> Other bills have proposed requiring agencies involved in voter registration to share certain information on applicants with state election officials, such as an individual's name, date of birth, address, information showing U.S. citizenship, the date this information was collected, an electronic signature (if available), or an individual's party identification (if provided).<sup><a href="#fn27" name="ifn27">27</a></sup></p>
+<h2><a name="_Toc82768415"></a><a name="_Ref82770436"></a><a name="_Toc85722607"></a><a name="_Toc85794129"></a><a name="_Toc85810195"></a><a name="_Toc180588921"></a><a name="_Toc180679759"></a><a name="_Toc180679822"></a><a name="_Toc190346588"></a><a name="_Toc230076044"></a>Verification of Voter Registration Information</h2>
+<p>State election officials engage in various verification methods to ensure that the information submitted on a voter registration application or update is accurate before it becomes a part of the individual's VRDB record. Having accurate information helps ensure that election officials can correctly determine an applicant's eligibility or ineligibility to participate in upcoming elections. </p>
+<p>Verification efforts can occur at the individual applicant level, by specifying that a person must provide certain information to election officials when a new voter registration application or an update to an existing record is submitted; for the purposes of this report, these sorts of efforts are discussed as part of the preceding section on "<a href="#_Ref81920143">Voter Registration Records in a VRDB</a>." State or local election officials who receive and process information from applicants may also engage in verification processes. For election officials, this could include cross-checking the information submitted on voter registration applications with other administrative records to confirm the prospective voter's identity or address. Election officials may also use verification processes that involve requesting confirmation or additional information directly from the applicant.</p>
+<p>Under HAVA, states are required to coordinate their computerized voter registration lists with state agency records on felony status and state agency records on death.<sup><a href="#fn28" name="ifn28">28</a></sup> HAVA also directs state DMV officials to enter into agreements with the chief state election official and the Commissioner of Social Security and to verify and match certain applicant information.<sup><a href="#fn29" name="ifn29">29</a></sup> Under NVRA, voter registration application forms for federal elections must include a statement denoting each voter eligibility requirement (including citizenship); contain an attestation from the applicant that each requirement is met; and require the signature of the applicant under penalty of perjury.<sup><a href="#fn30" name="ifn30">30</a></sup> Federal criminal penalties also exist for individuals who provide false information in registering to vote.<sup><a href="#fn31" name="ifn31">31</a></sup></p>
+<p>In addition to coordinating voter registration information with DMVs, as required by NVRA and HAVA, state election officials commonly enter into information-sharing agreements with other agencies to receive updated information on individuals. The particular agencies vary by state and can include federal, state, or local agencies. As one example, some state election officials use the Systematic Alien Verification for Entitlements (SAVE) information service provided by DHS's U.S. Citizenship and Immigration Services (USCIS) to help verify registrants' citizenship status; this service has been available for use by election officials since 2005, and more than 27 states are registered for the service.<sup><a href="#fn32" name="ifn32">32</a></sup> </p>
+<p>Comparing voter registration records to agency records may be done as a separate verification step, or, as in several states, as an incidental function of state <em>automatic voter registration</em> (AVR)<em> </em>policies.<sup><a href="#fn33" name="ifn33">33</a></sup> With AVR, individuals are typically registered to vote (if qualified) when they submit their personal information for services at another government agency unless they choose to opt out. Many states with AVR conduct their programs through state DMVs, but some states have also designated other administering state agencies.<sup><a href="#fn34" name="ifn34">34</a></sup> For example, Alaska administers AVR through its Permanent Fund Dividend program, and New York administers AVR through its DMV, Department of Health, Department of Labor, and other agencies.<sup><a href="#fn35" name="ifn35">35</a></sup> </p>
+<h3><a name="_Ref82179930"></a><a name="_Toc82768416"></a><a name="_Toc85722608"></a><a name="_Toc85794130"></a><a name="_Toc85810196"></a><a name="_Toc180588922"></a><a name="_Toc180679760"></a><a name="_Toc180679823"></a><a name="_Toc190346589"></a><a name="_Toc230076045"></a>Recent Legislative Proposals Related to Verification</h3>
+<p>In recent Congresses, various bills propose methods by which submitted voter registration data could be compared to other record sources. These checks may be conducted for verification and/or list maintenance purposes. Many of these proposals are related to verifying an applicant's citizenship. Some bills, for example, would require the Department of Homeland Security (DHS) and the Social Security Administration (SSA) to provide information to state election officials (upon request) to verify a voter registration applicant's citizenship status for federal election purposes.<sup><a href="#fn36" name="ifn36">36</a></sup> Another proposal would direct any federal department or agency head to provide information regarding an applicant's citizenship status to election officials upon request and require DHS to notify state election officials about newly naturalized citizens.<sup><a href="#fn37" name="ifn37">37</a></sup> Other bills would require courts to notify state election officials when an individual is recused from jury duty on the grounds of noncitizenship.<sup><a href="#fn38" name="ifn38">38</a></sup> A number of bills would also expand information sharing between specified agencies and state election officials as part of a proposed federal requirement that states provide automatic voter registration.<sup><a href="#fn39" name="ifn39">39</a></sup></p>
+<h2><a name="_Toc82768417"></a><a name="_Toc85722609"></a><a name="_Toc85794131"></a><a name="_Toc85810197"></a><a name="_Toc180588923"></a><a name="_Toc180679761"></a><a name="_Toc180679824"></a><a name="_Toc190346590"></a><a name="_Toc230076046"></a>Voter Data Privacy, Transparency, and Security</h2>
+<p>When managing voter registration information, an issue of balance exists between providing appropriate privacy protections for individuals' personally identifiable information and ensuring an expected degree of transparency. Many of these practices are determined by state laws, but some provisions from NVRA and HAVA address certain protections for and permissible disclosures of voter registration information.<sup><a href="#fn40" name="ifn40">40</a></sup> </p>
+<p>Under NVRA, if an individual declines the opportunity to register to vote at a state DMV or voter registration agency, those entities are prohibited from using that information for any purpose other than voter registration.<sup><a href="#fn41" name="ifn41">41</a></sup> State election officials also must ensure that the "identity of the voter registration agency" where an individual registered to vote is not disclosed to the public.<sup><a href="#fn42" name="ifn42">42</a></sup> NVRA also requires that state election officials send a notice regarding the disposition of each voter registration application to any individual who submits an application through the methods described in NVRA.<sup><a href="#fn43" name="ifn43">43</a></sup> States must also maintain and "make available for public inspection" records related to "ensuring the accuracy and currency of official lists of eligible voters" for at least two years.<sup><a href="#fn44" name="ifn44">44</a></sup> Alongside its requirement that each state create a centralized VRDB, HAVA requires that any election official in a state, including local officials, "may obtain immediate electronic access to the information contained in the computerized list."<sup><a href="#fn45" name="ifn45">45</a></sup> </p>
+<p>Generally, state or local election officials provide opportunities for individuals to check their own registration information and status as recorded in the state's HAVA-required VRDB. Providing this information enables individuals to identify and submit any necessary registration corrections or updates (such as a change of address) to election officials ahead of the next election. Individuals can usually inquire directly with the appropriate election office about their registration information or look up their registration data on a website run by the state election office.<sup><a href="#fn46" name="ifn46">46</a></sup> The same websites may also provide election information tailored to each voter, such as his or her polling place location and hours or which electoral districts the voter resides in. </p>
+<p>States also commonly provide some access to aggregated voter information, sometimes referred to as <em>voter registration l</em><em>ists</em> or <em>voter files</em>. Specific policies on what information is contained in these lists, and who may request access to them and for what purposes, vary by state.<sup><a href="#fn47" name="ifn47">47</a></sup> For example, some states provide access to voter lists to government officials, political organizations, or candidates, and other states provide access to any member of the public. States may specify certain use limitations, such as requiring that voter information can only be used for noncommercial, governmental, scholarly, journalistic, or political purposes. Some states provide voter file information at no cost (or at no cost for certain users) and other states charge fees to access these records.<sup><a href="#fn48" name="ifn48">48</a></sup> </p>
+<p>In some instances, outside groups or researchers may examine voter file data for irregularities or errors. Voter registration lists can also be used to distribute political information for candidates or parties, as well as nonpartisan voter turnout initiatives. While some might view disclosures for these purposes as appropriate, there are also general privacy concerns surrounding voter data and protecting the personal information contained in VRDB records.<sup><a href="#fn49" name="ifn49">49</a></sup> State VRDBs often include data fields that could be used to directly identify an individual (e.g., full name, date of birth, address, driver's license number, and Social Security number). Other fields in a VRDB may reflect personal details that individuals would prefer to keep private, such as party affiliation, race, gender, or information on whether or not an individual needs assistance to vote. </p>
+<p>States vary on which data fields are released and which are redacted as part of their voter files, with many states protecting direct identifiers such as a voter's Social Security number, driver's license number, or complete date of birth. Most states also provide additional data protections upon request or automatically for certain groups of voters. For example, many states have an Address Confidentiality Program (ACP), often for victims of domestic abuse, and will not disclose residential addresses for ACP participants in their voter files. Some states similarly keep residential addresses confidential for judges, law enforcement personnel, correctional officers, or those with certain other occupations. In some states, any individual can request that the state withhold his or her address from the voter file, and other states will grant case-by-case exceptions if disclosure of a voter's address may pose an invasion of personal privacy or a threat to his or her safety.<sup><a href="#fn50" name="ifn50">50</a></sup> </p>
+<p>Election officials implement measures to ensure that VRDBs and other related election system components are protected from cybersecurity threats, as they may be targets for those seeking to access personal data on individuals or interfere in elections.<sup><a href="#fn51" name="ifn51">51</a></sup> HAVA directs state and local election officials to "provide adequate technological security measures to prevent unauthorized access to the computerized list established under this section."<sup><a href="#fn52" name="ifn52">52</a></sup> A 2019 report from the Senate Select Committee on Intelligence (SSCI) found that ahead of the 2016 election, Russian operatives attempted to access voter registration systems in at least seven states and were successfully able to access records in two of those states, although the committee found no evidence that registration data had been deleted or changed.<sup><a href="#fn53" name="ifn53">53</a></sup> In response to these election interference concerns, Congress provided HAVA grant funding that states could use for various election security purposes in both FY2018 and FY2020.<sup><a href="#fn54" name="ifn54">54</a></sup> DHS also designated election systems as critical infrastructure in January 2017, and its Cybersecurity and Infrastructure Security Agency (CISA) provided resources and services to states to assist with securing voter registration systems.<sup><a href="#fn55" name="ifn55">55</a></sup> </p>
+<p>The U.S. Justice Department indicted two Iranian nationals for attempting to compromise state voter registration or voter information websites in 11 states ahead of the 2020 election and successfully downloading information for over 100,000 voters in one state.<sup><a href="#fn56" name="ifn56">56</a></sup> In December 2023, the U.S. Attorney General and Secretary of Homeland Security issued a joint report that found no evidence that "any detected activity ... compromised the integrity of voter registration information" during the 2022 federal midterm elections.<a name="ifn137"></a><sup><a href="#fn57" name="ifn57">57</a></sup> The report credited "[i]mprovements in cybersecurity, partnerships, and public messaging" with "[enhancing] the resilience of the electoral process" in the 2022 election, and recommended that the federal government "continue and expand its support to these efforts.<a name="ifn138"></a>"<sup><a href="#fn58" name="ifn58">58</a></sup><span> </span></p>
+<h3><a name="_Toc82768418"></a><a name="_Toc85722610"></a><a name="_Toc85794132"></a><a name="_Toc85810198"></a><a name="_Toc180588924"></a><a name="_Toc180679762"></a><a name="_Toc180679825"></a><a name="_Toc190346591"></a><a name="_Toc230076047"></a>Recent Legislative Proposals Related to Voter Data Privacy, Transparency, and Security </h3>
+<p>Several measures introduced in recent Congresses address protections for voter registration data or limitations on disclosure of certain voter registration information. Some bills, for example, would require each state to operate a privacy program in which victims of domestic violence and other crimes could choose to keep personally identifiable information maintained by state or local election officials confidential; these proposals would also require that states notify residents about what information election officials maintain related to voter registration status, how the information is shared or sold and to whom, what information is confidential, and what privacy programs are available.<sup><a href="#fn59" name="ifn59">59</a></sup> </p>
+<p>Other provisions related to protecting voter registration data may be proposed in the context of setting parameters for data sharing between election officials and agencies (such as with AVR program requirements), as discussed in the preceding section on "<a href="#_Ref82179930">Recent Legislative Proposals Related to Verification</a>." For example, some legislative provisions would prohibit state election officials who receive voter registration records from other agencies involved in AVR from publicly disclosing "any information not necessary to voter registration," including any part of an individual's Social Security number or driver's license number, the individual's signature, or the identity of the agency from which the records were received; those agencies would also be prohibited from publicly disclosing information regarding an individual's decision not to register to vote, or not to affirm his or her citizenship, or other information related to voter registration.<sup><a href="#fn60" name="ifn60">60</a></sup> These bills would also protect individuals from prosecution due to errors with voter registration records submitted as part of an AVR program.<sup><a href="#fn61" name="ifn61">61</a></sup> Many of these measures would further prohibit anyone acting under the color of law from using an individual's voter registration records or status, or one's decision not to register or affirm citizenship, to discriminate against that individual or for any purpose other than voter registration, election administration, juror selection, or enforcement of election crimes. These bills would also expressly prohibit the use of voter registration information for commercial purposes.<sup><a href="#fn62" name="ifn62">62</a></sup> </p>
+<p>Some legislative proposals in recent Congresses would introduce requirements related to VRDB security. Several bills, for example, contain provisions that would instruct the director of the National Institute of Standards and Technology (NIST) to develop privacy and security standards for voter registration information and would require state election officials to develop VRDB access policies and security safeguards, as well as file annual statements certifying compliance with these standards.<sup><a href="#fn63" name="ifn63">63</a></sup> Other bills would require the Attorney General to provide Congress a report detailing "local, State, and Federal personally identifiable information data collections efforts, the cyber security resources necessary to defend such efforts from online attacks, and the impact of a potential data breach of local, State, or Federal online voter registration systems."<sup><a href="#fn64" name="ifn64">64</a></sup> Some bills that have proposed information sharing between election officials and the Social Security Administration would also have required safeguards to ensure confidentiality of Social Security numbers or other information disclosed.<sup><a href="#fn65" name="ifn65">65</a></sup> One proposal from the 119<sup>th</sup> Congress would prohibit certain federal funding from being used by specified federal entities to obtain state voter registration lists or related information.<sup><a href="#fn66" name="ifn66">66</a></sup></p>
+<h2><a name="_Ref78813913"></a><a name="_Toc82768419"></a><a name="_Toc85722611"></a><a name="_Toc85794133"></a><a name="_Toc85810199"></a><a name="_Toc180588925"></a><a name="_Toc180679763"></a><a name="_Toc180679826"></a><a name="_Toc190346592"></a><a name="_Toc230076048"></a>List Maintenance Requirements for States</h2>
+<p>Election officials engage in voter registration list maintenance activities to help ensure that eligible voters remain in the VRDB and ineligible voters are removed from it. Generally, for the purposes of this report, voter registration list maintenance involves checking the VRDB against other records to identify voters whose status may have changed; notifying these voters and providing them an opportunity to confirm or refute this information; and making any necessary corrections to the VRDB (e.g., updates to certain data fields or removals of ineligible voters' records). Although verification efforts (discussed in the section "<a href="#_Ref82770436">Verification of Voter Registration Information</a>") help ensure that the information added to a VRDB is accurate at the time it is submitted, election officials do not necessarily receive automatic updates regarding changes to an individual's eligibility to vote in a jurisdiction. These eligibility changes are generally related to a residential move, death, or other disqualification under state law. How and when states perform checks on existing VRDB records varies, within certain parameters provided by federal law.</p>
+<p>Voter registration list maintenance is addressed in both NVRA and HAVA. NVRA prohibits states from removing a registered individual from the list or roster of eligible voters unless that individual requests to be removed; has died; has moved outside of the jurisdiction; or (if applicable under state law) has received a disqualifying criminal conviction or is found to be mentally incapacitated.<sup><a href="#fn67" name="ifn67">67</a></sup> NVRA further specifies that voters may not be removed from the registration rolls solely due to nonvoting<a name="ifn16"></a>,<sup><a href="#fn68" name="ifn68">68</a></sup> or for moving within the same electoral jurisdiction.<sup><a href="#fn69" name="ifn69">69</a></sup> States may also remove a voter from the registration rolls if the registrant has notified the election office that he or she has moved outside the jurisdiction.<sup><a href="#fn70" name="ifn70">70</a></sup> </p>
+<p>Under NVRA, states may "conduct a general program that makes a reasonable effort" to remove voters from the registration list due to death or a change of residence, and this must be completed at least 90 days prior to a federal election.<sup><a href="#fn71" name="ifn71">71</a></sup> The processes states use for registration list maintenance for federal elections must be uniform, nondiscriminatory, and in compliance with the Voting Rights Act of 1965.<sup><a href="#fn72" name="ifn72">72</a></sup> States may generally determine their own methods for conducting list maintenance programs that comply with these NVRA provisions, but NVRA does outline an option that states may use to identify voters who have moved outside a jurisdiction, using information from the U.S. Postal Service (USPS) National Change of Address (NCOA) database.<sup><a href="#fn73" name="ifn73">73</a></sup> Section 8 of NVRA provides that registrars can send a notice consisting of a forwardable mail response card with prepaid postage to voters they believe should be removed from a registration list. If a voter does not respond to the notice, that individual may be removed from the voter registration list after he or she fails to vote or appear to vote in two consecutive general elections for federal office.<sup><a href="#fn74" name="ifn74">74</a></sup> </p>
+<p>Certain HAVA provisions also address voter registration list maintenance. Generally, HAVA directs states to engage in list maintenance on a "regular basis" and to follow NVRA's provisions when removing voters from the VRDB.<sup><a href="#fn75" name="ifn75">75</a></sup> States are also required to coordinate their computerized voter registration lists with state agency records on felony status and state agency records on death.<sup><a href="#fn76" name="ifn76">76</a></sup> </p>
+<p>State and local election officials engage in various proactive measures to try to maintain up-to-date VRDB records in the event that voters do not or cannot self-report changes to their own records.<sup><a href="#fn77" name="ifn77">77</a></sup> Jurisdictions, for example, may engage in outreach reminders provided through postal mail, email, social media, or other measures asking voters to check and update their voter registration records. Election officials may also periodically send out formal address confirmation mailings to registered voters. In addition to coordinating voter registration records with the agencies required under federal law, states generally utilize other methods to identify potentially ineligible voters. Election officials commonly enter into information-sharing agreements with other agencies under state law to receive updated information on individuals, which may be done solely for list maintenance purposes (to identify instances where currently registered voters may no longer be eligible to vote), or can also occur alongside voter registration verification efforts (to ensure the accuracy of new applicant information added to a VRDB.)<sup><a href="#fn78" name="ifn78">78</a></sup> </p>
+<p>Most states use the option described in NVRA and examine USPS NCOA data to help determine whether a voter has moved. Many states also use other methods, such as comparing address information with other agency records or using nonforwardable mailings, to identify those who have likely moved.<sup><a href="#fn79" name="ifn79">79</a></sup> States may also compare voter address records through partnerships with one another, either through arrangements made with other state election officials<sup><a href="#fn80" name="ifn80">80</a></sup> or through other administrative programs, such as the Driver License Compact or the Electronic Registration Information Center (ERIC).<sup><a href="#fn81" name="ifn81">81</a></sup> Similarly, state laws may allow election officials to use other records, such as obituaries or notifications from family members, as a basis for identifying a deceased voter in addition to comparing records with the state agency responsible for death records, as required under HAVA.<sup><a href="#fn82" name="ifn82">82</a></sup> Election officials may also receive information about individuals from political organizations or other groups. These groups often identify potentially ineligible voters by sending mailings to registered voters and compiling information on which mailings are returned as undeliverable or do not receive a requested reply from the recipient. Some view these activities by outside entities as a way to help election officials identify inactive or ineligible voters, but others often refer to these activities as <em>voter caging</em> and view them as an objectionable effort to reduce political participation.<sup><a href="#fn83" name="ifn83">83</a></sup></p>
+<p>States also vary in how election officials attempt to notify voters who have likely moved and the processes for removing voters from the VRDB once their ineligibility is confirmed. When these processes occur and how often also varies across states.<sup><a href="#fn84" name="ifn84">84</a></sup> Many states apply a method similar to the one described in NVRA, removing a voter who fails to respond to a forwardable notice if the person does not vote, update the registration, or take another action to notify election officials within the span of two general elections for federal office.<sup><a href="#fn85" name="ifn85">85</a></sup> Between the time a notice is sent to the voter and is removed, the VRDB is often updated to indicate that the voter is "inactive."<sup><a href="#fn86" name="ifn86">86</a></sup> </p>
+<p>Supporters of ongoing and frequent voter list maintenance efforts note accuracy of voter registration lists is important both for administrative purposes and for maintaining election integrity. Up-to-date voter information can help officials plan for an upcoming election and distribute resources appropriately. Knowing the actual number of registered voters in a jurisdiction, for example, might inform how many election-related mailings need to be sent or how many ballots should be printed. This count, combined with current voter address information, may help election officials determine the needed number of polling places or voting sites and appropriate locations for them. Accurate voter registration records may also help identify certain instances of potential voter fraud, such as voter impersonation or double voting.<sup><a href="#fn87" name="ifn87">87</a></sup> At the same time, the methods by which states engage in list maintenance and voter removal may raise objections. Opponents of certain list maintenance practices raise concerns that the removal of voters may not comport with federal or state law (and sometimes describe such practices as <em>voter </em><em>purges </em>or <em>voter </em><em>purging</em>).<sup><a href="#fn88" name="ifn88">88</a></sup></p>
+<h3><a name="_Toc82768420"></a><a name="_Toc85722612"></a><a name="_Toc85794134"></a><a name="_Toc85810200"></a><a name="_Toc180588926"></a><a name="_Toc180679764"></a><a name="_Toc180679827"></a><a name="_Toc190346593"></a><a name="_Toc230076049"></a>Recent Legislative Proposals Related to List Maintenance</h3>
+<p>Voter registration list maintenance bills introduced in recent Congresses generally address how states receive updated voter information and/or what steps states should take before removing voters from a VRDB. Some legislative proposals would attempt to clarify or expand upon existing list maintenance provisions in NVRA, namely those found in 52 U.S.C. §20507(c). Some bills introduced in the 119<sup>th</sup> Congress, for example, would add noncitizenship to the list of reasons states could remove an ineligible voter via their general list maintenance programs under NVRA, and similar measures were introduced in the 118<sup>th</sup> Congress.<sup><a href="#fn89" name="ifn89">89</a></sup> Another proposal from the 118<sup>th</sup> Congress would have removed the language in NVRA that references NCOA as an option for states to use for updated voter address information.<sup><a href="#fn90" name="ifn90">90</a></sup> Another bill introduced in the 117<sup>th</sup> Congress would have revised existing NVRA language to specify that states "shall carry out and complete ... a program to remove the names" of ineligible voters.<sup><a href="#fn91" name="ifn91">91</a></sup> Some measures would address the role of USPS change-of-address information in voter registration list maintenance. For example, one proposal from the 118<sup>th</sup> Congress would have required USPS hard-copy change-of-address forms to include a reminder for individuals to update their voter registration at their new address.<sup><a href="#fn92" name="ifn92">92</a></sup> Another proposal from the 117<sup>th</sup> Congress would have required and provided funding for USPS to share NCOA change of address records with state chief election officials every 90 days, along with making EAC grant funds available to states for list maintenance purposes.<sup><a href="#fn93" name="ifn93">93</a></sup> A different bill from the 117<sup>th</sup> Congress would have authorized the EAC to provide grants to states that certify completion of a systematic program to remove ineligible voters, in compliance with NVRA provisions, with respect to the most recent general federal election.<sup><a href="#fn94" name="ifn94">94</a></sup></p>
+<p>While some bills might require information sharing between agencies and election officials for the purposes of registering or verifying records for new voters, these bills, or separate measures, might also require information sharing for list maintenance or voter removal purposes. The House-passed version of the SAVE America Act (<a><span>S. 1383</span></a>) from the 119<sup>th</sup> Congress, for example, would require states to submit their voter lists to the DHS SAVE system to identify potential noncitizens for voter list removal.<sup><a href="#fn95" name="ifn95">95</a></sup> This and other bills in recent Congresses have also contained requirements for federal departments or agencies to share information relevant to determining the eligibility of a voter with state election officials, upon request, and with other federal entities.<sup><a href="#fn96" name="ifn96">96</a></sup> Other provisions would require state election officials to establish programs to identify noncitizens using information from DHS's SAVE system; the Social Security Administration's Social Security Number Verification Service or other data; state departments of motor vehicles; or other sources that provide information on citizenship status.<sup><a href="#fn97" name="ifn97">97</a></sup></p>
+<p>Other proposals from recent Congresses would require interstate communications between DMVs and state election officials for certain voters who have moved; if an individual indicates he or she resided in another state prior to applying for a driver's license in a new state, and indicates intention for the new state to be his or her residence for federal voter registration purposes, the DMV officials in the new state would notify the chief state election official of the other state that the individual no longer intends for that state to be their residence for federal voter registration purposes.<sup><a href="#fn98" name="ifn98">98</a></sup> Some measures would require states to coordinate voter registration records with court records on jury recusals to identify and remove noncitizens in the VRDB records.<sup><a href="#fn99" name="ifn99">99</a></sup> Another bill from the 117<sup>th</sup> Congress would have amended NVRA language related to removal of a voter who has died, specifying that the registrant's death would be determined by use of state records and "information obtained through ongoing consultation with the Social Security Administration."<sup><a href="#fn100" name="ifn100">100</a></sup></p>
+<p>Several bills introduced in recent Congresses would address data matching criteria or standards for comparing voter registration records across sources in order to generate an accurate match and help ensure that the records belong to the same individual.<sup><a href="#fn101" name="ifn101">101</a></sup> For example, some provisions would clarify what information must be shared in an interstate crosscheck, if it is used to remove a voter from the VRDB, and require these checks to be completed at least six months prior to a federal election.<sup><a href="#fn102" name="ifn102">102</a></sup> Other provisions would direct NIST to develop and publish standards for comparing data for voter registration list maintenance.<sup><a href="#fn103" name="ifn103">103</a></sup> Another proposal from the 117<sup>th</sup> Congress would have required each state to submit an attestation to the EAC every election cycle stating it provides "a secure method to match voters with the information contained in the State's voter registration list" and that it "has in effect procedures and practices which will ensure the integrity and security of the State's voter registration list by performing regular maintenance of the list in accordance with applicable Federal and State law."<sup><a href="#fn104" name="ifn104">104</a></sup></p>
+<p>Some bills introduced in recent Congresses would limit state officials' use of certain mailings or information provided about potentially ineligible voters. For example, some measures would amend Title 18, Chapter 29 of the <em>U.S. Code</em> to prohibit "voter caging documents" or "unverified match lists" from being used by state election officials to formally challenge an individual's registration status or eligibility to vote.<sup><a href="#fn105" name="ifn105">105</a></sup> Other provisions in these bills would establish certain requirements for formal challenges made to someone's eligibility to vote if made by someone other than a state or local election official and prohibit such challenges from occurring immediately preceding or on Election Day.<sup><a href="#fn106" name="ifn106">106</a></sup> A bill from the 118<sup>th</sup> Congress would have prohibited states from removing voters from their lists using information obtained from "unverified voter challenge databases."<sup><a href="#fn107" name="ifn107">107</a></sup> Other proposals would amend NVRA to require states to obtain "objective and reliable evidence" of ineligibility before notifying or removing voters. States would also be required to notify individuals after they are removed and provide information on how to contest the decision or be reinstated as a voter, along with providing public notifications as list maintenance programs occur and reminders to voters to check their records.<sup><a href="#fn108" name="ifn108">108</a></sup> Other measures would direct the EAC to develop and publish best practices for states to deter and prevent practices described as "voter caging" and amend HAVA's voting information requirements to include information about this prohibition and how to report violations.<sup><a href="#fn109" name="ifn109">109</a></sup> Another proposal from the 117<sup>th</sup> Congress would have required the EAC to study state practices described as voter list "purges" and similar practices and to submit a report and related recommendations to Congress.<sup><a href="#fn110" name="ifn110">110</a></sup></p>
+<h2><a name="_Toc82768421"></a><a name="_Toc85722613"></a><a name="_Toc85794135"></a><a name="_Toc85810201"></a><a name="_Toc180588927"></a><a name="_Toc180679765"></a><a name="_Toc180679828"></a><a name="_Toc190346594"></a><a name="_Toc230076050"></a>Concluding Observations</h2>
+<p>Congress has addressed voter registration records and list maintenance through certain provisions in NVRA and HAVA, while generally providing states some degree of latitude to determine how to collect information on voters, manage their VRDBs, share or disclose certain voter records, and conduct list maintenance programs. Voter registration data often serves as a critical resource to election administrators, namely to ensure that those who cast ballots are eligible to do so and only vote once per election. Due to this gatekeeping role, the accuracy of individual records and the security of the registration database are often key considerations for policymakers and administrators. Voter registration records serve additional purposes, such as enabling officials to contact voters with relevant election information or to distribute election resources based on likely turnout numbers and geographic distribution within a jurisdiction.</p>
+<p>Voter registration list maintenance and records management is an ongoing topic of interest to many in Congress. Legislative proposals may address the types of voter information stored in a VRDB, steps to ensure the accuracy of new or existing voter information, ways in which records may be shared, or processes for removing ineligible voters. Some legislative options would impose requirements on states, which may be presented as a uniform directive or a set of alternatives states could choose from. Other policy options may involve providing grant funding to states for adopting certain approaches, or developing best practices or standards that states could voluntarily adopt. </p>
+<p>As with other voter registration policies, many view congressional activity related to voter registration data management as an extension of the federal government's role in upholding the constitutional right to vote and ensuring aspects of election integrity. Others question whether further congressional action is necessary, given existing NVRA and HAVA parameters and current state practices.</p>
+</div>
+<div>
+<a name="contactauthors"></a><br><a name="acknowledgments"></a>
+<p>Jane Wright, Research Assistant with the Government and Finance Division, contributed to the legislative research for this report; Tyler Wolanin, former Research Assistant with the Government and Finance Division, contributed to the legislative research for a previous version of this report.</p>
+</div>
+<div>
+<h2>Footnotes</h2>
+<table>
+<tbody><tr>
+<td><a href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p> For further discussion, see Daron Shaw, Stephen Ansolabehere, and Charles Stewart III, "A Brief Yet Practical Guide to Reforming U.S. Voter Registration Systems," <em>Election Law Journal</em>, vol. 14, no. 1 (March 2015), pp. 26-31, <a href="https://www.liebertpub.com/doi/full/10.1089/elj.2014.0273"><span>https://www.liebertpub.com/doi/full/10.1089/elj.2014.0273</span></a><span>. E</span>xamples of selected costs associated with voter registration and list maintenance are available from Pew Charitable Trusts, <em>The Real Cost of Voter Registration: An Oregon case study</em>, March 18, 2010, <a href="https://www.pewtrusts.org/en/research-and-analysis/reports/2010/03/14/the-real-cost-of-voter-registration"><span>https://www.pewtrusts.org/en/research-and-analysis/reports/2010/03/14/the-real-cost-of-voter-registration</span></a>; and Social Science Research Council, <em>The Costs of Modernizing Voter Registration Systems: A Case Study of California and Arizona</em>, December 2013, <a href="https://www.ssrc.org/publications/view/the-costs-of-modernizing-voter-registration-systems-a-case-study-of-california-and-arizona/"><span>https://www.ssrc.org/publications/view/the-costs-of-modernizing-voter-registration-systems-a-case-study-of-california-and-arizona/</span></a><span></span><span></span><span></span>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p> For additional information on NVRA, see CRS Report R45030, <a><em><span>Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments</span></em></a>. For additional information on HAVA, see CRS Report RS20898, <a><em><span>The Help America Vote Act and Election Administration: Overview and Selected Issues for the 2016 Election</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(1)(A). North Dakota does not require voter registration as a prerequisite for voting in federal elections. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p> 52 U.S.C. ch. 203. For additional information on UOCAVA, see CRS In Focus IF11642, <a><em><span>Absentee Voting for Uniformed Services and Overseas Citizens: Roles and Process, In Brief</span></em></a>; and CRS Report RS20764, <a><em><span>The Uniformed and Overseas Citizens Absentee Voting Act: Overview and Issues</span></em></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(2)(A)(i).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(1)(A).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p> States are not prohibited from asking applicants to provide a full Social Security number with their application, however, most states only ask for the last four digits. See Seanna Adcox, "SC voters can register without giving full Social Security number, following lawsuit," <em>The Post and Courier</em>, September 14, 2020, <a href="https://www.postandcourier.com/politics/sc-voters-can-register-without-giving-full-social-security-number-following-lawsuit/article_28faa696-3939-11ea-8071-732dc2e17cee.html"><span>https://www.postandcourier.com/</span><span></span><span>politics/</span><span></span><span>sc-voters-can-register-without-giving-full-social-security-number-following-lawsuit/article_28faa696-3939-11ea-8071-732dc2e17cee.html</span></a>. Some proposals from the 119<sup>th</sup> Congress, such as <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026), would prohibit states from requiring an applicant to provide more than the last four digits of his or her Social Security number. Similar measures were also introduced in previous Congresses, such as <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act) and <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024) in the 118<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(5)(A)(i).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(b)(4)(A)(ii).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p> Under NVRA, state DMVs are required to provide a simultaneous application for voter registration in federal elections alongside the application for a motor vehicle driver's license; in this context, the state "may require only the minimum amount of information necessary" to prevent duplicate voter registrations and "enable State election officials to assess the eligibility of the applicant and to administer voter registration and other parts of the election process." See 52 U.S.C. §20504(c)(2)(B).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p> Voter registration applicant requirements are typically available from state election offices.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p> The Twenty-Sixth Amendment provides the right to vote to citizens 18 years of age or older. Each state that requires voter registration, as well as the District of Columbia, allows some individuals under 18 (typically those who are 16 or 17 years old) to "preregister" to vote. Preregistration typically means that election officials will accept and process voter registration applications from younger individuals so that those individuals will be registered and eligible to vote in the first election in which they are of legal voting age. States or localities may also permit individuals under 18 to vote in certain elections; for example, in some states, 17-year-olds are able to vote in congressional and presidential primary elections. See National Conference of State Legislatures, "Preregistration for Young Voters¸" February 26, 2025, <a href="https://www.ncsl.org/elections-and-campaigns/preregistration-for-young-voters"><span>https://www.ncsl.org/elections-and-campaigns/preregistration-for-young-voters</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p> For further discussion, see "Domicile or Residency Requirements" in CRS Report R46406, <a><em><span>Voter Registration: Recent Developments and Issues for Congress</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p> For one compilation of state voter registration deadlines, see National Conference of State Legislatures, "Voter Registration Deadlines," October 13, 2025, <a href="https://www.ncsl.org/elections-and-campaigns/voter-registration-deadlines"><span>https://www.ncsl.org/elections-and-campaigns/voter-registration-deadlines</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(a)(1). For individuals covered under UOCAVA, state election officials must accept and process voter registration applications received at least 30 days before an election; see 52 U.S.C. §20302(a)(2), and CRS In Focus IF11642, <a><em><span>Absentee Voting for Uniformed Services and Overseas Citizens: Roles and Process, In Brief</span></em></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20506(d).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(1)(A)(vi). </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p> For more information and copies of these reports, see U.S. Election Assistance Commission, "Election Administration and Voting Survey (EAVS) Comprehensive Report," <a href="https://www.eac.gov/research-and-data/studies-and-reports"><span>https://www.eac.gov/research-and-data/studies-and-reports</span></a>; and "National Voter Registration Act Studies," <a href="https://www.eac.gov/voters/national-voter-registration-act-studies"><span>https://www.eac.gov/voters/national-voter-registration-act-studies</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p> Details on the information states are asked to provide in these NVRA reports are available in 11 C.F.R. §9428.7.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p> See U.S. Election Assistance Commission, <em>Election Administration and Voting Survey 2022 Comprehensive Report</em>, report to the 118<sup>th</sup> Congress, pp. 162-167, <a href="https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf"><span>https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p> U.S. Election Assistance Commission, <em>Election Administration and Voting Survey 2022 Comprehensive Report</em>, report to the 118<sup>th</sup> Congress, pp. 67-68, <a href="https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf"><span>https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p> For example, in the 119<sup>th</sup> <a name="_Hlk228362251"></a>Congress, <a><span>H.R. 22</span></a>/<a><span>S. 128</span></a> (Safeguard American Voter Eligibility [SAVE] Act), <a><span>H.R. 7300</span></a> (Make Elections Great Again Act), and <a><span>H.R. 7296</span></a>/<a><span>S. 3752</span></a> (Safeguard American Voter Eligibility [SAVE America] Act) would require voter registration applicants to provide proof of U.S. citizenship using one of several options for verification defined in the bill. The House passed a version of the SAVE America Act (<a><span>218-213</span></a>) as <a><span>S. 1383</span></a> on February 11, 2026, and its provisions were also introduced in <a><span>H.R. 8206</span></a> (Homeland Security and Further Additional Continuing Appropriations Act, 2026). The House also passed <a><span>H.R. 22</span></a> (SAVE Act) (220-208) on April 10, 2025. Similar provisions in the 118<sup>th</sup> Congress were included in <a><span>H.R. 487</span></a> (Ensuring American Voters Act of 2023), <a><span>H.R. 8281</span></a>/<a><span>S. 4292</span></a> (Safeguard American Voter Eligibility [SAVE] Act); <a><span>H.R. 8281</span></a> passed the House (221-198), and its provisions were also introduced in <a><span>H.R. 9494</span></a> (Continuing Appropriations and Other Matters Act, 2025), and <a><span>H.R. 10034</span></a> (Border Security and Immigration Reform Act). Some bills from the 118<sup>th</sup> Congress would have similarly required voter registration applicants to provide proof of U.S. citizenship but directed state election officials, in consultation with the EAC, to determine what documentation would serve as proof of citizenship; see, for example, <a><span>H.R. 627</span></a> (Verification Of The Electorate [VOTE] Act). Other legislation, such as <a><span>H.R. 6102</span></a>/<a><span>S. 3177</span></a> (Citizen Ballot Protection Act) would permit states to include a proof of citizenship requirement on their mail-based voter registration forms; similar measures from the 118<sup>th</sup> Congress include <a><span>H.R. 4316</span></a>/<a><span>S. 3470</span></a> (Citizen Ballot Protection Act), <a><span>H.R. 4494</span></a> (Ensuring Faith in Our Elections Act), and <a><span>H.R. 4563</span></a> (American Confidence in Elections [ACE] Act). Another proposal, <a><span>H.R. 4488</span></a> (American Confidence in Elections: District of Columbia Voter Identification Act), would have established a proof of citizenship requirement for those registering to vote in the District of Columbia. From the 117<sup>th</sup> Congress, <a><span>H.R. 322</span></a>/<a><span>S. 459</span></a> (Save Democracy Act) and <a><span>H.R. 873</span></a> (Ensuring American Voters Act of 2021) would have required that an individual submit (or provide a photocopy of) a certified birth certificate, valid U.S. passport, consular report of birth abroad, naturalization certificate, or certificate of citizenship at the time the individual applies to register to vote.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p> These provisions from the 117<sup>th</sup> Congress can be found in <a><span>H.R. 322</span></a>/<a><span>S. 459</span></a> (Save Democracy Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act) and <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024); bills with similar provisions from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), and <a><span>S. 2747</span></a> (Freedom to Vote Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p> In the 119<sup>th</sup> Congress, see <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 7300</span></a> (Make Elections Great Again [MEGA] Act), and <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 2566</span></a> (Voter Registration Efficiency Act), and <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024); similar examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 102</span></a> (Restoring Faith in Elections Act), and <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p> The specific information to be shared may vary across bills, and this requirement is generally found alongside provisions that would also require agency participation in <em>automatic voter registration</em> (AVR). For further discussion on AVR, see the corresponding section in CRS Report R46406, <a><em><span>Voter Registration: Recent Developments and Issues for Congress</span></em></a>. Examples of bills from the 119<sup>th</sup> Congress requiring AVR and specifying that agencies share certain data fields with state election officials include <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 2847</span></a>/<a><span>S. 1887</span></a> (Vote at Home Act of 2025), <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026), and <a><span>S. 2822</span></a> (Register America to Vote Act of 2025); examples from the 118<sup>th</sup> Congress include <a name="_Hlk176527267"></a><a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 1439</span></a>/<a><span>S. 700</span></a> (Vote at Home Act of 2023), and <a><span>S. 2841</span></a> (Register America to Vote Act of 2023). Another proposal from the 119<sup>th</sup> Congress, <a><span>H.R. 8441</span></a> (Military VOTE Act), would direct the Secretary of Defense to study the feasibility of creating an AVR system for members of the uniformed services.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(2)(A)(ii).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(5)(B).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20504(c)(2); 52 U.S.C. §20506(a)(6); and 52 U.S.C. §20508(b)(2). The requirements for the federal mail-based voter registration form in 52 U.S.C. §20508 also prohibit "any requirement for notarization or other formal authentication" (52 U.S.C. §20508(b)(3).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §§10307(c), 21144. See also CRS In Focus IF12742, <a><em><span>Federal Criminal Laws Prohibiting Unlawful Voting</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p> See U.S. Citizenship and Immigration Services, "Voter Registration and Voter List Maintenance Fact Sheet," updated February 2, 2026, https://www.uscis.gov/save/current-user-agencies/guidance/voter-registration-and-voter-list-maintenance-fact-sheet.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p> For further discussion on automatic voter registration, see the corresponding section in CRS Report R46406, <a><em><span>Voter Registration: Recent Developments and Issues for Congress</span></em></a>. A list of states with AVR, and the participating agencies within each, is available from National Conference of State Legislatures, "Automatic Voter Registration," July 21, 2025, <a href="https://www.ncsl.org/elections-and-campaigns/automatic-voter-registration"><span>https://www.ncsl.org/elections-and-campaigns/automatic-voter-registration</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p> NVRA requires DMVs to present federal voter registration opportunities alongside state drivers' license applications and requires states to make voter registration applications available at designated <em>voter registration agencies</em>; these requirements differ from AVR because they require individuals to opt in to submit voter registration information, whereas AVR generally requires individuals to opt out of submitting voter registration information.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p> For more information on state agencies involved with AVR, see National Conference of State Legislatures, "Automatic Voter Registration," July 21, 2025, <a href="https://www.ncsl.org/research/elections-and-campaigns/automatic-voter-registration.aspx"><span>https://www.ncsl.org/research/elections-and-campaigns/automatic-voter-registration.aspx</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p> <a name="_Hlk189822214"></a>See <a><span>H.R. 22</span></a>/<a><span>S. 128</span></a> (Safeguard American Voter Eligibility [SAVE] Act) and <a><span>H.R. 7296</span></a>/<a><span>S. 3752</span></a> (Safeguard American Voter Eligibility [SAVE America] Act) in the 119<sup>th</sup> Congress. The House passed a version of the SAVE America Act (218-213) as <a><span>S. 1383</span></a> on February 11, 2026, and its provisions were also introduced in <a><span>H.R. 8206</span></a> (Homeland Security and Further Additional Continuing Appropriations Act, 2026). The House also passed <a><span>H.R. 22</span></a> (SAVE Act) (220-208) on April 10, 2025. In the 118<sup>th</sup> Congress, similar provisions were found in <a><span>H.R. 3162</span></a> (Protecting American Voters Act) and <a><span>H.R. 8281</span></a>/<a><span>S. 4292</span></a> (Safeguard American Voter Eligibility [SAVE] Act). The SAVE Act from the 118<sup>th</sup> Congress passed the House (221-198), and its provisions were also introduced in <a><span>H.R. 9494</span></a> (Continuing Appropriations and Other Matters Act, 2025), and <a><span>H.R. 10034</span></a> (Border Security and Immigration Reform Act). Similar provisions from the 117<sup>th</sup> Congress were found in <a><span>H.R. 2343</span></a> (Protecting American Voters Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 22</span></a>/<a><span>S. 128</span></a> (Safeguard American Voter Eligibility [SAVE] Act) and <a><span>H.R. 7296</span></a>/<a><span>S. 3752</span></a> (Safeguard American Voter Eligibility [SAVE America] Act) in the 119<sup>th</sup> Congress. The House passed a version of the SAVE America Act (218-213) as <a><span>S. 1383</span></a> on February 11, 2026, and its provisions were also introduced in <a><span>H.R. 8206</span></a> (Homeland Security and Further Additional Continuing Appropriations Act, 2026). The House also passed <a><span>H.R. 22</span></a> (SAVE Act) (220-208) on April 10, 2025. In the 118<sup>th</sup> Congress, similar provisions were found in <a><span>H.R. 8281</span></a>/<a><span>S. 4292</span></a> (Safeguard American Voter Eligibility [SAVE] Act). The SAVE Act from the 118<sup>th</sup> Congress passed the House (221-198), and its provisions were also introduced in <a><span>H.R. 9494</span></a> (Continuing Appropriations and Other Matters Act, 2025), and <a><span>H.R. 100</span><span>3</span><span>4</span></a> (Border Security and Immigration Reform Act). </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 7300</span></a> (Make Elections Great Again [MEGA] Act); examples from the 118<sup>th</sup> Congress include <a><span>H.R. 4460</span></a> (Non-citizens: Outlawed from Voting in Our Trusted Election [NO VOTE] for Non-Citizens Act of 2023), <a><span>H.R. 4494</span></a> (Ensuring Faith in Our Elections Act), <a><span>H.R. 4563</span></a> (American Confidence in Elections [ACE] Act), and <a><span>H.R. 7960</span></a> (Preventing Ballot Drop Box and Mail Fraud Act); similar examples from the 117<sup>th</sup> Congress include <a><span>H.R. 322</span></a>/<a><span>S. 459</span></a> (Save Democracy Act), <a><span>H.R. 7959</span></a> (Non-citizens: Outlawed from Voting in Our Trusted Election [NO VOTE] for Non-Citizens Act of 2022), and <a><span>H.R. 8528</span></a> (American Confidence in Elections [ACE] Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p> For example, in the 119<sup>th</sup> Congress, <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act) and <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026) propose use of naturalization information from DHS or its Citizenship and Immigration Services (USCIS); similar language from the 118<sup>th</sup> Congress is found in <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 1643</span></a>/<a><span>S. 883</span></a> (New Deal for New Americans Act of 2023), and <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024). <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act) also specifies that the Social Security Administration, the Department of Veterans Affairs, the Defense Manpower Data Center (within the Department of Defense), the Employee and Training Administration (within the Department of Labor), and the Centers for Medicare &amp; Medicaid Services (within the Department of Health and Human Services) would be "contributing agencies" that would provide agency records for use in automatic voter registration; similar provisions from the 118<sup>th</sup> Congress are in <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act) and <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024). Bills were also introduced in the 117<sup>th</sup> Congress that would have specified one or more of these federal agencies as a "contributing agency" for the purposes of voter registration, including <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 102</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 1308</span></a>/<a><span>S. 433</span></a> (New Deal for New Americans Act of 2021), and <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021). Other bills may also propose AVR utilizing existing information-sharing relationships between DMVs and state election officials under NVRA and HAVA; some of these bills describe certain state agencies that would be required to participate, whereas others do not specify which particular "contributing agencies" must coordinate records with state election officials.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p> For military and overseas voters, UOCAVA also requires that states must, to the extent practicable, ensure "the security and integrity" of voter registration processes and provide procedures to "ensure that the privacy of the identity and other personal data" of a covered individual requesting or receiving a voter registration application is protected; see 52 U.S.C. §20302(e)(6), and CRS In Focus IF11642, <a><em><span>Absentee Voting for Uniformed Services and Overseas Citizens: Roles and Process, In Brief</span></em></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20504(b-c); 52 U.S.C. §20506(a)(6-7).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(a)(6).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(a)(2).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(i). NVRA excludes records related "to a declination to register to vote or to the identity of a voter registration agency through which any particular voter is registered" from this public disclosure requirement. Names and addresses of voters who are sent notices regarding possible removal from voter lists under §20507(d)(2) and their responses to these notices are also included in NVRA's public disclosure requirement. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(1)(A)(v). </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p> For a listing of state websites providing registration status information, see National Association of Secretaries of State, "Can I Vote?" <a href="https://www.nass.org/can-I-vote"><span>https://www.nass.org/can-I-vote</span></a>. Some state laws may prohibit anyone other than the voter from accessing registered voter information through these websites; for example, see the certification statement and Virginia Code citation at Virginia Department of Elections, "What you can do as a registered voter using this portal," <a href="https://vote.elections.virginia.gov/VoterInformation/Lookup/status"><span>https://vote.elections.virginia.gov/VoterInformation/Lookup/status</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p> For an overview of state practices regarding obtaining voter registration lists, see United States Election Assistance Commission, <em>Availability of State Voter File and Confidential Information</em>, October 29, 2020, <a href="https://www.eac.gov/sites/default/files/voters/Available_Voter_File_Information.pdf"><span>https://www.eac.gov/sites/default/files/voters/Available_Voter_File_Information.pdf</span></a>; and National Conference of State Legislatures,<em> </em>"Access To and Use Of Voter Registration Lists," July 17, 2025, <a href="https://www.ncsl.org/elections-and-campaigns/access-to-and-use-of-voter-registration-lists"><span>https://www.ncsl.org/elections-and-campaigns/access-to-and-use-of-voter-registration-lists</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p> According to the EAC in October 2020, statewide voter file prices range from $0 to $37,000. See United States Election Assistance Commission, <em>Availability of State Voter File and Confidential Information</em>, October 29, 2020, <a href="https://www.eac.gov/%E2%80%8Bsites/%E2%80%8Bdefault/%E2%80%8Bfiles/%E2%80%8Bvoters/%E2%80%8BAvailable_Voter_File_Information.pdf"><span>https://www.eac.gov/sites/default/files/voters/Available_Voter_File_Information.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p> See California Voter Foundation, <em>Voter Privacy in the Digital Age</em>, May 2004, <a href="https://www.calvoter.org/sites/default/files/voter_privacy_in_the_digital_age.pdf"><span>https://www.calvoter.org/sites/default/files/voter_privacy_in_the_digital_age.pdf</span></a>; Drew Desilber, "Q&amp;A: The growing use of 'voter files' in studying the U.S. electorate," Pew Research Center, February 15, 2018, <a href="https://www.pewresearch.org/fact-tank/2018/02/15/voter-files-study-qa/"><span>https://www.pewresearch.org/fact-tank/2018/02/15/voter-files-study-qa/</span></a><span></span><span></span><span></span><span></span>; Aki Peritz, "Registered to vote? Your state may be posting personal information about you online," <em>Washington Post</em>, April 9, 2019, <a href="https://www.washingtonpost.com/outlook/2019/04/09/registered-vote-your-state-is-posting-personal-information-about-you-online/"><span>https://www.washingtonpost.com/outlook/2019/04/09/registered-vote-your-state-is-posting-personal-information-about-you-online/</span></a><span></span><span></span><span></span><span></span>; Vivian Wang, "After Backlash, Personal Voter Information Is Removed by New York City," <em>New York Times</em>, April 30, 2019, <a href="https://www.nytimes.com/2019/04/30/nyregion/nyc-personal-voter-information-election-board.html"><span>https://www.nytimes.com/2019/04/30/nyregion/nyc-personal-voter-information-election-board.html</span></a>; and Issie Lapowsky, "What Should (And Shouldn't) Worry You in That Voter Data Breach," <em>Wired</em>, June 20, 2017, <a href="https://www.wired.com/story/voter-data-breach-impact/"><span>https://www.wired.com/story/voter-data-breach-impact/</span></a><span></span><span></span><span></span><span></span>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p> For additional information on state practices regarding voter file access and data disclosures, see National Conference of State Legislatures,<em> </em>"Access To and Use Of Voter Registration Lists," October 7, 2024, <a href="https://www.ncsl.org/research/elections-and-campaigns/access-to-and-use-of-voter-registration-lists.aspx"><span>https://www.ncsl.org/research/elections-and-campaigns/access-to-and-use-of-voter-registration-lists.aspx</span></a><span>; and </span>United States Election Assistance Commission, <em>Availability of State Voter File and Confidential Information</em>, October 29, 2020, <a href="https://www.eac.gov/sites/default/files/voters/Available_Voter_File_Information.pdf"><span>https://www.eac.gov/sites/default/files/voters/Available_Voter_File_Information.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p> See CRS In Focus IF11285, <a><em><span>Election Security: Voter Registration System Policy Issues</span></em></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(3).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p> U.S. Congress, Senate Select Committee on Intelligence, <em>Russian Active Measures Campaigns and Interference in the 2016 U.S. Election, Volume 1: Russian Efforts Against Election Infrastructure with Additional Views</em>, 116<sup>th</sup> Cong., 1<sup>st</sup> sess., July 25, 2019, <a href="https://www.intelligence.senate.gov/sites/default/files/documents/Report_Volume1.pdf"><span>https://www.intelligence.senate.gov/sites/default/files/documents/Report_Volume1.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p> For more information, see CRS In Focus IF11286, <a><em><span>Election Security: Federal Funding for Securing Election Systems</span></em></a>; and CRS In Focus IF11356, <a><em><span>Election Security: States' Spending of FY2018 and FY2020 HAVA Payments</span></em></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p> See U.S. Department of Homeland Security, "Election Security," August 8, 2024, <a href="https://www.dhs.gov/topic/election-security"><span>https://www.dhs.gov/topic/election-security</span></a>; Cybersecurity and Infrastructure Security Agency, "Election Infrastructure Security," <a href="https://www.cisa.gov/election-security"><span>https://www.cisa.gov/election-security</span></a>; and CRS In Focus IF11445, <a><em><span>The Election Infrastructure Subsector: Development and Challenges</span></em></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p> U.S. Attorney's Office, Southern District of New York, U.S. Department of Justice, "U.S. Attorney Announces Charges Against Two Iranian Nationals For Cyber-Enabled Disinformation And Threat Campaign Designed To Interfere With The 2020 U.S. Presidential Election," press release, November 18, 2021, <a href="https://www.justice.gov/usao-sdny/pr/us-attorney-announces-charges-against-two-iranian-nationals-cyber-enabled"><span>https://www.justice.gov/usao-sdny/pr/us-attorney-announces-charges-against-two-iranian-nationals-cyber-enabled</span></a>. A link to the full text of the indictment is available <a href="https://www.justice.gov/usao-sdny/press-release/file/1449276/download"><span>https://www.justice.gov/usao-sdny/press-release/file/1449276/download</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p> U.S. Department of Justice and U.S. Department of Homeland Security, <em>Key Findings and Recommendations from the Joint Report of the Attorney General and the Secretary of Homeland Security on Foreign Interference Targeting Election Infrastructure of Political Organizations, Campaigns, or Candidate Infrastructure Related to the 2022 US Federal Elections</em>, December 2022, p. 3, <a href="https://www.justice.gov/opa/media/1329451/dl?inline"><span>https://www.justice.gov/opa/media/1329451/dl?inline</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p> U.S. Department of Justice and U.S. Department of Homeland Security, <em>Key Findings on Foreign Interference</em>, p. 4.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026) and <a><span>S. 2822</span></a> (Register America to Vote Act of 2025). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), and <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 2358</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), and <a><span>S. 2747</span></a> (Freedom to Vote Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026), and <a><span>S. 2822</span></a> (Register America to Vote Act of 2025). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024), and <a><span>S. 2841</span></a> (Register America to Vote Act of 2023); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 102</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 1308</span></a>/<a><span>S. 433</span></a> (New Deal for New Americans Act of 2021), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), <a><span>S. 4335</span></a> (Register America to Vote Act of 2022), and <a><span>S. 2747</span></a> (Freedom to Vote Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026), and <a><span>S. 2822</span></a> (Register America to Vote Act of 2025). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024), and <a><span>S. 2841</span></a> (Register America to Vote Act of 2023); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 102</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 1308</span></a>/<a><span>S. 433</span></a> (New Deal for New Americans Act of 2021), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), <a><span>S. 4335</span></a> (Register America to Vote Act of 2022), and <a><span>S. 2747</span></a> (Freedom to Vote Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026), and <a><span>S. 2822</span></a> (Register America to Vote Act of 2025). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024), and <a><span>S. 2841</span></a> (Register America to Vote Act of 2023); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 102</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), <a><span>S. 4335</span></a> (Register America to Vote Act of 2022), and <a><span>S. 2747</span></a> (Freedom to Vote Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026), and <a><span>S. 2822</span></a> (Register America to Vote Act of 2025). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024), and <a><span>S. 2841</span></a> (Register America to Vote Act of 2023); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 102</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), <a><span>S. 4335</span></a> (Register America to Vote Act of 2022), and <a><span>S. 2747</span></a> (Freedom to Vote Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p> Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 11</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 2358</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), and <a><span>S. 2747</span></a> (Freedom to Vote Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p> Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 3162</span></a> (Protecting American Voters Act); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 860</span></a> (You Must Be Alive To Vote Act of 2021) and <a><span>H.R. 2343</span></a> (Protecting American Voters Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p> See <a><span>S. 1240</span></a> (Defending America's Future Elections Act). </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(a)(3-4). A detailed discussion of these practices across states is beyond the scope of this report. For an overview of state laws regarding voting rights and criminal convictions, see links provided under "Additional Resources" at National Conference of State Legislatures, "Felon Voting Rights," October 18, 2024, <a href="http://www.ncsl.org/research/elections-and-campaigns/felon-voting-rights.aspx"><span>http://www.ncsl.org/research/elections-and-campaigns/felon-voting-rights.aspx</span></a>; for more information on state policies regarding voter rights and mental health conditions, see Jennifer A. Okwerekwu et al., "Voting by People with Mental Illness," <em>Journal of the American Academy of Psychiatry and the Law</em>, vol. 46, no. 4 (December 1, 2018), pp. 513-520, <a href="http://jaapl.org/content/early/2018/10/31/JAAPL.003780-18"><span>http://jaapl.org/content/early/2018/10/31/JAAPL.003780-18</span></a>; and Matt Visilogambros, "Thousands Lose Right to Vote Under 'Incompetence' Laws," <em>Stateline</em> blog, Pew Charitable Trusts, March 21, 2018, <a href="https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2018/03/21/thousands-lose-right-to-vote-under-incompetence-laws"><span>https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2018/03/21/thousands-lose-right-to-vote-under-incompetence-laws</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(b)(2). See also CRS Legal Sidebar LSB10175, <a><em><span>Supreme Court Rules Ohio Voter Roll Law Comports with National Voter Registration Act</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(e-f). NVRA also contains provisions to allow voters who change addresses within a jurisdiction to update their registration information on Election Day and be allowed to vote.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(b); 52 U.S.C. §20507(d).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(a)(4); 52 U.S.C. §20507(c)(2).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(b)(1).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(c)(1).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §20507(d). For an analysis of the related U.S. Supreme Court case, <em>Husted v. A. Philip Randolph Institute</em>, see CRS Legal Sidebar LSB10175, <a><em><span>Supreme Court Rules Ohio Voter Roll Law Comports with National Voter Registration Act</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(2)(A)(i).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p> 52 U.S.C. §21083(a)(2)(A)(ii). For more information, see "Other Voter Registration Agencies" section in CRS Report R45030, <a><em><span>Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p> See National Conference of State Legislatures, "Voter List Accuracy," October 21, 2025, <a href="https://www.ncsl.org/research/elections-and-campaigns/voter-list-accuracy.aspx"><span>https://www.ncsl.org/research/elections-and-campaigns/voter-list-accuracy.aspx</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p> For further discussion on automatic voter registration, see corresponding section in CRS Report R46406, <a><em><span>Voter Registration: Recent Developments and Issues for Congress</span></em></a>. A list of states with AVR, and the participating agencies within each, is available from National Conference of State Legislatures, <em>Automatic Voter Registration</em>, July 21, 2025, <a href="https://www.ncsl.org/elections-and-campaigns/automatic-voter-registration"><span>https://www.ncsl.org/elections-and-campaigns/automatic-voter-registration</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p> According to one report, 36 states have laws authorizing the use of NCOA to identify voter address changes; the same report notes that "[i]n the majority of states, there is no single address confirmation procedure available to election officials." See National Association of Secretaries of State,<em> </em><em>NASS Report: Maintenance of State Voter Registration Lists</em>, December 2017, pp. 5-7, <a href="https://www.nass.org/%E2%80%8Bnode/%E2%80%8B1266"><span>https://www.nass.org/node/1266</span></a>. For an analysis of the U.S. Supreme Court case, <em>Husted v. A. Philip Randolph Institute</em>, which addressed state list maintenance and removal practices, see CRS Legal Sidebar LSB10175, <a><em><span>Supreme Court Rules Ohio Voter Roll Law Comports with National Voter Registration Act</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p> See, for example, the discussion of "SBE's Efforts in Outreach to Neighboring States," in Virginia State Board of Elections, <em>Annual Report on Voter Registration List Maintenance Activities</em>, report to the House and Senate Committees on Privileges and Elections, January 6, 2014, pp. 8-10, <a href="https://www.elections.virginia.gov/media/formswarehouse/maintenance-reports/2013SBEListMaintenancereport.pdf"><span>https://www.elections.virginia.gov/media/formswarehouse/maintenance-reports/2013SBEListMaintenancereport.pdf</span></a><span>; </span>and discussion in Sarah Rankin, "After leaving bipartisan voting information group, Virginia announces new data-sharing agreements," Associated Press, September 20, 2023, <a href="https://apnews.com/article/glenn-youngkin-virginia-eric-voting-rolls-150f3b774fa19e56ab1b1b9952dac831"><span>https://apnews.com/article/glenn-youngkin-virginia-eric-voting-rolls-150f3b774fa19e56ab1b1b9952dac831</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p> National Association of Secretaries of State, <em>NASS Report: Maintenance of State Voter Registration Lists</em>, December 2017, <a href="https://www.nass.org/node/1266"><span>https://www.nass.org/node/1266</span></a>, p. 8. See American Association of Motor Vehicle Administrators, "Driver License Compact," <a href="https://www.aamva.org/topics/driver-license-compact"><span>https://www.aamva.org/topics/driver-license-compact</span></a><span>,</span> for more information on these programs. ERIC is a nonprofit organization "assisting states to improve the accuracy of America's voter rolls." Currently, 27 states and Washington, DC, are ERIC members. For more information, see <a href="https://ericstates.org/"><span>https://ericstates.org/</span></a><span></span><span></span><span></span><span></span>. In recent years, nine states have also chosen to stop participating in ERIC. For more information on these developments, see Acacia Coronado and Christina A. Cassidy, "Texas is largest state to leave bipartisan national effort to prevent voter fraud," Associated Press, July 20, 2023, <a href="https://apnews.com/article/texas-voting-registration-fraud-eric-324d63f035ec22785839bc1b632410b0"><span>https://apnews.com/article/texas-voting-registration-fraud-eric-324d63f035ec22785839bc1b632410b0</span></a>; and Matt Vasilogambros, "Why Are GOP-Led States Leaving Voter Registration Group ERIC?," <em>Governing</em>, May 23, 2023, <a href="https://www.governing.com/politics/why-are-gop-led-states-leaving-voter-registration-group-eric"><span>https://www.governing.com/politics/why-are-gop-led-states-leaving-voter-registration-group-eric</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p> National Association of Secretaries of State,<em> </em><em>NASS Report: Maintenance of State Voter Registration Lists</em>, December 2017, <a href="https://www.nass.org/node/1266"><span>https://www.nass.org/node/1266</span></a>, p. 8; National Conference of State Legislatures, "Voter List Accuracy," October 21, 2025, <a href="https://www.ncsl.org/research/elections-and-campaigns/voter-list-accuracy.aspx"><span>https://www.ncsl.org/research/elections-and-campaigns/voter-list-accuracy.aspx</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p> Ballotpedia, "Voter caging and purging," <a href="https://ballotpedia.org/Voter_caging_and_purging"><span>https://ballotpedia.org/Voter_caging_and_purging</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p> For examples of the timing of voter registration removals in two states, see Stephen Pettigrew and Charles Stewart III, <em>Moved Out, Moved On: Assessing the Effectiveness of Voter Registration List Maintenance</em>, Massachusetts Institute of Technology Political Science Department Research Paper No. 2018-1, July 21, 2017, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3044810"><span>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3044810</span></a>, pp. 22-29.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p> According to one report, 44 states use this approach; see National Association of Secretaries of State (NASS), <em>NASS Report: Maintenance of State Voter Registration Lists</em>, December 2017, p. 7, <a href="https://www.nass.org/node/1266"><span>https://www.nass.org/node/1266</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn86" name="fn86">86</a>.
+            </td>
+<td>
+<p> NASS, <em>Maintenance of State Voter Registration Lists</em>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn87" name="fn87">87</a>.
+            </td>
+<td>
+<p> Duplicate voter registration records might exist for a time, for example, if a voter moves and registers to vote in a new jurisdiction but does not tell election officials to cancel a registration associated with his or her previous residence. According to one report, 13 states have laws that cancel a voter's registration if notice is received from another state that the voter is registered is that state; 13 states also require election officials to notify other states if someone applying for voter registration indicates they were previously registered in another state; <em>NASS Report: Maintenance of State Voter Registration Lists</em>, National Association of Secretaries of State, December 2017, <a href="https://www.nass.org/node/1266"><span>https://www.nass.org/node/1266</span></a>, p. 8. It is generally not illegal for a voter to have multiple voter registration records if there is no intention to deceive election officials. Under NVRA, however, it is a federal crime for someone to submit a voter registration application or cast a ballot that is "known by the person to be materially false, fictitious, or fraudulent under the laws of the State in which the election is held" (52 U.S.C. §20511).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn88" name="fn88">88</a>.
+            </td>
+<td>
+<p> For further discussion utilizing these terms, see Naila S. Awan, "When Names Disappear: State Roll-Maintenance Practices," <em>University of Memphis Law Review</em>, vol. 49, no. 4 (Summer 2019), pp. 1107-1144; Matt Vasilogambros, "The Messy Politics of Voter Purges," <em>Stateline</em> blog, Pew Research Center, October 25, 2019, <a href="https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2019/10/25/the-messy-politics-of-voter-purges"><span>https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2019/10/25/the-messy-politics-of-voter-purges</span></a>; and Ballotpedia, "Voter caging and purging," <a href="https://ballotpedia.org/Voter_caging_and_purging"><span>https://ballotpedia.org/Voter_caging_and_purging</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn89" name="fn89">89</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 22</span></a>/<a><span>S. 128</span></a> (Safeguard American Voter Eligibility [SAVE] Act) and <a><span>H.R. 7296</span></a>/<a><span>S. 3752</span></a> (Safeguard American Voter Eligibility [SAVE America] Act) in the 119<sup>th</sup> Congress. The House passed a version of the SAVE America Act (218-213) as <a><span>S. 1383</span></a> on February 11, 2026, and its provisions were also introduced in <a><span>H.R. 8206</span></a> (Homeland Security and Further Additional Continuing Appropriations Act, 2026). The House also passed <a><span>H.R. 22</span></a> (SAVE Act) (220-208) on April 10, 2025. Similar provisions from the 118<sup>th</sup> Congress were found in <a><span>H.R. 3162</span></a> (Protecting American Voters Act) and <a><span>H.R. 8281</span></a>/<a><span>S. 4292</span></a> (Safeguard American Voter Eligibility [SAVE] Act). The SAVE Act from the 118<sup>th</sup> Congress passed the House (221-198) and its provisions were also introduced in <a><span>H.R. 9494</span></a> (Continuing Appropriations and Other Matters Act, 2025), and <a><span>H.R. 10034</span></a> (Border Security and Immigration Reform Act). Similar provisions in the 117<sup>th</sup> Congress were introduced in <a><span>H.R. 2343</span></a> (Protecting American Voters Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn90" name="fn90">90</a>.
+            </td>
+<td>
+<p> From the 118<sup>th</sup> Congress, see <a><span>H.R. 4318</span></a> (To amend the National Voter Registration Act of 1993 to eliminate reliance on the change of address information provided by the United States Postal Service for the purpose of removing ineligible voters from the official list of voters in a State, and for other purposes); a similar version of the bill was introduced in the 117<sup>th</sup> Congress as <a><span>H.R. 8222</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn91" name="fn91">91</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 5037</span></a> (Safe and Certain Elections Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn92" name="fn92">92</a>.
+            </td>
+<td>
+<p> For the 118<sup>th</sup> Congress, see <a><span>H.R. 9727</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 827</span></a> (Voter Registration Promotion Act), and <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn93" name="fn93">93</a>.
+            </td>
+<td>
+<p> From the 117<sup>th</sup> Congress, see <a><span>H.R. 1662</span></a> (Updating Postal Data on Addresses for Trustworthy Elections [UPDATE] Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn94" name="fn94">94</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 2844</span></a> (Election Protection Act of 2021) from the 117<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn95" name="fn95">95</a>.
+            </td>
+<td>
+<p> See <a><span>S. 1383</span></a> (Safeguard American Voter Eligibility [SAVE] Act), which passed the House (218-213) on February 11, 2026; its provisions were also introduced in <a><span>H.R. 8206</span></a> (Homeland Security and Further Additional Continuing Appropriations Act, 2026).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn96" name="fn96">96</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 22</span></a>/<a><span>S. 128</span></a> (Safeguard American Voter Eligibility [SAVE] Act) and <a><span>H.R. 7296</span></a>/<a><span>S. 3752</span></a> (Safeguard American Voter Eligibility [SAVE America] Act) in the 119<sup>th</sup> Congress. The House passed a version of the SAVE America Act (218-213) as <a><span>S. 1383</span></a> on February 11, 2026, and its provisions were also introduced in <a><span>H.R. 8206</span></a> (Homeland Security and Further Additional Continuing Appropriations Act, 2026). The House also passed <a><span>H.R. 22</span></a> (SAVE Act) (220-208) on April 10, 2025. Similar provisions were introduced in the 118<sup>th</sup> Congress as <a><span>H.R. 8281</span></a>/<a><span>S. 4292</span></a> (Safeguard American Voter Eligibility [SAVE] Act); <a><span>H.R. 8281</span></a> passed the House on July 10, 2024 (221-198) and its provisions were also introduced in <a><span>H.R. 9494</span></a> (Continuing Appropriations and Other Matters Act, 2025) and <a><span>H.R. 10034</span></a> (Border Security and Immigration Reform Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn97" name="fn97">97</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 22</span></a>/<a><span>S. 128</span></a> (Safeguard American Voter Eligibility [SAVE] Act) and <a><span>H.R. 7296</span></a>/<a><span>S. 3752</span></a> (Safeguard American Voter Eligibility [SAVE America] Act) in the 119<sup>th</sup> Congress. The House passed a version of the SAVE America Act (218-213) as <a><span>S. 1383</span></a> on February 11, 2026, and its provisions were also introduced in <a><span>H.R. 8206</span></a> (Homeland Security and Further Additional Continuing Appropriations Act, 2026). The House also passed <a><span>H.R. 22</span></a> (SAVE Act) (220-208) on April 10, 2025. Similar provisions were introduced in the 118<sup>th</sup> Congress as <a><span>H.R. 8281</span></a>/<a><span>S. 4292</span></a> (Safeguard American Voter Eligibility [SAVE] Act); <a><span>H.R. 8281</span></a> passed the House on July 10, 2024 (221-198), and its provisions were also introduced in <a><span>H.R. 9494</span></a> (Continuing Appropriations and Other Matters Act, 2025) and <a><span>H.R. 10034</span></a> (Border Security and Immigration Reform Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn98" name="fn98">98</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 7300</span></a> (Make Elections Great Again Act), and <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 2566</span></a> (Voter Registration Efficiency Act), and <a><span>H.R. 9727</span></a>/<a><span>S. 5151</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021) and <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn99" name="fn99">99</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 7300</span></a> (Make Elections Great Again Act) in the 119<sup>th</sup> Congress. Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 4460</span></a> (Noncitizens: Outlawed from Voting in Our Trusted Elections [NO VOTE] Act of 2023), <a><span>H.R. 4494</span></a> (Ensuring Faith in Our Elections Act), <a><span>H.R. 4563</span></a> (American Confidence in Elections [ACE] Act), and <a><span>H.R. 7960</span></a> (Preventing Ballot Drop Box and Mail Fraud Act); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 322</span></a>/<a><span>S. 459</span></a> (Save Democracy Act), <a><span>H.R. 7959</span></a> (Noncitizens: Outlawed from Voting in Our Trusted Elections [NO VOTE] Act of 2022), and <a><span>H.R. 8528</span></a> (American Confidence in Elections [ACE] Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn100" name="fn100">100</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 860</span></a> (You Must Be Alive To Vote Act of 2021) from the 117<sup>th</sup> Congress. This proposal also would have required the Commissioner of Social Security, if requested by a state, to enter into an information-sharing agreement with state election officials; states would also have to annually certify such an agreement exists in order to be eligible for federal education or transportation funding.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn101" name="fn101">101</a>.
+            </td>
+<td>
+<p> Matches made using limited criteria, such as only first and last names and birthdays, may falsely identify multiple, unique individuals as a single voter. For more information, see Michael P. McDonald and Justin Levitt, "Seeing Double Voting: An Extension of the Birthday Problem," <em>Election Law Journal</em>, vol. 7, no. 2 (Spring 2008), pp. 111-122; Sharad Goel et al., <em>One Person, One Vote: Estimating the Prevalence of Double Voting in U.S. Presidential Elections</em>, <em>American Political Science Review</em>, vol. 114, no. 2 (May 2020), pp. 456-469), available <a href="https://scholar.harvard.edu/morse/publications/one-person-one-vote-estimating-prevalence-double-voting-us-presidential-elections"><span>https://scholar.harvard.edu/morse/publications/one-person-one-vote-estimating-prevalence-double-voting-us-presidential-elections</span></a>; and Dartunorro Clark, "This System Catches Vote Fraud and the Wrath of Critics," <em>NBC News</em>, August 12, 2017, <a href="https://www.nbcnews.com/politics/white-house/system-catches-vote-fraud-wrath-critics-n790471"><span>https://www.nbcnews.com/politics/white-house/system-catches-vote-fraud-wrath-critics-n790471</span></a><span>.</span></p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn102" name="fn102">102</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 9727</span></a>/<a><span>S. 5151</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021) and <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn103" name="fn103">103</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 160</span></a> (Restoring Faith in Elections Act), <a><span>S. 2822</span></a> (Register America to Vote Act of 2025), and <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 156</span></a> (Restoring Faith in Elections Act), <a><span>S. 1</span></a>/<a><span>H.R. 11</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), <a><span>S. 2841</span></a> (Register America to Vote Act of 2023), and <a><span>H.R. 9727</span></a>/<a><span>S. 5151</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 102</span></a> (Restoring Faith in Elections Act), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>S. 2747</span></a> (Freedom to Vote Act), <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), and <a><span>S. 4335</span></a> (Register America to Vote Act of 2022).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn104" name="fn104">104</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 1529</span></a> (Verification and Oversight for Transparent Elections, Registration, and Identifications [VOTER ID] Act) from the 117<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn105" name="fn105">105</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>S. 1</span></a>/<a><span>H.R. 11</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), and <a><span>H.R. 9727</span></a>/<a><span>S. 5151</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>S. 2747</span></a> (Freedom to Vote Act), and <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act). "Unverified match list" is defined as a list produced by comparing registered voters or applicants to ineligible individuals, if the list lacks a signature, photograph, or unique identifying number for each individual.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn106" name="fn106">106</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>S. 1</span></a>/<a><span>H.R. 11</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), <a><span>H.R. 5046</span></a>/<a><span>S. 2575</span></a> (Preventing Election Subversion Act of 2023), and <a><span>H.R. 9727</span></a>/<a><span>S. 5151</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021), <a><span>H.R. 4064</span></a>/<a><span>S. 2155</span></a> (Preventing Election Subversion Act of 2021), <a><span>S. 2747</span></a> (Freedom to Vote Act), and <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn107" name="fn107">107</a>.
+            </td>
+<td>
+<p> See <a><span>S. 4714</span></a> (Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024) from the 118<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn108" name="fn108">108</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 5707</span></a>/<a><span>S. 2994</span></a> (Voter Purge Protection Act). Examples from the 118<sup>th</sup> Congress include <a><span>S. 1</span></a>/<a><span>H.R. 11</span></a>/<a><span>S. 2344</span></a> (Freedom to Vote Act), and <a><span>H.R. 8677</span></a>/<a><span>S. 2842</span></a> (Save Voters Act); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), <a><span>S. 2747</span></a> (Freedom to Vote Act), and <a><span>H.R. 5746</span></a> (Freedom to Vote: John R. Lewis Act), and <a><span>H.R. 966</span></a> (Save Voters Act). As defined in these bills, "factors not considered as objective and reliable evidence of ineligibility" include an individual's failure to vote; failure to respond to notices sent in accordance with NVRA (unless returned undeliverable); or failure to take any other action related to voting or voter registration.</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn109" name="fn109">109</a>.
+            </td>
+<td>
+<p> Examples from the 119<sup>th</sup> Congress include <a><span>H.R. 8078</span></a>/<a><span>S. 4203</span></a> (Voter Empowerment Act of 2026). Examples from the 118<sup>th</sup> Congress include <a><span>H.R. 9727</span></a>/<a><span>S. 5151</span></a> (Voter Empowerment Act of 2024); examples from the 117<sup>th</sup> Congress include <a><span>H.R. 1</span></a>/<a><span>S. 1</span></a>/<a><span>S. 2093</span></a> (For the People Act of 2021), and <a><span>H.R. 2358</span></a>/<a><span>S. 954</span></a> (Voter Empowerment Act of 2021).</p>
+</td>
+</tr>
+<tr>
+<td><a href="#ifn110" name="fn110">110</a>.
+            </td>
+<td>
+<p> See <a><span>H.R. 1343</span></a> (Voting Access Act) from the 117<sup>th</sup> Congress.</p>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div></div>
+</div>
