@@ -1,35 +1,173 @@
 {
-  "api_remaining_quota": 9,
-  "api_requests": 1,
-  "candidate_report_ids": 58,
-  "checked_at": "2026-10-30T02:07:40.720419+00:00",
-  "end": "2026-10-30",
-  "finished_at": "2026-10-30T02:09:44.268202+00:00",
+  "api_remaining_quota": 0,
+  "api_requests": 10,
+  "candidate_report_ids": 62,
+  "checked_at": "2026-10-31T00:51:43.209278+00:00",
+  "end": "2026-10-31",
+  "finished_at": "2026-10-31T00:53:25.634182+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "40989821688",
+  "github_run_id": "41152412993",
   "invalid_files": [],
-  "missing": [],
-  "notices": [],
-  "official_current_ids": 58,
-  "result": "verified_for_observed_sources",
+  "missing": [
+    {
+      "id": "96-548",
+      "markdown": [],
+      "notices": [],
+      "official_pdf_url": "https://www.congress.gov/crs_external_products/RL/PDF/96-548/96-548.19.pdf",
+      "original_format": "PDF",
+      "original_paths": [],
+      "original_url": "https://www.congress.gov/crs_external_products/RL/PDF/96-548/96-548.19.pdf",
+      "pdf": [],
+      "scope": "official current",
+      "sha256": "d6a495c904ace457a6077c64a5f727b5bb0cbdcd3f7e225e0143805e88153886",
+      "title": "The Legislative Process on the Senate Floor: An Introduction",
+      "verified": false,
+      "version": "19"
+    },
+    {
+      "id": "IF11734",
+      "markdown": [],
+      "notices": [],
+      "official_pdf_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF11734/IF11734.4.pdf",
+      "original_format": "PDF",
+      "original_paths": [],
+      "original_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF11734/IF11734.4.pdf",
+      "pdf": [],
+      "scope": "official current",
+      "sha256": "f0d0330f9a6caa9ddd77434a0d492f2187c6f2bc15ee2e93ead999c8a6d7d3f7",
+      "title": "The Federal Contested Election Act: Overview and Recent Contests in the House of Representatives",
+      "verified": false,
+      "version": "4"
+    }
+  ],
+  "notices": [
+    {
+      "id": "96-548",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IF10293",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IF11734",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IF12608",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IF13226",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IF13338",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IF13339",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IF13340",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    },
+    {
+      "id": "IN12750",
+      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
+    }
+  ],
+  "official_current_ids": 62,
+  "result": "failed",
   "scope": "Live official current originals and recent mirror-only discoveries; PDF or advertised HTML bytes independently redownloaded and compared. Derived PDF paths require matching live currentVersion, embedded report ID/revision and title. Mirror-only metadata exceptions are not counted as official-current declarations.",
   "sources": {
     "mirror_catalog": {
       "ok": true,
-      "records": 23586
+      "records": 23588
     },
     "official_api": {
       "ok": true,
-      "records": 162
+      "records": 180
     }
   },
-  "start": "2026-10-23",
+  "start": "2026-10-24",
   "supplementary_api_scope": "API summaries are independently compared separately and never counted as PDF/HTML originals; original failures remain unverified.",
   "supplementary_api_summaries_verified": 0,
-  "total_archive_versions": 620,
+  "total_archive_versions": 627,
   "total_html_original_versions": 0,
-  "unverified": [],
+  "unverified": [
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "IN12751"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "LSB11497"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R44258"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R44263"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R45030"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R46143"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R46236"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R46406"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R46943"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R47337"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R48078"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R49188"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R49492"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R49495"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R49496"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R49497"
+    },
+    {
+      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
+      "id": "R49498"
+    }
+  ],
   "verified_current_html_files": 0,
-  "verified_current_original_files": 58,
-  "verified_current_pdf_files": 58
+  "verified_current_original_files": 43,
+  "verified_current_pdf_files": 43,
+  "last_successful_finished_at": "2026-10-30T02:09:44.268202+00:00"
 }
