@@ -1,22 +1,31 @@
+**Official-current verification: 62/62. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-24 to 2026-10-31**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-10-30 | R49498 v4 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of National Historic Preservation Act Provisions | [PDF](pdf/reports/R49498v4-2026-10-30-003f41db4da78c35.pdf) | [Markdown](markdown/reports/R49498v4-2026-10-30-003f41db4da78c35.md) |
 | 2026-10-30 | R49497 v1 | FY2026 District of Columbia Budget and Appropriations | [PDF](pdf/reports/R49497v1-2026-10-30-3dd1cc626fe02b1f.pdf) | [Markdown](markdown/reports/R49497v1-2026-10-30-3dd1cc626fe02b1f.md) |
 | 2026-10-30 | R49496 v1 | U.S. Aluminum Manufacturing: Industry Trends and Policy Options | [PDF](pdf/reports/R49496v1-2026-10-30-7a711de9ba7f2218.pdf) | [Markdown](markdown/reports/R49496v1-2026-10-30-7a711de9ba7f2218.md) |
+| 2026-10-30 | R46943 v11 | Voter Registration Records and List Maintenance for Federal Elections | [PDF](pdf/reports/R46943v11-2026-10-30-e86321143863dac4.pdf) | [Markdown](markdown/reports/R46943v11-2026-10-30-e86321143863dac4.md) |
 | 2026-10-30 | R46406 v9 | Voter Registration: Recent Developments and Issues for Congress | [PDF](pdf/reports/R46406v9-2026-10-30-0fafb7206f2ef2d5.pdf) | [Markdown](markdown/reports/R46406v9-2026-10-30-0fafb7206f2ef2d5.md) |
 | 2026-10-30 | R44263 v16 | Veterans Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R44263v16-2026-10-30-772d86201d2d8e8d.pdf) | [Markdown](markdown/reports/R44263v16-2026-10-30-772d86201d2d8e8d.md) |
 | 2026-10-30 | IN12751 v1 | Israel: 2026 Elections and Government Formation | [PDF](pdf/insights/IN12751v1-2026-10-30-21b9e48f1d34d8c4.pdf) | [Markdown](markdown/insights/IN12751v1-2026-10-30-21b9e48f1d34d8c4.md) |
 | 2026-10-30 | IN12750 v1 | A Slowdown in U.S. Labor Supply Growth | [PDF](pdf/insights/IN12750v1-2026-10-30-cc906949666bd1ae.pdf) | [Markdown](markdown/insights/IN12750v1-2026-10-30-cc906949666bd1ae.md) |
 | 2026-10-30 | IF13340 v3 | MSPB Moves Away from Douglas Factors in Misconduct Cases | [PDF](pdf/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.pdf) | [Markdown](markdown/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.md) |
+| 2026-10-30 | IF11734 v4 | The Federal Contested Election Act: Overview and Recent Contests in the House of Representatives | [PDF](pdf/in-focus/IF11734v4-2026-10-30-f0d0330f9a6caa9d.pdf) | [Markdown](markdown/in-focus/IF11734v4-2026-10-30-f0d0330f9a6caa9d.md) |
 | 2026-10-30 | 96-548 v19 | The Legislative Process on the Senate Floor: An Introduction | [PDF](pdf/reports/96-548v19-2026-10-30-d6a495c904ace457.pdf) | [Markdown](markdown/reports/96-548v19-2026-10-30-d6a495c904ace457.md) |
 | 2026-10-29 | R49495 v2 | Decommissioning Offshore Oil and Gas Infrastructure: Issues for Congress | [PDF](pdf/reports/R49495v2-2026-10-29-bd73c586c3967c51.pdf) | [Markdown](markdown/reports/R49495v2-2026-10-29-bd73c586c3967c51.md) |
+| 2026-10-29 | R49495 v3 | Decommissioning Offshore Oil and Gas Infrastructure: Issues for Congress | [PDF](pdf/reports/R49495v3-2026-10-29-c5db96b2179f5924.pdf) | [Markdown](markdown/reports/R49495v3-2026-10-29-c5db96b2179f5924.md) |
 | 2026-10-29 | R49188 v3 | Ecuador in Brief: Overview and U.S. Relations | [PDF](pdf/reports/R49188v3-2026-10-29-ecab7de47c8edd75.pdf) | [Markdown](markdown/reports/R49188v3-2026-10-29-ecab7de47c8edd75.md) |
+| 2026-10-29 | R47337 v8 | Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding | [PDF](pdf/reports/R47337v8-2026-10-29-016de1ee2ff7ff72.pdf) | [Markdown](markdown/reports/R47337v8-2026-10-29-016de1ee2ff7ff72.md) |
 | 2026-10-29 | R47337 v7 | Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding | [PDF](pdf/reports/R47337v7-2026-10-29-0e29262756751b37.pdf) | [Markdown](markdown/reports/R47337v7-2026-10-29-0e29262756751b37.md) |
 | 2026-10-29 | R46236 v12 | Brazil: Background and U.S. Relations | [PDF](pdf/reports/R46236v12-2026-10-29-ce2b50cf8bf5bf16.pdf) | [Markdown](markdown/reports/R46236v12-2026-10-29-ce2b50cf8bf5bf16.md) |
+| 2026-10-29 | R46236 v13 | Brazil: Background and U.S. Relations | [PDF](pdf/reports/R46236v13-2026-10-29-e48f4c35ce6486ce.pdf) | [Markdown](markdown/reports/R46236v13-2026-10-29-e48f4c35ce6486ce.md) |
 | 2026-10-29 | R45030 v15 | Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments | [PDF](pdf/reports/R45030v15-2026-10-29-89e5d55656060b22.pdf) | [Markdown](markdown/reports/R45030v15-2026-10-29-89e5d55656060b22.md) |
+| 2026-10-29 | R45030 v16 | Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments | [PDF](pdf/reports/R45030v16-2026-10-29-92f53420a538e99a.pdf) | [Markdown](markdown/reports/R45030v16-2026-10-29-92f53420a538e99a.md) |
 | 2026-10-29 | R44258 v24 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v24-2026-10-29-388307880d66b5ac.pdf) | [Markdown](markdown/reports/R44258v24-2026-10-29-388307880d66b5ac.md) |
 | 2026-10-29 | LSB11497 v1 | Equity and Good Conscience Debt Waiver Statutes | [PDF](pdf/sidebars/LSB11497v1-2026-10-29-b439e5c8444c43de.pdf) | [Markdown](markdown/sidebars/LSB11497v1-2026-10-29-b439e5c8444c43de.md) |
 | 2026-10-29 | IF13226 v7 | Seabed Mining on the U.S. Outer Continental Shelf: Recent Developments | [PDF](pdf/in-focus/IF13226v7-2026-10-29-dae945f5932b7c54.pdf) | [Markdown](markdown/in-focus/IF13226v7-2026-10-29-dae945f5932b7c54.md) |
@@ -64,8 +73,6 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-10-30 | 2026-05-19 | R46943 v9 | Voter Registration Records and List Maintenance for Federal Elections | [PDF](pdf/reports/R46943v9-2026-05-19-c9e01c2b813170a6.pdf) | [Markdown](markdown/reports/R46943v9-2026-05-19-c9e01c2b813170a6.md) |
-| 2026-10-30 | 2022-11-02 | IF11734 v2 | The Federal Contested Election Act: Overview and Recent Contests in the House of Representatives | [PDF](pdf/in-focus/IF11734v2-2022-11-02-7acdc955094479e4.pdf) | [Markdown](markdown/in-focus/IF11734v2-2022-11-02-7acdc955094479e4.md) |
 | 2026-10-29 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
 | 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
