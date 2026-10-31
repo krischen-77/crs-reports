@@ -7,84 +7,6 @@
       "next_retry": "2026-11-02",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "8",
-        "date": "2016-10-07",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43477",
-            "sha1": "c9fefa09107ca960d684f58c554e624a8cb42e88",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20161007_R43477_c9fefa09107ca960d684f58c554e624a8cb42e88.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43477",
-            "sha1": "754fb387f81af0a63dce1c913ccdb0afd8f598f8",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20161007_R43477_754fb387f81af0a63dce1c913ccdb0afd8f598f8.pdf"
-            ]
-          }
-        },
-        "id": "R43477",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43477",
-          "http://www.crs.gov/Reports/pdf/R43477"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "456399",
-        "title": "Social Media in the House of Representatives: Frequently Asked Questions",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-31",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-02",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "5",
-        "date": "2015-03-16",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R43532",
-            "sha1": "a0784521edb4db02497a887185c4241d92a43120",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150316_R43532_a0784521edb4db02497a887185c4241d92a43120.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R43532",
-            "sha1": "a6559b54121fe761101ff4a2bfdbdc0fe587429c",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150316_R43532_a6559b54121fe761101ff4a2bfdbdc0fe587429c.pdf"
-            ]
-          }
-        },
-        "id": "R43532",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R43532",
-          "http://www.crs.gov/Reports/pdf/R43532"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "439217",
-        "title": "Offices and Officials in the Senate: Roles and Duties",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "3",
         "date": "2014-05-08",
         "formats": {
@@ -119,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-10-31",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-02",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -9948,6 +9872,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "462995",
         "title": "U.S. Circuit and District Court Judges: Profile of Select Characteristics",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-31",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-02",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "8",
+        "date": "2016-10-07",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43477",
+            "sha1": "c9fefa09107ca960d684f58c554e624a8cb42e88",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20161007_R43477_c9fefa09107ca960d684f58c554e624a8cb42e88.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43477",
+            "sha1": "754fb387f81af0a63dce1c913ccdb0afd8f598f8",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20161007_R43477_754fb387f81af0a63dce1c913ccdb0afd8f598f8.pdf"
+            ]
+          }
+        },
+        "id": "R43477",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R43477",
+          "http://www.crs.gov/Reports/pdf/R43477"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "456399",
+        "title": "Social Media in the House of Representatives: Frequently Asked Questions",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-10-31",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-02",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "5",
+        "date": "2015-03-16",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43532",
+            "sha1": "a0784521edb4db02497a887185c4241d92a43120",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150316_R43532_a0784521edb4db02497a887185c4241d92a43120.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43532",
+            "sha1": "a6559b54121fe761101ff4a2bfdbdc0fe587429c",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150316_R43532_a6559b54121fe761101ff4a2bfdbdc0fe587429c.pdf"
+            ]
+          }
+        },
+        "id": "R43532",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R43532",
+          "http://www.crs.gov/Reports/pdf/R43532"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "439217",
+        "title": "Offices and Officials in the Senate: Roles and Duties",
         "version": "unknown"
       }
     }
