@@ -1,6 +1,6 @@
 # Official current CRS files
 
-Checked: 2026-10-31T15:53:40.020176+00:00. Official current entries verified: **62/62**.
+Checked: 2026-11-01T01:21:55.419476+00:00. Official current entries verified: **52/52**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
@@ -58,13 +58,3 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-10-27 | 2026-10-22 | R49408 v3 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v3-2026-10-22-10ac5c7079b6d546.pdf) | [Markdown](markdown/reports/R49408v3-2026-10-22-10ac5c7079b6d546.md) |
 | 2026-10-27 | 2026-10-22 | IF12889 v4 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.pdf) | [Markdown](markdown/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.md) |
 | 2026-10-27 | 2026-10-26 | LSB11457 v5 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.pdf) | [Markdown](markdown/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.md) |
-| 2026-10-24 | 2026-10-22 | IF13092 v12 | The U.S. Army’s Infantry Squad Vehicle (ISV) | [PDF](pdf/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.pdf) | [Markdown](markdown/in-focus/IF13092v12-2026-10-22-54cbca82675906e6.md) |
-| 2026-10-24 | 2026-10-21 | IF13334 v2 | ANC, Tribal, NHO, and CDC Participation in the 8(a) Business Development Program | [PDF](pdf/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.pdf) | [Markdown](markdown/in-focus/IF13334v2-2026-10-21-b05989f0ee2bbc0c.md) |
-| 2026-10-24 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
-| 2026-10-24 | 2026-10-22 | R42853 v46 | Nuclear Energy: Overview of Congressional Issues | [PDF](pdf/reports/R42853v46-2026-10-22-11f80f07cb38da84.pdf) | [Markdown](markdown/reports/R42853v46-2026-10-22-11f80f07cb38da84.md) |
-| 2026-10-24 | 2026-10-23 | IF13335 v1 | Student Loans: Late Payment Trends, Servicing Practices, and Credit Reporting Issues | [PDF](pdf/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.pdf) | [Markdown](markdown/in-focus/IF13335v1-2026-10-23-f435025ccc2ef168.md) |
-| 2026-10-24 | 2026-10-22 | R49346 v4 | Temporary Protected Status Terminations, 2025-2026: Fact Sheet | [PDF](pdf/reports/R49346v4-2026-10-22-a3e11acce9f1e181.pdf) | [Markdown](markdown/reports/R49346v4-2026-10-22-a3e11acce9f1e181.md) |
-| 2026-10-24 | 2026-10-22 | R41833 v26 | IDEA, Part B: Key Statutory and Regulatory Provisions Relating to the Education of Children with Disabilities | [PDF](pdf/reports/R41833v26-2026-10-22-59b64f62d8726f41.pdf) | [Markdown](markdown/reports/R41833v26-2026-10-22-59b64f62d8726f41.md) |
-| 2026-10-24 | 2026-10-20 | R49354 v6 | The 21st Century ROAD to Housing Act (P.L. 119-101) | [PDF](pdf/reports/R49354v6-2026-10-20-675b4384850eff04.pdf) | [Markdown](markdown/reports/R49354v6-2026-10-20-675b4384850eff04.md) |
-| 2026-10-24 | 2026-10-22 | R49491 v2 | Federal Government Shutdowns and the Impact on Civil Aviation | [PDF](pdf/reports/R49491v2-2026-10-22-8daccd774bd61ce8.pdf) | [Markdown](markdown/reports/R49491v2-2026-10-22-8daccd774bd61ce8.md) |
-| 2026-10-24 | 2026-10-22 | IF13249 v2 | Farm Bill Primer: Rural Development Title | [PDF](pdf/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.pdf) | [Markdown](markdown/in-focus/IF13249v2-2026-10-22-3b6c19e8e672de48.md) |
