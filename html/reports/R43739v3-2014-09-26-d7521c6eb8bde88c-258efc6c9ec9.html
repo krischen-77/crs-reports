@@ -1,0 +1,596 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R43739.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Dark Pools in Equity Trading: Policy Concerns and Recent Developments</div>
+<div class="CoverDate">Updated September 26, 2014
+            (R43739)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc1050858"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc1050859"><span class="Hyperlink">What Is a "Dark Pool"?</span></a></li>
+<li class="TOC1"><a href="#_Toc1050860"><span class="Hyperlink">Factors That Contributed to the Growth of Dark Pools</span></a></li>
+<li class="TOC2"><a href="#_Toc1050861"><span class="Hyperlink">Non-Regulatory Factors</span></a></li>
+<li class="TOC2"><a href="#_Toc1050862"><span class="Hyperlink">Regulatory Factors</span></a></li>
+<li class="TOC1"><a href="#_Toc1050863"><span class="Hyperlink">Potential Regulatory Concerns</span></a></li>
+<li class="TOC2"><a href="#_Toc1050864"><span class="Hyperlink">Market Fragmentation</span></a></li>
+<li class="TOC2"><a href="#_Toc1050865"><span class="Hyperlink">Fairness and Access</span></a></li>
+<li class="TOC2"><a href="#_Toc1050866"><span class="Hyperlink">Price Manipulation</span></a></li>
+<li class="TOC2"><a href="#_Toc1050867"><span class="Hyperlink">Potentially Improper Trades</span></a></li>
+<li class="TOC2"><a href="#_Toc1050868"><span class="Hyperlink">Price Discovery</span></a></li>
+<li class="TOC1"><a href="#_Toc1050869"><span class="Hyperlink">Regulatory Developments</span></a></li>
+<li class="TOC2"><a href="#_Toc1050870"><span class="Hyperlink">FINRA's New Trade Data Disclosure Requirements</span></a></li>
+<li class="TOC2"><a href="#_Toc1050871"><span class="Hyperlink">The "Trade-at" Rule</span></a></li>
+<li class="TOC3"><a href="#_Toc1050872"><span class="Hyperlink">Canada and Australia Adopt "Trade-at" Rules</span></a></li>
+<li class="TOC3"><a href="#_Toc1050873"><span class="Hyperlink">The Potential for Future Regulation</span></a></li>
+<li class="TOC1"><a href="#_Toc1050874"><span class="Hyperlink">Enforcement Developments</span></a></li>
+<li class="TOC2"><a href="#_Toc1050875"><span class="Hyperlink">New York Attorney General Sues Barclays</span></a></li>
+<li class="TOC2"><a href="#_Toc1050876"><span class="Hyperlink">SEC and FINRA Probes and Some Enforcement Actions</span></a></li>
+</ul>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The term "dark pools" generally refers to electronic stock trading platforms in which pre-trade bids and offers are not published and price information about the trade is only made public after the trade has been executed. This differs from trading in so-called "lit" venues, such as traditional stock exchanges, which provide pre-trade bids and offers publicly into the consolidated quote stream widely used to price stocks.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Dark pools arose partly due to demand from institutional investors seeking to buy or sell big blocks of shares without sparking large price movements. The volume of trading on dark pools has climbed significantly in recent years, from about 4% of overall trading volume in 2008 to about 15% in 2013. While dark pools reportedly have lower trading fees, their lack of price transparency has sparked concerns about the continued accuracy of consolidated stock price information. In addition, fairness concerns have surfaced in recent regulatory and enforcement actions, in the press, and in Michael Lewis's book <em>Flash Boys</em> over allegations that dark pool operators may have facilitated front-running of large institutional investors by high-frequency traders, in exchange for payment, and misrepresented the nature of high-frequency trading in the dark pools. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report examines the confluence of factors that led to the rise of dark pools; the potential benefits and costs of such trading; some regulatory and congressional concerns over dark pools; recent regulatory developments by the Securities and Exchange Commission (SEC) and the Financial Industry Regulatory Authority (FINRA), which oversees broker-dealers; and some recent lawsuits and enforcement actions garnering significant media attention. These include a 2014 civil suit filed by New York Attorney General Eric Schneiderman against the securities firm Barclays for its dark pool operations. A central allegation was that in marketing materials for prospective investors, Barclays misrepresented the extent and nature of the high-frequency trading in its pool. The report also examines steps regulators in Canada and Australia have taken to address any reduction in price transparency from dark pool trading. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Traditionally, the exclusive locales for stock trades were exchanges such as the New York Stock Exchange and NASDAQ. In recent decades, the availability of cheaper and more powerful computers and at least two SEC regulations—Regulation ATS and Regulation NMS—helped give rise to an array of alternative trading venues that include dark pools. SEC Chair Mary Jo White and others have voiced concerns that the pools impede the overall process of price discovery in stocks. Proponents of dark pools, however, point out that they have lowered trading costs and that they may afford faster trading or superior technology and enable investors to buy or sell larger blocks of stocks without moving the market. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In an effort to increase market transparency, FINRA in 2014 began requiring dark pools to report their aggregate weekly volume of transactions and the number of trades executed in each security. In June 2014, White asked SEC staff to draft recommendations for expanding the scope of operational disclosures that dark pools would have to provide to the SEC and the public. The SEC also announced a pilot project dubbed the "trade-at" rule, in which off-exchange trading venues, including dark pools, could execute orders only if they provided a significant price improvement or size improvement over "lit" venues. Both Canada and Australia saw significant reductions in dark pool trades after adopting such trade-at rules. Critics of the trade at rule include brokerage firms, some of whom own dark pools. Congress has examined regulatory concerns over dark pools in a number of 2014 hearings on high-frequency trading as part of its oversight over the SEC.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Traditionally, the exclusive locales for stock trades were exchanges such as the New York Stock Exchange (NYSE), the American Stock Exchange (AMEX), and NASDAQ. In recent decades, cheaper and more powerful computer-based technology and at least two Securities and Exchange Commission (SEC) regulations helped give rise to an array of alternative trading venues, including a new type called "dark pools." </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although it is sinister sounding to some, the "dark" appellation simply means that dark pools do not publicly display traders' buy and sell interests (quotes) as the traditional "lit" platforms do. This opacity attracted institutional investors (such as pensions and mutual funds), which became the pools' initial clients. Concerned about potentially harmful, market-moving information leaks about their intended trades, these big investors believed that the dark pools' concealed quotes helped reduce the riskiness of their trades.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Opaque institutional trading is not a new thing: The &quot;upstairs&quot; market has a long history. Th at market took place off-exchange in the offices of securities brokers . I nstitutional investor s and their potential block trade counterparties negotiated trades by telephone , often with a broker-dealer 's intermediation .">1</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Securities regulators and state officials have raised policy concerns about the pools, as have Members of Congress in various committee oversight hearings. Such concerns include the impact of the pools on market quality, their lack of pre-trade transparency, transparency about whether the pools allow high-frequency trading (HFT), and to what extent they do so.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='"High-frequency trading is an imprecise term with no legal or regulatory definition. It describes a subset of algorithmic trading (AT) that involves very rapid placement of orders, in tiny fractions of a second. AT is the use of computer algorithms to make certain securities trading decisions, submit securities trades, and manage those securities o rders after their submission…. Critics of HFT have expressed concerns over market fragility and segmentation. Some observers say that the market...'>2</a></sup> This report explains what dark pools are, outlines recent developments of significance to the pools (including public policy and regulatory developments), and examines various current public policy concerns. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752656"></a><a name="_Toc1049954"></a><a name="_Toc1050859"></a>What Is a "Dark Pool"?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Alternative trading systems (ATSs) can be subdivided into electronic communication networks (ECNs) and dark pools. ATSs broadly are broker-dealer firms that match the orders of multiple buyers and sellers according to established, non-discretionary methods. They have been around since the late 1960s and grew in popularity in the mid-1990s as technological developments made it easier for broker-dealers to match buy and sell orders. Their growth also benefitted from the SEC's 1998 adoption of a new regulatory framework, Regulation ATS (Reg ATS). Reg ATS sought to reduce barriers to entry for such systems while also promoting competition and innovation and regulating the exchange functions that they performed.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='"Exchanges and Alternative Trading Systems and Filing Requirements for Self-Regulatory Organizations Regarding New Derivative Securities Products; Final Rules," 63 Federal Register 70844-70951 , December 22, 1998 , available at http://www.gpo.gov/fdsys/pkg/FR-1998-12-22/html/98-33299.htm .'>3</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An ECN publicly displays its best orders in the consolidated quote stream—as exchanges such as the NYSE and NASDAQ do—and allows their stock trade offers (known as quotes) to be accessed by investors. Over the last decade, ECNs have been widely perceived to have benefited the equity market through such features as faster trading technologies, innovative pricing strategies, and robust inter-market linkages.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two of the better known independent ECNs are INET and Archipelago. Other ECNs, such as BATS and Direct Edge, have merged with registered securities exchanges or have themselves become exchanges. The ATSs, including the ECNs, have collectively gained growing equity trading market share through the years. By various accounts, the competitive pressure from the ATSs, including the ECNs, has led legacy exchanges such as the NYSE to enhance the customer trading experience.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another kind of ATS, "dark pools," do not provide quotes into the pre-trade public quote stream as is generally required of trades on the NASDAQ, the stock exchanges, and ECNs. They publish trade data only after transactions occur. Some argue that post-trade disclosure is more informative. Generally, dark pools are said to merely indicate that the trade was executed off an exchange and do not identify themselves as the pool that executed the trade.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='Securities and Exchange Commission, "SEC Fact Sheet: Strengthening the Regulation of Dark Pools," October 21, 2009, available at http://www.sec.gov/news/press/2009/2009-223-fs.htm .'>4</a></sup> Also, unlike NASDAQ and the exchanges, dark pools do not guarantee trade execution, which means that orders sometimes go unfilled.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='Haoxiang Zhu , "Do Dark Pools Harm Price Discovery?," Review of Financial Studies (November 2013), available at http://dx.doi.org/10.2139/ssrn.1712173 .'>5</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">More specifically, when an investor places an order to buy or sell on a "lit" trading venue, the venue typically makes that quote available to the public. Within dark pools, however, traders often become aware of the existence of potential trading counterparties only after they have submitted their orders. Alternatively, a trader may signal to a limited number of traders who are also clients of a dark pool of their interest in either buying or selling a security. These "indications of interest" in dark pools are similar to the conventional quote on the lit exchanges but may display fewer elements of the trading interest. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This pre-trade opacity initially attracted institutional investors that wanted to anonymously trade blocks of shares without triggering unfavorable price movements. There is a widely held view that rules adopted by the SEC in 2005, Regulation National Market System (Reg NMS),<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='For example, see Jacob Bunge, "A Suspect Emerges in Stock-Trade Hiccups: Regulation NMS. Some Say Increasing Complexity of Market Partly Due to Set of Rules," Wall Street Journal , January 27, 2014, available at http://online.wsj.com/news/articles/SB10001424052702303281504579219962494432336 .'>6</a></sup> boosted the growth of the dark pools. Reg NMS was aimed at fostering competition among individual markets and among individual orders by promoting efficient and fair price formation across securities markets.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='Securities and Exchange Commission, "SEC Adopts Regulation NMS and Provisions Regarding Investment Advisers Act of 1940," press release , April 7, 2005, available at http://www.sec.gov/news/press/2005-48.htm .'>7</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Currently, there are about 40 dark pools that trade in domestic markets. Primarily trading NASDAQ- and NYSE-listed stocks, they now account for about 15% of the overall trading volume of such stocks.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='For example, see Matthew Philips , "Barclays Probe Casts Ugly Light on Dark Pools," Businessweek , July 2, 2014, available at http://www.businessweek.com/articles/2014-07-02/barclays-probe-casts-ugly-light-on-dark-pools .'>8</a></sup> Dark pools have contributed to today's more fragmented equities market, which also includes about 11 exchanges<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Some reports give the figure as 13 exchanges.">9</a></sup> and more than 200 broker-dealers that execute retail trades via their own stock inventories—a process known as <em>direct internalization</em>.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='Haoxiang Zhu, "Do Dark Pools Harm Price Discovery?"'>10</a></sup> Together, dark pools and internalization processes—both of which are generally exempt from requirements to display pre-trade quotes—constitute the bulk of what are alternately called dark trading, unlit trades, and off-exchange trading. By some estimates, internalization may account for about 60% of dark trades, whereas dark pools account for about 40%.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='Nathaniel Popper, "As Market Heats Up, Trading Slips i nto Shadows , " New York Times , March 31, 2013, available at http://www.nytimes.com/2013/04/01/business/as-market-heats-up-trading-slips-into-shadows.html?pagewanted=all&amp;_r=0 .'>11</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Dark pools have also enabled the brokers who own them to charge traders a fee for access to the order flow in the dark pools. This practice is sometimes referred to as <em>indirect internalization</em>.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title='Daniel Weaver , " The Trade-At Rule, Internalization, and Market Quality ," April 17, 2014 , available at http://ssrn.com/abstract=1846470 .'>12</a></sup> In his book <em>Flash Boys</em>, Michael Lewis describes instances in which HFT firms that paid for access to dark pools preyed upon the pool's retail order flow, sometimes by front-running those orders.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Michael Lewis, Flash Boys (New York: W. W. Norton &amp; Company, 2014).">13</a></sup> Front-running refers to the practice of trading ahead of a large order to benefit from the anticipated price movement that the large order will create. The most common example of front-running is when an individual trader buys shares of a stock just before a large institutional order to buy, which may cause a rapid, small increase in the stock's price. The trader can later sell the order back to the institutional investor or to the market at the slightly higher price. While certain forms of front-running are illegal, the legality depends on the circumstances of the situation.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="For more on front-running, please see CRS Report RS21127, Federal Securities Law: Insider Trading , by Michael V. Seitzinger .">14</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Dark pools have been divided into several structural subgroups, including</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Broker-dealer owned.</strong><strong> </strong>Some large broker-dealers have created dark pools for their clients and at times for the benefit of their own proprietary traders. These dark pools reportedly derive their share prices from the broker-dealer's order flow. As a consequence, they are said to provide some price discovery.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="Price discovery is the process by which the current market share price for a given security is established. It is a process that derives from the supply-and-demand dynamics around the security. Economic theory suggests that the greater the expressed interest in a given security, the more accurate a security's market price is likely to be.">15</a></sup> Examples reportedly include Credit Suisse's CrossFinder, Goldman Sachs's Sigma X, and Morgan Stanley's MS Pool. Broker-dealers dominate the dark pool business: Domestically, Credit Suisse Group AG, UBS, Bank of America Corporation's Merrill Lynch, Deutsche Bank, and Morgan Stanley own the largest dark pools.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Scott Patterson and Jenny Strasburg , "Finra Probes Trading Tied to Credit Suisse Bank," Wall Street Journal , May 21, 2014, available at http://online.wsj.com/news/articles/SB10001424052702304908304579566311730687146 .'>16</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Agency broker or exchange-owned.</strong> These dark pools act as agents, not principals. The trades that they conduct are based on the security prices that derive from the exchanges. As such, they have no price discovery function. Examples of agency broker dark pools include Liquidnet and ITG Posit, while exchange-owned dark pools include those offered by BATS and the NYSE.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Electronic market maker.</strong> These dark pools are affiliated with independent securities operators, such as Getco and Knight, which operate as principals for their own accounts. Like the aforementioned broker-dealer-owned dark pools, the transaction prices in pools are not calculated from the national best bid and offer (NBBO).<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="The NBBO show s the highest and lowest offers for a security among all exchanges and market makers. It is updated throughout the day . The lowest priced offer to sell a given security and the highest priced offer to b uy that security at any point in time are displayed in the NBBO and do not have to come from the same exchange .">17</a></sup> As such, the dark pools do not materially contribute to price discovery.</li></ul><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752657"></a><a name="_Toc1049955"></a><a name="_Toc1050860"></a>Factors That Contributed to the Growth of Dark Pools</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Economists perceive a mix of non-regulatory and regulatory factors to have played roles in boosting the popularity of dark pools, which reportedly grew from a share of about 4% of overall trading volume in 2008 to about 15% in 2013.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title='The 2008 estimate is from Tabb, a market research company, as reported in: Scott Patterson , "Dark Pools Face Scrutiny Regulators Ask for Details on Stock Trading in Murkiest Parts of the Market," Wall Street Journal , June 5, 2013 , available at http://online.wsj.com/news/articles/SB1000142412887324069104578527361102049152 .'>18</a></sup> Several of them are described below.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752658"></a><a name="_Toc1049956"></a><a name="_Toc1050861"></a>Non-Regulatory Factors</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are at least five key non-regulatory factors:</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. <strong>A general fall in the level of market volatility.</strong> There is a perspective that when share price volatility is more pronounced, resulting in greater trading uncertainty, many large investors have greater interest in quickly and reliably getting their trades executed. This is widely seen as a particular advantage of NASDAQ and exchanges such as the NYSE. According to Justin Schack, managing director of Rosenblatt Securities, a financial firm that does market analysis, "When prices are really swinging around, traders seem to prefer the certainty of displayed-market price discovery and the generally more-robust technology on the exchanges to dark pools and other off-exchange destinations."<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='For example, see the comments of Justin Schack of Rosenblatt Securities in Brendan Conway, " Investors Flee Dark Pools a s Market Volatility Erupts ," Wall Street Journal , September 2, 2011 , available at http://blogs.wsj.com/marketbeat/2011/09/02/investors-flee-dark-pools-as-market-volatility-erupts/  .'>19</a></sup> By some measures, since about 2009, share price volatility has generally declined, helping to boost the demand for the anonymity of dark pool trading.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title='Popper, "As Market Heats Up, Trading Slips Into Shadows"; Charlie Bilello , " Brace Yourself For a More Volatile Stock Market ," U . S . News &amp; World Repo rt , March 19, 2014 , available at http://money.usnews.com/money/blogs/the-smarter-mutual-fund-investor/2014/03/19/brace-yourself-for-a-more-volatile-stock-market .'>20</a></sup> </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. <strong>Potential </strong><strong>t</strong><strong>echnological </strong><strong>m</strong><strong>ishaps.</strong> Another catalyst in the shift to dark pools reportedly involves investor interest in avoiding technological mishaps that have occurred on the NASDAQ and large exchanges such as the NYSE—and avoiding HFT firms that trade on such lit platforms.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="Ibid.">21</a></sup> </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. <strong>Low </strong><strong>c</strong><strong>omparative </strong><strong>t</strong><strong>rading </strong><strong>f</strong><strong>ees.</strong> Dark pools tend to charge lower fees for trades than do the NASDAQ and the exchanges.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='Sam Mamudi , "Dark Pools Private Stock Trading vs. Public Exchanges," Bloomberg , June 27, 2014.'>22</a></sup> Relatedly, dark pool traders' total transaction costs tend to be lower than costs on exchanges in part because within the pools, large orders can be subdivided into smaller orders, potentially enabling simpler and faster execution. In addition, the pools often charge lower per-share fees than do the exchanges.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title='For example, see Dave Michaels , "Trading Rebates Skew Markets, NYSE and Allies Tell SEC," Bloomberg , February 21, 2014, available at http://www.bloomberg.com/news/2014-02-21/trading-rebates-skew-markets-nyse-and-allies-tell-sec.html .'>23</a></sup></li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. <strong>Trader </strong><strong>a</strong><strong>utonomy.</strong> Dark pools give traders comparatively more autonomy in the choice of the opposing buyers and sellers, potentially avoiding problematic traders, such as some allegedly predatory HFT firms.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='For example, see "U.S. Equity Market Structure," Blackrock , April 2014, p. 3, available at http://www.blackrock.com/corporate/en-es/literature/whitepaper/viewpoint-us-equity-market-structure-april-2014.pdf .'>24</a></sup> </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">5. <strong>Trade </strong><strong>e</strong><strong>xecution </strong><strong>e</strong><strong>fficiency.</strong> Dark pools can be a valuable execution tool for large orders as well as stocks, which may be more difficult to trade because they have wider bid-ask spreads or lower market liquidity.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="Ibid.">25</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752659"></a><a name="_Toc1049957"></a><a name="_Toc1050862"></a>Regulatory Factors</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two major SEC-adopted regulations—Reg ATS and Regulation National Market System (Reg NMS)—are also commonly cited as pivotal in the proliferation of dark pools. </p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. <strong>Reg ATS.</strong> In 1998, the SEC adopted a new regulatory framework, Reg ATS,<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='"Exchanges and Alternative Trading Systems and Filing Requirements," Federal Register .'>26</a></sup> as a set of regulations in the Securities Exchange Act of 1934 (15 U.S.C. 78a et seq). The regulation sought to reduce barriers to entry while promoting competition and innovation and regulating the ATS's exchange functions. Under Reg ATS, dark pools are required to register either as exchanges with the SEC or as broker-dealers with the Financial Industry Regulatory Authority (FINRA), the frontline regulator of SEC-registered broker-dealers.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="FINRA is overseen by the SEC.">27</a></sup> Dark pools are subject to the same rules that govern trading on an exchange or by a broker-dealer. However, unlike exchanges, they are not required to publicize ongoing offers to buy or sell stocks, called quotes. If an ATS displays orders to more than one person, it must display the best-priced quotes submitted to it by the public when the average trading volume in a given stock on it is 5% or more, a requirement that most individual dark pools do not meet or are exempted from.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title='For example, see Tanja Bo sk ovi c , Caroline Cerruti, and Michel Noël , "Comparing European and U.S. Securities Regulations: MiFID Versus Corresponding U.S. Regulations," World Bank Publications , 2010 .'>28</a></sup> By various accounts, the advent of Reg ATS was a catalyst for the proliferation of dark pools.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="For example, see Scott Patterson, Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market ( New York : Crown Publishing Group, 2012.">29</a></sup> </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. <strong>Reg NMS.</strong> Adopted by the SEC in 2005, Reg NMS was intended to improve domestic exchanges through improved price execution, quotes, and investor access to market data. Three key Reg NMS rules are (1) the order protection rule, aimed at ensuring that investors receive the best buy or sell price when their orders are executed by eliminating the ability to have orders "traded through" (i.e., executed at a worse price); (2) the access rule, which required better market center linkages and lower access fees; and (3) the market data rule, which requires market centers to route orders for execution to the market center that shows the best price, the NBBO. Various observers have asserted that Reg NMS contributed to today's fragmented trading marketplace, which includes at least 11 exchanges and about 40 dark pools that compete for business in listed stock trades. HFT firms often exploit those fragmented markets by moving quickly between trading venues.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="This section was taken from CRS Report R43608, High-Frequency Trading: Background, Concerns, and Regulatory Developments , by Gary Shorter and Rena S. Miller.">30</a></sup> Reg NMS is widely said to have helped advance the pools' expansion by abolishing an earlier rule that protected manually submitted exchange (non-electronic) quotes, thus helping to foster more innovative electronic trading venues, including the dark pools.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='Haoxiang Zhu , "Do Dark Pools Harm Price Discovery?"'>31</a></sup> </li></ul><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752660"></a><a name="_Toc1049958"></a><a name="_Toc1050863"></a>Potential Regulatory Concerns </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A 2010 report issued by the International Organization of Securities Commissions (IOSCO), a global association of securities regulators, noted, "While dark pools and dark orders may meet a demand in the market, they may raise regulatory issues that merit examination."<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title='International Organi za tion of Securities Commissions , "Issues Raised by Dark Liquidity, Consultation Report," October 2010, available at http://www.iosco.org/library/pubdocs/pdf/IOSCOPD336.pdf .'>32</a></sup> Several such potential dark pool regulatory concerns are examined below, some of which are also discussed in the IOSCO report.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752661"></a><a name="_Toc1049959"></a><a name="_Toc1050864"></a>Market Fragmentation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some believe that the stock market has become excessively fragmented with a proliferation of trading. This fragmentation has many potential causes, though Reg NMS is frequently cited. Some consider the multiplicity of dark pools to be a symptom rather than a cause. Still, the dark pools are an integral part of this fragmentation, and their opacity arguably exacerbates the potential pitfalls of fragmentation. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The multiplicity of pools may also pose special challenges to traders, including the cost and logistical burden of accessing the various venues. Another concern is that the fragmentation affords brokers greater opportunity to route customer orders to venues that best meet the brokers' needs (for example, through rebate payment trade enticements) rather than to those that might ultimately be best for their customers.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='For example, see Erik R. Sirri, Director, SEC Division of Trading and Market , "Keynote Speech at the SIFMA 2008 Dark Pools Symposium by," February 1, 2008, available at http://www.sec.gov/news/speech/2008/spch020108ers.htm .'>33</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The fragmented trading landscape does, however, appear to have helped produce some market benefits. Greater competition between trading venues arguably led to reduced transaction costs for traders and trading system technological innovations.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="For example, see Maureen O'Hara and Mao Ye, &quot;Is Market Fragmentation Harming Market Quality?,&quot; SSRN , available at http://dx.doi.org/10.2139/ssrn.1356839 .">34</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752662"></a><a name="_Toc1049960"></a><a name="_Toc1050865"></a>Fairness and Access</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reg ATS requires an exchange to provide fair access to its services. Specifically, the regulation requires an ATS to meet fair access requirements with respect to any particular stock that exceeds a 5% trading volume threshold. Dark pools are generally not subject to this requirement, which means that their liquidity is not made available to the investing public on terms that "are not unfairly discriminatory."<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title='Sirri, " Keynote Speech ."'>35</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Meanwhile, there are concerns that individual dark pools may have been selectively offering different traders dissimilar terms for the right to trade on them or route orders to them. Those concerns may assume added significance when certain traders are denied access to dark pools with substantial trading volume (but still less than 5%) in certain stocks.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752663"></a><a name="_Toc1049961"></a><a name="_Toc1050866"></a>Price Manipulation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some have raised concerns that some HFT firms may be placing orders in the lit markets for the purpose of manipulating securities prices in dark pools. For example, the head of FINRA has said that the regulator is expanding its oversight of dark pools with special focus on whether orders that are submitted to public exchanges are "trying to move prices or encourage sellers that may advance their trading in the dark market."<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="Scott Patterson , &quot;Vow of New Light for 'Dark' Trades,&quot; Wall Street Journal , January 8, 2013, available at http://online.wsj.com/news/articles/SB10001424127887324391104578229610038363372 .">36</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752664"></a><a name="_Toc1049962"></a><a name="_Toc1050867"></a>Potentially Improper Trades</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another regulatory focal point stems from observations that dark pools can be used to facilitate potentially improper trading and that the pools' promise of trader confidentiality could give traders opportunities to conduct such trades. Some cite as a potential illustration of such abuse an insider trading complaint filed by the Department of Justice and the SEC against a former fund manager at SAC Capital Advisors. According to the complaint, the manager's emails demonstrated that allegedly unlawful dark pool trades were "executed quietly and efficiently over a four-day period through algorithms and dark pools and booked into two firm accounts with very limited viewing access."<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='Neal E. Sullivan and Gerald J. Russello , "D ark Pool Trading Is Not Shielded f rom Regulatory Spotlight, " New York Law Journal , January 31, 2013, available at http://www.newyorklawjournal.com/id=1202586322320/%27Dark-Pool%27-Trading-Is-Not-Shielded-From-Regulatory-Spotlight?slreturn=20140510172105 .'>37</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752665"></a><a name="_Toc1049963"></a><a name="_Toc1050868"></a>Price Discovery</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because dark pools, which collectively account for a significant portion of trades in many stocks, do not publicly disseminate pre-trade data, there is concern that stock prices on the lit venues may not reflect the actual market price, thus impeding the price discovery process. Related to this is the fact that a large proportion of orders executed on dark pools offer either no or limited price discovery; those prices derive from either the midpoint of quoted bid and ask prices on the lit markets or somewhere else between those prices. The potentially detrimental role played by dark pools in overall price discovery is a central public policy concern surrounding the pools. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A rejoinder to the notion that dark pools undermine price discovery comes from Tabb, a securities market researcher: "While there is, no doubt, some amount of off exchange volume that would adversely impact price discovery, it does not appear that the market is anywhere near that level. Furthermore, there does not appear to be an upward trend suggesting the market should be concerned. Accordingly, at this point in time the price discovery mechanism does not appear threatened."<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title='" Dark Pools: Truth and Fiction ," Tabb , S eptember 2012 , available at http://tabbforum.com/opinions/dark-pools-truth-and-fiction .'>38</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most of the empirical examinations of dark pools have focused on the relationship between dark pools and price discovery and market quality. After an SEC review of such studies, SEC Chairwoman Mary Jo White remarked that "the current extent of dark trading can sometimes detract from market overall quality, including the informational efficiency of prices."<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="Mary Jo White , &quot; Enhancing Our Equity Market Structure ,&quot; s peech at Sandler O'Neill &amp; Partners, L.P. Global Exchange and Brokerage Conference, June 5, 2014, available at http://www.sec.gov/News/Speech/Detail/Speech/1370542004312#.U-FMKrE1Pg .">39</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Research from Hatheway et al.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title='Frank Hatheway, Amy Kwan, and Hui Zheng, "An Empirical Analysis of Market Segmentation on U.S. Equities Markets," SSRN , June 5, 2013, available at http://ssrn.com/abstract=2275101 .'>40</a></sup> found that the regulatory exemptions possessed by dark pools, including exemptions from compliance with fair (investor) access rules and pre-trade data display rules, enables them to "segregate order flow based on asymmetric information risk, which results in their transactions being less informed and contributing less to price discovery on the consolidated market." On balance, the research concluded that "the effects of order segmentation by dark venues are damaging to overall market quality except for the execution of large [block] transactions."<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="Ibid.">41</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another study analyzed Canadian dark trading before and after the advent of minimum price improvement rules in October 2012, which generally required dark trading venues to provide price improvements to prevailing lit market quotes before they could execute orders. The research by Foley and Putniņš divided trading in dark pools into two types:<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title='Sean Foley and T alis Putniņš, "Should We Be Afraid of the Dark? Dark Trading and Market Quality," SSRN , June 25, 2014, available at http://dx.doi.org/10.2139/ssrn.2279719 .'>42</a></sup> </p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. <em>One-sided trading</em>, which takes place at a single price, such as the midpoint of the national best bid and offer. The trading is also characterized by the fact that at any point in time, dark liquidity can exist only on the buy side or the sell side of a transaction but not both. It is also depicted as having relatively low execution probability, especially for informed traders.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="Informed traders are traders who se trading decisions are informed by the use of analysis such as fundamental or technical information about a security 's value . U ninformed traders are traders whose trading decisions are based only on their observ ations of a security's share price histor y.">43</a></sup> The trading also tends to involve the imperfect concealment of trading intentions from rival traders.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title='Foley and Putniņš, "Should We Be Afraid of the Dark?"'>44</a></sup> </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. <em>Two-sided trading</em>, which takes place at different prices on both the buy and sell sides of the market. Compared with one-sided dark trading, traders in a two-sided dark market can immediately execute their orders if there is liquidity on both the buy and the sell sides of a potential trade. Also, in contrast to one-sided trading, these trades tend to provide better concealment of a trader's intentions.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="Ibid.">45</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The research is potentially significant because it does not treat dark pool trading as homogeneous (as many studies do) but as varied and distinctive. Such differences, the researchers concluded, can manifest themselves through markedly different market impacts: The authors found that two-sided dark trading tends to benefit market liquidity, facilitate pricing, and contribute to informational efficiency in moderate levels of trading. Two-sided dark pool trading was also found to have lowered bid-ask spreads—a key component of overall investor transactions—and reduced the delay with which stock prices reflect market-wide information. On the other hand, the researchers also found that one-sided dark pool trading had a modestly negative impact on a number of measures of market quality.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="Ibid.">46</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752666"></a><a name="_Toc1049964"></a><a name="_Toc1050869"></a>Regulatory Developments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Securities regulators have recently adopted or laid the groundwork for dark-pool-related regulatory regimes. One completed regulatory development is a FINRA-based ATS trading data disclosure regime. A pending initiative will be a pilot project to be overseen by the SEC that will assess a protocol in which off-exchange trading venues, including dark pools, would be able to execute orders only if they could provide a significant price improvement or a significant size improvement. The protocol is known as the "trade-at" rule. These developments are discussed below. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752667"></a><a name="_Toc1049965"></a><a name="_Toc1050870"></a>FINRA's New Trade Data Disclosure Requirements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In May 2014, FINRA began requiring ATSs, including dark pools, to report their aggregate weekly volume of transactions and number of trades by security, data that FINRA then reports on its website on a delayed basis. In November 2014, FINRA will require ATSs, including dark pools, to employ a unique identifier called a <em>market participation identifier</em> when reporting information.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='Financial Industry Regulatory Authority, "Alternative Trading Systems: SEC Approves New Requirements for Alternative Trading Systems," February 2014, available at http://www.finra.org/web/groups/industry/@ip/@reg/@notice/documents/notices/p446087.pdf .'>47</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FINRA has said that the rules will, among other things, "enhance FINRA's regulatory and automated surveillance efforts by enabling it to obtain more granular information regarding activity conducted on or through individual ATSs as well as FINRA's ability to determine whether an ATS is subject to any provisions of Regulation ATS that are triggered by exceeding certain trading volume thresholds."<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title='Securities and Exchange Commission, " Self-Regulatory Organizations; Financial Industry Regulatory Authority, Inc.; Notice of Filing of Proposed Rule Change to Require Alternative Trading Systems to Report Volume Information to FINRA and Use Unique Market Participant Identifiers ," October 11, 2013 , available at http://www.sec.gov/rules/sro/finra/2013/34-70676.pdf .'>48</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752668"></a><a name="_Toc1049966"></a><a name="_Toc1050871"></a>The "Trade-at" Rule</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On June 24, 2014, the SEC ordered the national stock exchanges, the NASDAQ, and FINRA to establish a yearlong pilot program that would require several hundred lightly traded and more illiquid stocks to trade in five-cent minimum increments rather than the current regime's one-cent convention. Specifically, the pilot will consist of a control group and two test groups with 300 stocks each and will include stocks of companies that have a market capitalization of below $5 billion, an average daily trading volume of 1 million shares, and a share price of at least $2.00. The test group is to be the same as the control group but will allow for certain exceptions to the five-cent trading tick requirement.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title='Securities and Exchange Commission, "Order Directing the Exchanges and the Financial Industry Regulatory Authority t o Submit a Tick Size Pilot Plan," June 24, 2014, available at http://www.sec.gov/rules/other/2014/34-72460.pdf . On August 26, 2014, the SEC announced that the national securities exchanges and FINRA had filed a proposal to create a national market system plan to implement the pilot program. Securities and Exchange Commission, "SEC Announces Pilot Plan to Assess Stock Mar...'>49</a></sup> The second test group will be similar to the first group but will also provide a test of the trade-at rule. The pilot is expected to last several years.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Various proponents of a system-wide increase in minimum trading increments have argued that it would help increase the bid-ask spread for trades in relatively illiquid stocks of small companies.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title='For example, see David Weild, Edward Kim , and Lisa Newport , " The T rouble with S mall T ick S izes ," Grant Thornton , September 2012, available at http://www.sec.gov/info/smallbus/acsec/acsec-backgroundmaterials-090712-weild-article.pdf .'>50</a></sup> They say that this, in turn, should translate into greater broker profits, giving brokers greater incentives to research and promote relatively low-visibility stocks. The SEC has said that the pilot will provide "the means to continue to gather further information and views on the impact of decimalization on the liquidity and trading of the securities of small capitalization companies."<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title='Securities and Exchange Commission, "Order Directing the Exchanges ."'>51</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Exchange owners, including owners of the NYSE and Nasdaq, have advocated such a trade-at rule. They have seen a migration of significant portions of their trading volume to dark trades. However, brokerage firms as well as the exchange BATS, which is owned by a brokerage firm that owns a dark pool, are reportedly critical of such trade-at rules.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="For example, see Renee Caruthers , &quot;SEC Likely to Include 'Trade-at' Provision in Tick-Size Pilot Program,&quot; Fierce Finance , May 27, 2014, available at http://www.fiercefinanceit.com/story/sec-likely-include-trade-provision-tick-size-pilot-program/2014-05-27 .">52</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On the rationale behind the trade-at rule pilot, the SEC explained, "When quoting and trading increments are widened in the absence of a trade-at requirement, the Commission preliminarily believes there is a possibility trading volume could migrate away from 'lit venues.' … [Thus the pilot] should test whether a trade-at requirement would stem the potential migration of trading volume away from these lit venues."<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title='Securities and Exchange Commission, "Order Directing the Exchanges ."'>53</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752669"></a><a name="_Toc1049967"></a><a name="_Toc1050872"></a>Canada and Australia Adopt "Trade-at" Rules</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2012 and 2013, Canada and Australia (respectively) instituted system-wide trade-at rules for off-exchange orders, including in dark pools. The rules were aimed in part at reducing the level of smaller-sized off-exchange trades. To be executed, quotes for smaller-sized orders in a given stock on an off-exchange venue such as a dark pool must generally represent a meaningful price improvement over the quotes simultaneously displayed on exchanges. Research by Foley and Putniņš, described above, found that Canada's trade-at regulation reduced the level of dark trading but also led to a shift away from two-sided dark trading, which they found tends to benefit market quality, and toward one-sided dark trading, which they found tends to reduce market quality.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title='Foley and Putniņš, " Should We Be Afraid of the Dark? "'>54</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752670"></a><a name="_Toc1049968"></a><a name="_Toc1050873"></a>The Potential for Fut<a name="_GoBack"></a>ure Regulation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In June 2014, Mary Jo White asked agency staff to draft recommendations for expanding the scope of the operational disclosures that dark pools and other ATSs might provide to both the SEC and the public. In addition, with a possible eye toward future regulatory actions, White noted that the agency would "continue to examine whether dark trading volume is approaching a level that risks seriously undermining the quality of price discovery provided by lit venues."<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title='White , "Enhancing Our Equity Market Structure . "'>55</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752671"></a><a name="_Toc1049969"></a><a name="_Toc1050874"></a>Enforcement Developments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Regulators and law enforcement authorities have taken a number of enforcement actions against dark pool owners for violations of laws or regulations. This section describes some examples of such actions, including a 2014 civil suit by the New York attorney general against Barclays, one of the largest dark pool operators, and some enforcement actions undertaken by the SEC and FINRA.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752672"></a><a name="_Toc1049970"></a><a name="_Toc1050875"></a>New York Attorney General Sues Barclays</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On June 25, 2014, New York Attorney General Eric Schneiderman filed a civil action with the state supreme court against one of the largest dark pool operators, the U.K.-based financial firm Barclays. The lawsuit charged, under New York state law's Martin Act, that Barclays falsified marketing material related to the extent and type of HFT in its dark pool. Another charge was that the firm falsely claimed that it was able to "restrict" HFT firms from interacting with its other clients but noted that it did not actually monitor such things.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="The full text of the complaint is available at http://online.wj.com/public/resources/documents/barclays062514.pdf .">56</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Referencing the case, some observers reiterated the fact that institutional investors are often attracted to dark pools because they have offered some protection against their large orders being spotted before they are fully executed. They then noted that if an HFT firm becomes aware of such an institutional stock order early on, the firm could then jump in and acquire the stock ahead of the institutional investor, potentially raising the investor's costs.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title='Melvin Backman , "NY Attorney General Goes after Barclays," CNN Money , June 26, 2014, available at http://money.cnn.com/2014/06/25/investing/barclays-ny-ag-lawsuit/  .'>57</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Speaking about some of the possible implications of the Barclays suit, Justin Schack, Rosenblatt's managing director of market structure analysis, reportedly observed: "The problem isn't that [HFT] firms are participating in dark pools. That's pretty widely known, it's not necessarily bad and it's happening in most of the major ones.… [The troubling allegation is] that the broker lied to clients about the presence of a big HFT firm."<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title='Nicole Bullock, "Momentum Builds for Dark Pool Reform," Financial Times , June 26, 2014, available at http://www.rblt.com/news_details.aspx?id=258 . Others, however, argue that there are a number of dark pools that "seek to restrict the eligible trading population. Access can depend on whether a given dark pool admits institutional investors, some or all broker dealers, high-frequency traders, and specific execution algorithms. In the extreme, a few dark pools design their rules and mon...'>58</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition, Columbia law professor John C. Coffee Jr. has decried the fact that the people who actually understand the workings of dark pools is probably only in the hundreds.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title='John C. Coffee Jr. " High Frequency Trading Reform: The Short Term and the Longer Term ," CLS Blue Sky Blog , July 21, 2014, available at http://clsbluesky.law.columbia.edu/2014/07/21/high-frequency-trading-reform-the-short-term-and-the-longer-term/  .'>59</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In congressional testimony, White has attempted to assure Congress of the adequacy of the agency's oversight of dark pools. She said that the agency has "taken a data-driven, disciplined approach to addressing complex market structure issues, such as high-frequency trading and dark pools, [and is] implementing a powerful new analytical tool called MIDAS [the Market Information Data Analytics System, a market analysis system that combines advanced technologies with empirical data that is designed to give the SEC added insight into securities markets]."<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="See White's comments in CQ Congressional Transcripts , &quot; House Appropriations Subcommittee on Financial Services and General Government Holds Hearing on President Obama 's Proposed Fiscal 2015 Budget Request for the Securities and Exchange Commission ,&quot; April 1, 2014.">60</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399752673"></a><a name="_Toc1049971"></a><a name="_Toc1050876"></a>SEC and FINRA Probes and Some Enforcement Actions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The SEC and FINRA are both involved in probes of dark pools and their owners with respect to possible violations of securities laws. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some observers have noted that "the SEC has proven a willingness to prosecute dark pool operators for various violations, such as failing to provide the kind of anonymity and discretion that traders expect."<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title='Christopher Mercurio, " Dark Pool Regulation ," Review of Banking &amp; Financial Law , vol. 33 (2014), available at http://www.bu.edu/rbfl/files/2014/03/RBFL-V.-33_1_Mercurio.pdf .'>61</a></sup> Regulatory probes may lead to such cases. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The SEC reportedly first fined a dark pool owner in 2011. For allegations involving customer misrepresentation, the agency levied a $1 million fine on Pipeline Trading Systems for failing to disclose to Pipeline's "dark pool customers" that an affiliate actually filled most of the customers' orders.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title='Securities and Exchange Commission, "Alternative Trading System Agrees to Settle Charges That It Failed to Disclose Trading by an Affiliate," October 24, 2011, available at http://www.sec.gov/news/press/2011/2011-220.htm .'>62</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The agency's ongoing probe of dark pools reportedly involves the pools' proper disclosure to clients about how they operate, fair treatment of investors, and protection of confidential client information, among other things. Barclays dark pool is reportedly under investigation by the SEC.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title="Scott Patterson and Jean Hope , &quot;'Dark Pools' Face Probe by U.S. Regulator,&quot; Wall Street Journal , June 11, 2014, available at http://search.proquest.com/docview/1534401670?accountid=12084 .">63</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the aforementioned June 2014 speech, White indicated that the SEC would continue to examine whether dark trading volume is approaching a level that risks undermining the quality of price discovery provided by public exchanges. She also noted that the agency planned to work with FINRA to possibly expand trading disclosures required of dark pools and other off-exchange trading venues.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='White "Enhancing Our Equity Market Structure . "'>64</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2014, FINRA negotiated a settlement with Goldman Sachs, which had allegedly failed to ensure that clients in SIGMA-X, its dark pool, got the best price while trading stocks. The regulator reportedly charged that SIGMA-X executed nearly 400,000 trades between July 29, 2011, and August 9, 2011, at inferior prices and in violation of investor protection rules. Goldman Sachs agreed to pay $800,000 in fines.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='Michael J. Moore , "Goldman Fined $800,000 by Finra over Dark-Pool Pricing," July 1, 2014, Bloomberg , available at http://www.bloomberg.com/news/2014-07-01/goldman-fined-800-000-by-finra-over-dark-pool-pricing.html .'>65</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Meanwhile, FINRA is reportedly seeking information on various dark pools' operations, including what the pools disclose to clients. Based on the answers it receives, the regulator could bring enforcement actions against dark pool operators or issue recommendations for more stringent oversight of the pools.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title='Scott Patterson , "Dark Pools Face Scrutiny," Wall Street Journal , June 5, 2013, available at http://online.wsj.com/news/articles/SB10001424127887324069104578527361102049152 .'>66</a></sup></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Opaque institutional trading is not a new thing: The "upstairs" market has a long history. That market took place off-exchange in the offices of securities brokers. Institutional investors and their potential block trade counterparties negotiated trades by telephone, often with a broker-dealer's intermediation.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "High-frequency trading is an imprecise term with no legal or regulatory definition. It describes a subset of algorithmic trading (AT) that involves very rapid placement of orders, in tiny fractions of a second. AT is the use of computer algorithms to make certain securities trading decisions, submit securities trades, and manage those securities orders after their submission…. Critics of HFT have expressed concerns over market fragility and segmentation. Some observers say that the market liquidity provided by HFT is 'phantom liquidity,' meaning that it is fleeting and transient as orders are posted and then almost immediately cancelled. An additional criticism is that HFT firms may engage in potentially manipulative trading strategies involving frequent quote cancellations. Some HFT firms have also been criticized for illegally front-running other investors' trades through their early peeks of other investors' quotes obtained through their direct trade data feeds from trading venues, an advantage that most other investors do not have…. Supporters of HFT [however] note that increased trading provided by HFT adds market liquidity and reduces market volatility." CRS Insights<em>,</em> <em>Issues Regarding High-Frequency Trading</em>, by Rena S. Miller and Gary Shorter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Exchanges and Alternative Trading Systems and Filing Requirements for Self-Regulatory Organizations Regarding New Derivative Securities Products; Final Rules," 63 <em>Federal Register</em><em> </em>70844-70951, December 22, 1998, available at <a class="ExternalLink" href="http://www.gpo.gov/fdsys/pkg/FR-1998-12-22/html/98-33299.htm"><span class="Hyperlink">http://www.gpo.gov/fdsys/pkg/FR-1998-12-22/html/98-33299.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Securities and Exchange Commission, "SEC Fact Sheet: Strengthening the Regulation of Dark Pools," October 21, 2009, available at <a class="ExternalLink" href="http://www.sec.gov/news/press/2009/2009-223-fs.htm"><span class="Hyperlink">http://www.sec.gov/news/press/2009/2009-223-fs.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Haoxiang Zhu, "Do Dark Pools Harm Price Discovery?," <em>Review of Financial Studies </em>(November 2013), available at <a class="ExternalLink" href="http://dx.doi.org/10.2139/ssrn.1712173"><span class="Hyperlink">http://dx.doi.org/10.2139/ssrn.1712173</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Jacob Bunge, "A Suspect Emerges in Stock-Trade Hiccups: Regulation NMS. Some Say Increasing Complexity of Market Partly Due to Set of Rules," <em>Wall Street Journal</em>, January 27, 2014, available at <a class="ExternalLink" href="http://online.wsj.com/news/articles/SB10001424052702303281504579219962494432336"><span class="Hyperlink">http://online.wsj.com/news/articles/SB10001424052702303281504579219962494432336</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Securities and Exchange Commission, "SEC Adopts Regulation NMS and Provisions Regarding Investment Advisers Act of 1940," press release, April 7, 2005, available at <a class="ExternalLink" href="http://www.sec.gov/news/press/2005-48.htm"><span class="Hyperlink">http://www.sec.gov/news/press/2005-48.htm</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Matthew Philips, "Barclays Probe Casts Ugly Light on Dark Pools," <em>Businessweek</em>, July 2, 2014, available at <a class="ExternalLink" href="http://www.businessweek.com/articles/2014-07-02/barclays-probe-casts-ugly-light-on-dark-pools"><span class="Hyperlink">http://www.businessweek.com/articles/2014-07-02/barclays-probe-casts-ugly-light-on-dark-pools</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Some reports give the figure as 13 exchanges.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Haoxiang Zhu, "Do Dark Pools Harm Price Discovery?"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Nathaniel Popper, "As Market Heats Up, Trading Slips into Shadows," <em>New York Times</em>, March 31, 2013, available at <a class="ExternalLink" href="http://www.nytimes.com/2013/04/01/business/as-market-heats-up-trading-slips-into-shadows.html?pagewanted=all&amp;_r=0"><span class="Hyperlink">http://www.nytimes.com/2013/04/01/business/as-market-heats-up-trading-slips-into-shadows.html?pagewanted=all&amp;_r=0</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Daniel Weaver, "The Trade-At Rule, Internalization, and Market Quality," April 17, 2014, available at <a class="ExternalLink" href="http://ssrn.com/abstract=1846470"><span class="Hyperlink">http://ssrn.com/abstract=1846470</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Michael Lewis, <em>Flash Boys</em> (New York: W. W. Norton &amp; Company, 2014).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more on front-running, please see CRS Report RS21127, <a class="ExternalLink" href="http://www.crs.gov/products/rs/pdf/RS21127.pdf"><em>Federal Securities Law: Insider Trading</em></a>, by Michael V. Seitzinger.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Price discovery is the process by which the current market share price for a given security is established. It is a process that derives from the supply-and-demand dynamics around the security. Economic theory suggests that the greater the expressed interest in a given security, the more accurate a security's market price is likely to be.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Scott Patterson and Jenny Strasburg, "Finra Probes Trading Tied to Credit Suisse Bank," <em>Wall Street Journal</em>, May 21, 2014, available at <a class="ExternalLink" href="http://online.wsj.com/news/articles/SB10001424052702304908304579566311730687146"><span class="Hyperlink">http://online.wsj.com/news/articles/SB10001424052702304908304579566311730687146</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The NBBO shows the highest and lowest offers for a security among all exchanges and market makers. It is updated throughout the day. The lowest priced offer to sell a given security and the highest priced offer to buy that security at any point in time are displayed in the NBBO and do not have to come from the same exchange.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The 2008 estimate is from Tabb, a market research company, as reported in: Scott Patterson, "Dark Pools Face Scrutiny Regulators Ask for Details on Stock Trading in Murkiest Parts of the Market," <em>Wall Street Journal</em>, June 5, 2013, available at <a class="ExternalLink" href="http://online.wsj.com/news/articles/SB1000142412887324069104578527361102049152"><span class="Hyperlink">http://online.wsj.com/news/articles/SB1000142412887324069104578527361102049152</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see the comments of Justin Schack of Rosenblatt Securities in Brendan Conway, "Investors Flee Dark Pools as Market Volatility Erupts," <em>Wall Street Journal</em>, September 2, 2011, available at <a class="ExternalLink" href="http://blogs.wsj.com/marketbeat/2011/09/02/investors-flee-dark-pools-as-market-volatility-erupts/"><span class="Hyperlink">http://blogs.wsj.com/marketbeat/2011/09/02/investors-flee-dark-pools-as-market-volatility-erupts/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Popper, "As Market Heats Up, Trading Slips Into Shadows"; Charlie Bilello, "Brace Yourself For a More Volatile Stock Market," <em>U</em><em>.</em><em>S</em><em>.</em><em> News &amp; World Repo</em><em>rt</em>, March 19, 2014, available at <a class="ExternalLink" href="http://money.usnews.com/money/blogs/the-smarter-mutual-fund-investor/2014/03/19/brace-yourself-for-a-more-volatile-stock-market"><span class="Hyperlink">http://money.usnews.com/money/blogs/the-smarter-mutual-fund-investor/2014/03/19/brace-yourself-for-a-more-volatile-stock-market</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam Mamudi, "Dark Pools Private Stock Trading vs. Public Exchanges," <em>Bloomberg</em>, June 27, 2014. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Dave Michaels, "Trading Rebates Skew Markets, NYSE and Allies Tell SEC," <em>Bloomberg</em>, February 21, 2014, available at <a class="ExternalLink" href="http://www.bloomberg.com/news/2014-02-21/trading-rebates-skew-markets-nyse-and-allies-tell-sec.html"><span class="Hyperlink">http://www.bloomberg.com/news/2014-02-21/trading-rebates-skew-markets-nyse-and-allies-tell-sec.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see "U.S. Equity Market Structure," <em>Blackrock</em>, April 2014, p. 3, available at <a class="ExternalLink" href="http://www.blackrock.com/corporate/en-es/literature/whitepaper/viewpoint-us-equity-market-structure-april-2014.pdf"><span class="Hyperlink">http://www.blackrock.com/corporate/en-es/literature/whitepaper/viewpoint-us-equity-market-structure-april-2014.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Exchanges and Alternative Trading Systems and Filing Requirements," <em>Federal Register</em>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FINRA is overseen by the SEC.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Tanja Boskovic, Caroline Cerruti, and Michel Noël, "Comparing European and U.S. Securities Regulations: MiFID Versus Corresponding U.S. Regulations," <em>World Bank Publications</em>, 2010. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Scott Patterson, <em>Dark Pools: The Rise of the Machine Traders and the Rigging of the U.S. Stock Market</em> (New York: Crown Publishing Group, 2012. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This section was taken from CRS Report R43608, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43608"><em>High-Frequency Trading: Background, Concerns, and Regulatory Developments</em></a>, by Gary Shorter and Rena S. Miller. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Haoxiang Zhu, "Do Dark Pools Harm Price Discovery?"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> International Organization of Securities Commissions, "Issues Raised by Dark Liquidity, Consultation Report," October 2010, available at <a class="ExternalLink" href="http://www.iosco.org/library/pubdocs/pdf/IOSCOPD336.pdf"><span class="Hyperlink">http://www.iosco.org/library/pubdocs/pdf/IOSCOPD336.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Erik R. Sirri, Director, SEC Division of Trading and Market, "Keynote Speech at the SIFMA 2008 Dark Pools Symposium by," February 1, 2008, available at <a class="ExternalLink" href="http://www.sec.gov/news/speech/2008/spch020108ers.htm"><span class="Hyperlink">http://www.sec.gov/news/speech/2008/spch020108ers.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Maureen O'Hara and Mao Ye, "Is Market Fragmentation Harming Market Quality?," SSRN, available at <a class="ExternalLink" href="http://dx.doi.org/10.2139/ssrn.1356839"><span class="Hyperlink">http://dx.doi.org/10.2139/ssrn.1356839</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sirri, "Keynote Speech."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Scott Patterson, "Vow of New Light for 'Dark' Trades," <em>Wall Street Journal</em>, January 8, 2013, available at <a class="ExternalLink" href="http://online.wsj.com/news/articles/SB10001424127887324391104578229610038363372"><span class="Hyperlink">http://online.wsj.com/news/articles/SB10001424127887324391104578229610038363372</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Neal E. Sullivan and Gerald J. Russello, "Dark Pool Trading Is Not Shielded from Regulatory Spotlight," <em>New</em><em> </em><em>York Law Journal</em>, January 31, 2013, available at <a class="ExternalLink" href="http://www.newyorklawjournal.com/id=1202586322320/%27Dark-Pool%27-Trading-Is-Not-Shielded-From-Regulatory-Spotlight?slreturn=20140510172105"><span class="Hyperlink">http://www.newyorklawjournal.com/id=1202586322320/%27Dark-Pool%27-Trading-Is-Not-Shielded-From-Regulatory-Spotlight?slreturn=20140510172105</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Dark Pools: Truth and Fiction," <em>Tabb</em>, September 2012, available at <a class="ExternalLink" href="http://tabbforum.com/opinions/dark-pools-truth-and-fiction"><span class="Hyperlink">http://tabbforum.com/opinions/dark-pools-truth-and-fiction</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mary Jo White, "Enhancing Our Equity Market Structure," speech at Sandler O'Neill &amp; Partners, L.P. Global Exchange and Brokerage Conference, June 5, 2014, available at <a class="ExternalLink" href="http://www.sec.gov/News/Speech/Detail/Speech/1370542004312#.U-FMKrE1Pg"><span class="Hyperlink">http://www.sec.gov/News/Speech/Detail/Speech/1370542004312#.U-FMKrE1Pg</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Frank Hatheway, Amy Kwan, and Hui Zheng, "An Empirical Analysis of Market Segmentation on U.S. Equities Markets," SSRN, June 5, 2013, available at <a class="ExternalLink" href="http://ssrn.com/abstract=2275101"><span class="Hyperlink">http://ssrn.com/abstract=2275101</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sean Foley and Talis Putniņš, "Should We Be Afraid of the Dark? Dark Trading and Market Quality," SSRN, June 25, 2014, available at <a class="ExternalLink" href="http://dx.doi.org/10.2139/ssrn.2279719"><span class="Hyperlink">http://dx.doi.org/10.2139/ssrn.2279719</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Informed traders are traders whose trading decisions are informed by the use of analysis such as fundamental or technical information about a security's value. Uninformed traders are traders whose trading decisions are based only on their observations of a security's share price history. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Foley and Putniņš, "Should We Be Afraid of the Dark?"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Financial Industry Regulatory Authority, "Alternative Trading Systems: SEC Approves New Requirements for Alternative Trading Systems," February 2014, available at <a class="ExternalLink" href="http://www.finra.org/web/groups/industry/@ip/@reg/@notice/documents/notices/p446087.pdf"><span class="Hyperlink">http://www.finra.org/web/groups/industry/@ip/@reg/@notice/documents/notices/p446087.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Securities and Exchange Commission, "Self-Regulatory Organizations; Financial Industry Regulatory Authority, Inc.; Notice of Filing of Proposed Rule Change to Require Alternative Trading Systems to Report Volume Information to FINRA and Use Unique Market Participant Identifiers," October 11, 2013, available at <a class="ExternalLink" href="http://www.sec.gov/rules/sro/finra/2013/34-70676.pdf"><span class="Hyperlink">http://www.sec.gov/rules/sro/finra/2013/34-70676.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Securities and Exchange Commission, "Order Directing the Exchanges and the Financial Industry Regulatory Authority to Submit a Tick Size Pilot Plan," June 24, 2014, available at <a class="ExternalLink" href="http://www.sec.gov/rules/other/2014/34-72460.pdf"><span class="Hyperlink">http://www.sec.gov/rules/other/2014/34-72460.pdf</span></a>. On August 26, 2014, the SEC announced that the national securities exchanges and FINRA had filed a proposal to create a national market system plan to implement the pilot program. Securities and Exchange Commission, "SEC Announces Pilot Plan to Assess Stock Market Tick Size Impact for Smaller Companies," press release, August 26, 2014, available at <a class="ExternalLink" href="http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370542761050#.VBnR_Vdzowd"><span class="Hyperlink">http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370542761050#.VBnR_Vdzowd</span></a>. On September 16, 2014, the House passed <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.5404:"><span class="Hyperlink">H.R. 5404</span></a>, which consolidates 11 existing bills variously aimed at correcting various SEC rules, amending the Dodd-Frank Wall Street Reform and Consumer Protection Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+203)"><span class="Hyperlink">P.L. 111-203</span></a>) and would amend the JOBS Act of 2012 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d112:FLD002:@1(112+106)"><span class="Hyperlink">P.L. 112-106</span></a>). Among the legislation that is incorporated in the bill is <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.3448:"><span class="Hyperlink">H.R. 3448</span></a> (Duffy), which would enable small public companies known as <em>emerging growth companies</em> as defined in the JOBS Act of 2012 to take part in a five-year, optional pilot program that would give them the ability to quote and trade stocks in five- and 10-cent increments. Under the bill, the SEC would be charged with both designing and operating the pilot. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see David Weild, Edward Kim, and Lisa Newport, "The Trouble with Small Tick Sizes," Grant Thornton, September 2012, available at <a class="ExternalLink" href="http://www.sec.gov/info/smallbus/acsec/acsec-backgroundmaterials-090712-weild-article.pdf"><span class="Hyperlink">http://www.sec.gov/info/smallbus/acsec/acsec-backgroundmaterials-090712-weild-article.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Securities and Exchange Commission, "Order Directing the Exchanges."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, see Renee Caruthers, "SEC Likely to Include 'Trade-at' Provision in Tick-Size Pilot Program," <em>Fierce Finance</em>, May 27, 2014, available at <a class="ExternalLink" href="http://www.fiercefinanceit.com/story/sec-likely-include-trade-provision-tick-size-pilot-program/2014-05-27"><span class="Hyperlink">http://www.fiercefinanceit.com/story/sec-likely-include-trade-provision-tick-size-pilot-program/2014-05-27</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Securities and Exchange Commission, "Order Directing the Exchanges."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Foley and Putniņš, "Should We Be Afraid of the Dark?" </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> White, "Enhancing Our Equity Market Structure."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The full text of the complaint is available at <a class="ExternalLink" href="http://online.wj.com/public/resources/documents/barclays062514.pdf"><span class="Hyperlink">http://online.wj.com/public/resources/documents/barclays062514.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Melvin Backman, "NY Attorney General Goes after Barclays," <em>CNN Money</em>, June 26, 2014, available at <a class="ExternalLink" href="http://money.cnn.com/2014/06/25/investing/barclays-ny-ag-lawsuit/"><span class="Hyperlink">http://money.cnn.com/2014/06/25/investing/barclays-ny-ag-lawsuit/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Nicole Bullock, "Momentum Builds for Dark Pool Reform," <em>Financial</em><em> </em><em>Times</em>, June 26, 2014, available at <a class="ExternalLink" href="http://www.rblt.com/news_details.aspx?id=258"><span class="Hyperlink">http://www.rblt.com/news_details.aspx?id=258</span></a>. Others, however, argue that there are a number of dark pools that "seek to restrict the eligible trading population. Access can depend on whether a given dark pool admits institutional investors, some or all broker dealers, high-frequency traders, and specific execution algorithms. In the extreme, a few dark pools design their rules and monitor trading in an attempt to limit access to buy-side…institutional investors." Leslie Boniy, David C. Brownz, and J. Chris Leach, "Dark Pool Exclusivity Matters, SSRN, December 19, 2013, <a class="ExternalLink" href="http://ssrn.com/abstract=2055808"><span class="Hyperlink">http://ssrn.com/abstract=2055808</span></a> or <a class="ExternalLink" href="http://dx.doi.org/10.2139/ssrn.2055808"><span class="Hyperlink">http://dx.doi.org/10.2139/ssrn.2055808</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> John C. Coffee Jr. "High Frequency Trading Reform: The Short Term and the Longer Term," <em>CLS Blue Sky Blog</em>, July 21, 2014, available at <a class="ExternalLink" href="http://clsbluesky.law.columbia.edu/2014/07/21/high-frequency-trading-reform-the-short-term-and-the-longer-term/"><span class="Hyperlink">http://clsbluesky.law.columbia.edu/2014/07/21/high-frequency-trading-reform-the-short-term-and-the-longer-term/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See White's comments in <em>CQ Congressional Transcripts</em>, "House Appropriations Subcommittee on Financial Services and General Government Holds Hearing on President Obama's Proposed Fiscal 2015 Budget Request for the Securities and Exchange Commission," April 1, 2014. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Christopher Mercurio, "Dark Pool Regulation," <em>Review of Banking &amp; Financial Law</em>, vol. 33 (2014), available at <a class="ExternalLink" href="http://www.bu.edu/rbfl/files/2014/03/RBFL-V.-33_1_Mercurio.pdf"><span class="Hyperlink">http://www.bu.edu/rbfl/files/2014/03/RBFL-V.-33_1_Mercurio.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Securities and Exchange Commission, "Alternative Trading System Agrees to Settle Charges That It Failed to Disclose Trading by an Affiliate," October 24, 2011, available at <a class="ExternalLink" href="http://www.sec.gov/news/press/2011/2011-220.htm"><span class="Hyperlink">http://www.sec.gov/news/press/2011/2011-220.htm</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Scott Patterson and Jean Hope, "'Dark Pools' Face Probe by U.S. Regulator," <em>Wall Street Journal</em>, June 11, 2014, available at <a class="ExternalLink" href="http://search.proquest.com/docview/1534401670?accountid=12084"><span class="Hyperlink">http://search.proquest.com/docview/1534401670?accountid=12084</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> White "Enhancing Our Equity Market Structure."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Michael J. Moore, "Goldman Fined $800,000 by Finra over Dark-Pool Pricing," July 1, 2014, <em>Bloomberg</em>, available at <a class="ExternalLink" href="http://www.bloomberg.com/news/2014-07-01/goldman-fined-800-000-by-finra-over-dark-pool-pricing.html"><span class="Hyperlink">http://www.bloomberg.com/news/2014-07-01/goldman-fined-800-000-by-finra-over-dark-pool-pricing.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Scott Patterson, "Dark Pools Face Scrutiny," <em>Wall Street Journal</em>, June 5, 2013, available at <a class="ExternalLink" href="http://online.wsj.com/news/articles/SB10001424127887324069104578527361102049152"><span class="Hyperlink">http://online.wsj.com/news/articles/SB10001424127887324069104578527361102049152</span></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
