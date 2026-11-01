@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-01T01:16:36.986300+00:00",
+  "run_at": "2026-11-01T16:50:36.684459+00:00",
   "window_start_inclusive": "2026-10-25",
   "window_end_inclusive": "2026-11-01",
   "lookback_days": 7,
@@ -36,6 +36,14 @@
       "api_version": 15,
       "pdf_revisions": [
         "17"
+      ],
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
+    },
+    {
+      "id": "IF11734",
+      "api_version": 2,
+      "pdf_revisions": [
+        "4"
       ],
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
@@ -179,7 +187,7 @@
       "id": "R44263",
       "api_version": 15,
       "pdf_revisions": [
-        "14"
+        "16"
       ],
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
@@ -243,7 +251,7 @@
       "id": "R46943",
       "api_version": 8,
       "pdf_revisions": [
-        "9"
+        "11"
       ],
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
@@ -310,26 +318,26 @@
       ]
     },
     {
-      "id": "R43739",
+      "id": "R43811",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "id": "R43785",
+      "id": "R43849",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "historical_backfill_remaining": 248,
+      "historical_backfill_remaining": 246,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "41260377418",
+  "github_run_id": "41328346584",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 117,
@@ -347,14 +355,6 @@
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     },
     {
-      "id": "R44263",
-      "historical_publication": "2024-11-04",
-      "official_publication": "2026-10-30",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44263/R44263.16.pdf",
-      "official_pdf_sha256": "772d86201d2d8e8d11161802628f7686b89135b3535c9543340b423d6394c7fe",
-      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
-    },
-    {
       "id": "96-548",
       "historical_publication": "2019-07-22",
       "official_publication": "2026-10-30",
@@ -365,23 +365,23 @@
   ],
   "catalog_reports": 23594,
   "candidate_reports": 52,
-  "planned_versions": 55,
+  "planned_versions": 54,
   "attempted_versions": 52,
   "successful_versions": 52,
   "new_pdf_versions": 2,
-  "total_archived_pdf_versions": 645,
-  "total_html_snapshots": 490,
-  "total_pdf_bytes": 518524475,
+  "total_archived_pdf_versions": 647,
+  "total_html_snapshots": 492,
+  "total_pdf_bytes": 520863894,
   "pending_reports": 0,
   "pending_versions": 1,
-  "historical_pending_versions": 248,
+  "historical_pending_versions": 246,
   "historical_new_pdf_versions": 2,
   "primary_new_pdf_versions": 0,
-  "api_requests": 6,
-  "api_remaining_quota": 4,
+  "api_requests": 5,
+  "api_remaining_quota": 5,
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-11-01T01:17:22.887557+00:00",
-  "last_successful_run_at": "2026-11-01T01:17:22.887557+00:00"
+  "finished_at": "2026-11-01T16:51:17.297369+00:00",
+  "last_successful_run_at": "2026-11-01T16:51:17.297369+00:00"
 }

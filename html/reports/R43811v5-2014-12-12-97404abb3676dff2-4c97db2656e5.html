@@ -1,0 +1,1075 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R43811.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Cash Versus Accrual Basis of Accounting: An Introduction</div>
+<div class="CoverDate">Updated December 12, 2014
+            (R43811)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc1029112"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc1029113"><span class="Hyperlink">Recent Legislative Developments</span></a></li>
+<li class="TOC2"><a href="#_Toc1029114"><span class="Hyperlink">Tax Policy</span></a></li>
+<li class="TOC2"><a href="#_Toc1029115"><span class="Hyperlink">U.S. Government Financial Reports</span></a></li>
+<li class="TOC1"><a href="#_Toc1029116"><span class="Hyperlink">Basis of Accounting: Concepts and Principles</span></a></li>
+<li class="TOC2"><a href="#_Toc1029117"><span class="Hyperlink">Cash Basis</span></a></li>
+<li class="TOC2"><a href="#_Toc1029118"><span class="Hyperlink">Accrual Basis</span></a></li>
+<li class="TOC1"><a href="#_Toc1029119"><span class="Hyperlink">Examples of Cash Versus Accrual Basis of Accounting</span></a></li>
+<li class="TOC2"><a href="#_Toc1029120"><span class="Hyperlink">Scenario 1: Payment Received in the First Year</span></a></li>
+<li class="TOC3"><a href="#_Toc1029121"><span class="Hyperlink">Cash Basis</span></a></li>
+<li class="TOC3"><a href="#_Toc1029122"><span class="Hyperlink">Accrual Basis</span></a></li>
+<li class="TOC3"><a href="#_Toc1029123"><span class="Hyperlink">Payment Received in the First Year—Income Statement and Balance Sheet Perspective for Figures 1-3</span></a></li>
+<li class="TOC2"><a href="#_Toc1029124"><span class="Hyperlink">Scenario 2: Payment Received in the Second Year</span></a></li>
+<li class="TOC3"><a href="#_Toc1029125"><span class="Hyperlink">Cash Basis</span></a></li>
+<li class="TOC3"><a href="#_Toc1029126"><span class="Hyperlink">Accrual Basis</span></a></li>
+<li class="TOC3"><a href="#_Toc1029127"><span class="Hyperlink">Payment Received in the Second Year—Income Statement and Balance Sheet Perspective for Figures 4-6</span></a></li>
+<li class="TOC1"><a href="#_Toc1029128"><span class="Hyperlink">Conclusion</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc1029104"><span class="Hyperlink">Figure 1. ONSS's Beginning Financial Statements, January 1, 2015</span></a></li>
+<li><a href="#_Toc1029105"><span class="Hyperlink">Figure 2. ONSS's Year-End Financial Statements, December 31, 2015</span></a></li>
+<li><a href="#_Toc1029106"><span class="Hyperlink">Figure 3. ONSS's Year-End Financial Statements, December 31, 2016</span></a></li>
+<li><a href="#_Toc1029107"><span class="Hyperlink">Figure 4. ONSS's Beginning Financial Statements, January 1, 2015</span></a></li>
+<li><a href="#_Toc1029108"><span class="Hyperlink">Figure 5. ONSS's Year-End Financial Statements, December 31, 2015</span></a></li>
+<li><a href="#_Toc1029109"><span class="Hyperlink">Figure 6. ONSS's Year-End Financial Statements, December 31, 2016</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc1029110"><span class="Hyperlink">Table 1. Comparison Between Accrual and Cash Basis of Accounting</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc1029111"><span class="Hyperlink">Appendix. Definitions: Principles, Concepts, and Terminology</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report introduces two general methods of accounting—the cash basis method and accrual basis method. The choice of accounting method determines the timing of the recognition of revenue and expenses. Under cash basis accounting, revenue and expenses are recorded when cash is actually paid or received. Under accrual basis accounting, revenue is recorded when it is earned and expenses are reported when they are incurred. Understanding the differences between these two accounting methods could be helpful to Congress as it considers reforming the tax system and changing the federal government's financial reporting requirements.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Currently with certain exceptions, the Internal Revenue Code (IRC) requires some companies with gross receipts in excess of $5 million to use accrual basis, instead of cash basis, of accounting to determine their tax liabilities. The IRC's requirement to use the accrual method, arguably, ensures that revenue and the expenses incurred to generate that revenue are realized in the same year. Types of companies that may be excepted from using accrual basis of accounting for income taxes are sole proprietors and certain qualified personal service corporations (PSCs) in such fields as health, law, engineering, accounting, performing arts, and consulting firms, as well as farms that are not corporations or do not have a corporate partner. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some Members of Congress have put forth proposals to revise the circumstances under which certain companies are able to use cash method. House Ways and Means Committee Chairman Dave Camp introduced <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>, the Tax Reform Act of 2014, on December 10, 2014. Among the changes proposed in the bill is the requirement that some partnerships, S corporations, and PSCs use the accrual method instead of the cash method to determine their federal taxable liability. Specifically, these business types would be required to use the accrual method if their average annual gross receipts exceeded $10 million. Former Senate Committee on Finance Chairman Max Baucus included a similar provision in his Cost Recovery and Accounting staff discussion draft, which has not been formally introduced as legislation. The Small Business Accounting and Tax Simplification Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.947:"><span class="Hyperlink">H.R. 947</span></a>), Start-up Jobs and Innovation Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1658:">S. 1658</a>), and Small Business Tax Certainty and Growth Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1085:"><span class="Hyperlink">S. 1085</span></a>), introduced in the 113<sup>th</sup> Congress, would raise the gross receipt test limit from $5 million to $10 million.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The President's budget is prepared primarily using cash basis. The <em>Financial Report of the United States Government</em> is prepared using both accrual and modified cash basis. For the past 17 years, the Government Accountability Office (GAO) has issued a disclaimer of opinion on the <em>Financial Report of the United States Government</em>. One of the reasons stated by GAO for the disclaimer of opinion for the 2013 financial report was that the federal government's process for preparing the consolidated financial statements was ineffective to determine whether the financial reports were presented fairly in accordance with U.S. Generally Accepted Accounting Principles (GAAP). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A number of congressional proposals would change how the U.S. government's financial reports are prepared. In the 113<sup>th</sup> Congress, the GAAP Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.476:"><span class="Hyperlink">H.R. 476</span></a>) and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.Res.545:"><span class="Hyperlink">H.Res. </span><span class="Hyperlink">545</span></a> would require the federal government's budget, financial reports, and performance evaluation reports to be prepared using both cash and accrual method. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report introduces the difference between cash and accrual methods by providing an overview of concepts and theories that underlie these accounting methods. It then explores these concepts through the business cycle of a fictitious small business and how the basis of accounting would affect the financial condition of the business.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Businesses generally use one of two accounting methods for calculating their federal tax liabilities or for financial reporting. The choice of accounting method determines the timing of the recognition of revenue and expenses. Under cash basis accounting, revenue and expenses are recorded when cash is actually paid or received. Under accrual basis accounting, revenue is recorded when it is earned and expenses are reported when they are incurred. In other words, under accrual accounting revenue and expenses are recognized regardless of when payment is actually made or received. A number of recent congressional proposals would change the tax accounting requirements for certain businesses, which could result in changes in tax liabilities. Similarly, a number of proposals would change how the U.S. government's financial reports are prepared. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report introduces the differences between cash and accrual methods of accounting. The explanations and examples provided in this report emphasize the central concepts needed to understand cash and accrual method of accounting. A detailed discussion of the many complex technical accounting details that would need to be carefully considered if current requirements were to be changed is beyond the scope of this report. A brief presentation of some of the most useful technical concepts appears in the <a class="InternalLink" href="#_Ref402278484"><strong></strong><strong>Appendix</strong></a>.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494202"></a><a name="_Toc264363"></a><a name="_Toc1029113"></a>Recent Legislative Developments</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494203"></a><a name="_Toc264364"></a><a name="_Toc1029114"></a>Tax Policy</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Internal Revenue Code (IRC) generally requires businesses with average gross receipts in excess of $5 million to use accrual accounting rather than the cash method for tax purposes. Prior to the enactment of the Tax Reform Act of 1986, (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d099:FLD002:@1(99+514)"><span class="Hyperlink">P.L. 99-514</span></a>) businesses were allowed to elect various methods of accounting for reporting revenue and expenses that were then used to determine their tax liabilities. The IRC's current requirement that certain businesses use the accrual method arguably addresses the concern that if related revenue and expense items that contribute to income are assigned to different years, then neither year's income nor tax liability will be properly reported by the business.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Joint Committee on Taxation (JCT), Tax Reform Proposals: Accounting Issues , JCS-39-85, Washington, DC, September 13, 1985, https://www.jct.gov/publications.html?func=startdown&amp;id=3394 .">1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the current IRC, an exception exists for certain farms, partnerships, S corporations, and Personal Service Corporations (PSCs)—allowing these entities to use cash accounting regardless of their average gross receipts. These entities are considered pass-through entities, in which the tax liability is generally paid by the owners of the business and not directly by the business. For other businesses with gross receipts of less than $5 million, the cash method of accounting is available to determine tax liability as it is easier for record keeping and requires less effort. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, legislation has been introduced that would raise the threshold. Specifically, the Small Business Accounting and Tax Simplification Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.947:"><span class="Hyperlink">H.R. 947</span></a>), Start-up Jobs and Innovation Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1658:"><span class="Hyperlink">S. 1658</span></a>), and Small Business Tax Certainty and Growth Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.1085:"><span class="Hyperlink">S. 1085</span></a>) would each expand the use of cash method accounting by raising the threshold of average gross receipts to $10 million from $5 million. Similar legislation was introduced in the 112<sup>th</sup> Congress, the Small Business Tax Simplification Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.4643:"><span class="Hyperlink">H.R. 4643</span></a>).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Tax Reform Act of 2014, formally introduced as <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.1:"><span class="Hyperlink">H.R. 1</span></a> by House Ways and Means Chairman Dave Camp on December 10, 2014, would more broadly modify the rules surrounding the choice of accounting method for some businesses. In addition to raising the threshold from $5 million to $10 million, the bill would require certain partnerships, S corporations, and PSCs to use accrual basis of accounting when their average annual gross receipts exceed $10 million. Raising the threshold would expand the use of cash accounting, for businesses with gross receipts between $5 million and $10 million. Former Senate Committee on Finance Chairman Max Baucus included a similar provision in his Cost Recovery and Accounting staff discussion draft, which has not been formally introduced as legislation. The proposals would restrict the use of cash accounting for certain types of businesses, making it unclear how these proposals would affect the use of cash accounting overall. The Joint Committee on Taxation has estimated that these modifications proposed by <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.1:"><span class="Hyperlink">H.R. 1</span></a> would increase revenue by $23.6 billion over 10 years.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="JCT, Estimated Revenue Effects of the Tax Reform Act of 2014 , JCX-20-14, Washington, DC, February 26, 2014, p. 7, https://www.jct.gov/publications.html?func=startdown&amp;id=4562 .">2</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Forms of Business Organizations</p>
+<p class="TableText" style=""><em>Sole Proprietorships</em>—A sole proprietor is an individual who owns an unincorporated business.</p>
+<p class="TableText" style=""><em>Partnerships</em><sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="26 U.S.C. §7701(a)(2).">3</a></sup>—A partnership is formed between two or more persons who join to create a business. Each person contributes money, property, labor or skill, and expects to share in the profits or losses of the business.</p>
+<p class="TableText" style=""><em>S Corporations</em><sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="26 U.S.C. §1361(a).">4</a></sup>—An S corporation is a company that elect to pass corporate income, losses, deductions, and credits through to its shareholders for tax purposes. S corporation shareholders report flow-through income and losses on their personal tax returns and are assessed tax at their individual income tax rates. This allows an S corporation to avoid double taxation at the company and individual levels of income.</p>
+<p class="TableText" style=""><em>Personal Service Corporations</em><sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="26 U.S.C. §269(A)(b).">5</a></sup>—A PSC is identified as either a personal service corporation or qualified personal service corporation. A corporation is a qualified personal service corporation if it meets both of the following tests:</p>
+<p class="TableText" style="padding-left:18pt;text-indent:-9pt;">1. Substantially all of the corporation's activities involve the performance of services in the fields of health, law, engineering, architecture, accounting, actuarial science, performing arts, or consulting.</p>
+<p class="TableText" style="padding-left:18pt;text-indent:-9pt;">2. At least 95% of the corporation's stock, by value, is owned, directly or indirectly, by employees performing the services listed above, retired employees who had performed such services, any estate of an employee or retiree described above, or any person who acquired the stock of the corporation as a result of the death of an employee or retiree (but only for the two-year period beginning on the date of the employee's or retiree's death).<span class="FootnoteReference"> </span></p>
+<p class="TableText" style="">(Only the forms of business organizations that are relevant to this report are defined above.) For other forms of business organizations not discussed in this report, see CRS Report R43104, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43104"><em>A Brief Overview of Business Types and Their Tax Treatment</em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494204"></a><a name="_Toc264365"></a><a name="_Toc1029115"></a>U.S. Government Financial Reports</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A number of congressional proposals would change how the U.S. government's financial reports are prepared. In the 113<sup>th</sup> Congress, the Generally Accepted Accounting Principles Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.476:"><span class="Hyperlink">H.R. 476</span></a>) would require the federal government's budget, financial reports, and performance evaluation reports to be prepared using both cash and accrual basis of accounting. Another piece of legislation, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.Res.545:"><span class="Hyperlink">H.Res. 545</span></a>, encouraged the use of accrual accounting by expressing the sense of the House of Representatives that the federal government should adopt and use accrual basis generally accepted accounting principles for government budgeting, financial reporting, and performance evaluation purposes. In the 112<sup>th</sup> Congress, Truth in Government Accounting Act of 2011 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3332:"><span class="Hyperlink">H.R. 3332</span></a>), also would have required using both cash and accrual basis of accounting to prepare the government's budget and financial and performance reports.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494205"></a><a name="_Toc264366"></a><a name="_Toc1029116"></a>Basis of Accounting: Concepts and Principles</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494206"></a><a name="_Toc264367"></a><a name="_Toc1029117"></a>Cash Basis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Cash basis of accounting is generally the more popular method to record and report revenue, expenses, and income; it is simpler than accrual accounting. Under cash accounting, income and expenses are recorded when payment is received or made. The cash method does not, however, accurately reflect a company's assets, liabilities, revenues, or expenses.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a business incurs a large expense to provide a service before it has received the payment for the service, the business's financial statements may communicate a distorted financial condition of the business. Similarly, significant distortion on the financial condition of a business is reflected on the financial statements if it has received a large payment but has not yet delivered the product or provided the service. Cash basis accounting requires less effort in bookkeeping but it is not in accordance with the Generally Accepted Accounting Principles (GAAP).<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Generally Accepted Accounting Principles (GAAP) is a common set of standards for the accounting profession that is generally accepted by practitioners and provides a standardized way to report economic events for an entity.">6</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494207"></a><a name="_Toc264368"></a><a name="_Toc1029118"></a>Accrual Basis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Accrual basis of accounting is in accordance with GAAP. U.S.-based publicly traded companies are required to file financial reports<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="The standard set of financial reports for a company would include the balance sheet, income statement, statement of changes in stockholders' equity, and statement of cash flows. The statement of changes in stockholders' equity is also generally called the statement of changes in owners' equity for small businesses.">7</a></sup> with the Securities and Exchange Commission (SEC) under GAAP accounting. The accrual basis differs from the cash basis in when revenue and expenses are recognized and in how assets and liabilities are reported. Accrual accounting provides a better picture of how well a company has performed during the periods measured. For most companies, the reporting period is usually a fiscal quarter or fiscal year. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Accrual accounting's primary focus is on two types of business events. First, from an asset perspective, an accrual is recorded when a service has been performed or a product has been delivered by a company but the payment has not yet been received. Similarly, from a liability perspective, an accrual is recorded when a service or product has been received, but the payment has not yet been made. Second, a deferral is recorded when payment is received before a service is performed or product has been delivered. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although accrual accounting provides consistent measurement and treatment of a business's economic events, it does not readily communicate a business's cash flow. A separate statement of cash flows must be presented along with the balance sheet, income statement, and statement of changes in shareholders' equity for users of the financial information to make informed decisions. The statement of cash flows is a useful tool in determining the short-term viability of a business, especially a company's ability to pay its bills on time. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref402279186"><strong></strong><strong>Table 1</strong></a> compares cash and accrual basis of accounting. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref402279186"></a><a name="_Toc406494197"></a><a name="_Toc264360"></a><a name="_Toc1029110"></a>Table 1. Comparison Between Accrual and Cash Basis of Accounting</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Key Attributes</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cash Basis</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Accrual Basis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Definition</p>
+</td>
+<td style="width:162.1728pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Accounting method in which revenue is recorded when payment is received and expenses are recorded when payment is made.</p>
+</td>
+<td style="width:163.3824pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Accounting method in which revenue is recorded when it is earned and expenses are recorded when they are incurred, regardless of when payment is received.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Income Recognized</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">When payment is received.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">When product is delivered or service is performed.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Expenses Recognized</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">When paid.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">When incurred.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Use with Accounts Payables and Receivables</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Balance sheet does not report payables and receivables.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Balance sheet does report payables and receivables.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Partial Payment or Receipt of Payment</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">No method of tracking partial payment or receipt of payment is available.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Revenues and expenses are recorded in full, even though partial payments may be made over extended periods.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Uncollectible Accounts</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Not reported on cash basis financial statements.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reported if material to the proper presentation of the financial statements under accrual basis of reporting.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Inventory Tracking</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">With some exceptions, inventory is not tracked.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Tracks the use of inventory to record revenue and expenses.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Compliance with GAAP</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Does not meet GAAP requirements.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Meets GAAP requirements.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Record Keeping Time</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Less than accrual basis.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">More than cash basis.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Advantages</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Generally, an easier method for smaller entities and for entities that conduct business primarily in cash as opposed to credit. </p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Provides more information regarding revenue and expenses of an entity; accounting for outstanding commitments and prepaid cash receipts, this method allows for more accurate measurement of net income or loss.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:106.4448pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Tax Filing</p>
+</td>
+<td style="width:162.1728pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Generally, cash basis reporting is permitted for the following taxpayers: sole proprietors, pass-through entities (partnerships and S corporations), companies that are engaged in farming that are not corporations or have a corporate partner, companies that perform services by their owners, companies that satisfy a $5 million gross receipts test and do not maintain inventory.</p>
+</td>
+<td style="width:163.3824pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Generally, accrual basis of reporting for income tax purposes is required for C corporations with revenues in excess of $5 million or more that are not qualified personal service corporations, partnerships with at least one C corporations as a partner, tax shelters, and certain charitable trusts with unrelated business income.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> CRS</p>
+</div>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494208"></a><a name="_Toc264369"></a><a name="_Toc1029119"></a>Examples of Cash Versus Accrual Basis of Accounting</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To illustrate how the choice of accounting method determines the timing of when revenue and expenses are recognized (and ultimately tax liability and cash flow), two different scenarios are presented. In each scenario, a subscriber purchases a two-year subscription for online new content. In the first scenario, the subscriber pays in the first year. In the second scenario, the subscriber pays in the second year. Under both scenarios, information communicated and conclusions drawn about the financial condition of the company differ depending on whether the cash or accrual basis of accounting is used. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">First, a narrative discussion that only focuses on the income statement is provided for each scenario. A more detailed explanation is then provided that incorporates two financial statements, an income statement, and a balance sheet. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The first set of financial statements, <a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404763839"><strong></strong><strong>Figure 3</strong></a>, report transactions if the payment was received in the first year, and the second set of financial statements, <a class="InternalLink" href="#_Ref404771827"><strong></strong><strong>Figure 4</strong></a>-<a class="InternalLink" href="#_Ref404784733"><strong></strong><strong>Figure 6</strong></a>, report transactions if the payment was received in the second year. <a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404763839"><strong></strong><strong>Figure 3</strong></a> provide a better illustration of why accrual accounting provides a more complete picture of a company's financial performance as compared with cash basis of accounting, when the payment is received before the service is provided. <a class="InternalLink" href="#_Ref404771827"><strong></strong><strong>Figure 4</strong></a>-<a class="InternalLink" href="#_Ref404784821"><strong></strong><strong>Figure 6</strong></a> illustrate the impact on cash flow for a small business based on whether the business uses cash or accrual basis of accounting, when the service is provided but the payment has not yet been received.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the examples below, a fictitious small company provides online subscription-only news service. The company is called ONSS and has a single subscriber during the two-year business cycle. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A subscription requires a two-year commitment and costs $2,400 (total), which must be paid in full at either the beginning of the first or second year. The $2,400 cost of the subscription for the client is revenue for ONSS. Assume that ONSS incurs service expenses (costs) of $600 each year, or $1,200 total and the company is subject to a 10% tax rate. On January 1, 2015, ONSS had $600 cash on hand, same as the owners' interest (or ownership equity).</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494209"></a><a name="_Toc264370"></a><a name="_Toc1029120"></a>Scenario 1: Payment Received in the First Year</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494210"></a><a name="_Toc264371"></a><a name="_Toc1029121"></a>Cash Basis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ONSS receives a one-time payment of $2,400 in January 2015. At the end of 2015, ONSS has recognized $2,400 in revenue and $600 in expenses for an income (profit) of $1,800. ONSS pays $180 in taxes (10% of $1,800). After paying for the expenses incurred in the first year and paying taxes, ONSS has net income (net profit) of $1,620 ($2,400-$600-$180=$1,620). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The clients' two-year subscription runs from 2015 to 2016. In 2016, no revenue is recognized by ONSS because the subscriber's full payment was recognized as revenue in 2015. ONSS incurs $600 in expenses to provide the service in 2016, resulting in a loss for the year. Under IRC Section 172,<a name="_Ref403406910"></a><sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="26 U.S.C. §172. Allows for current year's net operating loss (NOL) to be carried back as an offset against prior two years' income, allowing a business to claim tax refund from prior two years' tax payments. Alternatively, the NOL can be carried forward for up to 20 years and offset against future income. See CRS Report RL34535, Tax Treatment of Net Operating Losses , by Mark P. Keightley .">8</a></sup> ONSS can carry the loss back to the previous year and claim a tax refund from the Internal Revenue Service (IRS). ONSS files for a refund of $60. Taxes paid over the first two years thus total $120. Net income for the two years for ONSS is $1,080.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Under cash basis, ONSS overpaid taxes in the first year and filed for a refund in the second year. Th is example may not be representative of a business that has multiple customers and payments that maybe received throughout the term of the service.">9</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494211"></a><a name="_Toc264372"></a><a name="_Toc1029122"></a>Accrual Basis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ONSS receives a payment of $2,400 in January 2015. Because ONSS is following the matching principle<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="The recording of revenue and related expenses in the same period. This assumption is based on a cause-and-effect relationship: expenses are incurred in generating the revenue, thus they should be recorded in the same period.">10</a></sup> of accrual accounting, it only recognizes revenue for which it has incurred expenses. ONSS recognizes $1,200 in revenue and $600 in expenses for an income of $600 in 2015. ONSS pays $60 in taxes (10% of $600). After paying for the expenses incurred in the first year and paying taxes, ONSS has net income of $540 ($1,200-$600-$60=$540) in 2015.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Similar to 2015, under accrual basis of accounting ONSS only recognizes revenue for which it has incurred expenses in 2016. Thus in 2016, ONSS recognizes $1,200 in revenue and $600 in expenses for an income of $600. ONSS pays $60 in taxes (10% of $600) again in 2016. After paying for the expenses incurred in 2016 and paying taxes in 2016, ONSS has net income of $540 ($1,200-$600-$60=$540). Taxes paid for the two years total $120. ONSS's net income for the two years is $1,080. Taxes and net income are the same as under cash basis over the life of the subscription, but timing varies. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A more comprehensive treatment of which basis of accounting a company uses and how it affects the company's income statement and balance sheet appear in <a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404763839"><strong></strong><strong>Figure 3</strong></a>. The figures also provide a detailed explanation by line item. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494212"></a><a name="_Toc264373"></a><a name="_Toc1029123"></a>Payment Received in the First Year—Income Statement and Balance Sheet Perspective for Figures 1-3</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As previously discussed, the following examples (<a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404763839"><strong></strong><strong>Figure 3</strong></a>) illustrate the difference between cash basis and accrual basis of accounting in determining the tax expense for ONSS. They also better illustrate how revenue, expenses, and earnings can be exaggerated and give a misleading impression of a company's performance under cash basis of accounting.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="The financial statements provided below are for illustrative purposes, they are not meant to be reflective of comprehensive financial statements a business would prepare.">11</a></sup> </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style=""> Assumptions for Cash and Accrual Basis: Figures 1-3</p>
+<p class="TableText" style="">A client subscribes to a 24-month online news subscription service on January 1, 2015. The service will be received from January 1, 2015, through December 31, 2016, and the two-year subscription costs $2,400. The office remits the full payment in January 2015.</p>
+<p class="TableText" style=""><em>ONSS: </em>Online News Subscription Company, the company providing service to the client.<em> </em></p>
+<p class="TableText" style=""><em>Revenue</em><em>: </em>Revenue will be recognized at $100 a month under accrual basis, or $1,200 for the year. </p>
+<p class="TableText" style=""><em>Expense</em>: The expense to provide the service for each month is $50 or $600 for the year.</p>
+<p class="TableText" style=""><em>Tax Rate</em>: Tax rate is 10% of income (revenue-expenses).</p>
+<p class="TableText" style=""><em>Tax payment</em>: The payments are remitted to the Internal Revenue Service (IRS) at the end of the year unless there is a loss in a given year. </p>
+<p class="TableText" style=""><em>Cash</em>: The company begins with $600 cash on hand on January 1, 2015.</p>
+<p class="TableText" style=""><em>Owners' Equity</em>: The beginning owners' interest in the company is $600 on January 1, 2015.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a> shows the beginning balance for ONSS. No transactions are recorded other than beginning cash balance and owners' equity. Transaction descriptions by line item for cash and accrual basis are provided below the financial statements.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:429.1488pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref404761844"></a><a name="_Toc406494191"></a><a name="_Toc264354"></a><a name="_Toc1029104"></a>Figure 1. ONSS's Beginning Financial Statements, January 1, 2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R43811_files/0.png" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table><a name="_GoBack"></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cash Basis</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Accrual Basis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1. <em>Revenue</em>:<em> </em>None recorded because it is the beginning balance.</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:4.55pt;">1. <em>Revenue</em>:<em> </em>None recorded because it is the beginning balance.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em>: None recorded because it is the beginning balance.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em>: None recorded because it is the beginning balance.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em>: There is no beginning balance income to record without revenue or expenses.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em>: There is no beginning balance income to record without revenue or expenses.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Cash</em>:<em> </em>$600 cash on hand at the beginning of the year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Cash</em>:<em> </em>$600 cash on hand at the beginning of the year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Receivables</em>: No receivables at inception. Cash basis would not normally recognize receivables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Receivables</em>: No receivables at inception. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. <em>Payables</em>: No payables at inception. Cash basis would not normally recognize payables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. <em>Payables</em>: No payables at inception. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7. <em>Owners' Equity</em>: $600 in owners' equity at the beginning of the year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7. <em>Owners' Equity</em>: $600 in owners' equity at the beginning of the year.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:429.1488pt;">
+<p class="TableSource"><strong>Source: </strong>CRS.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref404761858"><strong></strong><strong>Figure 2</strong></a> shows year-end financial statement for ONSS for the first year. ONSS provided the first year's service and incurred related expenses. It received the full payment for the two-year subscription from the client in January 2015. Taxes paid are higher under cash basis than accrual basis at the end of the first year because the company recognized the full amount of the payment as revenue. Transaction descriptions by line item for cash and accrual basis are provided below the financial statements.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref404761858"></a><a name="_Toc406494192"></a><a name="_Toc264355"></a><a name="_Toc1029105"></a>Figure 2. ONSS's Year-End Financial Statements, December 31, 2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R43811_files/1.png" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cash Basis</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Accrual Basis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.<em> Revenue: </em>$2,400 payment is recognized as revenue in 2015 because the payment was received in January 2015.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.<em> Revenue: </em>$1,200 in revenue is recognized even though $2,400 was received as payment. Under accrual basis of accounting, only the first year's revenue is recognized.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in the first year even though the revenue for both years has been recognized.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in the current year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em><em>:</em><em> </em>$1,800 in income is recognized under cash basis. The amount is higher than under accrual basis because the full amount of the revenue for the two years was recognized in the first year, but only the first year's expense was recognized, resulting in higher income than under accrual basis.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em><em>:</em><em> </em>$600 in income is recognized under accrual basis.</p>
+<p class="TableText" style=""></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Taxes Paid</em><em>:</em><em> </em>$180 in taxes are paid in the first year on income of $1,800. The taxes paid under cash basis are higher than under accrual basis, $60, because the income was higher under cash basis than under accrual basis.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Taxes Paid</em><em>:</em><em> </em>$60 is paid in taxes under accrual basis on first-year income of $600.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Net Income</em><em>:</em><em> </em>$1,620 in net income after taxes is recognized in the first year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Net Income</em><em>:</em><em> </em>$540 in net income is recognized under accrual basis.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6.<em> Cash</em><em>:</em><em> $2,220 </em>cash on hand at the end of the first year, which is less than under accrual basis because more cash was used to pay the higher taxes ($180 under cash basis vs. $60 under accrual basis). </p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6.<em> Cash</em><em>:</em><em> </em>$2,340 cash on hand at the end of the first year after paying operating and tax expenses. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7.<em> Receivables</em><em>:</em><em> </em>Cash basis of accounting generally does not recognize receivables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7.<em> Receivables</em><em>:</em><em> </em>No receivables are recorded as the full payment for the two years of service was received in January 2015.<em> </em></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8. <em>Deferred Revenue</em><em>:</em><em> </em>Cash basis does not record the liability, deferred revenue. Should the client cancel the subscription for the last twelve months, a refund of $1,200 would need to be made to the client.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8. <em>Deferred Revenue</em><em>:</em><em> </em>$1,200 is recorded as deferred revenue, which will not be recognized as revenue until the service is provided in 2016. Deferred revenue is a liability that will be reduced by $100 for each month of service provided, reduced by $1,200 by end of the second year, 2016.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Owners' Equity</em><em>:</em><em> </em>$2,220 in owners' equity<em> </em>at year-end, as the full payment of cash was recognized as revenue in 2015. </p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Owners' Equity</em><em>:</em><em> </em>$1,140 in owners' equity at year-end, which is less than under cash basis because $1,200 in deferred revenue is recorded under accrual basis and not under cash basis.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>CRS.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref404763839"><strong></strong><strong>Figure 3</strong></a> a shows year-end financial statement for ONSS for the second year, 2016. At this point, ONSS has provided the second year's service and incurred related expenses. Under cash basis of accounting, the company has no revenue and records a loss. The company's cash on hand and owners' equity also decreased as compared with the first year (see <a class="InternalLink" href="#_Ref404761858"><strong></strong><strong>Figure 2</strong></a>). The deteriorating financial condition of the company under the cash basis could give the impression of a company in financial trouble, possibly going out of business. On an accrual basis, however, the picture looks quite different. Transaction descriptions by line item for cash and accrual basis are provided below the financial statements.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref404763839"></a><a name="_Toc406494193"></a><a name="_Toc264356"></a><a name="_Toc1029106"></a>Figure 3. ONSS's Year-End Financial Statements, December 31, 2016</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R43811_files/2.png" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cash Basis</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Accrual Basis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1. <em>Revenue</em><em>:</em><em> </em>No revenue is recognized under cash basis in 2016 because the full amount of the payment, $2,400, was recognized as revenue in 2015.</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1. <em>Revenue</em><em>:</em><em> </em>$1,200 is recognized as revenue in 2016 (same as 2015).</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in current year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in the current year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em><em>:</em><em> </em>$600 is recognized as loss in 2016 because the full amount of the payment, $2,400, was recognized as revenue in 2015.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em><em>:</em><em> </em>$600 is recognized as income in the current year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Tax Refund or Taxes Paid</em><em>:</em><em> </em>$60 in tax refund is collected by carrying back the current years' loss against the prior years' income. (See footnote <a class="InternalLink" href="#_Ref403406910">8</a>.)</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Tax Refund or Taxes Paid</em><em>:</em><em> </em>$60 is paid in taxes on income of $600.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Net Income (Loss)</em><em>:</em><em> </em>$540 in loss reported for the current year, after the tax refund.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Net Income (Loss)</em><em>:</em><em> </em>$540 in net income is recognized under accrual basis.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. $1,680 of cash is available to the company at the end of two years.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. $1,680 of cash is available to the company at the end of two years.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7. <em>Receivables</em><em>:</em><em> </em>Cash basis of accounting generally does not recognize receivables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7. <em>Receivables</em><em>:</em><em> </em>There are no receivables because the full payment was received in2015.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8. Cash basis of accounting generally does not recognize receivables or payables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8. There are no liabilities at the end of two years. Deferred revenue of $1,200 that was recorded at the end of 2015 has been recognized as revenue in 2016.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Owners' Equity</em><em>:</em><em> </em>$1,680 in owners' equity, a decrease of $540 as compared with the end of 2015 due to the loss of $540 recorded in 2016. Since the beginning of 2015, an increase of $1,680 in owners' equity.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Owners' Equity</em><em>:</em><em> </em>$1,680 in owners' equity an increase of $1,080 since the beginning of 2015.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>CRS.</p>
+</div>
+</div>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Outcomes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown in <a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404763839"><strong></strong><strong>Figure 3</strong></a>, under cash basis, higher taxes were paid during the first year (2015), which resulted in less cash on hand at the end of the year. Both cash on hand and shareholders' equity declined by the end of the second year as compared with the first year, which could give the impression of a business in distress. The net result is the same under both the cash and accrual basis, as cash on hand and owners' equity are the same at the end of the second year (2016). Similarly, revenue, expenses, income, and shareholders' equity not recognized over the course of the first and second year under cash basis makes it harder for an investor or creditor to make an informed decision about the health of the business, as compared with accrual basis. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494213"></a><a name="_Toc264374"></a><a name="_Toc1029124"></a>Scenario 2: Payment Received in the Second Year</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494214"></a><a name="_Toc264375"></a><a name="_Toc1029125"></a>Cash Basis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ONSS provides service to the client for the first year (2015), but does not receive payment until the second year of the two-year commitment (January of 2016). At the end of 2015, ONSS has recognized no revenue but incurred $600 in expenses for a loss of $600. ONSS does not pay any taxes because it incurred a loss the first year. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2016, ONSS recognizes $2,400 in revenue as the full payment was received in January 2016. ONSS incurs $600 in expenses for providing the service in 2016, resulting in income of $1,800 ($2,400-$600=$1,800). Because losses are deductible under IRC 172, ONSS carried the loss of $600 from 2015 forward. Taxable income in 2016 is $1,200 ($2,400-$600-$600=$1,200), which includes the expenses from both years. Taxes paid over the first two years total $120. ONSS's net income for the two years is $1,080.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494215"></a><a name="_Toc264376"></a><a name="_Toc1029126"></a>Accrual Basis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ONSS provides its service to the client for the first year (2015), but does not receive the payment until the second year (January 2016) of the two-year commitment. ONSS keeps true to the matching principle of accrual accounting: even though it has not received any payment by the end of 2015, it recognizes revenue of $1,200 for 2015 because it has an expected receivable that matches the related expense of $600. At the end of 2015, ONSS has recognized $1,200 in revenue and $600 in expenses, for an income of $600. As ONSS has income at the end of 2015, it needs to pay $60 in taxes (10% of $600). Because ONSS has expended all of its cash by the end of 2015 to meet its operating expense, ONSS borrows $60 in cash from a lender to pay taxes. After paying for the expenses incurred in the first year and paying taxes, ONSS has net income of $540 ($1,200-$600-$60=$540) in 2015.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ONSS receives the full payment ($2,400) from the client in January 2016. Under accrual basis of accounting ONSS only recognizes revenue for which it has incurred expenses in 2016; ONSS therefore recognizes $1,200 in revenue and $600 in expenses for an income of $600. ONSS pays $60 in taxes (10% of $600). After paying for the expenses incurred in 2016 and paying taxes, ONSS has net income of $540 ($1,200-$600-$60=$540) in 2016. Taxes paid for the two years total $120. Net income for the two years for ONSS is $1,080. Similar to when payment is received in the first year, when payment is received in the second year, taxes and net income are the same as under cash basis over the life of the subscription.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494216"></a><a name="_Toc264377"></a><a name="_Toc1029127"></a>Payment Received in the Second Year—Income Statement and Balance Sheet Perspective for Figures 4-6</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One objection raised by the industry to proposed tax reforms concerns the allowable methods of tax accounting; that is, whether these can compel a business to borrow cash to meet tax expenses in addition to operating expenses.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="American Bar Association, Mandatory Accrual Accounting for Law Firms , Washington, DC, http://www.americanbar.org/advocacy/governmental_legislative_work/priorities_policy/independence_of_the_legal_profession/mandatory-accrual-accounting-for-law-firms.html .">12</a></sup> The tax reform proposals discussed here would require certain businesses with revenues in excess of $10 million to use accrual basis instead of cash basis of accounting. The basis of accounting used to determine taxable income and taxes paid can affect a company's cash flow through the timing of when taxes are paid. <strong><a class="InternalLink" href="#_Ref404771827"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 4</strong><strong></strong><strong>-</strong><strong><a class="InternalLink" href="#_Ref404775742"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 6</strong><strong></strong> illustrate that a company without sufficient cash that is required to use accrual basis of accounting would need to borrow cash to meet its financial obligations, including its operating and tax expenses. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It should not be construed from this example that businesses in a similar position would need to borrow money strictly to meet their tax expenses. Arguably, a business that does not have sufficient cash is likely to borrow money to fund its ongoing operating expenses, and any tax expense would be part of the overall consideration of maintaining cash liquidity in the normal course of business.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Assumptions for Cash and Accrual Basis: Figures 4-6</p>
+<p class="TableText" style="">A client subscribes to a 24-month online news subscription service on January 1, 2015. The client will receive the service from January 1, 2015, through December 31, 2016, and the two-year subscription costs $2,400. The client remits the full payment in January 2016.</p>
+<p class="TableText" style=""><em>ONSS: </em>Online News Subscription Company, the company providing service to the client.<em> </em></p>
+<p class="TableText" style=""><em>Revenue</em><em>: </em>Revenue will be recognized at $100 a month under accrual basis, or $1,200 for the year. </p>
+<p class="TableText" style=""><em>Expense</em>: The expense to provide the service for each month is $50 or $600 for the year.</p>
+<p class="TableText" style=""><em>Tax Rate</em>: Tax rate is 10% of income.</p>
+<p class="TableText" style=""><em>Tax payment</em>: The payments are remitted to the Internal Revenue Service (IRS) at the end of the year unless there is a loss in a given year. </p>
+<p class="TableText" style=""><em>Cash</em>: The company begins with $600 cash on hand on January 1, 2015.</p>
+<p class="TableText" style=""><em>Owners' Equity</em>: The beginning owners' interest in the company is $600 on January 1, 2015.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref404771827"><strong></strong><strong>Figure 4</strong></a> shows the beginning balance for ONSS. No transactions are recorded except for beginning cash balance and owners' equity. Transaction descriptions by line item for cash and accrual basis are provided below the financial statements.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:429.1488pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref404771827"></a><a name="_Toc406494194"></a><a name="_Toc264357"></a><a name="_Toc1029107"></a>Figure 4. ONSS's Beginning Financial Statements, January 1, 2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R43811_files/3.png" style="border-top:0;border-bottom:0;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cash Basis</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Accrual Basis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1. <em>Revenue</em>:<em> </em>None recorded because it is the beginning balance.</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:4.55pt;">1. <em>Revenue</em>:<em> </em>None recorded because it is the beginning balance.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em>: None recorded because it is the beginning balance.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em>: None recorded because it is the beginning balance.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em>: There is no beginning balance income to record without revenue or expenses.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em>: There is no beginning balance income to record without revenue or expenses.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Cash</em>:<em> </em>$600 cash on hand at the beginning of the year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Cash</em>:<em> </em>$600 cash on hand at the beginning of the year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Receivables</em>: No receivables at inception. Cash basis would not normally recognize receivables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Receivables</em>: No receivables at inception. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. <em>Payables</em>: No payables at inception. Cash basis would not normally recognize payables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. <em>Payables</em>: No payables at inception. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7. <em>Owners' Equity</em>: $600 in owners' equity at the beginning of the year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7. <em>Owners' Equity</em>: $600 in owners' equity at the beginning of the year.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:429.1488pt;">
+<p class="TableSource"><strong>Source:</strong> CRS.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref404772332"><strong></strong><strong>Figure 5</strong></a> shows the year-end financial statement for ONSS for the first year. ONSS has provided the first year's service and incurred the related expenses but has not received any payment. The company borrows cash to meet its operational and tax related expenses under accrual basis of accounting. Transaction descriptions by line item for cash and accrual basis are provided below the financial statements.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref404772332"></a><a name="_Toc406494195"></a><a name="_Toc264358"></a><a name="_Toc1029108"></a>Figure 5. ONSS's Year-End Financial Statements, December 31, 2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image6.png" class="Figure" src="R43811_files/4.png" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cash Basis</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Accrual Basis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.<em> Revenue: </em>Revenue is not recognized under cash basis of accounting even though the service has been provided and the related costs have been incurred because the payment for the two-year subscription will not be received until January 2016.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.<em> Revenue: </em>$1,200 in revenue is recognized under accrual basis of accounting for the first year because the service has been provided and related expenses have been incurred, though no payment has been received.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in current year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in the current year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em><em>:</em><em> </em>A $600 loss is recognized under cash basis. Cash was spent to provide the service, but no revenue was recognized because the payment was not received.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Income</em><em>:</em><em> </em>$600 in income is recognized under accrual basis even though payment has not yet been received. The service has been provided and the related expense has been incurred.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Taxes Paid</em><em>:</em><em> </em>As there is a loss under cash basis, no taxes are paid. The loss can be carried back to offset the previous 2 years' income or offset against future income for 20 years to claim a tax refund.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Taxes Paid</em><em>:</em><em> </em>$60 is paid in taxes under accrual basis by borrowing cash, because the payment for the service provided has not been received.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Net Income</em><em>:</em><em> </em>$600 of net loss is recognized, as cash was spent to provide the service.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Net Income</em><em>:</em><em> </em>$540 in net income is recognized, $600 of income less $60 in taxes, even though the payment has not yet been received while the service was provided and the related expenses were incurred.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6.<em> Cash</em><em>:</em><em> </em>The<em> </em>$600 in cash with which ONSS started is depleted due to expenses and no payment has been received yet. </p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6.<em> Cash</em><em>:</em><em> </em>$60 in taxes is paid under accrual basis of accounting in addition to the $600 ONSS spent to provide the service. </p>
+<p class="TableText" style="">No payment was received during the first year, however, ONSS recognized $1,200 in revenue and paid $600 in operating expenses and paid $60 tax expense on the income recognized for $600. ONSS cash was depleted and it had to borrow cash to meet its expenses, see line 8. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7.<em> Receivables</em><em>:</em><em> </em>Cash basis of accounting generally does not recognize receivables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7<em>. Receivables</em><em>:</em><em> </em>$1,200 is recorded as a receivable for the future payment to be collected because the service was provided in 2015.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8. <em>Payables</em><em>:</em><em> </em>Cash basis of accounting generally does not recognize payables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8. <em>Payables</em><em>:</em><em> </em>$60 of borrowed cash is recorded as a payable.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Owners' Equity</em><em>:</em><em> </em>$0 in owners' equity<em> </em>at year-end because all the cash was spent to meet operating expenses and no receivables or payables are recorded under cash basis.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Owners' Equity</em><em>:</em><em> </em>$1,140 in owners' equity at the end of 2015. The owners' equity increased even though payment has not been received and cash has been depleted. Owners' equity of $1,140 at year-end reflects the beginning equity of $600 and the income of $540 earned in the current year, 2015.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> CRS.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref404775742"><strong></strong><strong>Figure 6</strong></a> shows year-end financial statement for ONSS for the second year. ONSS has provided the second year's service and incurred the related expenses. ONSS received full payment in January 2016 for the services provided in year one (2015) and year two (2016). Transaction descriptions by line item for cash and accrual basis are provided below the financial statements.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref404775742"></a><a name="_Ref404784733"></a><a name="_Ref404784821"></a><a name="_Ref404785540"></a><a name="_Ref404785575"></a><a name="_Toc406494196"></a><a name="_Toc264359"></a><a name="_Toc1029109"></a>Figure 6. ONSS's Year-End Financial Statements, December 31, 2016</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image7.png" class="Figure" src="R43811_files/5.png" style="border-top:0;border-bottom:0;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cash Basis</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Accrual Basis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.<em> Revenue: </em>$2,400 is recognized as revenue in 2016 because the full payment was received in January of 2016.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1.<em> Revenue: </em>$1,200 is recognized as revenue in 2016 and $1,200 was recognized as revenue in 2015.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in current year.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">2. <em>Expenses</em><em>:</em><em> </em>$600 is recognized as expense in the current year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Loss Carry Forward</em><em>:</em><em> </em>$600 in losses from 2015 is carried forward to determine the taxable income in 2016.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">3. <em>Loss Carry Forward</em><em>:</em><em> </em>There was no loss to carry forward. Similar to cash basis, net operating loss can be carried back or forward under accrual basis.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Income</em><em>:</em><em> </em>$1,200 is recognized as income in the current year, although one-half of the service was provided in 2015. For simplification and brevity, prior year's losses were included with current year's expenses to determine income for 2016; in reality, $1,200 is taxable income for 2016, whereas business operating income is $1,800 ($2,400 less $600).</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">4. <em>Income</em><em>:</em><em> </em>$600 is recognized as income in the current year.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Taxes Paid</em><em>:</em><em> </em>$120 in taxes is paid in 2016 because the prior loss of $600 was carried forward to determine current year's income of $1,200.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5. <em>Taxes Paid</em><em>:</em><em> </em>$60 is paid in taxes on income of $600.</p>
+<p class="TableText" style=""></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. <em>Net Income</em><em>:</em><em> </em>$1,080 is recognized as income in 2016, although one-half of the service was provided in 2015.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">6. <em>Net Income</em><em>:</em><em> </em>$540 is recognized as income in 2016 (same as 2015).</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7.<em> Cash</em><em>:</em><em> </em>$1,680 of cash is available to the company after $2,400 in payment was received for service provided in 2015 and 2016.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">7<em>. Cash</em><em>:</em><em> </em>$1,680 of cash is available to the company after $2,400 in payment was received for service provided in 2015 and 2016, and after the $60 borrowed in 2015 was repaid. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8.<em> Receivables</em><em>:</em><em> </em>Cash basis of accounting generally does not recognize receivables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">8.<em> Receivables</em><em>:</em><em> </em>$2,400 in payment was received in January 2016. The $1,200 recorded as a receivable at the end of 2015 no longer exists with the receipt of full payment in January 2016.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Payables</em><em>:</em><em> </em>Cash basis of accounting generally does not recognize payables.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">9. <em>Payables</em><em>:</em><em> </em>$60 previously borrowed was repaid thus there are no liabilities at the end of 2016.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">10. <em>Owners' Equity</em><em>:</em><em> </em>$1,680 in owners' equity, an increase of $1,080 since the beginning of 2015 and an increase of $1,680 since the end of 2015.</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">10. <em>Owners' Equity</em><em>:</em><em> </em>$1,680 in owners' equity, an increase of $1,080 since beginning of 2015. Evenly divided, $540 increase in owners' equity for each year (2015 and 2016).</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> CRS.</p>
+</div>
+</div>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Outcomes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown in <a class="InternalLink" href="#_Ref404771827"><strong></strong><strong>Figure 4</strong></a>-<a class="InternalLink" href="#_Ref404775742"><strong></strong><strong>Figure 6</strong></a>, under cash basis, no taxes were paid during the first year (2015), since ONSS did not receive the payment until the second year. Both cash on hand and shareholders' equity declined to $0 at the end of the first year under cash basis. Under accrual basis, at the end of the first year cash declined to $0 but shareholders' equity increased to $1,140, even though payment was not received until January of the second year, as revenue, expenses, and income were recognized and taxes on income earned were paid. Similar to the examples in <a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404763839"><strong></strong><strong>Figure 3</strong></a>, the net result is the same under both the cash and accrual basis, as cash on hand and owners' equity are the same at the end of the second year (2016). Taxes paid under both bases of accounting over the long run were the same. Tax deferral may allow a company to delay paying taxes until a future date and have those funds available to increase its profitability in the short run.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc406494217"></a><a name="_Toc264378"></a><a name="_Toc1029128"></a>Conclusion</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The previous discussions highlighted the key differences between cash and accrual basis of accounting. Cash basis is simpler for record keeping but arguably, the process of matching revenue and expenses under accrual basis accounting leads to a better understanding of the financial condition of a business compared to the results under cash accounting. The consistency of matching revenue with expenses under the accrual method provides a more consistent treatment of economic events and helps principals to make informed financial and operational decisions. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Chairman Camp's Tax Reform Act of 2014 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>) proposes changes in accounting rules for tax purposes; under the legislation certain partnerships, S corporations, and PSCs with average gross receipts in excess of $10 million would be required to use the accrual method. The accrual method more accurately reflects the revenue and expense items used to generate income in the taxable year, not merely the cash flows occurring within the period. According to the legislation businesses with average gross receipts of less than $10 million could use the cash method as it is easier for record keeping and requires less effort. Changing from the cash method to accrual method could cause taxpayers to recognize income as a result of the change in accounting methods. Taxes paid on this income would increase federal revenues. Changing the timing of when income is recognized could also accelerate or defer tax liability. A deferral decreases the real value of tax payments over time, due to the time value of money. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As the examples above illustrated, over the long run, if tax policy does not change, the amount of taxes collected will remain the same, but the timing of collection will be different. Arguably, in some circumstances, paying taxes on revenue and income earned without having received the payment for the services provided or product shipped involves risk and can jeopardize a business's financial health. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the accrual basis of accounting captures a more complete financial picture of the U.S. government's future liabilities and revenues, the focus of governmental reporting is different than that of a profit-oriented business. A business relies on its assets to help generate future income and cash, whereas the government relies on tax revenue (or cash receipts) to provide services to its citizens. Arguably, a government's effectiveness can be assessed based on the quality of services provided to its citizens rather than by the revenue it generates from using its existing assets. Reporting in both the cash basis and accrual basis of accounting might provide the executive branch, Congress, and U.S. citizens with a more informative picture of the government's performance and future obligations than relying only on the cash or modified cash basis of accounting.</p>
+<p class="Heading5" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix. <a name="_Ref402278484"></a><a name="_Toc406494218"></a><a name="_Toc264361"></a><a name="_Toc1029111"></a>Definitions: Principles, Concepts, and Terminology</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Different stakeholders of an organization rely on financial statements to make informed decisions; they expect the financial statements to have certain characteristics for the information to be useful. Although the accounting principles, concepts, and terminology listed below can be applicable for accrual and other bases of accounting, they are the foundational building blocks of accrual accounting. This is not a comprehensive list of principles, concepts, and terminologies in the field of accounting.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Two textbooks were primarily consulted for this section of the report. See Gary A. Porter and Curtis L. Norton, Using Financial Accounting Information - Alternative to Debits and Credits , ed. Rob Dewey, Sharon Oblinger, Craig Avery, Jessica L. Robbe, 8 ed. (Mason, Oh: South-Western - Cengage Learning, 2013); and Leonard Eugene Berry, Financial Accounting Demystified , Brian Foster, 1 ed. (McGraw-Hill Professional Publishing, 2010).">13</a></sup> </p>
+<p class="Heading7" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Concepts and Terminology</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Realization</em>. The recognition of revenue when the product is delivered or a service is completed, without considering if the payment (cash) has been received.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Matching</em>. The recording of revenue and related expenses in the same period. This assumption is based on a cause-and-effect relationship: expenses are incurred in generating the revenue, thus they should be recorded in the same period.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Relevance</em>. The capacity for information to make a difference in a decision. The information should have both confirming and predictive values. Confirming value should help the users of the financial information confirm or correct any past predictions they have made. Predictive value should help users of financial information forecast future trends for a business.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Materiality</em>. The degree to which an omission or a misstatement of financial information will affect the judgment of someone using the information.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Conservatism</em>. The practice of using the lower estimated value when two estimated amounts are likely for an asset. Conversely, for a liability, the practice of clearly stating the amount likely to be paid in the future.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Comparability </em><em>and</em><em> Consistency</em>. Allow users to compare and analyze financial information from one period to the next. Comparability and consistency can be ensured by applying similar accounting principles to like items from one period to the next. </p>
+<p class="Heading7" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Financial Statements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Income Statement</em>. Summarizes and communicates all the revenues that a company has earned during a specific period of time less all the expenses incurred in generating that revenue, usually for a quarter or a year.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Balance sheet</em>. Communicates the financial position of a company at a specific point in time, such as at the end of a quarter or a year. It is divided into assets, liabilities, and owners' equity (stockholders' equity).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Statement of Changes in </em><em>Owners</em><em>' Equity</em>. For large businesses with multiple shareholders, this is often called the statement of changes in stockholders' equity. It shows the changes in owners' equity of the business entity during the same period of time as measured by the income statement. It is used to communicate the change between the amount of owners' equity of a business at the beginning of the accounting period and the amount of equity at the end of the period. The statement takes into account such things as increases in equity from issuing stock, repurchase of company stock, net income or net loss, and decrease in equity from dividends. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Statement of Cash Flows</em>. Shows the amount of aggregate cash inflows and outflows for a company during a specific period of time, usually for a quarter or a year. </p>
+<p class="Heading7" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Financial Statement Categories</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These are listed in the order they appear in <a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404785540"><strong></strong><strong>Figure 6</strong></a>. Some of the line items are not listed in all statements because only the relevant line items are normally listed in each set of financial statements. </p>
+<p class="Heading8" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Income Statement—Line Items</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Revenue</em>. The increase in net assets resulting from selling products or services. Revenue is also identified as sales or sales revenue. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Expenses</em>. The use of resources (assets) by a company in the process of providing products or services to a customer, including spending cash. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Income (Loss)</em>. The excess of revenue over expenses. Loss results from higher expenses than revenue. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Operating Income</em>. Gross profit less all operating expenses. Operating income is pretax income. Operating income is not a line item listed on the financial statements in <a class="InternalLink" href="#_Ref404761844"><strong></strong><strong>Figure 1</strong></a>-<a class="InternalLink" href="#_Ref404785575"><strong></strong><strong>Figure 6</strong></a>.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Net Income (Net Loss)</em>. The difference after deducting all expenses, including taxes, from revenues. Net loss is the difference between revenue and expenses, including taxes, when expenses exceed revenue. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Loss Carry Forward</em>. The carrying forward or back of a Net Operating Loss (NOL) in the current year to determine taxable income in future or previous years.</p>
+<p class="Heading8" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Balance Sheet—Categories</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Assets</em>. Cash and any economic resources of a company that generate future cash inflows or reduce future cash out-flows. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Liabilities</em>. Obligations of a company to outsiders or claims against the company's assets. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Owners' Equity</em>. The owners' claims on a company's assets. Owners' equity is the value of assets less liabilities.</p>
+<p class="Heading9" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Balance Sheet—Line Items</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Cash</em>. The most liquid asset on a balance sheet. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Receivables</em>. The amount owed to a company by customers as a result of the company delivering goods or providing services. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Payables</em>. The liability a company incurs from the purchase of goods or services. Cash loan payable listed in <a class="InternalLink" href="#_Ref404772332"><strong></strong><strong>Figure 5</strong></a> is cash that is owed to a creditor. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Deferred Revenue</em>. The liability a company incurs owing customers goods and services it has not yet provided.</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Mark Keightley and Gary Guenther provided helpful comments.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joint Committee on Taxation (JCT), <em>Tax Reform Proposals: Accounting Issues</em>, JCS-39-85, Washington, DC, September 13, 1985, <a class="ExternalLink" href="https://www.jct.gov/publications.html?func=startdown&amp;id=3394"><span class="Hyperlink">https://www.jct.gov/publications.html?func=startdown&amp;id=3394</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> JCT, <em>Estimated Revenue Effects of the Tax Reform Act of 2014</em>, JCX-20-14, Washington, DC, February 26, 2014, p. 7, <a class="ExternalLink" href="https://www.jct.gov/publications.html?func=startdown&amp;id=4562"><span class="Hyperlink">https://www.jct.gov/publications.html?func=startdown&amp;id=4562</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 26 U.S.C. §7701(a)(2).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 26 U.S.C. §1361(a).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 26 U.S.C. §269(A)(b).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Generally Accepted Accounting Principles (GAAP) is a common set of standards for the accounting profession that is generally accepted by practitioners and provides a standardized way to report economic events for an entity. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The standard set of financial reports for a company would include the balance sheet, income statement, statement of changes in stockholders' equity, and statement of cash flows. The statement of changes in stockholders' equity is also generally called the statement of changes in owners' equity for small businesses.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 26 U.S.C. §172. Allows for current year's net operating loss (NOL) to be carried back as an offset against prior two years' income, allowing a business to claim tax refund from prior two years' tax payments. Alternatively, the NOL can be carried forward for up to 20 years and offset against future income. See CRS Report RL34535, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=RL34535"><em>Tax Treatment of Net Operating Losses</em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Under cash basis, ONSS overpaid taxes in the first year and filed for a refund in the second year. This example may not be representative of a business that has multiple customers and payments that maybe received throughout the term of the service.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The recording of revenue and related expenses in the same period. This assumption is based on a cause-and-effect relationship: expenses are incurred in generating the revenue, thus they should be recorded in the same period.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The financial statements provided below are for illustrative purposes, they are not meant to be reflective of comprehensive financial statements a business would prepare.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> American Bar Association, <em>Mandatory Accrual Accounting for Law Firms</em>, Washington, DC, <a class="ExternalLink" href="http://www.americanbar.org/advocacy/governmental_legislative_work/priorities_policy/independence_of_the_legal_profession/mandatory-accrual-accounting-for-law-firms.html"><span class="Hyperlink">http://www.americanbar.org/advocacy/governmental_legislative_work/priorities_policy/independence_of_the_legal_profession/mandatory-accrual-accounting-for-law-firms.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Two textbooks were primarily consulted for this section of the report. See Gary A. Porter and Curtis L. Norton, <em>Using Financial Accounting Information - Alternative to Debits and Credits</em>, ed. Rob Dewey, Sharon Oblinger, Craig Avery, Jessica L. Robbe, 8 ed. (Mason, Oh: South-Western - Cengage Learning, 2013); and Leonard Eugene Berry, <em>Financial Accounting Demystified</em>, Brian Foster, 1 ed. (McGraw-Hill Professional Publishing, 2010). </p>
+</td>
+</tr>
+</table>
+</div>
+</div>
