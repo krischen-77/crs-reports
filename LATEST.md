@@ -1,11 +1,10 @@
-**Official-current verification: 52/52. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-26 to 2026-11-02**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-02 | IN12752 v1 | Congressional Considerations for Financial Institution Transaction Holds | [PDF](pdf/insights/IN12752v1-2026-11-02-1dc14cee64ae8d1a.pdf) | [Markdown](markdown/insights/IN12752v1-2026-11-02-1dc14cee64ae8d1a.md) |
 | 2026-10-30 | R49498 v4 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of National Historic Preservation Act Provisions | [PDF](pdf/reports/R49498v4-2026-10-30-003f41db4da78c35.pdf) | [Markdown](markdown/reports/R49498v4-2026-10-30-003f41db4da78c35.md) |
 | 2026-10-30 | R49497 v1 | FY2026 District of Columbia Budget and Appropriations | [PDF](pdf/reports/R49497v1-2026-10-30-3dd1cc626fe02b1f.pdf) | [Markdown](markdown/reports/R49497v1-2026-10-30-3dd1cc626fe02b1f.md) |
 | 2026-10-30 | R49496 v1 | U.S. Aluminum Manufacturing: Industry Trends and Policy Options | [PDF](pdf/reports/R49496v1-2026-10-30-7a711de9ba7f2218.pdf) | [Markdown](markdown/reports/R49496v1-2026-10-30-7a711de9ba7f2218.md) |
@@ -73,6 +72,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-02 | 2026-05-12 | R43973 v20 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v20-2026-05-12-06015c5b7739ac66.pdf) | [Markdown](markdown/reports/R43973v20-2026-05-12-06015c5b7739ac66.md) |
 | 2026-10-29 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
 | 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |

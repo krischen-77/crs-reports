@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-02T01:34:27.727466+00:00",
+  "run_at": "2026-11-02T18:29:34.378606+00:00",
   "window_start_inclusive": "2026-10-26",
   "window_end_inclusive": "2026-11-02",
   "lookback_days": 7,
@@ -11,8 +11,8 @@
     },
     "congress_api": {
       "ok": true,
-      "reports": 169,
-      "reported_count": 169,
+      "reports": 171,
+      "reported_count": 171,
       "scope": "update-date window",
       "credential": "public DEMO_KEY"
     },
@@ -176,6 +176,14 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
     {
+      "id": "R43973",
+      "api_version": 18,
+      "pdf_revisions": [
+        "20"
+      ],
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
+    },
+    {
       "id": "R44258",
       "api_version": 23,
       "pdf_revisions": [
@@ -312,37 +320,44 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
     {
+      "id": "R43973",
+      "messages": [
+        "www.congress.gov: Source bytes differ from the catalogued version checksum",
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ]
+    },
+    {
       "id": "IF12914",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
       ]
     },
     {
-      "id": "R43853",
+      "id": "R43873",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "id": "R43859",
+      "id": "R43893",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "historical_backfill_remaining": 244,
+      "historical_backfill_remaining": 242,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "41373140820",
+  "github_run_id": "41500947078",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 117,
-  "active_update_candidates": 52,
-  "active_updates_with_older_publication": 14,
+  "active_update_candidates": 54,
+  "active_updates_with_older_publication": 15,
   "deferred_official_format_ids": [],
   "reconciled_pending_discoveries": [],
   "superseded_historical_versions": [
@@ -363,25 +378,25 @@
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     }
   ],
-  "catalog_reports": 23594,
-  "candidate_reports": 52,
-  "planned_versions": 54,
-  "attempted_versions": 52,
-  "successful_versions": 52,
-  "new_pdf_versions": 2,
-  "total_archived_pdf_versions": 649,
-  "total_html_snapshots": 494,
-  "total_pdf_bytes": 523620628,
+  "catalog_reports": 23595,
+  "candidate_reports": 54,
+  "planned_versions": 56,
+  "attempted_versions": 54,
+  "successful_versions": 54,
+  "new_pdf_versions": 4,
+  "total_archived_pdf_versions": 653,
+  "total_html_snapshots": 498,
+  "total_pdf_bytes": 527280967,
   "pending_reports": 0,
   "pending_versions": 1,
-  "historical_pending_versions": 244,
+  "historical_pending_versions": 242,
   "historical_new_pdf_versions": 2,
-  "primary_new_pdf_versions": 0,
-  "api_requests": 5,
-  "api_remaining_quota": 5,
+  "primary_new_pdf_versions": 2,
+  "api_requests": 6,
+  "api_remaining_quota": 4,
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-11-02T01:35:04.734471+00:00",
-  "last_successful_run_at": "2026-11-02T01:35:04.734471+00:00"
+  "finished_at": "2026-11-02T18:30:26.951350+00:00",
+  "last_successful_run_at": "2026-11-02T18:30:26.951350+00:00"
 }
