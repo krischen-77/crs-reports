@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-11-01T16:50:36.684459+00:00",
-  "window_start_inclusive": "2026-10-25",
-  "window_end_inclusive": "2026-11-01",
+  "run_at": "2026-11-02T01:34:27.727466+00:00",
+  "window_start_inclusive": "2026-10-26",
+  "window_end_inclusive": "2026-11-02",
   "lookback_days": 7,
   "sources": {
     "everycrsreport": {
@@ -318,26 +318,26 @@
       ]
     },
     {
-      "id": "R43811",
+      "id": "R43853",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "id": "R43849",
+      "id": "R43859",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "historical_backfill_remaining": 246,
+      "historical_backfill_remaining": 244,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "41328346584",
+  "github_run_id": "41373140820",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 117,
@@ -369,12 +369,12 @@
   "attempted_versions": 52,
   "successful_versions": 52,
   "new_pdf_versions": 2,
-  "total_archived_pdf_versions": 647,
-  "total_html_snapshots": 492,
-  "total_pdf_bytes": 520863894,
+  "total_archived_pdf_versions": 649,
+  "total_html_snapshots": 494,
+  "total_pdf_bytes": 523620628,
   "pending_reports": 0,
   "pending_versions": 1,
-  "historical_pending_versions": 246,
+  "historical_pending_versions": 244,
   "historical_new_pdf_versions": 2,
   "primary_new_pdf_versions": 0,
   "api_requests": 5,
@@ -382,6 +382,6 @@
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-11-01T16:51:17.297369+00:00",
-  "last_successful_run_at": "2026-11-01T16:51:17.297369+00:00"
+  "finished_at": "2026-11-02T01:35:04.734471+00:00",
+  "last_successful_run_at": "2026-11-02T01:35:04.734471+00:00"
 }
