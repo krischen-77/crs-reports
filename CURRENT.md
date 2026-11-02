@@ -1,18 +1,20 @@
 # Official current CRS files
 
-Checked: 2026-11-02T01:39:49.565707+00:00. Official current entries verified: **52/52**.
+Checked: 2026-11-02T18:36:09.009812+00:00. Official current entries verified: **54/54**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
+| 2026-11-02 | 2026-11-02 | IN12752 v1 | Congressional Considerations for Financial Institution Transaction Holds | [PDF](pdf/insights/IN12752v1-2026-11-02-1dc14cee64ae8d1a.pdf) | [Markdown](markdown/insights/IN12752v1-2026-11-02-1dc14cee64ae8d1a.md) |
+| 2026-11-02 | 2026-10-30 | R44263 v17 | Veterans Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R44263v17-2026-10-30-cbf8328ae0f07282.pdf) | [Markdown](markdown/reports/R44263v17-2026-10-30-cbf8328ae0f07282.md) |
+| 2026-11-02 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
 | 2026-10-31 | 2026-10-29 | R46236 v13 | Brazil: Background and U.S. Relations | [PDF](pdf/reports/R46236v13-2026-10-29-e48f4c35ce6486ce.pdf) | [Markdown](markdown/reports/R46236v13-2026-10-29-e48f4c35ce6486ce.md) |
 | 2026-10-31 | 2026-10-30 | R46943 v11 | Voter Registration Records and List Maintenance for Federal Elections | [PDF](pdf/reports/R46943v11-2026-10-30-e86321143863dac4.pdf) | [Markdown](markdown/reports/R46943v11-2026-10-30-e86321143863dac4.md) |
 | 2026-10-31 | 2026-10-29 | R47337 v8 | Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding | [PDF](pdf/reports/R47337v8-2026-10-29-016de1ee2ff7ff72.pdf) | [Markdown](markdown/reports/R47337v8-2026-10-29-016de1ee2ff7ff72.md) |
 | 2026-10-31 | 2026-10-30 | 96-548 v19 | The Legislative Process on the Senate Floor: An Introduction | [PDF](pdf/reports/96-548v19-2026-10-30-d6a495c904ace457.pdf) | [Markdown](markdown/reports/96-548v19-2026-10-30-d6a495c904ace457.md) |
 | 2026-10-31 | 2026-10-30 | R49498 v4 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of National Historic Preservation Act Provisions | [PDF](pdf/reports/R49498v4-2026-10-30-003f41db4da78c35.pdf) | [Markdown](markdown/reports/R49498v4-2026-10-30-003f41db4da78c35.md) |
 | 2026-10-31 | 2026-10-29 | R45030 v16 | Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments | [PDF](pdf/reports/R45030v16-2026-10-29-92f53420a538e99a.pdf) | [Markdown](markdown/reports/R45030v16-2026-10-29-92f53420a538e99a.md) |
-| 2026-10-31 | 2026-10-30 | R44263 v16 | Veterans Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R44263v16-2026-10-30-772d86201d2d8e8d.pdf) | [Markdown](markdown/reports/R44263v16-2026-10-30-772d86201d2d8e8d.md) |
 | 2026-10-31 | 2026-10-30 | IF11734 v4 | The Federal Contested Election Act: Overview and Recent Contests in the House of Representatives | [PDF](pdf/in-focus/IF11734v4-2026-10-30-f0d0330f9a6caa9d.pdf) | [Markdown](markdown/in-focus/IF11734v4-2026-10-30-f0d0330f9a6caa9d.md) |
 | 2026-10-31 | 2026-10-29 | R49495 v3 | Decommissioning Offshore Oil and Gas Infrastructure: Issues for Congress | [PDF](pdf/reports/R49495v3-2026-10-29-c5db96b2179f5924.pdf) | [Markdown](markdown/reports/R49495v3-2026-10-29-c5db96b2179f5924.md) |
 | 2026-10-31 | 2026-10-30 | R49497 v1 | FY2026 District of Columbia Budget and Appropriations | [PDF](pdf/reports/R49497v1-2026-10-30-3dd1cc626fe02b1f.pdf) | [Markdown](markdown/reports/R49497v1-2026-10-30-3dd1cc626fe02b1f.md) |

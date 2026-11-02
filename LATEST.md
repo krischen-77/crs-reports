@@ -1,3 +1,5 @@
+**Official-current verification: 54/54. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-26 to 2026-11-02**. Older archived files are retained.
@@ -11,6 +13,7 @@ Publication-date window (inclusive): **2026-10-26 to 2026-11-02**. Older archive
 | 2026-10-30 | R46943 v11 | Voter Registration Records and List Maintenance for Federal Elections | [PDF](pdf/reports/R46943v11-2026-10-30-e86321143863dac4.pdf) | [Markdown](markdown/reports/R46943v11-2026-10-30-e86321143863dac4.md) |
 | 2026-10-30 | R46406 v9 | Voter Registration: Recent Developments and Issues for Congress | [PDF](pdf/reports/R46406v9-2026-10-30-0fafb7206f2ef2d5.pdf) | [Markdown](markdown/reports/R46406v9-2026-10-30-0fafb7206f2ef2d5.md) |
 | 2026-10-30 | R44263 v16 | Veterans Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R44263v16-2026-10-30-772d86201d2d8e8d.pdf) | [Markdown](markdown/reports/R44263v16-2026-10-30-772d86201d2d8e8d.md) |
+| 2026-10-30 | R44263 v17 | Veterans Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R44263v17-2026-10-30-cbf8328ae0f07282.pdf) | [Markdown](markdown/reports/R44263v17-2026-10-30-cbf8328ae0f07282.md) |
 | 2026-10-30 | IN12751 v1 | Israel: 2026 Elections and Government Formation | [PDF](pdf/insights/IN12751v1-2026-10-30-21b9e48f1d34d8c4.pdf) | [Markdown](markdown/insights/IN12751v1-2026-10-30-21b9e48f1d34d8c4.md) |
 | 2026-10-30 | IN12750 v1 | A Slowdown in U.S. Labor Supply Growth | [PDF](pdf/insights/IN12750v1-2026-10-30-cc906949666bd1ae.pdf) | [Markdown](markdown/insights/IN12750v1-2026-10-30-cc906949666bd1ae.md) |
 | 2026-10-30 | IF13340 v3 | MSPB Moves Away from Douglas Factors in Misconduct Cases | [PDF](pdf/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.pdf) | [Markdown](markdown/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.md) |
@@ -72,7 +75,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-02 | 2026-05-12 | R43973 v20 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v20-2026-05-12-06015c5b7739ac66.pdf) | [Markdown](markdown/reports/R43973v20-2026-05-12-06015c5b7739ac66.md) |
+| 2026-11-02 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
 | 2026-10-29 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
 | 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
