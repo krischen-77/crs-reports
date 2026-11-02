@@ -1,0 +1,1080 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R43912.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">How Legislation Is Brought to the House <a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Floor: A Snapshot of Parliamentary Practice in the 113<sup>th</sup> Congress (2013-2014)</div>
+<div class="CoverDate">Updated February 13, 2015
+            (R43912)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc411957147"><span class="Hyperlink">Form of Measures</span></a></li>
+<li class="TOC1"><a href="#_Toc411957148"><span class="Hyperlink">Origin of Measures</span></a></li>
+<li class="TOC1"><a href="#_Toc411957149"><span class="Hyperlink">Party Sponsorship of Measures</span></a></li>
+<li class="TOC1"><a href="#_Toc411957150"><span class="Hyperlink">Floor Procedures Used in the 113</span><sup><span class="Hyperlink">th</span></sup><span class="Hyperlink"> Congress</span></a></li>
+<li class="TOC2"><a href="#_Toc411957151"><span class="Hyperlink">Suspension of the Rules</span></a></li>
+<li class="TOC2"><a href="#_Toc411957152"><span class="Hyperlink">Privileged Business</span></a></li>
+<li class="TOC2"><a href="#_Toc411957153"><span class="Hyperlink">By Special Rule</span></a></li>
+<li class="TOC2"><a href="#_Toc411957154"><span class="Hyperlink">Unanimous Consent</span></a></li>
+<li class="TOC2"><a href="#_Toc411957155"><span class="Hyperlink">Call of the Private Calendar</span></a></li>
+<li class="TOC2"><a href="#_Toc411957156"><span class="Hyperlink">Other Parliamentary Mechanisms</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc411957141"><span class="Hyperlink">Figure 1. Form of Legislation Receiving House Floor Action</span></a></li>
+<li><a href="#_Toc411957142"><span class="Hyperlink">Figure 2. Procedures Used to Bring Measures to the House Floor</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc411957143"><span class="Hyperlink">Table 1. Political Party Sponsorship of Measures Receiving House Floor Action: Sorted by Form of Measure</span></a></li>
+<li><a href="#_Toc411957144"><span class="Hyperlink">Table 2. Political Party Sponsorship of Measures Receiving House Floor Action: Sorted by Parliamentary Procedure Used to Consider Measure</span></a></li>
+<li><a href="#_Toc411957145"><span class="Hyperlink">Table 3. Parliamentary Procedures Used to Bring Measures to the Floor of the U.S. House of Representatives</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The House of Representatives has several different parliamentary procedures through which it can bring legislation to the chamber floor. Which of these will be used in a given situation depends on many factors, including the type of measure being considered, its cost, the amount of political or policy controversy surrounding it, and the degree to which Members want to debate it and propose amendments. This report provides a snapshot of the forms and origins of measures that, according to the Legislative Information System of the U.S. Congress, received action on the House floor in the 113<sup>th</sup> Congress (2013-2014) and the parliamentary procedures used to bring them up for initial House consideration.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, 943 pieces of legislation received floor action in the House of Representatives. Of these, 692 were bills or joint resolutions, and 251 were simple or concurrent resolutions, a breakdown between lawmaking and non-lawmaking legislative forms of approximately 73% to 27%. Of these 943 measures, 846 originated in the House, and 97 originated in the Senate.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">During the same period, 59% of all measures receiving initial House floor action came before the chamber under the Suspension of the Rules procedure, 18% came to the floor as business "privileged" under House rules and precedents, 16% were raised by a special rule reported by the Committee on Rules and adopted by the House, and 7% came up by the unanimous consent of Members. One measure, representing less than 1% of legislation receiving House floor action in the 113<sup>th</sup><sup> </sup>Congress, was processed under the procedures associated with the call of the Private Calendar.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When only lawmaking forms of legislation (bills and joint resolutions) are counted, 75% of such measures receiving initial House floor action in the 113<sup>th</sup> Congresses came before the chamber under the Suspension of the Rules procedure, 20% were raised by a special rule reported by the Committee on Rules and adopted by the House, and 5% came up by the unanimous consent of Members. Less than 1% of lawmaking forms of legislation received House floor action via the call of the Private Calendar or by virtue of being "privileged" under House rules.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The party sponsorship of legislation receiving initial floor action in the 113<sup>th</sup> Congress varied based on the procedure used to raise the legislation on the chamber floor. Sixty-eight percent of the measures considered under the Suspension of the Rules procedure were sponsored by majority party Members. All but four of the 148 measures brought before the House under the terms of a special rule reported by the House Committee on Rules and adopted by the House were sponsored by majority party Members.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span style="float: left;                       width: 0.75em;                       font-size: 400%;                       line-height: 80%;">T</span>he House of Representatives has several different parliamentary procedures through which it can bring legislation to the chamber floor. Which will be used in a given situation depends on many factors, including the type of measure being considered, its cost, the amount of political or policy controversy surrounding it, and the degree to which Members want to debate it and propose amendments.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to the Legislative Information System of the U.S. Congress (LIS), in the 113<sup>th</sup> Congress (2013-2014), 943 pieces of legislation received House floor action. This report provides a statistical snapshot of the forms, origins, and party sponsorship of these measures and of the parliamentary procedures used to bring them to the chamber floor during their initial consideration.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957147"></a>Form of Measures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Legislation is introduced in the House or Senate in one of four forms: the bill (H.R./S.), the joint resolution (H.J.Res./S.J.Res.), the concurrent resolution (H.Con.Res./S.Con.Res.), and the simple resolution (H.Res./S.Res.). Generally speaking, bills and joint resolutions can become law, but simple and concurrent resolutions cannot; they are used instead for internal organizational or procedural matters or to express the sentiment of one or both chambers.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='For more information on the forms and uses of legislation, see CRS Report 98-728, Bills, Resolutions, Nominations, and Treaties: Characteristics, Requirements, and Uses , by Richard S. Beth . Also see CRS Report 98-825, "Sense of" Resolutions and Provisions , by Christopher M. Davis .'>1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, 943 pieces of legislation received floor action in the House of Representatives. Of these, 692 were bills or joint resolutions, and 251 were simple or concurrent resolutions, a breakdown between lawmaking and non-lawmaking legislative forms of approximately 73% to 27%, respectively.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc411957141"></a>Figure 1. Form of Legislation Receiving House Floor Action</p>
+<p class="FigureSubTitle">113<sup>th</sup> Congress (2013-2014)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="" class="Figure" src="" style="border-top:0;border-bottom:0;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS analysis of data from the Legislative Information System of the U.S. Congress (LIS).</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957148"></a>Origin of Measures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the 943 measures receiving House floor action in the 113<sup>th</sup> Congress, 846 originated in the House, and 97 originated in the Senate.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957149"></a>Party Sponsorship of Measures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It is generally accepted that the House considers more legislation sponsored by majority party Members than measures introduced by minority party Members. This was born out in practice in the 113<sup>th</sup> Congress. As is reflected in <strong><a class="InternalLink" href="#_Ref287616932"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong>, 74% of all measures receiving initial House floor action in the last Congress were sponsored by Members of the Republican Party, which had a majority of seats in the House. When only lawmaking forms of legislation are considered, 73% of measures receiving House floor action in the 113<sup>th</sup> Congress were sponsored by Republicans, 27% by Democrats, and 0.002% by political independents.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref287616932"></a><a name="_Toc411957143"></a>Table 1. Political Party Sponsorship of Measures Receiving House Floor Action: Sorted by Form of Measure</p>
+<p class="TableSubTitle">113<sup>th</sup> Congress (2013-2014)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Form of Measure</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Democratic Sponsor</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Republican Sponsor</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Independent Sponsor</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Total</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">H.R.</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">133 (23%)</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">458 (77%)</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">591</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">S.</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">47 (64%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">25 (34%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">2 (3%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">74</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">H.J.Res.</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1 (4%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">22 (96%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">23</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">S.J.Res.</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4 (100%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">H.Res.</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">32 (17%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">161 (83%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">193</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">H.Con.Res.</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">10 (26%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">29 (74%)</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:86.4pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">39</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">S.Con.Res.</p>
+</td>
+<td style="width:86.4pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">18 (95%)</p>
+</td>
+<td style="width:86.4pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1 (5%)</p>
+</td>
+<td style="width:86.4pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:86.4pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">19</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><strong>TOTAL</strong></p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>245 (26%)</strong></p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>696 (74%)</strong></p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong> (0.</strong><strong>2%)</strong></p>
+</td>
+<td style="width:86.4pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>943</strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Legislative Information System of the U.S. Congress. </p>
+<p class="TableNote"><strong>Notes: </strong>Percentages may not total 100% due to rounding. Table reflects initial House consideration of legislation.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ratio of majority to minority party sponsorship of measures receiving initial House floor action in the 113<sup>th</sup> Congress varied widely based on the parliamentary procedure used to raise the legislation on the House floor. As noted in <strong><a class="InternalLink" href="#_Ref287616951"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong>, 68% of the measures considered under the Suspension of the Rules procedure were sponsored by Republicans, 32% by Democrats, and less than 1% by political independents. That measures introduced by Members of both parties were considered under Suspension is unsurprising in that (as discussed below) Suspension of the Rules is the parliamentary procedure that the House generally uses to process non-controversial measures for which there is wide bipartisan support. In addition, passage of a measure under the Suspension of the Rules procedure, in practice, usually requires the affirmative votes of at least some minority party Members.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ratio of party sponsorship on measures initially brought to the floor under the terms of a special rule reported by the House Committee on Rules and adopted by the House was far wider. Of the 148 measures the Congressional Research Service (CRS) identified as being initially brought to the floor under the terms of a special rule in the 113<sup>th</sup> Congress, 144 (about 97%) were sponsored by majority party Members.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The breakdown in party sponsorship on measures initially raised on the House floor by unanimous consent was uneven, with majority party Members sponsoring only 45% of the measures brought up in this manner.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref287616951"></a><a name="_Toc411957144"></a>Table 2. Political Party Sponsorship of Measures Receiving House Floor Action: Sorted by Parliamentary Procedure Used to Consider Measure</p>
+<p class="TableSubTitle">113<sup>th</sup> Congress (2013-2014)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:114.912pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Mode of Consideration</p>
+</td>
+<td style="width:91.06559999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Republican Sponsor</p>
+</td>
+<td style="width:81.90719999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Democratic Sponsor</p>
+</td>
+<td style="width:72.8352pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Independent Sponsor</p>
+</td>
+<td style="width:71.28pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Total</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.912pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Suspension of the Rules</p>
+</td>
+<td style="width:91.06559999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">376 (68%)</p>
+</td>
+<td style="width:81.90719999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">177 (32%)</p>
+</td>
+<td style="width:72.8352pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">2 (0.3%)</p>
+</td>
+<td style="width:71.28pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">555</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.912pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Privileged Business</p>
+</td>
+<td style="width:91.06559999999999pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">147 (84%)</p>
+</td>
+<td style="width:81.90719999999999pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">27 (16%)</p>
+</td>
+<td style="width:72.8352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:71.28pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">174</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.912pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Special Rule</p>
+</td>
+<td style="width:91.06559999999999pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">144 (97%)</p>
+</td>
+<td style="width:81.90719999999999pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4 (3%)</p>
+</td>
+<td style="width:72.8352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:71.28pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">148</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.912pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Unanimous Consent</p>
+</td>
+<td style="width:91.06559999999999pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">29 (45%)</p>
+</td>
+<td style="width:81.90719999999999pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">36 (55%)</p>
+</td>
+<td style="width:72.8352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:71.28pt;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">65</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.912pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Private Calendar</p>
+</td>
+<td style="width:91.06559999999999pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:81.90719999999999pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1 (100%)</p>
+</td>
+<td style="width:72.8352pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-</p>
+</td>
+<td style="width:71.28pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.912pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><strong>TOTAL</strong></p>
+</td>
+<td style="width:91.06559999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>696 (74%)</strong></p>
+</td>
+<td style="width:81.90719999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>245 (26%)</strong></p>
+</td>
+<td style="width:72.8352pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>2 (0.2%)</strong></p>
+</td>
+<td style="width:71.28pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>943</strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Legislative Information System of the U.S. Congress. </p>
+<p class="TableNote"><strong>Notes:</strong> Percentages may not total 100 percent due to rounding. Table reflects initial House consideration of legislation.</p>
+</div>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957150"></a>Floor Procedures Used in the 113<sup>th</sup> Congress</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The following section documents the parliamentary mechanisms that were used by the House to bring legislation to the floor for initial consideration during the 113<sup>th</sup> Congress. In doing so, it does not make distinctions about the privileged status such business technically enjoys under House rules. Most appropriations measures, for example, are considered "privileged business" under clause 5 of House Rule XIII (as detailed in the section on "<a class="InternalLink" href="#_Ref241570024">Privileged Business</a>" below). As such, they do not need a special rule from the Rules Committee to be adopted for them to have floor access. In actual practice, however, in the 113<sup>th</sup> Congress the House universally provided for the consideration of these measures by means of a special rule, which, in general, could also provide for debate to be structured, amendments to be regulated, and points of order against the bills to be waived. Thus, appropriations measures considered in the 113<sup>th</sup> Congress are counted in this analysis as being raised by special rule, notwithstanding their status as "privileged business."</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957151"></a>Suspension of the Rules</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In recent Congresses, most legislation has been brought up on the House floor by Suspension of the Rules, a parliamentary device authorized by clause 1 of House Rule XV that waives the chamber's rules to enable the House to act quickly on legislation that enjoys widespread, even if not necessarily unanimous, support. The main features of the Suspension of the Rules procedure include (1) a 40-minute limit on debate, (2) a prohibition against floor amendments and points of order, and (3) a two-thirds vote of Members present and voting for passage. The suspension procedure is in order in the House on the calendar days of Monday, Tuesday, and Wednesday; during the final six days of a congressional session; and at other<a name="OLE_LINK1"></a><a name="OLE_LINK2"></a> times by unanimous consent or special order.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="For more informati on on Suspension of the Rules, see CRS Report 98-314, Suspension of the Rules in the House: Principal Features , by Elizabeth Rybicki .">2</a></sup> In the 112<sup>th</sup> Congress (2011-2012), the House Republican leadership first announced additional policies related to its use of the Suspension of the Rules procedure that restrict the use of the procedure for certain "honorific" legislation, generally require measures considered under Suspension to have been available for three days prior to their consideration, and require the sponsor of the measure to be on the floor at the time of a measure's consideration.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="House Majority Leader Kevin McCarthy, Legislative Protocol , February 9, 2015, available at http://www.majorityleader.gov/protocols .">3</a></sup> These policies continued in force in the 113<sup>th</sup> Congress (2013-2014).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, 555 measures, representing 59% of all legislation receiving House floor action, were initially brought up using the Suspension of the Rules procedure. This includes 520 bills or joint resolutions and 35 simple or concurrent resolutions. When only lawmaking forms of legislation are counted, 75% of bills and joint resolutions receiving floor action in the 113<sup>th</sup> Congress came up by Suspension of the Rules. Ninety percent of measures brought up by Suspension of the Rules originated in the House. The remaining 10% were Senate measures. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref241570024"></a><a name="_Toc411957152"></a>Privileged Business</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">House rules and precedents place certain types of legislation in a special "privileged" category, which gives measures of this kind the ability to be called up for consideration when the House is not considering another matter. Bills and resolutions falling into this category that saw floor action in the 113<sup>th</sup> Congress include the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Order of Business Resolutions. Procedural resolutions reported by the House Committee on Rules affecting the "rules, joint rules, and the order of business of the House" are themselves privileged for consideration under clause 5 of House Rule XIII. Order of business resolutions are commonly known as "special rules" and are discussed below in more detail.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="U.S. Congress, House of Representatives , Constitution, Jefferson ' s Manual, and Rules of the House of Representatives , H.Doc. 1 12 -161, 112 th Cong., 2 nd sess. (Washington: GPO, 2013 ), § 853 .">4</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Committee Assignment Resolutions. Under clause 5 of House Rule X and the precedents of the House, a resolution assigning Members to standing committees is privileged if offered by direction of the party caucus or conference involved.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="Ibid., § 757.">5</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Correcting Enrollments. Under clause 5 of House Rule XIII, resolutions reported by the Committee on House Administration correcting errors in the enrollment of a bill are privileged.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Ibid.">6</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Providing for Adjournment. Under Article I, Section 5, clause 4, of the Constitution, neither house can adjourn for more than three days without the consent of the other. Concurrent resolutions providing for such an adjournment of one or both chambers are called up as privileged.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Ibid., § 84.">7</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Questions of the Privileges of the House. Under clause 2 of House Rule IX, resolutions raising a question of the privileges of the House affecting "the rights of the House collectively, its safety, dignity, and the integrity of its proceedings" are privileged under specific parliamentary circumstances described in the rule.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Ibid., § 699.">8</a></sup> Such resolutions would include the constitutional right of the House to originate revenue measures.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Bereavement Resolutions. Under House precedents, resolutions expressing the condolences of the House of Representatives over the death of a Representative or of a President or former President have been treated as privileged.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Measures Related to House Organization. Certain organizational business of the House—such as resolutions traditionally adopted at the beginning of a session to notify the President that the House has assembled and to elect House officers, as well as concurrent resolutions providing for a joint session of Congress—have been treated as privileged business.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, 174 measures, representing 18% of the measures receiving floor action, came before the House on their initial consideration by virtue of their status as "privileged business." All of these 174 measures were non-lawmaking forms of legislation, that is, simple or concurrent resolutions. The most common type of measure brought up in the House as "privileged business" during the 113<sup>th</sup> Congress was special orders of business (special rules) reported by the Rules Committee, followed by resolutions assigning Representatives to committee.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="For more information, see CRS Report 98-315, Privileged Business on the House Floor , by James V. Saturno .">9</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957153"></a>By Special Rule</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A special rule is a simple resolution that regulates the House's consideration of legislation identified in the resolution. Such resolutions, as noted above, are sometimes called "order of business resolutions" or "special orders," although Members and staff frequently simply refer to them as "rules." Special rules enable the House to consider a specified measure and establish the terms for its consideration—for example, how long the legislation will be debated, what (if any) amendments may be offered to it, and whether points of order against the measure or any amendments to it are waived. Under clause 1(m) of House Rule X, the Committee on Rules has jurisdiction over the "order of business" of the House, and it reports such procedural resolutions to the chamber for consideration. In current practice, although a relatively small percentage of legislation comes before the House via special rule, most measures that might be characterized as significant, complicated, or controversial are brought up in this way.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, 148 measures, or 16% of all legislation receiving House floor action, were initially brought before the chamber under the terms of a special rule reported by the Rules Committee and agreed to by the House. Of these, 138 (93%) were bills or joint resolutions, and 10 (7%) were simple or concurrent resolutions. When only lawmaking forms of legislation are counted, 20% of bills and joint resolutions receiving floor action in the 113<sup>th</sup> Congress came up by special rule. Ninety-eight percent of the measures considered under a special rule during the 113<sup>th</sup> Congress originated in the House, 2% being Senate legislation. As is noted above, all but four measures brought before the House using this parliamentary mechanism were sponsored by majority party Members.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957154"></a>Unanimous Consent</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In current practice, legislation is sometimes brought before the House of Representatives for consideration by the unanimous consent of its Members. Long-standing policies announced by the Speaker regulate unanimous consent requests for this purpose. Among other things, the Speaker will recognize a Member to propound a unanimous consent request to call up an unreported bill or resolution only if that request has been cleared in advance with both party floor leaders and with the bipartisan leadership of the committee of jurisdiction.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="William Holmes Brown, Charles W. Johnson, and John V. Sullivan, House Practice, A Guide to the Rules, Precedents and Procedures of the House (Washington: GPO, 20 11), pp. 892-893 .">10</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, 65 measures, or 7% of all legislation identified by LIS as receiving House floor action, were initially considered by unanimous consent. Of these, 33 (51%) were bills or joint resolutions, and 32 (49%) were simple or concurrent resolutions. When only lawmaking forms of legislation are counted, 5% of bills and joint resolutions receiving floor action in the 113<sup>th</sup> Congress came up by unanimous consent. Of the measures initially considered by unanimous consent during the 113<sup>th</sup> Congress, 63% originated in the House.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957155"></a>Call of the Private Calendar</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Clause 5 of House Rule XV establishes special parliamentary procedures to be used for the consideration of private legislation. Unlike public legislation, which applies to public matters and deals with individuals only by classes, the provisions of private bills apply to "one or several specified persons, corporations, [or] institutions."<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Asher C. Hinds, Hinds ' Precedents of the House of Representatives of the United States (Washington: GPO, 1917), vol. 4, §3285.">11</a></sup> When reported from House committee, private bills are placed on a special Private Calendar established by House Rule XIII. The consideration of Private Calendar measures is in order on the first and (if the Speaker of the House so chooses) third Tuesday of a month. On those days, the Private Calendar is "called," and each measure on it is automatically brought before the House in order. Private bills are considered under a set of procedures known as the "House <em>as in</em> Committee of the Whole," which is a hybrid of the procedures used in the full House and those used in the Committee of the Whole. Under these procedures, private bills may technically be debated and amended under the five-minute rule, although in actual practice they are almost always passed without debate or record vote.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="For more information, see CRS Report 98-628, Private Bills: Procedure in the House , by Richard S. Beth .">12</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, one measure was brought to the floor via the call of the Private Calendar. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc411957156"></a>Other Parliamentary Mechanisms</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The House of Representatives has established special parliamentary procedures that may be used to bring legislation to the chamber floor dealing with the business of the District of Columbia, a discharge process to force consideration of measures triggered by a petition signed by a numerical majority of the House, and a procedure known as the Calendar Wednesday procedure.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="For more information on these procedures, see CRS Report 98-315, Privileged Business on the House Floor , by James V. Saturno, and CRS Report 98-394, Discharge Procedure in the House , by Richard S. Beth .">13</a></sup> These procedures are rarely used, and no legislation was brought before the House in the 113<sup>th</sup> Congress by any of these three parliamentary mechanisms.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">\s</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:638.65pt;">
+<p class="TableTitle"><a name="_Toc411957145"></a>Table 3. Parliamentary Procedures Used to Bring Measures to the Floor of the U.S. House of Representatives</p>
+<p class="TableSubTitle">113<sup>th</sup> Congress (2013-2014)</p>
+</div>
+<table class="ReportTable" style="width:638.65pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="">Parliamentary Procedure / Percentage of Measures Considered</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">H.R.</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">S.</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">H.J.Res.</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">S.J.Res.</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">H.Res.</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">H.Con.Res.</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">S.Con.Res.</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">TOTAL</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Suspension of the Rules / 59%</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">460</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">53</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">7</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">10</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">5</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>555</strong></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="9" style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Privileged Business (174<strong> </strong>Total) / 18%</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Special orders of business (including those tabled)</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">105</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>105</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Committee assignment resolution</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"> 25</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>25</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Question of privileges of the House (including "blue-slipped" Senate bills, authorizing document production by House committees)</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Providing for adjournment / Recess</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">5</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">10</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>15</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Chamber organizational related</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">11</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong><strong>2</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Providing for a joint session or meeting / Inaugural</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>5</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Bereavement resolution</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">4</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>4</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Correcting engrossment or enrollment / Requesting return of papers</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>4</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Granting deposition authority to a committee</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>0</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Privileged by rule making statute</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>0</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Dismissing election contest</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Ethics investigation / discipline</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>0</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">By Special Rule / 16%</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">122</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">3</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">13</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">8</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>148</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Unanimous Consent / 7% </p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">8</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">18</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">3</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">4</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">13</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">17</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>6</strong><strong>5</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Call of the Private Calendar / 0.001%</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">D.C. Business / Discharge Petition / Calendar Wednesday / 0%</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>0</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><strong>Total</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>591</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>74</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>23</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>4</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>193</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>39</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>19</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>943</strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:638.65pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Research Service (CRS) analysis of data from the Legislative Information System of the U.S. Congress (LIS).</p>
+<p class="TableNote"><strong>Notes: </strong>Table reflects initial House consideration of measures receiving floor action between January 3, 2013, and January 6, 2015. Percentages may not add up to 100% due to rounding.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the forms and uses of legislation, see <a name="CrsProductRef_2"></a><a name="CrsProductRef_3"></a>CRS Report 98-728, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-728"><em>Bills, Resolutions, Nominations, and Treaties: Characteristics, Requirements, and Uses</em></a>, by Richard S. Beth. Also see CRS Report 98-825, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-825"><em>"Sense of" Resolutions and Provisions</em></a>, by Christopher M. Davis.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on Suspension of the Rules, see CRS Report 98-314, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-314"><em>Suspension of the Rules in the House: Principal Features</em></a>, by Elizabeth Rybicki.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> House Majority Leader Kevin McCarthy, <em>Legislative Protocol</em>, February 9, 2015, available at <a class="ExternalLink" href="http://www.majorityleader.gov/protocols"><span class="Hyperlink">http://www.majorityleader.gov/protocols</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Congress, House of Representatives, <em>Constitution, Jefferson</em><em>'</em><em>s Manual, and Rules of the House of Representatives</em>, <span class="Hyperlink">H.Doc. 1</span><span class="Hyperlink">12</span>-161, 112<sup>th</sup> Cong., 2<sup>nd</sup> sess. (Washington: GPO, 2013), §853. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., §757.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., §84.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., §699.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report 98-315, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-315"><em>Privileged Business on the House Floor</em></a>, by James V. Saturno.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> William Holmes Brown, Charles W. Johnson, and John V. Sullivan, <em>House Practice, A Guide to the Rules, Precedents and Procedures of the House</em> (Washington: GPO, 2011), pp. 892-893.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Asher C. Hinds, <em>Hinds</em><em>'</em><em> Precedents of the House of Representatives of the United States</em> (Washington: GPO, 1917), vol. 4, §3285.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report 98-628, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-628"><em>Private Bills: Procedure in the House</em></a>, by Richard S. Beth.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on these procedures, see CRS Report 98-315, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-315"><em>Privileged Business on the House Floor</em></a>, by James V. Saturno, and CRS Report 98-394, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-394"><em>Discharge Procedure in the House</em></a>, by Richard S. Beth.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

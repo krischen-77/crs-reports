@@ -1,0 +1,917 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R43931.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>U.S. Circuit and District Court Nominations During President Obama's First Six Years (2009-2014): Comparative Analysis with Recent Presidents</div>
+<div class="CoverDate">Updated March 9, 2015
+            (R43931)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc413749633"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC2"><a href="#_Toc413749634"><span class="Hyperlink">Purpose and Scope of Report</span></a></li>
+<li class="TOC1"><a href="#_Toc413749635"><span class="Hyperlink">Overall Number and Percentage of Confirmed Judicial Nominees</span></a></li>
+<li class="TOC2"><a href="#_Toc413749636"><span class="Hyperlink">U.S. Circuit Court Nominees</span></a></li>
+<li class="TOC2"><a href="#_Toc413749637"><span class="Hyperlink">U.S. District Court Nominees</span></a></li>
+<li class="TOC1"><a href="#_Toc413749638"><span class="Hyperlink">Confirmation of Judicial Nominees During a President's Sixth Year</span></a></li>
+<li class="TOC2"><a href="#_Toc413749639"><span class="Hyperlink">U.S. Circuit Court Nominees</span></a></li>
+<li class="TOC3"><a href="#_Toc413749640"><span class="Hyperlink">Number Confirmed</span></a></li>
+<li class="TOC3"><a href="#_Toc413749641"><span class="Hyperlink">Comparison to Fifth Year</span></a></li>
+<li class="TOC2"><a href="#_Toc413749642"><span class="Hyperlink">U.S. District Court Nominees</span></a></li>
+<li class="TOC3"><a href="#_Toc413749643"><span class="Hyperlink">Number Confirmed</span></a></li>
+<li class="TOC3"><a href="#_Toc413749644"><span class="Hyperlink">Comparison to Fifth Year</span></a></li>
+<li class="TOC1"><a href="#_Toc413749645"><span class="Hyperlink">Length of Time from Nomination to Confirmation</span></a></li>
+<li class="TOC2"><a href="#_Toc413749646"><span class="Hyperlink">U.S. Circuit Court Nominees</span></a></li>
+<li class="TOC2"><a href="#_Toc413749647"><span class="Hyperlink">U.S. District Court Nominees</span></a></li>
+<li class="TOC2"><a href="#_Toc413749648"><span class="Hyperlink">Length of Time from Nomination to Confirmation Prior to, and Following, the Reinterpretation of the Application of Rule XXII</span></a></li>
+<li class="TOC1"><a href="#_Toc413749649"><span class="Hyperlink">U.S. Circuit and District Court Vacancies</span></a></li>
+<li class="TOC2"><a href="#_Toc413749650"><span class="Hyperlink">Percentage of Judgeships Vacant on January 1 of Sixth and Seventh Years in Office</span></a></li>
+<li class="TOC3"><a href="#_Toc413749651"><span class="Hyperlink">U.S. Circuit Court Vacancies</span></a></li>
+<li class="TOC3"><a href="#_Toc413749652"><span class="Hyperlink">U.S. District Court Vacancies</span></a></li>
+<li class="TOC2"><a href="#_Toc413749653"><span class="Hyperlink">Percentage of Vacancies Deemed Judicial Emergencies on January 1 of Sixth and Seventh Years in Office</span></a></li>
+<li class="TOC3"><a href="#_Toc413749654"><span class="Hyperlink">U.S. Circuit Court Vacancies</span></a></li>
+<li class="TOC3"><a href="#_Toc413749655"><span class="Hyperlink">U.S. District Court Vacancies</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc413749626"><span class="Hyperlink">Figure 1. U.S. Circuit and District Court Nominees: Mean and Median Number of Days from Nomination to Confirmation for Nominees Confirmed During First Six Years</span></a></li>
+<li><a href="#_Toc413749627"><span class="Hyperlink">Figure 2. U.S. District Court Nominees: Mean and Median Number of Days from Nomination to Confirmation for Six Groups of Nominees</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc413749628"><span class="Hyperlink">Table 1. U.S. Circuit Court Nominees: Number Nominated, Number Confirmed, Percentage Confirmed During First Six Years</span></a></li>
+<li><a href="#_Toc413749629"><span class="Hyperlink">Table 2. U.S. District Court Nominees: Number Nominated, Number Confirmed, Percentage Confirmed During First Six Years</span></a></li>
+<li><a href="#_Toc413749630"><span class="Hyperlink">Table 3. Percentage of U.S. Circuit and District Judgeships Vacant on January 1 of Sixth and Seventh Years in Office</span></a></li>
+<li><a href="#_Toc413749631"><span class="Hyperlink">Table 4. Percentage of Judicial Vacancies Deemed Judicial Emergencies by the Judicial Conference of the United States</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The selection and confirmation process for U.S. circuit and district court judges is of continuing interest to Congress. Recent Senate debates over judicial nominations have focused on issues such as the relative degree of success of President Barack Obama's nominees in gaining Senate confirmation compared with other recent Presidents, as well as the time from nomination to confirmation for nominees, and the relative prevalence of vacant judgeships compared to years past. This report addresses these issues, and others, by providing a statistical analysis of nominations to U.S. circuit and district court judgeships during the first six years of President Obama's time in office and that of his three most recent two-term predecessors, Presidents Reagan, Clinton and G.W. Bush. Some of the report's findings include the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">During his first six years in office, President Obama nominated 61 persons to U.S. circuit court judgeships. Of the 61, 53 were also confirmed during this same six-year period. The 53 confirmed Obama circuit court nominees represented the second-highest number of nominees confirmed during recent Presidents' first six years. President Clinton had the lowest number at 50. The percentage of circuit court nominees confirmed during President Obama's first six years, 86.9%, was also the second-highest, while the percentage confirmed during President G.W. Bush's, 75.0%, was the lowest. Of the four Presidents, President Reagan had both the greatest number (66) and percentage (97.1%) of circuit court nominees confirmed within the first six years of his presidency.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the 270 persons nominated by President Obama to U.S. district court judgeships during his first six years, 250 (92.6%) were confirmed. Of the four recent two-term Presidents analyzed here, this was the greatest number and second-greatest percentage of district court nominees confirmed. Of the comparison group, President Reagan had the greatest percentage of district court nominees confirmed (97.4%), while President G.W. Bush had the lowest percentage confirmed (86.8%). President Clinton had, during his first six years, 90.2% of his district court nominees confirmed.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The average number of days elapsed from nomination to confirmation for circuit court nominees confirmed during a President's first six years ranged from a low of 55.8 days during the Reagan presidency to a high of 366.7 days during the G.W. Bush presidency. The median number of days from nomination to confirmation for circuit court nominees confirmed during a President's first six years ranged from a low of 37.0 days (Reagan) to a high of 228.0 (Obama).</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The average number of days elapsed from nomination to confirmation for district court nominees confirmed during a President's first six years ranged from a low of 50.2 days during the Reagan presidency to a high of 219.4 days during the Obama presidency. The median number of days from nomination to confirmation for district court nominees confirmed during a President's first six years ranged from a low of 35.0 days (Reagan) to a high of 214.5 (Obama).</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage of circuit court judgeships vacant on January 1 of President Obama's seventh year in office was less than the percentage of such judgeships vacant on January 1 of his sixth year in office (3.9% and 9.5%, respectively). The percentage of circuit court judgeships vacant at the beginning of President Obama's seventh year in office was less than the percentage vacant at the beginning of the seventh year of the Reagan, Clinton, and G.W. Bush presidencies.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage of district court judgeships vacant on January 1 of President Obama's seventh year in office was less than the percentage of such judgeships vacant on January 1 of his sixth year in office (4.9% and 11.1%, respectively). The percentage of district court judgeships vacant at the beginning of President Obama's seventh year in office was less than the percentage vacant at the beginning of the seventh year of the Reagan, Clinton, and G.W. Bush presidencies.</li></ul><hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Article III, Section I, of the Constitution provides, in part, that the "judicial Power of the United States, shall be vested in one supreme Court, and in such inferior Courts as the Congress may from time to time ordain and establish." It further provides that Justices on the Supreme Court and judges on lower courts established by Congress under Article III have what effectively has come to mean life tenure, holding office "during good Behaviour."<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Pursuant to this constitutional language, Article III judges may hold office for as long as they live or until they voluntarily leave office. A President has no power to remove them from office. Article III judges, however, may be removed by Congress through the process of impeachment by the House and conviction by the Senate.">1</a></sup> Along with the Supreme Court, the courts that constitute the Article III courts in the federal system are the U.S. circuit courts of appeals, the U.S. district courts, and the U.S. Court of International Trade.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="The U.S. Court of International Trade is a nine-member court with nationwide jurisdiction over civil actions arising out of the customs and international trade laws of the United States.">2</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report concerns nominations made by President Obama and other recent Presidents to the U.S. circuit courts of appeals and the U.S. district courts.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='The U.S. courts of appeals take appeals from federal district court decisions and are also empowered to review the decisions of many administrative agencies. Altogether, 179 appellate court judgeships for 13 courts of appeals are currently authorized by law. In this report, nominations to U.S. courts of appeals judgeships are frequently referred to as "circuit court nominations." U.S. district courts are the federal trial courts of general jurisdiction. Altogether, 673 Article III U.S. distric...'>3</a></sup> Outside the report's scope are the occasional nominations that these Presidents made to the Supreme Court and the U.S. Court of International Trade.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='The scope of this report also does not include the relatively rare nominations made by a President to territorial district court judgeships, which were established by Congress pursuant to its authority to govern the territories under Article IV of the Constitution. The three U.S. territorial courts are located in Guam, the Northern Mariana Islands, and the U.S. Virgin Islands. Judges confirmed to these courts serve 10-year terms (rather than "during good Behaviour"). Like Article III courts, t...'>4</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In recent Congresses, there has been ongoing interest in the process by which U.S. circuit and district court judges are nominated by the President and approved by the Senate. During Senate debates over judicial nominations, differing perspectives have been expressed about the relative degree of success of a President's nominees in gaining Senate confirmation, compared with the nominees of other recent Presidents.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='See, for example, floor remarks by Sen. Chuck Grassley in "Executive Session," Remarks in the Senate, Congressional Record , daily edition, March 4, 2014, pp. 1265-1266. See also floor remarks by Sen. Patrick Leahy in "Executive Session," Remarks in the Senate, Congressional Record , daily edition, September 9, 2013, p. S6285.'>5</a></sup> Additionally, Senate debate has, at times, concerned whether a President's judicial nominees, relative to the nominees of other recent Presidents, had to wait longer before receiving consideration by the Senate Judiciary Committee or "up-or-down" floor votes on confirmation.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='See, for example, contrasting views on this and related issues in floor remarks by Senators Grassley and Leahy in "Executive Session," Remarks in the Senate, Congressional Record , daily edition, May 7, 2012, pp. S2909-2910 (Grassley) and pp. S2907-2908 (Leahy); and in "Nomination of George Levi Russell III, To Be United States District Judge for the District of Maryland," Remarks in the Senate, Congressional Record, daily edition, May 14, 2012, pp. S3120-3121 (Grassley) and pp. S3117-3119...'>6</a></sup> Of related concern to Congress has been increases in recent years in the number of vacant judgeships in the federal judiciary, the frequency with which vacant judgeships are considered "judicial emergencies," and the time it has taken to process nominations to fill judicial vacancies.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='See, for example, Sen. Patrick J. Leahy, "Judicial Nominations in 2013," Remarks in the Senate, Congressional Record , daily edition, December 20, 2013, p. S9092. Concern over judicial vacancies has also been expressed by Chief Justice John G. Roberts, Jr., and by his predecessor, Chief Justice William Rehnquist. Chief Justice Roberts, noting that vacancies are not evenly distributed across judicial districts, has stated that "a persistent problem has developed in the process of filling judic...'>7</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Perhaps in response to some of the issues described above, the Senate, on November 21, 2013,</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">reinterpreted the application of Senate Rule XXII to floor consideration of presidential nominations by overturning a ruling of the chair on appeal. For nominations other than to the Supreme Court, the new precedent lowered the vote threshold by which cloture can be invoked—from three-fifths of the Senate to a simple majority of those voting, thereby enabling a supportive majority to reach an 'up-or-down' vote on confirming a nomination.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='CRS Report R43331, Majority Cloture for Nominations: Implications and the "Nuclear" Proceedings , by Valerie Heitshusen , pp. 1-2.'>8</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The reinterpretation of the application of Senate Rule XXII, hereinafter referred to as "the reinterpretation," was in effect from November 21, 2013, during the first session of the 113<sup>th</sup> Congress (near the end of President Obama's fifth calendar year in office) to the end of the second session of the 113<sup>th</sup> Congress (through President Obama's entire sixth calendar year in office). As of this writing, the reinterpretation continues to be in effect during the 114<sup>th</sup> Congress.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749634"></a>Purpose and Scope of Report</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The purpose of this report is to provide an annual update of certain statistics related to the nomination and confirmation of lower federal court judges during the current presidency, with a focus on the aggregate or cumulative statistics related to the current President's first six years in office, as well as highlights from his most recent year in office (i.e., his sixth year).<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="A President's first six years in office is defined as the period of time between January 20, the date he assumed office during the first calendar year of his presidency, to December 31 of his sixth calendar year in office (rather than to January 19, which formally marks the end of his sixth full year in office but also falls during the seventh calendar year of his presidency). Operationalizing a President's tenure in office in this manner allows for the analysis to coincide more closely with d...">9</a></sup> Such statistics represent but one approach to analyzing the nomination and confirmation process for lower federal court nominees—other analyses, for example, might focus on nomination and confirmation statistics presented by Congress (rather than by presidency) or calendar year.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="CRS is available to congressional clients upon request to provide analyses of nomination and confirmation data in ways other than how such data are presented in this report.">10</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Specifically, in light of continued Senate interest in the judicial selection and confirmation process, this report seeks to inform the ongoing debate in three ways: (1) by comparing the number and percentage of U.S. circuit and district court nominees who were confirmed during the first six years of the Reagan, Clinton, G.W. Bush, and Obama presidencies, as well as during just the sixth year of each presidency;<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Most of the statistics presented and discussed in this report were generated from an internal CRS judicial nominations database. Other data sources, however, are noted where appropriate. As mentioned above, statistics presented throughout the report account only for nominations made to U.S. circuit court and district court judgeships.">11</a></sup> (2) by providing, for the same four Presidents, a comparison of the time from nomination to confirmation for circuit and district court nominees approved by the Senate during each President's first six years; and (3) by comparing the percentage of circuit and district court judgeships vacant at the beginning of each President's sixth and seventh years in office as well as the percentage of such vacancies considered "judicial emergencies."<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="For a discussion of the various factors that might help explain differences in judicial nominations statistics and judicial vacancies across presidencies, see CRS Report R43058, President Obama's First-Term U.S. Circuit and District Court Nominations: An Analysis and Comparison with Presidents Since Reagan , by Barry J. McMillion .">12</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In order to provide these statistics with some recent historical context, the report includes a comparative component (as described above) in which statistics during the current President's first six years are compared to the same statistics from other recent two-term presidencies. The report does not delve into analyses of issues more relevant to past presidencies but rather is intended to provide analysis and context related to the nomination and confirmation of the current President's judicial nominees.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report does not analyze or take a position on the number or percentage of a President's judicial nominations that would be appropriate for the Senate to confirm, or on the average (and median) length of time that would be appropriate for, or needed by, the Senate to take final action on such nominations.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='The mean is equivalent to the arithmetic average ("mean" and "average" are used interchangeably throughout this report). The mean or average is calculated by adding a group of numbers and then dividing that value by how many numbers there are, while the median is the middle value for a particular set of numbers (i.e., half of the numbers are above the median and half of the numbers are below it). Although the average or mean is a more commonly used measure, the median is less affected by outli...'>13</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749635"></a>Overall Number and Percentage of Confirmed Judicial Nominees</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749636"></a>U.S. Circuit Court Nominees</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662241"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong> presents, during the first six years of a presidency for Presidents Reagan through Obama, (1) the total number of circuit court nominees; (2) the total number, and percentage, of circuit nominees confirmed by the end of a President's sixth year in office;<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Not included as a confirmed nominee is any individual who received a recess appointment by the President and who was not subsequently confirmed by the Senate during that same President's first six years in office. So, for example, Charles W. Pickering, Sr., received a recess appointment by President G.W. Bush to the U.S. Court of Appeals for the Fifth Circuit on January 16, 2004. Mr. Pickering was not ultimately confirmed by the Senate and his judicial service ended on December 8, 2004. Conseq...">14</a></sup> (3) the number, and percentage, confirmed after his sixth year; and (4) the number, and percentage, of circuit nominees never confirmed.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="A judicial nomination may fail to receive Senate confirmation because (1) the full Senate votes against the nomination; (2) the President withdraws the nomination, either because the Senate Judiciary Committee (i) has voted against reporting it favorably, (ii) has made clear its intention not to act on the nomination, or (iii) because the nomination, even if reported, is likely to face substantial opposition on the Senate floor; (3) the nominee himself or herself has requested that the nominat...">15</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note that <strong><a class="InternalLink" href="#_Ref413662241"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong> does not include individuals first nominated and then confirmed during a President's seventh or eighth year in office and, thus, does not reflect the total number or percentage of nominees confirmed during the full eight years of each presidency.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While Presidents sometimes have nominated particular individuals to a court more than once, <strong><a class="InternalLink" href="#_Ref413662241"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong><strong> </strong>counts such nominees only once (as does <strong><a class="InternalLink" href="#_Ref413662295"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong><strong> </strong>below). In other words, neither table accounts for multiple nominations of the same individual to the same court.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662241"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong><strong> </strong>reveals that each President nominated between 61 and 68 individuals to circuit court judgeships during their first six years in office. Presidents Reagan and G.W. Bush nominated the greatest number of individuals (each nominating 68), while President Obama nominated the fewest number of individuals (61).</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:444.78720000000004pt;">
+<p class="TableTitle"><a name="_Ref413662241"></a><a name="_Toc413749628"></a>Table 1. U.S. Circuit Court Nominees: Number Nominated, Number Confirmed, Percentage Confirmed During First Six Years</p>
+</div>
+<table class="ReportTable" style="width:444.78720000000004pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:55.33152768pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:67.16286720000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">Number (Percent) Confirmed</p>
+</td>
+<td style="width:111.19680000000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:57.02171904000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.33152768pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">President</p>
+</td>
+<td style="width:67.16286720000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Number Nominated by End of 6<sup>th</sup> Year</p>
+</td>
+<td style="width:86.11080192pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">By End of 6th Year</p>
+</td>
+<td style="width:67.96348416000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">After 6th Year</p>
+</td>
+<td style="width:111.19680000000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Overall Number (Percent) Confirmed of All Those Nominated by End of 6th Year</p>
+</td>
+<td style="width:57.02171904000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Number (Percent) Never Confirmed</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.33152768pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Reagan (1981-86)</p>
+</td>
+<td style="width:67.16286720000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68</p>
+</td>
+<td style="width:86.11080192pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">66 (97.1%)</p>
+</td>
+<td style="width:67.96348416000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0 (0.0%)</p>
+</td>
+<td style="width:111.19680000000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">66 (97.1%)</p>
+</td>
+<td style="width:57.02171904000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">2 (2.9%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.33152768pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Clinton (1993-98)</p>
+</td>
+<td style="width:67.16286720000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">62</p>
+</td>
+<td style="width:86.11080192pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">50 (80.6%)</p>
+</td>
+<td style="width:67.96348416000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4 (6.5%)</p>
+</td>
+<td style="width:111.19680000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">54 (87.1%)</p>
+</td>
+<td style="width:57.02171904000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8 (12.9%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.33152768pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">G.W. Bush (2001-06)</p>
+</td>
+<td style="width:67.16286720000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68</p>
+</td>
+<td style="width:86.11080192pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">51 (75.0%)</p>
+</td>
+<td style="width:67.96348416000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4 (5.9%)</p>
+</td>
+<td style="width:111.19680000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">55 (80.9%)</p>
+</td>
+<td style="width:57.02171904000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">13 (19.1%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.33152768pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Obama (2009-14)</p>
+</td>
+<td style="width:67.16286720000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">61</p>
+</td>
+<td style="width:86.11080192pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">53 (86.9%)</p>
+</td>
+<td style="width:67.96348416000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">TBD</p>
+</td>
+<td style="width:111.19680000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">TBD</p>
+</td>
+<td style="width:57.02171904000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">TBD</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:444.78720000000004pt;">
+<p class="TableSource"><strong>Source: </strong>Internal CRS judicial nominations database.</p>
+<p class="TableNote"><strong>Notes: </strong>This table shows the total number of individuals nominated for U.S. circuit court judgeships during a President's first six years in office, as well as the number and percentage of nominees confirmed during his first six years and after his sixth year. The table also shows the number and percentage of circuit court nominees who were nominated during a President's first six years who were never confirmed by the Senate. "TBD" is "to be determined" over the remaining two years of the Obama presidency.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">President Reagan had the highest percentage of circuit court nominees confirmed by the end of his sixth year in office (97.1%)—all but two of the individuals nominated to circuit court judgeships from 1981 through 1986 were confirmed by the end of 1986. President G.W. Bush had the lowest percentage of circuit court nominees confirmed by the end of his sixth year in office (75.0% by the end of 2006), followed by Presidents Clinton (80.6% by the end of 1998) and Obama (with the second-highest percentage, 86.9%, by the end of 2014).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In terms of the number, rather than the percentage, of individuals approved by the Senate by the end of a President's sixth year in office, President Reagan had the greatest number confirmed (66) and President Clinton the fewest (50), followed by Presidents G.W. Bush (51) and Obama (with the second-highest, 53, by the end of his sixth year).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the eight circuit court nominees who were nominated during President Obama's first six years but not confirmed during that same period, two have, as of this writing, been renominated during the 114<sup>th</sup> Congress.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="The two nominees are Kara Farnandez Stoll, nominated to the Federal Circuit, and Luis F. Restrepo, nominated to the Third Circuit. The six nominees whose nominations were returned to the President (or withdrawn by him) and not ultimately resubmitted to the Senate include Robert N. Chatigny (nominated to the Second Circuit), Goodwin Liu (Ninth Circuit), Edward C. DuMont (Federal Circuit), Victoria F. Nourse (Seventh Circuit), Steve Six (Tenth Circuit), and Caitlin J. Halligan (D.C. Circuit).">16</a></sup> If these two nominees are confirmed, the number and percentage of nominees confirmed who were first nominated during President Obama's first six years, would increase to 55 and 90.2%, respectively.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Four circuit court nominees who were nominated during President G.W. Bush's first six years were eventually confirmed later in his presidency, raising the number and percentage of nominees confirmed who were first nominated during his first six years to 55 and 80.9%, respectively.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Four circuit court nominees who were nominated during President Clinton's first six years were eventually confirmed later in his presidency (i.e., during his seventh year or later), raising the number and percentage of nominees confirmed who were first nominated during his first six years to 54 and 87.1%, respectively.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of those individuals nominated during the first six years of a presidency, President G.W. Bush had the highest number and percentage who were never confirmed (13 and 19.1%, respectively), followed by Presidents Clinton (8 and 12.9%) and Reagan (2 and 2.9%).<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="As indicated by Table 1 , it remains to be determined, for U.S. circuit court nominees nominated during President Obama's first six years, the number and percentage of nominees who are approved by the Senate during the remainder of his presidency.">17</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749637"></a>U.S. District Court Nominees</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662295"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong> presents, during the first six years of the Reagan, Clinton, G.W. Bush, and Obama presidencies, (1) the total number of district court nominees; (2) the total number, and percentage, of district nominees confirmed by the end of each President's sixth year in office; (3) the number, and percentage, confirmed after his sixth year; and (4) the number, and percentage, of district nominees never confirmed. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note that <strong><a class="InternalLink" href="#_Ref413662295"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong><strong> </strong>does not include individuals first nominated and then confirmed during a President's seventh or eighth year in office and, thus, does not reflect the total number or percentage of nominees confirmed during the full eight years of each presidency.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The table reveals that each President nominated between 230 and 275 individuals to district court judgeships during his first six years in office, with Presidents Clinton and Obama nominating the greatest number of individuals (275 and 270, respectively). President G.W. Bush nominated the fewest number of individuals during his first six years in office (234).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">President Reagan had the highest percentage of district court nominees confirmed by the end of his sixth year in office (97.4%), while President G.W. Bush had the lowest percentage of nominees confirmed by the end of his sixth year (86.8%). President Clinton had 90.2% confirmed, while President Obama had the second-highest percentage (92.6%) confirmed during the first six years of his presidency.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In terms of the number, rather than the percentage, of individuals approved by the Senate by the end of a President's sixth year in office, President Obama had the greatest number confirmed (250) and President G.W. Bush the fewest (203).</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:439.51680000000004pt;">
+<p class="TableTitle"><a name="_Ref413662295"></a><a name="_Toc413749629"></a>Table 2. U.S. District Court Nominees: Number Nominated, Number Confirmed, Percentage Confirmed During First Six Years</p>
+</div>
+<table class="ReportTable" style="width:439.51680000000004pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:54.53091072000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:70.98803712pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">Number (Percent) Confirmed</p>
+</td>
+<td style="width:110.7520128pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:62.09229312000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:54.53091072000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">President</p>
+</td>
+<td style="width:70.98803712pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Number Nominated by End of 6th Year</p>
+</td>
+<td style="width:79.88378112000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">By End of 6th Year</p>
+</td>
+<td style="width:66.54016512000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">After 6th Year</p>
+</td>
+<td style="width:110.7520128pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Overall Number (Percent) Confirmed of All Those Nominated by End of 6th Year</p>
+</td>
+<td style="width:62.09229312000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Number (Percent) Never Confirmed</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:54.53091072000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Reagan (1981-86)</p>
+</td>
+<td style="width:70.98803712pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">230</p>
+</td>
+<td style="width:79.88378112000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">224 (97.4%)</p>
+</td>
+<td style="width:66.54016512000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">2 (0.9%)</p>
+</td>
+<td style="width:110.7520128pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">226 (98.3%)</p>
+</td>
+<td style="width:62.09229312000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4 (1.7%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:54.53091072000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Clinton (1993-98)</p>
+</td>
+<td style="width:70.98803712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">275</p>
+</td>
+<td style="width:79.88378112000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">248 (90.2%)</p>
+</td>
+<td style="width:66.54016512000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4 (1.5%)</p>
+</td>
+<td style="width:110.7520128pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">252 (91.6%)</p>
+</td>
+<td style="width:62.09229312000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">23 (8.4%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:54.53091072000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">G.W. Bush (2001-06)</p>
+</td>
+<td style="width:70.98803712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">234</p>
+</td>
+<td style="width:79.88378112000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">203 (86.8%)</p>
+</td>
+<td style="width:66.54016512000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">24 (10.3%)</p>
+</td>
+<td style="width:110.7520128pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">227 (97.0%)</p>
+</td>
+<td style="width:62.09229312000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7 (3.0%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:54.53091072000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Obama (2009-14)</p>
+</td>
+<td style="width:70.98803712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">270</p>
+</td>
+<td style="width:79.88378112000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">250 (92.6%)</p>
+</td>
+<td style="width:66.54016512000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">TBD</p>
+</td>
+<td style="width:110.7520128pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">TBD</p>
+</td>
+<td style="width:62.09229312000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">TBD</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:439.51680000000004pt;">
+<p class="TableSource"><strong>Source: </strong>Internal CRS judicial nominations database.</p>
+<p class="TableNote"><strong>Notes: </strong>This table shows the total number of individuals nominated for U.S. district court judgeships during a President's first six years in office, as well as the number and percentage of nominees confirmed during his first six years and after his sixth year. The table also shows the number and percentage of district court nominees who were nominated during a President's first six years who were never confirmed by the Senate. "TBD" is "to be determined" over the remaining two years of the Obama presidency.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the 20 district court nominees who were nominated during President Obama's first six years but not confirmed during that same period, 9 have, as of this writing, been renominated during the 114<sup>th</sup> Congress.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="The nine nominees are Alfred H. Bennett, George C. Hanks, Jr., and Jose R. Olvera, Jr., (each nominated to the Southern District of Texas), Jill N. Parrish (District of Utah), Dale A. Drozd (Eastern District of California), LaShann M. DeArcy Hall and Ann Donnelly (each to the Eastern District of New York), Roseann A. Ketchmark (Western District of Missouri), and Travis R. McDonough (Eastern District of Tennessee). The names of the 11 nominees whose nominations were unsuccessful (and whose nomi...">18</a></sup> If these 9 nominees are confirmed, the number and percentage of nominees confirmed who were first nominated during President Obama's first six years would increase to 259 and 95.9%, respectively.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">During the G.W. Bush presidency, 24 district court nominees who were nominated during his first six years were eventually confirmed later in his presidency (i.e., during his seventh year or later), raising the number and percentage of nominees confirmed who were first nominated during his first six years to 227 and 97.0%, respectively. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Four district court nominees who were nominated during President Clinton's first six years and two nominees nominated during President Reagan's first six years were later confirmed during each respective presidency, raising the number and percentage of nominees confirmed who were first nominated during each President's first six years to 252 (91.6%) and 226 (98.3%), respectively.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of those individuals nominated during the first six years of a presidency, President Clinton had the highest number and percentage who were never confirmed (23 and 8.4%, respectively), followed by Presidents G.W. Bush (7 and 3.0%) and Reagan (4 and 1.7%).<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="As indicated by Table 2 , it remains to be determined, for U.S. district court nominees nominated during President Obama's first six years, the number and percentage of nominees who are approved by the Senate during the remainder of his presidency.">19</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749638"></a>Confirmation of Judicial Nominees During a President's Sixth Year</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749639"></a>U.S. Circuit Court Nominees</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749640"></a>Number Confirmed</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There is variation across the four Presidents in the number of U.S. circuit and district court nominees confirmed solely during a President's sixth year in office. The number of circuit court nominees confirmed during a sixth year ranged from a high of 13 during the Clinton presidency to a low of 9 during the G.W. Bush presidency. President Obama had 12 circuit court nominees confirmed during his sixth year in office (the second-highest among the four Presidents), while President Reagan had 11 nominees confirmed.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 12 circuit court nominees confirmed during President Obama's sixth year in office accounted for 22.6% of the total 53 circuit court nominees confirmed during his first six years in office. For Presidents G.W. Bush, Clinton and Reagan, the number of circuit court nominees confirmed during just the sixth year accounted for 17.6%, 26.0%, and 16.7%, respectively, of the total number of circuit court nominees confirmed during each President's first six years.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749641"></a>Comparison to Fifth Year</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In general, at least during recent presidencies, the number of circuit court nominees confirmed during a President's sixth year in office is greater than the number confirmed during his fifth year. Of the four Presidents included in the comparison group, only President Reagan had a fewer number of circuit court nominees confirmed during his sixth year in office than during his fifth year (11 and 22, respectively). President Clinton had the greatest increase in the number confirmed between his fifth and sixth years (7 and 13, respectively). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The number of confirmed circuit court nominees also increased from the fifth to the sixth year during the G.W. Bush presidency (7 and 9, respectively), as well as during the Obama presidency (11 and 12, respectively).</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749642"></a>U.S. District Court Nominees</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749643"></a>Number Confirmed</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For district court nominees, the number of nominees confirmed during a sixth year ranged from a high of 77 during the Obama presidency to a low of 21 during the G.W. Bush presidency. For Presidents Clinton and Reagan, 50 and 33 district court nominees were confirmed, respectively, during each of their sixth years in office.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 77 district court nominees confirmed during President Obama's sixth year in office accounted for 30.8% of the total 250 district court nominees confirmed during his first six years in office. For Presidents G.W. Bush, Clinton and Reagan, the number of district court nominees confirmed during just the sixth year accounted for 10.3%, 20.2%, and 14.7%, respectively, of the total number of district court nominees confirmed during each President's first six years.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749644"></a>Comparison to Fifth Year</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As with circuit court nominees, at least during recent presidencies, the number of district court nominees confirmed during a President's sixth year in office is greater than the number confirmed during his fifth year. Of the four Presidents included in the comparison group, only President Reagan had a fewer number of district court nominees confirmed during his sixth year in office than during his fifth year (33 and 62, respectively). President Obama had the greatest increase in the number confirmed between his fifth and sixth years (32 and 77, respectively). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The number of confirmed circuit court nominees also increased from the fifth to the sixth year during the G.W. Bush presidency (14 and 21, respectively), as well as during the Clinton presidency (29 and 50, respectively).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The magnitude of the increase in the number of district court nominees confirmed by the Senate from the fifth to the sixth year of the Obama presidency is likely attributable, in part, to the interaction of the reinterpretation of the application of Rule XXII with a standing order that was in effect during the 113<sup>th</sup> Congress. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the standing order, if cloture was invoked on a district court nomination in accordance with Rule XXII of the Senate, post-cloture consideration was reduced from a maximum of 30 hours to 2 hours (circuit court nominations were not affected by the standing order). Consequently, the reduction of post-cloture consideration from 30 hours to 2 hours might have, in conjunction with lowering the vote threshold by which cloture could be invoked (from three-fifths of the Senate to a simple majority of those voting), made it possible for the Senate to confirm relatively more district court nominees than if both the reinterpretation and standing order were not in effect.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many of the district court nominees confirmed by the Senate during President Obama's sixth year (i.e., the first full year in which the reinterpretation was in effect) had been nominated prior to the reinterpretation on November 21, 2013. Of the 77 nominees confirmed during his sixth year, 42 (54.5%) were first nominated prior to 2014 (i.e., prior to President Obama's sixth year in office.)<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="This includes 10 nominees whose nominations were first made relatively late in the preceding fifth year of his presidency (i.e., nominations first made in October, November, or December of 2013). If those 10 late nominations are omitted, 32 (41.6%) district court nominees confirmed during President Obama's sixth year were first nominated during his fifth year or earlier in his presidency.">20</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749645"></a>Length of Time from Nomination to Confirmation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The statistics and analysis presented in this section account only for those nominees who were confirmed by the Senate during a President's first six years (thus excluding from the analysis nominees who were never confirmed or who were later confirmed in a President's term, i.e., during his seventh year or later, and, for President Obama, those nominations for which final disposition has not yet been determined).<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="Statistics related to specific stages of the confirmation process—from nomination to committee hearing and from committee report to confirmation—are available from the author to congressional clients upon request.">21</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662335"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong> tracks by President the average and median number of days from nomination to confirmation for all circuit and district court nominees confirmed during a President's first six years in office.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="As mentioned above, the &quot;average&quot; or &quot;mean&quot; is the arithmetic mean (both terms are used interchangeably throughout this report), while the &quot;median&quot; indicates the middle value for a particular set of numbers. In this case, the median is the middle value for the number of days from nomination to confirmation for a particular President's circuit or district court nominees. Although the average (also referred to as the mean) is the more commonly used measure, the median is less affected by outlier...">22</a></sup> If a nominee was nominated more than once by a President during his first six years (and he or she was also confirmed within those six years), the first date he or she was nominated was used to calculate the days elapsed from nomination to confirmation.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749646"></a>U.S. Circuit Court Nominees</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">President G.W. Bush's circuit court nominees who were confirmed during his first six years waited, on average, the longest period of time from first nomination to confirmation (366.7 days). President Obama's nominees waited, on average, the second-longest period of time (258.0 days), followed by the circuit court nominees of Presidents Clinton (197.5 days) and Reagan (55.8 days).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In terms of the median number of days from nomination to confirmation, President Obama's circuit court nominees waited the longest period of time from nomination to confirmation (228 days), followed by President G.W. Bush's circuit nominees (216 days). The circuit court nominees who were confirmed during President Clinton's first six years had a median wait time of 113 days while President Reagan's circuit nominees had a median wait time of 37 days.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref413662335"></a><a name="_Toc413749626"></a>Figure 1. U.S. Circuit and District Court Nominees: Mean and Median Number of Days from Nomination to Confirmation for Nominees Confirmed During First Six Years</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R43931_files/0.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Internal CRS judicial nominations database.</p>
+<p class="FigureNote"><strong>Notes:</strong> This figure shows the mean and median number of days from first nomination to confirmation for all U.S. circuit and district court nominees who were confirmed during a President's first six years in office.</p>
+</td>
+</tr>
+</table> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749647"></a>U.S. District Court Nominees</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662335"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong><strong> </strong>shows that President Obama's confirmed nominees waited, on average, 219.4 days from nomination to confirmation. President G.W. Bush's district court nominees waited, on average, 169.7 days. The district court nominees confirmed during President Clinton's first six years waited an average of 129.6 days while those confirmed during President Reagan's first six years waited 50.2 days.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The median waiting times from nomination to confirmation for district court nominees ranged from a high of 214.5 days during President Obama's first six years to a low of 35 days during President Reagan's first six years. For Presidents Clinton and G.W. Bush, the median waiting times from nomination to confirmation for district court nominees were 99 and 133 days, respectively.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749648"></a>Length of Time from Nomination to Confirmation Prior to, and Following, the Reinterpretation of the Application of Rule XXII</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given that the reinterpretation occurred near the end of the fifth year of the Obama presidency,<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="As such, the previous iteration of this report published in January 2014 did not include an analysis of how the reinterpretation of the application of Rule XXII might have affected the average and median waiting times from nomination to confirmation.">23</a></sup> judicial nominees confirmed during President Obama's six years in office fall into one of three groups depending on when they were first nominated and approved by the Senate.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="For an analysis that is focused on nominees confirmed just during the 113 th Congress (i.e., during President Obama's fifth and six years in office) see CRS Insight, U.S. District Court Nominees Confirmed During the 113 th Congress: Time from Nomination to Confirmation Prior to, and Following, the Reinterpretation of the Application of Senate Rule XXII , by Barry J. McMillion.">24</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Specifically, 168 U.S. district court nominees confirmed during the first six years of the Obama presidency were both first nominated by President Obama and approved by the Senate <em>prior</em> to the reinterpretation (i.e., prior to November 21, 2013). The confirmation process for 40 additional nominees "straddled" the reinterpretation—i.e., they were first nominated prior to the reinterpretation but confirmed after the reinterpretation (i.e., after November 21, 2013). Another 42 nominees were first nominated, as well as confirmed, after the reinterpretation.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref413662348"></a><a name="_Toc413749627"></a>Figure 2. U.S. District Court Nominees: Mean and Median Number of Days from Nomination to Confirmation for Six Groups of Nominees</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R43931_files/1.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Internal CRS judicial nominations database.</p>
+<p class="FigureNote"><strong>Notes:</strong> This figure shows the mean and median number of days from nomination to confirmation for six groups of U.S. district court nominees confirmed during the first six years of the (1) Reagan, (2) Clinton, and (3) G.W. Bush presidencies; (4) nominees confirmed during the Obama presidency who were first nominated and confirmed prior to the reinterpretation of the application of Rule XXII (i.e., prior to November 21, 2013); (5) nominees nominated during the Obama presidency prior to November 21, 2013, but confirmed after that date; and (6) nominees both nominated and confirmed after November 21, 2013. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Among these three groups, as shown by <strong><a class="InternalLink" href="#_Ref413662348"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong>, U.S. district court nominees who were both nominated and confirmed following the reinterpretation, waited, in terms of the average and median, the fewest number of days from nomination to confirmation (167.0 and 154.5 days, respectively).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Compared to nominees confirmed during the three most recent two-term presidencies, the average number of days from nomination to confirmation for this group of nominees (167.0) was closest to the average waiting time for U.S. district court nominees approved by the Senate during the first six years of the G.W. Bush presidency (169.7)—this comparison is reflected in <strong><a class="InternalLink" href="#_Ref413662348"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong>.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="The average waiting time for the 42 nominees remained higher than the waiting times for district court nominees confirmed during the first six years of the Clinton and Reagan presidencies (which were 129.6 and 50.2 days, respectively).">25</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, as the figure shows, the average waiting time for this group of nominees remained longer than the average waiting times from nomination to confirmation for the nominees of Presidents Reagan and Clinton (50.2 and 129.6 days, respectively). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The median waiting time of this group of Obama nominees was also closest to the median waiting time of nominees approved by the Senate during the first six years of the G.W. Bush presidency (154.5 and 133 days, respectively). The median waiting time for this group of Obama nominees remained longer than the median waiting times from nomination to confirmation for the nominees of Presidents Reagan and Clinton (35.0 and 99.0 days, respectively).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The group of individuals first nominated before the reinterpretation but confirmed during the period following it, waited, both in terms of the average and median, the greatest number of days from nomination to confirmation (266.9 and 237.0 days, respectively). The group of individuals both nominated and confirmed prior to the reinterpretation waited, on average, 221.1 days from nomination to confirmation (with a median wait of 215 days).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As discussed above, a standing order in effect for the entire 113<sup>th</sup> Congress provided that, if cloture was invoked on a district court nomination in accordance with Rule XXII of the Senate, post-cloture consideration was reduced from a maximum of 30 hours to 2 hours (circuit court nominations were not affected by the standing order). Consequently, the reduction of post-cloture consideration from 30 hours to 2 hours might have, in conjunction with lowering the vote threshold by which cloture could be invoked in the first place (from three-fifths of the Senate to a simple majority of those voting), made the average and median waiting times to confirmation for district court nominees shorter than if just the reinterpretation had been in effect.</p>
+<p class="BodyText" style="text-align:both;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The focus of this section is on U.S. district court nominees. Of the U.S. circuit court nominees confirmed during President Obama's first six years, a relatively smaller number and percentage of them were first nominated, as well as confirmed, following the reinterpretation. Specifically, 4, or 7.5%, of 53 circuit court nominees fall into this group (compared with 42, or 16.8%, of 250 district court nominees confirmed during President Obama's first six years).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the comparable three groups of U.S. circuit court nominees, these 4 individuals waited the fewest number of days, in terms of the average and median, from nomination to confirmation—149.5 and 151.5 days, respectively. In contrast, of the 10 individuals nominated to circuit court judgeships prior to the reinterpretation but confirmed during the period after it, the average and median number of days from nomination to confirmation was 305.3 and 241.0 days, respectively. For the 39 individuals both nominated and confirmed prior to the reinterpretation, the comparable average and median number of days were 257.0 and 229.0, respectively.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749649"></a>U.S. Circuit and District Court Vacancies</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749650"></a>Percentage of Judgeships Vacant on January 1 of Sixth and Seventh Years in Office</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage of vacant circuit and district court judgeships varies over the course of a presidency and is affected, in part, by the pace at which a President selects nominees for vacancies as well as the speed by which the Senate considers the President's nominees.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="The percentage of circuit (or district) court judgeships that are vacant on any given date is calculated by dividing the number of circuit (or district) court vacancies that exist on a date by the number of authorized circuit (or district) court judgeships existing on the same date.">26</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662392"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 3</strong><strong></strong> compares for the four Presidents: (1) the percentage of vacant U.S. circuit and district court judgeships on January 1 of a President's sixth year in office; (2) the percentage of vacant U.S. circuit and district court judgeships vacant on January 1 of a President's seventh year in office; and (3) the change in the percentage of vacant U.S. circuit and district court judgeships from January 1 of a President's sixth year to January 1 of his seventh year in office.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="Vacancies data provided by the Administrative Office of U.S. Courts at http://www.uscourts.gov/JudgesAndJudgeships/JudicialVacancies/ArchiveOfJudicialVacancies.aspx .">27</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note that an increase (or decrease) in the percentage of vacant judgeships over a particular period of time is not solely a reflection of relatively fewer (or greater) number of nominations being confirmed by the Senate. It may be the case, for example, that the percentage of vacant judgeships increased during a particular period because a greater number of judges stepped down from active service than during the preceding period—thus, creating more vacancies.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749651"></a>U.S. Circuit Court Vacancies</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662392"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 3</strong><strong></strong> shows that the percentage of circuit court judgeships that were vacant at the beginning of a President's sixth year in office was greatest during the Clinton and Obama presidencies (12.8% and 9.5%, respectively) while, at the beginning of a President's seventh year in office, the percentage of circuit court judgeships that were vacant was greatest during the Clinton and G.W. Bush presidencies (9.5% and 8.9%, respectively). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage of vacant circuit court judgeships at the beginning of President Obama's seventh year in office, 3.9%, was the lowest percentage of vacant judgeships on January 1 of any of the President's sixth or seventh years in office.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The table also shows that, of the four presidencies, the percentage of vacant circuit court judgeships decreased from the beginning of a President's sixth year to his seventh year during the Clinton and Obama presidencies (decreasing 3.3 and 5.6 percentage points, respectively). The percentage of vacant circuit court judgeships increased by 2.3 and 1.6 percentage points from the beginning of the sixth to the seventh years of the Reagan and G.W. Bush presidencies, respectively.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:423.10080000000005pt;">
+<p class="TableTitle"><a name="_Ref413662392"></a><a name="_Toc413749630"></a>Table 3. Percentage of U.S. Circuit and District Judgeships Vacant on January 1 of Sixth and Seventh Years in Office</p>
+</div>
+<table class="ReportTable" style="width:423.10080000000005pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:82.81937664000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">Percent of U.S. Circuit Court Judgeships Vacant</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">Percent of U.S. District Court Judgeships Vacant</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:82.81937664000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">President</p>
+</td>
+<td style="width:59.868357120000006pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of 6th Year</p>
+</td>
+<td style="width:59.868357120000006pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of 7th Year</p>
+</td>
+<td style="width:59.95731456000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Change</p>
+</td>
+<td style="width:60.75793152000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of 6th Year</p>
+</td>
+<td style="width:60.75793152000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of <br/>7th Year</p>
+</td>
+<td style="width:60.75793152000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Change</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:82.81937664000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reagan</p>
+</td>
+<td style="width:59.868357120000006pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">5.4</p>
+</td>
+<td style="width:59.868357120000006pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7.7</p>
+</td>
+<td style="width:59.95731456000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">+2.3</p>
+</td>
+<td style="width:60.75793152000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7.7</p>
+</td>
+<td style="width:60.75793152000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7.2</p>
+</td>
+<td style="width:60.75793152000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-0.5</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:82.81937664000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Clinton</p>
+</td>
+<td style="width:59.868357120000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">12.8</p>
+</td>
+<td style="width:59.868357120000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">9.5</p>
+</td>
+<td style="width:59.95731456000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-3.3</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">9.3</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">6.4</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-2.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:82.81937664000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">G.W. Bush</p>
+</td>
+<td style="width:59.868357120000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7.3</p>
+</td>
+<td style="width:59.868357120000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8.9</p>
+</td>
+<td style="width:59.95731456000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">+1.6</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">5.2</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">5.9</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">+0.7</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:82.81937664000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Obama</p>
+</td>
+<td style="width:59.868357120000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">9.5</p>
+</td>
+<td style="width:59.868357120000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">3.9</p>
+</td>
+<td style="width:59.95731456000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-5.6</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">11.1</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4.9</p>
+</td>
+<td style="width:60.75793152000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-6.2</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:423.10080000000005pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>Internal CRS judicial vacancies database; CRS compilation of data provided by the Administrative Office of U.S. Courts.</p>
+<p class="TableNote"><strong>Notes:</strong><strong> </strong>This table shows the percentage of U.S. circuit and district court judgeships that were vacant on January 1 of a President's sixth and seventh years in office and the change for the respective type of judgeships between the two dates.</p>
+</div>
+</div>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749652"></a>U.S. District Court Vacancies</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As with circuit court vacancies, the percentage of vacant district court judgeships on January 1 of a President's sixth year in office was greatest during the Clinton and Obama presidencies (9.3% and 11.1%, respectively). On January 1 of a President's seventh year in office, the percentage of vacant district court judgeships was greatest during the Reagan and Clinton presidencies (7.2% and 6.4%, respectively). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage of vacant district court judgeships at the beginning of President Obama's seventh year in office, 4.9%, was the lowest percentage of vacant judgeships on January 1 of any of the Presidents' sixth or seventh years in office.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">From the beginning of a President's sixth to seventh year in office, the percentage of vacant district court judgeships declined during the Reagan, Clinton, and Obama presidencies (decreasing 0.5, 2.9, and 6.2 percentage points, respectively). The percentage of vacant district court judgeships increased slightly, however, from the sixth to seventh years during the G.W. Bush presidency (rising 0.7 percentage points).<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="As reported previously by CRS, President Obama was the only White House occupant since at least President Reagan for whom the district court vacancy rate increased during a presidential first term unaccompanied by the creation of new district court judgeships. See CRS Report R43058, President Obama's First-Term U.S. Circuit and District Court Nominations: An Analysis and Comparison with Presidents Since Reagan , by Barry J. McMillion . As also discussed in this report, however, President Oba...">28</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749653"></a>Percentage of Vacancies Deemed Judicial Emergencies on January 1 of Sixth and Seventh Years in Office</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A vacancy is deemed a "judicial emergency" by the Judicial Conference of the United States if certain criteria are met regarding the number of case filings for that judgeship or court and, in some cases, the length of time a particular judicial vacancy has existed.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="The Judicial Conference of the United States is the principal policy making body concerned with the administration of the U.S. courts. The presiding officer of the Judicial Conference is the Chief Justice of the United States and membership of the Conference is comprised of the chief judge of each judicial circuit, the Chief Judge of the Court of International Trade, and a district judge from each regional judicial circuit.">29</a></sup> As with vacancies, generally, the percentage of vacant circuit and district court judgeships deemed judicial emergencies is affected by a combination of factors. A full accounting is beyond the scope of this report, but such factors include, in part, the pace at which a President selects nominees for vacancies as well as the speed by which the Senate considers the President's nominees.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For circuit court vacancies, a judicial emergency exists if adjusted case filings per appellate panel are in excess of 700 or, for any circuit court vacancy that is in existence for more than 18 months, where adjusted filings are between 500 to 700 per panel. For district court vacancies, a judicial emergency exists when a district court has weighted case filings in excess of 600 per judgeship; or a vacancy is in existence more than 18 months where weighted filings are between 430 to 600 per judgeship; or any district court with more than one authorized judgeship and only one active judge.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="During the Clinton presidency, a judicial emergency was defined as any vacancy in existence for 18 months or longer.">30</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662408"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 4</strong><strong></strong> compares, for President Obama and two of his predecessors, (1) the percentage of circuit and district court vacancies considered judicial emergencies on January 1 of each President's sixth year in office; (2) the percentage of circuit and district court vacancies considered judicial emergencies on January 1 of each President's seventh year; and (3) the change in the percentage of judicial vacancies considered judicial emergencies from January 1 of a President's sixth to seventh year in office. Data on judicial emergencies is not available for the Reagan presidency; consequently, it is omitted from this part of the analysis.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749654"></a>U.S. Circuit Court Vacancies</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref413662408"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 4</strong><strong></strong> shows that the percentage of vacant circuit court judgeships considered judicial emergencies on January 1 of a President's sixth year in office was greatest during the G.W. Bush presidency (61.5%), followed by the Obama and Clinton presidencies (58.8% and 39.1%, respectively). The percentage of such vacancies considered judicial emergencies on January 1 of a President's seventh year in office was also greatest during the G.W. Bush presidency (81.2%). The percentage of circuit court vacancies considered judicial emergencies at the beginning of President Obama's and Clinton's seventh years was 42.9% and 64.7%, respectively.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref413662408"></a><a name="_Toc413749631"></a>Table 4. Percentage of Judicial Vacancies Deemed Judicial Emergencies by the Judicial Conference of the United States</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:63.6045696pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">Percent of U.S. Circuit Court Vacancies</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">Percent of U.S. District Court Vacancies</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.6045696pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">President</p>
+</td>
+<td style="width:68.4972288pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of               6th Year</p>
+</td>
+<td style="width:58.71191040000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of            7th Year</p>
+</td>
+<td style="width:63.51561216000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Change</p>
+</td>
+<td style="width:63.51561216000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of             6th Year</p>
+</td>
+<td style="width:63.42665472000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Jan. 1 of            7th Year</p>
+</td>
+<td style="width:63.42665472000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Change</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.6045696pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Clinton</p>
+</td>
+<td style="width:68.4972288pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">39.1</p>
+</td>
+<td style="width:58.71191040000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">64.7</p>
+</td>
+<td style="width:63.51561216000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">+25.6</p>
+</td>
+<td style="width:63.51561216000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">33.3</p>
+</td>
+<td style="width:63.42665472000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">34.1</p>
+</td>
+<td style="width:63.42665472000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">+0.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.6045696pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">G.W. Bush</p>
+</td>
+<td style="width:68.4972288pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">61.5</p>
+</td>
+<td style="width:58.71191040000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.2</p>
+</td>
+<td style="width:63.51561216000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">+19.7</p>
+</td>
+<td style="width:63.51561216000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">22.9</p>
+</td>
+<td style="width:63.42665472000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">30.0</p>
+</td>
+<td style="width:63.42665472000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">+7.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.6045696pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Obama</p>
+</td>
+<td style="width:68.4972288pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">58.8</p>
+</td>
+<td style="width:58.71191040000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">42.9</p>
+</td>
+<td style="width:63.51561216000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-15.9</p>
+</td>
+<td style="width:63.51561216000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">36.0</p>
+</td>
+<td style="width:63.42665472000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">27.3</p>
+</td>
+<td style="width:63.42665472000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-8.7</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>CRS compilation of data provided by the Administrative Office of U.S. Courts.</p>
+<p class="TableNote"><strong>Notes: </strong>This table shows the percentage of judicial vacancies deemed judicial emergencies by the Judicial Conference of the United States on January 1 of a President's sixth and seventh years in office and the change for the respective type of judgeships between the two dates.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the three Presidents, President Obama is the only one for whom the percentage of vacant circuit court judgeships deemed judicial emergencies decreased from January 1 of his sixth year to January 1 of his seventh year (decreasing from 58.8% to 42.9%). For Presidents Clinton and G.W. Bush the percentage of vacant circuit court judgeships considered judicial emergencies increased by 25.6% and 19.7%, respectively.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc413749655"></a>U.S. District Court Vacancies</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown by <strong><a class="InternalLink" href="#_Ref413662408"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 4</strong><strong></strong>, the percentage of vacant district court judgeships considered judicial emergencies on January 1 of a President's sixth year in office was greatest during the Obama presidency (36.0%), followed by the Clinton and G.W. Bush presidencies (33.3% and 22.9%, respectively). The percentage of such vacancies considered judicial emergencies on January 1 of a President's seventh year in office was greatest during the Clinton presidency (34.1%). The percentage of district court vacancies considered judicial emergencies at the beginning of President G.W. Bush's and Obama's seventh years was 30.0% and 27.3%, respectively.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">President Obama is the only one of the three Presidents for whom the percentage of vacant district court judgeships deemed judicial emergencies declined from January 1 of his sixth to seventh year in office (i.e., declining from 36.0% to 27.3%). For Presidents Clinton and G.W. Bush the percentage of vacant circuit court judgeships considered judicial emergencies increased (by 0.8 and 7.1 percentage points, respectively) from January 1 of each President's sixth to seventh year.</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Pursuant to this constitutional language, Article III judges may hold office for as long as they live or until they voluntarily leave office. A President has no power to remove them from office. Article III judges, however, may be removed by Congress through the process of impeachment by the House and conviction by the Senate.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The U.S. Court of International Trade is a nine-member court with nationwide jurisdiction over civil actions arising out of the customs and international trade laws of the United States. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The U.S. courts of appeals take appeals from federal district court decisions and are also empowered to review the decisions of many administrative agencies. Altogether, 179 appellate court judgeships for 13 courts of appeals are currently authorized by law. In this report, nominations to U.S. courts of appeals judgeships are frequently referred to as "circuit court nominations." U.S. district courts are the federal trial courts of general jurisdiction. Altogether, 673 Article III U.S. district court judgeships are currently authorized by law.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The scope of this report also does not include the relatively rare nominations made by a President to territorial district court judgeships, which were established by Congress pursuant to its authority to govern the territories under Article IV of the Constitution. The three U.S. territorial courts are located in Guam, the Northern Mariana Islands, and the U.S. Virgin Islands. Judges confirmed to these courts serve 10-year terms (rather than "during good Behaviour"). Like Article III courts, territorial courts hear cases arising out of federal law, their decisions may be appealed to a U.S. circuit court of appeals, and their judicial nominations are referred to the Senate Judiciary Committee.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, floor remarks by Sen. Chuck Grassley in "Executive Session," Remarks in the Senate, <em>Congressional Record</em>, daily edition, March 4, 2014, pp. 1265-1266. See also floor remarks by Sen. Patrick Leahy in "Executive Session," Remarks in the Senate, <em>Congressional Record</em>, daily edition, September 9, 2013, p. S6285.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, contrasting views on this and related issues in floor remarks by Senators Grassley and Leahy in "Executive Session," Remarks in the Senate, <em>Congressional Record</em>, daily edition, May 7, 2012, pp. S2909-2910 (Grassley) and pp. S2907-2908 (Leahy); and in "Nomination of George Levi Russell III, To Be United States District Judge for the District of Maryland," Remarks in the Senate, <em>Congressional Record, </em>daily edition, May 14, 2012, pp. S3120-3121 (Grassley) and pp. S3117-3119 (Leahy). These specific issues are not addressed in this report but data related to the average and median waiting times from nomination to committee hearing and from committee report to confirmation for recent Presidents' nominees are available from the author to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, Sen. Patrick J. Leahy, "Judicial Nominations in 2013," Remarks in the Senate, <em>Congressional Record</em>, daily edition, December 20, 2013, p. S9092. Concern over judicial vacancies has also been expressed by Chief Justice John G. Roberts, Jr., and by his predecessor, Chief Justice William Rehnquist. Chief Justice Roberts, noting that vacancies are not evenly distributed across judicial districts, has stated that "a persistent problem has developed in the process of filling judicial vacancies.... This has created acute difficulties for some judicial districts. Sitting judges in those districts have been burdened with extraordinary caseloads." Chief Justice John G. Roberts, Jr., "2010 Year-End Report on the Federal Judiciary," January 2011, <a class="ExternalLink" href="http://www.supremecourt.gov/publicinfo/year-end/2010year-endreport.pdf"><span class="Hyperlink">http://www.supremecourt.gov/publicinfo/year-end/2010year-endreport.pdf</span></a>. Similarly, former Chief Justice Rehnquist argued that "[j]udicial vacancies can contribute to a backlog of cases, undue delays in civil cases, and stopgap measures to shift judicial personnel where they are most needed. Vacancies cannot remain at such high levels indefinitely without eroding the quality of justice that traditionally has been associated with the federal judiciary." Chief Justice William Rehnquist, "1997 Year-End Report on the Federal Judiciary," Third Branch, January 1998.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43331, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43331"><em>Majority Cloture for Nominations: Implications and the "Nuclear" Proceedings</em></a>, by Valerie Heitshusen, pp. 1-2.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A President's first six years in office is defined as the period of time between January 20, the date he assumed office during the first calendar year of his presidency, to December 31 of his sixth calendar year in office (rather than to January 19, which formally marks the end of his sixth full year in office but also falls during the seventh calendar year of his presidency). Operationalizing a President's tenure in office in this manner allows for the analysis to coincide more closely with dates for which congressional action on judicial nominations might occur (prior to the Senate adjourning <em>sine die</em>, i.e., prior to an adjournment that terminates an annual session of Congress).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS is available to congressional clients upon request to provide analyses of nomination and confirmation data in ways other than how such data are presented in this report. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Most of the statistics presented and discussed in this report were generated from an internal CRS judicial nominations database. Other data sources, however, are noted where appropriate. As mentioned above, statistics presented throughout the report account only for nominations made to U.S. circuit court and district court judgeships.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a discussion of the various factors that might help explain differences in judicial nominations statistics and judicial vacancies across presidencies, see CRS Report R43058, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43058"><em>President Obama's First-Term U.S. Circuit and District Court Nominations: An Analysis and Comparison with Presidents Since Reagan</em></a>, by Barry J. McMillion.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The mean is equivalent to the arithmetic average ("mean" and "average" are used interchangeably throughout this report). The mean or average is calculated by adding a group of numbers and then dividing that value by how many numbers there are, while the median is the middle value for a particular set of numbers (i.e., half of the numbers are above the median and half of the numbers are below it). Although the average or mean is a more commonly used measure, the median is less affected by outliers or extreme cases (e.g., nominees for whom the time from nomination to confirmation was relatively much shorter or longer than it was for other nominees). Consequently, the median might be a better measure of central tendency.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Not included as a confirmed nominee is any individual who received a recess appointment by the President and who was not subsequently confirmed by the Senate during that same President's first six years in office. So, for example, Charles W. Pickering, Sr., received a recess appointment by President G.W. Bush to the U.S. Court of Appeals for the Fifth Circuit on January 16, 2004. Mr. Pickering was not ultimately confirmed by the Senate and his judicial service ended on December 8, 2004. Consequently, he is not included as a confirmed circuit court nominee during the G.W. Bush presidency. For a discussion of recess appointments, generally, see CRS Report RS21308, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=RS21308"><em>Recess Appointments: Frequently Asked Questions</em></a>, by Henry B. Hogue.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A judicial nomination may fail to receive Senate confirmation because (1) the full Senate votes against the nomination; (2) the President withdraws the nomination, either because the Senate Judiciary Committee (i) has voted against reporting it favorably, (ii) has made clear its intention not to act on the nomination, or (iii) because the nomination, even if reported, is likely to face substantial opposition on the Senate floor; (3) the nominee himself or herself has requested that the nomination be withdrawn; or (4) the Senate, without confirming or rejecting the nomination, returns the nomination to the President under Rule XXXI, paragraph 6 of the <em>Standing Rules of the Senate </em>after it has adjourned or been in recess for more than 30 days and the President does not subsequently resubmit the nomination to the Senate.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The two nominees are Kara Farnandez Stoll, nominated to the Federal Circuit, and Luis F. Restrepo, nominated to the Third Circuit. The six nominees whose nominations were returned to the President (or withdrawn by him) and not ultimately resubmitted to the Senate include Robert N. Chatigny (nominated to the Second Circuit), Goodwin Liu (Ninth Circuit), Edward C. DuMont (Federal Circuit), Victoria F. Nourse (Seventh Circuit), Steve Six (Tenth Circuit), and Caitlin J. Halligan (D.C. Circuit).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As indicated by <strong><a class="InternalLink" href="#_Ref413662241"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong>, it remains to be determined, for U.S. circuit court nominees nominated during President Obama's first six years, the number and percentage of nominees who are approved by the Senate during the remainder of his presidency.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The nine nominees are Alfred H. Bennett, George C. Hanks, Jr., and Jose R. Olvera, Jr., (each nominated to the Southern District of Texas), Jill N. Parrish (District of Utah), Dale A. Drozd (Eastern District of California), LaShann M. DeArcy Hall and Ann Donnelly (each to the Eastern District of New York), Roseann A. Ketchmark (Western District of Missouri), and Travis R. McDonough (Eastern District of Tennessee). The names of the 11 nominees whose nominations were unsuccessful (and whose nominations were not ultimately resubmitted to the Senate) are available from the author to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As indicated by <strong><a class="InternalLink" href="#_Ref413662295"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong>, it remains to be determined, for U.S. district court nominees nominated during President Obama's first six years, the number and percentage of nominees who are approved by the Senate during the remainder of his presidency.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This includes 10 nominees whose nominations were first made relatively late in the preceding fifth year of his presidency (i.e., nominations first made in October, November, or December of 2013). If those 10 late nominations are omitted, 32 (41.6%) district court nominees confirmed during President Obama's sixth year were first nominated during his fifth year or earlier in his presidency.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Statistics related to specific stages of the confirmation process—from nomination to committee hearing and from committee report to confirmation—are available from the author to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As mentioned above, the "average" or "mean" is the arithmetic mean (both terms are used interchangeably throughout this report), while the "median" indicates the middle value for a particular set of numbers. In this case, the median is the middle value for the number of days from nomination to confirmation for a particular President's circuit or district court nominees. Although the average (also referred to as the mean) is the more commonly used measure, the median is less affected by outliers or extreme cases, e.g., nominees whose elapsed time from first nomination to confirmation was unusually long or short. Consequently, the median might be a better measure of central tendency.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As such, the previous iteration of this report published in January 2014 did not include an analysis of how the reinterpretation of the application of Rule XXII might have affected the average and median waiting times from nomination to confirmation.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For an analysis that is focused on nominees confirmed just during the 113<sup>th</sup> Congress (i.e., during President Obama's fifth and six years in office) see CRS Insight, <em>U.S. District Court Nominees Confirmed During the 113</em><em><sup>th</sup></em><em> Congress: Time from Nomination to Confirmation Prior to, and Following, the Reinterpretation of the Application of Senate Rule XXII</em>, by Barry J. McMillion.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The average waiting time for the 42 nominees remained higher than the waiting times for district court nominees confirmed during the first six years of the Clinton and Reagan presidencies (which were 129.6 and 50.2 days, respectively).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The percentage of circuit (or district) court judgeships that are vacant on any given date is calculated by dividing the number of circuit (or district) court vacancies that exist on a date by the number of authorized circuit (or district) court judgeships existing on the same date.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Vacancies data provided by the Administrative Office of U.S. Courts at <a class="ExternalLink" href="http://www.uscourts.gov/JudgesAndJudgeships/JudicialVacancies/ArchiveOfJudicialVacancies.aspx"><span class="Hyperlink">http://www.uscourts.gov/JudgesAndJudgeships/JudicialVacancies/ArchiveOfJudicialVacancies.aspx</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As reported previously by CRS, President Obama was the only White House occupant since at least President Reagan for whom the district court vacancy rate increased during a presidential first term unaccompanied by the creation of new district court judgeships. See CRS Report R43058, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R43058"><em>President Obama's First-Term U.S. Circuit and District Court Nominations: An Analysis and Comparison with Presidents Since Reagan</em></a>, by Barry J. McMillion. As also discussed in this report, however, President Obama (of the Presidents included in the comparison group) had the lowest percentage of district court judgeships vacant on January 1 of his seventh year in office.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Judicial Conference of the United States is the principal policy making body concerned with the administration of the U.S. courts. The presiding officer of the Judicial Conference is the Chief Justice of the United States and membership of the Conference is comprised of the chief judge of each judicial circuit, the Chief Judge of the Court of International Trade, and a district judge from each regional judicial circuit.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> During the Clinton presidency, a judicial emergency was defined as any vacancy in existence for 18 months or longer.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

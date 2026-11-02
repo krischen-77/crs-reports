@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-02T18:29:34.378606+00:00",
+  "run_at": "2026-11-02T20:24:23.941882+00:00",
   "window_start_inclusive": "2026-10-26",
   "window_end_inclusive": "2026-11-02",
   "lookback_days": 7,
@@ -320,39 +320,32 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
     {
-      "id": "R43973",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
       "id": "IF12914",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
       ]
     },
     {
-      "id": "R43873",
+      "id": "R43912",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "id": "R43893",
+      "id": "R43931",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "historical_backfill_remaining": 242,
+      "historical_backfill_remaining": 240,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "41500947078",
+  "github_run_id": "41518818933",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 117,
@@ -383,20 +376,20 @@
   "planned_versions": 56,
   "attempted_versions": 54,
   "successful_versions": 54,
-  "new_pdf_versions": 4,
-  "total_archived_pdf_versions": 653,
-  "total_html_snapshots": 498,
-  "total_pdf_bytes": 527280967,
+  "new_pdf_versions": 2,
+  "total_archived_pdf_versions": 657,
+  "total_html_snapshots": 500,
+  "total_pdf_bytes": 530614910,
   "pending_reports": 0,
   "pending_versions": 1,
-  "historical_pending_versions": 242,
+  "historical_pending_versions": 240,
   "historical_new_pdf_versions": 2,
-  "primary_new_pdf_versions": 2,
+  "primary_new_pdf_versions": 0,
   "api_requests": 6,
   "api_remaining_quota": 4,
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-11-02T18:30:26.951350+00:00",
-  "last_successful_run_at": "2026-11-02T18:30:26.951350+00:00"
+  "finished_at": "2026-11-02T20:25:12.349729+00:00",
+  "last_successful_run_at": "2026-11-02T20:25:12.349729+00:00"
 }
