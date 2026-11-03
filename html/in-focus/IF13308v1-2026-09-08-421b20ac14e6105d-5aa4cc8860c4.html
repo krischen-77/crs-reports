@@ -1,0 +1,375 @@
+<div><div>Overview of FY2027 Budget Request for the Census Bureau</div>
+<div>
+
+<div>September 8, 2026
+            (IF13308)
+          </div>
+</div>
+<div><div>
+<h2>Introduction</h2>
+<p>As a Department of Commerce agency, the U.S. Census Bureau is primarily funded through the annual Commerce, Justice, Science, and Related Agencies (CJS) appropriations bill. This In Focus provides an overview of the <a href="https://www.commerce.gov/sites/default/files/2026-04/FY2027-Census-CJ-Submission.pdf"><span>FY2027 budget request</span></a> for the U.S. Census Bureau, certain comparisons to previous years' appropriations, and congressional action to date. Information is drawn from the Census Bureau's FY2027 Congressional Budget Justification and other relevant Congressional resources.</p>
+<p>The FY2027 budget request is divided between two accounts: Current Surveys and Programs, and Periodic Censuses and Programs. For these two accounts, comparisons are made here between the FY2027 request and enacted amounts for FY2026. The FY2027 budget justification also includes requested amounts below the account level in more detail; these amounts are compared here to the corresponding FY2026 enacted levels indicated in the Census Bureau's FY2027 budget request materials.</p>
+<p>
+</p><table>
+<tbody><tr>
+<td><a href="#iag.aspx?prodCode=IF13308&amp;iag=IAG-1631824456"><i></i> <p>Figure 1</p></a>. Census Budget</td></tr></tbody></table>
+<p>Figure is interactive in the HTML report version</p>
+
+
+&lt;script type="text/javascript"&gt;//Based on IAG in AP 7.4.1 (Revised 20230606)
+
+
+$(function () {
+
+	$('#IAG-1631824456').bind('mousedown', function () { /* saveRptHighChartClick(); */ });
+
+	//#### HIGHCHART LIBRARIES ####//
+        	var files = ["https://code.highcharts.com/highcharts.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/export-data.js", "https://code.highcharts.com/modules/accessibility.js"],
+		        		loaded = 0;
+				        	if (typeof window["HighchartsEditor"] === "undefined") {
+				        		window.HighchartsEditor = {
+				        			ondone: [cl],
+				        			hasWrapped: false,
+				        			hasLoaded: false
+				        		};
+				        		include(files[0]);
+				        	} else {
+				        		if (window.HighchartsEditor.hasLoaded) {
+				        			cl();
+				        		} else {
+				        			window.HighchartsEditor.ondone.push(cl);
+				        		}
+				        	}
+
+		        	function isScriptAlreadyIncluded(src) {
+		        		var scripts = document.getElementsByTagName("script");
+		        		for (var i = 0; i &lt; scripts.length; i++) {
+		        			if (scripts[i].hasAttribute("src")) {
+		        				if ((scripts[i].getAttribute("src") || "").indexOf(src) &gt;= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" &amp;&amp; src === "https://code.highcharts.com/stock/highstock.js")) {
+		        					return true;
+		        				}
+		        			}
+		        		}
+		        		return false;
+		        	}
+
+		        	function check() {
+		        		if (loaded === files.length) {
+		        			for (var i = 0; i &lt; window.HighchartsEditor.ondone.length; i++) {
+		        				try {
+		        					window.HighchartsEditor.ondone[i]();
+		        				} catch (e) {
+		        					console.error(e);
+		        				}
+		        			}
+		        			window.HighchartsEditor.hasLoaded = true;
+		        		}
+		        	}
+
+		        	function include(script) {
+		        		function next() {
+		        			++loaded;
+		        			if (loaded &lt; files.length) {
+		        				include(files[loaded]);
+		        			}
+		        			check();
+		        		}
+		        		if (isScriptAlreadyIncluded(script)) {
+		        			return next();
+		        		}
+		        		var sc = document.createElement("script");
+		        		sc.src = script;
+		        		sc.type = "text/javascript";
+		        		sc.onload = function () {
+		        			next();
+		        		};
+		        		document.head.appendChild(sc);
+		        	}
+
+		        	function each(a, fn) {
+		        		if (typeof a.forEach !== "undefined") {
+		        			a.forEach(fn);
+		        		} else {
+		        			for (var i = 0; i &lt; a.length; i++) {
+		        				if (fn) {
+		        					fn(a[i]);
+		        				}
+		        			}
+		        		}
+		        	}
+		        	var inc = {},
+		        		incl = [];
+		        	each(document.querySelectorAll("script"), function (t) {
+		        		inc[t.src.substr(0, t.src.indexOf("?"))] = 1;
+		        	});
+
+        	function cl() {
+        		if (typeof window["Highcharts"] !== "undefined") {
+  //#### HIGHCHART LIBRARIES END  ####//
+	//##### CRS THEME START (v1.2, 20220510)#####//
+	        Highcharts.theme = {
+	                colors: ['#0C90FC', '#003865', '#F1B434', '#7060A8', '#6CC8BD', '#757048', '#B4C7D0', '#D36127'],
+	                chart: {backgroundColor: 'white',},
+	                title: {
+	                  style: {
+	                    color: 'black',
+	                    font: '15px "Calibri", Verdana, sans-serif',
+	                    fontWeight: 'bold'
+	                          }
+	                        },
+	                subtitle: {
+	                      style: {
+	                        color: 'black',
+	                        font: '14px "Calibri", Verdana, sans-serif'
+	                              }},
+	                credits: {
+	                      enabled: false
+	                            },
+
+	                legend: {
+	                        itemStyle: {
+	                            fontFamily: '"Calibri", Verdana, sans-serif',
+	                            fontSize: '14px',
+	                            color: 'black',
+	                            "text-decoration": 'none !important'
+	                            },
+	                        verticalAlign: 'top',
+	                        itemMarginBottom: 7,
+	                            },
+
+	                yAxis: {
+	                    title: {
+	                        style: {
+	                            font: '14px "Calibri", Verdana, sans-serif',
+	                            fontWeight: 'bold',
+	                            color: 'black'}
+	                                },
+
+	                    labels: {
+	                        style: {
+	                          font: '14px "Calibri", Verdana,sans-serif',
+	                          color: 'black'}},
+	                        },
+
+	                xAxis: {
+	                    title: {
+	                        style: {
+	                            font: '14px "Calibri", Verdana, sans-serif',
+	                            fontWeight: 'bold',
+	                            color: 'black'},
+	                            y: 8
+	                            },
+
+	                    labels: {
+	                        style: {
+	                                font: '14px "Calibri", Verdana, sans-serif',
+	                                color: 'black'
+	                                },
+	                            },
+
+	                    lineColor: 'black',
+	                    lineWidth: 0.5
+	                            }
+	                        };
+	        Highcharts.setOptions(Highcharts.theme);
+	        Highcharts.setOptions({
+	                        lang: {thousandsSep: ','},
+	                        chart: {style: {fontFamily: 'Calibri'}},
+	                        exporting: { enabled: false }
+	                    });
+	//##### CRS THEME END #####//
+
+  //#### START chart elements before Highcharts container ####//
+
+  //#### END chart elements before the Highcharts container ####//
+
+
+  var options = {
+  //#### START code inside Highcharts.chart('container', {  ####//
+   accessibility: {
+    description: 'test',
+    },
+    chart: {
+        type: 'column'
+    },
+    column: {
+        pointWidth: 50, // Adjust the width of the columns
+        stacking: 'normal',
+        dataLabels: {
+            enabled: false
+        }
+    },
+    title: {
+        text: null
+    },
+    xAxis: {
+        categories: ['FY2026 Enacted','FY2027 Request']
+    },
+    yAxis: {
+    min: 0,
+    max: 2100,
+    title: {
+        text: '$ in millions',
+        rotation: -89.9
+    },
+    labels: {
+        formatter: function() {
+            return '$' + Highcharts.numberFormat(this.value, 0);
+        }
+    },
+    tickInterval: 300,
+    stackLabels: {
+        enabled: true,
+        formatter: function() {
+    return '$' + (this.total/1000).toFixed(3) + ' billion'; 
+},
+        style: {
+            fontWeight: 'bold',
+            fontSize: '16px',
+        }
+    }
+},
+    legend: {
+         itemStyle: {
+            fontFamily: '"Calibri", Verdana, sans-serif',
+            fontSize: '14px',
+            color: 'black',
+            "text-decoration": 'none !important'
+            },
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle',
+        symbolRadius: 0,
+    },
+     tooltip: {
+    headerFormat: '<span><b>{point.x}</b><br></span>',
+    formatter: function () {
+        var seriesName = this.point.series.name;
+        var extraNote;
+
+        if (
+            seriesName === 'Current Demographic Statistics' ||
+            seriesName === 'Current Economic Statistics'
+        ) {
+            extraNote = '<br><i>(Current Surveys and Programs)</i>';
+        } else {
+            extraNote = '<br><i>(Periodic Censuses and Programs)</i>';
+        }
+
+        return '<span>' +
+            seriesName + extraNote +
+            ':</span><br>' +
+            '<span>$' +
+            Highcharts.numberFormat(this.point.y, 0) +
+            ' million</span>';
+    }
+},
+    plotOptions: {
+        series: {
+            borderRadius: 0,
+        },
+        column: {
+            stacking: 'normal',
+            dataLabels: {
+                enabled: false
+            },
+
+        }
+    },
+    series: [{
+        name: 'Current Demographic Statistics',
+        color: '#009483',
+        legendcolor: '#009483',
+        data: [92.503,72.503]
+    }, {
+        name: 'Current Economic Statistics',
+        color: '#12473E',
+        legendcolor: '#12473e',
+        data: [225.997,215.997]
+    },{
+        name: 'Geographic Support Program',
+        color: '#A99FCA',
+        legendcolor: '#52467F',
+        data: [98.479,99.000]
+    }, {
+        
+        name: 'Economic Statistics Programs',
+        color: '#7060A8',
+        legendcolor: '#7060a8',
+        data: [143.949,179.000]
+    }, 
+    {
+        name: 'EDCaDS',
+        color: '#52467F',
+        legendcolor: '#52467F',
+        data: [162.639,162.639]
+    },{
+        name: 'Demographic Statistics Programs',
+        color: '#372E55',
+        legendcolor: '#372e55',
+        data: [766.782,1283]
+    }]
+	//#### END container ####//
+
+        			};
+
+			new Highcharts.Chart("IAG-1631824456", options);
+		}
+	}
+});
+&lt;/script&gt;<div></div>
+
+
+
+
+<p><strong>Source: </strong>CRS, data from U.S. Census Bureau, <em>FY202</em><em>7</em><em> Congressional Budget Justification</em>.</p>
+
+
+
+
+
+<h2>FY2027 Budget Request</h2>
+<p>The Trump Administration's FY2027 budget request for the Census Bureau is $2.012 billion, which is a $522 million increase from the FY2026 enacted level of $1.490 billion.</p>
+<h3>Current Surveys and Programs</h3>
+<p>The Administration requested $289 million for Current Surveys and Programs in FY2027, a decrease of $30 million from the FY2026 enacted amount of $319 million. This account includes Current Economic Statistics and Current Demographic Statistics.</p>
+<p><strong>Current Economic Statistics</strong></p>
+<p>Current Economic Statistics include business, construction, manufacturing, general economic, foreign trade, and government statistics. According to the FY2027 budget justification for the Census Bureau, the "Economic Statistics programs provide timely, accurate, and essential data on the structure and performance of the U.S. economy, supporting the Gross Domestic Product (GDP) estimation, fiscal and monetary policymaking, and private sector decision-making." This includes Principal Federal Economic Indicators and other annual survey programs.</p>
+<p>The FY2027 request for Current Economic Statistics is $216 million, which is a $10 million decrease from the FY2026 enacted amount of $226 million.</p>
+<p><strong>Current Demographic Statistics</strong></p>
+<p>Current Demographic Statistics include the Survey of Income and Program Participation (SIPP); the Current Population Survey (CPS), which is sponsored by the Bureau of Labor Statistics (BLS) and the Census Bureau; and the Population Estimates Program. The SIPP is an ongoing survey that measures distribution of government assistance programs. The CPS provides estimates of income, poverty, and other indicators. The Population Estimates Program calculates population change over time. The Census Bureau's population estimates are used in a variety of federal programs to determine funding allocations or eligibility.</p>
+<p>The FY2027 request for Current Demographic Statistics is $73 million, which is a $20 million decrease from the FY2026 enacted amount of $93 million.</p>
+<h3>Periodic Censuses and Programs</h3>
+<p>The Administration requested $1.723 billion for the Periodic Censuses and Programs account in FY2027, a $551 million increase from the FY2026 enacted level of $1.172 billion. This account consists of the Economic Statistics Programs, Demographic Statistics Programs, Geographic Support Program (GSP), and Enterprise Data Collection and Dissemination Systems (EDCaDS).</p>
+<p><strong>Economic Statistics Programs</strong></p>
+<p>The Economic Statistics Programs are intended to provide key monthly, quarterly, and annual measures of the U.S. economy. These programs include the Economic Census and the Census of Governments.</p>
+<p>The FY2027 request for the Economic Statistics Programs is $179 million, which is a $35 million increase from the FY2026 enacted amount of $144 million. </p>
+<p><em>Economic Census</em></p>
+<p>The Economic Census, which is conducted every five years, is intended to provide comprehensive data on U.S. businesses and their economic impact. The FY2027 request is intended to support the 2027 Economic Census.</p>
+<p>The FY2027 request for the Economic Census is $167 million, which is a $35 million increase from the FY2026 enacted amount of $132 million.</p>
+<p><em>Census of Governments</em></p>
+<p>The Census of Governments is intended to identify the scope and nature of the nation's state and local government sector, including data on public employment and public finance.</p>
+<p>The FY2027 request for the Economic Census is $12 million, which is equal to the FY2026 enacted amount.</p>
+<p><strong>Demographic Statistics Programs</strong></p>
+<p>The Demographic Statistics Programs include the <a><span>American Community Survey</span></a> (ACS) and 2030 census.</p>
+<p>The FY2027 request for the Demographic Statistics Programs is $1.283 billion, which is a $516 million increase from the FY2026 enacted amount of $767 million.</p>
+<p><em>2030 Decennial Census</em></p>
+<p>Requested funding for the 2030 census aims to support buildup and testing of integrated systems and operations to conduct the <a><span>decennial</span><span> cen</span><span>s</span><span>us</span></a>. Funding is intended to support activities including updating the design for the census; assessing the results of the <a><span>2026 censu</span><span>s</span><span> test</span></a>; readiness for the 2028 dress rehearsal test; scaling up of several operational features such as IT infrastructure, mobile technologies, and cloud platforms; and funding contract awards for the dress rehearsal and 2030 census.</p>
+<p>The FY2027 request for the 2030 census is $1.07 billion, which is a $516 million increase from the FY2026 enacted amount of $556 million.</p>
+<p><em>American Community Survey</em></p>
+<p>The ongoing collection of ACS data allows the Census Bureau to measure the changing demographic, social, economic, and housing characteristics of the U.S. population.</p>
+<p>The FY2027 request for the ACS is $211 million, which is equal to the FY2026 enacted amount. </p>
+<p><strong>Geographic Support Program</strong></p>
+<p>The GSP supports and maintains geographic features (address, features, boundary data, etc.) used by the Census Bureau.</p>
+<p>The FY2027 request for the GSP is $99 million, which is equal to the FY2026 enacted amount.</p>
+<p><strong>Enterprise Data Collection and Disseminati</strong><strong>on</strong><strong> Systems</strong></p>
+<p>The EDCaDS generally supports the data collection, processing, and dissemination systems that are associated with Census Bureau programs.</p>
+<p>The FY2027 request for the EDCaDS is $163 million, which is equal to the FY2026 enacted amount.</p>
+<h2>Congressional Action</h2>
+<p>The House Appropriations Committee CJS Subcommittee held a <a href="https://appropriations.house.gov/schedule/hearings/budget-hearing-department-commerce"><span>budget hearing on the FY2027 request for the Department of Commerce</span><span> on April 23, 2026</span></a>, during which Commerce Secretary Howard Lutnick took questions from members. During this hearing, no questions were asked pertaining to the Census Bureau.</p>
+<p>The House Appropriations Committee ordered reported its version of the FY2027 CJS Appropriations bill (<a><span>H.R. 8845</span></a>) by a 32-28 vote on May 13, 2026. The bill includes $289 million for Current Surveys and Programs and $1.202 billion for Periodic Censuses and Programs—for a total of $1.490 billion for the Census Bureau, which is $521 million less than the Administration's request of $2.012 billion. </p>
+<p>The bill, as reported, would prohibit the Census Bureau from using any funds provided in the measure to include "aliens who are unlawfully present in the United States in rendering apportionment determinations in subsequent decennial censuses." It also includes a prohibition on using any funds provided in the measure to "enforce involuntary compliance, or to inquire more than twice for voluntary compliance with any survey conducted by the Bureau of the Census."</p>
+<p>The Senate Appropriations Committee CJS Subcommittee held a <a href="https://www.appropriations.senate.gov/hearings/a-review-of-the-presidents-fiscal-year-2027-budget-request-for-the-department-of-commerce"><span>budget hearing on the FY2027 request for the Department of Commerce on April 22, 2026</span></a>, during which Commerce Secretary Howard Lutnick took questions from committee members. One member raised concerns about the use of the United States Postal Service (USPS) to help conduct the decennial census. Secretary Lutnick indicated potential benefits of using the USPS to help conduct the census.</p>
+<p>The Senate Appropriations Committee scheduled a full committee markup of several appropriations acts, including CJS, for June 25, 2026. <a href="https://www.appropriations.senate.gov/hearings/full-committee-markup-of-agriculture-rural-development-fda-military-construction-veterans-affairs-and-related-agencies-appropriations-act-commerce-justice-science-appropriations-act-legislative-branch-appropriations-act"><span>This markup was postponed</span></a> and, as of this writing, no makeup date has been scheduled.</p>
+</div></div>
+<div></div>
+</div>

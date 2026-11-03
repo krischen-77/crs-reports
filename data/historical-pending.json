@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-03",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-05",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-03",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-05",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "11",
@@ -9421,6 +9425,286 @@
         "source_record": "430822",
         "title": "U.S. Circuit Court Judges: Profile of Professional Experiences Prior to Appointment ",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-04",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "16",
+        "date": "2025-11-19",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10545",
+            "sha1": "37b84871d403ece55ddc2d58b607eafbf1e76e4d",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10545.web.html",
+              "https://www.everycrsreport.com/files/2025-11-19_IF10545_37b84871d403ece55ddc2d58b607eafbf1e76e4d.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10545",
+            "sha1": "af612dd5b2da5bcded44318b626af1757904fd07",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10545/IF10545.17.pdf",
+              "https://www.everycrsreport.com/files/2025-11-19_IF10545_af612dd5b2da5bcded44318b626af1757904fd07.pdf"
+            ]
+          }
+        },
+        "id": "IF10545",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-03T12:54:26Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10545_A17_2025-11-19",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-11-19",
+          "id": "IF10545",
+          "official_pdf_sha256": "f5a331d6821434ffaf7cb3327274b97abf91d0359e23ba0b0fd5205c3ded6262",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10545/IF10545.18.pdf",
+          "official_publication": "2026-11-03",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Defense Primer: U.S. Special Operations Forces",
+        "version": "17"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-04",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "23",
+        "date": "2026-07-02",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11346",
+            "sha1": "6168fa2234857b0099036c8fbcb99b3bfa9b852b",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF11346.web.html",
+              "https://www.everycrsreport.com/files/2026-07-02_IF11346_6168fa2234857b0099036c8fbcb99b3bfa9b852b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11346",
+            "sha1": "91980eeeec94aa73406f998aa8401c74d6542e33",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF11346/IF11346.35.pdf",
+              "https://www.everycrsreport.com/files/2026-07-02_IF11346_91980eeeec94aa73406f998aa8401c74d6542e33.pdf"
+            ]
+          }
+        },
+        "id": "IF11346",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-03T12:53:46Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11346_A35_2026-07-02",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-07-02",
+          "id": "IF11346",
+          "official_pdf_sha256": "b497415b1528e1e6b88c0b2daa9fa4f83aacd45aeae88887207429ba8dbd56bd",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11346/IF11346.39.pdf",
+          "official_publication": "2026-11-02",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Section 301 of the Trade Act of 1974",
+        "version": "35"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-04",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "5",
+        "date": "2020-11-02",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11449",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2020-11-02_IF11449_2ac508be488baad200a478eeefd97a5a67a3bd59.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11449",
+            "sha1": "2ac508be488baad200a478eeefd97a5a67a3bd59",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF11449/4",
+              "https://www.everycrsreport.com/files/2020-11-02_IF11449_2ac508be488baad200a478eeefd97a5a67a3bd59.pdf"
+            ]
+          }
+        },
+        "id": "IF11449",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-03T12:54:24Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11449_4_2020-11-02",
+        "superseded_by_official_current": {
+          "historical_publication": "2020-11-02",
+          "id": "IF11449",
+          "official_pdf_sha256": "cdb936f85f0bc85b339f95306b2d28bab1cf65aaa0332ebb23505a92571616d2",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11449/IF11449.7.pdf",
+          "official_publication": "2026-11-03",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Economic Development Revolving Loan Funds (ED-RLFs) ",
+        "version": "4"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-04",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2022-09-22",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12218",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2022-09-22_IF12218_bcc5025ec8dd6b359b134ad2dc77d975a1c92e37.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12218",
+            "sha1": "bcc5025ec8dd6b359b134ad2dc77d975a1c92e37",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12218/1",
+              "https://www.everycrsreport.com/files/2022-09-22_IF12218_bcc5025ec8dd6b359b134ad2dc77d975a1c92e37.pdf"
+            ]
+          }
+        },
+        "id": "IF12218",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-03T12:54:00Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12218_1_2022-09-22",
+        "superseded_by_official_current": {
+          "historical_publication": "2022-09-22",
+          "id": "IF12218",
+          "official_pdf_sha256": "9e6fa182853de27f08f10cd6b5b80e26ff166a590272eeaaf38127b7cbb6a2c9",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12218/IF12218.2.pdf",
+          "official_publication": "2026-11-02",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Farm Bill Primer: Farm Safety Net Programs",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-04",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "4",
+        "date": "2025-08-19",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12452",
+            "sha1": "890a92ba2dd15f56eda66e50aad17cf254dff7d6",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12452.web.html",
+              "https://www.everycrsreport.com/files/2025-08-19_IF12452_890a92ba2dd15f56eda66e50aad17cf254dff7d6.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12452",
+            "sha1": "79c6d884272fa9944e9c4b3291e41f023c7d9cb7",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12452/IF12452.5.pdf",
+              "https://www.everycrsreport.com/files/2025-08-19_IF12452_79c6d884272fa9944e9c4b3291e41f023c7d9cb7.pdf"
+            ]
+          }
+        },
+        "id": "IF12452",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-03T12:54:25Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12452_A5_2025-08-19",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-08-19",
+          "id": "IF12452",
+          "official_pdf_sha256": "9028fcdc417bbc534dcf9a4de971000041bc8cdfb71acda9ff04d7e00a65c408",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12452/IF12452.7.pdf",
+          "official_publication": "2026-11-03",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "U.S. Sanctions on Iran",
+        "version": "5"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-04",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "2",
+        "date": "2026-01-20",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12466",
+            "sha1": "355801f1b778ae898ef0ce183d8b1100a8253182",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12466.web.html",
+              "https://www.everycrsreport.com/files/2026-01-20_IF12466_355801f1b778ae898ef0ce183d8b1100a8253182.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12466",
+            "sha1": "12facd4b877ed5d733ca2635ab8a66fb5916554c",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12466/IF12466.3.pdf",
+              "https://www.everycrsreport.com/files/2026-01-20_IF12466_12facd4b877ed5d733ca2635ab8a66fb5916554c.pdf"
+            ]
+          }
+        },
+        "id": "IF12466",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-03T12:53:59Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12466_A3_2026-01-20",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-20",
+          "id": "IF12466",
+          "official_pdf_sha256": "ace79a946a812465e2ea981bc83f49ee460c14d8c9b7d1176658aa918a164197",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12466/IF12466.4.pdf",
+          "official_publication": "2026-11-02",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "U.S. Passport Services: Background and Issues for Congress",
+        "version": "3"
       }
     }
   ],
