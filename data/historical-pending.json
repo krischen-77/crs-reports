@@ -7,84 +7,6 @@
       "next_retry": "2026-11-05",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "3",
-        "date": "2015-05-20",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44043",
-            "sha1": "ed96fd617e9665bb28a8c009f958ba7ca00d6876",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150520_R44043_ed96fd617e9665bb28a8c009f958ba7ca00d6876.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44043",
-            "sha1": "f1413e14fc83a54bf5e2efb5912dbde34fdef6a8",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150520_R44043_f1413e14fc83a54bf5e2efb5912dbde34fdef6a8.pdf"
-            ]
-          }
-        },
-        "id": "R44043",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44043",
-          "http://www.crs.gov/Reports/pdf/R44043"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "441410",
-        "title": "Presidential Appointments to Full-Time Positions on Regulatory and Other Collegial Boards and Commissions, 113th Congress",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-03",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-05",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "11",
-        "date": "2016-12-30",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44046",
-            "sha1": "43f4dd2a5dac8a215b7cdabaf30826dd5cbcf242",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20161230_R44046_43f4dd2a5dac8a215b7cdabaf30826dd5cbcf242.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44046",
-            "sha1": "747114fb80c72bddadca1e47c693b108f5463631",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20161230_R44046_747114fb80c72bddadca1e47c693b108f5463631.pdf"
-            ]
-          }
-        },
-        "id": "R44046",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R44046",
-          "https://www.crs.gov/Reports/pdf/R44046"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "587478",
-        "title": "Insurance Regulation: Background, Overview, and Legislation in the 114th Congress",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "14",
         "date": "2018-08-13",
         "formats": {
@@ -119,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-03",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-05",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -9705,6 +9629,86 @@
         },
         "title": "U.S. Passport Services: Background and Issues for Congress",
         "version": "3"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-03",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-05",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "3",
+        "date": "2015-05-20",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44043",
+            "sha1": "ed96fd617e9665bb28a8c009f958ba7ca00d6876",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150520_R44043_ed96fd617e9665bb28a8c009f958ba7ca00d6876.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44043",
+            "sha1": "f1413e14fc83a54bf5e2efb5912dbde34fdef6a8",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150520_R44043_f1413e14fc83a54bf5e2efb5912dbde34fdef6a8.pdf"
+            ]
+          }
+        },
+        "id": "R44043",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R44043",
+          "http://www.crs.gov/Reports/pdf/R44043"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "441410",
+        "title": "Presidential Appointments to Full-Time Positions on Regulatory and Other Collegial Boards and Commissions, 113th Congress",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-03",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-05",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "11",
+        "date": "2016-12-30",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44046",
+            "sha1": "43f4dd2a5dac8a215b7cdabaf30826dd5cbcf242",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20161230_R44046_43f4dd2a5dac8a215b7cdabaf30826dd5cbcf242.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44046",
+            "sha1": "747114fb80c72bddadca1e47c693b108f5463631",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20161230_R44046_747114fb80c72bddadca1e47c693b108f5463631.pdf"
+            ]
+          }
+        },
+        "id": "R44046",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R44046",
+          "https://www.crs.gov/Reports/pdf/R44046"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "587478",
+        "title": "Insurance Regulation: Background, Overview, and Legislation in the 114th Congress",
+        "version": "unknown"
       }
     }
   ],

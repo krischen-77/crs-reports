@@ -14,24 +14,24 @@
     "R49349: metadata resolution failed: Congress API remaining quota is zero; defer without another request; official fallback: Congress API remaining quota is zero; defer without another request",
     "R49499: metadata resolution failed: www.everycrsreport.com: HTTP 404; official fallback: Congress API remaining quota is zero; defer without another request"
   ],
-  "finished_at": "2026-11-03T17:57:19.799642+00:00",
+  "finished_at": "2026-11-03T17:59:48.489832+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "41688512439",
+  "github_run_id": "41688666481",
   "historical_new_pdf_versions": 0,
   "historical_pending_versions": 244,
   "last_successful_run_at": "2026-11-03T03:30:43.891440+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 118,
-  "new_pdf_versions": 10,
+  "new_pdf_versions": 0,
   "pending_reports": 2,
   "pending_versions": 1,
   "planned_versions": 75,
-  "primary_new_pdf_versions": 10,
+  "primary_new_pdf_versions": 0,
   "primary_pdf_complete": false,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 2,
   "result": "failed",
-  "run_at": "2026-11-03T17:55:54.029022+00:00",
+  "run_at": "2026-11-03T17:58:39.988576+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -473,27 +473,6 @@
       ]
     },
     {
-      "id": "R49349",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
-      "id": "IF13308",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
-      "id": "R48174",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
       "id": "IF12914",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
@@ -501,12 +480,12 @@
     },
     {
       "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "id": "R44043",
+      "id": "R44057",
       "scope": "optional historical backfill"
     },
     {
       "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "id": "R44046",
+      "id": "R44081",
       "scope": "optional historical backfill"
     },
     {
