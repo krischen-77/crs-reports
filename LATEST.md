@@ -1,8 +1,6 @@
-**Official-current verification: 54/54. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-26 to 2026-11-02**. Older archived files are retained.
+Publication-date window (inclusive): **2026-10-27 to 2026-11-03**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -54,20 +52,6 @@ Publication-date window (inclusive): **2026-10-26 to 2026-11-02**. Older archive
 | 2026-10-27 | IF13336 v4 | Removing PRC Artificial Intelligence Models from Federal Agencies | [PDF](pdf/in-focus/IF13336v4-2026-10-27-18e59bf5776e5c4b.pdf) | [Markdown](markdown/in-focus/IF13336v4-2026-10-27-18e59bf5776e5c4b.md) |
 | 2026-10-27 | IF11780 v11 | United Nations Issues: Overview of the United Nations System | [PDF](pdf/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.pdf) | [Markdown](markdown/in-focus/IF11780v11-2026-10-27-978a97ec2326b27f.md) |
 | 2026-10-27 | IF11780 v12 | United Nations Issues: Overview of the United Nations System | [PDF](pdf/in-focus/IF11780v12-2026-10-27-be38c69211c59500.pdf) | [Markdown](markdown/in-focus/IF11780v12-2026-10-27-be38c69211c59500.md) |
-| 2026-10-26 | R49493 v2 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v2-2026-10-26-c50a688607b40578.pdf) | [Markdown](markdown/reports/R49493v2-2026-10-26-c50a688607b40578.md) |
-| 2026-10-26 | R49493 v1 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.pdf) | [Markdown](markdown/reports/R49493v1-2026-10-26-ff36babdbabd6e1a.md) |
-| 2026-10-26 | R49492 v2 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v2-2026-10-26-43804154d9ae645e.pdf) | [Markdown](markdown/reports/R49492v2-2026-10-26-43804154d9ae645e.md) |
-| 2026-10-26 | R49492 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.pdf) | [Markdown](markdown/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.md) |
-| 2026-10-26 | R46413 v10 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v10-2026-10-26-14f4913001d8f380.pdf) | [Markdown](markdown/reports/R46413v10-2026-10-26-14f4913001d8f380.md) |
-| 2026-10-26 | R46413 v11 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v11-2026-10-26-434f6c90900f33d5.pdf) | [Markdown](markdown/reports/R46413v11-2026-10-26-434f6c90900f33d5.md) |
-| 2026-10-26 | R45635 v6 | Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements | [PDF](pdf/reports/R45635v6-2026-10-26-33ff9150c4c14bda.pdf) | [Markdown](markdown/reports/R45635v6-2026-10-26-33ff9150c4c14bda.md) |
-| 2026-10-26 | R45635 v5 | Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements | [PDF](pdf/reports/R45635v5-2026-10-26-e43682f46d8d80f5.pdf) | [Markdown](markdown/reports/R45635v5-2026-10-26-e43682f46d8d80f5.md) |
-| 2026-10-26 | LSB11494 v1 | Recent Changes to DOJ’s Interpretation of Olmstead v. L.C. ex rel. Zimring | [PDF](pdf/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.pdf) | [Markdown](markdown/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.md) |
-| 2026-10-26 | LSB11457 v5 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.pdf) | [Markdown](markdown/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.md) |
-| 2026-10-26 | IN12749 v2 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.pdf) | [Markdown](markdown/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.md) |
-| 2026-10-26 | IN12749 v1 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.pdf) | [Markdown](markdown/insights/IN12749v1-2026-10-26-fe14d59c190c1ac7.md) |
-| 2026-10-26 | IF13337 v3 | Proposed Rule Affecting Noncitizen Eligibility for Refundable Tax Credits | [PDF](pdf/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.pdf) | [Markdown](markdown/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.md) |
-| 2026-10-26 | IF13337 v2 | Proposed Rule Affecting Noncitizen Eligibility for Refundable Tax Credits | [PDF](pdf/in-focus/IF13337v2-2026-10-26-8516671f9ce4e433.pdf) | [Markdown](markdown/in-focus/IF13337v2-2026-10-26-8516671f9ce4e433.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -76,12 +60,20 @@ API update dates can describe metadata or file changes. These current PDF files 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
 | 2026-11-02 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
+| 2026-10-31 | 2026-10-26 | R49492 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.pdf) | [Markdown](markdown/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.md) |
+| 2026-10-29 | 2026-10-26 | R45635 v6 | Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements | [PDF](pdf/reports/R45635v6-2026-10-26-33ff9150c4c14bda.pdf) | [Markdown](markdown/reports/R45635v6-2026-10-26-33ff9150c4c14bda.md) |
 | 2026-10-29 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
+| 2026-10-28 | 2026-10-26 | R49493 v2 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v2-2026-10-26-c50a688607b40578.pdf) | [Markdown](markdown/reports/R49493v2-2026-10-26-c50a688607b40578.md) |
+| 2026-10-28 | 2026-10-26 | R46413 v11 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v11-2026-10-26-434f6c90900f33d5.pdf) | [Markdown](markdown/reports/R46413v11-2026-10-26-434f6c90900f33d5.md) |
+| 2026-10-28 | 2026-10-26 | IN12749 v2 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.pdf) | [Markdown](markdown/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.md) |
+| 2026-10-28 | 2026-10-26 | IF13337 v3 | Proposed Rule Affecting Noncitizen Eligibility for Refundable Tax Credits | [PDF](pdf/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.pdf) | [Markdown](markdown/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.md) |
 | 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
 | 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
 | 2026-10-27 | 2026-10-22 | R49408 v3 | Overview of Fiscal Spending Projections: FY2027 Budget Cycle | [PDF](pdf/reports/R49408v3-2026-10-22-10ac5c7079b6d546.pdf) | [Markdown](markdown/reports/R49408v3-2026-10-22-10ac5c7079b6d546.md) |
 | 2026-10-27 | 2021-04-21 | R46769 v2 | The Senate Powersharing Agreement of the 117th Congress (S.Res. 27) | [PDF](pdf/reports/R46769v2-2021-04-21-59ef4565c8399917.pdf) | [Markdown](markdown/reports/R46769v2-2021-04-21-59ef4565c8399917.md) |
 | 2026-10-27 | 2017-04-14 | R44819 v3 | Senate Proceedings Establishing Majority Cloture for Supreme Court Nominations: In Brief | [PDF](pdf/reports/R44819v3-2017-04-14-c695158f51635f12.pdf) | [Markdown](markdown/reports/R44819v3-2017-04-14-c695158f51635f12.md) |
+| 2026-10-27 | 2026-10-26 | LSB11494 v1 | Recent Changes to DOJ’s Interpretation of Olmstead v. L.C. ex rel. Zimring | [PDF](pdf/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.pdf) | [Markdown](markdown/sidebars/LSB11494v1-2026-10-26-c51734cd58255c5e.md) |
 | 2026-10-27 | 2026-10-21 | LSB11493 v1 | The Airline Deregulation Act of 1978: Preemption of State Law | [PDF](pdf/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.pdf) | [Markdown](markdown/sidebars/LSB11493v1-2026-10-21-8cfce752843e19e8.md) |
+| 2026-10-27 | 2026-10-26 | LSB11457 v5 | Temporary Control of 7-Hydroxymitragynine (7-OH) and Other Kratom-Related Substances Under the Controlled Substances Act | [PDF](pdf/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.pdf) | [Markdown](markdown/sidebars/LSB11457v5-2026-10-26-f0829062df35bda4.md) |
 | 2026-10-27 | 2020-12-02 | IN10875 v6 | Eight Mechanisms to Enact Procedural Change in the U.S. Senate | [PDF](pdf/insights/IN10875v6-2020-12-02-08a083591f003670.pdf) | [Markdown](markdown/insights/IN10875v6-2020-12-02-08a083591f003670.md) |
 | 2026-10-27 | 2026-10-22 | IF12889 v4 | Medicare Part D Premium Stabilization Demonstration | [PDF](pdf/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.pdf) | [Markdown](markdown/in-focus/IF12889v4-2026-10-22-db1a2955a4721768.md) |
