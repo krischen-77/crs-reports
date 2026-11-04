@@ -5,82 +5,6 @@
       "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "13",
-        "date": "2020-03-27",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44185",
-            "sha1": "b5f0b499b80bd3f46dffacbb85dda64120f0f86d",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200327_R44185_b5f0b499b80bd3f46dffacbb85dda64120f0f86d.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44185",
-            "sha1": "f238774c046a50566a5647c3094945ab26fe6c11",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200327_R44185_f238774c046a50566a5647c3094945ab26fe6c11.pdf"
-            ]
-          }
-        },
-        "id": "R44185",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R44185",
-          "https://www.crs.gov/Reports/pdf/R44185"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "621106",
-        "title": "Federal Reserve: Emergency Lending",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2015-09-25",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44213",
-            "sha1": "8f0ee1ebb1611efd4f0038d5378394f0aff52c77",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150925_R44213_8f0ee1ebb1611efd4f0038d5378394f0aff52c77.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44213",
-            "sha1": "c28cc87feb16722469c99c7399e80f4e8138ec70",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150925_R44213_c28cc87feb16722469c99c7399e80f4e8138ec70.pdf"
-            ]
-          }
-        },
-        "id": "R44213",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44213",
-          "http://www.crs.gov/Reports/pdf/R44213"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "445954",
-        "title": "Altering House Ethics Committee Sanction Recommendations on the Floor: Past Precedent and Options for Action",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "7",
         "date": "2016-08-03",
         "formats": {
@@ -9321,6 +9245,99 @@
         },
         "title": "U.S. Passport Services: Background and Issues for Congress",
         "version": "3"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-05",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "13",
+        "date": "2025-12-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10544",
+            "sha1": "a105ebaaae7b3c0177b3765e1fa656626648d68b",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10544.web.html",
+              "https://www.everycrsreport.com/files/2025-12-08_IF10544_a105ebaaae7b3c0177b3765e1fa656626648d68b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10544",
+            "sha1": "ccc2c0bbe863210ab799f71e576d9483feb2da55",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10544/IF10544.14.pdf",
+              "https://www.everycrsreport.com/files/2025-12-08_IF10544_ccc2c0bbe863210ab799f71e576d9483feb2da55.pdf"
+            ]
+          }
+        },
+        "id": "IF10544",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-04T12:54:23Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10544_A14_2025-12-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-12-08",
+          "id": "IF10544",
+          "official_pdf_sha256": "05ca13c0449d2b1b329517d263e0630b170b5f32f211b07f8e2f51df041853df",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10544/IF10544.16.pdf",
+          "official_publication": "2026-11-04",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Defense Primer: Department of the Army and Army Command Structure",
+        "version": "14"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-05",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "13",
+        "date": "2025-01-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12517",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2025-01-08_IF12517_45d31fb42e28bf8caeb844c6b97f684f36b07221.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12517",
+            "sha1": "45d31fb42e28bf8caeb844c6b97f684f36b07221",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12517/12",
+              "https://www.everycrsreport.com/files/2025-01-08_IF12517_45d31fb42e28bf8caeb844c6b97f684f36b07221.pdf"
+            ]
+          }
+        },
+        "id": "IF12517",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-04T12:54:27Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12517_12_2025-01-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-01-08",
+          "id": "IF12517",
+          "official_pdf_sha256": "237745fa875d1f556acddbb256a976d192739eaf731d9a308aab757fe74acc82",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12517/IF12517.14.pdf",
+          "official_publication": "2026-11-04",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "U.S.-Japan Critical Minerals Agreement",
+        "version": "12"
       }
     },
     {
