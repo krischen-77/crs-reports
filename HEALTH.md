@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-04T02:46:00.728018+00:00
+Watchdog checked UTC: 2026-11-04T06:34:37.278649+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -14,6 +14,7 @@ Monitor commits are NOT source refreshes. No new reports can be normal; stale ve
 
 ## Findings
 
+crs-backup.yml: no verified refresh within 26 hours
 Collector has unresolved required failures
 
 ## Recovery
