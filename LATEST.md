@@ -1,3 +1,5 @@
+**Official-current verification: 72/72. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-28 to 2026-11-04**. Older archived files are retained.
@@ -10,6 +12,7 @@ Publication-date window (inclusive): **2026-10-28 to 2026-11-04**. Older archive
 | 2026-11-03 | R48244 v3 | Safe Driver Apprenticeship Pilot Program: In Brief | [PDF](pdf/reports/R48244v3-2026-11-03-01bc490f078e59e5.pdf) | [Markdown](markdown/reports/R48244v3-2026-11-03-01bc490f078e59e5.md) |
 | 2026-11-03 | IN12754 v1 | Surplus Lines Insurance: An Introduction | [PDF](pdf/insights/IN12754v1-2026-11-03-d89c67932d7999d3.pdf) | [Markdown](markdown/insights/IN12754v1-2026-11-03-d89c67932d7999d3.md) |
 | 2026-11-03 | IN12753 v2 | FY2027 Internal Revenue Service Budget Request | [PDF](pdf/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.pdf) | [Markdown](markdown/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.md) |
+| 2026-11-03 | IF12452 v8 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.pdf) | [Markdown](markdown/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.md) |
 | 2026-11-03 | IF12452 v7 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v7-2026-11-03-9028fcdc417bbc53.pdf) | [Markdown](markdown/in-focus/IF12452v7-2026-11-03-9028fcdc417bbc53.md) |
 | 2026-11-03 | IF11449 v7 | Economic Development Revolving Loan Funds (ED-RLFs) | [PDF](pdf/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.pdf) | [Markdown](markdown/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.md) |
 | 2026-11-03 | IF10545 v18 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.pdf) | [Markdown](markdown/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.md) |
@@ -86,7 +89,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-04 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
 | 2026-11-04 | 2026-09-03 | IN12735 v1 | Federal Legislation and Oversight of Law Enforcement Use of Automated License Plate Readers (ALPRs) | [PDF](pdf/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.pdf) | [Markdown](markdown/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.md) |
 | 2026-11-04 | 2026-09-08 | IF13308 v1 | Overview of FY2027 Budget Request for the Census Bureau | [PDF](pdf/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.pdf) | [Markdown](markdown/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.md) |
-| 2026-11-04 | 2026-06-12 | IF13171 v2 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v2-2026-06-12-f7de86be125f8da7.pdf) | [Markdown](markdown/in-focus/IF13171v2-2026-06-12-f7de86be125f8da7.md) |
+| 2026-11-04 | 2026-06-12 | IF13171 v3 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.pdf) | [Markdown](markdown/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.md) |
 | 2026-11-03 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
 | 2026-10-31 | 2026-10-26 | R49492 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.pdf) | [Markdown](markdown/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.md) |
 | 2026-10-30 | 2026-10-27 | IF13338 v3 | Social Security Coverage for Members of the Clergy | [PDF](pdf/in-focus/IF13338v3-2026-10-27-69467f5e996156d2.pdf) | [Markdown](markdown/in-focus/IF13338v3-2026-10-27-69467f5e996156d2.md) |

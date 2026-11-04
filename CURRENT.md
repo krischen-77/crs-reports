@@ -1,11 +1,16 @@
 # Official current CRS files
 
-Checked: 2026-11-04T15:37:15.498279+00:00. Official current entries verified: **68/68**.
+Checked: 2026-11-04T18:12:26.959057+00:00. Official current entries verified: **72/72**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
+| 2026-11-04 | 2026-11-04 | IF13342 v1 | Types of Coins Produced by the U.S. Mint | [PDF](pdf/in-focus/IF13342v1-2026-11-04-f17b2afaa4f3d97f.pdf) | [Markdown](markdown/in-focus/IF13342v1-2026-11-04-f17b2afaa4f3d97f.md) |
+| 2026-11-04 | 2026-11-04 | IF12517 v14 | U.S.-Japan Critical Minerals Agreement | [PDF](pdf/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.pdf) | [Markdown](markdown/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.md) |
+| 2026-11-04 | 2026-11-03 | IF12452 v8 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.pdf) | [Markdown](markdown/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.md) |
+| 2026-11-04 | 2026-11-04 | IF10544 v16 | Defense Primer: Department of the Army and Army Command Structure | [PDF](pdf/in-focus/IF10544v16-2026-11-04-05ca13c0449d2b1b.pdf) | [Markdown](markdown/in-focus/IF10544v16-2026-11-04-05ca13c0449d2b1b.md) |
+| 2026-11-04 | 2026-06-12 | IF13171 v3 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.pdf) | [Markdown](markdown/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.md) |
 | 2026-11-04 | 2026-09-03 | R49341 v7 | Transportation, Housing and Urban Development, and Related Agencies (THUD) Appropriations for FY2027 | [PDF](pdf/reports/R49341v7-2026-09-03-10cc3ace719d31ce.pdf) | [Markdown](markdown/reports/R49341v7-2026-09-03-10cc3ace719d31ce.md) |
 | 2026-11-04 | 2026-10-30 | R44263 v18 | Veterans Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R44263v18-2026-10-30-b12a99e67d2814bd.pdf) | [Markdown](markdown/reports/R44263v18-2026-10-30-b12a99e67d2814bd.md) |
 | 2026-11-04 | 2026-11-03 | R48244 v3 | Safe Driver Apprenticeship Pilot Program: In Brief | [PDF](pdf/reports/R48244v3-2026-11-03-01bc490f078e59e5.pdf) | [Markdown](markdown/reports/R48244v3-2026-11-03-01bc490f078e59e5.md) |
@@ -22,9 +27,8 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-04 | 2026-10-30 | IF11734 v5 | The Federal Contested Election Act: Overview and Recent Contests in the House of Representatives | [PDF](pdf/in-focus/IF11734v5-2026-10-30-04ba85e7ad9edd5e.pdf) | [Markdown](markdown/in-focus/IF11734v5-2026-10-30-04ba85e7ad9edd5e.md) |
 | 2026-11-04 | 2026-11-03 | IF10545 v18 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.pdf) | [Markdown](markdown/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.md) |
 | 2026-11-04 | 2026-10-30 | IF13341 v2 | The U.S. Sentencing Commission Approves Drone Sentencing Enhancement | [PDF](pdf/in-focus/IF13341v2-2026-10-30-ce653206eee50a20.pdf) | [Markdown](markdown/in-focus/IF13341v2-2026-10-30-ce653206eee50a20.md) |
-| 2026-11-04 | 2026-11-03 | IF12452 v7 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v7-2026-11-03-9028fcdc417bbc53.pdf) | [Markdown](markdown/in-focus/IF12452v7-2026-11-03-9028fcdc417bbc53.md) |
-| 2026-11-04 | 2026-11-03 | IN12753 v2 | FY2027 Internal Revenue Service Budget Request | [PDF](pdf/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.pdf) | [Markdown](markdown/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.md) |
 | 2026-11-04 | 2026-11-03 | IF11449 v7 | Economic Development Revolving Loan Funds (ED-RLFs) | [PDF](pdf/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.pdf) | [Markdown](markdown/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.md) |
+| 2026-11-04 | 2026-11-03 | IN12753 v2 | FY2027 Internal Revenue Service Budget Request | [PDF](pdf/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.pdf) | [Markdown](markdown/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.md) |
 | 2026-11-04 | 2026-10-30 | R49498 v6 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of National Historic Preservation Act Provisions | [PDF](pdf/reports/R49498v6-2026-10-30-96aacb5b8fef0b3b.pdf) | [Markdown](markdown/reports/R49498v6-2026-10-30-96aacb5b8fef0b3b.md) |
 | 2026-11-04 | 2026-09-30 | R49421 v2 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v2-2026-09-30-f106d49d693c9b4b.pdf) | [Markdown](markdown/reports/R49421v2-2026-09-30-f106d49d693c9b4b.md) |
 | 2026-11-04 | 2026-09-22 | R49358 v3 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v3-2026-09-22-d283808bb594cd85.pdf) | [Markdown](markdown/reports/R49358v3-2026-09-22-d283808bb594cd85.md) |
