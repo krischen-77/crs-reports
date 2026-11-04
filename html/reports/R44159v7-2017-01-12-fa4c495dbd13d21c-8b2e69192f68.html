@@ -1,0 +1,567 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R44159.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">The Excise Tax on High-Cost Employer-Sponsored Health Insurance: Estimated Economic and Market Effects</div>
+<div class="CoverDate">Updated January 12, 2017
+            (R44159)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc528329928"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc528329929"><span class="Hyperlink">Economic Efficiency and the Health Insurance and Health Care Market</span></a></li>
+<li class="TOC2"><a href="#_Toc528329930"><span class="Hyperlink">A Graphical Depiction of the Health Care Market</span></a></li>
+<li class="TOC2"><a href="#_Toc528329931"><span class="Hyperlink">Estimated Effects of the Tax on Health Care Prices and Quantities</span></a></li>
+<li class="TOC1"><a href="#_Toc528329932"><span class="Hyperlink">Effects on Wages</span></a></li>
+<li class="TOC1"><a href="#_Toc528329933"><span class="Hyperlink">Effects on Social Welfare and Administrative Costs</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc528329923"><span class="Hyperlink">Figure 1. Supply and Demand Effects of the Cadillac Tax</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc528329924"><span class="Hyperlink">Table A-1. Assumptions for Calculations Related to the Cadillac Tax</span></a></li>
+<li><a href="#_Toc528329925"><span class="Hyperlink">Table A-2. Estimated Effects of the Cadillac Tax on Price, Quantity and Spending in the Medical Care Market: Results of Calculations, 2025</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc528329926"><span class="Hyperlink">Appendix. Estimating the Effects of the Tax on Health Markets and Wages</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Patient Protection and Affordable Care Act (ACA; <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+148)"><span class="Hyperlink">P.L. 111-148</span></a>, as amended) included a provision to impose an excise tax on high-cost employer-sponsored insurance (ESI) coverage beginning in 2018 (recently delayed until 2020). This provision, popularly termed the <em>Cadillac tax</em>, imposes an excise tax on ESI coverage in excess of a predetermined threshold. The tax is imposed on the coverage provider, typically the health insurance provider or the entity that administers the plan benefits. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Currently, employers' spending on ESI coverage and most employees' contributions to ESI plans are exempt from income and payroll taxes. Although proposals to limit the amount of health insurance benefits eligible for this exclusion were considered, the ACA, as enacted, did not limit the exclusion for employer-provided health insurance coverage. The Cadillac tax discourages high-cost employer health plans through another approach. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax is imposed at a rate of 40%. This tax rate is applied on a <em>tax-exclusive basis</em>, as is generally the case with excise tax rates. That is, like a sales tax, the rate applies to the price or cost excluding the tax. By contrast, the tax rate relevant to an income tax exclusion is on a <em>tax-inclusive basis</em>: it is applied to a base that includes the tax. The Cadillac tax was originally nondeductible from the insurer's gross income (or the employer's gross income, in cases where the employer self-insures), but deductibility was allowed in the Consolidated Appropriations Act, 2016 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+113)"><span class="Hyperlink">P.L. 114-113</span></a>). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax was originally to take effect in 2018. The Consolidated Appropriations Act delayed the effective date to 2020. The tax is projected to be imposed on plans that cost more than $10,800 for single health plans and $29,100 for non-single (e.g., family) plans. The exempt amount is indexed for inflation, and, because health costs tend to grow faster than inflation, the share of premiums covered by the tax and the revenue collected is expected to grow.<span class="FootnoteReference"> </span>(The threshold was indexed for health care costs for 2019, however.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report examines several issues. It evaluates the potential of the Cadillac tax to affect health insurance coverage and the health care market. It also examines the expected incidence (burden) of the tax—that is, which group's income will be reduced by the tax. Finally, the report discusses implications for economic efficiency in the context of tax administration.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Estimates suggest that the Cadillac tax could lead to an overall decline in the quantity of health services financed by private insurance as some firms reduce the size of their insurance coverage. This decline is estimated to range from 1.9% to 2.2% in 2025 (a year for which data are available to project effects). Prices could fall by up to 1.3% in 2025 (although costs paid by some consumers could rise due to cutbacks in Cadillac plans). Overall expenditure (the sum of the fall in quantity and the fall in price) could decline by 2.2%-3.2% in 2025. In other words, the tax could result in a gross reduction of $47.6 billion-$69.2 billion in national health expenditures paid by private insurance in 2025. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the tax is imposed on insurers or employers, the burden is expected to fall on wages. In some cases, employers will retain the Cadillac insurance plans and pass the tax on to workers in the form of lower wages. In other cases, employers will substitute taxable wages for insurance coverage in excess of the threshold, and employees will be subject to income and payroll taxes on those wages. Revenue projections assume the latter situation will be more common. </p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Employer health care plans benefit from the ability to exclude the value of the insurance paid by the employer from employee income and payroll taxes. This provision, known as the employer-sponsored insurance (ESI) tax exclusion, has been viewed by some as encouraging too much spending on insurance and therefore on health care. During consideration of the Patient Protection and Affordable Care Act (ACA; <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+148)"><span class="Hyperlink">P.L. 111-148</span></a>, as amended) proposals to limit the amount of benefit excluded from tax under this provision were addressed.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="U.S. Congress, Senate Committee on Finance, Description of Policy Options: Financing Comprehensive Health Care Reform: Proposed Health System Savings and Revenue Options , May 20, 2009, at http://www.finance.senate.gov/newsroom/ranking/download/?id=8a3deecc-59d2-4530-ba0e-8862a05ed714 .">1</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The final bill did not limit the amount of benefits employees can exclude from income and payroll taxes, but it did include a related provision that is popularly termed the <em>Cadillac tax</em>. This provision imposes an excise tax on the cost of ESI coverage that is in excess of a predetermined threshold. The original Cadillac tax differed from other typical excise taxes in two ways: (1) it was imposed on amounts in excess of a dollar floor and (2) it was not deductible from the income tax. Deductibility was restored by the Consolidated Appropriations Act, 2016 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+113)"><span class="Hyperlink">P.L. 114-113</span></a>). It is imposed on the coverage provider, either a third-party insurer or, in the case of self-financed plans, the plan administrator (which may be the employer). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax is imposed at a rate of 40%. This tax rate is applied on a <em>tax-exclusive basis</em>, as is generally the case with excise tax rates. That is, like a sales tax, it applies to the price or cost excluding the tax. By contrast, the tax rate relevant to an income tax exclusion is on a <em>tax-inclusive basis</em>: it is applied to a base that includes the tax. A 40% tax applied on a tax-exclusive basis is equivalent to a 28.57% rate (0.4/1.4) applied on a tax-inclusive basis. That is, if the tax base is $100 dollars, the tax will add $40. The rate on a tax-inclusive basis is the tax ($40) divided by the base plus the tax ($140). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As noted, the Cadillac tax was originally nondeductible from the insurer's gross income (or the employer's gross income, in cases where the employer self-insures). This treatment is unlike other excise taxes. (See the <a class="InternalLink" href="#_Ref426988569"><strong></strong><strong>Appendix</strong></a> for further discussion.) Deductibility was allowed in the Consolidated Appropriations Act, 2016. (See the <a class="InternalLink" href="#_Ref426988569"><strong></strong><strong>Appendix</strong></a> for further discussion of the effect of this change.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax was originally to take effect in 2018. The Consolidated Appropriations Act delayed the effective date to 2020. The tax is projected to be imposed on plans that cost more than $10,800 for single health plans and $29,100 for non-single (e.g., family) plans. The exempt amount is indexed for inflation, and, because health costs tend to grow faster than inflation, the share of premiums covered by the tax and the revenue collected is expected to grow.<span class="FootnoteReference"> </span>(The threshold was indexed for health care costs for 2019, however.)<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="For an overview of the Cadillac tax see CRS Report R44147, Excise Tax on High-Cost Employer-Sponsored Health Coverage: In Brief , by Annie L. Mach . For a more detailed history and an analysis of the growth in coverage of the tax, see CRS Report R44160, The Excise Tax on High-Cost Employer-Sponsored Health Coverage: Background and Economic Analysis , by Sean Lowry .">2</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unlike a limit on the exclusion of benefits, which would increase the taxable income of the employee, this tax is imposed on the coverage provider, often the health insurer. Like the proposals to amend the employer health care exclusion that were discussed before the tax was adopted, however, the Cadillac tax is aimed not only at providing financial support for the costs of the ACA (such as premium subsidies to help lower-income individuals purchase health insurance) but also at reducing expenditures on health care. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report examines several issues. It evaluates the potential of the Cadillac tax to affect health insurance coverage and, therefore, the health market. It also examines the expected incidence (burden) of the tax—that is, which group will pay the price of the tax. In addition, the report discusses the efficiency of the tax in the context of administrative cost.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref414436958"></a><a name="_Toc426722554"></a><a name="_Toc426979204"></a><a name="_Toc426984265"></a><a name="_Toc426988663"></a><a name="_Toc427040362"></a><a name="_Toc427238929"></a><a name="_Toc427578925"></a><a name="_Toc427593897"></a><a name="_Toc427657363"></a><a name="_Toc427758513"></a><a name="_Toc427829155"></a><a name="_Toc427933286"></a><a name="_Toc471824564"></a><a name="_Toc472066403"></a><a name="_Toc528329929"></a>Economic Efficiency and the Health Insurance and Health Care Market</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The health care sector contains many sources of market failure, which create economic inefficiencies.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Some of these inefficiencies are summarized in Joseph Stiglitz, Economics of the Public Sector , 3 rd ed. (New York: Norton), pp. 300-330; and Executive Office of the President, Council of Economic Advisers, The Economic Case for Health Care Reform , June 2009, pp. 9-17, at https://www.whitehouse.gov/assets/documents/CEA_Health_Care_Report.pdf .">3</a></sup> The inefficiency that is most directly related to the Cadillac tax is the moral-hazard issue that results from having health insurance. In general, insured individuals spend more on medical care than they would without insurance. More demand for medical care raises the price of medical care, and it could reduce incentives for individuals to take responsibility for their health status (to the extent that they can).<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="Joseph Stiglitz, Economics of the Public Sector , 3 rd ed. (New York: Norton), p. 315.">4</a></sup> Incentives that encourage insurance consumption, such as the unlimited ESI tax exclusion, can increase these inefficiencies in the market for medical care. The Cadillac tax is intended in part to reduce this source of inefficiency. Although some employers and employees may choose to retain high-cost plans, others may scale back to avoid the tax. For employees in the latter group, the cost of health care increases, for example, through higher co-payments and larger deductibles. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc426722555"></a><a name="_Toc426979205"></a><a name="_Toc426984266"></a><a name="_Toc426988664"></a><a name="_Toc427040363"></a><a name="_Toc427238930"></a><a name="_Toc427578926"></a><a name="_Toc427593898"></a><a name="_Toc427657364"></a><a name="_Toc427758514"></a><a name="_Toc427829156"></a><a name="_Toc427933287"></a><a name="_Toc471824565"></a><a name="_Toc472066404"></a><a name="_Toc528329930"></a>A Graphical Depiction of the Health Care Market</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref425853345"><strong></strong><strong>Figure 1</strong></a> illustrates the effects of the Cadillac tax on the national market for medical care using a supply and demand framework. In this diagram, the effects of insurance and the Cadillac tax are depicted as the share of cost, s, paid by insurance. Therefore, the cost to the consumer is P(1-s), where P is the market price of the health care. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note also that the points on the graph do not reflect magnitudes but are illustrative, as the effect of the Cadillac tax is small relative to the effect of insurance.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="Supply and demand curves are depicted as straight lines in the graph for illustrative purposes, although in the estimates of quantitative effects, demand, and supply are treated as constant elastic functions.">5</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The points on the graph can be defined as follows:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">P* and Q* are the price and quantity in a market without insurance, where consumers face the full costs of their medical care decisions.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">P<sub>i</sub><sub> </sub>and Q<sub>i</sub><sub> </sub>are the price and quantity in a market with insurance and subsidies (such as the ESI tax exclusion), where individual consumers pay a portion of their medical costs out of pocket at the price P<sub>i</sub>(1-s<sub>i</sub>).</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">P<sub>t</sub><sub> </sub>and Q<sub>t</sub> are the price and quantity in a market with insurance and subsidies, where individual consumers face a higher price because insurance coverage has been reduced by the Cadillac tax, where individual consumers pay P<sub>t</sub>(1-s<sub>t</sub>).</li></ul><p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref419208269"></a><a name="_Ref425853345"></a><a name="_Toc426722550"></a><a name="_Toc426979196"></a><a name="_Toc426984261"></a><a name="_Toc426988659"></a><a name="_Toc427040358"></a><a name="_Toc427238925"></a><a name="_Toc427578921"></a><a name="_Toc427593893"></a><a name="_Toc427657359"></a><a name="_Toc427758509"></a><a name="_Toc427829151"></a><a name="_Toc427933282"></a><a name="_Toc471824558"></a><a name="_Toc472066397"></a><a name="_Toc528329923"></a>Figure 1. Supply and Demand Effects of the Cadillac Tax</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R44159_files/0.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS analysis, informed by select, empirical findings of elasticities of supply and demand. </p>
+<p class="FigureNote"><strong>Notes:</strong> The tax has effects on only part of the population, and this graph depicts an aggregated effect.<strong> </strong><strong><br/></strong>P* and Q* are the price and quantity in a market without insurance, where consumers face the full costs of their medical decisions. <br/>P<sub>i </sub>and Q<sub>i</sub> are the price and quantity in a market with insurance and subsidies (such as the employer-sponsored health insurance tax exclusion), where individual consumers pay a portion of their medical costs out of pocket at the price P<sub>i</sub>(1-s<sub>i</sub>). <br/>P<sub>t </sub>and Q<sub>t</sub> are the price and quantity in a market with insurance and subsidies, where individual consumers face a higher price because insurance coverage has been reduced by the Cadillac tax. <br/>The symbols s<sub>t </sub>and s<sub>i </sub>refer to the share paid by insurance with and without the Cadillac tax. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The demand curve is steeply sloped downward, indicating the demand for medical care is relatively inelastic, or changes in quantity demanded are relatively insensitive to changes in price.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="An elasticity of demand for insured health services of -0.2 is commonly referred to in the health economics literature. For example, see Su Liu and Deborah Chollet, Price and Income Elasticity of the Demand for Health Insurance and Health Care Services: A Critical Review of the Literature , Mathematica Policy Research, Inc., March 24, 2006, at http://www.mathematica-mpr.com/publications/pdfs/priceincome.pdf . Although some economists caution the use of a single elasticity to describe al...">6</a></sup> The supply curve is gradually upward sloping, indicating that the supply of medical care services is relatively elastic, or changes in the quantity supplied are relatively responsive to changes in price.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Various researchers have studied the price elasticity of supply, with regard to various categories of health care services, with the consensus being that the supply curve is positively sloped with an elasticity much greater than 1.0. The supply curve in Figure 1 approximates an elasticity of 1.5 for physician services for Medicare Part B found in Jeffrey Clemens and Joshua D. Gottlieb, &quot; Do Physician ' s Financial Incentives Affect Medical Treatment and Patient Health? ,&quot; American Econom...">7</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In a world without insurance, consumers pay the full price of medical care (P*) and demand an amount of medical care (Q*) at the intersection of supply and demand. In a world where insurance is introduced, individual consumers pay a share of their full medical costs, P(1-s<sub>i</sub>), in the form of a co-payment or other cost sharing and demand Q<sub>i</sub> amount of medical care. Prices (or cost per unit) in the medical care market increase from P* to P<sub>i</sub> after the introduction of insurance as suppliers capture a portion of the subsidy.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Equilibrium in the medical care market after introduction of insurance occurs with price P<sub>i</sub> and quantity Q<sub>i</sub>. In other words, consumers tend to demand a greater quantity of medical care in a world with health insurance compared to a world without health insurance because insured individuals face a lower out-of-pocket cost, P<sub>i</sub>(1-s<sub>i</sub>) as compared with P*. The ESI tax exclusion intensifies the effects that insurance has on the quantity demanded and the prevailing price of medical care in the market because it further insulates consumers from the full price of their medical care decisions.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax effectively reduces (or offsets) federal subsidies for health insurance and reduces that insurance coverage. Thus, it increases consumers' exposure to the full cost of their medical care beyond the Cadillac-tax threshold such that the total quantity of medical care demanded decreases from Q<sub>i</sub> to Q<sub>t</sub> and price decreases from P<sub>i</sub> to P<sub>t</sub>.<sub> </sub>The equilibrium after imposition of the Cadillac tax is closer to the equilibrium in the market without the effects of health insurance. The decline in quantity from Q<sub>i</sub><sub> </sub>to Q<sub>t</sub> largely represents sensitivity to higher out-of-pocket costs (in the form of higher co-payments, deductibles, or other features). </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc426722556"></a><a name="_Toc426979206"></a><a name="_Toc426984267"></a><a name="_Toc426988665"></a><a name="_Toc427040364"></a><a name="_Toc427238931"></a><a name="_Toc427578927"></a><a name="_Toc427593899"></a><a name="_Toc427657365"></a><a name="_Toc427758515"></a><a name="_Toc427829157"></a><a name="_Toc427933288"></a><a name="_Toc471824566"></a><a name="_Toc472066405"></a><a name="_Toc528329931"></a>Estimated Effects of the Tax on Health Care Prices and Quantities</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax will affect the overall medical care market by effectively reducing government subsidies for health insurance and therefore reducing insurance coverage, which would likely lead to an increased cost of medical care for the consumer. As medical care becomes more costly, spending on medical care will decrease and spending on other commodities will increase. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the theoretical prediction is that the Cadillac tax will reduce medical care spending, the revenue raised by the tax is estimated to be a small share of national health expenditures. According to the Congressional Budget Office (CBO), the tax will raise $20 billion in 2025.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Congressional Budget Office, Private Health Insurance Premiums and Federal Policy, February 2016, https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/51130-Health_Insurance_Premiums.pdf .">8</a></sup> The Centers for Medicare &amp; Medicaid Services (CMS) project that national health care expenditures covered by private insurance will be $1,752.6 billion in 2025.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="See Centers for Medicare and Medicaid Services, National Health and Expenditure Data, visited December 9, 2016, https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsProjected.html .">9</a></sup> In other words, revenue raised by the Cadillac tax is projected to amount to 1.1% of projected health expenditures covered by private insurance in 2025. Although the tax is small relative to health spending, its effects can be multiplied through reductions in insurance coverage, as discussed below.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Once the tax is implemented, some firms (on behalf of their workers) will retain their plans and pay the tax. Other firms will reduce their insurance and pay their employees more, so that revenue gains will reflect the increase in income and payroll tax paid on the increase in taxable compensation.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='See discussion in the " Effects on Wages " section.'>10</a></sup> These additional wages would substitute for previously untaxed health benefits. The reduced insurance coverage would be a multiple of the tax revenues. For example, if the tax rate is 30%, each $30 of revenue collected equals $100 of taxable income and reduced coverage. Thus, each dollar of revenue reflects $3.33 ($100/$30) of reduced coverage. Based on estimates shown in the <a class="InternalLink" href="#_Ref426988569"><strong></strong><strong>Appendix</strong></a> that apply assumptions used by the Joint Committee on Taxation, 86% of premiums above the Cadillac-tax threshold could be eliminated and replaced by wages. This reduction in coverage would increase the cost of health care to those formerly covered by a Cadillac plan. Although there are a number of ways in which costs could be reduced in an insurance policy, the analysis here assumes a proportional effect on the share paid by the individual consumer.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="A policy could increase co-payments, limit the scope of coverage, limit the network of preferred providers, increase deductibles, or limit catastrophic coverage. All of these would in some way change spending on medical care.">11</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After incorporating the elasticities of demand and supply mentioned above, the Cadillac tax could lead to an overall decline in the quantity of health services. This decline is estimated to range from 1.9% to 2.2% in 2025. Prices could fall by up to 1.3% in 2025, although costs to some consumers would increase as the Cadillac tax reduced the subsidy for health insurance. Overall expenditure (the sum of the fall in quantity and the fall in price) could decline by 2.2% to 3.2% in 2025.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="The ranges reflect a demand elasticity of -0.2 and supply elasticities set at 1.5 and at infinity. Formulas for these calculations are shown in the Appendix . The analysis relies on revenue estimates from the Joint Committee on Taxation (JCT) to determine the share of plans affected and the size of the change in health costs. The effect on price is zero for an infinitely elastic supply curve, but price falls with a 1.5 supply elasticity. Reductions in quantity are larger for an infinite elast...">12</a></sup> In other words, the tax could result in a gross reduction of $47.6 billion to $69.2 billion in national health expenditures covered by private insurance by 2025, based on the same CMS baseline projections of health spending mentioned above.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="As consumers affected by the Cadillac tax decrease their medical care consumption in response to the tax, consumers not affected by the Cadillac tax could increase their consumption slightly (estimated at no more than 0.2%) and partially offset the effects of the tax. Still, the decline in consumption by those affected exceeds the increase in consumption by those not affected.">13</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc426722557"></a><a name="_Toc426979207"></a><a name="_Toc426984268"></a><a name="_Toc426988666"></a><a name="_Toc427040365"></a><a name="_Toc427238932"></a><a name="_Ref427571010"></a><a name="_Toc427578928"></a><a name="_Toc427593900"></a><a name="_Toc427657366"></a><a name="_Toc427758516"></a><a name="_Toc427829158"></a><a name="_Toc427933289"></a><a name="_Toc471824567"></a><a name="_Toc472066406"></a><a name="_Toc528329932"></a>Effects on Wages</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax is expected to decrease after-tax compensation. These effects are expected to occur regardless of whether revenue is collected from the Cadillac tax or firms change health insurance offerings in response to the tax. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some employers might choose to maintain health plans that are subject to the Cadillac tax. In this case, third-party insurers could pass along the direct cost of the tax to employers who would then pass it on to wages.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="This analysis assumes that the insurance market is competitive and that insurance companies will need to pass any additional costs forward to remain in the market.">14</a></sup> Similarly, self-insured employers, who are directly responsible for paying the Cadillac tax, would likely pass along any added costs to workers in the form of lower wages. As shown in the <a class="InternalLink" href="#_Ref426988569"><strong></strong><strong>Appendix</strong></a>, the Cadillac tax should be considered an add-on to the base (or tax exclusive). Also, the tax effects (which include Cadillac tax and employer payroll tax effects) if translated into a comparable tax-inclusive rate applied to the employee would be equivalent to an exclusion at a tax rate of 28.57% (combined payroll tax and income tax). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Alternatively, employers might respond by reducing insurance coverage and raising employees' wages. These higher wages would be subject to income and payroll taxes. Because the Cadillac tax is equivalent to a 28.57% exclusion, its burden is higher relative to the taxes due on taxable wages when the combined tax rate is below that level. Thus, reducing insurance coverage would increase after-tax wages for some employees as compared with retaining the tax. Either way, the burden would be expected to fall on wages because the tax is an increase in the cost of compensation.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="This is a standard view of a tax that burdens employee compensation. In its 2009 distributional analysis of a previous version of the Cadillac tax, JCT appeared to largely assume that the insurer would pass the full price of the tax along to the consumer and that employers would largely pass any increase in costs to wages. See Letter from Thomas A. Barthold, Chief of Staff, Joint Committee on Taxation, to the Hon. Joe Courtney, U.S. House of Representatives, October 16, 2009, p. 2. This assu...">15</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The lower effective earnings in sectors most affected by the Cadillac tax could lead employees to move to other jobs. The increased supply of workers seeking jobs could drive down wages. This scenario, however, is likely to be small because workers would only face a tax on the portion of their health benefits above the Cadillac tax threshold. With this said, the burden of the tax would be expected to fall on wages as long as the overall supply of labor is relatively fixed, with an accompanying shift of labor and production out of the affected sectors into other sectors.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='If the tax fell uniformly on all workers, it would be expected to fall on wages without other significant consequences since the supply of labor is relatively inelastic. In this case, the tax is imposed on some workers and not others, making it a partial-factor tax that could be shifted to other workers. It is similar to the effects of a partial-factor tax on capital as shown in Arnold Harberger, "The Incidence of the Corporate Income Tax," Journal of Political Economy , vol. 70, June 1962, p...'>16</a></sup> The extent to which the burden is spread beyond those firms depends on a complex mix of substitutability among products and production processes. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The analysis above reflects the <em>long-term</em> effects on labor markets. In the short run, wages are sometimes "sticky" and bound by the terms of particular contracts or labor agreements. Indeed, some industries that have rigid labor contracts might be slower to adjust than others (although the Cadillac tax was enacted in 2010, eight years in advance of its original 2018 implementation date). </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc426722558"></a><a name="_Toc426979208"></a><a name="_Toc426984269"></a><a name="_Toc426988667"></a><a name="_Toc427040366"></a><a name="_Toc427238933"></a><a name="_Toc427578929"></a><a name="_Toc427593901"></a><a name="_Toc427657367"></a><a name="_Toc427758517"></a><a name="_Toc427829159"></a><a name="_Toc427933290"></a><a name="_Toc471824568"></a><a name="_Toc472066407"></a><a name="_Toc528329933"></a>Effects on Social Welfare and Administrative Costs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The analysis of the effects of the Cadillac tax cannot determine whether the tax results in a net increase or decrease in social welfare and therefore an efficiency gain. The health care sector is host to a number of phenomena that either increase or decrease social well-being. The Cadillac tax reduces the moral-hazard inefficiencies associated with insurance (thereby increasing social well-being). However, the efficiency gain is reduced by the tax's administrative and compliance costs. In addition, by making insurance more expensive for some individuals, the Cadillac tax could also erode, over time, some of the benefit derived from the social-insurance function of lifetime medical-expense cost sharing. In the current health care system, the young and healthy subsidize health care costs for the elderly and less healthy, and those with greater abilities to pay insurance premiums subsidize costs for those who might be unable to pay for health care. As the Cadillac tax increases its coverage over time, a larger share of employer premiums will be affected.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="See CRS Report R44160, The Excise Tax on High-Cost Employer-Sponsored Health Coverage: Background and Economic Analysis , by Sean Lowry , for estimates of the share of premiums covered over time.">17</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax, however, is likely easier to administer than the alternative of taxing insurance benefits above a base. A major economic issue impeding the taxation of employer-sponsored health care benefits is measuring the imputed value of health benefits received. Some measures of a health plan's value are now available on an employee's W-2 form, but this amount could be closer to an average cost per worker across an employer's workforce and does not necessarily represent the value of health benefits received by the particular taxpayer.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="For a discussion of the problems associated with imputing income from employer health benefits, see Stan Dorn, Capping the Tax Exclusion of Employer-Sponsored Health Insurance: Is Equity Feasible? , June 2009, at http://www.urban.org/sites/default/files/alfresco/publication-pdfs/411894-Capping-the-Tax-Exclusion-of-Employer-Sponsored-Health-Insurance-Is-Equity-Feasible-.PDF .">18</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc426979201"></a><a name="_Toc426984262"></a></p>
+<p class="Heading5" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix. <a name="_Ref426988569"></a><a name="_Toc426988660"></a><a name="_Toc427040359"></a><a name="_Toc427238926"></a><a name="_Toc427578922"></a><a name="_Toc427593894"></a><a name="_Toc427657360"></a><a name="_Toc427758510"></a><a name="_Toc427829152"></a><a name="_Toc427933283"></a><a name="_Toc471824561"></a><a name="_Toc472066400"></a><a name="_Toc528329926"></a>Estimating the Effects of the Tax on Health Markets and Wages</p>
+<p class="Heading7" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Deriving the Effects of the Cadillac Tax on Price and Quantity in the Medical Care Market</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The effects of the Cadillac tax on the medical care market can be expressed as a percentage change in price and quantity.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">First, the demand equation, with values subscripted with D, can be specified as</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(1) Q<sub>D</sub> = A<sub>D</sub>[P(1-s)]^E<sub>D</sub></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Where Q<sub>D</sub> is the quantity of medical care demanded, A<sub>D</sub> is a constant, P is price, s is the share of medical costs paid by the insurer, and E<sub>D</sub> is the absolute value of the elasticity of demand.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The supply equation, with values subscripted by S, can be specified as</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(2) Q<sub>S</sub> = A<sub>S</sub>P^E<sub>S</sub></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Where A<sub>S</sub> is a constant, P is price, and E<sub>S</sub> is the elasticity of supply.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Next, equations (1) and (2) can be transformed into percentage changes in quantity demanded and quantity supplied, using natural logarithms:</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(3) lnQ<sub>D</sub> = -E<sub>D</sub>[lnP + ln(1-s)]</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">and </p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(4) lnQs = E<sub>S</sub>(lnP)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Then, equations (3) and (4) can be equated and differentiated and the percentage change in price (P′) can be expressed as</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(5) P′ = [E<sub>D</sub>/(E<sub>D</sub>+E<sub>S</sub>)]*[-ds/(1-s)]</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Here, ds is the change in the size of the subsidy (which decreases). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage change in quantity (Q′) can be expressed as</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(6) Q′ = P′*E<sub>S</sub></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Remember that (1-s) = share of health care costs paid by the insurer. In our calculations, E<sub>D</sub> = 0.2, (1-s) = 0.19, and E<sub>S </sub>= 1.5 or infinity. The estimation of that value requires further analysis and is reported in the final section of this Appendix. </p>
+<p class="Heading7" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Effects of the Tax on Wages</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Cadillac tax will be applied as a tax-exclusive rate and imposed at a rate of 40%. Internal Revenue Code Section 4980I(d)(2)(A) states that the cost of coverage does not include the "cost attributable to the tax," which presumably means the tax itself (and presumably the increased income taxes due to the lack of deductibility) should be eliminated from the tax base. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A key issue is whether a tax rate is stated on a tax-exclusive or tax-inclusive basis. A tax rate stated on a tax-exclusive basis is a rate applied to the cost before the application of the tax, as in the case of a sales tax. A tax rate stated on a tax-inclusive basis, as in the case of an income tax, would be much smaller. The statute seems to indicate that tax itself should not be included in the base (i.e., on a tax-exclusive basis), but the wording is somewhat ambiguous with respect to increased income taxes. A recent Internal Revenue Service (IRS) notice clarifies the treatment, which is consistent with the discussion in this section.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='See Internal Revenue Code § 4980I(d)(2)(A): " The cost of applicable employer-sponsored coverage shall be determined under rules similar to the rules of section 4980B(f)(4), except that in determining such cost, any portion of the cost of such coverage which is attributable to the tax imposed under this section shall not be taken into account and the amount of such cost shall be calculated separately for self-only coverage and other coverage. " A recent notice, Internal Revenue Service (IRS...'>19</a></sup> The tax-exclusive rate should be 28.57% (0.4 divided by 1.4) of the employer-sponsored insurance (ESI) benefit above the threshold charged by a third-party provider. That is, if $40 is paid on $100 of charges before the tax is imposed, $40 will be 28.57% of the total sales price of $140 including the tax. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The following sections discuss how the regulation would need to be implemented (which is how it appears to have been outlined in the recent IRS notice) to equate the treatment of self-insured plans and plans contracted with third-party insurers. They also explain how the 40% rate on excess health benefits and the original lack of income tax deductibility make for an effective deterrent for most consumers to take up high-cost health plans, while the provision with income tax deductibility is a lesser deterrent. In addition, the following sections estimate the price markup that insurance companies would have to charge as premiums on excess benefits and provide some of the data needed to estimate the effects on health care spending.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">First, the effects of the Cadillac tax are derived for a self-insured company, which directly administers its employees' health plans. According to surveys, 61% of workers covered by employer-sponsored plans are in plans that are fully or partially self-funded by their employer.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Exhibit 10.1 in Kaiser Family Foundation (KFF), 2014 Annual Survey of Employer Health Benefits , September 10, 2014, at http://kff.org/health-costs/report/2014-employer-health-benefits-survey/    .">20</a></sup> Second, the example of the self-insured company will be used to inform the effects of the tax on a third-party insurance company and the measure of tax. As shown in the following calculations, self-insured firms pay the Cadillac tax based on their calculations of health benefits that exceed the Cadillac-tax threshold, and it is not necessary to charge a price for insurance. In contrast, third-party insurers can increase the price of their plans to compensate for any excise or income tax payments. Although the transmission mechanism of the economic burden of the Cadillac tax might be different in these two cases, the ultimate effects are equivalent: employees bear the economic burden of the Cadillac tax in the form of lower wages (for those that retain plans subject to the Cadillac tax) or taxes on the increase in taxable compensation (for those that forgo plans subject to the Cadillac tax). All of the calculations in this section assume that the tax is administered on a tax-exclusive basis, that the burden of the tax falls on labor, and that other costs and profits remain fixed.</p>
+<p class="Heading8" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Self-Insured Firms</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A firm's total revenue (TR), cost (TC), and profit conditions (π) can be expressed as</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(7) (TR-TC) = π </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Total costs can be decomposed into wages (W), other costs (C), and excess Cadillac benefits (B) (with Cadillac benefits determined as medical payments in excess of medical costs above the Cadillac ceiling). Taxes are levied on income at rate μ. Before imposition of the Cadillac tax, with p the rate for the employer's share of the payroll tax, equation (2) relates total revenue minus total cost divided in its components and subjected to an income tax at rate μ:</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(8) [TR-W(1+p)-C-B](1-μ) = π(1-μ), and solving for W</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(9) W = (TR-C-B-π)/(1+p) </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">With the imposition of the tax at a 0.4 rate and no deductibility, </p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(10) [TR-W(1+p)-C-B*1.4] (1-μ)] = π(1-μ) </p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(11) W= [TR-C-B-π -0.4B]/(1+p)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Therefore, subtracting (9) from (11), the change in W, dW, is</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(12) dW = -0.4B/(1+p)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The change in W for a nonprofit or government employer not subject to tax would be 0.4B/(1+p), so these plans are favored.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The taxes can now be divided into the following components. First, the firm pays 0.4B as a Cadillac tax. Since wages have decreased, the firm decreases its payroll tax by -p0.4B/(1+p). The payroll tax is 7.65% (the sum of Medicare taxes and Social Security taxes) for employees below the Social Security payroll tax ceiling ($118,500 in 2016) and 1.45% (the Medicare tax) for those above it. Finally, the employee pays reduced employee payroll (also p) and income t, on the fall in wages, or (0.4B)(p+t)/(1+p). Based on Treasury Department estimates that the combined individual rate (individual income taxes and the employee's share of the payroll tax) is approximately 35%, the overall tax rate (2p+t)/(1+p) is 40% if the individual is below the payroll tax ceiling and 36% if above it.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This analysis also indicates that whenever the combined individual tax rate is greater than 28.57%, a lower tax is paid by keeping the Cadillac tax and paying the tax rather than giving up the benefits and taking the excess in taxable wages. Because wages rise, the firm will have to pay higher payroll taxes, so that the change in wages times (1+p) is equal to B, or the increase in wages is B/(1+p). The firm pays a payroll tax of pB/(1+p), and the worker pays a tax of (p+t)tB/(1+p). The sum of taxes is (2p+t)B/(1+p). Collecting the terms for taxes paid under the Cadillac tax when benefits are retained, they are 0.4B(1-(2p+t)/(1+p)). When the tax rate, (2p+t)/(1+p) is greater than 28.7%, it would be cheaper to pay the tax.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="Very high-income individuals have to pay an additional employee tax of 0.9%, which would make the rate slightly lower.">21</a></sup> Thus, the high (tax-exclusive) rate helps to make the Cadillac tax effective in eliminating demand for most excess health benefits, which is the objective of the tax. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Allowing deductibility of the Cadillac tax under the income tax reduced its effectiveness in discouraging high-cost plans. With no deductibility, equation (10) would be changed to</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"> (13) [TR-W(1+p)-C-B*1.4]-μ[TR-W(1+p)-C-B] = π(1-μ) </p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(14) W= [TR-C-B-π -0.4B/(1-μ)]/(1+p)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Therefore, subtracting (9) from (11), the change in W, dW, is</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(15) dW = -0.4B/[(1-μ)(1+p)]</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The taxes can now be divided into the following components. First, the firm pays 0.4B as a Cadillac tax. The firm also pays a corporate tax on the increase in profits of dW, which is μ0.4B/[(1-μ)(1+p)]. Since wages have decreased, the firm decreases its payroll tax by -p0.4B/(1+p). Finally, the employee pays reduced employee payroll and income tax at a combined rate, t, on the fall in wages, or (0.4B)(p+t)/[(1-μ)(1+p)]. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This analysis also indicates that whenever the combined individual tax rate is greater than 38%, a lower tax is paid by keeping the Cadillac tax and paying the tax rather than giving up the benefits and taking the excess in taxable wages. Becasue wages rise, the firm will have to pay higher payroll taxes, so that the change in wages times (1+p) is equal to B, or the increase in wages is B/(1+p). The firm pays a payroll tax of pB/(1+p), and the worker pays a tax of (p+t)B/(1+p). The sum of taxes is (2p+t)B/(1+p). Allowing deductibility of the tax, therefore, significantly decreased the tax rate at which the retaining the high cost plan reduced taxes less. </p>
+<p class="Heading8" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Third-Party Insurer: How Insurance Firms Incorporate the Tax in the Price for Health Benefits</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There has been debate and speculation over how much insurers could mark up plans subject to the Cadillac tax. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Returning to equation (7), now treat total revenue as PQ, where P is price and Q is quantity and total cost is CQ+B. It is simpler to express amounts B and π as per unit of output since this is a per-unit calculation, then Q = 1. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The per-unit profit equation for an insurance firm in a world without the 40% Cadillac tax is</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(16) (P-C-B)(1-μ) = π(1-μ), and P = C + B +π </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The profit equation in a world with the 40% Cadillac tax imposed on the original excess benefit (assuming the tax is not deductible) can be set up, with P* the price before the Cadillac tax, as</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(17) (P*-C-1.4B)(1-μ) = π(1-μ)</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(18) P*= C + B + π + 0.4B </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because P (the original price) can be substituted for the equation C+B+π, the percentage change in price is 0.4 times the excess benefit per unit. Therefore, if the only information is how much the insurance premium exceeds the base, the excise that should be levied on that premium is 0.4/(1+0.4) or 28.57%.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If this rule is followed, and the additional price passed on to wages, the same results will occur for self-insured firms and third-party insurers. There will be no effect on the employer because the higher cost of insurance will be offset by reductions in cost due to wages. Tax-exempt employers are no different from taxable ones. The employer will reduce the wage bill, W(1+p), by the increase in price, 0.4B. The employer will pay a payroll tax of 0.4Bp/(1+p), and the individual will pay a tax of 0.4B(p+t)/(1+p), for a total of 0.4B(2p+t)/(1+p). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The calculation was somewhat different when the tax was not deductible. In that case equation (17) becomes</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(19) (P*-C-1.4B)-u(P*-C-B) = π(1-μ)</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(20) P*= C + B + π + 0.4B/(1-u) </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because P (the original price) can be substituted for the equation C+B+π, the percentage change in price is 0.4/(1-u) times the excess benefit per unit, or 61.536% times the original benefit. Out of that increase, 40% is paid in a tax and 35% of the revenue increase (21.536%) is paid in corporate income tax. Therefore, if the only information is how much the insurance premium exceeds the base, the excise that should be levied on that premium is 0.4/[1+0.4/(1-μ)] or 24.76%, rather than the standard excise tax conversion rate of 28.57% (0.4/1.4).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If this rule is followed, and the additional price passed on to wages, the same results will occur for self-insured firms and third-party insurers. There will be no effect on the employer because the higher cost of insurance will be offset by reductions in cost due to wages. The employer will reduce the wage bill, W(1+p), by the increase in price, 0.4B/(1-μ). The employer will pay 0.4B(p)/[(1+p)], and the individual will pay a tax of 0.4B(p+t)/[(1-μ)(1+p)]. The sum of the taxes paid by the all the parties is 0.4B(1-(2p-up+t)/[(1-μ)(1+p).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">However, if a third-party insurer is tax exempt, the appropriate effective tax is 28.57% and the price increase is 0.4. That is, both tax-exempt self-insured plans and tax-exempt third-party insurers receive favorable treatment because of the lack of deductibility of the tax. </p>
+<p class="Heading7" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Estimates</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To complete the estimates, the revenue estimates from the Joint Committee on Taxation (JCT) are used to estimate the change in the size of the subsidy (ds). JCT has indicated that 20% to 25% of those collections were from the Cadillac tax and the remainder from changes in income and payroll taxes. To estimate the changes in health costs, an estimate of the share of the plans that retain the high tax benefit is required. If x is the share of plans kept, then each dollar of revenue is equal to x0.4(1-[2p+t)/(1+p)] + (1-x)(2p+t)/(1+p). Using the mid-point of the combined tax rate, 0.38, and the midpoint of the JCT share, 4x= 0.225 and 0.38(1-x)-0.4x(0.38) = 0.775. Thus x is 0.199. Substituting the values for x and (2p+t), each dollar of revenue is 0.199*0.4*(1-0.038) +.0801. The last term, reflecting plans that eliminated the tax, account for 80% of revenues. If the tax subsidy is 0.38, then each dollar represents 1/0.38 of or $2.63 of income. The change in the subsidy is 4.63*0.86*$20 billion or $45 billion.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The projected health expenditures covered by private insurance is $1,752.6 billion in 2025. If the out-of-pocket share is 19%, total expenditure is $1,752.6/0.81 billion or $2,167, and the out of pocket amount is $411.1 billion. Therefore the percentage reduction in the subsidy(ds/(1-s) be applied to the price and quantity formulations in equations (5) and (6) is $45/$411 or 10.9%. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref426984135"><strong></strong><strong>Table A-1</strong></a> and <a class="InternalLink" href="#_Ref426984156"><strong></strong><strong>Table A-2</strong></a> provide the assumptions and results of the calculations. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref426984135"></a><a name="_Toc471824559"></a><a name="_Toc472066398"></a><a name="_Toc528329924"></a>Table A-1. Assumptions for Calculations Related to the Cadillac Tax</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Assumption </p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Value</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Elasticity of Demand (E<sub>D</sub>), Absolute Value</p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">0</td><td valign="top">.2</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Low Elasticity of Supply (E<sub>S</sub>)</p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">1</td><td valign="top">.5</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">High Elasticity of Supply (E<sub>S</sub>)</p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">infinity</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Initial Share of Costs Paid by Consumer (1-s)</p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">0</td><td valign="top">.19</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Share of Plans Eliminated</p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">0</td><td valign="top">.867</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Sum of Payroll Tax and Income Tax</p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">0</td><td valign="top">.38</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Loss of Benefit Per Dollar of Revenue </p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">2</td><td valign="top">.63</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Revenue Divided by Health Spending, 2018 (%)</p>
+</td>
+<td style="width:216pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">0</td><td valign="top">.238</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Revenue Divided by Health Spending, 20.24 (%)</p>
+</td>
+<td style="width:216pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:-1.25pt;text-align:right;" valign="top">0</td><td valign="top">.974</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Research Service, see text. </p>
+</div>
+</div>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref426984156"></a><a name="_Toc471824560"></a><a name="_Toc472066399"></a><a name="_Toc528329925"></a>Table A-2. Estimated Effects of the Cadillac Tax on Price, Quantity and Spending in the Medical Care Market: Results of Calculations, 2025</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">ES Assumption</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Fall in Price (%)</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Fall in Quantity (%)</p>
+</td>
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Fall in Spending (%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Low</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:42.15pt;text-align:right;" valign="top">1</td><td valign="top">.3</td>
+</tr>
+</table>
+</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:43.75pt;text-align:right;" valign="top">1</td><td valign="top">.9</td>
+</tr>
+</table>
+</p>
+</td>
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:40.95pt;text-align:right;" valign="top">3</td><td valign="top">.2</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">High</p>
+</td>
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:42.15pt;text-align:right;" valign="top">0</td><td valign="top">.00</td>
+</tr>
+</table>
+</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:43.75pt;text-align:right;" valign="top">2</td><td valign="top">.2</td>
+</tr>
+</table>
+</p>
+</td>
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:40.95pt;text-align:right;" valign="top">2</td><td valign="top">.2</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Research Service, see text.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Congress, Senate Committee on Finance, <em>Description of Policy Options: </em><em>Financing Comprehensive Health Care Reform: Proposed Health System Savings and Revenue Options</em>, May 20, 2009, at <a class="ExternalLink" href="http://www.finance.senate.gov/newsroom/ranking/download/?id=8a3deecc-59d2-4530-ba0e-8862a05ed714"><span class="Hyperlink">http://www.finance.senate.gov/newsroom/ranking/download/?id=8a3deecc-59d2-4530-ba0e-8862a05ed714</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For an overview of the Cadillac tax see CRS Report R44147, <a class="ExternalLink" href="http://www.crs.gov/Reports/pdf/R44147"><em><span class="Hyperlink">Excise Tax on High-Cost Employer-Sponsored Health Coverage: In Brief</span></em></a>, by Annie L. Mach. For a more detailed history and an analysis of the growth in coverage of the tax, see CRS Report R44160, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44160"><em><span class="Hyperlink">The Excise Tax on High-Cost Employer-Sponsored Health Coverage: Background and Economic Analysis</span></em></a>, by Sean Lowry.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Some of these inefficiencies are summarized in Joseph Stiglitz, <em>Economics of the Public Sector</em>, 3<sup>rd</sup> ed. (New York: Norton), pp. 300-330; and Executive Office of the President, Council of Economic Advisers, <em>The Economic Case for Health Care Reform</em>, June 2009, pp. 9-17, at <a class="ExternalLink" href="https://www.whitehouse.gov/assets/documents/CEA_Health_Care_Report.pdf"><span class="Hyperlink">https://www.whitehouse.gov/assets/documents/CEA_Health_Care_Report.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joseph Stiglitz, <em>Economics of the Public Sector</em>, 3<sup>rd</sup> ed. (New York: Norton), p. 315.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Supply and demand curves are depicted as straight lines in the graph for illustrative purposes, although in the estimates of quantitative effects, demand, and supply are treated as constant elastic functions. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An elasticity of demand for insured health services of -0.2 is commonly referred to in the health economics literature. For example, see Su Liu and Deborah Chollet, <em>Price and Income Elasticity of the Demand for Health Insurance and Health Care Services: A Critical Review of the Literature</em>, Mathematica Policy Research, Inc., March 24, 2006, at <a class="ExternalLink" href="http://www.mathematica-mpr.com/publications/pdfs/priceincome.pdf"><span class="Hyperlink">http://www.mathematica-mpr.com/publications/pdfs/priceincome.pdf</span></a>. Although some economists caution the use of a single elasticity to describe all medical spending, studies of different types of medical care often find demand to still be relatively inelastic (i.e., less than 1.0 in absolute-value terms). See Avira Aron-Dine, Liran Einav, and Amy Finkelstein, "The RAND Health Insurance Experiment, Three Decades Later," <em>Journal of Economic Perspectives</em>, vol. 27, no. 1 (Winter 2013), pp. 197-222, at <a class="ExternalLink" href="http://economics.mit.edu/files/8400"><span class="Hyperlink">http://economics.mit.edu/files/8400</span></a>; and Sherman Folland, Allen C. Goodman, and Miron Stano, <em>The Economics of Health and Health Care</em>, 6<sup>th</sup> ed. (Upper Saddle River, NJ: Prentice Hall, 2010), p. 179. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Various researchers have studied the price elasticity of supply, with regard to various categories of health care services, with the consensus being that the supply curve is positively sloped with an elasticity much greater than 1.0. The supply curve in <a class="InternalLink" href="#_Ref425853345"><strong></strong><strong>Figure 1</strong></a> approximates an elasticity of 1.5 for physician services for Medicare Part B found in Jeffrey Clemens and Joshua D. Gottlieb, "Do Physician's Financial Incentives Affect Medical Treatment and Patient Health?," <em>American Economic Review</em>, vol. 104, no. 4 (April 2014), pp. 1320-1349. Previous studies of physician payments find similar results. For example, see Jack Hadley et al., "Medicare Fees and the Volume of Physicians' Services," <em>Inquiry</em>, vol. 46, no. 4 (Winter 2009), pp. 372-390. Other studies find that financial incentives strongly affect the development and production of pharmaceuticals, an input into health service provision. For example, see Daron Acemoglu and Joshua Linn, "Market Size in Innovation: Theory and Evidence from the Pharmaceutical Industry," <em>Quarterly Journal of Economics</em>, vol. 119, no. 3 (2004), pp. 1040-1090; and Ali Yurukoglu, <em>Medicare Reimbursements and Shortages of Sterile Injectable Pharmaceuticals</em>, National Bureau of Economic Research (NBER), NBER Working Paper No. 17987, April 2012, at <a class="ExternalLink" href="http://www.nber.org/papers/w17987"><span class="Hyperlink">http://www.nber.org/papers/w17987</span></a>. This 1.5 elasticity represents only physician's services including labor supply and investment in offices; there are many other inputs into health care that are likely to be supplied in increased amounts at the same price because they are goods made with constant returns to scale (e.g., hospital buildings, medical equipment and supplies in hospital and other health institution settings, drugs), producing an infinite supply elasticity. The response of other health professionals such as nurses, technicians, and nursing assistants may also be more elastic than that of physicians. Because the overall elasticity of health care is likely to be larger than 1.5, the calculations in this report present a range between two supply elasticity assumptions: 1.5 and infinity.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, Private Health Insurance Premiums and Federal Policy, February 2016, <a class="ExternalLink" href="https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/51130-Health_Insurance_Premiums.pdf"><span class="Hyperlink">https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/51130-Health_Insurance_Premiums.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Centers for Medicare and Medicaid Services, National Health and Expenditure Data, visited December 9, 2016, <a class="ExternalLink" href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsProjected.html"><span class="Hyperlink">https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsProjected.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See discussion in the "<a class="InternalLink" href="#_Ref427571010">Effects on Wages</a>" section.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A policy could increase co-payments, limit the scope of coverage, limit the network of preferred providers, increase deductibles, or limit catastrophic coverage. All of these would in some way change spending on medical care.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The ranges reflect a demand elasticity of -0.2 and supply elasticities set at 1.5 and at infinity. Formulas for these calculations are shown in the <a class="InternalLink" href="#_Ref426988569"><strong></strong><strong>Appendix</strong></a>. The analysis relies on revenue estimates from the Joint Committee on Taxation (JCT) to determine the share of plans affected and the size of the change in health costs. The effect on price is zero for an infinitely elastic supply curve, but price falls with a 1.5 supply elasticity. Reductions in quantity are larger for an infinite elasticity than for the 1.5 elasticity. The effect on health expenditures, capturing both the fall in price and the fall in quantity, is larger for the 1.5 elasticity.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As consumers affected by the Cadillac tax decrease their medical care consumption in response to the tax, consumers not affected by the Cadillac tax could increase their consumption slightly (estimated at no more than 0.2%) and partially offset the effects of the tax. Still, the decline in consumption by those affected exceeds the increase in consumption by those not affected. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This analysis assumes that the insurance market is competitive and that insurance companies will need to pass any additional costs forward to remain in the market. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This is a standard view of a tax that burdens employee compensation. In its 2009 distributional analysis of a previous version of the Cadillac tax, JCT appeared to largely assume that the insurer would pass the full price of the tax along to the consumer and that employers would largely pass any increase in costs to wages. See Letter from Thomas A. Barthold, Chief of Staff, Joint Committee on Taxation, to the Hon. Joe Courtney, U.S. House of Representatives, October 16, 2009, p. 2. This assumption was reaffirmed in CBO, <em>Updated Estimates of the Effects of the Insurance Coverage Provisions of the Affordable Care Act</em>, April 2014, p. 13, at <a class="ExternalLink" href="https://www.cbo.gov/publication/45231"><span class="Hyperlink">https://www.cbo.gov/publication/45231</span></a>. It was also the position taken by Gordon Mermim and Eric Toder, <em>Analysis of Bipartisan Policy Center Cadillac Tax Replacement Option</em>, Tax Policy Center, July 2015, at <a class="ExternalLink" href="http://taxpolicycenter.org/UploadedPDF/2000310-bpc-cadillac-replacement-tax.pdf"><span class="Hyperlink">http://taxpolicycenter.org/UploadedPDF/2000310-bpc-cadillac-replacement-tax.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> If the tax fell uniformly on all workers, it would be expected to fall on wages without other significant consequences since the supply of labor is relatively inelastic. In this case, the tax is imposed on some workers and not others, making it a partial-factor tax that could be shifted to other workers. It is similar to the effects of a partial-factor tax on capital as shown in Arnold Harberger, "The Incidence of the Corporate Income Tax," <em>Journal of Political Economy</em>, vol. 70, June 1962, pp. 215-240.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R44160, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44160"><em><span class="Hyperlink">The Excise Tax on High-Cost Employer-Sponsored Health Coverage: Background and Economic Analysis</span></em></a>, by Sean Lowry, for estimates of the share of premiums covered over time. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a discussion of the problems associated with imputing income from employer health benefits, see Stan Dorn, <em>Capping the Tax Exclusion of Employer-Sponsored Health Insurance: Is Equity Feasible?</em>, June 2009, at <a class="ExternalLink" href="http://www.urban.org/sites/default/files/alfresco/publication-pdfs/411894-Capping-the-Tax-Exclusion-of-Employer-Sponsored-Health-Insurance-Is-Equity-Feasible-.PDF"><span class="Hyperlink">http://www.urban.org/sites/default/files/alfresco/publication-pdfs/411894-Capping-the-Tax-Exclusion-of-Employer-Sponsored-Health-Insurance-Is-Equity-Feasible-.PDF</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Internal Revenue Code §4980I(d)(2)(A): "The cost of applicable employer-sponsored coverage shall be determined under rules similar to the rules of section 4980B(f)(4), except that in determining such cost, any portion of the cost of such coverage which is attributable to the tax imposed under this section shall not be taken into account and the amount of such cost shall be calculated separately for self-only coverage and other coverage." A recent notice, Internal Revenue Service (IRS) Notice 2015-52, indicates the same treatment as derived in this analysis. See IRS Notice 2015-52, issued July 30, 2015, at <a class="ExternalLink" href="http://www.irs.gov/pub/irs-drop/n-15-52.pdf"><span class="Hyperlink">http://www.irs.gov/pub/irs-drop/n-15-52.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Exhibit 10.1 in Kaiser Family Foundation (KFF), <em>2014 Annual Survey of Employer Health Benefits</em>, September 10, 2014, at <a class="ExternalLink" href="http://kff.org/health-costs/report/2014-employer-health-benefits-survey/"><span class="Hyperlink">http://kff.org/health-costs/report/2014-employer-health-benefits-survey/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Very high-income individuals have to pay an additional employee tax of 0.9%, which would make the rate slightly lower.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

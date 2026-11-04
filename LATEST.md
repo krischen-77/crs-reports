@@ -1,5 +1,3 @@
-**Official-current verification: 68/68. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-28 to 2026-11-04**. Older archived files are retained.
@@ -78,14 +76,14 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-03 | 2026-09-30 | R49421 v2 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v2-2026-09-30-f106d49d693c9b4b.pdf) | [Markdown](markdown/reports/R49421v2-2026-09-30-f106d49d693c9b4b.md) |
-| 2026-11-03 | 2026-09-22 | R49358 v3 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v3-2026-09-22-d283808bb594cd85.pdf) | [Markdown](markdown/reports/R49358v3-2026-09-22-d283808bb594cd85.md) |
-| 2026-11-03 | 2026-09-17 | R49353 v1 | Overview of Continuing Appropriations for FY2027 (Division A of P.L. 119-103) | [PDF](pdf/reports/R49353v1-2026-09-17-72d8cb7947841e25.pdf) | [Markdown](markdown/reports/R49353v1-2026-09-17-72d8cb7947841e25.md) |
-| 2026-11-03 | 2026-09-03 | R49341 v7 | Transportation, Housing and Urban Development, and Related Agencies (THUD) Appropriations for FY2027 | [PDF](pdf/reports/R49341v7-2026-09-03-10cc3ace719d31ce.pdf) | [Markdown](markdown/reports/R49341v7-2026-09-03-10cc3ace719d31ce.md) |
+| 2026-11-04 | 2026-09-30 | R49421 v2 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v2-2026-09-30-f106d49d693c9b4b.pdf) | [Markdown](markdown/reports/R49421v2-2026-09-30-f106d49d693c9b4b.md) |
+| 2026-11-04 | 2026-09-22 | R49358 v3 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v3-2026-09-22-d283808bb594cd85.pdf) | [Markdown](markdown/reports/R49358v3-2026-09-22-d283808bb594cd85.md) |
+| 2026-11-04 | 2026-09-17 | R49353 v1 | Overview of Continuing Appropriations for FY2027 (Division A of P.L. 119-103) | [PDF](pdf/reports/R49353v1-2026-09-17-72d8cb7947841e25.pdf) | [Markdown](markdown/reports/R49353v1-2026-09-17-72d8cb7947841e25.md) |
+| 2026-11-04 | 2026-09-03 | R49341 v7 | Transportation, Housing and Urban Development, and Related Agencies (THUD) Appropriations for FY2027 | [PDF](pdf/reports/R49341v7-2026-09-03-10cc3ace719d31ce.pdf) | [Markdown](markdown/reports/R49341v7-2026-09-03-10cc3ace719d31ce.md) |
+| 2026-11-04 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
+| 2026-11-04 | 2026-09-03 | IN12735 v1 | Federal Legislation and Oversight of Law Enforcement Use of Automated License Plate Readers (ALPRs) | [PDF](pdf/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.pdf) | [Markdown](markdown/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.md) |
+| 2026-11-04 | 2026-09-08 | IF13308 v1 | Overview of FY2027 Budget Request for the Census Bureau | [PDF](pdf/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.pdf) | [Markdown](markdown/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.md) |
 | 2026-11-03 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
-| 2026-11-03 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
-| 2026-11-03 | 2026-09-03 | IN12735 v1 | Federal Legislation and Oversight of Law Enforcement Use of Automated License Plate Readers (ALPRs) | [PDF](pdf/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.pdf) | [Markdown](markdown/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.md) |
-| 2026-11-03 | 2026-09-08 | IF13308 v1 | Overview of FY2027 Budget Request for the Census Bureau | [PDF](pdf/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.pdf) | [Markdown](markdown/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.md) |
 | 2026-10-31 | 2026-10-26 | R49492 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.pdf) | [Markdown](markdown/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.md) |
 | 2026-10-30 | 2026-10-27 | IF13338 v3 | Social Security Coverage for Members of the Clergy | [PDF](pdf/in-focus/IF13338v3-2026-10-27-69467f5e996156d2.pdf) | [Markdown](markdown/in-focus/IF13338v3-2026-10-27-69467f5e996156d2.md) |
 | 2026-10-29 | 2026-10-26 | R45635 v6 | Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements | [PDF](pdf/reports/R45635v6-2026-10-26-33ff9150c4c14bda.pdf) | [Markdown](markdown/reports/R45635v6-2026-10-26-33ff9150c4c14bda.md) |
