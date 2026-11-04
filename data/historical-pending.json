@@ -7,84 +7,6 @@
       "next_retry": "2026-11-06",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "8",
-        "date": "2018-03-15",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44086",
-            "sha1": "0ad43c9b19f632d5e589111df9a2e8a9985329fe",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180315_R44086_0ad43c9b19f632d5e589111df9a2e8a9985329fe.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44086",
-            "sha1": "05ee27b10707e02e5dc3f09ab6754a0466e0251e",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180315_R44086_05ee27b10707e02e5dc3f09ab6754a0466e0251e.pdf"
-            ]
-          }
-        },
-        "id": "R44086",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R44086",
-          "https://www.crs.gov/Reports/pdf/R44086"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "585143",
-        "title": "Pass-Throughs, Corporations, and Small Businesses: A Look at Firm Size",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-04",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-06",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2015-06-25",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44089",
-            "sha1": "7f54e8c0f281e39af80c016315e6eb4240a681ee",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150625_R44089_7f54e8c0f281e39af80c016315e6eb4240a681ee.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44089",
-            "sha1": "ab4aa0f99cc8e579c5f81352fb70bf033144e393",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150625_R44089_ab4aa0f99cc8e579c5f81352fb70bf033144e393.pdf"
-            ]
-          }
-        },
-        "id": "R44089",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44089",
-          "http://www.crs.gov/Reports/pdf/R44089"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "442487",
-        "title": "U.S. Capital Markets and International Accounting Standards: GAAP Versus IFRS",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "3",
         "date": "2015-07-15",
         "formats": {
@@ -119,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-04",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-06",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -9712,6 +9636,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "442308",
         "title": "Social Networking and Committee Communications: Use of Twitter and Facebook in the 113th Congress",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-04",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-06",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "8",
+        "date": "2018-03-15",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44086",
+            "sha1": "0ad43c9b19f632d5e589111df9a2e8a9985329fe",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20180315_R44086_0ad43c9b19f632d5e589111df9a2e8a9985329fe.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44086",
+            "sha1": "05ee27b10707e02e5dc3f09ab6754a0466e0251e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20180315_R44086_05ee27b10707e02e5dc3f09ab6754a0466e0251e.pdf"
+            ]
+          }
+        },
+        "id": "R44086",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R44086",
+          "https://www.crs.gov/Reports/pdf/R44086"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "585143",
+        "title": "Pass-Throughs, Corporations, and Small Businesses: A Look at Firm Size",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-04",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-06",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "3",
+        "date": "2015-06-25",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44089",
+            "sha1": "7f54e8c0f281e39af80c016315e6eb4240a681ee",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150625_R44089_7f54e8c0f281e39af80c016315e6eb4240a681ee.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44089",
+            "sha1": "ab4aa0f99cc8e579c5f81352fb70bf033144e393",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150625_R44089_ab4aa0f99cc8e579c5f81352fb70bf033144e393.pdf"
+            ]
+          }
+        },
+        "id": "R44089",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R44089",
+          "http://www.crs.gov/Reports/pdf/R44089"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "442487",
+        "title": "U.S. Capital Markets and International Accounting Standards: GAAP Versus IFRS",
         "version": "unknown"
       }
     }
