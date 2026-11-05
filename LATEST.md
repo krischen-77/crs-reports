@@ -1,3 +1,5 @@
+**Official-current verification: 71/71. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-29 to 2026-11-05**. Older archived files are retained.
@@ -80,7 +82,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-04 | 2026-09-22 | R49358 v3 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v3-2026-09-22-d283808bb594cd85.pdf) | [Markdown](markdown/reports/R49358v3-2026-09-22-d283808bb594cd85.md) |
 | 2026-11-04 | 2026-09-17 | R49353 v1 | Overview of Continuing Appropriations for FY2027 (Division A of P.L. 119-103) | [PDF](pdf/reports/R49353v1-2026-09-17-72d8cb7947841e25.pdf) | [Markdown](markdown/reports/R49353v1-2026-09-17-72d8cb7947841e25.md) |
 | 2026-11-04 | 2026-09-03 | R49341 v7 | Transportation, Housing and Urban Development, and Related Agencies (THUD) Appropriations for FY2027 | [PDF](pdf/reports/R49341v7-2026-09-03-10cc3ace719d31ce.pdf) | [Markdown](markdown/reports/R49341v7-2026-09-03-10cc3ace719d31ce.md) |
-| 2026-11-04 | 2026-04-23 | R48933 v1 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v1-2026-04-23-3fe4bcabffdee0bc.pdf) | [Markdown](markdown/reports/R48933v1-2026-04-23-3fe4bcabffdee0bc.md) |
+| 2026-11-04 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |
 | 2026-11-04 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
 | 2026-11-04 | 2026-09-03 | IN12735 v1 | Federal Legislation and Oversight of Law Enforcement Use of Automated License Plate Readers (ALPRs) | [PDF](pdf/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.pdf) | [Markdown](markdown/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.md) |
 | 2026-11-04 | 2026-09-08 | IF13308 v1 | Overview of FY2027 Budget Request for the Census Bureau | [PDF](pdf/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.pdf) | [Markdown](markdown/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.md) |

@@ -1,11 +1,19 @@
 # Official current CRS files
 
-Checked: 2026-11-04T18:12:26.959057+00:00. Official current entries verified: **72/72**.
+Checked: 2026-11-05T02:41:27.509050+00:00. Official current entries verified: **71/71**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
+| 2026-11-04 | 2026-11-04 | R40977 v35 | U.S. Participation in the G7 and the G20 | [PDF](pdf/reports/R40977v35-2026-11-04-d820a287424a949e.pdf) | [Markdown](markdown/reports/R40977v35-2026-11-04-d820a287424a949e.md) |
+| 2026-11-04 | 2026-11-04 | IN12568 v3 | Golden Dome: Potential Strategic Stability Considerations for Congress | [PDF](pdf/insights/IN12568v3-2026-11-04-49789af900263fac.pdf) | [Markdown](markdown/insights/IN12568v3-2026-11-04-49789af900263fac.md) |
+| 2026-11-04 | 2026-11-04 | R42505 v37 | Supplemental Nutrition Assistance Program (SNAP): A Primer on Eligibility and Benefits | [PDF](pdf/reports/R42505v37-2026-11-04-a1a804c616009709.pdf) | [Markdown](markdown/reports/R42505v37-2026-11-04-a1a804c616009709.md) |
+| 2026-11-04 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |
+| 2026-11-04 | 2026-11-04 | RL30802 v26 | Reserve Component Personnel Issues: Questions and Answers | [PDF](pdf/reports/RL30802v26-2026-11-04-7f1c6a576166b982.pdf) | [Markdown](markdown/reports/RL30802v26-2026-11-04-7f1c6a576166b982.md) |
+| 2026-11-04 | 2026-11-04 | R49503 v1 | Appropriations for Rural Development Programs: Proposals for FY2027 | [PDF](pdf/reports/R49503v1-2026-11-04-7a500aac95056caa.pdf) | [Markdown](markdown/reports/R49503v1-2026-11-04-7a500aac95056caa.md) |
+| 2026-11-04 | 2026-11-04 | RS21534 v125 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.pdf) | [Markdown](markdown/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.md) |
+| 2026-11-04 | 2026-11-02 | R49500 v3 | Social Security: Trust Funds, Financing, and the Projected Shortfall | [PDF](pdf/reports/R49500v3-2026-11-02-dd1cf15346d9fdc0.pdf) | [Markdown](markdown/reports/R49500v3-2026-11-02-dd1cf15346d9fdc0.md) |
 | 2026-11-04 | 2026-11-04 | IF13342 v1 | Types of Coins Produced by the U.S. Mint | [PDF](pdf/in-focus/IF13342v1-2026-11-04-f17b2afaa4f3d97f.pdf) | [Markdown](markdown/in-focus/IF13342v1-2026-11-04-f17b2afaa4f3d97f.md) |
 | 2026-11-04 | 2026-11-04 | IF12517 v14 | U.S.-Japan Critical Minerals Agreement | [PDF](pdf/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.pdf) | [Markdown](markdown/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.md) |
 | 2026-11-04 | 2026-11-03 | IF12452 v8 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.pdf) | [Markdown](markdown/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.md) |
@@ -17,12 +25,11 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-04 | 2026-09-03 | IN12735 v1 | Federal Legislation and Oversight of Law Enforcement Use of Automated License Plate Readers (ALPRs) | [PDF](pdf/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.pdf) | [Markdown](markdown/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.md) |
 | 2026-11-04 | 2026-10-29 | R49188 v4 | Ecuador in Brief: Overview and U.S. Relations | [PDF](pdf/reports/R49188v4-2026-10-29-5f8c6a8898fe1bd5.pdf) | [Markdown](markdown/reports/R49188v4-2026-10-29-5f8c6a8898fe1bd5.md) |
 | 2026-11-04 | 2026-11-03 | IN12754 v1 | Surplus Lines Insurance: An Introduction | [PDF](pdf/insights/IN12754v1-2026-11-03-d89c67932d7999d3.pdf) | [Markdown](markdown/insights/IN12754v1-2026-11-03-d89c67932d7999d3.md) |
-| 2026-11-04 | 2026-11-02 | IN12752 v2 | Congressional Considerations for Financial Institution Transaction Holds | [PDF](pdf/insights/IN12752v2-2026-11-02-8ec22542823c4813.pdf) | [Markdown](markdown/insights/IN12752v2-2026-11-02-8ec22542823c4813.md) |
 | 2026-11-04 | 2026-11-02 | IF12466 v5 | U.S. Passport Services | [PDF](pdf/in-focus/IF12466v5-2026-11-02-d9851e5ab60e6366.pdf) | [Markdown](markdown/in-focus/IF12466v5-2026-11-02-d9851e5ab60e6366.md) |
+| 2026-11-04 | 2026-11-02 | IN12752 v2 | Congressional Considerations for Financial Institution Transaction Holds | [PDF](pdf/insights/IN12752v2-2026-11-02-8ec22542823c4813.pdf) | [Markdown](markdown/insights/IN12752v2-2026-11-02-8ec22542823c4813.md) |
 | 2026-11-04 | 2026-10-30 | IF13340 v3 | MSPB Moves Away from Douglas Factors in Misconduct Cases | [PDF](pdf/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.pdf) | [Markdown](markdown/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.md) |
 | 2026-11-04 | 2026-10-30 | R49499 v2 | The International Monetary Fund (IMF) | [PDF](pdf/reports/R49499v2-2026-10-30-39d7fdcb1d94c44e.pdf) | [Markdown](markdown/reports/R49499v2-2026-10-30-39d7fdcb1d94c44e.md) |
 | 2026-11-04 | 2026-10-30 | IN12751 v2 | Israel: 2026 Elections and Government Formation | [PDF](pdf/insights/IN12751v2-2026-10-30-9297d1c430cd9bc2.pdf) | [Markdown](markdown/insights/IN12751v2-2026-10-30-9297d1c430cd9bc2.md) |
-| 2026-11-04 | 2026-11-02 | R49500 v3 | Social Security: Trust Funds, Financing, and the Projected Shortfall | [PDF](pdf/reports/R49500v3-2026-11-02-dd1cf15346d9fdc0.pdf) | [Markdown](markdown/reports/R49500v3-2026-11-02-dd1cf15346d9fdc0.md) |
 | 2026-11-04 | 2026-10-30 | R46943 v12 | Voter Registration Records and List Maintenance for Federal Elections | [PDF](pdf/reports/R46943v12-2026-10-30-384bf9ca476a2018.pdf) | [Markdown](markdown/reports/R46943v12-2026-10-30-384bf9ca476a2018.md) |
 | 2026-11-04 | 2026-10-30 | IF11734 v5 | The Federal Contested Election Act: Overview and Recent Contests in the House of Representatives | [PDF](pdf/in-focus/IF11734v5-2026-10-30-04ba85e7ad9edd5e.pdf) | [Markdown](markdown/in-focus/IF11734v5-2026-10-30-04ba85e7ad9edd5e.md) |
 | 2026-11-04 | 2026-11-03 | IF10545 v18 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.pdf) | [Markdown](markdown/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.md) |
@@ -70,11 +77,3 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-10-29 | 2025-07-28 | IN12588 v5 | Immigration Court Legal Access Programs: Terminations and Related Litigation | [PDF](pdf/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.pdf) | [Markdown](markdown/insights/IN12588v5-2025-07-28-b2c6d26d822532e7.md) |
 | 2026-10-29 | 2026-10-27 | LSB11495 v2 | Congressional Court Watcher: Circuit Splits from August 2026 | [PDF](pdf/sidebars/LSB11495v2-2026-10-27-f475b672e75a606d.pdf) | [Markdown](markdown/sidebars/LSB11495v2-2026-10-27-f475b672e75a606d.md) |
 | 2026-10-29 | 2026-10-27 | IN12598 v7 | Attempted Dismissals of Members of Puerto Rico’s Financial Oversight and Management Board | [PDF](pdf/insights/IN12598v7-2026-10-27-602892f8ec5fb756.pdf) | [Markdown](markdown/insights/IN12598v7-2026-10-27-602892f8ec5fb756.md) |
-| 2026-10-28 | 2026-10-26 | IF13337 v3 | Proposed Rule Affecting Noncitizen Eligibility for Refundable Tax Credits | [PDF](pdf/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.pdf) | [Markdown](markdown/in-focus/IF13337v3-2026-10-26-6b9941f6f3f66253.md) |
-| 2026-10-28 | 2026-10-27 | LSB11340 v2 | Environmental Justice and Title VI of the Civil Rights Act of 1964 | [PDF](pdf/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.pdf) | [Markdown](markdown/sidebars/LSB11340v2-2026-10-27-1420392c31e9ebf4.md) |
-| 2026-10-28 | 2026-10-26 | IN12749 v2 | Confirmation of U.S. Circuit and District Court Nominations During Lame Duck Sessions of Congress (1946-2024) | [PDF](pdf/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.pdf) | [Markdown](markdown/insights/IN12749v2-2026-10-26-7a2de2b73519ddee.md) |
-| 2026-10-28 | 2026-10-26 | R46413 v11 | Election Day: Frequently Asked Questions | [PDF](pdf/reports/R46413v11-2026-10-26-434f6c90900f33d5.pdf) | [Markdown](markdown/reports/R46413v11-2026-10-26-434f6c90900f33d5.md) |
-| 2026-10-28 | 2026-10-26 | R49493 v2 | Crime by the Numbers: Hate Crime, 2015-2024 | [PDF](pdf/reports/R49493v2-2026-10-26-c50a688607b40578.pdf) | [Markdown](markdown/reports/R49493v2-2026-10-26-c50a688607b40578.md) |
-| 2026-10-28 | 2025-02-20 | IF12914 v2 | Federal Criminal Theft Laws | [PDF](pdf/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.pdf) | [Markdown](markdown/in-focus/IF12914v2-2025-02-20-b87f653c9e49c5f3.md) |
-| 2026-10-28 | 2026-10-27 | R43397 v37 | Legislative Branch Appropriations: Frequently Asked Questions | [PDF](pdf/reports/R43397v37-2026-10-27-86faf7b42f66156b.pdf) | [Markdown](markdown/reports/R43397v37-2026-10-27-86faf7b42f66156b.md) |
-| 2026-10-28 | 2023-02-23 | IF12333 v2 | Hate Crimes: Key Federal Statutes | [PDF](pdf/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.pdf) | [Markdown](markdown/in-focus/IF12333v2-2023-02-23-6de9f2fd6dd30ce2.md) |
