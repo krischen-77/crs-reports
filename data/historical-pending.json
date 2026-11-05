@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-05",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-07",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "7",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-05",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-07",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -9498,6 +9502,239 @@
         "source_record": "442308",
         "title": "Social Networking and Committee Communications: Use of Twitter and Facebook in the 113th Congress",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-06",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2025-12-11",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IN12568",
+            "sha1": "c6ef33b4737bd5080c2a22d372e914f9b9df9885",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IN/HTML/IN12568.web.html",
+              "https://www.everycrsreport.com/files/2025-12-11_IN12568_c6ef33b4737bd5080c2a22d372e914f9b9df9885.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IN12568",
+            "sha1": "8bf633c1b6c8eb48c50242c0a16a8a291e90dc99",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IN/PDF/IN12568/IN12568.2.pdf",
+              "https://www.everycrsreport.com/files/2025-12-11_IN12568_8bf633c1b6c8eb48c50242c0a16a8a291e90dc99.pdf"
+            ]
+          }
+        },
+        "id": "IN12568",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-04T21:25:35Z",
+        "required_by_recent_update": false,
+        "source_record": "IN12568_A2_2025-12-11",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-12-11",
+          "id": "IN12568",
+          "official_pdf_sha256": "49789af900263fac4ed72a9b0c4af4f1a13cd8291f83f2c79779a2359c8814f8",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IN/PDF/IN12568/IN12568.3.pdf",
+          "official_publication": "2026-11-04",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Golden Dome: Potential Strategic Stability Considerations for Congress",
+        "version": "2"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-06",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "33",
+        "date": "2020-10-14",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R40977",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2020-10-14_R40977_6f66a10a7071c6d7538825218da469a4c70f253a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R40977",
+            "sha1": "6f66a10a7071c6d7538825218da469a4c70f253a",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R40977/32",
+              "https://www.everycrsreport.com/files/2020-10-14_R40977_6f66a10a7071c6d7538825218da469a4c70f253a.pdf"
+            ]
+          }
+        },
+        "id": "R40977",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-04T21:25:36Z",
+        "required_by_recent_update": false,
+        "source_record": "R40977_32_2020-10-14",
+        "superseded_by_official_current": {
+          "historical_publication": "2020-10-14",
+          "id": "R40977",
+          "official_pdf_sha256": "d820a287424a949e83232ca661ecee57809a6f267148dda4474b4847b1c96d72",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R40977/R40977.35.pdf",
+          "official_publication": "2026-11-04",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "International Economic Policy Coordination at the G-7 and the G-20",
+        "version": "32"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-06",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "34",
+        "date": "2025-09-29",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R42505",
+            "sha1": "63b3db6a7d658ef37f32fa7484ad24041adbc310",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R42505.web.html",
+              "https://www.everycrsreport.com/files/2025-09-29_R42505_63b3db6a7d658ef37f32fa7484ad24041adbc310.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R42505",
+            "sha1": "97291714b6b908467cf5d2713f53153111f423cb",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R42505/R42505.35.pdf",
+              "https://www.everycrsreport.com/files/2025-09-29_R42505_97291714b6b908467cf5d2713f53153111f423cb.pdf"
+            ]
+          }
+        },
+        "id": "R42505",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-04T21:25:10Z",
+        "required_by_recent_update": false,
+        "source_record": "R42505_A35_2025-09-29",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-09-29",
+          "id": "R42505",
+          "official_pdf_sha256": "a1a804c616009709f212246f713b51e62b98c52eeef2b65244f0996264f38b02",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R42505/R42505.37.pdf",
+          "official_publication": "2026-11-04",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Supplemental Nutrition Assistance Program (SNAP): A Primer on Eligibility and Benefits",
+        "version": "35"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-06",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "25",
+        "date": "2021-11-02",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "RL30802",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2021-11-02_RL30802_ae12b8dd11956691cebb4023142194fe73df4415.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "RL30802",
+            "sha1": "ae12b8dd11956691cebb4023142194fe73df4415",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/RL/RL30802/24",
+              "https://www.everycrsreport.com/files/2021-11-02_RL30802_ae12b8dd11956691cebb4023142194fe73df4415.pdf"
+            ]
+          }
+        },
+        "id": "RL30802",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-04T21:24:55Z",
+        "required_by_recent_update": false,
+        "source_record": "RL30802_24_2021-11-02",
+        "superseded_by_official_current": {
+          "historical_publication": "2021-11-02",
+          "id": "RL30802",
+          "official_pdf_sha256": "7f1c6a576166b98220e03847bde71cf22980c34ca59e84e2c64225a9e7d2cbcf",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/RL/PDF/RL30802/RL30802.26.pdf",
+          "official_publication": "2026-11-04",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Reserve Component Personnel Issues: Questions and Answers",
+        "version": "24"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-06",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "120",
+        "date": "2025-11-25",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "RS21534",
+            "sha1": "6abebdf305261cdd65bb93dcb6d928ab307ff317",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/HTML/RS21534.web.html",
+              "https://www.everycrsreport.com/files/2025-11-25_RS21534_6abebdf305261cdd65bb93dcb6d928ab307ff317.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "RS21534",
+            "sha1": "344413ddff407dc4ed6241c5c7d66530c7c78206",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/PDF/RS21534/RS21534.122.pdf",
+              "https://www.everycrsreport.com/files/2025-11-25_RS21534_344413ddff407dc4ed6241c5c7d66530c7c78206.pdf"
+            ]
+          }
+        },
+        "id": "RS21534",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-04T21:24:15Z",
+        "required_by_recent_update": false,
+        "source_record": "RS21534_A122_2025-11-25",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-11-25",
+          "id": "RS21534",
+          "official_pdf_sha256": "03c7b496b21d55dc9daf8397015846882c0799d65ae570659d518c54f0e69d3b",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/RS/PDF/RS21534/RS21534.125.pdf",
+          "official_publication": "2026-11-04",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Oman: Politics, Security, and U.S. Policy",
+        "version": "122"
       }
     },
     {

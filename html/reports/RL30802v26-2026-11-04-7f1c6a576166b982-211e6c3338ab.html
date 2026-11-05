@@ -1,0 +1,1479 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Reserve Component Personnel Issues: Questions and Answers</div>
+<div class="CoverDate">Updated November 4, 2026
+            (RL30802)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc244699343"><span class="Hyperlink">What Is the Reserve Component? What Is Its Purpose?</span></a></li>
+<li class="TOC1"><a href="#_Toc244699344"><span class="Hyperlink">2. What Is the Difference Between the </span><em><span class="Hyperlink">Reserves</span></em><span class="Hyperlink"> and the </span><em><span class="Hyperlink">National Guard</span></em><span class="Hyperlink">?</span></a></li>
+<li class="TOC2"><a href="#_Toc244699345"><span class="Hyperlink">The Reserve Components in Solely Federal Service</span></a></li>
+<li class="TOC2"><a href="#_Toc244699346"><span class="Hyperlink">The Reserve Components in State and Federal Service: The National Guard</span></a></li>
+<li class="TOC1"><a href="#_Toc244699347"><span class="Hyperlink">3. How Can the National Guard Be Activated?</span></a></li>
+<li class="TOC1"><a href="#_Toc244699348"><span class="Hyperlink">4. What Are the Different Categories of Reservists?</span></a></li>
+<li class="TOC2"><a href="#_Toc244699349"><span class="Hyperlink">Ready Reserve</span></a></li>
+<li class="TOC3"><a href="#_Toc244699350"><span class="Hyperlink">Selected Reserve</span></a></li>
+<li class="TOC3"><a href="#_Toc244699351"><span class="Hyperlink">Individual Ready Reserve</span></a></li>
+<li class="TOC3"><a href="#_Toc244699352"><span class="Hyperlink">Inactive National Guard</span></a></li>
+<li class="TOC2"><a href="#_Toc244699353"><span class="Hyperlink">Standby Reserve</span></a></li>
+<li class="TOC2"><a href="#_Toc244699354"><span class="Hyperlink">Retired Reserve</span></a></li>
+<li class="TOC1"><a href="#_Toc244699355"><span class="Hyperlink">5. Does the Space Force Have a Reserve Component?</span></a></li>
+<li class="TOC1"><a href="#_Toc244699356"><span class="Hyperlink">6. What Does "Full-Time Support" Mean? What Are the Different Categories of Full-Time Support for the Reserve Components?</span></a></li>
+<li class="TOC2"><a href="#_Toc244699357"><span class="Hyperlink">Active Guard and Reserve</span></a></li>
+<li class="TOC2"><a href="#_Toc244699358"><span class="Hyperlink">Military Technicians</span></a></li>
+<li class="TOC2"><a href="#_Toc244699359"><span class="Hyperlink">Active Component in Full-Time Support</span></a></li>
+<li class="TOC2"><a href="#_Toc244699360"><span class="Hyperlink">Navy Full-Time Support</span></a></li>
+<li class="TOC2"><a href="#_Toc244699361"><span class="Hyperlink">Civilians</span></a></li>
+<li class="TOC1"><a href="#_Toc244699362"><span class="Hyperlink">7. What Type of Pay and Benefits Do Reservists Receive for Reserve and Active Duty?</span></a></li>
+<li class="TOC2"><a href="#_Toc244699363"><span class="Hyperlink">Basic Pay</span></a></li>
+<li class="TOC2"><a href="#_Toc244699364"><span class="Hyperlink">Special and Incentive Pays</span></a></li>
+<li class="TOC2"><a href="#_Toc244699365"><span class="Hyperlink">Allowances</span></a></li>
+<li class="TOC2"><a href="#_Toc244699366"><span class="Hyperlink">Medical Care</span></a></li>
+<li class="TOC2"><a href="#_Toc244699367"><span class="Hyperlink">Dental Care</span></a></li>
+<li class="TOC2"><a href="#_Toc244699368"><span class="Hyperlink">Life Insurance</span></a></li>
+<li class="TOC2"><a href="#_Toc244699369"><span class="Hyperlink">Commissary and Exchange Privileges</span></a></li>
+<li class="TOC2"><a href="#_Toc244699370"><span class="Hyperlink">Retirement</span></a></li>
+<li class="TOC1"><a href="#_Toc244699371"><span class="Hyperlink">8. What Types of Pay and Benefits Are Provided to Reservists Mobilized for Contingency Operations?</span></a></li>
+<li class="TOC3"><a href="#_Toc244699372"><span class="Hyperlink">Income Replacement for Certain RC Personnel</span></a></li>
+<li class="TOC3"><a href="#_Toc244699373"><span class="Hyperlink">Differential Pay for Mobilized Federal Employees</span></a></li>
+<li class="TOC1"><a href="#_Toc244699374"><span class="Hyperlink">9. How Are Reservists Called to Active Duty by the Federal Government?</span></a></li>
+<li class="TOC2"><a href="#_Toc244699375"><span class="Hyperlink">Full Mobilization</span></a></li>
+<li class="TOC2"><a href="#_Toc244699376"><span class="Hyperlink">Partial Mobilization</span></a></li>
+<li class="TOC2"><a href="#_Toc244699377"><span class="Hyperlink">Presidential Reserve Call-Up</span></a></li>
+<li class="TOC2"><a href="#_Toc244699378"><span class="Hyperlink">Reserve Emergency Call-Up</span></a></li>
+<li class="TOC2"><a href="#_Toc244699379"><span class="Hyperlink">Reserve Preplanned Call-Up</span></a></li>
+<li class="TOC2"><a href="#_Toc244699380"><span class="Hyperlink">Recall of Retired Reservists</span></a></li>
+<li class="TOC1"><a href="#_Toc244699381"><span class="Hyperlink">Potential Issues for Congress</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc244699336"><span class="Hyperlink">Table 1. Basic Structure of the Armed Forces</span></a></li>
+<li><a href="#_Toc244699337"><span class="Hyperlink">Table 2. Basic Division of the Reserve Component</span></a></li>
+<li><a href="#_Toc244699338"><span class="Hyperlink">Table 3. Activation of the National Guard</span></a></li>
+<li><a href="#_Toc244699339"><span class="Hyperlink">Table 4. Categories of Reservists</span></a></li>
+<li><a href="#_Toc244699340"><span class="Hyperlink">Table 5. Categories of Full-Time Support Personnel</span></a></li>
+<li><a href="#_Toc244699341"><span class="Hyperlink">Table 6. Summary of Selected Reservist Pay and Benefits</span></a></li>
+<li><a href="#_Toc244699342"><span class="Hyperlink">Table 7. Select Mobilization Authorities for the Reserve Component</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress has historically shown interest in various reserve component (RC) personnel issues, such as pay and benefits, training and readiness, and career management. The term <em>r</em><em>eserve </em><em>c</em><em>omponent</em> refers collectively to the seven individual RCs of the Armed Forces: the Army National Guard of the United States, the Army Reserve, the Navy Reserve, the Marine Corps Reserve, the Air National Guard of the United States, the Air Force Reserve, and the Coast Guard Reserve. The purpose of these seven reserve components, as codified at Title 10, Section 10102, of the <em>U.S. Code</em>, is to "provide trained units and qualified persons available for active duty in the armed forces, in time of war or national emergency, and at such other times as the national security may require, to fill the needs of the armed forces whenever more units and persons are needed than are in the regular components." The Army National Guard and the Air National Guard also have a state role: When operating under the control of their governors, they respond to various domestic emergencies, such as disasters and civil disorders.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report addresses how RC personnel are organized, compensated, and mobilized. It concludes with a discussion of potential issues for Congress. This report covers the military services exclusively and generally does not discuss the Coast Guard Reserve.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent"><a name="_Toc237004504" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What Is the Reserve Component? What Is Its Purpose?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Armed Forces of the United States consist of six <em>services</em>:</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. The Army, under the Department of the Army</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. The Navy under the Department of the Navy</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. The Marine Corps under the Department of the Navy</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. The Air Force, under the Department of the Air Force</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">5. The Space Force, under the Department of the Air Force</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">6. The Coast Guard under the Department of Homeland Security<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="The Coast Guard typically operates under the authority of the Department of Homeland Security but may be transferred to the authority of the Secretary of the Navy under certain circumstances (see 10 U.S.C. §8013a). Because the Coast Guard operates primarily as a component of the Department of Homeland Security, it will generally not be discussed in this report. It may be mentioned occasionally, as appropriate.">1</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">With the exception of the Space Force,<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='The Space Force has a unique personnel management system , in which full -time and part-time personnel are managed in a single component . See " 5. Does the Space Force H ave a Reserve Component? "'>2</a></sup> each of these services contains two <em>components</em><em> </em>(see <a class="InternalLink" href="#_Ref232681192"><strong></strong><strong>Table 1</strong></a>): the active component (AC) contains personnel who serve full-time, while members of the reserve component (RC) generally serve in a part-time capacity. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The seven individual RCs are:</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. the Army National Guard of the United States,</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. the Army Reserve,</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. the Navy Reserve,</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. the Marine Corps Reserve,</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">5. the Air National Guard of the United States,</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">6. the Air Force Reserve, and </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">7. the Coast Guard Reserve.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="10 U.S.C. §10101. Because the Coast Guard operates primarily as a component of the Department of Homeland Security, it will generally not be discussed in this report. It may be mentioned occasionally , as appropriate .">3</a></sup></li></ul><div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref232681192"></a><a name="_Toc230356562"></a><a name="_Toc237004496"></a><a name="_Toc237245530"></a><a name="_Toc242363656"></a><a name="_Toc242793976"></a><a name="_Toc242800140"></a><a name="_Toc243309117"></a><a name="_Toc244699336"></a>Table 1. Basic Structure of the Armed Forces</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:76.464pt;border-top:0;border-left:0.5pt;border-left-style:solid;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:47.174400000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Army</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Navy</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Marine Corps</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Air Force</p>
+</td>
+<td style="width:61.6032pt;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Space Force</p>
+</td>
+<td style="width:61.6032pt;border-top:0;border-left:0;border-bottom:0;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Coast Guard</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:76.464pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Active Component</strong></p>
+</td>
+<td style="width:47.174400000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Active Army</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Active Navy</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Active Marine Corps</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Active Air Force</p>
+</td>
+<td style="width:61.6032pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Full- and part-time personnel managed together in a single component</p>
+</td>
+<td style="width:61.6032pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Active Coast Guard</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:76.464pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Reserve Component</strong></p>
+</td>
+<td style="width:47.174400000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Army Reserve; Army National Guard</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Navy Reserve</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Marine Corps Reserve</p>
+</td>
+<td style="width:61.689600000000006pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Air Force Reserve; Air National Guard</p>
+</td>
+<td style="width:61.6032pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:61.6032pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Coast Guard Reserve</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableNote"><strong>Source</strong><strong>: </strong>10 U.S.C §§10104-10114; 10 U.S.C §20001.</p>
+<p class="TableNote"><strong>Note</strong><strong>s</strong><strong>:</strong> The Army and Air National Guard are part of the Army and Air Force when activated under Title 10 of the <em>U.S. Code</em>. When activated under a state's authority, Guard personnel report to the state's governor. </p>
+<p class="TableNote">The military services staffed primarily by active-component personnel are named in statute as the "regular" Army, Navy, Marine Corps, and Air Force. In public discourse, the services commonly refer to these forces as the "active" Army, Navy, etc. This report generally uses the latter terminology.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The statutory purpose of these seven RCs is </p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">to provide trained units and qualified persons available for active duty in the armed forces, in time of war or national emergency, and at such other times as the national security may require, to fill the needs of the armed forces whenever more units and persons are needed than are in the regular components.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="10 U.S.C. §10102.">4</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref267662645"></a><a name="_Ref267663881"></a><a name="_Toc396897719"></a><a name="_Toc470680382"></a><a name="_Toc472494818"></a><a name="_Toc472496025"></a><a name="_Toc472511561"></a><a name="_Toc472511655"></a><a name="_Toc473025811"></a><a name="_Toc473026177"></a><a name="_Toc524681048"></a><a name="_Toc526427040"></a><a name="_Toc526427341"></a><a name="_Toc526523485"></a><a name="_Toc39592687"></a><a name="_Toc39758236"></a><a name="_Toc40282414"></a><a name="_Toc40282865"></a><a name="_Toc42855549"></a><a name="_Toc43129547"></a><a name="_Toc43130085"></a><a name="_Toc43130175"></a><a name="_Toc86749188"></a><a name="_Toc86762615"></a><a name="_Toc86763170"></a><a name="_Toc86852110"></a><a name="_Toc215490811"></a><a name="_Toc216961809"></a><a name="_Toc216962032"></a><a name="_Toc218499040"></a><a name="_Toc218669522"></a><a name="_Toc221784938"></a><a name="_Toc223609061"></a><a name="_Toc230356570"></a><a name="_Toc237004505"></a><a name="_Toc237245538"></a><a name="_Toc242363664"></a><a name="_Toc242793984"></a><a name="_Toc242800148"></a><a name="_Toc243309125"></a><a name="_Ref267663349"></a><a name="_Toc396897705"></a><a name="_Toc470680368"></a><a name="_Toc472494804"></a><a name="_Toc472496011"></a><a name="_Toc472511547"></a><a name="_Toc472511641"></a><a name="_Toc473025797"></a><a name="_Toc473026163"></a><a name="_Toc524681034"></a><a name="_Toc526427026"></a><a name="_Toc526427327"></a><a name="_Toc526523471"></a><a name="_Toc39592673"></a><a name="_Toc39758222"></a><a name="_Toc40282401"></a><a name="_Toc40282852"></a><a name="_Toc42855536"></a><a name="_Toc43129534"></a><a name="_Toc43130072"></a><a name="_Toc43130162"></a><a name="_Toc86749175"></a><a name="_Toc86762602"></a><a name="_Toc86763157"></a><a name="_Toc86852097"></a><a name="_Toc215490797"></a><a name="_Toc216961795"></a><a name="_Toc216962018"></a><a name="_Toc218499026"></a><a name="_Toc218669508"></a><a name="_Toc244699344"></a>2. What Is the Difference Between the <em>Reserves</em> and the <em>National Guard</em>?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The RC can be divided into two categories: the components that are exclusively federal entities and the components that are both state and federal entities (see <a class="InternalLink" href="#_Ref228444045"><strong></strong><strong>Table 2</strong></a>).</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:259.2pt;">
+<p class="TableTitle"><a name="_Ref228444045"></a><a name="_Toc230356563"></a><a name="_Toc237004497"></a><a name="_Toc237245531"></a><a name="_Toc242363657"></a><a name="_Toc242793977"></a><a name="_Toc242800141"></a><a name="_Toc243309118"></a><a name="_Toc244699337"></a>Table 2. Basic Division of the Reserve Component</p>
+</div>
+<table class="ReportTable" style="width:259.2pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableTextHeading" style="">Federal Only</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableTextHeading" style="">State and Federal</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Army Reserve</p>
+<p class="TableText" style="">Navy Reserve</p>
+<p class="TableText" style="">Marine Corps Reserve</p>
+<p class="TableText" style="">Air Force Reserve</p>
+<p class="TableText" style="">Coast Guard Reserve</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Army National Guard</p>
+<p class="TableText" style="">Air National Guard.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:259.2pt;">
+<p class="TableSource"><strong>Source:</strong> 10 U.S.C §§10104-10114; 32 U.S.C §101.</p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc243309126"></a><a name="_Toc244699345"></a>The Reserve Components in Solely Federal Service</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The five solely federal RCs are referred to collectively as the <em>r</em><em>eserves</em>. They are components of their respective services—the Army Reserve is part of the Army, the Navy Reserve is part of the Navy, etc.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc243309127"></a><a name="_Toc244699346"></a>The Reserve Components in State and Federal Service: The National Guard</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Hlk206070963"></a>The RCs with dual federal and state roles are referred to collectively as the National Guard. The National Guard of the United States is composed of 54 separate National Guard organizations: one for each state and one each for Puerto Rico, Guam, the U.S. Virgin Islands, and the District of Columbia.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='The DC National Guard operates in federal control at all time s. See DC National Guard, "About Us," https://dc.ng.mil/About-Us/    .'>5</a></sup><a name="_Hlk221540572"></a> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When under state control, these organizations are identified by their state or territorial names (e.g., the California National Guard or the Puerto Rico National Guard) and are controlled by the respective governors. Each of these organizations in turn contains an Army National Guard and an Air National Guard. (For instance, New York operates the New York Army National Guard and the New York Air National Guard.) When under federal control, they operate as part of the Army or Air Force in a manner analogous to the Army and Air Force Reserves.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Due to their dual federal and state roles, National Guard personnel can be called to duty in a variety of ways, and the mode of activation has important implications for the pay and benefits they receive. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc230356571"></a><a name="_Toc237004506"></a><a name="_Toc237245539"></a><a name="_Toc242363665"></a><a name="_Toc242793985"></a><a name="_Toc242800149"></a><a name="_Toc243309128"></a><a name="_Toc221784939"></a><a name="_Toc223609062"></a><a name="_Ref228978482"></a><a name="_Toc244699347"></a>3. How Can the National Guard Be Activated?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">National Guard personnel may be activated in three ways: under federal control with federal compensation, under state control with state compensation, or under state control with federal compensation (see <a class="InternalLink" href="#_Ref232681746"><strong></strong><strong>Table 3</strong></a>).</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:345.7728pt;">
+<p class="TableTitle"><a name="_Ref232681746"></a><a name="_Toc230356564"></a><a name="_Toc237004498"></a><a name="_Toc237245532"></a><a name="_Toc242363658"></a><a name="_Toc242793978"></a><a name="_Toc242800142"></a><a name="_Toc243309119"></a><a name="_Toc244699338"></a>Table 3. Activation of the National Guard</p>
+</div>
+<table class="ReportTable" style="width:345.7728pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Duty</p>
+</td>
+<td style="width:108.17280000000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Statutory Authority</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Commander-in-Chief</p>
+</td>
+<td style="width:107.82719999999999pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Source of Funding</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Active Duty</p>
+</td>
+<td style="width:108.17280000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Title 10 of the <em>U.S. Code</em></p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">President of the United States</p>
+</td>
+<td style="width:107.82719999999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Federal</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">State Active Duty</p>
+</td>
+<td style="width:108.17280000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">State or Territorial Law</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">State or Territorial Governor</p>
+</td>
+<td style="width:107.82719999999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">State</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Title 32 Duty</p>
+</td>
+<td style="width:108.17280000000001pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Title 32 of the <em>U.S. Code</em></p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">State or Territorial Governor</p>
+</td>
+<td style="width:107.82719999999999pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Federal</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:345.7728pt;">
+<p class="TableSource"><strong>Source:</strong> 10 U.S.C §101(d); 32 U.S.C §109(b).</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The three variants of National Guard activations are discussed below.</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. <strong>Active </strong><strong>d</strong><strong>uty</strong><strong>.</strong><strong> </strong>National Guard personnel may perform federal active duty—commonly referred to as <em>Title 10 duty</em>, because it is done under the authority of Title 10 of the <em>U.S. Code</em>.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="For statutory definition, see 10 U.S.C. §101(d)(1).">6</a></sup> National Guard personnel perform this duty as members of the Army or Air Force, much like members of the Army and Air Force Reserves. Their pay and benefits are set in federal law and regulation and are drawn from federal—specifically Department of Defense (DOD)<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='DOD is " using a secondary Department of War designation ," under Executive Order 14347 dated September 5, 2025 .'>7</a></sup>—accounts. </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. <strong>State </strong><strong>a</strong><strong>ctive </strong><strong>d</strong><strong>uty</strong><strong>.</strong><strong> </strong>National Guard personnel may be activated by a governor for <em>s</em><em>tate </em><em>a</em><em>ctive </em><em>d</em><em>uty</em>. While performing state active duty, they are employees of a state or territory and report to the governor. Their pay and benefits are determined by state or territorial law and are drawn from state or territorial accounts. Typical missions performed under state active duty include responding to disasters and civil disorders, though the Guard has also been called up to respond to other emergencies.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='For an example of disaster response in Maryland, see National Guard Bureau, "Maryland Guard T ackles Lee S torm F loods," press release, September 12, 2011, https://www.nationalguard.mil/News/Article-View/Article/613013/maryland-guard-tackles-lee-storm-floods/    . For an example of civil disorder response in Minnesota, see Office of the Governor of Minnesota, "Governor Walz Signs Executive Order Activating National Guard to Protect the People of Minnesota," press release, May 28,...'>8</a></sup> For example, shortly after September 11, 2001, some governors called up members of the National Guard to protect critical infrastructure in their states—such as nuclear power plants, water treatment facilities, and bridges—from potential terrorist attacks.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="For example, the New York National Guard was deployed to Indian Point Energy Center (a now-decommissioned nuclear power plant station ) following the September 11 attacks. See letter from Elinor G. Adensam, Office of Nuclear Reactor Regulation, Nuclear Regulatory Commission, to Matthew P. Carey, Clerk-Treasurer, Village of Dobbs Ferry, NY, March 27, 2002, https://www.nrc.gov/docs/ML0207/ML020720104.pdf .">9</a></sup> Similarly, some governors called members of the National Guard to state active duty to assist with initial COVID-19 response efforts in 2020.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='See for example, Col . Richard Goldenberg, " NY National Guard COVID-19 R esponse F orce G rows to 2,850, " April 3, 2020, https://www.army.mil/article/234244/ny_national_guard_covid_19_response_force_grows_to_2850 .'>10</a></sup></li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. <strong>Title 32 </strong><strong>s</strong><strong>tatus</strong><strong>.</strong><strong> </strong>National Guard personnel may also serve under the authority of a governor while receiving federal pay and benefits. This is commonly referred to as <em>Title 32 status</em>, as it is authorized in Title 32 of the <em>U.S.</em><em> Code</em>. Guard personnel typically perform training in this status. </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">They may also perform <em>f</em><em>ull-</em><em>t</em><em>ime National Guard </em><em>d</em><em>uty</em> (FTNGD) in Title 32 status. FTNGD may be used for full-time support activities and for federal missions of a non-military nature—such as natural disaster response, border security, or urban force presence.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Guard personnel have been activated in FTNGD to perform missions including:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">to support wildfire detection and response<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='Air National Guard, "Capt. Gregory Wagner, Task Force FireGuard Commander," 140 th Wing Podcast , May 7, 2026 , https://www.af.mil/News/Radio/mod/1781/player/603/video/1005997 .'>11</a></sup>;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">to respond to civil disturbances in Washington, DC (2020-2021)<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title='For response to 2020 unrest , see DC National Guard, "District of Columbia National Guard M obilized," press release, June 1, 2020, https://dc.ng.mil/Public-Affairs/Features/Article/2204415/district-of-columbia-national-guard-mobilized/    . For response to events of January 6, 2021 , see National Guard Bureau, "National Guard R esponse to C ivil U nrest," press release, January 8, 2021, https://www.nationalguard.mil/News/Press-Releases/Article/2466269/national-guard-res...'>12</a></sup>;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">to assist Immigration and Customs Enforcement in immigration enforcement<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='DOD , "Statement by Chief Pentagon Spokesman Sean Parnell on DOD Personnel Support to ICE," press release, July 25, 2025, https://www.war.gov/News/Releases/Release/Article/4256444/statement-by-chief-pentagon-spokesman-sean-parnell-on-dod-personnel-support-to/    .'>13</a></sup>; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">to patrol cities including Washington, DC, and Memphis, TN (2025).<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='See DOD , "National Guard Mobilizes 800 Troops in D.C. to Support Federal, Local Law Enforcement," press release, August 14, 2025, https://www.war.gov/News/News-Stories/Article/Article/4275149/national-guard-mobilizes-800-troops-in-dc-to-support-federal-local-law-enforcem/    and The White House, "Restoring Law and Order in Memphis," press release, September 15, 2025, https://www.whitehouse.gov/presidential-actions/2025/09/restoring-law-and-order-in-memphis/    .'>14</a></sup></li></ul><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc230356572"></a><a name="_Toc237004507"></a><a name="_Toc237245540"></a><a name="_Toc242363666"></a><a name="_Toc242793986"></a><a name="_Toc242800150"></a><a name="_Toc243309129"></a><a name="_Toc244699348"></a>4. What Are the Different Categories of Reservists?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Individual reservists, whether members of the reserve or the National Guard, are assigned to one of three major reserve personnel categories: the Ready Reserve, the Standby Reserve, or the Retired Reserve (see <a class="InternalLink" href="#_Ref233012737"><strong></strong><strong>Table 4</strong></a>). Reservists who are assigned to the Ready Reserve are further assigned to one of its three subcomponents: the Selected Reserve, the Individual Ready Reserve (IRR), or the Inactive National Guard (ING) (see <a class="InternalLink" href="#_Ref233012737"><strong></strong><strong>Table 4</strong></a>). The differences among each of these categories are explained below.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref233012737"></a><a name="_Toc230356565"></a><a name="_Toc237004499"></a><a name="_Toc237245533"></a><a name="_Toc242363659"></a><a name="_Toc242793979"></a><a name="_Toc242800143"></a><a name="_Toc243309120"></a><a name="_Toc244699339"></a>Table 4. Categories of Reservists</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Category</p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Description</p>
+</td>
+</tr>
+<tr style="height:3.5pt;">
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Ready Reserve</strong><strong> </strong>contains the following subcomponents:</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Selected Reserve</strong></p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Guard and reserve personnel who perform regular training and are generally first to be activated.</p>
+</td>
+</tr>
+<tr style="height:3.4pt;">
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Individual Ready Reserve</strong></p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reserve personnel who may be activated but are generally not required to perform regular training.</p>
+</td>
+</tr>
+<tr style="height:3.4pt;">
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Inactive National Guard</strong></p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Guard personnel who may be activated but are generally not required to perform regular training.</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Standby Reserve</strong></p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Personnel with temporary disabilities or hardships or who hold key civilian roles. May be activated but are generally not required to perform regular training.</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Retired Reserve</strong></p>
+</td>
+<td style="width:216pt;border-top:0.5pt;border-top-style:solid;border-left:0.5pt;border-left-style:solid;border-bottom:0.5pt;border-bottom-style:solid;border-right:0.5pt;border-right-style:solid;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Guard and Reserve personnel who qualify for retirement. May be activated but are generally not required to perform regular training.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> <a name="_Toc396897706"></a><a name="_Toc470680369"></a><a name="_Toc472494805"></a><a name="_Toc472496012"></a><a name="_Toc472511548"></a><a name="_Toc472511642"></a><a name="_Toc473025798"></a><a name="_Toc473026164"></a><a name="_Toc524681035"></a><a name="_Toc526427027"></a><a name="_Toc526427328"></a><a name="_Toc526523472"></a><a name="_Toc39592674"></a><a name="_Toc39758223"></a><a name="_Toc40282402"></a><a name="_Toc40282853"></a><a name="_Toc42855537"></a><a name="_Toc43129535"></a><a name="_Toc43130073"></a><a name="_Toc43130163"></a><a name="_Toc86749176"></a><a name="_Toc86762603"></a><a name="_Toc86763158"></a><a name="_Toc86852098"></a><a name="_Toc215490798"></a><a name="_Toc216961796"></a><a name="_Toc216962019"></a><a name="_Toc218499027"></a><a name="_Toc218669509"></a><a name="_Toc221784940"></a><a name="_Toc223609063"></a><a name="_Toc230356573"></a>Department of Defense, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," March 11, 2014, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121506p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/</span><span class="Hyperlink"></span><span class="Hyperlink">Portals/</span><span class="Hyperlink"></span><span class="Hyperlink">54/</span><span class="Hyperlink"></span><span class="Hyperlink">Documents/</span><span class="Hyperlink"></span><span class="Hyperlink">DD/</span><span class="Hyperlink"></span><span class="Hyperlink">issuances/</span><span class="Hyperlink"></span><span class="Hyperlink">dodi/</span><span class="Hyperlink"></span><span class="Hyperlink">121506p.pdf</span></a>.</p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc237004508"></a><a name="_Toc237245541"></a><a name="_Toc242363667"></a><a name="_Toc242793987"></a><a name="_Toc242800151"></a><a name="_Toc243309130"></a><a name="_Toc244699349"></a>Ready Reserve</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Ready Reserve is the primary personnel pool of the RCs. Members of the Ready Reserve are typically called to active duty before members of the Standby Reserve<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="10 U.S.C. § 12306(b) .">15</a></sup> or the Retired Reserve. The Ready Reserve comprises the <strong>Selected Reserve</strong>, the <strong>Individual Ready Reserve</strong>, and the <strong>Inactive National Guard</strong>, each of which is described below.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897707"></a><a name="_Toc470680370"></a><a name="_Toc472494806"></a><a name="_Toc472496013"></a><a name="_Toc472511549"></a><a name="_Toc472511643"></a><a name="_Toc473025799"></a><a name="_Toc473026165"></a><a name="_Toc524681036"></a><a name="_Toc526427028"></a><a name="_Toc526427329"></a><a name="_Toc526523473"></a><a name="_Toc39592675"></a><a name="_Toc39758224"></a><a name="_Toc40282403"></a><a name="_Toc40282854"></a><a name="_Toc42855538"></a><a name="_Toc43129536"></a><a name="_Toc43130074"></a><a name="_Toc43130164"></a><a name="_Toc86749177"></a><a name="_Toc86762604"></a><a name="_Toc86763159"></a><a name="_Toc86852099"></a><a name="_Toc215490799"></a><a name="_Toc216961797"></a><a name="_Toc216962020"></a><a name="_Toc218499028"></a><a name="_Toc218669510"></a><a name="_Toc221784941"></a><a name="_Toc223609064"></a><a name="_Toc230356574"></a><a name="_Toc237004509"></a><a name="_Toc237245542"></a><a name="_Toc242363668"></a><a name="_Toc242793988"></a><a name="_Toc242800152"></a><a name="_Toc243309131"></a><a name="_Toc244699350"></a>Selected Reserve</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Selected Reserve contains those units and individuals within the Ready Reserve designated as "so essential to initial wartime missions that they have priority over all other Reserves."<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," March 11, 2014, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121506p.pdf , p. 23 .'>16</a></sup> Members of the Selected Reserve are generally required to perform one weekend of training each month (<em>inactive duty for training</em> or IDT, also known colloquially as <em>weekend drill</em>) and two weeks of training each year (<em>annua</em><em>l training</em> or AT) for which they receive pay and benefits.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="Training requirements are outlined in 10 U.S.C. §10147 and 32 U.S.C. §502 . Benefits for personnel undergoing training are outlined in 37 U.S.C. §§204 - 206, and 32 U.S.C. §502(f).">17</a></sup> Some members of the Selected Reserve may be required only to complete their IDT and AT, while others may perform additional periods of service.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897708"></a><a name="_Toc470680371"></a><a name="_Toc472494807"></a><a name="_Toc472496014"></a><a name="_Toc472511550"></a><a name="_Toc472511644"></a><a name="_Toc473025800"></a><a name="_Toc473026166"></a><a name="_Toc524681037"></a><a name="_Toc526427029"></a><a name="_Toc526427330"></a><a name="_Toc526523474"></a><a name="_Toc39592676"></a><a name="_Toc39758225"></a><a name="_Toc40282404"></a><a name="_Toc40282855"></a><a name="_Toc42855539"></a><a name="_Toc43129537"></a><a name="_Toc43130075"></a><a name="_Toc43130165"></a><a name="_Toc86749178"></a><a name="_Toc86762605"></a><a name="_Toc86763160"></a><a name="_Toc86852100"></a><a name="_Ref209704330"></a><a name="_Toc215490800"></a><a name="_Toc216961798"></a><a name="_Toc216962021"></a><a name="_Toc218499029"></a><a name="_Toc218669511"></a><a name="_Toc221784942"></a><a name="_Toc223609065"></a><a name="_Toc230356575"></a><a name="_Toc237004510"></a><a name="_Toc237245543"></a><a name="_Toc242363669"></a><a name="_Toc242793989"></a><a name="_Toc242800153"></a><a name="_Toc243309132"></a><a name="_Toc244699351"></a>Individual Ready Reserve</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The IRR is primarily composed of individuals who have completed training or some period of service in the AC or Selected Reserve and "have some period of their military service obligation (MSO) or other contractual obligation remaining."<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title='DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 26.'>18</a></sup> By law, these personnel may be required to perform training, but DOD policy does not require them "to meet the same AT and IDT training requirements as Selected Reserve members."<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='10 U.S.C. §10147 ; DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 26.'>19</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref267663181"></a><a name="_Toc396897709"></a><a name="_Toc470680372"></a><a name="_Toc472494808"></a><a name="_Toc472496015"></a><a name="_Toc472511551"></a><a name="_Toc472511645"></a><a name="_Toc473025801"></a><a name="_Toc473026167"></a><a name="_Toc524681038"></a><a name="_Toc526427030"></a><a name="_Toc526427331"></a><a name="_Toc526523475"></a><a name="_Toc39592677"></a><a name="_Toc39758226"></a><a name="_Toc40282405"></a><a name="_Toc40282856"></a><a name="_Toc42855540"></a><a name="_Toc43129538"></a><a name="_Toc43130076"></a><a name="_Toc43130166"></a><a name="_Toc86749179"></a><a name="_Toc86762606"></a><a name="_Toc86763161"></a><a name="_Toc86852101"></a><a name="_Toc215490801"></a><a name="_Toc216961799"></a><a name="_Toc216962022"></a><a name="_Toc218499030"></a><a name="_Toc218669512"></a><a name="_Toc221784943"></a><a name="_Toc223609066"></a><a name="_Toc230356576"></a><a name="_Toc237004511"></a><a name="_Toc237245544"></a><a name="_Toc242363670"></a><a name="_Toc242793990"></a><a name="_Toc242800154"></a><a name="_Toc243309133"></a><a name="_Toc244699352"></a>Inactive National Guard</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ING is, for practical purposes, the National Guard equivalent to the IRR. It comprises those members of the Army National Guard who are in an inactive status. The Air National Guard does not maintain an ING.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="DOD , Administration and Management of the Individual Ready Reserve (IRR) and the Inactive National Guard (ING) , Instruction 1235.13 , October 18, 2013 ( Incorporating Change 1, April 30, 2020 ), p. 1 3 , http://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/123513p.pdf .">20</a></sup> Members do not participate in training as do members of the Selected Reserve. However, ING members are attached to specific National Guard units and "must muster once a year with their assigned unit, but they do not participate in training activities."<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 27.'>21</a></sup> Members of the ING can be involuntarily ordered to active duty if their units are activated under Partial Mobilization or Full Mobilization.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 27.'>22</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897710"></a><a name="_Toc470680373"></a><a name="_Toc472494809"></a><a name="_Toc472496016"></a><a name="_Toc472511552"></a><a name="_Toc472511646"></a><a name="_Toc473025802"></a><a name="_Toc473026168"></a><a name="_Toc524681039"></a><a name="_Toc526427031"></a><a name="_Toc526427332"></a><a name="_Toc526523476"></a><a name="_Toc39592678"></a><a name="_Toc39758227"></a><a name="_Toc40282406"></a><a name="_Toc40282857"></a><a name="_Toc42855541"></a><a name="_Toc43129539"></a><a name="_Toc43130077"></a><a name="_Toc43130167"></a><a name="_Toc86749180"></a><a name="_Toc86762607"></a><a name="_Toc86763162"></a><a name="_Toc86852102"></a><a name="_Toc215490802"></a><a name="_Toc216961800"></a><a name="_Toc216962023"></a><a name="_Toc218499031"></a><a name="_Toc218669513"></a><a name="_Toc221784944"></a><a name="_Toc223609067"></a><a name="_Toc230356577"></a><a name="_Toc237004512"></a><a name="_Toc237245545"></a><a name="_Toc242363671"></a><a name="_Toc242793991"></a><a name="_Toc242800155"></a><a name="_Toc243309134"></a><a name="_Toc244699353"></a>Standby Reserve</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Standby Reserve comprises those individuals who maintain a military affiliation but are generally not required to participate in military training. These individuals may transfer from the Ready Reserve to the Standby Reserve due to temporary disability or hardship, to ensure continuity in key federal or private civilian jobs, or for other administrative reasons.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="DOD, Uniform Reserve, Training and Retirement Categories , p. 28 ; DOD , Management of the Standby Reserve , Instruction 1235.09 , February 12, 2014 ( Incorporating Change 1, effective May 7 , 202 4 ) , p p . 7-9, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/123509p.pdf .">23</a></sup> Members of the Standby Reserve are subject to involuntary activation only in the case of Full Mobilization.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='See 10 U.S.C. §12306 (a) and DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 28 .'>24</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897711"></a><a name="_Toc470680374"></a><a name="_Toc472494810"></a><a name="_Toc472496017"></a><a name="_Toc472511553"></a><a name="_Toc472511647"></a><a name="_Toc473025803"></a><a name="_Toc473026169"></a><a name="_Toc524681040"></a><a name="_Toc526427032"></a><a name="_Toc526427333"></a><a name="_Toc526523477"></a><a name="_Toc39592679"></a><a name="_Toc39758228"></a><a name="_Toc40282407"></a><a name="_Toc40282858"></a><a name="_Toc42855542"></a><a name="_Toc43129540"></a><a name="_Toc43130078"></a><a name="_Toc43130168"></a><a name="_Toc86749181"></a><a name="_Toc86762608"></a><a name="_Toc86763163"></a><a name="_Toc86852103"></a><a name="_Toc215490803"></a><a name="_Toc216961801"></a><a name="_Toc216962024"></a><a name="_Toc218499032"></a><a name="_Toc218669514"></a><a name="_Toc221784945"></a><a name="_Toc223609068"></a><a name="_Toc230356578"></a><a name="_Toc237004513"></a><a name="_Toc237245546"></a><a name="_Toc242363672"></a><a name="_Toc242793992"></a><a name="_Toc242800156"></a><a name="_Toc243309135"></a><a name="_Toc244699354"></a>Retired Reserve</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Retired Reserve includes (1) reserve personnel who are receiving retired pay as a result of their reserve and/or active service and (2) reserve personnel who transfer into the Retired Reserve after qualifying for reserve retirement but before becoming eligible to receive retired pay (which typically occurs at age 60).<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title='See 10 U.S.C. §12731 , 10 U.S.C. §10154 , and DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," pp . 29-30 . For more information on reserve retirement pay, see " 7 . What Type of Pay and Benefits Do Reservists Receive for Reserve and Active Duty? " See also CRS Report RL34751, Military Retirement: Background and Recent Developments , by Kristy N. Kamarck .'>25</a></sup> Members of the Retired Reserve may be involuntarily ordered to active duty in the event of a Full Mobilization, and some members of the Retired Reserve may be ordered to active duty in the event of a recall of retirees.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 30.'>26</a></sup> Active component personnel who are receiving retired pay are not included in the Retired Reserve.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="AC retirees may be recalled to duty under certain circumstances. They therefore comprise a reserve of personnel who may be employed for military purposes. However, they are not classified as part of the RC .">27</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc215490805"></a><a name="_Toc216961803"></a><a name="_Toc216962026"></a><a name="_Toc218499034"></a><a name="_Toc218669516"></a><a name="_Toc221784947"></a><a name="_Toc223609070"></a><a name="_Ref228978185"></a><a name="_Toc230356579"></a><a name="_Toc237004514"></a><a name="_Toc237245547"></a><a name="_Toc242363673"></a><a name="_Toc242793993"></a><a name="_Toc242800157"></a><a name="_Toc243309136"></a><a name="_Ref315338676"></a><a name="_Toc396897713"></a><a name="_Toc470680376"></a><a name="_Toc472494812"></a><a name="_Toc472496019"></a><a name="_Toc472511555"></a><a name="_Toc472511649"></a><a name="_Toc473025805"></a><a name="_Toc473026171"></a><a name="_Toc524681042"></a><a name="_Toc526427034"></a><a name="_Toc526427335"></a><a name="_Toc526523479"></a><a name="_Toc39592681"></a><a name="_Toc39758230"></a><a name="_Toc40282409"></a><a name="_Toc40282860"></a><a name="_Toc42855544"></a><a name="_Toc43129542"></a><a name="_Toc43130080"></a><a name="_Toc43130170"></a><a name="_Toc86749183"></a><a name="_Toc86762610"></a><a name="_Toc86763165"></a><a name="_Toc86852105"></a><a name="_Toc215490806"></a><a name="_Toc216961804"></a><a name="_Toc216962027"></a><a name="_Toc218499035"></a><a name="_Toc218669517"></a><a name="_Toc244699355"></a>5. Does the Space Force Have a Reserve Component?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Space Force does not have an RC. Current law requires that full-time and part-time Space Force personnel be managed as part of a single component.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="10 U.S.C. §20001.">28</a></sup> By contrast, the other services generally manage full-time and part-time personnel in separate components.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Current statute authorizes a category of Space Force personnel to serve in an "active status" but not on "sustained duty." These personnel may serve in a part-time capacity and may be required to drill and train periodically, in a manner analogous to members of the Selected Reserve.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="10 U.S.C. §20101.">29</a></sup> The Secretary of the Air Force may also "enter into a written agreement with a member of the Space Force not on sustained duty" that "shall specify the conditions of service."<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="10 U.S.C. §20103 .">30</a></sup> This statutory language may allow for individual Space Force members (known as Guardians) to transfer between full-time and part-time duty over the course of their careers. It may also allow the Space Force to rapidly adjust its force structure.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Secretary of the Air Force may also make service agreements with Guardians serving in "inactive status."<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="10 U. S .C. §20103 .">31</a></sup> Such arrangements may create a category of Guardians analogous to the IRR (see "<a class="InternalLink" href="#_Ref209704330">Individual Ready Reserve</a>"). </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc221784948"></a><a name="_Toc223609071"></a><a name="_Ref228978512"></a><a name="_Toc230356580"></a><a name="_Toc237004515"></a><a name="_Toc237245548"></a><a name="_Toc242363674"></a><a name="_Toc242793994"></a><a name="_Toc242800158"></a><a name="_Toc243309137"></a><a name="_Toc244699356"></a>6. What Does "Full-Time Support" Mean? What Are the Different Categories of Full-Time Support for the Reserve Components?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reserve units are primarily filled by <em>traditional</em> reservists: members of the Selected Reserve who are usually required to serve one weekend a month and two weeks a year.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="Some reservists are authorized to perform their yearly training in other combinations of time.">32</a></sup> However, some reserve units are also staffed by one or more full-time civilian and/or military employees. These employees, known as full-time support (FTS) personnel, are "assigned to organize; administer; instruct; recruit and train; maintain supplies, equipment and aircraft; and perform other functions required on a daily basis in the execution of operational missions and readiness preparations" as authorized in Title 5, Title 10, and Title 32.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='DOD , "Full-Time Support (FTS) to the Reserve Components," June 5, 2020, p p . 10 -11 , https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/120518p.pdf?ver=2020-06-05-095821-867 .'>33</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">DOD regulations identify five categories of FTS personnel: active guard and reserve (AGR), military technicians (MTs), AC, Navy full-time support, and civilians.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='DOD , "Full-Time Support (FTS) to the Reserve Components . "'>34</a></sup> The distinctions among each of these categories are outlined below and in <a class="InternalLink" href="#_Ref229387159"><strong></strong><strong>Table 5</strong></a>. The mix of FTS personnel in each of the RCs is intended "to optimize consistency and stability for each RC to achieve its assigned missions."<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title='DOD , "Full-Time Support (FTS) to the Reserve Components," p. 3.'>35</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref229387159"></a><a name="_Toc230356566"></a><a name="_Toc237004500"></a><a name="_Toc237245534"></a><a name="_Toc242363660"></a><a name="_Toc242793980"></a><a name="_Toc242800144"></a><a name="_Toc243309121"></a><a name="_Toc244699340"></a>Table 5. Categories of Full-Time Support Personnel</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:131.84640000000002pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Category</p>
+</td>
+<td style="width:300.1536pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Description</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:131.84640000000002pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Active Guard and Reserve</strong></p>
+</td>
+<td style="width:300.1536pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Members of the reserve component activated on limited orders to train and support the reserves.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:131.84640000000002pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Military Technicians</strong></p>
+</td>
+<td style="width:300.1536pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Federal civilian permanent employees who train and support the reserves but are also required to maintain membership in the reserves.</p>
+</td>
+</tr>
+<tr style="height:2.6pt;">
+<td style="width:131.84640000000002pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Active Component</strong></p>
+</td>
+<td style="width:300.1536pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Active-component personnel on limited orders who train and support the reserves.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:131.84640000000002pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Navy Full-Time Support</strong></p>
+</td>
+<td style="width:300.1536pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Navy reservists who are activated for sustained periods to train and support the Navy reserves.</p>
+</td>
+</tr>
+<tr style="height:2.75pt;">
+<td style="width:131.84640000000002pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Civilians</strong></p>
+</td>
+<td style="width:300.1536pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Federal civilian employees who train and support the reserves but are not required to maintain membership in the reserves.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> Department of Defense, "Full-Time Support (FTS) to the Reserve Components," June 5, 2020, pp. 10-11, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/120518p.pdf?ver=2020-06-05-095821-867"><span class="Hyperlink">https://www.esd.whs.mil/</span><span class="Hyperlink"></span><span class="Hyperlink">Portals/</span><span class="Hyperlink"></span><span class="Hyperlink">54/</span><span class="Hyperlink"></span><span class="Hyperlink">Documents/</span><span class="Hyperlink"></span><span class="Hyperlink">DD/</span><span class="Hyperlink"></span><span class="Hyperlink">issuances/</span><span class="Hyperlink"></span><span class="Hyperlink">dodi/</span><span class="Hyperlink"></span><span class="Hyperlink">120518p.pdf?</span><span class="Hyperlink"></span><span class="Hyperlink">ver=</span><span class="Hyperlink"></span><span class="Hyperlink">2020-06-05-095821-867</span></a>.</p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897714"></a><a name="_Toc470680377"></a><a name="_Toc472494813"></a><a name="_Toc472496020"></a><a name="_Toc472511556"></a><a name="_Toc472511650"></a><a name="_Toc473025806"></a><a name="_Toc473026172"></a><a name="_Toc524681043"></a><a name="_Toc526427035"></a><a name="_Toc526427336"></a><a name="_Toc526523480"></a><a name="_Toc39592682"></a><a name="_Toc39758231"></a><a name="_Toc40282410"></a><a name="_Toc40282861"></a><a name="_Toc42855545"></a><a name="_Toc43129543"></a><a name="_Toc43130081"></a><a name="_Toc43130171"></a><a name="_Toc86749184"></a><a name="_Toc86762611"></a><a name="_Toc86763166"></a><a name="_Toc86852106"></a><a name="_Toc215490807"></a><a name="_Toc216961805"></a><a name="_Toc216962028"></a><a name="_Toc218499036"></a><a name="_Toc218669518"></a><a name="_Toc221784949"></a><a name="_Toc223609072"></a><a name="_Toc230356581"></a><a name="_Toc237004516"></a><a name="_Toc237245549"></a><a name="_Toc242363675"></a><a name="_Toc242793995"></a><a name="_Toc242800159"></a><a name="_Toc243309138"></a><a name="_Toc244699357"></a>Active Guard and Reserve</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">AGR personnel are members of an RC who are placed on active duty or full-time National Guard duty orders for a period of 180 consecutive days or more for the purposes of "organizing, administering, recruiting, instructing, or training the reserve components."<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title='10 U.S.C. §101(d)(6)(A). See also DOD , "Full-Time Support (FTS) to the Reserve Components," p. 11 .'>36</a></sup> They may also perform certain operational support duties (such as support for emergency preparedness programs) and may provide training to AC personnel, DOD contractors, DOD civilians, and foreign military personnel.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='10 U.S.C. §12310 and 32 U.S.C. §328. AGR personnel may also be assigned to "national-level headquarters." See DOD , "Full-Time Support (FTS) to the Reserve Components," p. 7, and 10 U.S.C. §10211.'>37</a></sup> Although they are serving full-time, AGR personnel are still considered members of the Selected Reserve.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title='DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 24.'>38</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897715"></a><a name="_Toc470680378"></a><a name="_Toc472494814"></a><a name="_Toc472496021"></a><a name="_Toc472511557"></a><a name="_Toc472511651"></a><a name="_Toc473025807"></a><a name="_Toc473026173"></a><a name="_Toc524681044"></a><a name="_Toc526427036"></a><a name="_Toc526427337"></a><a name="_Toc526523481"></a><a name="_Toc39592683"></a><a name="_Toc39758232"></a><a name="_Toc40282411"></a><a name="_Toc40282862"></a><a name="_Toc42855546"></a><a name="_Toc43129544"></a><a name="_Toc43130082"></a><a name="_Toc43130172"></a><a name="_Toc86749185"></a><a name="_Toc86762612"></a><a name="_Toc86763167"></a><a name="_Toc86852107"></a><a name="_Toc215490808"></a><a name="_Toc216961806"></a><a name="_Toc216962029"></a><a name="_Toc218499037"></a><a name="_Toc218669519"></a><a name="_Toc221784950"></a><a name="_Toc223609073"></a><a name="_Toc230356582"></a><a name="_Toc237004517"></a><a name="_Toc237245550"></a><a name="_Toc242363676"></a><a name="_Toc242793996"></a><a name="_Toc242800160"></a><a name="_Toc243309139"></a><a name="_Toc244699358"></a>Military Technicians</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897717"></a><a name="_Toc470680380"></a><a name="_Toc472494816"></a><a name="_Toc472496023"></a><a name="_Toc472511559"></a><a name="_Toc472511653"></a><a name="_Toc473025809"></a><a name="_Toc473026175"></a><a name="_Toc524681046"></a><a name="_Toc526427038"></a><a name="_Toc526427339"></a><a name="_Toc526523483"></a><a name="_Toc39592685"></a><a name="_Toc39758234"></a><a name="_Toc40282412"></a><a name="_Toc40282863"></a><a name="_Toc42855547"></a><a name="_Toc43129545"></a><a name="_Toc43130083"></a><a name="_Toc43130173"></a><a name="_Toc86749186"></a><a name="_Toc86762613"></a><a name="_Toc86763168"></a><a name="_Toc86852108"></a><a name="_Toc215490809"></a><a name="_Toc216961807"></a><a name="_Toc216962030"></a><a name="_Toc218499038"></a><a name="_Toc218669520"></a><a name="_Toc221784952"></a>MTs, referred to in statute as "military technicians (dual status)," are federal civilian employees who provide support to reserve units either in the "organizing, administering, instructing or training of the Selected Reserve" or "in the maintenance and repair of supplies or equipment."<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title='10 U.S.C. §10216 (a)(1)(c) . See also DOD , "Full-Time Support (FTS) to the Reserve Components," p. 11 .'>39</a></sup> Some MTs may also perform certain operational support duties and provide training to AC personnel, DOD contractors, DOD civilians, and foreign military personnel.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="10 U.S.C. §10216(a)(3).">40</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">MTs are generally required to maintain membership in the Selected Reserve as a condition of their employment.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="This is known as the dual-status requirement , reflecting MTs' status as both federal civilian employees and military reservists. See 10 U.S.C. §10216 .">41</a></sup> They are required to attend IDT and AT with their reserve units.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title='DOD , "Full-Time Support (FTS) to the Reserve Components," pp. 8-9.'>42</a></sup> MTs can be involuntarily ordered to active duty in the same way as other members of the Selected Reserve. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc223609074"></a><a name="_Toc230356583"></a><a name="_Toc237004518"></a><a name="_Toc237245551"></a><a name="_Toc242363677"></a><a name="_Toc242793997"></a><a name="_Toc242800161"></a><a name="_Toc243309140"></a><a name="_Toc244699359"></a>Active Component in Full-Time Support</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">AC personnel in FTS roles are active-duty members of the military who are "assigned or attached to RC organizations or units by their respective Service to provide advice, liaison, management, administration, training, and support."<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title='DOD , "Full-Time Support (FTS) to the Reserve Components," p. 10.'>43</a></sup> Although they are formally members of the AC, not the RC, AC personnel may mobilize as part of the reserve units to which they are assigned.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title='DOD , "Full-Time Support (FTS) to the Reserve Components," p. 10.'>44</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc221784953"></a><a name="_Toc223609075"></a><a name="_Toc230356584"></a><a name="_Toc237004519"></a><a name="_Toc237245552"></a><a name="_Toc242363678"></a><a name="_Toc242793998"></a><a name="_Toc242800162"></a><a name="_Toc243309141"></a><a name="_Toc396897718"></a><a name="_Toc470680381"></a><a name="_Toc472494817"></a><a name="_Toc472496024"></a><a name="_Toc472511560"></a><a name="_Toc472511654"></a><a name="_Toc473025810"></a><a name="_Toc473026176"></a><a name="_Toc524681047"></a><a name="_Toc526427039"></a><a name="_Toc526427340"></a><a name="_Toc526523484"></a><a name="_Toc39592686"></a><a name="_Toc39758235"></a><a name="_Toc40282413"></a><a name="_Toc40282864"></a><a name="_Toc42855548"></a><a name="_Toc43129546"></a><a name="_Toc43130084"></a><a name="_Toc43130174"></a><a name="_Toc86749187"></a><a name="_Toc86762614"></a><a name="_Toc86763169"></a><a name="_Toc86852109"></a><a name="_Toc215490810"></a><a name="_Toc216961808"></a><a name="_Toc216962031"></a><a name="_Toc218499039"></a><a name="_Toc218669521"></a><a name="_Toc244699360"></a>Navy Full-Time Support</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Navy Reserve employs a cadre of FTS personnel who are members of the Navy Reserve but typically serve full-time in a manner analogous to their AC FTS counterparts. These personnel are comparable to AGR but are identified as a separate category in DOD regulations.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title='DOD , "Full-Time Support (FTS) to the Reserve Components," p. 11 .'>45</a></sup> Navy personnel and administrative regulations sometimes refer to sailors in this program as "TARs" (Training and Administration of the Reserves).<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title='U.S. Navy, " TAR (Training and Administration of the Reserve) FAQs , " https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/TAR/    .'>46</a></sup> These personnel incur an eight-year obligation, of which 48 months are "normally" served on active duty, and are administered as full-time active-duty personnel.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='DOD , "Full-Time Support (FTS) to the Reserve Components," p p. 7-8 and U.S. Navy, " Full-Time Support (FTS) of the Navy Reserve Enlisted Program , " July 1, 2019, p. 2, https://www.mynavyhr.navy.mil/Portals/55/Reference/MILPERSMAN/1000/1000General/1001-021.pdf?ver=FdI4hUZAR_B3N4orpATCGg%3D%3D .'>47</a></sup> Their duties involve "organizing, administering, recruiting, instructing, or training" the reserves.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title='DOD , "Full-Time Support (FTS) to the Reserve Components," p. 7.'>48</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc221784954"></a><a name="_Toc223609076"></a><a name="_Toc230356585"></a><a name="_Toc237004520"></a><a name="_Toc237245553"></a><a name="_Toc242363679"></a><a name="_Toc242793999"></a><a name="_Toc242800163"></a><a name="_Toc243309142"></a><a name="_Toc244699361"></a>Civilians</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Civilians are federal civil service employees who "provide administration, training, maintenance, and recruiting support to the RCs." They are not required to hold membership in the Selected Reserve as a condition of their employment.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title='DOD , "Full-Time Support (FTS) to the Reserve Components," p. 11.'>49</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897722"></a><a name="_Toc470680385"></a><a name="_Toc472494821"></a><a name="_Toc472496028"></a><a name="_Toc472511564"></a><a name="_Toc472511658"></a><a name="_Toc473025814"></a><a name="_Toc473026180"></a><a name="_Toc524681051"></a><a name="_Toc526427043"></a><a name="_Toc526427344"></a><a name="_Toc526523488"></a><a name="_Toc39592690"></a><a name="_Toc39758239"></a><a name="_Toc40282417"></a><a name="_Toc40282868"></a><a name="_Ref40803747"></a><a name="_Toc42855552"></a><a name="_Toc43129550"></a><a name="_Toc43130088"></a><a name="_Toc43130178"></a><a name="_Toc86749191"></a><a name="_Toc86762618"></a><a name="_Toc86763173"></a><a name="_Toc86852113"></a><a name="_Toc215490813"></a><a name="_Toc216961810"></a><a name="_Toc216962033"></a><a name="_Ref217294525"></a><a name="_Toc218499041"></a><a name="_Toc218669523"></a><a name="_Toc221784955"></a><a name="_Toc223609077"></a><a name="_Toc230356586"></a><a name="_Toc237004521"></a><a name="_Toc237245554"></a><a name="_Toc242363680"></a><a name="_Toc242794000"></a><a name="_Toc242800164"></a><a name="_Toc243309143"></a><a name="_Toc244699362"></a>7. What Type of Pay and Benefits Do Reservists Receive for Reserve and Active Duty?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reserve personnel are entitled to a range of pay and benefits, which may vary depending on the nature of the service performed and other factors (see <a class="InternalLink" href="#_Ref233811936"><strong></strong><strong>Table 6</strong></a>). In general, when reservists are ordered to federal active duty for more than 30 days, they receive pay and benefits nearly identical to those of AC personnel. When ordered to active duty for a period of 30 days or less, they receive most of the pay and benefits that AC personnel receive.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title='For example, reservists do not receive medical coverage for their families unless they have enrolled in the premium-based TRICARE Reserve health program . See TRICARE, "TRICARE Coverage for National Guard and Reserve Members: Know Your Options," July 31, 2025, https://newsroom.tricare.mil/News/TRICARE-News/Article/4260976/tricare-coverage-for-national-guard-and-reserve-members-know-your-options .'>50</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reservists who are not on active duty and are not in the Selected Reserve receive a different set of pay and benefits.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="Pay and benefit eligibility for reservists is generally determined by time spent performing duty. Because members of the IRR and Standby Reserve generally have no training obligation and are usually called to duty after members of the Selected Reserve are , they are typically ineligible for most pay and benefits.">51</a></sup> Additionally, National Guard personnel in state active duty receive pay and benefits outlined in state law. Finally, the accrual of pay and benefits for IDT is calculated differently from active service.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title='See "Basic Pay" and "Retirement" sections below. Certain categories of benefits, such as those for veterans and education, are beyond the scope of this report.'>52</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref233811936"></a><a name="_Toc230356567"></a><a name="_Toc237004501"></a><a name="_Toc237245535"></a><a name="_Toc242363661"></a><a name="_Toc242793981"></a><a name="_Toc242800145"></a><a name="_Toc243309122"></a><a name="_Toc244699341"></a>Table 6. Summary of Selected Reservist Pay and Benefits</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:114.7392pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Pay / Benefit</p>
+</td>
+<td style="width:317.2608pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Description</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.7392pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Basic Pay</p>
+</td>
+<td style="width:317.2608pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reservists are paid for each day of service in most cases. During weekend drill, they receive a day's pay for each <em>unit training </em><em>assembly</em>—a period of training typically lasting four hours—and may therefore receive two days' pay for eight hours of service.<a class="InternalLink" href="#_Ref315338677"><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.7392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Special Pays</p>
+</td>
+<td style="width:317.2608pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reservists are generally entitled to the same special and incentive pay as their active-component counterparts.<a class="InternalLink" href="#_Ref315338678"><sup></sup><sup><span class="TableTextFootnoteReference">b</span></sup></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.7392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Allowances</p>
+</td>
+<td style="width:317.2608pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reservists may be eligible for housing and subsistence allowances while performing many types of service.<a class="InternalLink" href="#_Ref315338679"><sup></sup><sup><span class="TableTextFootnoteReference">c</span></sup></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.7392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Medical Care</p>
+</td>
+<td style="width:317.2608pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reservists activated for 30 days or more are generally entitled to the same health benefits as active-component personnel. Reservists may be covered by TRICARE Reserve Select, a purchased plan, at other times.<a class="InternalLink" href="#_Ref315338680"><sup></sup><sup><span class="TableTextFootnoteReference">d</span></sup></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.7392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Life Insurance</p>
+</td>
+<td style="width:317.2608pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Members of the Selected Reserve may participate in the Servicemembers' Group Life Insurance program.<a class="InternalLink" href="#_Ref315338681"><sup></sup><sup><span class="TableTextFootnoteReference">e</span></sup></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.7392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Commissary and Exchange Access</p>
+</td>
+<td style="width:317.2608pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reservists generally have access to commissaries and exchanges in the United States.<a class="InternalLink" href="#_Ref315338682"><sup></sup><sup><span class="TableTextFootnoteReference">f</span></sup></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:114.7392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Retirement</p>
+</td>
+<td style="width:317.2608pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reservists become eligible for retirement after 20 years of qualifying service. Compensation depends in part on the total number of days served during a reservist's career. Retired reservists typically begin drawing retired pay after reaching age 60, though this age may be lowered in some circumstances.<a class="InternalLink" href="#_Ref315338683"><sup></sup><sup><span class="TableTextFootnoteReference">g</span></sup></a></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableNumberedNote">a. <a name="_Ref315338677"></a>37 U.S.C. §204 and 37 U.S.C. §206.</p>
+<p class="TableNumberedNote">b. <a name="_Ref315338678"></a>37 U.S.C. §331. </p>
+<p class="TableNumberedNote">c. <a name="_Ref315338679"></a>See Department of Defense (DOD), "Military Compensation and Financial Readiness," <a class="ExternalLink" href="https://militarypay.defense.gov/Pay/Allowances/BAH_Types/"><span class="Hyperlink">https://militarypay.defense.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">Pay/</span><span class="Hyperlink"></span><span class="Hyperlink">Allowances/</span><span class="Hyperlink"></span><span class="Hyperlink">BAH_Types/</span></a>; DOD, "Basic Allowance for Subsistence (BAS) Policy," April 23, 2007, p. 2, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/141805p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/</span><span class="Hyperlink"></span><span class="Hyperlink">Portals/</span><span class="Hyperlink"></span><span class="Hyperlink">54/</span><span class="Hyperlink"></span><span class="Hyperlink">Documents/</span><span class="Hyperlink"></span><span class="Hyperlink">DD/</span><span class="Hyperlink"></span><span class="Hyperlink">issuances/</span><span class="Hyperlink"></span><span class="Hyperlink">dodd/</span><span class="Hyperlink"></span><span class="Hyperlink">141805p.pdf</span></a>; DOD, <em>Financial Management Regulation</em>, vol. 7A, pp. 29-6, 30-4, and 30-5, <a class="ExternalLink" href="https://comptroller.war.gov/Portals/45/Documents/fmr/Volume_07a.pdf"><span class="Hyperlink">https://comptroller.war.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">Portals/</span><span class="Hyperlink"></span><span class="Hyperlink">45/</span><span class="Hyperlink"></span><span class="Hyperlink">Documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fmr/</span><span class="Hyperlink"></span><span class="Hyperlink">Volume_07a.pdf</span></a>.</p>
+<p class="TableNumberedNote">d. <a name="_Ref315338680"></a>Defense Health Agency, "TRICARE Coverage for National Guard and Reserve Members: Know Your Options," press release, July 31, 2025, <a class="ExternalLink" href="https://newsroom.tricare.mil/News/TRICARE-News/Article/4260976/tricare-coverage-for-national-guard-and-reserve-members-know-your-options"><span class="Hyperlink">https://newsroom.tricare.mil/</span><span class="Hyperlink"></span><span class="Hyperlink">News/</span><span class="Hyperlink"></span><span class="Hyperlink">TRICARE-News/</span><span class="Hyperlink"></span><span class="Hyperlink">Article/</span><span class="Hyperlink"></span><span class="Hyperlink">4260976/</span><span class="Hyperlink"></span><span class="Hyperlink">tricare-coverage-for-national-guard-and-reserve-members-know-your-options</span></a>. </p>
+<p class="TableNumberedNote">e. <a name="_Ref315338681"></a>Department of Veterans Affairs, "Servicemembers' Group Life Insurance (SGLI)," <a class="ExternalLink" href="https://www.va.gov/life-insurance/options-eligibility/sgli/"><span class="Hyperlink">https://www.va.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">life-insurance/</span><span class="Hyperlink"></span><span class="Hyperlink">options-eligibility/</span><span class="Hyperlink"></span><span class="Hyperlink">sgli/</span></a>. </p>
+<p class="TableNumberedNote">f. <a name="_Ref315338682"></a>10 U.S.C. §1063. </p>
+<p class="TableNumberedNote">g. <a name="_Ref315338683"></a>DOD, "Service Credit for Non-Regular Retirement," <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121507p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/</span><span class="Hyperlink"></span><span class="Hyperlink">Portals/</span><span class="Hyperlink"></span><span class="Hyperlink">54/</span><span class="Hyperlink"></span><span class="Hyperlink">Documents/</span><span class="Hyperlink"></span><span class="Hyperlink">DD/</span><span class="Hyperlink"></span><span class="Hyperlink">issuances/</span><span class="Hyperlink"></span><span class="Hyperlink">dodi/</span><span class="Hyperlink"></span><span class="Hyperlink">121507p.pdf</span></a>. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897723"></a><a name="_Toc470680386"></a><a name="_Toc472494822"></a><a name="_Toc472496029"></a><a name="_Toc472511565"></a><a name="_Toc472511659"></a><a name="_Toc473025815"></a><a name="_Toc473026181"></a><a name="_Toc524681052"></a><a name="_Toc526427044"></a><a name="_Toc526427345"></a><a name="_Toc526523489"></a><a name="_Toc39592691"></a><a name="_Toc39758240"></a><a name="_Toc40282418"></a><a name="_Toc40282869"></a><a name="_Toc42855553"></a><a name="_Toc43129551"></a><a name="_Toc43130089"></a><a name="_Toc43130179"></a><a name="_Toc86749192"></a><a name="_Toc86762619"></a><a name="_Toc86763174"></a><a name="_Toc86852114"></a><a name="_Toc215490814"></a><a name="_Toc216961811"></a><a name="_Toc216962034"></a><a name="_Toc218499042"></a><a name="_Toc218669524"></a><a name="_Toc221784956"></a><a name="_Toc223609078"></a><a name="_Toc230356587"></a><a name="_Toc237004522"></a><a name="_Toc237245555"></a><a name="_Toc242363681"></a><a name="_Toc242794001"></a><a name="_Toc242800165"></a><a name="_Toc243309144"></a><a name="_Toc244699363"></a>Basic Pay</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reservists activated for full-time duty under Title 10 or Title 32 generally receive one day of basic pay for each day of duty in a manner analogous to their AC counterparts. During their AT—a period of sustained training typically lasting two weeks—reservists are also usually paid for each day of duty performed. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The pay policy for reservists' IDT is more complex. When performing IDT, reservists receive the equivalent of one day of basic pay for each <em>unit training assembly </em>(UTA) they attend. A UTA is generally a four-hour period of instruction, and there are typically four UTAs in a weekend.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title='37 U.S.C. §206 and DOD , "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 12.'>53</a></sup> Reservists would therefore receive four days' basic pay for two calendar days of IDT. During a typical year, a reservist who worked 38 days (14 days of AT and 24 calendar days of IDT) would receive the equivalent of 62 days of basic pay (14 days of pay for AT and 48 days of pay for IDT).</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897724"></a><a name="_Toc470680387"></a><a name="_Toc472494823"></a><a name="_Toc472496030"></a><a name="_Toc472511566"></a><a name="_Toc472511660"></a><a name="_Toc473025816"></a><a name="_Toc473026182"></a><a name="_Toc524681053"></a><a name="_Toc526427045"></a><a name="_Toc526427346"></a><a name="_Toc526523490"></a><a name="_Toc39592692"></a><a name="_Toc39758241"></a><a name="_Toc40282419"></a><a name="_Toc40282870"></a><a name="_Toc42855554"></a><a name="_Toc43129552"></a><a name="_Toc43130090"></a><a name="_Toc43130180"></a><a name="_Toc86749193"></a><a name="_Toc86762620"></a><a name="_Toc86763175"></a><a name="_Toc86852115"></a><a name="_Toc215490815"></a><a name="_Toc216961812"></a><a name="_Toc216962035"></a><a name="_Toc218499043"></a><a name="_Toc218669525"></a><a name="_Toc221784957"></a><a name="_Toc223609079"></a><a name="_Toc230356588"></a><a name="_Toc237004523"></a><a name="_Toc237245556"></a><a name="_Toc242363682"></a><a name="_Toc242794002"></a><a name="_Toc242800166"></a><a name="_Toc243309145"></a><a name="_Toc244699364"></a>Special and Incentive Pays</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Military personnel may be eligible for special and incentive pays for performing certain types of hazardous or arduous duty, for serving in certain assignments, or for possessing certain skills.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="One example is hazardous duty pay. See 37 U.S.C. §351 and DOD, Financial Management Regulation , vol. 7A, p. 24-5, https://comptroller.war.gov/Portals/45/Documents/fmr/Volume_07a.pdf .">54</a></sup> Reserve personnel are generally eligible for these pays when performing qualifying duty, including AT.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="37 U.S.C. §357.">55</a></sup> They may receive a pro-rated portion of the full monthly amount corresponding to the number of days served. Reservists may also be eligible for special and incentive pays during IDT and typically receive such compensation at a rate proportional to the amount of inactive duty compensation they receive (i.e., one-thirtieth of the monthly rate for each UTA).<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="37 U.S.C. §§357, 1004.">56</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897725"></a><a name="_Toc470680388"></a><a name="_Toc472494824"></a><a name="_Toc472496031"></a><a name="_Toc472511567"></a><a name="_Toc472511661"></a><a name="_Toc473025817"></a><a name="_Toc473026183"></a><a name="_Toc524681054"></a><a name="_Toc526427046"></a><a name="_Toc526427347"></a><a name="_Toc526523491"></a><a name="_Toc39592693"></a><a name="_Toc39758242"></a><a name="_Toc40282420"></a><a name="_Toc40282871"></a><a name="_Toc42855555"></a><a name="_Toc43129553"></a><a name="_Toc43130091"></a><a name="_Toc43130181"></a><a name="_Toc86749194"></a><a name="_Toc86762621"></a><a name="_Toc86763176"></a><a name="_Toc86852116"></a><a name="_Toc215490816"></a><a name="_Toc216961813"></a><a name="_Toc216962036"></a><a name="_Toc218499044"></a><a name="_Toc218669526"></a><a name="_Toc221784958"></a><a name="_Toc223609080"></a><a name="_Toc230356589"></a><a name="_Toc237004524"></a><a name="_Toc237245557"></a><a name="_Toc242363683"></a><a name="_Toc242794003"></a><a name="_Toc242800167"></a><a name="_Toc243309146"></a><a name="_Ref243664288"></a><a name="_Toc244699365"></a>Allowances</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Military personnel may be eligible for a housing allowance, called Basic Allowance for Housing. During AT, but not during IDT, reservists may be eligible for a housing allowance known as Basic Allowance for Housing-Reserve Component/Transit and for a subsistence allowance known as Basic Allowance for Subsistence.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title='DOD, Types of BAH "Military Compensation and Financial Readiness," https://militarypay.defense.gov/Pay/Allowances/BAH_Types/  ; DOD, "Basic Allowance for Subsistence (BAS) Policy," April 23, 2007, p. 2, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/141805p.pdf .'>57</a></sup> Reserve officers are also entitled to a $400 clothing allowance at the beginning of their reserve service to assist them in purchasing necessary uniform items.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="DOD, Financial Management Regulation , vol. 7A, p. 30-4 , https://comptroller.war.gov/Portals/45/Documents/fmr/Volume_07a.pdf .">58</a></sup> Furthermore, if they are called to active duty for more than 90 days, they are usually entitled to an additional $200 clothing allowance.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title="DOD, Financial Management Regulation , vol. 7A, p p . 30-4- 30-5.">59</a></sup> Reserve enlisted personnel are typically issued all their uniforms, shoes, boots, and insignia and therefore do not receive a clothing allowance; however, they may be eligible for a clothing allowance if required uniform items are not provided to them.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="DOD, Financial Management Regulation , vol. 7A, p. 29- 5 .">60</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897726"></a><a name="_Toc470680389"></a><a name="_Toc472494825"></a><a name="_Toc472496032"></a><a name="_Toc472511568"></a><a name="_Toc472511662"></a><a name="_Toc473025818"></a><a name="_Toc473026184"></a><a name="_Toc524681055"></a><a name="_Toc526427047"></a><a name="_Toc526427348"></a><a name="_Toc526523492"></a><a name="_Toc39592694"></a><a name="_Toc39758243"></a><a name="_Toc40282421"></a><a name="_Toc40282872"></a><a name="_Toc42855556"></a><a name="_Toc43129554"></a><a name="_Toc43130092"></a><a name="_Toc43130182"></a><a name="_Toc86749195"></a><a name="_Toc86762622"></a><a name="_Toc86763177"></a><a name="_Toc86852117"></a><a name="_Toc215490817"></a><a name="_Toc216961814"></a><a name="_Toc216962037"></a><a name="_Toc218499045"></a><a name="_Toc218669527"></a><a name="_Toc221784959"></a><a name="_Toc223609081"></a><a name="_Toc230356590"></a><a name="_Toc237004525"></a><a name="_Toc237245558"></a><a name="_Toc242363684"></a><a name="_Toc242794004"></a><a name="_Toc242800168"></a><a name="_Toc243309147"></a><a name="_Toc244699366"></a>Medical Care</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When ordered to federal active duty for more than 30 days, members of the National Guard and reserves are generally entitled to the same medical benefits under TRICARE as are their AC counterparts.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title='See Defense Health Agency, "TRICARE Coverage for National Guard and Reserve Members: Know Your Options," press release, July 31, 2025, https://newsroom.tricare.mil/News/TRICARE-News/Article/4260976/tricare-coverage-for-national-guard-and-reserve-members-know-your-options .'>61</a></sup> When not on active duty, members of the Selected Reserve may purchase TRICARE Reserve Select, a premium-based health plan.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title='Defense Health Agency, " TRICARE Reserve Select , " https://tricare.mil/TRS .'>62</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897727"></a><a name="_Toc470680390"></a><a name="_Toc472494826"></a><a name="_Toc472496033"></a><a name="_Toc472511569"></a><a name="_Toc472511663"></a><a name="_Toc473025819"></a><a name="_Toc473026185"></a><a name="_Toc524681056"></a><a name="_Toc526427048"></a><a name="_Toc526427349"></a><a name="_Toc526523493"></a><a name="_Toc39592695"></a><a name="_Toc39758244"></a><a name="_Toc40282422"></a><a name="_Toc40282873"></a><a name="_Toc42855557"></a><a name="_Toc43129555"></a><a name="_Toc43130093"></a><a name="_Toc43130183"></a><a name="_Toc86749196"></a><a name="_Toc86762623"></a><a name="_Toc86763178"></a><a name="_Toc86852118"></a><a name="_Toc215490818"></a><a name="_Toc216961815"></a><a name="_Toc216962038"></a><a name="_Toc218499046"></a><a name="_Toc218669528"></a><a name="_Toc221784960"></a><a name="_Toc223609082"></a><a name="_Toc230356591"></a><a name="_Toc237004526"></a><a name="_Toc237245559"></a><a name="_Toc242363685"></a><a name="_Toc242794005"></a><a name="_Toc242800169"></a><a name="_Toc243309148"></a><a name="_Toc244699367"></a>Dental Care</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members of the Selected Reserve and IRR are generally eligible to enroll in a dental plan known as the TRICARE Dental Program.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title='See 10 U.S.C. §1076a and Defense Health Agency, " National Guard and Reserve Dental Care , " https://tricare.mil/CoveredServices/Dental/NGRDental .'>63</a></sup> Reservists may also enroll their families, which increases the premium.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='See Defense Health Agency, " Monthly Premiums , " https://www.tricare.mil/Costs/DentalCosts/TDP/Premiums .'>64</a></sup> The program provides up to $1,500 of coverage per year, per beneficiary, toward non-orthodontic dental services.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='See Defense Health Agency, " Plan Maximums , " https://www.tricare.mil/Costs/DentalCosts/TDP/Maximums .'>65</a></sup> There is also a benefit for orthodontic services, which has a lifetime cap of $1,750 per eligible beneficiary.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title='See Defense Health Agency, " Plan Maximums ."'>66</a></sup> <a name="_Toc396897728"></a><a name="_Toc470680391"></a><a name="_Toc472494827"></a><a name="_Toc472496034"></a><a name="_Toc472511570"></a><a name="_Toc472511664"></a><a name="_Toc473025820"></a><a name="_Toc473026186"></a><a name="_Toc524681057"></a><a name="_Toc526427049"></a><a name="_Toc526427350"></a><a name="_Toc526523494"></a><a name="_Toc39592696"></a><a name="_Toc39758245"></a><a name="_Toc40282423"></a><a name="_Toc40282874"></a><a name="_Toc42855558"></a><a name="_Toc43129556"></a><a name="_Toc43130094"></a><a name="_Toc43130184"></a></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc86749197"></a><a name="_Toc86762624"></a><a name="_Toc86763179"></a><a name="_Toc86852119"></a><a name="_Toc215490819"></a><a name="_Toc216961816"></a><a name="_Toc216962039"></a><a name="_Toc218499047"></a><a name="_Toc218669529"></a><a name="_Toc221784961"></a><a name="_Toc223609083"></a><a name="_Toc230356592"></a><a name="_Toc237004527"></a><a name="_Toc237245560"></a><a name="_Toc242363686"></a><a name="_Toc242794006"></a><a name="_Toc242800170"></a><a name="_Toc243309149"></a><a name="_Toc244699368"></a>Life Insurance</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members of the Selected Reserve are eligible to purchase up to $500,000 of life insurance under the Servicemembers' Group Life Insurance program.<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="See Department of Veterans Affairs, &quot; Servicemembers' Group Life Insurance (SGLI) , &quot; https://www.va.gov/life-insurance/options-eligibility/sgli/    .">67</a></sup> If a reservist is covered, he or she can also purchase up to $100,000 of life insurance for a spouse. This program may also provide $10,000 of life insurance coverage per child at no additional cost.<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title="See Department of Veterans Affairs, &quot; Servicemembers' Group Life Insurance (SGLI) .&quot;">68</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897729"></a><a name="_Toc470680392"></a><a name="_Toc472494828"></a><a name="_Toc472496035"></a><a name="_Toc472511571"></a><a name="_Toc472511665"></a><a name="_Toc473025821"></a><a name="_Toc473026187"></a><a name="_Toc524681058"></a><a name="_Toc526427050"></a><a name="_Toc526427351"></a><a name="_Toc526523495"></a><a name="_Toc39592697"></a><a name="_Toc39758246"></a><a name="_Toc40282424"></a><a name="_Toc40282875"></a><a name="_Toc42855559"></a><a name="_Toc43129557"></a><a name="_Toc43130095"></a><a name="_Toc43130185"></a><a name="_Toc86749198"></a><a name="_Toc86762625"></a><a name="_Toc86763180"></a><a name="_Toc86852120"></a><a name="_Toc215490822"></a><a name="_Toc216961819"></a><a name="_Toc216962042"></a><a name="_Toc218499050"></a><a name="_Toc218669533"></a><a name="_Toc221784965"></a><a name="_Toc223609087"></a><a name="_Toc230356593"></a><a name="_Toc237004528"></a><a name="_Toc237245561"></a><a name="_Toc242363687"></a><a name="_Toc242794007"></a><a name="_Toc242800171"></a><a name="_Toc243309150"></a><a name="_Toc244699369"></a>Commissary and Exchange Privileges</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Military personnel and their dependents may have access to the commissary, a system of subsidized military grocery stores. They may also have access to exchanges, which provide additional goods and services to military personnel and their dependents. Per Title 10, Section 1063, of the <em>U.S. Code</em>, members of the Selected Reserve "in good standing" have the same level of access to the commissary and exchanges as their AC counterparts do. Reserve retirees, including those under the age of 60, have the same access as retired military personnel.<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title='10 U.S.C. §1063. "Good standing" is determined by the respective s ervice s ecretaries.'>69</a></sup> DOD regulations further extend commissary privileges to members of the IRR and Standby Reserve and to the dependents of RC personnel.<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title='DOD , " DoD Commissary Program , " September 4, 2018, pp. 8-10, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/133017p.pdf .'>70</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897730"></a><a name="_Toc470680393"></a><a name="_Toc472494829"></a><a name="_Toc472496036"></a><a name="_Toc472511572"></a><a name="_Toc472511666"></a><a name="_Toc473025822"></a><a name="_Toc473026188"></a><a name="_Toc524681059"></a><a name="_Toc526427051"></a><a name="_Toc526427352"></a><a name="_Toc526523496"></a><a name="_Toc39592698"></a><a name="_Toc39758247"></a><a name="_Toc40282425"></a><a name="_Toc40282876"></a><a name="_Toc42855560"></a><a name="_Toc43129558"></a><a name="_Toc43130096"></a><a name="_Toc43130186"></a><a name="_Toc86749199"></a><a name="_Toc86762626"></a><a name="_Toc86763181"></a><a name="_Toc86852121"></a><a name="_Toc215490823"></a><a name="_Toc216961820"></a><a name="_Toc216962043"></a><a name="_Toc218499051"></a><a name="_Toc218669534"></a><a name="_Toc221784966"></a><a name="_Toc223609088"></a><a name="_Toc230356594"></a><a name="_Toc237004529"></a><a name="_Toc237245562"></a><a name="_Toc242363688"></a><a name="_Toc242794008"></a><a name="_Toc242800172"></a><a name="_Toc243309151"></a><a name="_Toc244699370"></a>Retirement</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reservists become eligible for retirement after 20 years of qualifying service.<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title="10 U.S.C. §12731(a)(2).">71</a></sup> A year of qualifying service is defined as a year in which a reservist has earned at least 50 <em>retirement points</em>, the sum of which is used to calculate retired pay (see below).<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title="10 U.S.C. §12732(a)(2).">72</a></sup> A reservist earns 15 retirement points per year for being a member of the Ready Reserve, one point for each UTA, one point for each day of AT, and one point for each day of active duty.<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title="10 U.S.C. §12732(a)(2).">73</a></sup> Points can also be earned for completing certain military courses and for performing funeral honors duty.<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title="10 U.S.C. §12733.">74</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Earning 50 points in a given year is generally feasible for members of the Selected Reserve, because attending a full year of IDT and two weeks of AT generates 77 retirement points.<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title='Forty-eight retirement points for 24 days of IDT , 14 retirement points for two weeks of AT , and 15 retirement points for maintaining membership in the Selected Reserve. DOD , " Service Credit for Non-Regular Retirement, " p p . 12- 15, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121507p.pdf .'>75</a></sup> Excluding points earned while in an active duty status (which includes AT), reservists may not earn more than 130 points per year.<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title="10 U.S.C. § 12733.">76</a></sup> Additionally, including points earned while in an active duty status, reservists may not earn more than 365 points in a year (366 in a leap year).<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title='DOD , " Service Credit for Non-Regular Retirement, " p. 15.'>77</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After completing 20 years of qualifying service, a reservist may apply for retirement.<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title='Upon retirement, but before reaching the retired pay eligibility age , a reservist is entitled to a limited number of benefits , including space-available travel on military aircraft within the United States and its territories . See 10 U.S.C. §1063; DOD , " Air Transportation Eligibility , " January 11, 2024, p. 33, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/451513p.PDF .'>78</a></sup> Upon reaching the retired pay eligibility age—which typically ranges between 50 and 60 depending on how many days of certain types of duty the reservist performed during his or her career<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title="See 10 U.S.C. § 1273 1 (f) .">79</a></sup>—the retired reservist is eligible to receive retired pay. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Retired pay is calculated by totaling all the points earned during all the years of service, then dividing this sum by 360. This calculation produces the number of <em>equivalent years</em> of active-duty service the reservist has performed. The number of <em>equivalent years</em> is then multiplied by 2.5% or 2.0% (depending on the date of entry to military service) to determine the <em>retirement benefit multiplier</em>.<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title="10 U.S.C. §12739 . For more information on military retirement, see CRS Report RL34751, Military Retirement: Background and Recent Developments , by Kristy N. Kamarck .">80</a></sup> This multiplier is then applied to an amount based on the highest of the last three years of paid service, sometimes called the <em>high-three average</em>.<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title="The high-three average applies to those entering service on or after September 8, 1980.">81</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc221784967"></a><a name="_Toc223609089"></a><a name="_Toc230356595"></a><a name="_Toc237004530"></a><a name="_Toc237245563"></a><a name="_Toc242363689"></a><a name="_Toc242794009"></a><a name="_Toc242800173"></a><a name="_Toc243309152"></a><a name="_Toc244699371"></a>8. What Types of Pay and Benefits Are Provided to Reservists Mobilized for Contingency Operations?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reservists mobilized for contingency operations are entitled to pay, benefits, and legal protections that are nearly identical to those provided to active-duty servicemembers. Specifically, they are entitled to basic pay at the same rate as active-duty personnel and, if qualified, may receive special and incentive pays including Hazardous Duty Pay, Aviation Career Incentive Pay, Hostile Fire/Imminent Danger Pay, and special pays for health professionals.<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title="DOD , Eleventh Quadrennial Review of Military Compensation , June 2012, pp. 228-235, https://militarypay.defense.gov/Portals/3/Documents/Reports/11th_QRMC_Main_Report_FINAL.pdf . See also 37 U.S.C. Chapter 5.">82</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Provided the servicemembers' orders are for more than 30 days, they are also entitled to a variety of allowances, including Basic Allowance for Housing, Basic Allowance for Subsistence, and, if separated from their families, a Family Separation Allowance.<sup><a class="FootnoteLink" href="#fn83" name="ifn83" title='DOD , " Family Separation Allowance, " https://militarypay.defense.gov/pay/ALLOWANCES/fsa.aspx . For more on BAS and BAH, see " Allowances " section.'>83</a></sup> Medical and dental coverage for these reservists and their family members is nearly identical to that provided to active-duty servicemembers. Leave is accrued in the same manner as for active-duty personnel.<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title='DOD, " Military Leave, Liberty, and Administrative Absence , " August 7, 2025, p. 10, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/132706p.pdf .'>84</a></sup> They may use child care centers; space-available travel; and morale, welfare, and recreation services.<sup><a class="FootnoteLink" href="#fn85" name="ifn85" title='S ee CRS Report R45288, Military Child Development Program: Background and Issues , by Kristy N. Kamarck ; DOD , " Military Morale, Welfare, and Recreation (MWR) Programs , " May 6, 2011, p. 21, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/101510p.pdf .'>85</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc221784968"></a><a name="_Toc223609090"></a><a name="_Toc230356596"></a><a name="_Toc237004531"></a><a name="_Toc237245564"></a><a name="_Toc242363690"></a><a name="_Toc242794010"></a><a name="_Toc242800174"></a><a name="_Toc243309153"></a><a name="_Toc244699372"></a>Income Replacement for Certain RC Personnel </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Certain reservists who experience income loss while involuntarily mobilized may be entitled to a special payment of $50 to $3,000.<sup><a class="FootnoteLink" href="#fn86" name="ifn86" title="37 U.S.C. §910.">86</a></sup> Reservists who have experienced income loss become eligible for these payments in every full month of active duty following the month in which they: </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">complete 547 consecutive days (18 consecutive months) of active duty under an involuntary mobilization order; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">complete 730 days of active duty under an involuntary mobilization order out of the previous 1,826 days (24 out of 60 months); or </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">are involuntarily mobilized for a period of 180 days or more within 180 days of a previous period of involuntary active duty for a period of 180 days or more.<sup><a class="FootnoteLink" href="#fn87" name="ifn87" title="37 U.S.C. §910.">87</a></sup> </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The amount of compensation available under this provision is equal to the reservist's <em>average monthly civilian income</em> minus <em>total monthly military compensation</em>.<sup><a class="FootnoteLink" href="#fn88" name="ifn88" title="37 U.S.C. §910. The term average monthly civilian income is defined at 37 U.S.C. §910 (e)(1) .">88</a></sup> However, payments shall be made only if the differential is at least $50 per month and may not exceed $3,000 per month. Involuntary orders to full-time National Guard duty under Title 32, Section 502(f)(1), of the <em>U.S. Code</em> count as qualifying duty for the purposes of this payment.<sup><a class="FootnoteLink" href="#fn89" name="ifn89" title="See DOD, Financial Management Regulation , vol. 7A, p. 55-3 .">89</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc221784969"></a><a name="_Toc223609091"></a><a name="_Toc230356597"></a><a name="_Toc237004532"></a><a name="_Toc237245565"></a><a name="_Toc242363691"></a><a name="_Toc242794011"></a><a name="_Toc242800175"></a><a name="_Toc243309154"></a><a name="_Toc244699373"></a>Differential Pay for Mobilized Federal Employees</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 111<sup>th</sup> Congress enacted a provision to minimize the income loss of civilian federal government employees who are involuntarily ordered to active duty or involuntarily retained on active duty.<sup><a class="FootnoteLink" href="#fn90" name="ifn90" title="5 U.S.C. §5538.">90</a></sup> The provision provides <em>differential pay</em>—a payment equal to the amount by which a reservist's military pay and allowances are lower than his or her civilian basic pay. Specific eligibility criteria and the method for calculating the amount of differential pay are outlined in a 2015 memorandum issued by the Office of Personnel Management.<sup><a class="FootnoteLink" href="#fn91" name="ifn91" title='Office of Personnel Management (OPM) , " OPM Policy Guidance Regarding Reservist Differential Under 5 U.S.C. 5538 , " June 23, 2015, https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/reservist-differential/policyguidance.pdf .'>91</a></sup> This provision applies only to federal government employees, but it is not limited to cases of extended or frequent activations such as the income replacement provision discussed in the previous paragraph. Entitlement begins immediately following involuntary activation, though compensation may lag by up to eight weeks.<sup><a class="FootnoteLink" href="#fn92" name="ifn92" title='OPM , " OPM Policy Guidance Regarding Reservist Differential ," p. 11.'>92</a></sup> Full-time National Guard duty under Title 32 does not count as qualifying duty for the purposes of this payment.<sup><a class="FootnoteLink" href="#fn93" name="ifn93" title='OPM , " OPM Policy Guidance Regarding Reservist Differential ," p. 17.'>93</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref267663118"></a><a name="_Ref267663215"></a><a name="_Ref267663264"></a><a name="_Ref267663301"></a><a name="_Ref267663389"></a><a name="_Ref267663907"></a><a name="_Ref267664044"></a><a name="_Toc396897731"></a><a name="_Toc470680394"></a><a name="_Toc472494830"></a><a name="_Toc472496037"></a><a name="_Toc472511573"></a><a name="_Toc472511667"></a><a name="_Toc473025823"></a><a name="_Toc473026189"></a><a name="_Toc524681060"></a><a name="_Toc526427052"></a><a name="_Toc526427353"></a><a name="_Toc526523497"></a><a name="_Toc39592699"></a><a name="_Toc39758248"></a><a name="_Toc40282426"></a><a name="_Toc40282877"></a><a name="_Toc42855561"></a><a name="_Toc43129559"></a><a name="_Toc43130097"></a><a name="_Toc43130187"></a><a name="_Toc86749200"></a><a name="_Toc86762627"></a><a name="_Toc86763182"></a><a name="_Toc86852122"></a><a name="_Toc215490824"></a><a name="_Toc216961821"></a><a name="_Toc216962044"></a><a name="_Toc218499052"></a><a name="_Toc218669535"></a><a name="_Toc221784970"></a><a name="_Toc223609092"></a><a name="_Toc230356598"></a><a name="_Toc237004533"></a><a name="_Toc237245566"></a><a name="_Toc242363692"></a><a name="_Toc242794012"></a><a name="_Toc242800176"></a><a name="_Toc243309155"></a><a name="_Toc244699374"></a>9. How Are Reservists Called to Active Duty by the Federal Government?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reservists perform federal duty under a range of statutory authorities in the <em>U.S. Code</em>.<sup><a class="FootnoteLink" href="#fn94" name="ifn94" title="For more information on duty statuses , see CRS Report R49056, Reserve Component Duty Statuses: Background and Issues for Congress , by Nicholas M. Munves .">94</a></sup> Five of these statutes are generally used to activate reservists to carry out or support military operations as part of the Armed Forces. These statutes are discussed below.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc221784936"></a><a name="_Toc223609059"></a><a name="_Toc230356568"></a><a name="_Toc237004502"></a><a name="_Toc237245536"></a><a name="_Toc242363662"></a><a name="_Toc242793982"></a><a name="_Toc242800146"></a><a name="_Toc243309123"></a><a name="_Toc244699342"></a>Table 7. Select Mobilization Authorities for the Reserve Component</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:81.8208pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Name</p>
+</td>
+<td style="width:86.48639999999999pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Statute</p>
+</td>
+<td style="width:53.568pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Personnel Cap</p>
+</td>
+<td style="width:92.7072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Maximum Duration</p>
+</td>
+<td style="width:117.4176pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Comment</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:81.8208pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Full Mobilization</p>
+</td>
+<td style="width:86.48639999999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">10 U.S.C. §12301(a)</p>
+</td>
+<td style="width:53.568pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">None specified</p>
+</td>
+<td style="width:92.7072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Duration of war or emergency plus six months</p>
+</td>
+<td style="width:117.4176pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Requires declaration of war or national emergency by Congress.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:81.8208pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Partial Mobilization</p>
+</td>
+<td style="width:86.48639999999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">10 U.S.C. §12302</p>
+</td>
+<td style="width:53.568pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1 million</p>
+</td>
+<td style="width:92.7072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">24 consecutive months</p>
+</td>
+<td style="width:117.4176pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">No congressional approval required.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:81.8208pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Presidential Reserve Call-Up</p>
+</td>
+<td style="width:86.48639999999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">10 U.S.C. §12304</p>
+</td>
+<td style="width:53.568pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">200,000</p>
+</td>
+<td style="width:92.7072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">365 consecutive days</p>
+</td>
+<td style="width:117.4176pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">No congressional approval required. Report to Congress required.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:81.8208pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Federal Reserve Emergency Call-Up</p>
+</td>
+<td style="width:86.48639999999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">10 U.S.C. §12304a </p>
+</td>
+<td style="width:53.568pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">None</p>
+</td>
+<td style="width:92.7072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">120 days</p>
+</td>
+<td style="width:117.4176pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">At request of a governor in response to a disaster or emergency.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:81.8208pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reserve Preplanned Call-Up</p>
+</td>
+<td style="width:86.48639999999999pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">10 U.S.C. §12304b</p>
+</td>
+<td style="width:53.568pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">60,000</p>
+</td>
+<td style="width:92.7072pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">365 consecutive days</p>
+</td>
+<td style="width:117.4176pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">For preplanned support of combatant commands.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> Congress.gov.</p>
+<p class="TableNote"><strong>Notes:</strong> The names of these mobilization authorities are taken from Department of Defense, "Accessing the Reserve Components (RC)," June 7, 2016, p. 16, <a class="ExternalLink" href="https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodi/123512p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/</span><span class="Hyperlink"></span><span class="Hyperlink">portals/</span><span class="Hyperlink"></span><span class="Hyperlink">54/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">dd/</span><span class="Hyperlink"></span><span class="Hyperlink">issuances/</span><span class="Hyperlink"></span><span class="Hyperlink">dodi/</span><span class="Hyperlink"></span><span class="Hyperlink">123512p.pdf</span></a>.</p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref267663751"></a><a name="_Toc396897732"></a><a name="_Toc470680395"></a><a name="_Toc472494831"></a><a name="_Toc472496038"></a><a name="_Toc472511574"></a><a name="_Toc472511668"></a><a name="_Toc473025824"></a><a name="_Toc473026190"></a><a name="_Toc524681061"></a><a name="_Toc526427053"></a><a name="_Toc526427354"></a><a name="_Toc526523498"></a><a name="_Toc39592700"></a><a name="_Toc39758249"></a><a name="_Toc40282427"></a><a name="_Toc40282878"></a><a name="_Toc42855562"></a><a name="_Toc43129560"></a><a name="_Toc43130098"></a><a name="_Toc43130188"></a><a name="_Toc86749201"></a><a name="_Toc86762628"></a><a name="_Toc86763183"></a><a name="_Toc86852123"></a><a name="_Toc215490825"></a><a name="_Toc216961822"></a><a name="_Toc216962045"></a><a name="_Toc218499053"></a><a name="_Toc218669536"></a><a name="_Toc221784971"></a><a name="_Toc223609093"></a><a name="_Toc230356599"></a><a name="_Toc237004534"></a><a name="_Toc237245567"></a><a name="_Toc242363693"></a><a name="_Toc242794013"></a><a name="_Toc242800177"></a><a name="_Toc243309156"></a><a name="_Toc244699375"></a>Full Mobilization</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In time of war or national emergency declared by Congress, or when otherwise authorized by law, Section 12301(a) permits the service secretaries to order RC members under their jurisdiction to active duty.<sup><a class="FootnoteLink" href="#fn95" name="ifn95" title="10 U.S.C. § 12301(a) .">95</a></sup> There is no limit on the number of reservists who may be activated under this provision. Reservists may be kept on active duty for the duration of the war or emergency plus six months.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897733"></a><a name="_Toc470680396"></a><a name="_Toc472494832"></a><a name="_Toc472496039"></a><a name="_Toc472511575"></a><a name="_Toc472511669"></a><a name="_Toc473025825"></a><a name="_Toc473026191"></a><a name="_Toc524681062"></a><a name="_Toc526427054"></a><a name="_Toc526427355"></a><a name="_Toc526523499"></a><a name="_Toc39592701"></a><a name="_Toc39758250"></a><a name="_Toc40282428"></a><a name="_Toc40282879"></a><a name="_Toc42855563"></a><a name="_Toc43129561"></a><a name="_Toc43130099"></a><a name="_Toc43130189"></a><a name="_Toc86749202"></a><a name="_Toc86762629"></a><a name="_Toc86763184"></a><a name="_Toc86852124"></a><a name="_Toc215490826"></a><a name="_Toc216961823"></a><a name="_Toc216962046"></a><a name="_Toc218499054"></a><a name="_Toc218669537"></a><a name="_Toc221784972"></a><a name="_Toc223609094"></a><a name="_Toc230356600"></a><a name="_Toc237004535"></a><a name="_Toc237245568"></a><a name="_Toc242363694"></a><a name="_Toc242794014"></a><a name="_Toc242800178"></a><a name="_Toc243309157"></a><a name="_Toc244699376"></a>Partial Mobilization</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In time of a national emergency declared by the President, or when otherwise authorized by law, Section 12302 permits any of the service secretaries to activate members of the Ready Reserve under presidential authority for up to 24 consecutive months. Up to 1 million members of the Ready Reserve may be called up at any one time under this provision. Congressional approval is not required for such activations.<sup><a class="FootnoteLink" href="#fn96" name="ifn96" title="10 U.S.C. § 1230 2.">96</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc396897734"></a><a name="_Toc470680397"></a><a name="_Toc472494833"></a><a name="_Toc472496040"></a><a name="_Toc472511576"></a><a name="_Toc472511670"></a><a name="_Toc473025826"></a><a name="_Toc473026192"></a><a name="_Toc524681063"></a><a name="_Toc526427055"></a><a name="_Toc526427356"></a><a name="_Toc526523500"></a><a name="_Toc39592702"></a><a name="_Toc39758251"></a><a name="_Toc40282429"></a><a name="_Toc40282880"></a><a name="_Toc42855564"></a><a name="_Toc43129562"></a><a name="_Toc43130100"></a><a name="_Toc43130190"></a><a name="_Toc86749203"></a><a name="_Toc86762630"></a><a name="_Toc86763185"></a><a name="_Toc86852125"></a><a name="_Toc215490827"></a><a name="_Toc216961824"></a><a name="_Toc216962047"></a><a name="_Toc218499055"></a><a name="_Toc218669538"></a><a name="_Toc221784973"></a><a name="_Toc223609095"></a><a name="_Toc230356601"></a><a name="_Toc237004536"></a><a name="_Toc237245569"></a><a name="_Toc242363695"></a><a name="_Toc242794015"></a><a name="_Toc242800179"></a><a name="_Toc243309158"></a><a name="_Toc244699377"></a>Presidential Reserve Call-Up</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under <a name="_Hlk220578985"></a>Section 12304, the President may order up to 200,000 members of the Selected Reserve and the IRR to active duty for up to 365 consecutive days. The President may activate reservists under this provision without approval from Congress. However, the President is required to notify Congress within 24 hours of such an action "in writing, setting forth the circumstances necessitating the action taken under this section and describing the anticipated use of these units or members." </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Those reservists activated under this authority may not be used to suppress insurrection or enforce federal authority, nor may they be used to provide assistance to the federal government or the states for disaster response unless responding to an emergency involving the "use or threatened use of a weapon of mass destruction" or an actual or threatened terrorist attack "that results, or could result, in significant loss of life or property."<sup><a class="FootnoteLink" href="#fn97" name="ifn97" title="10 U.S.C. § 12304 .">97</a></sup><a name="_Toc396897735"></a><a name="_Toc470680398"></a><a name="_Toc472494834"></a><a name="_Toc472496041"></a><a name="_Toc472511577"></a><a name="_Toc472511671"></a><a name="_Toc473025827"></a><a name="_Toc473026193"></a><a name="_Toc524681064"></a><a name="_Toc526427056"></a><a name="_Toc526427357"></a><a name="_Toc526523501"></a><a name="_Toc39592703"></a><a name="_Toc39758252"></a><a name="_Toc40282430"></a><a name="_Toc40282881"></a><a name="_Toc42855565"></a><a name="_Toc43129563"></a><a name="_Toc43130101"></a><a name="_Toc43130191"></a></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 12304 also authorizes activations of reserve personnel in response to "significant cyber incidents" affecting DOD or Department of Homeland Security information systems that the relevant Secretary "determines is likely to result in demonstrable harm to the national security interests, foreign relations, or the economy of the United States, or to the public confidence, civil liberties, or public health and safety of the people of the United States" or a cyber incident or collection of related cyber incidents that "the President determines is likely to result in demonstrable harm to the national security interests, foreign relations, or economy of the United States or to the public confidence, civil liberties, or public health and safety of the people of the United States; or … a significant incident declared pursuant to section 2233 of the Homeland Security Act of 2002 (6 U.S.C. 677b)."<sup><a class="FootnoteLink" href="#fn98" name="ifn98" title="10 U.S.C. §12304(k).">98</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc86749204"></a><a name="_Toc86762631"></a><a name="_Toc86763186"></a><a name="_Toc86852126"></a><a name="_Toc215490828"></a><a name="_Toc216961825"></a><a name="_Toc216962048"></a><a name="_Toc218499056"></a><a name="_Toc218669539"></a><a name="_Toc221784974"></a><a name="_Toc223609096"></a><a name="_Toc230356602"></a><a name="_Toc237004537"></a><a name="_Toc237245570"></a><a name="_Toc242363696"></a><a name="_Toc242794016"></a><a name="_Toc242800180"></a><a name="_Toc243309159"></a><a name="_Toc396897737"></a><a name="_Toc470680400"></a><a name="_Toc472494836"></a><a name="_Toc472496043"></a><a name="_Toc472511579"></a><a name="_Toc472511673"></a><a name="_Toc473025829"></a><a name="_Toc473026195"></a><a name="_Toc524681066"></a><a name="_Toc526427058"></a><a name="_Toc526427359"></a><a name="_Toc526523503"></a><a name="_Toc39592705"></a><a name="_Toc39758254"></a><a name="_Toc40282432"></a><a name="_Toc40282883"></a><a name="_Toc42855567"></a><a name="_Toc43129565"></a><a name="_Toc43130103"></a><a name="_Toc43130193"></a><a name="_Toc244699378"></a>Reserve Emergency Call-Up</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under Section 12304a, the Secretary of Defense may order units and individuals of the Army, Navy, Marine Corps, and Air Force Reserves to active duty for up to 120 days "[w]hen a governor requests federal assistance in responding to a major disaster or emergency" as defined in Section 102 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. §5122).<sup><a class="FootnoteLink" href="#fn99" name="ifn99" title="10 U.S.C. §12304a (a) .">99</a></sup> National Guard forces are not included in this covered group. State and territorial governors have authority to activate their National Guard forces and request support from other state and territorial National Guards under the Emergency Management Assistance Compact.<sup><a class="FootnoteLink" href="#fn100" name="ifn100" title="P.L. 104-321 . See also the Emergency Management Assistance Compact website at https://www.emacweb.org/     . The Coast Guard Reserve has a separate short-term disaster response activation authority in 14 U.S.C. §3713.">100</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc86749205"></a><a name="_Toc86762632"></a><a name="_Toc86763187"></a><a name="_Toc86852127"></a><a name="_Toc215490829"></a><a name="_Toc216961826"></a><a name="_Toc216962049"></a><a name="_Toc218499057"></a><a name="_Toc218669540"></a><a name="_Toc221784975"></a><a name="_Toc223609097"></a><a name="_Toc230356603"></a><a name="_Toc237004538"></a><a name="_Toc237245571"></a><a name="_Toc242363697"></a><a name="_Toc242794017"></a><a name="_Toc242800181"></a><a name="_Toc243309160"></a><a name="_Toc244699379"></a>Reserve Preplanned Call-Up</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section 12304b allows involuntary activations of Selected Reserve units for up to 365 consecutive days of active duty in support of a combatant command.<sup><a class="FootnoteLink" href="#fn101" name="ifn101" title="10 U.S.C. §12304b (a) .">101</a></sup> No more than 60,000 members of the National Guard and reserves may serve on active duty under this authority at a time. The authority to activate reservists under this provision rests with each service secretary, but it may be invoked only for a "preplanned mission in support of a combatant command" where the costs of the activations and a description of the mission are included in the service's budget materials.<sup><a class="FootnoteLink" href="#fn102" name="ifn102" title="10 U.S.C. §12304b (b ).">102</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to the committee report that accompanied the Senate version of the bill, this authority "is not designed for use for emergent operational or humanitarian missions, but rather to enhance the use of reserve component units that organize, train, and plan to support operational mission requirements to the same standards as active component units under service force generation plans in a cyclic, periodic, and predictable manner."<sup><a class="FootnoteLink" href="#fn103" name="ifn103" title="S.Rept. 112-26 , p. 110.">103</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc86749206"></a><a name="_Toc86762633"></a><a name="_Toc86763188"></a><a name="_Toc86852128"></a><a name="_Toc215490830"></a><a name="_Toc216961827"></a><a name="_Toc216962050"></a><a name="_Toc218499058"></a><a name="_Toc218669541"></a><a name="_Toc221784976"></a><a name="_Toc223609098"></a><a name="_Toc230356604"></a><a name="_Toc237004539"></a><a name="_Toc237245572"></a><a name="_Toc242363698"></a><a name="_Toc242794018"></a><a name="_Toc242800182"></a><a name="_Toc243309161"></a><a name="_Toc244699380"></a>Recall of Retired Reservists</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members of the Retired Reserve can be involuntarily ordered to active duty in the case of a full mobilization (see "<a class="InternalLink" href="#_Ref267663751">Full Mobilization</a>," above). Under this authority, they may be kept on active duty for the duration of the war or emergency plus six months.<sup><a class="FootnoteLink" href="#fn104" name="ifn104" title="10 U.S.C. §12301 .">104</a></sup> While there is no cap on the number of retirees who may be activated, a limit in this provision stipulates that "a member on an inactive status list or in a retired status may not be ordered to active duty under this subsection unless the Secretary concerned, with the approval of the Secretary of Defense in the case of the Secretary of a military department, determines that there are not enough qualified Reserves in an active status or in the inactive National Guard in the required category who are readily available."<sup><a class="FootnoteLink" href="#fn105" name="ifn105" title="10 U.S.C. §12301 (a) .">105</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, the Secretary of each military department has the authority to involuntarily order certain members of the Retired Reserve to active duty at any time, but this authority applies only to members of the Retired Reserve who have a regular retirement (at least 20 years of active duty).<sup><a class="FootnoteLink" href="#fn106" name="ifn106" title="10 U.S.C. §688(b)(2).">106</a></sup> There is a limit on the amount of time recalled retirees can serve and a limit on the number of officers recalled, but these limits do not apply in times of war or national emergency declared by Congress or the President.<sup><a class="FootnoteLink" href="#fn107" name="ifn107" title="10 U.S.C. §§688 and 690.">107</a></sup><a name="_Hlk206071243"></a></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242363699"></a><a name="_Toc242794019"></a><a name="_Toc242800183"></a><a name="_Toc243309162"></a><a name="_Toc244699381"></a>Potential Issues for Congress</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Do the personnel policies of the Reserve Component support the missions of the Reserve Components?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress may consider how it expects the National Guard and reserves to be employed and if the force structure and personnel policies of the reserves support Congress's intent. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress could evaluate the balance between the RC's strategic and operational roles. In its strategic role, the RC provides additional forces for mid- to large-scale contingency operations or other unanticipated national crises. In its operational role, the RC participates regularly in force rotations and military operations. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">DOD policy indicates that the reserves maintain both operational and strategic roles.<sup><a class="FootnoteLink" href="#fn108" name="ifn108" title="DOD , &quot; Managing the Reserve Components as an Operational Force , &quot; October 29, 2008, p. 8, https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/120017p.pdf . See also CRS In Focus IF10540, Defense Primer: Reserve Forces , by Nicholas M. Munves, Carly A. Miller, and Ebrima M'Bai .">108</a></sup> Congress may consider the appropriate balance between these mission sets. It may further consider whether the force structure and personnel policies of the RC supports the missions Congress intends the RC to perform.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Do the personnel policies of the Reserve Component support Congress's military end-strength goals?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress sets the authorized number of military personnel (also called the end-strength) of the Armed Forces, historically in an annual National Defense Authorization Act. Congress may consider whether RC personnel policies help or hinder the services' efforts to recruit and retain personnel to meet these end-strength goals.<sup><a class="FootnoteLink" href="#fn109" name="ifn109" title="For more information, see CRS Insight IN12728, FY2027 NDAA: Active Component End-Strength , by Nicholas M. Munves and CRS Insight IN12727, FY2027 NDAA: Reserve Component End-Strength , by Nicholas M. Munves .">109</a></sup> Generally, more generous RC pay and benefits may help the reserves attract recruits and retain personnel to meet end-strength goals. Generous RC benefits may also cause prospective recruits to choose the reserves over the AC—or AC personnel to switch to the reserves. This dynamic may hinder the active forces' efforts to meet their end-strength goals. Congress may consider the appropriate balance of AC and RC benefits with the structure of the total force in mind.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Do the personnel policies of the Reserve Component support a cost-effective military force?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress may consider whether RC personnel policies are cost-effective, by evaluating the absolute cost of employing reserve personnel, or comparing the costs of employing active and reserve personnel.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Should Congress choose to reduce the costs of employing reserve personnel, it may adjust RC pay and benefits to achieve this goal. Congress may also adjust the AC/RC force mix for a range of reasons, including cost savings.<sup><a class="FootnoteLink" href="#fn110" name="ifn110" title="For a discussion of the cost implications of the AC/RC force mix in an Army context, see CRS Report R43808, Army Active Component (AC)/Reserve Component (RC) Force Mix: Considerations and Options for Congress , by Andrew Feickert and Lawrence Kapp .">110</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Lawrence Kapp and Barbara Salazar-Torreon contributed to a prior version of this report.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Coast Guard typically operates under the authority of the Department of Homeland Security but may be transferred to the authority of the Secretary of the Navy under certain circumstances (see 10 U.S.C. §8013a). Because the Coast Guard operates primarily as a component of the Department of Homeland Security, it will generally not be discussed in this report. It may be mentioned occasionally, as appropriate.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Space Force has a unique personnel management system, in which full-time and part-time personnel are managed in a single component. See "<a class="InternalLink" href="#_Ref228978185">5. Does the Space Force Have a Reserve Component?</a>"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §10101. </p>
+<p class="FootnoteText" style="">Because the Coast Guard operates primarily as a component of the Department of Homeland Security, it will generally not be discussed in this report. It may be mentioned occasionally, as appropriate.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §10102. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The DC National Guard operates in federal control at all times. See DC National Guard, "About Us," <a class="ExternalLink" href="https://dc.ng.mil/About-Us/"><span class="Hyperlink">https://dc.ng.mil/About-Us/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For statutory definition, see 10 U.S.C. §101(d)(1).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD is "using a secondary Department of War designation," under Executive Order 14347 dated September 5, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For an example of disaster response in Maryland, see National Guard Bureau, "Maryland Guard Tackles Lee Storm Floods," press release, September 12, 2011, <a class="ExternalLink" href="https://www.nationalguard.mil/News/Article-View/Article/613013/maryland-guard-tackles-lee-storm-floods/"><span class="Hyperlink">https://www.nationalguard.mil/News/Article-View/Article/613013/maryland-guard-tackles-lee-storm-floods/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+<p class="FootnoteText" style="">For an example of civil disorder response in Minnesota, see Office of the Governor of Minnesota, "Governor Walz Signs Executive Order Activating National Guard to Protect the People of Minnesota," press release, May 28, 2020, <a class="ExternalLink" href="https://mn.gov/governor/newsroom/press-releases/?id=1055-433799"><span class="Hyperlink">https://mn.gov/governor/newsroom/press-releases/?id=1055-433799</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the New York National Guard was deployed to Indian Point Energy Center (a now-decommissioned nuclear power plant station) following the September 11 attacks. See letter from Elinor G. Adensam, Office of Nuclear Reactor Regulation, Nuclear Regulatory Commission, to Matthew P. Carey, Clerk-Treasurer, Village of Dobbs Ferry, NY, March 27, 2002, <a class="ExternalLink" href="https://www.nrc.gov/docs/ML0207/ML020720104.pdf"><span class="Hyperlink">https://www.nrc.gov/docs/ML0207/ML020720104.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See for example, Col. Richard Goldenberg, "NY National Guard COVID-19 Response Force Grows to 2,850," April 3, 2020, <a class="ExternalLink" href="https://www.army.mil/article/234244/ny_national_guard_covid_19_response_force_grows_to_2850"><span class="Hyperlink">https://www.army.mil/article/234244/ny_national_guard_covid_19_response_force_grows_to_2850</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Air National Guard, "Capt. Gregory Wagner, Task Force FireGuard Commander," <em>140</em><em><sup>th</sup></em><em> Wing Podcast</em>, May 7, 2026, <a class="ExternalLink" href="https://www.af.mil/News/Radio/mod/1781/player/603/video/1005997"><span class="Hyperlink">https://www.af.mil/News/Radio/mod/1781/player/603/video/1005997</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For response to 2020 unrest, see DC National Guard, "District of Columbia National Guard Mobilized," press release, June 1, 2020, <a class="ExternalLink" href="https://dc.ng.mil/Public-Affairs/Features/Article/2204415/district-of-columbia-national-guard-mobilized/"><span class="Hyperlink">https://dc.ng.mil/Public-Affairs/Features/Article/2204415/district-of-columbia-national-guard-mobilized/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+<p class="FootnoteText" style="">For response to events of January 6, 2021, see National Guard Bureau, "National Guard Response to Civil Unrest," press release, January 8, 2021, <a class="ExternalLink" href="https://www.nationalguard.mil/News/Press-Releases/Article/2466269/national-guard-response-to-civil-unrest/"><span class="Hyperlink">https://www.nationalguard.mil/News/Press-Releases/Article/2466269/national-guard-response-to-civil-unrest/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Statement by Chief Pentagon Spokesman Sean Parnell on DOD Personnel Support to ICE," press release, July 25, 2025, <a class="ExternalLink" href="https://www.war.gov/News/Releases/Release/Article/4256444/statement-by-chief-pentagon-spokesman-sean-parnell-on-dod-personnel-support-to/"><span class="Hyperlink">https://www.war.gov/News/Releases/Release/Article/4256444/statement-by-chief-pentagon-spokesman-sean-parnell-on-dod-personnel-support-to/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See DOD, "National Guard Mobilizes 800 Troops in D.C. to Support Federal, Local Law Enforcement," press release, August 14, 2025, <a class="ExternalLink" href="https://www.war.gov/News/News-Stories/Article/Article/4275149/national-guard-mobilizes-800-troops-in-dc-to-support-federal-local-law-enforcem/"><span class="Hyperlink">https://www.war.gov/News/News-Stories/Article/Article/4275149/national-guard-mobilizes-800-troops-in-dc-to-support-federal-local-law-enforcem/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span> and The White House, "Restoring Law and Order in Memphis," press release, September 15, 2025, <a class="ExternalLink" href="https://www.whitehouse.gov/presidential-actions/2025/09/restoring-law-and-order-in-memphis/"><span class="Hyperlink">https://www.whitehouse.gov/presidential-actions/2025/09/restoring-law-and-order-in-memphis/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12306(b).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," March 11, 2014, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121506p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121506p.pdf</span></a>, p. 23.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Training requirements are outlined in 10 U.S.C. §10147 and 32 U.S.C. §502. Benefits for personnel undergoing training are outlined in 37 U.S.C. §§204-206, and 32 U.S.C. §502(f).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 26.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §10147; DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 26.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, <em>Administration and Management of the Individual Ready Reserve (IRR) and the Inactive National Guard (ING)</em>, Instruction 1235.13, October 18, 2013 (Incorporating Change 1, April 30, 2020), p. 13, <a class="ExternalLink" href="http://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/123513p.pdf"><span class="Hyperlink">http://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/123513p.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 27.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 27.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a name="_Hlk220062346"></a>DOD, <em>Uniform Reserve, Training and Retirement Categories</em>, p. 28; DOD, <em>Management of the Standby Reserve</em>, Instruction 1235.09, February 12, 2014 (Incorporating Change 1, effective May 7, 2024), pp. 7-9, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/123509p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/123509p.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See 10 U.S.C. §12306 (a) and DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 28.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See 10 U.S.C. §12731, 10 U.S.C. §10154, and DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," pp. 29-30. For more information on reserve retirement pay, see "<a class="InternalLink" href="#_Ref40803747">7. What Type of Pay and Benefits Do Reservists Receive for Reserve and Active Duty?</a>" See also CRS Report RL34751, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34751"><em><span class="Hyperlink">Military Retirement: Background and Recent Developments</span></em></a>, by Kristy N. Kamarck.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 30.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> AC retirees may be recalled to duty under certain circumstances. They therefore comprise a <em>reserve</em> of personnel who may be employed for military purposes. However, they are not classified as part of the RC.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §20001.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §20101.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §20103.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. <a name="_Hlk220072013"></a>§20103.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Some reservists are authorized to perform their yearly training in other combinations of time.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style="">DOD, "Full-Time Support (FTS) to the Reserve Components," June 5, 2020, pp. 10-11, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/120518p.pdf?ver=2020-06-05-095821-867"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/120518p.pdf?ver=2020-06-05-095821-867</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," p. 3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §101(d)(6)(A). See also DOD, "Full-Time Support (FTS) to the Reserve Components," p. 11.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12310 and 32 U.S.C. §328. AGR personnel may also be assigned to "national-level headquarters." See DOD, "Full-Time Support (FTS) to the Reserve Components," p. 7, and 10 U.S.C. §10211.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 24.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §10216(a)(1)(c). See also DOD, "Full-Time Support (FTS) to the Reserve Components," p. 11. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §10216(a)(3).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This is known as the <em>dual-status requirement</em>, reflecting MTs' status as both federal civilian employees and military reservists. See10 U.S.C. §10216.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," pp. 8-9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," p. 10.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," p. 10.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," p. 11.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Navy, "TAR (Training and Administration of the Reserve) FAQs," <a class="ExternalLink" href="https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/TAR/"><span class="Hyperlink">https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/TAR/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," pp. 7-8 and U.S. Navy, "Full-Time Support (FTS) of the Navy Reserve Enlisted Program," July 1, 2019, p. 2, <a class="ExternalLink" href="https://www.mynavyhr.navy.mil/Portals/55/Reference/MILPERSMAN/1000/1000General/1001-021.pdf?ver=FdI4hUZAR_B3N4orpATCGg%3D%3D"><span class="Hyperlink">https://www.mynavyhr.navy.mil/Portals/55/Reference/MILPERSMAN/1000/1000General/1001-021.pdf?ver=FdI4hUZAR_B3N4orpATCGg%3D%3D</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," p. 7.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Full-Time Support (FTS) to the Reserve Components," p. 11.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, reservists do not receive medical coverage for their families unless they have enrolled in the premium-based TRICARE Reserve health program. See TRICARE, "TRICARE Coverage for National Guard and Reserve Members: Know Your Options," July 31, 2025, <a class="ExternalLink" href="https://newsroom.tricare.mil/News/TRICARE-News/Article/4260976/tricare-coverage-for-national-guard-and-reserve-members-know-your-options"><span class="Hyperlink">https://newsroom.tricare.mil/News/TRICARE-News/Article/4260976/tricare-coverage-for-national-guard-and-reserve-members-know-your-options</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Pay and benefit eligibility for reservists is generally determined by time spent performing duty. Because members of the IRR and Standby Reserve generally have no training obligation and are usually called to duty after members of the Selected Reserve are, they are typically ineligible for most pay and benefits.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See "Basic Pay" and "Retirement" sections below. Certain categories of benefits, such as those for veterans and education, are beyond the scope of this report.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 37 U.S.C. §206 and DOD, "Uniform Reserve, Training, and Retirement Categories for the Reserve Components," p. 12.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> One example is hazardous duty pay. See 37 U.S.C. §351 and DOD, <em>Financial Management Regulation</em>, vol. 7A, p. 24-5, <a class="ExternalLink" href="https://comptroller.war.gov/Portals/45/Documents/fmr/Volume_07a.pdf"><span class="Hyperlink">https://comptroller.war.gov/Portals/45/Documents/fmr/Volume_07a.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 37 U.S.C. §357.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 37 U.S.C. §§357, 1004.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, Types of BAH "Military Compensation and Financial Readiness," <a class="ExternalLink" href="https://militarypay.defense.gov/Pay/Allowances/BAH_Types/"><span class="Hyperlink">https://militarypay.defense.gov/Pay/Allowances/BAH_Types/</span></a>; DOD, "Basic Allowance for Subsistence (BAS) Policy," April 23, 2007, p. 2, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/141805p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/141805p.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, <em>Financial Management Regulation</em>, vol. 7A, p. 30-4, <a class="ExternalLink" href="https://comptroller.war.gov/Portals/45/Documents/fmr/Volume_07a.pdf"><span class="Hyperlink">https://comptroller.war.gov/Portals/45/Documents/fmr/Volume_07a.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, <em>Financial Management Regulation</em>, vol. 7A, pp. 30-4-30-5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, <em>Financial Management Regulation</em>, vol. 7A, p. 29-5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Defense Health Agency, "TRICARE Coverage for National Guard and Reserve Members: Know Your Options," press release, July 31, 2025, <a class="ExternalLink" href="https://newsroom.tricare.mil/News/TRICARE-News/Article/4260976/tricare-coverage-for-national-guard-and-reserve-members-know-your-options"><span class="Hyperlink">https://newsroom.tricare.mil/News/TRICARE-News/Article/4260976/tricare-coverage-for-national-guard-and-reserve-members-know-your-options</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Defense Health Agency, "TRICARE Reserve Select," <a class="ExternalLink" href="https://tricare.mil/TRS"><span class="Hyperlink">https://tricare.mil/TRS</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See 10 U.S.C. §1076a and Defense Health Agency, "National Guard and Reserve Dental Care," <a class="ExternalLink" href="https://tricare.mil/CoveredServices/Dental/NGRDental"><span class="Hyperlink">https://tricare.mil/CoveredServices/Dental/NGRDental</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Defense Health Agency, "Monthly Premiums," <a class="ExternalLink" href="https://www.tricare.mil/Costs/DentalCosts/TDP/Premiums"><span class="Hyperlink">https://www.tricare.mil/Costs/DentalCosts/TDP/Premiums</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Defense Health Agency, "Plan Maximums," <a class="ExternalLink" href="https://www.tricare.mil/Costs/DentalCosts/TDP/Maximums"><span class="Hyperlink">https://www.tricare.mil/Costs/DentalCosts/TDP/Maximums</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Defense Health Agency, "Plan Maximums."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Department of Veterans Affairs, "Servicemembers' Group Life Insurance (SGLI)," <a class="ExternalLink" href="https://www.va.gov/life-insurance/options-eligibility/sgli/"><span class="Hyperlink">https://www.va.gov/life-insurance/options-eligibility/sgli/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Department of Veterans Affairs, "Servicemembers' Group Life Insurance (SGLI)."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §1063. "Good standing" is determined by the respective service secretaries.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "DoD Commissary Program," September 4, 2018, pp. 8-10, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/133017p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/133017p.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12731(a)(2).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12732(a)(2).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12732(a)(2).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12733.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Forty-eight retirement points for 24 days of IDT, 14 retirement points for two weeks of AT, and 15 retirement points for maintaining membership in the Selected Reserve. DOD, "Service Credit for Non-Regular Retirement," pp. 12-15, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121507p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/121507p.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12733.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a name="_Hlk220573027"></a>DOD, "Service Credit for Non-Regular Retirement," p. 15.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Upon retirement, <em>but before reaching the retired pay eligibility age</em>, a reservist is entitled to a limited number of benefits, including space-available travel on military aircraft within the United States and its territories. See 10 U.S.C. §1063; DOD, "Air Transportation Eligibility," January 11, 2024, p. 33, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/451513p.PDF"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/451513p.PDF</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See 10 U.S.C. §12731(f).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12739<span class="Hyperlink">.</span><span class="Hyperlink"> </span>For more information on military retirement, see CRS Report RL34751, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34751"><em><span class="Hyperlink">Military Retirement: Background and Recent Developments</span></em></a>, by Kristy N. Kamarck.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The <em>high-three average</em> applies to those entering service on or after September 8, 1980.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, <em>Eleventh Quadrennial Review of Military Compensation</em>, June 2012, pp. 228-235, <a class="ExternalLink" href="https://militarypay.defense.gov/Portals/3/Documents/Reports/11th_QRMC_Main_Report_FINAL.pdf"><span class="Hyperlink">https://militarypay.defense.gov/Portals/3/Documents/Reports/11th_QRMC_Main_Report_FINAL.pdf</span></a>. See also 37 U.S.C. Chapter 5. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Family Separation Allowance," <a class="ExternalLink" href="https://militarypay.defense.gov/pay/ALLOWANCES/fsa.aspx"><span class="Hyperlink">https://militarypay.defense.gov/pay/ALLOWANCES/fsa.aspx</span></a>. For more on BAS and BAH, see "<a class="InternalLink" href="#_Ref243664288">Allowances</a>" section.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Military Leave, Liberty, and Administrative Absence," August 7, 2025, p. 10, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/132706p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/132706p.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R45288, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45288"><em><span class="Hyperlink">Military Child Development Program: Background and Issues</span></em></a>, by Kristy N. Kamarck; DOD, "Military Morale, Welfare, and Recreation (MWR) Programs," May 6, 2011, p. 21, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/101510p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/101510p.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn86" name="fn86">86</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 37 U.S.C. §910.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn87" name="fn87">87</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 37 U.S.C. §910.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn88" name="fn88">88</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 37 U.S.C. §910. The term <em>average monthly civilian income</em> is defined at 37 U.S.C. §910(e)(1).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn89" name="fn89">89</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See DOD, <em>Financial Management Regulation</em>, vol. 7A, p. 55-3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn90" name="fn90">90</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §5538.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn91" name="fn91">91</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Personnel Management (OPM), "OPM Policy Guidance Regarding Reservist Differential Under 5 U.S.C. 5538," June 23, 2015, <a class="ExternalLink" href="https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/reservist-differential/policyguidance.pdf"><span class="Hyperlink">https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/reservist-differential/policyguidance.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn92" name="fn92">92</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, "OPM Policy Guidance Regarding Reservist Differential," p. 11.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn93" name="fn93">93</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, "OPM Policy Guidance Regarding Reservist Differential," p. 17. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn94" name="fn94">94</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on duty statuses, see CRS Report R49056, <a class="ExternalLink" href="http://www.crs.gov/Reports/R49056"><em><span class="Hyperlink">Reserve Component Duty Statuses: Background and Issues for Congress</span></em></a>, by Nicholas M. Munves.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn95" name="fn95">95</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12301(a).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn96" name="fn96">96</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12302.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn97" name="fn97">97</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12304.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn98" name="fn98">98</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12304(k).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn99" name="fn99">99</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12304a(a).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn100" name="fn100">100</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/law/104/pub/321"><span class="Hyperlink">P.L. 104-321</span></a>. See also the Emergency Management Assistance Compact website at <a class="ExternalLink" href="https://www.emacweb.org/"><span class="Hyperlink">https://www.emacweb.org/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>. The Coast Guard Reserve has a separate short-term disaster response activation authority in 14 U.S.C. §3713. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn101" name="fn101">101</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12304b(a).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn102" name="fn102">102</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12304b(b).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn103" name="fn103">103</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/congressional-report/112/srpt/26"><span class="Hyperlink">S.Rept. 112-26</span></a>, p. 110.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn104" name="fn104">104</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12301.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn105" name="fn105">105</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §12301(a).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn106" name="fn106">106</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §688(b)(2).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn107" name="fn107">107</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 10 U.S.C. §§688 and 690.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn108" name="fn108">108</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOD, "Managing the Reserve Components as an Operational Force," October 29, 2008, p. 8, <a class="ExternalLink" href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/120017p.pdf"><span class="Hyperlink">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/120017p.pdf</span></a>. See also CRS In Focus IF10540, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10540"><em><span class="Hyperlink">Defense Primer: Reserve Forces</span></em></a>, by Nicholas M. Munves, Carly A. Miller, and Ebrima M'Bai.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn109" name="fn109">109</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Insight IN12728, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12728"><em><span class="Hyperlink">FY2027 NDAA: Active Component End-Strength</span></em></a>, by Nicholas M. Munves and CRS Insight IN12727, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12727"><em><span class="Hyperlink">FY2027 NDAA: Reserve Component End-Strength</span></em></a>, by Nicholas M. Munves.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn110" name="fn110">110</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a discussion of the cost implications of the AC/RC force mix in an Army context, see CRS Report R43808, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43808"><em><span class="Hyperlink">Army Active Component (AC)/Reserve Component (RC) Force Mix: Considerations and Options for Congress</span></em></a>, by Andrew Feickert and Lawrence Kapp.  </p>
+</td>
+</tr>
+</table>
+</div>
+</div>
