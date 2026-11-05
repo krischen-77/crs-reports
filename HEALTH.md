@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-05T02:31:20.901408+00:00
+Watchdog checked UTC: 2026-11-05T02:34:19.826515+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -14,11 +14,11 @@ Monitor commits are NOT source refreshes. No new reports can be normal; stale ve
 
 ## Findings
 
-coverage-audit.yml: latest run failure
+No valid independent byte-verification receipt
 
 ## Recovery
 
-Dispatched coverage-audit.yml; completion is NOT yet verified
+No recovery dispatch required.
 
 Hourly checks; overdue after 26 hours; retry at most once per stage per six hours and four times total per 24 hours.
 A GitHub-wide outage can also stop this watchdog. External monitoring is a separate safety net.
