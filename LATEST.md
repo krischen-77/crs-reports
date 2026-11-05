@@ -1,11 +1,13 @@
-**Official-current verification: 71/71. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-29 to 2026-11-05**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-05 | R49507 v1 | Federal Statistical Research Data Centers: An Overview | [PDF](pdf/reports/R49507v1-2026-11-05-f6f1d9a3e1bb6020.pdf) | [Markdown](markdown/reports/R49507v1-2026-11-05-f6f1d9a3e1bb6020.md) |
+| 2026-11-05 | R49506 v1 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Summary of All Sections | [PDF](pdf/reports/R49506v1-2026-11-05-fae1484eb191da67.pdf) | [Markdown](markdown/reports/R49506v1-2026-11-05-fae1484eb191da67.md) |
+| 2026-11-05 | R49505 v1 | Connecting Constituents to Federal Assistance for Law Enforcement | [PDF](pdf/reports/R49505v1-2026-11-05-c850a7e6d9a37cc7.pdf) | [Markdown](markdown/reports/R49505v1-2026-11-05-c850a7e6d9a37cc7.md) |
+| 2026-11-05 | R49504 v1 | Bipartisan American Affordability and Jobs Act of 2026 (BAAJA): Analysis of Endangered Species Act Provisions | [PDF](pdf/reports/R49504v1-2026-11-05-85282edad6fe8a34.pdf) | [Markdown](markdown/reports/R49504v1-2026-11-05-85282edad6fe8a34.md) |
 | 2026-11-04 | RS21534 v125 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.pdf) | [Markdown](markdown/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.md) |
 | 2026-11-04 | RL30802 v26 | Reserve Component Personnel Issues: Questions and Answers | [PDF](pdf/reports/RL30802v26-2026-11-04-7f1c6a576166b982.pdf) | [Markdown](markdown/reports/RL30802v26-2026-11-04-7f1c6a576166b982.md) |
 | 2026-11-04 | R49503 v1 | Appropriations for Rural Development Programs: Proposals for FY2027 | [PDF](pdf/reports/R49503v1-2026-11-04-7a500aac95056caa.pdf) | [Markdown](markdown/reports/R49503v1-2026-11-04-7a500aac95056caa.md) |
@@ -78,15 +80,15 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-05 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |
+| 2026-11-05 | 2026-06-12 | IF13171 v3 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.pdf) | [Markdown](markdown/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.md) |
 | 2026-11-04 | 2026-09-30 | R49421 v2 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v2-2026-09-30-f106d49d693c9b4b.pdf) | [Markdown](markdown/reports/R49421v2-2026-09-30-f106d49d693c9b4b.md) |
 | 2026-11-04 | 2026-09-22 | R49358 v3 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v3-2026-09-22-d283808bb594cd85.pdf) | [Markdown](markdown/reports/R49358v3-2026-09-22-d283808bb594cd85.md) |
 | 2026-11-04 | 2026-09-17 | R49353 v1 | Overview of Continuing Appropriations for FY2027 (Division A of P.L. 119-103) | [PDF](pdf/reports/R49353v1-2026-09-17-72d8cb7947841e25.pdf) | [Markdown](markdown/reports/R49353v1-2026-09-17-72d8cb7947841e25.md) |
 | 2026-11-04 | 2026-09-03 | R49341 v7 | Transportation, Housing and Urban Development, and Related Agencies (THUD) Appropriations for FY2027 | [PDF](pdf/reports/R49341v7-2026-09-03-10cc3ace719d31ce.pdf) | [Markdown](markdown/reports/R49341v7-2026-09-03-10cc3ace719d31ce.md) |
-| 2026-11-04 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |
 | 2026-11-04 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
 | 2026-11-04 | 2026-09-03 | IN12735 v1 | Federal Legislation and Oversight of Law Enforcement Use of Automated License Plate Readers (ALPRs) | [PDF](pdf/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.pdf) | [Markdown](markdown/insights/IN12735v1-2026-09-03-e7e663c8370a63ef.md) |
 | 2026-11-04 | 2026-09-08 | IF13308 v1 | Overview of FY2027 Budget Request for the Census Bureau | [PDF](pdf/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.pdf) | [Markdown](markdown/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.md) |
-| 2026-11-04 | 2026-06-12 | IF13171 v3 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.pdf) | [Markdown](markdown/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.md) |
 | 2026-11-03 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
 | 2026-10-31 | 2026-10-26 | R49492 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.pdf) | [Markdown](markdown/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.md) |
 | 2026-10-31 | 2026-10-28 | R46143 v7 | The Office of Federal Student Aid as a Performance-Based Organization | [PDF](pdf/reports/R46143v7-2026-10-28-1cbc960598e6e621.pdf) | [Markdown](markdown/reports/R46143v7-2026-10-28-1cbc960598e6e621.md) |

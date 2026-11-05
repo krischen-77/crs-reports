@@ -1,0 +1,1592 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Federal Statistical Research Data Centers: An Overview</div>
+<div class="CoverDate">November 5, 2026
+            (R49507)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc244769889"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc244769890"><span class="Hyperlink">FSRDC Governance and Operations</span></a></li>
+<li class="TOC2"><a href="#_Toc244769891"><span class="Hyperlink">FSRDC Governance</span></a></li>
+<li class="TOC2"><a href="#_Toc244769892"><span class="Hyperlink">FSRDC Operations</span></a></li>
+<li class="TOC3"><a href="#_Toc244769893"><span class="Hyperlink">FSRDC Site Development</span></a></li>
+<li class="TOC1"><a href="#_Toc244769894"><span class="Hyperlink">Development and Administrative Establishment of FSRDCs</span></a></li>
+<li class="TOC2"><a href="#_Toc244769895"><span class="Hyperlink">Center for Economic Studies</span></a></li>
+<li class="TOC2"><a href="#_Toc244769896"><span class="Hyperlink">FSRDC Network Development, 1998-Present</span></a></li>
+<li class="TOC1"><a href="#_Toc244769897"><span class="Hyperlink">Statutes Relevant to FSRDCs</span></a></li>
+<li class="TOC2"><a href="#_Toc244769898"><span class="Hyperlink">Confidential Information Protection and Statistical Efficiency Act of 2002</span></a></li>
+<li class="TOC2"><a href="#_Toc244769899"><span class="Hyperlink">Confidential Information Protection and Statistical Efficiency Act of 2018</span></a></li>
+<li class="TOC2"><a href="#_Toc244769900"><span class="Hyperlink">Data Confidentiality</span></a></li>
+<li class="TOC3"><a href="#_Toc244769901"><span class="Hyperlink">Restricted-Use Data</span></a></li>
+<li class="TOC1"><a href="#_Toc244769902"><span class="Hyperlink">Standard Application Process</span></a></li>
+<li class="TOC2"><a href="#_Toc244769903"><span class="Hyperlink">Special Sworn Status and Penalties</span></a></li>
+<li class="TOC2"><a href="#_Toc244769904"><span class="Hyperlink">Identifying the Research Team</span></a></li>
+<li class="TOC2"><a href="#_Toc244769905"><span class="Hyperlink">Examples of Research</span></a></li>
+<li class="TOC3"><a href="#_Toc244769906"><span class="Hyperlink">Economic Research</span></a></li>
+<li class="TOC3"><a href="#_Toc244769907"><span class="Hyperlink">Health Research</span></a></li>
+<li class="TOC3"><a href="#_Toc244769908"><span class="Hyperlink">Demography and Sociology Research</span></a></li>
+<li class="TOC1"><a href="#_Toc244769909"><span class="Hyperlink">Accessing Data at FSRDCs</span></a></li>
+<li class="TOC2"><a href="#_Toc244769910"><span class="Hyperlink">On-Site Data Access</span></a></li>
+<li class="TOC2"><a href="#_Toc244769911"><span class="Hyperlink">Remote Data Access</span></a></li>
+<li class="TOC2"><a href="#_Toc244769912"><span class="Hyperlink">Disclosure Review Board</span></a></li>
+<li class="TOC1"><a href="#_Toc244769913"><span class="Hyperlink">National Secure Data Service</span></a></li>
+<li class="TOC1"><a href="#_Toc244769914"><span class="Hyperlink">Potential Issues for Congress</span></a></li>
+<li class="TOC2"><a href="#_Toc244769915"><span class="Hyperlink">Access</span></a></li>
+<li class="TOC2"><a href="#_Toc244769916"><span class="Hyperlink">Confidentiality</span></a></li>
+<li class="TOC2"><a href="#_Toc244769917"><span class="Hyperlink">Governance and Operations</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc244769883"><span class="Hyperlink">Figure 1. 40 FSRDC Locations as of November 4, 2026</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc244769884"><span class="Hyperlink">Table 1. Examples of Restricted-Use Data Available at FSRDCs by Agency and Survey</span></a></li>
+<li><a href="#_Toc244769885"><span class="Hyperlink">Table A-1. Select Statutory Provisions Relevant to FSRDCs and the SAP</span></a></li>
+<li><a href="#_Toc244769886"><span class="Hyperlink">Table B-1. FSRDC Locations</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc244769887"><span class="Hyperlink">Appendix A. Relevant </span><em><span class="Hyperlink">U.S. Code</span></em><span class="Hyperlink"> Provisions</span></a></li>
+<li><a href="#_Toc244769888"><span class="Hyperlink">Appendix B. FSRDC Locations</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Statistical Research Data Centers (FSRDCs) provide spaces for qualified researchers to access restricted-use datasets from various federal agencies. An FSRDC location will effectively appear to be a computer lab, though with restricted access and limitations. Internet access and external devices, such as cellphones or USB flash drives, are not permitted. To conduct projects in an FSRDC, researchers must complete a rigorous application process that includes pledging adherence to the same confidentiality standards used by federal employees who handle restricted-use data. Only certain locations can host an FSRDC site; currently, sites are located at select universities, federal agencies, and Federal Reserve Bank locations. These institutions must complete their own applications and meet certain criteria to join the FSRDC network.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The establishment of FSRDCs has been a long and iterative process led by the Census Bureau. A lack of access to restricted-use datasets that could be linked from multiple sources helped spur interest from researchers and Census Bureau personnel in establishing the precursors to modern FSRDCs. These precursors were hampered by inconsistent confidentiality standards across the federal statistical system and the lack of a uniform, consistent mode of access to restricted-use and linked datasets, which eventually led to congressional involvement. As a remedy, several relevant laws were enacted, including the Confidential Information Protection and Statistical Efficiency Acts of 2002 (CIPSEA; <a class="ExternalLink" href="https://www.congress.gov/law/107/pub/347"><span class="Hyperlink">P.L. 107-347</span></a>, Title V) and 2018 (<a class="ExternalLink" href="http://www.congress.gov/law/115/pub/435"><span class="Hyperlink">P.L. 115-435</span></a>, Title III); the Evidence-Based Policymaking Commission Act of 2016 (<a class="ExternalLink" href="https://www.congress.gov/law/114/pub/140"><span class="Hyperlink">P.L. 114-140</span></a>); and the Foundations for Evidence-Based Policymaking Act of 2018 (FEBPA, <a class="ExternalLink" href="https://www.congress.gov/law/115/pub/435"><span class="Hyperlink">P.L. 115-435</span></a>). </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The resulting modern FSRDC network comprises 40 physical locations at the time of this publication. The restricted-use data made available at FSRDCs—and opportunities for data linkage (i.e., linking datasets from different sources)—offer more expansive data access for researchers compared to public-use federal data. Statutory confidentiality standards tied to a rigorous application process for these researchers aim to mitigate the risk of allowing nongovernment researchers to access restricted-use, confidential data and help protect data obtained from respondents. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The application process has been streamlined through introduction of a standard application process (SAP), which was introduced as a provision of FEBPA. Prior to the SAP's introduction, agencies lacked a consistent system to grant researcher access to restricted-use data assets. The SAP established strict requirements that researchers have a fully developed research proposal that identifies data needed for the research project, lists qualified individuals on the research team, and describes the research to be conducted, as well as planned outputs. Any outputs undergo a disclosure review to ensure confidential information is not released. FSRDCs offer a limited capacity for researchers to access some confidential data assets remotely after completing a SAP to gain on-site access.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some policymakers have expressed interest in what is known as a National Secure Data Service (NSDS), which might offer a tiered-access framework depending on the needed level of restriction on data. Through the CHIPS and Science Act (<a class="ExternalLink" href="http://www.congress.gov/law/117/pub/167"><span class="Hyperlink">P.L. 117-167</span></a>), Congress required a pilot project be developed for an NSDS; that project is underway, and its results could have implications for the SRDC network.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Other broad areas that may be of interest to Congress related to FSRDCs include the geographical accessibility of FSRDCs to researchers; confidentiality protections and the trade-offs associated with the levels of access to restricted-use data; and the overall governance structure of FSRDCs. </p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Statistical Research Data Centers (FSRDCs) are physical sites where researchers may access restricted-use data from federal statistical agencies and link data from different datasets.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='For more information on the federal statistical system, see CRS Report R48161, The Federal Statistical System: An Overview , by Taylor R. Knoedl ; data linkage has been defined as " the bringing together from two or more different sources, data that relate to the same individual, family, place or event. " See Jon Emery and Douglas Boyle, "Data Linkage," Australian Family Physician , 2017, https://pubmed.ncbi.nlm.nih.gov/28787562/  .'>1</a></sup> Generally, restricted-use data refers to data containing personally identifiable information (PII), business identifiable information (BII), or other information that is confidential and protected by federal law.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='Definitions for both PII and BII are available at Census Bureau , "G lossary, " https://www.census.gov/about/policies/quality/standards/glossary.html ; 44 U.S.C. §3572 .'>2</a></sup> At the time of publication, 40 FSRDCs are operating across the continental United States and Puerto Rico.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='U.S. Census Bureau, "Research Data Centers," https://www.census.gov/about/adrm/fsrdc/locations.html .'>3</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Restricted-use data are confidential to protect respondents and the information respondents provide. Wrongfully disclosed PII could be used to identify individuals who provided information on federal surveys.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='Office of Management and Budget, "M-13-13: Open Data Policy—Managing Information as an Asset," May 9, 2013, p. 4, https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf .'>4</a></sup> Meanwhile, wrongfully disclosed BII could give away trade secrets and allow unfair competition among firms.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="U.S. Census Bureau, Data Stewardship Program , DS022: Personally Identifiable Information (PII) Breach Policy , p.2, https://www2.census.gov/foia/ds_policies/ds022.pdf .">5</a></sup> If the information that respondents share during federal surveys is wrongfully disclosed, public trust in the federal statistical system may be impacted, leading to lower response rates in federal surveys, which could negatively impact overall data accuracy.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="U.S. Census Bureau, Privacy and Survey Response: Evidence from Broadband Internet , September 24, 2025, https://www.census.gov/library/working-papers/2025/adrm/ced-wp-2025-002.html .">6</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Despite the risk, the ability for researchers to access and work with confidential, linked datasets may provide certain benefits that cannot be realized by using publicly accessible data alone. Projects associated with FSRDCs have enabled researchers to identify challenges experienced by certain demographic groups, determine the effectiveness of certain policies, and measure economic and population changes over time. For example, data linkages to multiple sources of confidential data at FSRDCs allow researchers to link data on employer establishments and the individuals who work at these establishments, enabling researchers to examine certain industries, such as fossil fuel extraction, and how labor demand shocks impact employment and earnings.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='Philadelphia Federal Statistical Research Data Center, "Examples of Research: Economics," https://web.sas.upenn.edu/pfsrdc/menu2/examples-of-research-in-economics/  ; Minwoo Hyun, Trapped or Transferred: Worker Mobility and Labor Market Power in the Energy Transition , U.S. Census Bureau , Center for Economic Studies, Working Papers 25-76, 2025 , https://ideas.repec.org/p/cen/wpaper/25-76.html .'>7</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Through governance and oversight of the FSRDC system, Congress may continue to consider how to balance these risks against the potential benefits of increased research. To protect against improper disclosure of confidential information, researchers must currently undergo a rigorous application process prior to receiving approval to conduct research at FSRDCs; this includes completing a standard application process (SAP) and following certain on-site restrictions.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='U.S. Census Bureau, " Restricted-Use Data, " https://www.census.gov/topics/research/guidance/restricted-use-microdata.html .'>8</a></sup> For example, researchers have no access to the internet on-site, user activities are monitored by Census Bureau staff, and researchers are not permitted to bring personal computers or other devices on-site. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These protection protocols may be viewed as components of a larger policy discussion concerning how to best protect data while also permitting certain beneficial research. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Interagency Council on Statistical Policy (ICSP) established the current FSRDC program with the mission to</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">support research and educate future scholars, support a more coordinated federal statistical system, improve the quality and utility of federal statistics, and encourage openness and transparency in federal statistics through increased access to federal statistical micro-level data, and promote the linkage of micro-level data from different agencies.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024, https://www.census.gov/about/adrm/fsrdc/about/governance.html">9</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ICSP provides general guidance over the FSRDC program, while the FSRDC Program Management Office housed within the Census Bureau is responsible for operations across FSRDCs (except for those associated with specific agencies).<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='U.S. Census Bureau, "Management Team," https://www.census.gov/about/adrm/fsrdc/about/management_team.html .'>10</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Challenges to FSRDC access faced by researchers across the nation led to the development of the SAP as required by law and implemented in 2022.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="44 U.S.C. §3583 .">11</a></sup> As part of the SAP, researchers must provide details of their research proposals, including a demonstrated need for restricted-use data, and pledge to meet strict confidentiality requirements.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="U.S. Census Bureau, The Researcher Handbook: Federal Statistical Research Data Centers' Handbook for Researchers , July 2024, https://csde.washington.edu/wp-content/uploads/2024/12/Researcher_Handbook_202407.pdf .">12</a></sup> Restricted-use data allow for more thorough analysis of federal datasets, including the opportunity to make data linkages that would otherwise be inaccessible through public-use files alone.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides historical context behind the development of FSRDCs, including statutes that support their operations; the governance and operational structures of FSRDCs; a background on data confidentiality and how it pertains to the FSRDC network; a brief discussion on the National Secure Data Service; and, finally, relevant issues that Congress may choose to consider, including data access, confidentiality measures, and the overall governance structures of FSRDCs. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390270"></a><a name="_Toc239769260"></a><a name="_Toc242964214"></a><a name="_Toc244239790"></a><a name="_Toc244675469"></a><a name="_Toc244685086"></a><a name="_Toc244769166"></a><a name="_Toc244769230"></a><a name="_Toc226537948"></a><a name="_Toc244769543"></a><a name="_Toc244769890"></a>FSRDC Governance and Operations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Office of Management and Budget (OMB) has authority to coordinate the federal statistical system.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="44 U.S.C. § 3504(e)(8).">13</a></sup> More specifically, OMB's Office of Information and Regulatory Affairs (OIRA) houses the Statistical and Science Policy Branch, headed by the chief statistician.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="44 U.S.C. § 3503 &amp; § 3504(e)(7).">14</a></sup> The chief statistician has the broad responsibility of providing coordination, guidance, and oversight of the federal statistical agencies and their activities. Additionally, the chief statistician serves as chair of the ICSP, which advises and assists the director of OMB in carrying out the agency's responsibilities over the federal statistical system. The Census Bureau handles many of the centers' day-to-day operations.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='U.S. Census Bureau, " Secure Research Facilities ," https://www.census.gov/about/adrm/fsrdc/about/secure_rdc.html .'>15</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ICSP's FSRDC Executive Committee (EXCOM) develops policies for the FSRDC network, while the Census Bureau's FSRDC Program Management Office is responsible for day-to-day FSRDC operations. The roles of both entities are specified in the FSRDC EXCOM charter, which was established by the ICSP in 2017 and revised on June 13, 2024.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='U.S. Census Bureau, "Governance," https://www.census.gov/about/adrm/fsrdc/about/governance.html ; Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024.'>16</a></sup> According to its most recent charter, the FSRDC EXCOM provides a supportive role to the day-to-day operations of the FSRDC Program and Management Office, while the Program Management Office advises the FSRDC EXCOM.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024, p. 4.">17</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390271"></a><a name="_Toc239769261"></a><a name="_Toc242964215"></a><a name="_Toc244239791"></a><a name="_Toc244675470"></a><a name="_Toc244685087"></a><a name="_Toc244769167"></a><a name="_Toc244769231"></a><a name="_Toc244769544"></a><a name="_Toc244769891"></a>FSRDC Governance</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to its charter, the primary purpose of the FSRDC EXCOM is to</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">provide strategic vision and guidance; make policy decisions that resolve interagency issues, capitalize on new opportunities, and strive for consensus; guide transformation; and provide executive sponsorship of the FSRDC program.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024 , p. 1 .">18</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The FSRDC EXCOM consists of the chief statistician and one institutional partner as cochairs, representatives of participating federal agencies (agency heads or their designees), the Census Bureau's chief information officer (CIO), the FSRDC program director, and four representatives of institutional partners. Only the federal agency representatives are authorized to vote on EXCOM matters.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024 , p. 2 .">19</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Cochairs of the FSRDC EXCOM may convene subcommittees and working groups to investigate issues and develop resolutions, and to provide guidance to the Census Bureau's FSRDC Program Management Office in its day-to-day operations of FSRDC.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 2024 charter specifies the working groups: the Budget Working Group and Technical Working Groups.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Budget Working Group is to provide program budget analysis and reports on the cost of issues of importance to the FSRDC EXCOM. The working group also makes recommendations for new investments and is to regularly review and provide recommendations to federal agency partner and institutional partner funding models for their FSRDC locations.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Technical Working Groups are to investigate issues being experienced by the FSRDC networks, develop issues for resolution, and provide guidance to the Program Management Office. The Technical Working Groups are also to support ongoing tasks and concerns of the FSRDC program; develop guidance for the Program Management Office based on strategies set forth by the FSRDC EXCOM; and support coordination between the Program Management Office and the Standard application Process Project Management Office.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024.">20</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390272"></a><a name="_Toc239769262"></a><a name="_Toc242964216"></a><a name="_Toc244239792"></a><a name="_Toc244675471"></a><a name="_Toc244685088"></a><a name="_Toc244769168"></a><a name="_Toc244769232"></a><a name="_Toc244769545"></a><a name="_Toc244769892"></a>FSRDC Operations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Census Bureau houses the FSRDC Program Management Office, which operates and maintains the FSRDC physical locations.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='U.S. Census Bureau, " Federal Statistical Research Data Centers ," https://www.census.gov/about/adrm/fsrdc.html .'>21</a></sup> The office's responsibilities include providing day-to-day management and support to the FSRDC program; providing IT and other administrative resources to institutional partners and researchers; advising the EXCOM and working groups; and surfacing issues within the FSRDC program.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024, p. 4.">22</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A Census Bureau employee called an FSRDC administrator provides oversight and other responsibilities at each FSRDC location. The FSRDC position is fully reimbursable, meaning that it is funded by the institutions that host FSRDCs, along with members of their institutional consortium.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="Mark Dorsey, Congressional Liaison for the U.S. Census Bureau, email to author, June 27, 2025.">23</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390273"></a><a name="_Toc239769263"></a><a name="_Toc242964217"></a><a name="_Toc244239793"></a><a name="_Toc244675472"></a><a name="_Toc244685089"></a><a name="_Toc244769169"></a><a name="_Toc244769233"></a><a name="_Toc244769546"></a><a name="_Toc244769893"></a>FSRDC Site Development </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Census Bureau has produced guidance for developing an FSRDC or a Research Data Center (RDC) branch. The physical space and IT security standards follow those set out in the 1998 <em>Federal Register</em> notice that initially established a process to develop RDCs.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='U.S. Census Bureau, Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch, October 16, 2019, https://www.census.gov/content/dam/Census/about/about-the-bureau/fsrdc/documents/Guidelines_for_RDC_Development_and_Operations_FINAL_FY2020.pdf . Details on this Federal Register notice are available later in this report: See " FSRDC Network Development, 1998-Present ."'>24</a></sup> The Census Bureau provides three methods by which an academic or nonprofit research institution may join the FSRDC network.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An institution that wishes to host an FSRDC location is required to submit a proposal to the National Science Foundation (NSF), and the FSRDC must be self-financing with funding sourced from institutions, foundations, or state support. According to Census Bureau guidelines issued in 2019, an institution can request up to $100,000 annually from the NSF over a three-year period to cover start-up costs and annual operating costs associated with establishing an FSRDC location.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="U.S. Census Bureau, Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch, October 16, 2019, p. 2.">25</a></sup> Announcements for the availability of NSF funding opportunities are published through the <em>Federal Register</em>.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='U.S. Census Bureau, " FSRDC Access at Your Institution ," https://www.census.gov/about/adrm/fsrdc/about/hostrdc.html .'>26</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Census Bureau manages both primary FSRDC core locations and subsidiary branch locations. The concept of FSRDC branch locations was developed to leverage FSRDC system capabilities while minimizing costs for institutions to join the FSRDC network. According to the guidelines issued by the Census Bureau, branch development must be initiated by an FSRDC core location using the same NSF application process. FSRDC branches are required to meet the same physical and IT security requirements as core locations.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="U.S. Census Bureau, Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch, October 16, 2019, p. 3.">27</a></sup> The FSRDC network is not always actively accepting applications for new core or branch locations.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title='U.S. Census Bureau, " FSRDC Access at Your Institution ," https://www.census.gov/about/adrm/fsrdc/about/hostrdc.html .'>28</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FSRDC branch locations adhere to distance requirements in relation to the core location:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If the branch is within 50 miles of the FSRDC core location, the FSRDC administrator may be shared at the two locations.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If the branch is between 50 and 250 miles from the FSRDC core location, the branch must have its own part-time FSRDC administrator.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Branch locations cannot be established more than 250 miles from a core location.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="U.S. Census Bureau, Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch, October 16, 2019, p. 3.">29</a></sup> </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An institution can also obtain FSRDC access for its researchers by joining a network through a consortium, where FSRDC partner institutions share the operational costs of their FSRDC and may waive user fees for their affiliates.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='U.S. Census Bureau, " FSRDC Access at Your Institution . "'>30</a></sup> If an institution joins a consortium, researchers would still need to travel to a core or branch location of the hosting institution.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='U.S. Census Bureau, " FSRDC Access at Your Institutio n . "'>31</a></sup> Researchers associated with an institution that is part of a consortium may still consider accessing data remotely, though this option has limited data availability compared to on-site access.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title='U.S. Census Bureau, " Secure Remote Access for FSRDC Research ," https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.html .'>32</a></sup> The trade-off, as characterized by the Census Bureau, is that joining a consortium may be quicker and more cost-effective for an institution.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='U.S. Census Bureau, " FSRDC Access at Your Institution . "'>33</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are 40 FSRDC locations at the time of this report's publication. A map of these locations is below. Additional information on these 40 locations can be found in <a class="InternalLink" href="#_Ref244675131"><strong></strong><strong>Appendix B</strong></a>.</p>
+<p class="Figure" style="padding-left:-158.6pt;padding-right:-158.6pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc244675462"></a><a name="_Toc244685079"></a><a name="_Toc244769159"></a><a name="_Toc244769223"></a><a name="_Toc244769536"></a><a name="_Toc244769883"></a>Figure 1. 40 FSRDC Locations as of November 4, 2026</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.jpeg" class="Figure" src="R49507_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureNote"><strong>Source: </strong>U.S. Census Bureau, "Research Data Centers," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/locations.html"><span class="Hyperlink">https://www.census.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">adrm/</span><span class="Hyperlink"></span><span class="Hyperlink">fsrdc/</span><span class="Hyperlink"></span><span class="Hyperlink">locations.html</span></a>.</p>
+<p class="FigureNote"><strong>Notes:</strong> There are no FSRDCs in Alaska or Hawaii.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390274"></a><a name="_Toc239769264"></a><a name="_Toc242964218"></a><a name="_Toc244239794"></a><a name="_Toc244675473"></a><a name="_Toc244685090"></a><a name="_Toc244769170"></a><a name="_Toc244769234"></a><a name="_Toc244769547"></a><a name="_Toc244769894"></a>Development and Administrative Establishment of FSRDCs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1950, the Census Bureau sponsored a series of studies with the Social Science Research Council analyzing internal, restricted economic census data. According to the Census Bureau, "[t]hese analyses used primarily cross-section data or compared aggregates between two periods." These studies also considered longitudinal analyses that linked data from the same businesses over multiple time periods. However, conducting these analyses was challenging because the necessary census and survey files that needed to be linked were not always publicly published.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="B.K. Atrostic, The Center for Economic Studies 1982-2007: a Brief History , U.S. Census Bureau, October 2009, p. 3, https://www.census.gov/library/working-papers/2009/adrm/ces-wp-09-35.html .">34</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to one observer, "[i]n 1964, the Census Bureau Advisory Committee of the American Economic Association addressed ways to increase researcher access to unpublished data."<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="B.K. Atrostic, The Center for Economic Studies 1982-2007: a Brief History , U.S. Census Bureau, October 2009, p. 4.">35</a></sup> Some experts suggested that the Census Bureau establish regional data centers at various universities to hold complete raw, restricted census data, which would permit researchers access to the data in different geographic locations rather than needing to travel to the Census Bureau. Prior to the digitization of federal statistics, information collected by the Census Bureau was stored on physical tapes. However, making data more available to external researchers raised new questions concerning data security and whether and how the data should be made accessible to promote research. To be useable for external researchers, tapes would need to be "sufficiently complete and corrected" and made in "the proper format and sequence" for them to be useful.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title='" Report of the Census Advisory Committee ," American Economic Review , vol. 55 , no. 1/2 (March 1, 1965) : 619-620.'>36</a></sup> Questions concerning the format of these federal statistics and the ability to access them from different locations persist today, when some argue that restricted-use federal statistics access could be made more equitable, considering the current host sites for FSRDCs.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="Mike Castro, Expanding Equitable Access to Restricted-Use Data through Federal Statistical Research Data Centers , Federal Statistical Research Data Center Program , October 22, 2024, https://statspolicy.gov/assets/fcsm/files/docs/2024-conference-docs/B/B4.4_Castro.pdf .">37</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Census Bureau continued to work on establishing record linkages across datasets through respondent-level, restricted data. Researchers found the availability of these data to be useful because they allowed for more thorough analysis than could be accomplished with publicly available, nonconfidential datasets, leading the Census Bureau to consider ways to continue to expand statistical data access.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="B. K. Atrostic, The Center for Economic Studies 1982-2007: a Brief History , U.S. Census Bureau, October 2009, p. 4 , https://www.census.gov/library/working-papers/2009/adrm/ces-wp-09-35.html .">38</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537949"></a><a name="_Toc231390275"></a><a name="_Toc239769265"></a><a name="_Toc242964219"></a><a name="_Toc244239795"></a><a name="_Toc244675474"></a><a name="_Toc244685091"></a><a name="_Toc244769171"></a><a name="_Toc244769235"></a><a name="_Toc244769548"></a><a name="_Toc244769895"></a>Center for Economic Studies</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1982, the Census Bureau hosted a workshop titled <em>Development and Use of Longitudinal Establishment Data</em>, which discussed a new longitudinal database that hosted internal Census Bureau data on U.S. manufacturing establishments. This workshop also covered methodological issues in developing this database, confidentiality challenges to the use of these data by non-Census Bureau researchers, experiences in using longitudinal establishment data, and the data's analytical potential. Part of the challenge was that the Census Bureau lacked an in-house research arm with its own programming and computer resources.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="U .S. Census Bureau, Development and Use of Longitudinal Establishment Data: Proceedings of the Workshop on the Development and Use of Longitudinal Establishment Data , January 14-15, 1982.">39</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Later that year, the Center for Economic Studies (CES), a new economic research unit at the Census Bureau, was administratively established with the purpose of hosting new longitudinal business databases, developing them, and allowing qualified researchers to access them.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title='U.S. Census Bureau, " Center for Economic Studies (CES)," https://www.census.gov/programs-surveys/ces.html .'>40</a></sup> This was effectively the Census Bureau's first research data center (RDC): a physical site collocated at the agency where non-Census Bureau researchers could access restricted-use Census Bureau data.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="B. K. Atrostic, The Center for Economic Studies 1982-2007: a Brief History , U.S. Census Bureau, October 2009 , p . 1.">41</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Through the next decade, external researchers used economic microdata housed at the CES by using CES staff as a proxy. Researchers submitted computer programs to the CES, the CES staff ran the programs and reviewed the outputs to ensure confidential information was not improperly disclosed, and then, finally, CES staff sent the approved outputs back to researchers. Eventually, to streamline this process and reduce burden on CES staff, the Census Bureau allowed external researchers to directly access economic microdata at the CES by permitting them to become special sworn status (SSS) employees.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title='University of Washington Center for Studies in Demography and Ecology, "Special Sworn Status," https://csde.washington.edu/services/northwest-federal-statistical-research-data-center/special-sworn-status/  .'>42</a></sup> Through this SSS designation, the external researchers were subject to the same statutory confidentiality standards and data misuse penalties as Census Bureau employees for purposes of their projects.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="B. K. Atrostic, The Center for Economic Studies 1982-2007: a Brief History , U.S. Census Bureau, October 2009 , p . 5-7 .">43</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CES staff and SSS researchers published 64 papers using more accessible data in 1990-1991. Topics covered in these papers included, for example,<span class="CommentReference"> </span>commercial bank financing of non-minority- and Black-owned small business startups; patterns of firm entry and exit in the U.S. manufacturing sector; and gender segregation in small firms using Equal Employment Opportunity Commission data linked with Area Wage Surveys, among others.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="U.S. Census Bureau, Center for Economic Studies, Bureau of The Census, Annual Report, Fiscal Year 1991 , January 1992, https://www.census.gov/library/publications/1992/adrm/1991fy-ces-annual-report.html .">44</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the research made possible by increased internal microdata access offered by the CES RDC, the Census Bureau developed a strategy to expand the model and establish additional RDCs at universities or similar institutions across the country. In partnership with NSF, the Census Bureau opened the first remote RDC at the Census Bureau's Boston regional office in 1994.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title='U.S. Census Bureau, "Boston," https://www.census.gov/about/adrm/fsrdc/locations/boston.html .'>45</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537950"></a><a name="_Toc231390276"></a><a name="_Ref232501658"></a><a name="_Toc239769266"></a><a name="_Toc242964220"></a><a name="_Toc244239796"></a><a name="_Toc244675475"></a><a name="_Toc244685092"></a><a name="_Toc244769172"></a><a name="_Toc244769236"></a><a name="_Toc244769549"></a><a name="_Toc244769896"></a>FSRDC Network Development, 1998-Present</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1998, the Census Bureau released a <em>Federal Register</em> notice that allowed proposals to establish additional RDCs (later rebranded as FSRDCs) to help expand the RDC network.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title='Department of Commerce, Bureau of the Census, "Establishing New Research Data Centers (RDCs)," 63 Federal Register 14, January 22, 1998, https://www.govinfo.gov/content/pkg/FR-1998-01-22/pdf/98-1504.pdf .'>46</a></sup> The notice cited Title 15, Section 1525 of the <em>U</em><em>.</em><em>S</em><em>.</em><em> Code</em>, which authorizes the Department of Commerce to engage in joint projects with "nonprofit organizations, research organizations, or public organizations or agencies." The Census Bureau interpreted this statute to allow RDC partnerships between the Census Bureau and hosting institutions, effectively allowing for RDC agreements.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title="15 U.S .C. §1525 .">47</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 1998 notice, the Census Bureau wrote that "the RDC program has two major goals: (1) to use the results of the research carried out at the RDCs, and the contact between the Census Bureau and RDC researchers, to improve Census Bureau data programs ... and (2) to promote academic research using microdata collected by the Census Bureau as part of its ongoing survey and census operations."<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title='"Establishing New Research Data Centers (RDCs)," 63 Federal Register 14, January 22, 1998.'>48</a></sup> It also provided that nonprofit organizations in the United States, which include "universities, nongovernmental research centers, and certain government facilities," were eligible to seek Census approval to establish an RDC, as is true today. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Per the 1998 <em>Federal Register</em> notice, RDCs are to operate according to the following standards:</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. a secure research computer laboratory;</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. a research project selection and approval process carried out jointly with the Census Bureau;</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. a minimum of one Census Bureau employee on-site to provide support and maintain confidentiality standards;</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. an executive director on behalf of the hosting facility to serve as a liaison between the local research community and the Census Bureau;</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">5. an FSRDC review and oversight board to oversee operations of the FSRDC.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Researchers were required to undergo an application process, which included the submission of detailed project descriptions and obtain SSS, which permitted access to restricted-use Title 13 data while subjecting SSS status holders to the same confidentiality requirements and penalties that apply to Census Bureau personnel.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="For more information on Title 13 data access, confidentiality, and protections, see CRS In Focus IF12957, Census Bureau Data: Selected Access, Privacy, and Penalty Provisions in Titles 13 and 26, U.S. Code , by Taylor R. Knoedl .">49</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the 1998 notice began to standardize the process of soliciting and approving the establishment of new FSRDC locations, access to and the utility of RDCs remained a challenge for researchers because of limited uniform confidentiality standards, the lack of a standard application process, and the restrictions prohibiting data sharing across statistical agencies.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="U.S. Census Bureau, Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch , October 16, 2019, p. 8, https://www.census.gov/content/dam/Census/about/about-the-bureau/fsrdc/documents/Guidelines_for_RDC_Development_and_Operations_FINAL_FY2020.pdf .">50</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242964221"></a><a name="_Toc244239797"></a><a name="_Toc244675476"></a><a name="_Toc244685093"></a><a name="_Toc244769173"></a><a name="_Toc244769237"></a><a name="_Toc244769550"></a><a name="_Toc244769897"></a>Statutes Relevant to FSRDCs</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc244239798"></a><a name="_Toc244675477"></a><a name="_Toc244685094"></a><a name="_Toc244769174"></a><a name="_Toc244769238"></a><a name="_Toc244769551"></a><a name="_Toc244769898"></a>Confidential Information Protection and Statistical Efficiency Act of 2002</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress addressed some of these issues in the Confidential Information Protection and Statistical Efficiency Act of 2002 (CIPSEA 2002; <a class="ExternalLink" href="https://www.congress.gov/law/107/pub/347"><span class="Hyperlink">P.L. 107-347</span></a>, Title V). In the House report accompanying CIPSEA 2002, Congress emphasized the value in uniform confidentiality standards:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The bill provides one uniform set of confidentiality protections to supplant the ad hoc statutory protections that now exist. The bill also establishes statutory protections in some areas where no such protections currently exist. The bill's enhanced confidentiality protections would improve the quality of Federal statistics by encouraging greater cooperation on the part of respondents.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="H.Rept. 107-778 .">51</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Through CIPSEA 2002, Congress expanded confidentiality and disclosure policies that strengthened safeguards at FSRDCs. The act also allowed for data sharing among the Census Bureau, Bureau of Labor Statistics (BLS), and Bureau of Economic Analysis (BEA)—offering more opportunities for data linkages to be made at FSRDCs.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="CIPSEA 2002 was enacted by Title V of the E-Government Act of 2002, P.L. 107-347 (December 17, 2002; 116 Stat. 2962), https://www.govinfo.gov/content/pkg/PLAW-107publ347/pdf/PLAW-107publ347.pdf#page=64 . Section 503 establishes OMB ' s oversight and coordination of the law ' s confidentiality and disclosure policies.">52</a></sup> Compared to the then-status quo, CIPSEA 2002 established more comprehensive and standardized federal information confidentiality standards, summarized in the act as follows: </p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">USE OF STATISTICAL DATA OR INFORMATION.—Data or information acquired by an agency under a pledge of confidentiality and for exclusively statistical purposes shall be used by officers, employees, or agents of the agency exclusively for statistical purposes.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="P.L. 107-347 , Title V, § 512.">53</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This provision established a uniform confidentiality standard for information collected for statistical purposes across the federal government. CIPSEA 2002 also implemented fines and penalties for the wrongful disclosure by agency employees or agents of information exclusively collected for statistical purposes.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="P.L. 107-347 , §513.">54</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">More than a decade later, congressional interest in assessing the quality of federal programs through government data led to a bipartisan effort to establish a commission to study federal use of evidence to assess program performance.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title='Paul Ryan, Speaker of the House, " Evidence-Based Policy Commission Gets to Work ," press release, July 26, 2016, https://bipartisanpolicy.org/download/?file=/wp-content/uploads/2019/03/Statement-from-Paul-Ryan.pdf .'>55</a></sup> On March 30, 2016, the Evidence-Based Policymaking Commission Act was signed into law, establishing the Commission for Evidence-Based Policymaking (CEP).<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="P.L. 114-140 .">56</a></sup> The CEP was mandated to "study and develop a strategy for strengthening the government's evidence-building and policymaking efforts."<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="Commission on Evidence-Based Policymaking, The Promise of Evidence-Based Policymaking , September 7, 2017, p. 1.">57</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On September 7, 2017, the CEP published its findings in a report titled <em>The Promise of Evidence-Based Policymaking</em>.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="Commission on Evidence-Based Policymaking, The Promise of Evidence-Based Policymaking .">58</a></sup> In this report, the CEP identified several challenges faced by the statistical community, including what the commission considered "cumbersome and idiosyncratic data access procedures."<a name="_Hlk227910347"></a><sup><a class="FootnoteLink" href="#fn59" name="ifn59" title="Commission on Evidence-Based Policymaking, The Promise of Evidence-Based Policymaking , p. 35.">59</a></sup> At the time, there was no standard application for accessing restricted-use data across government agencies, and some agencies did not have any formal program for external researcher access. According to comments to the CEP, researchers were required to apply to multiple agencies for access to different datasets. During a public hearing held by the CEP, one respondent stated the following:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Key issues encountered include: inconsistent, but often lengthy and cumbersome processes for accessing data. Each agency negotiates its own data sharing agreements, which can add up to significant time and cost for national studies that require data from multiple agencies in many states, particularly when there may be variations in exactly what the process requires and how long it takes.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="Commission on Evidence-Based Policymaking, The Promise of Evidence-Based Policymaking , p. 36.">60</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Furthermore, the CEP found that without a standard application, confidentiality standards may not have been based on "a common understanding of risk for linked data."<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title="Commission on Evidence-Based Policymaking, The Promise of Evidence-Based Policymaking , p. 36.">61</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390278"></a><a name="_Toc239769268"></a><a name="_Toc242964222"></a><a name="_Toc244239799"></a><a name="_Toc244675478"></a><a name="_Toc244685095"></a><a name="_Toc244769175"></a><a name="_Toc244769239"></a><a name="_Toc244769552"></a><a name="_Toc244769899"></a>Confidential Information Protection and Statistical Efficiency Act of 2018</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CEP's report, <em>The Promise of Evidence-Based </em><em>Policymaking</em>, informed the Foundations for Evidence-Based Policymaking Act (FEBPA; <a class="ExternalLink" href="https://www.congress.gov/law/115/pub/435"><span class="Hyperlink">P.L. 115-435</span></a>). Signed into law in 2019, FEBPA expanded the structure of statutory provisions governing activities of the federal statistical system.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title="P.L. 115-435 .">62</a></sup> Among other provisions, FEBPA repealed and replaced CIPSEA 2002 with CIPSEA 2018.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title="I nserted provisions at 44 U.S.C. §§3561-3583 .">63</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537954"></a>CIPSEA 2018 amended Title 44 of the <em>U.S. Code</em> as it pertains to federal information policy and confidentiality and required the development of a formal standard application process (SAP) that would apply, among other entities, to researchers seeking access to FSRDCs.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title="44 U.S.C. §3583 .">64</a></sup> On January 14, 2022, OMB released a <em>Federal Register</em> notice seeking public comments for the implementation of the SAP, as recommended by the ICSP.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title="Office of Management and Budget, &quot; The Interagency Council on Statistical Policy ' s Recommendation for a Standard Application Process (SAP) for Requesting Access to Certain Confidential Data Assets ,&quot; 87 Federal Register 2459, January 14, 2022, https://www.govinfo.gov/content/pkg/FR-2022-01-14/pdf/2022-00620.pdf .">65</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CIPSEA 2018 requires recognized statistical agencies or units (RSAUs) to adopt an SAP to allow "agencies, the Congressional Budget Office, State, local, and Tribal governments, researchers, and other individuals, as appropriate," the opportunity to apply for access to confidential data assets "for the purposes of developing evidence." Furthermore, the SAP is required in statute to also include</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">criteria for determining whether to grant an applicant access to the confidential dataset;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">timeframes for prompt determinations by each RSAU;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">an appeals process for adverse determinations of applications; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">transparency standards, which make publicly available each application received, the status of applications, determinations of applications, and any other relevant information.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title="44 U.S.C. §3583 .">66</a></sup> </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CIPSEA 2018 also establishes some confidentiality standards for restricted-use data that apply to FSRDCs. Title 44 of the <em>U.S. Code </em>states that information provided to federal agencies for statistical purposes is to be used solely for statistical purposes. Wrongful disclosure of this confidential information is to result in penalties for the agent disclosing the information. Furthermore, Title 44 specifies that the information individuals provide under the pledge of confidentiality cannot be disclosed in an identifiable form.<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="44 U.S.C. §3572 .">67</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390281"></a><a name="_Toc239769271"></a><a name="_Toc242964223"></a><a name="_Toc244239800"></a><a name="_Toc244675479"></a><a name="_Toc244685096"></a><a name="_Toc244769176"></a><a name="_Toc244769240"></a><a name="_Toc226537963"></a><a name="_Ref230864824"></a><a name="_Toc244769553"></a><a name="_Toc244769900"></a>Data Confidentiality</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law states that information "supplied by individuals or organizations to an agency for statistical purposes under a pledge of confidentiality is used exclusively for statistical purposes." Furthermore, individuals who supply this confidential information are not to have that information disclosed "in identifiable form to anyone not authorized" in statute.<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title="44 U.S.C. §3572 .">68</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Title 13 of the <em>U</em><em>.</em><em>S</em><em>.</em><em> Code</em> establishes similar confidentiality standards for Census Bureau data by prohibiting the "use [of] the information furnished under the provisions of this title for any purpose other than the statistical purposes."<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title="13 U.S.C. §9 .">69</a></sup> FSRDCs follow these statutory confidentiality requirements, along with additional confidentiality policies established by individual RSAUs and FSRDCs.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc244239801"></a><a name="_Toc244675480"></a><a name="_Toc244685097"></a><a name="_Toc244769177"></a><a name="_Toc244769241"></a><a name="_Toc244769554"></a><a name="_Toc244769901"></a>Restricted-Use Data</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Restricted-use data are datasets that contain sensitive information, such as PII and BII, and are protected by the aforementioned confidentiality laws. Although publicly available statistics produced by the federal statistical system are beneficial to researchers, policymakers, businesses, individuals, and others, restricted-use data may be necessary for certain research projects.<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title='U.S. Census Bureau, " Restricted-Use Data ," https://www.census.gov/topics/research/guidance/restricted-use-microdata.html .'>70</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">General examples of restricted-use data include but are not limited to ZIP Codes and other geographic identifiers, Social Security numbers, individual survey responses, individual health immunization records, and birthdates.<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title='Indiana University, "What is restricted data?," https://datamanagement.iu.edu/data-classifications/restricted-data.html .'>71</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To provide a sense of the range of datasets, <a class="InternalLink" href="#_Ref244705440"><strong></strong><strong>Table 1</strong></a> below provides a nonexhaustive list of examples of restricted-use data or files available at FSRDCs, as well as the survey from which they are derived and the sponsoring agency.<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title='Interagency Council on Statistical Policy, "SAP Data Catalog," https://sap.nsf.gov/dataset/  .'>72</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref244705440"></a><a name="_Toc231390266"></a><a name="_Toc239769255"></a><a name="_Toc242964209"></a><a name="_Toc244239786"></a><a name="_Toc244675463"></a><a name="_Toc244685080"></a><a name="_Toc244769160"></a><a name="_Toc244769224"></a><a name="_Toc244769537"></a><a name="_Toc244769884"></a>Table 1. Examples of Restricted-Use Data Available at FSRDCs by Agency and Survey</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:63.891175679999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Agency</p>
+</td>
+<td style="width:63.891175679999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Source</p>
+</td>
+<td style="width:63.85284864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Data</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Substance Abuse and Mental Health Services Administration</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Survey on Drug Use and Health</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Fully specified industry and occupation codes</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Census Bureau</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Longitudinal Employer-Household Dynamics</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Job-level quarterly earnings history data</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Bureau of Labor Statistics</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Longitudinal Surveys Original Cohorts</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Mature and young women, and older and young men with geographic variables</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Center for Health Statistics</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Health and Nutrition Examination Survey</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Geographic values below the national level</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Bureau of Economic Analysis</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Benchmark Survey of U.S. Direct Investment Abroad</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Worldwide activities of U.S. multinational enterprises</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Internal Revenue Service Statistics of Income Division</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Unaudited individual income tax returns</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Individual geographic data files</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Economic Research Service</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">First National Household Food Acquisition and Purchase Survey</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Household-level information about purchases and acquisitions of food items intended for consumption</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Bureau of Justice Statistics</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Annual Survey of Jails in Indian Country</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Enumeration of all known adult and juvenile facilities operated by tribal authorities or the Bureau of Indian Affairs</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Center for Science and Engineering Statistics</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">National Survey of Recent College Graduates</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Provided demographic information about individuals holding a bachelor's or master's degree in science, engineering, or health from a U.S. academic institution</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Energy Information Administration</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Residential Energy Consumption Survey</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Housing-unit-level data providing snapshot of energy characteristics in residential homes</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Information on agencies and datasets is available at <a class="ExternalLink" href="https://sap.nsf.gov/dataset/"><span class="Hyperlink">https://sap.nsf.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">dataset/</span></a>.</p>
+</div>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390283"></a><a name="_Toc239769273"></a><a name="_Toc242964224"></a><a name="_Toc244239802"></a><a name="_Toc244675481"></a><a name="_Toc244685098"></a><a name="_Toc244769178"></a><a name="_Toc244769242"></a><a name="_Toc244769555"></a><a name="_Toc244769902"></a>Standard Application Process</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The SAP provides researchers seeking to work with restricted-use data a single point of entry to access these data across the federal statistical system.<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title='U.S. Census Bureau, "Restricted-Use Data," https://www.census.gov/topics/research/guidance/restricted-use-microdata.html .'>73</a></sup> Researchers submit their applications through the SAP's online portal.<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title="https://sap.nsf.gov/dataset/  .">74</a></sup> Following CIPSEA 2018's establishment of a statutory requirement for a standard application process, OMB released a 2022 memo (M-23-04) that formally established the SAP.<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title='Office of Management and Budget, " Establishment of Standard Application Process Requirements on Recognized Statistical Agencies and Units, " M-23-04, https://www.whitehouse.gov/wp-content/uploads/2022/12/M-23-04.pdf .'>75</a></sup> The SAP requires applicants to identify all components needed to complete their projects, including what data are being sought and for what purpose. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To be considered for approval, researchers must submit a proposal for a research project that is to be used solely for statistical purposes.<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title="44 U.S.C. §3561(12) .">76</a></sup> Research proposals are reviewed to ensure that the use of restricted-use data is necessary and that the project is feasible given the available data.<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title='U.S. Census Bureau, " Apply for Access to Restricted-Use Census Bureau Microdata ," https://www.census.gov/about/adrm/ced/apply-for-access.html .'>77</a></sup> Furthermore, as required in statute, researchers who want to access restricted-use Census Bureau data must demonstrate that their research will assist the Census Bureau in performing its work.<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title="U.S.C. 13 § 23(c).">78</a></sup> Research proposals must avoid analyses that serve regulatory, commercial, or any other nonstatistical purposes, or that give the appearance of doing so, in order to adhere to Title 13 requirements.<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title="U.S. Census Bureau, FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data , February 6, 202 6, https://www2.census.gov/adrm/FSRDC/Apply_For_Access/ R esearch_Proposal_Guidelines.pdf ; 13. U.S.C. §9 .">79</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 2022 OMB memo required the establishment of an SAP data catalog. Applicants are required to use this data catalog to identify "the data assets of interest for purposes of building evidence."<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title="U.S. Census Bureau, FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data , p. 8.">80</a></sup> The memo defines the data catalog as "a repository of metadata describing the data assets potentially available pending approval of an application for access."<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title="U.S. Census Bureau, FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data , p. 9.">81</a></sup> Furthermore, the memo requires the data catalog to include listings for both public and confidential data assets to allow researchers to understand what data may be made available.<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title="U.S. Census Bureau, FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data , p. 10.">82</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The data catalog is available on the SAP portal, and datasets can be searched by keyword, agency, and topic. The catalog provides researchers some information on individual datasets, including a summary of the dataset; the scope and coverage of the data; some methodology information; general access information and fees; a summary of differences between the public-access and restricted-use datasets; and whether non-U.S. citizens can apply for access. Not all datasets offer detailed fee information, nor is there information on which FSRDC locations provide the data.<sup><a class="FootnoteLink" href="#fn83" name="ifn83" title="See R esearch D ata G ov.org at https://sap.nsf.gov/dataset/ .">83</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Researchers are expected to provide a detailed description of their research plans as part of the SAP, following specified format criteria. The description should include the project's title; duration; funding sources; timeline to completion; research questions; demonstrated need for restricted-use data assets; study population; years of data needed; abstract, which FSRDC the research team will access; data linkages;<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title="U.S. Census Bureau, FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data , p. 6.">84</a></sup> any non-FSRDC data that may be used; software requirements for the research; research methodology; relevant literature used in the research; project products (such as journal articles, conference presentations) that will result from the research; the output researchers expect to submit for the disclosure avoidance review;<sup><a class="FootnoteLink" href="#fn85" name="ifn85" title='U.S. Census Burea u, " Restricted-Use Data Application Process : Disclosure Avoidance Review," https://www.census.gov/topics/research/guidance/restricted-use-microdata/standard-application-process.html#accordion-fea0884157-item-aa10b2785f .'>85</a></sup> and how the research will benefit the Census Bureau.<sup><a class="FootnoteLink" href="#fn86" name="ifn86" title='U.S. Census Bureau, " Restricted-Use Data Application Process : Disclosure Avoidance Review . "'>86</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239769276"></a><a name="_Toc242964226"></a><a name="_Toc244239803"></a><a name="_Toc244675482"></a><a name="_Toc244685099"></a><a name="_Toc244769179"></a><a name="_Toc244769243"></a><a name="_Toc244769556"></a><a name="_Toc244769903"></a>Special Sworn Status and Penalties</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Title 13 of the <em>U.S. Code</em>, which pertains to Census Bureau data, has provisions relating to general confidentiality standards that enable operations of FSRDCs as well as providing specific authorizations used in FSRDC management and the SAP. As part of the SAP, researchers are required to obtain special sworn status (SSS) to gain access to data protected by Title 13, Section 9. Section 23 of Title 13 allows the Census Bureau to utilize "temporary staff" to "assist the Bureau in performing the work authorized by this title," under the requirement that this temporary staff is "sworn to observe the limitations imposed by section 9 of this title." This effectively allows researchers to access confidential Census Bureau data by obtaining SSS.<sup><a class="FootnoteLink" href="#fn87" name="ifn87" title="U.S. Census Bureau, The Researcher Handbook: Federal Statistical Research Data Centers' Handbook for Researchers , February 2026, p. 2.">87</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Researchers who violate their SSS status by wrongfully disclosing confidential information are subject to the same penalties as Census Bureau or other personnel. Federal law establishes a maximum fine of $5,000, imprisonment of not more than five years, or both for the wrongful disclosure of information.<sup><a class="FootnoteLink" href="#fn88" name="ifn88" title="13 U.S.C. § 214.">88</a></sup> Violations of those laws may be subject to the superseding fines set out in Section 3571(b) of Title 18.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537973"></a><a name="_Toc231390286"></a><a name="_Toc239769277"></a><a name="_Toc242964227"></a><a name="_Toc244239804"></a><a name="_Toc244675483"></a><a name="_Toc244685100"></a><a name="_Toc244769180"></a><a name="_Toc244769244"></a><a name="_Toc244769557"></a><a name="_Toc244769904"></a>Identifying the Research Team</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAP guidelines advise that proposals should include all members of a research team, including those who do not plan to access an FSRDC. If new researchers or other collaborators join a project, the FSRDC administrator can provide support in adding them after the application has received final approval.<sup><a class="FootnoteLink" href="#fn89" name="ifn89" title="U.S. Census Bureau, FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data , p. 3.">89</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">U.S. citizens, permanent residents, or foreign nationals can gain FSRDC access through the SAP. Researchers accessing an FSRDC must currently reside in the United States and have resided there for at least three of the past five years. Members of the research team must include their full name, affiliation, title, email address (guidance from the Census Bureau recommends using an institutional email address), phone number, citizenship status, residency status, whether they have obtained SSS, and if they will access confidential data or not.<sup><a class="FootnoteLink" href="#fn90" name="ifn90" title="U.S. Census Bureau, FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data , p. 3.">90</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390284"></a><a name="_Toc239769274"></a><a name="_Toc242964225"></a><a name="_Toc244239805"></a><a name="_Toc244675484"></a><a name="_Toc244685101"></a><a name="_Toc244769181"></a><a name="_Toc244769245"></a><a name="_Toc244769558"></a><a name="_Toc244769905"></a>Examples of Research</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some FSRDC locations publish research products conducted at their locations that are available to the public. To illustrate how qualified researchers utilize the restricted-use data made available at FSRDCs, several examples of research projects are detailed below. The examples below were made available by the Philadelphia FSRDC location.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537976"></a><a name="_Toc244239806"></a><a name="_Toc244675485"></a><a name="_Toc244685102"></a><a name="_Toc244769182"></a><a name="_Toc244769246"></a><a name="_Toc244769559"></a><a name="_Toc244769906"></a>Economic Research</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There is little microdata on firms and establishments in the United States available for public use, leaving FSRDCs as the only source for this type of data. Restricted-use economic data accessible in FSRDCs cover all sectors of the economy and allow for individual observations across time to be linked. As an example of this type of data linkage, FSRDCs allow access to matching datasets on individual establishments and their workers produced by the Longitudinal Employer-Household Dynamics (LEHD) program. Restricted-use LEHD data can also link individual workers to Census Bureau surveys, including the decennial census and the American Community Survey (ACS).<sup><a class="FootnoteLink" href="#fn91" name="ifn91" title='Philadelphia Federal Statistical Research Data Cente r, "Examples of Research: Economics," https://web.sas.upenn.edu/pfsrdc/menu2/examples-of-research-in-economics/ .'>91</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537977"></a><a name="_Toc244239807"></a><a name="_Toc244675486"></a><a name="_Toc244685103"></a><a name="_Toc244769183"></a><a name="_Toc244769247"></a><a name="_Toc244769560"></a><a name="_Toc244769907"></a>Health Research</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Restricted-use data on health-related issues are frequently accessed by researchers, including data provided by the National Center for Health Statistics and the Agency for Healthcare Research and Quality.<sup><a class="FootnoteLink" href="#fn92" name="ifn92" title='Philadelphia Federal Statistical Research Data Cente r, "Examples of Research: Health," https://web.sas.upenn.edu/pfsrdc/menu2/health/ .'>92</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537978"></a><a name="_Toc244239808"></a><a name="_Toc244675487"></a><a name="_Toc244685104"></a><a name="_Toc244769184"></a><a name="_Toc244769248"></a><a name="_Toc244769561"></a><a name="_Toc244769908"></a>Demography and Sociology Research</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Demography and sociology researchers may access restricted-use data from several key surveys through FSRDCs, including the National Health and Nutrition Examination Survey, the National Survey of Family Growth, the ACS, and the Current Population Survey. These surveys may also be linked with administrative records, including the National Death Index and Medicare enrollment and claims data. The restricted-use data accessed through FSRDCs allow for more specific details, such as information on geographic identifiers, dates of interviews, deaths and births, detailed causes of death, and more.<sup><a class="FootnoteLink" href="#fn93" name="ifn93" title='Philadelphia Federal Statistical Research Data Cente r, "Examples of Research: Demography/Sociology ," https://web.sas.upenn.edu/pfsrdc/menu2/sociology/ .'>93</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc244239809"></a><a name="_Toc244675488"></a><a name="_Toc244685105"></a><a name="_Toc244769185"></a><a name="_Toc244769249"></a><a name="_Toc244769562"></a><a name="_Toc244769909"></a>Accessing Data at FSRDCs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FSRDCs are to provide all physical controls and access in compliance with Census Bureau security requirements. Some security measures in place include Census Bureau-issued badges and badge readers used for entry; security cameras operated by the Department of Commerce (DOC) Office of Security; regular inspections by the DOC Office of Security; and Intrusion Detection Systems with sensors installed by partner institutions. In addition, FSRDC users are prohibited from bringing cell phones or other digital capture devices like USB or hard drives to FSRDC locations. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537969"></a><a name="_Toc231390289"></a><a name="_Toc239769278"></a><a name="_Toc242964229"></a><a name="_Toc244239810"></a><a name="_Toc244675489"></a><a name="_Toc244685106"></a><a name="_Toc226537979"></a><a name="_Toc244769186"></a><a name="_Toc244769250"></a><a name="_Toc244769563"></a><a name="_Toc244769910"></a>On-Site Data Access</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">All data available at FSRDCs are physically located on computer servers housed at the Census Bureau's Computer Center in Bowie, MD. The data are made available to researchers through a <em>thin client</em>, which "can only display information from the computer server and accept mouse and keyboard inputs from the researcher."<sup><a class="FootnoteLink" href="#fn94" name="ifn94" title='U.S. Census Bureau, " Secure Research Facilities ," https://www.census.gov/about/adrm/fsrdc/about/secure_rdc.html .'>94</a></sup> The thin client prevents data from being downloaded from the server, and it has no ability to write to computer media such as CDs or flash drives. This means that restricted-use data cannot be transferred out of FSRDCs by researchers.<sup><a class="FootnoteLink" href="#fn95" name="ifn95" title='B. K. Atrostic, The Center for Economic Studies 1982-2007: a Brief History , U.S. Census Bureau, October 2009, p. 6; U.S. Census Bureau, " FSRDC Access at Your Institution . "'>95</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc231390290"></a><a name="_Toc239769279"></a><a name="_Toc242964230"></a><a name="_Toc244239811"></a><a name="_Toc244675490"></a><a name="_Toc244685107"></a><a name="_Toc244769187"></a><a name="_Toc244769251"></a><a name="_Toc244769564"></a><a name="_Toc244769911"></a>Remote Data Access</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The FSRDC system provides limited remote access to FSRDC computing environments. Several restrictions are in place for remote access, and researchers who are new to the FSRDC network are required to use a physical FSRDC location to begin work on their first research project. The FSRDC network does not allow any research project to be directly initiated in a remote computing environment. Access to a remote computing environment is authorized on a project-by-project basis and is at the discretion of the Census Bureau and other federal agency partners.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Furthermore, remote access is limited to datasets from the BEA, the National Center for Science and Engineering Statistics (NCSES), and most datasets from the Census Bureau and the Statistics of Income (SOI) division of the Internal Revenue Service (IRS).<sup><a class="FootnoteLink" href="#fn96" name="ifn96" title='U.S. Census Burea u , " Secure Remote Access for FSRDC Research ," https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.h tml .'>96</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239769281"></a><a name="_Toc242964231"></a><a name="_Toc244239812"></a><a name="_Toc244675491"></a><a name="_Toc244685108"></a><a name="_Toc226537980"></a><a name="_Toc244769188"></a><a name="_Toc244769252"></a><a name="_Toc244769565"></a><a name="_Toc244769912"></a>Disclosure Review Board</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Qualified researchers who have been given SSS and successfully completed the SAP may have their products published. To do so, these products must undergo the established disclosure review process, which adheres to statutory confidentiality standards, to be approved for release. <em>Disclosure avoidance</em> refers to the efforts taken to <em>deidentify</em> information collected from respondents to reduce the risk of disclosure of PII.<sup><a class="FootnoteLink" href="#fn97" name="ifn97" title='U.S. Department of Education, " Disclosure Avoidance ," https://studentprivacy.ed.gov/content/disclosure-avoida nce .'>97</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Disclosure review at FSRDCs is managed by the Census Bureau's Disclosure Review Board (DRB).<sup><a class="FootnoteLink" href="#fn98" name="ifn98" title="U.S. Census Bureau, Federal Statistical Research Data Center Disclosure Avoidance Handbook : a Handbook for Researchers , 202 6, https://www2.census.gov/adrm/FSRDC/Resources/FSRDC-Disclosure-Avoidance-Methods-Handbook.pdf .">98</a></sup> The DRB adheres to the policies of the Data Stewardship Executive Policy Committee, which is responsible for disclosure avoidance policies and practices across the Census Bureau.<sup><a class="FootnoteLink" href="#fn99" name="ifn99" title='U.S. Census Bureau, " Data Stewardship Executive Policy Committee , " February 14, 201 9, https://www.census.gov/about/policies/privac y /data_stewardship/dsep_comm i ttee.h tml .'>99</a></sup> The DRB reviews FSRDC products and project requests to determine if they pose any additional disclosure risks. Prior to publishing any potential output from an FSRDC project, researchers must undergo a disclosure avoidance review process.<sup><a class="FootnoteLink" href="#fn100" name="ifn100" title="U.S. Census Bureau, Federal Statistical Research Data Center Disclosure Avoidance Handbook : a Handbook for Researchers , 202 4 , p. 3; outputs include statistical outputs, notes, graphs, tables or statements, and significance estimates.">100</a></sup> Many approvals for the release of outputs are made by the disclosure avoidance officers, with some decisions being made by the DRB.<sup><a class="FootnoteLink" href="#fn101" name="ifn101" title="U.S. Census Bureau, Federal Statistical Research Data Center Disclosure Avoidance Handbook : a Handbook for Researchers , 202 6 , p. 5.">101</a></sup> Researchers are responsible for providing their own disclosure statistics, which must show how their outputs follow the approved methods.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The DRB only has authority over FSRDC projects that use data protected under Title 13. Although the Census Bureau hosts FSRDC projects for other partner agencies, those agencies are responsible for clearing project outputs if the only data used are from those agencies. If both Title 13 and non-Census Bureau data are used, the DRB and other relevant agencies collaborate on disclosure review.<sup><a class="FootnoteLink" href="#fn102" name="ifn102" title="Mark Dorsey, Congressional Liaison for the U.S. Census Bureau, email to author, June 27, 2025.">102</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242964232"></a><a name="_Toc244239813"></a><a name="_Toc244675492"></a><a name="_Toc244685109"></a><a name="_Toc244769189"></a><a name="_Toc244769253"></a><a name="_Toc244769566"></a><a name="_Toc244769913"></a>National Secure Data Service</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Though not directly linked to the FSRDC network, some members of the federal statistical community see a National Secure Data Service (NSDS) as a possible model for providing streamlined access to federal statistical data, including restricted-use data.<sup><a class="FootnoteLink" href="#fn103" name="ifn103" title="America's Datahub Consortiu m, Expanding Equitable Access to Restricted-Use Data through Federal Statistical Research Data Centers , https://www.americasdatahub.org/wp-content/uploads/2023/06/ATT-1-_FSRDC-Access_Topic.pdf .">103</a></sup> In January 2025, the ICSP stated that one of its goals was to "further integrate with related data ecosystems efforts, such as the NSDS Demonstration Project and the FSRDC network."<sup><a class="FootnoteLink" href="#fn104" name="ifn104" title="Interagency Council on Statistical Policy, Standard Application Process Annual Report for 2024 , January 2025.">104</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An NSDS was initially recommended by the Commission on Evidence-Based Policymaking (CEP) in 2017. The commission described an NSDS as being able to "temporarily link existing data and provide secure access to those data for exclusively statistical purposes in connection with approved projects." In 2022, the CHIPS and Science Act authorized an NSDS demonstration project.<sup><a class="FootnoteLink" href="#fn105" name="ifn105" title="P.L. 117-167 .">105</a></sup> That act described the NSDS as a "governmentwide data linkage and access infrastructure for statistical activities conducted for statistical purposes."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some experts have indicated that an NSDS could include a potential tiered-access framework, which would establish varying credential requirements for researchers depending on data restriction levels. Public and minimally restricted datasets would require no or minimal credentials for researchers to access, while restricted and maximally restricted datasets would require researchers to complete the SAP and meet other credentialing requirements consistent with the level of restricted access.<sup><a class="FootnoteLink" href="#fn106" name="ifn106" title='U.S. Government Accountability Office , Highlights of a Forum: Expert Views on the Federal Statistical System , GAO-25-107124, September 24, 2025, p. 41, https://www.gao.gov/products/gao-25-107124 . In a 2022 letter, two Senators raised issues of data privacy and security related to the NSDS ; see Tonya Riley, "Senators W ant A gencies to E ncrypt D ata B efore S haring with N ew NSF D atabase," Cyberscoop , December 20, 2022, https://cyberscoop.com/senators-nsds-encryption-...'>106</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537981"></a><a name="_Toc231390293"></a><a name="_Toc239769282"></a><a name="_Toc242964233"></a><a name="_Toc244239814"></a><a name="_Toc244675493"></a><a name="_Toc244685110"></a><a name="_Toc244769190"></a><a name="_Toc244769254"></a><a name="_Toc244769567"></a><a name="_Toc244769914"></a>Potential Issues for Congress</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members of Congress may have interest in FSRDCs, particularly related to access to restricted-use data available at FSRDC sites, the standards of confidentiality that researchers must adhere to, and the general governance structure of the FSRDC network. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537982"></a><a name="_Toc231390295"></a><a name="_Toc239769283"></a><a name="_Toc242964234"></a><a name="_Toc244239815"></a><a name="_Toc244675494"></a><a name="_Toc244685111"></a><a name="_Toc244769191"></a><a name="_Toc244769255"></a><a name="_Toc244769568"></a><a name="_Toc244769915"></a>Access</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The accessibility and distribution of restricted-use datasets housed in FSRDCs may be of interest to Members of Congress. Some states have multiple FSRDC locations, while others have none. Under the current distribution of FSRDC sites, researchers who are not based near a site may find it more difficult to physically access one.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Considering these potential geographic limitations, Members of Congress may have interest in the feasibility of expanding remote access to restricted-use data hosted by FSRDCs. The status quo of remote access to restricted-use datasets is limited to a small selection of agencies and is only permitted on a project-by-project basis.<sup><a class="FootnoteLink" href="#fn107" name="ifn107" title='U.S. Census Bureau, " Secure Remote Access for FSRDC Research ," https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.html .'>107</a></sup> Congress may wish to request a report from the EXCOM, Census Bureau, and other relevant agencies to explore the feasibility of expanding remote access to restricted-use data, including considerations for data protection risks and benefits in a secure, remote environment. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537983"></a><a name="_Toc231390296"></a>Congress may also consider requesting additional updates on NSDS demonstration project implementation and inquiring about any developments from the ICSP in integrating the NSDS into the FSRDC network.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239769284"></a><a name="_Toc242964235"></a><a name="_Toc244239816"></a><a name="_Toc244675495"></a><a name="_Toc244685112"></a><a name="_Toc244769192"></a><a name="_Toc244769256"></a><a name="_Toc244769569"></a><a name="_Toc244769916"></a>Confidentiality</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Data confidentiality is an ongoing concern of the general public. Pew Research Center polling from 2023 found that 71% of U.S. adults are "concerned about how the government use(s) the data they collect about them."<sup><a class="FootnoteLink" href="#fn108" name="ifn108" title='Colleen McClain et al. , " How Americans View Data Privacy , " Pew Research Center, October 18, 2023, https://www.pewresearch.org/internet/2023/10/18/how-americans-view-data-privacy/  .'>108</a></sup> In an effort to address declining public trust, OMB used its statistical policymaking authorities to establish the Fundamental Responsibilities of Recognized Statistical Agencies and Units—commonly referred in the statistical community as the "Trust Regulation." Through the Trust Regulation, which took effect in December 2024, OMB aims to standardize how statistical agencies carry out their fundamental responsibilities of relevance and timeliness, credibility and accuracy, objectivity, and confidentiality.<sup><a class="FootnoteLink" href="#fn109" name="ifn109" title="For more information on OMB ' s role in the federal statistical system and the &quot;trust regulation,&quot; see CRS Report R48161, The Federal Statistical System: An Overview , and CRS In Focus IF12877, Fundamental Responsibilities of Recognized Statistical Agencies and Units, the Trust Regulation , by Taylor R. Knoedl .">109</a></sup> If taking action on FSRDCs, Congress may want to consider issues related to public trust and how policy options might affect it.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FSRDCs operate under statutory baselines for confidentiality established predominantly in Titles 13 and 44 of the <em>U.S. Code</em>, as well as administrative policies and practices determined by the Census Bureau, such as guidance from the DRB.<sup><a class="FootnoteLink" href="#fn110" name="ifn110" title="U.S. Census Bureau, Federal Statistical Research Data Center Disclosure Avoidance Handbook : a Handbook for Researchers , 202 6 .">110</a></sup> Members of Congress might consider conducting oversight of FSRDCs' implementation of statutory confidentiality standards through administrative standards, such as those carried out by the DRB. Such an examination could assess whether the standards are effective in maintaining data confidentiality and whether they are incidentally limiting reasonable access. Oversight might also examine the specific techniques used to maintain data confidentiality and assess their effectiveness.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc226537984"></a><a name="_Toc231390297"></a><a name="_Toc239769285"></a><a name="_Toc242964236"></a><a name="_Toc244239817"></a><a name="_Toc244675496"></a><a name="_Toc244685113"></a><a name="_Toc244769193"></a><a name="_Toc244769257"></a><a name="_Toc244769570"></a><a name="_Toc244769917"></a>Governance and Operations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">With a combination of Census Bureau management and host institution operations, along with the inclusion of restricted-use datasets provided by other RSAUs, many parties are involved in the governance and functioning of FSRDCs. Members of Congress might be interested in oversight of this governance structure.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the current governance structure, broad FSRDC policy is under the authority of the FSRDC EXCOM, while the Census Bureau manages day-to-day operations. Representatives from the hosting institutions can participate in EXCOM matters but are not voting members.<sup><a class="FootnoteLink" href="#fn111" name="ifn111" title="Interagency Council on Statistical Policy, Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter , June 13, 2024.">111</a></sup> Meanwhile, the SAP is under the authority of the ICSP's SAP-GB, which establishes the procedures researchers use to gain access to FSRDCs.<sup><a class="FootnoteLink" href="#fn112" name="ifn112" title="Interagency Council on Statistical Policy, Charter of the Interagency Council of Statistical Policy's Standard Application Process Governance Board , December 2022.">112</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members of Congress might consider conducting oversight on the various tiers of governance surrounding FSRDCs to ensure they are aligned. Furthermore, the SAP-GB has transitioned to an updated SAP portal.<sup><a class="FootnoteLink" href="#fn113" name="ifn113" title='National Center for Science and Engineering Statistics, " SAP Portal Transition ," https://ncses.nsf.gov/initiatives/standard-application-process/sap-portal-transition .'>113</a></sup> Congress might consider conducting oversight on this process.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="Heading6" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix A.
+
+  <a name="_Toc239769258"></a><a name="_Toc242964212"></a><a name="_Toc244239788"></a><a name="_Toc244675466"></a><a name="_Toc244685083"></a><a name="_Toc244769163"></a><a name="_Toc244769227"></a><a name="_Toc244769540"></a><a name="_Toc244769887"></a>Relevant <em>U.S. Code</em> Provisions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additional <em>U.S. Code </em>provisions are relevant to FSRDCs and the SAP. The table below summarizes these provisions. The table does not address information regarding the broader federal statistical system. A table that provides summaries on code provisions relevant to the broader federal statistical system is available in CRS Report R48161, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48161"><em><span class="Hyperlink">The Federal Statistical System: An Overview</span></em></a>. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc239769256"></a><a name="_Toc242964210"></a><a name="_Toc244239787"></a><a name="_Toc244675464"></a><a name="_Toc244685081"></a><a name="_Toc244769161"></a><a name="_Toc244769225"></a><a name="_Toc244769538"></a><a name="_Toc244769885"></a>Table A-1. Select Statutory Provisions Relevant to FSRDCs and the SAP</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:31.92642432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">U.S.C.</p>
+</td>
+<td style="width:47.94712704pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Heading</p>
+</td>
+<td style="width:111.76164864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Summary</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">5 U.S.C. §315</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="" style="">Advisory Committee on Data for Evidence Building</p>
+</td>
+<td style="width:111.76164864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Established the Advisory Committee on Data for Evidence Building, which aimed to provide recommendations to facilitate data sharing, enable data linkage, and develop privacy-enhancing techniques, among other things.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">13 U.S.C. §9</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="" style="">Information as confidential; exception</p>
+</td>
+<td style="width:111.76164864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Establishes confidentiality requirements for Census Bureau data.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">13 U.S.C. §23</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="" style="">Additional officers and employees</p>
+</td>
+<td style="width:111.76164864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Allows the Census Bureau to utilize "temporary staff," which effectively allows researchers to gain access to confidential Census Bureau data.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">15 U.S.C. §1525</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Special studies; special compilations, lists, bulletins, or reports; clearinghouse for technical information; transcripts or copies; cost payments for special work; joint projects: cost apportionment, waiver</p>
+</td>
+<td style="width:111.76164864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Provides basis by which the Census Bureau may enter into arrangements to establish FSRDCs.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">26 U.S.C. §6103(j)</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Confidentiality and disclosure of returns and return information</p>
+</td>
+<td style="width:111.76164864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Allows the Internal Revenue Service (IRS) to share federal tax return information with the Census Bureau only for structuring the census and conducting related statistical activities.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.92642432pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="" style="">44 U.S.C. §3583</p>
+</td>
+<td style="width:47.94712704pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Application to access data assets for developing evidence</p>
+</td>
+<td style="width:111.76164864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Mandated establishment of a standard application process used by statistical agencies and units.</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong><em>U.S. Code</em>.</p>
+</div>
+</div>
+<p class="Heading6" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix B.
+
+  <a name="_Ref244675131"></a><a name="_Toc244675467"></a><a name="_Toc244685084"></a><a name="_Toc244769164"></a><a name="_Toc244769228"></a><a name="_Toc244769541"></a><a name="_Toc244769888"></a>FSRDC Locations</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:345.6pt;">
+<p class="TableTitle"><a name="_Toc244675465"></a><a name="_Toc244685082"></a><a name="_Toc244769162"></a><a name="_Toc244769226"></a><a name="_Toc244769539"></a><a name="_Toc244769886"></a>Table B-1. FSRDC Locations</p>
+<p class="TableSubTitle">Information current as of November 4, 2026</p>
+</div>
+<table class="ReportTable" style="width:345.6pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:67.37893632000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">City, State</p>
+</td>
+<td style="width:124.25626367999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Hosting Institution Location</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Atlanta, Georgia</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Federal Reserve Bank of Atlanta</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Boston, Massachusetts</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">National Bureau of Economic Research</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Berkeley, California</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of California, Berkeley</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Irvine, California</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of California, Irvine</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Stanford, California</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Stanford University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Los Angeles, California</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of California, Los Angeles</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Los Angeles, California</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style=""> University of Southern California</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Lincoln, Nebraska</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Nebraska-Lincoln</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Chicago, Illinois</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Federal Reserve Bank of Chicago</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Dallas, Texas</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Federal Reserve Bank of Dallas</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Washington, DC</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Board of Governors of the Federal Reserve System</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Gainesville, Florida</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Florida, East Campus</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Washington, DC</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Georgetown University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Bloomington, Indiana</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Indiana University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Ames, Iowa</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Iowa State University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Kansas City, Missouri</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Federal Reserve Bank of Kansas City</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Lexington, Kentucky</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style=""> University of Kentucky</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">College Park, Maryland</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Maryland</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Ann Arbor, Michigan</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Michigan</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Minneapolis, Minnesota</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Minnesota</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Columbia, Missouri</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Missouri</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">New York, New York</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Baruch College</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Ithaca, New York</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Cornell University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Seattle, Washington</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style=""> University of Washington</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Columbus, Ohio</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">The Ohio State University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University Park, Pennsylvania</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Pennsylvania State University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Philadelphia, Pennsylvania</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Federal Reserve Bank of Philadelphia</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Pittsburgh, Pennsylvania</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Pittsburgh</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Guaynabo, Puerto Rico</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">U.S. Census Bureau</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Boulder, Colorado</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Colorado</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">St, Louis, Missouri</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Washington University of St. Louis</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">College Station, Texas</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Texas A&amp;M University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Austin, Texas</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Texas at Austin</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Durham, North Carolina</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Duke University</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Chapel Hill, North Carolina</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of North Carolina at Chapel Hill (UNC)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Urbana, Illinois</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Illinois Urbana-Champaign</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Knoxville, Tennessee</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Tennessee-Knoxville</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Salt Lake City, Utah</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">The University of Utah</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Madison, Wisconsin</p>
+</td>
+<td style="width:124.25626367999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">University of Wisconsin</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.37893632000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">New Haven, Connecticut</p>
+</td>
+<td style="width:124.25626367999999pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Yale University</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:345.6pt;">
+<p class="TableSource"><strong>Source: </strong>U.S. Census Bureau, "Research Data Centers."</p>
+<p class="TableNote"><strong>Notes: </strong>Information compiled by Jane Wright, Research Assistant, CRS.</p>
+</div>
+</div>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the federal statistical system, see CRS Report R48161, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48161"><em><span class="Hyperlink">The Federal Statistical System: An Overview</span></em></a>, by Taylor R. Knoedl; data linkage has been defined as "the bringing together from two or more different sources, data that relate to the same individual, family, place or event." See Jon Emery and Douglas Boyle, "Data Linkage," <em>Australian Family Physician</em>, 2017, <a class="ExternalLink" href="https://pubmed.ncbi.nlm.nih.gov/28787562/"><span class="Hyperlink">https://pubmed.ncbi.nlm.nih.gov/28787562/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Definitions for both PII and BII are available at Census Bureau, "Glossary," <a class="ExternalLink" href="https://www.census.gov/about/policies/quality/standards/glossary.html"><span class="Hyperlink">https://www.census.gov/about/policies/quality/standards/glossary.html</span></a>; 44 U.S.C. §3572.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Research Data Centers," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/locations.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/locations.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Management and Budget, "M-13-13: Open Data Policy—Managing Information as an Asset," May 9, 2013, p. 4, <a class="ExternalLink" href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf"><span class="Hyperlink">https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, Data Stewardship Program, <em>DS022: Personally Identifiable Information (PII) Breach Policy</em>, p.2, <a class="ExternalLink" href="https://www2.census.gov/foia/ds_policies/ds022.pdf"><span class="Hyperlink">https://www2.census.gov/foia/ds_policies/ds022.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Privacy and Survey Response: Evidence from Broadband Internet</em>, September 24, 2025, <a class="ExternalLink" href="https://www.census.gov/library/working-papers/2025/adrm/ced-wp-2025-002.html"><span class="Hyperlink">https://www.census.gov/library/working-papers/2025/adrm/ced-wp-2025-002.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Philadelphia Federal Statistical Research Data Center, "Examples of Research: Economics," <a class="ExternalLink" href="https://web.sas.upenn.edu/pfsrdc/menu2/examples-of-research-in-economics/"><span class="Hyperlink">https://web.sas.upenn.edu/pfsrdc/menu2/examples-of-research-in-economics/</span></a><span class="Hyperlink"></span>; Minwoo Hyun, <em>Trapped or Transferred: Worker Mobility and Labor Market Power in the Energy Transition</em>, U.S. Census Bureau, Center for Economic Studies, Working Papers 25-76, 2025, <a class="ExternalLink" href="https://ideas.repec.org/p/cen/wpaper/25-76.html"><span class="Hyperlink">https://ideas.repec.org/p/cen/wpaper/25-76.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Restricted-Use Data," <a class="ExternalLink" href="https://www.census.gov/topics/research/guidance/restricted-use-microdata.html"><span class="Hyperlink">https://www.census.gov/topics/research/guidance/restricted-use-microdata.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024, <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/governance.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/governance.html</span></a></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Management Team," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/management_team.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/management_team.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3583.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>The Researcher Handbook: Federal Statistical Research Data Centers' Handbook for Researchers</em>, July 2024, <a class="ExternalLink" href="https://csde.washington.edu/wp-content/uploads/2024/12/Researcher_Handbook_202407.pdf"><span class="Hyperlink">https://csde.washington.edu/wp-content/uploads/2024/12/Researcher_Handbook_202407.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3504(e)(8).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3503 &amp; §3504(e)(7).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Secure Research Facilities," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/secure_rdc.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/secure_rdc.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Governance," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/governance.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/governance.html</span></a>; Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024, p. 4.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024, p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024, p. 2.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Federal Statistical Research Data Centers," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024, p. 4.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mark Dorsey, Congressional Liaison for the U.S. Census Bureau, email to author, June 27, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch,</em> October 16, 2019, <a class="ExternalLink" href="https://www.census.gov/content/dam/Census/about/about-the-bureau/fsrdc/documents/Guidelines_for_RDC_Development_and_Operations_FINAL_FY2020.pdf"><span class="Hyperlink">https://www.census.gov/content/dam/Census/about/about-the-bureau/fsrdc/documents/Guidelines_for_RDC_Development_and_Operations_FINAL_FY2020.pdf</span></a>. Details on this <em>Federal Register </em>notice are available later in this report: See "<a class="InternalLink" href="#_Ref232501658">FSRDC Network Development, 1998-Present</a>."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch,</em> October 16, 2019, p. 2.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "FSRDC Access at Your Institution," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/hostrdc.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/hostrdc.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch,</em> October 16, 2019, p. 3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "FSRDC Access at Your Institution," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/hostrdc.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/hostrdc.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch,</em> October 16, 2019, p. 3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "FSRDC Access at Your Institution."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "FSRDC Access at Your Institution."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Secure Remote Access for FSRDC Research," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "FSRDC Access at Your Institution."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> B.K. Atrostic, <em>The Center for Economic Studies 1982-2007: a Brief History</em>, U.S. Census Bureau, October 2009, p. 3, <a class="ExternalLink" href="https://www.census.gov/library/working-papers/2009/adrm/ces-wp-09-35.html"><span class="Hyperlink">https://www.census.gov/library/working-papers/2009/adrm/ces-wp-09-35.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> B.K. Atrostic, <em>The Center for Economic Studies 1982-2007: a Brief History</em>, U.S. Census Bureau, October 2009, p. 4.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Report of the Census Advisory Committee," <em>American Economic Review</em>, vol. 55, no. 1/2 (March 1, 1965): 619-620.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mike Castro, <em>Expanding Equitable Access to Restricted-Use Data through Federal Statistical Research Data Centers</em>, Federal Statistical Research Data Center Program, October 22, 2024, <a class="ExternalLink" href="https://statspolicy.gov/assets/fcsm/files/docs/2024-conference-docs/B/B4.4_Castro.pdf"><span class="Hyperlink">https://statspolicy.gov/assets/fcsm/files/docs/2024-conference-docs/B/B4.4_Castro.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> B.K. Atrostic, <em>The Center for Economic Studies 1982-2007: a Brief History</em>, U.S. Census Bureau, October 2009, p. 4, <a class="ExternalLink" href="https://www.census.gov/library/working-papers/2009/adrm/ces-wp-09-35.html"><span class="Hyperlink">https://www.census.gov/library/working-papers/2009/adrm/ces-wp-09-35.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Development and Use of Longitudinal Establishment Data: Proceedings of the Workshop on the Development and Use of Longitudinal Establishment Data</em>, January 14-15, 1982. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Center for Economic Studies (CES)," <a class="ExternalLink" href="https://www.census.gov/programs-surveys/ces.html"><span class="Hyperlink">https://www.census.gov/programs-surveys/ces.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> B.K. Atrostic, <em>The Center for Economic Studies 1982-2007: a Brief History</em>, U.S. Census Bureau, October 2009, p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> University of Washington Center for Studies in Demography and Ecology, "Special Sworn Status," <a class="ExternalLink" href="https://csde.washington.edu/services/northwest-federal-statistical-research-data-center/special-sworn-status/"><span class="Hyperlink">https://csde.washington.edu/services/northwest-federal-statistical-research-data-center/special-sworn-status/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> B.K. Atrostic, <em>The Center for Economic Studies 1982-2007: a Brief History</em>, U.S. Census Bureau, October 2009, p. 5-7.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Center for Economic Studies, Bureau of The Census, Annual Report, Fiscal Year 1991</em>, January 1992, <a class="ExternalLink" href="https://www.census.gov/library/publications/1992/adrm/1991fy-ces-annual-report.html"><span class="Hyperlink">https://www.census.gov/library/publications/1992/adrm/1991fy-ces-annual-report.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Boston," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/locations/boston.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/locations/boston.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Department of Commerce, Bureau of the Census, "Establishing New Research Data Centers (RDCs)," 63 <em>Federal Register</em> 14, January 22, 1998, <a class="ExternalLink" href="https://www.govinfo.gov/content/pkg/FR-1998-01-22/pdf/98-1504.pdf"><span class="Hyperlink">https://www.govinfo.gov/content/pkg/FR-1998-01-22/pdf/98-1504.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 15 U.S.C. §1525.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Establishing New Research Data Centers (RDCs)," 63 <em>Federal Register</em> 14, January 22, 1998.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on Title 13 data access, confidentiality, and protections, see CRS In Focus IF12957, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF12957"><em><span class="Hyperlink">Census Bureau Data: Selected Access, Privacy, and Penalty Provisions in Titles 13 and 26, U.S. Code</span></em></a>, by Taylor R. Knoedl. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Guidelines for the Development and Operation of a Federal Statistical Research Data Center (RDC) or RDC Branch</em>, October 16, 2019, p. 8, <a class="ExternalLink" href="https://www.census.gov/content/dam/Census/about/about-the-bureau/fsrdc/documents/Guidelines_for_RDC_Development_and_Operations_FINAL_FY2020.pdf"><span class="Hyperlink">https://www.census.gov/content/dam/Census/about/about-the-bureau/fsrdc/documents/Guidelines_for_RDC_Development_and_Operations_FINAL_FY2020.pdf</span></a>.<em> </em></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/congressional-report/107/hrpt/778"><span class="Hyperlink">H.Rept. 107-778</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CIPSEA 2002 was enacted by Title V of the E-Government Act of 2002, <a class="ExternalLink" href="https://www.congress.gov/law/107/pub/347"><span class="Hyperlink">P.L. 107-347</span></a> (December 17, 2002; 116 Stat. 2962), <a class="ExternalLink" href="https://www.govinfo.gov/content/pkg/PLAW-107publ347/pdf/PLAW-107publ347.pdf#page=64"><span class="Hyperlink">https://www.govinfo.gov/content/pkg/PLAW-107publ347/pdf/PLAW-107publ347.pdf#page=64</span></a>. Section 503 establishes OMB's oversight and coordination of the law's confidentiality and disclosure policies.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/law/107/pub/347"><span class="Hyperlink">P.L. 107-347</span></a>, Title V, §512.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/law/107/pub/347"><span class="Hyperlink">P.L. 107-347</span></a>, §513.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Paul Ryan, Speaker of the House, "Evidence-Based Policy Commission Gets to Work," press release, July 26, 2016, <a class="ExternalLink" href="https://bipartisanpolicy.org/download/?file=/wp-content/uploads/2019/03/Statement-from-Paul-Ryan.pdf"><span class="Hyperlink">https://bipartisanpolicy.org/download/?file=/wp-content/uploads/2019/03/Statement-from-Paul-Ryan.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/law/114/pub/140"><span class="Hyperlink">P.L. 114-140</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Commission on Evidence-Based Policymaking, <em>The Promise of Evidence-Based Policymaking</em>, September 7, 2017, p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Commission on Evidence-Based Policymaking, <em>The Promise of Evidence-Based Policymaking</em>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Commission on Evidence-Based Policymaking, <em>The Promise of Evidence-Based Policymaking</em>, p. 35.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Commission on Evidence-Based Policymaking, <em>The Promise of Evidence-Based Policymaking</em>, p. 36.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Commission on Evidence-Based Policymaking, <em>The Promise of Evidence-Based Policymaking</em>, p. 36.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/law/115/pub/435"><span class="Hyperlink">P.L. 115-435</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Inserted provisions at 44 U.S.C. §§3561-3583.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3583.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Management and Budget, "The Interagency Council on Statistical Policy's Recommendation for a Standard Application Process (SAP) for Requesting Access to Certain Confidential Data Assets," 87 <em>Federal Register</em> 2459, January 14, 2022, <a class="ExternalLink" href="https://www.govinfo.gov/content/pkg/FR-2022-01-14/pdf/2022-00620.pdf"><span class="Hyperlink">https://www.govinfo.gov/content/pkg/FR-2022-01-14/pdf/2022-00620.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3583.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3572.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3572.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 13 U.S.C. §9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Restricted-Use Data," <a class="ExternalLink" href="https://www.census.gov/topics/research/guidance/restricted-use-microdata.html"><span class="Hyperlink">https://www.census.gov/topics/research/guidance/restricted-use-microdata.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Indiana University, "What is restricted data?," <a class="ExternalLink" href="https://datamanagement.iu.edu/data-classifications/restricted-data.html"><span class="Hyperlink">https://datamanagement.iu.edu/data-classifications/restricted-data.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, "SAP Data Catalog," <a class="ExternalLink" href="https://sap.nsf.gov/dataset/"><span class="Hyperlink">https://sap.nsf.gov/dataset/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Restricted-Use Data," <a class="ExternalLink" href="https://www.census.gov/topics/research/guidance/restricted-use-microdata.html"><span class="Hyperlink">https://www.census.gov/topics/research/guidance/restricted-use-microdata.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://sap.nsf.gov/%E2%80%8Bdataset/"><span class="Hyperlink">https://sap.nsf.gov/dataset/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Management and Budget, "Establishment of Standard Application Process Requirements on Recognized Statistical Agencies and Units," M-23-04, <a class="ExternalLink" href="https://www.whitehouse.gov/wp-content/uploads/2022/12/M-23-04.pdf"><span class="Hyperlink">https://www.whitehouse.gov/wp-content/uploads/2022/12/M-23-04.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 44 U.S.C. §3561(12).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Apply for Access to Restricted-Use Census Bureau Microdata," <a class="ExternalLink" href="https://www.census.gov/about/adrm/ced/apply-for-access.html"><span class="Hyperlink">https://www.census.gov/about/adrm/ced/apply-for-access.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S.C. 13 §23(c).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data</em>, February 6, 2026, <a class="ExternalLink" href="https://www2.census.gov/adrm/FSRDC/Apply_For_Access/Research_Proposal_Guidelines.pdf"><span class="Hyperlink">https://www2.census.gov/adrm/FSRDC/Apply_For_Access/</span><span class="Hyperlink">R</span><span class="Hyperlink">esearch_Proposal_Guidelines.pdf</span></a>; 13. U.S.C. §9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data</em>, p. 8.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data</em>, p. 9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data</em>, p. 10.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See ResearchDataGov.org at <a class="ExternalLink" href="https://sap.nsf.gov/dataset/"><span class="Hyperlink">https://sap.nsf.gov/dataset/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data</em>, p. 6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Restricted-Use Data Application Process: Disclosure Avoidance Review," <a class="ExternalLink" href="https://www.census.gov/topics/research/guidance/restricted-use-microdata/standard-application-process.html#accordion-fea0884157-item-aa10b2785f"><span class="Hyperlink">https://www.census.gov/topics/research/guidance/restricted-use-microdata/standard-application-process.html#accordion-fea0884157-item-aa10b2785f</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn86" name="fn86">86</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Restricted-Use Data Application Process: Disclosure Avoidance Review."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn87" name="fn87">87</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>The Researcher Handbook: Federal Statistical Research Data Centers' Handbook for Researchers</em>, February 2026, p. 2.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn88" name="fn88">88</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 13 U.S.C. §214.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn89" name="fn89">89</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data</em>, p. 3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn90" name="fn90">90</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>FSRDC Research Proposal Guidelines for Projects Requesting Access to U.S. Census Bureau Data</em>, p. 3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn91" name="fn91">91</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Philadelphia Federal Statistical Research Data Center, "Examples of Research: Economics," <a class="ExternalLink" href="https://web.sas.upenn.edu/pfsrdc/menu2/examples-of-research-in-economics/"><span class="Hyperlink">https://web.sas.upenn.edu/pfsrdc/menu2/examples-of-research-in-economics/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn92" name="fn92">92</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Philadelphia Federal Statistical Research Data Center, "Examples of Research: Health," <a class="ExternalLink" href="https://web.sas.upenn.edu/pfsrdc/menu2/health/"><span class="Hyperlink">https://web.sas.upenn.edu/pfsrdc/menu2/health/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn93" name="fn93">93</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Philadelphia Federal Statistical Research Data Center, "Examples of Research: Demography/Sociology," <a class="ExternalLink" href="https://web.sas.upenn.edu/pfsrdc/menu2/sociology/"><span class="Hyperlink">https://web.sas.upenn.edu/pfsrdc/menu2/sociology/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn94" name="fn94">94</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Secure Research Facilities," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/secure_rdc.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/secure_rdc.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn95" name="fn95">95</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> B.K. Atrostic, <em>The Center for Economic Studies 1982-2007: a Brief History</em>, U.S. Census Bureau, October 2009, p. 6; U.S. Census Bureau, "FSRDC Access at Your Institution."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn96" name="fn96">96</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Secure Remote Access for FSRDC Research," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.h</span><span class="Hyperlink">tml</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn97" name="fn97">97</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Department of Education, "Disclosure Avoidance," <a class="ExternalLink" href="https://studentprivacy.ed.gov/content/disclosure-avoidance"><span class="Hyperlink">https://studentprivacy.ed.gov/content/disclosure-avoida</span><span class="Hyperlink">nce</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn98" name="fn98">98</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Federal Statistical Research Data Center Disclosure Avoidance Handbook</em>: <em>a Handbook for Researchers</em>, 2026, <a class="ExternalLink" href="https://www2.census.gov/adrm/FSRDC/Resources/FSRDC-Disclosure-Avoidance-Methods-Handbook.pdf"><span class="Hyperlink">https://www2.census.gov/adrm/FSRDC/Resources/FSRDC-Disclosure-Avoidance-Methods-Handbook.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn99" name="fn99">99</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Data Stewardship Executive Policy Committee," February 14, 2019, <a class="ExternalLink" href="https://www.census.gov/about/policies/privacy/data_stewardship/dsep_committee.html"><span class="Hyperlink">https://www.census.gov/about/policies/privac</span><span class="Hyperlink">y</span><span class="Hyperlink">/data_stewardship/dsep_comm</span><span class="Hyperlink">i</span><span class="Hyperlink">ttee.h</span><span class="Hyperlink">tml</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn100" name="fn100">100</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Federal Statistical Research Data Center Disclosure Avoidance Handbook</em>: <em>a Handbook for Researchers</em>, 2024, p. 3; outputs include statistical outputs, notes, graphs, tables or statements, and significance estimates.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn101" name="fn101">101</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Federal Statistical Research Data Center Disclosure Avoidance Handbook</em>: <em>a Handbook for Researchers</em>, 2026, p. 5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn102" name="fn102">102</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mark Dorsey, Congressional Liaison for the U.S. Census Bureau, email to author, June 27, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn103" name="fn103">103</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> America's Datahub Consortium, <em>Expanding Equitable Access to Restricted-Use Data through Federal Statistical Research Data Centers</em>, <a class="ExternalLink" href="https://www.americasdatahub.org/wp-content/uploads/2023/06/ATT-1-_FSRDC-Access_Topic.pdf"><span class="Hyperlink">https://www.americasdatahub.org/wp-content/uploads/2023/06/ATT-1-_FSRDC-Access_Topic.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn104" name="fn104">104</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Standard Application Process Annual Report for 2024</em>, January 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn105" name="fn105">105</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/law/117/pub/167"><span class="Hyperlink">P.L. 117-167</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn106" name="fn106">106</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Government Accountability Office, <em>Highlights of a Forum: Expert Views on the Federal Statistical System</em>, GAO-25-107124, September 24, 2025, p. 41, <a class="ExternalLink" href="https://www.gao.gov/products/gao-25-107124"><span class="Hyperlink">https://www.gao.gov/products/gao-25-107124</span></a>. In a 2022 letter, two Senators raised issues of data privacy and security related to the NSDS; see Tonya Riley, "Senators Want Agencies to Encrypt Data Before Sharing with New NSF Database," <em>Cyberscoop</em>, December 20, 2022, <a class="ExternalLink" href="https://cyberscoop.com/senators-nsds-encryption-privacy/"><span class="Hyperlink">https://cyberscoop.com/senators-nsds-encryption-privacy/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn107" name="fn107">107</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Secure Remote Access for FSRDC Research," <a class="ExternalLink" href="https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.html"><span class="Hyperlink">https://www.census.gov/about/adrm/fsrdc/about/secure-remote-access.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn108" name="fn108">108</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Colleen McClain et al., "How Americans View Data Privacy," Pew Research Center, October 18, 2023, <a class="ExternalLink" href="https://www.pewresearch.org/internet/2023/10/18/how-americans-view-data-privacy/"><span class="Hyperlink">https://www.pewresearch.org/internet/2023/10/18/how-americans-view-data-privacy/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn109" name="fn109">109</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on OMB's role in the federal statistical system and the "trust regulation," see CRS Report R48161, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48161"><em><span class="Hyperlink">The Federal Statistical System: An Overview</span></em></a>, and CRS In Focus IF12877, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF12877"><em><span class="Hyperlink">Fundamental Responsibilities of Recognized Statistical Agencies and Units, the Trust Regulation</span></em></a>, by Taylor R. Knoedl. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn110" name="fn110">110</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, <em>Federal Statistical Research Data Center Disclosure Avoidance Handbook</em>: <em>a Handbook for Researchers</em>, 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn111" name="fn111">111</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Federal Statistical Research Data Centers (FSRDC) Executive Committee Charter</em>, June 13, 2024.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn112" name="fn112">112</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Interagency Council on Statistical Policy, <em>Charter of the Interagency Council of Statistical Policy's Standard Application Process Governance Board</em>, December 2022.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn113" name="fn113">113</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> National Center for Science and Engineering Statistics, "SAP Portal Transition," <a class="ExternalLink" href="https://ncses.nsf.gov/initiatives/standard-application-process/sap-portal-transition"><span class="Hyperlink">https://ncses.nsf.gov/initiatives/standard-application-process/sap-portal-transition</span></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

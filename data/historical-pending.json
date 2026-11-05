@@ -3,119 +3,43 @@
     {
       "attempts": 1,
       "last_attempt": "2026-11-05",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
       "next_retry": "2026-11-07",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "7",
-        "date": "2016-08-03",
+        "api_version": "1",
+        "date": "2025-02-20",
         "formats": {
           "HTML": {
             "allow_transformed_html": true,
-            "report_id": "R44231",
-            "sha1": "815b4be4f638a1544112c17c8a24adaa5656e104",
+            "report_id": "IF12914",
+            "sha1": "6c9c84c0a47c175f569eb21d744a4118df55be78",
             "source_format": "source HTML",
             "urls": [
-              "https://www.everycrsreport.com/files/20160803_R44231_815b4be4f638a1544112c17c8a24adaa5656e104.html"
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12914.web.html",
+              "https://www.everycrsreport.com/files/2025-02-20_IF12914_6c9c84c0a47c175f569eb21d744a4118df55be78.html"
             ]
           },
           "PDF": {
             "allow_transformed_html": false,
-            "report_id": "R44231",
-            "sha1": "b3b7300c7a2e72439bc8e6cc6f6d0653c1493aa0",
+            "report_id": "IF12914",
+            "sha1": "c958adf9c20a402af2c9e61423c8e2766949bcbc",
             "source_format": "original PDF",
             "urls": [
-              "https://www.everycrsreport.com/files/20160803_R44231_b3b7300c7a2e72439bc8e6cc6f6d0653c1493aa0.pdf"
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12914/IF12914.1.pdf",
+              "https://www.everycrsreport.com/files/2025-02-20_IF12914_c958adf9c20a402af2c9e61423c8e2766949bcbc.pdf"
             ]
           }
         },
-        "id": "R44231",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R44231",
-          "https://www.crs.gov/Reports/pdf/R44231"
-        ],
+        "id": "IF12914",
+        "ignored_nonpublic_source_urls": [],
         "metadata_source": "EveryCRSReport.com",
-        "source_record": "587590",
-        "title": "Commodity Futures Trading Commission: Proposed Reauthorization in the 114th Congress",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-05",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-07",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2015-11-25",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44286",
-            "sha1": "43161438169ec16005b53ac0a7d4c91d42524060",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20151125_R44286_43161438169ec16005b53ac0a7d4c91d42524060.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44286",
-            "sha1": "d870c9fa41221548489ecbd1524f9dfe6742130e",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20151125_R44286_d870c9fa41221548489ecbd1524f9dfe6742130e.pdf"
-            ]
-          }
-        },
-        "id": "R44286",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44286",
-          "http://www.crs.gov/Reports/pdf/R44286"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "447589",
-        "title": "Federal Real Property Data: Limitations and Implications for Oversight",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "5",
-        "date": "2018-05-04",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44293",
-            "sha1": "3bd312217b72f5d6e40db1c98fc7b14e5ff3e280",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180504_R44293_3bd312217b72f5d6e40db1c98fc7b14e5ff3e280.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44293",
-            "sha1": "8329d737fe05fc6acf6f0f985246cbf5e9ec3f54",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180504_R44293_8329d737fe05fc6acf6f0f985246cbf5e9ec3f54.pdf"
-            ]
-          }
-        },
-        "id": "R44293",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44293",
-          "http://www.crs.gov/Reports/pdf/R44293"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "584036",
-        "title": "College and University Endowments: Overview and Tax Policy Options",
-        "version": "unknown"
+        "observed_update_date": "2026-10-28T14:38:32Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12914_A1_2025-02-20",
+        "title": "Federal Criminal Theft Laws",
+        "version": "1"
       }
     },
     {
@@ -9894,6 +9818,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "443026",
         "title": "Presidential Appointments to Full-Time Positions in Independent and Other Agencies During the 113th Congress",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-05",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-07",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "7",
+        "date": "2016-08-03",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44231",
+            "sha1": "815b4be4f638a1544112c17c8a24adaa5656e104",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20160803_R44231_815b4be4f638a1544112c17c8a24adaa5656e104.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44231",
+            "sha1": "b3b7300c7a2e72439bc8e6cc6f6d0653c1493aa0",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20160803_R44231_b3b7300c7a2e72439bc8e6cc6f6d0653c1493aa0.pdf"
+            ]
+          }
+        },
+        "id": "R44231",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R44231",
+          "https://www.crs.gov/Reports/pdf/R44231"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "587590",
+        "title": "Commodity Futures Trading Commission: Proposed Reauthorization in the 114th Congress",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-05",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-07",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "3",
+        "date": "2015-11-25",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44286",
+            "sha1": "43161438169ec16005b53ac0a7d4c91d42524060",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20151125_R44286_43161438169ec16005b53ac0a7d4c91d42524060.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44286",
+            "sha1": "d870c9fa41221548489ecbd1524f9dfe6742130e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20151125_R44286_d870c9fa41221548489ecbd1524f9dfe6742130e.pdf"
+            ]
+          }
+        },
+        "id": "R44286",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R44286",
+          "http://www.crs.gov/Reports/pdf/R44286"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "447589",
+        "title": "Federal Real Property Data: Limitations and Implications for Oversight",
         "version": "unknown"
       }
     }
