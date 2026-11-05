@@ -1,3 +1,5 @@
+**Official-current verification: 75/75. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-29 to 2026-11-05**. Older archived files are retained.
@@ -9,6 +11,7 @@ Publication-date window (inclusive): **2026-10-29 to 2026-11-05**. Older archive
 | 2026-11-05 | R49505 v1 | Connecting Constituents to Federal Assistance for Law Enforcement | [PDF](pdf/reports/R49505v1-2026-11-05-c850a7e6d9a37cc7.pdf) | [Markdown](markdown/reports/R49505v1-2026-11-05-c850a7e6d9a37cc7.md) |
 | 2026-11-05 | R49504 v1 | Bipartisan American Affordability and Jobs Act of 2026 (BAAJA): Analysis of Endangered Species Act Provisions | [PDF](pdf/reports/R49504v1-2026-11-05-85282edad6fe8a34.pdf) | [Markdown](markdown/reports/R49504v1-2026-11-05-85282edad6fe8a34.md) |
 | 2026-11-04 | RS21534 v125 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.pdf) | [Markdown](markdown/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.md) |
+| 2026-11-04 | RS21534 v126 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v126-2026-11-04-4c0fe45d1212ac54.pdf) | [Markdown](markdown/reports/RS21534v126-2026-11-04-4c0fe45d1212ac54.md) |
 | 2026-11-04 | RL30802 v26 | Reserve Component Personnel Issues: Questions and Answers | [PDF](pdf/reports/RL30802v26-2026-11-04-7f1c6a576166b982.pdf) | [Markdown](markdown/reports/RL30802v26-2026-11-04-7f1c6a576166b982.md) |
 | 2026-11-04 | R49503 v1 | Appropriations for Rural Development Programs: Proposals for FY2027 | [PDF](pdf/reports/R49503v1-2026-11-04-7a500aac95056caa.pdf) | [Markdown](markdown/reports/R49503v1-2026-11-04-7a500aac95056caa.md) |
 | 2026-11-04 | R42505 v37 | Supplemental Nutrition Assistance Program (SNAP): A Primer on Eligibility and Benefits | [PDF](pdf/reports/R42505v37-2026-11-04-a1a804c616009709.pdf) | [Markdown](markdown/reports/R42505v37-2026-11-04-a1a804c616009709.md) |
@@ -29,6 +32,7 @@ Publication-date window (inclusive): **2026-10-29 to 2026-11-05**. Older archive
 | 2026-11-02 | R48174 v9 | Constitution Day and Citizenship Day: Fact Sheet | [PDF](pdf/reports/R48174v9-2026-11-02-3deb9bbe4f85d552.pdf) | [Markdown](markdown/reports/R48174v9-2026-11-02-3deb9bbe4f85d552.md) |
 | 2026-11-02 | IN12752 v1 | Congressional Considerations for Financial Institution Transaction Holds | [PDF](pdf/insights/IN12752v1-2026-11-02-1dc14cee64ae8d1a.pdf) | [Markdown](markdown/insights/IN12752v1-2026-11-02-1dc14cee64ae8d1a.md) |
 | 2026-11-02 | IN12752 v2 | Congressional Considerations for Financial Institution Transaction Holds | [PDF](pdf/insights/IN12752v2-2026-11-02-8ec22542823c4813.pdf) | [Markdown](markdown/insights/IN12752v2-2026-11-02-8ec22542823c4813.md) |
+| 2026-11-02 | IF12466 v6 | U.S. Passport Services | [PDF](pdf/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.pdf) | [Markdown](markdown/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.md) |
 | 2026-11-02 | IF12466 v4 | U.S. Passport Services | [PDF](pdf/in-focus/IF12466v4-2026-11-02-ace79a946a812465.pdf) | [Markdown](markdown/in-focus/IF12466v4-2026-11-02-ace79a946a812465.md) |
 | 2026-11-02 | IF12466 v5 | U.S. Passport Services | [PDF](pdf/in-focus/IF12466v5-2026-11-02-d9851e5ab60e6366.pdf) | [Markdown](markdown/in-focus/IF12466v5-2026-11-02-d9851e5ab60e6366.md) |
 | 2026-11-02 | IF12218 v2 | Farm Bill Primer: Farm Safety Net Programs | [PDF](pdf/in-focus/IF12218v2-2026-11-02-9e6fa182853de27f.pdf) | [Markdown](markdown/in-focus/IF12218v2-2026-11-02-9e6fa182853de27f.md) |
