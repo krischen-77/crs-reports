@@ -1,11 +1,11 @@
-**Official-current verification: 71/71. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-30 to 2026-11-06**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-06 | R49510 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v3-2026-11-06-9bff1b23ca2acbf2.pdf) | [Markdown](markdown/reports/R49510v3-2026-11-06-9bff1b23ca2acbf2.md) |
+| 2026-11-06 | IN12755 v1 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.pdf) | [Markdown](markdown/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.md) |
 | 2026-11-05 | R49508 v2 | The Higher Blends Infrastructure Incentive Program (HBIIP): An Overview | [PDF](pdf/reports/R49508v2-2026-11-05-1d1a8b0e824beb1e.pdf) | [Markdown](markdown/reports/R49508v2-2026-11-05-1d1a8b0e824beb1e.md) |
 | 2026-11-05 | R49507 v1 | Federal Statistical Research Data Centers: An Overview | [PDF](pdf/reports/R49507v1-2026-11-05-f6f1d9a3e1bb6020.pdf) | [Markdown](markdown/reports/R49507v1-2026-11-05-f6f1d9a3e1bb6020.md) |
 | 2026-11-05 | R49506 v1 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Summary of All Sections | [PDF](pdf/reports/R49506v1-2026-11-05-fae1484eb191da67.pdf) | [Markdown](markdown/reports/R49506v1-2026-11-05-fae1484eb191da67.md) |
@@ -79,8 +79,9 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-06 | 2018-06-27 | R45241 v3 | The Rule XIX Call to Order for Disorderly Language in Senate Debate | [PDF](pdf/reports/R45241v3-2018-06-27-daca76abc59b0bc9.pdf) | [Markdown](markdown/reports/R45241v3-2018-06-27-daca76abc59b0bc9.md) |
+| 2026-11-06 | 2026-07-21 | IF10155 v17 | Somalia | [PDF](pdf/in-focus/IF10155v17-2026-07-21-3511a80f18958912.pdf) | [Markdown](markdown/in-focus/IF10155v17-2026-07-21-3511a80f18958912.md) |
 | 2026-11-05 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |
-| 2026-11-05 | 2018-06-27 | R45241 v3 | The Rule XIX Call to Order for Disorderly Language in Senate Debate | [PDF](pdf/reports/R45241v3-2018-06-27-daca76abc59b0bc9.pdf) | [Markdown](markdown/reports/R45241v3-2018-06-27-daca76abc59b0bc9.md) |
 | 2026-11-05 | 2026-06-12 | IF13171 v3 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.pdf) | [Markdown](markdown/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.md) |
 | 2026-11-04 | 2026-09-30 | R49421 v2 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v2-2026-09-30-f106d49d693c9b4b.pdf) | [Markdown](markdown/reports/R49421v2-2026-09-30-f106d49d693c9b4b.md) |
 | 2026-11-04 | 2026-09-22 | R49358 v3 | Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates | [PDF](pdf/reports/R49358v3-2026-09-22-d283808bb594cd85.pdf) | [Markdown](markdown/reports/R49358v3-2026-09-22-d283808bb594cd85.md) |
