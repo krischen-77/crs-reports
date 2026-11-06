@@ -1,3 +1,5 @@
+**Official-current verification: 71/71. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-30 to 2026-11-06**. Older archived files are retained.
@@ -15,8 +17,12 @@ Publication-date window (inclusive): **2026-10-30 to 2026-11-06**. Older archive
 | 2026-11-05 | IF13343 v1 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v1-2026-11-05-017707d3b38ec98e.pdf) | [Markdown](markdown/in-focus/IF13343v1-2026-11-05-017707d3b38ec98e.md) |
 | 2026-11-04 | RS21534 v125 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.pdf) | [Markdown](markdown/reports/RS21534v125-2026-11-04-03c7b496b21d55dc.md) |
 | 2026-11-04 | RS21534 v126 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v126-2026-11-04-4c0fe45d1212ac54.pdf) | [Markdown](markdown/reports/RS21534v126-2026-11-04-4c0fe45d1212ac54.md) |
+| 2026-11-04 | RS21534 v127 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v127-2026-11-04-7408f8bbefc0e564.pdf) | [Markdown](markdown/reports/RS21534v127-2026-11-04-7408f8bbefc0e564.md) |
+| 2026-11-04 | RL30802 v27 | Reserve Component Personnel Issues: Questions and Answers | [PDF](pdf/reports/RL30802v27-2026-11-04-4a4a728ff21027f7.pdf) | [Markdown](markdown/reports/RL30802v27-2026-11-04-4a4a728ff21027f7.md) |
 | 2026-11-04 | RL30802 v26 | Reserve Component Personnel Issues: Questions and Answers | [PDF](pdf/reports/RL30802v26-2026-11-04-7f1c6a576166b982.pdf) | [Markdown](markdown/reports/RL30802v26-2026-11-04-7f1c6a576166b982.md) |
 | 2026-11-04 | R49503 v1 | Appropriations for Rural Development Programs: Proposals for FY2027 | [PDF](pdf/reports/R49503v1-2026-11-04-7a500aac95056caa.pdf) | [Markdown](markdown/reports/R49503v1-2026-11-04-7a500aac95056caa.md) |
+| 2026-11-04 | R49503 v2 | Appropriations for Rural Development Programs: Proposals for FY2027 | [PDF](pdf/reports/R49503v2-2026-11-04-c336cd7907a038fd.pdf) | [Markdown](markdown/reports/R49503v2-2026-11-04-c336cd7907a038fd.md) |
+| 2026-11-04 | R42505 v38 | Supplemental Nutrition Assistance Program (SNAP): A Primer on Eligibility and Benefits | [PDF](pdf/reports/R42505v38-2026-11-04-34f15baecced8aae.pdf) | [Markdown](markdown/reports/R42505v38-2026-11-04-34f15baecced8aae.md) |
 | 2026-11-04 | R42505 v37 | Supplemental Nutrition Assistance Program (SNAP): A Primer on Eligibility and Benefits | [PDF](pdf/reports/R42505v37-2026-11-04-a1a804c616009709.pdf) | [Markdown](markdown/reports/R42505v37-2026-11-04-a1a804c616009709.md) |
 | 2026-11-04 | R40977 v35 | U.S. Participation in the G7 and the G20 | [PDF](pdf/reports/R40977v35-2026-11-04-d820a287424a949e.pdf) | [Markdown](markdown/reports/R40977v35-2026-11-04-d820a287424a949e.md) |
 | 2026-11-04 | IN12568 v3 | Golden Dome: Potential Strategic Stability Considerations for Congress | [PDF](pdf/insights/IN12568v3-2026-11-04-49789af900263fac.pdf) | [Markdown](markdown/insights/IN12568v3-2026-11-04-49789af900263fac.md) |
@@ -24,6 +30,7 @@ Publication-date window (inclusive): **2026-10-30 to 2026-11-06**. Older archive
 | 2026-11-04 | IF12517 v14 | U.S.-Japan Critical Minerals Agreement | [PDF](pdf/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.pdf) | [Markdown](markdown/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.md) |
 | 2026-11-04 | IF10544 v16 | Defense Primer: Department of the Army and Army Command Structure | [PDF](pdf/in-focus/IF10544v16-2026-11-04-05ca13c0449d2b1b.pdf) | [Markdown](markdown/in-focus/IF10544v16-2026-11-04-05ca13c0449d2b1b.md) |
 | 2026-11-03 | R48244 v3 | Safe Driver Apprenticeship Pilot Program: In Brief | [PDF](pdf/reports/R48244v3-2026-11-03-01bc490f078e59e5.pdf) | [Markdown](markdown/reports/R48244v3-2026-11-03-01bc490f078e59e5.md) |
+| 2026-11-03 | R48244 v4 | Safe Driver Apprenticeship Pilot Program: In Brief | [PDF](pdf/reports/R48244v4-2026-11-03-2ce75c2b6c6f001f.pdf) | [Markdown](markdown/reports/R48244v4-2026-11-03-2ce75c2b6c6f001f.md) |
 | 2026-11-03 | IN12754 v1 | Surplus Lines Insurance: An Introduction | [PDF](pdf/insights/IN12754v1-2026-11-03-d89c67932d7999d3.pdf) | [Markdown](markdown/insights/IN12754v1-2026-11-03-d89c67932d7999d3.md) |
 | 2026-11-03 | IN12753 v2 | FY2027 Internal Revenue Service Budget Request | [PDF](pdf/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.pdf) | [Markdown](markdown/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.md) |
 | 2026-11-03 | IF12452 v8 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.pdf) | [Markdown](markdown/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.md) |
