@@ -2,49 +2,9 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-11-05",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-11-07",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "1",
-        "date": "2025-02-20",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "IF12914",
-            "sha1": "6c9c84c0a47c175f569eb21d744a4118df55be78",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.congress.gov/crs_external_products/IF/HTML/IF12914.web.html",
-              "https://www.everycrsreport.com/files/2025-02-20_IF12914_6c9c84c0a47c175f569eb21d744a4118df55be78.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "IF12914",
-            "sha1": "c958adf9c20a402af2c9e61423c8e2766949bcbc",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.congress.gov/crs_external_products/IF/PDF/IF12914/IF12914.1.pdf",
-              "https://www.everycrsreport.com/files/2025-02-20_IF12914_c958adf9c20a402af2c9e61423c8e2766949bcbc.pdf"
-            ]
-          }
-        },
-        "id": "IF12914",
-        "ignored_nonpublic_source_urls": [],
-        "metadata_source": "EveryCRSReport.com",
-        "observed_update_date": "2026-10-28T14:38:32Z",
-        "required_by_recent_update": false,
-        "source_record": "IF12914_A1_2025-02-20",
-        "title": "Federal Criminal Theft Laws",
-        "version": "1"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "last_attempt": "2026-11-06",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-08",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -81,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-06",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-08",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "16",
@@ -9819,6 +9781,140 @@
         "source_record": "443026",
         "title": "Presidential Appointments to Full-Time Positions in Independent and Other Agencies During the 113th Congress",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-07",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "7",
+        "date": "2022-12-20",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44383",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2022-12-20_R44383_4805854bd20f9d892edca52f5a187d0f51740994.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44383",
+            "sha1": "4805854bd20f9d892edca52f5a187d0f51740994",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R44383/7",
+              "https://www.everycrsreport.com/files/2022-12-20_R44383_4805854bd20f9d892edca52f5a187d0f51740994.pdf"
+            ]
+          }
+        },
+        "id": "R44383",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-05T21:24:26Z",
+        "required_by_recent_update": false,
+        "source_record": "R44383_7_2022-12-20",
+        "superseded_by_official_current": {
+          "historical_publication": "2022-12-20",
+          "id": "R44383",
+          "official_pdf_sha256": "584ff99dcc0f555f162590507932ac9f62fa7ac5085eb9f5a1679f5079364431",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44383/R44383.8.pdf",
+          "official_publication": "2026-11-05",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Deficits, Debt, and the Economy: An Introduction",
+        "version": "7"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-07",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "9",
+        "date": "2023-06-12",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45190",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2023-06-12_R45190_05d06fe662443e50f8ececb93289050ac8796d05.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45190",
+            "sha1": "05d06fe662443e50f8ececb93289050ac8796d05",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R45190/9",
+              "https://www.everycrsreport.com/files/2023-06-12_R45190_05d06fe662443e50f8ececb93289050ac8796d05.pdf"
+            ]
+          }
+        },
+        "id": "R45190",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-05T21:24:22Z",
+        "required_by_recent_update": false,
+        "source_record": "R45190_9_2023-06-12",
+        "superseded_by_official_current": {
+          "historical_publication": "2023-06-12",
+          "id": "R45190",
+          "official_pdf_sha256": "bec39e6ff980c7d25e8d1d29e9b37ed0968a7b2a8730c69d59ab65f0141b0c4e",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R45190/R45190.10.pdf",
+          "official_publication": "2026-11-05",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "From Slip Law to United States Code: A Guide to Federal Statutes for Congressional Offices",
+        "version": "9"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-05",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-11-07",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "1",
+        "date": "2025-02-20",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12914",
+            "sha1": "6c9c84c0a47c175f569eb21d744a4118df55be78",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12914.web.html",
+              "https://www.everycrsreport.com/files/2025-02-20_IF12914_6c9c84c0a47c175f569eb21d744a4118df55be78.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12914",
+            "sha1": "c958adf9c20a402af2c9e61423c8e2766949bcbc",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12914/IF12914.1.pdf",
+              "https://www.everycrsreport.com/files/2025-02-20_IF12914_c958adf9c20a402af2c9e61423c8e2766949bcbc.pdf"
+            ]
+          }
+        },
+        "id": "IF12914",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-10-28T14:38:32Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12914_A1_2025-02-20",
+        "title": "Federal Criminal Theft Laws",
+        "version": "1"
       }
     },
     {

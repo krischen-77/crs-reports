@@ -1,0 +1,511 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">From Slip Law to <em>U</em><em>nited </em><em>S</em><em>tates </em><em>Code</em>: A Guide to Federal Statutes for Congressional Offices</div>
+<div class="CoverDate">Updated November 5, 2026
+            (R45190)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc244778091"><span class="Hyperlink">Slip Laws</span></a></li>
+<li class="TOC2"><a href="#_Toc244778092"><span class="Hyperlink">Noncommercial Sources of Slip Laws</span></a></li>
+<li class="TOC3"><a href="#_Toc244778093"><span class="Hyperlink">Government Publishing Office</span></a></li>
+<li class="TOC3"><a href="#_Toc244778094"><span class="Hyperlink">Library of Congress</span></a></li>
+<li class="TOC2"><a href="#_Toc244778095"><span class="Hyperlink">Commercial Sources of Slip Laws</span></a></li>
+<li class="TOC3"><a href="#_Toc244778096"><span class="Hyperlink">Lexis</span></a></li>
+<li class="TOC3"><a href="#_Toc244778097"><span class="Hyperlink">ProQuest Congressional</span></a></li>
+<li class="TOC3"><a href="#_Toc244778098"><span class="Hyperlink">Westlaw</span></a></li>
+<li class="TOC1"><a href="#_Toc244778099"><span class="Hyperlink">The </span><em><span class="Hyperlink">United States Statutes at Large</span></em></a></li>
+<li class="TOC2"><a href="#_Toc244778100"><span class="Hyperlink">Noncommercial Sources of the </span><em><span class="Hyperlink">Statutes at Large</span></em></a></li>
+<li class="TOC3"><a href="#_Toc244778101"><span class="Hyperlink">Government Publishing Office</span></a></li>
+<li class="TOC3"><a href="#_Toc244778102"><span class="Hyperlink">Library of Congress</span></a></li>
+<li class="TOC2"><a href="#_Toc244778103"><span class="Hyperlink">Commercial Sources of the </span><em><span class="Hyperlink">Statutes at Large</span></em></a></li>
+<li class="TOC3"><a href="#_Toc244778104"><span class="Hyperlink">HeinOnline</span></a></li>
+<li class="TOC3"><a href="#_Toc244778105"><span class="Hyperlink">Lexis</span></a></li>
+<li class="TOC3"><a href="#_Toc244778106"><span class="Hyperlink">ProQuest Congressional</span></a></li>
+<li class="TOC3"><a href="#_Toc244778107"><span class="Hyperlink">Westlaw</span></a></li>
+<li class="TOC1"><a href="#_Toc244778108"><em><span class="Hyperlink">United States Code </span></em><span class="Hyperlink">and</span><em><span class="Hyperlink"> </span></em><span class="Hyperlink">the</span><em><span class="Hyperlink"> Revised Statutes of the United States</span></em></a></li>
+<li class="TOC2"><a href="#_Toc244778109"><span class="Hyperlink">Amended Laws</span></a></li>
+<li class="TOC2"><a href="#_Toc244778110"><span class="Hyperlink">Positive Versus Non-Positive Law Titles of the </span><em><span class="Hyperlink">U.S. Code</span></em></a></li>
+<li class="TOC2"><a href="#_Toc244778111"><span class="Hyperlink">Editorial Reclassification</span></a></li>
+<li class="TOC2"><a href="#_Toc244778112"><span class="Hyperlink">Annotated Editions of the </span><em><span class="Hyperlink">U.S. Code</span></em></a></li>
+<li class="TOC2"><a href="#_Toc244778113"><span class="Hyperlink">Searching the </span><em><span class="Hyperlink">U.S. Code</span></em></a></li>
+<li class="TOC3"><a href="#_Toc244778114"><em><span class="Hyperlink">General Index</span></em></a></li>
+<li class="TOC3"><a href="#_Toc244778115"><em><span class="Hyperlink">Popular Names Table</span></em></a></li>
+<li class="TOC3"><a href="#_Toc244778116"><span class="Hyperlink">Classification Tables</span></a></li>
+<li class="TOC1"><a href="#_Toc244778117"><span class="Hyperlink">Further Information</span></a></li>
+</ul>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides an overview of federal statutes in their various forms, as well as basic guidance for Members and congressional staff interested in researching statutes. When a bill becomes a law, the newly enacted statute may amend or repeal earlier statutes or it may create a new or "freestanding" law. Either way, these new statutes are first printed individually as "slip laws" and numbered by order of passage as either public laws or, less frequently, private laws. Slip laws are later aggregated and published chronologically in volumes known as the <em>United States Statutes at Large </em>(<em>Statutes at Large</em>)<em>. </em>Statutes of a general and permanent nature are incorporated into the <em>United States Code</em><em> </em>(<em>U.S. Code</em>), which arranges the statutes by subject matter into 54 titles and five appendices. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As these statutes are revised, superseded, or repealed, the provisions of the <em>U.S. Code </em>are updated to reflect these changes. The authoritative language of a statute is the statute itself. A statute may be enacted as a title of the <em>U.S. </em><em>Code</em>, in which case this statute is a "positive law" title of the <em>U.S. Code</em> and therefore the title itself is legal evidence of the law (the authoritative language).  Statutes not enacted as a title of, or an amendment to, a title of the <em>U.S. Code</em> are classified to the <em>U.S. Code</em> as a non-positive provision of the <em>U.S. Code</em> and are prima facie evidence of Federal Law, which is rebuttable by showing a difference to the underlying statute.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A notable difference between the <em>U.S. Code</em> and the <em>Statutes at Large</em> is that the laws codified or classified in the <em>U.S. Code</em> exist "as amended," which reflects changes made by later laws.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Consequently, the <em>U.S. Code</em> is more convenient to search than the <em>Statutes at Large</em>. Moreover, the Office of the Law Revision Counsel publishes tools known as "Tables," to assist researchers in locating statutes, as well as identifying statutes that may have been amended, omitted, transferred, or repealed. Nevertheless, certain laws are not added to the <em>U.S. Code</em>, such as laws appropriating funds, and thus researchers will often need to search laws in the other forms discussed herein. </p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span style="float: left;                       width: 0.75em;                       font-size: 400%;                       line-height: 80%;">W</span>hen a bill is enacted into law, it may amend or repeal earlier laws, or it may create an entirely new or "freestanding" law. Recently enacted laws are first printed individually as separate statutes known as "slip laws." At the end of a Congress, the slip laws are sequentially compiled in the annual federal session law volumes known as the <em>United States </em><em>Statutes at Large</em>. Most statutes are then broken down by subject matter and incorporated into the 54 volumes and five appendices of the <em>United States Code</em>. This report provides an overview of federal statutes in each of these forms, as well as basic guidance for congressional offices researching statutes.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175026"></a><a name="_Toc511051250"></a><a name="_Toc511051317"></a><a name="_Toc511051385"></a><a name="_Toc511051621"></a><a name="_Toc513109380"></a><a name="_Toc513111295"></a><a name="_Toc133312307"></a><a name="_Toc133400872"></a><a name="_Toc137459640"></a><a name="_Toc244778091"></a>Slip Laws</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When an individual piece of legislation is enacted under the procedures set forth in Article I, Section 7 of the U.S. Constitution,<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="U.S. Const. art. I, § 7. Article I, Section 7 provides All Bills for raising Revenue shall originate in the House of Representatives; but the Senate may propose or concur with Amendments as on other Bills. Every Bill which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President of the United States: If he approve he shall sign it, but if not he shall return it, with his Objections to that House in which it shall have originat...">1</a></sup> it is characterized as a "public law" or a "private law" depending on its intended audience. The overwhelming majority of laws passed by Congress are public laws because they have general applicability to the whole of society and are continuing and permanent in nature.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="For example, in the 117 th Congress (2021-2022), there were three private laws enacted, as opposed to 362 public laws.">2</a></sup> Private laws are enacted for the benefit of a named individual or entity (for example, private laws can be enacted to assist a citizen injured by a government program).<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="About Public and Private Laws , U.S. Government Publishing Office , https://www.govinfo.gov/help/plaw (last visited: April 25, 2023).">3</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Each newly passed law—public or private—is assigned a number according to the order of its enactment within a particular Congress.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="For example, the 25 th public law enacted in the 117 th Congress was numbered as P.L. 117-25 and the first private law enacted in the 117 th Congress was numbered Pvt. L. 117-1 .">4</a></sup> This system began in 1957 with the 85<sup>th</sup> Congress. Laws enacted before 1957 are cited by the date of enactment and the chapter number assigned to them in the <em>Statutes at Large</em><em>, </em>discussed further below.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='For example, the Tariff Act of 1930 would be cited as "Act of June 17, 1930, ch. 497, 46 Stat. 590."'>5</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When researchers want to obtain a copy of a newly enacted law, they will most likely be looking for the "slip law." A slip law is the first official publication of a public or private law, prepared by the Office of the Federal Register (OFR), and published by the Government Publishing Office (GPO). </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc511051251"></a><a name="_Toc511051318"></a><a name="_Toc511051386"></a><a name="_Toc511051622"></a><a name="_Toc513109381"></a><a name="_Toc513111296"></a><a name="_Toc133312308"></a><a name="_Toc133400873"></a><a name="_Toc137459641"></a><a name="_Toc244778092"></a>Noncommercial Sources of Slip Laws</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Slip laws are available from non-commercial, public sources in various forms. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc511051252"></a><a name="_Toc511051319"></a><a name="_Toc511051387"></a><a name="_Toc511051623"></a><a name="_Toc513109382"></a><a name="_Toc513111297"></a><a name="_Toc133312309"></a><a name="_Toc133400874"></a><a name="_Toc137459642"></a><a name="_Toc244778093"></a>Government Publishing Office</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Slip laws in printable pamphlet form can be obtained online from GPO. GPO provides free electronic access to official federal government publications, including public and private laws from the 104<sup>th</sup> Congress (1995-1996) forward.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='GPO now provides this information in a new system known as "govinfo," available at https://www.govinfo.gov/  . Previously, GPO offered this information through its Federal Digital System (FDsys) , which was retired in December 2018. U.S. Government Publishing Office , govinfo, https://www.govinfo.gov/  .'>6</a></sup> Additionally, Federal Depository Libraries, which are libraries designated to receive free government documents, provide no-cost access to certain classes of government documents, including slip laws.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="A list of Federal depository libraries and their locations can be found at https://ask.gpo.gov/s/FDLD .">7</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc511051253"></a><a name="_Toc511051320"></a><a name="_Toc511051388"></a><a name="_Toc511051624"></a><a name="_Toc513109383"></a><a name="_Toc513111298"></a><a name="_Toc133312310"></a><a name="_Toc133400875"></a><a name="_Toc137459643"></a><a name="_Toc244778094"></a>Library of Congress</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Public and private laws can also be found through the Library of Congress at Congress.gov, the official website for U.S. federal legislative information.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Congress.gov , https://www.congress.gov/  . Public laws may be found at https://www.congress.gov/public-laws/  . Private laws may be found at https://www.congress.gov/private-laws/  .">8</a></sup> Information on public and private laws, including the full text of the laws, may be searched from the 82<sup>nd</sup> Congress (1951-1952) forward. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175027"></a><a name="_Toc511051254"></a><a name="_Toc511051321"></a><a name="_Toc511051389"></a><a name="_Toc511051625"></a><a name="_Toc513109384"></a><a name="_Toc513111299"></a><a name="_Toc133312311"></a><a name="_Toc133400876"></a><a name="_Toc137459644"></a><a name="_Toc244778095"></a>Commercial Sources of Slip Laws</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to the publicly available resources described above, many commercial, subscription-based sources provide access to slip laws as well. Subscriptions to these sources vary from House to Senate and within individual offices. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175029"></a><a name="_Toc133400877"></a><a name="_Toc511051256"></a><a name="_Toc511051323"></a><a name="_Toc511051391"></a><a name="_Toc511051627"></a><a name="_Toc513109385"></a><a name="_Toc513111300"></a><a name="_Toc133312312"></a><a name="_Toc137459645"></a><a name="_Toc244778096"></a>Lexis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Lexis makes public laws available in the <em>USCS – Public</em> <em>Laws</em> database from 1988 to the present.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Lexis , https://plus.lexis.com ..">9</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175030"></a><a name="_Toc511051257"></a><a name="_Toc511051324"></a><a name="_Toc511051392"></a><a name="_Toc511051628"></a><a name="_Toc513109386"></a><a name="_Toc513111301"></a><a name="_Toc133312313"></a><a name="_Toc133400878"></a><a name="_Toc137459646"></a><a name="_Toc244778097"></a>ProQuest Congressional</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ProQuest Congressional makes public laws available in slip law format from 1988 to the present.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="ProQuest Congressional , https://congressional.proquest.com/  .">10</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175031"></a><a name="_Toc511051258"></a><a name="_Toc511051325"></a><a name="_Toc511051393"></a><a name="_Toc511051629"></a><a name="_Toc513109387"></a><a name="_Toc513111302"></a><a name="_Toc133312314"></a><a name="_Toc133400879"></a><a name="_Toc137459647"></a><a name="_Toc244778098"></a>Westlaw</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Westlaw makes public laws available from 1973 to the previous legislative session in the <em>U.S. Public Laws – Historical </em>database, and public laws from the current legislative session in its <em>U.S. Public Laws </em>database.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Westlaw , https://legal.thomsonreuters.com/en/westlaw .">11</a></sup></p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">United States Code Congressional and Administrative News </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Public laws, from 1973 to the present are reprinted in the <em>United States Code Congressional and Administrative News</em> (USCCAN), published by Thomson Reuters. Laws are compiled in slip law format chronologically, along with selected Senate, House, and conference reports associated with the laws, as well as presidential signing statements, proclamations, and executive orders. USCCAN is published both as a bound volume and electronically through a Westlaw subscription.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175032"></a><a name="_Toc511051259"></a><a name="_Toc511051326"></a><a name="_Toc511051394"></a><a name="_Toc511051630"></a><a name="_Toc513109388"></a><a name="_Toc513111303"></a><a name="_Toc133312315"></a><a name="_Toc133400880"></a><a name="_Toc137459648"></a><a name="_Toc244778099"></a>The <em>United States Statutes at Large</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Every two years at the end of a congressional session, slip laws (both public and private laws) are accumulated and published chronologically in a series of volumes entitled the <em>United States </em><em>Statutes at Large</em> (<em>Statutes at Large</em>)<em>.</em> The <em>Statutes at Large </em>also contain concurrent resolutions, reorganization plans, proposed and ratified amendments to the Constitution, and proclamations by the President. Until 1948, treaties and international agreements approved by the Senate were also published in the <em>Statutes at Large.</em><em><sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Treaties and other international agreements can be located via the Treaties and Other International Agreements S eries (TIAS) (1946-date) or the United States Treaties and Other International Agreements (UST) (1950-date).">12</a></sup></em> Laws are cited by the <em>Statutes</em><em> at Large</em> volume and page number (e.g., 125 Stat. 753 refers to page 753 of volume 125 of the <em>Statutes at Large</em>). The printed edition of the <em>Statutes at Large</em> is "legal evidence of the laws ... in all the courts of the United States" and thus researchers may likely refer to this publication when citing a law before a court.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="1 U.S.C . § 112. Statutes at Large; contents; admissibility in evidence. The Archivist of the United States shall cause to be compiled, edited, indexed, and published, the United States Statutes at Large, which shall contain all the laws and concurrent resolutions enacted during each regular session of Congress; all proclamations by the President in the numbered series issued since the date of the adjournment of the regular session of Congress next preceding; and also any amendments to the C...">13</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc511051260"></a><a name="_Toc511051327"></a><a name="_Toc511051395"></a><a name="_Toc511051631"></a><a name="_Toc513109389"></a><a name="_Toc513111304"></a><a name="_Toc133312316"></a><a name="_Toc133400881"></a><a name="_Toc137459649"></a><a name="_Toc244778100"></a>Noncommercial Sources of the <em>Statutes at Large</em></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc511051261"></a><a name="_Toc511051328"></a><a name="_Toc511051396"></a><a name="_Toc511051632"></a><a name="_Toc513109390"></a><a name="_Toc513111305"></a><a name="_Toc133312317"></a><a name="_Toc133400882"></a><a name="_Toc137459650"></a><a name="_Toc244778101"></a>Government Publishing Office</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">GPO provides free, electronic access to the <em>Statutes at Large</em>, 1951-2016.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="United States Statutes at Large , U.S. Government Publishing Office , https://www.govinfo.gov/app/collection/statute .">14</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc511051262"></a><a name="_Toc511051329"></a><a name="_Toc511051397"></a><a name="_Toc511051633"></a><a name="_Toc513109391"></a><a name="_Toc513111306"></a><a name="_Toc133312318"></a><a name="_Toc133400883"></a><a name="_Toc137459651"></a><a name="_Toc244778102"></a>Library of Congress</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Earlier volumes of the <em>Statutes at Large, </em>from 1789 to 1951,<em> </em>can be found and searched through the Library of Congress's Digitized Collection.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="Statutes at Large , The Library of Congress , https://www.loc.gov/collections/united-states-statutes-at-large/about-this-collection/  .">15</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175033"></a><a name="_Toc511051263"></a><a name="_Toc511051330"></a><a name="_Toc511051398"></a><a name="_Toc511051634"></a><a name="_Toc513109392"></a><a name="_Toc513111307"></a><a name="_Toc133312319"></a><a name="_Toc133400884"></a><a name="_Toc137459652"></a><a name="_Toc244778103"></a>Commercial Sources of the <em>Statutes at Large</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to the publicly available resources described above, many commercial, subscription-based sources provide access to the <em>Statutes at Large</em>. Subscriptions to these sources vary from House to Senate and within individual offices as well. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175034"></a><a name="_Toc511051264"></a><a name="_Toc511051331"></a><a name="_Toc511051399"></a><a name="_Toc511051635"></a><a name="_Toc513109393"></a><a name="_Toc513111308"></a><a name="_Toc133312320"></a><a name="_Toc133400885"></a><a name="_Toc137459653"></a><a name="_Toc244778104"></a>HeinOnline</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">HeinOnline makes available the <em>Statutes at Large </em>from 1789 to the present, and can also be searched by chapter or public law number.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175035"></a><a name="_Toc511051265"></a><a name="_Toc511051332"></a><a name="_Toc511051400"></a><a name="_Toc511051636"></a><a name="_Toc513109394"></a><a name="_Toc513111309"></a><a name="_Toc133312321"></a><a name="_Toc133400886"></a><a name="_Toc137459654"></a><a name="_Toc244778105"></a>Lexis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Lexis makes available a <em>Statutes at Large</em><em> </em>database which contains all public and private laws from 1789 to the present, as well as treaties with foreign nations and Indian tribes beginning in 1776.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175036"></a><a name="_Toc511051266"></a><a name="_Toc511051333"></a><a name="_Toc511051401"></a><a name="_Toc511051637"></a><a name="_Toc513109395"></a><a name="_Toc513111310"></a><a name="_Toc133312322"></a><a name="_Toc133400887"></a><a name="_Toc137459655"></a><a name="_Toc244778106"></a>ProQuest Congressional</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ProQuest Congressional makes available the <em>Statutes at Large </em>from 1789 to the present. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175037"></a><a name="_Toc511051267"></a><a name="_Toc511051334"></a><a name="_Toc511051402"></a><a name="_Toc511051638"></a><a name="_Toc513109396"></a><a name="_Toc513111311"></a><a name="_Toc133312323"></a><a name="_Toc133400888"></a><a name="_Toc137459656"></a><a name="_Toc244778107"></a>Westlaw</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Westlaw makes available the <em>Statutes at Large </em>from 1789 to 1972.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175038"></a><a name="_Toc511051268"></a><a name="_Toc511051335"></a><a name="_Toc511051403"></a><a name="_Toc511051639"></a><a name="_Toc513109397"></a><a name="_Toc513111312"></a><a name="_Toc133312324"></a><a name="_Toc133400889"></a><a name="_Toc137459657"></a><a name="_Toc244778108"></a><em>United States Code</em><em> </em>and<em> </em>the<em> Revised Statutes of the United States</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The <em>United States Code </em>(<em>U.S. Code</em><em> </em>or U.S.C.) is the official government codification of all general and permanent laws of the United States. The <em>U.S. Code</em> has its roots in an 1866 law that initiated a project to "revise, simplify, arrange, and consolidate all statutes of the United States, general and permanent in their nature.... "<a name="_Ref133402517"></a><sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Act of June 27, 1866, ch. 140, 14 Stat. 74, "An Act to provide for the Revision and Consolidation of the Statute Laws of the United States."'>16</a></sup> This endeavor was not fully realized until 1874 when the <em>Revised Statutes of 1874</em> became the first official codification of U.S. laws.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='Act of June 20, 1874, ch. 333, 18 Stat. 113, "An act providing for publication of the revised statutes and the laws of the United States."'>17</a></sup> A second edition making corrections and updates followed in 1878.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title='Act of March 2, 1877, ch. 82, 19 Stat. 268, "A act to provide for the preparation and publication of a new edition of the Revised Statutes of the United States."'>18</a></sup> However, despite numerous efforts to supplement and revise inaccuracies in the <em>Revised Statutes</em><em>, </em>the publication contained errors.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='Act of February 27, 1877, ch. 80, 19 Stat. 240 , "An act to perfect the revision of the statutes of the United States, and of the statutes relating to the District of Columbia."'>19</a></sup> The <em>Revised Statutes</em> were also not updated regularly, making it difficult to know if a particular law had been amended. In 1919, work on a new codification project began, but it was not until 1926 that what is today known as the <em>United States Code</em><em> </em>came to exist.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title='Act of Jun e 30, 1926, ch. 712, 44 Stat. 777, "An Act To consolidate, codify, and set forth the general and permanent laws of the United States in force December seventh, one thousand nine hundred and twenty-five."'>20</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The <em>U.S. Code </em>has been published by the GPO every six years since its initial publication in 1926.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='Act of June 30, 1926, ch. 713, 44 Stat. 778, "An Act To provide for the publication of the Act to consolidate, codify, and set forth the general and permanent laws of the United States in force December 7, 1925, with index, reference tables, appendix, and so forth."'>21</a></sup> The current edition of the <em>U.S. </em><em>Code</em> was printed in 2018 and is updated annually with cumulative print supplements. In the <em>U.S.</em><em> </em><em>C</em><em>ode</em>, statutes are grouped by subject matter into 54 titles and five appendices. Each title is organized into chapters and then sections, which is how a particular provision is cited (e.g., 27 U.S.C. §124 refers to Section 124 of Title 27). Source credits and historical notes at the end of each section provide additional information, including the statutory origin of the provision, its effective date, a brief citation, a discussion of any amendments, and cross-references to related provisions. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As a general rule, the <em>U.S. </em><em>Code</em> is an unofficial restatement of the <em>Statutes at Large </em>organized by topic for ease of access. As discussed further below, the exception to this general rule is when a particular title of the <em>U.S. Code</em> has been enacted into positive law. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Office of the Law Revision Counsel (OLRC) of the U.S. House of Representatives is responsible for maintaining and publishing the <em>U.S. Code</em>.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="United States Code , Office of the Law Revision Counsel , http://uscode.house.gov/  (last visited: April 25, 2023).">22</a></sup> The OLRC oversees the organization of statutes by subject matter, assigning a statute to a <em>U.S. </em><em>Code</em> section if the law has general applicability and permanence. If a provision is not intended to be permanent or does not have relevance to a wide audience, the OLRC may not include that language in the <em>U.S. </em><em>Code, </em>or the OLRC may classify the provision as a statutory note or appendix to an existing <em>U.S. </em><em>Code</em> section. Language enacted as part of government appropriations measures is a common instance of this; for example, provisions appropriating funds to the Office of Highway Administration each fiscal year are not likely to be codified because, by their own terms, they govern for only one year.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="For further explanation of statutory notes in the U.S. Code , please see Detailed Guide to the United States Code Content and Features , Office of the Law Revision Counsel , https://uscode.house.gov/detailed_guide.html#notes_statutory .">23</a></sup> Nevertheless, it is important to remember that whether a provision is codified or classified as a note or appendix in no way diminishes the statute's significance or authority. Provisions that are not codified in the <em>U.S. Code </em>are still acts of Congress.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="About Classification of Laws to the United States Code , Office of the Law Revision Counsel , https://uscode.house.gov/about_classification.html .">24</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The language of a law as set forth in the <em>U.S. Code</em> is not necessarily a literal duplication of the law as it was enacted. Because the <em>U.S. </em><em>Code</em> is arranged by subject, a slip law is often divided up among titles, with different sections of a slip law being assigned to different volumes, chapters, and sections of the <em>U.S. </em><em>Code</em>. There may also be slight changes from the original statute, particularly with regard to section numbers and cross-references, corresponding to <em>U.S. </em><em>Code </em>sections, not statute sections. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The most notable difference between the <em>U.S. </em><em>Code</em> and the <em>Statutes at Large </em>is that language in the <em>U.S.</em><em> </em><em>Code</em> exists as amended to reflect subsequent changes made by later laws.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175039"></a><a name="_Toc511051269"></a><a name="_Toc511051336"></a><a name="_Toc511051404"></a><a name="_Toc511051640"></a><a name="_Toc513109398"></a><a name="_Toc513111313"></a><a name="_Toc133312325"></a><a name="_Toc133400890"></a><a name="_Toc137459658"></a><a name="_Toc244778109"></a>Amended Laws</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When a bill becomes a law, the OLRC will examine whether the law has any non-amendatory or "freestanding" provisions to introduce to the Code, or any language that revises, repeals, or adds to already existing statutes.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="Id.">25</a></sup> Consider the following sequence of enactments.</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1952, Congress passed the Immigration and Nationality Act (INA).<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="Act of June 27, 1952, ch. 477, 66 Stat. 163 (1952).">26</a></sup> The INA generally consolidated and amended federal statutory law on the admission and removal of aliens in the United States and the terms under which they may become U.S. citizens. The INA was codified at 8 U.S.C<em>.</em> §§1 et seq. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1986, Congress passed the Immigration Reform and Control Act (IRCA).<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="Immigration Reform and Control Act of 1986, P.L. 99-603 , 100 Stat. 3359 (1986).">27</a></sup> Section 101 of IRCA amended the INA by adding a new §274A to the statute. The amendment to the INA is reflected in 8 U.S.C. §1324a, which was added in 1986. The amending action can be seen in the historical notes of 8 U.S.C. §1324a, which read: "June 27, 1952, ch. 477, Title II, Ch. 8, §274A, as added Nov. 6, 1986, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d099:FLD002:@1(99+603)"><span class="Hyperlink">P.L. 99-603</span></a> [ ... ]." The "as added" segment indicates that §274A did not originate in 1952, but was added to the INA on November 6, 1986.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1996, Congress passed the Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA).<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="Illegal Immigration Reform and Immigrant Responsibility Act of 1996, P.L. 104-208 , Div. C, 110 Stat. 3009-546 (1996).">28</a></sup> Section 412 of IIRIRA amended §274A of the INA. Section 412 of IIRIRA specifically amended 8 U.S.C<em>.</em> §1324a(b)(1), by striking certain clauses, adding new language, and inserting additional subparagraphs to the existing statute.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As the above sequence illustrates, the canvas upon which Congress typically works is the existing realm of federal statutes and not a blank slate. To that end, it is usually more effective to consult the <em>U.S. Code</em> for the current language of a statute than it is to consult either the slip law or the <em>Statutes at Large</em>, both of which are essentially frozen in their respective times. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It can be difficult for a researcher to find amended public laws with up-to-date language, but there are resources available. The House of Representatives Office of the Legislative Counsel assembles compilations of statutes that are not codified in the <em>U.S. Code</em> or are found in a title that has not been enacted into positive law.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="Statute Compilations , Office of the Legislative Counsel, U.S. House of Representatives , https://www.govinfo.gov/app/collection/comps/  ..">29</a></sup> Congressional committees and federal agencies may periodically issue similar compilations of amended public laws, especially for statutes significant to their respective jurisdictions. For example, the Civil Rights Division of the Department of Justice provides access to the Americans with Disabilities Act of 1990, As Amended, which includes changes made by the ADA Amendments Act of 2008 to the 1990 law.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="Americans With Disabilities Act of 1990, As Amended , United States Department of Justice , https://www.ada.gov/pubs/adastatute08.htm ; Americans with Disabilities Act of 1990, P.L. 101-336 , 104 Stat. 327 (1990); ADA Amendments Act of 2008, P.L. 110-325 , 122 Stat. 3553 (2008).">30</a></sup> Additionally, commercial publishers may track changes to existing law by recently enacted legislation. For instance, the commercial database CQ LawTrack notes and lists changes made by each new law to prior laws, though it does not aggregate the text of the amended law itself.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="LawTrack , CQ.com , https://plus.cq.com/laws-regs/lawtrack ..">31</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175040"></a><a name="_Toc511051270"></a><a name="_Toc511051337"></a><a name="_Toc511051405"></a><a name="_Toc511051641"></a><a name="_Toc513109399"></a><a name="_Toc513111314"></a><a name="_Toc133312326"></a><a name="_Toc133400891"></a><a name="_Toc137459659"></a><a name="_Toc244778110"></a>Positive Versus Non-Positive Law Titles of the <em>U.S. </em><em>Code</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1947, Congress began enacting whole titles of the <em>U.S. Code</em> into law, generally repealing the underlying statutes. When Congress does this, the authoritative legal language is no longer the slip law that enacted it, but the language as presented in a <em>U.S. Code</em> title. This process is known as "positive law codification" and the titles that have been enacted are "positive law titles." </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Why would Congress go through the effort of reenacting laws already in force? According to the OLRC, the <em>U.S. Code </em>is an effective and valuable tool for researching and verifying general and permanent laws, and "positive law codification improves the usefulness of the Code in several significant ways."<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="Positive Law Codification , Office of the Law Revision Counsel , https://uscode.house.gov/codification/legislation.html .">32</a></sup> These include</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">improving the organization of a title;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">restating laws using consistent language and styles;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">eliminating obsolete provisions;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">resolving ambiguous language;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">correcting technical errors; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">establishing titles as legal evidence of the law so that they are more authoritative in federal and state courts than the <em>Statutes at Large</em>.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='In positive law titles, the underlying statutes for the U.S. Code sections have been repealed, and are no longer "legal evidence of the laws" as stated in footnote 16 .'>33</a></sup> Non-positive law titles are considered prima facie evidence<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="Prima Facie : Sufficient to establish a fact or raise a presumption unless disproved or rebutted ( Black's Law Dictionary , 9 th Ed., 2009).">34</a></sup> of the <em>Statutes at Large</em> and may be refuted by the underlying statute should there be a disparity between the two statutes.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="Shameema Rahman, What Happens When There Is an Inconsistency Between the Statutes at Large and the U.S. Code? , Library of Congress : In Custodia Legis (May 29, 2014), https://blogs.loc.gov/law/2014/05/when-there-is-a-difference-between-the-u-s-code-and-the-statutes-at-large-the-statutes-at-large-controls/  .">35</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The process of positive law codification is a meticulous and time-consuming endeavor; consequently, not all titles have undergone the process.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="For additional information, see Positive Law Codification , Office of the Law Revision Counsel , https://uscode.house.gov/codification/legislation.html .">36</a></sup> At present, there are 27 positive law titles, which are identified with an asterisk on the OLRC's <em>U.S. Code</em> "Search &amp; Browse" page.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="United States Code , Office of the Law Revision Counsel , https://uscode.house.gov/browse.html .">37</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For a researcher, one of the most important differences between positive and non-positive law titles is the difference in the history of the enacting laws. In non-positive law titles, the first act listed in the history source credits is what the OLRC terms the "base law," or the act that originated that particular <em>U.S. </em><em>Code</em> section. For example, 2 U.S.C. §1 reads,</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Time for election of Senators</em>.</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">At the regular election held in any State next preceding the expiration of the term for which any Senator was elected to represent such State in Congress, at which election a Representative to Congress is regularly by law to be chosen, a United States Senator from said State shall be elected by the people thereof for the term commencing on the 3d day of January next thereafter.</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(June 4, 1914, ch. 103, §1, 38 Stat. 384; June 5, 1934, ch. 390, §3, 48 Stat. 879.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The base law for 2 U.S.C. §1 is the Act of June 4, 1914, ch. 103, 38 Stat. 384. In other words, the Act of June 4, 1914, created the language that currently occupies 2 U.S.C.<em> </em>§1. The opening clause of the Act of June 4, 1914, reads, "An act Providing a temporary method of conducting the nomination and election of United States Senators."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In positive law titles, the history source credits convey different information. For example, 3 U.S.C. §7 reads:</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Meeting and vote of electors.</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The electors of President and Vice President of each State shall meet and give their votes on the first Monday after the second Wednesday in December next following their appointment at such place in each State as the legislature of such State shall direct.</p>
+<p class="BodyText" style="padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(June 25, 1948, ch. 644, 62 Stat. 673.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Here, the Act of June 25, 1948, ch. 644, 62 Stat. 673 is not the base law for 3 U.S.C. §7, because this Act did not create the language of Section 7. Rather, this Act codified and enacted the entirety of Title 3 into positive law. The opening clause of this Act reads, "An Act To codify and enact into law Title 3 of the United States Code, entitled 'The President.'" In other words, every section contained in Title 3 has "Act of June 25, 1948, ch. 644" as the enacting law in the source credits because the underlying statutes that individually created the whole of Title 3 have been repealed. Accordingly, for a researcher who needs to cite the authoritative language of a section, the words of the section itself will be sufficient. However, a researcher who is looking for the history of the language itself and is perhaps interested in the intent behind its enactment must take additional steps to locate such information.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A researcher seeking information on the history or intent of the language in positive law titles of the <em>U.S. Code</em> should examine the "Front Matter" located at the very beginning of the title, preceding the legal language. This preface includes a table showing the disposition of all sections of the former title, including where the new sections were previously located, and the original source credits. In the previous example, before positive law codification, the language of 3 U.S.C. §7 was located at 3 U.S.C. §5, and the original base law was the Act of February 3, 1887, ch. 90, 24 Stat. 373.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="3 U.S.C: Front Matter , Office of the Law Revision Counsel , https://uscode.house.gov/us/usc/t3/frontmatter/ .">38</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175041"></a><a name="_Toc511051271"></a><a name="_Toc511051338"></a><a name="_Toc511051406"></a><a name="_Toc511051642"></a><a name="_Toc513109400"></a><a name="_Toc513111315"></a><a name="_Toc133312327"></a><a name="_Toc133400892"></a><a name="_Toc137459660"></a><a name="_Toc244778111"></a>Editorial Reclassification</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As discussed in the previous section, one reason for positive law codification is to improve the organization of existing titles. Another way the OLRC improves the organization of existing titles is through a process known as "Editorial Reclassification." In this process, the OLRC reorganizes portions of the law without altering or eliminating any statutory text.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="Editorial Reclassification , Office of the Law Revision Counsel , https://uscode.house.gov/editorialreclassification/reclassification.html https://uscode.house.gov/editorialreclassification/reclassification.html .">39</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The OLRC recently conducted ten editorial reclassification projects. Each one is explained in detail on the OLRC's website, with reasons for the change, major actions, current status, and resources for the transition. As an example, the OLRC transferred Title IV, Part C of the Higher Education Act of 1965 from its previous location in the Public Health and Welfare Title, 42 U.S.C<em>. </em>§§2751, et seq., to the Education Title, 20 U.S.C.<em> </em>§§1087-51, et seq. In addition, portions of Title 20 were reordered to conform to the transfer.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Editorial Reclassification, Title 20, United States Code , Office of the Law Revision Counsel , https://uscode.house.gov/editorialreclassification/t20/index.html .">40</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175042"></a><a name="_Toc511051272"></a><a name="_Toc511051339"></a><a name="_Toc511051407"></a><a name="_Toc511051643"></a><a name="_Toc513109401"></a><a name="_Toc513111316"></a><a name="_Toc133312328"></a><a name="_Toc133400893"></a><a name="_Toc137459661"></a><a name="_Toc244778112"></a>Annotated Editions of the <em>U.S. </em><em>C</em><em>ode</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to the official <em>U.S. Code</em>, researchers may be familiar with such resources as the <em>United States Code Annotated </em>(U.S.C.A.), published by Thomson Reuters, and the <em>United States Code Service </em>(U.S.C.S.), published by LexisNexis. These are privately published editions of the <em>U.S. </em><em>Code</em><em>.</em><em> </em>In addition to the text and historical source credits, such editions include annotations with further historical commentary, cross-references to the <em>Code of Federal Regulations </em>(C.F.R.),<em> </em>judicial decisions or attorney general opinions interpreting the sections, and citations to secondary sources, such as law reviews and practice guides. Although these supplements can offer benefits to the researcher, it is important to remember that these versions are unofficial and should be cross-referenced to an official publication, be it the slip law,<em> Statutes at Large, </em>or, in the case of a positive law title, the <em>U.S. Code</em><em>. </em></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175043"></a><a name="_Toc511051273"></a><a name="_Toc511051340"></a><a name="_Toc511051408"></a><a name="_Toc511051644"></a><a name="_Toc513109402"></a><a name="_Toc513111317"></a><a name="_Toc133312329"></a><a name="_Toc133400894"></a><a name="_Toc137459662"></a><a name="_Toc244778113"></a>Searching the <em>U.S. </em><em>Code</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As previously noted, statutes are incorporated into <em>U.S.</em><em> Code</em> to facilitate retrieval and access, because searching by subject may be easier than searching by date in some cases. However, there are several resources that further simplify locating information in the <em>U.S. </em><em>Code</em>. The tools listed below are available in both print and electronically via the OLRC unless otherwise noted.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175044"></a><a name="_Toc511051274"></a><a name="_Toc511051341"></a><a name="_Toc511051409"></a><a name="_Toc511051645"></a><a name="_Toc513109403"></a><a name="_Toc513111318"></a><a name="_Toc133312330"></a><a name="_Toc133400895"></a><a name="_Toc137459663"></a><a name="_Toc244778114"></a><em>General Index</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The General Index is a comprehensive directory organized alphabetically by subject with the corresponding title and section listed. The General Index is only available in print format.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="Copies of the General Index can be found in the Law Library of Congress Reading Room or at a federal depository library.">41</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175045"></a><a name="_Toc511051275"></a><a name="_Toc511051342"></a><a name="_Toc511051410"></a><a name="_Toc511051646"></a><a name="_Toc513109404"></a><a name="_Toc513111319"></a><a name="_Toc133312331"></a><a name="_Toc133400896"></a><a name="_Toc137459664"></a><a name="_Toc244778115"></a><em>Popular Names Table</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Popular Names Table lists statutes alphabetically by their colloquial names. This can reflect the substance of the law, the sponsor(s) of the law, or any creative acronym for the law. For example, there are entries for the "Energy Policy Act," the "Dodd-Frank Wall Street Reform and Consumer Protection Act," and the "USA PATRIOT Act." The electronic version of the Popular Names Table provides the enacting public law number, <em>Statutes at Large </em>cite, and the <em>U.S. Code </em>citation.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="Popular Name Tool , Office of the Law Revision Counsel , https://uscode.house.gov/popularnames/popularnames.html .">42</a></sup> The Popular Names Table's print version published by Thomson West with the U.S.C.A. also lists all the amending laws under the enacting law. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175046"></a><a name="_Toc511051276"></a><a name="_Toc511051343"></a><a name="_Toc511051411"></a><a name="_Toc511051647"></a><a name="_Toc513109405"></a><a name="_Toc513111320"></a><a name="_Toc133312332"></a><a name="_Toc133400897"></a><a name="_Toc137459665"></a><a name="_Toc244778116"></a>Classification Tables</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Classification Tables aid researchers by indicating where enacted laws appear in the <em>U.S. </em><em>Code</em> and which sections of the <em>U.S. </em><em>Code</em> those laws amended. The tables will also indicate which sections of the <em>U.S. </em><em>Code </em>were repealed, omitted, or transferred.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="United States Code Classification Tables , Office of the Law Revision Counsel , https://uscode.house.gov/classification/tables.html .">43</a></sup> </p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Table I, Revised Titles</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Table I conveys where sections of titles enacted as positive law were incorporated into the revised title.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="Table I , Revised Tables , Office of the Law Revision Counsel , https://uscode.house.gov/tables/usctable1.html .">44</a></sup> If a section is not listed in Table I, then it was either repealed or omitted in the process of becoming positive law.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Table II</em>, Revised Statutes 1878</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Table II shows where sections of the <em>Revised Statutes</em><em> of 1878</em> were classified into the <em>U.S. </em><em>Code</em>.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="Table II, Revised Statutes of 1878 , Office of the Law Revision Counsel , https://uscode.house.gov/tables/usctable2.html .">45</a></sup></p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Table III</em>, Statutes at Large</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a researcher has a <em>Statutes at Large </em>citation and would like to know where it has been codified, Table III provides the corresponding <em>U.S. Code </em>section.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="Table III – Statutes at Large , Office of the Law Revision Counsel , https://uscode.house.gov/table3/table3years.html .">46</a></sup></p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Table IV, Executive Orders</em><em>,</em><em> and Table V, Proclamations</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Similarly, Tables IV and V indicate where a particular executive order or presidential proclamation is set out in the <em>U.S. </em><em>Code</em>.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title="Table IV – Executive Orders , Office of the Law Revision Counsel , https://uscode.house.gov/tables/usctable4.html . Table V – Proclamations , Offi ce of the Law Revision Counsel , https://uscode.house.gov/tables/usctable5.html .">47</a></sup></p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Table VI, Reorganization Plans</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Likewise, Table VI lists the codification and status of reorganization plans promulgated since 1939.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="Table VI – Reorganization Plans , Office of the Law Revision Counsel , https://uscode.house.gov/tables/usctable6.html .">48</a></sup> A reorganization plan is a proposal offered by the President to restructure or modify existing federal agencies to improve efficiency by consolidating, transferring, or eliminating certain functions.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="For example, Reorganization Plan No. 1 of 1978 proposed that the Equal Employment Opportunity Commission (EEOC) should be the principal government entity of fair employment enforcement and consolidated the assorted governmental units that had equal employment opportunity responsibilities under various statutes.">49</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc479175047"></a><a name="_Toc511051277"></a><a name="_Toc511051344"></a><a name="_Toc511051412"></a><a name="_Toc511051648"></a><a name="_Toc513109406"></a><a name="_Toc513111321"></a><a name="_Toc133312333"></a><a name="_Toc133400898"></a><a name="_Toc137459666"></a><a name="_Toc244778117"></a>Further Information</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For additional information or specific questions on federal statutes, congressional clients may contact CRS. For programs offering training on statutory research, congressional clients please consult "Federal Legal Research" under the "Events" section of CRS.gov. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report was originally authored by Eva M. Tarnay, a former Law Librarian at CRS.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Const. art. I, § 7. Article I, Section 7 provides </p>
+<p class="FootnoteText" style="padding-left:36pt;">All Bills for raising Revenue shall originate in the House of Representatives; but the Senate may propose or concur with Amendments as on other Bills.</p>
+<p class="FootnoteText" style="padding-left:36pt;">Every Bill which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President of the United States: If he approve he shall sign it, but if not he shall return it, with his Objections to that House in which it shall have originated, who shall enter the Objections at large on their Journal, and proceed to reconsider it. If after such Reconsideration two thirds of that House shall agree to pass the Bill, it shall be sent, together with the Objections, to the other House, by which it shall likewise be reconsidered, and if approved by two thirds of that House, it shall become a Law. But in all such Cases the Votes of both Houses shall be determined by Yeas and Nays, and the Names of the Persons voting for and against the Bill shall be entered on the Journal of each House respectively. If any Bill shall not be returned by the President within ten Days (Sundays excepted) after it shall have been presented to him, the Same shall be a Law, in like Manner as if he had signed it, unless the Congress by their Adjournment prevent its Return, in which Case it shall not be a Law.</p>
+<p class="FootnoteText" style="padding-left:36pt;">Every Order, Resolution, or Vote to which the Concurrence of the Senate and House of Representatives may be necessary (except on a question of Adjournment) shall be presented to the President of the United States; and before the Same shall take Effect, shall be approved by him, or being disapproved by him, shall be repassed by two thirds of the Senate and House of Representatives, according to the Rules and Limitations prescribed in the Case of a Bill.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, in the 117<sup>th</sup> Congress (2021-2022), there were three private laws enacted, as opposed to 362 public laws.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>About Public and Private Laws</em>, U.S. Government Publishing Office, <a class="ExternalLink" href="https://www.govinfo.gov/help/plaw"><span class="Hyperlink">https://www.govinfo.gov/help/plaw</span></a> (last visited: April 25, 2023). </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the 25<sup>th</sup> public law enacted in the 117<sup>th</sup> Congress was numbered as <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d117:FLD002:@1(117+25)"><span class="Hyperlink">P.L. 117-25</span></a> and the first private law enacted in the 117<sup>th</sup> Congress was numbered <a class="ExternalLink" href="https://www.congress.gov/bill/117th-congress/house-bill/680"><span class="Hyperlink">Pvt. L. 117-1</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the Tariff Act of 1930 would be cited as "Act of June 17, 1930, ch. 497, 46 Stat. 590."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GPO now provides this information in a new system known as "govinfo," available at <a class="ExternalLink" href="https://www.govinfo.gov/"><span class="Hyperlink">https://www.govinfo.gov/</span></a><span class="Hyperlink"></span>. Previously, GPO offered this information through its <em>Federal Digital System (FDsys)</em>, which was retired in December 2018. U.S. Government Publishing Office, govinfo, <a class="ExternalLink" href="https://www.govinfo.gov/"><span class="Hyperlink">https://www.govinfo.gov/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A list of Federal depository libraries and their locations can be found at <a class="ExternalLink" href="https://ask.gpo.gov/s/FDLD"><span class="Hyperlink">https://ask.gpo.gov/s/FDLD</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congress.gov, <a class="ExternalLink" href="https://www.congress.gov/"><span class="Hyperlink">https://www.congress.gov/</span></a><span class="Hyperlink"></span>. Public laws may be found at <a class="ExternalLink" href="https://www.congress.gov/public-laws/"><span class="Hyperlink">https://www.congress.gov/public-laws/</span></a><span class="Hyperlink"></span>. Private laws may be found at <a class="ExternalLink" href="https://www.congress.gov/private-laws/"><span class="Hyperlink">https://www.congress.gov/private-laws/</span></a><span class="Hyperlink"></span><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Lexis, <a class="ExternalLink" href="https://plus.lexis.com"><span class="Hyperlink">https://plus.lexis.com</span></a>..</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> ProQuest Congressional, <a class="ExternalLink" href="https://congressional.proquest.com/"><span class="Hyperlink">https://congressional.proquest.com/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Westlaw, <a class="ExternalLink" href="https://legal.thomsonreuters.com/en/westlaw"><span class="Hyperlink">https://legal.thomsonreuters.com/en/westlaw</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Treaties and other international agreements can be located via the <em>Treaties and Other International Agreements</em> S<em>eries</em> (TIAS) (1946-date) or the <em>United States Treaties and Other International Agreements </em>(UST) (1950-date).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 1 U.S.C. § 112. Statutes at Large; contents; admissibility in evidence. </p>
+<p class="FootnoteText" style="padding-left:36pt;">The Archivist of the United States shall cause to be compiled, edited, indexed, and published, the United States Statutes at Large, which shall contain all the laws and concurrent resolutions enacted during each regular session of Congress; all proclamations by the President in the numbered series issued since the date of the adjournment of the regular session of Congress next preceding; and also any amendments to the Constitution of the United States proposed or ratified pursuant to article V thereof since that date, together with the certificate of the Archivist of the United States issued in compliance with the provision contained in section 106b of this title. In the event of an extra session of Congress, the Archivist of the United States shall cause all the laws and concurrent resolutions enacted during said extra session to be consolidated with, and published as part of, the contents of the volume for the next regular session. The United States Statutes at Large shall be legal evidence of laws, concurrent resolutions, treaties, international agreements other than treaties, proclamations by the President, and proposed or ratified amendments to the Constitution of the United States therein contained, in all the courts of the United States, the several States, and the Territories and insular possessions of the United States.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>United States Statutes at Large</em>, U.S. Government Publishing Office, <a class="ExternalLink" href="https://www.govinfo.gov/app/collection/statute"><span class="Hyperlink">https://www.govinfo.gov/app/collection/statute</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.loc.gov/law/help/statutes-at-large/"><em><span class="Hyperlink">Statutes at Large</span></em></a>, The Library of Congress<span class="Hyperlink">, </span><a class="ExternalLink" href="https://www.loc.gov/collections/united-states-statutes-at-large/about-this-collection/"><span class="Hyperlink">https://www.loc.gov/collections/united-states-statutes-at-large/about-this-collection/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Act of June 27, 1866, ch. 140, 14 Stat. 74, "An Act to provide for the Revision and Consolidation of the Statute Laws of the United States."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Act of June 20, 1874, ch. 333, 18 Stat. 113, "An act providing for publication of the revised statutes and the laws of the United States."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Act of March 2, 1877, ch. 82, 19 Stat. 268, "A act to provide for the preparation and publication of a new edition of the Revised Statutes of the United States."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Act of February 27, 1877, ch. 80, 19 Stat. 240, "An act to perfect the revision of the statutes of the United States, and of the statutes relating to the District of Columbia."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Act of June 30, 1926, ch. 712, 44 Stat. 777, "An Act To consolidate, codify, and set forth the general and permanent laws of the United States in force December seventh, one thousand nine hundred and twenty-five."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Act of June 30, 1926, ch. 713, 44 Stat. 778, "An Act To provide for the publication of the Act to consolidate, codify, and set forth the general and permanent laws of the United States in force December 7, 1925, with index, reference tables, appendix, and so forth."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>United States Code</em>, Office of the Law Revision Counsel, <a class="ExternalLink" href="http://uscode.house.gov/"><span class="Hyperlink">http://uscode.house.gov/</span></a><span class="Hyperlink"></span><span class="Hyperlink"> (last visited: April 25, 2023).</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For further explanation of statutory notes in the <em>U.S. </em><em>Code</em>, please see <a class="ExternalLink" href="https://uscode.house.gov/detailed_guide.html#notes_statutory"><em><span class="Hyperlink">Detailed Guide to the United States Code Content and Features</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/detailed_guide.html#notes_statutory"><span class="Hyperlink">https://uscode.house.gov/detailed_guide.html#notes_statutory</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""><em> About </em><a class="ExternalLink" href="https://uscode.house.gov/about_classification.html"><em><span class="Hyperlink">Classification of Laws to the United States Code</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/about_classification.html"><span class="Hyperlink">https://uscode.house.gov/about_classification.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Id.</em></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Act of June 27, 1952, ch. 477, 66 Stat. 163 (1952).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Immigration Reform and Control Act of 1986, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d099:FLD002:@1(99+603)"><span class="Hyperlink">P.L. 99-603</span></a>, 100 Stat. 3359 (1986).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Illegal Immigration Reform and Immigrant Responsibility Act of 1996, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d104:FLD002:@1(104+208)"><span class="Hyperlink">P.L. 104-208</span></a>, Div. C, 110 Stat. 3009-546 (1996).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://legcounsel.house.gov/HOLC/Resources/comps_alpha.html"><em><span class="Hyperlink">Statute Compilations</span></em></a>, Office of the Legislative Counsel, U.S. House of Representatives, <a class="ExternalLink" href="https://www.govinfo.gov/app/collection/comps/"><span class="Hyperlink">https://www.govinfo.gov/app/collection/comps/</span></a><span class="Hyperlink"></span>.. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.ada.gov/pubs/adastatute08.pdf"><em><span class="Hyperlink">Americans With Disabilities Act of 1990, As Amended</span></em></a>, United States Department of Justice, <a class="ExternalLink" href="https://www.ada.gov/pubs/adastatute08.htm"><span class="Hyperlink">https://www.ada.gov/pubs/adastatute08.htm</span></a><span class="Hyperlink">; </span>Americans with Disabilities Act of 1990, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d101:FLD002:@1(101+336)"><span class="Hyperlink">P.L. 101-336</span></a>, 104 Stat. 327 (1990); ADA Amendments Act of 2008, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d110:FLD002:@1(110+325)"><span class="Hyperlink">P.L. 110-325</span></a>, 122 Stat. 3553 (2008).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>LawTrack</em>, CQ.com, <a class="ExternalLink" href="https://plus.cq.com/laws-regs/lawtrack"><span class="Hyperlink">https://plus.cq.com/laws-regs/lawtrack</span></a>..</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/codification/legislation.html"><em><span class="Hyperlink">Positive Law Codification</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/codification/legislation.html"><span class="Hyperlink">https://uscode.house.gov/codification/legislation.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In positive law titles, the underlying statutes for the <em>U.S. Code </em>sections have been repealed, and are no longer "legal evidence of the laws" as stated in footnote <a class="InternalLink" href="#_Ref133402517">16</a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Prima Facie</em>: Sufficient to establish a fact or raise a presumption unless disproved or rebutted (<em>Black's Law Dictionary</em>, 9<sup>th</sup> Ed., 2009).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Shameema Rahman, <em>What Happens When There Is an Inconsistency Between the Statutes at Large and the U.S. Code?</em>, Library of Congress: In Custodia Legis (May 29, 2014), <a class="ExternalLink" href="https://blogs.loc.gov/law/2014/05/when-there-is-a-difference-between-the-u-s-code-and-the-statutes-at-large-the-statutes-at-large-controls/"><span class="Hyperlink">https://blogs.loc.gov/law/2014/05/when-there-is-a-difference-between-the-u-s-code-and-the-statutes-at-large-the-statutes-at-large-controls/</span></a><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information, see <a class="ExternalLink" href="https://uscode.house.gov/codification/legislation.html"><em><span class="Hyperlink">Positive Law Codification</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/codification/legislation.html"><span class="Hyperlink">https://uscode.house.gov/codification/legislation.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/browse.html"><em><span class="Hyperlink">United States Code</span></em></a>,<em> </em>Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/browse.html"><span class="Hyperlink">https://uscode.house.gov/browse.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/us/usc/t3/frontmatter/"><span class="Hyperlink">3 </span><em><span class="Hyperlink">U.S.C: Front Matter</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/us/usc/t3/frontmatter/"><span class="Hyperlink">https://uscode.house.gov/us/usc/t3/frontmatter/</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/editorialreclassification/reclassification.html"><em><span class="Hyperlink">Editorial Reclassification</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/editorialreclassification/reclassification.htmlhttps://uscode.house.gov/editorialreclassification/reclassification.html"><span class="Hyperlink">https://uscode.house.gov/editorialreclassification/reclassification.html</span><span class="Hyperlink">https://uscode.house.gov/editorialreclassification/reclassification.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/editorialreclassification/t20/index.html"><em><span class="Hyperlink">Editorial Reclassification, Title 20, United States Code</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/editorialreclassification/t20/index.html"><span class="Hyperlink">https://uscode.house.gov/editorialreclassification/t20/index.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Copies of the <em>General Index</em><em> </em>can be found in the Law Library of Congress Reading Room or at a federal depository library. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/popularnames/popularnames.html"><em><span class="Hyperlink">Popular Name Tool</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/popularnames/popularnames.html"><span class="Hyperlink">https://uscode.house.gov/popularnames/popularnames.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/classification/tables.html"><em><span class="Hyperlink">United States Code Classification Tables</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/classification/tables.html"><span class="Hyperlink">https://uscode.house.gov/classification/tables.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable1.html"><em><span class="Hyperlink">Table I</span></em></a><em>, Revised Tables</em>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable1.html"><span class="Hyperlink">https://uscode.house.gov/tables/usctable1.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable2.html"><em><span class="Hyperlink">Table II,</span></em></a><em> Revised Statutes of 1878</em>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable2.html"><span class="Hyperlink">https://uscode.house.gov/tables/usctable2.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/table3/table3years.html"><em><span class="Hyperlink">Table III – Statutes at Large</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/table3/table3years.html"><span class="Hyperlink">https://uscode.house.gov/table3/table3years.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable4.html"><em><span class="Hyperlink">Table IV – Executive Orders</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable4.html"><span class="Hyperlink">https://uscode.house.gov/tables/usctable4.html</span></a>.</p>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable5.html"><em><span class="Hyperlink">Table V – Proclamations</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable5.html"><span class="Hyperlink">https://uscode.house.gov/tables/usctable5.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable6.html"><em><span class="Hyperlink">Table VI – Reorganization Plans</span></em></a>, Office of the Law Revision Counsel, <a class="ExternalLink" href="https://uscode.house.gov/tables/usctable6.html"><span class="Hyperlink">https://uscode.house.gov/tables/usctable6.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, Reorganization Plan No. 1 of 1978 proposed that the Equal Employment Opportunity Commission (EEOC) should be the principal government entity of fair employment enforcement and consolidated the assorted governmental units that had equal employment opportunity responsibilities under various statutes. </p>
+</td>
+</tr>
+</table>
+</div>
+</div>
