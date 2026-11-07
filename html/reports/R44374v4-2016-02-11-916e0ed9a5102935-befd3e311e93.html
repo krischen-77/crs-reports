@@ -1,0 +1,255 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R44374.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Federal Grant Financial Reporting Requirements and Databases: Frequently Asked Questions</div>
+<div class="CoverDate">Updated February 11, 2016
+            (R44374)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc532292279"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc532292280"><span class="Hyperlink">Why are federal agencies and grant recipients required to report grant data?</span></a></li>
+<li class="TOC1"><a href="#_Toc532292281"><span class="Hyperlink">What information is a federal grant recipient required to report and to whom?</span></a></li>
+<li class="TOC1"><a href="#_Toc532292282"><span class="Hyperlink">How does a federal agency track federal grant data?</span></a></li>
+<li class="TOC1"><a href="#_Toc532292283"><span class="Hyperlink">What federal databases and websites contain grant data?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292284"><span class="Hyperlink">What is a Data Universal Numbering System (DUNS) number?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292285"><span class="Hyperlink">What is the System for Award Management (SAM)?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292286"><span class="Hyperlink">What is the Catalog of Federal Domestic Assistance (CFDA)?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292287"><span class="Hyperlink">What are cash management systems?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292288"><span class="Hyperlink">What is USAspending.gov?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292289"><span class="Hyperlink">What is the Federal Assistance Award Data System PLUS (FAADS</span><span class="Hyperlink">-PLUS)?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292290"><span class="Hyperlink">What is the Federal Funding Accountability and Transparency Act Subaward Reporting System (FSRS)?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292291"><span class="Hyperlink">What is the Federal Audit Clearinghouse (FAC)?</span></a></li>
+<li class="TOC1"><a href="#_Toc532292292"><span class="Hyperlink">What grant data are accessible by the public?</span></a></li>
+<li class="TOC2"><a href="#_Toc532292293"><span class="Hyperlink">Are there options for opting out of providing federal grant recipient information?</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc532292276"><span class="Hyperlink">Figure 1.Federal Grant Funds Flow Chart</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress and federal agencies frequently undertake initiatives to conduct oversight of federal grant programs and expenditures. The ability to oversee is influenced by the existing reporting requirements placed on recipients of federal grant funds. Limitations in accessing information contained in federal databases used to collect grant data also influence the level of transparency into the use of federal grant funds. Congress has also debated the reporting burden placed on federal grant recipients and how to balance grant recipient capacity with the desire for transparency into the use of federal grant funds.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides an introduction to reporting requirements placed on federal grant recipients, including requirements that must be met to seek federal grant funds. It also describes the databases containing information about grant awards, the types of information collected on grant recipients, and the availability of that information to the public. Several grant reporting questions are answered, including the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Why are federal agencies and grant recipients required to report grant data?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What information is a federal grant recipient required to report and to whom?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">How does a federal agency track federal grant data?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What is the Data Universal Numbering System (DUNS) number?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What is the System for Award Management (SAM)?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What is the Catalog of Federal Domestic Assistance (CFDA)?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What are cash management systems?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What is USAspending.gov?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What is the Federal Assistance Award Data System PLUS (FAADS-PLUS)?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What is the Federal Funding Accountability and Transparency Act Subaward Reporting System?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What is the Federal Audit Clearinghouse (FAC)?</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">What grant data are accessible by the public?</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal grant reporting requirements fall into two categories: financial reporting and program performance reporting. This report focuses on financial reporting requirements and does not address program performance reporting. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report will be updated should significant legislative activity regarding federal grant recipient reporting occur.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congressional authorization of federal assistance to state and local governments can be traced as far back as 1808, when the first federal grant program was adopted to provide funds to states to support the National Guard.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Morton Grodzins, The American System (Chicago: Rand McNally, 1966), pp. 34-37.">1</a></sup> Since that time, there has been significant growth in the number of federal assistance programs to state and local government. There are currently over 2,321 congressionally authorized federal assistance programs.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="Catalog of Federal Domestic Assistance, February 11, 2016, at http://www.cfda.gov .">2</a></sup> The growing number, perceived fragmentation, and complexity of these programs create challenges for federal agencies and congressional stakeholders in standardizing various financial and administrative aspects of federal grant program management.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="For additional information on federal grant administration challenges, see CRS Report R42769, Federal Grants-in-Aid Administration: A Primer , by Natalie Keegan .">3</a></sup> Federal agencies administering grant programs face challenges in providing timely, accurate, and detailed information on federal grant awards. This can be attributed, in part, to the way grant funds are distributed from the federal to the local level. This may also be attributed to the limitations of the databases used to track the distribution of federal grant funds. These limitations include questions regarding the validity of the data, and the limited ability to track the distribution of grant funds to the subgrant recipient level. Without complete and valid information about the distribution of federal grant funds, Congress may have a diminished capacity to engage in effective oversight of federal grants. Federal grant recipients are currently required to report grant project related information to federal agencies.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="The grant recipient reporting requirements vary program to program based on statutory and regulatory provisions.">4</a></sup> This information is contained within a number of federal grant databases with limited public accessibility. The information reported by grant recipients varies depending on the federal program and the individual grant award. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal grants are available for a variety of purposes. Federally funded grant projects may include purchasing fire and police equipment, constructing housing for low-income populations, providing disaster recovery assistance and other social services, and funding educational activities. Organizations generally coordinate the application and administration of federal grants, and individuals are beneficiaries of the grant projects and services provided by organizations. Organizations seeking federal grant funds are required to register in federal grant systems prior to applying for federal grants. Once grant funds are awarded, recipients are required to report information to federal agencies regarding the use of the federal grant funds. The information provided to the federal government by federal grant recipients is contained in several different federal databases. The general public has access to selected information contained in these databases.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides an introduction to reporting requirements placed on federal grant recipients, including requirements that must be met to seek federal grant funds. It also describes the types of information collected on grant recipients, the databases containing information about grant awards, and the availability of that information to the public. The reporting requirements discussed in this report are financial reporting requirements for grant recipients and do not include performance related reporting. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145963"></a><a name="_Toc428791096"></a><a name="_Toc428889953"></a><a name="_Toc429054650"></a><a name="_Toc429560742"></a><a name="_Toc442953904"></a><a name="_Toc442956857"></a><a name="_Toc442957393"></a><a name="_Toc442957709"></a><a name="_Toc442958645"></a><a name="_Toc442958699"></a><a name="_Toc442970623"></a><a name="_Toc532292280"></a>Why are federal agencies and grant recipients required to report grant data?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To comply with guidance issued by the Office of Management and Budget (OMB), federal agencies that administer federal grant programs must collect and report financial grant data to federal grant databases.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="For example, 2 CFR, Part 200 et al., Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards , contains guidance to federal agencies in establishing a number of grant reporting requirements.">5</a></sup> Federal agencies collect the grant data by requiring federal grant recipients to submit financial and performance data to the federal agency administering the grant program. These reporting requirements are set forth in the authorizing statutes and regulations for each individual grant program. Some reporting requirements, such as post-award audit requirements, are set forth in legislation that applies to almost every federal grant program.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Fo r example, the Single Audit Act of 1984 ( P.L. 98-502 ), as amended by the Single Audit Act Amendments of 1996 ( P.L. 104-156 ) and codified at 31 U.S.C. 7501-7507.">6</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145964"></a><a name="_Toc428791097"></a><a name="_Toc428889954"></a><a name="_Toc429054652"></a><a name="_Toc429560744"></a><a name="_Toc442953906"></a><a name="_Toc442956858"></a><a name="_Toc442957394"></a><a name="_Toc442957710"></a><a name="_Toc442958646"></a><a name="_Toc442958700"></a><a name="_Toc442970624"></a><a name="_Toc532292281"></a>What information is a federal grant recipient required to report and to whom?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A federal grant seeker must provide information about their organization when they obtain a DUNS number and register with SAM. Grant seekers must provide the following information to obtain a DUNS number:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">legal name of the company, organization, or entity;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">entity headquarters name and address;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">secondary, or tradestyle, name of the company or the "Doing Business As" (DBA) name;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">physical address of the entity including city, street, and zip code;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">mailing address;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">telephone number;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">point of contact name and title; and,</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">number of employees at the physical location.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Dun and Bradstreet, DUNS Number Guide , p. 1.">7</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To register with SAM, grant seekers must provide the following information:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">DUNS number;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">business information, including the taxpayer identification number (TIN);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Commercial and Government Entity (CAGE) code;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">business type and organization structure;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">financial information including electronic funds transfer (EFT) information for federal government payment purposes; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">answers to executive compensation questions; and,</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Point of Contact (POC) information including name, title, physical address, and email address. </li></ul><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc442958647"></a><a name="_Toc442958701"></a><a name="_Toc442970625"></a><a name="_Toc532292282"></a><a name="_Toc427145965"></a><a name="_Toc428791098"></a><a name="_Toc428889955"></a><a name="_Toc429054653"></a><a name="_Toc429560745"></a><a name="_Toc442953907"></a><a name="_Toc442956859"></a><a name="_Toc442957395"></a><a name="_Toc442957711"></a>How does a federal agency track federal grant data?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal agencies use a number of systems to track federal grant recipient data. Before a federal grant is awarded, officials seeking federal grants for their organization are required by law to obtain a unique identifier assigned and maintained by Dun and Bradstreet (D&amp;B). This unique identifier is known as a Data Universal Numbering System (DUNS) number. Federal agencies use the DUNS number to identify federal grant applicants. Once a grant seeker obtains a DUNS number, the organization must register in the System for Award Management (SAM) in order to be eligible to apply for federal grants. Federal agencies use SAM to collect additional information on potential federal grant recipients. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Each federal grant award is assigned a number that is then associated with the grant recipient. Federal agencies use the award number to track grant data in agency grant management and financial management systems.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc442958648"></a><a name="_Toc442958702"></a><a name="_Toc442970626"></a><a name="_Toc532292283"></a>What federal databases and websites contain grant data?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When Congress authorizes a federal grant program, the federal agency administering the grant program reports grant program information to the Catalog of Federal Domestic Assistance (CFDA). After a federal grant award is made, the federal agency that made the award collects information about the grant recipient and the grant project. The information provided in a federal grant application is inputted by the federal agency into the grant management system within the agency and a unique grant award number is created. A single entity who has received more than one award under the same grant program may have several grant award numbers. Additionally, a federal agency may have a separate grant management system for each grant program it administers. When the grant agreement is executed, the federal agency also creates a grant account in the agency's cash management system for each individual grant award, which may mean that a single entity that receives more than one grant award by an agency may have several different grant account numbers.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal grant recipients are required to report financial information pursuant to the conditions contained in the grant agreement executed at the time of the grant award. This information includes financial information, such as expenditures, about the project or services funded by the federal grant award. The financial information is reported periodically to the federal agency administering the grant program. Financial data on the grant award are reported into several federal grant databases, including the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">federal agency cash management systems;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Assistance Award Data System PLUS (FAADS-PLUS);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Funding Accountability and Transparency Act Subaward Reporting System (FSRS); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">USAspending.gov; and,</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Audit Clearinghouse (FAC). </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As detailed in <strong><a class="InternalLink" href="#_Ref442970558"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong>, federal grant data are located in several databases at both the grant recipient and federal government level.</p>
+<p class="Figure" style="padding-left:-116.4pt;padding-right:-116.4pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref442970558"></a><a name="_Toc442970619"></a><a name="_Toc532292276"></a>Figure 1.Federal Grant Funds Flow Chart</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R44374_files/0.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Natalie M. Keegan, Congressional Research Service, February 2015.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145966"></a><a name="_Toc428791099"></a><a name="_Toc428889956"></a><a name="_Toc429054654"></a><a name="_Toc429560746"></a><a name="_Toc442953908"></a><a name="_Toc442956860"></a><a name="_Toc442957396"></a><a name="_Toc442957712"></a><a name="_Toc442958649"></a><a name="_Toc442958703"></a><a name="_Toc442970627"></a><a name="_Toc532292284"></a>What is a Data Universal Numbering System (DUNS) number?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A Data Universal Numbering System (DUNS) number is a unique nine-digit identifier for each government contractor and federal grant applicant. The federal government has contracted with D&amp;B since 1978 to provide proprietary DUNS numbers for use in government-wide data systems, and since October 1, 2003, the OMB policy requires the use of a DUNS number on any application for federal grants or cooperative agreements.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Office of Management and Budget, OMB Issues Grants Management Policies , M-03-16, July 15, 2003, p. 1.">8</a></sup> DUNS numbers are associated with contractor and grant recipient information and are required for each listed organization address. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145967"></a><a name="_Toc428791100"></a><a name="_Toc428889957"></a><a name="_Toc429054655"></a><a name="_Toc429560747"></a><a name="_Toc442953909"></a><a name="_Toc442956861"></a><a name="_Toc442957397"></a><a name="_Toc442957713"></a><a name="_Toc442958650"></a><a name="_Toc442958704"></a><a name="_Toc442970628"></a><a name="_Toc532292285"></a>What is the System for Award Management (SAM)?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The System for Award Management (SAM) is the federal government's primary contractor and federal grant applicant database used by agencies to validate grantee information. Current and potential government contractors and grant applicants are required to register with SAM in order to be awarded federal government contracts or grants. SAM requires a one-time registration from each potential government vendor, and collects basic procurement and financial information from contractors and grant applicants.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAM consolidates government-wide acquisition and grant award support systems into one new system.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="General Services Administration, System for Award Management: User Guide , vol. 2.9.2, Jan uary 16, 2015, p. 8.">9</a></sup> The consolidation is planned for four phases. In 2012 the first phase of SAM was launched and phase one systems continue to be consolidated. The first phase of the consolidation included nine information databases: Central Contractor Registration (CCR), Federal Agency Registration (FedReg), Online Representations and Certifications Application (ORCA), and Excluded Parties List System (EPLS). Once completed, the consolidation will also include:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Electronic Subcontracting Reporting System (eSRS);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FFATA Sub-award Reporting System (FSRS);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Catalog of Federal Domestic Assistance (CFDA);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FedBizOpps.gov (FBO);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Wage Determination Online (WDOL);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Procurement Data System-Next Generation (FPDS-NG);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Past Performance Information Retrieval System (PPIRS);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Contractor Performance Assessment Reporting Systems; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Awardee Performance and Integrity Information System (FAPIIS). </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some of the systems that will be consolidated by SAM include data on federal contractors and may not necessarily contain information on federal grant recipients.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145968"></a><a name="_Toc428791101"></a><a name="_Toc428889958"></a><a name="_Toc429054656"></a><a name="_Toc429560748"></a><a name="_Toc442953910"></a><a name="_Toc442956862"></a><a name="_Toc442957398"></a><a name="_Toc442957714"></a><a name="_Toc442958651"></a><a name="_Toc442958705"></a><a name="_Toc442970629"></a><a name="_Toc532292286"></a>What is the Catalog of Federal Domestic Assistance (CFDA)?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Catalog of Federal Domestic Assistance (CFDA) is a publicly searchable reference source for federal grants and nonfinancial assistance programs. The CFDA lists and describes over 2,300 federal programs and includes program-specific information such as program objectives, eligibility requirements, application and award processes, program contact information, and related CFDA assistance programs. CFDA is continuously updated and enables information seekers to search assistance programs by keyword, subject, funding department or agency, and other criteria. Additionally, CFDA provides sources of information on developing and writing grant applications, guidance to review processes, and links to agency and department websites for more in-depth program information and eligibility explanations.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="CRS Report RL34012, Resources for Grantseekers , by Merete F. Gerli .">10</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CFDA is maintained by the General Services Administration (GSA) pursuant to the Federal Program Information Act.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="P.L. 95-220 , amended P.L. 98-169 .">11</a></sup> However, OMB is responsible for the collection of assistance program information from federal agencies. OMB also issues guidance to federal agencies for establishing procedures to ensure accurate and timely data is contained within CFDA.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145969"></a><a name="_Toc428791102"></a><a name="_Toc428889959"></a><a name="_Toc429054657"></a><a name="_Toc429560749"></a><a name="_Toc442953911"></a><a name="_Toc442956863"></a><a name="_Toc442957399"></a><a name="_Toc442957715"></a><a name="_Toc442958652"></a><a name="_Toc442958706"></a><a name="_Toc442970630"></a><a name="_Toc532292287"></a>What are cash management systems?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Cash management in this context refers to the methods and procedures used by grant recipients and federal agencies to transfer grant funds. Financial management systems of federal agencies and grant recipients are payment and cash management systems used to track the flow of cash between the federal government and primary grant recipients and sub-grant recipients. As detailed in <strong><a class="InternalLink" href="#_Ref442970558"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong>, each federal agency and each grant recipient may have separate cash management systems, resulting in limited interoperability between cash management systems. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145972"></a><a name="_Toc428791103"></a><a name="_Toc428889960"></a><a name="_Toc429054658"></a><a name="_Toc429560750"></a><a name="_Toc442953912"></a><a name="_Toc442956864"></a><a name="_Toc442957400"></a><a name="_Toc442957716"></a><a name="_Toc442958653"></a><a name="_Toc442958707"></a><a name="_Toc442970631"></a><a name="_Toc532292288"></a>What is USAspending.gov?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Funding Accountability and Transparency Act of 2006 (FFATA, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d109:FLD002:@1(109+282)"><span class="Hyperlink">P.L. 109-282</span></a>) requires that federal contract, grant, loan, and other financial assistance awards of more than $25,000 be displayed on a searchable, publicly accessible website, USAspending.gov. USAspending.gov provides information on grant awards, including the amount of the award, name and location of the recipient, and the name and authorization of the federal program used to make the award. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Digital Accountability and Transparency Act of 2014 (DATA Act, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d113:FLD002:@1(113+101)"><span class="Hyperlink">P.L. 113-101</span></a>) amended FFATA, transferring responsibility for USAspending.gov from OMB to the Department of Treasury, Bureau of the Fiscal Service. On March 31, 2015, USAspending.gov was re-launched with changes to the site's usability, presentation, and search functions.<a name="_Toc427145970"></a></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc428791104"></a><a name="_Toc428889961"></a><a name="_Toc429054659"></a><a name="_Toc429560751"></a><a name="_Toc442953913"></a><a name="_Toc442956865"></a><a name="_Toc442957401"></a><a name="_Toc442957717"></a><a name="_Toc442958654"></a><a name="_Toc442958708"></a><a name="_Toc442970632"></a><a name="_Toc532292289"></a>What is the Federal Assistance Award Data System PLUS (FAADS-PLUS)?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Assistance Awards Data System (FAADS) was established by the Consolidated Federal Funds Report Act of 1982 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d097:FLD002:@1(97+326)"><span class="Hyperlink">P.L. 97-326</span></a>) and was maintained by the Bureau of the Census in the Department of Commerce. FAADS was a central collection source of Federal financial assistance awards transactions. FAADS-PLUS was introduced in 2007, a result of passage of the FFATA, and is an expanded version of FAADS. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145971"></a><a name="_Toc428791105"></a><a name="_Toc428889962"></a><a name="_Toc429054660"></a><a name="_Toc429560752"></a><a name="_Toc442953914"></a><a name="_Toc442956866"></a><a name="_Toc442957402"></a><a name="_Toc442957718"></a><a name="_Toc442958655"></a><a name="_Toc442958709"></a><a name="_Toc442970633"></a><a name="_Toc532292290"></a>What is the Federal Funding Accountability and Transparency Act Subaward Reporting System (FSRS)?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FFATA requires prime subgrant recipients receiving a grant award greater than $25,000 to report subaward financial information. The FFATA Subaward Reporting System (FSRS) is the reporting tool used by prime awardees to meet FFATA sub-award reporting requirements.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Office of Management and Budget, Open Government Directive–Federal Spending Transparency and Subaward and Compensation Data Reporting , August 27, 2010.">12</a></sup> The reported subaward FSRS information is then displayed on USAspending.gov under the prime award information.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145973"></a><a name="_Toc428791106"></a><a name="_Toc428889963"></a><a name="_Toc429054661"></a><a name="_Toc429560753"></a><a name="_Toc442953915"></a><a name="_Toc442956867"></a><a name="_Toc442957403"></a><a name="_Toc442957719"></a><a name="_Toc442958656"></a><a name="_Toc442958710"></a><a name="_Toc442970634"></a><a name="_Toc532292291"></a>What is the Federal Audit Clearinghouse (FAC)?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Single Audit Act Amendments of 1996 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d104:FLD002:@1(104+156)"><span class="Hyperlink">P.L. 104-156</span></a>) and OMB guidance stipulate that all grant recipients expending $750,000 or more in federal awards be required to submit an annual single audit detailing award expenditures.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="2 C . F . R . Part 200, et al.">13</a></sup> The Federal Audit Clearinghouse (FAC) serves as a public database of all audits conducted and submitted and is maintained by OMB. Within the FAC, audits detailing award and expense information are searchable by organization or institution, geographic location, or CFDA program number. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145974"></a><a name="_Toc428791107"></a><a name="_Toc428889964"></a><a name="_Toc429054662"></a><a name="_Toc429560754"></a><a name="_Toc442953916"></a><a name="_Toc442956868"></a><a name="_Toc442957404"></a><a name="_Toc442957720"></a><a name="_Toc442958657"></a><a name="_Toc442958711"></a><a name="_Toc442970635"></a><a name="_Toc532292292"></a>What grant data are accessible by the public?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown in <strong><a class="InternalLink" href="#_Ref442970558"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong>, several databases contain federal grant information. However, grant data contained within cash management systems, grant management systems, FAADS-PLUS, and FSRS are not accessible or searchable by the general public. The federal government has created several data systems and websites to access the systems that are accessible and searchable by the public. These include the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Catalog of Federal Domestic Assistance (<a class="ExternalLink" href="http://www.cfda.gov"><span class="Hyperlink">http://www.cfda.gov</span></a>);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">USAspending.gov (<a class="ExternalLink" href="http://www.usaspending.gov"><span class="Hyperlink">http://www.usaspending.gov</span></a>);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Dun and Bradstreet (<a class="ExternalLink" href="http://fedgov.dnb.com/webform"><span class="Hyperlink">http://fedgov.dnb.com/webform</span></a>);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">System for Award Management (<a class="ExternalLink" href="http://www.sam.gov"><span class="Hyperlink">http://www.sam.gov</span></a>); and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal Audit Clearinghouse (<a class="ExternalLink" href="https://harvester.census.gov/fac/"><span class="Hyperlink">https://harvester.census.gov/fac/</span></a><span class="Hyperlink"></span>).</li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427145975"></a><a name="_Toc428791108"></a><a name="_Toc428889965"></a><a name="_Toc429054663"></a><a name="_Toc429560755"></a><a name="_Toc442953917"></a><a name="_Toc442956869"></a><a name="_Toc442957405"></a><a name="_Toc442957721"></a><a name="_Toc442958658"></a><a name="_Toc442958712"></a><a name="_Toc442970636"></a><a name="_Toc532292293"></a>Are there options for opting out of providing federal grant recipient information?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the above reporting requirements for federal grant applicants, two databases allow opting out of providing publically searchable information: the Dun and Bradstreet (D&amp;B) DUNS number database and SAM. To avoid having a public DUNS number, applicants must first obtain a DUNS number, and then discuss their individual privacy concerns with the D&amp;B government support desk. D&amp;B can withhold the DUNS number from their public database. However, the applicant's DUNS number remains visible to any institution with a DUNS Business Locator subscription, as well as within the required SAM grant application record, unless the opt-out process for SAM is also completed.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Grant applicants can opt out of the requirement that information collected during the SAM registration be visible to the public, though the information may still be viewable by certain users:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Entities that have opted out will be removed only from the SAM public search, but will still be visible to users with For Official Use Only data access and will be provided in accordance with Freedom of Information Act (FOIA) requests. Please note that your banking information is treated as sensitive data and will not be displayed to the public regardless of your selection.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="General Services Administration, System for Award Management: User Guide , vol. 2.9.2, Ja nuary 16, 2015, p. 79.">14</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Casey Burgat, a visiting scholar with CRS, provided substantive contributions and valuable support in the development of this report.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Morton Grodzins, <em>The American System</em> (Chicago: Rand McNally, 1966), pp. 34-37.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Catalog of Federal Domestic Assistance, February 11, 2016, at <a class="ExternalLink" href="http://www.cfda.gov"><span class="Hyperlink">http://www.cfda.gov</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information on federal grant administration challenges, see CRS Report R42769, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42769"><em><span class="Hyperlink">Federal Grants-in-Aid Administration: A Primer</span></em></a>, by Natalie Keegan. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The grant recipient reporting requirements vary program to program based on statutory and regulatory provisions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, 2 CFR, Part 200 et al., <em>Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards</em>, contains guidance to federal agencies in establishing a number of grant reporting requirements. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the Single Audit Act of 1984 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d098:FLD002:@1(98+502)"><span class="Hyperlink">P.L. 98-502</span></a>), as amended by the Single Audit Act Amendments of 1996 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d104:FLD002:@1(104+156)"><span class="Hyperlink">P.L. 104-156</span></a>) and codified at 31 U.S.C. 7501-7507.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Dun and Bradstreet, <em>DUNS Number Guide</em>, p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Management and Budget, <em>OMB Issues Grants Management Policies</em>, M-03-16, July 15, 2003, p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> General Services Administration, <em>System for Award Management: User Guide</em>, vol. 2.9.2, January 16, 2015, p. 8.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report RL34012, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34012"><em><span class="Hyperlink">Resources for Grantseekers</span></em></a>, by Merete F. Gerli.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d095:FLD002:@1(95+220)"><span class="Hyperlink">P.L. 95-220</span></a>, amended <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d098:FLD002:@1(98+169)"><span class="Hyperlink">P.L. 98-169</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Management and Budget, <em>Open Government Directive–Federal Spending Transparency and Subaward and Compensation Data Reporting</em>, August 27, 2010.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 2 C.F.R. Part 200, et al.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> General Services Administration, <em>System for Award Management: User Guide</em>, vol. 2.9.2, January 16, 2015, p. 79.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

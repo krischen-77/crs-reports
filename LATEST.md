@@ -1,5 +1,3 @@
-**Official-current verification: 69/69. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-10-31 to 2026-11-07**. Older archived files are retained.
@@ -70,8 +68,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-07 | 2026-07-21 | IF10155 v19 | Somalia | [PDF](pdf/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.pdf) | [Markdown](markdown/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.md) |
 | 2026-11-06 | 2018-06-27 | R45241 v3 | The Rule XIX Call to Order for Disorderly Language in Senate Debate | [PDF](pdf/reports/R45241v3-2018-06-27-daca76abc59b0bc9.pdf) | [Markdown](markdown/reports/R45241v3-2018-06-27-daca76abc59b0bc9.md) |
-| 2026-11-06 | 2026-07-21 | IF10155 v19 | Somalia | [PDF](pdf/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.pdf) | [Markdown](markdown/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.md) |
 | 2026-11-05 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |
 | 2026-11-05 | 2026-06-12 | IF13171 v3 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.pdf) | [Markdown](markdown/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.md) |
 | 2026-11-04 | 2026-10-30 | R49499 v2 | The International Monetary Fund (IMF) | [PDF](pdf/reports/R49499v2-2026-10-30-39d7fdcb1d94c44e.pdf) | [Markdown](markdown/reports/R49499v2-2026-10-30-39d7fdcb1d94c44e.md) |
