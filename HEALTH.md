@@ -2,23 +2,23 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-07T01:58:38.211359+00:00
+Watchdog checked UTC: 2026-11-07T02:01:50.334571+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
 | Production stage | Last source/verification receipt (UTC) |
 |---|---|
-| crs-backup.yml | 2026-11-06T17:34:17.264370+00:00 |
+| crs-backup.yml | 2026-11-07T02:01:20.455162+00:00 |
 | official-reconcile.yml | 2026-11-06T17:41:06.650861+00:00 |
 | coverage-audit.yml | 2026-11-06T02:45:17.685859+00:00 |
 
 ## Findings
 
-coverage-audit.yml: latest run failure
+No valid independent byte-verification receipt
 
 ## Recovery
 
-Dispatched coverage-audit.yml; completion is NOT yet verified
+No recovery dispatch required.
 
 Hourly checks; overdue after 26 hours; retry at most once per stage per six hours and four times total per 24 hours.
 A GitHub-wide outage can also stop this watchdog. External monitoring is a separate safety net.
