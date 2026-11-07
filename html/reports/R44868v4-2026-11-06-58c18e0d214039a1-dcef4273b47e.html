@@ -1,0 +1,998 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Short-Term, Small-Dollar Lending: Policy Issues and Implications</div>
+<div class="CoverDate">Updated November 6, 2026
+            (R44868)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc244872392"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc244872393"><span class="Hyperlink">Overview of Various SDL Products</span></a></li>
+<li class="TOC1"><a href="#_Toc244872394"><span class="Hyperlink">SDL Prices and Pricing Issues</span></a></li>
+<li class="TOC2"><a href="#_Toc244872395"><span class="Hyperlink">Understanding the Annual Percentage Rate (APR) Calculation</span></a></li>
+<li class="TOC2"><a href="#_Toc244872396"><span class="Hyperlink">Some Challenges Achieving SDL Market Pricing Efficiency</span></a></li>
+<li class="TOC3"><a href="#_Toc244872397"><span class="Hyperlink">Failure of Market Price Convergence</span></a></li>
+<li class="TOC3"><a href="#_Toc244872398"><span class="Hyperlink">Borrowers' Non-Price Considerations</span></a></li>
+<li class="TOC1"><a href="#_Toc244872399"><span class="Hyperlink">SDL Regulatory Issues: Current Approaches and Challenges Absent Market Price Convergence</span></a></li>
+<li class="TOC2"><a href="#_Toc244872400"><span class="Hyperlink">Regulatory Approaches for Consumer Protections</span></a></li>
+<li class="TOC2"><a href="#_Toc244872401"><span class="Hyperlink">Regulatory Challenges Absent Market Price Convergence</span></a></li>
+<li class="TOC3"><a href="#_Toc244872402"><span class="Hyperlink">The CFPB's Payday, Vehicle Title, and Certain High-Cost Installment Loans Rule: Evolution from 2017 to 2025</span></a></li>
+<li class="TOC3"><a href="#_Toc244872403"><span class="Hyperlink">Permissible Activities of Depositories</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc244872390"><span class="Hyperlink">Table 1. Summary of Short-Term, Small-Dollar Lending Products</span></a></li>
+<li><a href="#_Toc244872391"><span class="Hyperlink">Table 2. Loan Cost Comparisons</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Short-term, small-dollar loans (SDLs) are consumer loans with relatively low initial principal amounts (often less than $1,000) and relatively short repayment periods (typically ranging from two weeks to six months). Consumers frequently use SDL products to cover cash flow shortages that may occur because of unexpected expenses or periods of insufficient income. SDLs can be offered in various forms and by various types of lenders. Depositories (i.e., banks and credit unions) can make SDLs through financial products such as credit cards, credit card cash advances, and checking account overdraft protection programs. SDLs can also be provided by nonbank lenders, also referred to as alternative financial service (AFS) providers, which include payday or automobile-title lenders. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Whether borrower financial situations would be made worse from the use of expensive credit or from limited credit access is widely debated. Consumer groups often raise concerns regarding the affordability of SDLs. The rates and fees borrowers pay for SDLs are considered expensive. Borrowers may also fall into <em>debt traps</em>, situations where borrowers repeatedly roll over existing loans into new loans and subsequently incur more charges rather than completely pay off the loans. Although debt traps are more frequently discussed in the context of nonbank products such as payday loans, borrowers may still find it difficult to repay outstanding balances and face additional charges on loans, such as credit cards, that are provided by depositories. Conversely, the lending industry raises concerns about the reduced availability of SDLs. Regulations designed to reduce borrowers' costs may result in higher costs for lenders, possibly limiting or reducing the availability of SDLs. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SDLs are considered an expensive form of borrowing because they often carry triple-digit annual percentage rates (APRs). However, the standard APR calculation arguably overstates the actual cost of loans if their repayment terms are less than a full year. For borrowers seeking less expensive lending alternatives, performing reliable cost comparisons is difficult because SDLs lack standardized features. Regulatory barriers also limit the ability of banks and credit unions to compete directly with AFS providers in the SDL market, which could drive down costs. For these reasons, evaluating the relative costs of SDLs is problematic for borrowers.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Similarly, the non-standardization of SDLs and related market pricing issues are also problematic for policymakers. For example, the Consumer Financial Protection Bureau (CFPB) implemented federal regulations in 2017 for payday, vehicle title, and certain high-cost loans—an affordability framework designed to protect borrowers by establishing baseline requirements to serve as a floor for state regulations. However, the CFPB rescinded two provisions in 2020 that would have required SDL lenders to underwrite borrowers for affordability. Had these requirements proven too costly for lenders, any resulting market contraction could have driven SDL borrowing costs even higher. As of the publication of this report, the CFPB has not introduced an alternative regulatory framework to replace the rescinded provisions. Meanwhile, on February 5, 2026, the Predatory Lending Elimination Act (<a class="ExternalLink" href="https://www.congress.gov/bill/119/s/3793"><span class="Hyperlink">S. 3793</span></a>) was introduced in the 119<sup>th</sup> Congress to establish a 36% APR limit on SDLs. If <a class="ExternalLink" href="https://www.congress.gov/bill/119/s/3793"><span class="Hyperlink">S. 3793</span></a> is enacted while current market pricing issues persist, the CFPB's retrospective findings suggest that an SDL market contraction may occur.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Short-term, small-dollar loans (SDLs) for consumers are typically for low initial principal amounts (often less than $1,000) and designed to be repaid within short periods typically ranging from two weeks to six months.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='An official definition for SDLs does not exist, meaning that different thresholds are adopted by various types of lending programs and researchers. For example, certain programs define eligible loan amounts as up to $2,500. See U.S. Department of the Treasury, Community Development Financial Institutions Fund, "Small Dollar Loan Program," https://www.cdfifund.gov/programs-training/programs/sdlp . Other definitions may utilize a tiered structure, classifying small-dollar and near-smal...'>1</a></sup> SDLs may be used to cover cash flow shortages that occur because of unexpected expenses or periods of income shortfalls, particularly for individuals lacking adequate emergency savings or those with impaired credit.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="For more information regarding impaired credit issues, see CRS Report R44125, Consumer and Credit Reporting, Scoring, and Related Policy Issues , by Darryl E. Getter .">2</a></sup> SDLs can be offered in various forms and by various types of lenders. Federally insured <em>depository institutions</em> (i.e., banks and credit unions) offer SDLs via financial products such as credit cards, credit card cash advances, and checking account overdraft protection programs. <em>Nonbank lenders</em>—including <em>alternative financial service (AFS) providers</em> and <em>financial technology (fintech) firms</em>—offer SDLs such as payday loans, personal debt consolidation loans, and automobile-title loans.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="A nonbank can be defined as a firm offering financial products and services that does not have a bank, thrift, or credit union charter.">3</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The borrowing costs associated with SDLs appear substantially higher when compared to longer-term, larger-dollar loans. However, some borrowers may not fully understand the annual percentage rate (APR)—the price of SDLs and most longer-term consumer loans—especially when the loan maturities are under 12 months. Furthermore, the lack of uniform loan features makes APR price comparisons difficult across different SDL products, which is a key problem for both borrowers and regulators. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If borrowers do not fully understand or cannot do direct SDL cost comparisons, then they risk falling into <em>debt traps</em>. Debt traps occur when borrowers reborrow (i.e., roll over existing loans into new loans), incurring additional charges but making little progress toward paying off their initial loans.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="See Christelle Bamona and Candice Wang, The Cost of Payday Loan Apps in Your State: Methodology , Center for Responsible Lending, Julian Bond Institute, September 2026, https://www.responsiblelending.org/sites/default/files/uploads/files/crl-jbi-cost-of-pla-methodology-sep2026.pdf ; Jim Campen, Small-Dollar Lending: Is There a Responsible Path Forward ? , Center for Economic and Policy Research, August 2012, https://cepr.net/documents/publications/small-dollar-lending-2012-08.pdf...">4</a></sup> Repeated borrowing of similar loan amounts while steadily accumulating fees causes rising indebtedness, entrapping individuals into worse financial situations. Although debt traps are frequently linked to nonbank products such as payday loans, they may arise for borrowers who make only minimum payments (rather than pay off the entire balances at the end of statement periods) on credit card loans issued by depositories. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If regulators cannot do direct SDL cost comparisons, then inferring lenders' profit margins is problematic. In other words, regulators face challenges estimating the average size of loan markups when industry SDLs lack standardized terms, features, and consistent lender reporting requirements. Consequently, designing consumer protection policies in the absence of uniform pricing data risks subjecting SDL lenders to considerable compliance costs and or ineffective policy responses. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Below are examples of measures taken by lawmakers and regulators to address the costs of SDLs. </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress passed the Credit Card Accountability Responsibility and Disclosure Act of 2009 (CARD Act; <a class="ExternalLink" href="https://www.congress.gov/law/111/pub/24"><span class="Hyperlink">P.L. 111-24</span></a>) to discourage pricing practices that could result in hidden credit card rates and penalty fees. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress passed the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 (Dodd-Frank Act; <a class="ExternalLink" href="https://www.congress.gov/law/111/pub/203"><span class="Hyperlink">P.L. 111-203</span></a>), creating the Consumer Financial Protection Bureau (CFPB) and endowing it with authorities over bank and nonbank firms that offer consumer financial products, including SDL lenders.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="See CRS In Focus IF10031, Introduction to Financial Services: The Consumer Financial Protection Bureau (CFPB) , by Karl E. Schneider and David H. Carpenter .">5</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2013, prudential bank regulators issued warnings to banks regarding deposit advances with similarities to payday loans. Consequently, banks withdrew these and similar product types unless they obtained explicit exemptions.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CFPB finalized a rule in 2017 to serve as a regulatory floor for state SDL requirements. The rule initially required lenders to either underwrite SDLs to ensure borrower affordability or provide loans with certain features—but the CFPB rescinded this requirement and subsequently reissued a final rule in 2020. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On February 5, 2026, the Predatory Lending Elimination Act (<a class="ExternalLink" href="https://www.congress.gov/bill/119/s/3793"><span class="Hyperlink">S. 3793</span></a>) was introduced in the 119<sup>th</sup> Congress to extend the protections of the Military Lending Act of 2006 (MLA; <a class="ExternalLink" href="https://www.congress.gov/law/109/pub/364"><span class="Hyperlink">P.L. 109-364</span></a>) to all consumers. Specifically, <a class="ExternalLink" href="https://www.congress.gov/bill/119/s/3793"><span class="Hyperlink">S. 3793</span></a> would amend the Truth in Lending Act (TILA; P.L. 90-321) to establish a 36% APR limit on SDLs. <a class="ExternalLink" href="https://www.congress.gov/bill/119/s/3793"><span class="Hyperlink">S. 3793</span></a> would not apply to consumer credit products such as residential mortgages, automobile loans, or loans by federal credit unions.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many states have laws governing SDLs that vary in permissibility. For example, some states may have conditional access to SDLs, while others may ban certain types altogether.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='See National Conference of State Legislatures, " Payday Lending State Statutes ," February 28, 2023, https://www.ncsl.org/financial-services/payday-lending-state-statutes ; and Conference of State Bank Supervisors, " 50-State Survey of Consumer Finance Laws ," February 25, 2026, https://www.csbs.org/50-state-survey-consumer-finance-laws .'>6</a></sup> Differences in state laws may influence loan product offerings, thereby contributing to the lack of product uniformity across SDL markets. </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report analyzes SDL market pricing issues.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="For more information on consumer credit products, see CRS Report R48747, An Overview of Consumer Finance Products and Related Policy Issues , by Karl E. Schneider .">7</a></sup> Following an overview of various loan product descriptions, the SDL pricing mechanics and related challenges are presented. Specifically, the general calculation and interpretation of the APR is illustrated. Next, the report highlights how the lack of SDL product uniformity complicates cost comparisons, thereby compromising the effectiveness of the APR as a disclosure tool. After reviewing various regulatory approaches to borrower protections, the report outlines the CFPB's initial affordability framework and subsequent modifications. The CFPB's retrospective findings may be useful for anticipating the implications of <a class="ExternalLink" href="https://www.congress.gov/bill/119/s/3793"><span class="Hyperlink">S. 3793</span></a> if enacted while current SDL market pricing issues persist. The report concludes by noting regulatory constraints that limit depositories' competitiveness with AFS lenders in certain markets, thus lessening the downward cost pressures on SDL market pricing.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc457476742"></a><a name="_Toc458170114"></a><a name="_Toc458443036"></a><a name="_Toc459109403"></a><a name="_Toc459988900"></a><a name="_Toc467600014"></a><a name="_Toc468264325"></a><a name="_Toc468861658"></a><a name="_Toc468888729"></a><a name="_Toc468981768"></a><a name="_Toc471313779"></a><a name="_Toc471314135"></a><a name="_Toc471315699"></a><a name="_Toc471316127"></a><a name="_Toc472441280"></a><a name="_Toc472959121"></a><a name="_Toc473034065"></a><a name="_Toc474060593"></a><a name="_Toc474060943"></a><a name="_Toc474836844"></a><a name="_Toc475113263"></a><a name="_Toc475273523"></a><a name="_Toc475273829"></a><a name="_Toc475456072"></a><a name="_Toc476325162"></a><a name="_Toc476326253"></a><a name="_Toc476902117"></a><a name="_Toc476920812"></a><a name="_Toc477183461"></a><a name="_Toc477512953"></a><a name="_Toc479254708"></a><a name="_Toc479501715"></a><a name="_Toc480751900"></a><a name="_Toc481675095"></a><a name="_Toc482866643"></a><a name="_Toc482960432"></a><a name="_Toc483483303"></a><a name="_Toc483483496"></a><a name="_Toc484082361"></a><a name="_Toc484099508"></a><a name="_Toc485218867"></a><a name="_Toc485281021"></a><a name="_Toc238541909"></a><a name="_Toc239337446"></a><a name="_Toc239339769"></a><a name="_Toc239340276"></a><a name="_Toc242434891"></a><a name="_Toc242870629"></a><a name="_Toc244758721"></a><a name="_Toc244776831"></a><a name="_Toc244777203"></a><a name="_Toc244855611"></a><a name="_Toc244871555"></a><a name="_Toc244872393"></a>Overview of Various SDL Products</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref484168251"><strong></strong><strong>Table 1</strong></a> lists and briefly describes various SDL products but is not exhaustive. Depository institutions typically provide products such as credit cards, overdraft protection, and installment loans. AFS providers typically provide SDLs such as payday loans, auto-title loans, and tax refund anticipation loans.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='See Federal Deposit Insurance Corporation (FDIC), "Alternative Financial Services: A Primer," FDIC Quarterly , vol. 3, no. 1 (2009), https://www.fdic.gov/bank/analytical/quarterly/2009-vol3-1/fdic140-quarterlyvol3no1-afs-final.pdf .'>8</a></sup> </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc474060937"></a><a name="_Toc474836838"></a><a name="_Toc475113257"></a><a name="_Toc475273517"></a><a name="_Toc475273823"></a><a name="_Toc475456066"></a><a name="_Toc476325156"></a><a name="_Toc476326247"></a><a name="_Toc476902111"></a><a name="_Toc476920806"></a><a name="_Toc477183455"></a><a name="_Toc477512947"></a><a name="_Toc479254702"></a><a name="_Toc479501709"></a><a name="_Toc480751894"></a><a name="_Toc481675089"></a><a name="_Toc482866639"></a><a name="_Toc482960428"></a><a name="_Toc483483299"></a><a name="_Toc483483492"></a><a name="_Toc484082357"></a><a name="_Ref484088310"></a><a name="_Ref484168251"></a><a name="_Ref485217937"></a><a name="_Ref244758752"></a><a name="_Toc484099504"></a><a name="_Toc485218863"></a><a name="_Toc485281017"></a><a name="_Toc238541907"></a><a name="_Toc239337444"></a><a name="_Toc239339766"></a><a name="_Toc239340273"></a><a name="_Toc242434888"></a><a name="_Toc242870626"></a><a name="_Toc244758718"></a><a name="_Toc244776828"></a><a name="_Toc244777200"></a><a name="_Toc244855608"></a><a name="_Toc244871552"></a><a name="_Toc244872390"></a>Table 1. Summary of Short-Term, Small-Dollar Lending Products</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:40.47335424pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Short-Term Lending Products</p>
+</td>
+<td style="width:151.16184575999998pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Description</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Offered by Depository Institutions</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Credit Card Loans<a class="InternalLink" href="#_Ref482969791"><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup></a></p>
+</td>
+<td style="width:151.16184575999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Credit cards are a form of revolving credit that allow a borrower the option to pay a loan in full at the end of a billing cycle or pay smaller amounts of the outstanding balance across subsequent billing cycles.<a class="InternalLink" href="#_Ref482969792"><sup></sup><sup><span class="TableTextFootnoteReference">b</span></sup></a> Cardholders who pay their statement balances in full incur zero interest expense, whereas revolving borrowers can minimize their financing costs by quickly repaying the principal. (When only partial payments are made, the remaining balance and additional interest roll over to the next billing cycle.) For this reason, credit cards may be considered short-term products or even medium- or longer-term loans depending on how long borrowers choose to carry outstanding balances. </p>
+<p class="TableText" style="">Specific types of credit cards include the following:</p><ul><li class="ListBulletTableText">Subprime credit cards, typically offered to borrowers with impaired credit, are known as <em>fee harvester</em> cards in industry terminology when their total fees constitute a large proportion of the credit limit. </li>
+<li class="ListBulletTableText">Some credit cards allow borrowers to get cash advances or write checks against the credit card issuer. The consumer generally starts paying interest on the cash advances as of the transaction date. The interest rate for a credit card usually differs from the one associated with the cash advances.</li></ul></td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Overdraft Protection Loans</p>
+</td>
+<td style="width:151.16184575999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Many banks offer <em>overdraft protection</em> to their customers. An overdraft occurs when a customer's checking account lacks enough funds to cover the total purchase amount made with a check or debit card—similar to having a credit card attached to the checking account.<a class="InternalLink" href="#_Ref485217938"><sup></sup><sup><span class="TableTextFootnoteReference">c</span></sup></a> An overdraft coverage limit would "effectively constitute the amount an institution is willing to advance to a consumer on future deposits in return for paying per-item overdraft fees.<sup>"</sup><sup><a class="InternalLink" href="#_Ref485217939"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">d</span></sup><sup></sup> The consumer is responsible for repaying the amount owed to a bank and any subsequent fees. Different banks offer different loan terms. For example, some charge fees for each overdraft incident; others may determine the charge on the basis of the overdrawn amount. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Payday Alternative Loans (PALs)</p>
+</td>
+<td style="width:151.16184575999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">PALs, like direct deposit advances, may be offered by credit unions in accordance with the regulations stipulated by their regulator. PAL amounts range from $200 to $1,000, they must have fully amortizing payments, the term length must range from 46 to 180 days, and the application fee cannot be more than $20.<a class="InternalLink" href="#_Ref485217940"><sup></sup><sup><span class="TableTextFootnoteReference">e</span></sup></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deposit Advance Accounts (Paycheck Advances)</p>
+</td>
+<td style="width:151.16184575999998pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deposit advances are short-term advances offered by some banks (and some financial technology firms) that allow customers to borrow up to a certain amount of money against their next direct deposit for a fee.<a class="InternalLink" href="#_Ref485217941"><sup></sup><sup><span class="TableTextFootnoteReference">f</span></sup></a><sup> </sup>Customers must be employed and must set up direct deposit with their checking accounts. The bank is automatically repaid by deducting the amount that it is owed from the next recurring deposit. This cash advance product allows depository institutions to serve the overdraft-market segment.</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>Offered by Alternative Financial Service (AFS) Providers</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Payday Loans</p>
+</td>
+<td style="width:151.16184575999998pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">A payday loan is a short-term storefront or online cash advance typically due within two weeks to coincide with a borrower's next paycheck. A borrower must maintain an active bank, credit union, or prepaid card account; provide proof or verification of income; show valid identification; and be at least 18 years old.<a class="InternalLink" href="#_Ref485217942"><sup></sup><sup><span class="TableTextFootnoteReference">g</span></sup></a> </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Buy Now, Pay Later (BNPL)</p>
+</td>
+<td style="width:151.16184575999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">A BNPL is a closed-end installment loan for retail purchases that, if consumers completely repay it in four or fewer installments, will incur zero interest.<a class="InternalLink" href="#_Ref485217945"><sup></sup><sup><span class="TableTextFootnoteReference">h</span></sup></a> If the loan is not repaid within four installments, various types of late fees and penalties apply. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Auto-Title Loans</p>
+</td>
+<td style="width:151.16184575999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Auto-title lenders require borrowers to pledge their car titles as collateral for loans. If borrowers do not repay their loans, lenders can repossess their cars.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Tax Refund Anticipation Loans</p>
+</td>
+<td style="width:151.16184575999998pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">A tax refund anticipation loan is a cash advance made to a borrower on the basis of the borrower's expected federal income tax refund. The cash advance is typically made with the interest and fees already deducted for the loan. The principal amount must be repaid to the lender (e.g., tax preparation businesses, check cashers, and businesses such as car dealers or furniture stores) even if the refund amount is lower than anticipated. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:40.47335424pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Pawnshop Loans</p>
+</td>
+<td style="width:151.16184575999998pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Pawnshop lenders require borrowers to leave behind items pledged as collateral in exchange for pawnshop loans. If borrowers do not return to repay their loans and interest as scheduled, the pawnshop may sell the items.<a class="InternalLink" href="#_Ref485217946"><sup></sup><sup><span class="TableTextFootnoteReference">i</span></sup></a></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> Congressional Research Service, drawn from definitions used by federal regulators, including the Consumer Financial Protection Bureau (CFPB).</p>
+<p class="TableNote"><strong>Notes: </strong><a name="_Ref309182551"></a>This table highlights widely recognized short-term, small-dollar loans (SDLs), but this list may not be exhaustive. </p>
+<p class="TableNumberedNote">a. <a name="_Ref482969791"></a>Credit cards technically are not SDLs given that some have limits exceeding $1,000, and a minimum payment is typically due when the billing statement arrives. Nevertheless, they have features comparable to SDLs. As <em>open-end</em> loans, credit cards allow borrowers to repeatedly reborrow up to preapproved limits, and paying off the entire balance is optional. By routinely making minimum payments such that reborrowing outpaces principal repayment, total interest and fees may accumulate quickly and add to rising debt burdens. </p>
+<p class="TableNumberedNote">b. <a name="_Ref482969792"></a>By comparison, a charge card requires the full balance to be paid at the end of each statement period. </p>
+<p class="TableNumberedNote">c. <a name="_Ref485217938"></a>CFPB, <em>CFPB Study of Overdraft Programs</em>, June 2013, p. 54, <a class="ExternalLink" href="http://files.consumerfinance.gov/f/201306_cfpb_whitepaper_overdraft-practices.pdf"><span class="Hyperlink">http://files.consumerfinance.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">f/</span><span class="Hyperlink"></span><span class="Hyperlink">201306_cfpb_whitepaper_overdraft-practices.pdf</span></a>. Different variations of overdraft protection also include linking a consumer's checking account to another account or to a credit card. </p>
+<p class="TableNumberedNote">d. <a name="_Ref485217939"></a>CFPB, <em>CFPB Study of Overdraft Programs</em>, June 2013, p. 14, <a class="ExternalLink" href="http://files.consumerfinance.gov/f/201306_cfpb_whitepaper_overdraft-practices.pdf"><span class="Hyperlink">http://files.consumerfinance.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">f/</span><span class="Hyperlink"></span><span class="Hyperlink">201306_cfpb_whitepaper_overdraft-practices.pdf</span></a>. </p>
+<p class="TableNumberedNote">e. <a name="_Ref485217940"></a>See National Credit Union Administration, "Payday Alternative Loan Rule Will Create More Alternatives for Borrowers," September 19, 2019, <a class="ExternalLink" href="https://ncua.gov/newsroom/press-release/2019/payday-alternative-loan-rule-will-create-more-alternatives-borrowers"><span class="Hyperlink">https://ncua.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">newsroom/</span><span class="Hyperlink"></span><span class="Hyperlink">press-release/</span><span class="Hyperlink"></span><span class="Hyperlink">2019/</span><span class="Hyperlink"></span><span class="Hyperlink">payday-alternative-loan-rule-will-create-more-alternatives-borrowers</span></a>. </p>
+<p class="TableNumberedNote">f. <a name="_Ref485217941"></a>For a definition of <em>deposit advance</em>, see CFPB, "Payday Loans Key Terms," December 28, 2022, <a class="ExternalLink" href="https://www.consumerfinance.gov/%E2%80%8Bconsumer-tools/%E2%80%8Bpayday-loans/%E2%80%8Banswers/%E2%80%8Bkey-terms/"><span class="Hyperlink">https://www.consumerfinance.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">consumer-tools/</span><span class="Hyperlink"></span><span class="Hyperlink">payday-loans/</span><span class="Hyperlink"></span><span class="Hyperlink">answers/</span><span class="Hyperlink"></span><span class="Hyperlink">key-terms/</span></a>. For an overview of deposit advances, see CFPB, <em>Payday Loans and Deposit Advance Products</em>, April 24, 2013, <a class="ExternalLink" href="http://files.consumerfinance.gov/f/201304_cfpb_payday-dap-whitepaper.pdf"><span class="Hyperlink">http://files.consumerfinance.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">f/</span><span class="Hyperlink"></span><span class="Hyperlink">201304_cfpb_payday-dap-whitepaper.pdf</span></a>. </p>
+<p class="TableNumberedNote">g. <a name="_Ref485217944"></a><a name="_Ref485217942"></a>CFBP, "What Do I Need to Qualify for a Payday Loan?," August 26, 2024, <a class="ExternalLink" href="https://www.consumerfinance.gov/%E2%80%8Bask-cfpb/%E2%80%8Bwhat-do-i-need-to-qualify-for-a-payday-loan-en-1593/"><span class="Hyperlink">https://www.consumerfinance.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">ask-cfpb/</span><span class="Hyperlink"></span><span class="Hyperlink">what-do-i-need-to-qualify-for-a-payday-loan-en-1593/</span></a>. </p>
+<p class="TableNumberedNote">h. <a name="_Ref485217945"></a>With exactly four installment payments, BNPLs are interest free and, therefore, are not structured as traditional loans that trigger mandatory disclosure requirements. For more information, see CRS Report R48858, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48858"><em><span class="Hyperlink">Buy Now, Pay Later: Policy Issues and Options for Congress</span></em></a>, by Karl E. Schneider and Paul Tierno. </p>
+<p class="TableNumberedNote">i. <a name="_Ref485217946"></a>For more on pawnshop lending, see Susan Payne Carter and Paige Marta Skiba, "Pawnshops, Behavioral Economics, and Self-Regulation," <em>Review of Banking &amp; Financial Law</em>, vol. 32, no. 1 (Fall 2012), pp. 193-220, <a class="ExternalLink" href="http://www.bu.edu/rbfl/files/2013/09/Pawnshops-Behavioral-Economics-and-Self-Regulation.pdf"><span class="Hyperlink">http://www.bu.edu/</span><span class="Hyperlink"></span><span class="Hyperlink">rbfl/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">2013/</span><span class="Hyperlink"></span><span class="Hyperlink">09/</span><span class="Hyperlink"></span><span class="Hyperlink">Pawnshops-Behavioral-Economics-and-Self-Regulation.pdf</span></a>. </p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc238541910"></a><a name="_Toc239337447"></a><a name="_Toc239339770"></a><a name="_Toc239340277"></a><a name="_Toc457476744"></a><a name="_Toc458170115"></a><a name="_Toc458443037"></a><a name="_Toc459109406"></a><a name="_Toc459988903"></a><a name="_Toc467600017"></a><a name="_Toc468264328"></a><a name="_Toc468861661"></a><a name="_Toc468888732"></a><a name="_Toc468981771"></a><a name="_Toc471313780"></a><a name="_Toc471314136"></a><a name="_Toc471315700"></a><a name="_Toc471316128"></a><a name="_Toc472441281"></a><a name="_Toc472959122"></a><a name="_Toc473034066"></a><a name="_Toc474060594"></a><a name="_Toc474060944"></a><a name="_Toc474836845"></a><a name="_Toc475113264"></a><a name="_Toc475273524"></a><a name="_Toc475273830"></a><a name="_Toc475456073"></a><a name="_Toc476325163"></a><a name="_Toc476326254"></a><a name="_Toc476902118"></a><a name="_Toc476920813"></a><a name="_Toc477183462"></a><a name="_Toc477512954"></a><a name="_Toc479254709"></a><a name="_Toc479501716"></a><a name="_Toc480751901"></a><a name="_Toc481675096"></a><a name="_Toc482866644"></a><a name="_Toc482960433"></a><a name="_Toc483483304"></a><a name="_Toc483483497"></a><a name="_Toc484082362"></a><a name="_Toc484099509"></a><a name="_Toc485218868"></a><a name="_Toc485281022"></a>Because reporting requirements are uneven among lender types and non-standardized, SDL aggregate data metrics vary in availability. This issue is compounded by differing maturity lengths across loan product types, which undermine direct product comparability. Consequently, these data inconsistencies and pricing inefficiencies lead to regulatory challenges, as detailed in the following section. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242434892"></a><a name="_Toc242870630"></a><a name="_Toc244758722"></a><a name="_Toc244776832"></a><a name="_Toc244777204"></a><a name="_Toc244855612"></a><a name="_Toc244871556"></a><a name="_Toc244872394"></a>SDL Prices and Pricing Issues </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SDLs are considered an expensive form of borrowing, particularly because of their triple-digit APRs.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title='See Center for Responsible Lending, " New CRL Map Shows Excessive Payday Lending Interest Rates Still Plague Over Half of U.S. States ," June 12, 2023, https://www.responsiblelending.org/media/new-crl-map-shows-excessive-payday-lending-interest-rates-still-plague-over-half-us-states .'>9</a></sup> Apart from credit cards, SDLs typically require full payment on maturity. Making partial or missing payments does little to reduce the original principal, while reborrowing adds more fees and interest charges that increase total indebtedness.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="B y contrast, medium- and longer-term fixed - rate loans frequently have amortization schedules that allow principal to be paid down, thus reducing interest costs on the outstanding balance.">10</a></sup> However, the APR metric arguably overstates a loan's cost when a repayment term of less than a full year is used in the denominator. Furthermore, reliable cost comparisons depend on evaluating a borrower's next-best borrowing alternative, but finding SDLs with similar features is difficult. For these reasons, the perception that SDLs are <em>overpriced</em> (e.g., costing more than alternative burdens, possibly resulting in a financial burden) may not be entirely accurate.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Loans with excessive or hidden costs may be considered predatory if they contribute to borrowers' financial distress . Predatory lending practices may be considered fraudulent, deceptive, and unfair, but no consensus definition of a predatory loan exists. For a description of predatory lending features or practices discouraged by a financial institution regulator, see FDIC, &quot; Predatory Lending: FDIC's Supervisory Policy on Predatory Lending ,&quot; Financial Institution Letters FIL-6-2007, Jan...">11</a></sup> </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Loan Pricing Fundamentals: Demand and Supply Factors</p>
+<p class="TableText" style="">The annual percentage rate (APR) is the total loan price, encompassing both interest and fees while also reflecting the demand and supply for credit. Credit demand captures what borrowers are willing to pay today instead of saving or deferring consumption until the future. The willingness to pay a premium for credit can be driven by a preference for immediate consumption or by sudden, unforeseen occurrences that necessitate urgent spending. </p>
+<p class="TableText" style="">The supply of credit reflects the costs lenders incur to acquire the funds subsequently used to offer SDLs. Different lender types, however, rely on different funding sources. Depositories (i.e., banks and credit unions) typically finance their loan portfolios with federally insured deposits that pay rates comparable to those charged for overnight interbank borrowing. In contrast, nonbanks obtain funding by borrowing from depository institutions or private equity investors. (Some payday lending firms are wholly owned by hedge funds or publicly traded and owned by shareholders.)<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="See Americans for Financial Reform, Private Equity Piles i nto Payday Lending and Other Subprime Consumer Lending , Private Equity Stakeholder Project, September 2017, https://pestakeholder.org/wp-content/uploads/2017/10/PE-Investment-in-Payday-Installment-Lending-AFR-PESP-092817-with-links.pdf ; and Girard Miller, &quot;Public Pensions: Double-Check Those 'Shadow Banker' Investments,&quot; Governing , August 8, 2023, https://www.governing.com/finance/public-pensions-double-check-those-shadow-...">12</a></sup> Consequently, nonbanks generally pay more relative to depositories to acquire the funds to make SDLs.</p>
+<p class="TableText" style="">Various financial risks are also priced into consumer loans. For example, loans secured by collateral—which lenders can seize to recover losses in case of default—carry lower rates relative to those secured without collateral. For this reason, unsecured SDLs are more expensive than longer-term loans that are typically secured by the purchase being financed. The cost of credit also reflects <em>risk-based pricing</em>, the practice of charging riskier borrowers higher rates to reflect their additional credit or default risk.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='S ee Raphael W. Bostic, "Trends in Equal Access to Credit Products," in The Impact of Public Policy on Consumer Credit , eds. Thomas Durkin and Michael Staten ( Kluwer Academic, 2002 ) , pp. 171-202; and Wendy M. Edelberg, "Risk- B ased Pricing of Interest Rates in Household Loan Markets," Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2003-62 , 2003 .'>13</a></sup> While risk-based pricing strategies may decrease loan rejections and expand credit access for higher-risk borrowers, risk premiums will increase their borrowing costs. </p>
+<p class="TableText" style="">Borrowers may also pay fees for expenses that are unrelated to their financial risks. For example, lenders incur costs during loan <em>underwriting</em>—the process of evaluating an applicant's financial risks (e.g., purchasing credit report data; examining past banking relationships; verifying identity, income, and employment).<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Loan repayment histories of bank and credit union borrowers are generally reported to credit reporting bureaus . The maintenance hist ories of checking accounts are generally reported to specialty bureau s such as ChexSystems, https://www.chexsystems.com/   . Alternative financial service ( AFS ) providers may use consumer data (e.g., management of checking accounts , payment of telecommunications bills ) to determine the likelihood of failure to repay small-dollar cash advanc...">14</a></sup> Other expenses may require further investigation to uncover.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="Borrowers may pay more for loans by not shopping for lower prices or from factors such as disparate treatment or discrimination , typically identified using statistical analyses similar to those used in depository-fair-lending exams .">15</a></sup></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc238541911"></a><a name="_Toc239337448"></a><a name="_Toc239339771"></a><a name="_Toc239340278"></a><a name="_Toc242434893"></a><a name="_Toc242870631"></a><a name="_Toc244758723"></a><a name="_Toc244776833"></a><a name="_Toc244777205"></a><a name="_Toc244855613"></a><a name="_Toc244871557"></a><a name="_Toc244872395"></a>Understanding the Annual Percentage Rate (APR) Calculation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The APR represents the total annual borrowing costs of a loan expressed as a percentage. The APR is calculated using both interest rates and origination fees.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="See 12 C.F.R. Part 226, Appendix J .">16</a></sup> The APR may be calculated using the following general formula:</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>APR</em><em>= </em><em>[(INTFEES)/(LNAMT)] * (365/DAYSOUT) * 100</em>, where</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">INTFEES=total interest and fees paid by the borrower;</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">LNAMT=loan amount or total borrowings; and</p>
+<p class="BodyText" style="padding-left:36pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">DAYSOUT= number of days that the loan is outstanding (term length).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The formula shows that the APR is <em>inversely</em> related to both the LNAMT and DAYSOUT. Assuming two loans have identical LNAMTs and INTFEES, a 30-day SDL will mathematically generate a higher APR than a loan with a longer maturity, such as a year or more. For this reason, how best to interpret the APR for loans with maturities <em>under</em> 365 days has been debated.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='See Robert DeYoung et al., " Reframing the Debate About Payday Lending ," Liberty Street Economics (blog), October 19, 2015, http://libertystreeteconomics.newyorkfed.org/2015/10/reframing-the-debate-about-payday-lending.html ; and Randy Mitchelson, "Why APR Can Be Misleading," Daily Dollar , October 1, 2009, http://dailydollarnewsletter.com/2009/10/01/why-apr-can-be-misleading/    .'>17</a></sup> An APR based on a term length of <em>one year</em> or greater accurately reflects the <em>annual</em> cost of credit. By contrast, an APR for a loan expected to be repaid in less than 365 days is arguably overstated. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">APR comparisons are most reliable for loans with identical maturities.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="See American Financial Services Association Education Foundation, Personal Loans 101: Understanding APR , http://afsaef.org/Portals/0/Resources/Understanding_APR1.pdf .">18</a></sup> For example, comparing two payday loans with identical two-week maturities is most meaningful, even though both carry triple-digit APRs. In contrast, comparing APRs of loans with different maturities (e.g., a loan that matures in two weeks versus one maturing in 365 days) can be misleading. Although the APR of the longer-term loan will mathematically be lower, the interest and fees paid by borrowers can be higher for larger loan amounts or longer maturity lengths. Stated differently, loans with triple-digit APRs may not necessarily be more expensive than those with double-digit APRs, particularly when loans with different amounts and maturity lengths are compared.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref239339706"><strong></strong><strong>Table 2</strong></a> compares the estimated borrowing costs for different SDLs and installment loans. Suppose borrowers are charged $15 on every $100 borrowed, or $150 on Payday 1 for a $1,000 loan and $75 on Payday 2 for a $500 loan; both loans would have an APR of 391%. Payday 3 is set to 36% to illustrate the impact of implementing a price cap. In this case, the borrower pays $13.80 in interest and fees for a $1,000 loan. For the four lending scenarios, the borrowers' charges must cover the lenders' costs to acquire the funds, which are then lent for a profit. Stated differently, unless the total costs to issue Payday 2 are far enough below $13.80 to ensure a profit, the lender is likely to pivot to an alternative profitable lending opportunity, such as a more costly installment loan. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref239339706"></a><a name="_Toc239339767"></a><a name="_Toc239340274"></a><a name="_Toc242434889"></a><a name="_Toc242870627"></a><a name="_Toc244758719"></a><a name="_Toc244776829"></a><a name="_Toc244777201"></a><a name="_Toc244855609"></a><a name="_Toc244871553"></a><a name="_Toc244872391"></a>Table 2. Loan Cost Comparisons</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:38.40369408pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Loan Type</p>
+</td>
+<td style="width:38.365367039999995pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Loan Amount (LNAMT)</p>
+</td>
+<td style="width:38.28871296pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Days Outstanding (DAYSOUT)</p>
+</td>
+<td style="width:38.28871296pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Annual Percentage Rate (APR)</p>
+</td>
+<td style="width:38.28871296pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Interest and Fees (INTFEES)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Payday 1</p>
+</td>
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$1,000.00</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">14</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">391%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$150.00</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Payday 2</p>
+</td>
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$500.00</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">14</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">391%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$75.00</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Payday 3</p>
+</td>
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$1,000.00</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">14</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">36%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$13.80</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.40369408pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Installment</p>
+</td>
+<td style="width:38.365367039999995pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$1,000.00</p>
+</td>
+<td style="width:38.28871296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">365</p>
+</td>
+<td style="width:38.28871296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">36%</p>
+</td>
+<td style="width:38.28871296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">$360.00</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>CRS calculations.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Choosing between a payday and an installment loan involves a trade-off between total loan costs (assuming no rollovers) and affordability (time to repay), as illustrated in <a class="InternalLink" href="#_Ref239339706"><strong></strong><strong>Table 2</strong></a>. If the borrower obtains an installment loan with the APR set at 36% for an entire year, the total cost for a $1,000 loan is $360. Assuming no rollovers, Payday 1—despite having a higher APR—incurs a lower total borrowing cost relative to the installment loan. The installment loan, however, gives the borrower more time to repay the higher costs, which arguably may be more affordable. In other words, while a lower APR makes a loan easier to repay, the trade-off is that a borrower pays more cumulative (total) interest. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If unable to qualify for installment loans offered by depositories, some borrowers must rely on sequences of payday loans as an alternative. <a class="InternalLink" href="#_Ref239339706"><strong></strong><strong>Table 2</strong></a> provides an example of a payday loan for $500 with $75 in total costs for comparison to the $1,000 installment loan. If a borrower obtains Payday 2 and rolls it over five times, its total cost of $375 approximates the total cost of the installment loan.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="Although INTFEES is h eld constant to illustrate the relationship among other variables, the INTFEES variable calculated for larger loans using larger principal balances and longer time periods would be expected to increase. T h us, total costs of a longer-term loan could still be equal to or greater than the total costs associated with SDL s , even after factoring in multiple rollovers.">19</a></sup> In this scenario, a borrower pays similar costs to borrow half the amount, making Payday 2 the more expensive alternative. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc477512960"></a><a name="_Toc479254715"></a><a name="_Toc479501722"></a><a name="_Toc480751907"></a><a name="_Toc481675102"></a><a name="_Toc482866650"></a><a name="_Toc482960439"></a><a name="_Toc483483309"></a><a name="_Toc483483502"></a><a name="_Toc484082367"></a><a name="_Toc484099514"></a><a name="_Toc485218873"></a><a name="_Toc485281027"></a><a name="_Toc238541912"></a><a name="_Toc239337449"></a><a name="_Toc239339772"></a><a name="_Toc239340279"></a><a name="_Toc242434894"></a><a name="_Toc242870632"></a><a name="_Toc244758724"></a><a name="_Toc244776834"></a><a name="_Toc244777206"></a><a name="_Toc244855614"></a><a name="_Toc244871558"></a><a name="_Toc244872396"></a>Some Challenges Achieving SDL Market Pricing Efficiency</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although standard economic theory assumes that competition among buyers and sellers should drive market prices toward a product's true value (i.e., cost), this may not occur in SDL markets. Cost comparisons across SDL markets are more complex, and the price may not even be the primary consideration for borrowers who acquire SDLs. These issues complicate the ability to evaluate the level of market competitiveness, all of which are outlined in this section.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242434895"></a><a name="_Toc242870633"></a><a name="_Toc244758725"></a><a name="_Toc244776835"></a><a name="_Toc244777207"></a><a name="_Toc244855615"></a><a name="_Toc244871559"></a><a name="_Toc244872397"></a>Failure of Market Price Convergence</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A market is competitive when suppliers are likely to lose market share by pricing their products too aggressively, meaning that they lack the ability to set prices higher than their competitors. Stated differently, an economic principle—the <em>law of one price (LOOP)</em>—asserts that competition will cause the prices of identical products to converge.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title='See Owen A. Lamont and Richard H. Thaler, "The Law of One Price in Financial Markets," Journal of Economic Perspectives , vol. 17, no. 4 (Fall 2003), pp. 191-202.'>20</a></sup> When the LOOP holds, SDL pricing is likely to be <em>efficient</em>, meaning that competition has driven prices down to more closely reflect lenders' supply costs (rather than excessive markups) even if the products remain expensive.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="Similarly, l uxury goods (e.g., cars, fashion, travel, entertainment) may be unaffordable for some consumers, yet luxury good providers may still be forced to price their products competitively to maintain the business of consumers who still aggressively shop for the best price s .">21</a></sup> </p>
+<p class="" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Ideally, SDL comparisons by prospective borrowers or regulators would consist of either two identical loans (e.g., two payday loans) or an SDL product and a close alternative (e.g., a bank overdraft product and a payday loan). However, making ideal comparisons is not always possible. Small differences in products can still increase the difficulty of comparing costs. For example, when setting their own overdraft pricing policies, some banks may charge a fixed fee for each overdraft regardless of the amount borrowed, whereas others have a tiered pricing structure as the amount of the loan increases.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='CFPB, Data Point: Checking Account Overdraft , July 2014, p. 11, http://files.consumerfinance.gov/f/201407_cfpb_report_data-point_overdrafts.pdf ; and CFPB, " Trends in Overdraft/Non-Sufficient Fund (NSF) Fee Revenue and Practices , " May 24, 2023, https://www.consumerfinance.gov/data-research/research-reports/trends-in-overdraftnon-sufficient-fund-nsf-fee-revenue-and-practices/  .'>22</a></sup> Some banks require repayment sooner than the two-week period typically associated with a payday loan; other banks may allow slightly longer repayment periods, such as 30 days. Thus, without uniformity among products, APR comparisons are difficult among similar depositories and especially across depositories and nonbank lenders.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title='A less - expensive product sometimes may depend on whether the loan amount is above or below a certain dollar threshold. See "Overdraft Fees vs Payday Loans : Which Costs Less? ," Payday Loans Reviews , http://paydayloansreviews.org/overdraft-fees-vs-payday-loans ; and Kim Porter and Jessica Merritt, "How to Get a Cash Advance f rom Your Credit Card in 2026," U.S. News &amp; World Report , August 28, 2026, https://money.usnews.com/credit-cards/articles/how-to-get-a-cash-advance-...'>23</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Furthermore, variations in pricing policies create data collection challenges that obscure whether SDL markets can converge as predicted by the LOOP to achieve efficient pricing. Not all lenders must report data on their SDLs, and differing pricing policies cause reported metrics to lack standardized definitions. For example, interest rates and fees can be reported separately or combined into a single metric. Maturity lengths differ among SDL products, raising comparability questions. Because of their unique repayment terms, <em>buy now, pay later</em> plans technically have 0% APRs.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="S ee CRS Report R48858, Buy Now, Pay Later: Policy Issues and Options for Congress , by Karl E. Schneider and Paul Tierno .">24</a></sup> Moreover, data regarding borrowers' financial literacy and shopping for better credit pricing is limited.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title='Darryl E. Getter, "Consumer Credit Risk and Pricing," Journal of Consumer Affairs , vol. 40, no. 1 (Summer 2006), pp. 41-63.'>25</a></sup> Evidence on SDL market competitiveness, therefore, is fragmented, and the APR may not be the primary factor borrowers consider when choosing these loans. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc238541914"></a><a name="_Toc239337451"></a><a name="_Toc239339774"></a><a name="_Toc239340281"></a><a name="_Toc242434896"></a><a name="_Toc242870634"></a><a name="_Toc244758726"></a><a name="_Toc244776836"></a><a name="_Toc244777208"></a><a name="_Toc244855616"></a><a name="_Toc244871560"></a><a name="_Toc244872398"></a>Borrowers' Non-Price Considerations</p>
+<p class="" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Instead of making loan comparisons based solely on product prices, borrowers have strong preferences for certain product features, placing value on the conveniences associated with certain SDL products. Under such circumstances, prices may reflect more specialized market segmentations. The situations below illustrate when borrowers may place greater weight on nonprice factors relative to the total loan price. </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some borrowers may not find the APR to be a useful disclosure—either because the product terms are not uniform or because the interpretation of the metric is not understood. Notably, some SDL users report that the flat-fee pricing structure of AFS providers is easier to understand in comparison to banks' fee structure disclosures.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='See Lisa Servon, "Are Banks Too Expensive to Use?," New York Times , October 29, 2014, http://www.nytimes.com/2014/10/30/opinion/are-banks-too-expensive-to-use.html ; and Paola Boel and Peter Zimmerman, " Unbanked in America: A Review of the Literature , " Federal Reserve Bank of Cleveland Economic Commentary 2022-07, May 26, 2022, https://www.clevelandfed.org/publications/economic-commentary/2022/ec-202207-unbanked-in-america-a-review-of-the-literature .'>26</a></sup> Furthermore, some borrowers facing cash flow shortages may value the actual dollar cost of credit rather than the APR. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Borrowers may consider factors related to product delivery, such as the convenience of locations, business hours, or the length of the application process.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="For example, a pproximately 43% of surveyed underbanked individuals—defined as those who hold a bank account but also utilize AFSs for certain products —reportedly use AFS loans because they are easier to qualify for than traditional bank loans . See Melissa Koide and Rachel Schneider, Moving Forward: How Should We Serve the Short-Term Credit Needs of Low-Income Consumers? , Harvard University Joint Center for Housing Studies, August 2, 2010, p. 10, https://www.jchs.harvard.edu/research-ar...">27</a></sup> Consequently, these borrowers may be willing to pay higher fees for the speed and accessibility of AFS products.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title='See Federal Reserve Bank of Boston, " Alternative Financial Services Survey Findings ," June 2023, https://www.bostonfed.org/payments-innovation/inclusive-payments-resource-center/alternative-financial-services-survey.aspx ; and Victor Stango, "Some New Evidence on Competition in Payday Lending Markets," Contemporary Economic Policy , vol. 30, no. 2 (April 2012), pp. 149-161.'>28</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Rather than compare APRs, some borrowers choose loan products based on their perceptions of how best to access credit. For example, some borrowers may use credit cards for routine payments and payday loans mostly for emergencies. Others may use credit cards sparingly to preserve credit access during emergencies.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="See Joe Pye, &quot; Can ' t Afford the Basics? Many Americans Are Charging Them , &quot; Debt.com , October 26, 2026, https://www.debt.com/news/can-t-afford-the-basics-many-americans-are-charging-them/  ; and Pew Charitable Trusts, What Resources Do Families Have for Financial Emergencies? , November 2015, https://www.pew.org/-/media/assets/2015/11/emergencysavingsreportnov2015.pdf .">29</a></sup> Utilizing depositories' loan products can increase borrowers' <em>credit utilization ratios</em> (the amount of outstanding debt relative to a credit limit), which can adversely affect their credit scores and credit access in case of future emergencies.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='A credit score is a number—typically between 300 and 850—that estimates the likelihood of a borrower repaying a loan and making timely payments. A credit score 650 or higher is generally considered good, and the average consumer had a credit score slightly above 700 in 2025. (See Louis DeNicola and Peggy Bennett , " What Is a Good Credit Score?, " Experian, https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-is-a-good-credit-score/  .) Whether a n SDL...'>30</a></sup> Conversely, use of AFS products may not appear on credit reports.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Pricing, therefore, may not be the sole consideration for SDL borrowers. When choosing between bank and AFS products, borrowers frequently prioritize speed and delivery convenience, giving AFS providers a competitive advantage. Consequently, evaluating whether SDLs are overpriced is challenging. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:431pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Evidence of Competitive and Noncompetitive Pricing in Payday Markets</p>
+<p class="TableText" style="">Pricing efficiency may be evaluated by examining the extent of market competitiveness. Some research has found evidence of market competitiveness in the payday lending industry, meaning that pricing structures appear commensurate with operating costs.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='See Mark Flannery and Katherine Samolyk, Payday Lending: Do the Costs Justify the Price? , FDIC Center for Financial Research Working Paper 2005-09, June 2005; and Aaron Huckstep, "Payday Lending: Do Outrageous Prices Necessarily Mean Outrageous Profits?," Fordham Journal of Corporate &amp; Financial Law , vol. 12, no. 1 (2007), pp. 202-231.'>31</a></sup> For alternative financial service (AFS) lenders, profitability was found to depend highly on volume and loan loss rates.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="The CFPB found that 90 % of annual loan fees were generated by consumers who borrowed money seven or more times , thus concluding that the payday business model depends on a large volume of reborrowing. Although Flannery and Samolyk also f ou nd that loan rollovers account ed for a large share of payday lender profits, the ir interpretation differed from that of the CFPB. Flannery and Samolyk concluded that industry profitability depends on maximizing loan volume per s tore ,...">32</a></sup> Although rollovers expand a lender's loan volume, they increase the risk of an elevated loan loss rate—a primary expense for this industry (alongside wage and occupancy costs such as rent).<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="Payday lenders' profitability was diminished given their double-digit loan loss rates, which contrasted significantly with bank loss rates below 2% on outstanding loans over the same period. See Mark Flannery and Katherine Samolyk, Payday Lending: Do the Costs Justify the Price? , FDIC Center for Financial Research Working Paper 2005-09, June 2005 . The authors' data were collected in 2002-2004. For bank loss rates, see Board of Governors of the Federal Reserve System, &quot;Charge-Off and Deli...">33</a></sup> Additional research found that the risk-adjusted returns at publicly traded payday firms were comparable to those of other financial firms.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='See Robert DeYoung et al., " Reframing the Debate About Payday Lending ," Liberty Street Economics (blog), October 19, 2015, http://libertystreeteconomics.newyorkfed.org/2015/10/reframing-the-debate-about-payday-lending.html .'>34</a></sup> Thus, research has yet to confirm whether payday firms' pricing practices generate revenues significantly in excess of costs.</p>
+<p class="TableText" style="">Alternatively, the evidence of <em>price collusion</em>, referring to either explicit or implicit collaboration by industry firms to charge similar prices, is consistent with noncompetitive pricing practices. Price caps, such as state usury ceilings, may facilitate implicit price collusion by incentivizing lenders to charge the maximum legal rate even when their costs are lower. This behavioral response, predicted by economic theory, conceals evidence of unlawful price fixing.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title='See Cristopher R. Knittel and Victor Stango, "Price Ceilings as Focal Points for Tacit Collusion: Evidence from Credit Cards," American Economic Review , vol. 93, no. 5 (December 2003), pp. 1703-1729.'>35</a></sup> Research has found that many payday lenders charge the maximum usury rates allowed in their states, but whether their cost structures would permit lower rates was not confirmed.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title='See Robert DeYoung and Ronnie J. Phillips, "Interest Rate Caps and Implicit Collusion: The Case of Payday Lending," International Journal of Banking, Accounting, and Finance , vol. 5, no. 1/2 (2013), pp. 121-158.'>36</a></sup></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242434897"></a><a name="_Toc242870635"></a><a name="_Toc244758727"></a><a name="_Toc244776837"></a><a name="_Toc244777209"></a><a name="_Toc244855617"></a><a name="_Toc244871561"></a><a name="_Toc244872399"></a>SDL Regulatory Issues: Current Approaches and Challenges Absent Market Price Convergence</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Consumer lending is largely <a name="_Hlk232512170"></a>regulated to protect consumers and ensure lenders' compliance with fair-lending laws. Bank and nonbank lenders are subject to federal consumer protection and fair-lending laws when offering consumer loan products, and multiple regulators oversee small-dollar lending. Depositories with assets below $10 billion are supervised for consumer protection compliance by their prudential regulators. Banks are supervised by the federal prudential regulators, namely the Federal Reserve System, the Office of the Comptroller of the Currency (OCC), and the Federal Deposit Insurance Corporation (FDIC). The National Credit Union Administration (NCUA) is the federal prudential regulator for credit unions. State-chartered depositories may face additional state-level regulations, but they must still comply with federal regulations if their deposits are federally insured. Depositories with national charters are generally exempt from additional state consumer regulations, but exceptions may apply for certain circumstances.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CFPB is the primary federal regulator with the authority to issue regulations pursuant to most federal consumer financial protection laws that cover an array of consumer financial products and services.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="See CRS In Focus, Introduction to Financial Services: The Consumer Financial Protection Bureau (CFPB) , by Karl E. Schneider and David H. Carpenter.">37</a></sup> Depository institutions with assets greater than $10 billion are supervised for consumer protection compliance by the CFPB. Nonbank lenders—financial firms without national or state depository charters, which include many AFS providers (e.g., payday and auto-title lenders)—may be supervised by the CFPB or state financial regulators. <a name="_Toc238541916"></a><a name="_Toc239337453"></a><a name="_Toc239339776"></a><a name="_Toc239340283"></a></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242434898"></a><a name="_Toc242870636"></a><a name="_Toc244758728"></a><a name="_Toc244776838"></a><a name="_Toc244777210"></a><a name="_Toc244855618"></a><a name="_Toc244871562"></a><a name="_Toc244872400"></a>Regulatory Approaches for Consumer Protections </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal and state authorities (independently or jointly) may enforce consumer protections for SDLs through a combination of the following approaches: disclosure requirements; product-feature requirements; underwriting requirements; unfair, deceptive, or abusive acts or practices (UDAAP) requirements; and usury laws. </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Disclosure laws</em> are designed to ensure that borrowers are informed of their loan costs. TILA passed in 1968, is currently implemented by Regulation Z. TILA applies to nearly all forms of consumer credit, requiring covered lenders to disclose total credit costs—both the loan rate and fees—in the form of the APR.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title='See CFPB, "What I s a Payday Loan ? ," May 28, 2024, https://www.consumerfinance.gov/ask-cfpb/what-is-a-payday-loan-en-1567/  .'>38</a></sup> TILA does not regulate what lenders may charge for consumer loans. TILA does not apply to business loans.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="Merchant credit advances, which are similar in structure to payday loans, are structured as commercial transactions and, therefore, subject to the Uniform Commercial Code in each state instead of the Truth in Lending Act . See CRS Report R48281, Consumer-Style Protections for Small Businesses: Issues and Options for Congress , by Karl E. Schneider .">39</a></sup> Financial institutions operating in certain states may face additional state disclosure requirements.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Product feature requirements</em> or <em>restrictions</em> can be regulated. Payday lending, for example, is permitted in 38 states, but some states place restrictions or outright prohibitions on the rollover product feature.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title='See National Conference of State Legislatures, "Payday Lending State Statutes," February 28, 2023, https://www.ncsl.org/financial-services/payday-lending-state-statutes . In states without explicit payday lending statutes, lenders must comply with state usury caps that apply to all consumer loans.'>40</a></sup> In 2009, Congress passed the CARD Act to ban a product feature that automatically recalculates and applies additional finance charges based on formulas that credit card and overdraft borrowers may not fully understand.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="Pricing practices such as hair-trigger billing and double-cycle billing effectively eliminated grace periods for credit card users carrying balances for additional billing cycle periods, resulting in higher finance charges. Borrowers may not have understood how to compute the additional finance charges or realized that they had forfeited their grace periods.">41</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Underwriting</em> regulations can require lenders to verify specific documents or consider other factors when underwriting applicant credit requests. For example, the Dodd-Frank Act requires a lender to make a good-faith determination of a consumer's ability to repay a mortgage and to show evidence of compliance by offering a qualified mortgage.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="For more information, see CRS Report R46980, Single-Family Mortgage Pricing and Primary Market Policy Issues , by Darryl E. Getter .">42</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>UDAAP</em> is broad authority to promulgate rules declaring that specific acts or practices are unlawful because they are "unfair, deceptive, or abusive."<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="12 U.S.C. §5531 . For information about the CFPB and UDAAP, see CRS Legal Sidebar WSLG1747, Is the CFPB Subject to Time Limits when Enforcing Consumer Laws in an Administrative Forum? , by David H. Carpenter . For information about s tate UDAAP laws , see Carolyn L. Carter, Consumer Protection in the States: A 50-State Report on Unfair and Deceptive Acts and Practices Statutes , National Consumer Law Center, February 2009.">43</a></sup> The CFPB initially used its UDAAP authority to issue a bulletin related to the marketing and sale of "add-on" products with credit cards (e.g., debt protection, identity theft protection, credit score tracking) that are supplementary to the credit provided by the card itself—but that bulletin was rescinded.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title='See CFBP, "Marketing of Credit Card Add-On Products," CFPB Bulletin 2012-06, July 18, 2012, http://files.consumerfinance.gov/f/201207_cfpb_marketing_of_credit_card_addon_products.pdf ; and CFPB, "Interpretive Rules, Policy Statements, and Advisory Opinions; Withdrawal," 90 Federal Register 20087, May 12, 2025.'>44</a></sup> The CFPB provided guidance for lenders to avoid harming consumers when offering products with add-on features.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="This regulatory approach may also serve as an example of a disclosure or product feature requirement.">45</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Usury laws</em> are consumer protection laws broadly designed to limit the amount of interest charged on loans. Usury laws are frequently promulgated at the state level, meaning that loan originations are subject to the caps in the applicable state; some states have multiple usury rates that apply to different forms of credit.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="See Annie Millerbernd and Jackie Veling, &quot;What Are Usury Laws? See Your State's Maximum Loan APR,&quot; NerdWallet , March 6, 2026, https://www.nerdwallet.com/personal-loans/learn/usury-laws .">46</a></sup> The National Consumer Law Center reports that the Uniform Small Loan Laws, which place caps of 36% to 42% per year on loans of $300 or less, were adopted in 34 states over 1914 to 1943 to encourage lenders to make SDLs and ultimately reduce widespread loan-sharking.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='See Lauren Saunders, " Why Cap Interest Rates at 36%? ," National Consumer Law Center, April 2021, https://www.nclc.org/images/pdf/pr-reports/why36pct.pdf .'>47</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Currently, no general federal usury limit exists for SDLs, and federal law prohibits the CFPB from establishing usury limits.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="Section 1027(o) of the Dodd-Frank Act.">48</a></sup> Statutory and regulatory interventions, however, have resulted in rate and fee restrictions under specific scenarios, as outlined below, and these restrictions may expand in the future. </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The MLA (<a class="ExternalLink" href="https://www.congress.gov/law/109/pub/364"><span class="Hyperlink">P.L. 109-364</span></a>) was passed in 2006 to protect active-duty military personnel and their eligible family members from predatory lending.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title='See Consumer Federation of America, "Predatory Lending Protections for Service Members," https://consumerfed.org/media/legacy/post_3045/MIL-Fact-Sheet-Final-Regs.pdf .'>49</a></sup> The final rule implementing the MLA in 2007 requires that payday loans have terms of 91 days or less; vehicle-title loans have terms of 181 days or less; and SDLs to military personnel be limited to a 36% annual interest rate, which is known as the <em>military APR</em> (MAPR).<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title='See CFPB, "CFPB Statement on Department of Defense Military Lending Act Final Rule," press release, July 21, 2015, http://www.consumerfinance.gov/about-us/newsroom/cfpb-statement-on-department-of-defense-military-lending-act-final-rule/   .'>50</a></sup> On July 22, 2015, the Department of Defense announced final rules to extend the MAPR to a wider array of credit products, including credit cards.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title='See Department of Defense, "Limitations on Terms of Consumer Credit Extended to Service Members and Dependents," 80 Federal Register 43560, July 22, 2015. The Department of Defense is currently "using a secondary Department of War designation" under Executive Order 14347 of September 5, 2025.'>51</a></sup> As of October 3, 2016, lenders receive safe harbor protection if they verify whether a consumer is eligible for the MLA protections by using information provided by the MLA database maintained by the Department of Defense.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="Granting safe harbor in this context means that a lender's conduct is deemed compliant with the law if the Military Lending Act (MLA) database was used to determine whether the borrower was eligible for MLA protections. For more information on the Department of Defense's Manpower Data Center Database, see Department of Defense, &quot;Military Lending Act (MLA) Website,&quot; https://mla.dmdc.osd.mil/    .">52</a></sup> As of October 3, 2017, the MAPR applies to credit card products offered to military servicemembers.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The credit union system's ability to serve and compete in the SDL market has limitations, namely its membership restrictions and interest rate ceilings.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="See CRS Report R46360, The Credit Union System: Lending Activities and Selected Regulatory Developments , by Darryl E. Getter .">53</a></sup> However, the credit union system is permitted to make payday alternative loans (PALs) to its membership, which differ from traditional payday loans. PALs typically have longer maturities than AFS products and, therefore, lower APRs. The CFPB argues that PALs protect consumers because the interest rate is no greater than 28% and the application fee is no greater than $20.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title='See CFPB, "Prepared Remarks of CFPB Director Richard Cordray at the Field Hearing on Payday Lending," press release, March 26, 2015, https://www.consumerfinance.gov/about-us/newsroom/prepared-remarks-of-cfpb-director-richard-cordray-at-the-field-hearing-on-payday-lending/    .'>54</a></sup> NCUA also requested a Department of Defense exemption from the 36% MAPR for PALs to prevent credit unions from reducing their lending to military servicemembers.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title='Without the exemption, compliance with military APR ( MAPR )—based on the general APR formula—would require either increasing the loan amounts or subtracting fees from the total calculation . In accordance with the MAPR exemption, payday alternative loan ( PAL ) amounts may range from $200 to $1,000 , they must have fully amortizing payments , the term length must range from at least 46 to 180 days , and the application fee cannot be more than $20 . See Department of Defense, "Limit...'>55</a></sup> (Certain credit card fees were also exempted from the calculation when the MAPR was extended to credit cards.)<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title='See FDIC, "Issuance of Final Rule Implementing the Military Lending Act," Financial Institution Letters FIL-37-2015, September 8, 2015, https://www.fdic.gov/news/financial-institution-letters/2015/fil15037.html#continuation .'>56</a></sup> Consequently, specific exemptions are necessary for depositories to compete effectively with AFS providers.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On February 5, 2026, the Predatory Lending Elimination Act (<a class="ExternalLink" href="https://www.congress.gov/bill/119/s/3793"><span class="Hyperlink">S. 3793</span></a>) was introduced to extend MLA protections to all consumers. The bill would amend TILA to establish a 36% APR limit on SDLs while exempting consumer credit products—such as residential mortgages, automobile purchase loans, and loans issued by federal credit unions—from the APR cap. As previously discussed, if total funding costs are not sufficiently covered by the 36% cap to yield profits commensurate with elevated default risks, lenders may offer fewer SDLs and seek more profitable opportunities. Congress may consider delegating rate-cap authority to the CFPB rather than codifying a fixed cap in statute. Because the APR non-convergence issue remains problematic, this delegation would allow the CFPB to adjust or dismantle caps if previous regulatory challenges, discussed in the following section, resurface.</li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242434899"></a><a name="_Toc242870637"></a><a name="_Toc244758729"></a><a name="_Toc244776839"></a><a name="_Toc244777211"></a><a name="_Toc244855619"></a><a name="_Toc244871563"></a><a name="_Toc244872401"></a>Regulatory Challenges Absent Market Price Convergence</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Market price convergence, conceptually analogous to an efficient LOOP outcome, allows regulators to rely on benchmark comparisons rather than inflexible APR caps to implement consumer protection regulations. For example, although achieving price convergence in the conventional mortgage market still has challenges, various standardization initiatives in underwriting, data collection, and credit reporting enable mortgage APRs—particularly for creditworthy borrowers—to converge within a certain range.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="A conventional mortgage is one that is eligible for purchase by Fannie Mae and Freddie Mac. For more information on the standardization initiatives, see CRS Report R46746, Fannie Mae and Freddie Mac: Conservatorship Status and Related Directives , by Darryl E. Getter .">57</a></sup> For this reason, the consumer protection framework adopted by regulators under the Home Mortgage Disclosure Act (<a class="ExternalLink" href="https://www.congress.gov/law/94/pub/200"><span class="Hyperlink">P.L. 94-200</span></a>) is based on APR comparisons. Specifically, the APRs offered by mortgage lenders must be reported to the CFPB and compared to an average (weekly) benchmark APR to see whether they stay within an established range.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="See CRS Report R46980, Single-Family Mortgage Pricing and Primary Market Policy Issues , by Darryl E. Getter .">58</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">By contrast, underwriting is costly for many SDLs given their low principal amounts, and lenders are also unlikely to review credit reports. Combined with the lack of standardized products and price convergence, regulating the SDL markets to protect (subprime) borrowers may compromise credit availability. This section summarizes examples of challenges. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc459109408"></a><a name="_Toc459988905"></a><a name="_Toc467600019"></a><a name="_Toc468264330"></a><a name="_Toc468861663"></a><a name="_Toc468888734"></a><a name="_Toc468981773"></a><a name="_Toc471313782"></a><a name="_Toc471314138"></a><a name="_Toc471315702"></a><a name="_Toc471316130"></a><a name="_Toc472441283"></a><a name="_Toc472959124"></a><a name="_Toc473034068"></a><a name="_Toc474060596"></a><a name="_Toc474060946"></a><a name="_Toc474836847"></a><a name="_Toc475113266"></a><a name="_Toc475273526"></a><a name="_Toc475273832"></a><a name="_Toc475456075"></a><a name="_Toc476325165"></a><a name="_Toc476326256"></a><a name="_Toc476902121"></a><a name="_Toc476920816"></a><a name="_Toc477183465"></a><a name="_Toc477512957"></a><a name="_Toc479254712"></a><a name="_Toc479501719"></a><a name="_Toc480751904"></a><a name="_Toc481675099"></a><a name="_Toc482866647"></a><a name="_Toc482960436"></a><a name="_Toc483483306"></a><a name="_Toc483483499"></a><a name="_Toc484082364"></a><a name="_Toc484099511"></a><a name="_Toc485218870"></a><a name="_Toc485281024"></a><a name="_Toc238541918"></a><a name="_Toc239337455"></a><a name="_Toc239339778"></a><a name="_Toc239340285"></a><a name="_Toc242434900"></a><a name="_Toc242870638"></a><a name="_Toc244758730"></a><a name="_Toc244776840"></a><a name="_Toc244777212"></a><a name="_Toc244855620"></a><a name="_Toc244871564"></a><a name="_Toc244872402"></a>The CFPB's Payday, Vehicle Title, and Certain High-Cost Installment Loans Rule: Evolution from 2017 to 2025</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the difficulty of relying on SDL cost comparisons, the CFPB prioritized a borrower's ability to repay rather than APR benchmark metrics. On October 5, 2017, the CFPB issued a final rule establishing minimum requirements for SDLs, which included underwriting requirements for lenders.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title="See CFPB, &quot;Payday, Vehicle Title, and Certain High-Cost Installment Loans,&quot; 82 Federal Register 54472-54921, November 17, 2017; and Leonard N. Chanin et al., &quot; The CFPB's Payday Lending Rulemaking Is Here with Sweeping Implications for the Short-Term Credit Industry ,&quot; Morrison Foerster, June 3, 2016, https://www.lexology.com/library/detail.aspx?g=2db652df-7eb7-425c-b1e4-ea3261b392a8 .">59</a></sup> The CFPB stated that one primary purpose of the rule was to end payday debt traps, which would be used as an indicator of loan affordability.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title='" One of the primary purposes of this rule is to prevent consumers from falling into long-term re-borrowing cycles that result from loans with unaffordable payments. The [CFPB] concludes that the rule would fall far short of one of its chief purposes of preventing the risks and harms associated with unaffordable loans if § 1041.6 [of Title 12 of the Code of Federal Regulations ] were to allow re-borrowing to create extended loan sequences in the period immediately after a 3-loan sequenc...'>60</a></sup> The CFPB deemed loan payments <em>unaffordable</em> if the only three options for borrowers when unable to repay the full amount due are to (1) default on the loan, (2) take out an additional loan, or (3) make the loan payment while failing to meet other major financial obligations or basic living expenses.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title='See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 82 Federal Register 54472, November 17, 2017.'>61</a></sup> The proposed framework was designed to mitigate these adverse outcomes.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The rule established—at the federal level—a consumer protection floor, covering loans lasting 45 days or less, such as payday loans, auto-title loans, and direct deposit advances. Loans for more than 45 days in which the cost of credit exceeds 36% and the lender has a security interest (e.g., the ability to repossess a borrower's vehicle if the loan is not repaid or access to a paycheck or a checking account) are covered. The rule excludes various types of loans, such as consumer loans secured by the good purchased (e.g., a durable good that can be used to secure the loan, such as a car), mortgage loans, credit card loans, student loans, overdrafts, and PALs (issued by prudentially regulated credit unions). The rule applies to all lenders of covered products. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The key provisions below were promulgated in the initial final rule, but only the last provision—payment withdrawal requirements when collecting funds owed—remains active, as the preceding requirements were formally rescinded. </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>The Full-Payment (Ability-to-Repay) Test for Covered Short-Term Loans.</strong> Lenders were initially required to consider and verify the borrower's income, major financial obligations, and borrowing history, as well as the timing of the borrower's income, using information from at least one credit bureau. Lenders were required to ensure that borrowers could pay off their loans and all finance charges without having to reborrow for approximately 30 days. Borrowers would be unable to reborrow or refinance the same amount of debt, and the total number of successive short-term loans would be capped. A lender would not be able to make a loan to a consumer who already has taken three loans within 30 days of each other. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>The Principal </strong><em><strong>Step-Down</strong></em><strong> Option for Covered Short-Term Loans.</strong> For lenders choosing not to adopt systems for SDL underwriting, the final rule allowed for an alternative compliance option that stipulates required loan features. SDLs up to $500 could be originated without underwriting for borrowers having no other outstanding SDLs or loans with balloon payments. Borrowers may obtain up to two extensions if they pay down at least one-third of the remaining principal balance for each extension. Lenders must still confirm that a customer does not have outstanding loans with other lenders, and the customer would not be permitted to have any more than six loans over a consecutive 12-month period.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Alternative Compliance Option 2 for Longer-Term Balloon-Payment (e.g., Payday and Vehicle Title) Loans.</strong> A longer-term balloon payment loan was defined in the final rule as one that requires a borrower to repay most of the entire loan amount in a single payment. Lenders could make loans (without meeting the ability-to-repay requirement) meeting the following criteria: The maturity of the loan must be a minimum of 46 days and a maximum of 24 months. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Payment Withdrawals Requirements When Collecting Funds Owed.</strong> When collecting funds owed, lenders must give advance notice to borrowers before attempting to debit payment from their depository checking, savings, or prepaid accounts. After two consecutive unsuccessful payment collection attempts, lenders must obtain new authorizations from borrowers before making further collection attempts. This rule protects borrowers from amassing insufficient funds and overdraft fees (levied by third-party depositories) when repeated attempts are unlikely to result in successful recoveries for SDL lenders. </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the final rule set August 19, 2019, as the date for lenders to comply with the mandatory underwriting provisions, a proposed rule to rescind the mandatory underwriting provisions of the finalized 2017 rule was issued on February 6, 2019, delaying the compliance deadline to November 19, 2020.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title='See "Key Milestones" in CFPB, " Payday Loan Protections ," July 18, 2023, https://www.consumerfinance.gov/payday-rule/#:~:text=key%20milestones .'>62</a></sup> The CFPB subsequently issued a final rule on July 7, 2020, revoking the 2017 mandatory underwriting provisions for covered SDLs and longer-term balloon-payment loans before they ever went into effect.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title='See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85 Federal Register 44382, July 22, 2020.'>63</a></sup> The provision limiting lenders' collection attempts, however, was retained by the 2020 final rule. Although the technical rules remain in effect, the CFPB announced in 2025 that it will not prioritize active enforcement or penalties regarding these payment and disclosure provisions, choosing instead to redirect resources and pursue actions to narrow or reconsider the rule.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='See CFPB, "CFPB Offers Regulatory Relief for Small Loan Providers," press release, March 28, 2025, https://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-regulatory-relief-for-small-loan-providers/   .'>64</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CFPB and industry stakeholders had projected a large SDL market contraction prior to finalizing the 2017 rule.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='Specifically, economists use the term deadweight loss , referring to the reduction in mutually beneficial transactions that occur when market distortions (e.g., a regulatory policy) prevent prices and quantities from settling at their undistorted market-generated values. See N. Gregory Mankiw, "Application: The Costs of Taxation," in Principles of Microeconomics , 10 th ed. (Cengage, 2024).'>65</a></sup> Because SDLs lack standardization, APR comparisons could not provide reliable estimates of average lender costs to inform the CFPB's affordability standard. Thus, the CFPB's proposed rule initially estimated that its affordability standard would result in a 55% to 62% decrease in the number of SDLs offered by AFS providers, alongside a 71% to 76% drop in their revenue.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title='See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 81 Federal Register 48122, July 2, 2016.'>66</a></sup> The CFPB expected that many AFS lenders would choose the step-down compliance option rather than incur the underwriting costs necessary to comply with the full payment test. Meanwhile, a study commissioned by the AFS industry also predicted a large contraction, closer to an 82.5% decrease in SDL offerings.<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="According to private-sector estimates, the decline in loan volume would be 82.5%, and lender revenues would decline by 90.5%. See Arthur Baines et al., Economic Impact on Storefront Lenders of the Payday Lending Rules Proposed by the CFPB , Charles River Associates, October 7, 2016, https://www.crai.com/sites/default/files/publications/Economic-Impact-on-Storefront-Lenders-of-the-Payday-Lending-Rules-Proposed-by-the-CFPB.pdf .">67</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Assuming more AFS lenders would adopt the step-down compliance option, the CFPB attributed the projected SDL market contraction to fewer loan rollovers, thus benefiting consumers by reducing both their default chances and likelihood of falling into debt traps.<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title='See CFPB, " Consumer Financial Protection Bureau Proposes Rule to End Payday Debt Traps, " press release, June 2, 2016, http://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-proposes-rule-end-payday-debt-traps/    .'>68</a></sup> In contrast, the industry attributed its projected contraction to the inability of lenders to recover compliance costs. The industry argued that payday loans of $500 or less would not generate sufficient yields to cover the added underwriting expenses.<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title="According to the American Financial Services Association, which is the national trade association for the consumer credit industry, loan amounts generally must be $2,500 or higher to justify the cost of underwriting. See Kate Berry, &quot;Will Installment Loans Get Painted with CFPB's Payday Brush?,&quot; American Banker , October 18, 2016, https://www.americanbanker.com/news/will-installment-loans-get-painted-with-cfpbs-payday-brush .">69</a></sup> Furthermore, some individual AFS lenders (e.g., storefront lenders) had already lacked sufficient loan volume to cover added underwriting, documentation, and verification costs.<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title="See The Pew Charitable Trusts, Understanding the CFPB Proposal for Payday and Other Small Loans , July 2015, https://www.pew.org/-/media/assets/2015/07/cfpb-primer.pdf .">70</a></sup> Regardless of the compliance option chosen, the industry had predicted that borrowers would face unmet credit needs or be forced to use less preferable loan products.<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title="See Arthur Baines et al. , Economic Impact on Storefront Lenders of the Payday Lending Rules Proposed by the CFPB , Charles River Associates, October 7, 2016, https://www.crai.com/sites/default/files/publications/Economic-Impact-on-Storefront-Lenders-of-the-Payday-Lending-Rules-Proposed-by-the-CFPB.pdf .">71</a></sup> As noted, the 2017 underwriting provisions were rescinded before either predicted outcome could be observed.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In its 2020 final rule rescinding the underwriting requirements, the CFPB reconsidered certain 2017 positions. First, the CFPB reversed its previous stance that consumers lacked a requisite understanding of the their ability to repay SDLs to avoid the risks related to unaffordable payments, reborrowing, or default.<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title='See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85 Federal Register 44395-44398, July 22, 2020.'>72</a></sup> Second, the CFPB determined that the evidence used to conclude that consumers lacked accessibility to alternative mainstream loan products (from mainstream financial institutions) was insufficient.<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title='See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85 Federal Register 44424, July 22, 2020.'>73</a></sup> Moreover, if the 2017 requirements had led to significant market shrinkage, less competition could further drive up SDL product prices, arguably causing greater financial harm to consumers.<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title='See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85 Federal Register 44414, July 22, 2020.'>74</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242434901"></a><a name="_Toc242870639"></a><a name="_Toc244758731"></a><a name="_Toc244776841"></a><a name="_Toc244777213"></a><a name="_Toc244855621"></a><a name="_Toc244871565"></a><a name="_Toc244872403"></a>Permissible Activities of Depositories</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Regulatory differences between depositories and AFS lenders may restrict competition that could lower SDL market pricing. As of fourth quarter 2023, the Federal Reserve estimated that depositories held 43% of SDLs (defined as personal loans with a credit limit of $1,000), and nearly 70% of those borrowers would be considered subprime (having credit scores below 620).<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title='See Jessica N. Flagg and Simona M. Hannon, " Small-Dollar Loans in the U.S.: Evidence from Credit Bureau Data ," FEDS Notes , July 19, 2024, https://www.federalreserve.gov/econres/notes/feds-notes/small-dollar-loans-in-the-us-evidence-from-credit-bureau-data-20240719.html .'>75</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A regulatory constraint facing depository institutions is the inability to offer SDLs comparable to those offered by AFS providers. For example, a <em>subprime (fee harvester) credit card</em> mirrors a payday loan because its total fees amount to a large proportion of the credit limit. Depositories could offer subprime credit cards to customers with <em>impaired credit</em>, which means those posing a higher probability of default risk relative to more creditworthy customers. The CARD Act, however, mandates that the total fees of subprime credit cards cannot exceed 25% of the initial credit limit. This cap restricts a loan product option for subprime borrowers, thereby undermining depositories' ability to effectively compete with AFS providers in an SDL (i.e., payday) market.<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title='The percentage of individuals with credit scores at or below 659 may be correlated with overall macroeconomic performance, meaning that lending to high-risk borrowers may increase during expansionary periods and contract during recessions. For this reason, the CARD Act may not be the sole factor influencing bank offerings of subprime credit cards. See Graham Campbell et al., " Just Released: Recent Developments in Consumer Credit Card Borrowing , " Liberty Street Economics (blog), August 9,...'>76</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On April 25, 2013, the OCC, FDIC, and Federal Reserve issued guidance that expressed concerns regarding deposit advance products given their similarities to payday loans.<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title='See Office of the Comptroller of the Currency, "Office of the Comptroller of the Currency Releases Guidance on Deposit Advance Products," press release, April 25, 2013, http://www.occ.gov/news-issuances/news-releases/2013/nr-occ-2013-69.html ; FDIC, "FDIC Issues Proposed Guidance on Deposit Advance Products," press release, April 25, 2013, https://archive.fdic.gov/view/fdic/4784 ; and Board of Governors of the Federal Reserve System, "Statement on Deposit Advance Products," press r...'>77</a></sup> The prudential regulators noted that the high costs and repeated extensions of credit could increase borrower default risks.<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title="While reminding banks of their vulnerability to various risks (e.g., credit, reputational, legal) and potential compliance violations (e.g., Truth in Lending Act, Truth in Savings Act, Equal Credit Opportunity Act, Electronic Fund Transfer Act), the federal banking agencies listed their expectations with respect to loan classification policies, underwriting and administration policies, the length of customer relationships, and customer credit histories.">78</a></sup> They recommended that customers with impaired credit should not be eligible for this product, lenders should not extend subsequent advance loans until a customer repays each deposit advance in full, and lenders may offer no more than one loan per monthly statement cycle.<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title="Deposit advance products raise prudential concerns about maintaining the sufficiency of loan loss reserves . If delinquency and default risks rise , depository institutions must treat the outstanding loan balances as charge-offs, recognizing the repayment obligations as uncollectible and subsequently deducting them from loan loss reserves. Open-end loans , such as credit card balances , must be charged off after becom ing 180 days overdue. When overdraft s are not repaid...">79</a></sup> Afterward, most banks discontinued offering deposit advances.<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title='See Danielle Douglas, "Wells Fargo, U.S. Bank to End Deposit Advance Loans, Citing Tougher Regulation," Washington Post , January 17, 2014, https://www.washingtonpost.com/business/economy/wells-fargo-us-bank-to-end-payday-loans-citing-tougher-regulation/2014/01/17/b65f0512-7f82-11e3-93c1-0e888170b723_story.html .'>80</a></sup> In other words, prudential safety and soundness compliance necessitates formal underwriting, prompting depositories to offer longer-term loans that not only allow recovery of underwriting costs but also are easier for borrowers to repay.<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title='For more information about the CAMELS rating system, which is designed to ensure that depository institutions have sound risk management practices, see Federal Financial Institutions Examination Council, "Uniform Financial Institutions Rating System," 91 Federal Register 29128, May 19, 2026.'>81</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The OCC rescinded its deposit advance guidance in October 2017, followed by the FDIC in July 2020.<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title='See OCC, " Acting Comptroller of the Currency Rescinds Deposit Advance Product Guidance , " News Release 2017-118, October 5, 2017, https://www.occ.gov/news-issuances/news-releases/2017/nr-occ-2017-118.html ; and FDIC, "Notice of Rescission of the Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products," 85 Federal Register 44685, July 24, 2020.'>82</a></sup> The prudential depository regulators subsequently issued joint interagency guidance to provide uniform principles for all financial institutions.<sup><a class="FootnoteLink" href="#fn83" name="ifn83" title='See OCC, " Small-Dollar Lending: Interagency Lending Principles for Offering Responsible Small-Dollar Loans, " OCC Bulletin 2020-54, May 20, 2020, https://www.occ.gov/news-issuances/bulletins/2020/bulletin-2020-54.html .'>83</a></sup> The 2020 principles still retained emphasis on affordability (measured by a high percentage of customers repaying their SDLs), mitigation of debt cycles, and products capable of helping borrowers improve their credit scores and transition into more traditional credit products.<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title='See Board of Governors of the Federal Reserve System, " Credit Availability—Interagency Lending Principles for Offering Responsible Small-Dollar Loans , " May 20, 2020, https://www.federalreserve.gov/frrs/guidance/interagency-lending-principles-for-offering-responsible-small-dollar-loans.htm ; and National Credit Union Administration , " Interagency Lending P rinciples for Offering Responsible Small-Dollar Loans , " press release, March 26, 2020, https://ncua.gov/newsroom/press-...'>84</a></sup> Banks have largely chosen not to invest in the development of deposit advance products.<sup><a class="FootnoteLink" href="#fn85" name="ifn85" title="Greg Baer, Not Enough Small-Dollar Lending by Banks? The GAO Points the Finger , Bank Policy Institute, March 29, 2022, https://bpi.com/wp-content/uploads/2022/03/Not-Enough-Small-Dollar-Lending-by-Banks-The-GAO-Points-the-Finger.pdf .">85</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the federal banking regulators encourage small-dollar lending, banks can primarily serve market segments that favor more traditional loan products, as discussed in the <strong>text box</strong> below. Rather than competing directly, banks can partner with or extend credit to AFS providers that will subsequently offer SDLs.<sup><a class="FootnoteLink" href="#fn86" name="ifn86" title='For information about banks reducing their exposure to higher-risk consumers while partnering with nonbank lenders, see Gregory Elliehausen and Simona M. Hannon, " FinTech and Banks: Strategic Partnerships T hat Circumvent State Usury Laws ," Board of Governors of the Federal Reserve System, October 2023, https://www.federalreserve.gov/econres/feds/fintech-and-banks-strategic-partnerships-that-circumvent-state-usury-laws.htm .'>86</a></sup> Banks, however, are still unlikely to be awarded credit under the Community Reinvestment Act (<a class="ExternalLink" href="http://www.congress.gov/law/95/pub/128"><span class="Hyperlink">P.L. 95-128</span></a>, Title VIII) for either offering SDLs that resemble those originated by AFS providers or extending indirect support for SDL markets.<sup><a class="FootnoteLink" href="#fn87" name="ifn87" title="For information about the Community Reinvestment Act, see CRS Report R48096, Modernization of the Community Reinvestment Act , by Darryl E. Getter .">87</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Can Small-Dollar Lending Be Profitable for Banks?</p>
+<p class="TableText" style="">The Federal Deposit Insurance Corporation (FDIC) conducted a small-dollar loan pilot program between December 2007 and December 2009, beginning with 31 participating banks, to observe the feasibility of offering lower-credit-cost alternatives to payday loans and fee-based overdraft programs.<sup><a class="FootnoteLink" href="#fn88" name="ifn88" title="See FDIC, &quot;A Template for Success: The FDIC's Small-Dollar Loan Pilot Program,&quot; FDIC Quarterly , vol. 4, no. 2 (2010), https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2010-vol4-2/fdic-quarterly-vol4no2-smalldollar.pdf .">88</a></sup> Customers in the pilot program were offered loans that, unlike typical short-term, small-dollar loan (SDL) products, were for $2,500 or less for approximately 90 days or more with annual percentage rates (APRs) of 36% or less; the streamlined underwriting process included proof of identity, proof of income, and a credit report.<sup><a class="FootnoteLink" href="#fn89" name="ifn89" title="See Figure 1 in FDIC, &quot;A Template for Success: The FDIC's Small-Dollar Loan Pilot Program,&quot; FDIC Quarterly , vol. 4, no. 2 (2010).">89</a></sup> The FDIC reported that banks found small-dollar lending to be a useful business strategy, facilitating the ability to build or retain profitable, long-term relationships with customers as well as the opportunity to get favorable consideration under the Community Reinvestment Act. However, banks found small-dollar lending programs to be more successful or cost-effective when targeted to existing customers who use financial products over longer time periods (as opposed to new customers with financial behaviors and histories that have not been previously observed).<sup><a class="FootnoteLink" href="#fn90" name="ifn90" title="See Kevin Wack, &quot;Five Reasons Why Small-Dollar Credit Is So Expensive,&quot; American Banker , August 7, 2013, http://www.americanbanker.com/issues/178_146/five-reasons-why-small-dollar-credit-is-so-expensive-1060965-1.html ; and Dennis Shaul, &quot;Banks Stepping into Payday Lenders' Shoes? I'm Not Buying It,&quot; American Banker , May 1 7 , 2016, http://www.americanbanker.com/bankthink/banks-stepping-into-payday-lenders-shoes-im-not-buying-it-1081011-1.html .">90</a></sup> The fixed costs associated with evaluating financial risks (e.g., purchase of credit reporting data; past banking relationships; verification of identity, income, and employment) are similar, regardless of whether a financial product is offered for two weeks or a credit card loan is made for a year. Stated differently, recovering the underwriting costs for new SDL customers or those who infrequently make transactions is difficult. </p>
+</td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">David W. Perkins, Karl E. Schneider, Martin A. Weiss, and Brian P. Winters made substantive contributions to this report.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An official definition for SDLs does not exist, meaning that different thresholds are adopted by various types of lending programs and researchers. For example, certain programs define eligible loan amounts as up to $2,500. See U.S. Department of the Treasury, Community Development Financial Institutions Fund, "Small Dollar Loan Program," <a class="ExternalLink" href="https://www.cdfifund.gov/%E2%80%8Bprograms-training/%E2%80%8Bprograms/%E2%80%8Bsdlp"><span class="Hyperlink">https://www.cdfifund.gov/programs-training/programs/sdlp</span></a>. Other definitions may utilize a tiered structure, classifying <em>small-dollar</em> and <em>near-small-dollar loans</em> as those valued under $1,000 and between $1,000 and $2,500, respectively. See Tammie Hoy et al., "Microenterprise and the Small-Dollar Loan Market," Federal Reserve Bank of Richmond Economic Brief EB12-05, May 2012, <a class="ExternalLink" href="https://www.richmondfed.org/~/media/richmondfedorg/publications/research/economic_brief/2012/pdf/eb_12-05.pdf"><span class="Hyperlink">https://www.richmondfed.org/~/media/richmondfedorg/publications/research/economic_brief/2012/pdf/eb_12-05.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information regarding impaired credit issues, see CRS Report R44125, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44125"><em><span class="Hyperlink">Consumer and Credit Reporting, Scoring, and Related Policy Issues</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A <em>nonbank</em> can be defined as a firm offering financial products and services that does not have a bank, thrift, or credit union charter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Christelle Bamona and Candice Wang, <em>The Cost of Payday Loan Apps in Your State: Methodology</em>, Center for Responsible Lending, Julian Bond Institute, September 2026, <a class="ExternalLink" href="https://www.responsiblelending.org/sites/default/files/uploads/files/crl-jbi-cost-of-pla-methodology-sep2026.pdf"><span class="Hyperlink">https://www.responsiblelending.org/sites/default/files/uploads/files/crl-jbi-cost-of-pla-methodology-sep2026.pdf</span></a>; Jim Campen, <em>Small-Dollar Lending: Is There a Responsible Path Forward</em><em>?</em>, Center for Economic and Policy Research, August 2012, <a class="ExternalLink" href="https://cepr.net/documents/publications/small-dollar-lending-2012-08.pdf"><span class="Hyperlink">https://cepr.net/documents/publications/small-dollar-lending-2012-08.pdf</span></a>; and Leslie Parrish and Uriah King, <em>Phantom Demand: Short-Term Due Date Generates Need for Repeat Payday Loans</em>, Center for Responsible Lending, July 9, 2009, <a class="ExternalLink" href="http://www.responsiblelending.org/research-publication/phantom-demand-short-term-due-date-generates-need-repeat-payday-loans"><span class="Hyperlink">http://www.responsiblelending.org/research-publication/phantom-demand-short-term-due-date-generates-need-repeat-payday-loans</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS In Focus IF10031, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10031"><em><span class="Hyperlink">Introduction to Financial Services: The Consumer Financial Protection Bureau (CFPB)</span></em></a>, by Karl E. Schneider and David H. Carpenter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See National Conference of State Legislatures, "Payday Lending State Statutes," February 28, 2023, <a class="ExternalLink" href="https://www.ncsl.org/financial-services/payday-lending-state-statutes"><span class="Hyperlink">https://www.ncsl.org/financial-services/payday-lending-state-statutes</span></a>; and Conference of State Bank Supervisors, "50-State Survey of Consumer Finance Laws," February 25, 2026, <a class="ExternalLink" href="https://www.csbs.org/50-state-survey-consumer-finance-laws"><span class="Hyperlink">https://www.csbs.org/50-state-survey-consumer-finance-laws</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on consumer credit products, see CRS Report R48747, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48747"><em><span class="Hyperlink">An Overview of Consumer Finance Products and Related Policy Issues</span></em></a>, by Karl E. Schneider.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Federal Deposit Insurance Corporation (FDIC), "Alternative Financial Services: A Primer," <em>FDIC Quarterly</em>, vol. 3, no. 1 (2009), <a class="ExternalLink" href="https://www.fdic.gov/bank/analytical/quarterly/2009-vol3-1/fdic140-quarterlyvol3no1-afs-final.pdf"><span class="Hyperlink">https://www.fdic.gov/bank/analytical/quarterly/2009-vol3-1/fdic140-quarterlyvol3no1-afs-final.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Center for Responsible Lending, "New CRL Map Shows Excessive Payday Lending Interest Rates Still Plague Over Half of U.S. States," June 12, 2023, <a class="ExternalLink" href="https://www.responsiblelending.org/media/new-crl-map-shows-excessive-payday-lending-interest-rates-still-plague-over-half-us-states"><span class="Hyperlink">https://www.responsiblelending.org/media/new-crl-map-shows-excessive-payday-lending-interest-rates-still-plague-over-half-us-states</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> By contrast, medium- and longer-term fixed-rate loans frequently have amortization schedules that allow principal to be paid down, thus reducing interest costs on the outstanding balance.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Loans with excessive or hidden costs may be considered predatory if they contribute to borrowers' financial distress. Predatory lending practices may be considered fraudulent, deceptive, and unfair, but no consensus definition of a predatory loan exists. For a description of predatory lending features or practices discouraged by a financial institution regulator, see FDIC, "Predatory Lending: FDIC's Supervisory Policy on Predatory Lending," Financial Institution Letters FIL-6-2007, January 22, 2007, <a class="ExternalLink" href="https://www.fdic.gov/news/financial-institution-letters/2007/fil07006.html"><span class="Hyperlink">https://www.fdic.gov/news/financial-institution-letters/2007/fil07006.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Americans for Financial Reform, <em>Private Equity Piles </em><em>i</em><em>nto Payday Lending and Other Subprime Consumer Lending</em>, Private Equity Stakeholder Project, September 2017, <a class="ExternalLink" href="https://pestakeholder.org/wp-content/uploads/2017/10/PE-Investment-in-Payday-Installment-Lending-AFR-PESP-092817-with-links.pdf"><span class="Hyperlink">https://pestakeholder.org/wp-content/uploads/2017/10/PE-Investment-in-Payday-Installment-Lending-AFR-PESP-092817-with-links.pdf</span></a>; and Girard Miller, "Public Pensions: Double-Check Those 'Shadow Banker' Investments," <em>Governing</em>, August 8, 2023, <a class="ExternalLink" href="https://www.governing.com/finance/public-pensions-double-check-those-shadow-banker-investments"><span class="Hyperlink">https://www.governing.com/finance/public-pensions-double-check-those-shadow-banker-investments</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Raphael W. Bostic, "Trends in Equal Access to Credit Products," in <em>The Impact of Public Policy on Consumer Credit</em>, eds. Thomas Durkin and Michael Staten (Kluwer Academic, 2002), pp. 171-202; and Wendy M. Edelberg, "Risk-Based Pricing of Interest Rates in Household Loan Markets," Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2003-62, 2003. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Loan repayment histories of bank and credit union borrowers are generally reported to credit reporting bureaus. The maintenance histories of checking accounts are generally reported to specialty bureaus such as ChexSystems, <a class="ExternalLink" href="https://www.chexsystems.com/"><span class="Hyperlink">https://www.chexsystems.com/</span></a><span class="Hyperlink"></span>. Alternative financial service (AFS) providers may use consumer data (e.g., management of checking accounts, payment of telecommunications bills) to determine the likelihood of failure to repay small-dollar cash advances. Some AFS providers may choose to report payment history information to bureaus specializing in the underbanked, near-prime, and subprime consumer segments, including those with minimal recorded data. See Clarity Services, Inc., "About," <a class="ExternalLink" href="https://www.clarityservices.com/about/"><span class="Hyperlink">https://www.clarityservices.com/about/</span></a><span class="Hyperlink"></span><span class="Hyperlink">. Clarity Services</span> focuses on higher-risk borrowers and collects data from a range of financial service providers (e.g., auto financers, check cashers, prepaid card issuers, peer-to-peer micro lenders, small-dollar credit lenders). For more information, see CRS Report R44125, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44125"><em><span class="Hyperlink">Consumer and Credit Reporting, Scoring, and Related Policy Issues</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Borrowers may pay more for loans by not shopping for lower prices or from factors such as disparate treatment or discrimination, typically identified using statistical analyses similar to those used in depository-fair-lending exams.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See 12 C.F.R. Part 226, Appendix J.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Robert DeYoung et al., "Reframing the Debate About Payday Lending," <em>Liberty Street Economics</em> (blog), October 19, 2015, <a class="ExternalLink" href="http://libertystreeteconomics.newyorkfed.org/2015/10/reframing-the-debate-about-payday-lending.html"><span class="Hyperlink">http://libertystreeteconomics.newyorkfed.org/2015/10/reframing-the-debate-about-payday-lending.html</span></a>; and Randy Mitchelson, "Why APR Can Be Misleading," <em>Daily Dollar</em>, October 1, 2009, <a class="ExternalLink" href="http://dailydollarnewsletter.com/2009/10/01/why-apr-can-be-misleading/"><span class="Hyperlink">http://dailydollarnewsletter.com/2009/10/01/why-apr-can-be-misleading/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See American Financial Services Association Education Foundation, <em>Personal Loans 101: Understanding APR</em>, <a class="ExternalLink" href="http://afsaef.org/Portals/0/Resources/Understanding_APR1.pdf"><span class="Hyperlink">http://afsaef.org/Portals/0/Resources/Understanding_APR1.pdf</span></a><span class="Hyperlink">.</span> </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although INTFEES is held constant to illustrate the relationship among other variables, the INTFEES variable calculated for larger loans using larger principal balances and longer time periods would be expected to increase. Thus, total costs of a longer-term loan could still be equal to or greater than the total costs associated with SDLs, even after factoring in multiple rollovers.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Owen A. Lamont and Richard H. Thaler, "The Law of One Price in Financial Markets," <em>Journal of Economic Perspectives</em>, vol. 17, no. 4 (Fall 2003), pp. 191-202.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Similarly, luxury goods (e.g., cars, fashion, travel, entertainment) may be unaffordable for some consumers, yet luxury good providers may still be forced to price their products competitively to maintain the business of consumers who still aggressively shop for the best prices.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Data Point: Checking Account Overdraft</em>, July 2014, p. 11, <a class="ExternalLink" href="http://files.consumerfinance.gov/f/201407_cfpb_report_data-point_overdrafts.pdf"><span class="Hyperlink">http://files.consumerfinance.gov/f/201407_cfpb_report_data-point_overdrafts.pdf</span></a><span class="Hyperlink">; and </span>CFPB, "Trends in Overdraft/Non-Sufficient Fund (NSF) Fee Revenue and Practices," May 24, 2023, <a class="ExternalLink" href="https://www.consumerfinance.gov/data-research/research-reports/trends-in-overdraftnon-sufficient-fund-nsf-fee-revenue-and-practices/"><span class="Hyperlink">https://www.consumerfinance.gov/data-research/research-reports/trends-in-overdraftnon-sufficient-fund-nsf-fee-revenue-and-practices/</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A less-expensive product sometimes may depend on whether the loan amount is above or below a certain dollar threshold. See "Overdraft Fees vs Payday Loans: Which Costs Less?," <em>Payday Loans Reviews</em>, <a class="ExternalLink" href="http://paydayloansreviews.org/overdraft-fees-vs-payday-loans"><span class="Hyperlink">http://paydayloansreviews.org/overdraft-fees-vs-payday-loans</span></a>; and Kim Porter and Jessica Merritt, "How to Get a Cash Advance from Your Credit Card in 2026," <em>U.S. News &amp; World Report</em>, August 28, 2026, <a class="ExternalLink" href="https://money.usnews.com/credit-cards/articles/how-to-get-a-cash-advance-from-your-credit-card"><span class="Hyperlink">https://money.usnews.com/credit-cards/articles/how-to-get-a-cash-advance-from-your-credit-card</span></a>. AFS product usage increased with the rise in bank overdraft and insufficient funds fees (particularly at depositories with assets over $10 billion). See Andy Peters, "Cost of Overdrafts on Rise as Reg Action Looms," <em>American Banker</em>, October 18, 2016, <a class="ExternalLink" href="https://www.americanbanker.com/news/cost-of-overdrafts-on-rise-as-reg-action-looms"><span class="Hyperlink">https://www.americanbanker.com/news/cost-of-overdrafts-on-rise-as-reg-action-looms</span></a>; and Gregory B. Mills, <em>As the Recovery Progresses, Use of Nonbank Credit Rises</em>, Urban Institute, March 8, 2015, <a class="ExternalLink" href="https://www.urban.org/research/publication/recovery-progresses-use-nonbank-credit-rises"><span class="Hyperlink">https://www.urban.org/research/publication/recovery-progresses-use-nonbank-credit-rises</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R48858, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48858"><em><span class="Hyperlink">Buy Now, Pay Later: Policy Issues and Options for Congress</span></em></a>, by Karl E. Schneider and Paul Tierno.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Darryl E. Getter, "Consumer Credit Risk and Pricing," <em>Journal of Consumer Affairs</em>, vol. 40, no. 1 (Summer 2006), pp. 41-63.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Lisa Servon, "Are Banks Too Expensive to Use?," <em>New York Times</em>, October 29, 2014, <a class="ExternalLink" href="http://www.nytimes.com/2014/10/30/opinion/are-banks-too-expensive-to-use.html"><span class="Hyperlink">http://www.nytimes.com/2014/10/30/opinion/are-banks-too-expensive-to-use.html</span></a>; and Paola Boel and Peter Zimmerman, "Unbanked in America: A Review of the Literature," Federal Reserve Bank of Cleveland Economic Commentary 2022-07, May 26, 2022, <a class="ExternalLink" href="https://www.clevelandfed.org/publications/economic-commentary/2022/ec-202207-unbanked-in-america-a-review-of-the-literature"><span class="Hyperlink">https://www.clevelandfed.org/publications/economic-commentary/2022/ec-202207-unbanked-in-america-a-review-of-the-literature</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, approximately 43% of surveyed underbanked individuals—defined as those who hold a bank account but also utilize AFSs for certain products—reportedly use AFS loans because they are easier to qualify for than traditional bank loans. See Melissa Koide and Rachel Schneider, <em>Moving Forward: How Should We Serve the Short-Term Credit Needs of Low-Income Consumers?</em>, Harvard University Joint Center for Housing Studies, August 2, 2010, p. 10, <a class="ExternalLink" href="https://www.jchs.harvard.edu/research-areas/working-papers/moving-forward-how-should-we-serve-short-term-credit-needs-low-income"><span class="Hyperlink">https://www.jchs.harvard.edu/research-areas/working-papers/moving-forward-how-should-we-serve-short-term-credit-needs-low-income</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Federal Reserve Bank of Boston, "Alternative Financial Services Survey Findings," June 2023, <a class="ExternalLink" href="https://www.bostonfed.org/payments-innovation/inclusive-payments-resource-center/alternative-financial-services-survey.aspx"><span class="Hyperlink">https://www.bostonfed.org/payments-innovation/inclusive-payments-resource-center/alternative-financial-services-survey.aspx</span></a>; and Victor Stango, "Some New Evidence on Competition in Payday Lending Markets," <em>Contemporary Economic Policy</em>, vol. 30, no. 2 (April 2012), pp. 149-161.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Joe Pye, "Can't Afford the Basics? Many Americans Are Charging Them," <em>Debt.com</em>, October 26, 2026, <a class="ExternalLink" href="https://www.debt.com/news/can-t-afford-the-basics-many-americans-are-charging-them/"><span class="Hyperlink">https://www.debt.com/news/can-t-afford-the-basics-many-americans-are-charging-them/</span></a>; and Pew Charitable Trusts, <em>What Resources Do Families Have for Financial Emergencies?</em>, November 2015, <a class="ExternalLink" href="https://www.pew.org/-/media/assets/2015/11/emergencysavingsreportnov2015.pdf"><span class="Hyperlink">https://www.pew.org/-/media/assets/2015/11/emergencysavingsreportnov2015.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A credit score is a number—typically between 300 and 850—that estimates the likelihood of a borrower repaying a loan and making timely payments. A credit score 650 or higher is generally considered good, and the average consumer had a credit score slightly above 700 in 2025. (See Louis DeNicola and Peggy Bennett, "What Is a Good Credit Score?," Experian, <a class="ExternalLink" href="https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-is-a-good-credit-score/"><span class="Hyperlink">https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-is-a-good-credit-score/</span></a>.) Whether an SDL would increase a borrower's credit utilization rate depends on the loan size relative to a credit limit, but borrowers' perceptions influence their decisions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Mark Flannery and Katherine Samolyk, <em>Payday Lending: Do the Costs Justify the Price?</em>, FDIC Center for Financial Research Working Paper 2005-09, June 2005; and Aaron Huckstep, "Payday Lending: Do Outrageous Prices Necessarily Mean Outrageous Profits?," <em>Fordham Journal of Corporate &amp; Financial Law</em>, vol. 12, no. 1 (2007), pp. 202-231. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The CFPB found that 90% of annual loan fees were generated by consumers who borrowed money seven or more times, thus concluding that the payday business model depends<em> </em>on a large volume of reborrowing. Although Flannery and Samolyk also found that loan rollovers accounted for a large share of payday lender profits, their interpretation differed from that of the CFPB. Flannery and Samolyk concluded that industry profitability depends on maximizing loan volume per store, but their evidence does not show that repeat borrowers are more profitable on a per-loan basis than infrequent borrowers. Consequently, the relevant profitability factor for both depositories and AFS lenders is loan volume. Moreover, repeat borrowers may pose greater default risk and larger threats to profitability. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Payday lenders' profitability was diminished given their double-digit loan loss rates, which contrasted significantly with bank loss rates below 2% on outstanding loans over the same period. See Mark Flannery and Katherine Samolyk, <em>Payday Lending: Do the Costs Justify the Price?</em>, FDIC Center for Financial Research Working Paper 2005-09, June 2005. The authors' data were collected in 2002-2004. For bank loss rates, see Board of Governors of the Federal Reserve System, "Charge-Off and Delinquency Rates on Loans and Leases at Commercial Banks," August 25, 2026, <a class="ExternalLink" href="https://www.federalreserve.gov/releases/chargeoff/delallsa.htm"><span class="Hyperlink">https://www.federalreserve.gov/releases/chargeoff/delallsa.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Robert DeYoung et al., "Reframing the Debate About Payday Lending," <em>Liberty Street Economics</em> (blog), October 19, 2015, <a class="ExternalLink" href="http://libertystreeteconomics.newyorkfed.org/2015/10/reframing-the-debate-about-payday-lending.html"><span class="Hyperlink">http://libertystreeteconomics.newyorkfed.org/2015/10/reframing-the-debate-about-payday-lending.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Cristopher R. Knittel and Victor Stango, "Price Ceilings as Focal Points for Tacit Collusion: Evidence from Credit Cards," <em>American Economic Review</em>, vol. 93, no. 5 (December 2003), pp. 1703-1729.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Robert DeYoung and Ronnie J. Phillips, "Interest Rate Caps and Implicit Collusion: The Case of Payday Lending," <em>International Journal of Banking, Accounting, and Finance</em>, vol. 5, no. 1/2 (2013), pp. 121-158.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS In Focus, <em>Introduction to Financial Services: The Consumer Financial Protection Bureau (CFPB)</em>, by Karl E. Schneider and David H. Carpenter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "What Is a Payday Loan?," May 28, 2024, <a class="ExternalLink" href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-payday-loan-en-1567/"><span class="Hyperlink">https://www.consumerfinance.gov/ask-cfpb/what-is-a-payday-loan-en-1567/</span></a><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Merchant credit advances, which are similar in structure to payday loans, are structured as commercial transactions and, therefore, subject to the Uniform Commercial Code in each state instead of the Truth in Lending Act. See CRS Report R48281, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48281"><em><span class="Hyperlink">Consumer-Style Protections for Small Businesses: Issues and Options for Congress</span></em></a>, by Karl E. Schneider. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See National Conference of State Legislatures, "Payday Lending State Statutes," February 28, 2023, <a class="ExternalLink" href="https://www.ncsl.org/financial-services/payday-lending-state-statutes"><span class="Hyperlink">https://www.ncsl.org/financial-services/payday-lending-state-statutes</span></a>. In states without explicit payday lending statutes, lenders must comply with state usury caps that apply to all consumer loans.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Pricing practices such as <em>hair-trigger</em> <em>billing</em> and <em>double-cycle</em> <em>billing</em> effectively eliminated grace periods for credit card users carrying balances for additional billing cycle periods, resulting in higher finance charges. Borrowers may not have understood how to compute the additional finance charges or realized that they had forfeited their grace periods. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R46980, <a class="ExternalLink" href="http://www.crs.gov/Reports/R46980"><em><span class="Hyperlink">Single-Family Mortgage Pricing and Primary Market Policy Issues</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 12 U.S.C. §5531. For information about the CFPB and UDAAP, see CRS Legal Sidebar WSLG1747, <a class="ExternalLink" href="http://www.crs.gov/LegalSidebar/details/1747"><em><span class="Hyperlink">Is the CFPB Subject to Time Limits when Enforcing Consumer Laws in an Administrative Forum?</span></em></a>, by David H. Carpenter. For information about state UDAAP laws, see Carolyn L. Carter, <em>Consumer Protection in the States: A 50-State Report on Unfair and Deceptive Acts and Practices Statutes</em>, National Consumer Law Center, February 2009.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFBP, "Marketing of Credit Card Add-On Products," CFPB Bulletin 2012-06, July 18, 2012, <a class="ExternalLink" href="http://files.consumerfinance.gov/f/201207_cfpb_marketing_of_credit_card_addon_products.pdf"><span class="Hyperlink">http://files.consumerfinance.gov/f/201207_cfpb_marketing_of_credit_card_addon_products.pdf</span></a>; and CFPB, "Interpretive Rules, Policy Statements, and Advisory Opinions; Withdrawal," 90<em> Federal Register</em> 20087, May 12, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This regulatory approach may also serve as an example of a disclosure or product feature requirement.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Annie Millerbernd and Jackie Veling, "What Are Usury Laws? See Your State's Maximum Loan APR," <em>NerdWallet</em>, March 6, 2026, <a class="ExternalLink" href="https://www.nerdwallet.com/personal-loans/learn/usury-laws"><span class="Hyperlink">https://www.nerdwallet.com/personal-loans/learn/usury-laws</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Lauren Saunders, "Why Cap Interest Rates at 36%?," National Consumer Law Center, April 2021, <a class="ExternalLink" href="https://www.nclc.org/images/pdf/pr-reports/why36pct.pdf"><span class="Hyperlink">https://www.nclc.org/images/pdf/pr-reports/why36pct.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 1027(o) of the Dodd-Frank Act.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Consumer Federation of America, "Predatory Lending Protections for Service Members," <a class="ExternalLink" href="https://consumerfed.org/media/legacy/post_3045/MIL-Fact-Sheet-Final-Regs.pdf"><span class="Hyperlink">https://consumerfed.org/media/legacy/post_3045/MIL-Fact-Sheet-Final-Regs.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "CFPB Statement on Department of Defense Military Lending Act Final Rule," press release, July 21, 2015, <a class="ExternalLink" href="http://www.consumerfinance.gov/about-us/newsroom/cfpb-statement-on-department-of-defense-military-lending-act-final-rule/"><span class="Hyperlink">http://www.consumerfinance.gov/about-us/newsroom/cfpb-statement-on-department-of-defense-military-lending-act-final-rule/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Department of Defense, "Limitations on Terms of Consumer Credit Extended to Service Members and Dependents," 80<em> Federal Register</em> 43560, July 22, 2015. The Department of Defense is currently "using a secondary Department of War designation" under Executive Order 14347 of September 5, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Granting safe harbor in this context means that a lender's conduct is deemed compliant with the law if the Military Lending Act (MLA) database was used to determine whether the borrower was eligible for MLA protections. For more information on the Department of Defense's Manpower Data Center Database, see Department of Defense, "Military Lending Act (MLA) Website," <a class="ExternalLink" href="https://mla.dmdc.osd.mil/"><span class="Hyperlink">https://mla.dmdc.osd.mil/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R46360, <a class="ExternalLink" href="http://www.crs.gov/Reports/R46360"><em><span class="Hyperlink">The Credit Union System: Lending Activities and Selected Regulatory Developments</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Prepared Remarks of CFPB Director Richard Cordray at the Field Hearing on Payday Lending," press release, March 26, 2015, <a class="ExternalLink" href="https://www.consumerfinance.gov/about-us/newsroom/prepared-remarks-of-cfpb-director-richard-cordray-at-the-field-hearing-on-payday-lending/"><span class="Hyperlink">https://www.consumerfinance.gov/about-us/newsroom/prepared-remarks-of-cfpb-director-richard-cordray-at-the-field-hearing-on-payday-lending/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Without the exemption, compliance with military APR (MAPR)—based on the general APR formula—would require either increasing the loan amounts or subtracting fees from the total calculation. In accordance with the MAPR exemption, payday alternative loan (PAL) amounts may range from $200 to $1,000, they must have fully amortizing payments, the term length must range from at least 46 to 180 days, and the application fee cannot be more than $20. See Department of Defense, "Limitations on Terms of Consumer Credit Extended to Service Members and Dependents," 80<em> Federal Register</em> 43563-43564, July 22, 2015. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See FDIC, "Issuance of Final Rule Implementing the Military Lending Act," Financial Institution Letters FIL-37-2015, September 8, 2015, <a class="ExternalLink" href="https://www.fdic.gov/news/financial-institution-letters/2015/fil15037.html#continuation"><span class="Hyperlink">https://www.fdic.gov/news/financial-institution-letters/2015/fil15037.html#continuation</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A conventional mortgage is one that is eligible for purchase by Fannie Mae and Freddie Mac. For more information on the standardization initiatives, see CRS Report R46746, <a class="ExternalLink" href="http://www.crs.gov/Reports/R46746"><em><span class="Hyperlink">Fannie Mae and Freddie Mac: Conservatorship Status and Related Directives</span></em></a>, by Darryl E. Getter. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R46980, <a class="ExternalLink" href="http://www.crs.gov/Reports/R46980"><em><span class="Hyperlink">Single-Family Mortgage Pricing and Primary Market Policy Issues</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 82<em> Federal Register</em> 54472-54921, November 17, 2017; and Leonard N. Chanin et al., "The CFPB's Payday Lending Rulemaking Is Here with Sweeping Implications for the Short-Term Credit Industry," Morrison Foerster, June 3, 2016, <a class="ExternalLink" href="https://www.lexology.com/library/detail.aspx?g=2db652df-7eb7-425c-b1e4-ea3261b392a8"><span class="Hyperlink">https://www.lexology.com/library/detail.aspx?g=2db652df-7eb7-425c-b1e4-ea3261b392a8</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "One of the primary purposes of this rule is to prevent consumers from falling into long-term re-borrowing cycles that result from loans with unaffordable payments. The [CFPB] concludes that the rule would fall far short of one of its chief purposes of preventing the risks and harms associated with unaffordable loans if § 1041.6 [of Title 12 of the <em>Code of Federal Regulations</em>] were to allow re-borrowing to create extended loan sequences in the period immediately after a 3-loan sequence has just been completed." See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 82<em> Federal Register</em> 54710, November 17, 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 82<em> Federal Register</em> 54472, November 17, 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See "Key Milestones" in CFPB, "Payday Loan Protections," July 18, 2023, <a class="ExternalLink" href="https://www.consumerfinance.gov/payday-rule/#:~:text=key%20milestones"><span class="Hyperlink">https://www.consumerfinance.gov/payday-rule/#:~:text=key%20milestones</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85<em> Federal Register</em> 44382, July 22, 2020.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "CFPB Offers Regulatory Relief for Small Loan Providers," press release, March 28, 2025, <a class="ExternalLink" href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-regulatory-relief-for-small-loan-providers/"><span class="Hyperlink">https://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-regulatory-relief-for-small-loan-providers/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Specifically, economists use the term <em>deadweight loss</em>, referring to the reduction in mutually beneficial transactions that occur when market distortions (e.g., a regulatory policy) prevent prices and quantities from settling at their undistorted market-generated values. See N. Gregory Mankiw, "Application: The Costs of Taxation," in <em>Principles of Microeconomics</em>, 10<sup>th</sup> ed. (Cengage, 2024). </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 81<em> Federal Register</em> 48122, July 2, 2016.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> According to private-sector estimates, the decline in loan volume would be 82.5%, and lender revenues would decline by 90.5%. See Arthur Baines et al., <em>Economic Impact on Storefront Lenders of the Payday Lending Rules Proposed by the CFPB</em>, Charles River Associates, October 7, 2016, <a class="ExternalLink" href="https://www.crai.com/sites/default/files/publications/Economic-Impact-on-Storefront-Lenders-of-the-Payday-Lending-Rules-Proposed-by-the-CFPB.pdf"><span class="Hyperlink">https://www.crai.com/sites/default/files/publications/Economic-Impact-on-Storefront-Lenders-of-the-Payday-Lending-Rules-Proposed-by-the-CFPB.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Consumer Financial Protection Bureau Proposes Rule to End Payday Debt Traps," press release, June 2, 2016, <a class="ExternalLink" href="http://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-proposes-rule-end-payday-debt-traps/"><span class="Hyperlink">http://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-proposes-rule-end-payday-debt-traps/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> According to the American Financial Services Association, which is the national trade association for the consumer credit industry, loan amounts generally must be $2,500 or higher to justify the cost of underwriting. See Kate Berry, "Will Installment Loans Get Painted with CFPB's Payday Brush?," <em>American Banker</em>, October 18, 2016, <a class="ExternalLink" href="https://www.americanbanker.com/news/will-installment-loans-get-painted-with-cfpbs-payday-brush"><span class="Hyperlink">https://www.americanbanker.com/news/will-installment-loans-get-painted-with-cfpbs-payday-brush</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See The Pew Charitable Trusts, <em>Understanding the CFPB Proposal for Payday and Other Small Loans</em>, July 2015, <a class="ExternalLink" href="https://www.pew.org/-/media/assets/2015/07/cfpb-primer.pdf"><span class="Hyperlink">https://www.pew.org/-/media/assets/2015/07/cfpb-primer.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Arthur Baines et al., <em>Economic Impact on Storefront Lenders of the Payday Lending Rules Proposed by the CFPB</em>, Charles River Associates, October 7, 2016, <a class="ExternalLink" href="https://www.crai.com/sites/default/files/publications/Economic-Impact-on-Storefront-Lenders-of-the-Payday-Lending-Rules-Proposed-by-the-CFPB.pdf"><span class="Hyperlink">https://www.crai.com/sites/default/files/publications/Economic-Impact-on-Storefront-Lenders-of-the-Payday-Lending-Rules-Proposed-by-the-CFPB.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85<em> Federal Register</em> 44395-44398, July 22, 2020.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85<em> Federal Register</em> 44424, July 22, 2020.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 85<em> Federal Register</em> 44414, July 22, 2020.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Jessica N. Flagg and Simona M. Hannon, "Small-Dollar Loans in the U.S.: Evidence from Credit Bureau Data," <em>FEDS Notes</em>, July 19, 2024, <a class="ExternalLink" href="https://www.federalreserve.gov/econres/notes/feds-notes/small-dollar-loans-in-the-us-evidence-from-credit-bureau-data-20240719.html"><span class="Hyperlink">https://www.federalreserve.gov/econres/notes/feds-notes/small-dollar-loans-in-the-us-evidence-from-credit-bureau-data-20240719.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The percentage of individuals with credit scores at or below 659 may be correlated with overall macroeconomic performance, meaning that lending to high-risk borrowers may increase during expansionary periods and contract during recessions. For this reason, the CARD Act may not be the sole factor influencing bank offerings of subprime credit cards. See Graham Campbell et al., "Just Released: Recent Developments in Consumer Credit Card Borrowing," <em>Liberty Street Economics</em> (blog), August 9, 2016, <a class="ExternalLink" href="http://libertystreeteconomics.newyorkfed.org/2016/08/just-released-recent-developments-in-consumer-credit-card-borrowing.html"><span class="Hyperlink">http://libertystreeteconomics.newyorkfed.org/2016/08/just-released-recent-developments-in-consumer-credit-card-borrowing.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Office of the Comptroller of the Currency, "Office of the Comptroller of the Currency Releases Guidance on Deposit Advance Products," press release, April 25, 2013, <a class="ExternalLink" href="http://www.occ.gov/news-issuances/news-releases/2013/nr-occ-2013-69.html"><span class="Hyperlink">http://www.occ.gov/news-issuances/news-releases/2013/nr-occ-2013-69.html</span></a><span class="Hyperlink">; </span>FDIC, "FDIC Issues Proposed Guidance on Deposit Advance Products," press release, April 25, 2013, <a class="ExternalLink" href="https://archive.fdic.gov/view/fdic/4784"><span class="Hyperlink">https://archive.fdic.gov/view/fdic/4784</span></a><span class="Hyperlink">; and </span>Board of Governors of the Federal Reserve System, "Statement on Deposit Advance Products," press release, April 25, 2013, <a class="ExternalLink" href="https://www.federalreserve.gov/supervisionreg/caletters/CA13-07attachment.pdf"><span class="Hyperlink">https://www.federalreserve.gov/supervisionreg/caletters/CA13-07attachment.pdf</span></a>.<span class="Hyperlink"> </span>The FDIC released final guidance on direct deposit advances. See FDIC, "Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products," 78<em> Federal Register</em> 70624, November 26, 2013, <a class="ExternalLink" href="http://www.fdic.gov/news/news/press/2013/pr13105a.pdf"><span class="Hyperlink">http://www.fdic.gov/news/news/press/2013/pr13105a.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> While reminding banks of their vulnerability to various risks (e.g., credit, reputational, legal) and potential compliance violations (e.g., Truth in Lending Act, Truth in Savings Act, Equal Credit Opportunity Act, Electronic Fund Transfer Act), the federal banking agencies listed their expectations with respect to loan classification policies, underwriting and administration policies, the length of customer relationships, and customer credit histories.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Deposit advance products raise prudential concerns about maintaining the sufficiency of loan loss reserves. If delinquency and default risks rise, depository institutions must treat the outstanding loan balances as charge-offs, recognizing the repayment obligations as uncollectible and subsequently deducting them from loan loss reserves. Open-end loans, such as credit card balances, must be charged off after becoming 180 days overdue. When overdrafts are not repaid within 60 days, depositories must charge off the unpaid balances; credit unions must establish repayment plans not exceeding 45 days. See Office of the Comptroller of the Currency et al., "Joint Guidance on Overdraft Protection Programs," February 18, 2005, <a class="ExternalLink" href="http://www.federalreserve.gov/boarddocs/SRLETTERS/2005/SR0503a1.pdf"><span class="Hyperlink">http://www.federalreserve.gov/boarddocs/SRLETTERS/2005/SR0503a1.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Danielle Douglas, "Wells Fargo, U.S. Bank to End Deposit Advance Loans, Citing Tougher Regulation," <em>Washington Post</em>, January 17, 2014, <a class="ExternalLink" href="https://www.washingtonpost.com/business/economy/wells-fargo-us-bank-to-end-payday-loans-citing-tougher-regulation/2014/01/17/b65f0512-7f82-11e3-93c1-0e888170b723_story.html"><span class="Hyperlink">https://www.washingtonpost.com/business/economy/wells-fargo-us-bank-to-end-payday-loans-citing-tougher-regulation/2014/01/17/b65f0512-7f82-11e3-93c1-0e888170b723_story.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information about the CAMELS rating system, which is designed to ensure that depository institutions have sound risk management practices, see Federal Financial Institutions Examination Council, "Uniform Financial Institutions Rating System," 91<em> Federal Register</em> 29128, May 19, 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See OCC, "Acting Comptroller of the Currency Rescinds Deposit Advance Product Guidance," News Release 2017-118, October 5, 2017, <a class="ExternalLink" href="https://www.occ.gov/news-issuances/news-releases/2017/nr-occ-2017-118.html"><span class="Hyperlink">https://www.occ.gov/news-issuances/news-releases/2017/nr-occ-2017-118.html</span></a>; and FDIC, "Notice of Rescission of the Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products," 85<em> Federal Register</em> 44685, July 24, 2020.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See OCC, "Small-Dollar Lending: Interagency Lending Principles for Offering Responsible Small-Dollar Loans," OCC Bulletin 2020-54, May 20, 2020, <a class="ExternalLink" href="https://www.occ.gov/news-issuances/bulletins/2020/bulletin-2020-54.html"><span class="Hyperlink">https://www.occ.gov/news-issuances/bulletins/2020/bulletin-2020-54.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Board of Governors of the Federal Reserve System, "Credit Availability—Interagency Lending Principles for Offering Responsible Small-Dollar Loans," May 20, 2020, <a class="ExternalLink" href="https://www.federalreserve.gov/frrs/guidance/interagency-lending-principles-for-offering-responsible-small-dollar-loans.htm"><span class="Hyperlink">https://www.federalreserve.gov/frrs/guidance/interagency-lending-principles-for-offering-responsible-small-dollar-loans.htm</span></a>; and National Credit Union Administration, "Interagency Lending Principles for Offering Responsible Small-Dollar Loans," press release, March 26, 2020, <a class="ExternalLink" href="https://ncua.gov/newsroom/press-release/2020/federal-agencies-share-principles-offering-responsible-small-dollar-loans/interagency-lending-principles-offering-responsible-small-dollar-loans"><span class="Hyperlink">https://ncua.gov/newsroom/press-release/2020/federal-agencies-share-principles-offering-responsible-small-dollar-loans/interagency-lending-principles-offering-responsible-small-dollar-loans</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Greg Baer, <em>Not Enough Small-Dollar Lending by Banks? The GAO Points the Finger</em>, Bank Policy Institute, March 29, 2022, <a class="ExternalLink" href="https://bpi.com/wp-content/uploads/2022/03/Not-Enough-Small-Dollar-Lending-by-Banks-The-GAO-Points-the-Finger.pdf"><span class="Hyperlink">https://bpi.com/wp-content/uploads/2022/03/Not-Enough-Small-Dollar-Lending-by-Banks-The-GAO-Points-the-Finger.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn86" name="fn86">86</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For information about banks reducing their exposure to higher-risk consumers while partnering with nonbank lenders, see Gregory Elliehausen and Simona M. Hannon, "FinTech and Banks: Strategic Partnerships That Circumvent State Usury Laws," Board of Governors of the Federal Reserve System, October 2023, <a class="ExternalLink" href="https://www.federalreserve.gov/econres/feds/fintech-and-banks-strategic-partnerships-that-circumvent-state-usury-laws.htm"><span class="Hyperlink">https://www.federalreserve.gov/econres/feds/fintech-and-banks-strategic-partnerships-that-circumvent-state-usury-laws.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn87" name="fn87">87</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For information about the Community Reinvestment Act, see CRS Report R48096, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48096"><em><span class="Hyperlink">Modernization of the Community Reinvestment Act</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn88" name="fn88">88</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See FDIC, "A Template for Success: The FDIC's Small-Dollar Loan Pilot Program," <em>FDIC Quarterly</em>, vol. 4, no. 2 (2010), <a class="ExternalLink" href="https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2010-vol4-2/fdic-quarterly-vol4no2-smalldollar.pdf"><span class="Hyperlink">https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2010-vol4-2/fdic-quarterly-vol4no2-smalldollar.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn89" name="fn89">89</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Figure 1 in FDIC, "A Template for Success: The FDIC's Small-Dollar Loan Pilot Program," <em>FDIC Quarterly</em>, vol. 4, no. 2 (2010). </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn90" name="fn90">90</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Kevin Wack, "Five Reasons Why Small-Dollar Credit Is So Expensive," <em>American Banker</em>, August 7, 2013, <a class="ExternalLink" href="http://www.americanbanker.com/issues/178_146/five-reasons-why-small-dollar-credit-is-so-expensive-1060965-1.html"><span class="Hyperlink">http://www.americanbanker.com/issues/178_146/five-reasons-why-small-dollar-credit-is-so-expensive-1060965-1.html</span></a>; and Dennis Shaul, "Banks Stepping into Payday Lenders' Shoes? I'm Not Buying It," <em>American Banker</em>, May 17, 2016, <a class="ExternalLink" href="http://www.americanbanker.com/bankthink/banks-stepping-into-payday-lenders-shoes-im-not-buying-it-1081011-1.html"><span class="Hyperlink">http://www.americanbanker.com/bankthink/banks-stepping-into-payday-lenders-shoes-im-not-buying-it-1081011-1.html</span></a><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+</table>
+</div>
+</div>

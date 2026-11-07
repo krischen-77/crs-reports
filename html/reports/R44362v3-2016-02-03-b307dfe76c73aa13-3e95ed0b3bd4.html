@@ -1,0 +1,870 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R44362.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Post-Committee Adjustment in the Modern House: The Use of Rules Committee Prints</div>
+<div class="CoverDate">Updated February 3, 2016
+            (R44362)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc442353281"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc442353282"><span class="Hyperlink">Business on the House Floor: The Role of the Rules Committee and "Special Rules"</span></a></li>
+<li class="TOC1"><a href="#_Toc442353283"><span class="Hyperlink">Selecting a Base Text for House Floor Consideration</span></a></li>
+<li class="TOC1"><a href="#_Toc442353284"><span class="Hyperlink">Identifying Post-Committee Adjustments in Rules Committee Prints</span></a></li>
+<li class="TOC1"><a href="#_Toc442353285"><span class="Hyperlink">Quantifying Post-Committee Adjustments in Rules Committee Prints</span></a></li>
+<li class="TOC1"><a href="#_Toc442353286"><span class="Hyperlink">Concluding Observations</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc442353275"><span class="Hyperlink">Figure 1. A Rules Committee Print</span></a></li>
+<li><a href="#_Toc442353276"><span class="Hyperlink">Figure 2. Precursor to a Print Rule</span></a></li>
+<li><a href="#_Toc442353277"><span class="Hyperlink">Figure 3. A Print Rule</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc442353278"><span class="Hyperlink">Table 1. Number and Percentage of Print Rules</span></a></li>
+<li><a href="#_Toc442353279"><span class="Hyperlink">Table 2. Sections Included in Rules Prints and Reported Bills</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Floor proceedings in the U.S. House of Representatives often begin on the basis of legislation reported from committee. In some instances, adjustments to committee recommendations are made and a new legislative text is presented for chamber consideration. These "post-committee adjustments" are not new to the House, but the frequency of their use and the mechanics of executing them have changed in recent years. It is now common for legislative adjustments to be reflected in a "Rules Committee print" that is established as the base text at the outset of floor consideration (in lieu of a committee-reported version) by way of a "special rule" reported by the Rules Committee and adopted by the House. Many Rules prints contain the same language found in committee-reported bills, while others may include slight or significant revisions to the reported text.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report examines the use of Rules prints as a way of executing post-committee adjustments to measures reported from committee. It begins with a discussion of how legislation gets considered on the House floor, the important role of the Rules Committee in organizing the chamber's business, and the mechanics of how special rules can modify legislation following the committee stage of proceedings. The report then explains the language the Rules Committee uses to communicate to Members and staff the magnitude and policy significance of textual changes contained in a Rules print, and it assesses the degree to which post-committee adjustments have been made in this context.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">House leadership and the Rules Committee have made increasing use of Rules prints in recent years as the textual basis for floor debate and amendment. The first identified use of a Rules print for the purpose of post-committee adjustment occurred in July 1999, but this practice did not become routine until the 112<sup>th</sup> Congress (2011-2012). Early Rules prints appear to have modified bills to about the same degree as in recent Congresses, but a noticeable drop in post-committee adjustment during the 113<sup>th</sup> Congress (2013-2014) suggests a continued evolution in the use of Rules prints for this purpose. Overall, of the 82 Rules prints examined here, 44 of them contained some kind of modification to a committee-reported bill.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To be sure, Rules prints can accomplish any number of purposes that may or may not require textual adjustments to committee-reported bills. For instance, when policy or jurisdictional disputes arise between or among committees, a Rules print may include language that reflects the outcome of negotiations involving committee chairs and the majority leadership. Rules prints can also expand the scope of subject matter Members consider on the floor by combining two or more committee-reported bills in a single print. Prints can expedite House business by presenting legislative text for debate and amendment at an earlier stage in the legislative process than would otherwise be possible, and they can lend certainty to floor proceedings by reducing the time it takes after a committee reports a measure for its text to become available to Members and the general public. A Rules print may also modify reported text in order to broaden support for the proposal among Members.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Making in order a Rules print as the legislative baseline for House floor consideration can be understood as a procedural tool to manage uncertainty on the House floor and enhance majority leadership control over the substance of policy the House considers. The use of Rules prints is a logical extension of past procedural innovations and should not be viewed as constituting a significant departure in the way the House conducts its business. Differences in how this current practice has evolved from previous methods of setting a base text for House floor consideration are highlighted throughout the report. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">"Talk to leadership, it's their strategy," Chairman Bill Shuster (R-PA) suggested to the reporter asking why changes were made to a surface transportation bill (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a>, the "highway bill") after it left his committee but before it was brought to the House floor for debate.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='Kellie Mejdrich, "House Highway Bill Strategy Opens Window for Ex-Im Bank Renewal," CQ News , October 28, 2015.'>1</a></sup> The Transportation and Infrastructure Committee had completed its work the previous week on a six-year plan for the construction and maintenance of highway, rail, and mass transit projects, but before being called up for chamber consideration the committee-approved text of the bill was adjusted to include provisions that fell outside the policy jurisdiction of Chairman Shuster's committee. The modified version of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a> reduced by $9 billion the amount of money available for new construction projects, and it included funding mechanisms contained in the Senate's version of the highway bill (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.22:"><span class="Hyperlink">H.R. 22</span></a>) that some Members thought would not add up.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='Tom Curry, "House Panel Approves Six-Year Highway Bill; Funds in Question," CQ News , October 22, 2015. See also Memorandum to Rules Chairman Pete Sessions, "Cost Estimate for Rules Committee Print 114-32," Congressional Budget Office , October 30, 2015.'>2</a></sup> "I'm deeply discouraged by the phony pay-fors" remarked Reid Ribble (R-WI), a member of the House Transportation Committee.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='Kellie Mejdrich, "Senate Clears Five-Year Highway Bill, Ex-Im Renewal," CQ News , December 3, 2015. A budgetary "pay-for" (or "offset") is a provision of a bill that either raises revenue to pay for the new spending or reduces spending in less-prioritized areas. Federal transportation projects are funded primarily by the Highway Trust Fund (and the gasoline taxes that go into it), but additional money was needed beyond what the Trust Fund could provide to keep H.R. 3763 deficit-neutral; hen...'>3</a></sup> In addition, while the committee version of the bill would have allowed the Federal Transit Administration (FTA) to oversee public transit systems that failed to meet minimum safety standards specified by law, that provision was not included in the version put before the House.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The strategy Chairman Shuster was alluding to involved a plan by the House majority leadership to bring the revenue provisions of the House committee version of the bill more in line with those in the Senate's version, while preserving the policy language of the committee's bill in anticipation of conference committee negotiations with the Senate.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="Strategically, by narrowing the range of differences between House- and Senate-passed versions of a bill, House leaders can structure opportunities for compromise that might arise in conference and perhaps make them easier to achieve. (A conference committee is a temporary joint committee created for the sole purpose of reconciling differences between House and Senate versions of a bill.) House Rule XXII and Senate Rule XXVIII require conference reports—which embody the product of compromises...">4</a></sup> So, after <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a> was reported from committee, the bill was modified and a new version was presented on the House floor in the form of Rules Committee Print 114-32.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='A "committee print" is a generic term used to describe a document published by a congressional committee. Committee prints are often numbered based on the Congress during which they were published and the order in which a committee produced them. For instance, Rules Print 114-32 was the 32 nd print drafted by the Rules Committee during the 114 th Congress. Prints of all committees are available online from the Government Publishing Office, at http://www.gpo.gov/fdsys/browse/collection.ac...'>5</a></sup> (The title page of Rules Print 114-32 is illustrated in <strong><a class="InternalLink" href="#_Ref417650826"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong>.) Most provisions of Rules Print 114-32 included the exact language recommended by the Transportation Committee, but in what has become common practice in recent decades, House majority leadership, in concert with the Rules Committee, made "post-committee adjustments" to the reported bill by way of a "special rule" recommended by the Rules Committee and adopted by the whole House. (Special rules are discussed shortly.) Rather than establishing the committee-reported version of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a> as the legislative text for House floor consideration, the special rule made the Rules print version of the bill in order instead. Moreover, the rule did not provide for debate or a separate vote to take place on whether the post-committee adjustments should remain a part of the text. Adoption of the special rule meant that those adjustments were made automatically when floor consideration of the highway bill commenced.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref417650826"></a><a name="_Toc426621905"></a><a name="_Toc438031321"></a><a name="_Toc438031725"></a><a name="_Toc438034852"></a><a name="_Toc438035061"></a><a name="_Toc438035099"></a><a name="_Toc438035324"></a><a name="_Toc438035433"></a><a name="_Toc438125142"></a><a name="_Toc438197471"></a><a name="_Toc438457890"></a><a name="_Toc439939171"></a><a name="_Toc440271417"></a><a name="_Toc440981942"></a><a name="_Toc441134651"></a><a name="_Toc441825478"></a><a name="_Toc442285584"></a><a name="_Toc442352510"></a><a name="_Toc442353275"></a>Figure 1. A Rules Committee Print</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R44362_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong> </strong><strong>Source: </strong>Government Publishing Office (GPO).</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Post-committee adjustments may be made in a number of ways procedurally and for a variety of reasons politically. Congressional scholar Barbara Sinclair succinctly explains the methods the House often uses to effect a post-committee adjustment:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After a bill has been reported from committee, supporters often make substantive adjustments ... Rarely will legislation be taken back to committee for formal revision. Much more frequently, changes will be negotiated and then incorporated into a substitute bill or an amendment—often called a manager's amendment because it will be offered by the [majority] floor manager. The substitute may supersede the committee bill and become the version (called the base bill) taken to the House floor, or it may be incorporated into the committee bill by the rule; alternatively, the substitute or the amendment may be offered by supporters on the floor.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Barbara Sinclair, Unorthodox Lawmaking: New Legislative Processes in the U.S. Congress , 4 th ed. (Washington, DC: CQ Press, 2012), 21.">6</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the case of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a>, the aforementioned highway bill, adjustments to the reported text were presented to the House as Rules Print 114-32, a full-text "substitute amendment" to the Senate's version of the highway bill.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="The Senate had previously amended and approved H.R. 22 , an unrelated House-passed bill, as its version of the surface transportation bill.">7</a></sup> This approach of establishing a Rules Committee print as the baseline text for consideration on the floor is an increasingly common method by which post-committee adjustments are made. In some instances, as was the case with <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a>, the text of a Rules print is considered as an amendment to the text of a committee-reported bill, and may itself be subject to further amendment, while in other instances the text of a Rules print is automatically incorporated (or "self-executed") into the reported bill through a vote on the special rule governing the measure's consideration. In the view of a former House Parliamentarian:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This [post-committee adjustment] technique has taken hold more frequently in contemporary Congresses as measures emerging from committees are sometimes extensively rewritten, often with additional and non-germane matter, merely by a vote on the special order of business resolution and not by the traditional presentation and vote on separate amendments following the standing committee stage.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="William McKay and Charles W. Johnson, Parliament &amp; Congress: Representation and Scrutiny in the Twenty-First Century (New York: Oxford University Press, 2010), 428.">8</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Historically, the House has initiated floor debate on the basis of committee-reported legislation. Congressional hearings, oversight activities, and relatively stable memberships allow committees to develop policy expertise on issues within their jurisdiction. In recent Congresses, it has become increasingly common for the House to begin floor proceedings with the text of a Rules print drafted by the Rules Committee in consultation with the House majority leadership and the relevant committees. In many cases the language of the print is the same as the committee-reported bill(s), but in some instances the text is modified before it reaches the floor.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report examines the use of Rules prints as a method of executing post-committee adjustments from both a qualitative and quantitative perspective. The first section of the report summarizes how legislation gets considered on the House floor and the important role the Rules Committee plays in organizing the chamber's business. Section two describes the procedural evolution in how special rules from the Rules Committee have made post-committee adjustments to legislation. Section three presents a qualitative assessment of the language the Rules Committee uses to communicate to Members and staff the magnitude and policy significance of textual changes contained in a Rules print. Section four assesses the degree to which post-committee adjustments have been made in this context by comparing the number of sections contained in Rules Committee prints to the number of sections within the corresponding reported bill(s) across all Rules prints made in order since the 106<sup>th</sup> Congress (1999-2000). Section five offers concluding observations.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc438031326"></a><a name="_Toc438031730"></a><a name="_Toc438034857"></a><a name="_Toc438035067"></a><a name="_Toc438035106"></a><a name="_Toc438035331"></a><a name="_Toc438035440"></a><a name="_Toc438125149"></a><a name="_Toc438197478"></a><a name="_Toc438457897"></a><a name="_Toc439939178"></a><a name="_Toc440271424"></a><a name="_Toc440981949"></a><a name="_Toc441134658"></a><a name="_Toc441825485"></a><a name="_Toc442285591"></a><a name="_Toc442352517"></a><a name="_Toc442353282"></a>Business on the House Floor: The Role of the Rules Committee and "Special Rules"</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Floor time for legislation is a precious commodity in the workload-packed and deadline-driven environment on Capitol Hill. Thousands of legislative proposals are introduced each Congress, many of which are considered by one or more congressional committees, but only a relative few are brought to the House floor for consideration by the entire body. Congress simply lacks the time necessary to consider every measure its Members introduce or its committees report. Choices must therefore be made regarding what proposals the House will consider, when it will do so, and under what (if any) procedural limitations on floor debate and amendment. It makes little sense for the House to consider bills or resolutions in the order in which its committees report them, for such an automatic procedure would disregard differences in the importance and urgency of various bills and make it impossible for the House to meet deadlines, such as the enactment into law of the 12 annual appropriations bills by the beginning of the new fiscal year.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="With a relatively light workload compared to today, early Congresses did in fact consider measures in the order they were reported from committee and placed on the legislative calendar. This method of setting the chamber's agenda endured into the 1880s, at which point crowded calendars made it difficult for the House to reach legislation it wished to consider. Expressing widespread frustration with the House's reliance on legislative calendars, Representative Francis Cushman (R-WA) had this to...">9</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to constraints imposed by time, House Rule XIV prescribes a daily order of business to occur on the chamber floor unless the House decides otherwise (as it often does). For action to happen in contravention of Rule XIV, privilege must be conferred to the measure the House wishes to consider. Privilege in this context refers to the special legislative status accorded to a limited class of measures that can be called up for floor consideration at any time—interrupting the order of business specified in Rule XIV—so long as another matter is not already pending before the chamber.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are three main ways bills obtain privilege and become eligible for floor consideration. First, various House rules confer privilege to certain kinds of measures reported by specific committees. Privileged measures include appropriations bills reported by the Appropriations Committee, budget resolutions and reconciliation bills written by the Budget Committee, resolutions reported by the Ethics Committee that sanction Members for bad behavior, measures recommended by the House Administration Committee that address matters such as contested elections and internal expenditures of the House and its committees, and proposals from the Rules Committee either to amend the standing rules of the House or to affect the order of business on the House floor.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Although appropriations bills, budget resolutions, reconciliation legislation, and conference reports are privileged for consideration under the standing rules of the House, in modern practice those measures usually come to the floor by way of a special rule from the Rules Committee.">10</a></sup> The House rulebook grants these measures privileged access to the floor due to their special importance to the House's ability to meet its constitutional responsibilities.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Second, House Rule XV makes in order certain kinds of legislative business on designated days of each week or month. On those particular days, Rule XV allows specific categories of legislation to become privileged for floor consideration. The most common of these special procedures is suspension of the rules. On Mondays, Tuesdays, and Wednesdays of each week, motions are in order to suspend House rules and pass individual bills or take other legislative actions.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="See clause 1 of House Rule XV. For more on suspensions procedure, see CRS Report 98-314, Suspension of the Rules in the House: Principal Features , by Elizabeth Rybicki .">11</a></sup> Motions to discharge committees from further consideration of bills and bills concerning the District of Columbia are granted privilege on the second and fourth Mondays of each month.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="See clauses 2 and 4 of House Rule XV. Additional information on the discharge procedure can be found in CRS Report 97-552, The Discharge Rule in the House: Principal Features and Uses , by Richard S. Beth .">12</a></sup> Bills listed on the Private Calendar are privileged on the first and third Tuesdays of each month,<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="See clause 5 of House Rule XV. The consideration of private bills in the House is the subject of CRS Report 98-628, Private Bills: Procedure in the House , by Richard S. Beth .">13</a></sup> while a rarely used procedure called Calendar Wednesday is privileged each Wednesday for committees to call up bills they have reported but that are not otherwise privileged for consideration under the chamber's standing rules.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='Clause 6 of House Rule XV states in part that the call of committees on Wednesdays occurs only if a committee chair, "or other member authorized by the committee, has announced to the House a request for such call on the preceding legislative day." Few such requests have been made in recent years.'>14</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These grants of privilege facilitate floor action on the measures they apply to, but they do not enable the House to take up many of the most important pieces of legislation on which Members wish to act, including tax bills, program authorizations, and other proposals that cannot surmount the two-thirds vote threshold required of suspension motions. So these measures obtain privilege in a third way—by the House voting for a resolution, recommended by the Rules Committee, to make in order one or more bills for floor consideration. These "order of business" resolutions—more commonly called "rules" or "special rules"—are themselves privileged for consideration if offered at the direction of the Rules Committee.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="See clause 5(a)(4) of House Rule XIII. Additional information on special rules can be found in CRS Report 98-354, How Special Rules Regulate Calling up Measures for Consideration in the House , by Richard S. Beth .">15</a></sup> Rules reported by the Rules Committee are considered "special" in the sense that they create floor procedures that are tailored to the unique set of circumstances that accompany the piece(s) of legislation to which they apply. If a special rule is adopted by a majority vote of the House, then the legislation specified in the rule becomes privileged for consideration with floor debate and amendment opportunities (if any) proceeding on the basis of the procedures specified in the special rule. By conferring privileged access to the floor to measures that lack this status, special rules provide flexibility to the House over how it conducts its business.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Early on, special rules were called "special orders" because they proposed an order of business that did not adhere to the "regular order" prescribed in House Rule XIV. For an analysis of how special rules evolved from special orders, see Stanley Bach, "From Special Orders to Special Rules: Pictures of House Procedure in Transition," paper presented at the Annual Meeting of the American Political Science Association, San Francisco, CA, 1990. Available at http://stanistan.org/docs/1/4.pdf ....'>16</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Special rules often set additional terms of consideration as well, such as the amount of floor time available for debate, the specific amendments that can be offered, and whether points of order can be raised against a measure or its consideration.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="House rules are not self-enforcing. Compliance requires Members to raise points of order (parliamentary objections) on the floor at the time an alleged rule violation is taking place. The presiding officer (the Speaker or a designee) judges the merit of a timely made point of order based on current House rules and precedents, and that ruling could be subject to appeal by a vote of all Members. It is quite rare for the House to overturn a ruling on appeal, but a successful appeal would create a...">17</a></sup> In crafting a special rule, the Rules Committee can devise whatever procedures it considers most suitable for floor action on a particular bill. With few exceptions, special rules can address, create, or avoid almost any parliamentary situation. The latitude the committee has in setting the terms of debate and amendment means that the committee's actions and inactions can be as controversial as they are important.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Rules Committee, of course, does not act unilaterally. Each resolution it recommends must achieve a majority vote on the House floor to become binding, which occurs after a period of debate (customarily one hour) and votes on the "previous question" (to end debate) and adoption of the resolution that typically divide the House along party lines. Almost always, the House votes to approve the special rule because its provisions work as an effective ally of the House's majority party and its leadership.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As has been the case since the mid-1970s, a close connection exists today between the House's majority leadership and the Rules Committee. This connection is maintained in two important ways. First, the Speaker and the Minority Leader nominate their respective party members to the committee, subject to a vote of approval from the entire party caucus or conference. These individuals are most often party loyalists. Second, while the party ratio on most other standing committees approximates the overall partisan composition of the chamber, on the Rules Committee the majority party enjoys a membership advantage of nine to four. This deliberate partisan imbalance reflects the vital role the committee plays in controlling the House's floor agenda and defining the policy choices that come before the chamber. Some call Rules the "Speaker's Committee" for these reasons.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="Prior to the start of the 94 th Congress (1975-1976), the rules of the Democratic Caucus—the House majority at that time—were amended in order to strengthen the linkage between the Speaker of the House and majority Members on the Rules Committee. The caucus adopted a resolution drafted by Representative Richard Bolling (D-MO) to give the Speaker direct authority to nominate (or re-nominate) all Democratic members of the Rules Committee, subject to caucus approval. The Republican Conference fo...">18</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The kinds of provisions contained in special rules have shifted over the years, largely in response to the composition and needs of House majorities at various points in time.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='Special rules can be described any number of ways based on their provisions. "Open" rules, for instance, allow any floor amendment to be offered that otherwise complies with House rules, while "closed" rules prevent amending activity altogether. "Structured" rules, sometimes called "modified-closed" rules, allow only certain Members to offer amendments, while "compound" rules make two or more measures privileged for consideration through adoption of a single special rule. "MIRV" rules combine...'>19</a></sup> The full history of this evolution is beyond the scope of this report, but there is no shortage of good scholarship on the subject.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="See especially Stanley Bach and Steven S. Smith, Managing Uncertainty in the House of Representatives: Adaption and Innovation in Special Rules (Washington, DC: Brookings Institution Press, 1988).">20</a></sup> One key point that emerges from this line of research is that special rules regulate floor activity to a far greater extent than they once did. Over time, they have become more detailed, more complex, and more restrictive on amending activity, a trend that is independent of what political party happens to constitute a chamber majority at a particular time. Procedural innovations of the majority party in its construction of special rules are often adopted by the minority party upon assuming majority status.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Regardless of their length or complexity, almost all special rules in the contemporary House set parameters for the debate and amendment of legislation identified in the rule.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="Special rules sometimes are used for very specific purposes, such as designating a Thursday or a Friday as a suspension day or waiving certain layover requirements that normally apply to committee-reported legislation, including special rule resolutions themselves. The vast majority of special rules design procedures for considering specific pieces of legislation, including measures reported from committee, Senate-passed measures received by the House, Senate amendments to House-passed bills a...">21</a></sup> Some do more than that, such as adjusting the language of a committee-reported bill prior to its consideration on the floor. These "post-committee adjustments" are not new to the House, but the frequency with which they are made has increased noticeably in recent Congresses, especially in the context of a "Rules Committee print."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are three main ways in which the text of committee-reported legislation can be modified by a special rule prior to House floor consideration: by incorporating (or "self-executing") certain provisions into the bill through language contained in the special rule resolution;<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='Self-executing language in a special rule can be identified by use of the phrase "considered as adopted." For instance, H. Res. 363, a special rule adopted during the 112 th Congress to govern consideration of H.R. 2584 , a Department of Interior appropriations bill, stated that "The amendment considered as adopted in the House and in the Committee of the Whole is as follows: Strike section 427." The effect of this sentence was to remove Section 427 from H.R. 2584 prior to its considerati...'>22</a></sup> by modifying the bill through an amendment printed in the Rules Committee report that accompanies the special rule resolution; and by making a Rules Committee print containing new language the basis for floor consideration. To be sure, the use of Rules prints is properly understood as a logical extension of past procedural practices of the Rules Committee and should not be viewed as constituting a significant departure in the way the House conducts its business. The next section describes the procedural development in the use of Rules prints as a method of adjusting legislation after it leaves committee.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc438031327"></a><a name="_Toc438031731"></a><a name="_Toc438034858"></a><a name="_Toc438035068"></a><a name="_Toc438035107"></a><a name="_Toc438035332"></a><a name="_Toc438035441"></a><a name="_Toc438125150"></a><a name="_Toc438197479"></a><a name="_Toc438457898"></a><a name="_Toc439939179"></a><a name="_Toc440271425"></a><a name="_Toc440981950"></a><a name="_Toc441134659"></a><a name="_Toc441825486"></a><a name="_Toc442285592"></a><a name="_Toc442352518"></a><a name="_Toc442353283"></a>Selecting a Base Text for House Floor Consideration</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref442285448"></a><a name="_Toc438035062"></a><a name="_Toc438035100"></a><a name="_Toc438035325"></a><a name="_Toc438035434"></a><a name="_Toc438125143"></a><a name="_Toc438197472"></a><a name="_Toc438457891"></a><a name="_Toc439939172"></a><a name="_Toc440271418"></a><a name="_Toc440981943"></a><a name="_Toc441134652"></a><a name="_Toc441825479"></a><a name="_Toc442285585"></a><a name="_Toc442352511"></a><a name="_Toc442353276"></a>Figure 2. Precursor to a Print Rule</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R44362_files/1.png" style="border-top:0;border-bottom:0;border-left:0;border-right:NaNpt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong> </strong><strong>Source:</strong><strong> </strong><em>Congressional Record</em>, vol. 154, June 12, 2008, H5333.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When the Rules Committee wants to confer privilege to legislation by way of a special rule, it often uses a bill reported from committee as the base text for debate and amendment on the House floor. As repositories of expertise on issues within their jurisdiction, committees represent a division of labor within the House that facilitates the consideration of thousands of introduced measures across a wide range of subjects. By reporting a measure favorably, a committee is signaling to the House that the proposal has been sufficiently vetted and deserves consideration by all Members.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Legislative changes recommended at the committee level often serve as the basis for floor debate and amendment. Typically, committee-endorsed changes are packaged together as an all-encompassing "amendment in the nature of a substitute" that seeks to replace introduced text in its entirety with language adopted during committee markup <a name="_GoBack"></a>proceedings.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="An amendment in the nature of a substitute is defined as &quot;[A]n amendment to replace the entire text of a measure. It strikes out everything after the enacting or resolving clause and inserts a version that may be somewhat, substantially, or entirely different.&quot; Walter Kravitz, Congressional Quarterly's American Congressional Dictionary , 3 rd ed. (Washington, DC: CQ Press, 2001), 7.">23</a></sup> While committee-endorsed amendments often benefit from procedural protections contained in a special rule, leadership deference to the work of committees is not absolute. For instance, if the views expressed by a committee diverge from the policy preferences of the majority party as understood by the Speaker, then recommended changes to a bill might instead come in the form of a leadership-crafted amendment printed in a Rules Committee report that accompanies a special rule resolution.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="Post-committee adjustments may serve a variety of other purposes as well. For instance, they may be used to position the House for conference negotiations with the Senate, as was the case with the highway bill discussed earlier, or to reconcile differences between the amendments reported by two or more committees. Adjustments may be required to fix drafting or technical errors in a committee-reported bill, or to bring a measure into conformity with budgetary requirements of the Congressional B...">24</a></sup></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref442285461"></a><a name="_Toc438035101"></a><a name="_Toc438035326"></a><a name="_Toc438035435"></a><a name="_Toc438125144"></a><a name="_Toc438197473"></a><a name="_Toc438457892"></a><a name="_Toc439939173"></a><a name="_Toc440271419"></a><a name="_Toc440981944"></a><a name="_Toc441134653"></a><a name="_Toc441825480"></a><a name="_Toc442285586"></a><a name="_Toc442352512"></a><a name="_Toc442353277"></a>Figure 3. A Print Rule</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R44362_files/2.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong> Source: </strong><em>Congressional Record</em>, vol. 159, March 13, 2013, H1365.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Displayed in <strong><a class="InternalLink" href="#_Ref442285448"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong> is a portion of text from House Resolution (H. Res.) 1265, a special rule adopted during the 110<sup>th</sup> Congress that enabled the House to expeditiously consider legislation (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.5749:"><span class="Hyperlink">H.R. 5749</span></a>) providing unemployment compensation to workers who lost their jobs during the "Great Recession" of 2008. As the rule states in part, "In lieu of the amendment in the nature of a substitute recommended by the Committee on Ways and Means now printed in the bill, the amendment in the nature of a substitute printed in the report of the Committee on Rules accompanying this resolution shall be considered as adopted." This language specifies that when the House takes up <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.5749:"><span class="Hyperlink">H.R. 5749</span></a>, the committee-reported text will be replaced in its entirety with language printed in the Rules Committee report on H. Res. 1265. Upon adoption of the special rule, the amendment printed in the report (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/cpquery/R?cp110:FLD010:@1(hr710):"><span class="Hyperlink">H.Rept. 110-710</span></a>) becomes the base text for floor consideration, with debate and amendment proceeding on the basis of subsequent provisions of H. Res. 1265.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Alternatively, rather than make in order an amendment printed in its committee report, the Rules Committee may draft a Rules Committee print and make that text, through a special rule, the basis for floor consideration. Typical language used to this effect is displayed in <strong><a class="InternalLink" href="#_Ref442285461"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 3</strong><strong></strong>, which contains the text of H. Res. 107, a "print" rule adopted during the 113<sup>th</sup> Congress. As H. Res. 107 states, "An amendment in the nature of a substitute consisting of the text of Rules Committee Print 113-3 shall be considered as adopted." As before, the effect of this sentence is to replace the text of the reported bill, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.890:"><span class="Hyperlink">H.R. 890</span></a>, with the language of Rules Committee Print 113-3.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref442285471"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong> below illustrates the number and percentage of "print" rules—defined here as special rules that make in order a Rules Committee print as the base text for floor consideration—in relation to the total number of special rules granted by the Rules Committee since the beginning of the 106<sup>th</sup> Congress (1999-2000). Both in number and as a percentage of all special rules, the use of print rules has increased sharply in recent years.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="There is not a one-to-one correlation in the number of print rules and Rules Committee prints because some print rules confer privilege to two or more Rules prints.">25</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:323.30879999999996pt;">
+<p class="TableTitle"><a name="_Ref442285471"></a><a name="_Toc438031322"></a><a name="_Toc438031726"></a><a name="_Toc438034853"></a><a name="_Toc438035063"></a><a name="_Toc438035102"></a><a name="_Toc438035327"></a><a name="_Toc438035436"></a><a name="_Toc438125145"></a><a name="_Toc438197474"></a><a name="_Toc438457893"></a><a name="_Toc439939174"></a><a name="_Toc440271420"></a><a name="_Toc440981945"></a><a name="_Toc441134654"></a><a name="_Toc441825481"></a><a name="_Toc442285587"></a><a name="_Toc442352513"></a><a name="_Toc442353278"></a>Table 1. Number and Percentage of Print Rules</p>
+<p class="TableSubTitle">106<sup>th</sup> Congress to the 113<sup>th</sup> Congress, 1999-2014</p>
+</div>
+<table class="ReportTable" style="width:323.30879999999996pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:96.41068416pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Congress (Years)</p>
+</td>
+<td style="width:75.71892095999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Number of Special Rules</p>
+</td>
+<td style="width:75.6542592pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Number of Print Rules</p>
+</td>
+<td style="width:75.52493568pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Percentage of Print Rules</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">106<sup>th</sup><sup> </sup>(1999-2000)</p>
+</td>
+<td style="width:75.71892095999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">267</p>
+</td>
+<td style="width:75.6542592pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="width:75.52493568pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">107<sup>th</sup><sup> </sup>(2001-2002)</p>
+</td>
+<td style="width:75.71892095999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">191</p>
+</td>
+<td style="width:75.6542592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:75.52493568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">108<sup>th</sup><sup> </sup>(2003-2004)</p>
+</td>
+<td style="width:75.71892095999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">192</p>
+</td>
+<td style="width:75.6542592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="width:75.52493568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">&lt;1%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">109<sup>th</sup><sup> </sup>(2005-2006)</p>
+</td>
+<td style="width:75.71892095999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">193</p>
+</td>
+<td style="width:75.6542592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3</p>
+</td>
+<td style="width:75.52493568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">110<sup>th</sup><sup> </sup>(2007-2008)</p>
+</td>
+<td style="width:75.71892095999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">220</p>
+</td>
+<td style="width:75.6542592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:75.52493568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">111<sup>th</sup><sup> </sup>(2009-2010)</p>
+</td>
+<td style="width:75.71892095999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">165</p>
+</td>
+<td style="width:75.6542592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:75.52493568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">112<sup>th</sup><sup> </sup>(2011-2012)</p>
+</td>
+<td style="width:75.71892095999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">129</p>
+</td>
+<td style="width:75.6542592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">27</p>
+</td>
+<td style="width:75.52493568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">21%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:96.41068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">113<sup>th</sup> (2013-2014)</p>
+</td>
+<td style="width:75.71892095999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">105</p>
+</td>
+<td style="width:75.6542592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">47</p>
+</td>
+<td style="width:75.52493568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">45%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:323.30879999999996pt;">
+<p class="TableSource"><strong>Source: </strong>Data collected from Congress.gov, an online database of congressional activity, by searching the text of House resolutions for the phrase "Rules Committee print." Figures on the number of special rules were drawn from Rules Committee Activity Reports for each Congress.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In many cases a Rules Committee print contains language that is identical (or very similar) to the committee-reported version. Rules Print 113-12, for instance, mirrors the text of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.1911:"><span class="Hyperlink">H.R. 1911</span></a> that was reported by the Committee on Education and the Workforce on May 9, 2013. Although the language of both measures was equivalent, selecting a Rules print as the basis for debate and amendment offers several advantages to the majority leadership and Members generally. First, Rules prints can be easily located and retrieved in portable document format (PDF) from the Rules Committee website for inspection by all Members, as well as the general public. Transparency in lawmaking can be enhanced when the Rules Committee acts as a legislative clearinghouse in this way. Second, Rules Committee staff can quickly post the text of a measure online in the form of a Rules print. This can be especially beneficial to Members who intend to offer amendments because page and line numbers in a Rules print are fixed at the outset, whereas additional time is occasionally needed for the Government Publishing Office (GPO) to publish and distribute bills that have been reported from committee.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='Bills, resolutions, committee reports, and other materials that require printing are delivered each evening in electronic format to the GPO from the Offices of the Bill Clerk and Tally Clerk of the House. Printing and distribution then proceeds along two tracks. Material placed on a "priority list" is usually ready to be delivered to congressional offices by 7:30 a.m. the following morning, while material that lacks a priority designation can take longer to distribute. When printing bills, pri...'>26</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While many Rules prints contain the same language found in a committee-reported bill, others may depart from the reported version in slight or significant ways. Some Rules prints contain additional material in comparison to the reported version; others subtract one or more sections or titles; and some do both.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title='In some cases a Rules p rint will combine the text of two or more measures into a single document at the outset of floor proceedings . For instance, Rules Print 112-17, the "Jumpstart Our Business Startups Act," includes text from H.R. 1070 , H.R. 2167 , H.R. 2930 , H.R. 2940 , H.R. 3606 , and H.R. 4088 . When merging multiple measures into a Rules p rint, it is often (but not always) the case that the subjects of the various proposals have a direct connection to one another....'>27</a></sup> These changes may reflect post-committee adjustments of a minor or technical nature, or they may implement more substantive agreements based on negotiations that occur after committees complete their work. Negotiations of this sort often involve the relevant committee(s) of jurisdiction, especially the chair(s), and majority party leaders.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Like all special rules, print rules involve majority leadership input and review. After a committee has reported a measure, it may become evident that there are issues—the lack of votes for chamber enactment, for instance, or jurisdictional disputes involving two or more committees—that require corrective action by the leadership and the Rules Committee. Print rules can address these issues and enhance the ability of the majority party to build a winning coalition in support of its policy proposals.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Decisions by the Rules Committee to establish a Rules print as the legislative baseline for floor action—rather than an amendment in the nature of a substitute printed in a Rules Committee report (as was the case earlier with H. Res. 1265)—reflect a change in practice whose importance should not be overstated. Both techniques can be used to adjust legislative text after it has left committee and before it is called up on the House floor for debate and amendment (assuming the rule allows amendments to be offered). What does appear new is the frequency with which post-committee adjustments are being made by way of a Rules Committee print. The next section explains the language the Rules Committee uses to communicate the magnitude and policy significance of textual changes included in a Rules print, and the following section offers an empirical assessment of post-committee adjustments made in the context of Rules prints.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc438031328"></a><a name="_Toc438031732"></a><a name="_Toc438034859"></a><a name="_Toc438035069"></a><a name="_Toc438035108"></a><a name="_Toc438035333"></a><a name="_Toc438035442"></a><a name="_Toc438125151"></a><a name="_Toc438197480"></a><a name="_Toc438457899"></a><a name="_Toc439939180"></a><a name="_Toc440271426"></a><a name="_Toc440981951"></a><a name="_Toc441134660"></a><a name="_Toc441825487"></a><a name="_Toc442285593"></a><a name="_Toc442352519"></a><a name="_Toc442353284"></a>Identifying Post-Committee Adjustments in Rules Committee Prints</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On the first page of each Rules print, just below its legislative title, is a statement that identifies the textual sources a Rules print is derived from (see <strong><a class="InternalLink" href="#_Ref417650826"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong>). A typical sentence reads as follows: "Showing the text of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.803:"><span class="Hyperlink">H.R. 803</span></a> as ordered reported by the Committee on Education and the Workforce."<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title='This statement is drawn from Rules Print 113-4 reflecting the reported version of H.R. 803 , the "SKILLS Act."'>28</a></sup> In this particular case, as the quoted sentence above clearly implies, the Rules print contained language that was identical to the committee-reported version of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.803:"><span class="Hyperlink">H.R. 803</span></a>. Of the 82 Rules prints considered here, 44 of them contained the same language that was reported from committee.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In other instances, a Rules print contained different language than what was reported from committee. When this occurs, the statement atop a Rules print will be written in such a way as to alert Members and staff that the language of the print is not the same as the committee-reported version of the bill. If the language adjustment is considered minor or of a technical nature, the statement might read as follows: "Showing the text of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.624:"><span class="Hyperlink">H.R. 624</span></a> as ordered reported by the Permanent Select Committee on Intelligence with a modification."<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="This statement comes from Rules Print 113-7, a version of H.R. 624 that included modifications to the &quot;sunset&quot; provision of section 3. Sunset provisions allow legislation to expire after a given period of time—five years following enactment in this case—unless Congress takes positive action to keep the legislation on the books. It should be noted that House leadership protocols of the 114 th Congress, which represent the Speaker's commitment to what might be called &quot;best legislative practic...">29</a></sup> Minor changes also might be identified as a "conforming change," a "technical change," or as "modifications." </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Rules Committee uses different language to convey changes of greater significance. For instance, Rules Print 113-2 included much of the same text of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.47:"><span class="Hyperlink">S. 47</span></a>, a Senate bill to reauthorize the "Violence Against Women Act," but added new language in Title VIII on immigration while also dropping three other titles from <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.47:"><span class="Hyperlink">S. 47</span></a>. In this case, the statement used to indicate these changes read as follows: "Showing a new text for <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.47:"><span class="Hyperlink">S. 47</span></a>." Alternatively, more significant changes might be summarized with sentences that read: "Showing the text as ordered reported with changes recommended by the committee chair(s)," or, "Showing text based on H.R. ____."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Generally speaking, the summary statement at the top of a Rules print conveys the magnitude and significance of any post-committee adjustments contained in the print.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="Seven Rules prints did not include this summary statement. Most of these instances occurred prior to the 112 th Congress when the use of Rules prints was less institutionalized than it is today.">30</a></sup> Many prints included no such changes, but those that did tended to use a typology of identically worded statements to describe the nature of the changes that were made. This typology is displayed below with sentences rank-ordered according to the significance of textual changes they are meant to convey, from no change to a major revision:</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. Showing the text as ordered reported</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. Showing the text as ordered reported with a conforming change (or conforming changes)</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. Showing the text as ordered reported with a technical change (or technical changes)</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. Showing the text as ordered reported with a modification (or modifications)</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">5. Showing the text as ordered reported with changes recommended by the committee chair(s)</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">6. Showing text based on H.R._____</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">7. Showing new text</li></ul><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc439939181"></a><a name="_Toc440271427"></a><a name="_Toc440981952"></a><a name="_Toc441134661"></a><a name="_Toc441825488"></a><a name="_Toc442285594"></a><a name="_Toc442352520"></a><a name="_Toc442353285"></a>Quantifying Post-Committee Adjustments in Rules Committee Prints</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Beyond the language of the summary sentence itself, post-committee adjustment can be assessed by comparing the number of sections in a Rules Committee print to the number of sections in the corresponding reported bill(s).<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="Bills can be organized by divisions, titles, and sections, with sections representing the smallest unit. Bills of less than 50 pages tend to contain only sections. Titles are included in longer bills that address a wide range of subjects, or address a single subject in considerable depth. Legislation of significant length, such as an omnibus appropriations bill, may also contain divisions. In this case, divisions would correspond to the particular appropriations bills included in the omnibus p...">31</a></sup> Differences in these numbers provide a useful measure of the degree to which a bill has been modified after it leaves committee.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="In most cases a committee-reported version of the legislation had been produced prior to the assembly of a Rules print, thereby allowing a direct comparison to be made between the reported text and the text of the associated Rules print. In six instances, a Rules print included legislative text that did not emerge from House committee. Those six prints are excluded from analysis because the texts of those prints are not directly comparable to committee-reported legislation.">32</a></sup> Of course, sections of legislation are not all of equal importance. New sections might entail only minor changes of limited policy significance, while others could address entire new policy areas, including ones that fall outside the purview of the reporting committee(s). Section counts do not distinguish between important sections and less important ones. This method of comparison also does not account for language changes that occur within a same-named section of a bill and print, but it is usually the case that the language of both sections is equivalent when the summary sentence of a Rules print identifies an unmodified committee-reported bill as its textual source. If the number and wording of sections are the same in both the print and reported bill and the summary sentence suggests some modification was made, then examination of both texts is required to ascertain any differences in wording.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An important feature of Rules prints is that they allow the Rules Committee to combine two or more bills that are awaiting floor action into a single bill for House consideration.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="Joining bills in this way can facilitate legislative efficiency and save the House time. When assessing the work of Congress, the number of bills that pass during a given two-year period is often used as a basis for judgment. Prevalent use of multiple-bill prints, however, would depress the number of bill passages even as the substance of policy that is considered in committee and on the floor remains the same.">33</a></sup> Of the 82 Rules prints examined here, 16 of them (20%) combined multiple bills in a single print. All 16 of these cases occurred in recent Congresses; 7 in the 112<sup>th</sup> and 9 in the 113<sup>th</sup>.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="Multiple-bill prints usually contain several titles where each title contains a separately reported bill.">34</a></sup> In five cases, the text of an introduced bill or a bill that had already passed the House was included in the print alongside one or more reported bills. Of the 64 bills subject to a Rules print in the 112<sup>th</sup> Congress, 9 were something other than the reported version; 2 were in introduced form, and 7 had already passed the House. The 84 bills presented as a Rules print during the 113<sup>th</sup> Congress included 8 introduced bills and 1 that had previously passed. The inclusion of language from an introduced bill tends to occur in the beginning months of a new Congress, a time when many committees have yet to complete their review of bills referred to them, and as Congress nears adjournment, when time is short. When multiple bills are joined in a print, the sections of all incorporated bills are compared to the sections of the print.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="The first section of a bill (or print) usually states the bill's legislative title, such as the &quot;Smarter Solutions for Students Act,&quot; a bill ( H.R. 1911 ) reported from the Committee on Education and the Workforce and considered by the House during the 113 th Congress in the form of Rules Print 113-12. To facilitate the comparability of section counts between bills and prints, only one section that expresses a legislative title is counted when multiple bills are combined in a print. Otherwise...">35</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Section counts of Rules prints and committee-reported bills are presented in two ways in <strong><a class="InternalLink" href="#_Ref442285495"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong>: as the number of sections across all prints and associated bills during a Congress, and as the number of print sections added or subtracted from reported bills during a Congress. The first measure provides a rough estimate of the volume of legislation presented to the House in the form of a Rules print, and the second measure captures the degree to which legislation has been modified after being reported from committee. The last column of <strong><a class="InternalLink" href="#_Ref442285495"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong> displays the percentage of print sections that did not correspond with sections in reported bills during a given Congress.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:485.74080000000003pt;">
+<p class="TableTitle"><a name="_Ref442285495"></a><a name="_Toc438031323"></a><a name="_Toc438031727"></a><a name="_Toc438034854"></a><a name="_Toc438035064"></a><a name="_Toc438035103"></a><a name="_Toc438035328"></a><a name="_Toc438035437"></a><a name="_Toc438125146"></a><a name="_Toc438197475"></a><a name="_Toc438457894"></a><a name="_Toc439939175"></a><a name="_Toc440271421"></a><a name="_Toc440981946"></a><a name="_Toc441134655"></a><a name="_Toc441825482"></a><a name="_Toc442285588"></a><a name="_Toc442352514"></a><a name="_Toc442353279"></a>Table 2. Sections Included in Rules Prints and Reported Bills</p>
+<p class="TableSubTitle">106<sup>th</sup> Congress to the 113<sup>th</sup> Congress, 1999-2014</p>
+</div>
+<table class="ReportTable" style="width:485.74080000000003pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:62.52792191999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Congress (Years)</p>
+</td>
+<td style="width:24.18349824pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Rules Prints</p>
+</td>
+<td style="width:34.20607104pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Reported Bills</p>
+</td>
+<td style="width:32.0075712pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Print Sections</p>
+</td>
+<td style="width:33.36546816pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Bill Sections</p>
+</td>
+<td style="width:32.58952703999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Sections Added by Print</p>
+</td>
+<td style="width:37.89179135999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Sections Subtracted by Print</p>
+</td>
+<td style="width:37.89179135999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Section Difference</p>
+</td>
+<td style="width:28.645159679999995pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">% Change</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">106<sup>th</sup> (1999-2000)</p>
+</td>
+<td style="width:24.18349824pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="width:34.20607104pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="width:32.0075712pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">131</p>
+</td>
+<td style="width:33.36546816pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">118</p>
+</td>
+<td style="width:32.58952703999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">13</p>
+</td>
+<td style="width:37.89179135999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">13</p>
+</td>
+<td style="width:28.645159679999995pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">11</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">107<sup>th</sup> (2001-2002)</p>
+</td>
+<td style="width:24.18349824pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:34.20607104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:32.0075712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:33.36546816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:32.58952703999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:28.645159679999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">108<sup>th</sup> (2003-2004)</p>
+</td>
+<td style="width:24.18349824pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="width:34.20607104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1</p>
+</td>
+<td style="width:32.0075712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">242</p>
+</td>
+<td style="width:33.36546816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">225</p>
+</td>
+<td style="width:32.58952703999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">17</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">17</p>
+</td>
+<td style="width:28.645159679999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">109<sup>th</sup> (2005-2006)</p>
+</td>
+<td style="width:24.18349824pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3</p>
+</td>
+<td style="width:34.20607104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3</p>
+</td>
+<td style="width:32.0075712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">120</p>
+</td>
+<td style="width:33.36546816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">139</p>
+</td>
+<td style="width:32.58952703999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">19</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">19</p>
+</td>
+<td style="width:28.645159679999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">14</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">110<sup>th</sup> (2007-2008)</p>
+</td>
+<td style="width:24.18349824pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:34.20607104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:32.0075712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:33.36546816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:32.58952703999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:28.645159679999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">111<sup>th</sup> (2009-2010)</p>
+</td>
+<td style="width:24.18349824pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:34.20607104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:32.0075712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:33.36546816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:32.58952703999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:28.645159679999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">112<sup>th</sup> (2011-2012)</p>
+</td>
+<td style="width:24.18349824pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">28</p>
+</td>
+<td style="width:34.20607104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">64</p>
+</td>
+<td style="width:32.0075712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1476</p>
+</td>
+<td style="width:33.36546816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1421</p>
+</td>
+<td style="width:32.58952703999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">189</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">134</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">323</p>
+</td>
+<td style="width:28.645159679999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">23</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:62.52792191999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">113<sup>th</sup> (2013-2014)</p>
+</td>
+<td style="width:24.18349824pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">49</p>
+</td>
+<td style="width:34.20607104pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:32.0075712pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1977</p>
+</td>
+<td style="width:33.36546816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1963</p>
+</td>
+<td style="width:32.58952703999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">29</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">49</p>
+</td>
+<td style="width:37.89179135999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">78</p>
+</td>
+<td style="width:28.645159679999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">4</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:485.74080000000003pt;">
+<p class="TableSource"><strong>Source: </strong>Data collected by the author based on an examination of sections contained in Rules Committee prints and associated reported bills. Six Rules prints of the 113<sup>th</sup> Congress were excluded from analysis for lack of a committee-reported bill as a basis for comparison.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As these data suggest, the Rules Committee has made increasing use of Rules prints as the textual basis for floor debate and amendment, especially since 2011. The 112<sup>th</sup> Congress saw the most pronounced use of post-committee adjustment in the form of a Rules print as evidenced by a difference of 323 sections between prints and reported bills during those two years. By comparison, the 113<sup>th</sup> Congress (2013-2014) considered 49 Rules prints, 21 more than during the 112<sup>th</sup>, but the overall difference between print and bill sections during that time totaled 78, a roughly 75% drop from the prior two years.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The first identified use of a Rules print in lieu of a committee-reported bill occurred on July 1, 1999, but the practice did not become routine until the 112<sup>th</sup> Congress (2011-2012). During the initial phase of this now-institutionalized practice, each Rules print was devoted to a single reported bill. Only recently have prints combining multiple bills become common. Early prints (including the first one) appear to have modified bills to about the same degree as in recent Congresses, at least on the basis of section counts, but a noticeable drop in post-committee adjustment during the 113<sup>th</sup> Congress (2013-2014) suggests a continued evolution in the use of Rules prints for this purpose.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title='During the 114 th Congress, for instance, the special rule (H. Res. 125) governing consideration of Rules Print 114-8 for H.R. 5 , the "Student Success Act," provided for a modification of the print in the form of an amendment printed in the Rules Committee report accompanying the rule. This approach combines the two methods of adjustment discussed in section two and gives the Rules Committee greater flexibility in designing procedures for the consideration of legislation.'>36</a></sup> Whether the Rules Committee under Speaker Paul Ryan's (R-WI) leadership continues to employ Rules prints to the same extent they have been remains to be seen.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="Thirty-two Rules prints were debated on the House floor during the first session of the 114 th Congress, a rate that slightly outpaces the consideration of Rules prints during the 113 th Congress. Twenty-six of these instances occurred prior to the election of Representative Paul Ryan as Speaker on October 29, 2015.">37</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc438031329"></a><a name="_Toc438031733"></a><a name="_Toc438034860"></a><a name="_Toc438035070"></a><a name="_Toc438035109"></a><a name="_Toc438035334"></a><a name="_Toc438035443"></a><a name="_Toc438125152"></a><a name="_Toc438197481"></a><a name="_Toc438457900"></a><a name="_Toc439939182"></a><a name="_Toc440271428"></a><a name="_Toc440981953"></a><a name="_Toc441134662"></a><a name="_Toc441825489"></a><a name="_Toc442285595"></a><a name="_Toc442352521"></a><a name="_Toc442353286"></a>Concluding Observations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The constant press of time, especially floor time, in today's Congress fosters creativity in how the House processes its workload. With more to do and less time to do it, the House majority leadership faces difficult choices regarding what measures to schedule for floor consideration, and under what conditions to do so. At least to some degree, innovations like the use of Rules prints can be understood as a solution to time limitations and other demands inherent in modern lawmaking.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="For useful perspective on how the demands of modern lawmaking have affected Members and the institution, see U.S. Congress, Senate Committee on Rules and Administration, The Evolving Congress , committee print, 113 th Cong., 2 nd sess., S.Prt. 113-30 (Washington, DC: GPO, 2014), 61-106, and David E. Price, The Congressional Experience , 3 rd ed. (Boulder, CO: Westview Press, 2004).">38</a></sup> Joining separately reported bills in a single print, for instance, expands the scope of subject matter that Members may debate on the floor. In three instances, the texts of previously adopted House bills were added to committee-reported bills in the context of a Rules print, perhaps to help the majority leadership build a winning coalition in support of the overall legislative package. Prints may also embody the product of negotiations between and among committees when jurisdictional disputes arise, or they may be adjusted by the leadership to achieve particular goals. They can also be quickly posted online for all to see, thereby allowing Members additional time to study the proposal and contemplate amendments to it.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In an era of partisan polarization, the strategic demands of what scholars call "message politics" can also shape the work of House majority party leaders and the Rules Committee.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title='See especially C. Lawrence Evans, "Committees, Leaders, and Message Politics," in Congress Reconsidered , 7 th ed., Lawrence C. Dodd and Bruce I. Oppenheimer, eds. (Washington, DC: Congressional Quarterly Press, 2001), 217-243.'>39</a></sup> Leadership deference to the work of committees tends to vary by issue, with "message" issues—subjects that voters most closely associate with one or another political party—being the most likely to display active leadership involvement at all stages of the legislative process, including how measures are brought to the floor. To this end, new special rule provisions can be viewed as procedural tools that help to manage uncertainty on the House floor and enhance majority leadership control over the substance of policy the House considers.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As the political world around it changes, so too does the Rules Committee. By its design of special rules, the Rules Committee is able to adjust to changing circumstances in service to the needs of the majority party. In the view of legendary Speaker Thomas Bracket Reed (R-ME), this is how it ought to be. As he famously remarked in 1888,</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If the majority do not govern, the minority will and if the tyranny of the majority is hard, the tyranny of the minority is simply unendurable. The rules, then, ought to be so arranged as to facilitate the action of the majority.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Quoted in William A. Robinson, Thomas B. Reed: P arliamentarian (New York: Dodd Mead, 1930).">40</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Practices involving special rules have evolved significantly over the past century, and there is little question that they will continue to do so. New practices will come into favor, while others will be discarded.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title='For instance, so-called "queen of the hill" rules—special rules that make in order a series of amendments to the same text—were once quite common, but those provisions have fallen out of use in recent years. For more on queen-of-the-hill rules and their king-of-the-hill counterparts, see James V. Saturno, "Toppling the King of the Hill: Understanding Innovation in House Practice," in Jacob R. Straus, ed., Party and Procedure in the United States Congress (Lanham, MD: Rowman and Littlefield P...'>41</a></sup> Still others might find their way into the standing rules of the House.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="For example, the ability of the majority party to postpone and cluster recorded votes until later in the day was integrated into House Rule XVIII, clause 6(g) at the outset of the 107 th Congress (2001-2002). Prior to that, the power to do so could be granted only by way of language contained in a special rule.">42</a></sup> History demonstrates that the agenda-setting responsibilities of the Rules Committee will continue to adjust and adapt to changing political and legislative circumstances, as manifested through the creation and design of innovative special rules.</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kellie Mejdrich, "House Highway Bill Strategy Opens Window for Ex-Im Bank Renewal," <em>CQ News</em>, October 28, 2015. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tom Curry, "House Panel Approves Six-Year Highway Bill; Funds in Question," <em>CQ News</em>, October 22, 2015. See also Memorandum to Rules Chairman Pete Sessions, "Cost Estimate for Rules Committee Print 114-32," <em>Congressional Budget Office</em>, October 30, 2015.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kellie Mejdrich, "Senate Clears Five-Year Highway Bill, Ex-Im Renewal," <em>CQ News</em>, December 3, 2015. A budgetary "pay-for" (or "offset") is a provision of a bill that either raises revenue to pay for the new spending or reduces spending in less-prioritized areas. Federal transportation projects are funded primarily by the Highway Trust Fund (and the gasoline taxes that go into it), but additional money was needed beyond what the Trust Fund could provide to keep <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a> deficit-neutral; hence concerns over the viability of particular budgetary offsets used to close the gap between the estimated $305 billion in spending authorized by <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.3763:"><span class="Hyperlink">H.R. 3763</span></a> over a six-year period and the $208 billion in revenue projected to flow into the Trust Fund during that time.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Strategically, by narrowing the range of differences between House- and Senate-passed versions of a bill, House leaders can structure opportunities for compromise that might arise in conference and perhaps make them easier to achieve. (A conference committee is a temporary joint committee created for the sole purpose of reconciling differences between House and Senate versions of a bill.) House Rule XXII and Senate Rule XXVIII require conference reports—which embody the product of compromises reached during conference negotiations—to stay within the "scope of differences" between the House and Senate versions. For instance, if the House bill provides $1 million for a certain purpose and the Senate bill allocates $2 million, then the conference report is required by rule to provide no less than $1 million and no more than $2 million for that purpose (or any amount in between). Furthermore, if both versions of a bill contain the same legislative text on a particular subject, then the conference report must also include that same text. Of course, either chamber may decide to waive its rules during consideration of a conference report. In the end, the House and Senate agreed to the report of the conference committee and the highway bill was signed into law (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+94)"><span class="Hyperlink">P.L. 114-94</span></a>) by President Obama on December 4, 2015. For more information on methods of resolving bicameral differences, see CRS Report 98-696, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-696"><em><span class="Hyperlink">Resolving Legislative Differences in Congress: Conference Committees and Amendments Between the Houses</span></em></a>, by Elizabeth Rybicki.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A "committee print" is a generic term used to describe a document published by a congressional committee. Committee prints are often numbered based on the Congress during which they were published and the order in which a committee produced them. For instance, Rules Print 114-32 was the 32<sup>nd</sup> print drafted by the Rules Committee during the 114<sup>th</sup> Congress. Prints of all committees are available online from the Government Publishing Office, at <a class="ExternalLink" href="http://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CPRT"><span class="Hyperlink">http://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CPRT</span></a><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Barbara Sinclair, <em>Unorthodox Lawmaking: New Legislative Processes in the U.S. Congress</em>, 4<sup>th</sup> ed. (Washington, DC: CQ Press, 2012), 21.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Senate had previously amended and approved <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.22:"><span class="Hyperlink">H.R. 22</span></a>, an unrelated House-passed bill, as its version of the surface transportation bill. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> William McKay and Charles W. Johnson, <em>Parliament &amp; Congress: Representation and Scrutiny in the Twenty-First Century</em> (New York: Oxford University Press, 2010), 428.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> With a relatively light workload compared to today, early Congresses did in fact consider measures in the order they were reported from committee and placed on the legislative calendar. This method of setting the chamber's agenda endured into the 1880s, at which point crowded calendars made it difficult for the House to reach legislation it wished to consider. Expressing widespread frustration with the House's reliance on legislative calendars, Representative Francis Cushman (R-WA) had this to say in 1902: "The Calendar! What a misnomer. It ought to be called a cemetery. For therein lie the whitening bones of legislative hopes." Cushman's remarks originally appeared in the <em>Congressional Record</em>, vol. 35, April 17, 1902, 4320 and are reproduced in <em>A History of the Committee on Rules</em> (Washington, DC: GPO, 1983), 81.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although appropriations bills, budget resolutions, reconciliation legislation, and conference reports are privileged for consideration under the standing rules of the House, in modern practice those measures usually come to the floor by way of a special rule from the Rules Committee. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See clause 1 of House Rule XV. For more on suspensions procedure, see CRS Report 98-314, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-314"><em><span class="Hyperlink">Suspension of the Rules in the House: Principal Features</span></em></a>, by Elizabeth Rybicki.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See clauses 2 and 4 of House Rule XV. Additional information on the discharge procedure can be found in CRS Report 97-552, <a class="ExternalLink" href="http://www.crs.gov/Reports/97-552"><em><span class="Hyperlink">The Discharge Rule in the House: Principal Features and Uses</span></em></a>, by Richard S. Beth.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See clause 5 of House Rule XV. The consideration of private bills in the House is the subject of CRS Report 98-628, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-628"><em><span class="Hyperlink">Private Bills: Procedure in the House</span></em></a>, by Richard S. Beth.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clause 6 of House Rule XV states in part that the call of committees on Wednesdays occurs only if a committee chair, "or other member authorized by the committee, has announced to the House a request for such call on the preceding legislative day." Few such requests have been made in recent years.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See clause 5(a)(4) of House Rule XIII. Additional information on special rules can be found in CRS Report 98-354, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-354"><em><span class="Hyperlink">How Special Rules Regulate Calling up Measures for Consideration in the House</span></em></a>, by Richard S. Beth.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Early on, special rules were called "special orders" because they proposed an order of business that did not adhere to the "regular order" prescribed in House Rule XIV. For an analysis of how special rules evolved from special orders, see Stanley Bach, "From Special Orders to Special Rules: Pictures of House Procedure in Transition," paper presented at the Annual Meeting of the American Political Science Association, San Francisco, CA, 1990. Available at <a class="ExternalLink" href="http://stanistan.org/docs/1/4.pdf"><span class="Hyperlink">http://stanistan.org/docs/1/4.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> House rules are not self-enforcing. Compliance requires Members to raise points of order (parliamentary objections) on the floor at the time an alleged rule violation is taking place. The presiding officer (the Speaker or a designee) judges the merit of a timely made point of order based on current House rules and precedents, and that ruling could be subject to appeal by a vote of all Members. It is quite rare for the House to overturn a ruling on appeal, but a successful appeal would create a new precedent the House would follow when similar circumstances arise in the future. Precedents are the application of House rules to specific parliamentary situations. For additional information, see CRS Report 98-307, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-307"><em><span class="Hyperlink">Points of Order, Rulings, and Appeals in the House of Representatives</span></em></a>, by Valerie Heitshusen.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Prior to the start of the 94<sup>th</sup> Congress (1975-1976), the rules of the Democratic Caucus—the House majority at that time—were amended in order to strengthen the linkage between the Speaker of the House and majority Members on the Rules Committee. The caucus adopted a resolution drafted by Representative Richard Bolling (D-MO) to give the Speaker direct authority to nominate (or re-nominate) all Democratic members of the Rules Committee, subject to caucus approval. The Republican Conference follows the same appointment procedure.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Special rules can be described any number of ways based on their provisions. "Open" rules, for instance, allow any floor amendment to be offered that otherwise complies with House rules, while "closed" rules prevent amending activity altogether. "Structured" rules, sometimes called "modified-closed" rules, allow only certain Members to offer amendments, while "compound" rules make two or more measures privileged for consideration through adoption of a single special rule. "MIRV" rules combine two or more separately passed measures into a single bill at the engrossment phase of proceedings, similar to how M.I.R.V. missiles contain multiple warheads that can be independently targeted so as to maximize first strike capabilities. As described here, "print" rules establish a Rules Committee print as the base text for floor debate and amendment.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See especially Stanley Bach and Steven S. Smith, <em>Managing Uncertainty </em><em>in the House of Representatives: </em><em>Adaption and Innovation in Special Rules</em> (Washington, DC: Brookings Institution Press, 1988).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Special rules sometimes are used for very specific purposes, such as designating a Thursday or a Friday as a suspension day or waiving certain layover requirements that normally apply to committee-reported legislation, including special rule resolutions themselves. The vast majority of special rules design procedures for considering specific pieces of legislation, including measures reported from committee, Senate-passed measures received by the House, Senate amendments to House-passed bills and conference reports, and measures introduced but not acted upon in committee.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Self-executing language in a special rule can be identified by use of the phrase "considered as adopted." For instance, H. Res. 363, a special rule adopted during the 112<sup>th</sup> Congress to govern consideration of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2584:"><span class="Hyperlink">H.R. 2584</span></a>, a Department of Interior appropriations bill, stated that "The amendment considered as adopted in the House and in the Committee of the Whole is as follows: Strike section 427." The effect of this sentence was to remove Section 427 from <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2584:"><span class="Hyperlink">H.R. 2584</span></a> prior to its consideration on the floor.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An amendment in the nature of a substitute is defined as "[A]n amendment to replace the entire text of a measure. It strikes out everything after the enacting or resolving clause and inserts a version that may be somewhat, substantially, or entirely different." Walter Kravitz, <em>Congressional Quarterly's American Congressional Dictionary</em>, 3<sup>rd</sup> ed. (Washington, DC: CQ Press, 2001), 7.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Post-committee adjustments may serve a variety of other purposes as well. For instance, they may be used to position the House for conference negotiations with the Senate, as was the case with the highway bill discussed earlier, or to reconcile differences between the amendments reported by two or more committees. Adjustments may be required to fix drafting or technical errors in a committee-reported bill, or to bring a measure into conformity with budgetary requirements of the Congressional Budget Act. They may also serve to broaden House support for the proposal, rectify particular concerns raised by Members, or address any number of other issues that may arise after committees report.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> There is not a one-to-one correlation in the number of print rules and Rules Committee prints because some print rules confer privilege to two or more Rules prints.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Bills, resolutions, committee reports, and other materials that require printing are delivered each evening in electronic format to the GPO from the Offices of the Bill Clerk and Tally Clerk of the House. Printing and distribution then proceeds along two tracks. Material placed on a "priority list" is usually ready to be delivered to congressional offices by 7:30 a.m. the following morning, while material that lacks a priority designation can take longer to distribute. When printing bills, priority is determined by the nature of the bill itself, the current stage it has reached in the legislative process, and the chamber from which it originated. Appropriations bills are considered the highest priority for printing purposes, followed by conference reports. Enrolled bills, which represent the final version of legislation that both chambers agreed to, are prioritized next, followed by engrossed bills (the official copy of a measure as enacted by one chamber). At the low end of the priority scale are reported bills and introduced bills. Finally, all else being equal, Senate bills are usually printed before House bills. (Information based on a telephone conversation between the author and a senior GPO official in May 2015.) </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In some cases a Rules print will combine the text of two or more measures into a single document at the outset of floor proceedings. For instance, Rules Print 112-17, the "Jumpstart Our Business Startups Act," includes text from <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.1070:"><span class="Hyperlink">H.R. 1070</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2167:"><span class="Hyperlink">H.R. 2167</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2930:"><span class="Hyperlink">H.R. 2930</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2940:"><span class="Hyperlink">H.R. 2940</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3606:"><span class="Hyperlink">H.R. 3606</span></a>, and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.4088:"><span class="Hyperlink">H.R. 4088</span></a>. When merging multiple measures into a Rules print, it is often (but not always) the case that the subjects of the various proposals have a direct connection to one another. In this case, for instance, the six measures that were combined in Rules Print 112-17 all dealt in some way with the ability of small business to access private capital. The multiple measures assembled in a Rules print may also be at different stages of the legislative process. For instance, in Rules Print 112-17, three of the bills (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.1070:"><span class="Hyperlink">H.R. 1070</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2930:"><span class="Hyperlink">H.R. 2930</span></a>, and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2940:"><span class="Hyperlink">H.R. 2940</span></a>) had already passed the House as stand-alone measures, two (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2167:"><span class="Hyperlink">H.R. 2167</span></a> and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3606:"><span class="Hyperlink">H.R. 3606</span></a>) had been marked up in committee and ordered reported (but had yet to see any floor action), and one (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.4088:"><span class="Hyperlink">H.R. 4088</span></a>) had been introduced and referred to committee.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This statement is drawn from Rules Print 113-4 reflecting the reported version of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.803:"><span class="Hyperlink">H.R. 803</span></a>, the "SKILLS Act." </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This statement comes from Rules Print 113-7, a version of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.624:"><span class="Hyperlink">H.R. 624</span></a> that included modifications to the "sunset" provision of section 3. Sunset provisions allow legislation to expire after a given period of time—five years following enactment in this case—unless Congress takes positive action to keep the legislation on the books. It should be noted that House leadership protocols of the 114<sup>th</sup> Congress, which represent the Speaker's commitment to what might be called "best legislative practices," require most pieces of legislation to include a sunset provision of seven years or less before floor consideration may occur. Additional leadership protocols currently in effect include limitations on how commemorative legislation is considered, guidance on the drafting of constitutional authority statements for inclusion in a bill as required by House Rule XII, and budgetary requirements that apply to the authorization of new programs.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Seven Rules prints did not include this summary statement. Most of these instances occurred prior to the 112<sup>th</sup> Congress when the use of Rules prints was less institutionalized than it is today. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Bills can be organized by divisions, titles, and sections, with sections representing the smallest unit. Bills of less than 50 pages tend to contain only sections. Titles are included in longer bills that address a wide range of subjects, or address a single subject in considerable depth. Legislation of significant length, such as an omnibus appropriations bill, may also contain divisions. In this case, divisions would correspond to the particular appropriations bills included in the omnibus package.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In most cases a committee-reported version of the legislation had been produced prior to the assembly of a Rules print, thereby allowing a direct comparison to be made between the reported text and the text of the associated Rules print. In six instances, a Rules print included legislative text that did not emerge from House committee. Those six prints are excluded from analysis because the texts of those prints are not directly comparable to committee-reported legislation.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joining bills in this way can facilitate legislative efficiency and save the House time. When assessing the work of Congress, the number of bills that pass during a given two-year period is often used as a basis for judgment. Prevalent use of multiple-bill prints, however, would depress the number of bill passages even as the substance of policy that is considered in committee and on the floor remains the same.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Multiple-bill prints usually contain several titles where each title contains a separately reported bill.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The first section of a bill (or print) usually states the bill's legislative title, such as the "Smarter Solutions for Students Act," a bill (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:H.R.1911:"><span class="Hyperlink">H.R. 1911</span></a>) reported from the Committee on Education and the Workforce and considered by the House during the 113<sup>th</sup> Congress in the form of Rules Print 113-12. To facilitate the comparability of section counts between bills and prints, only one section that expresses a legislative title is counted when multiple bills are combined in a print. Otherwise, prints containing multiple bills would appear to have fewer sections since each separate bill includes a section devoted to its title.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> During the 114<sup>th</sup> Congress, for instance, the special rule (H. Res. 125) governing consideration of Rules Print 114-8 for <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.5:"><span class="Hyperlink">H.R. 5</span></a>, the "Student Success Act," provided for a modification of the print in the form of an amendment printed in the Rules Committee report accompanying the rule. This approach combines the two methods of adjustment discussed in section two and gives the Rules Committee greater flexibility in designing procedures for the consideration of legislation.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Thirty-two Rules prints were debated on the House floor during the first session of the 114<sup>th</sup> Congress, a rate that slightly outpaces the consideration of Rules prints during the 113<sup>th</sup> Congress. Twenty-six of these instances occurred prior to the election of Representative Paul Ryan as Speaker on October 29, 2015. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For useful perspective on how the demands of modern lawmaking have affected Members and the institution, see U.S. Congress, Senate Committee on Rules and Administration, <em>The Evolving Congress</em>, committee print, 113<sup>th</sup> Cong., 2<sup>nd</sup> sess., S.Prt. 113-30 (Washington, DC: GPO, 2014), 61-106, and David E. Price, <em>The Congressional Experience</em>, 3<sup>rd</sup> ed. (Boulder, CO: Westview Press, 2004).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See especially C. Lawrence Evans, "Committees, Leaders, and Message Politics," in <em>Congress Reconsidered</em>, 7<sup>th</sup> ed., Lawrence C. Dodd and Bruce I. Oppenheimer, eds. (Washington, DC: Congressional Quarterly Press, 2001), 217-243.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Quoted in William A. Robinson, <em>Thomas</em><em> B. Reed: P</em><em>arliamentarian</em> (New York: Dodd Mead, 1930).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For instance, so-called "queen of the hill" rules—special rules that make in order a series of amendments to the same text—were once quite common, but those provisions have fallen out of use in recent years. For more on queen-of-the-hill rules and their king-of-the-hill counterparts, see James V. Saturno, "Toppling the King of the Hill: Understanding Innovation in House Practice," in Jacob R. Straus, ed., <em>Party and Procedure in the United States Congress</em> (Lanham, MD: Rowman and Littlefield Publishers, 2012), 35-60.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the ability of the majority party to postpone and cluster recorded votes until later in the day was integrated into House Rule XVIII, clause 6(g) at the outset of the 107<sup>th</sup> Congress (2001-2002). Prior to that, the power to do so could be granted only by way of language contained in a special rule.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

@@ -1,43 +1,38 @@
 {
-  "active_update_candidates": 74,
-  "active_updates_with_older_publication": 30,
-  "api_remaining_quota": 5,
-  "api_requests": 5,
+  "active_update_candidates": 69,
+  "active_updates_with_older_publication": 35,
+  "api_remaining_quota": 2,
+  "api_requests": 8,
   "archive_start_inclusive": "2026-09-17",
-  "attempted_versions": 74,
-  "candidate_reports": 74,
-  "catalog_reports": 23610,
+  "attempted_versions": 69,
+  "candidate_reports": 69,
+  "catalog_reports": 23612,
   "deferred_official_format_ids": [],
   "errors": [],
-  "finished_at": "2026-11-06T17:34:17.264370+00:00",
+  "finished_at": "2026-11-07T02:01:20.455162+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "42262600857",
+  "github_run_id": "42326916577",
   "historical_new_pdf_versions": 2,
-  "historical_pending_versions": 247,
-  "last_successful_run_at": "2026-11-06T17:34:17.264370+00:00",
+  "historical_pending_versions": 245,
+  "last_successful_run_at": "2026-11-07T02:01:20.455162+00:00",
   "lookback_days": 7,
-  "metadata_only_updates": 16,
-  "new_pdf_versions": 5,
-  "official_current_pending": 0,
-  "official_current_required": 74,
-  "official_current_verified": 74,
-  "official_new_pdf_versions": 1,
-  "official_reconciled_at": "2026-11-06T17:41:06.650861+00:00",
+  "metadata_only_updates": 18,
+  "new_pdf_versions": 6,
   "pending_reports": 0,
   "pending_versions": 0,
-  "planned_versions": 74,
-  "primary_new_pdf_versions": 3,
+  "planned_versions": 70,
+  "primary_new_pdf_versions": 4,
   "primary_pdf_complete": true,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-11-06T17:33:26.765960+00:00",
+  "run_at": "2026-11-07T02:00:12.265007+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
       "ok": true,
-      "reported_count": 90,
-      "reports": 90,
+      "reported_count": 87,
+      "reports": 87,
       "scope": "update-date window"
     },
     "everycrsreport": {
@@ -51,11 +46,20 @@
       "scope": "supplement only; feed is not the complete catalog"
     }
   },
-  "successful_versions": 74,
-  "total_archived_pdf_versions": 737,
-  "total_html_original_versions": 0,
-  "total_html_snapshots": 548,
-  "total_pdf_bytes": 592216379,
+  "successful_versions": 69,
+  "superseded_historical_versions": [
+    {
+      "historical_publication": "2017-06-14",
+      "id": "R44868",
+      "official_pdf_sha256": "58c18e0d214039a1af3f2a4f1ad747bbff9570e2c2b037942f6d6b13ebfcb5d4",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44868/R44868.4.pdf",
+      "official_publication": "2026-11-06",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+    }
+  ],
+  "total_archived_pdf_versions": 743,
+  "total_html_snapshots": 554,
+  "total_pdf_bytes": 597760725,
   "warnings": [
     {
       "api_version": 18,
@@ -68,14 +72,6 @@
     {
       "api_version": 15,
       "id": "IF10155",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "17"
-      ]
-    },
-    {
-      "api_version": 15,
-      "id": "IF10293",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "17"
@@ -130,11 +126,11 @@
       ]
     },
     {
-      "api_version": 4,
-      "id": "IF11769",
+      "api_version": 14,
+      "id": "IF12047",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
-        "7"
+        "19"
       ]
     },
     {
@@ -170,32 +166,8 @@
       ]
     },
     {
-      "api_version": 8,
-      "id": "IF12608",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "21"
-      ]
-    },
-    {
       "api_version": 1,
       "id": "IF13171",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "2"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "IF13226",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "7"
-      ]
-    },
-    {
-      "api_version": 1,
-      "id": "IF13338",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "2"
@@ -266,14 +238,6 @@
       ]
     },
     {
-      "api_version": 23,
-      "id": "R44258",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "24"
-      ]
-    },
-    {
       "api_version": 15,
       "id": "R44263",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
@@ -287,6 +251,14 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "8"
+      ]
+    },
+    {
+      "api_version": 3,
+      "id": "R44868",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "unknown"
       ]
     },
     {
@@ -351,14 +323,6 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "7"
-      ]
-    },
-    {
-      "api_version": 4,
-      "id": "R48078",
-      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
-      "pdf_revisions": [
-        "5"
       ]
     },
     {
@@ -474,31 +438,24 @@
       ]
     },
     {
-      "id": "IF10155",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
-      "id": "R44348",
+      "id": "R44353",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "R44351",
+      "id": "R44362",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "historical_backfill_remaining": 247,
+      "historical_backfill_remaining": 245,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
-  "window_end_inclusive": "2026-11-06",
-  "window_start_inclusive": "2026-10-30"
+  "window_end_inclusive": "2026-11-07",
+  "window_start_inclusive": "2026-10-31"
 }
