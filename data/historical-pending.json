@@ -1,46 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "7",
-        "date": "2016-07-14",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44421",
-            "sha1": "6db5a65dca3b8c2b4a9a3fd6aded2a59621d640d",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160714_R44421_6db5a65dca3b8c2b4a9a3fd6aded2a59621d640d.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44421",
-            "sha1": "4f072ee842bb7585577784c2d7b26a97bb35789c",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160714_R44421_4f072ee842bb7585577784c2d7b26a97bb35789c.pdf"
-            ]
-          }
-        },
-        "id": "R44421",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44421",
-          "http://www.crs.gov/Reports/pdf/R44421"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "454290",
-        "title": "Real Estate Investment Trusts (REITs) and the Foreign Investment in Real Property Tax Act (FIRPTA): Overview and Recent Tax Revisions",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-08",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: api.congress.gov: network failure after four attempts",
+      "next_retry": "2026-11-10",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",

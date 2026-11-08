@@ -1,8 +1,6 @@
-**Official-current verification: 69/69. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-10-31 to 2026-11-07**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-01 to 2026-11-08**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -94,11 +92,3 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-03 | 2026-10-30 | R49496 v2 | U.S. Aluminum Manufacturing: Industry Trends and Policy Options | [PDF](pdf/reports/R49496v2-2026-10-30-9b6b2c713b11d1c0.pdf) | [Markdown](markdown/reports/R49496v2-2026-10-30-9b6b2c713b11d1c0.md) |
 | 2026-11-03 | 2026-10-30 | R46406 v10 | Voter Registration: Recent Developments and Issues for Congress | [PDF](pdf/reports/R46406v10-2026-10-30-502f3e6629e55598.pdf) | [Markdown](markdown/reports/R46406v10-2026-10-30-502f3e6629e55598.md) |
 | 2026-11-03 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
-| 2026-10-31 | 2026-10-29 | R49495 v3 | Decommissioning Offshore Oil and Gas Infrastructure: Issues for Congress | [PDF](pdf/reports/R49495v3-2026-10-29-c5db96b2179f5924.pdf) | [Markdown](markdown/reports/R49495v3-2026-10-29-c5db96b2179f5924.md) |
-| 2026-10-31 | 2026-10-26 | R49492 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.pdf) | [Markdown](markdown/reports/R49492v3-2026-10-26-f56b712cb2cf3b61.md) |
-| 2026-10-31 | 2026-10-29 | R47337 v8 | Military Memorials, Monuments, and Museums: Selected Resources for Federal, State, and Local Funding | [PDF](pdf/reports/R47337v8-2026-10-29-016de1ee2ff7ff72.pdf) | [Markdown](markdown/reports/R47337v8-2026-10-29-016de1ee2ff7ff72.md) |
-| 2026-10-31 | 2026-10-29 | R46236 v13 | Brazil: Background and U.S. Relations | [PDF](pdf/reports/R46236v13-2026-10-29-e48f4c35ce6486ce.pdf) | [Markdown](markdown/reports/R46236v13-2026-10-29-e48f4c35ce6486ce.md) |
-| 2026-10-31 | 2026-10-28 | R46143 v7 | The Office of Federal Student Aid as a Performance-Based Organization | [PDF](pdf/reports/R46143v7-2026-10-28-1cbc960598e6e621.pdf) | [Markdown](markdown/reports/R46143v7-2026-10-28-1cbc960598e6e621.md) |
-| 2026-10-31 | 2026-10-29 | R45030 v16 | Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments | [PDF](pdf/reports/R45030v16-2026-10-29-92f53420a538e99a.pdf) | [Markdown](markdown/reports/R45030v16-2026-10-29-92f53420a538e99a.md) |
-| 2026-10-31 | 2026-10-30 | IN12750 v1 | A Slowdown in U.S. Labor Supply Growth | [PDF](pdf/insights/IN12750v1-2026-10-30-cc906949666bd1ae.pdf) | [Markdown](markdown/insights/IN12750v1-2026-10-30-cc906949666bd1ae.md) |
-| 2026-10-31 | 2026-10-30 | 96-548 v19 | The Legislative Process on the Senate Floor: An Introduction | [PDF](pdf/reports/96-548v19-2026-10-30-d6a495c904ace457.pdf) | [Markdown](markdown/reports/96-548v19-2026-10-30-d6a495c904ace457.md) |
