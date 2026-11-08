@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-08T01:51:33.842320+00:00
+Watchdog checked UTC: 2026-11-08T06:11:19.961478+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -14,6 +14,7 @@ Monitor commits are NOT source refreshes. No new reports can be normal; stale ve
 
 ## Findings
 
+coverage-audit.yml: no verified refresh within 26 hours
 official-reconcile.yml: latest run failure
 coverage-audit.yml: latest run failure
 
