@@ -1,15 +1,19 @@
-**Official-current verification: 61/61. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-02 to 2026-11-09**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-09 | R49513 v1 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v1-2026-11-09-73fbad1f1910b276.pdf) | [Markdown](markdown/reports/R49513v1-2026-11-09-73fbad1f1910b276.md) |
+| 2026-11-09 | R49512 v1 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v1-2026-11-09-52f7a3f708591afc.pdf) | [Markdown](markdown/reports/R49512v1-2026-11-09-52f7a3f708591afc.md) |
+| 2026-11-09 | R44759 v24 | Lebanon: Background and U.S. Relations | [PDF](pdf/reports/R44759v24-2026-11-09-5bce8af5ebb0ff61.pdf) | [Markdown](markdown/reports/R44759v24-2026-11-09-5bce8af5ebb0ff61.md) |
+| 2026-11-09 | IN12746 v2 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v2-2026-11-09-c555793512fef262.pdf) | [Markdown](markdown/insights/IN12746v2-2026-11-09-c555793512fef262.md) |
+| 2026-11-09 | IF12680 v3 | The Board of Veterans’ Appeals: A Brief Introduction | [PDF](pdf/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.pdf) | [Markdown](markdown/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.md) |
 | 2026-11-06 | R49511 v1 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Project Certainty Provisions | [PDF](pdf/reports/R49511v1-2026-11-06-dccf7c54fd57b0bb.pdf) | [Markdown](markdown/reports/R49511v1-2026-11-06-dccf7c54fd57b0bb.md) |
 | 2026-11-06 | R49510 v8 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v8-2026-11-06-817c18032e8a6a4d.pdf) | [Markdown](markdown/reports/R49510v8-2026-11-06-817c18032e8a6a4d.md) |
 | 2026-11-06 | R49510 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v3-2026-11-06-9bff1b23ca2acbf2.pdf) | [Markdown](markdown/reports/R49510v3-2026-11-06-9bff1b23ca2acbf2.md) |
 | 2026-11-06 | R44868 v4 | Short-Term, Small-Dollar Lending: Policy Issues and Implications | [PDF](pdf/reports/R44868v4-2026-11-06-58c18e0d214039a1.pdf) | [Markdown](markdown/reports/R44868v4-2026-11-06-58c18e0d214039a1.md) |
+| 2026-11-06 | LSB11498 v1 | Congressional Court Watcher: Circuit Splits from September 2026 | [PDF](pdf/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.pdf) | [Markdown](markdown/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.md) |
 | 2026-11-06 | IN12755 v1 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.pdf) | [Markdown](markdown/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.md) |
 | 2026-11-06 | IF13344 v2 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v2-2026-11-06-2a6eb3f2b392ce47.pdf) | [Markdown](markdown/in-focus/IF13344v2-2026-11-06-2a6eb3f2b392ce47.md) |
 | 2026-11-06 | IF12047 v20 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.pdf) | [Markdown](markdown/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.md) |
@@ -70,6 +74,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-09 | 2019-09-04 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2019 | [PDF](pdf/reports/RL30567v29-2019-09-04-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2019-09-04-97b460804175e3ce.md) |
+| 2026-11-09 | 2026-10-23 | IF13295 v4 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.pdf) | [Markdown](markdown/in-focus/IF13295v4-2026-10-23-dcdce2e676234a16.md) |
 | 2026-11-07 | 2026-07-21 | IF10155 v19 | Somalia | [PDF](pdf/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.pdf) | [Markdown](markdown/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.md) |
 | 2026-11-06 | 2018-06-27 | R45241 v3 | The Rule XIX Call to Order for Disorderly Language in Senate Debate | [PDF](pdf/reports/R45241v3-2018-06-27-daca76abc59b0bc9.pdf) | [Markdown](markdown/reports/R45241v3-2018-06-27-daca76abc59b0bc9.md) |
 | 2026-11-05 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |

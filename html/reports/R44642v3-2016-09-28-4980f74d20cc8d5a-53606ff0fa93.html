@@ -1,0 +1,776 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R44642.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Encryption: Frequently Asked Questions</div>
+<div class="CoverDate">Updated September 28, 2016
+            (R44642)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc530484497"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc530484498"><span class="Hyperlink">Technology</span></a></li>
+<li class="TOC2"><a href="#_Toc530484499"><span class="Hyperlink">What is encryption?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484500"><span class="Hyperlink">How does encryption work?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484501"><span class="Hyperlink">How can data be encrypted?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484502"><span class="Hyperlink">What is a "key"?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484503"><span class="Hyperlink">What is key escrow?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484504"><span class="Hyperlink">What is a split key?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484505"><span class="Hyperlink">What are "public" and "private" keys?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484506"><span class="Hyperlink">What is a "backdoor"?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484507"><span class="Hyperlink">What is a "hash?"</span></a></li>
+<li class="TOC2"><a href="#_Toc530484508"><span class="Hyperlink">When did encryption begin?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484509"><span class="Hyperlink">Is building a cryptosystem for encryption difficult?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484510"><span class="Hyperlink">What is the difference between "Cryptanalysis," "Cryptography," and "Cryptology?"</span></a></li>
+<li class="TOC2"><a href="#_Toc530484511"><span class="Hyperlink">Can we break encryption?</span></a></li>
+<li class="TOC1"><a href="#_Toc530484512"><span class="Hyperlink">Uses</span></a></li>
+<li class="TOC2"><a href="#_Toc530484513"><span class="Hyperlink">Who uses encryption?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484514"><span class="Hyperlink">What can be encrypted?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484515"><span class="Hyperlink">Where is encryption used?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484516"><span class="Hyperlink">When is encryption applied?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484517"><span class="Hyperlink">Why would one encrypt data or devices?</span></a></li>
+<li class="TOC1"><a href="#_Toc530484518"><span class="Hyperlink">Policy Discussion</span></a></li>
+<li class="TOC2"><a href="#_Toc530484519"><span class="Hyperlink">What is encryption's role in the "going dark" debate?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484520"><span class="Hyperlink">What is to gain through using encryption?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484521"><span class="Hyperlink">What is lost through using encryption?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484522"><span class="Hyperlink">What are the Fourth and Fifth Amendment implications?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484523"><span class="Hyperlink">What are the trade-offs?</span></a></li>
+<li class="TOC3"><a href="#_Toc530484524"><span class="Hyperlink">Information Security</span></a></li>
+<li class="TOC3"><a href="#_Toc530484525"><span class="Hyperlink">National Security</span></a></li>
+<li class="TOC2"><a href="#_Toc530484526"><span class="Hyperlink">What current legislative proposals exist?</span></a></li>
+<li class="TOC2"><a href="#_Toc530484527"><span class="Hyperlink">What other policy options have been discussed to address encryption?</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc530484494"><span class="Hyperlink">Figure 1. Graphical Representation of a Cryptosystem</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc530484495"><span class="Hyperlink">Table 1. Status of Selected Encryption Legislation</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Encryption is a process to secure information from unwanted access or use. Encryption uses the art of cryptography to change information which can be read (plaintext) and make it so that it cannot be read (ciphertext). Decryption uses the same art of cryptography to change that ciphertext back to plaintext. Encryption takes five elements to work: plaintexts, keys, encryption methods, decryption methods, and ciphertexts.<em> </em>Data that are in a state of being stored or in a state of being sent are eligible for encryption. However, data that are in a state of being processed—that is being generated, altered, or otherwise used—are unable to be encrypted and remain in plaintext and vulnerable to unauthorized access. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc461626190"></a><strong>Purposes </strong><strong>of</strong><strong> Encryption</strong></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Today, encryption is as ubiquitous as the devices that connect to the Internet. Encryption is a tool that information security professionals and end users alike can employ to ensure that the data in their custody remain confidential to only those who are authorized to access the data. It also helps to ensure that data is accessed as the authorized users intend, and not altered by a third party. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Strong encryption helps users around the world trust the systems and data they are using, thereby facilitating the transactions that allow society to operate, such as economic activity, control of utilities, and government. This is important because the world has become more connected, and attackers have become more persistent and pervasive. It is difficult to overemphasize the extent to which Internet-connected systems are under attack. But the frequency with which data breaches are exposed in the news media can act as an indicator of the prevalence of active exploitations. Encryption is a tool used to thwart attempts to compromise legitimate activity and national security.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc461626191"></a><strong>Major Issues</strong></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">However, encryption has posed challenges to law enforcement and elements of national security. Strong encryption sometimes hinders law enforcement's ability to collect digital evidence and investigate crimes in the physical world. As more real world transactions are conducted via digital means and adversaries continue to perpetrate crimes, this problem may become more pronounced. There are multiple sides to the encryption debate, but the sides generally reduce to two main parties: those who favor cryptosystems built as strongly as possible, and those who favor cryptosystems built with the opportunity for access if necessary and approved by a judicial authority.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Encryption has created new issues for end users, as well. The technology was adopted rapidly, and users were not afforded the same opportunities to alter their habits as with the more steady adoption of technologies in the past. With the quick adoption of encryption, users left themselves more vulnerable to being unable to access or share their own data, for instance in the event that they forget the key or lack a way to share that key. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One proposal to alleviate concerns over access to encrypted data by law enforcement includes mandating access for law enforcement while retaining strong encryption. However, this proposal undermines how encryption systems are built by introducing some extraordinary access into the system beyond the direct access of the user. This proposal carries risk as it creates an attack vector which adversaries of all types could seek to exploit. The increased risk raises the possibility that a persistent adversary will be able to circumvent the protections put in place to allow limited access and compromise the data and systems in use. In the 114<sup>th</sup> Congress, many activities have focused on encryption, including some legislative proposals.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ready availability and rapid adoption of encryption technologies has ignited a discussion on the applicability of the technology and the conditions under which those technologies should be used and made accessible. Information and communications technology (ICT) manufacturers have implemented strong cryptosystems into their products, which make their users and the devices themselves safer and more trustworthy. But while that happened, law enforcement officers have been increasingly stymied in their efforts to investigate crimes and enforce the rule of law. There are multiple sides to the encryption debate, but the sides generally reduce to two main parties: those who favor cryptosystems built as strongly as possible, and those who favor cryptosystems built with the opportunity for access if necessary and approved by a judicial authority. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many technology companies, trade associations, security experts, and organizations dedicated to protecting civil liberties and human rights support the first argument.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Letter from Access et al. to Barack Obama, President of the United States of America, May 19, 2015, https://static.newamerica.org/attachments/3138—113/Encryption_Letter_to_Obama_final_051915.pdf .">1</a></sup> This group argues that our modern economy relies on the trustworthiness of users and devices. They further argue that threats compromise that trustworthiness and put devices and their users under constant attack.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="Ibid.">2</a></sup> They also argue that deliberately weak cryptosystems will place their users and products at an international disadvantage and ultimately make everyone less safe.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Ibid.">3</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many government agencies, including federal, state, and local law enforcement agencies, fall into the second group.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='Cyrus R. Vance Jr., "Written Testimony" United States Senate Committee on Armed Services, hearing on "Cybersecurity and U.S. National Security," July 14, 2016, at http://www.armed-services.senate.gov/imo/media/doc/Vance_07-14-16.pdf .'>4</a></sup> They argue that absolute privacy has never existed because judges could authorize the disclosure of information within their jurisdiction. The recent adoption of encryption technologies hinders the orders of judges to authorize disclosure of information and law enforcement's ability to conduct investigations.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='James Comey, "Remarks to the 2016 Symantec Government Symposium," August 30, 2016, at https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches .'>5</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To provide context for this debate, this report will (1) provide a primer on the technology that enables encryption; (2) discuss the uses of encryption; and (3) discuss policy options for future actions on encryption. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc460498413"></a><a name="_Toc460503991"></a><a name="_Toc461626193"></a><a name="_Toc461626318"></a><a name="_Toc462324354"></a><a name="_Toc462754207"></a><a name="_Toc462830413"></a><a name="_Toc462842534"></a><a name="_Toc462921551"></a><a name="_Toc463001013"></a><a name="_Toc463001378"></a><a name="_Toc463001443"></a><a name="_Toc530484498"></a>Technology </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153919"></a><a name="_Toc455083464"></a><a name="_Toc455151910"></a><a name="_Toc455155113"></a><a name="_Toc460498414"></a><a name="_Toc460503992"></a><a name="_Toc461626194"></a><a name="_Toc461626319"></a><a name="_Toc462324355"></a><a name="_Toc462754208"></a><a name="_Toc462830414"></a><a name="_Toc462842535"></a><a name="_Toc462921552"></a><a name="_Toc463001014"></a><a name="_Toc463001379"></a><a name="_Toc463001444"></a><a name="_Toc530484499"></a>What is encryption?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc437520021"></a><a name="_Toc444153920"></a>Encryption is a process to secure information from unwanted access or use. Encryption uses the art of cryptography, which comes from the Greek words meaning "secret writing," to change information which can be read (plaintext) and make it so that it cannot be read (ciphertext). Decryption uses the same art of cryptography to change that ciphertext back to plaintext.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='Matt Bishop, "Chapter 9: Basic Cryptography," in Computer Security: Art and Science (Boston, MA: Addison-Wesley, 2003), pp. 217-240.'>6</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083465"></a><a name="_Toc455151911"></a><a name="_Toc455155114"></a><a name="_Toc460498415"></a><a name="_Toc460503993"></a><a name="_Toc461626195"></a><a name="_Toc461626320"></a><a name="_Toc462324356"></a><a name="_Toc462754209"></a><a name="_Toc462830415"></a><a name="_Toc462842536"></a><a name="_Toc462921553"></a><a name="_Toc463001015"></a><a name="_Toc463001380"></a><a name="_Toc463001445"></a><a name="_Toc530484500"></a>How does encryption work?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For computer systems, encryption works by applying a cryptosystem to the message, or block of data, that the user seeks to encrypt. A cryptosystem is a five-element system which includes a set of <em>plaintexts</em>, <em>keys</em>, <em>encryption methods</em>, <em>decryption methods</em>, and <em>ciphertexts</em>. The interaction of these elements is displayed below where TP is plaintext, ME is a method of encryption, K is the key, TC is the cipthertext and MD is a method of decryption. The encryption and decryption algorithms govern how the cryptosystem substitutes characters in the plaintext and transposes it to a ciphertext, and then back to its original plaintext. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">TP + ME+ K = TC</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">TC + MD+ K = TP</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Using a simplified graphical representation, encryption would appear as follows: </p>
+<p class="Figure" style="padding-left:-141.6pt;padding-right:-141.6pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref462317804"></a><a name="_Toc455083460"></a><a name="_Toc455151906"></a><a name="_Toc455155109"></a><a name="_Toc460498409"></a><a name="_Toc460503987"></a><a name="_Toc461626187"></a><a name="_Toc461626314"></a><a name="_Toc462324350"></a><a name="_Toc462754203"></a><a name="_Toc462830409"></a><a name="_Toc462842530"></a><a name="_Toc462921547"></a><a name="_Toc463001009"></a><a name="_Toc463001374"></a><a name="_Toc463001439"></a><a name="_Toc530484494"></a>Figure 1. Graphical Representation of a Cryptosystem</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R44642_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS analysis.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In some cryptosystems, the key that encrypts the message and decrypts the message is the same—these systems are known as <em>symmetric. </em>In other cryptosystems, one key would encrypt a message while it will take another key to decrypt the message—these systems are known as <em>asymmetric.</em></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153921"></a><a name="_Toc455083466"></a><a name="_Toc455151912"></a><a name="_Toc455155115"></a><a name="_Toc460498416"></a><a name="_Toc460503994"></a><a name="_Toc461626196"></a><a name="_Toc461626321"></a><a name="_Toc462324357"></a><a name="_Toc462754210"></a><a name="_Toc462830416"></a><a name="_Toc462842537"></a><a name="_Toc462921554"></a><a name="_Toc463001016"></a><a name="_Toc463001381"></a><a name="_Toc463001446"></a><a name="_Toc530484501"></a>How can data be encrypted?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153922"></a>To encrypt a message, or block of data, the user would choose an encryption method—in computer security, that is an algorithm—and choose a key.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='Here, an "algorithm" means a set of steps which make up a process to execute an operation.'>7</a></sup> The user would then enter the key into the algorithm with the plaintext to develop a ciphertext.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown in <a class="InternalLink" href="#_Ref462317804"><strong></strong><strong>Figure 1</strong></a>, a plaintext, or the thing that a user seeks to encrypt, would be put through an encryption method and transformed into unintelligible information. This process requires both a key and the encryption method. A user with the key could take that unintelligible information and apply the decryption method, with the key, to transform the information into something intelligible. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are many encryption methods, also known as standards, available for use by the public, such as the Data Encryption Standard and Blowfish.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='National Institute Of Standards and Technology, "Data Encryption Standard," Federal Information Processing Standard 46-3, October 25, 1999, at http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf ; and B. Schneier, "Description of a New Variable-Length Key, 64-Bit Block Cipher (Blowfish)," paper, 1994, at https://www.schneier.com/academic/archives/1994/09/description_of_a_new.html .'>8</a></sup> However, many modern encryption implementations use the Advanced Encryption Standard (AES). AES was developed as a result of a call for proposals from the National Institute of Standards and Technology (NIST), and once publicly scrutinized, it was accepted as a standard by the Department of Commerce in 2001.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title='National Institute of Standards and Technology, "Advanced Encryption Standard (AES)," Federal Information Processing standard 197, November 26, 2011, at http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf .'>9</a></sup> Many cryptosystems today use AES as the method for how data are substituted and transposed to ensure security. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083467"></a><a name="_Toc455151913"></a><a name="_Toc455155116"></a><a name="_Toc460498417"></a><a name="_Toc460503995"></a><a name="_Toc461626197"></a><a name="_Toc461626322"></a><a name="_Toc462324358"></a><a name="_Toc462754211"></a><a name="_Toc462830417"></a><a name="_Toc462842538"></a><a name="_Toc462921555"></a><a name="_Toc463001017"></a><a name="_Toc463001382"></a><a name="_Toc463001447"></a><a name="_Toc530484502"></a>What is a "key"?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A key is the input to the encryption and decryption methods (or algorithms, in the case of computer security) that guides the specific substitutions and transpositions the encryption and decryption methods perform.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='Willian Stallings and Lawrie Brown, "Chapter 2: Cryptographic Tools," in Computer Security: Principles and Practice , 2 nd ed. (Boston, MA: Pearson, 2012), p. 40.'>10</a></sup> While the same encryption method may be used to secure a wide array of data, each instance of that method being applied with a different key makes that encrypted data unique. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In implementing a cryptosystem, the user generates a key by creating, and continuing to use, a password, passphrase, or passcode. In these cryptosystems, each user has a unique password, or key, but shares the encryption and decryption methods among all users. Alternatively, the system could generate a key for the user. This second technique is common in securing website connections.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Depending on the implementation of the cryptosystem, the key may be the password (or passphrase or passcode). Or, it could be an element necessary to generate the key used in the cryptosystem, as is the case with the iPhone. In the iPhone's cryptosystem, the user generated passcode is combined with the phone's unique identifier to create the key each time the passcode is entered. In this system, the key is not stored on the device.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The secrecy of the key is a crucial element that ensures a cryptosystem is secure. An adversary may intercept the ciphertext and know the encryption standard in use on that system. However, the key will remain a secret, and as a result, so too will the ciphertext. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another way of thinking about the importance of the key is that those who have access to the key have access to the data. Expanding on this concept, whoever is able to discover the key, can discover the data. That is why the secrecy of a key is so critical to the overall security of a cryptosystem. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It is because the key is so critical to a cryptosystem that keys and data are kept and transmitted separately in secure cryptosystems. If a key was sent along with a ciphertext, an adversary who intercepts that communication would have all elements necessary to decrypt the message.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455151914"></a><a name="_Toc455155117"></a><a name="_Toc460498418"></a><a name="_Toc460503996"></a><a name="_Toc461626198"></a><a name="_Toc461626323"></a><a name="_Toc462324359"></a><a name="_Toc462754212"></a><a name="_Toc462830418"></a><a name="_Toc462842539"></a><a name="_Toc462921556"></a><a name="_Toc463001018"></a><a name="_Toc463001383"></a><a name="_Toc463001448"></a><a name="_Toc530484503"></a>What is key escrow?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Key escrow systems propose that an intermediary holds encryption keys so that authorized users may access their data in the event that they lose or forget their password, or in the event that a government agency presents the intermediary with a court order to hand over the data. While this appears to be a compromise to the encryption debate, some have argued that key escrows dilute overall security while attempting to strike a balance between individual and national security.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='H. Abelson, R. Anderson, S.M. Bellovin, J. Benaloh, M. Blaze, W. Diffie, J. Gilmore, P.G. Neumann, R.L. Rivest, J.I. Schiller, and B. Schneier, "The Risks of Key Recovery, Key Escrow, and Trusted Third-Party Encryption," 1998, at https://www.schneier.com/academic/archives/1997/04/the_risks_of_key_rec.html .'>11</a></sup> Intermediaries may become the target of a variety of attacks. Hackers will seek to circumvent any security put in place to protect the keys, seeking to reap the payload of an unknown trove of users' keys—and data. It is also foreseeable that governments may use the range of tools at their disposal (espionage, legal, economic, etc.) to obtain the keys. The use of an intermediary to reserve encryption keys arguably creates a weakness by which all users may have their data compromised.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Bankston, Kevin, &quot;Statement of Kevin S. Bankston during a hearing titled 'Encryption Technology and Possible U.S. Policy Responses,'&quot; U.S. House of Representatives Subcommittee on Information Technology of the Committee on Oversight and Government Reform, April 29, 2015, at https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Bankston-1.pdf .">12</a></sup> Current strong cryptosystems limit knowledge of the key to only the creator of the key (and with whomever that user decides to share their key). Creating one or more repositories for keys (the escrow) increases the opportunities for the keys to become known. One way for this to happen is that the repository itself has a weakness which exposes the keys.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='Tom Mendelsohn, "Secure Boot Snafu: Microsoft Leaks Backdoor Key, Firmware Flung Wide Open," Ars Technica , August 11, 2016, at http://arstechnica.com/security/2016/08/microsoft-secure-boot-firmware-snafu-leaks-golden-key/ .'>13</a></sup> Another is for an insider or a hacker to expose information held by the repository.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='Dan Goodin, "Cluster of "Megabreaches" Compromises a Whopping 642 Million Passwords," Ars Technica , May 31, 2016, at http://arstechnica.com/security/2016/05/cluster-of-megabreaches-compromise-a-whopping-642-million-passwords/ .'>14</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455151915"></a><a name="_Toc455155118"></a><a name="_Toc460498419"></a><a name="_Toc460503997"></a><a name="_Toc461626199"></a><a name="_Toc461626324"></a><a name="_Toc462324360"></a><a name="_Toc462754213"></a><a name="_Toc462830419"></a><a name="_Toc462842540"></a><a name="_Toc462921557"></a><a name="_Toc463001019"></a><a name="_Toc463001384"></a><a name="_Toc463001449"></a><a name="_Toc530484504"></a>What is a split key?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A split key scheme is where a key is mathematically split into <em>N</em> pieces, of which only a majority of those pieces is necessary to recreate a usable key to decrypt data. This may be represented as <em>R</em><em>=</em>(<em>N-x</em>), where <em>R </em>is the recovery key and <em>x</em> is some number less than <em>N</em>. Proponents of this structure suggest that those holding the pieces of a key must independently agree, and in a majority, to allow access to data. For instance, in this scheme, the user will retain a complete copy of their key, but three organizations (the government, the platform provider, and another party) would also have parts of the key, and two of those three would need agree to recreate the key before someone other than the user could access the encrypted data. However, opponents of this scheme point out that the holders of the pieces of the key will likely become targets for adversarial attacks, increasing the likelihood that entire cryptosystems become compromised.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='Nakashima, Ellen and Gellman, Barton, "As Encryption Spreads, U.S. Grapples with Clash Between Privacy, Security," The Washington Post, April 10, 2015, at https://www.washingtonpost.com/world/national-security/as-encryption-spreads-us-worries-about-access-to-data-for-investigations/2015/04/10/7c1c7518-d401-11e4-a62f-ee745911a4ff_story.html .'>15</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc460498420"></a><a name="_Toc460503998"></a><a name="_Toc461626200"></a><a name="_Toc461626325"></a><a name="_Toc462324361"></a><a name="_Toc462754214"></a><a name="_Toc462830420"></a><a name="_Toc462842541"></a><a name="_Toc462921558"></a><a name="_Toc463001020"></a><a name="_Toc463001385"></a><a name="_Toc463001450"></a><a name="_Toc530484505"></a>What are "public" and "private" keys?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Public keys and private keys are used in an asymmetric cryptosystem. In this system, a public key is a key that is known to anyone, it is not a secret. It may be used by anyone to encrypt data. However, the data can only be decrypted by the user or users with the private key, which is a secret. This system allows many users to submit information to one or more users confidentially and securely. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Public and private keys also help address concerns of authentication. If a sender signs an item with their private key, then the recipient may verify the signature with the public key to have a reasonable understanding that the message is authentically from the sender. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Private keys are privately held; that is, held by the user. And public keys are held by trusted third parties which provide access to those keys when requested so that users may use them on demand. An example of this is when a user connects to a website via Hypertext Transfer Protocol-Secure (HTTPS). To enable the secure connection to the website, a user starts the process by sending a request to the site. The site would then send their public key to the user, and the user's computer would then generate a new key (to be used in the HTTPS connection), encrypt it with the website's public key and send that back. The user knows that only the website that has the private key could decrypt the information the user just sent. With the new, user-generated key, the website would create the secure connection with the user, indicated to the user by the HTTPS icon (frequently a lock symbol) in the browser window. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153923"></a><a name="_Toc455083468"></a><a name="_Toc455151916"></a><a name="_Toc455155119"></a><a name="_Toc460498421"></a><a name="_Toc460503999"></a><a name="_Toc461626201"></a><a name="_Toc461626326"></a><a name="_Toc462324362"></a><a name="_Toc462754215"></a><a name="_Toc462830421"></a><a name="_Toc462842542"></a><a name="_Toc462921559"></a><a name="_Toc463001021"></a><a name="_Toc463001386"></a><a name="_Toc463001451"></a><a name="_Toc530484506"></a>What is a "backdoor"?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In computer science, the term "backdoor" has many definitions.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Kim Zetter, "Hacker Lexicon: What is a Backdoor?," Wired , December 11, 2014, online at https://www.wired.com/2014/12/hacker-lexicon-backdoor/  .'>16</a></sup> For the purpose of the encryption debate, a backdoor is a way of bypassing the normal authentication methods of a cryptosystem. In this context, the normal authentication method is that the user enters a key and encrypts or decrypts the data. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are legitimate and illegitimate ways to access encrypted data. If an authorized user were to provide the password (or key) to another person, then the second person would have access via a normal authentication method and be a legitimate user. If someone were to guess a user's key, that person would access the encrypted data via a legitimate authentication method, but would be an illegitimate user. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Furthermore, any weakness, whether intentionally or unintentionally introduced in the cryptosystem can act as a backdoor. If such a weakness exists, anyone with the capability to exploit the weakness will have access to the information. It is unlikely that any single party will remain the sole user of a backdoor. Because of the increased amount of information generated with computer systems, and the connectedness of those systems, the systems are inherently a target for illegitimate access.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='"When Back Doors Backfire," The Economist , January 2, 2016, available online at http://www.economist.com/news/leaders/21684783-some-spy-agencies-favour-back-doors-encryption-software-who-will-use-them-when-back .'>17</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Court-ordered access to encrypted data through the use of a backdoor falls into a grey area. On one hand the access would be beyond the normal authentication of the device, but on the other it would be within an existing legal structure that is deemed legitimate by society at large.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="For more information on this issue, see CRS Report R44396, Court-Ordered Access to Smart Phones: In Brief , by Kristin Finklea, Richard M. Thompson II, and Chris Jaikaran .">18</a></sup> Society's current acceptance of that legal structure is evidenced through centuries of court cases which determined an equilibrium between an individual's right to privacy and the state's need to ensure security.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153925"></a><a name="_Toc455083470"></a><a name="_Toc455151918"></a><a name="_Toc455155121"></a><a name="_Toc460498422"></a><a name="_Toc460504000"></a><a name="_Toc461626202"></a><a name="_Toc461626327"></a><a name="_Toc462324363"></a><a name="_Toc462754216"></a><a name="_Toc462830422"></a><a name="_Toc462842543"></a><a name="_Toc462921560"></a><a name="_Toc463001022"></a><a name="_Toc463001387"></a><a name="_Toc463001452"></a><a name="_Toc437520023"></a><a name="_Toc444153926"></a><a name="_Toc455083471"></a><a name="_Toc455151919"></a><a name="_Toc455155122"></a><a name="_Toc444153924"></a><a name="_Toc455083469"></a><a name="_Toc455151917"></a><a name="_Toc455155120"></a><a name="_Toc530484507"></a>What is a "hash?"</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A hash is separate from but related to encryption. A hash uses similar mathematical functions as an encryption method to produce a string of characters as an output. This output can only occur one way, so a hash value may be derived from a message, but knowing the hash value will not allow one to know the message.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Hash values are used to validate the integrity of a message. If the hash value for a message changes, then the message itself is altered. This allows a user to determine whether or not they will trust the message. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One may encrypt a message and hash a message, or only do one or the other. Although they use similar mathematical functions, they are not required to be used in tandem. The encryption is a way of achieving confidentiality, while the hash is a way of achieving integrity. See "<a class="InternalLink" href="#_Ref456967852">What is to gain through using encryption?</a>" for more. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc460498423"></a><a name="_Toc460504001"></a><a name="_Toc461626203"></a><a name="_Toc461626328"></a><a name="_Toc462324364"></a><a name="_Toc462754217"></a><a name="_Toc462830423"></a><a name="_Toc462842544"></a><a name="_Toc462921561"></a><a name="_Toc463001023"></a><a name="_Toc463001388"></a><a name="_Toc463001453"></a><a name="_Toc530484508"></a>When did encryption begin?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Encryption is not new to human communications. There are examples of Egyptian scribes using transposed hieroglyphs in 1900 BC. Julius Caesar used a simple substitution cipher to send private messages to acquaintances via courier.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="A cipher is a way to write a message as a code, but is not computer code.">19</a></sup> Thomas Jefferson invented a wheel cipher which was recreated during World War II for communications.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title='SANS Institute. "History of Encryption," InfoSec Reading Room paper, 2001, at https://www.sans.org/reading-room/whitepapers/vpns/history-encryption-730 .'>20</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The modern encryption debate ignited in the 1990s during what is often dubbed the "crypto-wars."<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='For more information on the crypto-wars, see CRS Report R44187, Encryption and Evolving Technology: Implications for U.S. Law Enforcement Investigations , by Kristin Finklea , and CRS Report R44481, Encryption and the "Going Dark" Debate , by Kristin Finklea .'>21</a></sup> During this period, the U.S. government proposed the promulgation of encryption with a key-escrow system, known as the "clipper chip." Researcher Matt Blaze found a vulnerability in the security of the clipper chip and the government ended its campaign for key escrow to accompany encryption. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Our current encryption debate began early in the 21<sup>st</sup> century with the ready availability of encryption platforms which could inhibit government access to electronic evidence. The debate increased in fervor in 2014 when both Apple and Google added full-disk encryption to their mobile operating systems.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Eric Geller, &quot;A Complete Guide to the New 'Crypto Wars,'&quot; The Daily Dot , May 5, 2016, at http://www.dailydot.com/layer8/encryption-crypto-wars-backdoors-timeline-security-privacy/  .">22</a></sup> This by-default encryption exponentially increased the amount of digital evidence that law enforcement was not as easily able to access, and therefore the debate over security of individuals and national security became more prevalent.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153927"></a><a name="_Toc455083472"></a><a name="_Toc455151920"></a><a name="_Toc455155123"></a><a name="_Toc460498424"></a><a name="_Toc460504002"></a><a name="_Toc461626204"></a><a name="_Toc461626329"></a><a name="_Toc462324365"></a><a name="_Toc462754218"></a><a name="_Toc462830424"></a><a name="_Toc462842545"></a><a name="_Toc462921562"></a><a name="_Toc463001024"></a><a name="_Toc463001389"></a><a name="_Toc463001454"></a><a name="_Toc530484509"></a>Is building a cryptosystem for encryption difficult?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While the standards for designing and implementing a cryptosystem are published and made publicly available, creating a usable and secure system is a challenging endeavor.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title='National Institute of Standards and Technology, " Federal Information Processing Standards Publication 197 – Announcing the Advanced Encryption Standard (AES)," November 26, 2001, at http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf .'>23</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to having a mathematically sound standard to use for the encryption and decryption method, using very large prime numbers (numbers that are divisible only by themselves and one) in the algorithm is necessary to ensure that the secret key remains undiscoverable. If a number other than a prime number is used, the adversary may be able to use factors of that number (a pair of numbers that may be multiplied to generate a new number) to generate a key. That is, if a divisible number is used, the adversary may chance upon the solution by finding two other numbers that are factors of the chosen number. This is otherwise known as a "collision." Such primes are so large that they are not written out in character form but are represented exponentially, such as 2<sup>44,497</sup>-1. Additionally, strong ciphers are necessary. Such strong ciphers use 128 bits and 256 bits of data in modern encryption.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="A bit is the smallest unit of data in computer science. So, 128 bit encryption uses a key of 128 bits of data to encrypt and decrypt texts.">24</a></sup> And finally, large key bit length is necessary to ensure that adversaries cannot compute a key through a brute force attack.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="AgileBits, &quot;Guess why we're moving to 256-bit AES keys,&quot; press release, March 9, 2013, https://blog.agilebits.com/2013/03/09/guess-why-were-moving-to-256-bit-aes-keys/   .">25</a></sup> A weakness in any one of those elements—the mathematics behind the standard, the key bit length, the key itself, or the prime numbers used—can compromise the cryptosystem, either in its entirety or for a group of users.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='Paul Van De Zande, "The Day DES Died," July 22, 2001, https://www.sans.org/reading-room/whitepapers/vpns/day-des-died-722 .'>26</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to the complexity of implementing a secure cryptosystem, processing the algorithms that enable encryption comes at a cost—time, heat generated from the processing, and energy consumed. Although cryptosystems were around as the Internet was developing, these costs inhibited encryption from becoming ubiquitous, as it would have overly taxed early hardware and led to users abandoning the platform.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title='Craig Timberg, "Net of Insecurity: The Making of a Vulnerable Internet," The Washington Post , May 30, 2015.'>27</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153928"></a><a name="_Toc455083473"></a><a name="_Toc455151921"></a><a name="_Toc455155124"></a><a name="_Toc460498426"></a><a name="_Toc460504004"></a><a name="_Toc461626205"></a><a name="_Toc461626330"></a><a name="_Toc462324366"></a><a name="_Toc462754219"></a><a name="_Toc462830425"></a><a name="_Toc462842546"></a><a name="_Toc462921563"></a><a name="_Toc463001025"></a><a name="_Toc463001390"></a><a name="_Toc463001455"></a><a name="_Toc460498425"></a><a name="_Toc460504003"></a><a name="_Toc530484510"></a>What is the difference between "Cryptanalysis," "Cryptography," and "Cryptology?"</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to the Committee on National Security Systems (CNSSI), the United States intergovernmental agency responsible for the security of information technology systems which are used for national security purposes:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Cryptanalysis</em> is the study of and techniques performed to defeat or otherwise circumvent a cryptosystem. It is the analysis of a cryptosystem to attack it;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Cryptography</em> is the use of a mathematical technique to encrypt or decrypt some data. It is the application of a cryptosystem; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Cryptology</em> is the mathematical science that deals with cryptanalysis and cryptograph.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title='Committee on National Security Systems, "National Information Assurance (IA) Glossary," instruction, April 26, 2010, at https://www.ncsc.gov/nittf/docs/CNSSI-4009_National_Information_Assurance.pdf .'>28</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc461626206"></a><a name="_Toc461626331"></a><a name="_Toc462324367"></a><a name="_Toc462754220"></a><a name="_Toc462830426"></a><a name="_Toc462842547"></a><a name="_Toc462921564"></a><a name="_Toc463001026"></a><a name="_Toc463001391"></a><a name="_Toc463001456"></a><a name="_Toc530484511"></a>Can we break encryption?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Depending on the implementation, a cryptosystem is crackable. There are attacks against cryptosystems every day. Cryptanalysis contains three main types of attacks.</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. <em>Attacking the ciphertext</em>. In this type of attack, the adversary has the encrypted data and wants to discover the plaintext, and possibly the key. </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. <em>Attack</em><em>ing</em><em> the plaintext</em>. In this type of attack, the adversary has encrypted data and its corresponding plaintext and tries to determine the key. </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. <em>Attack</em><em>ing</em><em> chosen plaintexts</em>. In this type of attack, the adversary selects plaintexts to be enciphered with a cryptosystem and receives the resulting ciphertexts. Then, using that information, tries to determine the key used in that cryptosystem.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title='Matt Bishop, "Chapter 9: Basic Cryptography," in Computer Security: Art and Science (Boston, MA: Addison-Wesley, 2003), pp. 217-240.'>29</a></sup> </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">However, cryptographers design cryptosystems to be practically uncrackable. A practically uncrackable system is one in which trying to attack a system using brute force—that is, guessing every possible iteration of the key until the key is discovered—cannot accomplish the goal within any usable amount of time. Cryptosystems are built to require processors to run through multiple instructions and multiple iterations of those instructions before something is encrypted or decrypted. Those iterations require time. Strong cryptosystems, using strong keys, would require multiple times the age of the universe to discover a key with today's computing power.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="AgileBits, &quot;Guess Why We're moving to 256-bit AES keys,&quot; press release, March 9, 2013, https://blog.agilebits.com/2013/03/09/guess-why-were-moving-to-256-bit-aes-keys/   .">30</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because of the large amount of possibilities, those seeking to use a brute-force attack do not just start at zero and add characters until they get to the key. Instead, they attack other elements of the system. For instance, knowing that users choose simple passwords, the attacker could start guessing likely options to greatly reduce the time to find the key.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='Dinei Florencio, Cormac Herley, and Paul C. van Oorschot, "Password Portfolios and the Finite-Effort User: Sustainably Managing Large Numbers of Accounts," USENIX Security 2014, August 2014, at https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/passwordPortfolios.pdf .'>31</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Or, an attacker could circumvent a cryptosystem entirely and insert themselves between the user and the information they are accessing. Data can only be encrypted while at rest (stored) or in transit (being sent). While a user accesses the data, or is otherwise processing the data, it is in plaintext. So, rather than try to compromise the cryptosystem, an attacker may determine that it is better to compromise the device that is employing the cryptosystem (e.g., the computer or the cell phone). If the attacker puts malicious software on the device that allows them access to what the user is viewing, they could see what the user intends to encrypt before the cryptosystem is activated. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">So, although the encryption is still sound, it does not protect against other forms of attack. In this scenario, the attacker would have access to the unencrypted data on the device. So, if the device in question is a corporate laptop that uses full-disk encryption, when the user logs in and connects to a network, the laptop's contents are decrypted and available to the attacker. Such contents may include health records, corporate secrets, or even the activity of the user, such as websites being visited or applications being used. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153929"></a><a name="_Toc455083474"></a><a name="_Toc455151922"></a><a name="_Toc455155125"></a><a name="_Toc460498427"></a><a name="_Toc460504005"></a><a name="_Toc461626207"></a><a name="_Toc461626332"></a><a name="_Toc462324368"></a><a name="_Toc462754221"></a><a name="_Toc462830427"></a><a name="_Toc462842548"></a><a name="_Toc462921565"></a><a name="_Toc463001027"></a><a name="_Toc463001392"></a><a name="_Toc463001457"></a><a name="_Toc530484512"></a>Uses</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc437520019"></a><a name="_Toc444153931"></a><a name="_Toc455083476"></a><a name="_Toc455151924"></a><a name="_Toc455155127"></a><a name="_Ref456967800"></a><a name="_Toc460498428"></a><a name="_Toc460504006"></a><a name="_Toc461626208"></a><a name="_Toc461626333"></a><a name="_Toc462324369"></a><a name="_Toc462754222"></a><a name="_Toc462830428"></a><a name="_Toc462842549"></a><a name="_Toc462921566"></a><a name="_Toc463001028"></a><a name="_Toc463001393"></a><a name="_Toc463001458"></a><a name="_Toc437520018"></a><a name="_Toc444153930"></a><a name="_Toc455083475"></a><a name="_Toc455151923"></a><a name="_Toc455155126"></a><a name="_Toc530484513"></a>Who uses encryption?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Encryption is used by a variety of users for a variety of purposes. Fundamentally, encryption enables information to remain confidential to a single user or between a user and multiple users. Encryption also enables a level of certainty that who is communicating is who they say they are (as in the case of public-private key encryption) and that the communication is only available to intended recipients. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Individuals use encryption to keep aspects of their lives held on digital platforms private on their devices and among those with which they share information.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title='Bruce Schneier, "Why We Encrypt," Schneier on Security , June 23, 2015, at https://www.schneier.com/blog/archives/2015/06/why_we_encrypt.html .'>32</a></sup> Businesses use encryption to ensure that their research is kept confidential from their competitors, and to ensure that their transactions with their suppliers and customers are authentic.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='Federal Trade Commission, "Start with Security: A Guide for Business," guidance, June 2015, at https://www.ftc.gov/tips-advice/business-center/guidance/start-security-guide-business .'>33</a></sup> Governments use encryption to assure their information is kept and handled in confidence.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='Office of Management and Budget, "Protection of Sensitive Agency Information," M-06-16, June 23, 2006, at https://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2006/m06-16.pdf .'>34</a></sup> Even without a user's interaction, devices may use encryption when communicating to other devices to ensure that commands received from one device are authentic and safe to execute.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title='U.S. Department of Energy, "Secure Data Transfer Guidnace for Industrial Control and SCADA Systems," PNNL-20776, September 2011, at http://www.pnnl.gov/main/publications/external/technical_reports/PNNL-20776.pdf .'>35</a></sup> However, those seeking to obscure their malicious activities from legal authorities may also employ encryption to thwart opportunities to disable and disband their malicious activity.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title='James Comey, "Remarks to the 2016 Symantec Government Symposium," August 30, 2016, at https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches .'>36</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc460498429"></a><a name="_Toc460504007"></a><a name="_Toc461626209"></a><a name="_Toc461626334"></a><a name="_Toc462324370"></a><a name="_Toc462754223"></a><a name="_Toc462830429"></a><a name="_Toc462842550"></a><a name="_Toc462921567"></a><a name="_Toc463001029"></a><a name="_Toc463001394"></a><a name="_Toc463001459"></a><a name="_Toc530484514"></a>What can be encrypted? </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In computer science, data exist in three states.</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Data at rest, or stored data: data resident on a device (e.g., a hard drive or smartphone) that are neither being manipulated nor otherwise processed.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Data in motion, or data in transit: data being sent between or among various points.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Data in use, or data in process: data that are being generated, manipulated, or otherwise used by a user or system. </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Data that are at rest or in motion can be encrypted. In the case of data in motion, it is encrypted, then sent. However, data that are in use are in a plaintext form to the user or system so that they can manipulate that data, and thus these data cannot be encrypted. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc460498431"></a><a name="_Toc460504008"></a><a name="_Toc461626210"></a><a name="_Toc461626335"></a><a name="_Toc462324371"></a><a name="_Toc462754224"></a><a name="_Toc462830430"></a><a name="_Toc462842551"></a><a name="_Toc462921568"></a><a name="_Toc463001030"></a><a name="_Toc463001395"></a><a name="_Toc463001460"></a><a name="_Toc444153932"></a><a name="_Toc455083477"></a><a name="_Toc455151925"></a><a name="_Toc455155128"></a><a name="_Toc460498430"></a><a name="_Toc530484515"></a>Where is encryption used?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A cybersystem includes the end terminals in use; the modems and routers used to transmit data; the servers that process the information; the software packages used in sharing that data; other network-connected devices on that network collecting, generating, and processing data; and the user. Encryption is used by all elements in the cybersystem to protect the data in that system, the users of the system, and the system itself. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The influx of new devices to the market (i.e., Internet of Things devices) multiplies cybersystems beyond the end-user terminal and network infrastructure. This expansion amplifies the opportunities for encryption to be applied as a protective measure. As Matt Blaze, a professor of computer science at the University of Pennsylvania, testified before Congress in April 2015: </p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It is difficult to overstate the importance of robust and reliable computing and communications to our personal, commercial, and national security today. Virtually every aspect of our lives, from our health records to the critical infrastructure that keeps our society and economy running, is reflected in or supported in some way by increasingly connected digital technology. The influx of new communications and computing devices software over the last few decades has yielded enormous benefit to our economy as well as to our ability to connect with one another. This trend toward digital systems, and the benefits we reap from them, will only accelerate as technology continues to improve. Preventing attacks against our digital infrastructure by criminals and other malicious actors is thus now an essential part of protecting our society itself.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="Blaze, Matt, &quot;Testimony for Hearing 'Encryption Technology and Possible US Policy Responses,'&quot; House Committee on Government Oversight and Reform Information Technology Subcommittee, April 29, 2015, at https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Blaze.pdf .">37</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc460504009"></a><a name="_Toc461626211"></a><a name="_Toc461626336"></a><a name="_Toc462324372"></a><a name="_Toc462754225"></a><a name="_Toc462830431"></a><a name="_Toc462842552"></a><a name="_Toc462921569"></a><a name="_Toc463001031"></a><a name="_Toc463001396"></a><a name="_Toc463001461"></a><a name="_Toc530484516"></a>When is encryption applied?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc437520020"></a><a name="_Toc444153933"></a><a name="_Toc455083478"></a>Encryption can be applied to data at rest on a per file basis (e.g., encrypting a file with a unique password), or on the entire storage device (e.g., encrypting an entire hard drive or smartphone). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Encryption can also be applied before a file is transmitted; for instance, a user may encrypt a file before emailing it to a colleague. Or encryption may be applied to every packet of data in transit between or among points on a network, as in the use of virtual private networks (VPN) or HTTPS.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="A VPN is a secure communications link between two points where all traffic is encrypted. Hypertext Transfer Protocol Secure, or HTTPS is encryption between a specific web service and a host.">38</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Data exist as plaintext prior to its encryption. Points at which data is plaintext include when it is being created (e.g., taking a picture or typing a text), processed (e.g., editing a document), or otherwise used (e.g., the system accesses that file for routine maintenance). </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455151926"></a><a name="_Toc455155129"></a><a name="_Toc460498432"></a><a name="_Toc460504010"></a><a name="_Toc461626212"></a><a name="_Toc461626337"></a><a name="_Toc462324373"></a><a name="_Toc462754226"></a><a name="_Toc462830432"></a><a name="_Toc462842553"></a><a name="_Toc462921570"></a><a name="_Toc463001032"></a><a name="_Toc463001397"></a><a name="_Toc463001462"></a><a name="_Toc530484517"></a>Why would one encrypt data or devices?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As people put more of their data online, and rely on Internet-connected services to conduct their daily business—business which includes health care, power generation and consumption, financial transactions, governance, travel, and relationships, to name a few—the devices people use are generating, collecting, storing and adapting information about them. This information is of value to adversaries of all sorts. If an unauthorized person were able to access these data, they would become aware of the more intimate and sensitive aspects of the data owner's life and business. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Full disk encryption on a device, such as a smartphone, ensures that a person's life is kept confidential in the event that device is stolen or misplaced.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="Mindi McDowell and Matt Lytle, Protecting Portable Devices: Data Security , US-CERT, Security Tip (ST04-020_, February 6, 2016, https://www.us-cert.gov/ncas/tips/ST04-020 .">39</a></sup> Encrypted files ensure that when a data breach occurs, user data are not immediately at the whim of the adversary.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Mindi McDowell, Understanding Encryption , US-CERT, Security Tip (ST04-019), February 6, 2013, https://www.us-cert.gov/ncas/tips/ST04-019 .">40</a></sup> Encryption can also curtail nefarious activity. If an adversary knows that a system is secured with strong encryption, that fact may deter the adversary from targeting that user or system.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="National Institute of Standards and Technology, Advising Users on Information Technology , Bulletin, November 2007, http://csrc.nist.gov/publications/nistbul/November-2007.pdf .">41</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">But encryption occurs beyond an end device or data server. No one has yet built a digital system that is natively and completely secure because cybersystems are large, complex, and contain various elements (e.g., hardware and software) within that system which are updated and replaced at varying intervals. In such a dynamic environment, vulnerabilities present themselves throughout the system. Nevertheless, society relies on these systems. Encryption applied throughout the cybersystem affords its users a level of certainty that their data and service are trustworthy—allowing modern society to remain functioning and productive.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="Blaze, Matt, &quot;Testimony for Hearing 'Encryption Technology and Possible US Policy Responses,'&quot; House Committee on Government Oversight and Reform Information Technology Subcommittee, April 29, 2015, at https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Blaze.pdf .">42</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153934"></a><a name="_Toc455083479"></a><a name="_Toc455151927"></a><a name="_Toc455155130"></a><a name="_Toc460498433"></a><a name="_Toc460504011"></a><a name="_Toc461626213"></a><a name="_Toc461626338"></a><a name="_Toc462324374"></a><a name="_Toc462754227"></a><a name="_Toc462830433"></a><a name="_Toc462842554"></a><a name="_Toc462921571"></a><a name="_Toc463001033"></a><a name="_Toc463001398"></a><a name="_Toc463001463"></a><a name="_Toc437520022"></a><a name="_Toc530484518"></a>Policy Discussion</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153935"></a><a name="_Toc455083480"></a><a name="_Toc455151928"></a><a name="_Toc455155131"></a><a name="_Toc460498434"></a><a name="_Toc460504012"></a><a name="_Toc461626214"></a><a name="_Toc461626339"></a><a name="_Toc462324375"></a><a name="_Toc462754228"></a><a name="_Toc462830434"></a><a name="_Toc462842555"></a><a name="_Toc462921572"></a><a name="_Toc463001034"></a><a name="_Toc463001399"></a><a name="_Toc463001464"></a><a name="_Toc530484519"></a>What is encryption's role in the "going dark" debate?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Simply, "going dark" is a term of art that represents the government's inability to obtain electronic evidence. While encryption has dominated the going dark debate, it is only one element of that debate.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Bureau of Investigation (FBI) describes going dark with the following scenario: "law enforcement at all levels has the legal authority to intercept and access communications and information pursuant to court orders, but it often lacks the technical ability to carry out those orders because of a fundamental shift in communications services and technologies."<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title='The Federal Bureau of Investigation, "Going Dark Issue," press release, https://www.fbi.gov/services/operational-technology/going-dark .'>43</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As technology has evolved, some companies have implemented automatic end-to-end encryption on certain communications and data. As a result, law enforcement has reported instances of being stymied from obtaining certain communications as well as stored data that have been encrypted.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title='See CRS Report R44481, Encryption and the "Going Dark" Debate , by Kristin Finklea , as well as the Administrative Office of the U.S. Courts, Wiretap Report 2015 .'>44</a></sup> For instance, of the 4,148 wiretap orders authorized by judges in 2015, there were 13 reported instances in which encrypted communications were encountered, and 11 of these 13 instances involved encryption hindering law enforcement officials.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="Ibid.">45</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc437520024"></a><a name="_Toc444153936"></a><a name="_Toc455083481"></a><a name="_Toc455151929"></a><a name="_Toc455155132"></a><a name="_Ref456967852"></a><a name="_Toc460498435"></a><a name="_Toc460504013"></a><a name="_Toc461626215"></a><a name="_Toc461626340"></a><a name="_Toc462324376"></a><a name="_Toc462754229"></a><a name="_Toc462830435"></a><a name="_Toc462842556"></a><a name="_Toc462921573"></a><a name="_Toc463001035"></a><a name="_Toc463001400"></a><a name="_Toc463001465"></a><a name="_Toc530484520"></a>What is to gain through using encryption?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Information security, or the security of information in computer systems, is based on a model with three elements.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="This model is codified in 44 U.S.C. §3552, from which the definitions are taken.">46</a></sup></p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Confidentiality</em> means "preserving authorized restrictions on access and disclosure, including means for protecting personal privacy and proprietary information." Stated otherwise, confidentiality ensures that when a user sends another user a message, they are certain that only those two users are able to read that message.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Integrity</em> means "guarding against improper information modification or destruction, and includes ensuring information nonrepudiation and authenticity." Stated otherwise, integrity ensures that when a user sends a message to another user, the message arrives as the sender intends, without alteration. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Availability</em> means "ensuring timely and reliable access to and use of information." Stated otherwise, availability ensures that when a user sends a message to another user, that message is available for the recipient to access when they so choose. </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Cybersecurity professionals have tools available to them to help ensure integrity and availability. Hash values allow users to try to ensure the integrity of information, and dynamic routing tries to ensure the availability of information when a user requests it.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='"Dynamic routing" describes a technique where a network would select the optimal path for data traversing the network to optimize deliver of the data based on real-time network load.'>47</a></sup> Ensuring the confidentiality of information had been challenging, until encryption became ubiquitous. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Encryption is a tool that users and cybersecurity professionals can employ to try to ensure that their data and communications remain confidential. As Jay Healey said, "The attackers are beating us in every area. And always have been. The one place that aids the defenders, the one place the mathematics is on our side, is on encryption. In that one area, we are stronger than they are."<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title='Jason Healey, "Cyber Risk Wednesday: 2016 Threat Landscape," Panel Discussion at the Atlantic Council, Washington, DC, December 9, 2015, http://www.atlanticcouncil.org/events/past-events/cybersecurity-experts-cautiously-optimistic-about-2016 .'>48</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Also, by employing strong cryptosystems, users can achieve a level of integrity in their data and communications. Although encryption itself would not stop an adversary from intercepting and manipulating data, the altered data would not be readable by the user since the alteration would change one of the inputs (the ciphertext) in the cryptosystem. As a result, they would be made aware of illegitimate alterations to their data. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This extra layer of security also helps to mitigate the onslaught of attacks users face every day. In the physical world, an attacker would need to be physically near its target to carry out an attack. But online, attackers can automate a coordinated attack against many targets regardless of physical location because of the interconnected nature of the public Internet. Encrypting data mitigates the potential attacks users may face when they connect online.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc437520025"></a><a name="_Toc444153937"></a><a name="_Toc455083482"></a><a name="_Toc455151930"></a><a name="_Toc455155133"></a><a name="_Toc460498436"></a><a name="_Toc460504014"></a><a name="_Toc461626216"></a><a name="_Toc461626341"></a><a name="_Toc462324377"></a><a name="_Toc462754230"></a><a name="_Toc462830436"></a><a name="_Toc462842557"></a><a name="_Toc462921574"></a><a name="_Toc463001036"></a><a name="_Toc463001401"></a><a name="_Toc463001466"></a><a name="_Toc530484521"></a>What is lost through using encryption?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The spread of ubiquitous encryption occurred faster than many other technologies were adopted. The speed at which encryption was promulgated left many end-users without the time to consider the implications of employing strong encryption for their data. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a user were to forget or otherwise lose the key, the data would remain in a ciphertext state and stay unreadable to that otherwise legitimate user.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">With full-disk encryption by default, users have the opportunity to encrypt data without judging the sensitivity of that data first. A user's data may be sensitive, but not require strong security. In the physical world, a user may keep a diary in a locked desk drawer, but in the digital world, that same diary may be encrypted preventing access by anyone other than that user. The implications for that level of protection are generally not considered by users when they employ encryption.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="Shahani, Aarti, &quot;Mom Asks: Who Will Unlock Murdered Daughter's iPhone?,&quot; National Public Radio , March 30, 2016, at http://www.npr.org/sections/alltechconsidered/2016/03/30/472302719/mom-asks-who-will-unlock-her-murdered-daughters-iphone .">49</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Strong encryption may deny otherwise-authorized users from accessing shared information, such as family photos and tax records, in the event that the user who maintains the key is not available to decrypt information.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="Kalat, Andrew, &quot;Online, No One Knows You're Dead,&quot; ShmooCon 2016 presentation, January 11, 2016, at https://archive.org/details/Online_No_One_Knows_Youre_Dead .">50</a></sup> This level of security is also a contributing factor to the encryption element of the going dark debate.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083483"></a><a name="_Toc455151931"></a><a name="_Toc455155134"></a><a name="_Toc460498437"></a><a name="_Toc460504015"></a><a name="_Toc461626217"></a><a name="_Toc461626342"></a><a name="_Toc462324378"></a><a name="_Toc462754231"></a><a name="_Toc462830437"></a><a name="_Toc462842558"></a><a name="_Toc462921575"></a><a name="_Toc463001037"></a><a name="_Toc463001402"></a><a name="_Toc463001467"></a><a name="_Toc444153940"></a><a name="_Toc530484522"></a>What are the Fourth and Fifth Amendment implications?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Generally, impositions on the Fourth Amendment right to security of papers and effects against unreasonable searches and seizure is considered satisfied upon an independent judge issuing a warrant or other court order to access that information.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Fifth Amendment concerns are more nuanced. The Fifth Amendment protects an individual's right not to be compelled to give incriminating evidence against oneself.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="See U.S. Constitution, Amendment V.">51</a></sup> Depending on the facts of the case, this might include providing one's passcode to a locked device. In the pre-digital era, the Supreme Court employed a distinction between requiring an individual to disclose a safe combination, which impermissibly required the target to reveal the contents of his mind, and handing over a safe key, which did not. However, the Court has yet to state whether this same dichotomy should apply to passcodes and passwords employed in more modern technology, and the lower courts are only in the early stages of developing case law on this subject.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="See CRS Report R44407, Encryption: Selected Legal Issues , by Richard M. Thompson II and Chris Jaikaran , for a more detailed look at this case law.">52</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083484"></a><a name="_Toc455151932"></a><a name="_Toc455155135"></a><a name="_Toc460498438"></a><a name="_Toc460504016"></a><a name="_Toc461626218"></a><a name="_Toc461626343"></a><a name="_Toc462324379"></a><a name="_Toc462754232"></a><a name="_Toc462830438"></a><a name="_Toc462842559"></a><a name="_Toc462921576"></a><a name="_Toc463001038"></a><a name="_Toc463001403"></a><a name="_Toc463001468"></a><a name="_Toc530484523"></a>What are the trade-offs?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The encryption debate today is a debate of values. On one hand, there is the core value of individual security, and privacy from each other and from the state. On the other hand, there is the core value of national security, that security of the state is necessary to ensure the security of the individual.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Evaluation of the individual (or information) security versus national security values is hampered by lack of information. Both sides of the debate have presented general arguments and scenarios about the risks they hope to mitigate. The public debate on encryption has lacked information on the specific threats that strong, end-to-end encryption mitigates and why another form of encryption would put the public at risk. Conversely, the public debate has also lacked specific information on how strong, end-to-end encryption has stymied security activities and put the public at risk. Without this specific information, the public is generally unable to accurately determine the risk presented by encryption, or the lack of it. Instead, the debate is informed by extreme cases which present dire scenarios from which to form a position, but which may not accurately reflect the risk involved.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455151933"></a><a name="_Toc455155136"></a><a name="_Toc460498439"></a><a name="_Toc460504017"></a><a name="_Toc461626219"></a><a name="_Toc461626344"></a><a name="_Toc462324380"></a><a name="_Toc462754233"></a><a name="_Toc462830439"></a><a name="_Toc462842560"></a><a name="_Toc462921577"></a><a name="_Toc463001039"></a><a name="_Toc463001404"></a><a name="_Toc463001469"></a><a name="_Toc530484524"></a>Information Security</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As discussed above, individual users are under constant attack online from adversaries near and far. The ease with which attacks can be carried out, regardless of geographic location, further exasperates information security professionals. Encryption is a tool information security professionals and end-users can employ to ensure the data under their care remains confidential and its integrity remains intact.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The systems users rely upon are under similar attack. Some of these systems govern life-sustaining and life-saving applications, such as wireless medical devices.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title='Food and Drug Administration, "Radio Frequency Wireless Technology in Medical Devices," Guidance for Industry and Food and Drug Administration Staff, August 14, 2013, at http://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/ucm077272.pdf .'>53</a></sup> Pervasive encryption within these systems helps ensure the trustworthiness of those systems. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, any system that stores a key would also be vulnerable to an insider threat. An insider, or authorized user or employee, is a threat to such a system because they have legitimate access to the system. Insiders can violate security policies and compromise the security of a system unintentionally or intentionally.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="Insiders could also unknowingly violate security policies; for instance, by clicking on attachments or links in a suspicious email, they could fall prey to a phishing scam and expose their computer and the larger network to exploitation. There are also examples of users knowingly violating their organizations security policies, such as Edward Snowden, Chelsea Manning, and Robert Hastings.">54</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">However, information security costs users in both time and computing power. Users also lose opportunities for their information to become available to loved ones or investigators if they are a victim and unable to provide the information.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="Andrew Kalat, &quot;Online, No One Knows You're Dead,&quot; ShmooCon 2016 presentation, January 11, 2016, at https://archive.org/details/Online_No_One_Knows_Youre_Dead .">55</a></sup> Additionally, users may have a false sense of security through misconfigured cryptosystems which are vulnerable to a variety of attacks.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc444153942"></a><a name="_Toc455083486"></a><a name="_Toc455151934"></a><a name="_Toc455155137"></a><a name="_Toc460498440"></a><a name="_Toc460504018"></a><a name="_Toc461626220"></a><a name="_Toc461626345"></a><a name="_Toc462324381"></a><a name="_Toc462754234"></a><a name="_Toc462830440"></a><a name="_Toc462842561"></a><a name="_Toc462921578"></a><a name="_Toc463001040"></a><a name="_Toc463001405"></a><a name="_Toc463001470"></a><a name="_Toc530484525"></a>National Security</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some have argued that the advances in technology have surpassed the government's ability to keep pace.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title='James Comey, "Going Dark: Are Technology, Privacy, and Public Safety on a Collision Course?," Prepared Remarks for the Brookings Intuition , October 16, 2014, at https://www.fbi.gov/news/speeches/going-dark-are-technology-privacy-and-public-safety-on-a-collision-course .'>56</a></sup> Without a balance between the advances in technology and government capabilities, some argue that law enforcement agencies at all levels are unable to enforce the rule of law through effective investigations. With this perceived imbalance, crimes online (such as child pornography and financial thefts) and crimes against online infrastructure (such as ransomware and denial of service attacks) will arguably go un- or under-investigated. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, encryption technologies help enable criminal associations to persist, such as the indoctrination of a lone wolf terrorist by foreign actors, and limit the ability for law enforcement to intervene for the safety of our communities. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The proposal from those championing national security is based on the premise that law enforcement must investigate criminal activity to maintain rule of law.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title='James Comey and Sally Quillian, "Going Dark: Encryption, Technology, and the Balances Between Public Safety and Privacy," Statement before the Senate Judiciary Committee, July 8, 2015, at https://www.fbi.gov/news/testimony/going-dark-encryption-technology-and-the-balances-between-public-safety-and-privacy .'>57</a></sup> The discussion has generally not addressed the level of criminal activity that may go un- or under-investigated (through evidence being encrypted or otherwise) for the government to still maintain the rule of law. This is an element of the debate which some hope to entertain in 2017.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title='James Comey, "Remarks to the 2016 Symantec Government Symposium," August 30, 2016, at https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches .'>58</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083487"></a><a name="_Toc455151935"></a><a name="_Toc455155138"></a><a name="_Toc460498441"></a><a name="_Toc460504019"></a><a name="_Toc461626221"></a><a name="_Toc461626346"></a><a name="_Toc462324382"></a><a name="_Toc462754235"></a><a name="_Toc462830441"></a><a name="_Toc462842562"></a><a name="_Toc462921579"></a><a name="_Toc463001041"></a><a name="_Toc463001406"></a><a name="_Toc463001471"></a><a name="_Toc530484526"></a>What current legislative proposals exist?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the second session of the 114<sup>th</sup> Congress, Members have introduced a variety of legislative proposals to address elements of the encryption issue. <a class="InternalLink" href="#_Ref455653969"><strong></strong><strong>Table 1</strong></a>, below, highlights bills that address elements of the encryption debate.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref455653969"></a><a name="_Toc455083461"></a><a name="_Toc455151907"></a><a name="_Toc455155110"></a><a name="_Toc460498410"></a><a name="_Toc460503988"></a><a name="_Toc461626188"></a><a name="_Toc461626315"></a><a name="_Toc462324351"></a><a name="_Toc462754204"></a><a name="_Toc462830410"></a><a name="_Toc462842531"></a><a name="_Toc462921548"></a><a name="_Toc463001010"></a><a name="_Toc463001375"></a><a name="_Toc463001440"></a><a name="_Toc530484495"></a>Table 1. Status of Selected Encryption Legislation</p>
+<p class="TableSubTitle">Introduced in the 114<sup>th</sup> Congress</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:75.7728pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Bill Number</p>
+</td>
+<td style="width:105.2352pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Bill Title</p>
+</td>
+<td style="width:143.16479999999998pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Summary</p>
+</td>
+<td style="width:107.82719999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Status</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:75.7728pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.4528:"><span class="Hyperlink">H.R. 4528</span></a> </p>
+</td>
+<td style="width:105.2352pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">ENCRYPT Act of 2016</p>
+</td>
+<td style="width:143.16479999999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Would prevent states from passing laws mandating decryption or backdoors.</p>
+</td>
+<td style="width:107.82719999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Referred to the House Judiciary, and Energy and Commerce committees</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:75.7728pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.4839:"><span class="Hyperlink">H.R. 4839</span></a> </p>
+</td>
+<td style="width:105.2352pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Protect Our Devices Act of 2016</p>
+</td>
+<td style="width:143.16479999999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Prohibits the federal government from requiring an entity to break the encryption of a communication.</p>
+</td>
+<td style="width:107.82719999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Referred to the House Intelligence and Judiciary committees. </p>
+</td>
+</tr>
+<tr style="">
+<td style="width:75.7728pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.4651:"><span class="Hyperlink">H.R. 4651</span></a> </p>
+</td>
+<td style="width:105.2352pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Digital Security Commission Act of 2016</p>
+</td>
+<td style="width:143.16479999999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Would create a commission to study technology challenges and recommend policy solutions to Congress.</p>
+</td>
+<td style="width:107.82719999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Referred to the House Energy and Commerce, Judiciary, and Foreign Affairs committees.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:75.7728pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:S.2604:"><span class="Hyperlink">S. 2604</span></a> </p>
+</td>
+<td style="width:105.2352pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Digital Security Commission Act of 2016</p>
+</td>
+<td style="width:143.16479999999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Would create a commission to study technology challenges and recommend policy solutions to Congress.</p>
+</td>
+<td style="width:107.82719999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Referred to the Committee on Homeland Security and Governmental Affairs</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:75.7728pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:105.2352pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:143.16479999999998pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:107.82719999999999pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congress.gov and CRS analysis.</p>
+<p class="TableNote"><strong>Notes: </strong>The status of these bills is current as of September 28, 2016.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, Senators Burr and Feinstein have made a discussion draft of their proposal publicly available, but it has not yet been introduced.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title="A copy of the draft is available on each Senator's website, at http://www.burr.senate.gov/imo/media/doc/BAG16460.pdf or http://www.feinstein.senate.gov/public/index.cfm?a=files.serve&amp;File_id=5B990532-CC7F-427F-9942-559E73EB8BFB .">59</a></sup> The Burr-Feinstein draft, otherwise titled the "Compliance with Court Orders Act of 2016," would require a provider of computing services to either decrypt a communication or assist the government in decrypting the message in compliance with a court order. Under this proposal, a judge could issue a court order invoking this act in one or more of the following cases: (a) the crime resulted in or threatened death or serious bodily harm; (b) foreign intelligence, espionage and terrorism; (c) crimes against minors; (d) violent felonies; (e) serious Federal drug crimes; or (f) the state equivalents of any of the above.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title='For further information and analysis on legislative proposals, see CRS Report R44481, Encryption and the "Going Dark" Debate , by Kristin Finklea .'>60</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083488"></a><a name="_Toc455151936"></a><a name="_Toc455155139"></a><a name="_Toc460498442"></a><a name="_Toc460504020"></a><a name="_Toc461626222"></a><a name="_Toc461626347"></a><a name="_Toc462324383"></a><a name="_Toc462754236"></a><a name="_Toc462830442"></a><a name="_Toc462842563"></a><a name="_Toc462921580"></a><a name="_Toc463001042"></a><a name="_Toc463001407"></a><a name="_Toc463001472"></a><a name="_Toc530484527"></a>What other policy options have been discussed to address encryption?</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083489"></a><a name="_Toc455151937"></a><strong>Continue to allow the courts to develop case law on encryption</strong>. This status quo option would continue to allow cases such as the one concerning the San Bernardino iPhone to come up in courts.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title="For more information on the San Bernardino iPhone case, please see CRS Report R44407, Encryption: Selected Legal Issues , by Richard M. Thompson II and Chris Jaikaran .">61</a></sup> But after a few years of this strategy both the government and the technology community are coalescing around a view that Congress legislate on the matter of the availability of encryption and law enforcement's access to encrypted communications, in order to provide uniformity and certainty.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title="Testimonies provided by Bruce Sewell, representing Apple, Inc., and Cyrus Vance, representing the National District Attorney's Association to the House Judiciary Committee on March 1, 2016, at https://judiciary.house.gov/hearing/the-encryption-tightrope-balancing-americans-security-and-privacy/  .">62</a></sup> Additionally, some have suggested that barring congressional action, market forces and other stakeholders (such as other governments) would be in a position to drive policy.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title='Chris Inglis, "Statement Before The Senate Armed Service Committee," Testimony on Cybersecurity and U.S. National Security, July 14, 2016, at http://www.armed-services.senate.gov/imo/media/doc/Inglis_07-14-16.pdf .'>63</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083490"></a><a name="_Toc455151938"></a><strong>Force platforms to maintain a way to access the plaintext of data.</strong><strong> </strong>Rather than focus on the users, this proposal would focus on the platform itself. In this reference, a platform is the suite of hardware, software, or databases that support the service being used (e.g., the Messages application for Apple, Inc. devices). This would allow a solution to arrive at scale, that is, for many users at once, since the providers of the encryption service would build in a mechanism to read plaintexts of data using their platform rather than rely on the individual compliance from users. However, this proposal would, by its nature, introduce a weakness in the security of that platform, one which would likely become the target for adversaries. Although the solution would apply across all users for legitimate access, it would be equivalent to providing adversaries with the opportunity to access the data for all users. One example of this proposal is for platforms to act as administrators of devices or services they provide, and use their administrator access to provide data to law enforcement.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='Robert Thibadeau, "There Should Be No Encryption Backdoors, Only Front Doors," The Draft Trust Alliance, February 17, 2016, at https://www.drivetrust.com/wp-content/uploads/sites/2/2016/02/No_Encryption_Backdoors_Just_Front_Doors.pdf .'>64</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083491"></a><a name="_Toc455151939"></a><strong>Improve the government's ability to investigate and extract digital evidence.</strong><strong> </strong>This proposal was offered by Susan Landau, a professor in cybersecurity policy at Worcester Polytechnic Institute, in testimony to the House Judiciary Committee.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title="Landau, Susan, &quot;Testimony for the hearing titled 'The Encryption Tightrope: Balancing American's Security and Privacy,'&quot; House Judiciary Committee, March, 1, 2016, at https://judiciary.house.gov/wp-content/uploads/2016/02/Landau-Written-Testimony.pdf .">65</a></sup> In this proposal, the U.S. government would invest in research, capabilities, and capacity to continue to carry out investigations despite any technology employed which may act as a hindrance to the investigation. The cost of such an investment is unknown. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc455083492"></a><a name="_Toc455151940"></a><strong>Create "compelled disclosure" laws.</strong> Otherwise known as "key disclosure laws," this proposal would make it a criminal penalty to fail to produce plaintext versions of documents requested by law enforcement when asked for data held by someone with access. Australia implemented such a law.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title="The Cybercrime Act of 2001 can be read online at https://www.legislation.gov.au/Details/C2004C01213 .">66</a></sup> However, such a law would likely face Constitutional challenges. </li></ul></div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Letter from Access et al. to Barack Obama, President of the United States of America, May 19, 2015, <a class="ExternalLink" href="https://static.newamerica.org/attachments/3138%E2%80%94113/Encryption_Letter_to_Obama_final_051915.pdf"><span class="Hyperlink">https://static.newamerica.org/attachments/3138—113/Encryption_Letter_to_Obama_final_051915.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Cyrus R. Vance Jr., "Written Testimony" United States Senate Committee on Armed Services, hearing on "Cybersecurity and U.S. National Security," July 14, 2016, at <a class="ExternalLink" href="http://www.armed-services.senate.gov/imo/media/doc/Vance_07-14-16.pdf"><span class="Hyperlink">http://www.armed-services.senate.gov/imo/media/doc/Vance_07-14-16.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> James Comey, "Remarks to the 2016 Symantec Government Symposium," August 30, 2016, at <a class="ExternalLink" href="https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches"><span class="Hyperlink">https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Matt Bishop, "Chapter 9: Basic Cryptography," in <em>Computer Security: Art and Science</em> (Boston, MA: Addison-Wesley, 2003), pp. 217-240.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Here, an "algorithm" means a set of steps which make up a process to execute an operation. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> National Institute Of Standards and Technology, "Data Encryption Standard," Federal Information Processing Standard 46-3, October 25, 1999, at <a class="ExternalLink" href="http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf"><span class="Hyperlink">http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf</span></a>; and B. Schneier, "Description of a New Variable-Length Key, 64-Bit Block Cipher (Blowfish)," paper, 1994, at <a class="ExternalLink" href="https://www.schneier.com/academic/archives/1994/09/description_of_a_new.html"><span class="Hyperlink">https://www.schneier.com/academic/archives/1994/09/description_of_a_new.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> National Institute of Standards and Technology, "Advanced Encryption Standard (AES)," Federal Information Processing standard 197, November 26, 2011, at <a class="ExternalLink" href="http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf"><span class="Hyperlink">http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Willian Stallings and Lawrie Brown, "Chapter 2: Cryptographic Tools," in <em>Computer Security: Principles and Practice</em>, 2<sup>nd</sup> ed. (Boston, MA: Pearson, 2012), p. 40.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> H. Abelson, R. Anderson, S.M. Bellovin, J. Benaloh, M. Blaze, W. Diffie, J. Gilmore, P.G. Neumann, R.L. Rivest, J.I. Schiller, and B. Schneier, "The Risks of Key Recovery, Key Escrow, and Trusted Third-Party Encryption," 1998, at <a class="ExternalLink" href="https://www.schneier.com/academic/archives/1997/04/the_risks_of_key_rec.html"><span class="Hyperlink">https://www.schneier.com/academic/archives/1997/04/the_risks_of_key_rec.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Bankston, Kevin, "Statement of Kevin S. Bankston during a hearing titled 'Encryption Technology and Possible U.S. Policy Responses,'" U.S. House of Representatives Subcommittee on Information Technology of the Committee on Oversight and Government Reform, April 29, 2015, at <a class="ExternalLink" href="https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Bankston-1.pdf"><span class="Hyperlink">https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Bankston-1.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tom Mendelsohn, "Secure Boot Snafu: Microsoft Leaks Backdoor Key, Firmware Flung Wide Open," <em>Ars Technica</em>, August 11, 2016, at <a class="ExternalLink" href="http://arstechnica.com/security/2016/08/microsoft-secure-boot-firmware-snafu-leaks-golden-key/"><span class="Hyperlink">http://arstechnica.com/security/2016/08/microsoft-secure-boot-firmware-snafu-leaks-golden-key/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Dan Goodin, "Cluster of "Megabreaches" Compromises a Whopping 642 Million Passwords," <em>Ars Technica</em>, May 31, 2016, at <a class="ExternalLink" href="http://arstechnica.com/security/2016/05/cluster-of-megabreaches-compromise-a-whopping-642-million-passwords/"><span class="Hyperlink">http://arstechnica.com/security/2016/05/cluster-of-megabreaches-compromise-a-whopping-642-million-passwords/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Nakashima, Ellen and Gellman, Barton, "As Encryption Spreads, U.S. Grapples with Clash Between Privacy, Security," <em>The Washington Post,</em> April 10, 2015, at <a class="ExternalLink" href="https://www.washingtonpost.com/world/national-security/as-encryption-spreads-us-worries-about-access-to-data-for-investigations/2015/04/10/7c1c7518-d401-11e4-a62f-ee745911a4ff_story.html"><span class="Hyperlink">https://www.washingtonpost.com/world/national-security/as-encryption-spreads-us-worries-about-access-to-data-for-investigations/2015/04/10/7c1c7518-d401-11e4-a62f-ee745911a4ff_story.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kim Zetter, "Hacker Lexicon: What is a Backdoor?," <em>Wired</em>, December 11, 2014, online at <a class="ExternalLink" href="https://www.wired.com/2014/12/hacker-lexicon-backdoor/"><span class="Hyperlink">https://www.wired.com/2014/12/hacker-lexicon-backdoor/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "When Back Doors Backfire," <em>The Economist</em>, January 2, 2016, available online at <a class="ExternalLink" href="http://www.economist.com/news/leaders/21684783-some-spy-agencies-favour-back-doors-encryption-software-who-will-use-them-when-back"><span class="Hyperlink">http://www.economist.com/news/leaders/21684783-some-spy-agencies-favour-back-doors-encryption-software-who-will-use-them-when-back</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on this issue, see CRS Report R44396, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44396"><em><span class="Hyperlink">Court-Ordered Access to Smart Phones: In Brief</span></em></a>, by Kristin Finklea, Richard M. Thompson II, and Chris Jaikaran. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A cipher is a way to write a message as a code, but is not computer code.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> SANS Institute. "History of Encryption," InfoSec Reading Room paper, 2001, at <a class="ExternalLink" href="https://www.sans.org/reading-room/whitepapers/vpns/history-encryption-730"><span class="Hyperlink">https://www.sans.org/reading-room/whitepapers/vpns/history-encryption-730</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the crypto-wars, see CRS Report R44187, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44187"><em><span class="Hyperlink">Encryption and Evolving Technology: Implications for U.S. Law Enforcement Investigations</span></em></a>, by Kristin Finklea, and CRS Report R44481, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44481"><em><span class="Hyperlink">Encryption and the "Going Dark" Debate</span></em></a>, by Kristin Finklea.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Eric Geller, "A Complete Guide to the New 'Crypto Wars,'" <em>The Daily Dot</em>, May 5, 2016, at <a class="ExternalLink" href="http://www.dailydot.com/layer8/encryption-crypto-wars-backdoors-timeline-security-privacy/"><span class="Hyperlink">http://www.dailydot.com/layer8/encryption-crypto-wars-backdoors-timeline-security-privacy/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> National Institute of Standards and Technology, "Federal Information Processing Standards Publication 197 – Announcing the Advanced Encryption Standard (AES)," November 26, 2001, at <a class="ExternalLink" href="http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf"><span class="Hyperlink">http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A bit is the smallest unit of data in computer science. So, 128 bit encryption uses a key of 128 bits of data to encrypt and decrypt texts.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> AgileBits, "Guess why we're moving to 256-bit AES keys," press release, March 9, 2013, <a class="ExternalLink" href="https://blog.agilebits.com/2013/03/09/guess-why-were-moving-to-256-bit-aes-keys/"><span class="Hyperlink">https://blog.agilebits.com/2013/03/09/guess-why-were-moving-to-256-bit-aes-keys/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Paul Van De Zande, "The Day DES Died," July 22, 2001, <a class="ExternalLink" href="https://www.sans.org/reading-room/whitepapers/vpns/day-des-died-722"><span class="Hyperlink">https://www.sans.org/reading-room/whitepapers/vpns/day-des-died-722</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Craig Timberg, "Net of Insecurity: The Making of a Vulnerable Internet," <em>The Washington Post</em>, May 30, 2015.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Committee on National Security Systems, "National Information Assurance (IA) Glossary," instruction, April 26, 2010, at <a class="ExternalLink" href="https://www.ncsc.gov/nittf/docs/CNSSI-4009_National_Information_Assurance.pdf"><span class="Hyperlink">https://www.ncsc.gov/nittf/docs/CNSSI-4009_National_Information_Assurance.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Matt Bishop, "Chapter 9: Basic Cryptography," in <em>Computer Security: Art and Science</em> (Boston, MA: Addison-Wesley, 2003), pp. 217-240.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> AgileBits, "Guess Why We're moving to 256-bit AES keys," press release, March 9, 2013, <a class="ExternalLink" href="https://blog.agilebits.com/2013/03/09/guess-why-were-moving-to-256-bit-aes-keys/"><span class="Hyperlink">https://blog.agilebits.com/2013/03/09/guess-why-were-moving-to-256-bit-aes-keys/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Dinei Florencio, Cormac Herley, and Paul C. van Oorschot, "Password Portfolios and the Finite-Effort User: Sustainably Managing Large Numbers of Accounts," <em>USENIX Security 2014, </em>August 2014, at <a class="ExternalLink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/passwordPortfolios.pdf"><span class="Hyperlink">https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/passwordPortfolios.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Bruce Schneier, "Why We Encrypt," <em>Schneier on Security</em>, June 23, 2015, at <a class="ExternalLink" href="https://www.schneier.com/blog/archives/2015/06/why_we_encrypt.html"><span class="Hyperlink">https://www.schneier.com/blog/archives/2015/06/why_we_encrypt.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Trade Commission, "Start with Security: A Guide for Business," guidance, June 2015, at <a class="ExternalLink" href="https://www.ftc.gov/tips-advice/business-center/guidance/start-security-guide-business"><span class="Hyperlink">https://www.ftc.gov/tips-advice/business-center/guidance/start-security-guide-business</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Management and Budget, "Protection of Sensitive Agency Information," M-06-16, June 23, 2006, at <a class="ExternalLink" href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2006/m06-16.pdf"><span class="Hyperlink">https://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2006/m06-16.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Department of Energy, "Secure Data Transfer Guidnace for Industrial Control and SCADA Systems," PNNL-20776, September 2011, at <a class="ExternalLink" href="http://www.pnnl.gov/main/publications/external/technical_reports/PNNL-20776.pdf"><span class="Hyperlink">http://www.pnnl.gov/main/publications/external/technical_reports/PNNL-20776.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> James Comey, "Remarks to the 2016 Symantec Government Symposium," August 30, 2016, at <a class="ExternalLink" href="https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches"><span class="Hyperlink">https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Blaze, Matt, "Testimony for Hearing 'Encryption Technology and Possible US Policy Responses,'" House Committee on Government Oversight and Reform Information Technology Subcommittee, April 29, 2015, at <a class="ExternalLink" href="https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Blaze.pdf"><span class="Hyperlink">https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Blaze.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A VPN is a secure communications link between two points where all traffic is encrypted. Hypertext Transfer Protocol Secure, or HTTPS is encryption between a specific web service and a host. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mindi McDowell and Matt Lytle, <em>Protecting Portable Devices: Data Security</em>, US-CERT, Security Tip (ST04-020_, February 6, 2016, <a class="ExternalLink" href="https://www.us-cert.gov/ncas/tips/ST04-020"><span class="Hyperlink">https://www.us-cert.gov/ncas/tips/ST04-020</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mindi McDowell, <em>Understanding Encryption</em>, US-CERT, Security Tip (ST04-019), February 6, 2013, <a class="ExternalLink" href="https://www.us-cert.gov/ncas/tips/ST04-019"><span class="Hyperlink">https://www.us-cert.gov/ncas/tips/ST04-019</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> National Institute of Standards and Technology, <em>Advising Users on Information Technology</em>, Bulletin, November 2007, <a class="ExternalLink" href="http://csrc.nist.gov/publications/nistbul/November-2007.pdf"><span class="Hyperlink">http://csrc.nist.gov/publications/nistbul/November-2007.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Blaze, Matt, "Testimony for Hearing 'Encryption Technology and Possible US Policy Responses,'" House Committee on Government Oversight and Reform Information Technology Subcommittee, April 29, 2015, at <a class="ExternalLink" href="https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Blaze.pdf"><span class="Hyperlink">https://oversight.house.gov/wp-content/uploads/2015/05/4-29-2015-IT-Subcommittee-Hearing-on-Encryption-Blaze.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Federal Bureau of Investigation, "Going Dark Issue," press release, <a class="ExternalLink" href="https://www.fbi.gov/services/operational-technology/going-dark"><span class="Hyperlink">https://www.fbi.gov/services/operational-technology/going-dark</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R44481, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44481"><em><span class="Hyperlink">Encryption and the "Going Dark" Debate</span></em></a>, by Kristin Finklea, as well as the Administrative Office of the U.S. Courts, <span class="Emphasis1">Wiretap Report 2015</span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This model is codified in 44 U.S.C. §3552, from which the definitions are taken.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Dynamic routing" describes a technique where a network would select the optimal path for data traversing the network to optimize deliver of the data based on real-time network load.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jason Healey, "Cyber Risk Wednesday: 2016 Threat Landscape," Panel Discussion at the Atlantic Council, Washington, DC, December 9, 2015, <a class="ExternalLink" href="http://www.atlanticcouncil.org/events/past-events/cybersecurity-experts-cautiously-optimistic-about-2016"><span class="Hyperlink">http://www.atlanticcouncil.org/events/past-events/cybersecurity-experts-cautiously-optimistic-about-2016</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Shahani, Aarti, "Mom Asks: Who Will Unlock Murdered Daughter's iPhone?," <em>National Public Radio</em>, March 30, 2016, at <a class="ExternalLink" href="http://www.npr.org/sections/alltechconsidered/2016/03/30/472302719/mom-asks-who-will-unlock-her-murdered-daughters-iphone"><span class="Hyperlink">http://www.npr.org/sections/alltechconsidered/2016/03/30/472302719/mom-asks-who-will-unlock-her-murdered-daughters-iphone</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kalat, Andrew, "Online, No One Knows You're Dead," ShmooCon 2016 presentation, January 11, 2016, at <a class="ExternalLink" href="https://archive.org/details/Online_No_One_Knows_Youre_Dead"><span class="Hyperlink">https://archive.org/details/Online_No_One_Knows_Youre_Dead</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See U.S. Constitution, Amendment V.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R44407, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44407"><em><span class="Hyperlink">Encryption: Selected Legal Issues</span></em></a>, by Richard M. Thompson II and Chris Jaikaran, for a more detailed look at this case law.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Food and Drug Administration, "Radio Frequency Wireless Technology in Medical Devices," Guidance for Industry and Food and Drug Administration Staff, August 14, 2013, at <a class="ExternalLink" href="http://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/ucm077272.pdf"><span class="Hyperlink">http://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/ucm077272.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Insiders could also unknowingly violate security policies; for instance, by clicking on attachments or links in a suspicious email, they could fall prey to a phishing scam and expose their computer and the larger network to exploitation. There are also examples of users knowingly violating their organizations security policies, such as Edward Snowden, Chelsea Manning, and Robert Hastings. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Andrew Kalat, "Online, No One Knows You're Dead," ShmooCon 2016 presentation, January 11, 2016, at <a class="ExternalLink" href="https://archive.org/details/Online_No_One_Knows_Youre_Dead"><span class="Hyperlink">https://archive.org/details/Online_No_One_Knows_Youre_Dead</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> James Comey, "Going Dark: Are Technology, Privacy, and Public Safety on a Collision Course?," <em>Prepared Remarks for the Brookings Intuition</em>, October 16, 2014, at <a class="ExternalLink" href="https://www.fbi.gov/news/speeches/going-dark-are-technology-privacy-and-public-safety-on-a-collision-course"><span class="Hyperlink">https://www.fbi.gov/news/speeches/going-dark-are-technology-privacy-and-public-safety-on-a-collision-course</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> James Comey and Sally Quillian, "Going Dark: Encryption, Technology, and the Balances Between Public Safety and Privacy," Statement before the Senate Judiciary Committee, July 8, 2015, at <a class="ExternalLink" href="https://www.fbi.gov/news/testimony/going-dark-encryption-technology-and-the-balances-between-public-safety-and-privacy"><span class="Hyperlink">https://www.fbi.gov/news/testimony/going-dark-encryption-technology-and-the-balances-between-public-safety-and-privacy</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> James Comey, "Remarks to the 2016 Symantec Government Symposium," August 30, 2016, at <a class="ExternalLink" href="https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches"><span class="Hyperlink">https://www.c-span.org/video/?414522-1/fbi-director-james-comey-addresses-concerns-voter-database-breaches</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A copy of the draft is available on each Senator's website, at <a class="ExternalLink" href="http://www.burr.senate.gov/imo/media/doc/BAG16460.pdf"><span class="Hyperlink">http://www.burr.senate.gov/imo/media/doc/BAG16460.pdf</span></a> or <a class="ExternalLink" href="http://www.feinstein.senate.gov/public/index.cfm?a=files.serve&amp;File_id=5B990532-CC7F-427F-9942-559E73EB8BFB"><span class="Hyperlink">http://www.feinstein.senate.gov/public/index.cfm?a=files.serve&amp;File_id=5B990532-CC7F-427F-9942-559E73EB8BFB</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For further information and analysis on legislative proposals, see CRS Report R44481, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44481"><em><span class="Hyperlink">Encryption and the "Going Dark" Debate</span></em></a>, by Kristin Finklea.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the San Bernardino iPhone case, please see CRS Report R44407, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44407"><em><span class="Hyperlink">Encryption: Selected Legal Issues</span></em></a>, by Richard M. Thompson II and Chris Jaikaran. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Testimonies provided by Bruce Sewell, representing Apple, Inc., and Cyrus Vance, representing the National District Attorney's Association to the House Judiciary Committee on March 1, 2016, at <a class="ExternalLink" href="https://judiciary.house.gov/hearing/the-encryption-tightrope-balancing-americans-security-and-privacy/"><span class="Hyperlink">https://judiciary.house.gov/hearing/the-encryption-tightrope-balancing-americans-security-and-privacy/</span></a><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Chris Inglis, "Statement Before The Senate Armed Service Committee," Testimony on Cybersecurity and U.S. National Security, July 14, 2016, at <a class="ExternalLink" href="http://www.armed-services.senate.gov/imo/media/doc/Inglis_07-14-16.pdf"><span class="Hyperlink">http://www.armed-services.senate.gov/imo/media/doc/Inglis_07-14-16.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Robert Thibadeau, "There Should Be No Encryption Backdoors, Only Front Doors," The Draft Trust Alliance, February 17, 2016, at <a class="ExternalLink" href="https://www.drivetrust.com/wp-content/uploads/sites/2/2016/02/No_Encryption_Backdoors_Just_Front_Doors.pdf"><span class="Hyperlink">https://www.drivetrust.com/wp-content/uploads/sites/2/2016/02/No_Encryption_Backdoors_Just_Front_Doors.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Landau, Susan, "Testimony for the hearing titled 'The Encryption Tightrope: Balancing American's Security and Privacy,'" House Judiciary Committee, March, 1, 2016, at <a class="ExternalLink" href="https://judiciary.house.gov/wp-content/uploads/2016/02/Landau-Written-Testimony.pdf"><span class="Hyperlink">https://judiciary.house.gov/wp-content/uploads/2016/02/Landau-Written-Testimony.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Cybercrime Act of 2001 can be read online at <a class="ExternalLink" href="https://www.legislation.gov.au/Details/C2004C01213"><span class="Hyperlink">https://www.legislation.gov.au/Details/C2004C01213</span></a>. </p>
+</td>
+</tr>
+</table>
+</div>
+</div>

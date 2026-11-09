@@ -5,82 +5,6 @@
       "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "6",
-        "date": "2016-09-14",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44554",
-            "sha1": "9ab4eda872a713447b4ed7fd5bc65952616ba180",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160914_R44554_9ab4eda872a713447b4ed7fd5bc65952616ba180.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44554",
-            "sha1": "9da04119574472cfcc595e582990e9cd89f51249",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160914_R44554_9da04119574472cfcc595e582990e9cd89f51249.pdf"
-            ]
-          }
-        },
-        "id": "R44554",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44554",
-          "http://www.crs.gov/Reports/pdf/R44554"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "455841",
-        "title": "The Dodd-Frank Act: An Overview of the 2016 Incentive-Based Compensation Proposal\n",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2016-09-28",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44642",
-            "sha1": "fc89d0af60ae0b751e70fc143746147b49fccfe7",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160928_R44642_fc89d0af60ae0b751e70fc143746147b49fccfe7.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44642",
-            "sha1": "53c3a583e85585fb18595121d42406ce2e6da916",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20160928_R44642_53c3a583e85585fb18595121d42406ce2e6da916.pdf"
-            ]
-          }
-        },
-        "id": "R44642",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44642",
-          "http://www.crs.gov/Reports/pdf/R44642"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "456116",
-        "title": "Encryption: Frequently Asked Questions",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "4",
         "date": "2017-04-17",
         "formats": {
@@ -9539,6 +9463,98 @@
         "source_record": "587589",
         "title": "Congress and the Budget: 2016 Actions and Events",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-10",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "2",
+        "date": "2024-06-04",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12680",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-06-04_IF12680_2dcc59c6d9c9d4d6e45a835272aab20105a1d40d.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12680",
+            "sha1": "2dcc59c6d9c9d4d6e45a835272aab20105a1d40d",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12680/1",
+              "https://www.everycrsreport.com/files/2024-06-04_IF12680_2dcc59c6d9c9d4d6e45a835272aab20105a1d40d.pdf"
+            ]
+          }
+        },
+        "id": "IF12680",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-09T15:40:07Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12680_1_2024-06-04",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-06-04",
+          "id": "IF12680",
+          "official_pdf_sha256": "551f093cf468b94b12e16bab5d7d2df2195023cf19d1f194dc9b3cbc5f380190",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12680/IF12680.3.pdf",
+          "official_publication": "2026-11-09",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Board of Veterans’ Appeals: A Brief Introduction",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-10",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "23",
+        "date": "2023-05-19",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44759",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2023-05-19_R44759_f99e59590415fc1fc9538ad8bd7d12e53b502262.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44759",
+            "sha1": "f99e59590415fc1fc9538ad8bd7d12e53b502262",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R44759/21",
+              "https://www.everycrsreport.com/files/2023-05-19_R44759_f99e59590415fc1fc9538ad8bd7d12e53b502262.pdf"
+            ]
+          }
+        },
+        "id": "R44759",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-09T15:39:55Z",
+        "required_by_recent_update": false,
+        "source_record": "R44759_21_2023-05-19",
+        "superseded_by_official_current": {
+          "historical_publication": "2023-05-19",
+          "id": "R44759",
+          "official_pdf_sha256": "5bce8af5ebb0ff61741515264a47349927964ffcb15e0006b63c41557fa1630f",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44759/R44759.24.pdf",
+          "official_publication": "2026-11-09",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Lebanon: Background and U.S. Relations",
+        "version": "21"
       }
     },
     {
