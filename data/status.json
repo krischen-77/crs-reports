@@ -9,20 +9,15 @@
   "catalog_reports": 23612,
   "deferred_official_format_ids": [],
   "errors": [],
-  "finished_at": "2026-11-08T16:44:44.161091+00:00",
+  "finished_at": "2026-11-09T01:46:38.924051+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "42501329854",
+  "github_run_id": "42547222937",
   "historical_new_pdf_versions": 2,
-  "historical_pending_versions": 240,
-  "last_successful_run_at": "2026-11-08T16:44:44.161091+00:00",
+  "historical_pending_versions": 238,
+  "last_successful_run_at": "2026-11-09T01:46:38.924051+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 4,
   "new_pdf_versions": 2,
-  "official_current_pending": 0,
-  "official_current_required": 61,
-  "official_current_verified": 61,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-11-08T16:48:55.401562+00:00",
   "pending_reports": 0,
   "pending_versions": 0,
   "planned_versions": 61,
@@ -31,7 +26,7 @@
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-11-08T16:44:10.487040+00:00",
+  "run_at": "2026-11-09T01:46:02.084429+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -52,10 +47,9 @@
     }
   },
   "successful_versions": 61,
-  "total_archived_pdf_versions": 757,
-  "total_html_original_versions": 0,
-  "total_html_snapshots": 559,
-  "total_pdf_bytes": 610653881,
+  "total_archived_pdf_versions": 759,
+  "total_html_snapshots": 561,
+  "total_pdf_bytes": 612962175,
   "warnings": [
     {
       "api_version": 15,
@@ -394,24 +388,24 @@
       ]
     },
     {
-      "id": "R44509",
+      "id": "R44530",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "R44514",
+      "id": "R44539",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "historical_backfill_remaining": 240,
+      "historical_backfill_remaining": 238,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
-  "window_end_inclusive": "2026-11-08",
-  "window_start_inclusive": "2026-11-01"
+  "window_end_inclusive": "2026-11-09",
+  "window_start_inclusive": "2026-11-02"
 }

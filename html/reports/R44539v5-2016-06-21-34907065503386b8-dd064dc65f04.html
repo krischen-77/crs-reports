@@ -1,0 +1,668 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R44539.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Statements of Administration Policy</div>
+<div class="CoverDate">Updated June 21, 2016
+            (R44539)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc523909110"><span class="Hyperlink">What Are Statements of Administration Policy?</span></a></li>
+<li class="TOC2"><a href="#_Toc523909111"><span class="Hyperlink">SAP Structure and Key Components</span></a></li>
+<li class="TOC2"><a href="#_Toc523909112"><span class="Hyperlink">Example SAP Position Language</span></a></li>
+<li class="TOC2"><a href="#_Toc523909113"><span class="Hyperlink">Veto Threats</span></a></li>
+<li class="TOC2"><a href="#_Toc523909114"><span class="Hyperlink">SAP Timing Within the Legislative Process</span></a></li>
+<li class="TOC1"><a href="#_Toc523909115"><span class="Hyperlink">Statements of Administration Policy and OMB</span></a></li>
+<li class="TOC2"><a href="#_Toc523909116"><span class="Hyperlink">OMB's Mission</span></a></li>
+<li class="TOC2"><a href="#_Toc523909117"><span class="Hyperlink">Historical Development of SAPs</span></a></li>
+<li class="TOC1"><a href="#_Toc523909118"><span class="Hyperlink">Issuing Statements of Administration Policy</span></a></li>
+<li class="TOC2"><a href="#_Toc523909119"><span class="Hyperlink">Institutional Uses for SAPs</span></a></li>
+<li class="TOC2"><a href="#_Toc523909120"><span class="Hyperlink">Circular No. A-19</span></a></li>
+<li class="TOC2"><a href="#_Toc523909121"><span class="Hyperlink">Agency Involvement in the Development of Administration Views</span></a></li>
+<li class="TOC2"><a href="#_Toc523909122"><span class="Hyperlink">Timing and Possible Role of SAPs in the Legislative Process</span></a></li>
+<li class="TOC1"><a href="#_Toc523909123"><span class="Hyperlink">Receiving Statements of Administration Policy</span></a></li>
+<li class="TOC2"><a href="#_Toc523909124"><span class="Hyperlink">SAP Transmittal</span></a></li>
+<li class="TOC2"><a href="#_Toc523909125"><span class="Hyperlink">Presidential Persuasion and "Going Public"</span></a></li>
+<li class="TOC1"><a href="#_Toc523909126"><span class="Hyperlink">Statement of Administration Policy Audiences</span></a></li>
+<li class="TOC2"><a href="#_Toc523909127"><span class="Hyperlink">Congress</span></a></li>
+<li class="TOC2"><a href="#_Toc523909128"><span class="Hyperlink">The Public</span></a></li>
+<li class="TOC2"><a href="#_Toc523909129"><span class="Hyperlink">The Executive Branch</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc523909108"><span class="Hyperlink">Appendix. Example SAP</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Presidents communicate their views on pending legislation in a variety of ways. The Office of Management and Budget (OMB) formally communicates the Administration's views by way of Statements of Administration Policy. Statements of Administration Policy, or SAPs, are designed to signal the Administration's position on legislation scheduled on the House and Senate floor. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs are often the first public document outlining the Administration's views on pending legislation and allow for the Administration to assert varying levels of support for or opposition to a bill. While Administrations vary as to how frequently and how many SAPs are released, a SAP's value comes in its ability to speak for the coordinated executive Administration as a whole.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs grant the Administration the opportunity to go on record with its reasons for opposing and potentially vetoing legislation. SAPs also enable the Administration to identify key provisions of the legislation that it objects to or finds particularly favorable. SAPs may also provide Congress insights into the Administration's position towards possible bill implementation. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When a SAP indicates that the Administration may veto a bill, it appears in one of two ways: (1) a statement indicating that the President intends to veto the bill, or (2) a statement that agencies or senior advisors would recommend that the President veto the bill. These two types indicate degrees of veto threat certainty.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Statements of Administration Policy have generally adhered to the same structure from Administration to Administration. SAPs are released concurrent with action in the House Rules Committee, or on the floor of the House or the Senate. A SAP is released at such a time in the legislative process so as to maximize the Administration's influence in the policy outcome.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span style="float: left;                       width: 0.75em;                       font-size: 400%;                       line-height: 80%;">S</span>tatements of Administration Policy, or SAPs, are one of the President's communication tools designed to communicate the Administration's position on legislation coming up on the House and Senate floor. Issued by the Office of Management and Budget (OMB) on behalf of the Executive Office of the President (EOP), SAPs provide the Administration's position on pending legislation. These statements can supply guideposts to Congress regarding the Administration's legislative approach to the passage and execution of a bill. A collection of all SAPs from the current presidential Administration is located at the White House OMB website.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='U.S. Office of Management and Budget, "Statements of Administration Policy on Non-Appropriations and Appropriations Bills , " at https://www.whitehouse.gov/omb/legislative_sap_default .'>1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs by design always include policy position language and are often the first formal written document indicating the President's intent to sign or veto a legislative measure. Beyond the intent to sign or veto a bill, SAPs also indicate varying levels of support or opposition to the bill in question. This report discusses the creation and use of SAPs, but does not discuss OMB's related interagency clearance procedures at length.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report is divided into five sections. The report discusses structural components of SAPs, the development of SAPs from the Ronald Reagan Administration to the present, the coordination of executive branch actors involved in issuing SAPs, the receipt of SAPs and their impact on government institutions, and possible reactions to SAPs when they are released publicly.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="For more information about OMB, see CRS Report RS21665, Office of Management and Budget (OMB): A Brief Overview , by Clinton T. Brass and CRS Report R42633, The Executive Budget Process: An Overview , by Michelle D. Christensen .">2</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493826"></a><a name="_Toc429493889"></a><a name="_Toc429493941"></a><a name="_Toc429494416"></a><a name="_Toc430351086"></a><a name="_Toc430611456"></a><a name="_Toc436991311"></a><a name="_Toc437955508"></a><a name="_Toc441670868"></a><a name="_Toc441743643"></a><a name="_Toc441743803"></a><a name="_Toc441744133"></a><a name="_Toc441744210"></a><a name="_Toc441759524"></a><a name="_Toc441759658"></a><a name="_Toc441760434"></a><a name="_Toc441760472"></a><a name="_Toc441763456"></a><a name="_Toc441841967"></a><a name="_Toc442101721"></a><a name="_Toc443476714"></a><a name="_Toc444084787"></a><a name="_Toc444248105"></a><a name="_Toc445725339"></a><a name="_Toc445726139"></a><a name="_Toc445816229"></a><a name="_Toc445817114"></a><a name="_Toc445817202"></a><a name="_Toc445817261"></a><a name="_Toc445817361"></a><a name="_Toc445817903"></a><a name="_Toc448320764"></a><a name="_Toc448995820"></a><a name="_Toc452984388"></a><a name="_Toc452988962"></a><a name="_Toc454360061"></a><a name="_Toc454448142"></a><a name="_Toc523909110"></a>What Are Statements of Administration Policy?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs are written statements of the Administration's policy position towards a particular piece of legislation. While other avenues and forms of communication exist between Congress and the executive branch, SAPs serve as a contained summation of the Administration's positions regarding a specific bill. This section describes a SAP's structure, key components, position statements, and veto threats that may be found in SAPs.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="For more information on regular vetoes and pocket vetoes, see CRS Report RS22188, Regular Vetoes and Pocket Vetoes: In Brief , by Meghan M. Stuessy .">3</a></sup> The report includes an example SAP in the <strong><a class="InternalLink" href="#_Ref454360081"></a></strong><strong></strong><strong></strong><strong></strong><strong>Appendix</strong><strong></strong>.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc445725341"></a><a name="_Toc445726141"></a><a name="_Toc445816231"></a><a name="_Toc445817115"></a><a name="_Toc445817203"></a><a name="_Toc445817262"></a><a name="_Toc445817362"></a><a name="_Toc445817904"></a><a name="_Toc448320765"></a><a name="_Toc448995821"></a><a name="_Toc452984389"></a><a name="_Toc452988963"></a><a name="_Toc454360062"></a><a name="_Toc454448143"></a><a name="_Toc523909111"></a><a name="_Toc429493838"></a><a name="_Toc429493901"></a><a name="_Toc429493953"></a><a name="_Toc429494428"></a><a name="_Toc430351098"></a><a name="_Toc430611463"></a><a name="_Toc436991319"></a><a name="_Toc437955515"></a><a name="_Toc441670876"></a><a name="_Toc441743645"></a><a name="_Toc441743805"></a><a name="_Toc441744135"></a><a name="_Toc441744212"></a><a name="_Toc441759525"></a><a name="_Toc441759659"></a><a name="_Toc441760435"></a><a name="_Toc441760473"></a><a name="_Toc441763457"></a><a name="_Toc441841968"></a><a name="_Toc442101722"></a><a name="_Toc443476715"></a><a name="_Toc444084788"></a><a name="_Toc444248106"></a><a name="_Toc445725340"></a><a name="_Toc445726140"></a><a name="_Toc445816230"></a>SAP Structure and Key Components</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In recent years, SAPs have generally adhered to the same structure from Administration to Administration. Underneath the bill title, sponsor, and number of cosponsors, the Administration will lay out its views on the bill. The George W. Bush and William J. Clinton Administrations typically addressed their position on the passage of the bill in the first paragraph of the SAP. In contrast, the Barack H. Obama Administration often has its bill position in the middle or at the very end of a SAP. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The key operative clause in all SAPs across presidencies is an expression of the Administration's opposition to or support for passage of the bill. For example, the Obama Administration writes in the included SAP in the <strong><a class="InternalLink" href="#_Ref454360081"></a></strong><strong></strong><strong></strong><strong></strong><strong>Appendix</strong><strong></strong>, "Accordingly, the Administration strongly opposes House passage of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3010:"><span class="Hyperlink">H.R. 3010</span></a>, the Regulatory Accountability Act."<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="Executive Office of the President, Statement of Administration Policy: H.R. 3010 – Regulatory Accountability Act of 2011 , November 29, 2011 at https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3010r_20111129.pdf .">4</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs may also point to specific provisions within the bill text if they meet the Administration's threshold of significance.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="This report is concerned with the publically visible text in Statements of Administration Policy. However, SAPs include text that is strictly for distribution within the EOP, including resource management offices (RMOs) within OMB. This text is called &quot;below the stars&quot; text, as it refers to the content below the asterisks at the conclusion of SAPs. OMB explained in 2000, &quot;Unlike certain SAPs on substantive legislation—prepared by OMB's Legislative Reference Division following procedures conta...">5</a></sup> If such provisions are included, the Administration wants the items to be noticed by Members of Congress and likely also the public. SAPs will sometimes offer further revisions for these provisions or call for amendments, in addition to critiques of the existing bill text.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc452984391"></a><a name="_Toc452988964"></a><a name="_Toc454360063"></a><a name="_Toc454448144"></a><a name="_Toc523909112"></a>Example SAP Position Language</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAP position statements cover the spectrum from strong support of a bill, to strong opposition to bill passage, a threat to veto a bill, and all positions in between. SAPs may even include criticisms or praise of particular bill provisions. This section provides examples of the gradations of position statements contained in SAPs.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An Administration may choose to support the passage of a bill, as was the case in the Obama Administration's SAP on <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d111:S.1793:"><span class="Hyperlink">S. 1793</span></a>, the Ryan White HIV/AIDS Treatment Extension Act of 2009. The SAP reads, "The Administration strongly supports Senate passage" of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d111:S.1793:"><span class="Hyperlink">S. 1793</span></a>, and later identifies that the Obama Administration, in particular, "supports the provision in the legislation revising the threshold of unobligated balances that triggers penalties ... " and "strongly supports the inclusion of a provision to offset unobligated balances from subsequent grant awards rather than cancellation of unobligated amounts."<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Executive Office of the President, Statement of Administration Policy: S. 1793 – Ryan White HIV/AIDS Treatment Extension Act of 2009, October 19, 2009 at https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/111/saps1793s_20091019.pdf .">6</a></sup> For this particular bill, the SAP starts with a statement of strong support of bill passage and includes suggestions for bill provisions that the Obama Administration would strongly support.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Similarly, a SAP that voices opposition to a bill's passage contains a position statement and possible consequences if the bill is passed. The Obama Administration wrote, "The Administration strongly opposes House passage of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3463:"><span class="Hyperlink">H.R. 3463</span></a>.... "<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Executive Office of the President, Statement of Administration Policy: H.R. 3463 – Termination of Taxpayer Financing of Presidential Election Campaigns and Termination of the Election Assistance Commission , December 1, 2011 at https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3463h_20111201.pdf .">7</a></sup> Furthermore, the Obama Administration says, "H.R. 3463 would terminate the Election Assistance Commission (EAC), which was established after the 2000 Presidential election to improve the administration of elections. The EAC continues to perform crucial statutory responsibilities by serving as a national clearing house of information for election officials and the public."<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Ibid.">8</a></sup> As in most SAPs, the initial position statement is supported in the body text by specific statements on the bill's projected effect.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493839"></a><a name="_Toc429493902"></a><a name="_Toc429493954"></a><a name="_Toc429494429"></a><a name="_Toc430351099"></a><a name="_Toc430611464"></a><a name="_Toc436991320"></a><a name="_Toc437955516"></a><a name="_Toc441670877"></a><a name="_Toc441743646"></a><a name="_Toc441743806"></a><a name="_Toc441744136"></a><a name="_Toc441744213"></a><a name="_Toc441759526"></a><a name="_Toc441759660"></a><a name="_Toc441760436"></a><a name="_Toc441760474"></a><a name="_Toc441763458"></a><a name="_Toc441841969"></a><a name="_Toc442101723"></a><a name="_Toc443476716"></a><a name="_Toc444084789"></a><a name="_Toc444248107"></a><a name="_Toc445725342"></a><a name="_Toc445726142"></a><a name="_Toc445816232"></a><a name="_Toc445817117"></a><a name="_Toc445817205"></a><a name="_Toc445817264"></a><a name="_Toc445817364"></a><a name="_Toc445817906"></a><a name="_Toc448320767"></a><a name="_Toc448995823"></a><a name="_Toc452984392"></a><a name="_Toc452988965"></a><a name="_Toc454360064"></a><a name="_Toc454448145"></a><a name="_Toc523909113"></a>Veto Threats</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While SAPs allow for the Administration to assert varying levels of support for or opposition to a bill, perhaps the most noticeable statement in a SAP is whether the Administration intends to veto the bill. Some Members of Congress have characterized SAPs as forerunner indicators of a veto.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Rep. Harry Reid, Congressional Record , daily edition, vol. 161, part 63 (April 29, 2015), p. S2492.">9</a></sup><span class="FootnoteReference"> </span>Members may pay particular attention to a SAP when a veto threat is being made.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="When Statements of Administration Policy are referenced in the Congressional Record , Members of Congress more frequently call attention to SAPs that contain veto threats, rather than SAPs that contain statements of support for a bill. Provided are examples from the 114 th Congress's first session illustrating this point. Rep. Michael Burgess, Congressional Record , daily edition, vol. 161, part 173 (December 1, 2015), pp. H8658-H8660. Rep. Alcee Hastings, Congressional Record , daily edit...">10</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two types of veto threats appear in SAPs: a statement indicating that the President will veto the bill, or a statement that agencies or senior advisors would recommend that the President veto the bill. Beginning in the 108<sup>th</sup> Congress, SAPs containing veto threats have underlined the veto threat itself.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="The actual formatting change may have occurred in the 108 th Congress , first session ; however , this was a time of unified party rule with both chambers being Republican-controlled during the Republican Bush Administration. As a result, veto threats were infrequent.">11</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For example, the Obama Administration issued a SAP on <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2:"><span class="Hyperlink">H.R. 2</span></a> – Repealing the Affordable Care Act. The Obama Administration wrote, "If the President were presented with <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2:"><span class="Hyperlink">H.R. 2</span></a>, he would veto it."<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Executive Office of the President, Statement of Administration Policy: H.R. 2 – Repealing the Affordable Care Act , January 6, 2011 at https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr2r_20110106.pdf .">12</a></sup> In contrast, the Obama Administration's SAP on <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3010:"><span class="Hyperlink">H.R. 3010</span></a> – Regulatory Accountability Act of 2011 said, "If the President were presented with the Regulatory Accountability Act, his senior advisors would recommend that he veto the bill."<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Executive Office of the President, Statement of Administration Policy: H.R. 3010 – Regulatory Accountability Act of 2011 , November 29, 2011 at https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3010r_20111129.pdf .">13</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A SAP indicating that the President will veto the bill, rather than indicating that the President's senior advisors will recommend a veto, may give the President less negotiation room after it is issued.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Richard Neustadt, Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan (New York: The Free Press, 1991), pp. 71, 76-77. Samuel Kernell, Going Public , 4 th ed. (Washington: CQ Press, 2007), pp. 61-62.">14</a></sup> For example, in the same Obama Administration SAP provided in the <strong><a class="InternalLink" href="#_Ref454360081"></a></strong><strong></strong><strong></strong><strong></strong><strong>Appendix</strong><strong></strong>, the Administration makes its opposition to <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3010:"><span class="Hyperlink">H.R. 3010</span></a> more specific by including a veto threat at the conclusion of the SAP; however, the Administration's negative position was previously indicated.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc445817116"></a><a name="_Toc445817204"></a><a name="_Toc445817263"></a><a name="_Toc445817363"></a><a name="_Toc445817905"></a><a name="_Toc448320766"></a><a name="_Toc448995822"></a><a name="_Toc452984390"></a><a name="_Toc452988966"></a><a name="_Toc454360065"></a><a name="_Toc454448146"></a><a name="_Toc523909114"></a>SAP Timing Within the Legislative Process</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Generally, SAPs are released concurrent with action in the House Rules Committee, or on the floor of the House or Senate. Releasing a SAP at such a point in the legislative process may serve to maximize the Administration's influence. Frequently, one SAP is issued per bill. Some Administrations have preferred to issue multiple SAPs per bill throughout the legislative process as the bill text changes, while some issued the same SAP to both chambers. Some Administrations limited their use of SAPs only to bills they deemed of particular importance.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs can be an important vehicle for the Administration to support or oppose particular provisions of a bill as it makes its way through the legislative process in the House and Senate. OMB wrote in a document from 2000 that, "As a general rule, only items of significant funding or policy importance are included in OMB letters and SAPs. From one perspective, complaining about a large number of minor items would tend to dilute the arguments put forward for major items of importance to the Administration."<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy , May 8, 2000, available to congressional clients upon request .">15</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc441760437"></a><a name="_Toc441760475"></a><a name="_Toc441763459"></a><a name="_Toc441841970"></a><a name="_Toc442101724"></a><a name="_Toc443476717"></a><a name="_Toc444084790"></a><a name="_Toc444248108"></a><a name="_Toc445725343"></a><a name="_Toc445726143"></a><a name="_Toc445816233"></a><a name="_Toc445817118"></a><a name="_Toc445817206"></a><a name="_Toc445817265"></a><a name="_Toc445817365"></a><a name="_Toc445817907"></a><a name="_Ref446077403"></a><a name="_Toc448320768"></a><a name="_Toc448995824"></a><a name="_Toc452984393"></a><a name="_Toc452988967"></a><a name="_Toc454360066"></a><a name="_Toc454448147"></a><a name="_Toc523909115"></a>Statements of Administration Policy and OMB</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As described in the U.S. Constitution under Article II, Section 3, the President shall recommend for Congress's consideration "such Measures as he shall judge necessary and expedient.... "<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="U.S. Constitution, Article II , Section 3 .">16</a></sup> The Recommendations Clause, as this is known, has been viewed as the President's basis to make or respond to legislative proposals, and as the President's basis to refuse to do so even when Congress asks for such proposals.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="Clinton T. Brass, &quot;Working in, and Working with, the Executive Branch,&quot; in Legislative Drafter's Deskbook: A Practical Guide , ed. Tobias A. Dorsey (Alexandria, VA: TheCapitol.Net, Inc., 2006), p. 274.">17</a></sup> When Congress considers legislation, the executive branch conducts a parallel process to consider the legislation, make recommendations, and state the Administration's views. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Office of Management and Budget (OMB), in addition to assisting with the formulation of the President's budget, assists the President in creating the Administration's recommendations and comments on Congress's legislative proposals.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="For more information about the President's budget, see CRS Report R42633, The Executive Budget Process: An Overview , by Michelle D. Christensen .">18</a></sup> Since its inception, OMB has been a source of institutional memory for executive branch operations, attempting to unify the branch both in directing its policy agenda and its program execution. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">By virtue of being comprised of over 90% career civil servants that may stay beyond an individual Administration, OMB is situated to remember processes and procedures extending across many Administrations.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="U.S. Office of Management and Budget, The Staff of the Office of Management and Budget at https://www.whitehouse.gov/omb/OMBstaff .">19</a></sup> Accordingly, some of OMB's processes have been developed for internal management, rather than individual Administration needs, over time. This section briefly discusses OMB's role in supervising the creation of legislative recommendations and the historical creation of SAPs.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc445817366"></a><a name="_Toc445817908"></a><a name="_Toc448320769"></a><a name="_Toc448995825"></a><a name="_Toc452984394"></a><a name="_Toc452988968"></a><a name="_Toc454360067"></a><a name="_Toc454448148"></a><a name="_Toc523909116"></a>OMB's Mission</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">OMB writes that its core mission is "to serve the President of the United States in implementing his vision across the Executive Branch. ... It reports directly to the President and helps a wide range of executive departments and agencies across the Federal Government to implement the commitments and priorities of the President."<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="U.S. Office of Management and Budget, The Mission and Structure of the Office of Management and Budget at https://www.whitehouse.gov/omb/organization_mission/  .">20</a></sup> OMB provides a means for interagency consultation with the objective of forming an Administration position rather than having Congress faced with multiple agency views.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="U.S. Congress, Senate Committee on Governmental Affairs, Office of Management and Budget: Evolving Roles and Future Issues , committee print, prepared by the Congressional Research Service, 99 th Cong., 2 nd sess., February 1986, S.Prt 99-134 (Washington: GPO, 1986), p. 170. This interagency consultation process via OMB is known as central legislative clearance and is discussed at length in pages 169-184 of this committee print.">21</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Importantly, implementing the President's priorities includes tracking bill progress through the congressional chambers and drafting Administration proposals or criticisms in response to legislative action. This process occurs within individual executive branch agencies, however the central legislative clearance process described by Circular A-19 situates OMB in a supervisory position for the Administration.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Circular A-19 is discussed at length later in this report . U.S. Of fice of Management and Budget, Circular No. A-19 at https://www.whitehouse.gov/omb/circulars_a019/  .">22</a></sup> Bill tracking informs the central legislative clearance<a name="_Ref445994293"></a> process,<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="For more information about the central legislative clearance process, please see U.S. Congress, Senate Governmental Affairs, Office of Management and Budget: Evolving Roles and Future Issues, Central Legislative Clearance , committee print, prepared by Ronald C. Moe, the Congressional Research Service, 99 th Cong., 2 nd sess., February 1986, S.Prt. 99-134 (Washington: GPO, 1986), pp. 169-184.">23</a></sup> while SAPs and any other activity where an executive branch actor takes a position on proposed legislation are the product of the central legislative clearance process.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="Clinton T. Brass, &quot;Working in, and Working with, the Executive Branch,&quot; in Legislative Drafter's Deskbook: A Practical Guide , ed. Tobias A. Dorsey (Alexandria, VA: TheCapitol.Net, Inc., 2006), p. 276 .">24</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc442101725"></a><a name="_Toc443476718"></a><a name="_Toc444084791"></a><a name="_Toc444248109"></a><a name="_Toc445725344"></a><a name="_Toc445726144"></a><a name="_Toc445816234"></a><a name="_Toc445817119"></a><a name="_Toc445817207"></a><a name="_Toc445817266"></a><a name="_Toc445817367"></a><a name="_Toc445817909"></a><a name="_Toc448320770"></a><a name="_Toc448995826"></a><a name="_Toc452984395"></a><a name="_Toc452988969"></a><a name="_Toc454360068"></a><a name="_Toc454448149"></a><a name="_Toc523909117"></a>Historical Development of SAPs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs were an outgrowth of OMB's efforts to monitor appropriations legislation and develop the President's budget. As part of its responsibilities described in Circular A-11,<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="U.S. Office of Management and Budget, In Circular No. A-11 at https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc .">25</a></sup> the Budget Review Division (BRD) within OMB analyzes appropriations bills "for changes from previous configurations of the President's original budget proposals in their respective account areas and determine[s] how these squared with presidential policy."<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="Shelley Lynne Tomkin, Inside OMB: Politics and Process in the President's Budget Office (New Yor k: M. E. Sharpe, Inc., 1998), p. 153. Subsequent references to Tomkin in this report refer to this book.">26</a></sup> This analysis promotes consistency in an Administration's policy agenda.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span class="BodyTextChar">BRD is responsible for </span><span class="BodyTextChar">tracking</span><span class="BodyTextChar"> </span><span class="BodyTextChar">the legislative progress of </span><span class="BodyTextChar">appropriations bills. </span>Bill tracking expanded during the Reagan Administration to include the formulation of statements on the Administration's position regarding individual appropriations bills.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="Tomkin, p. 152.">27</a></sup><span class="BodyTextChar"> </span><span class="BodyTextChar">The bill tracking process</span><span class="BodyTextChar"> served as the template for </span><span class="BodyTextChar">the </span><span class="BodyTextChar">SAP development process</span><span class="BodyTextChar">.</span></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">During the Reagan Administration, demand from the OMB Director for more sophisticated bill statements grew, resulting in statements that were prepared by various divisions within OMB at every stage of the appropriations process<span class="BodyTextChar">.</span><sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="Ibid. Within the Office of Management and Budget, the division of labor in the creation of SAPs is segmented. In addition to receiving the input of White House Office of Legislative Affairs (WHLA) and OMB Legislative Affairs, OMB's Legislative Reference Division (LRD) and Budget Review Division (BRD) take the lead on SAP creation depending on the substance of the SAP in question. Though SAPs evolved from the preliminary statements made by BRD on pending legislation, SAPs in their modern inca...">28</a></sup> These documents, produced by OMB's program examiners in conjunction with the OMB Director, eventually became Statements of Administration Policy.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These early iterations of SAPs were "sent to the chairs and ranking members of the full appropriations committees and subcommittees, and sometimes to the Senate leadership."<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="Ibid.">29</a></sup> During this period, SAPs were intended for a select audience.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="According to Tomkin, SAPs would be sent to ranki ng M embers of the full appropriations committees and subcommittees, and sometimes to the Senate leadership during OMB Director David Stockman's tenure. Ibid.">30</a></sup> In contrast, modern SAPs are made available online to the public and all Members of Congress upon their release.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='U.S. Office of Management and Budget, "Statements of Administration Policy on Non-Appropriations and Appropriations Bills , " at https://www.whitehouse.gov/omb/legislative_sap_default . The content of SAPs may have changed over time as a result of the changes in distribution of SAPs from a select congressional audience to the general public, however, SAPs created prior to the creation of the White House website during the Clinton Administration are difficult to locate.'>31</a></sup><a name="_Toc429493829"></a><a name="_Toc429493892"></a><a name="_Toc429493944"></a><a name="_Toc429494419"></a><a name="_Toc430351089"></a><a name="_Toc430611459"></a><a name="_Toc436991314"></a><a name="_Toc437955510"></a><a name="_Toc441670871"></a><a name="_Toc441743648"></a><a name="_Toc441743807"></a><a name="_Toc441744138"></a><a name="_Toc441744215"></a><a name="_Toc441759529"></a><a name="_Toc441759664"></a><a name="_Toc441760439"></a><a name="_Toc441760478"></a><a name="_Toc441763462"></a><a name="_Toc441841973"></a><a name="_Toc442101727"></a><a name="_Toc443476721"></a><a name="_Toc444084794"></a><a name="_Toc444248111"></a><a name="_Toc445725346"></a><a name="_Toc445726146"></a> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc445817267"></a><a name="_Toc445817368"></a><a name="_Toc445817910"></a><a name="_Toc448320771"></a><a name="_Toc448995827"></a><a name="_Toc452984396"></a><a name="_Toc452988970"></a><a name="_Toc454360069"></a><a name="_Toc454448150"></a><a name="_Toc523909118"></a>Issuing Statements of Administration Policy</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs are a formal vehicle through which the President and the President's Administration comment on legislation pending before Congress. The process of solicitation and coordination of the executive branch's legislative position is governed by OMB Circular A-19. This section details the Administration's institutional uses for SAPs, discusses key provisions in Circular A-19, and describes the OMB and agency actors involved. The section concludes with strategic considerations regarding the timing of a SAP's public release.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc441841974"></a><a name="_Toc442101728"></a><a name="_Toc443476722"></a><a name="_Toc444084795"></a><a name="_Toc444248112"></a><a name="_Toc445725347"></a><a name="_Toc445726147"></a><a name="_Toc445816235"></a><a name="_Toc445817120"></a><a name="_Toc445817208"></a><a name="_Toc445817268"></a><a name="_Toc445817369"></a><a name="_Toc445817911"></a><a name="_Toc448320772"></a><a name="_Toc448995828"></a><a name="_Toc452984397"></a><a name="_Toc452988971"></a><a name="_Toc454360070"></a><a name="_Toc454448151"></a><a name="_Toc523909119"></a>Institutional Uses for SAPs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The process for creating SAPs is not established in statute. Consequently, implementation practices may evolve over time and may differ from one Administration to another. As mentioned previously, the earliest iterations of SAPs were internal documents released only to a select audience of those involved with the passage of specific legislation. Samuel Kernell writes that, "SAPs are, after all, fashioned for a sophisticated audience interested in discerning the gradations of objection to various provisions cover[ed] in a threat. Even slight variations in the wording of these SAPs may influence legislators' responses.... "<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title='Samuel Kernell, " Introduction to SAPs, " 2005, http://pages.ucsd.edu/~skernell/resources/Introduction-to-SAPs.pdf . p. 8.'>32</a></sup> In recent Administrations, SAPs are released to both legislators and the public. SAPs are created through consultation among the executive agencies, the White House Office of Legislative Affairs (WHLA), and divisions within OMB.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy, May 8, 2000, available to congressional clients upon request .">33</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The decision whether or not to issue a SAP ultimately rests with the White House. Although SAPs address administrative aspects of how legislation would be implemented if enacted, the Administration takes political considerations into account during the creation of SAPs. SAPs are drafted by career civil servants in conjunction with political appointees. The issuing of SAPs, therefore, is best understood as a collaborative process between political goals and administrative execution of policy and not as either a strictly political or an exclusively administrative process.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs may offer the Administration certain advantages. SAPs allow the Administration to provide language that the President's party and the President's allies in Congress can use when negotiating policies. SAPs allow the Administration to go on record with its reasons for opposing and potentially vetoing legislation. SAPs also enable the Administration to identify key provisions of the legislation that it objects to or finds particularly favorable.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='Laurie Rice, "Statements of Power: Presidential Use of Statements of Administration Policy and Signing Statements in the Legislative Process," Presidential Studies Quarterly, vol . 40, no. 4 (2010), p. 692.'>34</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAP language can identify specific provisions of the legislation that the Administration finds problematic. In contrast to the President's oral statements which are often intended for audiences outside of the executive branch, SAPs also allow the Administration to describe its views on bill implementation in finer detail for an executive branch audience. These details can include whether or not provisions of legislation have been identified as areas that would be difficult to execute, either for political or managerial reasons.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy, May 8, 2000, available to congressional clients upon request .">35</a></sup> These details may also prove useful in Congress's efforts to understand possible obstacles involved in implementing the law.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because presidents use SAPs to signal opposition to parts of a bill or to an entire bill, or to comment on implementation challenges, Congress may find these statements informative when considering the likelihood of a bill obtaining the President's signature.<span class="FootnoteReference"> </span><sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="Ibid.">36</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc436991315"></a><a name="_Toc437955511"></a><a name="_Toc441670872"></a><a name="_Toc441743649"></a><a name="_Toc441743808"></a><a name="_Toc441744139"></a><a name="_Toc441744216"></a><a name="_Toc441759530"></a><a name="_Toc441759665"></a><a name="_Toc441760440"></a><a name="_Toc441760479"></a><a name="_Toc441763463"></a><a name="_Toc441841975"></a><a name="_Toc442101729"></a><a name="_Toc443476723"></a><a name="_Toc444084796"></a><a name="_Toc444248113"></a><a name="_Toc445725348"></a><a name="_Toc445726148"></a><a name="_Toc445816236"></a><a name="_Toc445817121"></a><a name="_Toc445817209"></a><a name="_Toc445817269"></a><a name="_Toc445817370"></a><a name="_Toc445817912"></a><a name="_Ref445994159"></a><a name="_Toc448320773"></a><a name="_Toc448995829"></a><a name="_Toc452984398"></a><a name="_Toc452988972"></a><a name="_Toc454360071"></a><a name="_Toc454448152"></a><a name="_Toc523909120"></a><a name="_Toc429493893"></a><a name="_Toc429493945"></a><a name="_Toc429494420"></a><a name="_Toc430351090"></a><a name="_Toc430611460"></a>Circular No. A-19</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Last revised in 1979, Circular No. A-19 describes the procedures for legislative coordination and clearance through OMB. Circular No. A-19 describes the process behind agency recommendations on proposed, pending, and enrolled legislation.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='U.S. Office of Management and Budget, "1 . Purpose ," In Circular No. A-19 at https://www.whitehouse.gov/omb/circulars_a019/#purpose .'>37</a></sup> As a result, this circular is integral to understanding the executive branch coordination efforts required to issue SAPs.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Circular No. A-19 states, "OMB performs legislative coordination and clearance functions to (a) assist the President in developing a position on legislation, (b) make known the Administration's position on legislation for the guidance of the agencies and information of Congress, (c) assure appropriate consideration of the views of all affected agencies, and (d) assist the President with respect to action on enrolled bills."<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title='U.S. Office of Management and Budget, "3 . Background ," In Circular No. A-19 at U.S. https://www.whitehouse.gov/omb/circulars_a019/#background .'>38</a></sup> This extends to not only SAPs, but also draft legislation, agency testimony, and agency reports.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">OMB collects views in advance of clearing proposed legislation, reports, or testimony on behalf of the Administration. Agency views indicate support, opposition, or no objections to the materials proposed for legislative clearance.<span class="FootnoteReference"> </span><sup><a class="FootnoteLink" href="#fn39" name="ifn39" title='U.S. Office of Management and Budget, "7g. Views letters," In Circular No. A-19 at https://www.whitehouse.gov/omb/circulars_a019/#submission .'>39</a></sup> Positions expressed by agencies may be later used in the creation of SAPs for the President.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493831"></a><a name="_Toc429493894"></a><a name="_Toc429493946"></a><a name="_Toc429494421"></a><a name="_Toc430351091"></a><a name="_Toc430611461"></a><a name="_Toc436991317"></a><a name="_Toc437955513"></a><a name="_Toc441670874"></a><a name="_Toc441743651"></a><a name="_Toc441743810"></a><a name="_Toc441744141"></a><a name="_Toc441744218"></a><a name="_Toc441759532"></a><a name="_Toc441759667"></a><a name="_Toc441760442"></a><a name="_Toc441760481"></a><a name="_Toc441763465"></a><a name="_Toc441841977"></a><a name="_Toc442101731"></a><a name="_Toc443476724"></a><a name="_Toc444084797"></a><a name="_Toc444248114"></a><a name="_Toc445725349"></a><a name="_Toc445726149"></a><a name="_Toc445816237"></a><a name="_Toc445817122"></a><a name="_Toc445817210"></a><a name="_Toc445817270"></a><a name="_Toc445817371"></a><a name="_Toc445817913"></a><a name="_Toc448320774"></a><a name="_Toc448995830"></a><a name="_Toc452984399"></a><a name="_Toc452988973"></a><a name="_Toc454360072"></a><a name="_Toc454448153"></a><a name="_Toc523909121"></a>Agency Involvement in the Development of Administration Views</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Resource Management Offices (RMOs) of OMB consult with relevant agencies that would be affected by pending legislation, if enacted. Within OMB, RMOs are divided by policy area and department.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title='U.S. Office of Management and Budget, "OMB Organization Chart , " at https://www.whitehouse.gov/sites/default/files/omb/assets/about_omb/omb_org_chart.pdf .'>40</a></sup> Agency views are consulted throughout the SAP creation process, mainly by RMO proxy, but agency legislative affairs offices are also directly involved in SAP creation. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As an internal OMB document from 2000 explains, "In executing its responsibilities for appropriations bill tracking, BRB<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="BRB, or the Budget Review Branch, is a precursor to the Budget Review Division (BRD).">41</a></sup> works closely with the RMOs of OMB. The RMOs, in turn, work closely with the agencies represented in a given bill to obtain their views and, as appropriate, incorporate agency views into letters and SAPs."<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy , May 8, 2000, available to congressional clients upon request .">42</a></sup> Though the extent to which agency views are incorporated into executive documents can vary, the SAP creation process structurally allows for agency input.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The decision of which agencies' views to include in a SAP is made by OMB and not by the agencies. In making this decision, OMB determines whether an agency's views are critical to the creation of the Administration's position. As discussed in Circular A-19, OMB sifts through agency legislative programs<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="An agency's legislative program may include all items of legislation that the agency wishes to propose to Congress, a list of active proposals under agency consideration, and a list of all laws or provisions of law set to expire within a set time period from submission of the agency's legislative program. Circular A-19 enumerates an agency's program content at U.S. Offi ce of Management and Budget, &quot;6 : Agency legislative programs&quot; In Circular No. A-19 at https://www.whitehouse.gov/omb/...">43</a></sup> to recommend provisions for inclusion in the President's program. Circular A-19 states that submitting agency legislative programs helps,</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">(1) to assist planning for legislative objectives; (2) to help agencies coordinate their legislative program with the preparation of their annual budget submissions to OMB; (3) to give agencies an opportunity to recommend specific proposals for Presidential endorsement; and (4) to aid OMB and other staff of the Executive Office of the President in developing the President's legislative program, budget, and annual and special messages.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title='U.S. Offi ce of Management and Budget, "6b : Agency legislative programs" In Circular No. A-19 at https://www.whitehouse.gov/omb/circulars_a019/#agency .'>44</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Here, OMB emphasizes that agencies have the opportunity for their concerns and suggestions to be expressed in the Executive Office of the President (EOP) via this coordinating function. This coordination process also holds true for the creation of SAPs. As a practical matter not all agency positions will be included in official messaging outside of the executive branch. In an internal guidance document, OMB explained,</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the number of Executive Branch organizations and interests represented in a particular appropriations bill, it is frequently difficult to satisfy everyone's views concerning what items should be discussed in an Administration letter or SAP as well as the priority given to write-ups that are included. Ultimately, this is a judgment call made by OMB policy officials and the White House.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy , May 8, 2000, available to congressional clients upon request .">45</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For agencies, OMB emphasizes the relationship between agencies and their assigned RMOs as the proper means for agencies to voice their opinions on pending legislation. This is a function of OMB's institutional desire to preserve the executive branch's ability to speak with one voice; however in practice, agencies may reach out to Members of Congress or committee staff.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="Ibid., pp. 2- 5 .">46</a></sup> The extent to which agencies engage in this practice highlights another difficulty the President faces in unifying the executive Administration's position.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It may be argued that multiple opinions in the Administration allows for the voicing of policy alternatives that may lead to better governance. Others argue that the Administration is most effective when executive agency opinions are coordinated into one Administration position.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='During the constitutional convention, extended debates were had concerning whether the executive power of the government should be vested in a singular executive or a n executive council . Speaking to the disadvantages of multiple views in the executive in Federalist 70, Alexander Hamilton argued: " ... the mere diversity of views and opinions would alone be sufficient to tincture the exercise of the executive authority with a spirit of habitual feebleness and dilatoriness. " The pro...'>47</a></sup> SAPs acknowledge these two views by processing disparate agency opinions on policy and eventually presenting a unified policy document intended to speak for the entire executive branch.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="The process for coordinating agency views on policies is governed by Circular A-19. U.S. Office of Management and Budget, In Circular No. A-19 , at https://www.whitehouse.gov/omb/circulars_a019 .">48</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493832"></a><a name="_Toc429493895"></a><a name="_Toc429493947"></a><a name="_Toc429494422"></a><a name="_Toc430351092"></a><a name="_Toc430611462"></a><a name="_Toc436991318"></a><a name="_Toc437955514"></a><a name="_Toc441670875"></a><a name="_Toc441743652"></a><a name="_Toc441743811"></a><a name="_Toc441744142"></a><a name="_Toc441744219"></a><a name="_Toc441759533"></a><a name="_Toc441759668"></a><a name="_Toc441760443"></a><a name="_Toc441760482"></a><a name="_Toc441763466"></a><a name="_Toc441841978"></a><a name="_Toc442101732"></a><a name="_Toc443476725"></a><a name="_Toc444084798"></a><a name="_Toc444248115"></a><a name="_Toc445725350"></a><a name="_Toc445726150"></a><a name="_Toc445816238"></a><a name="_Toc445817123"></a><a name="_Toc445817211"></a><a name="_Toc445817271"></a><a name="_Toc445817372"></a><a name="_Toc445817914"></a><a name="_Toc448320775"></a><a name="_Toc448995831"></a><a name="_Toc452984400"></a><a name="_Toc452988974"></a><a name="_Toc454360073"></a><a name="_Toc454448154"></a><a name="_Toc523909122"></a>Timing and Possible Role of SAPs in the Legislative Process</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In order to have influence during the legislative process, OMB's internal guidance from 2000 said that SAPs must be strategically released at a time where such statements could have a maximum impact in the legislative negotiation process.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="Ibid., p. 5.">49</a></sup> This may impart an implicit value to SAPs, OMB noted, "in the sense of the desirability of making the Administration's position on a given issue known as early on as possible in House and Senate consideration, i.e., before the bill reaches the floor."<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="Ibid., p. 1.">50</a></sup> By conveying the Administration's opinion early on in the process, the President may stand to gain a more favorable bill before the legislative process concludes.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While the exact timing of SAP release varies by Administration, in practice, SAPs are generally released as a bill is set for House Rules, House, or Senate floor action.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="Ibid.">51</a></sup> Since the release of particular SAPs varies, OMB appears to adjust its guidance based on Administration preferences or in response to the anticipated movement of particular bills once introduced.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">From an Administration's perspective, SAPs are intended to influence congressional behavior and public opinion. As a result, the Administration views the timing of SAP release to be a critical component of presidential strategy. In the interest of balancing Administrative unity and the Administration's congressional relevance, OMB stated in 2000 that SAP creation "cannot be delayed for receipt of comments from an agency. It is better that a letter or SAP be sent with available comments on time than that a comprehensive letter or SAP be sent too late to influence congressional action."<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="Ibid., p. 5.">52</a></sup> Acknowledging that not all opinions can be included in SAPs either due to delays in receiving agency comments or shifting legislative priorities, OMB stated that such agency comments can be included in future SAPs or letters as the legislative situation develops.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493833"></a><a name="_Toc429493896"></a><a name="_Toc429493948"></a><a name="_Toc429494423"></a><a name="_Toc430351093"></a><a name="_Toc430611465"></a><a name="_Toc436991321"></a><a name="_Toc437955517"></a><a name="_Toc441670878"></a><a name="_Toc441743653"></a><a name="_Toc441743812"></a><a name="_Toc441744143"></a><a name="_Toc441744220"></a><a name="_Toc441759534"></a><a name="_Toc441759669"></a><a name="_Toc441760444"></a><a name="_Toc441760483"></a><a name="_Toc441763467"></a><a name="_Toc441841979"></a><a name="_Toc442101733"></a><a name="_Toc443476726"></a><a name="_Toc444084799"></a><a name="_Toc444248116"></a><a name="_Toc445725351"></a><a name="_Toc445726151"></a><a name="_Toc445816239"></a><a name="_Toc445817124"></a><a name="_Toc445817212"></a><a name="_Toc445817272"></a><a name="_Toc445817373"></a><a name="_Toc445817915"></a><a name="_Toc448320776"></a><a name="_Toc448995832"></a><a name="_Toc452984401"></a><a name="_Toc452988975"></a><a name="_Toc454360074"></a><a name="_Toc454448155"></a><a name="_Toc523909123"></a>Receiving Statements of Administration Policy</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs are strategically distributed to legislators in Congress, to executive branch agency officials whose duties may be affected by the pending legislation, and others who may assist in bringing about the President's legislative program. This section describes the evolution of SAP transmittals, the managerial implications of SAPs on the executive branch, and theoretical frameworks for understanding SAPs as one of the President's persuasion tools.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc441841980"></a><a name="_Toc442101734"></a><a name="_Toc443476727"></a><a name="_Toc444084800"></a><a name="_Toc444248117"></a><a name="_Toc445725352"></a><a name="_Toc445726152"></a><a name="_Toc445816240"></a><a name="_Toc445817125"></a><a name="_Toc445817213"></a><a name="_Toc445817273"></a><a name="_Toc445817374"></a><a name="_Toc445817916"></a><a name="_Toc448320777"></a><a name="_Toc448995833"></a><a name="_Toc452984402"></a><a name="_Toc452988976"></a><a name="_Toc454360075"></a><a name="_Toc454448156"></a><a name="_Toc523909124"></a>SAP Transmittal</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In their earliest iterations, SAPs were shared with ranking Members, relevant committee and subcommittee members, and other allies of the Reagan Administration on the legislation in question.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="Tomkin, p. 152.">53</a></sup> Designed to bring about legislative change, the Reagan Administration saw value in giving SAPs to those it deemed best positioned to make alterations favorable to the Administration.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Before SAPs were disseminated widely, Reagan Administration SAPs were prepared "for transmission to the appropriations committees and for [OMB Director] Stockman ... to use as ammunition in congressional negotiation sessions."<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="Ibid., p. 156.">54</a></sup> SAPs served then as now as a quick, shorthand statement for the EOP to rely on in trying to bring about the President's agenda.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the Internet age, SAPs are primarily transmitted to the public via the White House website under the OMB page for "Legislative Affairs" information.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title='U.S. Office of Management and Budget, "Statements of Administration Policy on Non-Appropriations and Appropriations Bills , " at https://www.whitehouse.gov/omb/legislative_sap_default .'>55</a></sup> Like other presidential documents, SAPs on this page are only those issued by the current Administration.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="Historical SAPs can be found on archived versions of the White House website. The Presidency Project from University of California: Santa Barbara also maintains an archive of SAPs at http://www.presidency.ucsb.edu/saps.php .">56</a></sup> SAPs are divided on the site by session, by appropriation or policy bills, and appropriations by subcommittee. It is unknown if involved Members receive SAPs directly, however previously, select Members and staffers were allowed to view SAPs before their official transmittal.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="Tomkin, p. 152.">57</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Starting in 2012, the White House has used its @OMBPress Twitter account to broadcast the transmittal of SAPs, with hyperlinks redirecting users to the main White House SAP website. These tweets include a further condensation of the Administration's position so that it satisfies Twitter's 140-character limit, providing an additional opportunity for the Administration to express its views to the public in a concise and shareable format.<span class="FootnoteReference"> </span><sup><a class="FootnoteLink" href="#fn58" name="ifn58" title='This is especially reflected in the use of Twitter hashtags to associate SAPs with the Presidency, as seen in "#SAP44" and attempts to condense the phrase "Senior Advisors would recommend a veto" to "Sr Adv Wld Rec Veto." U.S. Office of Management and Budget, "@OMBPress, #SAP44: Sr Adv Wld Rec Veto of H.R. 5 to Repeal IPAB; Admin Opposes Leg. That Attempts to Erode Key #ACA Provisions Http://t.co/LlW442gA ," Twitter .com, March 20, 2012, at https://twitter.com/OMBPress/status/182...'>58</a></sup> For example, the @OMBPress Twitter account wrote: "#SAP44: Sr Adv Wld Rec Veto of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.5:"><span class="Hyperlink">H.R. 5</span></a> to Repeal IPAB; Admin Opposes Leg. That Attempts to Erode Key #ACA Provisions <a class="ExternalLink" href="Http://t.co/LlW442gA"><span class="Hyperlink">Http://t.co/LlW442gA</span></a>," conveying the veto threat in the hyperlinked SAP for <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.5:"><span class="Hyperlink">H.R. 5</span></a>.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title='While SAPs may be read by Members of Congress, their acknowledgement of a SAP can only be proven when a Member references a SAP thus making it part of the Congressional Record. For example, Sen. Harry Reid, "The Budget," remarks in the Senate, Congressional Record, daily edition, April 29, 2015, p. S2493.'>59</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Beyond these Internet forms of transmittal and possible physical distribution to a select audience, a Member of Congress may choose to reference part of a SAP or an entire SAP, thus making it part of the Congressional Record.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc437955519"></a><a name="_Toc441670880"></a><a name="_Toc441743655"></a><a name="_Toc441743814"></a><a name="_Toc441744145"></a><a name="_Toc441744222"></a><a name="_Toc441759536"></a><a name="_Toc441759671"></a><a name="_Toc441760446"></a><a name="_Toc441760485"></a><a name="_Toc441763469"></a><a name="_Toc441841982"></a><a name="_Toc442101736"></a><a name="_Toc443476729"></a><a name="_Toc444084802"></a><a name="_Toc444248119"></a><a name="_Toc445725354"></a><a name="_Toc445726154"></a><a name="_Toc445816242"></a><a name="_Toc445817127"></a><a name="_Toc445817215"></a><a name="_Toc445817275"></a><a name="_Toc445817376"></a><a name="_Toc445817918"></a><a name="_Toc448320779"></a><a name="_Toc448995835"></a><a name="_Toc452984403"></a><a name="_Toc452988977"></a><a name="_Toc454360076"></a><a name="_Toc454448157"></a><a name="_Toc523909125"></a>Presidential Persuasion and "Going Public"</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two of many theories describing executive branch operations can be applied to SAPs in this context of administrative tools. These two theories illustrate many moving parts within the executive branch and the challenges involved in creating SAPs.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Richard Neustadt model of presidential persuasion suggests that the President's effectiveness rests solely within his or her ability to generate buy-in from other government actors—be they executive agencies, Congress, members of the public, etc.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="Richard Neustadt, Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan (New York: The Free Press, 1991), p. 11.">60</a></sup> SAPs as viewed through the persuasion model can be understood as a written attempt to generate support for the President's policy agenda by making the President's position known. In this sense, too, SAPs can assuage uncertainties regarding the Administration's intent in executing the presented legislation, should it later become law. The persuasion model incorporates the idea of bargaining on legislation and highlights a SAP's capacity to serve as a starting point for legislative negotiations.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the "going public" model of the institutional presidency, as postulated by Samuel Kernell, the President can gain support for the presidential program by appealing to the American public at large. In this model, public statements by the President regarding the Administration's legislative program may help to generate pressure on Congress by informing and involving the public in the Administration's policy agenda. SAPs in this model, due to their nature as public statements, may inform the citizenry of the Administration's policy intentions and allow the American public to adopt the Administration's views when communicating with their congressional representatives.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title="Samuel Kernell, Going Public , 4 th ed. (Washington: CQ Press, 2007), p. 50.">61</a></sup> In 2012, the Obama Administration began tweeting SAPs via its @OMBPress account, indicating that the Administration perceived value in publicizing the information broadly to the public via social media.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493834"></a><a name="_Toc429493897"></a><a name="_Toc429493949"></a><a name="_Toc429494424"></a><a name="_Toc430351094"></a><a name="_Toc430611466"></a><a name="_Toc436991322"></a><a name="_Toc437955520"></a><a name="_Toc441670881"></a><a name="_Toc441743656"></a><a name="_Toc441743815"></a><a name="_Toc441744146"></a><a name="_Toc441744223"></a><a name="_Toc441759537"></a><a name="_Toc441759672"></a><a name="_Toc441760447"></a><a name="_Toc441760486"></a><a name="_Toc441763470"></a><a name="_Toc441841983"></a><a name="_Toc442101737"></a><a name="_Toc443476730"></a><a name="_Toc444084803"></a><a name="_Toc444248120"></a><a name="_Toc445725355"></a><a name="_Toc445726155"></a><a name="_Toc445816244"></a><a name="_Toc445817129"></a><a name="_Toc445817217"></a><a name="_Toc445817277"></a><a name="_Toc445817378"></a><a name="_Toc445817920"></a><a name="_Toc448320781"></a><a name="_Toc448995837"></a><a name="_Toc452984405"></a><a name="_Toc452988978"></a><a name="_Toc454360077"></a><a name="_Toc454448158"></a><a name="_Toc523909126"></a>Statement of Administration Policy Audiences</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs summarize the Administration's position towards legislation at a fixed point in time. SAPs can supply guideposts to Congress regarding the Administration's legislative approach to the passage and execution of a bill. SAPs give the Administration the ability to point to particular amendments or clauses within the bill text if they meet a threshold of significance. The combination of these bill execution guideposts and areas highlighted as significant to the Administration may be useful to Congress in crafting their own legislative strategies.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As SAPs are released publicly via the White House website, SAPs may be analyzed in relation to three general audiences. This section details the possible implications that a SAP's release may have on congressional, public, and executive branch action.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493835"></a><a name="_Toc429493898"></a><a name="_Toc429493950"></a><a name="_Toc429494425"></a><a name="_Toc430351095"></a><a name="_Toc430611467"></a><a name="_Toc436991323"></a><a name="_Toc437955521"></a><a name="_Toc441670882"></a><a name="_Toc441743657"></a><a name="_Toc441743817"></a><a name="_Toc441744147"></a><a name="_Toc441744224"></a><a name="_Toc441759538"></a><a name="_Toc441759673"></a><a name="_Toc441760448"></a><a name="_Toc441760487"></a><a name="_Toc441763471"></a><a name="_Toc441841984"></a><a name="_Toc442101738"></a><a name="_Toc443476731"></a><a name="_Toc444084804"></a><a name="_Toc444248121"></a><a name="_Toc445725356"></a><a name="_Toc445726156"></a><a name="_Toc445816245"></a><a name="_Toc445817130"></a><a name="_Toc445817218"></a><a name="_Toc445817278"></a><a name="_Toc445817379"></a><a name="_Toc445817921"></a><a name="_Toc448320782"></a><a name="_Toc448995838"></a><a name="_Toc452984406"></a><a name="_Toc452988979"></a><a name="_Toc454360078"></a><a name="_Toc454448159"></a><a name="_Toc523909127"></a>Congress</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The intended audience of SAPs is primarily Congress. SAPs are released concurrent with floor action by the congressional chambers or the House Rules Committee and are designed to inform Congress of the Administration's position towards pending legislation. However, SAPs are not released in a vacuum; the confluence of public reaction and congressional reaction to the Administration's position may create new effects and pressures on the legislative and executive relationship in their negotiation efforts.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title="Samuel Kernell, Going Public, 4 th ed. (Was hington: CQ Press, 2007), pp. 61-62.">62</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because SAPs are the primary written vehicle for veto threats, Congress may find these statements particularly useful for the record they provide of Presidential positions towards legislation over time. SAPs, like veto threats, can constrain the President's and the Administration's future ability to negotiate. SAPs by design highlight specific provisions that are objectionable or viewed favorably by the Administration. By making a public statement in favor or in opposition to legislation, the President risks limiting the Administration's options later on in the negotiation process.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title="Ibid., p. 65.">63</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Conversely, SAPs may confer an advantage to Congress by giving Members a simple method to assess Presidential attitudes towards legislation. In 1954, Richard Neustadt recognized the need for a concise method to convey the President's position:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On the bulk of this business, overburdened legislators, in committee and out, need a handy criterion for choice of measures to take up, especially when faced with technical alternatives in which they have but little vested interest. They need, as well, an inkling of Administration attitude toward the outcome: how much, if at all, does the President care?<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='Richard Neustadt, "Presidency and Legislation: The Growth of Central Clearance," American Political Science Review Vol. 48, No. 3 (1954), p. 670.'>64</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This criterion may come in the form of first, whether or not a SAP has been issued on a particular bill, and second, what the statement contained in the SAP indicates about the level of importance the President has given to pending legislation.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Samuel Kernell writes, "A closer inspection of the details of the threats finds that the great majority involves the President couching his threat in a proposed compromise. Typically, the threat identifies those provisions that the President objects to and suggests that their removal or alteration along specified lines would lead to his signature."<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title="Ibid., p. 63.">65</a></sup> SAPs may help Congress find areas of disagreement and possible suggestions for improvement on the bill that would garner the Administration's support of the bill.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493836"></a><a name="_Toc429493899"></a><a name="_Toc429493951"></a><a name="_Toc429494426"></a><a name="_Toc430351096"></a><a name="_Toc430611468"></a><a name="_Toc436991324"></a><a name="_Toc437955522"></a><a name="_Toc441670883"></a><a name="_Toc441743658"></a><a name="_Toc441743818"></a><a name="_Toc441744148"></a><a name="_Toc441744225"></a><a name="_Toc441759539"></a><a name="_Toc441759674"></a><a name="_Toc441760449"></a><a name="_Toc441760488"></a><a name="_Toc441763472"></a><a name="_Toc441841985"></a><a name="_Toc442101739"></a><a name="_Toc443476732"></a><a name="_Toc444084805"></a><a name="_Toc444248122"></a><a name="_Toc445725357"></a><a name="_Toc445726157"></a><a name="_Toc445816246"></a><a name="_Toc445817131"></a><a name="_Toc445817219"></a><a name="_Toc445817279"></a><a name="_Toc445817380"></a><a name="_Toc445817922"></a><a name="_Toc448320783"></a><a name="_Toc448995839"></a><a name="_Toc452984407"></a><a name="_Toc452988980"></a><a name="_Toc454360079"></a><a name="_Toc454448160"></a><a name="_Toc523909128"></a>The Public</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">By issuing a SAP, the Administration publicly announces its expectations for the bill. Specificity and definitiveness may serve to instill credibility in the Administration's position, while at the same time limiting the Administration's options. Should the Administration deviate from the stated position, the Administration could damage its credibility with the public and its leverage with Congress.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title="Ibid., p. 65.">66</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Samuel Kernell notes, "For some legislation, Presidents sense they can score points in public opinion by vowing publicly to veto some unpopular bill in Congress."<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="Samuel Kernell, Going Public , 4 th ed. (Washington: CQ Press, 2007), p. 60.">67</a></sup> On the other hand, Presidents can lose public or congressional support should they later choose to sign legislation they previously said they would oppose or veto, or vice versa. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Furthermore, "Legislators observe the President's action and conclude that he can ill afford politically to sign a bill that fails to give him what he has demanded, or at least something pretty close."<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title="Ibid.">68</a></sup> A President's reputation is at stake if the Administration fails to make the legislation conform to the Administration's requirements laid out in a SAP. Lending this predictability to the process early on allows for all actors involved to set expectations for legislative outcomes and possible areas of compromise throughout the process.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc429493837"></a><a name="_Toc429493900"></a><a name="_Toc429493952"></a><a name="_Toc429494427"></a><a name="_Toc430351097"></a><a name="_Toc430611469"></a><a name="_Toc436991325"></a><a name="_Toc437955523"></a><a name="_Toc441670884"></a><a name="_Toc441743659"></a><a name="_Toc441743819"></a><a name="_Toc441744149"></a><a name="_Toc441744226"></a><a name="_Toc441759540"></a><a name="_Toc441759675"></a><a name="_Toc441760450"></a><a name="_Toc441760489"></a><a name="_Toc441763473"></a><a name="_Toc441841986"></a><a name="_Toc442101740"></a><a name="_Toc443476733"></a><a name="_Toc444084806"></a><a name="_Toc444248123"></a><a name="_Toc445725358"></a><a name="_Toc445726158"></a><a name="_Toc445816247"></a><a name="_Toc445817132"></a><a name="_Toc445817220"></a><a name="_Toc445817280"></a><a name="_Toc445817381"></a><a name="_Toc445817923"></a><a name="_Toc448320784"></a><a name="_Toc448995840"></a><a name="_Toc452984408"></a><a name="_Toc452988981"></a><a name="_Toc454360080"></a><a name="_Toc454448161"></a><a name="_Toc523909129"></a>The Executive Branch</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As previously discussed, many parts of the Administration are involved in the SAP creation process via Circular A-19. In an effort to coordinate the executive branch on behalf of the President, OMB consults with executive branch agencies regarding agency priorities and the President's priorities. From the OMB and EOP perspective, this is done to ensure consistency and continuity throughout the Administration. From an agency's perspective, this allows the agency an opportunity to advocate for measures on the agency's behalf.<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title="U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy , May 8, 2000, available to congressional clients upon request .">69</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Remarking on the structure of the executive branch in 1951, observer David B. Truman wrote that the executive branch is " ... a protean agglomeration of feudalities that overlap and crisscross in an almost continual succession of changes. Some of the lines of control ... terminate in the Presidency, some in ... the legislature and some ... 'outside' the government.... "<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title='Richard Neustadt, "Presidency and Legislation: The Growth of Central Clearance," American Political Science Review Vol. 48, No. 3 (1954), p. 669.'>70</a></sup> In an attempt to maintain consistent views throughout the Administration and the executive agencies, SAPs offer the President a process and policy documents to coordinate views as soon as legislation becomes pending.<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title="Samuel Kernell, Going Public , 4 th ed. (Washington: CQ Press, 2007), pp. 62-64.">71</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">SAPs represent OMB's role in putting forth a unified Administration position on pending bills. This is because of the coordination process involved in SAP creation and in OMB's attempts to unify disparate agency opinions into one Administration position. Although their value to Congress regarding pending legislation is apparent in SAP statements regarding bill passage, SAP insights may also prove useful in Congress's efforts to understand executive branch operations and possible implementation of the law.</p>
+<p class="Heading5" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix. <a name="_Toc454360059"></a><a name="_Ref454360081"></a><a name="_Toc454448140"></a><a name="_Toc523909108"></a>Example SAP</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td></td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R44539_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "Statements of Administration Policy on Non-Appropriations and Appropriations Bills," at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/legislative_sap_default"><span class="Hyperlink">https://www.whitehouse.gov/omb/legislative_sap_default</span></a><span class="Hyperlink">. </span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information about OMB, see CRS Report RS21665, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS21665"><em><span class="Hyperlink">Office of Management and Budget (OMB): A Brief Overview</span></em></a>, by Clinton T. Brass and CRS Report R42633, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42633"><em><span class="Hyperlink">The Executive Budget Process: An Overview</span></em></a>, by Michelle D. Christensen.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on regular vetoes and pocket vetoes, see CRS Report RS22188, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS22188"><em><span class="Hyperlink">Regular Vetoes and Pocket Vetoes: In Brief</span></em></a>, by Meghan M. Stuessy. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Executive Office of the President, <em>Statement of Administration Policy: </em><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3010:"><span class="Hyperlink">H.R. 3010</span></a> <em>– Regulatory Accountability Act of 2011</em>, November 29, 2011 at <a class="ExternalLink" href="https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3010r_20111129.pdf"><span class="Hyperlink">https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3010r_20111129.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This report is concerned with the publically visible text in Statements of Administration Policy. However, SAPs include text that is strictly for distribution within the EOP, including resource management offices (RMOs) within OMB. This text is called "below the stars" text, as it refers to the content below the asterisks at the conclusion of SAPs. </p>
+<p class="FootnoteText" style="">OMB explained in 2000, "Unlike certain SAPs on substantive legislation—prepared by OMB's Legislative Reference Division following procedures contained in OMB Circular No. A-1—letters and SAPs on appropriations bills do not contain so-called "below the line" information.... " Again, this refers to the slight difference in the creation of appropriations and policy SAPs within the Budget Review Division and the Legislative Reference Division OMB divisions. Below the stars information includes "explanatory comments, alternative viewpoints, statements of minor issues, and the like" and serves to inform the RMOs of potential discord within their respective agencies and policy areas, allowing for OMB to be more holistically informed of the EOP's position beyond quick political and Administrative opinions. U.S. Office of Management and Budget, <em>Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy</em>, May 8, 2000, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Executive Office of the President, <em>Statement of Administration Policy: </em><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d111:S.1793:"><span class="Hyperlink">S. 1793</span></a> <em>– Ryan White HIV/AIDS Treatment Extension Act of 2009,</em> October 19, 2009 at <a class="ExternalLink" href="https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/111/saps1793s_20091019.pdf"><span class="Hyperlink">https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/111/saps1793s_20091019.pdf</span></a>.<em> </em></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Executive Office of the President, Statement of Administration Policy: <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3463:"><span class="Hyperlink">H.R. 3463</span></a> – Termination of Taxpayer Financing of Presidential Election Campaigns and Termination of the Election Assistance Commission, December 1, 2011 at <a class="ExternalLink" href="https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3463h_20111201.pdf"><span class="Hyperlink">https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3463h_20111201.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Rep. Harry Reid, <em>Congressional Record</em>, daily edition, vol. 161, part 63 (April 29, 2015), p. S2492.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> When Statements of Administration Policy are referenced in the <em>Congressional Record</em>, Members of Congress more frequently call attention to SAPs that contain veto threats, rather than SAPs that contain statements of support for a bill. Provided are examples from the 114<sup>th</sup> Congress's first session illustrating this point. Rep. Michael Burgess, <em>Congressional Record</em>, daily edition, vol. 161, part 173 (December 1, 2015), pp. H8658-H8660. Rep. Alcee Hastings, <em>Congressional Record</em>, daily edition, vol. 161, part 170 (November 18, 2015), pp. H8295-H8296. Rep. Alcee Hastings, <em>Congressional Record</em>, daily edition, vol. 161, part 63 (April 29, 2015), pp. H2512-H2513.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The actual formatting change may have occurred in the 108<sup>th</sup> Congress, first session; however, this was a time of unified party rule with both chambers being Republican-controlled during the Republican Bush Administration. As a result, veto threats were infrequent.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Executive Office of the President, <em>Statement of Administration Policy:</em> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.2:"><span class="Hyperlink">H.R. 2</span></a> <em>– Repealing the Affordable Care Act</em>, January 6, 2011 at <a class="ExternalLink" href="https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr2r_20110106.pdf"><span class="Hyperlink">https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr2r_20110106.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Executive Office of the President, <em>Statement of Administration Policy: </em><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.3010:"><span class="Hyperlink">H.R. 3010</span></a> <em>– Regulatory Accountability Act of 2011</em>, November 29, 2011 at <a class="ExternalLink" href="https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3010r_20111129.pdf"><span class="Hyperlink">https://www.whitehouse.gov/sites/default/files/omb/legislative/sap/112/saphr3010r_20111129.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Richard Neustadt, <em>Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan </em>(New York: The Free Press, 1991), pp. 71, 76-77. Samuel Kernell, <em>Going Public</em>, 4<sup>th</sup> ed.<em> </em>(Washington: CQ Press, 2007), pp. 61-62.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, <em>Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy</em>, May 8, 2000, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Constitution, Article II, Section 3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clinton T. Brass, "Working in, and Working with, the Executive Branch," in <em>Legislative Drafter's Deskbook: A Practical Guide</em>, ed. Tobias A. Dorsey (Alexandria, VA: TheCapitol.Net, Inc., 2006), p. 274.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information about the President's budget, see CRS Report R42633, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42633"><em><span class="Hyperlink">The Executive Budget Process: An Overview</span></em></a>, by Michelle D. Christensen. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget,<em> The Staff of the Office of Management and Budget</em> at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/OMBstaff"><span class="Hyperlink">https://www.whitehouse.gov/omb/OMBstaff</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, <em>The Mission and Structure of the Office of Management and Budget </em>at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/organization_mission/"><span class="Hyperlink">https://www.whitehouse.gov/omb/organization_mission/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Congress, Senate Committee on Governmental Affairs, <em>Office of Management and Budget: Evolving Roles and Future Issues</em>, committee print, prepared by the Congressional Research Service, 99<sup>th</sup> Cong., 2<sup>nd</sup> sess., February 1986, S.Prt 99-134 (Washington: GPO, 1986), p. 170. This interagency consultation process via OMB is known as central legislative clearance and is discussed at length in pages 169-184 of this committee print.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Circular A-19 is discussed at length later in this report. U.S. Office of Management and Budget, <em>Circular No. A-19</em> at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a019/"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a019/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information about the central legislative clearance process, please see U.S. Congress, Senate Governmental Affairs, <em>Office of Management and Budget: Evolving Roles and Future Issues, Central Legislative Clearance</em>, committee print, prepared by Ronald C. Moe, the Congressional Research Service, 99<sup>th</sup> Cong., 2<sup>nd</sup> sess., February 1986, S.Prt. 99-134 (Washington: GPO, 1986), pp. 169-184.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clinton T. Brass, "Working in, and Working with, the Executive Branch," in <em>Legislative Drafter's Deskbook: A Practical Guide</em>, ed. Tobias A. Dorsey (Alexandria, VA: TheCapitol.Net, Inc., 2006), p. 276.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, In <em>Circular No. A-11</em> at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Shelley Lynne Tomkin, <em>Inside OMB: Politics and Process in the President's Budget Office</em> (New York: M. E. Sharpe, Inc., 1998), p. 153. Subsequent references to Tomkin in this report refer to this book.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tomkin, p. 152.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid. Within the Office of Management and Budget, the division of labor in the creation of SAPs is segmented. In addition to receiving the input of White House Office of Legislative Affairs (WHLA) and OMB Legislative Affairs, OMB's Legislative Reference Division (LRD) and Budget Review Division (BRD) take the lead on SAP creation depending on the substance of the SAP in question. Though SAPs evolved from the preliminary statements made by BRD on pending legislation, SAPs in their modern incarnation are drafted by BRD if they primarily concern appropriations legislation and by LRD if they otherwise constitute substantive legislation.</p>
+<p class="FootnoteText" style="">It is unclear when exactly this division of labor occurred; however in practice, BRD's SAPs concerning appropriations are generally lengthier than LRD's policy SAPs. This may be due to the relative length and breadth of scope of appropriations bills. The division between LRD and BRD SAPs is reflected on the White House website containing the Administration's SAPs, where appropriations SAPs are listed on their own page. Although collaboration between LRD and BRD does occur on some SAPs, SAPs for substantive and appropriations legislation are typically created separately.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> According to Tomkin, SAPs would be sent to ranking Members of the full appropriations committees and subcommittees, and sometimes to the Senate leadership during OMB Director David Stockman's tenure. Ibid. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "Statements of Administration Policy on Non-Appropriations and Appropriations Bills," at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/legislative_sap_default"><span class="Hyperlink">https://www.whitehouse.gov/omb/legislative_sap_default</span></a><span class="Hyperlink">. </span>The content of SAPs may have changed over time as a result of the changes in distribution of SAPs from a select congressional audience to the general public, however, SAPs created prior to the creation of the White House website during the Clinton Administration are difficult to locate.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Samuel Kernell, "Introduction to SAPs," 2005, <a class="ExternalLink" href="http://pages.ucsd.edu/~skernell/resources/Introduction-to-SAPs.pdf"><span class="Hyperlink">http://pages.ucsd.edu/~skernell/resources/Introduction-to-SAPs.pdf</span></a>. p. 8.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy, May 8, 2000, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Laurie Rice, "Statements of Power: Presidential Use of Statements of Administration Policy and Signing Statements in the Legislative Process," Presidential Studies Quarterly, vol. 40, no. 4 (2010), p. 692.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy, May 8, 2000, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "1. Purpose," In <em>Circular No. A-19</em> at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a019/#purpose"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a019/#purpose</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "3. Background," In <em>Circular No. A-19</em> at U.S. <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a019/#background"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a019/#background</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "7g. Views letters," In <em>Circular No. A-19</em> at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a019/#submission"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a019/#submission</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "OMB Organization Chart," at <a class="ExternalLink" href="https://www.whitehouse.gov/sites/default/files/omb/assets/about_omb/omb_org_chart.pdf"><span class="Hyperlink">https://www.whitehouse.gov/sites/default/files/omb/assets/about_omb/omb_org_chart.pdf</span></a><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> BRB, or the Budget Review Branch, is a precursor to the Budget Review Division (BRD).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, <em>Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy</em>, May 8, 2000, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An agency's legislative program may include all items of legislation that the agency wishes to propose to Congress, a list of active proposals under agency consideration, and a list of all laws or provisions of law set to expire within a set time period from submission of the agency's legislative program. Circular A-19 enumerates an agency's program content at U.S. Office of Management and Budget, "6: Agency legislative programs" In <em>Circular No. A-19</em> at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a019/#agency"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a019/#agency</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "6b: Agency legislative programs" In <em>Circular No. A-19</em> at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a019/#agency"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a019/#agency</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, <em>Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy</em>, May 8, 2000, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., pp. 2-5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> During the constitutional convention, extended debates were had concerning whether the executive power of the government should be vested in a singular executive or an executive council. Speaking to the disadvantages of multiple views in the executive in Federalist 70, Alexander Hamilton argued: " ... the mere diversity of views and opinions would alone be sufficient to tincture the exercise of the executive authority with a spirit of habitual feebleness and dilatoriness." The process of coordinating executive communications, including SAPs, is a current way that presidents attempt to mitigate the diversity of views within their Administration. Alexander Hamilton, "Federalist No. 70," in <em>The Federalist</em><em>,</em> by Alexander Hamilton, James Madison, and John Jay (Indianapolis: Hackett Pub. Co., 2005), p. 377.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The process for coordinating agency views on policies is governed by Circular A-19. U.S. Office of Management and Budget, In Circular No. A-19, at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/circulars_a019"><span class="Hyperlink">https://www.whitehouse.gov/omb/circulars_a019</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tomkin, p. 152.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 156.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, "Statements of Administration Policy on Non-Appropriations and Appropriations Bills," at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/legislative_sap_default"><span class="Hyperlink">https://www.whitehouse.gov/omb/legislative_sap_default</span></a><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Historical SAPs can be found on archived versions of the White House website. The Presidency Project from University of California: Santa Barbara also maintains an archive of SAPs at <a class="ExternalLink" href="http://www.presidency.ucsb.edu/saps.php"><span class="Hyperlink">http://www.presidency.ucsb.edu/saps.php</span></a><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tomkin, p. 152.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This is especially reflected in the use of Twitter hashtags to associate SAPs with the Presidency, as seen in "#SAP44" and attempts to condense the phrase "Senior Advisors would recommend a veto" to "Sr Adv Wld Rec Veto." U.S. Office of Management and Budget, "@OMBPress, #SAP44: Sr Adv Wld Rec Veto of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.R.5:"><span class="Hyperlink">H.R. 5</span></a> to Repeal IPAB; Admin Opposes Leg. That Attempts to Erode Key #ACA Provisions <a class="ExternalLink" href="Http://t.co/LlW442gA"><span class="Hyperlink">Http://t.co/LlW442gA</span></a>," Twitter.com, March 20, 2012, at <a class="ExternalLink" href="https://twitter.com/OMBPress/status/182191205789089793"><span class="Hyperlink">https://twitter.com/OMBPress/status/182191205789089793</span></a><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> While SAPs may be read by Members of Congress, their acknowledgement of a SAP can only be proven when a Member references a SAP thus making it part of the Congressional Record. For example, Sen. Harry Reid, "The Budget," remarks in the Senate, Congressional Record, daily edition, April 29, 2015, p. S2493.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Richard Neustadt, <em>Presidential Power and the Modern Presidents: The Politics of Leadership from Roosevelt to Reagan </em>(New York: The Free Press, 1991), p. 11.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Samuel Kernell, <em>Going Public</em>, 4<sup>th</sup> ed.<em> </em>(Washington: CQ Press, 2007), p. 50.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Samuel Kernell, Going Public, 4<sup>th</sup> ed. (Washington: CQ Press, 2007), pp. 61-62.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 65.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Richard Neustadt, "Presidency and Legislation: The Growth of Central Clearance," <em>American Political Science Review</em> Vol. 48, No. 3 (1954), p. 670.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 63.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 65.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Samuel Kernell, <em>Going Public</em>, 4<sup>th</sup> ed.<em> </em>(Washington: CQ Press, 2007), p. 60.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Office of Management and Budget, <em>Appropriations Bill Tracking: Development of Letters and Statements of Administration Policy</em>, May 8, 2000, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Richard Neustadt, "Presidency and Legislation: The Growth of Central Clearance," <em>American Political Science Review</em> Vol. 48, No. 3 (1954), p. 669.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Samuel Kernell, <em>Going Public</em>, 4<sup>th</sup> ed.<em> </em>(Washington: CQ Press, 2007), pp. 62-64.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

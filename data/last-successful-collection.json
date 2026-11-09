@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-11-08T16:44:10.487040+00:00",
-  "window_start_inclusive": "2026-11-01",
-  "window_end_inclusive": "2026-11-08",
+  "run_at": "2026-11-09T01:46:02.084429+00:00",
+  "window_start_inclusive": "2026-11-02",
+  "window_end_inclusive": "2026-11-09",
   "lookback_days": 7,
   "sources": {
     "everycrsreport": {
@@ -360,26 +360,26 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent"
     },
     {
-      "id": "R44509",
+      "id": "R44530",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "id": "R44514",
+      "id": "R44539",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "historical_backfill_remaining": 240,
+      "historical_backfill_remaining": 238,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "42501329854",
+  "github_run_id": "42547222937",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 4,
@@ -393,12 +393,12 @@
   "attempted_versions": 61,
   "successful_versions": 61,
   "new_pdf_versions": 2,
-  "total_archived_pdf_versions": 757,
-  "total_html_snapshots": 559,
-  "total_pdf_bytes": 610653881,
+  "total_archived_pdf_versions": 759,
+  "total_html_snapshots": 561,
+  "total_pdf_bytes": 612962175,
   "pending_reports": 0,
   "pending_versions": 0,
-  "historical_pending_versions": 240,
+  "historical_pending_versions": 238,
   "historical_new_pdf_versions": 2,
   "primary_new_pdf_versions": 0,
   "api_requests": 3,
@@ -406,6 +406,6 @@
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-11-08T16:44:44.161091+00:00",
-  "last_successful_run_at": "2026-11-08T16:44:44.161091+00:00"
+  "finished_at": "2026-11-09T01:46:38.924051+00:00",
+  "last_successful_run_at": "2026-11-09T01:46:38.924051+00:00"
 }

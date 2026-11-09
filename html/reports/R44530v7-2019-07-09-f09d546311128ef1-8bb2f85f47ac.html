@@ -1,0 +1,889 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R44530.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Spending and Tax Expenditures: Distinctions and Major Programs</div>
+<div class="CoverDate">Updated July 9, 2019
+            (R44530)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc13747071"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc13747072"><span class="Hyperlink">Description</span></a></li>
+<li class="TOC2"><a href="#_Toc13747073"><span class="Hyperlink">Spending</span></a></li>
+<li class="TOC2"><a href="#_Toc13747074"><span class="Hyperlink">Tax Expenditures</span></a></li>
+<li class="TOC1"><a href="#_Toc13747075"><span class="Hyperlink">Program Comparison</span></a></li>
+<li class="TOC2"><a href="#_Toc13747076"><span class="Hyperlink">Legislative Process</span></a></li>
+<li class="TOC2"><a href="#_Toc13747077"><span class="Hyperlink">Budget Outcomes</span></a></li>
+<li class="TOC2"><a href="#_Toc13747078"><span class="Hyperlink">Targeting and Enforcement</span></a></li>
+<li class="TOC2"><a href="#_Toc13747079"><span class="Hyperlink">Distribution</span></a></li>
+<li class="TOC1"><a href="#_Toc13747080"><span class="Hyperlink">Usage by Budget Function</span></a></li>
+<li class="TOC2"><a href="#_Toc13747081"><span class="Hyperlink">Defense and International Affairs (Budget Functions 050 and 150)</span></a></li>
+<li class="TOC2"><a href="#_Toc13747082"><span class="Hyperlink">General Science, Space and Technology, Energy, Natural Resources and Environment, and Agriculture (Budget Functions 250, 270, 300, and 350)</span></a></li>
+<li class="TOC2"><a href="#_Toc13747083"><span class="Hyperlink">Commerce and Housing, Transportation, and Community and Regional Development (Budget Functions 370, 400, and 450)</span></a></li>
+<li class="TOC2"><a href="#_Toc13747084"><span class="Hyperlink">Education, Training, Employment, and Social Services (Budget Function 500)</span></a></li>
+<li class="TOC2"><a href="#_Toc13747085"><span class="Hyperlink">Health, Including Medicare (Budget Functions 550 and 570)</span></a></li>
+<li class="TOC2"><a href="#_Toc13747086"><span class="Hyperlink">Income Security (Budget Function 600)</span></a></li>
+<li class="TOC2"><a href="#_Toc13747087"><span class="Hyperlink">Social Security and Veterans' Benefits (Budget Functions 650 and 700)</span></a></li>
+<li class="TOC2"><a href="#_Toc13747088"><span class="Hyperlink">Administration of Justice and General Governance (Budget Functions 750 and 800)</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc13747063"><span class="Hyperlink">Table 1. Major Spending and Tax Expenditure Programs: Defense and International Affairs</span></a></li>
+<li><a href="#_Toc13747064"><span class="Hyperlink">Table 2. Major Spending and Tax Expenditure Programs:  Science, Energy, Natural Resources, and Agriculture</span></a></li>
+<li><a href="#_Toc13747065"><span class="Hyperlink">Table 3. Major Spending and Tax Expenditure Programs:  Commerce and Housing, Transportation, Community and Regional Development</span></a></li>
+<li><a href="#_Toc13747066"><span class="Hyperlink">Table 4. Major Spending and Tax Expenditure Programs:  Education, Training, Employment, and Social Services</span></a></li>
+<li><a href="#_Toc13747067"><span class="Hyperlink">Table 5. Major Spending and Tax Expenditure Programs: Health, Including Medicare</span></a></li>
+<li><a href="#_Toc13747068"><span class="Hyperlink">Table 6. Major Spending and Tax Expenditure Programs: Income Security</span></a></li>
+<li><a href="#_Toc13747069"><span class="Hyperlink">Table 7. Major Spending and Tax Expenditure Programs:  Social Security and Veterans' Benefits</span></a></li>
+<li><a href="#_Toc13747070"><span class="Hyperlink">Table 8. Major Spending and Tax Expenditure Programs:  Administration of Justice and General Governance</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Spending programs and tax expenditures are the two primary ways that the federal government provides benefits to the public. Each type of intervention represents a transfer from the government to individuals and firms, though differences in the budget process, saliency, and targeting may have ramifications for usage across different types of services. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal expenditures (spending) are transfers from the federal government to individuals, firms, or institutions that do not draw directly from individual or corporate tax liability. Federal spending programs fall into three broad categories: (1) discretionary spending, (2) mandatory spending, and (3) net interest payments. The Congressional Budget Office (CBO) estimates that federal resources devoted to spending programs will total $4.407 trillion in FY2019, or 20.7% of annual gross domestic product (GDP).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax expenditures are revenue losses attributable to federal tax provisions. There are three main types of tax expenditures: (1) exclusions, exemptions, and deductions from gross personal or corporate income; (2) preferential tax rates for certain programs; and (3) refundable and nonrefundable tax credits. The Joint Committee on Taxation (JCT) estimates the revenue losses attributable to certain programs. As of October 2018, projected revenue losses due to tax expenditures in FY2017 summed to $1.485 trillion, or 7.0% of GDP.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Holding other activities constant, an increase in spending programs or tax expenditures each increases net budget deficits. The characteristics and composition of spending and tax expenditures may have distinct implications for the way each is used across major sectors of the federal budget. Federal spending programs may more efficiently target groups that are unlikely to file federal tax returns, like low-income and elderly households. Tax expenditures may be more likely than spending programs to utilize targeting and enforcement services already undertaken by the federal government.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Discretionary spending and, in some cases, expiring tax expenditures typically involve more frequent legislative action than mandatory spending and permanent tax expenditure programs. Discretionary spending programs also provide increased budget certainty to Congress through the use of budget authority, while mandatory spending and tax expenditure resources depend on the participation and benefit choices of program recipients. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report identifies the largest spending and tax expenditures across eight major categories of federal activity: (1) defense and international affairs; (2) general science, space and technology, natural resources and the environment, and agriculture; (3) commerce and housing, community and regional development, and transportation; (4) education, training, employment, and social services; (5) health, including Medicare; (6) income security; (7) Social Security and veterans' benefits; and (8) administration of justice and general governance.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent"><a name="_Toc440271636" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc440271670" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc440273260" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc440273404" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Spending programs and tax expenditures are the two primary ways that the federal government provides benefits to the public. Though each type of intervention increases net budget deficits, differences in the budget process, saliency, and targeting of each may have ramifications for usage across different types of services. This report briefly describes spending programs and tax expenditures, observes a few ways that they differ, and discusses how those distinctions may inform the relative use of each type of intervention across the government portfolio.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271637"></a><a name="_Toc440271671"></a><a name="_Toc440273261"></a><a name="_Toc440273405"></a><a name="_Toc449530453"></a><a name="_Toc450907433"></a><a name="_Toc450909784"></a><a name="_Toc450917086"></a><a name="_Toc451420547"></a><a name="_Toc453769815"></a><a name="_Toc453940443"></a><a name="_Toc454186013"></a><a name="_Toc12537152"></a><a name="_Toc12959270"></a><a name="_Toc13558026"></a><a name="_Toc13746809"></a><a name="_Toc13747072"></a>Description</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271638"></a><a name="_Toc440271672"></a><a name="_Toc440273262"></a><a name="_Toc440273406"></a><a name="_Toc449530454"></a><a name="_Toc450907434"></a><a name="_Toc450909785"></a><a name="_Toc450917087"></a><a name="_Toc451420548"></a><a name="_Toc453769816"></a><a name="_Toc453940444"></a><a name="_Toc454186014"></a><a name="_Toc12537153"></a><a name="_Toc12959271"></a><a name="_Toc13558027"></a><a name="_Toc13746810"></a><a name="_Toc13747073"></a>Spending</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal expenditures (or spending) are transfers from the federal government to individuals, firms, or institutions that do not draw directly from individual or corporate tax liability. Federal spending programs fall into three broad categories: (1) discretionary spending, (2) mandatory spending, and (3) net interest payments. The Congressional Budget Office (CBO) May 2019 baseline estimates that federal spending will total $4.407 trillion in FY2019, or 20.7% of annual gross domestic product (GDP).<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="The amount of resources devoted to spending programs is quantified through measures of outlays and, in some cases, budget authority. Outlays are disbursed federal funds and track payments as they are made by the U.S. Treasury. Budget authority, provided through appropriations activity, represents amounts that federal agencies are legally permitted to spend, and is mostly applicable to discretionary spending programs. There is generally a lag between when Congress grants budget authority and wh...">1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal discretionary spending activity describes expenditures that are controlled by appropriations acts.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="For more information on the discretionary spending process, see CRS Report RS20371, Overview of the Authorization-Appropriations Process , by Bill Heniff Jr.">2</a></sup> Discretionary spending includes most of the expenditures devoted to the general operations of federal agencies, including the Department of Defense, Department of Homeland Security, and Environmental Protection Agency. CBO estimates that the federal government will devote $1.330 trillion to discretionary spending in FY2019, or 6.3% of GDP. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Mandatory spending represents expenditures that are controlled by laws other than appropriation acts. Also known as direct spending, programs that are exclusively or primarily funded through mandatory spending include Social Security, Medicaid, and Medicare. CBO estimates that the federal government will devote $2.696 trillion to mandatory spending in FY2019, or 12.7% of GDP.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Net interest payments equal the total payments made to federal debt holders, less payments on interest received by the federal government. The magnitude of net interest payments is determined by the size of the federal debt and the interest rate of outstanding debt instruments. CBO estimates that the federal government will spend $0.382 trillion on net interest in FY2019, or 1.8% of GDP.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="As net interest payments are the function of past federal spending and revenue choices, Congress has less control over their magnitude than it does for other spending and tax expenditure programs. Therefore, the remainder of this report will focus on discretionary and mandatory federal spending.">3</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271639"></a><a name="_Toc440271673"></a><a name="_Toc440273263"></a><a name="_Toc440273407"></a><a name="_Toc449530455"></a><a name="_Toc450907435"></a><a name="_Toc450909786"></a><a name="_Toc450917088"></a><a name="_Toc451420549"></a><a name="_Toc453769817"></a><a name="_Toc453940445"></a><a name="_Toc454186015"></a><a name="_Toc12537154"></a><a name="_Toc12959272"></a><a name="_Toc13558028"></a><a name="_Toc13746811"></a><a name="_Toc13747074"></a>Tax Expenditures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax expenditures are revenue losses attributable to federal tax provisions.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='The "normal" tax system for individual and corporate income, used as the basis for tax expenditure cost estimates, is specified by the Congressional Budget and Impoundment Control Act of 1974, and implemented by the Joint Committee on Taxation (JCT). For more information on the definition of normal taxes, see CRS Committee Print CP10003, Tax Expenditures: Compendium of Background Material on Individual Provisions — A Committee Print Prepared for the Senate Committee on the Budget, 2018 , by...'>4</a></sup> There are three main types of tax expenditures: (1) exclusions, exemptions, and deductions from gross personal or corporate income; (2) preferential tax rates for certain programs; and (3) refundable and nonrefundable tax credits. The Joint Committee on Taxation (JCT) estimates the revenue losses attributable to certain programs. Tax expenditures were projected to increase net deficits in FY2019 by $1.485 trillion, or 7.0% of GDP.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="Summation of tax expenditures may not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the individual estimates. As described later in the section, tax expenditure programs may impact projections of both revenues and outlays, due to the presence of r...">5</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Exclusions, exemptions, and deductions lower the taxes paid through reductions in the amount of income that is eligible for taxation. The financial value of exclusions, exemptions, and deductions is a function of the amount of income subject to the rule and the tax rate that would have otherwise been paid on the income. All else equal, an exemption that reduces an individual's taxable income by $1,000 is more valuable than an exemption that reduces individual taxable income by $500. Similarly, a deduction from income that would have otherwise been subject to a 37.0% income tax rate will lead to a greater revenue reduction than a deduction from income otherwise treated with a 10% income tax. Thus, the value of exclusions, exemptions, and deductions generally increases with income. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Preferential tax rates represent levies on parts of personal or corporate income that are lower than their normal rates, as defined by law (but which are nonzero). As with exclusions, exemptions, and deductions, the value of preferential tax rates is a function of the amount of income affected and the rate of tax that would otherwise be applicable. Preferential tax rates will have value only in cases where the rate of tax would otherwise have been higher than the preferred rate. For instance, a law placing a tax rate of 20% on income will have value (be preferential) for an individual who otherwise would have been taxed at a 22% rate, but will have no value (or be harmful, if forced to adopt) to an individual otherwise subject to a 12% tax rate on the income. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax credits directly reduce the tax liability of an individual or corporation. Unlike other types of tax expenditures, tax credits do not modify the definition of income in the federal tax code. Tax credits may be designated as nonrefundable or refundable. Nonrefundable credits cap benefit claims at the amount of remaining tax liability, while refundable credit benefits are not inherently limited by the tax liability threshold (and thus can also affect federal outlay projections). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For a more detailed inspection of tax expenditures and related issues facing Congress, see CRS Committee Print CP10003, <a class="ExternalLink" href="http://www.crs.gov/Reports/Pdf/CP10003"><em><span class="Hyperlink">Tax Expenditures: Compendium of Background Material on Individual Provisions — A Committee Print Prepared for the Senate Committee on the Budget, 2018</span></em></a>, by Jane G. Gravelle et al.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271640"></a><a name="_Toc440271674"></a><a name="_Toc440273264"></a><a name="_Toc440273408"></a><a name="_Toc449530456"></a><a name="_Toc450907436"></a><a name="_Toc450909787"></a><a name="_Toc450917089"></a><a name="_Toc451420550"></a><a name="_Toc453769818"></a><a name="_Toc453940446"></a><a name="_Toc454186016"></a><a name="_Toc12537155"></a><a name="_Toc12959273"></a><a name="_Toc13558029"></a><a name="_Toc13746812"></a><a name="_Toc13747075"></a>Program Comparison</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Differences in the construction of spending and tax expenditure programs have direct ramifications for their treatment in the legislative process, for budget outcomes, for targeting and enforcement, and for the distribution of benefits. This section examines these differences and discusses how they may influence the use of each intervention across the budget process. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271641"></a><a name="_Toc440271675"></a><a name="_Toc440273265"></a><a name="_Toc440273409"></a><a name="_Toc449530457"></a><a name="_Toc450907437"></a><a name="_Toc450909788"></a><a name="_Toc450917090"></a><a name="_Toc451420551"></a><a name="_Toc453769819"></a><a name="_Toc453940447"></a><a name="_Toc454186017"></a><a name="_Toc12537156"></a><a name="_Toc12959274"></a><a name="_Toc13558030"></a><a name="_Toc13746813"></a><a name="_Toc13747076"></a>Legislative Process</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Treatment in the way that spending programs and tax expenditures are legislated depends on a number of factors, including the expiration (or lack) of legislative authority and committee assignment. These factors may have implications for the relative usage of spending programs and tax expenditures in meeting certain policy objectives.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450907438"></a><a name="_Toc450909789"></a><a name="_Toc450917091"></a>Spending Programs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Discretionary spending programs are funded through the appropriations process, which often involves input from several working committees in each chamber. The appropriations committees are tasked with allocating discretionary budget authority across 12 spending categories, which are responsible for further allotment to agencies and programs. For more information on discretionary spending legislation, see CRS Report 98-721, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-721"><em><span class="Hyperlink">Introduction to the Federal Budget Process</span></em></a>, coordinated by James V. Saturno.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The federal budget process provides for allocation of discretionary budget authority through annual appropriation acts, which expire at the end of each fiscal year.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="For more information on the appropriations process, see CRS Report R42388, The Congressional Appropriations Process: An Introduction , coordinated by James V. Saturno .">6</a></sup> In the event that a discretionary budget has not been agreed to as a new fiscal year approaches, Congress and the President have two choices: (1) enact a continuing resolution, which provides temporary budget authority for discretionary programs (typically as a function of the budget authority available in the previous year until permanent authority is passed); or (2) allow discretionary budget authority to lapse. The lapsing of budget authority can produce a "government shutdown," which involves the closure of some federal operations that rely on discretionary funding.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='In the event of lapsed funding, some discretionary programs may be instructed to continue functioning (or function with reduced capacity) if deemed "essential" by the President. For more information on federal operations during a funding lapse, see CRS Report RL34680, Shutdown of the Federal Government: Causes, Processes, and Effects , coordinated by Clinton T. Brass .'>7</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unless designated otherwise, mandatory programs are permanently funded by the federal government. Therefore, the funding provided for mandatory programs is typically not affected by the annual appropriations process. Absent the enactment of modifying legislation, the eligibility and benefit rules governing mandatory spending programs remain constant across budget years. Much of the legislative process surrounding such programs falls to issue-specific committees. Most mandatory spending programs are either permanent or, if temporary, handled by legislative committees on an alternative schedule to the annual appropriations process.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="For more information on mandatory spending legislation, see CRS Report 98-721, Introduction to the Federal Budget Process , coordinated by James V. Saturno .">8</a></sup></p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc449530459"></a><a name="_Toc450907439"></a><a name="_Toc450909790"></a><a name="_Toc450917092"></a>Tax Expenditures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax expenditures are similar to spending programs in that their legislative processes vary with the type of program under consideration. Unlike with spending programs, the process surrounding tax expenditure legislation is not typically reliant on the benefit allocation mechanism (i.e., exclusions, exemptions, and deductions; preferential rates; or tax credits). In this case, whether the tax expenditure is permanent or expiring is the biggest determinant of the legislative role in its maintenance.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many tax expenditures have been permanently incorporated into the tax code. In those instances, legislative action is required to change the implementation and benefits provided by the tax expenditures. Moreover, the level of their benefits is not subject to change based on the state of the appropriations process, which is similar to the treatment of mandatory spending programs.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax expenditures may also serve as temporary provisions, with a scheduled expiration after a certain date or tax year. Such cases introduce increased uncertainty, as temporary provisions may be allowed to lapse, expire, or change in legislation that extends their inclusion in the tax code. In this way, temporary provisions may be comparable to the uncertain outcomes that are part of the legislative process for discretionary spending.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title='Extensions of expiring tax expenditures may have revenue effects that are subject to certain budget rules. For more information on tax expenditures, see CRS Report R45347, Tax Provisions That Expired in 2017 ("Tax Extenders") , by Molly F. Sherlock and CRS Report R41408, Rules and Practices Governing Consideration of Revenue Legislation in the House and Senate , by Megan S. Lynch .'>9</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450907440"></a><a name="_Toc450909791"></a><a name="_Toc450917093"></a><a name="_Toc451420552"></a><a name="_Toc453769820"></a><a name="_Toc453940448"></a><a name="_Toc454186018"></a><a name="_Toc12537157"></a><a name="_Toc12959275"></a><a name="_Toc13558031"></a><a name="_Toc13746814"></a><a name="_Toc13747077"></a>Budget Outcomes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Holding other activities constant, increases in resources devoted to spending programs and tax expenditures lead to increases in net budget deficits—spending programs through increases in federal outlays, and tax expenditures through reductions in federal receipts. However, congressional control over budget outcomes may differ both across and within spending and tax expenditure programs.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450917094"></a>Spending Programs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Generally, discretionary spending affords Congress with a high degree of certainty over budget outcomes, as it directly controls the amount of money available for such programs. Any uncertainty with budget outcomes for discretionary spending is typically the result of debate over discretionary budget authority allocation extending into the beginning of the fiscal year under discussion. In those cases, funding lapses, continuing resolutions, and congressional action may lead to changes in the resources available for such programs from year to year.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Mandatory spending programs are legislated outside of the appropriations process. For these programs, Congress may use legislation to control the eligibility criteria and benefits afforded. However, the amount of resources devoted is a function of program participation and usage, which means that Congress has no direct control over final spending amounts. The degree to which this lack of discretion adds to the uncertainty of budget outcomes depends on how unanticipated public changes translate into variation in the popularity of mandatory programs.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450917095"></a>Tax Expenditures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congressional discretion over the budget outcomes of tax expenditures is similar to its control over mandatory spending programs. For both permanent and temporary tax expenditures, the eligibility and benefit levels are controlled by federal legislation. However, the exact amount of resources allocated to expenditures depends on public take-up, which can be influenced by a number of outside factors.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A further constraint on budget certainty for tax expenditures is the fact that changes to one type of expenditure can have budgetary ramifications for all other expenditures. For all tax expenditures except refundable tax credits, the ability and intensity of tax expenditure adoption is dependent on the amount of tax liability "available" to each potential participant. That liability is affected by participation in other tax expenditures, as reductions in the usage of one tax expenditure may increase participation levels in a different tax expenditure program. For example, a taxpayer with $3,000 in tax liability and eligibility for two $2,000 nonrefundable tax credits would be unable to use at least $1,000 (or $4,000-$3,000) across those tax credits, while a taxpayer with $3,000 in tax liability and eligibility for only one $2,000 credit would be able to claim the full tax credit amount.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450907441"></a><a name="_Toc450909792"></a><a name="_Toc450917096"></a><a name="_Toc451420553"></a><a name="_Toc453769821"></a><a name="_Toc453940449"></a><a name="_Toc454186019"></a><a name="_Toc12537158"></a><a name="_Toc12959276"></a><a name="_Toc13558032"></a><a name="_Toc13746815"></a><a name="_Toc13747078"></a>Targeting and Enforcement</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Before transferring resources to the public, the government must first identify eligible parties for the transfer, and in some cases, address improper benefit claims. The ease and ability to complete this process may differ across spending and tax expenditure programs. </p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450917097"></a>Spending Programs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The financial costs of targeting and enforcement may vary significantly across spending programs. Some spending programs may have straightforward means of identifying eligible recipients for resources. For instance, income resources for active military service members use military employment records already available to the federal government. Other types of programs can require additional steps to ensure that resources find their way to eligible parties. For example, the Supplemental Nutrition Assistance Program (SNAP) has net and gross income eligibility requirements that depend on a number of household characteristics.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="U.S. Department of Agriculture, Supplemental Nutrition Assistance Program (SNAP ), June 2019; available at http://www.fns.usda.gov/snap/eligibility . For more information on SNAP participation, see CRS Report R42054, The Supplemental Nutrition Assistance Program (SNAP): Categorical Eligibility , by Randy Alison Aussenberg and Gene Falk .">10</a></sup> The mechanisms for targeting and enforcement implemented by spending programs are dependent on context.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450917098"></a>Tax Expenditures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Targeting mechanisms are already in place for the personal and corporate income tax system, which may minimize the additional resources needed to perform such targeting activities for tax expenditures. This is because the criteria for tax expenditures are often already reported on income tax returns. For instance, one restriction for earned income tax credit eligibility is based on household income, which is also used in gross income tax liability calculations.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, enforcement for program eligibility may be conducted through the tax auditing system run by the Internal Revenue Service (IRS), which is designed to encourage accurate income reporting on tax returns. The use of this service to enforce eligibility for tax expenditure programs may add to the budgetary importance of accurate tax reporting, however, and increase the complexity of the auditing system needed by the IRS.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450907442"></a><a name="_Toc450909793"></a><a name="_Toc450917099"></a><a name="_Toc451420554"></a><a name="_Toc453769822"></a><a name="_Toc453940450"></a><a name="_Toc454186020"></a><a name="_Toc12537159"></a><a name="_Toc12959277"></a><a name="_Toc13558033"></a><a name="_Toc13746816"></a><a name="_Toc13747079"></a>Distribution</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While utilization of the tax code may help the government efficiently target recipients and address improper benefit claims, it may also limit the types of households such programs can reach. This section explores the distributional implications of spending programs and tax expenditures.</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Spending Programs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since spending programs do not adhere to a uniform method of benefit allocation, there are no theoretical restrictions on the individuals, households, and firms that can be reached by such programs. In practice, individual spending programs can and often do place restrictions on eligibility, though those limits are generally the function of policy goals and not typically influenced by the spending mechanism.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The recipients of program benefits may be affected by the type of spending used. Discretionary spending programs usually allocate benefits to federal agencies, which have the autonomy to spend those funds as needed (within the limits provided in the authorizing statute). In many cases, these programs are used to finance spending on "public goods." Public goods are defined here as goods that are nonrival (their "use" by one person does not reduce amounts available to others) and nonexcludable (benefits are available to everyone, regardless of payment contribution). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Providing public goods by levying fees on individuals or firms in return for service may allow for the possibility of "free-riding," where some market participants benefit with no or reduced payment for services paid for in full by other actors. For example, national defense is commonly thought of as a public good. In that case, payment by one group of people for defense services is likely to have benefits for all individuals in the local area—including individuals who did not contribute payments for those services. The potential for free-riding may be one reason why discretionary spending is used for most national defense programs, as benefits can be applied broadly by the government and paid for through general tax revenues. Conversely, mandatory spending programs, including Social Security, Medicare, and Medicaid, typically provide benefits directly to individuals and households. This direct means of financing generally excludes such programs from funding public goods. </p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax Expenditures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The adoption of tax expenditure programs may be restricted by the use of income tax returns to allocate benefits. Specifically, tax expenditures may have distributional limitations in two major areas: (1) serving portions of the population that do not file tax returns, including low-income households; and (2) financing public goods.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax returns are typically completed by employed individuals and firms. Therefore, for policy issues targeted to individuals, tax expenditure programs may be best targeted to households with at least one employed person, and which are thus much more likely to fill out a tax return than the population at large. However, populations that have below-average employment, such as low-income and elderly households, may be less likely to participate in tax expenditure programs, as the lower filing rate of tax returns could reduce their exposure to such programs. As with mandatory spending programs, individuals must claim tax expenditures to receive benefits. This process typically makes it difficult to use tax expenditures to finance public goods, as the benefit allocation process allows for excludability that is not available in public goods.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271644"></a><a name="_Toc440271678"></a><a name="_Toc440273268"></a><a name="_Toc440273412"></a><a name="_Toc449530462"></a><a name="_Toc450907444"></a><a name="_Toc450909795"></a><a name="_Toc450917101"></a><a name="_Toc451420555"></a><a name="_Toc453769823"></a><a name="_Toc453940451"></a><a name="_Toc454186021"></a><a name="_Toc12537160"></a><a name="_Toc12959278"></a><a name="_Toc13558034"></a><a name="_Toc13746817"></a><a name="_Toc13747080"></a>Usage by Budget Function</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The following tables identify the largest spending and tax expenditure programs in eight categories of federal activity: (1) defense and international affairs; (2) general science, space and technology, natural resources and the environment, and agriculture; (3) commerce and housing, community and regional development, and transportation; (4) education, training, employment, and social services; (5) health, including Medicare; (6) income security; (7) Social Security and veterans' benefits; and (8) administration of justice and general governance.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="These categories were constructed both to group broadly similar government functions and to create categories that captured significant portions of the federal budget. Changes to the grouping choices may produce budget outcomes that differ from those presented in this analysis.">11</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For the purposes of this study, spending programs will be distinguished by type (i.e., discretionary or mandatory) and by budget subfunction, in accordance with the May 2019 CBO baseline.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title='Congressional Budget Office, "Spending Projections, by Budget Account," Updated Budget Projections: 2019 to 2029 , May 2019.'>12</a></sup> Expenditure items will be identified as they appear in JCT's October 2018 tax expenditure estimates.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Joint Committee on Taxation, Estimates of Federal Tax Expenditures for Fiscal Years 201 8 -20 22 , October 2018.">13</a></sup> These tables do not include three types of federal interventions: net interest (budget function 900), federal allowances (budget function 920), or undistributed offsetting receipts (budget function 950). Net interest, the largest of the three functions, is omitted from this analysis because it is a function of previous spending and tax expenditure decisions in the other categories, and thus does not afford Congress with the control provided by other types of programs. Allowances and undistributed receipts are not included here because the nature of those types of programs makes their beneficiaries difficult to determine, rendering it difficult to make comparisons with tax expenditure programs. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Importantly, while spending and tax expenditure programs both increase net deficits, the mechanisms that allocate resources for each program type are different. Specifically, spending programs rely on funds that are collected by the federal government, while tax expenditures are typically financed through forgone revenues, or money not collected due to the creation of the program. This difference may have policy implications that are not addressed in this report.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271645"></a><a name="_Toc440271679"></a><a name="_Toc440273269"></a><a name="_Toc440273413"></a><a name="_Toc449530463"></a><a name="_Toc450907445"></a><a name="_Toc450909796"></a><a name="_Toc450917102"></a><a name="_Toc451420556"></a><a name="_Toc453769824"></a><a name="_Toc453940452"></a><a name="_Toc454186022"></a><a name="_Toc12537161"></a><a name="_Toc12959279"></a><a name="_Toc13558035"></a><a name="_Toc13746818"></a><a name="_Toc13747081"></a>Defense and International Affairs (Budget Functions 050 and 150)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget functions 050 and 150 cover activities related to national defense and international affairs, respectively. <a class="InternalLink" href="#_Ref449514341"><strong></strong><strong>Table 1</strong></a> shows the projected costs of operations classified as national defense and international affairs, as estimated by CBO and JCT. Defense and international affairs spending programs devote most of their outlays to military activities. Other spending activities include engagement in international relations and nonmilitary defense programs. In contrast, the largest tax expenditure programs devote resources to foreign-based individuals and households with interests in the United States, while also offering some tax benefits to active military service members. National defense and international diplomacy are some of the more notable public goods typically regulated by governments. Programs that call for more frequent congressional action (such as discretionary spending programs and expiring tax expenditures) may also be useful for defense and international affairs activities, as the location and intensity of resource demands may be highly dependent on international events that are not always foreseeable.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273395"></a><a name="_Toc440273251"></a><a name="_Ref449514341"></a><a name="_Toc449530444"></a><a name="_Toc450907424"></a><a name="_Toc450909775"></a><a name="_Toc450917077"></a><a name="_Toc451420538"></a><a name="_Toc453769806"></a><a name="_Toc453940434"></a><a name="_Toc454186004"></a><a name="_Toc12537143"></a><a name="_Toc12959261"></a><a name="_Toc13558017"></a><a name="_Toc13746800"></a><a name="_Toc13747063"></a>Table 1. Major Spending and Tax Expenditure Programs: Defense and International Affairs</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Department of Defense—Military (051, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$636.0</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Reduced tax rate on active income of controlled foreign corporations</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$68.0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">International development and humanitarian assistance (151, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$24.9</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Deduction for foreign-derived intangible income from trade or business within the United States</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$15.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Atomic energy defense activities (053, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$22.8</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Exclusion of foreign earned income</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$9.7</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$35.9</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-$2.2</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc449530465"></a><a name="_Toc450907446"></a><a name="_Toc450909797"></a><a name="_Toc450917103"></a><a name="_Toc451420557"></a><a name="_Toc453769825"></a><a name="_Toc453940453"></a><a name="_Toc454186023"></a><a name="_Toc12537162"></a><a name="_Toc12959280"></a><a name="_Toc13558036"></a><a name="_Toc13746819"></a><a name="_Toc13747082"></a><a name="_Toc449530464"></a>General Science, Space and Technology, Energy, Natural Resources and Environment, and Agriculture (Budget Functions 250, 270, 300, and 350)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget functions 250, 270, 300, and 350 are devoted to government activities related to science and technology, energy, natural resources, and agriculture, respectively. <a class="InternalLink" href="#_Ref449515288"><strong></strong><strong>Table 2</strong></a> shows the CBO and JCT projections of the cost of such programs. Both spending programs and tax expenditures devote the most resources in this area to support scientific and technological research and for agricultural services. These interventions also offer a wide range of programs, as the amount of resources devoted to "Other" policies is greater than the combined resources spent on the largest three programs in each case. The complementary nature of spending programs and tax expenditure programs in the science and technology, energy, natural resources, and agriculture sectors may reflect an intention to offer support to both government agencies and private firms in these areas. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273397"></a><a name="_Toc440273253"></a><a name="_Ref449515288"></a><a name="_Toc449530446"></a><a name="_Toc450907425"></a><a name="_Toc450909776"></a><a name="_Toc450917078"></a><a name="_Toc451420539"></a><a name="_Toc453769807"></a><a name="_Toc453940435"></a><a name="_Toc454186005"></a><a name="_Toc12537144"></a><a name="_Toc12959262"></a><a name="_Toc13558018"></a><a name="_Toc13746801"></a><a name="_Toc13747064"></a>Table 2. Major Spending and Tax Expenditure Programs: <br/>Science, Energy, Natural Resources, and Agriculture</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Farm income stabilization (351, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$24.7</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Research credit</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$10.6</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Space flight, research, and supporting activities (252, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$19.6</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Credits for renewable electricity production (Section 45)</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$10.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">General science and basic research (251, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$12.9</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Energy credit, section 48</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$5.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$50.8</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$7.5</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc450907447"></a><a name="_Toc450909798"></a><a name="_Toc450917104"></a><a name="_Toc451420558"></a><a name="_Toc453769826"></a><a name="_Toc453940454"></a><a name="_Toc454186024"></a><a name="_Toc12537163"></a><a name="_Toc12959281"></a><a name="_Toc13558037"></a><a name="_Toc13746820"></a><a name="_Toc13747083"></a>Commerce and Housing, Transportation, and Community and Regional Development (Budget Functions 370, 400, and 450)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget functions 370, 400, and 450 capture government activities related to commerce and housing, transportation, and community and regional development, respectively. <a class="InternalLink" href="#_Ref449514869"><strong></strong><strong>Table 3</strong></a> provides information on the costs of these programs as estimated by CBO and JCT. The largest shares of spending resources are devoted to air and ground transportation programs. Spending programs in these areas are also related to providing assistance in response to unexpected events. Meanwhile, a variety of tax expenditures are used to offer incentives for activities related to homeownership, business activity, and community development. The combined resources devoted to tax expenditures listed as "Other" in <a class="InternalLink" href="#_Ref449514869"><strong></strong><strong>Table 3</strong></a> nearly sum to the largest tax expenditure.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273396"></a><a name="_Toc440273252"></a><a name="_Ref449514869"></a><a name="_Ref450115679"></a><a name="_Toc449530445"></a><a name="_Toc450907426"></a><a name="_Toc450909777"></a><a name="_Toc450917079"></a><a name="_Toc451420540"></a><a name="_Toc453769808"></a><a name="_Toc453940436"></a><a name="_Toc454186006"></a><a name="_Toc12537145"></a><a name="_Toc12959263"></a><a name="_Toc13558019"></a><a name="_Toc13746802"></a><a name="_Toc13747065"></a>Table 3. Major Spending and Tax Expenditure Programs: <br/>Commerce and Housing, Transportation, Community and Regional Development</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.17280000000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Ground transportation (401, Discretionary)</p>
+</td>
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$61.7</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Reduced rates of tax on dividends and long-term capital gains</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$127.0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Air transportation (402, Discretionary)</p>
+</td>
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$22.5</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Depreciation of equipment in excess of alternative depreciation system</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$71.2</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Disaster and emergency programs (453, Discretionary)</p>
+</td>
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$18.5</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">20% deduction for qualified business income</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$48.6</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-$13.8</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$122.1</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271682"></a><a name="_Toc440273272"></a><a name="_Toc440273416"></a><a name="_Toc449530466"></a><a name="_Toc450907448"></a><a name="_Toc450909799"></a><a name="_Toc450917105"></a><a name="_Toc451420559"></a><a name="_Toc453769827"></a><a name="_Toc453940455"></a><a name="_Toc454186025"></a><a name="_Toc12537164"></a><a name="_Toc12959282"></a><a name="_Toc13558038"></a><a name="_Toc13746821"></a><a name="_Toc13747084"></a>Education, Training, Employment, and Social Services (Budget Function 500)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget function 500 is devoted to government activities related to education, training, employment, and social services. <a class="InternalLink" href="#_Ref449515593"><strong></strong><strong>Table 4</strong></a> provides the projected costs of these programs, as estimated by CBO and JCT. Federal spending resources in these areas are focused mostly in the education sector, particularly in higher education financing (state and local governments are responsible for much of the funding and policies for elementary and secondary schools). Conversely, tax expenditure programs for budget function 500 activities provide much of their resources to supporting social services. Compared with total federal spending levels, interventions in these areas are more likely to come from tax expenditure programs. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273398"></a><a name="_Toc440273254"></a><a name="_Ref449515593"></a><a name="_Toc449530447"></a><a name="_Toc450907427"></a><a name="_Toc450909778"></a><a name="_Toc450917080"></a><a name="_Toc451420541"></a><a name="_Toc453769809"></a><a name="_Toc453940437"></a><a name="_Toc454186007"></a><a name="_Toc12537146"></a><a name="_Toc12959264"></a><a name="_Toc13558020"></a><a name="_Toc13746803"></a><a name="_Toc13747066"></a>Table 4. Major Spending and Tax Expenditure Programs: <br/>Education, Training, Employment, and Social Services</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.17280000000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Elementary, secondary, and vocational education (501, Discretionary)</p>
+</td>
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$41.3</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Credit for children and other dependents</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$121.2</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Higher education (502, Mandatory)</p>
+</td>
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$36.9</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Exclusion of benefits provided under cafeteria plans</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$40.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Higher education (502, Discretionary)</p>
+</td>
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$28.8</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Deduction for charitable contributions, other than for education and health</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$30.5</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.17280000000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$33.6</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$68.3</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271648"></a><a name="_Toc440271683"></a><a name="_Toc440273273"></a><a name="_Toc440273417"></a><a name="_Toc449530467"></a><a name="_Toc450907449"></a><a name="_Toc450909800"></a><a name="_Toc450917106"></a><a name="_Toc451420560"></a><a name="_Toc453769828"></a><a name="_Toc453940456"></a><a name="_Toc454186026"></a><a name="_Toc12537165"></a><a name="_Toc12959283"></a><a name="_Toc13558039"></a><a name="_Toc13746822"></a><a name="_Toc13747085"></a>Health, Including Medicare (Budget Functions 550 and 570)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget functions 550 and 570 are devoted to government activities related to health (excluding Medicare) and Medicare, respectively. <a class="InternalLink" href="#_Ref449516342"><strong></strong><strong>Table 5</strong></a> shows the projected resources allocated to health and Medicare programs, as estimated by CBO and JCT. Spending programs devote the vast majority of their health resources to Medicare, Medicaid, and other health services, with the mandatory components of budget subfunctions 571 and 551 alone accounting for more than $1 trillion worth of projected FY2019 outlays. Tax expenditure programs are targeted to incentivize health insurance enrollment and to encourage certain types of health care consumption.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273399"></a><a name="_Toc440273255"></a><a name="_Ref449516342"></a><a name="_Toc449530448"></a><a name="_Toc450907428"></a><a name="_Toc450909779"></a><a name="_Toc450917081"></a><a name="_Toc451420542"></a><a name="_Toc453769810"></a><a name="_Toc453940438"></a><a name="_Toc454186008"></a><a name="_Toc12537147"></a><a name="_Toc12959265"></a><a name="_Toc13558021"></a><a name="_Toc13746804"></a><a name="_Toc13747067"></a>Table 5. Major Spending and Tax Expenditure Programs: Health, Including Medicare</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Medicare (571, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$630.3</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Exclusion of employer contributions to health care, health insurance premiums, and long-term care insurance premiums</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$164.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Health care services (551, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$516.3</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Subsidies for health insurance exchange purchases</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$53.2</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Health research and training (552, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$36.6</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Deduction for medical and long-term care expenses</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$7.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$36.7</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$29.6</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271649"></a><a name="_Toc440271684"></a><a name="_Toc440273274"></a><a name="_Toc440273418"></a><a name="_Toc449530468"></a><a name="_Toc450907450"></a><a name="_Toc450909801"></a><a name="_Toc450917107"></a><a name="_Toc451420561"></a><a name="_Toc453769829"></a><a name="_Toc453940457"></a><a name="_Toc454186027"></a><a name="_Toc12537166"></a><a name="_Toc12959284"></a><a name="_Toc13558040"></a><a name="_Toc13746823"></a><a name="_Toc13747086"></a>Income Security (Budget Function 600)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget function 600 is devoted to government activities related to income security. <a class="InternalLink" href="#_Ref449516575"><strong></strong><strong>Table 6</strong></a> provides CBO and JCT estimates for the resources devoted to income security programs. Federal spending on income security programs is used to finance payments to current and former federal employees and to certain low-income households. Tax expenditure resources are devoted primarily to private retirement contributions, and to income support for low-income families.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273400"></a><a name="_Toc440273256"></a><a name="_Ref449516575"></a><a name="_Toc449530449"></a><a name="_Toc450907429"></a><a name="_Toc450909780"></a><a name="_Toc450917082"></a><a name="_Toc451420543"></a><a name="_Toc453769811"></a><a name="_Toc453940439"></a><a name="_Toc454186009"></a><a name="_Toc12537148"></a><a name="_Toc12959266"></a><a name="_Toc13558022"></a><a name="_Toc13746805"></a><a name="_Toc13747068"></a>Table 6. Major Spending and Tax Expenditure Programs: Income Security</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other income security (609, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$172.0</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Net exclusion of pension contributions and earnings</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$235.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Federal employee retirement and disability (602, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$149.6</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Earned income credit</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$71.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Food and nutrition assistance (605, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$89.6</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Individual retirement arrangements</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$26.2</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$105.2</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$40.5</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc440271650"></a><a name="_Toc440271685"></a><a name="_Toc440273275"></a><a name="_Toc440273419"></a><a name="_Toc449530469"></a><a name="_Toc450907451"></a><a name="_Toc450909802"></a><a name="_Toc450917108"></a><a name="_Toc451420562"></a><a name="_Toc453769830"></a><a name="_Toc453940458"></a><a name="_Toc454186028"></a><a name="_Toc12537167"></a><a name="_Toc12959285"></a><a name="_Toc13558041"></a><a name="_Toc13746824"></a><a name="_Toc13747087"></a>Social Security and Veterans' Benefits (Budget Functions 650 and 700)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget functions 650 and 700 are devoted to government activities related to Social Security and veterans' benefits, respectively. CBO and JCT estimates of the cost of those programs in FY2019 are shown in <a class="InternalLink" href="#_Ref449516962"><strong></strong><strong>Table 7</strong></a>. More than 80% of the resources devoted to any type of federal program in these budget categories are spent as outlays on Social Security. Other federal spending is allocated to income security and health care programs for veterans. Tax expenditure programs use the Internal Revenue Code to devote resources to Social Security and railroad retirement benefits and to exclude certain benefits for military veterans from taxation.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273401"></a><a name="_Toc440273257"></a><a name="_Ref449516962"></a><a name="_Toc449530450"></a><a name="_Toc450907430"></a><a name="_Toc450909781"></a><a name="_Toc450917083"></a><a name="_Toc451420544"></a><a name="_Toc453769812"></a><a name="_Toc453940440"></a><a name="_Toc454186010"></a><a name="_Toc12537149"></a><a name="_Toc12959267"></a><a name="_Toc13558023"></a><a name="_Toc13746806"></a><a name="_Toc13747069"></a>Table 7. Major Spending and Tax Expenditure Programs: <br/>Social Security and Veterans' Benefits</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Social Security (651, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$1,037.6</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Exclusion of untaxed Social Security and railroad retirement benefits</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$36.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Income security for veterans (701, Mandatory)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$98.5</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Exclusion of veterans' disability compensation</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$7.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Hospital and medical care for veterans (703, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$74.7</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Exclusion of veterans' readjustment benefits</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$1.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$29.6</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$0.1</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc449530470"></a><a name="_Toc450907452"></a><a name="_Toc450909803"></a><a name="_Toc450917109"></a><a name="_Toc451420563"></a><a name="_Toc453769831"></a><a name="_Toc453940459"></a><a name="_Toc454186029"></a><a name="_Toc12537168"></a><a name="_Toc12959286"></a><a name="_Toc13558042"></a><a name="_Toc13746825"></a><a name="_Toc13747088"></a>Administration of Justice and General Governance (Budget Functions 750 and 800)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Budget functions 750 and 800 are devoted to government activities related to administration of justice and general governance, respectively. <a class="InternalLink" href="#_Ref449517187"><strong></strong><strong>Table 8</strong></a> shows CBO and JCT estimates of resources devoted to those programs. Federal spending programs for budget function 750 and 800 are primarily focused on funding government services, including law enforcement, judicial, and fiscal activities. Tax expenditures in these areas devote the majority of their resources to exempting certain state and local government activities from federal taxation.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc440273402"></a><a name="_Toc440273258"></a><a name="_Ref449517187"></a><a name="_Toc449530451"></a><a name="_Toc450907431"></a><a name="_Toc450909782"></a><a name="_Toc450917084"></a><a name="_Toc451420545"></a><a name="_Toc453769813"></a><a name="_Toc453940441"></a><a name="_Toc454186011"></a><a name="_Toc12537150"></a><a name="_Toc12959268"></a><a name="_Toc13558024"></a><a name="_Toc13746807"></a><a name="_Toc13747070"></a>Table 8. Major Spending and Tax Expenditure Programs: <br/>Administration of Justice and General Governance</p>
+<p class="TableSubTitle">(Budget estimates in $ billions)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:108.0864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Spending Program</p>
+</td>
+<td style="width:108pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Outlays</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Tax Expenditure</p>
+</td>
+<td style="width:107.9136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">FY2019 Expenditures</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Federal law enforcement activities (751, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$36.5</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Exclusion of interest on public purpose state and local government bonds</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$29.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Federal litigious and judicial activities (752, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$13.5</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Deduction of nonbusiness state and local government taxes</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$21.5</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Central fiscal operations (803, Discretionary)</p>
+</td>
+<td style="width:108pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$11.7</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Build America Bonds</p>
+</td>
+<td style="width:107.9136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$3.3</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:108.0864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:108pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$29.5</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Other</p>
+</td>
+<td style="width:107.9136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$1.6</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Congressional Budget Office, <em>Updated Budget Projections: </em><em>201</em><em>9</em><em> </em><em>to </em><em>202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years </em><em>201</em><em>8</em><em>-</em><em>20</em><em>22</em>.</p>
+<p class="TableNote"><strong>Notes:</strong> Summation of tax expenditures does not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the amounts shown. </p>
+</div>
+</div>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The amount of resources devoted to spending programs is quantified through measures of outlays and, in some cases, budget authority. Outlays are disbursed federal funds and track payments as they are made by the U.S. Treasury. Budget authority, provided through appropriations activity, represents amounts that federal agencies are legally permitted to spend, and is mostly applicable to discretionary spending programs. There is generally a lag between when Congress grants budget authority and when outlays occur, although the length of that lag varies by program. Unless otherwise specified, spending amounts used in this report are outlays.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the discretionary spending process, see CRS Report RS20371, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS20371"><em><span class="Hyperlink">Overview of the Authorization-Appropriations Process</span></em></a>, by Bill Heniff Jr.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As net interest payments are the function of past federal spending and revenue choices, Congress has less control over their magnitude than it does for other spending and tax expenditure programs. Therefore, the remainder of this report will focus on discretionary and mandatory federal spending.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The "normal" tax system for individual and corporate income, used as the basis for tax expenditure cost estimates, is specified by the Congressional Budget and Impoundment Control Act of 1974, and implemented by the Joint Committee on Taxation (JCT). For more information on the definition of normal taxes, see CRS Committee Print CP10003, <a class="ExternalLink" href="http://www.crs.gov/Reports/Pdf/CP10003"><em><span class="Hyperlink">Tax Expenditures: Compendium of Background Material on Individual Provisions — A Committee Print Prepared for the Senate Committee on the Budget, 2018</span></em></a>, by Jane G. Gravelle et al.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Summation of tax expenditures may not necessarily provide an accurate total of budgetary impact. All tax expenditure effects are calculated under the assumption that other expenditures are unchanged. If two expenditure projections were estimated simultaneously, the total change in liability could be smaller or larger than the sum of the individual estimates. As described later in the section, tax expenditure programs may impact projections of both revenues and outlays, due to the presence of refundable tax credits. Congressional Budget Office, Updated <em>Budget </em><em>Projections</em><em>: 201</em><em>9</em><em> to 202</em><em>9</em>, May 2019; and Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>, October 2018.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the appropriations process, see CRS Report R42388, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42388"><em><span class="Hyperlink">The Congressional Appropriations Process: An Introduction</span></em></a>, coordinated by James V. Saturno.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In the event of lapsed funding, some discretionary programs may be instructed to continue functioning (or function with reduced capacity) if deemed "essential" by the President. For more information on federal operations during a funding lapse, see CRS Report RL34680, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34680"><em><span class="Hyperlink">Shutdown of the Federal Government: Causes, Processes, and Effects</span></em></a>, coordinated by Clinton T. Brass.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on mandatory spending legislation, see CRS Report 98-721, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-721"><em><span class="Hyperlink">Introduction to the Federal Budget Process</span></em></a>, coordinated by James V. Saturno.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Extensions of expiring tax expenditures may have revenue effects that are subject to certain budget rules. For more information on tax expenditures, see CRS Report R45347, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45347"><em><span class="Hyperlink">Tax Provisions That Expired in 2017 ("Tax Extenders")</span></em></a>, by Molly F. Sherlock and CRS Report R41408, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41408"><em><span class="Hyperlink">Rules and Practices Governing Consideration of Revenue Legislation in the House and Senate</span></em></a>, by Megan S. Lynch.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Department of Agriculture, <em>Supplemental Nutrition Assistance Program (SNAP</em>), June 2019; available at <a class="ExternalLink" href="http://www.fns.usda.gov/snap/eligibility"><span class="Hyperlink">http://www.fns.usda.gov/snap/eligibility</span></a>. For more information on SNAP participation, see CRS Report R42054, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42054"><em><span class="Hyperlink">The Supplemental Nutrition Assistance Program (SNAP): Categorical Eligibility</span></em></a>, by Randy Alison Aussenberg and Gene Falk.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> These categories were constructed both to group broadly similar government functions and to create categories that captured significant portions of the federal budget. Changes to the grouping choices may produce budget outcomes that differ from those presented in this analysis. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, "Spending Projections, by Budget Account," <em>Updated Budget Projections: 2019 to 2029</em>, May 2019.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 201</em><em>8</em><em>-20</em><em>22</em>, October 2018. </p>
+</td>
+</tr>
+</table>
+</div>
+</div>
