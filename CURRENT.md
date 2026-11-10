@@ -1,14 +1,21 @@
 # Official current CRS files
 
-Checked: 2026-11-09T20:58:37.125381+00:00. Official current entries verified: **69/69**.
+Checked: 2026-11-10T04:19:25.297608+00:00. Official current entries verified: **73/73**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
-| 2026-11-09 | 2026-11-09 | R49512 v1 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v1-2026-11-09-52f7a3f708591afc.pdf) | [Markdown](markdown/reports/R49512v1-2026-11-09-52f7a3f708591afc.md) |
-| 2026-11-09 | 2026-11-06 | IN12755 v1 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.pdf) | [Markdown](markdown/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.md) |
-| 2026-11-09 | 2026-11-06 | R49511 v1 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Project Certainty Provisions | [PDF](pdf/reports/R49511v1-2026-11-06-dccf7c54fd57b0bb.pdf) | [Markdown](markdown/reports/R49511v1-2026-11-06-dccf7c54fd57b0bb.md) |
+| 2026-11-09 | 2026-11-09 | IF10753 v9 | ENERGY STAR Program | [PDF](pdf/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.pdf) | [Markdown](markdown/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.md) |
+| 2026-11-09 | 2026-11-06 | R49510 v9 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v9-2026-11-06-59f0acc9e9f02869.pdf) | [Markdown](markdown/reports/R49510v9-2026-11-06-59f0acc9e9f02869.md) |
+| 2026-11-09 | 2026-11-06 | IF13344 v3 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.pdf) | [Markdown](markdown/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.md) |
+| 2026-11-09 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
+| 2026-11-09 | 2026-11-09 | R44247 v12 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v12-2026-11-09-acc06da9e2ef035b.pdf) | [Markdown](markdown/reports/R44247v12-2026-11-09-acc06da9e2ef035b.md) |
+| 2026-11-09 | 2026-11-06 | R44868 v5 | Short-Term, Small-Dollar Lending: Policy Issues and Implications | [PDF](pdf/reports/R44868v5-2026-11-06-cf101aee082a4207.pdf) | [Markdown](markdown/reports/R44868v5-2026-11-06-cf101aee082a4207.md) |
+| 2026-11-09 | 2026-11-09 | IF10266 v18 | Child Nutrition Reauthorization (CNR): An Overview | [PDF](pdf/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.pdf) | [Markdown](markdown/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.md) |
+| 2026-11-09 | 2026-11-09 | R49512 v3 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v3-2026-11-09-7f82da5ad19244b3.pdf) | [Markdown](markdown/reports/R49512v3-2026-11-09-7f82da5ad19244b3.md) |
+| 2026-11-09 | 2026-11-06 | IN12755 v2 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.pdf) | [Markdown](markdown/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.md) |
+| 2026-11-09 | 2026-11-06 | R49511 v2 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Project Certainty Provisions | [PDF](pdf/reports/R49511v2-2026-11-06-a4c80e9bf586fbed.pdf) | [Markdown](markdown/reports/R49511v2-2026-11-06-a4c80e9bf586fbed.md) |
 | 2026-11-09 | 2026-11-09 | R49513 v1 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v1-2026-11-09-73fbad1f1910b276.pdf) | [Markdown](markdown/reports/R49513v1-2026-11-09-73fbad1f1910b276.md) |
 | 2026-11-09 | 2026-11-09 | IN12746 v2 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v2-2026-11-09-c555793512fef262.pdf) | [Markdown](markdown/insights/IN12746v2-2026-11-09-c555793512fef262.md) |
 | 2026-11-09 | 2026-11-09 | IF12680 v3 | The Board of Veterans’ Appeals: A Brief Introduction | [PDF](pdf/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.pdf) | [Markdown](markdown/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.md) |
@@ -22,9 +29,6 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-07 | 2026-11-06 | IF12047 v20 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.pdf) | [Markdown](markdown/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.md) |
 | 2026-11-07 | 2026-11-05 | R45190 v11 | From Slip Law to United States Code: A Guide to Federal Statutes for Congressional Offices | [PDF](pdf/reports/R45190v11-2026-11-05-d1d5c887fa44f6ee.pdf) | [Markdown](markdown/reports/R45190v11-2026-11-05-d1d5c887fa44f6ee.md) |
 | 2026-11-07 | 2026-11-05 | R49508 v3 | The Higher Blends Infrastructure Incentive Program (HBIIP): An Overview | [PDF](pdf/reports/R49508v3-2026-11-05-e66aa4e0b291efa7.pdf) | [Markdown](markdown/reports/R49508v3-2026-11-05-e66aa4e0b291efa7.md) |
-| 2026-11-07 | 2026-11-06 | R44868 v4 | Short-Term, Small-Dollar Lending: Policy Issues and Implications | [PDF](pdf/reports/R44868v4-2026-11-06-58c18e0d214039a1.pdf) | [Markdown](markdown/reports/R44868v4-2026-11-06-58c18e0d214039a1.md) |
-| 2026-11-07 | 2026-11-06 | R49510 v8 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v8-2026-11-06-817c18032e8a6a4d.pdf) | [Markdown](markdown/reports/R49510v8-2026-11-06-817c18032e8a6a4d.md) |
-| 2026-11-07 | 2026-11-06 | IF13344 v2 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v2-2026-11-06-2a6eb3f2b392ce47.pdf) | [Markdown](markdown/in-focus/IF13344v2-2026-11-06-2a6eb3f2b392ce47.md) |
 | 2026-11-07 | 2026-11-05 | R49504 v2 | Bipartisan American Affordability and Jobs Act of 2026 (BAAJA): Analysis of Endangered Species Act Provisions | [PDF](pdf/reports/R49504v2-2026-11-05-6d46961d0c4613a0.pdf) | [Markdown](markdown/reports/R49504v2-2026-11-05-6d46961d0c4613a0.md) |
 | 2026-11-07 | 2026-11-05 | R49507 v2 | Federal Statistical Research Data Centers: An Overview | [PDF](pdf/reports/R49507v2-2026-11-05-f8c2dd6e66cc3314.pdf) | [Markdown](markdown/reports/R49507v2-2026-11-05-f8c2dd6e66cc3314.md) |
 | 2026-11-07 | 2026-11-04 | R40977 v36 | U.S. Participation in the G7 and the G20 | [PDF](pdf/reports/R40977v36-2026-11-04-4a02e74d55e8b47a.pdf) | [Markdown](markdown/reports/R40977v36-2026-11-04-4a02e74d55e8b47a.md) |

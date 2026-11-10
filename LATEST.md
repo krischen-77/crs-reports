@@ -1,3 +1,5 @@
+**Official-current verification: 73/73. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-03 to 2026-11-10**. Older archived files are retained.
@@ -13,13 +15,18 @@ Publication-date window (inclusive): **2026-11-03 to 2026-11-10**. Older archive
 | 2026-11-09 | IF12680 v3 | The Board of Veterans’ Appeals: A Brief Introduction | [PDF](pdf/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.pdf) | [Markdown](markdown/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.md) |
 | 2026-11-09 | IF10753 v9 | ENERGY STAR Program | [PDF](pdf/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.pdf) | [Markdown](markdown/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.md) |
 | 2026-11-09 | IF10266 v18 | Child Nutrition Reauthorization (CNR): An Overview | [PDF](pdf/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.pdf) | [Markdown](markdown/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.md) |
+| 2026-11-06 | R49511 v2 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Project Certainty Provisions | [PDF](pdf/reports/R49511v2-2026-11-06-a4c80e9bf586fbed.pdf) | [Markdown](markdown/reports/R49511v2-2026-11-06-a4c80e9bf586fbed.md) |
 | 2026-11-06 | R49511 v1 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Project Certainty Provisions | [PDF](pdf/reports/R49511v1-2026-11-06-dccf7c54fd57b0bb.pdf) | [Markdown](markdown/reports/R49511v1-2026-11-06-dccf7c54fd57b0bb.md) |
+| 2026-11-06 | R49510 v9 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v9-2026-11-06-59f0acc9e9f02869.pdf) | [Markdown](markdown/reports/R49510v9-2026-11-06-59f0acc9e9f02869.md) |
 | 2026-11-06 | R49510 v8 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v8-2026-11-06-817c18032e8a6a4d.pdf) | [Markdown](markdown/reports/R49510v8-2026-11-06-817c18032e8a6a4d.md) |
 | 2026-11-06 | R49510 v3 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v3-2026-11-06-9bff1b23ca2acbf2.pdf) | [Markdown](markdown/reports/R49510v3-2026-11-06-9bff1b23ca2acbf2.md) |
 | 2026-11-06 | R44868 v4 | Short-Term, Small-Dollar Lending: Policy Issues and Implications | [PDF](pdf/reports/R44868v4-2026-11-06-58c18e0d214039a1.pdf) | [Markdown](markdown/reports/R44868v4-2026-11-06-58c18e0d214039a1.md) |
+| 2026-11-06 | R44868 v5 | Short-Term, Small-Dollar Lending: Policy Issues and Implications | [PDF](pdf/reports/R44868v5-2026-11-06-cf101aee082a4207.pdf) | [Markdown](markdown/reports/R44868v5-2026-11-06-cf101aee082a4207.md) |
 | 2026-11-06 | LSB11498 v1 | Congressional Court Watcher: Circuit Splits from September 2026 | [PDF](pdf/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.pdf) | [Markdown](markdown/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.md) |
 | 2026-11-06 | IN12755 v1 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.pdf) | [Markdown](markdown/insights/IN12755v1-2026-11-06-0efc5cd706aa4e40.md) |
+| 2026-11-06 | IN12755 v2 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.pdf) | [Markdown](markdown/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.md) |
 | 2026-11-06 | IF13344 v2 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v2-2026-11-06-2a6eb3f2b392ce47.pdf) | [Markdown](markdown/in-focus/IF13344v2-2026-11-06-2a6eb3f2b392ce47.md) |
+| 2026-11-06 | IF13344 v3 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.pdf) | [Markdown](markdown/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.md) |
 | 2026-11-06 | IF12047 v20 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.pdf) | [Markdown](markdown/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.md) |
 | 2026-11-05 | R49508 v2 | The Higher Blends Infrastructure Incentive Program (HBIIP): An Overview | [PDF](pdf/reports/R49508v2-2026-11-05-1d1a8b0e824beb1e.pdf) | [Markdown](markdown/reports/R49508v2-2026-11-05-1d1a8b0e824beb1e.md) |
 | 2026-11-05 | R49508 v3 | The Higher Blends Infrastructure Incentive Program (HBIIP): An Overview | [PDF](pdf/reports/R49508v3-2026-11-05-e66aa4e0b291efa7.pdf) | [Markdown](markdown/reports/R49508v3-2026-11-05-e66aa4e0b291efa7.md) |
@@ -69,7 +76,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 |---|---|---|---|---|---|
 | 2026-11-09 | 2019-09-04 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2019 | [PDF](pdf/reports/RL30567v29-2019-09-04-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2019-09-04-97b460804175e3ce.md) |
 | 2026-11-09 | 2026-10-23 | IF13295 v5 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.pdf) | [Markdown](markdown/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.md) |
-| 2026-11-09 | 2026-07-15 | IF12761 v5 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v5-2026-07-15-48123120d0161dff.pdf) | [Markdown](markdown/in-focus/IF12761v5-2026-07-15-48123120d0161dff.md) |
+| 2026-11-09 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
 | 2026-11-07 | 2026-07-21 | IF10155 v19 | Somalia | [PDF](pdf/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.pdf) | [Markdown](markdown/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.md) |
 | 2026-11-06 | 2018-06-27 | R45241 v3 | The Rule XIX Call to Order for Disorderly Language in Senate Debate | [PDF](pdf/reports/R45241v3-2018-06-27-daca76abc59b0bc9.pdf) | [Markdown](markdown/reports/R45241v3-2018-06-27-daca76abc59b0bc9.md) |
 | 2026-11-06 | 2026-11-02 | IF12466 v6 | U.S. Passport Services | [PDF](pdf/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.pdf) | [Markdown](markdown/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.md) |
