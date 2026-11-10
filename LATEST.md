@@ -1,11 +1,11 @@
-**Official-current verification: 73/73. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-03 to 2026-11-10**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-10 | R43743 v31 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v31-2026-11-10-17c511c94b7bdb95.pdf) | [Markdown](markdown/reports/R43743v31-2026-11-10-17c511c94b7bdb95.md) |
+| 2026-11-10 | IN12550 v4 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v4-2026-11-10-a695b70126b320d2.pdf) | [Markdown](markdown/insights/IN12550v4-2026-11-10-a695b70126b320d2.md) |
 | 2026-11-09 | R49513 v1 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v1-2026-11-09-73fbad1f1910b276.pdf) | [Markdown](markdown/reports/R49513v1-2026-11-09-73fbad1f1910b276.md) |
 | 2026-11-09 | R49512 v1 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v1-2026-11-09-52f7a3f708591afc.pdf) | [Markdown](markdown/reports/R49512v1-2026-11-09-52f7a3f708591afc.md) |
 | 2026-11-09 | R49512 v3 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v3-2026-11-09-7f82da5ad19244b3.pdf) | [Markdown](markdown/reports/R49512v3-2026-11-09-7f82da5ad19244b3.md) |
@@ -74,9 +74,9 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-09 | 2019-09-04 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2019 | [PDF](pdf/reports/RL30567v29-2019-09-04-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2019-09-04-97b460804175e3ce.md) |
-| 2026-11-09 | 2026-10-23 | IF13295 v5 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.pdf) | [Markdown](markdown/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.md) |
-| 2026-11-09 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
+| 2026-11-10 | 2019-09-04 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2019 | [PDF](pdf/reports/RL30567v29-2019-09-04-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2019-09-04-97b460804175e3ce.md) |
+| 2026-11-10 | 2026-10-23 | IF13295 v5 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.pdf) | [Markdown](markdown/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.md) |
+| 2026-11-10 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
 | 2026-11-07 | 2026-07-21 | IF10155 v19 | Somalia | [PDF](pdf/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.pdf) | [Markdown](markdown/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.md) |
 | 2026-11-06 | 2018-06-27 | R45241 v3 | The Rule XIX Call to Order for Disorderly Language in Senate Debate | [PDF](pdf/reports/R45241v3-2018-06-27-daca76abc59b0bc9.pdf) | [Markdown](markdown/reports/R45241v3-2018-06-27-daca76abc59b0bc9.md) |
 | 2026-11-06 | 2026-11-02 | IF12466 v6 | U.S. Passport Services | [PDF](pdf/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.pdf) | [Markdown](markdown/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.md) |
