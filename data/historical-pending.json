@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-10",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-12",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-10",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-12",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -9595,6 +9599,145 @@
         "source_record": "451109",
         "title": "The Federal Budget: Overview and Issues for FY2017 and Beyond",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-11",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "17",
+        "date": "2024-07-15",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10266",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-07-15_IF10266_86b99d072b3f060c9882f2ae338a48f04a3522c1.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10266",
+            "sha1": "86b99d072b3f060c9882f2ae338a48f04a3522c1",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF10266/17",
+              "https://www.everycrsreport.com/files/2024-07-15_IF10266_86b99d072b3f060c9882f2ae338a48f04a3522c1.pdf"
+            ]
+          }
+        },
+        "id": "IF10266",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-09T19:41:00Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10266_17_2024-07-15",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-07-15",
+          "id": "IF10266",
+          "official_pdf_sha256": "c432d55ec9732724a32e3117191694d2af2a38a5f010e5a5f70b0155d61f3f8d",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10266/IF10266.18.pdf",
+          "official_publication": "2026-11-09",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Child Nutrition Reauthorization (CNR): An Overview",
+        "version": "17"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-11",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "3",
+        "date": "2026-04-23",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10753",
+            "sha1": "e6fc349c50fe941c60dba5426237dacbc7ca9c0b",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10753.web.html",
+              "https://www.everycrsreport.com/files/2026-04-23_IF10753_e6fc349c50fe941c60dba5426237dacbc7ca9c0b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10753",
+            "sha1": "6d4d96d34e2b47d9048be44b8cac9a7051ac910a",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10753/IF10753.7.pdf",
+              "https://www.everycrsreport.com/files/2026-04-23_IF10753_6d4d96d34e2b47d9048be44b8cac9a7051ac910a.pdf"
+            ]
+          }
+        },
+        "id": "IF10753",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-09T19:41:20Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10753_A7_2026-04-23",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-04-23",
+          "id": "IF10753",
+          "official_pdf_sha256": "520c0e472f80c784b489f3033bbd556e7f010731b0f1a1a653a7e0b86208e06e",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10753/IF10753.9.pdf",
+          "official_publication": "2026-11-09",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "ENERGY STAR Program",
+        "version": "7"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-11",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "11",
+        "date": "2021-11-12",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44247",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2021-11-12_R44247_561595c6370635e60cc70acbc73de5f1af83edc1.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44247",
+            "sha1": "561595c6370635e60cc70acbc73de5f1af83edc1",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R44247/10",
+              "https://www.everycrsreport.com/files/2021-11-12_R44247_561595c6370635e60cc70acbc73de5f1af83edc1.pdf"
+            ]
+          }
+        },
+        "id": "R44247",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-09T19:41:07Z",
+        "required_by_recent_update": false,
+        "source_record": "R44247_10_2021-11-12",
+        "superseded_by_official_current": {
+          "historical_publication": "2021-11-12",
+          "id": "R44247",
+          "official_pdf_sha256": "acc06da9e2ef035bd37c40109af169c9a8ce36e5791099fcf57283410f200d22",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44247/R44247.12.pdf",
+          "official_publication": "2026-11-09",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "A Survey of House and Senate Committee Rules on Subpoenas",
+        "version": "10"
       }
     }
   ],

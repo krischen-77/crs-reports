@@ -1,0 +1,1115 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website</div>
+<div class="CoverDate">November 9, 2026
+            (R49512)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC2"><a href="#_Toc245130819"><em><span class="Hyperlink">United States Government Policy and Supporting Positions</span></em><span class="Hyperlink"> (The "Plum Book")</span></a></li>
+<li class="TOC2"><a href="#_Toc245130820"><span class="Hyperlink">The Plum Reporting Website</span></a></li>
+<li class="TOC3"><a href="#_Toc245130821"><span class="Hyperlink">Plum Reporting Website Searches</span></a></li>
+<li class="TOC3"><a href="#_Toc245130822"><span class="Hyperlink">Vacant Positions</span></a></li>
+<li class="TOC3"><a href="#_Toc245130823"><span class="Hyperlink">Historical Federal Political Appointment Information</span></a></li>
+<li class="TOC2"><a href="#_Toc245130824"><span class="Hyperlink">A Brief Overview of Select Political Appointment Types</span></a></li>
+<li class="TOC2"><a href="#_Toc245130825"><span class="Hyperlink">Identifying Political Appointee Positions Located at the State, City, or Regional Level</span></a></li>
+<li class="TOC3"><a href="#_Toc245130826"><span class="Hyperlink">Searching by State Name</span></a></li>
+<li class="TOC3"><a href="#_Toc245130827"><span class="Hyperlink">Searching by City</span></a></li>
+<li class="TOC3"><a href="#_Toc245130828"><span class="Hyperlink">Searching by Region</span></a></li>
+<li class="TOC2"><a href="#_Toc245130829"><span class="Hyperlink">Selected Examples of Regional Political Appointment Positions</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc245130811"><span class="Hyperlink">Figure 1. Screenshot of Plum Reporting Website Layout</span></a></li>
+<li><a href="#_Toc245130812"><span class="Hyperlink">Figure 2. Screenshot of the Plum Reporting Website Search Filters and Tools</span></a></li>
+<li><a href="#_Toc245130813"><span class="Hyperlink">Figure 3. Screenshot of the Plum Reporting Website Displaying a Vacancy</span></a></li>
+<li><a href="#_Toc245130814"><span class="Hyperlink">Figure 4. Screenshot of a CSV File That Displays Downloaded Data from The Plum Reporting Website</span></a></li>
+<li><a href="#_Toc245130815"><span class="Hyperlink">Figure 5. Screenshot of the Plum Reporting Website Displaying a State Name Search</span></a></li>
+<li><a href="#_Toc245130816"><span class="Hyperlink">Figure 6. Screenshot of the Plum Reporting Website Displaying a City Name Search</span></a></li>
+<li><a href="#_Toc245130817"><span class="Hyperlink">Figure 7. Screenshot of the Plum Reporting Website Displaying a Regional Search</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc245130818"><span class="Hyperlink">Table 1. Selected Examples of Regional Political Appointment Positions Listed on the Plum Reporting Website</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are many federal civil service leadership and support positions in the legislative and executive branches of the federal government that may be subject to noncareer (political) appointments. The nature of these positions varies widely and includes positions such as agency heads and their immediate subordinates, policy executives and advisors, and aides who report to these officials. Since 1952, successive volumes of <em>United States Government Policy and Supporting Positions</em> have identified the positions in the federal government to which political appointments can be made. The book is often referred to as the "Plum Book" due to both the purple cover of the physical book and the list of positions found within its pages. In 2022, Congress passed legislation requiring the information in the Plum Book to be published in an online database.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress may be interested in identifying certain information about these positions. Such information could include, for each position, its title, type of appointment, name of individual(s) currently holding the role, location, salary, tenure (if applicable), and expiration date of the term (if applicable).</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides a brief history and overview of the Plum Book and <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/">Plum Reporting website</a>, an explanation of the various political appointment types listed on the website, and examples of regional positions within federal agencies.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>United States Government Policy and Supporting Positions</em> (The "Plum Book")</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After winning the presidential election in 1952, President Eisenhower requested a list of federal government positions to which he could make noncareer appointments. As a result, the <em>United States Government Policy and Supporting Positions</em> book<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='Government Publishing Office, " United States Government Policy and Supporting Positions (Plum Book) ," https://www.govinfo.gov/collection/plum-book .'>1</a></sup> was created. The book is often referred to as the "Plum Book" due to both the purple cover of the physical book and the list of positions found within its pages. Since 1960, the Senate Committee on Homeland Security and Governmental Affairs and the House Committee on Government<strong> </strong>Reform (and the committees' predecessors) alternately published new editions of the Plum Book every four years.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The major categories of positions listed in the Plum Book include the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Executive Schedule and salary-equivalent positions paid at the rates established for levels I through V of the Executive Schedule</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Senior Executive Service "General" positions</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Senior Foreign Service positions</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Schedule C positions excepted from the competitive service by the President or by the director of the Office of Personnel Management (OPM) because of the confidential or policy-determining nature of the position duties </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Other positions at the GS-14 level and above excepted from the competitive civil service by law because of the confidential or policy-determining nature of the position duties<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="U.S. Congress, Senate Committee on Homeland Security and Governmental Affairs , United States Government Policy and Supporting Positions, 11 8 th Cong., 2 nd sess., committee print, November 12, 202 4 (GPO, 202 4 ), p. iii .">2</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc209613100"></a><a name="_Toc225421015"></a><a name="_Toc225426115"></a><a name="_Toc225432592"></a><a name="_Toc225775728"></a><a name="_Toc225778030"></a><a name="_Toc240888790"></a><a name="_Toc241239325"></a><a name="_Toc242365731"></a><a name="_Toc242366693"></a><a name="_Toc245118802"></a><a name="_Toc245127953"></a><a name="_Toc245128087"></a><a name="_Toc245128220"></a><a name="_Toc245129805"></a><a name="_Toc245130670"></a><a name="_Toc245130820"></a>The Plum Reporting Website</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2022, Congress passed the Periodically Listing Updates to Management Act (or PLUM Act) as a title of the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="P.L. 117-263 , Division E, Title L III, 136 Stat. 3255, codified at 5 U.S.C. § 3330f .">3</a></sup> The PLUM Act requires the OPM director to establish and maintain an online database<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='OPM , "Plum Reporting," https://www.opm.gov/about-us/open-government/plum-reporting/  .'>4</a></sup>—entitled the "Plum Reporting website"<span class="FootnoteReference"> </span><sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='This name reflects language from a March 2024 memorandum released by the OPM d irector wherein OPM labeled the website the "PLUM reporting website." OPM , "Guidance and Instructions on Periodically Listing Updates to Management (PLUM) Reporting," March 1, 2024 , https://www.opm.gov/chcoc/transmittals/2024/OPM%20Memo%20-%20Periodic%20Listing%20of%20Updates%20to%20Management%20 (PLUM)%20Reporting%203-1-2024.pdf .'>5</a></sup>—of content previously published in the Plum Book.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='A new federal noncareer employee category, Schedule G, was established in 2025 ( Scott Kupor, Director, OPM, " Memorandum: Guidance of Executive Order Creating Schedule in the Excepted Service , " July 29, 2025, https://www.opm.gov/chcoc/latest-memos/guidance-on-executive-order-creating-schedule-g-in-the-excepted-service.pdf ). P ositions in this category are not specifically identified in the Plum Act for inclusion in the Plum Reporting database. For a list of included categories, see...'>6</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As seen in the <a class="InternalLink" href="#_Ref235625097"><strong></strong><strong>Figure 1</strong></a> screenshot below, this database lists positions in the federal government to which political appointments can be made. The database is organized by appointing agency and generally includes, for each position, position title, name of incumbent, geographic location of the position, type of appointment, salary,<a name="_Ref242272198"></a><sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="The salary information listed on the Plum R eporting website reflects grades or salaries in effect as of the date that each agency last provided dat a (see footnote 11 ). More information about specific rates of federal pay and locality pay tables can be found on OPM's website at https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/  .">7</a></sup> and (if an appointment to the office has a fixed term) its length and expiration date.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="The Plum Reporting website further notes that if there is no entry in this column, the appointment has no fixed term.">8</a></sup> In some cases, it also lists individuals serving in acting roles.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title='If this is the case, the database will typically state "Acting" underneath the name of the incumbent or beside the title of the position . See the position of Attorney General in Figure 1 above as an example.'>9</a></sup> </p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref235625097"></a><a name="_Toc240888781"></a><a name="_Toc241239316"></a><a name="_Toc242365722"></a><a name="_Toc242366684"></a><a name="_Toc245118793"></a><a name="_Toc245127944"></a><a name="_Toc245128078"></a><a name="_Toc245128211"></a><a name="_Toc245129796"></a><a name="_Toc245130661"></a><a name="_Toc245130811"></a>Figure 1. Screenshot of Plum Reporting Website Layout</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R49512_files/0.png" style="border-top:0;border-bottom:0;border-left:0;border-right:NaNpt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Office of Personnel Management, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">"PLUM Reporting: Plum Data,"</span></a> September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-data/</span></a>.</p>
+<p class="FigureNote"><strong>Note</strong><strong>s</strong><strong>:</strong> Information regarding the abbreviations under the "Type of Appointment" column in Figure 1 can be found in the "<a class="InternalLink" href="#_Ref242271982">A Brief Overview of Select Political Appointment Types</a>" section. For information regarding the abbreviations under the "Pay Plan" column in Figure 1, see footnote <a class="InternalLink" href="#_Ref242272198">7</a> and Office of Personnel Management, "Federal Pay Plans and Schedules," September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/pay-plans-and-schedules/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">pay-plans-and-schedules/</span></a><span class="Hyperlink"></span>. </p>
+<p class="FigureNote">Additionally, though the screenshot of the Plum Reporting website above notes that Todd Blanche serves as Acting Attorney General, the day the screenshot was taken (September 27, 2026), he was no longer in the role as an acting individual. Rather, Blanche was confirmed to the Attorney General role on August 8, 2026. This is an example of how the website is typically not updated in real time. For more information, see page 3 of this report.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Not every listed position on the Plum Reporting website has an entry in every column. For example, the expiration column will have an entry only if the incumbent is serving in a position that has a fixed term.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="For more information on fixed term provisions, see CRS Insight IN12673, Fixed Term and &quot;For Cause&quot; Removal Provisions , by Henry B. Hogue and Todd Garvey . Additionally, in some cases, an individual i s statutorily permitted to serve beyond a term expiration date. This is often colloquially called a &quot;holdover . &quot; For example, a member of the Election Assistance Commission can serve &quot; after the expiration of the member ' s term until the successor of such member has taken office &quot; (52...">10</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Hlk234837122"></a>The information on the website is self-reported by each agency, and OPM publishes updates. It is typically not updated in real time. Under Title 5, Section 3330f(4)(A), of the <em>U.S. Code</em>, agency heads are required to provide updates not less than once a year on the policy and supporting positions in the agency, appointees occupying such positions, and appointees formerly occupying the positions. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Hlk234837293"></a>While agencies are required to certify that the information provided is complete and accurate,<a name="_Ref245127526"></a><sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Each agency's most recent certification date is available on OPM's website. OPM , &quot;Plum Reporting: Certification and Quality Assurance,&quot; https://www.opm.gov/about-us/open-government/plum-reporting/agency-certification/  .">11</a></sup> the data provided on the website is only as current as the most recent update conducted by OPM. T<a name="_Hlk234837342"></a>his issue of currency could result in discrepancies between an agency's real-time appointment numbers and those provided in the database. </p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref235627389"></a><a name="_Toc240888782"></a><a name="_Toc241239317"></a><a name="_Toc242365723"></a><a name="_Toc242366685"></a><a name="_Toc245118794"></a><a name="_Toc245127945"></a><a name="_Toc245128079"></a><a name="_Toc245128212"></a><a name="_Toc245129797"></a><a name="_Toc245130662"></a><a name="_Toc245130812"></a>Figure 2. Screenshot of the Plum Reporting Website Search Filters and Tools</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R49512_files/1.png" style="border-top:0;border-bottom:0;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Office of Personnel Management, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">"PLUM Reporting: Plum Data,"</span></a> September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-data/</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242365732"></a><a name="_Toc242366694"></a><a name="_Toc245118803"></a><a name="_Toc245127954"></a><a name="_Toc245128088"></a><a name="_Toc245128221"></a><a name="_Toc245129806"></a><a name="_Toc245130671"></a><a name="_Toc245130821"></a>Plum Reporting Website Searches</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Plum Reporting website provides drop-down categories that allow searching and filtering by agency<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Agency listings do not include agency acronyms.">12</a></sup> (e.g., department, independent regulatory, boards and commissions) and component<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Component options automatically filter based on agency selection.">13</a></sup> (e.g., bureau, office). By clicking "Advanced Filters" at the top right-hand corner of the search box, a user can additionally search by position, type of appointment, pay plan, and position status.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='The "position status" f ilter allows filtering by filled or vacant positions.'>14</a></sup> The screenshot in <a class="InternalLink" href="#_Ref235627389"><strong></strong><strong>Figure 2</strong></a> displays what the website looks like when "Advanced Filters" is checked.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The database also has the following search features available:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Filtering by </span></strong><strong><span class="BodyTextChar">Chief Financial Officer (CFO) Act </span></strong><strong><span class="BodyTextChar">a</span></strong><strong><span class="BodyTextChar">gencies</span></strong><strong><sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="For more information on this act , see CRS Insight IN11495, The Chief Financial Officers (CFO) Act of 1990: 30th Anniversary and Potential Issues for Congress , by Dominick A. Fiorentino and Clinton T. Brass .">15</a></sup></strong> <strong><span class="BodyTextChar">o</span></strong><strong><span class="BodyTextChar">nly</span></strong><strong><span class="BodyTextChar"> feature</span></strong><strong><span class="BodyTextChar">. </span></strong>This feature restricts results to positions within CFO agencies.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="There are currently 24 CFO Act agencies. For more information see 31 U.S.C. §901 (b)(1) .">16</a></sup> The toggle for the feature is located above the search filters and to the right of the "Agency" drop-down box.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>"Display Historical Data" feature</strong><strong>. </strong>This feature shows historical data for a position along with the current result. When this feature is activated, the name of the prior incumbent will appear below the current incumbent, and the dates of service will display below the position title (which can be clicked to display the position lineage). OPM notes that when a user clicks on a historical result, "historical records only include incumbencies within the current administration." This button is located under the search filters and above the results on the right-hand side of the page.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>"Search within results" feature</strong><strong>. </strong>This feature allows a user to type keywords to filter results. This text box is located under the search filters and above the results on the right-hand side of the page.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>"Download" feature</strong><strong>.</strong><strong> </strong>This feature allows a user to download all data in the Plum Reporting dataset in a CSV file (a type of file in the format of a spreadsheet). Once the data is downloaded, a user can filter or sort the data into a spreadsheet format. This download button is located under the search filters and above the results on the right-hand side of the page. It is labeled "All Data (CSV)" in blue text.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>"Sort by" feature</strong><strong>. </strong>This feature allows a user to sort results by position title; expiration date; ID; level, grade, or pay; location; name of incumbent; pay plan; tenure; or type of appointment. This drop-down menu is located under the search filters and above the results on the left-hand side of the page.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Positions may not always appear under their expected respective bureaus or offices. This may depend on how a department decides to submit a position for the website.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='For example, the a dministrator of the National Oceanic and Atmospheric Administration (NOAA) position is not listed among the search results when one filters the data to see the positions listed under NOAA. However, this position does appear under the Department of Commerce , Office of the Under Secretary component and is listed as " Under Secretary Oceans and Atmosphere (Administrator National Oceanic and Atmospheric Administration ). " This may be because the NOAA a dministr...'>17</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc209613102"></a><a name="_Toc225421017"></a><a name="_Toc225426117"></a><a name="_Toc225432594"></a><a name="_Toc242365733"></a><a name="_Toc242366695"></a><a name="_Toc245118804"></a><a name="_Toc245127955"></a><a name="_Toc245128089"></a><a name="_Toc245128222"></a><a name="_Toc245129807"></a><a name="_Toc245130672"></a><a name="_Toc245130822"></a>Vacant Positions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to the position titles and names of the incumbents, the Plum Reporting website also lists the vacancy status of a position.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="As of the Plum Reporting website update of June 15 , 202 6 .">18</a></sup> As mentioned previously, because the Plum Reporting website's data is typically not updated in real time, some of the information in the database may not be current. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Those seeking vacancy information may wish to supplement their Plum Reporting website searches by consulting the U.S. Government Accountability Office (GAO) Vacancy Tracker,<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="The GAO vacancy tracker is available at https://www.gao.gov/legal/other-legal-work/federal-vacancies-reform-act . T he vacancy tracker includes only information that federal departments and agencies have self-reported to GAO. For this reason, the results at this website may not be complete or current.">19</a></sup> federal agency websites, and Congress.gov's nominations database<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Congress.gov's nomination s database presents information about nominations to presidentially appointed, Senate-confirmed positions . While it does not explicitly identify the current status of a position, a user can determine whether the President has submitted a nomination to the Senate and what the status of the nomination is in the Senate. For more information on the nominations process, see CRS Report R44083, Appointment and Confirmation of Executive Branch Leadership:...">20</a></sup> as additional resources. It can be difficult to establish with certainty whether an agency, without a formal announcement, either (1) filled a vacancy by designating an individual to serve in an acting capacity or (2) assigned the duties of a vacant position to a current employee who is still officially occupying his or her current position.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref238804587"></a><a name="_Toc240888783"></a><a name="_Toc241239318"></a><a name="_Toc242365724"></a><a name="_Toc242366686"></a><a name="_Toc245118795"></a><a name="_Toc245127946"></a><a name="_Toc245128080"></a><a name="_Toc245128213"></a><a name="_Toc245129798"></a><a name="_Toc245130663"></a><a name="_Toc245130813"></a>Figure 3. Screenshot of the Plum Reporting Website Displaying a Vacancy</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image6.png" class="Figure" src="R49512_files/2.png" style="border-top:0;border-bottom:0;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Office of Personnel Management, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">"PLUM Reporting: Plum Data,"</span></a> September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-data/</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On the Plum Reporting website itself, positions listed as vacant do not display the appointment type associated with the position, as seen above in <a class="InternalLink" href="#_Ref238804587"><strong></strong><strong>Figure 3</strong></a>. OPM notes that this is because "several categories of positions can be filled by more than one type of appointment, e.g., Senior Executive Service (SES) positions listed in this publication may be filled by using career, noncareer, limited emergency, or limited term appointment authorities."<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='OPM , "Data Information," https://www.opm.gov/about-us/open-government/plum-reporting/data-information/  .'>21</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a user, keeping this OPM treatment of the appointment type in mind, clicks the drop-down and searches for a specific "Type of Appointment," the database will display both the relevant filled and vacant positions matching those criteria, even if the listed vacant positions themselves do not actively display an appointment type on the screen.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, if the Plum Reporting website data is downloaded into a CSV file, vacant positions will display their associated types of appointment in Column E of the downloaded spreadsheet. An example can be seen in <a class="InternalLink" href="#_Ref238805006"><strong></strong><strong>Figure 4</strong></a>. This may be useful when attempting to identify vacant positions with presidentially appointed, Senate-confirmed (PAS) and presidentially appointed (PA) appointment types. For such positions, the category of position cannot be filled by more than one appointment type, so the appointment type should appear in every case.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref238805006"></a><a name="_Toc240888784"></a><a name="_Toc241239319"></a><a name="_Toc242365725"></a><a name="_Toc242366687"></a><a name="_Toc245118796"></a><a name="_Toc245127947"></a><a name="_Toc245128081"></a><a name="_Toc245128214"></a><a name="_Toc245129799"></a><a name="_Toc245130664"></a><a name="_Toc245130814"></a>Figure 4. Screenshot of a CSV File That Displays Downloaded Data from The Plum Reporting Website</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image7.png" class="Figure" src="R49512_files/3.png" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><a name="_Toc209613104"></a><a name="_Toc225421018"></a><a name="_Toc225426118"></a><a name="_Toc225432595"></a><strong>Source:</strong> Office of Personnel Management, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">"PLUM Reporting: Plum Data,"</span></a> September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-data/</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc242365734"></a><a name="_Toc242366696"></a><a name="_Toc245118805"></a><a name="_Toc245127956"></a><a name="_Toc245128090"></a><a name="_Toc245128223"></a><a name="_Toc245129808"></a><a name="_Toc245130673"></a><a name="_Toc245130823"></a>Historical Federal Political Appointment Information</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The website also hosts a <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-archive/"><span class="Hyperlink">Plum Archive</span></a>,<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='OPM , "Plum Archive," https://www.opm.gov/about-us/open-government/plum-reporting/plum-archive/  .'>22</a></sup> which includes an Excel spreadsheet of positions listed on the website during the Biden Administration (January 21, 2021, through January 20, 2025) and PDFs of the published Plum Book editions from 2016, 2020, and 2024.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="Historical copies of the Plum Book dating back to 1996 can be found in downloadable PDF format at https://www.govinfo.gov/collection/plum-book .">23</a></sup> Because of the snapshot nature of Plum Book data, it may not be comprehensive or include all previous positions or prior incumbents. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc225775730"></a><a name="_Toc225778032"></a><a name="_Toc240888791"></a><a name="_Toc241239326"></a><a name="_Ref242271982"></a><a name="_Ref242365619"></a><a name="_Toc242365735"></a><a name="_Toc242366697"></a><a name="_Toc245118806"></a><a name="_Toc245127957"></a><a name="_Toc245128091"></a><a name="_Toc245128224"></a><a name="_Toc245129809"></a><a name="_Toc245130674"></a><a name="_Toc245130824"></a>A Brief Overview of Select Political Appointment Types</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Plum Reporting website includes positions that can be filled through political (or noncareer) appointment. It does not include positions in the civil service that are filled through a competitive hiring process.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="For more information, see CRS Report R45635, Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements , by Jon O. Shimabukuro et al. ; and CRS Legal Sidebar LSB11412, Schedule Policy/Career: 2026 Final Rule, Legal Challenges, and Issues for Lawmakers , by Jimmy Balser, Mainon A. Schwartz, and Jon O. Shimabukuro .">24</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A brief description of the position types listed in the database is provided below.</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Hlk182391486"></a><strong>Presidentially</strong><strong> </strong><strong>a</strong><strong>ppointed</strong><strong>, Senate</strong><strong>-</strong><strong>c</strong><strong>onfirmed</strong><strong> (PAS)</strong><strong>.</strong><strong> </strong><a name="_Hlk181949070"></a>These positions are often referred to as "advice and consent positions" or "PAS positions." PAS positions are filled through nomination of an individual by the President. The President <a class="ExternalLink" href="https://www.crs.gov/Reports/R44083?source=author"><span class="Hyperlink">submits </span><span class="Hyperlink">the</span><span class="Hyperlink"> nomination to the Senate for its consideration</span></a>.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="For more information on this process, see CRS Report R44083, Appointment and Confirmation of Executive Branch Leadership: An Overview , by Henry B. Hogue and Maeve P. Carey .">25</a></sup> When the Senate confirms a nomination, the President <a class="ExternalLink" href="http://www.crs.gov/Reports/R44083"><span class="Hyperlink">may formally appoint the individual to the position</span></a>. Under certain circumstances, the President can exercise constitutional recess appointment authority to <a class="ExternalLink" href="https://www.crs.gov/Reports/RS21308?source=author"><span class="Hyperlink">appoint an individual to an office while the Senate is in recess</span></a>.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="For more information on recess appointments, see CRS Report RS21308, Recess Appointments: Frequently Asked Questions , by Henry B. Hogue .">26</a></sup> Most PAS appointees serve at the pleasure of the President.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="For more information on th is topic , see CRS Legal Sidebar LSB11448, Trump v. Slaughter and the Future of For-Cause Removal Protections , by Benjamin M. Barczewski, Todd Garvey, and Jonathan M. Gaffney ; and CRS Legal Sidebar LSB11449, Trump v. Cook and For-Cause Removal of Federal Reserve Governors , by Jonathan M. Gaffney and Todd Garvey .">27</a></sup></li>
+<li class="ListContinue" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Plum Reporting website does not list positions in the judicial branch, such as U.S. circuit court and district judge positions, though these positions are presidentially appointed and Senate-confirmed.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="While the Plum Reporting website does not list district or circuit judicial positions, the United States Courts website provides a series of tables that lists recent judicial confirmations and current judicial vacancies at https://www.uscourts.gov/data-news/judicial-vacancies/confirmation-listing . For more information on the appointment process for appointing judges to the U.S. circuit and district courts, see CRS Report R43762, The Appointment Process for U.S. Circuit and District...">28</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Hlk182390864"></a><strong>Presidentially</strong><strong> </strong><strong>a</strong><strong>ppointed. </strong>These positions are often referred to as "PA" positions. A PA appointment requires the President to select and appoint an individual for the position. No Senate confirmation is required. Most PA appointees serve at the pleasure of the President.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="For more information on this topic, see CRS Legal Sidebar LSB11448, Trump v. Slaughter and the Future of For-Cause Removal Protections , by Benjamin M. Barczewski, Todd Garvey, and Jonathan M. Gaffney , and CRS Legal Sidebar LSB11449, Trump v. Cook and For-Cause Removal of Federal Reserve Governors , by Jonathan M. Gaffney and Todd Garvey .">29</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Schedule C. </strong>Schedule C appointees serve in confidential or policy-determining positions.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='For more information on Schedule C appointments, see "Position Descriptions: Schedule C Positions" on the Plum Reporting website at https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/  .'>30</a></sup> <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/"><span class="Hyperlink">Such appointments</span><strong><span class="Hyperlink"> </span></strong><span class="Hyperlink">do not go through a merit-based competitive hiring process</span></a><span class="Hyperlink">. R</span><span class="Hyperlink">ather, in most cases, </span><span class="Hyperlink">an agency </span><span class="Hyperlink">submit</span><span class="Hyperlink">s a</span><span class="Hyperlink"> request to OPM to place a position in a Schedule C appointment category, and the authorization and granting of each position is considered on a case-by-case basis</span><span class="Hyperlink">.</span><sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='Per OPM, "I n addition to the Schedule C positions authorized by the OPM Director, a limited number of positions may be placed under Schedule C by Executive Order of the President or by legislation …. The only time when OPM approval is not required for a Schedule C position is when a position is filled by a temporary Schedule C appointment during a Presidential transition, a change of agency head, or establishment of a new agency. " S ee "Position Descriptions: Schedule C Positions" on the P...'>31</a></sup> Schedule C appointees "serve at the pleasure of the appointing authority (usually the agency head) and may be removed at any time."<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title='OPM , "Plum Reporting: Position Descriptions," October 8, 2026, https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/#SCP .'>32</a></sup> OPM states that "Schedule C positions authorized by OPM are automatically revoked when the incumbent leaves the position (i.e., there is no such thing as a 'vacant' Schedule C position)." If an individual departs a role and a "vacancy" occurs, the agency must submit to OPM a new request to fill the position as a Schedule C appointment type.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Hlk225231459"></a><strong>Career Senior Executive Service (SES) </strong><strong>a</strong><strong>ppointment</strong><strong>.</strong> <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11743"><span class="Hyperlink">Career SES appointees</span></a> typically serve in top-level policy and supervisory roles.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="For more information, see CRS In Focus IF11743, The Senior Executive Service: An Overview , by Maeve P. Carey .">33</a></sup> These positions are filled through a merit-based competitive hiring process. Generally, incumbents may be removed from the SES for less than fully successful executive performance.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="5 U.S.C. §3592(a)(2) .">34</a></sup> Career appointees who are removed from the SES for performance reasons may be <a class="ExternalLink" href="https://uscode.house.gov/view.xhtml?req=(title:5%20section:3592%20edition:prelim)%20OR%20(granuleid:USC-prelim-title5-section3592)&amp;f=treesort&amp;edition=prelim&amp;num=0&amp;jumpTo=true"><span class="Hyperlink">placed in non-SES civil service positions</span></a>.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="5 U.S.C. §3594(b)(1) .">35</a></sup> Career appointees may also <a class="ExternalLink" href="https://uscode.house.gov/view.xhtml?req=(title:5%20section:7543%20edition:prelim)%20OR%20(granuleid:USC-prelim-title5-section7543)&amp;f=treesort&amp;edition=prelim&amp;num=0&amp;jumpTo=true"><span class="Hyperlink">be removed generally from federal service</span></a> for misconduct, neglect of duty, malfeasance, or failure to accept a directed reassignment or to accompany a position in a transfer of function.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="5 U.S.C. §7543 .">36</a></sup> </li>
+<li class="ListContinue" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most SES positions are filled through career appointments.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="See noncareer, limited term, and limited emergency appointment types in this report for additional details.">37</a></sup> And, not all career SES positions are listed on the Plum Reporting website. For example, the website does not include SES positions that are "career reserved."<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="Career reserved positions are those that involve day-to-day functions of government and require impartiality. By law (5 U.S.C. §3132(b)(1)) and regulation (5 C.F.R. §214.402), certain types of positions must be removed from political influence to ensure public confidence in the impartiality of certain government functions. Examples include audits, inspections, civil or criminal law enforcement, grants administration, and security matters, the principal duties of which involve day-to-day govern...">38</a></sup> Approximately half of federal SES positions fall into this category. Career-reserved positions may be filled only through career appointments and therefore do not meet the criteria for inclusion in the Plum Book or Plum Reporting website. OPM publishes an annual list of "career reserved" SES positions in the <em>Federal Register</em>.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="The most recent Federal Register notice lists career reserved SES positions for calendar year 2024. It can be found at https://www.federalregister.gov/documents/2025/05/20/2025-08853/senior-executive-service-positions-that-were-career-reserved-during-calendar-year-2024 .">39</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Noncareer </strong><strong>SES </strong><strong>a</strong><strong>ppointment. </strong>Noncareer SES appointees are not hired through a competitive process. However, <a class="ExternalLink" href="https://uscode.house.gov/view.xhtml?req=(title:5%20section:3394%20edition:prelim)%20OR%20(granuleid:USC-prelim-title5-section3394)&amp;f=treesort&amp;edition=prelim&amp;num=0&amp;jumpTo=true"><span class="Hyperlink">they must meet the position qualifications</span></a>,<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="5 U.S.C. §3394 .">40</a></sup><span class="Hyperlink"> and OPM must generally approve an agency's use of noncareer hiring authority</span>. A noncareer appointee serves at the pleasure of the appointing authority (usually the agency head) and <a class="ExternalLink" href="http://www.crs.gov/Reports/IF12721"><span class="Hyperlink">may be removed at any time</span></a>.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="For more information, see CRS In Focus IF12721, Presidential Transitions: Executive Branch Political Appointment Status , by Henry B. Hogue .">41</a></sup> Up to <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11743"><span class="Hyperlink">10% of SES positions</span></a> across the executive branch may be filled by noncareer appointees at any given time.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="5 U.S.C. §3 134(b). For more information, see CRS In Focus IF11743, The Senior Executive Service: An Overview , by Maeve P. Carey .">42</a></sup> The proportion of noncareer appointees may vary by agency, however, so noncareer appointments at some agencies may exceed 10%, while such appointments at other agencies may be fewer than 10%. <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11743"><span class="Hyperlink">Generally, no agency may exceed a 25% limit</span></a>.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="5 U.S.C. §3 134(d).">43</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Limited </strong><strong>t</strong><strong>erm </strong><strong>SES </strong><strong>a</strong><strong>ppointment (TA).</strong> Limited term appointees typically serve in short-term project-related or presidential transition roles. <a class="ExternalLink" href="https://www.opm.gov/policy-data-oversight/senior-executive-service/reference-materials/guidesesservices.pdf"><span class="Hyperlink">Their service may not exceed a period of </span><span class="Hyperlink">three</span><span class="Hyperlink"> </span><span class="Hyperlink">years</span></a>.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="5 U.S.C. §3 132(a)(5).">44</a></sup> Such an appointee serves at the pleasure of the appointing authority (usually the agency head) and may be removed at any time. By law, limited appointments may not exceed 5% of all SES positions government-wide.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="5 U.S.C. §3 134(e). This 5% cap encompasses positions in both limited term and limited emergency appointments. For more information, see CRS In Focus IF11743, The Senior Executive Service: An Overview , by Maeve P. Carey .">45</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Limited </strong><strong>e</strong><strong>mergency </strong><strong>SES </strong><strong>a</strong><strong>ppointment (EA).</strong> Limited emergency appointees typically serve in short-term roles to meet urgent and unanticipated needs. <a class="ExternalLink" href="https://www.opm.gov/policy-data-oversight/senior-executive-service/reference-materials/guidesesservices.pdf"><span class="Hyperlink">Their service may not exceed a period of 18 months</span></a>.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="5 U.S.C. §3 132(a)(6).">46</a></sup> Such an appointee serves at the pleasure of the appointing authority (usually the agency head) and may be removed at any time. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Appointment </strong><strong>e</strong><strong>xcepted by </strong><strong>s</strong><strong>tatute (XS). </strong><a class="ExternalLink" href="https://chcoc.gov/sites/default/files/Periodically%20Listing%20Updates%20to%20Management%20%28PLUM%29%20Guidance%20March%202024.pdf"><span class="Hyperlink">These appointments are authorized by the parent </span><span class="Hyperlink">agencies'</span><span class="Hyperlink"> </span><span class="Hyperlink">governing legislation</span></a> and are subject to the terms of said legislation. Sometimes these positions are referred to as excepted service positions.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title="For more information, see CRS Report R45635, Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements , by Jon O. Shimabukuro et al. .">47</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc209613105"></a><a name="_Toc225421019"></a><a name="_Toc225426119"></a><a name="_Toc225432596"></a><a name="_Toc225775731"></a><a name="_Toc225778033"></a><a name="_Toc240888792"></a><a name="_Toc241239327"></a><a name="_Toc242365736"></a><a name="_Toc242366698"></a><a name="_Toc245118807"></a><a name="_Toc245127958"></a><a name="_Toc245128092"></a><a name="_Toc245128225"></a><a name="_Toc245129810"></a><a name="_Toc245130675"></a><a name="_Toc245130825"></a>Identifying Political Appointee Positions Located at the State, City, or Regional Level</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congressional offices may be interested in identifying political appointee positions located at the state, city, or regional level. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While the Plum Reporting website lists some positions that are appointed to specific states or districts,<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title='Some U.S. Marshal and U.S. Attorney appointments may be further separated into regional "districts" within states , although this can vary. T hese "districts" are not congressional districts. Each federal judicial district has a U.S. A ttorney and a U.S. M arshal, per 28 U.S.C. § 541 and 28 U.S.C. § 561. The federal judicial districts are also established in statute in 28 U.S.C. Chapter 5. For example, the Plum Reporting website lists one U.S. Attorney appointed to the state of...'>48</a></sup> such as U.S. Marshals and U.S. Attorneys, it does not list any U.S. district or circuit judge positions.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="U.S. district and circuit court judges are presidentially appointed and Senate-confirmed positions. While the Plum Reporting website does not list district or circuit court judges , the United States Courts website provides a series of tables that lists recent judicial confirmations and current judicial vacancies at https://www.uscourts.gov/data-news/judicial-vacancies/confirmation-listing . For more information on the appointment process for appointing judges to the U.S. c...">49</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Below, CRS has included several screenshots from the Plum Reporting website of searches for political appointee positions at the state, city, and regional levels. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc225426120"></a><a name="_Toc225432597"></a><a name="_Toc225775732"></a><a name="_Toc225778034"></a><a name="_Toc240888793"></a><a name="_Toc241239328"></a><a name="_Toc242365737"></a><a name="_Toc242366699"></a><a name="_Toc245118808"></a><a name="_Toc245127959"></a><a name="_Toc245128093"></a><a name="_Toc245128226"></a><a name="_Toc245129811"></a><a name="_Toc245130676"></a><a name="_Toc245130826"></a>Searching by State Name</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc240888785"></a><a name="_Toc241239320"></a><a name="_Toc242365726"></a><a name="_Toc242366688"></a><a name="_Toc245118797"></a><a name="_Toc245127948"></a><a name="_Toc245128082"></a><a name="_Toc245128215"></a><a name="_Toc245129800"></a><a name="_Toc245130665"></a><a name="_Toc245130815"></a>Figure 5. Screenshot of the Plum Reporting Website Displaying a State Name Search</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image8.png" class="Figure" src="R49512_files/4.png" style="border-top:0;border-bottom:0;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Office of Personnel Management, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">"PLUM Reporting: Plum Data,"</span></a> September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-data/</span></a></p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To identify positions located in a specific state or city, a user can either search for a city or state within the "Search Within Results" box on the Plum Reporting website (see screenshots above and below) or download the dataset into a CSV file and filter it by location, found in column G of the downloaded spreadsheet. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When searching using the "Search Within Results" box on the Plum Reporting website, incomplete results may occur. For example, typing the state name may pull up positions that have the state name in the position titles but may not capture all positions located in the state.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title='As an example, entering Delaware into the "Search Within Results" box to identify positions in Delaware pulls up positions that have the word Delaware in the title, but it does not identify positions located in Delaware that do not have the word in the title , as the locations of positions are listed as cities followed by state abbreviation s .'>50</a></sup> Similarly, typing a state abbreviation into the "Search Within Results" may pull up extraneous results in addition to positions within the state.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title='As an example, entering FL into the "Search Within Results" box to identify positions in Florida pulls up positions located in Florida, individuals with names such as Florence, and positions with the word flight in the title, among other items.'>51</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As such, trying a variety of search options may yield more comprehensive results.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc225426121"></a><a name="_Toc225432598"></a><a name="_Toc225775733"></a><a name="_Toc225778035"></a><a name="_Toc240888794"></a><a name="_Toc241239329"></a><a name="_Toc242365738"></a><a name="_Toc242366700"></a><a name="_Toc245118809"></a><a name="_Toc245127960"></a><a name="_Toc245128094"></a><a name="_Toc245128227"></a><a name="_Toc245129812"></a><a name="_Toc245130677"></a><a name="_Toc245130827"></a>Searching by City</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc240888786"></a><a name="_Toc241239321"></a><a name="_Toc242365727"></a><a name="_Toc242366689"></a><a name="_Toc245118798"></a><a name="_Toc245127949"></a><a name="_Toc245128083"></a><a name="_Toc245128216"></a><a name="_Toc245129801"></a><a name="_Toc245130666"></a><a name="_Toc245130816"></a>Figure 6. Screenshot of the Plum Reporting Website Displaying a City Name Search</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image9.png" class="Figure" src="R49512_files/5.png" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:0;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Office of Personnel Management, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">"PLUM Reporting: Plum Data,"</span></a> September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-data/</span></a></p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Plum Book website notes that the "Washington, D.C." location includes positions in the entire metropolitan area and therefore may include some areas of Maryland and Virginia.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title='See OPM, " Data Information ," https://www.opm.gov/about-us/open-government/plum-reporting/data-information/  .'>52</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc225426122"></a><a name="_Toc225432599"></a><a name="_Toc225775734"></a><a name="_Toc225778036"></a><a name="_Toc240888795"></a><a name="_Toc241239330"></a><a name="_Toc242365739"></a><a name="_Toc242366701"></a><a name="_Toc245118810"></a><a name="_Toc245127961"></a><a name="_Toc245128095"></a><a name="_Toc245128228"></a><a name="_Toc245129813"></a><a name="_Toc245130678"></a><a name="_Toc245130828"></a>Searching by Region</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc240888787"></a><a name="_Toc241239322"></a><a name="_Toc242365728"></a><a name="_Toc242366690"></a><a name="_Toc245118799"></a><a name="_Toc245127950"></a><a name="_Toc245128084"></a><a name="_Toc245128217"></a><a name="_Toc245129802"></a><a name="_Toc245130667"></a><a name="_Toc245130817"></a>Figure 7. Screenshot of the Plum Reporting Website Displaying a Regional Search</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image10.png" class="Figure" src="R49512_files/6.png" style="border-top:0;border-bottom:NaNpt  #000000;border-left:0;border-right:NaNpt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Office of Personnel Management, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">"PLUM Reporting: Plum Data,"</span></a> September 27, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-us/</span><span class="Hyperlink"></span><span class="Hyperlink">open-government/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-reporting/</span><span class="Hyperlink"></span><span class="Hyperlink">plum-data/</span></a></p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To identify political appointee positions located at the regional level, a user can type "region" into the "Position" drop-down filter on the Plum Reporting website in order to find positions with the word <em>region</em> in the name, or a user can type "region" or "regional" into the "Search Within Results" box (see screenshot above). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Regions and regional responsibilities can vary from agency to agency, and not all region names and areas may match across the government.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="For example, the Federal Emergency Management Agency currently has 10 regional administrators covering 10 regions , and it lists that Region 1 within the agency includes Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont and 10 t ribal n ations. However, the National Park Service has seven regional directors covering 12 regions , and it lists that Region 1 within the agency includes sites in Connecticut, Delaware, the District of Columbia,...">53</a></sup> Agency websites may be the best resource to describe what area a regional position covers. For examples of these agency web pages, see <a class="InternalLink" href="#_Ref242362009"><strong></strong><strong>Table 1</strong></a>. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc209613106"></a><a name="_Toc225421020"></a><a name="_Toc225426123"></a><a name="_Toc225432600"></a><a name="_Toc225775735"></a><a name="_Toc225778037"></a><a name="_Toc240888796"></a><a name="_Toc241239331"></a><a name="_Toc242365740"></a><a name="_Toc242366702"></a><a name="_Toc245118811"></a><a name="_Toc245127962"></a><a name="_Toc245128096"></a><a name="_Toc245128229"></a><a name="_Toc245129814"></a><a name="_Toc245130679"></a><a name="_Toc245130829"></a>Selected Examples of Regional Political Appointment Positions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congressional staff may seek to identify regional positions in their districts or states. <a class="InternalLink" href="#_Ref225425265"><strong></strong><strong>Table 1</strong></a> below provides examples of regional political appointment positions identified in the Plum Reporting website. To identify the regional positions and contact information, links to relevant agency website pages (where identifiable and applicable) are provided in the "Relevant Agency Webpage" column. This list provides examples and may not include all regional political appointment positions. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, some federal agencies have recently reportedly announced the consolidation, reorganization, or closure of several regional offices, which could affect regional appointment positions and regional office locations. Where possible, CRS has included any recently identified announcements or status updates in the table footnotes. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Toc419900428"></a><a name="_Toc489369788"></a><a name="_Toc489369944"></a><a name="_Toc489428946"></a><a name="_Toc498599000"></a><a name="_Toc498599246"></a><a name="_Toc499635885"></a><a name="_Toc33532881"></a><a name="_Toc33534599"></a><a name="_Toc33540857"></a><a name="_Ref225425265"></a><a name="_Ref225426018"></a><a name="_Toc209613098"></a><a name="_Toc225421013"></a><a name="_Toc225426113"></a><a name="_Toc225432590"></a><a name="_Toc225775726"></a><a name="_Toc225778028"></a><a name="_Toc240888788"></a><a name="_Ref242362009"></a><a name="_Toc241239323"></a><a name="_Toc242365729"></a><a name="_Toc242366691"></a><a name="_Toc245118800"></a><a name="_Toc245127951"></a><a name="_Toc245128085"></a><a name="_Toc245128218"></a><a name="_Toc245129803"></a><a name="_Toc245130668"></a><a name="_Toc245130818"></a>Table 1. Selected Examples of Regional Political Appointment Positions Listed on the Plum Reporting Website</p>
+<p class="TableSubTitle">As of September 21, 2026</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Agency</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Office</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Position (Appointment Type)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Relevant Agency Webpage</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="5" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Agriculture</strong><strong> (USDA)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">U.S. Forest Service<a class="InternalLink" href="#_Ref319676846"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup></a></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Foresters<a class="InternalLink" href="#_Ref319676847"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">b</span></sup></a> (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.fs.usda.gov/about-agency/contact-us/regional-offices"><span class="Hyperlink">https://www.fs.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-agency/</span><span class="Hyperlink"></span><span class="Hyperlink">contact-us/</span><span class="Hyperlink"></span><span class="Hyperlink">regional-offices</span></a></p>
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fs.usda.gov/about-agency/reorganization"><span class="Hyperlink">https://www.fs.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-agency/</span><span class="Hyperlink"></span><span class="Hyperlink">reorganization</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Food and Nutrition Service<a class="InternalLink" href="#_Ref319676848"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">c</span></sup></a></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fns.usda.gov/fns-regional-offices"><span class="Hyperlink">https://www.fns.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">fns-regional-offices</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Natural Resources Conservation Service<a class="InternalLink" href="#_Ref319676849"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">d</span></sup></a></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Conservationists (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"> aa</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Office of General Counsel</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Attorneys (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.usda.gov/about-usda/general-information/staff-offices/office-general-counsel/about-ogc"><span class="Hyperlink">https://www.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-usda/</span><span class="Hyperlink"></span><span class="Hyperlink">general-information/</span><span class="Hyperlink"></span><span class="Hyperlink">staff-offices/</span><span class="Hyperlink"></span><span class="Hyperlink">office-general-counsel/</span><span class="Hyperlink"></span><span class="Hyperlink">about-ogc</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="5" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Commerce</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">National Marine Fisheries Service<a class="InternalLink" href="#_Ref319676850"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">e</span></sup></a></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fisheries.noaa.gov/contact-directory/regional-offices"><span class="Hyperlink">https://www.fisheries.noaa.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">contact-directory/</span><span class="Hyperlink"></span><span class="Hyperlink">regional-offices</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Health and Human Services</strong><strong> (HHS)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Office of the General Counsel<a class="InternalLink" href="#_Ref319676851"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">f</span></sup></a></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Chief Counsels (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">aa</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Office of Intergovernmental and External Affairs</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (SC)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.hhs.gov/about/agencies/iea/regional-offices/index.html"><span class="Hyperlink">https://www.hhs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">agencies/</span><span class="Hyperlink"></span><span class="Hyperlink">iea/</span><span class="Hyperlink"></span><span class="Hyperlink">regional-offices/</span><span class="Hyperlink"></span><span class="Hyperlink">index.html</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Homeland Security</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Cybersecurity and Infrastructure Security Agency</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (NA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.cisa.gov/about/regions"><span class="Hyperlink">https://www.cisa.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">regions</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Federal Emergency Management Agency</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (NA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/about/regions"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">regions</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Transportation Security Administration</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (XS)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">aa</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Housing and Urban Development</strong><strong> (HUD)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Office of Field Policy and Management<a class="InternalLink" href="#_Ref319676852"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">g</span></sup></a></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (SC)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.hud.gov/contactus/local#regions"><span class="Hyperlink">https://www.hud.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">contactus/</span><span class="Hyperlink"></span><span class="Hyperlink">local#regions</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Justice</strong><strong><a class="InternalLink" href="#_Ref319676853"></a></strong><sup></sup><sup></sup><strong></strong><sup><span class="TableTextFootnoteReference">h</span></sup><strong></strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Executive Office for U.S. Attorneys</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">U.S. Attorneys (PAS)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.justice.gov/usao/find-your-united-states-attorney"><span class="Hyperlink">https://www.justice.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">usao/</span><span class="Hyperlink"></span><span class="Hyperlink">find-your-united-states-attorney</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Federal Bureau of Prisons</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.bop.gov/about/facilities/offices.jsp"><span class="Hyperlink">https://www.bop.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">facilities/</span><span class="Hyperlink"></span><span class="Hyperlink">offices.jsp</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">United States Marshals Service</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">U.S. Marshals (PAS)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.usmarshals.gov/resources/publications/us-marshals-list"><span class="Hyperlink">https://www.usmarshals.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">resources/</span><span class="Hyperlink"></span><span class="Hyperlink">publications/</span><span class="Hyperlink"></span><span class="Hyperlink">us-marshals-list</span></a></p>
+<p class="TableText" style="text-align:center;"></p>
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.usmarshals.gov/who-we-are/contact-us/district-office-contact-information"><span class="Hyperlink">https://www.usmarshals.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">who-we-are/</span><span class="Hyperlink"></span><span class="Hyperlink">contact-us/</span><span class="Hyperlink"></span><span class="Hyperlink">district-office-contact-information</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Labor</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Employment and Training Administration</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Representatives (SC)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.dol.gov/agencies/eta/regions"><span class="Hyperlink">https://www.dol.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">agencies/</span><span class="Hyperlink"></span><span class="Hyperlink">eta/</span><span class="Hyperlink"></span><span class="Hyperlink">regions</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Occupational Safety and Health Administration</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.osha.gov/contactus/bystate"><span class="Hyperlink">https://www.osha.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">contactus/</span><span class="Hyperlink"></span><span class="Hyperlink">bystate</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Wage and Hour Division</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">aa</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of the Interior</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Bureau of Indian Affairs</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.bia.gov/regional-offices"><span class="Hyperlink">https://www.bia.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">regional-offices</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Bureau of Ocean Energy Management<a class="InternalLink" href="#_Ref319676854"><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">i</span></sup></a></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.boem.gov/regions/boem-regions"><span class="Hyperlink">https://www.boem.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">regions/</span><span class="Hyperlink"></span><span class="Hyperlink">boem-regions</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Bureau of Reclamation</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.usbr.gov/main/offices.html"><span class="Hyperlink">https://www.usbr.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">main/</span><span class="Hyperlink"></span><span class="Hyperlink">offices.html</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Fish and Wildlife Service</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fws.gov/about/regions"><span class="Hyperlink">https://www.fws.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">regions</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">National Park Service</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Directors (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.nps.gov/aboutus/organizational-structure.htm"><span class="Hyperlink">https://www.nps.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">aboutus/</span><span class="Hyperlink"></span><span class="Hyperlink">organizational-structure.htm</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Transportation</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.transportation.gov/rural/dot-state-contacts"><span class="Hyperlink">https://www.transportation.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">rural/</span><span class="Hyperlink"></span><span class="Hyperlink">dot-state-contacts</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Federal Transit Administration</p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (CA)</p>
+</td>
+<td colspan="3" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.transit.dot.gov/about/regional-offices/regional-offices"><span class="Hyperlink">https://www.transit.dot.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">regional-offices/</span><span class="Hyperlink"></span><span class="Hyperlink">regional-offices</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Department of Veterans Affairs</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Veterans Benefits Administration</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Executive Directors of Regional Offices (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">aa</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>Environmental Protection Agency</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (NA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.epa.gov/aboutepa/regional-and-geographic-offices"><span class="Hyperlink">https://www.epa.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">aboutepa/</span><span class="Hyperlink"></span><span class="Hyperlink">regional-and-geographic-offices</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>General Services Administration</strong><strong> (GSA)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (SC)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">aa</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Nuclear Regulatory Commission</strong><strong> (NRC)</strong><strong><a class="InternalLink" href="#_Ref319676855"></a></strong><sup></sup><sup></sup><strong></strong><sup><span class="TableTextFootnoteReference">j</span></sup><strong></strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.nrc.gov/reading-rm/doc-collections/maps/nrc-regions"><span class="Hyperlink">https://www.nrc.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">reading-rm/</span><span class="Hyperlink"></span><span class="Hyperlink">doc-collections/</span><span class="Hyperlink"></span><span class="Hyperlink">maps/</span><span class="Hyperlink"></span><span class="Hyperlink">nrc-regions</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Small Business Administration</strong><strong> (SBA)</strong><strong><a class="InternalLink" href="#_Ref319676856"></a></strong><sup></sup><sup></sup><strong></strong><sup><span class="TableTextFootnoteReference">k</span></sup><strong></strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Office of Field Operations</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Administrators (SC)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.sba.gov/about-sba/sba-newsroom"><span class="Hyperlink">https://www.sba.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-sba/</span><span class="Hyperlink"></span><span class="Hyperlink">sba-newsroom</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Social Security Administration</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:69.1803072pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Office of Regional Commissioners</p>
+</td>
+<td style="width:35.60582016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Regional Commissioners (CA)</p>
+</td>
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">aa</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableNote"><a name="_Ref319676845"></a><strong>Note</strong><strong>s</strong><strong>:</strong> Where "aa" is noted in the table above, CRS was unable to identify an applicable agency website. For more information on the various appointment types as abbreviated in the third column of the table, see the "<a class="InternalLink" href="#_Ref242365619">A Brief Overview of Select Political Appointment Types</a>" section earlier in the report.</p>
+<p class="TableNumberedNote">a. <a name="_Ref319676846"></a>In a July 2025 memo, USDA Secretary Rollins announced that as part of a USDA reorganization plan, the Forest Service will "phase out the nine Regional Offices over the next year and implementation activities will take into consideration the ongoing fire season." Secretary Brooke Rollins, "Department of Agriculture Reorganization Plan," July 24, 2025, <a class="ExternalLink" href="https://www.usda.gov/sites/default/files/documents/sm-1078-015.pdf"><span class="Hyperlink">https://www.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">sm-1078-015.pdf</span></a>.  </p>
+<p class="TableNumberedNote">b. <a name="_Ref319676847"></a>On March 31, 2026, the Forest Service announced that its headquarters would be relocating to Salt Lake City, UT, and that "the Forest Service will begin transitioning to a state-based organizational model designed to shift authority closer to the field by organizing leadership around state-level accountability, supported by shared operational service centers and a unified national research enterprise. Under the new model, 15 state directors will be distributed throughout the country to oversee Forest Service operations within one or more states." For more information, see Forest Service, "Forest Service Reorganization," <a class="ExternalLink" href="https://www.fs.usda.gov/about-agency/reorganization"><span class="Hyperlink">https://www.fs.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-agency/</span><span class="Hyperlink"></span><span class="Hyperlink">reorganization</span></a>; and USDA, "USDA Prioritizing Common Sense Forest Management, Moves Forest Service Headquarters to Salt Lake City," press release, March 31, 2026, <a class="ExternalLink" href="https://www.usda.gov/about-usda/news/press-releases/2026/03/31/usda-prioritizing-common-sense-forest-management-moves-forest-service-headquarters-salt-lake-city"><span class="Hyperlink">https://www.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-usda/</span><span class="Hyperlink"></span><span class="Hyperlink">news/</span><span class="Hyperlink"></span><span class="Hyperlink">press-releases/</span><span class="Hyperlink"></span><span class="Hyperlink">2026/</span><span class="Hyperlink"></span><span class="Hyperlink">03/</span><span class="Hyperlink"></span><span class="Hyperlink">31/</span><span class="Hyperlink"></span><span class="Hyperlink">usda-prioritizing-common-sense-forest-management-moves-forest-service-headquarters-salt-lake-city</span></a>. </p>
+<p class="TableNumberedNote">c. <a name="_Ref319676848"></a>In a July 2025 memo, USDA Secretary Rollins announced that as part of a USDA reorganization plan, the Food and Nutrition Service will "reduce its number of regions from seven to five and align locations with the USDA Hubs and Service Centers over a two-year period." Rollins, "Department of Agriculture Reorganization Plan." </p>
+<p class="TableNumberedNote">d. <a name="_Ref319676849"></a>In a July 2025 memo, USDA Secretary Rollins announced that as part of a USDA reorganization plan, the Natural Resources Conservation Service will "align its regional structure with the five USDA hub locations." Rollins, "Department of Agriculture Reorganization Plan." </p>
+<p class="TableNumberedNote">e. <a name="_Ref319676850"></a>In March 2025, <em>Axios </em>reported that GSA planned to terminate the leases of several National Oceanic and Atmospheric Administration buildings across the country, including a few under the helm of the National Marine Fisheries. It is unclear if these lease cancellations took place or if they affected the agency's regional activity. Andrew Freedman, "DOGE Moves to Cancel NOAA Leases on Key Weather Buildings," <em>Axios</em>, March 4, 2025, <a class="ExternalLink" href="https://www.axios.com/2025/03/03/doge-noaa-weather-building-leases-trump"><span class="Hyperlink">https://www.axios.com/</span><span class="Hyperlink"></span><span class="Hyperlink">2025/</span><span class="Hyperlink"></span><span class="Hyperlink">03/</span><span class="Hyperlink"></span><span class="Hyperlink">03/</span><span class="Hyperlink"></span><span class="Hyperlink">doge-noaa-weather-building-leases-trump</span></a>.  </p>
+<p class="TableNumberedNote">f. <a name="_Ref319676851"></a>On March 11, 2025, HHS announced that "the Office of the General Counsel (OGC) will consolidate the number of regional offices from 10 to four. Regional offices will be maintained in Philadelphia, Atlanta, Kansas City (MO), and Denver, which will provide the same geographic support for regional HHS offices at lower operating costs." Department of Health and Human Services, "HHS Office of General Counsel Announces Reorganization Effort," press release, March 11, 2025, <a class="ExternalLink" href="https://www.hhs.gov/press-room/ogc-reorganization-effort.html"><span class="Hyperlink">https://www.hhs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">press-room/</span><span class="Hyperlink"></span><span class="Hyperlink">ogc-reorganization-effort.html</span></a>. </p>
+<p class="TableNumberedNote">g. <a name="_Ref319676852"></a>In March 2025, Bloomberg reported that HUD has a "plan to close all field offices in 34 states plus the District of Columbia, and leave only six field offices open, with regional offices remaining in seven cities." According to the article, a HUD spokesperson stated, "No decisions have been finalized, however the department is exploring consolidation while continuing to prioritize service." The article notes that the six field offices that would be left open are those in Anchorage, AK; Greensboro, NC; Honolulu; Jacksonville, FL; Los Angeles; and San Juan, PR. Kriston Capps, "Trump Administration Plans to Eliminate Dozens of Housing Offices," Bloomberg, March 5, 2025, <a class="ExternalLink" href="https://www.bloomberg.com/news/articles/2025-03-05/hud-plans-to-eliminate-dozens-of-state-and-local-field-offices"><span class="Hyperlink">https://www.bloomberg.com/</span><span class="Hyperlink"></span><span class="Hyperlink">news/</span><span class="Hyperlink"></span><span class="Hyperlink">articles/</span><span class="Hyperlink"></span><span class="Hyperlink">2025-03-05/</span><span class="Hyperlink"></span><span class="Hyperlink">hud-plans-to-eliminate-dozens-of-state-and-local-field-offices</span></a>. </p>
+<p class="TableNumberedNote">h. <a name="_Ref319676853"></a>Some U.S. Marshal and U.S. Attorney appointments may be further broken down into regional "districts" within states. This can vary. It should be noted that these "districts" are not congressional districts. Each federal judicial district has a U.S. Attorney and a U.S. Marshal, per 28 U.S.C. §541 and 28 U.S.C. §561. The federal judicial districts are also established in statute in 28 U.S.C. Chapter 5. For example, the Plum Reporting website lists one U.S. Attorney appointed to the state of Maryland and located in Baltimore but lists four U.S. Attorneys appointed to northern, southern, eastern, and western districts in New York. Each of these New York positions appears to be located in a different area of New York. </p>
+<p class="TableNumberedNote">i. <a name="_Ref319676854"></a>On July 10, 2026, the Department of the Interior announced it would reunify the Bureau of Ocean Energy Management and the Bureau of Safety and Environmental Enforcement into the Marine Minerals Administration. The Plum Reporting website still lists the Bureau of Ocean Energy Management as such (or abbreviates it as BOEM). See Department of the Interior, "Marine Minerals Administration," press release, <a class="ExternalLink" href="https://www.doi.gov/mma-reunification"><span class="Hyperlink">https://www.doi.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">mma-reunification</span></a>; and Secretary of the Interior, "Establishment of the Marine Minerals Administration," July 10, 2026. <a class="ExternalLink" href="https://www.doi.gov/sites/default/files/document_secretarys_orders/so-marine-minerals-administration_final_508.pdf"><span class="Hyperlink">https://www.doi.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">document_secretarys_orders/</span><span class="Hyperlink"></span><span class="Hyperlink">so-marine-minerals-administration_final_508.pdf</span></a>. </p>
+<p class="TableNumberedNote">j. <a name="_Ref319676855"></a>On February 4, 2026, the NRC announced that it will be undergoing a major reorganization. It is unclear if this will affect regional offices. NRC, "NRC Major Reorganization Supports Efficiency, Innovation," press release, February 4, 2026, <a class="ExternalLink" href="https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-017.pdf"><span class="Hyperlink">https://www.nrc.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">cdn/</span><span class="Hyperlink"></span><span class="Hyperlink">doc-collection-news/</span><span class="Hyperlink"></span><span class="Hyperlink">2026/</span><span class="Hyperlink"></span><span class="Hyperlink">26-017.pdf</span></a>. The NRC's most recent organizational chart is dated September 20, 2026, and can be found at <a class="ExternalLink" href="https://www.nrc.gov/about-nrc/organization-functions"><span class="Hyperlink">https://www.nrc.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about-nrc/</span><span class="Hyperlink"></span><span class="Hyperlink">organization-functions</span></a>. </p>
+<p class="TableNumberedNote">k. <a name="_Ref319676856"></a>In March 2025, SBA announced that it planned to relocate several regional offices, including those in Atlanta, Boston, Chicago, Denver, New York City, and Seattle. As of September 24, 2026, the new locations of these offices do not appear to have been announced. SBA, "Administrator Loeffler Announces SBA Reforms to Put American Citizens First," press release, March 6, 2025, <a class="ExternalLink" href="https://www.sba.gov/article/2025/03/06/administrator-loeffler-announces-sba-reforms-put-american-citizens-first"><span class="Hyperlink">https://www.sba.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">article/</span><span class="Hyperlink"></span><span class="Hyperlink">2025/</span><span class="Hyperlink"></span><span class="Hyperlink">03/</span><span class="Hyperlink"></span><span class="Hyperlink">06/</span><span class="Hyperlink"></span><span class="Hyperlink">administrator-loeffler-announces-sba-reforms-put-american-citizens-first</span></a>. </p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Government Publishing Office, "United States Government Policy and Supporting Positions (Plum Book)," <a class="ExternalLink" href="https://www.govinfo.gov/collection/plum-book"><span class="Hyperlink">https://www.govinfo.gov/collection/plum-book</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Congress, Senate Committee on Homeland Security and Governmental Affairs, United States Government Policy and Supporting Positions, 118<sup>th</sup> Cong., 2<sup>nd</sup> sess., committee print, November 12, 2024 (GPO, 2024), p. iii.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="https://www.congress.gov/law/117/pub/263"><span class="Hyperlink">P.L. 117-263</span></a>, Division E, Title LIII, 136 Stat. 3255, codified at 5 U.S.C. §3330f.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, "Plum Reporting," <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This name reflects language from a March 2024 memorandum released by the OPM director wherein OPM labeled the website the "PLUM reporting website." OPM, "Guidance and Instructions on Periodically Listing Updates to Management (PLUM) Reporting," March 1, 2024, <a class="ExternalLink" href="https://www.opm.gov/chcoc/transmittals/2024/OPM%20Memo%20-%20Periodic%20Listing%20of%20Updates%20to%20Management%20"><span class="Hyperlink">https://www.opm.gov/chcoc/transmittals/2024/OPM%20Memo%20-%20Periodic%20Listing%20of%20Updates%20to%20Management%20</span></a>(PLUM)%20Reporting%203-1-2024.pdf. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A new federal noncareer employee category, Schedule G, was established in 2025 (Scott Kupor, Director, OPM, "Memorandum: Guidance of Executive Order Creating Schedule in the Excepted Service," July 29, 2025, <a class="ExternalLink" href="https://www.opm.gov/chcoc/latest-memos/guidance-on-executive-order-creating-schedule-g-in-the-excepted-service.pdf"><span class="Hyperlink">https://www.opm.gov/chcoc/latest-memos/guidance-on-executive-order-creating-schedule-g-in-the-excepted-service.pdf</span></a>). Positions in this category are not specifically identified in the Plum Act for inclusion in the Plum Reporting database. For a list of included categories, see 5 U.S.C. §3330f(a)(5).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The salary information listed on the Plum Reporting website reflects grades or salaries in effect as of the date that each agency last provided data (see footnote <a class="InternalLink" href="#_Ref245127526">11</a>). More information about specific rates of federal pay and locality pay tables can be found on OPM's website at <a class="ExternalLink" href="https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/"><span class="Hyperlink">https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Plum Reporting website further notes that if there is no entry in this column, the appointment has no fixed term. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> If this is the case, the database will typically state "Acting" underneath the name of the incumbent or beside the title of the position. See the position of Attorney General in <a class="InternalLink" href="#_Ref235625097"><strong></strong><strong>Figure 1</strong></a> above as an example.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on fixed term provisions, see CRS Insight IN12673, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12673"><em><span class="Hyperlink">Fixed Term and "For Cause" Removal Provisions</span></em></a>, by Henry B. Hogue and Todd Garvey. Additionally, in some cases, an individual is statutorily permitted to serve beyond a term expiration date. This is often colloquially called a "holdover." For example, a member of the Election Assistance Commission can serve "after the expiration of the member's term until the successor of such member has taken office" (52 U.S.C. 20923(b)(3)(B)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Each agency's most recent certification date is available on OPM's website. OPM, "Plum Reporting: Certification and Quality Assurance," <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/agency-certification/"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/agency-certification/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Agency listings do not include agency acronyms. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Component options automatically filter based on agency selection.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The "position status" filter allows filtering by filled or vacant positions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on this act, see CRS Insight IN11495, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN11495"><em><span class="Hyperlink">The Chief Financial Officers (CFO) Act of 1990: 30th Anniversary and Potential Issues for Congress</span></em></a>, by Dominick A. Fiorentino and Clinton T. Brass.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> There are currently 24 CFO Act agencies. For more information see 31 U.S.C. §901(b)(1).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the administrator of the National Oceanic and Atmospheric Administration (NOAA) position is not listed among the search results when one filters the data to see the positions listed under NOAA. However, this position does appear under the Department of Commerce, Office of the Under Secretary component and is listed as "Under Secretary Oceans and Atmosphere (Administrator National Oceanic and Atmospheric Administration)." This may be because the NOAA administrator position is linked by statute to the separate Under Secretary of Oceans and Atmosphere position. The statute states that the two roles will be held by one person. See Reorganization Plan No. 4 of 1970, §2(b), and 15 U.S.C. §1503b. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As of the Plum Reporting website update of June 15, 2026.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The GAO vacancy tracker is available at <a class="ExternalLink" href="https://www.gao.gov/legal/other-legal-work/federal-vacancies-reform-act"><span class="Hyperlink">https://www.gao.gov/legal/other-legal-work/federal-vacancies-reform-act</span></a>. The vacancy tracker includes only information that federal departments and agencies have self-reported to GAO. For this reason, the results at this website may not be complete or current.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congress.gov's nominations database presents information about nominations to presidentially appointed, Senate-confirmed positions. While it does not explicitly identify the current status of a position, a user can determine whether the President has submitted a nomination to the Senate and what the status of the nomination is in the Senate. For more information on the nominations process, see CRS Report R44083, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44083"><em><span class="Hyperlink">Appointment and Confirmation of Executive Branch Leadership: An Overview</span></em></a>, by Henry B. Hogue and Maeve P. Carey, and CRS Report RL31980, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL31980"><em><span class="Hyperlink">Senate Consideration of Presidential Nominations: Committee and Floor Procedure</span></em></a>, by Elizabeth Rybicki and Michael Greene.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, "Data Information," <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/data-information/"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/data-information/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, "Plum Archive," <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/plum-archive/"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/plum-archive/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Historical copies of the Plum Book dating back to 1996 can be found in downloadable PDF format at <a class="ExternalLink" href="https://www.govinfo.gov/collection/plum-book"><span class="Hyperlink">https://www.govinfo.gov/collection/plum-book</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R45635, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45635"><em><span class="Hyperlink">Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements</span></em></a>, by Jon O. Shimabukuro et al.; and CRS Legal Sidebar LSB11412, <a class="ExternalLink" href="http://www.crs.gov/Reports/LSB11412"><em><span class="Hyperlink">Schedule Policy/Career: 2026 Final Rule, Legal Challenges, and Issues for Lawmakers</span></em></a>, by Jimmy Balser, Mainon A. Schwartz, and Jon O. Shimabukuro.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on this process, see CRS Report R44083, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44083"><em><span class="Hyperlink">Appointment and Confirmation of Executive Branch Leadership: An Overview</span></em></a>, by Henry B. Hogue and Maeve P. Carey. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on recess appointments, see CRS Report RS21308, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS21308"><em><span class="Hyperlink">Recess Appointments: Frequently Asked Questions</span></em></a>, by Henry B. Hogue. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on this topic, see CRS Legal Sidebar LSB11448, <a class="ExternalLink" href="http://www.crs.gov/Reports/LSB11448"><em><span class="Hyperlink">Trump v. Slaughter and the Future of For-Cause Removal Protections</span></em></a>, by Benjamin M. Barczewski, Todd Garvey, and Jonathan M. Gaffney; and CRS Legal Sidebar LSB11449, <a class="ExternalLink" href="http://www.crs.gov/Reports/LSB11449"><em><span class="Hyperlink">Trump v. Cook and For-Cause Removal of Federal Reserve Governors</span></em></a>, by Jonathan M. Gaffney and Todd Garvey.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> While the Plum Reporting website does not list district or circuit judicial positions, the United States Courts website provides a series of tables that lists recent judicial confirmations and current judicial vacancies at <a class="ExternalLink" href="https://www.uscourts.gov/data-news/judicial-vacancies/confirmation-listing"><span class="Hyperlink">https://www.uscourts.gov/data-news/judicial-vacancies/confirmation-listing</span></a>. For more information on the appointment process for appointing judges to the U.S. circuit and district courts, see CRS Report R43762, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43762"><em><span class="Hyperlink">The Appointment Process for U.S. Circuit and District Court Nominations: An Overview</span></em></a>, by Barry J. McMillion.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on this topic, see CRS Legal Sidebar LSB11448, <a class="ExternalLink" href="http://www.crs.gov/Reports/LSB11448"><em><span class="Hyperlink">Trump v. Slaughter and the Future of For-Cause Removal Protections</span></em></a>, by Benjamin M. Barczewski, Todd Garvey, and Jonathan M. Gaffney, and CRS Legal Sidebar LSB11449, <a class="ExternalLink" href="http://www.crs.gov/Reports/LSB11449"><em><span class="Hyperlink">Trump v. Cook and For-Cause Removal of Federal Reserve Governors</span></em></a>, by Jonathan M. Gaffney and Todd Garvey.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on Schedule C appointments, see "Position Descriptions: Schedule C Positions" on the Plum Reporting website at <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Per OPM, "In addition to the Schedule C positions authorized by the OPM Director, a limited number of positions may be placed under Schedule C by Executive Order of the President or by legislation…. The only time when OPM approval is not required for a Schedule C position is when a position is filled by a temporary Schedule C appointment during a Presidential transition, a change of agency head, or establishment of a new agency." See "Position Descriptions: Schedule C Positions" on the Plum Reporting website at <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, "Plum Reporting: Position Descriptions," October 8, 2026, <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/#SCP"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/position-descriptions/#SCP</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS In Focus IF11743, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11743"><em><span class="Hyperlink">The Senior Executive Service: An Overview</span></em></a>, by Maeve P. Carey.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3592(a)(2).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3594(b)(1).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §7543.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See noncareer, limited term, and limited emergency appointment types in this report for additional details.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Career reserved positions are those that involve day-to-day functions of government and require impartiality. By law (5 U.S.C. §3132(b)(1)) and regulation (5 C.F.R. §214.402), certain types of positions must be removed from political influence to ensure public confidence in the impartiality of certain government functions. Examples include audits, inspections, civil or criminal law enforcement, grants administration, and security matters, the principal duties of which involve day-to-day government operations. For more information, please see CRS In Focus IF11743, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11743"><em><span class="Hyperlink">The Senior Executive Service: An Overview</span></em></a>, by Maeve P. Carey.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The most recent <em>Federal Register</em> notice lists career reserved SES positions for calendar year 2024. It can be found at <a class="ExternalLink" href="https://www.federalregister.gov/documents/2025/05/20/2025-08853/senior-executive-service-positions-that-were-career-reserved-during-calendar-year-2024"><span class="Hyperlink">https://www.federalregister.gov/documents/2025/05/20/2025-08853/senior-executive-service-positions-that-were-career-reserved-during-calendar-year-2024</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3394.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS In Focus IF12721, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF12721"><em><span class="Hyperlink">Presidential Transitions: Executive Branch Political Appointment Status</span></em></a>, by Henry B. Hogue. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3134(b). For more information, see CRS In Focus IF11743, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11743"><em><span class="Hyperlink">The Senior Executive Service: An Overview</span></em></a>, by Maeve P. Carey. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3134(d).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3132(a)(5).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3134(e). This 5% cap encompasses positions in both limited term and limited emergency appointments. For more information, see CRS In Focus IF11743, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11743"><em><span class="Hyperlink">The Senior Executive Service: An Overview</span></em></a>, by Maeve P. Carey. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3132(a)(6).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R45635, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45635"><em><span class="Hyperlink">Categories of Federal Civil Service Employment: An Overview of Appointment, Pay, and Adverse Action Entitlements</span></em></a>, by Jon O. Shimabukuro et al..</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Some U.S. Marshal and U.S. Attorney appointments may be further separated into regional "districts" within states, although this can vary. These "districts" are not congressional districts. Each federal judicial district has a U.S. Attorney and a U.S. Marshal, per 28 U.S.C. §541 and 28 U.S.C. §561. The federal judicial districts are also established in statute in 28 U.S.C. Chapter 5. For example, the Plum Reporting website lists one U.S. Attorney appointed to the state of Maryland and located in Baltimore but lists four U.S. Attorneys appointed to northern, southern, eastern, and western districts in New York. Each of these New York positions appears to be located in a different area of New York.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a name="_Hlk225425416"></a>U.S. district and circuit court judges are presidentially appointed and Senate-confirmed positions. While the Plum Reporting website does not list district or circuit court judges, the United States Courts website provides a series of tables that lists recent judicial confirmations and current judicial vacancies at <a class="ExternalLink" href="https://www.uscourts.gov/data-news/judicial-vacancies/confirmation-listing"><span class="Hyperlink">https://www.uscourts.gov/data-news/judicial-vacancies/confirmation-listing</span></a>. For more information on the appointment process for appointing judges to the U.S. circuit and district courts, see CRS Report R43762, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43762"><em><span class="Hyperlink">The Appointment Process for U.S. Circuit and District Court Nominations: An Overview</span></em></a>, by Barry J. McMillion. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As an example, entering Delaware into the "Search Within Results" box to identify positions in Delaware pulls up positions that have the word <em>Delaware</em> in the title, but it does not identify positions located in Delaware that do not have the word in the title, as the locations of positions are listed as cities followed by state abbreviations.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As an example, entering FL into the "Search Within Results" box to identify positions in Florida pulls up positions located in Florida, individuals with names such as Florence, and positions with the word <em>flight</em> in the title, among other items.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See OPM, "Data Information," <a class="ExternalLink" href="https://www.opm.gov/about-us/open-government/plum-reporting/data-information/"><span class="Hyperlink">https://www.opm.gov/about-us/open-government/plum-reporting/data-information/</span></a><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the Federal Emergency Management Agency currently has 10 regional administrators covering 10 regions, and it lists that Region 1 within the agency includes Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont and 10 tribal nations. However, the National Park Service has seven regional directors covering 12 regions, and it lists that Region 1 within the agency includes sites in Connecticut, Delaware, the District of Columbia, Kentucky, Maine, Maryland, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont, Virginia, and West Virginia. See Federal Emergency Management Agency, "Offices and Leadership," <a class="ExternalLink" href="https://www.fema.gov/about/organization/offices-leadership#regions"><span class="Hyperlink">https://www.fema.gov/about/organization/offices-leadership#regions</span></a>; and National Park Service, "Contact Information: Mailing Address and Phone Numbers," <a class="ExternalLink" href="https://www.nps.gov/aboutus/contactinformation.htm"><span class="Hyperlink">https://www.nps.gov/aboutus/contactinformation.htm</span></a>. </p>
+</td>
+</tr>
+</table>
+</div>
+</div>
