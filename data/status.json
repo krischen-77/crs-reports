@@ -1,8 +1,8 @@
 {
   "active_update_candidates": 100,
   "active_updates_with_older_publication": 61,
-  "api_remaining_quota": 1,
-  "api_requests": 9,
+  "api_remaining_quota": 6,
+  "api_requests": 4,
   "archive_start_inclusive": "2026-09-17",
   "attempted_versions": 100,
   "candidate_reports": 100,
@@ -11,29 +11,24 @@
     "RL30567"
   ],
   "errors": [],
-  "finished_at": "2026-11-11T09:33:13.334362+00:00",
+  "finished_at": "2026-11-11T17:57:20.453936+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "42995743319",
+  "github_run_id": "43072829713",
   "historical_new_pdf_versions": 2,
-  "historical_pending_versions": 242,
-  "last_successful_run_at": "2026-11-11T09:33:13.334362+00:00",
+  "historical_pending_versions": 240,
+  "last_successful_run_at": "2026-11-11T17:57:20.453936+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 7,
   "new_pdf_versions": 2,
-  "official_current_pending": 1,
-  "official_current_required": 100,
-  "official_current_verified": 99,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-11-11T09:42:34.357087+00:00",
   "pending_reports": 0,
   "pending_versions": 2,
   "planned_versions": 101,
   "primary_new_pdf_versions": 0,
-  "primary_pdf_complete": false,
+  "primary_pdf_complete": true,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
-  "result": "failed",
-  "run_at": "2026-11-11T09:31:51.848496+00:00",
+  "result": "success_with_warnings",
+  "run_at": "2026-11-11T17:56:30.691303+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -64,10 +59,9 @@
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     }
   ],
-  "total_archived_pdf_versions": 847,
-  "total_html_original_versions": 0,
-  "total_html_snapshots": 613,
-  "total_pdf_bytes": 694479472,
+  "total_archived_pdf_versions": 849,
+  "total_html_snapshots": 615,
+  "total_pdf_bytes": 696852957,
   "warnings": [
     {
       "api_version": 15,
@@ -636,13 +630,6 @@
       ]
     },
     {
-      "id": "RL30567",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
       "id": "IN11563",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
@@ -655,51 +642,21 @@
       ]
     },
     {
-      "id": "R43168",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "R45407",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "R44700",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "RL31618",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "95-519",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "R44768",
+      "id": "R44773",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "R44769",
+      "id": "R44799",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "historical_backfill_remaining": 242,
+      "historical_backfill_remaining": 240,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],

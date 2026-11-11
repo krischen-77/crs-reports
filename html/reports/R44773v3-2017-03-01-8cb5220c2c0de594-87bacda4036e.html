@@ -1,0 +1,530 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R44773.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>The Scalia Vacancy in Historical Context: Frequently Asked Questions</div>
+<div class="CoverDate">Updated March 1, 2017
+            (R44773)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc476129188"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc476129189"><span class="Hyperlink">How often does a vacancy occur on the Supreme Court?</span></a></li>
+<li class="TOC2"><a href="#_Toc476129190"><span class="Hyperlink">How often is a vacancy created on the Court by the death of a sitting Justice?</span></a></li>
+<li class="TOC1"><a href="#_Toc476129191"><span class="Hyperlink">How does the length of the Scalia vacancy compare to the length of past vacancies on the Court?</span></a></li>
+<li class="TOC2"><a href="#_Toc476129192"><span class="Hyperlink">How does the length of time the Garland nomination was pending for the Scalia vacancy compare to past nominations to the Court?</span></a></li>
+<li class="TOC1"><a href="#_Toc476129193"><span class="Hyperlink">How often have vacancies on the Supreme Court arisen during presidential election years?</span></a></li>
+<li class="TOC1"><a href="#_Toc476129194"><span class="Hyperlink">How often have vacancies on the Supreme Court arisen during one presidency and been filled during a different presidency?</span></a></li>
+<li class="TOC1"><a href="#_Toc476129195"><span class="Hyperlink">How many vacancies on the Supreme Court have had more than one nomination prior to being filled by the appointment of a new Justice?</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc476129182"><span class="Hyperlink">Figure 1. Vacancies on the U.S. Supreme Court Created by the Death of a Sitting Justice or by Other Reason</span></a></li>
+<li><a href="#_Toc476129183"><span class="Hyperlink">Figure 2. The Ten Longest Vacancies on the U.S. Supreme Court</span></a></li>
+<li><a href="#_Toc476129184"><span class="Hyperlink">Figure 3. The 10 Longest Pending Nominations for the U.S. Supreme Court</span></a></li>
+<li><a href="#_Toc476129185"><span class="Hyperlink">Figure 4. Select Vacancies on the U.S. Supreme Court that Occurred During Presidential Election Years</span></a></li>
+<li><a href="#_Toc476129186"><span class="Hyperlink">Figure 5. Vacancies on the U.S. Supreme Court that Arose During One Presidency and Were Filled During a Different Presidency</span></a></li>
+<li><a href="#_Toc476129187"><span class="Hyperlink">Figure 6. Vacancies on the U.S. Supreme Court for Which More Than One Nomination Were Made Prior to the Vacancy Being Filled</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The procedure for appointing a Justice to the Supreme Court of the United States is provided for by the Constitution in only a few words. The "Appointments Clause" (Article II, Section 2, clause 2) states that the President "shall nominate, and by and with the Advice and Consent of the Senate shall appoint ... Judges of the supreme Court." The process of appointing Justices has undergone changes over two centuries, but its most basic feature—the sharing of power between the President and Senate—has remained unchanged. To receive a lifetime appointment to the Court, a candidate must first be nominated by the President and then confirmed by the Senate.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the Constitution, once confirmed, Justices on the Supreme Court hold office "during good Behaviour," in effect typically receiving lifetime appointments to the Court. In other words, Justices may hold office for as long as they live or until they voluntarily step down from office. Following the initial six appointments made to the Court by President George Washington in 1789 and 1790, the first vacancy occurred on the Court as a result of the resignation of Justice John Rutledge on March 5, 1791. The most recent vacancy on the Court was created by the death of Justice Antonin Scalia on February 13, 2016. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">From 1791 to the present, vacancies have occurred, on average, on the Court every two years. The Scalia vacancy, however, occurred approximately 5.5 years after the last vacancy on the Court (following the retirement of Justice John Paul Stevens in 2010)—making the length of time between the Stevens vacancy and the Scalia vacancy the fifth longest period of time between two vacancies occurring in the history of the Court.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Scalia vacancy is notable in several other ways: It is only the second vacancy, of 24, on the Court since 1954 to occur as a result of the death of a sitting Justice (the other being Chief Justice William Rehnquist in 2005); it is the seventh longest vacancy on the Court since 1791 (and the longest vacancy since 1861); it is one of nine vacancies since 1791 that arose during a presidential election year, prior to the election itself and for which a President submitted a nomination prior to the election (and the first such vacancy since 1932); and it is the eighth time in the history of the Court in which a vacancy that arose during one presidency will be filled during a different presidency (with the last time occurring in 1881).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report discusses these issues and others, with the purpose of providing historical context to some of the frequently asked questions about the vacancy created by Justice Scalia's departure from the Court. This report will be updated upon Senate confirmation of Justice Scalia's successor.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The procedure for appointing a Justice to the Supreme Court of the United States is provided for by the Constitution in only a few words. The "Appointments Clause" (Article II, Section 2, clause 2) states that the President "shall nominate, and by and with the Advice and Consent of the Senate shall appoint ... Judges of the supreme Court." The process of appointing Justices has undergone changes over two centuries, but its most basic feature—the sharing of power between the President and Senate—has remained unchanged. To receive a lifetime appointment to the Court, a candidate must first be nominated by the President and then confirmed by the Senate.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="For additional analysis and information on the processes related to the nomination and confirmation of U.S. Supreme Court Justices, see CRS Report R44235, Supreme Court Appointment Process: President's Selection of a Nominee , by Barry J. McMillion ; CRS Report R44236, Supreme Court Appointment Process: Consideration by the Senate Judiciary Committee , by Barry J. McMillion ; CRS Report R44234, Supreme Court Appointment Process: Senate Debate and Confirmation Vote , by Barry J. McMill...">1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The most recent vacancy on the Court was created by the death of Justice Antonin Scalia on February 13, 2016. In response, President Barack Obama on March 16, 2016, nominated Merrick B. Garland, a sitting judge on the U.S. Court of Appeals for the District of Columbia, to replace Justice Scalia. It was the 161<sup>st</sup> nomination made by a President to the U.S. Supreme Court.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="While Judge Garland's nomination was the 161 st nomination made to the Court, he was the 142 nd person nominated to the Court (because some individuals have been nominated more than once—either for the same vacant judgeship, different vacant judgeships, or for the Chief Justice position after already having been appointed to the Court as an Associate Justice). Of the 142 individuals nominated to the Court (not including Neil Gorsuch, the current nominee to the Scalia vacancy), 29 (20%) were...">2</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On the day of Justice Scalia's death, Majority Leader Mitch McConnell (R-KY) stated that the "American people should have a voice in the selection of their next Supreme Court Justice. Therefore, this vacancy should not be filled until we have a new President."<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='Senator Mitch McConnell, "Justice Antonin Scalia," Press Release , February 13, 2016, available at http://www.mcconnell.senate.gov/public/index.cfm/2016/2/justice-antonin-scalia .'>3</a></sup> Additionally, Senator Chuck Grassley (R-IA), chairman of the Senate Judiciary Committee, stated "Given the huge divide in the country, ... it only makes sense that we defer to the American people who will elect a new president to select the next Supreme Court Justice."<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='Senator Chuck Grassley, "Grassley Statement on Justice Scalia," Press Release , February 13, 2016, available at http://www.grassley.senate.gov/news/news-releases/grassley-statement-justice-scalia .'>4</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In response, Minority Leader Harry Reid (D-NV) stated that "The president can and should send the Senate a nominee right away.... Failing to fill this vacancy would be a shameful abdication of one of the Senate's most essential Constitutional responsibilities."<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='Liam Stack, "The Death of Justice Scalia: Reactions and Analysis," The New York Times , February 13, 2016, available at https://www.nytimes.com/live/supreme-court-justice-antonin-scalia-dies-at-79/senate-democratic-leader-nominate-scalia-successor-right-away .'>5</a></sup> President Obama also weighed in on whether the Garland nomination should be considered by the Senate, asking that the Senate "give him a fair hearing and then an up or down vote," while also stating that "I have fulfilled my constitutional duty. Now it's time for the Senate to do theirs."<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='President Barack Obama, "Remarks by the President Announcing Judge Merrick Garland as his Nominee to the Supreme Court," Press Release , Office of the White House Press Secretary, March 16, 2016, available at https://obamawhitehouse.archives.gov/the-press-office/2016/03/16/remarks-president-announcing-judge-merrick-garland-his-nominee-supreme .'>6</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Garland nomination was not acted upon by the Senate (receiving neither a committee hearing<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Supreme Court nominations from 1949 to 2010 usually received public confirmation hearings before either the Senate Judiciary Committee or one of its subcommittees. As noted previously by CRS, prior to the Garland nomination, 33 (or 92%) of 36 Supreme Court nominations during this period received such hearings. See CRS Insight IN10476, Senate Judiciary Committee Hearings for Supreme Court Nominations: Historical Overview and Data , by Barry J. McMillion .">7</a></sup> nor a floor vote) and was not withdrawn by the President—making it the first Supreme Court nomination since 1866 for which no formal Senate action was taken and which was not subsequently withdrawn or resubmitted by a President.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="On April 16, 1866, President Andrew Johnson nominated Henry Stanbery to fill the vacancy created by the death of Justice John Catron. There is no record of a committee vote on the Stanbery nomination, no record of floor action by the full Senate after referral to the Senate Judiciary Committee, and no record of President Johnson's withdrawal of the nomination. While the Stanbery nomination was pending in the Senate in 1866, the Associate Justice position to which Stanbery had been nominated wa...">8</a></sup> The nomination was ultimately returned to President Obama at the end of the 114<sup>th</sup> Congress, on January 3, 2017.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="The Senate, without confirming or rejecting the nomination in a floor vote, returns a nomination to the President under Rule XXXI , paragraph 6 of the Standing Rules of the Senate after it has adjourned or been in recess for more than 30 days. Consequently, a nomination that is not approved or rejected by the Senate when it adjourns sine die , such as Judge Garland's at the end of the 114 th Congress, is returned to the President.">9</a></sup> On February 1, 2017, President Donald Trump nominated Neil M. Gorsuch, a sitting judge on the U.S. Court of Appeals for the Tenth Circuit, to fill the Scalia vacancy. The Gorsuch nomination, the 162<sup>nd</sup> to the Court, is currently pending before the Senate.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="While Judge Gorsuch's nomination is the 162 nd to the Court, he is the 143 rd individual nominated to the Supreme Court.">10</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides analysis and historical information related to several of the prominent issues or questions surrounding the Scalia vacancy. The issues addressed by the report include (1) how frequently vacancies occur on the Supreme Court, particularly vacancies created by the death of a sitting Justice; (2) how the length of the Scalia vacancy compares to past vacancies on the Court (as well as how the length of time the Garland nomination was pending before the Senate compares to past nominations); (3) how often vacancies on the Court arise during presidential election years (as well as how often vacancies on the Court have rolled over into a presidential election year from a preceding year); (4) how often vacancies on the Court have arisen during one presidency but are filled during a different presidency; and (5) how often vacancies on the Court have required multiple nominations prior to the appointment of a new Justice.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472954873"></a><a name="_Toc472955405"></a><a name="_Toc472955535"></a><a name="_Toc473033504"></a><a name="_Toc474140683"></a><a name="_Toc474141364"></a><a name="_Toc474141463"></a><a name="_Toc474141487"></a><a name="_Toc474141736"></a><a name="_Toc474233582"></a><a name="_Toc474240682"></a><a name="_Toc474253317"></a><a name="_Toc474314477"></a><a name="_Toc474314985"></a><a name="_Toc474418141"></a><a name="_Toc474507086"></a><a name="_Toc474695626"></a><a name="_Toc476129189"></a>How often does a vacancy occur on the Supreme Court?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since President George Washington's initial six appointments to the Supreme Court in 1789 and 1790, a vacancy on the Court has occurred, on average, every two years.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="President Washington's initial appointments to the Supreme Court in 1789 and 1790 are not included in the analysis throughout this report (since these were the very first nominations made to the Court and, thus, were not made to fill a vacancy created by the death, retirement, resignation, or elevation of a sitting Justice). Consequently, for the purposes of this report, the first vacancy on the Supreme Court occurred when Justice John Rutledge resigned from the Court on March 5, 1791 (Justice...">11</a></sup> During the post-War period (1946 to the present), a vacancy on the Court has occurred, on average, every 2.4 years. In more recent years (since 1980), a vacancy has occurred, on average, slightly less frequently (every 3.1 years).<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Since President Washington's initial appointments, the median length of time between two vacancies occurring on the Court is 1.3 years. During the post-War period it is 1.8 years, while since 1980 it is 1.7 years.">12</a></sup> The length of time, however, between the vacancy created by the retirement of Justice John Paul Stevens in 2010 and the vacancy created by Justice Scalia's death in 2016 is the fifth longest period of time between two vacancies ever occurring on the Court (specifically, 2,054 days, or 5.6 years, between the two vacancies occurring).<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="The longest period of time between two vacancies occurring on the Court is 4,290 days (or nearly 12 years); specifically, this is the period of time between the vacancy created by the death of Justice Samuel Chase on June 19, 1811 (during the second year of the James Madison presidency), and the vacancy created by the death of Justice Henry B. Livingston on March 18, 1823 (during the seventh year of the James Monroe presidency).">13</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc447868857"></a><a name="_Toc447880114"></a><a name="_Toc447880277"></a><a name="_Toc447883075"></a><a name="_Toc447883275"></a><a name="_Toc448143679"></a><a name="_Toc448326711"></a><a name="_Toc448326772"></a><a name="_Toc450040866"></a><a name="_Toc458096086"></a><a name="_Toc472953655"></a><a name="_Toc472954583"></a><a name="_Toc472954874"></a><a name="_Toc472955406"></a><a name="_Toc472955536"></a><a name="_Toc473033505"></a><a name="_Toc474140684"></a><a name="_Toc474141365"></a><a name="_Toc474141464"></a><a name="_Toc474141488"></a><a name="_Toc474141737"></a><a name="_Toc474233583"></a><a name="_Toc474240683"></a><a name="_Toc474253318"></a><a name="_Toc474314478"></a><a name="_Toc474314986"></a><a name="_Toc474418142"></a><a name="_Toc474507087"></a><a name="_Toc474695627"></a><a name="_Toc476129190"></a>How often is a vacancy created on the Court by the death of a sitting Justice?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the Constitution, Justices on the Supreme Court hold office "during good Behaviour,"<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Article III, Section 1 of the U.S. Const itution.">14</a></sup> in effect typically receiving lifetime appointments to the Court. Once confirmed, Justices may hold office for as long as they live or until they voluntarily step down.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Lifetime tenure, interesting work, and the prestige of the office often result in Justices choosing to serve on the Court for as long as possible. Consequently, it has not been unusual, historically, for Justices to die while in office. Specifically, of the 111 vacancies that have occurred on the Court during the past 225 years, from the first vacancy in 1791 to the vacancy created by Justice Antonin Scalia's death in 2016, 47 (or 42%) have arisen as the result of the death of a sitting Justice. Conversely, 64 (or 58%) of the vacancies since 1791 have occurred for some other reason (e.g., a new judgeship was created by Congress, a sitting Justice retired, or an Associate Justice was elevated to the Chief Justice position).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Over the past 60 years, however, it has been relatively rare for vacancies on the Court to be created by the death of a Justice. Of the 25 vacancies on the Court since 1956, the vacancy created by the passing of Justice Scalia is only the second instance during this period of a vacancy created by the death of a Justice.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="The other death of a sitting Justice during this period, on September 3, 2005, was that of Chief Justice William H. Rehnquist.">15</a></sup> Specifically, from 1956 to 2016, 2 (or 8%) of 25 vacancies were attributable to the death of a sitting Justice on the Court. Prior to the deaths of Justice Scalia (in 2016) and Chief Justice Rehnquist (in 2005), the last sitting Justice to die while serving on the Court was Justice Robert Jackson (in 1954).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Prior to 1900, in contrast to more recent years, it was more common for vacancies to arise on the Court as a result of the death of a sitting Justice. Of the 51 vacancies on the Court that arose between 1791 and 1899, 30 (or 59%) arose in this manner. Additionally, of the 35 vacancies that occurred during approximately the first half of the 20<sup>th</sup> century—from 1900 to 1955—15 (or 43%) of 35 arose as the result of the death of a Justice.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="Several possible explanations as to why it was more common in the past for Justices to die in office include, for Justices who served in the 19 th and early 20 th centuries, an older average age at the time of appointment to the Court; the shorter life expectancy of Americans, generally, during the 18 th and early 19 th centuries compared to more recent years; and, perhaps, a contemporary norm among more recent Justices to retire from the Court in order to pursue other professional or pers...">16</a></sup></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc458096082"></a><a name="_Toc472953651"></a><a name="_Toc472954579"></a><a name="_Toc472954869"></a><a name="_Toc472955401"></a><a name="_Toc472955531"></a><a name="_Toc473033500"></a><a name="_Toc474140679"></a><a name="_Toc474141361"></a><a name="_Toc474141460"></a><a name="_Toc474141484"></a><a name="_Toc474141733"></a><a name="_Toc474233575"></a><a name="_Toc474240675"></a><a name="_Toc474253310"></a><a name="_Toc474314471"></a><a name="_Toc474314978"></a><a name="_Toc474418134"></a><a name="_Toc474507079"></a><a name="_Toc474695619"></a><a name="_Toc476129182"></a>Figure 1. Vacancies on the U.S. Supreme Court Created by the Death of a Sitting Justice or by Other Reason</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R44773_files/0.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong><strong> </strong>Congressional Research Service.</p>
+<p class="FigureNote"><strong>Note</strong><strong>:</strong> This figure shows, for three periods of time (1791-1899; 1900-1955; and 1956-2016) the number of vacancies on the Supreme Court created by the death of a sitting Justice or for another reason, such as the retirement of a Justice.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc447868859"></a><a name="_Toc447880116"></a><a name="_Toc447880279"></a><a name="_Toc447883076"></a><a name="_Toc447883276"></a><a name="_Toc448143680"></a><a name="_Toc448326712"></a><a name="_Toc448326773"></a><a name="_Toc450040867"></a><a name="_Toc458096088"></a><a name="_Toc472953657"></a><a name="_Toc472954585"></a><a name="_Toc472954876"></a><a name="_Toc472955408"></a><a name="_Toc472955538"></a><a name="_Toc473033507"></a><a name="_Toc474140686"></a><a name="_Toc474141367"></a><a name="_Toc474141466"></a><a name="_Toc474141490"></a><a name="_Toc474141739"></a><a name="_Toc474233585"></a><a name="_Toc474240685"></a><a name="_Toc474253320"></a><a name="_Toc474314479"></a><a name="_Toc474314987"></a><a name="_Toc474418143"></a><a name="_Toc474507088"></a><a name="_Toc474695628"></a><a name="_Toc476129191"></a>How does the length of the Scalia vacancy compare to the length of past vacancies on the Court?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On average, from the first vacancy that occurred in 1791 through the most recent vacancy filled in 2010 (by Elena Kagan), vacancies on the Supreme Court have lasted for 121 days (or approximately 4 months) before the Senate has approved a nominee (while the median length of time is 61 days, or 2 months, from a vacancy arising to a nominee being confirmed by the Senate).<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="The statistics reported in this section include only actual vacancies on the Court (including five vacancies that occurred between 1807 and 1869 as the result of Congress authorizing new judgeships for the Court). Consequently, these statistics do not include the relatively rare situations in which (1) the Senate approved a nominee for an anticipated vacancy on the Court prior to a departing Justice's effective retirement date, or (2) a Justice indicated he or she would retire from the Court i...">17</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There is considerable variation, however, in how long vacancies have lasted. Vacancies on the Court, for example, have ranged from a minimum of 1 day to a maximum of 835 days (or 2.3 years).<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="The shortest vacancy lasted a single day (Potter Stewart received a recess appointment to the Court from President Eisenhower on October 14, 1958—one day after Justice Harold Burton's retirement on October 13, 1958). The longest vacancy lasted 835 following the death of Henry Baldwin on April 21, 1844. For additional information about this vacancy see the discussion in the section titled &quot;How often do vacancies on the Supreme Court arise during one presidency and are filled during a different...">18</a></sup> In general, vacancies on the Court lasted for longer periods of time prior to the 20<sup>th</sup> century than during the 20<sup>th</sup> or 21<sup>st</sup> centuries. For example, prior to 1900, vacancies lasted an average of 165 days, or 5.4 months (with a median length of time of 105 days, or 3.5 months). In contrast, since 1900, vacancies on the Court have lasted an average of 77 days, or 2.5 months (with a median length of time of 46 days, or 1.5 months). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As of March 1, 2017, the Scalia vacancy will have lasted for 382 days—making it currently the seventh longest vacancy in the history of the Court. <strong><a class="InternalLink" href="#_Ref476129029"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 3</strong><strong></strong> shows the 10 longest vacancies to exist on the Supreme Court—7 of which arose in the 1800s during the Civil War era or earlier. The Scalia vacancy is the longest of the 80 vacancies on the Court to have occurred since 1861. The one other vacancy since 1900 to be among the 10 longest vacancies on the Court is the vacancy created in 1969 by the resignation of Justice Abe Fortas, lasting 363 days (and which remains only one of two vacancies in the history of the Court for which the full Senate rejected two nominations in up-or-down votes on the floor).<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="The other vacancy for which the Senate rejected two nominees in floor votes was the one created by the death of Justice Samuel M. Blatchford in 1893. President Grover Cleveland first nominated William Hornblower, whose nomination was rejected in the Senate by a vote of 24-30. Subsequently, President Cleveland's second nominee for the vacancy, Wheeler Peckham, was rejected by a vote of 32-41. President Cleveland's third nominee for the seat, Edward White, was confirmed by the Senate by voice vo...">19</a></sup> </p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref476129126"></a><a name="_Toc474233577"></a><a name="_Toc474240677"></a><a name="_Toc474253312"></a><a name="_Toc474314472"></a><a name="_Toc474314979"></a><a name="_Toc474418135"></a><a name="_Toc474507080"></a><a name="_Toc474695620"></a><a name="_Toc476129183"></a>Figure 2. The Ten Longest Vacancies on the U.S. Supreme Court</p>
+<p class="FigureSubTitle">(1791-Present)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R44773_files/1.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Congressional Research Service.</p>
+<p class="FigureNote"><strong>Notes:</strong> This figure identifies the 10 longest vacancies on the U.S. Supreme Court from 1791 to the present. The length of time reported for the Scalia vacancy represents the number of days from January 13, 2016, to March 1, 2017. TBD = to be determined.</p>
+<p class="FigureNote">* Not included among the three nominations submitted for the vacancy created by the resignation of Justice Fortas in 1969 is the nomination of Homer Thornberry by President Lyndon Johnson in 1968 to fill the anticipated vacancy created on the Court by the elevation of Justice Fortas to the Chief Justice position. Justice Fortas's nomination to be Chief Justice was filibustered in the Senate and the Thornberry nomination was subsequently withdrawn by the President on October 4, 1968 (as was Mr. Fortas's nomination to be Chief Justice). Mr. Fortas continued to serve on the Court as an Associate Justice until his resignation on May 14, 1969—creating a vacancy for which three nominations were made by President Nixon prior to the appointment of a new Justice.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc474141368"></a><a name="_Toc474141467"></a><a name="_Toc474141491"></a><a name="_Toc474141740"></a><a name="_Toc474233586"></a><a name="_Toc474240686"></a><a name="_Toc474253321"></a><a name="_Toc474314480"></a><a name="_Toc474314988"></a><a name="_Toc474418144"></a><a name="_Toc474507089"></a><a name="_Toc474695629"></a><a name="_Toc476129192"></a>How does the length of time the Garland nomination was pending for the Scalia vacancy compare to past nominations to the Court?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the 147 nominations made to the Court since 1791,<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="This does not include President Washington's seven initial nominations to fill vacancies on the Court in 1789 and 1790. It also does not include seven nominations for which there is no record of a date of final action in the Senate (e.g., the Stanbery nomination in 1866, discussed previously) or the pending nomination of Neil Gorsuch to fill the Scalia vacancy.">20</a></sup> the average length of time from nomination to final Senate action, whether such action was favorable or not in terms of approving the nomination, has been 28 days (while the median length of time to final action has been 12 days).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There has been variation over time in how quickly nominations have been dispensed with, either favorably or unfavorably, by the Senate. For example, prior to 1900, nominations waited an average of 18 days for final Senate action (with a median wait time of 6 days). In contrast, since 1956, nominations have waited an average of 67 days for final Senate action, or 2.2 months (with a median wait time of 65.5 days). Along these lines, <strong><a class="InternalLink" href="#_Ref476129029"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 3</strong><strong></strong><strong> </strong>shows the 10 longest nominations pending for a vacancy on the Supreme Court since 1791 to the present. Eight of the 10 nominations listed in the figure have been for vacancies that have occurred since 1956.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As discussed above, the Scalia vacancy is currently the seventh longest vacancy to exist on the Court. The first nomination submitted to fill the Scalia vacancy—the nomination of Judge Garland by President Obama—is the longest pending nomination for any Supreme Court vacancy since 1791. As shown by the figure, the Garland nomination was pending before the Senate for a total of 293 days (from March 13, 2016 to January 3, 2017). The current nomination to fill the Scalia vacancy, that of Judge Gorsuch, will have been pending, as of March 1, 2017, for 28 days in the Senate.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Six of the 10 nominations were not approved by the Senate (including 2 nominations that were rejected in up-or-down roll call votes on the floor). Four of the nominations were ultimately approved, with the longest-pending nomination that was confirmed as that of Louis Brandeis in 1916.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='Louis Brandeis served as the first Jewish Justice on the Supreme Court. One author has argued that "there was some anti-Semitism [in the confirmation process]. Some opponents—a cult accused him of Old Testament cruelty. William Howard Taft, the former President, talked about him being an emotionalist, a socialist and a muckraker and in terms that had a sort of vaguely anti-Semitic cant. But in the end, the real opposition to Brandeis was not his religion but ... his perceived opposition to oli...'>21</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A relatively long-lasting vacancy does not necessarily mean that a nomination for the vacancy was pending in the Senate for a relatively long period of time. For example, the vacancy created by the death of Justice John McLean on April 4, 1861, lasted for 295 days, while the sole nomination for the vacancy—that of Noah H. Swayne by President Lincoln—was pending in the Senate for only 3 days prior to Mr. Swayne's confirmation.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Note that the U.S. Civil War formally began on April 12, 1861—eight days after the death of Justice McLean. For additional information, see https://www.senate.gov/artandhistory/history/minute/Civil_War_Begins.htm .">22</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, some relatively long vacancies might have multiple nominations, rather than a single nomination, that, when added together, might reflect a relatively long period of time. For example, the vacancy created by Justice Smith Thompson on December 18, 1843 lasted for 424 days, while the cumulative length of time the six nominations for the Thompson vacancy were pending before the Senate totaled 190 days.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="The single longest pending nomination for the Thompson vacancy was that of Reuben Walworth by President Tyler. Mr. Walworth was nominated on March 13, 1844, and his nomination was eventually withdrawn by the President on June 17, 1844 (after the Senate voted 27-20 to table the nomination). Consequently, the nomination had been pending in the Senate for a total of 96 days prior to being withdrawn. President Tyler's difficulty in having a nominee to the Court confirmed is attributable, in part...">23</a></sup></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref476129029"></a><a name="_Toc474233578"></a><a name="_Toc474240678"></a><a name="_Toc474253313"></a><a name="_Toc474314473"></a><a name="_Toc474314980"></a><a name="_Toc474418136"></a><a name="_Toc474507081"></a><a name="_Toc474695621"></a><a name="_Toc476129184"></a>Figure 3. The 10 Longest Pending Nominations for the U.S. Supreme Court</p>
+<p class="FigureSubTitle">(1791-Present)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R44773_files/2.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Congressional Research Service.</p>
+<p class="FigureNote"><strong>Notes:</strong> This figure identifies the 10 nominations to the U.S. Supreme Court that spent the greatest number of days pending before the U.S. Senate prior to final action on the nomination. </p>
+<p class="FigureNote">* Homer Thornberry was nominated by President Lyndon Johnson in 1968 to fill the anticipated vacancy that would have been created on the Court by the anticipated elevation of Justice Fortas to the Chief Justice position. The nomination was ultimately withdrawn by the President following Justice Fortas's unsuccessful nomination to be Chief Justice.</p>
+<p class="FigureNote">** Associate Justice Abe Fortas's nomination to fill the future vacancy created by the anticipated retirement of Chief Justice Warren was filibustered in the Senate and the Fortas nomination was subsequently withdrawn by the President.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472954586"></a><a name="_Toc472954877"></a><a name="_Toc472955409"></a><a name="_Toc472955539"></a><a name="_Toc473033508"></a><a name="_Toc474140687"></a><a name="_Toc474141369"></a><a name="_Toc474141468"></a><a name="_Toc474141492"></a><a name="_Toc474141741"></a><a name="_Toc474233587"></a><a name="_Toc474240687"></a><a name="_Toc474253322"></a><a name="_Toc474314481"></a><a name="_Toc474314989"></a><a name="_Toc474418145"></a><a name="_Toc474507090"></a><a name="_Toc474695630"></a><a name="_Toc476129193"></a>How often have vacancies on the Supreme Court arisen during presidential election years?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Vacancies on the Supreme Court that have arisen during presidential election years have been relatively uncommon. There have been a total of 16 vacancies on the Supreme Court, out of a total of 111, that have arisen during a presidential election year (i.e., a Justice has retired, resigned, or died during the election year itself). Unlike the Scalia vacancy, however, 3 of these 16 vacancies occurred in the weeks after the general election,<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="These three vacancies occurred on December 15, 1800 (following the resignation of Chief Justice Oliver Ellsworth); November 28, 1872 (following the retirement of Justice Samuel Nelson); and December 14, 1880 (following the retirement of Justice William Strong).">24</a></sup> while another 4 vacancies arose prior to the election but did not have a nomination submitted by the President until after the election.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="These four vacancies occurred on August 25, 1828 (following the death of Justice Robert Trimble); May 31, 1860 (following the death of Justice Peter Daniel); October 12, 1864 (following the death of Chief Justice Roger Taney); and October 15, 1956 (following the retirement of Justice Sherman Minton). Nominations for each of these vacancies were submitted, respectively, on December 17, 1828; February 5, 1861; December 6, 1864; and January 14, 1957.">25</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Consequently, since 1791, there have been a total of 9 vacancies (including the Scalia vacancy) to arise on the Court during a presidential election year in which (1) the vacancy occurred prior to the general election itself; and (2) the President also nominated an individual to fill the vacancy prior to the election. The Scalia vacancy is the first to occur since 1932 under these particular circumstances. These 9 vacancies, listed in <strong><a class="InternalLink" href="#_Ref476129052"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 4</strong><strong></strong>, represent<strong> </strong>8% of the vacancies on the Court to occur since 1791.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref476129052"></a><a name="_Toc474233579"></a><a name="_Toc474240679"></a><a name="_Toc474253314"></a><a name="_Toc474314474"></a><a name="_Toc474314981"></a><a name="_Toc474418137"></a><a name="_Toc474507082"></a><a name="_Toc474695622"></a><a name="_Toc476129185"></a>Figure 4. Select Vacancies on the U.S. Supreme Court that Occurred During Presidential Election Years</p>
+<p class="FigureSubTitle">(1791-Present)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image6.png" class="Figure" src="R44773_files/3.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Congressional Research Service.</p>
+<p class="FigureNote"><strong>Notes:</strong> This figure identifies vacancies on the U.S. Supreme Court that arose during presidential election years in which (1) the vacancies occurred prior to the election itself; and (2) for which a President submitted a nomination to the Senate.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown by the figure, the Scalia vacancy is one of three for which the Senate did not approve a President's nominee for a vacancy that arose during a presidential election year prior to the election itself, and for which a President submitted a nomination prior to the election. The other two nominations that were not approved by the Senate were for vacancies that arose during presidential election years in the 19<sup>th</sup> century (1844 and 1852).<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="President John Tyler's nomination of Edward King to fill the vacancy created by the death of Justice Baldwin in 1844 was tabled in the Senate by a vote of 29-18 on June 15, 1844. Mr. King was renominated by President Tyler on December 4, 1844 but Mr. King's second nomination was withdrawn by the President on February 7, 1845 after the Senate had again tabled it on January 21, 1845 (for which there is no record of a committee or floor vote). President Millard Fillmore's nomination of Edward Bra...">26</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Additionally, since the first vacancy in 1791, there have been nine vacancies on the Court during presidential election years in which the vacancy arose prior to the election year itself, i.e., the vacancy "rolled over" from a preceding year into the presidential election year.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="These nine vacancies occurred on June 29, 1795 (following the resignation of Chief Justice John Jay); October 25, 1795 (following the resignation of Justice John Blair); January 12, 1835 (following the resignation of Justice Gabriel Duvall); July 6, 1835 (following the death of Chief Justice John Marshall); December 18, 1843 (following the death of Justice Smith Thompson); May 14, 1887 (following the death of Justice William B. Woods); October 14, 1911 (following the death of Justice John M. H...">27</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For eight of the nine vacancies that rolled over into a presidential election year, the Senate confirmed a nomination during the election year itself.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="The Thompson vacancy, which arose in 1843, was the only vacancy of the nine for which the Senate did not confirm a President's nominee during a presidential election year. The Thompson vacancy was not filled until February 4, 1845 (several months after the general election in 1844), making it the sixth longest vacancy in the history of the Court. See Figure 2 .">28</a></sup> The most recent example of this type of vacancy was the vacancy created in 1987 by the retirement of Justice Powell (for which Anthony M. Kennedy was nominated on November 30, 1987 and confirmed the following year, on February 3, 1988).<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title='The Powell vacancy is also 1 of 20 vacancies on the Court since 1791 for which more than one individual was nominated prior to a nominee being approved by the Senate. For additional information, see the section of the report titled "How many vacancies on the Supreme Court have required two or more nominations in order to be filled?"'>29</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There have also been anticipated vacancies on the Court during a presidential election year. For example, in 1968, President Johnson nominated <a class="ExternalLink" href="http://www.fjc.gov/servlet/nGetInfo?jid=783&amp;cid=999&amp;ctype=na&amp;instate=na"><span class="Hyperlink">Abe Fortas</span></a> to be Chief Justice of the Supreme Court (in anticipation of the retirement of Chief Justice <a class="ExternalLink" href="http://www.fjc.gov/servlet/nGetInfo?jid=2506&amp;cid=999&amp;ctype=na&amp;instate=na"><span class="Hyperlink">Earl Warren</span></a>) and <a class="ExternalLink" href="http://www.fjc.gov/servlet/nGetInfo?jid=2383&amp;cid=999&amp;ctype=na&amp;instate=na"><span class="Hyperlink">Homer Thornberry</span></a> to be an Associate Justice (in anticipation of the need to replace Fortas, who was already serving on the Court as an Associate Justice). After the Senate <a class="ExternalLink" href="https://library.cqpress.com/cqalmanac/document.php?id=cqal68-1284316"><span class="Hyperlink">failed to invoke cloture</span></a> on the Fortas nomination, President Johnson withdrew both nominations. Chief Justice Warren then did not step down from the Court until 1969 and, consequently, no vacancies existed on the Court in 1968.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc447868860"></a><a name="_Toc447880117"></a><a name="_Toc447880280"></a><a name="_Toc447883077"></a><a name="_Toc447883277"></a><a name="_Toc448143681"></a><a name="_Toc448326713"></a><a name="_Toc448326774"></a><a name="_Toc450040868"></a><a name="_Toc458096089"></a><a name="_Toc472953658"></a><a name="_Toc472954587"></a><a name="_Toc472954878"></a><a name="_Toc472955410"></a><a name="_Toc472955540"></a><a name="_Toc473033509"></a><a name="_Toc474140688"></a><a name="_Toc474141371"></a><a name="_Toc474141470"></a><a name="_Toc474141494"></a><a name="_Toc474141743"></a><a name="_Toc474233589"></a><a name="_Toc474240689"></a><a name="_Toc474253324"></a><a name="_Toc474314483"></a><a name="_Toc474314991"></a><a name="_Toc474418147"></a><a name="_Toc474507092"></a><a name="_Toc474695632"></a><a name="_Toc476129194"></a>How often have vacancies on the Supreme Court arisen during one presidency and been filled during a different presidency?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown by <strong><a class="InternalLink" href="#_Ref476129060"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 5</strong><strong></strong>, there have been seven vacancies on the Supreme Court, prior to the Scalia vacancy, which arose during one presidency and were filled during a different administration.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="The vacancies reported in Figure 5 were actual vacancies on the Court that were created after a Justice died, resigned, or retired from office. Consequently, the figure does not include anticipated vacancies on the Court. Such a vacancy might be anticipated by a President but ultimately not occur on the originally anticipated timetable and, thus, not be filled until the President has left office.">30</a></sup> Such vacancies are relatively uncommon—the seven vacancies represent approximately 6% of all vacancies filled on the Court since 1791.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref476129060"></a><a name="_Toc474233580"></a><a name="_Toc474240680"></a><a name="_Toc474253315"></a><a name="_Toc474314475"></a><a name="_Toc474314982"></a><a name="_Toc474418138"></a><a name="_Toc474507083"></a><a name="_Toc474695623"></a><a name="_Toc476129186"></a>Figure 5. Vacancies on the U.S. Supreme Court that Arose During One Presidency and Were Filled During a Different Presidency</p>
+<p class="FigureSubTitle">(1791-Present)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image7.png" class="Figure" src="R44773_files/4.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Congressional Research Service.</p>
+<p class="FigureNote"><strong>Notes:</strong> This figure shows, from 1791 to the present, vacancies on the U.S. Supreme Court that arose during one presidency but were not filled until a different presidency. </p>
+<p class="FigureNote">* President John Tyler was initially elected as a Whig. He became an Independent on September 13, 1841. </p>
+<p class="FigureNote">** Justice David Davis resigned on March 4, 1877, which was also the same date on which the presidency of Ulysses S. Grant ended.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Prior to the Scalia vacancy, the last time a Supreme Court vacancy arose during one presidency and was filled during a different presidency was in 1881. The death of <a class="ExternalLink" href="http://www.fjc.gov/servlet/nGetInfo?jid=460&amp;cid=999&amp;ctype=na&amp;instate=na"><span class="Hyperlink">Justice Nathan Clifford</span></a> created a vacancy on the Court on July 25 of that year—approximately two months later President Garfield was assassinated and the Clifford vacancy was eventually filled by his successor, President Arthur, on December 20, 1881.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="At the time he was assassinated, President Garfield had not yet submitted a nomination for the Clifford vacancy.">31</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Four of the seven vacancies (prior to the Scalia vacancy) shown in <strong><a class="InternalLink" href="#_Ref476129060"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 5</strong><strong></strong><strong> </strong>were filled by a President belonging to a different political party than the President who left office. Prior to the Scalia vacancy, the last time a Supreme Court vacancy arose during one presidency and was filled during a different administration—<em>and</em> for which the party of the new President was different than the party of the previous President (as with the Scalia vacancy)—was in 1862. The death of <a class="ExternalLink" href="http://www.fjc.gov/servlet/nGetInfo?jid=558&amp;cid=999&amp;ctype=na&amp;instate=na"><span class="Hyperlink">Justice Peter Daniel</span></a> created a vacancy on May 31, 1860. While the vacancy arose during the final year of the Buchanan presidency in 1860, it was not filled until the second year of the Lincoln presidency in 1862 (and not until after the onset of the Civil War in 1861).<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="On February 5, 1861 (approximately one month before leaving office), President James Buchanan nominated Jeremiah Black to fill the vacancy created by the death of Justice Peter Daniel on May 31, 1860. A motion to proceed to consider the Black nomination was rejected by a vote of 25-26 in the Senate on February 21, 1861. Subsequently, President Lincoln did not submit a nomination to fill the Daniel vacancy until July 16, 1862, nearly 500 days after taking office. His nominee, Samuel Miller, was...">32</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Three of the vacancies reported in <strong><a class="InternalLink" href="#_Ref476129060"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 5</strong><strong></strong><strong> </strong>occurred during the "Second Party System," a period from approximately 1828 to 1854 (in which the Whig Party was one of the major political parties). Five of the vacancies listed in the figure occurred during the "Modern Party System," a period from approximately 1854 to the present (the beginning of which coincides with the founding of the Republican Party).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the eight vacancies, the Scalia vacancy reflects the greatest number of days (among Supreme Court vacancies that arose during one presidency and were filled during a different presidency) from a vacancy occurring on the Court to when a President left office. Specifically, as shown by <strong><a class="InternalLink" href="#_Ref476129060"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 5</strong><strong></strong>, 342 days elapsed from the Scalia vacancy occurring to when President Obama left office (followed by 317 days from the Baldwin vacancy occurring to the end of the Tyler presidency).<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="The Senate declined three times in 1844 and 1845 to act on nominations submitted by President Tyler to fill the vacancy created by the death of Justice Henry Baldwin on April 21, 1844 . This was due, in part, to President Tyler's strained relations with the majority Whig P arty in the Senate (Tyler had previously been expelled from the party in 1841).">33</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most of the "departing Presidents" listed in the figure submitted a nomination for the respective vacancy that arose during each of their presidencies. Specifically, six of the eight Presidents, including President Obama, submitted a nomination to the Senate prior to departing (while two, Presidents Grant and Garfield, did not).<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="President Hayes's nominee for the Swayne vacancy, Stanley Matthews , was renominated by his successor, President Garfield, and narrowly approved 24-23 by the Senate within 70 days of Hayes leaving office.">34</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note that the number of days reported for each vacancy in <strong><a class="InternalLink" href="#_Ref476129060"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 5</strong><strong></strong> does not represent the total number of days each vacancy existed prior to being filled with the appointment of a new Justice. For example, the number of days from when the Baldwin vacancy occurred during the Tyler presidency to when he left office was 317 days (whereas the total number of days the vacancy lasted was 835 days). Similarly, the number of days from when the Scalia vacancy occurred during the Obama presidency to when he left office was 342 days (whereas, as of March 1, 2017, the vacancy will have lasted for a total of 382 days).</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472954588"></a><a name="_Toc472954879"></a><a name="_Toc472955411"></a><a name="_Toc472955541"></a><a name="_Toc473033510"></a><a name="_Toc474140689"></a><a name="_Toc474141372"></a><a name="_Toc474141471"></a><a name="_Toc474141495"></a><a name="_Toc474141744"></a><a name="_Toc474233590"></a><a name="_Toc474240690"></a><a name="_Toc474253325"></a><a name="_Toc474314484"></a><a name="_Toc474314992"></a><a name="_Toc474418148"></a><a name="_Toc474507093"></a><a name="_Toc474695633"></a><a name="_Toc476129195"></a>How many vacancies on the Supreme Court have had more than one nomination prior to being filled by the appointment of a new Justice?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Sometimes a vacancy on the Supreme Court is not filled after just a single nomination is submitted to the Senate. Instead, after an initial nomination is either rejected by the Senate, otherwise not acted upon by the Senate, or withdrawn by a President, one or more additional nominations might be made before the vacancy is filled by the appointment of a new Justice. Additionally, sometimes a nomination for an anticipated vacancy on the Court is unsuccessful (thus requiring at least one additional nomination).<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="This situation, for example, is reflected in Figure 6 with the Thornberry and Fortas nominations. Both nominations were made by President Johnson in 1968 for the anticipated vacancies created, respectively, by the planned elevation of Justice Fortas to be Chief Justice in response to the anticipated retirement of Chief Justice Earl Warren. When the Senate failed to invoke cloture on the Fortas nomination, the President withdrew both nominations. Subsequently, after President Johnson lef...">35</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since 1791, there have been a total of 20 vacancies (representing approximately 19% of all vacancies on the Court) for which more than one nomination was made prior to the vacancy being filled by the appointment of a new Justice.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="This does not include three vacancies for which the same (and only) person was nominated twice prior to being confirmed by the Senate. For example, President Eisenhower first nominated John Harlan on November 9, 1954, to fill the vacancy created by the death of Justice Robert Jackson. That nomination was not acted upon by the Senate in 1954, and Mr. Harlan was subsequently renominated by President Eisenhower on January 10, 1955 (and the second nomination was confirmed by the Senate on March 16...">36</a></sup> The Scalia vacancy is the most recent vacancy on the Court requiring more than one nomination prior to being filled.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref476129099"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 6</strong><strong></strong> shows the 12 vacancies since 1860 (the first vacancy to occur after the start of the modern two-party system) that have required multiple nominations prior to the appointment of a new Justice on the Supreme Court. Six of the vacancies occurred between 1860 and 1899; one of the vacancies occurred between 1900 and 1955; and five of the vacancies occurred between 1956 and 2016.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="Eight of the vacancies requiring multiple nominations occurred prior to 1860 (in 1795, 1800, 1810, 1828, 1835, 1843, 1844, and 1852). The first vacancy to require multiple nominations prior to the appointment of a new Justice was the vacancy created by the resignation of Chief Justice John Jay on June 29, 1795. John Rutledge, a former Associate Justice who had resigned from the Court in 1791, received a recess appointment to the Chief Justice position from President Washington on July 1, 1795....">37</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown by the figure, six of the vacancies involved the Senate formally rejecting one or more nominations in a floor vote.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="The nominees included in Figure 6 whose nominations were rejected by the Senate were Jeremiah Black (nomination rejected 25-26 on February 21, 1861); Ebenezer Hoar (rejected 24-33 on December 14, 1869); William Hornblower (rejected 24-30 on January 15, 1894; Wheeler Peckham (rejected 32-41 on February 16, 1894); John Parker (rejected 39-41 on May 7, 1930); Clement Haynsworth, Jr. (rejected 45-55 on November 21, 1969); G. Harrold Carswell (rejected 45-51 on April 8, 1970); and Robert Bork (re...">38</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Four of the vacancies (actual or anticipated) involved the President withdrawing one or more nominations.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="The withdrawn nominations were those of George Williams (by President Grant on January 8, 1874); Caleb Cushing (by President Grant on January 13, 1874; Abe Fortas (by President Johnson on October 4, 1968); Homer Thornberry (by President Johnson on October 4, 1968); John Roberts Jr. (by President G.W. Bush on September 6, 2005); and Harriet Miers (by President G.W. Bush on October 28, 2005).">39</a></sup> In one case, the initial nominee whose nomination was approved by the Senate died before taking office (requiring President Grant to submit a second nomination for the Grier vacancy).<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Edwin Stanton, a nominee of President Grant who had served as Secretary of War during the Lincoln presidency for most of the U.S. Civil War, was confirmed by the Senate on December 20, 1869. He died, before taking office, on December 24, 1869. President Grant subsequently nominated William Strong, a former congressman from Pennsylvania and former justice on the Supreme Court of Pennsylvania, who was confirmed by the Senate on February 18, 1870.">40</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Scalia vacancy is distinctive among the 12 vacancies in that it is the only vacancy to include a nomination which, pursuant to Senate rules, was returned to the President at the end of a congress after the Senate took no action to process the nomination.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="As stated previously, the Senate, without confirming or rejecting the nomination in a floor vote, returns a nomination to the President under Rule XXXI , paragraph 6 of the Standing Rules of the Senate after it has adjourned or been in recess for more than 30 days. Consequently, a nomination that is not approved or rejected by the Senate when it adjourns sine die , such as Judge Garland's at the end of the 114 th Congress, is returned to the President.">41</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Not surprisingly, as also shown by <strong><a class="InternalLink" href="#_Ref476129099"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 6</strong><strong></strong>, vacancies requiring multiple nominations prior to being filled have generally lasted longer than the median length of a vacancy on the Court (i.e., longer than 61 days). Eight of the 11 vacancies lasted longer than 61 days, while 7 lasted at least 100 days. Additionally, 6 of the vacancies have lasted longer than the average length of a vacancy on the court (i.e., longer than 121 days).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The figure also shows that, for vacancies requiring more than one nomination prior to being filled, the nominee whose nomination is eventually approved by the Senate has generally received unanimous or nearly unanimous support at the time of confirmation (even after, in some cases, the Senate had narrowly rejected one or more previous nominations for the same vacancy). Four of the nominees were approved by voice vote. Of the remaining six nominees whose nominations received a roll call vote, three received zero nay votes; one received fewer than 5 nay votes; and another received fewer than 10 nay votes. The exception to this pattern was Samuel Alito (nominated to replace Sandra Day O'Connor), whose nomination received 42 nay votes in 2006.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="This is the fifth greatest number of nay votes received by a Supreme Court nomination. See Figure 5 in CRS Report R44234, Supreme Court Appointment Process: Senate Debate and Confirmation Vote , by Barry J. McMillion .">42</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref476129099"></a><a name="_Toc474314983"></a><a name="_Toc474418139"></a><a name="_Toc474507084"></a><a name="_Toc474695624"></a><a name="_Toc476129187"></a>Figure 6. Vacancies on the U.S. Supreme Court for Which More Than One Nomination Were Made Prior to the Vacancy Being Filled</p>
+<p class="FigureSubTitle">(1860—Present)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image8.png" class="Figure" src="R44773_files/5.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Congressional Research Service.</p>
+<p class="FigureNote"><strong>Notes:</strong> This figure shows, from 1860 to the present, vacancies on the U.S. Supreme Court to which more than one nomination were made prior to the vacancy being filled by the appointment of a new Justice. </p>
+<p class="FigureNote">* As of March 1, 2017. </p>
+<p class="FigureNote"> ** On several occasions, the Senate has approved a nominee for an anticipated vacancy on the Court prior to a departing Justice's effective retirement date, or when a Justice indicated he or she would retire from the Court upon Senate confirmation of a new Justice (as with Justice Sandra Day O'Connor's departure from the Court). In such circumstances, the length of a "vacancy" would effectively be zero days since there was not an actual vacancy on the Court when the Senate approved a President's nominee.</p>
+<p class="FigureNote">*** John G. Roberts Jr. was initially nominated to the judgeship being vacated by Justice Sandra Day O'Connor. Following the death, however, of Chief Justice William Rehnquist the Roberts nomination was withdrawn by President Bush and Mr. Roberts was subsequently renominated by President Bush to replace Chief Justice Rehnquist.</p>
+<p class="FigureNote">^ Following the Senate's rejection of Robert Bork's nomination to fill the vacancy created by the retirement of Justice Powell, President Reagan announced his intention to nominate Douglas H. Ginsburg, an appellate judge on the D.C. Circuit, for the vacant judgeship. Judge Ginsburg, however, was never formally nominated by the President after Mr. Ginsburg withdrew his name from consideration.</p>
+</td>
+</tr>
+</table>
+</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The author thanks Amber Wilhelm, Graphics Specialist in the Publishing and Editorial Resources Section of CRS, for her work on the figures included in this report. </p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional analysis and information on the processes related to the nomination and confirmation of U.S. Supreme Court Justices, see CRS Report R44235, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44235"><em><span class="Hyperlink">Supreme Court Appointment Process: President's Selection of a Nominee</span></em></a>, by Barry J. McMillion; CRS Report R44236, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44236"><em><span class="Hyperlink">Supreme Court Appointment Process: Consideration by the Senate Judiciary Committee</span></em></a>, by Barry J. McMillion; CRS Report R44234, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44234"><em><span class="Hyperlink">Supreme Court Appointment Process: Senate Debate and Confirmation Vote</span></em></a>, by Barry J. McMillion; CRS Report RL33247, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL33247"><em><span class="Hyperlink">Supreme Court Nominations: Senate Floor Procedure and Practice, 1789-2011</span></em></a>, by Richard S. Beth and Betsy Palmer; and CRS Report RL31171, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL31171"><em><span class="Hyperlink">Supreme Court Nominations Not Confirmed, 1789 to the Present</span></em></a>, by Henry B. Hogue.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> While Judge Garland's nomination was the 161<sup>st</sup> nomination made to the Court, he was the 142<sup>nd</sup> person nominated to the Court (because some individuals have been nominated more than once—either for the same vacant judgeship, different vacant judgeships, or for the Chief Justice position after already having been appointed to the Court as an Associate Justice). Of the 142 individuals nominated to the Court (not including Neil Gorsuch, the current nominee to the Scalia vacancy), 29 (20%) were never appointed—24 of whom had a nomination that was either rejected in some manner by the Senate (whether directly by an up-or-down roll call vote or in a more indirect manner such as not taking action on the nomination) or had a nomination that was withdrawn by the President. Five of the 29 individuals declined either the nomination itself or the appointment after the nomination had been approved by the Senate. Not included among the 29 individuals are those who have served on the Court as an Associate Justice but whose nominations to be Chief Justice were unsuccessful.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Senator Mitch McConnell, "Justice Antonin Scalia," <em>Press Release</em>, February 13, 2016, available at <a class="ExternalLink" href="http://www.mcconnell.senate.gov/public/index.cfm/2016/2/justice-antonin-scalia"><span class="Hyperlink">http://www.mcconnell.senate.gov/public/index.cfm/2016/2/justice-antonin-scalia</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Senator Chuck Grassley, "Grassley Statement on Justice Scalia," <em>Press Release</em>, February 13, 2016, available at<em> </em><a class="ExternalLink" href="http://www.grassley.senate.gov/news/news-releases/grassley-statement-justice-scalia"><span class="Hyperlink">http://www.grassley.senate.gov/news/news-releases/grassley-statement-justice-scalia</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Liam Stack, "The Death of Justice Scalia: Reactions and Analysis," <em>The New York Times</em>, February 13, 2016, available at <a class="ExternalLink" href="https://www.nytimes.com/live/supreme-court-justice-antonin-scalia-dies-at-79/senate-democratic-leader-nominate-scalia-successor-right-away"><span class="Hyperlink">https://www.nytimes.com/live/supreme-court-justice-antonin-scalia-dies-at-79/senate-democratic-leader-nominate-scalia-successor-right-away</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> President Barack Obama, "Remarks by the President Announcing Judge Merrick Garland as his Nominee to the Supreme Court," <em>Press Release</em>, Office of the White House Press Secretary, March 16, 2016, available at<em> </em><a class="ExternalLink" href="https://obamawhitehouse.archives.gov/the-press-office/2016/03/16/remarks-president-announcing-judge-merrick-garland-his-nominee-supreme"><span class="Hyperlink">https://obamawhitehouse.archives.gov/the-press-office/2016/03/16/remarks-president-announcing-judge-merrick-garland-his-nominee-supreme</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Supreme Court nominations from 1949 to 2010 usually received public confirmation hearings before either the Senate Judiciary Committee or one of its subcommittees. As noted previously by CRS, prior to the Garland nomination, 33 (or 92%) of 36 Supreme Court nominations during this period received such hearings. See CRS Insight IN10476, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN10476"><em><span class="Hyperlink">Senate Judiciary Committee Hearings for Supreme Court Nominations: Historical Overview and Data</span></em></a>, by Barry J. McMillion.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> On April 16, 1866, President Andrew Johnson nominated Henry Stanbery to fill the vacancy created by the death of Justice John Catron. There is no record of a committee vote on the Stanbery nomination, no record of floor action by the full Senate after referral to the Senate Judiciary Committee, and no record of President Johnson's withdrawal of the nomination. While the Stanbery nomination was pending in the Senate in 1866, the Associate Justice position to which Stanbery had been nominated was eliminated by statute. See Myron Jacobstein and Roy M. Mersky, <em>The Rejected</em> (Milpitas, CA: Toucan Valley Publications, 1993), pp. 69-74. According to CRS data, six other nominations have no record of a final action date by the Senate or President. Four of these, like the Stanbery nomination, occurred in the 19<sup>th</sup> century, while two involved a President submitting a second nomination (in each case of the same person who was nominated the first time) and having the second nomination subsequently approved by the Senate.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Senate, without confirming or rejecting the nomination in a floor vote, returns a nomination to the President under Rule XXXI , paragraph 6 of the <em>Standing Rules of the Senate</em> after it has adjourned or been in recess for more than 30 days. Consequently, a nomination that is not approved or rejected by the Senate when it adjourns <em>sine die</em>, such as Judge Garland's at the end of the 114<sup>th</sup> Congress,<em> </em>is returned to the President.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> While Judge Gorsuch's nomination is the 162<sup>nd</sup> to the Court, he is the 143<sup>rd</sup> individual nominated to the Supreme Court.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> President Washington's initial appointments to the Supreme Court in 1789 and 1790 are not included in the analysis throughout this report (since these were the very first nominations made to the Court and, thus, were not made to fill a vacancy created by the death, retirement, resignation, or elevation of a sitting Justice). Consequently, for the purposes of this report, the first vacancy on the Supreme Court occurred when Justice John Rutledge resigned from the Court on March 5, 1791 (Justice Rutledge was one of President Washington's initial appointees in 1789).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Since President Washington's initial appointments, the median length of time between two vacancies occurring on the Court is 1.3 years. During the post-War period it is 1.8 years, while since 1980 it is 1.7 years.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The longest period of time between two vacancies occurring on the Court is 4,290 days (or nearly 12 years); specifically, this is the period of time between the vacancy created by the death of Justice Samuel Chase on June 19, 1811 (during the second year of the James Madison presidency), and the vacancy created by the death of Justice Henry B. Livingston on March 18, 1823 (during the seventh year of the James Monroe presidency).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Article III, Section 1 of the U.S. Constitution.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The other death of a sitting Justice during this period, on September 3, 2005, was that of Chief Justice William H. Rehnquist.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Several possible explanations as to why it was more common in the past for Justices to die in office include, for Justices who served in the 19<sup>th</sup> and early 20<sup>th</sup> centuries, an older average age at the time of appointment to the Court; the shorter life expectancy of Americans, generally, during the 18<sup>th</sup> and early 19<sup>th</sup> centuries compared to more recent years; and, perhaps, a contemporary norm among more recent Justices to retire from the Court in order to pursue other professional or personal interests.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The statistics reported in this section include only actual vacancies on the Court (including five vacancies that occurred between 1807 and 1869 as the result of Congress authorizing new judgeships for the Court). Consequently, these statistics do not include the relatively rare situations in which (1) the Senate approved a nominee for an anticipated vacancy on the Court prior to a departing Justice's effective retirement date, or (2) a Justice indicated he or she would retire from the Court immediately upon Senate confirmation of a new Justice—which would effectively mean that there was not an actual vacancy on the Court when the Senate approved a President's nominee. Since 1791, there have been only 10 departing Justices for whom one of these two situations apply (the most recent being the departure of Justice Sandra Day O'Connor).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The shortest vacancy lasted a single day (Potter Stewart received a recess appointment to the Court from President Eisenhower on October 14, 1958—one day after Justice Harold Burton's retirement on October 13, 1958). The longest vacancy lasted 835 following the death of Henry Baldwin on April 21, 1844. For additional information about this vacancy see the discussion in the section titled "How often do vacancies on the Supreme Court arise during one presidency and are filled during a different presidency?"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The other vacancy for which the Senate rejected two nominees in floor votes was the one created by the death of Justice Samuel M. Blatchford in 1893. President Grover Cleveland first nominated William Hornblower, whose nomination was rejected in the Senate by a vote of 24-30. Subsequently, President Cleveland's second nominee for the vacancy, Wheeler Peckham, was rejected by a vote of 32-41. President Cleveland's third nominee for the seat, Edward White, was confirmed by the Senate by voice vote on February 19, 1894 (227 days after Justice Blatchford's death).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This does not include President Washington's seven initial nominations to fill vacancies on the Court in 1789 and 1790. It also does not include seven nominations for which there is no record of a date of final action in the Senate (e.g., the Stanbery nomination in 1866, discussed previously) or the pending nomination of Neil Gorsuch to fill the Scalia vacancy.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Louis Brandeis served as the first Jewish Justice on the Supreme Court. One author has argued that "there was some anti-Semitism [in the confirmation process]. Some opponents—a cult accused him of Old Testament cruelty. William Howard Taft, the former President, talked about him being an emotionalist, a socialist and a muckraker and in terms that had a sort of vaguely anti-Semitic cant. But in the end, the real opposition to Brandeis was not his religion but ... his perceived opposition to oligarchs, to J.P. Morgan, the idea that he [Brandeis] was an enemy of the property classes." National Public Radio, <em>Revisiting the Tenure of Supreme Court Justice Louis Brandeis, The 'Jewish Jefferson,'</em> interview with Jeffrey Rosen, June 7, 2016, transcript available at <a class="ExternalLink" href="http://www.npr.org/2016/06/07/481076322/revisiting-the-tenure-of-supreme-court-justice-louis-brandeis-the-jewish-jeffers"><span class="Hyperlink">http://www.npr.org/2016/06/07/481076322/revisiting-the-tenure-of-supreme-court-justice-louis-brandeis-the-jewish-jeffers</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Note that the U.S. Civil War formally began on April 12, 1861—eight days after the death of Justice McLean. For additional information, see <a class="ExternalLink" href="https://www.senate.gov/artandhistory/history/minute/Civil_War_Begins.htm"><span class="Hyperlink">https://www.senate.gov/artandhistory/history/minute/Civil_War_Begins.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The single longest pending nomination for the Thompson vacancy was that of Reuben Walworth by President Tyler. Mr. Walworth was nominated on March 13, 1844, and his nomination was eventually withdrawn by the President on June 17, 1844 (after the Senate voted 27-20 to table the nomination). Consequently, the nomination had been pending in the Senate for a total of 96 days prior to being withdrawn. <a class="ExternalLink" href="http://www.crs.gov/Reports/RL33247?source=search&amp;guid=e26fa35d9e0a43719c8b08463170b2c4&amp;index=4"><span class="Hyperlink">President Tyler's </span><span class="Hyperlink">difficulty in having a nominee to the Court confirmed is attributable, in part, to his </span><span class="Hyperlink">strained relations with </span><span class="Hyperlink">the majority Whig P</span><span class="Hyperlink">arty in the Senate</span></a> (Tyler had previously been <a class="ExternalLink" href="https://www.whitehouse.gov/1600/presidents/johntyler"><span class="Hyperlink">expelled from the </span><span class="Hyperlink">party</span></a><span class="Hyperlink"> </span>in 1841).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> These three vacancies occurred on December 15, 1800 (following the resignation of Chief Justice Oliver Ellsworth); November 28, 1872 (following the retirement of Justice Samuel Nelson); and December 14, 1880 (following the retirement of Justice William Strong).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> These four vacancies occurred on August 25, 1828 (following the death of Justice Robert Trimble); May 31, 1860 (following the death of Justice Peter Daniel); October 12, 1864 (following the death of Chief Justice Roger Taney); and October 15, 1956 (following the retirement of Justice Sherman Minton). Nominations for each of these vacancies were submitted, respectively, on December 17, 1828; February 5, 1861; December 6, 1864; and January 14, 1957.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> President John Tyler's nomination of Edward King to fill the vacancy created by the death of Justice Baldwin in 1844 was tabled in the Senate by a vote of 29-18 on June 15, 1844. Mr. King was renominated by President Tyler on December 4, 1844 but Mr. King's second nomination was withdrawn by the President on February 7, 1845 after the Senate had again tabled it on January 21, 1845 (for which there is no record of a committee or floor vote). President Millard Fillmore's nomination of Edward Bradford to fill the vacancy created by the death of Justice McKinley in 1852 was tabled by the Senate on August 31, 1852 (for which there is also no record of a vote).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> These nine vacancies occurred on June 29, 1795 (following the resignation of Chief Justice John Jay); October 25, 1795 (following the resignation of Justice John Blair); January 12, 1835 (following the resignation of Justice Gabriel Duvall); July 6, 1835 (following the death of Chief Justice John Marshall); December 18, 1843 (following the death of Justice Smith Thompson); May 14, 1887 (following the death of Justice William B. Woods); October 14, 1911 (following the death of Justice John M. Harlan); November 16, 1939 (following the death of Justice Pierce Butler); and June 26, 1987 (following the retirement of Justice Lewis Powell). </p>
+<p class="FootnoteText" style="">Nominations for each of these "roll over" vacancies, except for the Thompson vacancy, were confirmed during presidential election years, respectively, on March 4, 1796 (Oliver Ellsworth confirmed to replace Jay); January 27, 1796 (Samuel Chase confirmed to replace Blair); March 15, 1836 (Philip Barbour confirmed to replace Duvall); March 15, 1836 (Roger Taney confirmed to replace Marshall); January 16, 1888 (Lucius Lamar confirmed to replace Woods); March 13, 1912 (Mahlon Pitney confirmed to approve Harlan); January 16, 1940 (Frank Murphy confirmed to replace Butler); and February 3, 1988 (Anthony Kennedy confirmed to replace Powell).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Thompson vacancy, which arose in 1843, was the only vacancy of the nine for which the Senate did not confirm a President's nominee during a presidential election year. The Thompson vacancy was not filled until February 4, 1845 (several months after the general election in 1844), making it the sixth longest vacancy in the history of the Court. See <strong><a class="InternalLink" href="#_Ref476129126"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Powell vacancy is also 1 of 20 vacancies on the Court since 1791 for which more than one individual was nominated prior to a nominee being approved by the Senate. For additional information, see the section of the report titled "How many vacancies on the Supreme Court have required two or more nominations in order to be filled?"</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The vacancies reported in <strong><a class="InternalLink" href="#_Ref476129060"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 5</strong><strong></strong><strong> </strong>were <em>actual</em> vacancies on the Court that were created after a Justice died, resigned, or retired from office. Consequently, the figure does not include <em>anticipated </em>vacancies on the Court. Such a vacancy might be anticipated by a President but ultimately not occur on the originally anticipated timetable and, thus, not be filled until the President has left office.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> At the time he was assassinated, President Garfield had not yet submitted a nomination for the Clifford vacancy.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> On February 5, 1861 (approximately one month before leaving office), President James Buchanan nominated Jeremiah Black to fill the vacancy created by the death of Justice Peter Daniel on May 31, 1860. A motion to proceed to consider the Black nomination was rejected by a vote of 25-26 in the Senate on February 21, 1861. Subsequently, President Lincoln did not submit a nomination to fill the Daniel vacancy until July 16, 1862, nearly 500 days after taking office. His nominee, Samuel Miller, was confirmed by the Senate on that same date.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Senate declined three times in 1844 and 1845 to act on nominations submitted by President Tyler to fill the vacancy created by the death of <a class="ExternalLink" href="http://www.fjc.gov/servlet/nGetInfo?jid=84&amp;cid=999&amp;ctype=na&amp;instate=na"><span class="Hyperlink">Justice Henry Baldwin</span></a><span class="Hyperlink"> on April 21, 1844</span>. This was due, in part, to <a class="ExternalLink" href="http://www.crs.gov/Reports/RL33247?source=search&amp;guid=e26fa35d9e0a43719c8b08463170b2c4&amp;index=4"><span class="Hyperlink">President Tyler's strained relations with </span><span class="Hyperlink">the majority Whig P</span><span class="Hyperlink">arty in the Senate</span></a> (Tyler had previously been <a class="ExternalLink" href="https://www.whitehouse.gov/1600/presidents/johntyler"><span class="Hyperlink">expelled from the </span><span class="Hyperlink">party</span></a><span class="Hyperlink"> </span>in 1841).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> President Hayes's nominee for the Swayne vacancy, <a class="ExternalLink" href="http://www.fjc.gov/servlet/nGetInfo?jid=1507&amp;cid=999&amp;ctype=na&amp;instate=na"><span class="Hyperlink">Stanley Matthews</span></a>, was renominated by his successor, President Garfield, and <a class="ExternalLink" href="https://www.supremecourt.ohio.gov/MJC/places/sMatthews.asp"><span class="Hyperlink">narrowly approved </span><span class="Hyperlink">24-23 </span><span class="Hyperlink">by the Senate</span></a> within 70 days of Hayes leaving office.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This situation, for example, is reflected in <a class="InternalLink" href="#_Ref476129099"><strong></strong><strong>Figure 6</strong></a> with the Thornberry and Fortas nominations. Both nominations were made by President Johnson in 1968 for the anticipated vacancies created, respectively, by the planned elevation of Justice Fortas to be Chief Justice in response to the anticipated retirement of Chief Justice Earl Warren. When the Senate failed to invoke cloture on the Fortas nomination, the President withdrew both nominations. Subsequently, after President Johnson left office, President Nixon nominated Warren Burger to fill the anticipated vacancy that would be created by Chief Justice Warren's retirement (the Burger nomination was approved by the Senate by a vote of 74-3 on June 9, 1969). Justice Fortas also subsequently resigned on May 14, 1969, which required three additional nominations by President Nixon prior to the appointment of a new Justice.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This does not include three vacancies for which the same (and only) person was nominated twice prior to being confirmed by the Senate. For example, President Eisenhower first nominated John Harlan on November 9, 1954, to fill the vacancy created by the death of Justice Robert Jackson. That nomination was not acted upon by the Senate in 1954, and Mr. Harlan was subsequently renominated by President Eisenhower on January 10, 1955 (and the second nomination was confirmed by the Senate on March 16, 1955).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Eight of the vacancies requiring multiple nominations occurred prior to 1860 (in 1795, 1800, 1810, 1828, 1835, 1843, 1844, and 1852). The first vacancy to require multiple nominations prior to the appointment of a new Justice was the vacancy created by the resignation of Chief Justice John Jay on June 29, 1795. John Rutledge, a former Associate Justice who had resigned from the Court in 1791, received a recess appointment to the Chief Justice position from President Washington on July 1, 1795. Judge Rutledge was subsequently nominated to the same position by President Washington on December 10, 1795. His nomination, however, was rejected by the Senate in a vote of 10-14 on December 15, 1795. President Washington then nominated, on January 26, 1796, Associate Justice William Cushing for the position. Justice Cushing, however, declined the nomination and continued to serve on the Court as an Associate Justice. President Washington's third nominee for the Jay vacancy, Oliver Ellsworth, was confirmed by the Senate on March 4, 1796 (one day after being nominated by the President on March 3).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The nominees included in <strong><a class="InternalLink" href="#_Ref476129099"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 6</strong><strong></strong> whose nominations were rejected by the Senate were Jeremiah Black (nomination rejected 25-26 on February 21, 1861); Ebenezer Hoar (rejected 24-33 on December 14, 1869); William Hornblower (rejected 24-30 on January 15, 1894; Wheeler Peckham (rejected 32-41 on February 16, 1894); John Parker (rejected 39-41 on May 7, 1930); Clement Haynsworth, Jr. (rejected 45-55 on November 21, 1969); G. Harrold Carswell (rejected 45-51 on April 8, 1970); and Robert Bork (rejected 42-58 on October 23, 1987).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The withdrawn nominations were those of George Williams (by President Grant on January 8, 1874); Caleb Cushing (by President Grant on January 13, 1874; Abe Fortas (by President Johnson on October 4, 1968); Homer Thornberry (by President Johnson on October 4, 1968); John Roberts Jr. (by President G.W. Bush on September 6, 2005); and Harriet Miers (by President G.W. Bush on October 28, 2005).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Edwin Stanton, a nominee of President Grant who had served as Secretary of War during the Lincoln presidency for most of the U.S. Civil War, was confirmed by the Senate on December 20, 1869. He died, before taking office, on December 24, 1869. President Grant subsequently nominated William Strong, a former congressman from Pennsylvania and former justice on the Supreme Court of Pennsylvania, who was confirmed by the Senate on February 18, 1870.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As stated previously, the Senate, without confirming or rejecting the nomination in a floor vote, returns a nomination to the President under Rule XXXI , paragraph 6 of the <em>Standing Rules of the Senate</em> after it has adjourned or been in recess for more than 30 days. Consequently, a nomination that is not approved or rejected by the Senate when it adjourns <em>sine die</em>, such as Judge Garland's at the end of the 114<sup>th</sup> Congress,<em> </em>is returned to the President.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This is the fifth greatest number of nay votes received by a Supreme Court nomination. See <strong>Figure 5</strong> in CRS Report R44234, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44234"><em><span class="Hyperlink">Supreme Court Appointment Process: Senate Debate and Confirmation Vote</span></em></a>, by Barry J. McMillion.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

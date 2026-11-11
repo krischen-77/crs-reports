@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-11T09:31:51.848496+00:00",
+  "run_at": "2026-11-11T17:56:30.691303+00:00",
   "window_start_inclusive": "2026-11-04",
   "window_end_inclusive": "2026-11-11",
   "lookback_days": 7,
@@ -590,13 +590,6 @@
       "note": "Advertised HTML or omitted PDF metadata retained for the authoritative current-original stage; not counted as archived PDFs."
     },
     {
-      "id": "RL30567",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
       "id": "IN11563",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
@@ -609,56 +602,26 @@
       ]
     },
     {
-      "id": "R43168",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "R45407",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "R44700",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "RL31618",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "95-519",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "id": "R44768",
+      "id": "R44773",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "id": "R44769",
+      "id": "R44799",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "historical_backfill_remaining": 242,
+      "historical_backfill_remaining": 240,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "42995743319",
+  "github_run_id": "43072829713",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 7,
@@ -684,19 +647,19 @@
   "attempted_versions": 100,
   "successful_versions": 100,
   "new_pdf_versions": 2,
-  "total_archived_pdf_versions": 847,
-  "total_html_snapshots": 613,
-  "total_pdf_bytes": 694479472,
+  "total_archived_pdf_versions": 849,
+  "total_html_snapshots": 615,
+  "total_pdf_bytes": 696852957,
   "pending_reports": 0,
   "pending_versions": 2,
-  "historical_pending_versions": 242,
+  "historical_pending_versions": 240,
   "historical_new_pdf_versions": 2,
   "primary_new_pdf_versions": 0,
-  "api_requests": 9,
-  "api_remaining_quota": 1,
+  "api_requests": 4,
+  "api_remaining_quota": 6,
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-11-11T09:33:13.334362+00:00",
-  "last_successful_run_at": "2026-11-11T09:33:13.334362+00:00"
+  "finished_at": "2026-11-11T17:57:20.453936+00:00",
+  "last_successful_run_at": "2026-11-11T17:57:20.453936+00:00"
 }
