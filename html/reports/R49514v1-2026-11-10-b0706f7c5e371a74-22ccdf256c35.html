@@ -1,0 +1,1213 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Connecting Constituents with Federal Assistance for Local Emergency Communications Projects</div>
+<div class="CoverDate">November 10, 2026
+            (R49514)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc245219505"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc245219506"><span class="Hyperlink">Agency Programs</span></a></li>
+<li class="TOC2"><a href="#_Toc245219507"><span class="Hyperlink">U.S. Department of Homeland Security (DHS), Federal Emergency Management Agency (FEMA)</span></a></li>
+<li class="TOC3"><a href="#_Toc245219508"><span class="Hyperlink">Homeland Security Grant Program (HSGP)</span></a></li>
+<li class="TOC3"><a href="#_Toc245219509"><span class="Hyperlink">Assistance to Firefighters Grants</span></a></li>
+<li class="TOC3"><a href="#_Toc245219510"><span class="Hyperlink">Emergency Management Performance Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219511"><span class="Hyperlink">Emergency Operations Center (EOC) Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219512"><span class="Hyperlink">Intercity Bus Security Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219513"><span class="Hyperlink">Intercity Passenger Rail—Amtrak Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219514"><span class="Hyperlink">Next Generation Warning System Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219515"><span class="Hyperlink">Nonprofit Security Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219516"><span class="Hyperlink">Port Security Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219517"><span class="Hyperlink">State and Local Cybersecurity Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219518"><span class="Hyperlink">Transit Security Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219519"><span class="Hyperlink">Tribal Cybersecurity Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219520"><span class="Hyperlink">Tribal Homeland Security Grant Program</span></a></li>
+<li class="TOC2"><a href="#_Toc245219521"><span class="Hyperlink">U.S. Department of Agriculture (USDA)</span></a></li>
+<li class="TOC3"><a href="#_Toc245219522"><span class="Hyperlink">Community Connect Grants</span></a></li>
+<li class="TOC3"><a href="#_Toc245219523"><span class="Hyperlink">Community Facilities Direct Loan and Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219524"><span class="Hyperlink">Telecommunications Infrastructure Loans and Loan Guarantees</span></a></li>
+<li class="TOC2"><a href="#_Toc245219525"><span class="Hyperlink">U.S. Department of Commerce (DOC)</span></a></li>
+<li class="TOC3"><a href="#_Toc245219526"><span class="Hyperlink">Tribal Broadband Connectivity Program</span></a></li>
+<li class="TOC2"><a href="#_Toc245219527"><span class="Hyperlink">U.S. Department of Justice (DOJ)</span></a></li>
+<li class="TOC3"><a href="#_Toc245219528"><span class="Hyperlink">Coordinated Tribal Assistance Solicitation</span></a></li>
+<li class="TOC3"><a href="#_Toc245219529"><span class="Hyperlink">Grants to Improve the Criminal Justice Response Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219530"><span class="Hyperlink">School Violence Prevention Program</span></a></li>
+<li class="TOC2"><a href="#_Toc245219531"><span class="Hyperlink">U.S. Department of Transportation (DOT)</span></a></li>
+<li class="TOC3"><a href="#_Toc245219532"><span class="Hyperlink">Consolidated Rail Infrastructure and Safety Improvements Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219533"><span class="Hyperlink">Safe Streets and Roads for All Grant Program</span></a></li>
+<li class="TOC3"><a href="#_Toc245219534"><span class="Hyperlink">Tribal Transportation Program Safety Fund</span></a></li>
+<li class="TOC1"><a href="#_Toc245219535"><span class="Hyperlink">Additional Resources</span></a></li>
+<li class="TOC2"><a href="#_Toc245219536"><span class="Hyperlink">Cybersecurity and Infrastructure Security Agency (CISA)</span></a></li>
+<li class="TOC3"><a href="#_Toc245219537"><span class="Hyperlink">Emergency Communications</span></a></li>
+<li class="TOC3"><a href="#_Toc245219538"><span class="Hyperlink">Funding and Sustainment</span></a></li>
+<li class="TOC3"><a href="#_Toc245219539"><span class="Hyperlink">List of Emergency Communications Programs</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc245219503"><span class="Hyperlink">Table A-1. List for Funding Programs with Links to Websites and  Most Recent Notice of Funding Opportunity (NOFO)</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc245219504"><span class="Hyperlink">Appendix. Selected CRS Reports on Federal Grants</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report is intended to provide Members of Congress and their staff with information and resources regarding federal funding for programs that may support local emergency communications projects. The report provides a brief overview of selected grant and loan programs organized by agency. Agencies covered include the U.S. Department of Homeland Security's (DHS's) Federal Emergency Management Agency (FEMA), the U.S. Department of Agriculture (USDA), the U.S. Department of Commerce (DOC), the U.S. Department of Justice (DOJ), and the U.S. Department of Transportation (DOT). For each program identified, information is included on eligible applicants and allowable costs. <a class="InternalLink" href="#_Ref245211512"><strong></strong><strong>Table A-1</strong></a> includes links to each program's website and most recent Notice of Funding Opportunity (NOFO). Additionally, the report includes selected resources from the Cybersecurity and Infrastructure Security Agency (CISA), in DHS, on identifying emergency communications programs and funding and sustaining emergency communications projects.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report is intended to provide Members of Congress and their staffs with information and resources regarding federal funding programs to support local emergency communications projects. According to the Federal Emergency Management Agency (FEMA), during an incident, "emergency communications may include alerts and warnings; directives about evacuation, curfews, and other self-protection actions; and information about response status, family members, available assistance, and other matters that impact response and recovery."<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='U.S. Department of Homeland Security (DHS), Federal Emergency Management Agency (FEMA), "Lesson 3. Communicating in an Emergency," February 2014, https://training.fema.gov/emiweb/is/is242b/student%20manual/sm_03.pdf .'>1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides a brief overview of selected grant and loan programs organized by agency. Agencies covered include the U.S. Department of Homeland Security's (DHS) Federal Emergency Management Agency (FEMA), the U.S. Department of Agriculture (USDA), the U.S. Department of Commerce (DOC), the U.S. Department of Justice (DOJ), and the U.S. Department of Transportation (DOT). For each program identified, this report includes the program's website, its Assistance Listing Number,<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='Grants.gov defines Assistance Listings as follows: "Formally known as CFDA [ Catalog of Federal Domestic Assistance], the authoritative source of information about federal government programs that provide grants, loans, scholarships, insurance, and other types of assistance or benefits to the American public." Grants.gov defines Assistance Listing Number as "a unique number, formally known as the CFDA Number, assigned to a program or activity with Assistance Listings. The first two digits...'>2</a></sup> and information on program eligibility. <a class="InternalLink" href="#_Ref245211512"><strong></strong><strong>Table A-1</strong></a> includes links to each program's website and most recent Notice of Funding Opportunity (NOFO).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report also highlights resources from the Cybersecurity and Infrastructure Security Agency (CISA), within DHS, on identifying emergency communications programs and funding and sustaining emergency communications projects.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Information in this report is intended to assist with a variety of potential emergency communication circumstances. Thus, the report identifies and describes an array of programs and funding sources that interested parties could assess in the context of particular situations and needs. The listed programs and funding sources typically detail the purposes and availability of the grants to foster such assessments.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321851"></a><a name="_Toc244075251"></a><a name="_Toc244075330"></a><a name="_Toc244077313"></a><a name="_Toc244077829"></a><a name="_Toc244166173"></a><a name="_Toc244259160"></a><a name="_Toc244590122"></a><a name="_Toc245201963"></a><a name="_Toc245210477"></a><a name="_Toc245211478"></a><a name="_Toc245211577"></a><a name="_Toc245219273"></a><a name="_Toc245219506"></a>Agency Programs</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321852"></a><a name="_Toc244075252"></a><a name="_Toc244075331"></a><a name="_Toc244077314"></a><a name="_Toc244077830"></a><a name="_Toc244166174"></a><a name="_Toc244259161"></a><a name="_Toc244590123"></a><a name="_Toc245201964"></a><a name="_Toc245210478"></a><a name="_Toc245211479"></a><a name="_Toc245211578"></a><a name="_Toc245219274"></a><a name="_Toc245219507"></a>U.S. Department of Homeland Security (DHS), Federal Emergency Management Agency (FEMA)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FEMA's preparedness grants "support our citizens and first responders to ensure we work together as a nation to build, sustain and improve our capability to prepare for, protect against, respond to, recover from and mitigate terrorism and other high-consequence disasters and emergencies."<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='FEMA, "Preparedness Grants," July 20, 2026, https://www.fema.gov/grants/preparedness .'>3</a></sup> Many of FEMA's preparedness grant programs list interoperable communications equipment as an allowable expense.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='For additional information on authorized interoperable communications equipment , see FEMA, "Authorized Equipment List," April 18, 2024, https://www.fema.gov/grants/tools/authorized-equipment-list .'>4</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Grants vary in funding levels and mechanisms. For some grants, FEMA allocates funds to states and territories on a formula basis. In these instances, every state and territory receives funding, but funding varies across jurisdictions based on an assessment of risk of terrorism or disaster. For other grants, applicants compete for funding based on certain pre-set criteria. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Eligibility also varies across programs. In some cases, FEMA awards grants directly to states. States then award funding to subrecipients, typically local entities and agencies. For certain grants, FEMA pre-selects or pre-determines eligible subrecipients. In other cases, tribal or local entities (e.g., fire departments, transit agencies) apply directly. Typically, these grants are reviewed, rated, ranked, and selected on a competitive basis.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="For more information on DHS preparedness grants, funding levels and mechanisms, and eligibility, see CRS Report R48828, State and Local Homeland Security: DHS Preparedness Grants , by Shawn Reese .">5</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">FEMA's <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/manual"><em><span class="Hyperlink">Preparedness Grants Manual</span></em></a> provides interested parties with information on "policies and procedures for managing preparedness grants; guidance specific to each grant; [and] rules and regulations that guide the proper management of FEMA grants."<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="FEMA , Preparedness Grants Manual , July 2026, p. 6, https://www.fema.gov/sites/default/files/documents/fema-gov_rsl_fy26_preparedness-grants-manual.pdf .">6</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Below are high-level descriptions of various FEMA preparedness grants that could potentially be used to fund emergency communications projects. The cited sources contain additional details on the purposes and availability of the grants.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321853"></a><a name="_Toc244075253"></a><a name="_Toc244075332"></a><a name="_Toc244077315"></a><a name="_Toc244077831"></a><a name="_Toc244166175"></a><a name="_Toc244259162"></a><a name="_Toc244590124"></a><a name="_Toc245201965"></a><a name="_Toc245210479"></a><a name="_Toc245211480"></a><a name="_Toc245211579"></a><a name="_Toc245219275"></a><a name="_Toc245219508"></a>Homeland Security Grant Program (HSGP) </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The HSGP includes three individual grant programs aimed at helping states, local governments, tribes, and territories in "preventing, protecting against, mitigating, responding to and recovering from acts of terrorism and other threats."<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='FEMA, "Homeland Security Grant Program," September 23 , 2026, https://www.fema.gov/grants/preparedness/homeland-security .'>7</a></sup> These programs fund "a range of preparedness activities, including planning, organization, equipment purchase, training, exercises, and management and administration across all core capabilities and mission areas."<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='FEMA, "Homeland Security Grant Program . "'>8</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/homeland-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/homeland-security</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance </strong><strong>L</strong><strong>isting </strong><strong>N</strong><strong>umber</strong><strong>:</strong> 97.067</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>: </strong>state administrative agencies (SAAs)<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="DHS, Fiscal Year 2026 Homeland Security Grant Program , Notice of Funding Opportunity, p. 5 , https://www.fema.gov/sites/default/files/documents/fema_gpd_hsgp-nofo-fy2026_0.pdf .">9</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321854"></a><a name="_Toc244075254"></a><a name="_Toc244075333"></a><a name="_Toc244077316"></a><a name="_Toc244077832"></a><a name="_Toc244166176"></a><a name="_Toc244259163"></a>There are three grant programs under HSGP:</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. <strong>State Homeland Security Program</strong><strong>.</strong><strong> </strong>These grants "support the implementation of risk-driven, capabilities-based State Homeland Security Strategies to address capability targets."<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='FEMA, "Homeland Security Grant Program."'>10</a></sup> Funding is provided to states, which are required to pass through at least 80% of the funds to tribal or local entities.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="DHS, Fiscal Year 2026 Homeland Security Grant Program , p. 47 .">11</a></sup> <strong>Allowable expenses </strong>include personnel training; exercises and simulations; and procuring technology or equipment to support surveillance, communications, and data analysis.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="DHS, Fiscal Year 2026 Homeland Security Grant Program , p. 14 .">12</a></sup></li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. <strong>Urban Area Security Initiative</strong><strong>.</strong> This program "provides funding to enhance regional preparedness and capabilities in designated high-threat, high-density areas."<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='FEMA, "Homeland Security Grant Program."'>13</a></sup> Funding is provided to states, which are required to pass through at least 80% of the funds to tribal or local entities.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="DHS, Fiscal Year 2026 Homeland Security Grant Program , p. 47.">14</a></sup> <strong>Allowable expenses </strong>include personnel training; exercises and simulations; and procuring technology or equipment to support surveillance, communications, and data analysis.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="DHS, Fiscal Year 2026 Homeland Security Grant Program , p. 14.">15</a></sup></li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. <strong>Operation Stonegarden</strong><strong>.</strong> This program "provides funding to enhance cooperation and coordination among state, local, tribal, territorial, and federal law enforcement agencies to jointly enhance security along the United States land and water borders."<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='FEMA, "Homeland Security Grant Program."'>16</a></sup> States submit applications on behalf of eligible subrecipients ("county-level or equivalent governments and federally recognized tribal governments in states bordering Canada or Mexico, or those with international water borders").<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="DHS, Fiscal Year 2026 Homeland Security Grant Program , p . 5.">17</a></sup> <strong>Allowable expenses </strong>include interoperable data systems, such as computer-aided dispatch systems and records management systems.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="DHS, Fiscal Year 2026 Homeland Security Grant Program , p. 91.">18</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245219276"></a><a name="_Toc245219509"></a>Assistance to Firefighters Grants</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This<span class="BodyTextChar"> </span><span class="BodyTextChar">program </span><span class="BodyTextChar">help</span><span class="BodyTextChar">s</span><span class="BodyTextChar"> "firefighters and other first responders obtain critically needed equipment, protective gear, emergency vehicles, training and other resources necessary for protecting the public and emergency personnel from fire and related hazards."</span><sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='FEMA, "Assistance to Firefighters Grants," October 1 , 2026, https://www.fema.gov/grants/preparedness/firefighters/assistance-grants .'>19</a></sup><span class="BodyTextChar"> </span></p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/firefighters/assistance-grants"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/firefighters/assistance-grants</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.044</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible </strong><strong>a</strong><strong>pplicants</strong><strong>:</strong> local fire department and nonaffiliated emergency medical services organizations (i.e., those that are not part of hospitals)<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="DHS, Fiscal Year 2025 Assistance to Firefighters Grant (AFG) Program , Notice of Funding Opportunity, pp. 6-7 , https://files.simpler.grants.gov/opportunities/e50dd6bb-24cd-4fd0-9dc5-7ccda9cfadf4/attachments/661658d2-58a7-4c50-8d6b-276dfff0c20d/FY25_AFG_NOFO_Clean_App_Date_508.pdf .">20</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable </strong><strong>expenses</strong><strong>:</strong> purchase of a variety of communications equipment, including base stations, headsets, mobile and portable radios, and mobile data terminals<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="DHS, Fiscal Year 2025 Assistance to Firefighters Grant (AFG) Program , pp. 54-55 .">21</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span class="BodyTextChar">For additional information on </span><span class="BodyTextChar">this </span><span class="BodyTextChar">and </span><span class="BodyTextChar">other programs supporting fire departments</span><span class="BodyTextChar">,</span><span class="BodyTextChar"> see</span><span class="BodyTextChar"> </span><span class="BodyTextChar">CRS In Focus IF12806, </span><a class="ExternalLink" href="http://www.crs.gov/Reports/IF12806"><span class="BodyTextChar">Connecting Constituents with Federal Programs for Firefighters and Fire Departments</span></a><span class="BodyTextChar">, by Carol Canada</span><span class="BodyTextChar">.</span><span class="BodyTextChar"> </span></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245219277"></a><a name="_Toc245219510"></a>Emergency Management Performance Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides state, local, tribal and territorial emergency management agencies with the resources required for implementation of the National Preparedness System."<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='FEMA, "Emergency Management Performance Grant," September 23 , 2026, https://www.fema.gov/grants/preparedness/emergency-management-performance .'>22</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Program website</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> </span><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/emergency-management-performance"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/emergency-management-performance</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number:</strong> 97.042</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Eligible applicants</span></strong><strong><span class="BodyTextChar">:</span></strong><strong><span class="BodyTextChar"> </span></strong><span class="BodyTextChar">SAA</span><span class="BodyTextChar">s</span><span class="BodyTextChar"> or state</span><span class="BodyTextChar"> e</span><span class="BodyTextChar">mergency </span><span class="BodyTextChar">m</span><span class="BodyTextChar">anagement </span><span class="BodyTextChar">a</span><span class="BodyTextChar">genc</span><span class="BodyTextChar">ies</span><sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="DHS, Fiscal Year 2026 Emergency Management Performance Grant Program , Notice of Funding Opportunity, p p . 4 -5 , https://www.fema.gov/sites/default/files/documents/fema_gpd_empg-nofo-fy-2026_062026.pdf .">23</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Allowable </span></strong><strong><span class="BodyTextChar">expenses</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> </span><span class="BodyTextChar">interoperable communications equipment</span><sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="DHS, Fiscal Year 2026 Emergency Management Performance Grant Program , p. 48.">24</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span class="BodyTextChar">For more information on the </span><span class="BodyTextChar">National Preparedness System, see </span><span class="BodyTextChar">CRS Report R46696, </span><a class="ExternalLink" href="http://www.crs.gov/Reports/R46696"><span class="BodyTextChar">National Preparedness: A Summary and Select Issues</span></a><span class="BodyTextChar">, by Shawn Reese and Lauren R. Stienstra</span><span class="BodyTextChar">.</span></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321856"></a><a name="_Toc244075256"></a><a name="_Toc244075335"></a><a name="_Toc244077318"></a><a name="_Toc244077834"></a><a name="_Toc244166178"></a><a name="_Toc244259165"></a><a name="_Toc244590127"></a><a name="_Toc245201968"></a><a name="_Toc245210482"></a><a name="_Toc245211483"></a><a name="_Toc245211582"></a><a name="_Toc245219278"></a><a name="_Toc245219511"></a>Emergency Operations Center (EOC) Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The EOC program "is intended to improve emergency management and preparedness capabilities by supporting flexible, sustainable, secure, strategically located, and fully interoperable EOCs with a focus on addressing identified deficiencies and needs."<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title='FEMA, "Emergency Operations Center Grant Program," September 23 , 2026, https://www.fema.gov/grants/preparedness/emergency-operations-center .'>25</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/emergency-operations-center"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/emergency-operations-center</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.052</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>: </strong>Only SAAs "on behalf of state and local units of government, with identified projects"<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="DHS, Fiscal Year 2026 Emergency Operations Center Grant Program , Notice of Funding Opportunity, p. 5, https://www.fema.gov/sites/default/files/documents/fema_gpd_eocgp-fy-2026-nofo_062026.pdf .">26</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable </strong><strong>expenses</strong><strong>:</strong> interoperable communications equipment that "directly support[s] the function and operation of the EOC"<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="DHS, Fiscal Year 2026 Emergency Operations Center Grant Program , p. 41.">27</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245219279"></a><a name="_Toc245219512"></a>Intercity Bus Security Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "helps protect surface transportation infrastructure and the traveling public from acts of terrorism and increase the resilience of transit infrastructure."<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title='FEMA, "Intercity Bus Security Grant Program," September 23 , 2026, https://www.fema.gov/grants/preparedness/intercity-bus-security .'>28</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/intercity-bus-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/intercity-bus-security</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.057</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> "private operators providing intercity over-the-road bus transportation that have also completed a vulnerability assessment and developed a security plan, which the Secretary of Homeland Security has approved as described in Section 1531 of the Implementing Recommendations of the 9/11 Commission Act of 2007 (9/11 Act) (<a class="ExternalLink" href="http://www.congress.gov/law/110/pub/53"><span class="Hyperlink">P.L. 110-53</span></a>) (<a class="ExternalLink" href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1181&amp;num=0&amp;edition=prelim"><span class="Hyperlink">6 U.S.C. §1181</span></a>)"<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="DHS, Fiscal Year 2026 Intercity Bus Security Grant Program , Notice of Funding Opportunity, p p. 4-5 , https://www.fema.gov/sites/default/files/documents/fema_gpd_ibsgp-nofo-fy2026.pdf .">29</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> interoperable communications equipment, including alert and warning capabilities for intercity bus systems<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="DHS, Fiscal Year 2026 Intercity Bus Security Grant Program , p. 61.">30</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321858"></a><a name="_Toc244075258"></a><a name="_Toc244075337"></a><a name="_Toc244077320"></a><a name="_Toc244077836"></a><a name="_Toc244166180"></a><a name="_Toc244259167"></a><a name="_Toc244590129"></a><a name="_Toc245201970"></a><a name="_Toc245210484"></a><a name="_Toc245211485"></a><a name="_Toc245211584"></a><a name="_Toc245219280"></a><a name="_Toc245219513"></a>Intercity Passenger Rail—Amtrak Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides funds to protect critical surface transportation infrastructure and the traveling public from acts of terrorism and increase the resilience of the Amtrak rail system."<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='FEMA, "Intercity Passenger Rail — Amtrak Program," September 23 , 2026, https://www.fema.gov/grants/preparedness/intercity-passenger-rail-amtrak .'>31</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/intercity-passenger-rail-amtrak"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/intercity-passenger-rail-amtrak</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.157</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible </strong><strong>a</strong><strong>pplicants:</strong> only Amtrak<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="DHS, Fiscal Year 2026 Intercity Passenger Rail Grant Program (IPR) , Notice of Funding Opportunity, p. 4, https://www.fema.gov/sites/default/files/documents/fema_gpd_ipr-nofo-fy2026.pdf .">32</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> interoperable communications equipment, including alert and warning capabilities for rail systems<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="DHS, Fiscal Year 2026 Intercity Passenger Rail Grant Program (IPR) , p. 53.">33</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321859"></a><a name="_Toc244075259"></a><a name="_Toc244075338"></a><a name="_Toc244077321"></a><a name="_Toc244077837"></a><a name="_Toc244166181"></a><a name="_Toc244259168"></a><a name="_Toc244590130"></a><a name="_Toc245201971"></a><a name="_Toc245210485"></a><a name="_Toc245211486"></a><a name="_Toc245211585"></a><a name="_Toc245219281"></a><a name="_Toc245219514"></a>Next Generation Warning System Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "enhances alert and warning capabilities and improves resiliency of emergency alert and warning systems through effective services, solutions, and technology to improve the timely delivery of public safety information for state and tribal partners" in collaboration with the FEMA <a class="ExternalLink" href="https://www.fema.gov/emergency-managers/practitioners/integrated-public-alert-warning-system/ngwsp"><span class="Hyperlink">Integrated Public Alert </span><span class="Hyperlink">and</span><span class="Hyperlink"> Warning System (IPAWS)</span></a>.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='FEMA, "Next Generation Warning System Grant Program," October 14 , 2026, https://www.fema.gov/emergency-managers/practitioners/integrated-public-alert-warning-system/ngwsp .'>34</a></sup> One of the objectives is to "integrate effective, reliable, available, and timely alert and warning capabilities to enhance public emergency communications."<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="DHS, Fiscal Year 2026 Next Generation Warning System Grant Program , Notice of Funding Opportunity, p. 7, https://www.fema.gov/sites/default/files/documents/fema_gpd_ngws-nofo_fy2026.pdf .">35</a></sup></p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/emergency-managers/practitioners/integrated-public-alert-warning-system/ngwsp"><span class="Hyperlink">https://www.fema.gov/emergency-managers/practitioners/integrated-public-alert-warning-system/ngwsp</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.138</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> states or Indian tribes (tribal nations) as defined in <a class="ExternalLink" href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-A/subject-group-ECFR2a6a0087862fd2c/section-200.1"><span class="Hyperlink">2 C.F.R. §200.1</span></a><sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="DHS, Fiscal Year 2026 Next Generation Warning System Grant Program , p. 4 .">36</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable </strong><strong>expenses</strong><strong>:</strong> "installation of IPAWS-compatible sirens and/or 'giant-voice systems'"<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='FEMA, "The Next Generation Warning System (NGWS) Grant Program: Frequently Asked Questions , " p. 3 , https://www.fema.gov/sites/default/files/documents/fema_gpd_ipaws-ngws-faqs_fy2026.pdf .'>37</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For additional information on IPAWS—the national alerting system that state, local, and tribal entities can use to distribute alerts—see CRS Report R48363, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48363"><em><span class="Hyperlink">The Integrated Public Alert and Warning System (IPAWS): Primer and Issues for Congress</span></em></a>, by Brian E. Humphreys. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245219282"></a><a name="_Toc245219515"></a>Nonprofit Security Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides funding support for target hardening and other physical security enhancements and activities to nonprofit organizations that are at high risk of terrorist attack."<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title='FEMA, "Nonprofit Security Grant Program," September 28 , 2026, https://www.fema.gov/grants/preparedness/nonprofit-security .'>38</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/nonprofit-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/nonprofit-security</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.008</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> "All states, territories and FEMA identified high-risk urban areas SAAs are deemed the only applicants eligible to apply to FEMA for funding. Nonprofit organizations are eligible as subapplicants to SAAs. Nonprofit organizations may NOT apply directly."<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="DHS, Fiscal Year 2026 Nonprofit Security Grant Program , Notice of Funding Opportunity, p. 5 , https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26-NSGP_NOFO.pdf .">39</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> such communications equipment as handheld or mobile public address systems, public notification and warning systems, portable radios, paging systems and services, and intercom systems<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="DHS, Fiscal Year 2026 Nonprofit Security Grant Program , pp. 58-62 .">40</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span class="BodyTextChar">For additional information, see </span><span class="BodyTextChar">CRS In Focus IF13201, </span><a class="ExternalLink" href="http://www.crs.gov/Reports/IF13201"><span class="BodyTextChar">Soft Targets and the Nonprofit Security Grant Program</span></a><span class="BodyTextChar">, by Shawn Reese</span><span class="BodyTextChar">. </span></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321861"></a><a name="_Toc244075261"></a><a name="_Toc244075340"></a><a name="_Toc244077323"></a><a name="_Toc244077839"></a><a name="_Toc244166183"></a><a name="_Toc244259170"></a><a name="_Toc244590132"></a><a name="_Toc245201973"></a><a name="_Toc245210487"></a><a name="_Toc245211488"></a><a name="_Toc245211587"></a><a name="_Toc245219283"></a><a name="_Toc245219516"></a>Port Security Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides funding to state, local and private-sector partners to help protect critical port infrastructure from terrorism, enhance maritime domain awareness, improve port-wide maritime security risk management, and maintain or reestablish maritime security mitigation protocols that support port recovery and resiliency capabilities."<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title='FEMA, "Port Security Grant Program," September 25 , 2026, https://www.fema.gov/grants/preparedness/port-security .'>41</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Prog</strong><strong>ram website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/port-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/port-security</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.056</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible </strong><strong>a</strong><strong>pplicants</strong><strong>:</strong> port authorities; facility operators; and state, local, and territorial government agencies<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="DHS, Fiscal Year 2026 Port Security Program (PSGP) , p. 5 , https://www.fema.gov/sites/default/files/documents/fema_gpd_psgp-nofo-fy2026.pdf .">42</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> procuring technology or equipment to support surveillance, communications, and data analysis<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="DHS, Fiscal Year 2026 Port Security Program (PSGP) , p. 14 .">43</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321862"></a><a name="_Toc244075262"></a><a name="_Toc244075341"></a><a name="_Toc244077324"></a><a name="_Toc244077840"></a><a name="_Toc244166184"></a><a name="_Toc244259171"></a><a name="_Toc244590133"></a><a name="_Toc245201974"></a><a name="_Toc245210488"></a><a name="_Toc245211489"></a><a name="_Toc245211588"></a><a name="_Toc245219284"></a><a name="_Toc245219517"></a>State and Local Cybersecurity Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides funding to eligible entities to address cybersecurity risks and threats to information systems owned or operated by, or on behalf of, state, local, or tribal governments."<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title='FEMA, "State and Local Cybersecurity Grant Program ," July 30, 2026, https://www.fema.gov/grants/preparedness/state-local-cybersecurity-grant-program .'>44</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/state-local-cybersecurity-grant-program"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/state-local-cybersecurity-grant-program</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.137</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> "All 56 states and territories" as codified in <a class="ExternalLink" href="https://uscode.ecfr.io/title/6/section/101"><span class="Hyperlink">6 U</span><span class="Hyperlink">.</span><span class="Hyperlink">S</span><span class="Hyperlink">.</span><span class="Hyperlink">C</span><span class="Hyperlink">.</span><span class="Hyperlink"> </span>§<span class="Hyperlink">101</span></a>(17)<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title='Sam.gov, " State and Local Cybersecurity Grant Program Tribal Cybersecurity Grant Program, " September 11, 2026, https://sam.gov/workspace/assistance/fal/72ead78b080b4bb5b5d8278f2a91a44d/view .'>45</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> "Investments in emergency communications systems and equipment that meets applicable <a class="ExternalLink" href="https://www.cisa.gov/safecom/funding"><span class="Hyperlink">SAFECOM Guidance on Emergency Communications Grants</span></a> recommendations"<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="DHS, Fiscal Year 2025 State and Local Cybersecurity Grant Program , Notice of Funding Opportunity, p. 61, https://files.simpler.grants.gov/opportunities/d3188ee7-82d4-4397-9ebe-3c7ba4df5744/attachments/1c0f29b7-be89-403c-b90c-46d9be2c512b/FY_2025_SLCGP_NOFO_508_8.8.25.pdf .">46</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321863"></a><a name="_Toc244075263"></a><a name="_Toc244075342"></a><a name="_Toc244077325"></a><a name="_Toc244077841"></a><a name="_Toc244166185"></a><a name="_Toc244259172"></a><a name="_Toc244590134"></a><a name="_Toc245201975"></a><a name="_Toc245210489"></a><a name="_Toc245211490"></a><a name="_Toc245211589"></a><a name="_Toc245219285"></a><a name="_Toc245219518"></a>Transit Security Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides funding to eligible public transportation systems (which include intra-city bus, ferries and all forms of passenger rail) to protect critical transportation infrastructure and the travelling public from terrorism, and to increase transportation infrastructure resilience."<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='FEMA, "Transit Security Grant Program," September 25 , 2026 , https://www.fema.gov/grants/preparedness/transit-security .'>47</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Program website</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> </span><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/transit-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/transit-security</span></a><span class="BodyTextChar"> </span></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Assistance Listing Number</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> </span><span class="BodyTextChar">97.075</span></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Eligible applicants</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> </span>transit authorities including passenger rail, intra-city bus, and ferry systems<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title='Sam.gov , "Rail and Transit Security Grant Program," July 30, 2026, https://sam.gov/workspace/assistance/fal/de85a5ffeeb44060a90ee6e1a0a2b0ad/view .'>48</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> acquisition of interoperable communications equipment, including alert and warning capabilities<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="DHS, Fiscal Year 2026 Transit Security Grant Program , Notice of Funding Opportunity, p. 59, https://files.simpler.grants.gov/opportunities/29f588f5-42b6-4adf-992d-83c361bb526b/attachments/a1d09487-05ae-4fbb-a76a-c3eaf402b895/FY26_TSGP_NOFO_Final_508.pdf .">49</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321864"></a><a name="_Toc244075264"></a><a name="_Toc244075343"></a><a name="_Toc244077326"></a><a name="_Toc244077842"></a><a name="_Toc244166186"></a><a name="_Toc244259173"></a><a name="_Toc244590135"></a><a name="_Toc245201976"></a><a name="_Toc245210490"></a><a name="_Toc245211491"></a><a name="_Toc245211590"></a><a name="_Toc245219286"></a><a name="_Toc245219519"></a>Tribal Cybersecurity Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span class="BodyTextChar">This program </span><span class="BodyTextChar">"provides funding to eligible entities to address cybersecurity risks and threats to information systems owned or operated by, or on behalf of tribal governments."</span><sup><a class="FootnoteLink" href="#fn50" name="ifn50" title='FEMA, "Tribal Cybersecurity Grants Program," September 9, 2025, https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program .'>50</a></sup><span class="BodyTextChar"> </span></p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.156</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> federally recognized Indian/Native American/Alaska Native tribal government<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title='Sam.gov, "Tribal Cybersecurity Grant Program," September 18, 2026, https://sam.gov/workspace/assistance/fal/d04d967b8b754013bcadd2bc890e9c09/view .'>51</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> "investments in emergency communications systems and equipment [that meets] applicable <a class="ExternalLink" href="https://www.cisa.gov/safecom/funding"><span class="Hyperlink">SAFECOM Guidance on Emergency Communications Grants</span></a> recommendations"<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="DHS, Fiscal Year 2025 Tribal Cybersecurity Grant Program (TCGP) , Notice of Funding Opportunity, p. 56, https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program/fy-25-nofo .">52</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321865"></a><a name="_Toc244075265"></a><a name="_Toc244075344"></a><a name="_Toc244077327"></a><a name="_Toc244077843"></a><a name="_Toc244166187"></a><a name="_Toc244259174"></a><a name="_Toc244590136"></a><a name="_Toc245201977"></a><a name="_Toc245210491"></a><a name="_Toc245211492"></a><a name="_Toc245211591"></a><a name="_Toc245219287"></a><a name="_Toc245219520"></a>Tribal Homeland Security Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program provides tribal nations resources "to enhance planning, training, equipment, and operational coordination that directly supports prevention, protection, mitigation, and response capabilities."<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="DHS, Fiscal Year 2026 Tribal Homeland Security Grant Program , Notice of Funding Opportunity, p. 8, https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26_THSGP_NOFO.pdf .">53</a></sup></p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/tribal-homeland-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/tribal-homeland-security</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 97.150</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> federally recognized Indian/Native American/Alaska Native tribal government<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title='Sam.gov, " Tribal Homeland Security Grant Program, " July 30, 2026, https://sam.gov/workspace/assistance/fal/9ff6f3e055e44ba6baabc3d51a8b153d/view .'>54</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> procurement of technology or equipment to support surveillance, communications, and data analysis<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="DHS, Fiscal Year 2026 Tribal Homeland Security Grant Program , p. 10.">55</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321866"></a><a name="_Toc244075266"></a><a name="_Toc244075345"></a><a name="_Toc244077328"></a><a name="_Toc244077844"></a><a name="_Toc244166188"></a><a name="_Toc244259175"></a><a name="_Toc244590137"></a><a name="_Toc245201978"></a><a name="_Toc245210492"></a><a name="_Toc245211493"></a><a name="_Toc245211592"></a><a name="_Toc245219288"></a><a name="_Toc245219521"></a>U.S. Department of Agriculture (USDA)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">USDA administers several grant and loan programs that may be used to enhance public safety communications. Typically, eligibility is limited to entities in rural areas. For additional information on eligibility as well as programmatic guidance, applicants can contact their <a class="ExternalLink" href="https://www.rd.usda.gov/contact-us/state-office-contacts"><span class="Hyperlink">USDA </span><span class="Hyperlink">R</span><span class="Hyperlink">ural </span><span class="Hyperlink">D</span><span class="Hyperlink">evelopment state office</span></a>s.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title='See USDA , Rural Development, "State Offices," https://www.rd.usda.gov/contact-us/state-office-contacts .'>56</a></sup> </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321867"></a><a name="_Toc244075267"></a><a name="_Toc244075346"></a><a name="_Toc244077329"></a><a name="_Toc244077845"></a><a name="_Toc244166189"></a><a name="_Toc244259176"></a><a name="_Toc244590138"></a><a name="_Toc245201979"></a><a name="_Toc245210493"></a><a name="_Toc245211494"></a><a name="_Toc245211593"></a><a name="_Toc245219289"></a><a name="_Toc245219522"></a>Community Connect Grants</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides financial assistance to eligible applicants that will provide broadband service in rural, economically-challenged communities where service does not exist."<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title='USDA , "Community Connect Grants," https://www.rd.usda.gov/programs-services/telecommunications-programs/community-connect-grants .'>57</a></sup> A rural area is any area that "is not located within: A city, town, or incorporated area that has a population of greater than 20,000 inhabitants; or an urbanized area contiguous and adjacent to a city or town that has a population of greater than 50,000 inhabitants" (<a class="ExternalLink" href="https://www.ecfr.gov/current/title-7/subtitle-B/chapter-XVII/part-1739/subpart-A/section-1739.3"><span class="Hyperlink">7 C</span><span class="Hyperlink">.</span><span class="Hyperlink">F</span><span class="Hyperlink">.</span><span class="Hyperlink">R</span><span class="Hyperlink">.</span><span class="Hyperlink"> </span><span class="Hyperlink">§</span><span class="Hyperlink">1739.3</span></a>). In some cases, previous Community Connect awardees used the funding to expand connections to public safety opportunities.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title='See, for example, USDA, "FY24 Community Connect Awards 10.31.24," https://www.rd.usda.gov/media/file/download/usda-rd-fy24-community-connect-10312024.pdf .'>58</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/telecommunications-programs/community-connect-grants"><span class="Hyperlink">https://www.rd.usda.gov/programs-services/telecommunications-programs/community-connect-grants</span></a>. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 10.863</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> incorporated organizations; federally recognized Tribes; state and local government units; and other legal entities, including cooperatives, private corporations, or limited liability companies organized on a for-profit or not-for-profit basis<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title="USDA, Rural Utilities Service (RUS) , Community Connect Program, Fiscal Year 2026 , Notice of Funding Opportunity, p. 5, https://files.simpler.grants.gov/opportunities/068ef5f3-2cd1-415b-8f32-f96fa63d91ba/attachments/78e6e0cd-0344-4479-8d86-036901e55ffe/CCG_NOFO_FY_26_corrected.pdf .">59</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> "These grant funds will be made available to eligible applicants to construct broadband networks that provide service on a community-oriented connectivity basis in rural areas."<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="RUS , Community Connect Program, Fiscal Year 2026 , p. 2.">60</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For additional information on federal assistance for broadband, see CRS In Focus IF12859, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF12859"><em><span class="Hyperlink">Connecting Constituents with Federal Assistance for Broadband</span></em></a>, by Rachael D. Roan.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321868"></a><a name="_Toc244075268"></a><a name="_Toc244075347"></a><a name="_Toc244077330"></a><a name="_Toc244077846"></a><a name="_Toc244166190"></a><a name="_Toc244259177"></a><a name="_Toc244590139"></a><a name="_Toc245201980"></a><a name="_Toc245210494"></a><a name="_Toc245211495"></a><a name="_Toc245211594"></a><a name="_Toc245219290"></a><a name="_Toc245219523"></a>Community Facilities Direct Loan and Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Also referred to as Community Facilities Loans and Grants,<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title='Sam.gov, "Community Facilities Loans and Grants," February 4, 2026, https://sam.gov/workspace/assistance/fal/acedc8b27f48429baf6d0fdbc3b9409e/view .'>61</a></sup> this program </p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">provides affordable funding to develop essential community facilities in rural areas. An essential community facility is defined as a facility that provides an essential service to the local community for the orderly development of the community in a primarily rural area, and does not include private, commercial or business undertakings.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title='USDA , Rural Development, " Community Facilities Direct Loan and Grant Program ," https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program .'>62</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Examples of community facilities include "those providing or supporting overall community development such as hospitals, fire stations, child care facilities, food recovery and distribution centers; assisted-living facilities; group homes, mental health clinics, and shelters; and education facilities."<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title='Sam.gov, "Community Facilities Loans and Grants."'>63</a></sup></p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program"><span class="Hyperlink">https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program</span></a></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 10.766</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible </strong><strong>applicants</strong><strong>:</strong> public bodies, community-based nonprofit corporations, and <a class="ExternalLink" href="https://www.bia.gov/faqs/what-federally-recognized-tribe"><span class="Hyperlink">Federally Recognized Tribes</span></a>.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='Rural Development, "Community Facilities Direct Loan and Grant Program . "'>64</a></sup> Borrowers must be located in "rural areas including cities, villages, townships and towns including Federally Recognized Tribal Lands with no more than 20,000 residents according to the latest U.S. Census Data."<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='Rural Development, "Community Facilities Direct Loan and Grant Program . "'>65</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable </strong><strong>expenses</strong><strong>:</strong> Telecommunication or video surveillance, among other uses.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title='Sam.gov, "Community Facilities Loans and Grants."'>66</a></sup> Direct loans may be used for procurement of "E-Connectivity end-user equipment to include distance learning equipment, telemedicine equipment, and health information technology equipment as well as internal wiring and publicly available Wi-Fi capability within a facility."<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="Rural Development, Community Facilities Direct Loan Program: Guidance Book for Applicants , FY2022, p. 3, https://www.rd.usda.gov/media/file/download/usda-rd-rd-rhs-cf-direct-loan-guidance-book-fy22.pdf .">67</a></sup> </li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321869"></a><a name="_Toc244075269"></a><a name="_Toc244075348"></a><a name="_Toc244077331"></a><a name="_Toc244077847"></a><a name="_Toc244166191"></a><a name="_Toc244259178"></a><a name="_Toc244590140"></a><a name="_Toc245201981"></a><a name="_Toc245210495"></a><a name="_Toc245211496"></a><a name="_Toc245211595"></a><a name="_Toc245219291"></a><a name="_Toc245219524"></a>Telecommunications Infrastructure Loans and Loan Guarantees</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Also referred to as Rural Telecommunications loans,<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title='Sam.gov, "Rural Telecommunications Loans," February 3, 2026, https://sam.gov/workspace/assistance/fal/f1e1a46e018e4bf0bac872669fb1c329/view .'>68</a></sup> this program "provides financing for the construction, maintenance, improvement and expansion of telephone service and broadband in rural areas."<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title='Rural Development, " Telecommunications Infrastructure Loans and Loan Guarantees, " https://www.rd.usda.gov/programs-services/telecommunications-programs/telecommunications-infrastructure-loans-loan-guarantees .'>69</a></sup> For 911 and emergency communications purposes, <em>rural area</em> is defined as "any area of the United States, its territories and insular possessions … not included within the boundaries of any incorporated or unincorporated city, village, or borough having a population exceeding … 20,000" inhabitants.<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title='Sam.gov, "Rural Telecommunications Loans ."'>70</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/telecommunications-programs/telecommunications-infrastructure-loans-loan-guarantees"><span class="Hyperlink">https://www.rd.usda.gov/programs-services/telecommunications-programs/telecommunications-infrastructure-loans-loan-guarantees</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 10.851</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> "State and local government entities; Federally Recognized Tribes; non-profits, including Cooperatives, and limited dividend or mutual associations; [and] for-profit businesses (must be a corporation of limited liability company)"<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title='USDA, " Telecommunications Infrastructure Loans &amp; Loan Guarantees ."'>71</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> "the improvement, expansion, construction, acquisition, and operation of telephone lines, facilities, or systems to furnish and improve Telecommunications, 911 and Emergency Communications services in rural areas"<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title='Sam.gov, "Rural Telecommunications Loans."'>72</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321870"></a><a name="_Toc244075270"></a><a name="_Toc244075349"></a><a name="_Toc244077332"></a><a name="_Toc244077848"></a><a name="_Toc244166192"></a><a name="_Toc244259179"></a><a name="_Toc244590141"></a><a name="_Toc245201982"></a><a name="_Toc245210496"></a><a name="_Toc245211497"></a><a name="_Toc245211596"></a><a name="_Toc245219292"></a><a name="_Toc245219525"></a>U.S. Department of Commerce (DOC)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The <a class="ExternalLink" href="https://www.ntia.gov/"><span class="Hyperlink">National Telecommunications and Information Administration (NTIA)</span></a> in DOC has administered public safety grant programs in the past, including the $1 billion Public Safety Interoperable Communications grant.<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title='NTIA, " Public Safety Interoperable Communications, " https://www.ntia.gov/category/public-safety-interoperable-communications .'>73</a></sup> Previously, NTIA also administered two 911 grant programs with the National Highway Traffic Safety Administration.<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title="CRS Report R48923, First Responder Network (FirstNet) Authority: Reauthorization and Selected Issues , by Colby Leigh Pechtol , p. 17.">74</a></sup> NTIA does not currently administer any public-safety-specific grant programs. However, NTIA does administer several large broadband programs, including the Tribal Broadband Connectivity Program described below, which may be used to support public safety communications and connectivity.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">DOC, through NTIA, also oversees the <a class="ExternalLink" href="https://firstnet.gov/"><span class="Hyperlink">First Responder Network Authority (FirstNet)</span></a> network, a nationwide broadband network for public safety use.<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title='DOC, FirstNet Authority, "About Us," https://firstnet.gov/about .'>75</a></sup> While there are no grants affiliated with FirstNet, revenue earned from subscriber fees is reinvested back into FirstNet.<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title="CRS Report R48923, First Responder Network (FirstNet) Authority: Reauthorization and Selected Issues , by Colby Leigh Pechtol , p. 12.">76</a></sup> Public safety agencies using FirstNet can work with state officials to convey coverage and service needs to FirstNet and its partner, AT&amp;T.<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title='FirstNet Authority, " Public Safety Advocacy ," https://firstnet.gov/public-safety/public-safety-advocacy .'>77</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For additional information on FirstNet, see CRS Report R48923, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48923"><em><span class="Hyperlink">First Responder Network (FirstNet) Authority: Reauthorization and Selected Issues</span></em></a>, by Colby Leigh Pechtol. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321871"></a><a name="_Toc244075271"></a><a name="_Toc244075350"></a><a name="_Toc244077333"></a><a name="_Toc244077849"></a><a name="_Toc244166193"></a><a name="_Toc244259180"></a><a name="_Toc244590142"></a><a name="_Toc245201983"></a><a name="_Toc245210497"></a><a name="_Toc245211498"></a><a name="_Toc245211597"></a><a name="_Toc245219293"></a><a name="_Toc245219526"></a>Tribal Broadband Connectivity Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These grants are "to be used for broadband deployment on tribal lands, as well as for telehealth, distance learning, broadband affordability, and adoption."<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title='NTIA, "Tribal Broadband Connectivity Program," https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity .'>78</a></sup> In previous rounds of funding, some award recipients used funding to improve access to public safety.<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title='See, for example, NTIA, " Ak-Chin Indian Community (TBCP I), " https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity-program-round-1/awardee/tribal-broadband-connectivity-program-2 . One of the outcomes of this funding was " improved access to public safety and community information, such as weather forecasts. "'>79</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity"><span class="Hyperlink">https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 11.029</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> "(i) a Tribal Government; (ii) a Tribal College or University; (iii) the Department of Hawaiian Home Lands on behalf of the Native Hawaiian Community, including Native Hawaiian Education Programs; (iv) a Tribal organization; or (v) an Alaska Native Corporation"<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title="NTIA, Tribal Broadband Connectivity Program , Notice of Funding Opportunity , FY2026, p. 12, https://files.simpler.grants.gov/opportunities/3c1f350b-8a60-43ae-baa3-a5a20959845f/attachments/672820d8-184e-4550-b32f-d5c7e2074cf7/NTIA_Amended_TBCP3_NOFO_2026.pdf .">80</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable</strong><strong> </strong><strong>expenses</strong><strong>:</strong> "deployment and adoption of broadband service on Tribal Land and for programs that promote the use of broadband to access 'remote learning, telework, or telehealth resources'"<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title="NTIA, Tribal Broadband Connectivity Program , p. 6.">81</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321875"></a><a name="_Toc244075275"></a><a name="_Toc244075354"></a><a name="_Toc244077334"></a><a name="_Toc244077850"></a><a name="_Toc244166194"></a><a name="_Toc244259181"></a><a name="_Toc244590143"></a><a name="_Toc245201984"></a><a name="_Toc245210498"></a><a name="_Toc245211499"></a><a name="_Toc245211598"></a><a name="_Toc245219294"></a><a name="_Toc245219527"></a>U.S. Department of Justice (DOJ)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">DOJ administers grants that may fund communications equipment and capabilities for law enforcement, the courts, and criminal justice entities.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321876"></a><a name="_Toc244075276"></a><a name="_Toc244075355"></a><a name="_Toc244077335"></a><a name="_Toc244077851"></a><a name="_Toc244166195"></a><a name="_Toc244259182"></a><a name="_Toc244590144"></a><a name="_Toc245201985"></a><a name="_Toc245210499"></a><a name="_Toc245211500"></a><a name="_Toc245211599"></a><a name="_Toc245219295"></a><a name="_Toc245219528"></a><span class="BodyTextChar">Coordinated Tribal Assistance Solicitation</span></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program is "designed to provide funding directly to federally recognized tribes and tribal consortia to develop a comprehensive and coordinated approach to improve public safety and victim services in tribal communities."<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title='DOJ, Community Oriented Policing Services (COPS) , "Coordinated Tribal Assistance Solicitation (CTAS)," https://cops.usdoj.gov/ctas .'>82</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://cops.usdoj.gov/ctas"><span class="Hyperlink">https://cops.usdoj.gov/ctas</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>s</strong><strong>:</strong> 16.710 (Purpose Area 1: Public Safety and Community Policing Tribal Resources Grant Program)</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> Federally recognized Tribal governments or consortia consisting of two or more federally recognized Indian Tribes. Tribal designees are eligible for certain activities related to the <a class="ExternalLink" href="https://www.justice.gov/archives/tribal/file/934611/dl?inline"><span class="Hyperlink">Children's Justice Act Partnership for Indian Communities</span></a><span class="BodyTextChar">.</span><sup><a class="FootnoteLink" href="#fn83" name="ifn83" title="DOJ, Office for Victims of Crime, &quot; Children's Justice Act Partnership for Indian Communities, &quot; January 24, 2017, https://www.justice.gov/tribal/page/file/1553981/dl?inline .">83</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> computer hardware and software, mobile data terminals, radios, and communications systems such as those used for crime reporting and accessing national databases<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title="DOJ, FY26 Coordinated Tribal Assistance Solicitation , Notice of Funding Opportunity, p. 15, https://www.ojp.gov/funding/docs/bja-2026-172662.pdf .">84</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245201986"></a><a name="_Toc245210500"></a><a name="_Toc245211501"></a><a name="_Toc245211600"></a><a name="_Toc245219296"></a><a name="_Toc245219529"></a>Grants to Improve the Criminal Justice Response Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "assists state, local, and tribal governments, courts, and victim service providers to improve the criminal justice response to domestic violence, sexual assault, dating violence, and stalking as serious violations of criminal law, and to seek safety and autonomy for victims."<sup><a class="FootnoteLink" href="#fn85" name="ifn85" title='DOJ , "Grants to Improve the Criminal Justice Response Program Fact Sheet," June 10, 2026, https://www.justice.gov/ovw/grants-improve-criminal-justice-response-program-fact-sheet .'>85</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.justice.gov/ovw/grants-improve-criminal-justice-response-program-fact-sheet"><span class="Hyperlink">https://www.justice.gov/ovw/grants-improve-criminal-justice-response-program-fact-sheet</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 16.590. Part of DOJ's Grants to Encourage Arrest Policies and Enforcement of Protection Orders Program.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> various government entities (including state governments, Indian tribal governments, units of local government, and state and local courts) and nonprofit entities (including state or territorial domestic violence coalitions, sexual assault coalitions, tribal domestic violence and sexual assault coalitions, and victim service providers)<sup><a class="FootnoteLink" href="#fn86" name="ifn86" title="DOJ, Office of Violence Against Women , FY 2026 Grants to Improve the Criminal Justice Response to Domestic Violence, Dating Violence, Sexual A ssault, and Stalking Program (ICJR Program) , Notice of Funding Opportunity, p. 4, https://www.justice.gov/ovw/media/1444306/dl?inline .">86</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses:</strong> "to develop and install data collection and communication systems, including computerized systems, and training on how to use these systems effectively to link police, prosecutors, courts, and Tribal jurisdictions for the purpose of identifying and tracking protection orders and violations of protection orders, in those jurisdictions where such systems do not exist or are not fully effective"<sup><a class="FootnoteLink" href="#fn87" name="ifn87" title="Office of Violence Against Women, FY 2026 Grants to Improve the Criminal Justice Response , p. 10.">87</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245219297"></a><a name="_Toc245219530"></a><span class="BodyTextChar">School Violence Prevention Program</span></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span class="BodyTextChar">This program</span><span class="BodyTextChar"> </span><span class="BodyTextChar">provides "awards directly to States, units of local government, or Indian tribes to improve security at schools and on school grounds in the jurisdiction of the grantee through evidence-based school safety programs and technology."</span><sup><a class="FootnoteLink" href="#fn88" name="ifn88" title='COPS , "School Violence Prevention Program (SVPP)," https://cops.usdoj.gov/svpp .'>88</a></sup></p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Program website</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> </span><a class="ExternalLink" href="https://cops.usdoj.gov/svpp"><span class="Hyperlink">https://cops.usdoj.gov/svpp</span></a><span class="BodyTextChar"> </span></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Assistance Listing Number</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> </span><span class="BodyTextChar">16.071</span></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Eligible applicants</span></strong><strong><span class="BodyTextChar">:</span></strong><span class="BodyTextChar"> "</span><span class="BodyTextChar">S</span><span class="BodyTextChar">tates, units of local government, Indian tribes, and their public agencies</span><span class="BodyTextChar"> including: School districts, including public charter schools and school districts with a single school; School boards; [and] Law enforcement agencies</span><span class="BodyTextChar">"</span><sup><a class="FootnoteLink" href="#fn89" name="ifn89" title="COPS , FY 2026 COPS School Violence Prevention Program , Notice of Funding Opportunity, p. 5 , https://cops.usdoj.gov/pdf/2026ProgramDocs/svpp/nofo.pdf .">89</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><span class="BodyTextChar">Allowable expenses</span></strong><span class="BodyTextChar"> include </span><span class="BodyTextChar">"acquisition and installation of technology for expedited notification of local law enforcement during an emergency."</span><sup><a class="FootnoteLink" href="#fn90" name="ifn90" title="COPS , FY 2026 COPS School Violence Prevention Program , p. 3.">90</a></sup></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321879"></a><a name="_Toc244075279"></a><a name="_Toc244075358"></a><a name="_Toc244077338"></a><a name="_Toc244077854"></a><a name="_Toc244166198"></a><a name="_Toc244259185"></a><a name="_Toc244590147"></a><a name="_Toc245201988"></a><a name="_Toc245210502"></a><a name="_Toc245211503"></a><a name="_Toc245211602"></a><a name="_Toc245219298"></a><a name="_Toc245219531"></a>U.S. Department of Transportation (DOT)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Selected DOT grants allow for spending on technologies, including communication technologies, that may improve transportation safety. The following grants are targeted at various modes of transportation and could potentially support communication projects that are aimed at enhancing public safety.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245201989"></a><a name="_Toc245210503"></a><a name="_Toc245211504"></a><a name="_Toc245211603"></a><a name="_Toc245219299"></a><a name="_Toc245219532"></a>Consolidated Rail Infrastructure and Safety Improvements Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "provides funding for projects that improve the safety, efficiency, and reliability of intercity passenger and freight rail."<sup><a class="FootnoteLink" href="#fn91" name="ifn91" title='DOT , Federal Railroad Administration (FRA) , "Consolidated Rail Infrastructure and Safety Improveme n ts (CRISI) Program," October 19 , 2026, https://railroads.dot.gov/grants-loans/consolidated-rail-infrastructure-and-safety-improvements-crisi-program .'>91</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://railroads.dot.gov/grants-loans/consolidated-rail-infrastructure-and-safety-improvements-crisi-program"><span class="Hyperlink">https://railroads.dot.gov/grants-loans/consolidated-rail-infrastructure-and-safety-improvements-crisi-program</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 20.337</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> States, federally recognized Tribes, selected railroads and rail carriers, Amtrak, Transportation Research Boards, and other entities. For a complete list, see pages 4-5 of the FY2025-2026 NOFO.<sup><a class="FootnoteLink" href="#fn92" name="ifn92" title="FRA , Consolidated Rail Infrastructure and Safety Improvements Program (CRISI) , Notice of Funding Opportunity, p p . 5- 6, https://railroads.dot.gov/sites/fra.dot.gov/files/2026-06/FY25-26%20CRISI%20NOFO%206.2.26_PDFa.pdf .">92</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> deployment of railroad safety technology, including communications equipment<sup><a class="FootnoteLink" href="#fn93" name="ifn93" title="FRA , Consolidated Rail Infrastructure and Safety Improvements Program (CRISI) , p. 6.">93</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245201990"></a><a name="_Toc245210504"></a><a name="_Toc245211505"></a><a name="_Toc245211604"></a><a name="_Toc245219300"></a><a name="_Toc245219533"></a>Safe Streets and Roads for All Grant Program</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program "funds regional, local, and Tribal initiatives through grants to prevent roadway fatalities and serious injuries."<sup><a class="FootnoteLink" href="#fn94" name="ifn94" title='DOT , "Safe Streets and Roads for All (SS4A) Grant Program," October 30 , 2026, https://www.transportation.gov/grants/SS4A .'>94</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://www.transportation.gov/grants/SS4A"><span class="Hyperlink">https://www.transportation.gov/grants/SS4A</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 20.939</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> "1. a metropolitan planning organization (MPO); 2. a political subdivision of a State or territory; 3. a federally recognized Tribal government; and 4. a multijurisdictional group of entities made up of any of the aforementioned three types of entities"<sup><a class="FootnoteLink" href="#fn95" name="ifn95" title="DOT, DOT FY 2026 Safe Streets and Roads for All Funding , Notice of Funding Opportunity , p p . 6-7, https://www.transportation.gov/sites/dot.gov/files/2026-03/SS4A-FY26-NOFO.pdf .">95</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> "programs or technologies used by public safety agencies (e.g. … improved emergency communications) to prevent, respond to, and/or reduce the severity of roadway crashes"<sup><a class="FootnoteLink" href="#fn96" name="ifn96" title="DOT, DOT FY 2026 Safe Streets and Roads for All Funding , p. 3 5 .">96</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc245201991"></a><a name="_Toc245210505"></a><a name="_Ref245210511"></a><a name="_Toc245211506"></a><a name="_Toc245211605"></a><a name="_Toc245219301"></a><a name="_Toc245219534"></a>Tribal Transportation Program Safety Fund</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This program addresses "transportation safety issues identified by <a class="ExternalLink" href="https://www.federalregister.gov/d/2020-01707/p-8"><span class="Hyperlink">federally recognized Indian tribes</span></a> through a competitive, discretionary program. Projects are chosen whose outcomes will reduce fatal injuries in transportation related incidents."<sup><a class="FootnoteLink" href="#fn97" name="ifn97" title='DOT , Federal Highway Administration (FH W A) , "Tribal Transportation Program Safety Fund (TTPSF)," October 6 , 2026, https://highways.dot.gov/federal-lands/tribal/safety/funds .'>97</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Program website</strong><strong>:</strong> <a class="ExternalLink" href="https://highways.dot.gov/federal-lands/tribal/safety/funds"><span class="Hyperlink">https://highways.dot.gov/federal-lands/tribal/safety/funds</span></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Assistance Listing Number</strong><strong>:</strong> 20.205. This is part of the Federal Highway Administration's Federal-Aid Highway Program, Federal Lands Highway Program.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Eligible applicants</strong><strong>:</strong> "[F]ederally recognized Indian Tribes identified on the list of '<a class="ExternalLink" href="https://www.federalregister.gov/documents/2021/01/29/2021-01606/indian-entities-recognized-by-and-eligible-to-receive-services-from-the-united-states-bureau-of"><span class="Hyperlink">Indian Entities Recognized and Eligible to Receive Services from the Bureau of Indian Affairs</span></a><span class="BodyTextChar">'</span><span class="BodyTextChar"> </span><span class="BodyTextChar">(published at </span><a class="ExternalLink" href="https://www.federalregister.gov/d/2020-01707/p-8"><span class="Hyperlink">86 FR 18552</span></a><span class="BodyTextChar"> or future updates)</span><span class="BodyTextChar">.</span><span class="BodyTextChar">"</span><sup><a class="FootnoteLink" href="#fn98" name="ifn98" title="FH W A , Tribal Transportation Program Safety Fund Grants , Notice of Funding Opportunity, pp. 10 , https://highways.dot.gov/federal-lands/tribal/safety/funds/TTPSF_NOFO_Amendment_2_for_publication_clean.pdf .">98</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Allowable expenses</strong><strong>:</strong> funding of projects planning integrated interoperable emergency communications equipment, and installation of vehicle-to-infrastructure communications equipment<sup><a class="FootnoteLink" href="#fn99" name="ifn99" title="FHWA , Tribal Transportation Program Safety Fund Grants , pp. 8-9.">99</a></sup> </li></ul><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321883"></a><a name="_Toc244075283"></a><a name="_Toc244075362"></a><a name="_Toc244077342"></a><a name="_Toc244077858"></a><a name="_Toc244166202"></a><a name="_Toc244259189"></a><a name="_Toc244590151"></a><a name="_Toc245201992"></a><a name="_Toc245210506"></a><a name="_Toc245211507"></a><a name="_Toc245211606"></a><a name="_Toc245219302"></a><a name="_Toc245219535"></a>Additional Resources</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321884"></a><a name="_Toc244075284"></a><a name="_Toc244075363"></a><a name="_Toc244077343"></a><a name="_Toc244077859"></a><a name="_Toc244166203"></a><a name="_Toc244259190"></a><a name="_Toc244590152"></a><a name="_Toc245201993"></a><a name="_Toc245210507"></a><a name="_Toc245211508"></a><a name="_Toc245211607"></a><a name="_Toc245219303"></a><a name="_Toc245219536"></a>Cybersecurity and Infrastructure Security Agency (CISA)</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321885"></a><a name="_Toc244075285"></a><a name="_Toc244075364"></a><a name="_Toc244077344"></a><a name="_Toc244077860"></a><a name="_Toc244166204"></a><a name="_Toc244259191"></a><a name="_Toc244590153"></a><a name="_Toc245201994"></a><a name="_Toc245210508"></a><a name="_Toc245211509"></a><a name="_Toc245211608"></a><a name="_Toc245219304"></a><a name="_Toc245219537"></a>Emergency Communications</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CISA's "<a class="ExternalLink" href="https://www.cisa.gov/topics/emergency-communications"><span class="Hyperlink">Emergency Communications</span><span class="Hyperlink">"</span><span class="Hyperlink"> landing page</span></a> provides access to resources supporting emergency communications coordination, planning, and priority services. See <a class="ExternalLink" href="https://www.cisa.gov/topics/emergency-communications"><span class="Hyperlink">https://www.cisa.gov/topics/emergency-communications</span></a>.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321886"></a><a name="_Toc244075286"></a><a name="_Toc244075365"></a><a name="_Toc244077345"></a><a name="_Toc244077861"></a><a name="_Toc244166205"></a><a name="_Toc244259192"></a><a name="_Toc244590154"></a><a name="_Toc245201995"></a><a name="_Toc245210509"></a><a name="_Toc245211510"></a><a name="_Toc245211609"></a><a name="_Toc245219305"></a><a name="_Toc245219538"></a>Funding and Sustainment</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Resources listed on CISA's "Funding and Sustainment" page "are available to help state, local, tribal, and territorial governments to identify available funding sources, plan emergency communications projects for federal grants, and inform decision-makers on the importance of funding and sustaining public safety communications systems." See <a class="ExternalLink" href="https://www.cisa.gov/safecom/funding"><span class="Hyperlink">https://www.cisa.gov/safecom/funding</span></a>. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc239321887"></a><a name="_Toc244075287"></a><a name="_Toc244075366"></a><a name="_Toc244077346"></a><a name="_Toc244077862"></a><a name="_Toc244166206"></a><a name="_Toc244259193"></a><a name="_Toc244590155"></a><a name="_Toc245201996"></a><a name="_Toc245210510"></a><a name="_Toc245211511"></a><a name="_Toc245211610"></a><a name="_Toc245219306"></a><a name="_Toc245219539"></a>List of Emergency Communications Programs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While there is overlap between the resources included in this CRS report and CISA's "<a class="ExternalLink" href="https://www.cisa.gov/safecom/emergency-comms-grants-list"><span class="Hyperlink">List of Federal Financial Assistance Programs Funding Emergency Communications</span></a>," the CISA list has other information. For instance, it also includes several programs that have not had recent NOFOs, as well as those that focus on more specific geographic areas (e.g., Social and Economic Development Strategies for Alaska). See <a class="ExternalLink" href="https://www.cisa.gov/safecom/emergency-comms-grants-list"><span class="Hyperlink">https://www.cisa.gov/safecom/emergency-comms-grants-list</span></a>. </p>
+<p class="Heading5" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix. <a name="_Toc245201997"></a><a name="_Toc245210475"></a><a name="_Toc245211476"></a><a name="_Toc245211575"></a><a name="_Toc245219271"></a><a name="_Toc245219504"></a>Selected CRS Reports on Federal Grants</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CRS Report RL34035, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34035"><em><span class="Hyperlink">Grants Work in a Congressional Office</span></em></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CRS Report RL34012, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34012"><em><span class="Hyperlink">Resources for Grantseekers</span></em></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CRS In Focus IF12910, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF12910"><em><span class="Hyperlink">Searching for Federal Grants: An Overview of Resources</span></em></a> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CRS Report R42769, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42769"><em><span class="Hyperlink">Federal Grants-in-Aid Administration: A Primer</span></em></a> </li></ul><div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref245211512"></a><a name="_Toc245211475"></a><a name="_Toc245211574"></a><a name="_Toc245219270"></a><a name="_Toc245219503"></a>Table A-1. List for Funding Programs with Links to Websites and <br/>Most Recent Notice of Funding Opportunity (NOFO)</p>
+<p class="TableSubTitle">Current as of 10/28/2026</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Program Website</p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Notice of Funding Opportunity (NOFO)</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Department of Homeland Security (DHS), Federal Emergency Management Agency (FEMA)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Homeland Security Grant Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/homeland-security"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">homeland-security</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_hsgp-nofo-fy2026_0.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gpd_hsgp-nofo-fy2026_0.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Assistance to Firefighters Grants </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/firefighters/assistance-grants"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">firefighters/</span><span class="Hyperlink"></span><span class="Hyperlink">assistance-grants</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/e50dd6bb-24cd-4fd0-9dc5-7ccda9cfadf4/attachments/661658d2-58a7-4c50-8d6b-276dfff0c20d/FY25_AFG_NOFO_Clean_App_Date_508.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">opportunities/</span><span class="Hyperlink"></span><span class="Hyperlink">e50dd6bb-24cd-4fd0-9dc5-7ccda9cfadf4/</span><span class="Hyperlink"></span><span class="Hyperlink">attachments/</span><span class="Hyperlink"></span><span class="Hyperlink">661658d2-58a7-4c50-8d6b-276dfff0c20d/</span><span class="Hyperlink"></span><span class="Hyperlink">FY25_AFG_NOFO_Clean_App_Date_508.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Emergency Management Performance Grant Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/emergency-management-performance"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">emergency-management-performance</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/bc078c20-8fd4-4365-9338-440c6066ce70/attachments/f7ebd0e3-eeb1-4592-8ba1-dc80de5d4ff5/FY_26_EMPG_NOFO_Final_508.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">opportunities/</span><span class="Hyperlink"></span><span class="Hyperlink">bc078c20-8fd4-4365-9338-440c6066ce70/</span><span class="Hyperlink"></span><span class="Hyperlink">attachments/</span><span class="Hyperlink"></span><span class="Hyperlink">f7ebd0e3-eeb1-4592-8ba1-dc80de5d4ff5/</span><span class="Hyperlink"></span><span class="Hyperlink">FY_26_EMPG_NOFO_Final_508.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Emergency Operations Center Grant Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/emergency-operations-center"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">emergency-operations-center</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_eocgp-fy-2026-nofo_062026.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gpd_eocgp-fy-2026-nofo_062026.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Intercity Bus Security Grant Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/intercity-bus-security"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">intercity-bus-security</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_ibsgp-nofo-fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gpd_ibsgp-nofo-fy2026.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Intercity Passenger Rail – Amtrak Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/intercity-passenger-rail-amtrak"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">intercity-passenger-rail-amtrak</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_ipr-nofo-fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gpd_ipr-nofo-fy2026.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Next Generation Warning System Grant Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/emergency-managers/practitioners/integrated-public-alert-warning-system/ngwsp"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">emergency-managers/</span><span class="Hyperlink"></span><span class="Hyperlink">practitioners/</span><span class="Hyperlink"></span><span class="Hyperlink">integrated-public-alert-warning-system/</span><span class="Hyperlink"></span><span class="Hyperlink">ngwsp</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_ngws-nofo_fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gpd_ngws-nofo_fy2026.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Nonprofit Security Grant Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/nonprofit-security"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">nonprofit-security</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26-NSGP_NOFO.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gdp_FY26-NSGP_NOFO.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Port Security Grant Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/port-security"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">port-security</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_psgp-nofo-fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gpd_psgp-nofo-fy2026.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">State and Local Cybersecurity Grant Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/state-local-cybersecurity-grant-program"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">state-local-cybersecurity-grant-program</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/d3188ee7-82d4-4397-9ebe-3c7ba4df5744/attachments/1c0f29b7-be89-403c-b90c-46d9be2c512b/FY_2025_SLCGP_NOFO_508_8.8.25.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">opportunities/</span><span class="Hyperlink"></span><span class="Hyperlink">d3188ee7-82d4-4397-9ebe-3c7ba4df5744/</span><span class="Hyperlink"></span><span class="Hyperlink">attachments/</span><span class="Hyperlink"></span><span class="Hyperlink">1c0f29b7-be89-403c-b90c-46d9be2c512b/</span><span class="Hyperlink"></span><span class="Hyperlink">FY_2025_SLCGP_NOFO_508_8.8.25.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Transit Security Grant Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/transit-security"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">transit-security</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema-gdp_FY26_TSGP_NOFO.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema-gdp_FY26_TSGP_NOFO.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Tribal Cybersecurity Grant Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">tribal-cybersecurity-grant-program</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_fy_2025_tcgp_nofo.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_fy_2025_tcgp_nofo.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Tribal Homeland Security Grant Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/tribal-homeland-security"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">preparedness/</span><span class="Hyperlink"></span><span class="Hyperlink">tribal-homeland-security</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26_THSGP_NOFO.pdf"><span class="Hyperlink">https://www.fema.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">fema_gdp_FY26_THSGP_NOFO.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>U.S. Department of Agriculture (USDA)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Community Connect Grants</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/telecommunications-programs/community-connect-grants"><span class="Hyperlink">https://www.rd.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">programs-services/</span><span class="Hyperlink"></span><span class="Hyperlink">telecommunications-programs/</span><span class="Hyperlink"></span><span class="Hyperlink">community-connect-grants</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/068ef5f3-2cd1-415b-8f32-f96fa63d91ba/attachments/78e6e0cd-0344-4479-8d86-036901e55ffe/CCG_NOFO_FY_26_corrected.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">opportunities/</span><span class="Hyperlink"></span><span class="Hyperlink">068ef5f3-2cd1-415b-8f32-f96fa63d91ba/</span><span class="Hyperlink"></span><span class="Hyperlink">attachments/</span><span class="Hyperlink"></span><span class="Hyperlink">78e6e0cd-0344-4479-8d86-036901e55ffe/</span><span class="Hyperlink"></span><span class="Hyperlink">CCG_NOFO_FY_26_corrected.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Community Facilities Direct Loan and Grant Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program"><span class="Hyperlink">https://www.rd.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">programs-services/</span><span class="Hyperlink"></span><span class="Hyperlink">community-facilities/</span><span class="Hyperlink"></span><span class="Hyperlink">community-facilities-direct-loan-grant-program</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">na</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Telecommunications Infrastructure Loans and Loan Guarantees</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/telecommunications-programs/telecommunications-infrastructure-loans-loan-guarantees"><span class="Hyperlink">https://www.rd.usda.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">programs-services/</span><span class="Hyperlink"></span><span class="Hyperlink">telecommunications-programs/</span><span class="Hyperlink"></span><span class="Hyperlink">telecommunications-infrastructure-loans-loan-guarantees</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">na</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>U.S. Department of Commerce (DOC)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Tribal Broadband Connectivity Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity"><span class="Hyperlink">https://broadbandusa.ntia.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">funding-programs/</span><span class="Hyperlink"></span><span class="Hyperlink">tribal-broadband-connectivity</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/3c1f350b-8a60-43ae-baa3-a5a20959845f/attachments/672820d8-184e-4550-b32f-d5c7e2074cf7/NTIA_Amended_TBCP3_NOFO_2026.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">opportunities/</span><span class="Hyperlink"></span><span class="Hyperlink">3c1f350b-8a60-43ae-baa3-a5a20959845f/</span><span class="Hyperlink"></span><span class="Hyperlink">attachments/</span><span class="Hyperlink"></span><span class="Hyperlink">672820d8-184e-4550-b32f-d5c7e2074cf7/</span><span class="Hyperlink"></span><span class="Hyperlink">NTIA_Amended_TBCP3_NOFO_2026.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>U.S. Department of Justice (DOJ)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Coordinated Tribal Assistance Solicitation </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://cops.usdoj.gov/ctas"><span class="Hyperlink">https://cops.usdoj.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">ctas</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://cops.usdoj.gov/pdf/2026ProgramDocs/ctas/nofo.pdf"><span class="Hyperlink">https://cops.usdoj.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">pdf/</span><span class="Hyperlink"></span><span class="Hyperlink">2026ProgramDocs/</span><span class="Hyperlink"></span><span class="Hyperlink">ctas/</span><span class="Hyperlink"></span><span class="Hyperlink">nofo.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Grants to Improve the Criminal Justice Response Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.justice.gov/ovw/grants-improve-criminal-justice-response-program-fact-sheet"><span class="Hyperlink">https://www.justice.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">ovw/</span><span class="Hyperlink"></span><span class="Hyperlink">grants-improve-criminal-justice-response-program-fact-sheet</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.justice.gov/ovw/media/1444306/dl?inline"><span class="Hyperlink">https://www.justice.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">ovw/</span><span class="Hyperlink"></span><span class="Hyperlink">media/</span><span class="Hyperlink"></span><span class="Hyperlink">1444306/</span><span class="Hyperlink"></span><span class="Hyperlink">dl?</span><span class="Hyperlink"></span><span class="Hyperlink">inline</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">School Violence Prevention Program </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://cops.usdoj.gov/svpp"><span class="Hyperlink">https://cops.usdoj.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">svpp</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://cops.usdoj.gov/pdf/2026ProgramDocs/svpp/nofo.pdf"><span class="Hyperlink">https://cops.usdoj.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">pdf/</span><span class="Hyperlink"></span><span class="Hyperlink">2026ProgramDocs/</span><span class="Hyperlink"></span><span class="Hyperlink">svpp/</span><span class="Hyperlink"></span><span class="Hyperlink">nofo.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>U.S. Department of Transportation (DOT)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Consolidated Rail Infrastructure and Safety Improvements Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://railroads.dot.gov/grants-loans/consolidated-rail-infrastructure-and-safety-improvements-crisi-program"><span class="Hyperlink">https://railroads.dot.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants-loans/</span><span class="Hyperlink"></span><span class="Hyperlink">consolidated-rail-infrastructure-and-safety-improvements-crisi-program</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://railroads.dot.gov/sites/fra.dot.gov/files/2026-06/FY25-26"><span class="Hyperlink">https://railroads.dot.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">fra.dot.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">2026-06/</span><span class="Hyperlink"></span><span class="Hyperlink">FY25-26</span></a> CRISI NOFO 6.2.26_PDFa.pdf</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Safe Streets and Roads for All Grant Program</p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.transportation.gov/grants/SS4A"><span class="Hyperlink">https://www.transportation.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">grants/</span><span class="Hyperlink"></span><span class="Hyperlink">SS4A</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://www.transportation.gov/sites/dot.gov/files/2026-03/SS4A-FY26-NOFO.pdf"><span class="Hyperlink">https://www.transportation.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">dot.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">2026-03/</span><span class="Hyperlink"></span><span class="Hyperlink">SS4A-FY26-NOFO.pdf</span></a></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:34.915933439999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Tribal Transportation Program Safety Fund </p>
+</td>
+<td style="width:73.24297344pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://highways.dot.gov/federal-lands/tribal/safety/funds"><span class="Hyperlink">https://highways.dot.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">federal-lands/</span><span class="Hyperlink"></span><span class="Hyperlink">tribal/</span><span class="Hyperlink"></span><span class="Hyperlink">safety/</span><span class="Hyperlink"></span><span class="Hyperlink">funds</span></a></p>
+</td>
+<td style="width:83.47629312pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><a class="ExternalLink" href="https://highways.dot.gov/federal-lands/tribal/safety/funds/TTPSF_NOFO_Amendment_2_for_publication_clean.pdf"><span class="Hyperlink">https://highways.dot.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">federal-lands/</span><span class="Hyperlink"></span><span class="Hyperlink">tribal/</span><span class="Hyperlink"></span><span class="Hyperlink">safety/</span><span class="Hyperlink"></span><span class="Hyperlink">funds/</span><span class="Hyperlink"></span><span class="Hyperlink">TTPSF_NOFO_Amendment_2_for_publication_clean.pdf</span></a></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableNote"><strong>Notes:</strong><strong> </strong>While the NOFOs in this table have closed, the links are provided for informational purposes. na = not applicable.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <span class="FootnoteTextChar">U.S. Department of Homeland Security (DHS), Federal Emergency Management Agency (FEMA), "Lesson 3. Communicating in an Emergency," February 2014,</span><span class="FootnoteTextChar"> </span><a class="ExternalLink" href="https://training.fema.gov/emiweb/is/is242b/student%20manual/sm_03.pdf"><span class="Hyperlink">https://training.fema.gov/emiweb/is/is242b/student%20manual/sm_03.pdf</span></a><span class="FootnoteTextChar">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Grants.gov defines <em>Assistance Listings</em> as follows: "Formally known as CFDA [Catalog of Federal Domestic Assistance], the authoritative source of information about federal government programs that provide grants, loans, scholarships, insurance, and other types of assistance or benefits to the American public." Grants.gov defines <em>Assistance Listing Number</em> as "a unique number, formally known as the CFDA Number, assigned to a program or activity with Assistance Listings. The first two digits identify the federal agency that administers the assistance." See <a class="ExternalLink" href="https://grants.gov/learn-grants/grant-terminology"><span class="Hyperlink">https://grants.gov/learn-grants/grant-terminology</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Preparedness Grants," July 20, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness"><span class="Hyperlink">https://www.fema.gov/grants/preparedness</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information on authorized interoperable communications equipment, see FEMA, "Authorized Equipment List," April 18, 2024, <a class="ExternalLink" href="https://www.fema.gov/grants/tools/authorized-equipment-list"><span class="Hyperlink">https://www.fema.gov/grants/tools/authorized-equipment-list</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on DHS preparedness grants, funding levels and mechanisms, and eligibility, see CRS Report R48828, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48828"><em><span class="Hyperlink">State and Local Homeland Security: DHS Preparedness Grants</span></em></a>, by Shawn Reese. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, <em>Preparedness Grants Manual</em>, July 2026, p. 6, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema-gov_rsl_fy26_preparedness-grants-manual.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema-gov_rsl_fy26_preparedness-grants-manual.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Homeland Security Grant Program," September 23, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/homeland-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/homeland-security</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Homeland Security Grant Program."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Homeland Security Grant Program</em>, Notice of Funding Opportunity, p. 5, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_hsgp-nofo-fy2026_0.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_hsgp-nofo-fy2026_0.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Homeland Security Grant Program." </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Homeland Security Grant Program</em>, p. 47.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Homeland Security Grant Program</em>, p. 14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Homeland Security Grant Program." </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Homeland Security Grant Program</em>, p. 47.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Homeland Security Grant Program</em>, p. 14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Homeland Security Grant Program."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Homeland Security Grant Program</em>, p. 5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Homeland Security Grant Program</em>, p. 91.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Assistance to Firefighters Grants," October 1, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/firefighters/assistance-grants"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/firefighters/assistance-grants</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2025 Assistance to Firefighters Grant </em><em>(AFG) </em><em>Program</em>, Notice of Funding Opportunity, pp. 6-7, <a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/e50dd6bb-24cd-4fd0-9dc5-7ccda9cfadf4/attachments/661658d2-58a7-4c50-8d6b-276dfff0c20d/FY25_AFG_NOFO_Clean_App_Date_508.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/opportunities/e50dd6bb-24cd-4fd0-9dc5-7ccda9cfadf4/attachments/661658d2-58a7-4c50-8d6b-276dfff0c20d/FY25_AFG_NOFO_Clean_App_Date_508.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2025 Assistance to Firefighters Grant (AFG) Program</em>, pp. 54-55.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Emergency Management Performance Grant," September 23, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/emergency-management-performance"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/emergency-management-performance</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Emergency Management Performance Grant Program</em>, Notice of Funding Opportunity, pp. 4-5, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_empg-nofo-fy-2026_062026.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_empg-nofo-fy-2026_062026.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Emergency Management Performance Grant Program</em>, p. 48.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Emergency Operations Center Grant Program," September 23, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/emergency-operations-center"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/emergency-operations-center</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Emergency Operations Center Grant Program</em>, Notice of Funding Opportunity, p. 5, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_eocgp-fy-2026-nofo_062026.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_eocgp-fy-2026-nofo_062026.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Emergency Operations Center Grant Program</em>, p. 41. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Intercity Bus Security Grant Program," September 23, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/intercity-bus-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/intercity-bus-security</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Intercity Bus Security Grant Program</em>, Notice of Funding Opportunity, pp. 4-5, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_ibsgp-nofo-fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_ibsgp-nofo-fy2026.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Intercity Bus Security Grant Program</em>, p. 61.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Intercity Passenger Rail—Amtrak Program," September 23, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/intercity-passenger-rail-amtrak"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/intercity-passenger-rail-amtrak</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Intercity Passenger Rail Grant Program (IPR)</em>, Notice of Funding Opportunity, p. 4, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_ipr-nofo-fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_ipr-nofo-fy2026.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Intercity Passenger Rail Grant Program (IPR)</em>, p. 53. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Next Generation Warning System Grant Program," October 14, 2026, <a class="ExternalLink" href="https://www.fema.gov/emergency-managers/practitioners/integrated-public-alert-warning-system/ngwsp"><span class="Hyperlink">https://www.fema.gov/emergency-managers/practitioners/integrated-public-alert-warning-system/ngwsp</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Next Generation Warning System Grant Program</em>, Notice of Funding Opportunity, p. 7, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_ngws-nofo_fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_ngws-nofo_fy2026.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Next Generation Warning System Grant Program</em>, p. 4. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "The Next Generation Warning System (NGWS) Grant Program: Frequently Asked Questions," p. 3, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_ipaws-ngws-faqs_fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_ipaws-ngws-faqs_fy2026.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Nonprofit Security Grant Program," September 28, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/nonprofit-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/nonprofit-security</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year</em><em> 2026 Nonprofit Security Grant Program</em>, Notice of Funding Opportunity, p. 5, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26-NSGP_NOFO.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26-NSGP_NOFO.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Nonprofit Security Grant Program</em>, pp. 58-62.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Port Security Grant Program," September 25, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/port-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/port-security</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Port Security Program (PSGP)</em>, p. 5, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gpd_psgp-nofo-fy2026.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gpd_psgp-nofo-fy2026.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Port Security Program (PSGP)</em>, p. 14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "State and Local Cybersecurity Grant Program," July 30, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/state-local-cybersecurity-grant-program"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/state-local-cybersecurity-grant-program</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "State and Local Cybersecurity Grant Program Tribal Cybersecurity Grant Program," September 11, 2026, <a class="ExternalLink" href="https://sam.gov/workspace/assistance/fal/72ead78b080b4bb5b5d8278f2a91a44d/view"><span class="Hyperlink">https://sam.gov/workspace/assistance/fal/72ead78b080b4bb5b5d8278f2a91a44d/view</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2025 State and Local Cybersecurity Grant Program</em>, Notice of Funding Opportunity, p. 61, <a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/d3188ee7-82d4-4397-9ebe-3c7ba4df5744/attachments/1c0f29b7-be89-403c-b90c-46d9be2c512b/FY_2025_SLCGP_NOFO_508_8.8.25.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/opportunities/d3188ee7-82d4-4397-9ebe-3c7ba4df5744/attachments/1c0f29b7-be89-403c-b90c-46d9be2c512b/FY_2025_SLCGP_NOFO_508_8.8.25.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Transit Security Grant Program," September 25, 2026, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/transit-security"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/transit-security</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Rail and Transit Security Grant Program," July 30, 2026, <a class="ExternalLink" href="https://sam.gov/workspace/assistance/fal/de85a5ffeeb44060a90ee6e1a0a2b0ad/view"><span class="Hyperlink">https://sam.gov/workspace/assistance/fal/de85a5ffeeb44060a90ee6e1a0a2b0ad/view</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <span class="FootnoteTextChar">DHS, </span><em><span class="FootnoteTextChar">Fiscal Year 2026 Transit Security Grant Program</span></em><span class="FootnoteTextChar">, Notice of Funding Opportunity, p. 59, </span><a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/29f588f5-42b6-4adf-992d-83c361bb526b/attachments/a1d09487-05ae-4fbb-a76a-c3eaf402b895/FY26_TSGP_NOFO_Final_508.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/opportunities/29f588f5-42b6-4adf-992d-83c361bb526b/attachments/a1d09487-05ae-4fbb-a76a-c3eaf402b895/FY26_TSGP_NOFO_Final_508.pdf</span></a><span class="FootnoteTextChar">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FEMA, "Tribal Cybersecurity Grants Program," September 9, 2025, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Tribal Cybersecurity Grant Program," September 18, 2026, <a class="ExternalLink" href="https://sam.gov/workspace/assistance/fal/d04d967b8b754013bcadd2bc890e9c09/view"><span class="Hyperlink">https://sam.gov/workspace/assistance/fal/d04d967b8b754013bcadd2bc890e9c09/view</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2025 Tribal Cybersecurity Grant Program (TCGP)</em>, Notice of Funding Opportunity, p. 56, <a class="ExternalLink" href="https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program/fy-25-nofo"><span class="Hyperlink">https://www.fema.gov/grants/preparedness/tribal-cybersecurity-grant-program/fy-25-nofo</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Tribal Homeland Security Grant Program</em>, Notice of Funding Opportunity, p. 8, <a class="ExternalLink" href="https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26_THSGP_NOFO.pdf"><span class="Hyperlink">https://www.fema.gov/sites/default/files/documents/fema_gdp_FY26_THSGP_NOFO.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Tribal Homeland Security Grant Program," July 30, 2026, <a class="ExternalLink" href="https://sam.gov/workspace/assistance/fal/9ff6f3e055e44ba6baabc3d51a8b153d/view"><span class="Hyperlink">https://sam.gov/workspace/assistance/fal/9ff6f3e055e44ba6baabc3d51a8b153d/view</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DHS, <em>Fiscal Year 2026 Tribal Homeland Security Grant Program</em>, p. 10.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See USDA, Rural Development, "State Offices," <a class="ExternalLink" href="https://www.rd.usda.gov/contact-us/state-office-contacts"><span class="Hyperlink">https://www.rd.usda.gov/contact-us/state-office-contacts</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USDA, "Community Connect Grants," <a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/telecommunications-programs/community-connect-grants"><span class="Hyperlink">https://www.rd.usda.gov/programs-services/telecommunications-programs/community-connect-grants</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, USDA, "FY24 Community Connect Awards 10.31.24," <a class="ExternalLink" href="https://www.rd.usda.gov/media/file/download/usda-rd-fy24-community-connect-10312024.pdf"><span class="Hyperlink">https://www.rd.usda.gov/media/file/download/usda-rd-fy24-community-connect-10312024.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USDA, Rural Utilities Service (RUS), <em>Community Connect Program, </em><em>Fiscal Year 2026</em>, Notice of Funding Opportunity, p. 5, <a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/068ef5f3-2cd1-415b-8f32-f96fa63d91ba/attachments/78e6e0cd-0344-4479-8d86-036901e55ffe/CCG_NOFO_FY_26_corrected.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/opportunities/068ef5f3-2cd1-415b-8f32-f96fa63d91ba/attachments/78e6e0cd-0344-4479-8d86-036901e55ffe/CCG_NOFO_FY_26_corrected.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> RUS, <em>Community Connect Program, Fiscal Year 2026</em>, p. 2.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Community Facilities Loans and Grants," February 4, 2026, <a class="ExternalLink" href="https://sam.gov/workspace/assistance/fal/acedc8b27f48429baf6d0fdbc3b9409e/view"><span class="Hyperlink">https://sam.gov/workspace/assistance/fal/acedc8b27f48429baf6d0fdbc3b9409e/view</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USDA, Rural Development, "Community Facilities Direct Loan and Grant Program," <a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program"><span class="Hyperlink">https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Community Facilities Loans and Grants."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Rural Development, "Community Facilities Direct Loan and Grant Program."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Rural Development, "Community Facilities Direct Loan and Grant Program."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Community Facilities Loans and Grants."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Rural Development, <em>Community Facilities Direct Loan Program: Guidance Book for Applicants</em>, FY2022, p. 3, <a class="ExternalLink" href="https://www.rd.usda.gov/media/file/download/usda-rd-rd-rhs-cf-direct-loan-guidance-book-fy22.pdf"><span class="Hyperlink">https://www.rd.usda.gov/media/file/download/usda-rd-rd-rhs-cf-direct-loan-guidance-book-fy22.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Rural Telecommunications Loans," February 3, 2026, <a class="ExternalLink" href="https://sam.gov/workspace/assistance/fal/f1e1a46e018e4bf0bac872669fb1c329/view"><span class="Hyperlink">https://sam.gov/workspace/assistance/fal/f1e1a46e018e4bf0bac872669fb1c329/view</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Rural Development, "Telecommunications Infrastructure Loans and Loan Guarantees," <a class="ExternalLink" href="https://www.rd.usda.gov/programs-services/telecommunications-programs/telecommunications-infrastructure-loans-loan-guarantees"><span class="Hyperlink">https://www.rd.usda.gov/programs-services/telecommunications-programs/telecommunications-infrastructure-loans-loan-guarantees</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Rural Telecommunications Loans."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> USDA, "Telecommunications Infrastructure Loans &amp; Loan Guarantees."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sam.gov, "Rural Telecommunications Loans."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> NTIA, "Public Safety Interoperable Communications," <a class="ExternalLink" href="https://www.ntia.gov/category/public-safety-interoperable-communications"><span class="Hyperlink">https://www.ntia.gov/category/public-safety-interoperable-communications</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R48923, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48923"><em><span class="Hyperlink">First Responder Network (FirstNet) Authority: Reauthorization and Selected Issues</span></em></a>, by Colby Leigh Pechtol, p. 17.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOC, FirstNet Authority, "About Us," <a class="ExternalLink" href="https://firstnet.gov/about"><span class="Hyperlink">https://firstnet.gov/about</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R48923, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48923"><em><span class="Hyperlink">First Responder Network (FirstNet) Authority: Reauthorization and Selected Issues</span></em></a>, by Colby Leigh Pechtol, p. 12.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FirstNet Authority, "Public Safety Advocacy," <a class="ExternalLink" href="https://firstnet.gov/public-safety/public-safety-advocacy"><span class="Hyperlink">https://firstnet.gov/public-safety/public-safety-advocacy</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> NTIA, "Tribal Broadband Connectivity Program," <a class="ExternalLink" href="https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity"><span class="Hyperlink">https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, NTIA, "Ak-Chin Indian Community (TBCP I)," <a class="ExternalLink" href="https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity-program-round-1/awardee/tribal-broadband-connectivity-program-2"><span class="Hyperlink">https://broadbandusa.ntia.gov/funding-programs/tribal-broadband-connectivity-program-round-1/awardee/tribal-broadband-connectivity-program-2</span></a>. One of the outcomes of this funding was "improved access to public safety and community information, such as weather forecasts."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> NTIA, <em>Tribal Broadband Connectivity Program</em>, Notice of Funding Opportunity, FY2026, p. 12, <a class="ExternalLink" href="https://files.simpler.grants.gov/opportunities/3c1f350b-8a60-43ae-baa3-a5a20959845f/attachments/672820d8-184e-4550-b32f-d5c7e2074cf7/NTIA_Amended_TBCP3_NOFO_2026.pdf"><span class="Hyperlink">https://files.simpler.grants.gov/opportunities/3c1f350b-8a60-43ae-baa3-a5a20959845f/attachments/672820d8-184e-4550-b32f-d5c7e2074cf7/NTIA_Amended_TBCP3_NOFO_2026.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> NTIA, <em>Tribal Broadband Connectivity Program</em>, p. 6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOJ, Community Oriented Policing Services (COPS), "Coordinated Tribal Assistance Solicitation (CTAS)," <a class="ExternalLink" href="https://cops.usdoj.gov/ctas"><span class="Hyperlink">https://cops.usdoj.gov/ctas</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOJ, Office for Victims of Crime, "Children's Justice Act Partnership for Indian Communities," January 24, 2017, <a class="ExternalLink" href="https://www.justice.gov/tribal/page/file/1553981/dl?inline"><span class="Hyperlink">https://www.justice.gov/tribal/page/file/1553981/dl?inline</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOJ, <em>FY26 Coordinated Tribal Assistance Solicitation</em>, Notice of Funding Opportunity, p. 15, <a class="ExternalLink" href="https://www.ojp.gov/funding/docs/bja-2026-172662.pdf"><span class="Hyperlink">https://www.ojp.gov/funding/docs/bja-2026-172662.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOJ, "Grants to Improve the Criminal Justice Response Program Fact Sheet," June 10, 2026, <a class="ExternalLink" href="https://www.justice.gov/ovw/grants-improve-criminal-justice-response-program-fact-sheet"><span class="Hyperlink">https://www.justice.gov/ovw/grants-improve-criminal-justice-response-program-fact-sheet</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn86" name="fn86">86</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOJ, Office of Violence Against Women, <em>FY 2026 Grants to Improve the Criminal Justice Response to Domestic Violence, Dating Violence, Sexual </em><em>A</em><em>ssault, and Stalking Program (ICJR Program)</em>, Notice of Funding Opportunity, p. 4, <a class="ExternalLink" href="https://www.justice.gov/ovw/media/1444306/dl?inline"><span class="Hyperlink">https://www.justice.gov/ovw/media/1444306/dl?inline</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn87" name="fn87">87</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Violence Against Women, <em>FY 2026 Grants to Improve the Criminal Justice Response</em>, p. 10. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn88" name="fn88">88</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> COPS, "School Violence Prevention Program (SVPP)," <a class="ExternalLink" href="https://cops.usdoj.gov/svpp"><span class="Hyperlink">https://cops.usdoj.gov/svpp</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn89" name="fn89">89</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> COPS, <em>FY 2026 COPS School Violence Prevention Program</em>, Notice of Funding Opportunity, p. 5, <a class="ExternalLink" href="https://cops.usdoj.gov/pdf/2026ProgramDocs/svpp/nofo.pdf"><span class="Hyperlink">https://cops.usdoj.gov/pdf/2026ProgramDocs/svpp/nofo.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn90" name="fn90">90</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> COPS, <em>FY</em><em> </em><em>2026 COPS </em><em>School Violence Prevention Program</em>, p. 3. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn91" name="fn91">91</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOT, Federal Railroad Administration (FRA), "Consolidated Rail Infrastructure and Safety Improvements (CRISI) Program," October 19, 2026, <a class="ExternalLink" href="https://railroads.dot.gov/grants-loans/consolidated-rail-infrastructure-and-safety-improvements-crisi-program"><span class="Hyperlink">https://railroads.dot.gov/grants-loans/consolidated-rail-infrastructure-and-safety-improvements-crisi-program</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn92" name="fn92">92</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FRA, <em>Consolidated Rail Infrastructure and Safety Improvements Program (CRISI)</em>, Notice of Funding Opportunity, pp. 5-6, <a class="ExternalLink" href="https://railroads.dot.gov/sites/fra.dot.gov/files/2026-06/FY25-26%20CRISI%20NOFO%206.2.26_PDFa.pdf"><span class="Hyperlink">https://railroads.dot.gov/sites/fra.dot.gov/files/2026-06/FY25-26%20CRISI%20NOFO%206.2.26_PDFa.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn93" name="fn93">93</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FRA, <em>Consolidated Rail Infrastructure and Safety Improvements Program (CRISI)</em>, p. 6. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn94" name="fn94">94</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOT, "Safe Streets and Roads for All (SS4A) Grant Program," October 30, 2026, <a class="ExternalLink" href="https://www.transportation.gov/grants/SS4A"><span class="Hyperlink">https://www.transportation.gov/grants/SS4A</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn95" name="fn95">95</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOT, <em>DOT FY 2026 Safe Streets and Roads for All Funding</em>, Notice of Funding Opportunity, pp. 6-7, <a class="ExternalLink" href="https://www.transportation.gov/sites/dot.gov/files/2026-03/SS4A-FY26-NOFO.pdf"><span class="Hyperlink">https://www.transportation.gov/sites/dot.gov/files/2026-03/SS4A-FY26-NOFO.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn96" name="fn96">96</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOT, <em>DOT FY 2026 Safe Streets and Roads for All Funding</em>, p. 35. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn97" name="fn97">97</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> DOT, Federal Highway Administration (FHWA), "Tribal Transportation Program Safety Fund (TTPSF)," October 6, 2026, <a class="ExternalLink" href="https://highways.dot.gov/federal-lands/tribal/safety/funds"><span class="Hyperlink">https://highways.dot.gov/federal-lands/tribal/safety/funds</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn98" name="fn98">98</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FHWA, <em>Tribal Transportation Program Safety Fund Grants</em>, Notice of Funding Opportunity, pp. 10, <a class="ExternalLink" href="https://highways.dot.gov/federal-lands/tribal/safety/funds/TTPSF_NOFO_Amendment_2_for_publication_clean.pdf"><span class="Hyperlink">https://highways.dot.gov/federal-lands/tribal/safety/funds/TTPSF_NOFO_Amendment_2_for_publication_clean.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn99" name="fn99">99</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FHWA, <em>Tribal Transportation Program Safety Fund Grants</em>, pp. 8-9. </p>
+</td>
+</tr>
+</table>
+</div>
+</div>

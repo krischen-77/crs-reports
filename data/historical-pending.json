@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-11",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-13",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-11",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-13",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "5",
@@ -9675,6 +9679,146 @@
         },
         "title": "A Survey of House and Senate Committee Rules on Subpoenas",
         "version": "10"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-12",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "43",
+        "date": "2026-02-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R43744",
+            "sha1": "18d1d045c6f54313da8ba3a14d0434457caa613c",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R43744.web.html",
+              "https://www.everycrsreport.com/files/2026-02-09_R43744_18d1d045c6f54313da8ba3a14d0434457caa613c.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R43744",
+            "sha1": "9281215dfc950d9acf0d3c5c896ebebda648f89c",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R43744/R43744.44.pdf",
+              "https://www.everycrsreport.com/files/2026-02-09_R43744_9281215dfc950d9acf0d3c5c896ebebda648f89c.pdf"
+            ]
+          }
+        },
+        "id": "R43744",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-10T20:10:54Z",
+        "required_by_recent_update": false,
+        "source_record": "R43744_A44_2026-02-09",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-02-09",
+          "id": "R43744",
+          "official_pdf_sha256": "257804c4d5299cf8ccca6e3a1c38593e0e2a203e569dc146a321ab8ef47a7f75",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R43744/R43744.47.pdf",
+          "official_publication": "2026-11-10",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works",
+        "version": "44"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-12",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "4",
+        "date": "2021-02-17",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R44906",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2021-02-17_R44906_206a5f51cca98acee30ee1172a02834632a9abbe.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R44906",
+            "sha1": "206a5f51cca98acee30ee1172a02834632a9abbe",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R44906/3",
+              "https://www.everycrsreport.com/files/2021-02-17_R44906_206a5f51cca98acee30ee1172a02834632a9abbe.pdf"
+            ]
+          }
+        },
+        "id": "R44906",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-10T20:12:20Z",
+        "required_by_recent_update": false,
+        "source_record": "R44906_3_2021-02-17",
+        "superseded_by_official_current": {
+          "historical_publication": "2021-02-17",
+          "id": "R44906",
+          "official_pdf_sha256": "69f197f9fe32075e20b727523821ab1d556c90aefd6378fb2e5cc009de3d063b",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44906/R44906.5.pdf",
+          "official_publication": "2021-02-22",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Rural Education Achievement Program: Title V-B of the Elementary and Secondary Education Act",
+        "version": "3"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-12",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-07-29",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48918",
+            "sha1": "299f24f270e4b3d15cd60dff43559c9e3cbe2a02",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48918.web.html",
+              "https://www.everycrsreport.com/files/2026-07-29_R48918_299f24f270e4b3d15cd60dff43559c9e3cbe2a02.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48918",
+            "sha1": "cd240afb2b8aa540b26e172571ee09070b751aab",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48918/R48918.6.pdf",
+              "https://www.everycrsreport.com/files/2026-07-29_R48918_cd240afb2b8aa540b26e172571ee09070b751aab.pdf"
+            ]
+          }
+        },
+        "id": "R48918",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-10T20:16:56Z",
+        "required_by_recent_update": false,
+        "source_record": "R48918_A6_2026-07-29",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-07-29",
+          "id": "R48918",
+          "official_pdf_sha256": "3094973c5bb4740590479d139203c6d1fc0bea54170053e7034c75dd89e096dc",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48918/R48918.9.pdf",
+          "official_publication": "2026-11-10",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The 2026 Farm Bill: Comparison of the House and Senate Bills with Current Law",
+        "version": "6"
       }
     },
     {

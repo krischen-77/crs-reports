@@ -1,0 +1,502 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">The Rural Education Achievement Program: Title V-B of the Elementary and Secondary Education Act</div>
+<div class="CoverDate">Updated February 22, 2021
+            (R44906)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc64975316"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC2"><a href="#_Toc64975317"><span class="Hyperlink">Strengths and Limitations of Rural Schools</span></a></li>
+<li class="TOC1"><a href="#_Toc64975318"><span class="Hyperlink">The Rural Education Achievement Program (REAP)</span></a></li>
+<li class="TOC2"><a href="#_Toc64975319"><span class="Hyperlink">Program Eligibility</span></a></li>
+<li class="TOC3"><a href="#_Toc64975320"><span class="Hyperlink">Small Rural School Achievement Program Eligibility</span></a></li>
+<li class="TOC3"><a href="#_Toc64975321"><span class="Hyperlink">Rural Low-Income School Program Eligibility</span></a></li>
+<li class="TOC2"><a href="#_Toc64975322"><span class="Hyperlink">Grant Determination</span></a></li>
+<li class="TOC3"><a href="#_Toc64975323"><span class="Hyperlink">SRSA Grants</span></a></li>
+<li class="TOC3"><a href="#_Toc64975324"><span class="Hyperlink">RLIS Grants</span></a></li>
+<li class="TOC2"><a href="#_Toc64975325"><span class="Hyperlink">Use of Funds</span></a></li>
+<li class="TOC3"><a href="#_Toc64975326"><span class="Hyperlink">REAP-Flex</span></a></li>
+<li class="TOC1"><a href="#_Toc64975327"><span class="Hyperlink">Implementation Issue</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc64975315"><span class="Hyperlink">Table 1.  Appropriations for REAP</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Rural Education Achievement Program (REAP) is authorized by Part B of Title V of the Elementary and Secondary Education Act of 1965, as amended by the Every Student Succeeds Act (ESSA, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+95)"><span class="Hyperlink">P.L. 114-95</span></a>) in 2015. To compensate for the challenges facing rural schools, REAP awards two types of formula grants. The Small, Rural School Achievement (SRSA) program provides funds to rural local educational agencies (LEAs) that serve small numbers of students. The Rural and Low-Income School (RLIS) program provides funds to rural LEAs that serve high concentrations of low-income students, regardless of the LEA's size, and LEAs may receive funds from only one of the two programs.  </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ESSA reauthorization of the REAP statute made several major changes to the way funds are allocated to rural LEAs. Most notably, ESSA amended the scheme used to identify rural LEAs that may be eligible for REAP funds and gave dual-eligible LEAs the option to choose the program from which to receive funds. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides a detailed description of eligibility rules and formula allocation procedures for SRSA and RLIS and discusses an implementation issue that has arisen recently.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Rural Education Achievement Program (REAP) is authorized by Part B of Title V of the Elementary and Secondary Education Act of 1965 (ESEA), as amended by the Every Student Succeeds Act (ESSA, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+95)"><span class="Hyperlink">P.L. 114-95</span></a>) in 2015.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="The REAP program was established under Title IV-B of the ESEA by t he No Child Left Behind Act of 2001 ( P.L. 107-110 ) . Further information on the ESSA amendments to the ESEA may be found in CRS Report R44297, Reauthorization of the Elementary and Secondary Education Act: Highlights of the Every Student Succeeds Act , by Rebecca R. Skinner and Jeffrey J. Kuenzi .">1</a></sup> Congress created this program to address the unique needs of rural schools that disadvantage them relative to non-rural schools. To compensate for the challenges facing rural schools, REAP awards two types of formula grants. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Small, Rural School Achievement (SRSA) program provides funds to rural local educational agencies (LEAs) that serve small numbers of students. The Rural and Low-Income School (RLIS) program provides funds to rural LEAs that serve high concentrations of low-income students, regardless of the LEA's size. Funds appropriated for REAP are divided equally between the SRSA and RLIS programs and LEAs may receive funds from only one of the two programs. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ESSA reauthorization of the REAP statute made major changes to the program by</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. updating the locale codes used for determining the eligibility of LEAs, </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. clarifying that LEAs within educational service agencies are to be considered for SRSA eligibility, </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. extending to RLIS the alternative state certification option for meeting the rural criterion that already existed for SRSA, and </li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. giving LEAs the option to choose which program to receive funds under if eligible for both SRSA and RLIS.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report discusses the challenges facing rural schools and the manner in which REAP attempts to address these challenges.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345574998"></a><a name="_Toc486596766"></a><a name="_Toc487032475"></a><a name="_Toc487096817"></a><a name="_Toc487097128"></a><a name="_Toc487097211"></a><a name="_Toc487465481"></a><a name="_Toc488139806"></a><a name="_Toc488668469"></a><a name="_Toc488751276"></a><a name="_Toc63758835"></a><a name="_Toc63764552"></a><a name="_Toc64447303"></a><a name="_Toc64616525"></a><a name="_Toc64975317"></a>Strengths and Limitations of Rural Schools</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to their proponents, rural schools have some advantages over their urban and suburban counterparts. Rural teachers are typically key members of the community and tend to know students and their families well. Rural schools often have less complex organizational structures with fewer layers than non-rural school systems, and they may be able to adjust or adapt relatively quickly to change. Additionally, the schools within rural communities are very visible and strongly connected with the community.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="Wisconsin Department of Public Instruction , Summary of the Official Proceedings Wisconsin Rural Policy Network Forum, J anuary 2014 , pp. 2-3 , http://www.dpi.state.wi.us/rural/pdf/ri_sum.pdf .">2</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Rural schools also confront significant challenges. Many face fiscal limitations due to tax base constraints. Resource shortages contribute to various perceived problems, including a limited range of curricular options (such as a lack of Advanced Placement® course offerings) and difficulties providing competitive salaries to attract and retain highly qualified teachers. Rural schools tend to have declining enrollment due to net out-migration and aging of the population. Rural schools' low population density can result in other problems, such as high transportation costs and limited access to cultural and educational resources.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Ibid., pp. 3-5.">3</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to these general challenges, rural school districts may face particular problems meeting ESEA requirements related to academic accountability and teacher quality. While ESSA provided greater funding use flexibility, rural districts may find it difficult to implement ESEA's requirements for schools identified as being in need of improvement (such as providing public school choice).<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="For more information, see CRS In Focus IF10556, Elementary and Secondary Education Act: Overview of Title I-A Academic Accountability Provisions , by Rebecca R. Skinner .">4</a></sup> Rural districts may also face difficulty in meeting the ESEA requirement that students receive instruction in the core academic subjects from teachers who are fully certified by the state and have demonstrated competency in the subjects they teach. Additionally, where ESEA funds are concerned, rural LEAs may be at a relative disadvantage compared to non-rural LEAs in both seeking competitive awards and utilizing small formula grant amounts from varied programs. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345574999"></a><a name="_Toc486596767"></a><a name="_Toc487032476"></a><a name="_Toc487096818"></a><a name="_Toc487097129"></a><a name="_Toc487097212"></a><a name="_Toc487465482"></a><a name="_Toc488139807"></a><a name="_Toc488668470"></a><a name="_Toc488751277"></a><a name="_Toc63758836"></a><a name="_Toc63764553"></a><a name="_Toc64447304"></a><a name="_Toc64616526"></a><a name="_Toc64975318"></a>The Rural Education Achievement Program (REAP)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress created REAP to meet many of the challenges facing rural schools. According to the statute, the purpose of REAP is to address "the unique needs of rural school districts that frequently (1) lack the personnel and resources needed to compete effectively for Federal competitive grants; and (2) receive formula grant allocations in amounts too small to be effective in meeting their intended purposes."<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="ESEA, Section 5202.">5</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">REAP authorizes two rural education programs under ESEA Title V-B. Subpart 1 authorizes the SRSA program, which focuses on LEAs with less than 600 students. Subpart 2 authorizes the RLIS program, which focuses on larger rural LEAs with relatively high poverty rates (at least 20% of children from families below the poverty line). Recipients of grants from these programs may use their funds to support a fairly broad set of educational programs and activities authorized by several ESEA programs.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ESSA authorized REAP at $169,840,000 for the fiscal years 2017 through 2020, to be distributed equally between subparts 1 and 2.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Section 422 of General Education Provisions Act ( GEPA ) provides for the automatic extension of program authorizations for one year under the conditions specified in the section. In practice, this provision has been used to extend education programs authorized by major pieces of legislation, such as the Elementary and Secondary Education Act and Higher Education Act, by one year. More information on GEPA may be found in CRS Report R41119, General Education Provisions Act (GEPA): Overvie...">6</a></sup> In the Consolidated Appropriations Act, 2021 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d116:FLD002:@1(116+260)"><span class="Hyperlink">P.L. 116-260</span></a>), Congress appropriated $187,840,000 for REAP. <a class="InternalLink" href="#_Ref239069155"><strong></strong><strong>Table 1</strong></a> shows the history of appropriations for the program. Since FY2016, REAP appropriations have exceeded the authorized level.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='As expressed by the Government Accountability Office (GAO) , "t here is no general requirement, either constitutional or statutory, that an appropriation act be preceded by a specific authorization." GAO, Principles of Federal Appropriations Law , (4 th ed., 2016), GAO-16-464SP, ch. 2, p. 2-55. From the perspective of congressional rules, explicitly authorizing a specific dollar amount has the effect of placing a procedural limit on the amount that may be appropriated, although Congress may...'>7</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:259.2pt;">
+<p class="TableTitle"><a name="_Ref239069155"></a><a name="_Toc345574990"></a><a name="_Toc486596762"></a><a name="_Toc487032471"></a><a name="_Toc487096813"></a><a name="_Toc487097124"></a><a name="_Toc487097207"></a><a name="_Toc487465477"></a><a name="_Toc488139802"></a><a name="_Toc488668465"></a><a name="_Toc488751272"></a><a name="_Toc63758833"></a><a name="_Toc63764550"></a><a name="_Toc64447301"></a><a name="_Toc64616523"></a><a name="_Toc64975315"></a>Table 1.  Appropriations for REAP</p>
+</div>
+<table class="ReportTable" style="width:259.2pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Fiscal Year</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Appropriation <br/>(rounded to nearest $000)</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">% Change from <br/>Prior Year</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">2002</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$162,500,000</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2003</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$167,653,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">3.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2004</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$167,831,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.1%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2005</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$170,624,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">1.7%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2006</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$168,919,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">-1.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2007</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$168,919,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2008</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$171,854,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">1.7%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2009</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$173,382,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.9%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2010</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$174,882,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.9%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2011</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$174,532,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">-0.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2012</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$179,193,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2.7%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2013</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$169,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">-5.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2014</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$169,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2015</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$169,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2016</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$175,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">3.5%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2017</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$175,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2018</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$180,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2.8%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2019</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$180,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2020</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$185,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2.7%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2021</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">$187,840,000</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">1.1%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:259.2pt;">
+<p class="TableSource"><strong>Source:</strong> U.S. Department of Education, Budget Service.</p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345575000"></a><a name="_Toc486596768"></a><a name="_Toc487032477"></a><a name="_Toc487096819"></a><a name="_Toc487097130"></a><a name="_Toc487097213"></a><a name="_Toc487465483"></a><a name="_Toc488139808"></a><a name="_Toc488668471"></a><a name="_Toc488751278"></a><a name="_Toc63758837"></a><a name="_Toc63764554"></a><a name="_Toc64447305"></a><a name="_Toc64616527"></a><a name="_Toc64975319"></a>Program Eligibility</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To be eligible for REAP funds, LEAs must be designated rural by the U.S. Department of Education (ED). The National Center for Education Statistics (NCES) has devised a typology to classify schools based on their geographic locations. Using Census Bureau geographic data, NCES assigns "locale codes" to each school. Based on their proximity to urbanized areas and urban clusters,<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='The Census Bureau delineates urban areas after each decennial census by applying specified criteria to decennial census and other data. The Census Bureau identifies two types of urban areas: (1) Urbanized Areas of 50,000 or more people and (2) Urban Clusters of at least 2,500 and less than 50,000 people. "Rural" encompasses all population, housing, and territory not included within an urban area. More information on urbanized areas and urban clusters may be found at https://www.census.gov/...'>8</a></sup> schools are classified along a 12-point urban-to-rural scale as follows (locale codes in parentheses):<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="NCES re vised the locale code system from a prior system of eight classifications ; more information on this topic may be found at https://nces.ed.gov/surveys/ruraled/definitions.asp .">9</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Large City (11)</strong>: Territory inside an urbanized area and inside a principal city with population of 250,000 or more.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Midsize City</strong><strong> (12)</strong>: Territory inside an urbanized area and inside a principal city with population of less than 250,000 and greater than or equal to 100,000.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Small City</strong><strong> (13)</strong>: Territory inside an urbanized area and inside a principal city with population of less than 100,000.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Large Suburb</strong><strong> (21)</strong>: Territory outside a principal city and inside an urbanized area with population of 250,000 or more.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Midsize Suburb</strong><strong> (22)</strong>: Territory outside a principal city and inside an urbanized area with population of less than 250,000 and greater than or equal to 100,000.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Small Suburb</strong><strong> (23)</strong>: Territory outside a principal city and inside an urbanized area with population of less than 100,000.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Fringe Town</strong><strong> (31)</strong>: Territory inside an urban cluster that is less than or equal to 10 miles from an urbanized area.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Distant Town</strong><strong> (32)</strong>: Territory inside an urban cluster that is more than 10 miles and less than or equal to 35 miles from an urbanized area.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Remote Town</strong><strong> (33)</strong>: Territory inside an urban cluster that is more than 35 miles from an urbanized area.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Fringe Rural</strong><strong> (41)</strong>: Census-defined rural territory that is less than or equal to 5 miles from an urbanized area, as well as rural territory that is less than or equal to 2.5 miles from an urban cluster.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Distant Rural</strong><strong> (42)</strong>: Census-defined rural territory that is more than 5 miles but less than or equal to 25 miles from an urbanized area, as well as rural territory that is more than 2.5 miles but less than or equal to 10 miles from an urban cluster.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>Remote Rural</strong><strong> (43)</strong>: Census-defined rural territory that is more than 25 miles from an urbanized area and is also more than 10 miles from an urban cluster.</li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345575001"></a><a name="_Toc486596769"></a><a name="_Toc487032478"></a><a name="_Toc487096820"></a><a name="_Toc487097131"></a><a name="_Toc487097214"></a><a name="_Toc487465484"></a><a name="_Toc488139809"></a><a name="_Toc488668472"></a><a name="_Toc488751279"></a><a name="_Toc63758838"></a><a name="_Toc63764555"></a><a name="_Toc64447306"></a><a name="_Toc64616528"></a><a name="_Toc64975320"></a>Small Rural School Achievement Program Eligibility</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An LEA is eligible for the SRSA program if <em>all </em>schools served by the LEA have a locale code of 41, 42, or 43<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="NCES also classifies LEA s based on the code or codes assigned to school s within their boundaries; however, this classification system is different than that required under ESEA. Under the NCES system, an LEA is assigned the locale code of the schools enrolling 50% or more of the LEA's students . If no single code accounts for 50% or more of an LEA's students, the LEA is assigned the code of schools accounting for the highest percentage of its students.">10</a></sup> <em>and</em> either its average daily attendance (ADA) is less than 600 <em>or</em> the county or counties in which the LEA is located has a population density of fewer than 10 people per square mile. The SRSA statute allows the Secretary of Education to waive the locale code requirement (but not the ADA or population density requirements) based on a state government agency's determination that the LEA is located in a rural area.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='U.S. Department of Education, Office of Elementary and Secondary Education, " Informational Document: Rural Educ ation Achievement Program," 2020, available a t http://www2.ed.gov/policy/elsec/leg/essa/index.html.'>11</a></sup> LEAs that lost SRSA eligibility due to the locale codes changes adopted under the ESSA amendments were provided a declining share of prior grant amounts through FY2019 under a hold harmless provision.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Such LEAS received the following shares of what they received under SRSA in FY2015: 75% for FY2017, 50% for FY2018, and 25% for FY2019.">12</a></sup> The ESSA amendments also made eligible certain LEAs that are members of SRSA-ineligible educational service agencies.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='Section 8101(18) of the ESEA defines an educational service agency as a "regional public multiservice agency authorized by state statute to develop, manage, and provide services or programs to local educational agencies."'>13</a></sup> Such LEAs may receive SRSA funds under limited circumstances. More importantly, these LEAs can take advantage of the REAP-Flex provisions made available to all SRSA-eligible LEAs (these provisions are described below).</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345575002"></a><a name="_Toc486596770"></a><a name="_Toc487032479"></a><a name="_Toc487096821"></a><a name="_Toc487097132"></a><a name="_Toc487097215"></a><a name="_Toc487465485"></a><a name="_Toc488139810"></a><a name="_Toc488668473"></a><a name="_Toc488751280"></a><a name="_Toc63758839"></a><a name="_Toc63764556"></a><a name="_Toc64447307"></a><a name="_Toc64616529"></a><a name="_Toc64975321"></a>Rural Low-Income School Program Eligibility</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An LEA is eligible for the RLIS program if <em>all </em>its schools have locale codes of 32, 33, 41, 42, or 43 and at least 20% of the children the LEA serves are from families below the poverty line. The ESSA amendments provided the Secretary with waiver authority for the locale code requirement based on state determination that the LEA is located in a rural area, which previously only existed for the SRSA program. <a name="_Toc345575003"></a>The law does not provide the Secretary waiver authority for the poverty requirement.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc486596771"></a><a name="_Toc487032480"></a><a name="_Toc487096822"></a><a name="_Toc487097133"></a><a name="_Toc487097216"></a><a name="_Toc487465486"></a><a name="_Toc488139811"></a><a name="_Toc488668474"></a><a name="_Toc488751281"></a><a name="_Toc63758840"></a><a name="_Toc63764557"></a><a name="_Toc64447308"></a><a name="_Toc64616530"></a><a name="_Toc64975322"></a>Grant Determination</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Amounts that LEAs receive and aggregate state amounts are determined differently under the SRSA and RLIS programs. Under the SRSA program, an initial amount is calculated for each eligible LEA and then funds are added based on enrollment and subtracted based on "offsetting" amounts received from other ESEA programs. Under RLIS, grants are first made to states based on a formula and then subgranted to LEAs on either a formula or competitive basis.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345575004"></a><a name="_Toc486596772"></a><a name="_Toc487032481"></a><a name="_Toc487096823"></a><a name="_Toc487097134"></a><a name="_Toc487097217"></a><a name="_Toc487465487"></a><a name="_Toc488139812"></a><a name="_Toc488668475"></a><a name="_Toc488751282"></a><a name="_Toc63758841"></a><a name="_Toc63764558"></a><a name="_Toc64447309"></a><a name="_Toc64616531"></a><a name="_Toc64975323"></a>SRSA Grants</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress intended the SRSA program to be a supplement to certain other ESEA grant funds. Thus, an LEA's final SRSA grant amount is based on adjusting its initial amount by the total amount it received from other ESEA programs. The initial SRSA amount is equal to a base grant of $20,000, plus an additional amount for LEAs with enrollments of more than 50 students. The additional amount is equal to $100 for each student in excess of 50 students; however, generally, no grant amount may exceed $60,000.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="The ESSA amendments added a special rule such that when REAP funding exceeds $200,000,000, the SRSA initial amount is $25,000 and the maximum is $80,000.">14</a></sup> The following are some examples of initial amount calculations:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">LEAs with 50 students or fewer have initial grant amounts equal to the base amount of $20,000.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An LEA with 55 students has an initial amount of $20,500 (i.e., the base amount of $20,000 plus $500, which is $100 times the five students in excess of 50 students).</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An LEA with 449 students has an initial amount of $59,900 (i.e., the base amount of $20,000 plus $39,900, which is $100 times the 399 students in excess of 50 students).</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">LEAs with between 450 and 599 students have initial amounts of $60,000 (e.g., the calculation for an LEA with 451 students would be the base amount of $20,000 plus $40,100, which is $100 times the 401 students in excess of 50 students; since this exceeds the maximum amount of $60,000, the amount of the initial award would be $60,000).</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The final SRSA grant amount is equal to the initial award minus the amount an LEA received from two ESEA grant programs in the prior fiscal year: (1) the Supporting Effective Instruction program, Title II, Part A, and (2) the Student Support and Academic Enrichment Grants, Title IV, Part A. As a result of this offset provision, an LEA whose initial SRSA grant amount is less than what it received from these two ESEA programs in the prior fiscal year would not receive funds under the SRSA program. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345575005"></a><a name="_Toc486596773"></a><a name="_Toc487032482"></a><a name="_Toc487096824"></a><a name="_Toc487097135"></a><a name="_Toc487097218"></a><a name="_Toc487465488"></a><a name="_Toc488139813"></a><a name="_Toc488668476"></a><a name="_Toc488751283"></a><a name="_Toc63758842"></a><a name="_Toc63764559"></a><a name="_Toc64447310"></a><a name="_Toc64616532"></a><a name="_Toc64975324"></a>RLIS Grants</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unlike under the SRSA program, the Secretary must reserve funds from the total RLIS appropriation for Bureau of Indian Education (BIE) schools (0.5%) and for outlying areas (0.5%).<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="The outlying areas receiving RLIS grants are American Samoa, Guam, the Northern Mariana Islands, and the Virgin Islands. Puerto Rico is considered a state under the REAP programs.">15</a></sup> The remainder is allotted to states based on each state's share of students attending schools in eligible LEAs nationwide. For example, a state with 2% of the national enrollment in RLIS-eligible LEAs would receive 2% of funds remaining after reserving BIE and outlying area funds. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">States award subgrants to eligible LEAs either competitively or based on a formula selected by the state, and approved by the Secretary.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='A state may use a formula based on t he proportion of students in average daily attendance in eligible LEAs or an alternative formula, as approved by the Secretary, that results in serving "equal or greater concentrations of children from families with incomes below the poverty line, relative to the concentrations that would be served" if the AD A formula were used (§5221(b)((3 )(C ) ).'>16</a></sup> The ESSA amendments provide that LEAs in a state that does not participate in the RLIS program may submit an application directly to the Secretary as a "specially qualified agency."</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc345575007"></a><a name="_Toc486596774"></a><a name="_Toc487032483"></a><a name="_Toc487096825"></a><a name="_Toc487097136"></a><a name="_Toc487097219"></a><a name="_Toc487465489"></a><a name="_Toc488139815"></a><a name="_Toc488668478"></a><a name="_Toc488751285"></a><a name="_Toc63758843"></a><a name="_Toc63764560"></a><a name="_Toc64447311"></a><a name="_Toc64616533"></a><a name="_Toc64975325"></a>Use of Funds</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Recipients of REAP grants may use funds for activities authorized by several ESEA programs:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Improving Basic Programs Operated by Local Educational Agencies (Title I, Part A);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Supporting Effective Instruction (Title II, Part A);</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Language Instruction for English Learners and Immigrant Students (Title III); and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Student Support and Academic Enrichment Grants (Title IV, Part A).<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='SRSA grantees may also use these funds for 21 st Century Community Learning Centers (Title IV, Part B). RLIS grantees may also use these funds for "parental involvement activities."'>17</a></sup></li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc487032484"></a><a name="_Toc487096826"></a><a name="_Toc487097137"></a><a name="_Toc487097220"></a><a name="_Toc487465490"></a><a name="_Toc488139816"></a><a name="_Toc488668479"></a><a name="_Toc488751286"></a><a name="_Toc63758844"></a><a name="_Toc63764561"></a><a name="_Toc64447312"></a><a name="_Toc64616534"></a><a name="_Toc64975326"></a>REAP-Flex</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the "alternative use of funds authority" (commonly known as REAP-Flex), LEAs that are eligible for SRSA grants (whether or not they receive any SRSA funds) have the flexibility to use <em>offsetting</em> funds from ESEA Title II-A and Title IV-A programs for any activities authorized by the SRSA program.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title='ESEA Section 5211. In its guidance on REAP, ED refers to alternative use of funds as "REAP-Flex" and differentiates this flexibility from other ESEA flexibility as follows: REAP-Flex does not involve a transfer of funds from one program to another. Rather, REAP-Flex gives an LEA broader authority in spending "applicable funding" for alternative uses under selected federal programs. On the other hand, when an LEA transfers funds from one program to another under the transferability authorit...'>18</a></sup> For example, under REAP-Flex an LEA may use funds received under the Supporting Effective Instruction program (Title II-A) to provide language acquisition and services to immigrant students authorized under the Language Instruction for English Learners and Immigrant Students Program (Title III).</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc486596775"></a><a name="_Toc487032485"></a><a name="_Toc487096827"></a><a name="_Toc487097138"></a><a name="_Toc487097221"></a><a name="_Toc487465491"></a><a name="_Toc488139817"></a><a name="_Toc488668480"></a><a name="_Toc488751287"></a><a name="_Toc63758845"></a><a name="_Toc63764562"></a><a name="_Toc64447313"></a><a name="_Toc64616535"></a><a name="_Toc64975327"></a>Implementation Issue</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc487096815"></a><a name="_Toc487032473"></a><a name="_Ref486597181"></a><a name="_Toc486596764"></a>An ED review of formula grant allocation procedures revealed an implementation issue concerning the poverty data used to determine RLIS eligibility. To identify LEAs serving low-income students, ESEA grant programs typically use data from the Small Area Income and Poverty Estimates (SAIPE) program, administered by the U.S. Census Bureau.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="More information on SAIPE data may be found in CRS Report R46600, ESEA: Title I-A Poverty Measures and Grants to Local Education Agencies and Schools , by Rebecca R. Skinner .">19</a></sup> Unlike some other ESEA programs, the RLIS statute does not provide the Secretary authority to waive the required use of SAIPE data to meet the poverty rule and instead use alternative poverty data (APD).<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="The RLIS provisions provide the Secretary waiver auth ority in determining rural eligibility, but not low-income eligibility .">20</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Despite these restrictions, to determine RLIS eligibility prior to FY2020, operationally, ED had allowed the use of APD supplied by states under provisions in Title I of ESEA (§1124). The use of APD for these purposes began for those LEAs that lacked SAIPE data; however, over time this practice was adopted in certain instances where both SAIPE and APD were available. In an April 30, 2020, letter to Chief State School Officers, the Secretary stated that a review of ED's processes for awarding RLIS funds </p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">discovered that some LEAs had been erroneously determined to be eligible for RLIS funding on the basis of alternative poverty measures instead of data from the U.S. Census Bureau's Small Area Income and Poverty Estimates (SAIPE), as required in section 5221(b)(1)(A)(i) of the Elementary and Secondary Education Act of 1965, as amended (ESEA).</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Department subsequently took action to notify States of the data required to determine future RLIS eligibility and indicated that only SAIPE data would be used to determine eligibility for RLIS in FY 2020. Nevertheless, given seven States in FY 2019 relied on the Department's past acceptance of alternative poverty data in place of SAIPE data, we have concluded that the Department has a reasoned basis not to make changes to the Department's processes for determining RLIS eligibility for FY 2020 funds.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="ED's letter to Chief State School Officers, April 30, 2020, available at https://oese.ed.gov/files/2020/05/FY-2020-RLIS-Eligibility_CSSO_4.30.20.pdf .">21</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On December 27, 2020, the President signed the Consolidated Appropriations Act, 2021 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d116:FLD002:@1(116+260)"><span class="Hyperlink">P.L. 116-260</span></a>). The act clarified that APD are only to be used when SAIPE data are not available. The act provided a temporary remedy for LEAs impacted by ED's decision to disallow APD for RLIS allocations. For FY2021 and FY2022, such LEAs will receive their FY2019 award amount. Thereafter, these LEAs will receive a declining portion of what they received in FY2019 in the following manner: </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">for FY2023, 83.33% of the amount such local educational agency received for FY2019;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">for FY2024, 66.67% of the amount such local educational agency received for FY2019;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">for FY2025, 50.00% of the amount such local educational agency received for FY2019;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">for FY2026, 33.33% of the amount such local educational agency received for FY2019; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">for FY2027, 16.67% of the amount such local educational agency received for FY2019.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The REAP program was established under Title IV-B of the ESEA by the No Child Left Behind Act of 2001 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d107:FLD002:@1(107+110)"><span class="Hyperlink">P.L. 107-110</span></a>). Further information on the ESSA amendments to the ESEA may be found in CRS Report R44297, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44297"><em><span class="Hyperlink">Reauthorization of the Elementary and Secondary Education Act: Highlights of the Every Student Succeeds Act</span></em></a>, by Rebecca R. Skinner and Jeffrey J. Kuenzi. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Wisconsin Department of Public Instruction, Summary of the Official Proceedings Wisconsin Rural Policy Network Forum, January 2014, pp. 2-3, <a class="ExternalLink" href="http://www.dpi.state.wi.us/rural/pdf/ri_sum.pdf"><span class="Hyperlink">http://www.dpi.state.wi.us/rural/pdf/ri_sum.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., pp. 3-5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS In Focus IF10556, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10556"><em><span class="Hyperlink">Elementary and Secondary Education Act: Overview of Title I-A Academic Accountability Provisions</span></em></a>, by Rebecca R. Skinner. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> ESEA, Section 5202.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 422 of General Education Provisions Act (GEPA) provides for the automatic extension of program authorizations for one year under the conditions specified in the section. In practice, this provision has been used to extend education programs authorized by major pieces of legislation, such as the Elementary and Secondary Education Act and Higher Education Act, by one year. More information on GEPA may be found in CRS Report R41119, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41119"><em><span class="Hyperlink">General Education Provisions Act (GEPA): Overview and Issues</span></em></a>, by Rebecca R. Skinner and Jody Feder.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As expressed by the Government Accountability Office (GAO), "there is no general requirement, either constitutional or statutory, that an appropriation act be preceded by a specific authorization." GAO, <em>Principles of Federal Appropriations Law</em>, (4<sup>th</sup> ed., 2016), GAO-16-464SP, ch. 2, p. 2-55. From the perspective of congressional rules, explicitly authorizing a specific dollar amount has the effect of placing a procedural limit on the amount that may be appropriated, although Congress may later choose to set aside its rules and provide a greater amount. More information on this issue may be found in CRS Report R44582, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44582"><em><span class="Hyperlink">Overview of Funding Mechanisms in the Federal Budget Process, and Selected Examples</span></em></a>, by Jessica Tollestrup. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Census Bureau delineates urban areas after each decennial census by applying specified criteria to decennial census and other data. The Census Bureau identifies two types of urban areas: (1) Urbanized Areas of 50,000 or more people and (2) Urban Clusters of at least 2,500 and less than 50,000 people. "Rural" encompasses all population, housing, and territory not included within an urban area. More information on urbanized areas and urban clusters may be found at <a class="ExternalLink" href="https://www.census.gov/geo/reference/urban-rural.html"><span class="Hyperlink">https://www.census.gov/geo/reference/urban-rural.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> NCES revised the locale code system from a prior system of eight classifications; more information on this topic may be found at <a class="ExternalLink" href="https://nces.ed.gov/surveys/ruraled/definitions.asp"><span class="Hyperlink">https://nces.ed.gov/surveys/ruraled/definitions.asp</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> NCES also classifies LEAs based on the code or codes assigned to schools within their boundaries; however, this classification system is different than that required under ESEA. Under the NCES system, an LEA is assigned the locale code of the schools enrolling 50% or more of the LEA's students. If no single code accounts for 50% or more of an LEA's students, the LEA is assigned the code of schools accounting for the highest percentage of its students.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Department of Education, Office of Elementary and Secondary Education, "Informational Document: Rural Education Achievement Program," 2020, available at http://www2.ed.gov/policy/elsec/leg/essa/index.html.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Such LEAS received the following shares of what they received under SRSA in FY2015: 75% for FY2017, 50% for FY2018, and 25% for FY2019.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 8101(18) of the ESEA defines an <em>educational service agency</em> as a "regional public multiservice agency authorized by state statute to develop, manage, and provide services or programs to local educational agencies."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The ESSA amendments added a special rule such that when REAP funding exceeds $200,000,000, the SRSA initial amount is $25,000 and the maximum is $80,000.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The outlying areas receiving RLIS grants are American Samoa, Guam, the Northern Mariana Islands, and the Virgin Islands. Puerto Rico is considered a state under the REAP programs.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A state may use a formula based on the proportion of students in average daily attendance in eligible LEAs or an alternative formula, as approved by the Secretary, that results in serving "equal or greater concentrations of children from families with incomes below the poverty line, relative to the concentrations that would be served" if the ADA formula were used (§5221(b)((3)(C)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> SRSA grantees may also use these funds for 21<sup>st</sup> Century Community Learning Centers (Title IV, Part B). RLIS grantees may also use these funds for "parental involvement activities."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> ESEA Section 5211. In its guidance on REAP, ED refers to alternative use of funds as "REAP-Flex" and differentiates this flexibility from other ESEA flexibility as follows:</p>
+<p class="FootnoteBlockText" style="">REAP-Flex does not involve a transfer of funds from one program to another. Rather, REAP-Flex gives an LEA broader authority in spending "applicable funding" for alternative uses under selected federal programs. On the other hand, when an LEA transfers funds from one program to another under the transferability authority in section 6123, the transferred funds increase the allocation of the receiving program and are subject to all of the rules and requirements of the receiving program. (ED REAP Guidance, Section II-B-1).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> More information on SAIPE data may be found in CRS Report R46600, <a class="ExternalLink" href="http://www.crs.gov/Reports/R46600"><em><span class="Hyperlink">ESEA: Title I-A Poverty Measures and Grants to Local Education Agencies and Schools</span></em></a>, by Rebecca R. Skinner. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The RLIS provisions provide the Secretary waiver authority in determining rural eligibility, but not low-income eligibility.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> ED's letter to Chief State School Officers, April 30, 2020, available at <a class="ExternalLink" href="https://oese.ed.gov/files/2020/05/FY-2020-RLIS-Eligibility_CSSO_4.30.20.pdf"><span class="Hyperlink">https://oese.ed.gov/files/2020/05/FY-2020-RLIS-Eligibility_CSSO_4.30.20.pdf</span></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

@@ -1,11 +1,13 @@
-**Official-current verification: 75/75. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-03 to 2026-11-10**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-04 to 2026-11-11**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-10 | R49515 v1 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v1-2026-11-10-9a76e338985ddfcb.pdf) | [Markdown](markdown/reports/R49515v1-2026-11-10-9a76e338985ddfcb.md) |
+| 2026-11-10 | R49514 v1 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v1-2026-11-10-b0706f7c5e371a74.pdf) | [Markdown](markdown/reports/R49514v1-2026-11-10-b0706f7c5e371a74.md) |
+| 2026-11-10 | R48918 v9 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v9-2026-11-10-3094973c5bb47405.pdf) | [Markdown](markdown/reports/R48918v9-2026-11-10-3094973c5bb47405.md) |
+| 2026-11-10 | R43744 v47 | Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works | [PDF](pdf/reports/R43744v47-2026-11-10-257804c4d5299cf8.pdf) | [Markdown](markdown/reports/R43744v47-2026-11-10-257804c4d5299cf8.md) |
 | 2026-11-10 | R43743 v31 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v31-2026-11-10-17c511c94b7bdb95.pdf) | [Markdown](markdown/reports/R43743v31-2026-11-10-17c511c94b7bdb95.md) |
 | 2026-11-10 | IN12550 v4 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v4-2026-11-10-a695b70126b320d2.pdf) | [Markdown](markdown/insights/IN12550v4-2026-11-10-a695b70126b320d2.md) |
 | 2026-11-09 | R49513 v1 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v1-2026-11-09-73fbad1f1910b276.pdf) | [Markdown](markdown/reports/R49513v1-2026-11-09-73fbad1f1910b276.md) |
@@ -14,6 +16,7 @@ Publication-date window (inclusive): **2026-11-03 to 2026-11-10**. Older archive
 | 2026-11-09 | R44759 v24 | Lebanon: Background and U.S. Relations | [PDF](pdf/reports/R44759v24-2026-11-09-5bce8af5ebb0ff61.pdf) | [Markdown](markdown/reports/R44759v24-2026-11-09-5bce8af5ebb0ff61.md) |
 | 2026-11-09 | R44247 v12 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v12-2026-11-09-acc06da9e2ef035b.pdf) | [Markdown](markdown/reports/R44247v12-2026-11-09-acc06da9e2ef035b.md) |
 | 2026-11-09 | IN12746 v2 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v2-2026-11-09-c555793512fef262.pdf) | [Markdown](markdown/insights/IN12746v2-2026-11-09-c555793512fef262.md) |
+| 2026-11-09 | IF13345 v1 | Federal Sexual Assault Offenses | [PDF](pdf/in-focus/IF13345v1-2026-11-09-fb51cfebade8222c.pdf) | [Markdown](markdown/in-focus/IF13345v1-2026-11-09-fb51cfebade8222c.md) |
 | 2026-11-09 | IF12680 v3 | The Board of Veterans’ Appeals: A Brief Introduction | [PDF](pdf/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.pdf) | [Markdown](markdown/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.md) |
 | 2026-11-09 | IF10753 v9 | ENERGY STAR Program | [PDF](pdf/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.pdf) | [Markdown](markdown/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.md) |
 | 2026-11-09 | IF10266 v18 | Child Nutrition Reauthorization (CNR): An Overview | [PDF](pdf/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.pdf) | [Markdown](markdown/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.md) |
@@ -61,14 +64,6 @@ Publication-date window (inclusive): **2026-11-03 to 2026-11-10**. Older archive
 | 2026-11-04 | IF13342 v1 | Types of Coins Produced by the U.S. Mint | [PDF](pdf/in-focus/IF13342v1-2026-11-04-f17b2afaa4f3d97f.pdf) | [Markdown](markdown/in-focus/IF13342v1-2026-11-04-f17b2afaa4f3d97f.md) |
 | 2026-11-04 | IF12517 v14 | U.S.-Japan Critical Minerals Agreement | [PDF](pdf/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.pdf) | [Markdown](markdown/in-focus/IF12517v14-2026-11-04-237745fa875d1f55.md) |
 | 2026-11-04 | IF10544 v16 | Defense Primer: Department of the Army and Army Command Structure | [PDF](pdf/in-focus/IF10544v16-2026-11-04-05ca13c0449d2b1b.pdf) | [Markdown](markdown/in-focus/IF10544v16-2026-11-04-05ca13c0449d2b1b.md) |
-| 2026-11-03 | R48244 v3 | Safe Driver Apprenticeship Pilot Program: In Brief | [PDF](pdf/reports/R48244v3-2026-11-03-01bc490f078e59e5.pdf) | [Markdown](markdown/reports/R48244v3-2026-11-03-01bc490f078e59e5.md) |
-| 2026-11-03 | R48244 v4 | Safe Driver Apprenticeship Pilot Program: In Brief | [PDF](pdf/reports/R48244v4-2026-11-03-2ce75c2b6c6f001f.pdf) | [Markdown](markdown/reports/R48244v4-2026-11-03-2ce75c2b6c6f001f.md) |
-| 2026-11-03 | IN12754 v1 | Surplus Lines Insurance: An Introduction | [PDF](pdf/insights/IN12754v1-2026-11-03-d89c67932d7999d3.pdf) | [Markdown](markdown/insights/IN12754v1-2026-11-03-d89c67932d7999d3.md) |
-| 2026-11-03 | IN12753 v2 | FY2027 Internal Revenue Service Budget Request | [PDF](pdf/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.pdf) | [Markdown](markdown/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.md) |
-| 2026-11-03 | IF12452 v8 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.pdf) | [Markdown](markdown/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.md) |
-| 2026-11-03 | IF12452 v7 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v7-2026-11-03-9028fcdc417bbc53.pdf) | [Markdown](markdown/in-focus/IF12452v7-2026-11-03-9028fcdc417bbc53.md) |
-| 2026-11-03 | IF11449 v7 | Economic Development Revolving Loan Funds (ED-RLFs) | [PDF](pdf/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.pdf) | [Markdown](markdown/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.md) |
-| 2026-11-03 | IF10545 v18 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.pdf) | [Markdown](markdown/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -76,15 +71,41 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-10 | 2024-02-05 | RS21405 v34 | U.S. Periods of War and Dates of Recent Conflicts | [PDF](pdf/reports/RS21405v34-2024-02-05-0fa989e92aec783c.pdf) | [Markdown](markdown/reports/RS21405v34-2024-02-05-0fa989e92aec783c.md) |
+| 2026-11-10 | 2023-05-08 | RL33931 v37 | The Corporation for National and Community Service: Overview of Programs and Funding | [PDF](pdf/reports/RL33931v37-2023-05-08-f203cf327c23bbea.pdf) | [Markdown](markdown/reports/RL33931v37-2023-05-08-f203cf327c23bbea.md) |
+| 2026-11-10 | 2023-05-25 | RL31693 v14 | U.S. Armed Forces Abroad: Selected Congressional Votes Since 1982 | [PDF](pdf/reports/RL31693v14-2023-05-25-79480e6b2eb0ceca.pdf) | [Markdown](markdown/reports/RL31693v14-2023-05-25-79480e6b2eb0ceca.md) |
 | 2026-11-10 | 2019-09-04 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2019 | [PDF](pdf/reports/RL30567v29-2019-09-04-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2019-09-04-97b460804175e3ce.md) |
+| 2026-11-10 | 2026-05-27 | R48958 v1 | National Foundation on the Arts and Humanities: FY2026 Appropriations | [PDF](pdf/reports/R48958v1-2026-05-27-205c4e7d745100df.pdf) | [Markdown](markdown/reports/R48958v1-2026-05-27-205c4e7d745100df.md) |
+| 2026-11-10 | 2023-11-06 | R47830 v1 | Education for Homeless Children and Youths: Data and Issues | [PDF](pdf/reports/R47830v1-2023-11-06-23bdce621da9859d.pdf) | [Markdown](markdown/reports/R47830v1-2023-11-06-23bdce621da9859d.md) |
+| 2026-11-10 | 2024-01-23 | R47422 v3 | Child Care Access Means Parents in Schools (CCAMPIS): In Brief | [PDF](pdf/reports/R47422v3-2024-01-23-61d95dd7437ff830.pdf) | [Markdown](markdown/reports/R47422v3-2024-01-23-61d95dd7437ff830.md) |
+| 2026-11-10 | 2023-06-13 | R47248 v11 | National Foundation on the Arts and Humanities: FY2023 Appropriations | [PDF](pdf/reports/R47248v11-2023-06-13-033311fd7faab8b3.pdf) | [Markdown](markdown/reports/R47248v11-2023-06-13-033311fd7faab8b3.md) |
+| 2026-11-10 | 2022-08-03 | R47208 v1 | Job Corps: A Primer | [PDF](pdf/reports/R47208v1-2022-08-03-523bf3ded83473e9.pdf) | [Markdown](markdown/reports/R47208v1-2022-08-03-523bf3ded83473e9.md) |
+| 2026-11-10 | 2022-04-15 | R47071 v1 | Strengthening Career and Technical Education for the 21st Century Act (Perkins V): A Primer | [PDF](pdf/reports/R47071v1-2022-04-15-85397caf1ba23d86.pdf) | [Markdown](markdown/reports/R47071v1-2022-04-15-85397caf1ba23d86.md) |
+| 2026-11-10 | 2024-03-04 | R45914 v3 | K-12 Teacher Recruitment and Retention Policies in the Higher Education Act: In Brief | [PDF](pdf/reports/R45914v3-2024-03-04-17571ad72a5ff673.pdf) | [Markdown](markdown/reports/R45914v3-2024-03-04-17571ad72a5ff673.md) |
+| 2026-11-10 | 2024-01-11 | R45674 v3 | National Museums: In Brief | [PDF](pdf/reports/R45674v3-2024-01-11-5cb5f7d3c9471985.pdf) | [Markdown](markdown/reports/R45674v3-2024-01-11-5cb5f7d3c9471985.md) |
+| 2026-11-10 | 2024-09-20 | R45325 v8 | Military Survivor Benefit Plan: Background and Issues for Congress | [PDF](pdf/reports/R45325v8-2024-09-20-ba4b470ed5416beb.pdf) | [Markdown](markdown/reports/R45325v8-2024-09-20-ba4b470ed5416beb.md) |
+| 2026-11-10 | 2020-07-28 | R44959 v5 | Confederate Symbols: Relation to Federal Lands and Programs | [PDF](pdf/reports/R44959v5-2020-07-28-f54776c59223522f.pdf) | [Markdown](markdown/reports/R44959v5-2020-07-28-f54776c59223522f.md) |
+| 2026-11-10 | 2021-02-22 | R44906 v5 | The Rural Education Achievement Program: Title V-B of the Elementary and Secondary Education Act | [PDF](pdf/reports/R44906v5-2021-02-22-69f197f9fe32075e.pdf) | [Markdown](markdown/reports/R44906v5-2021-02-22-69f197f9fe32075e.md) |
+| 2026-11-10 | 2023-06-07 | R42738 v39 | Instances of Use of United States Armed Forces Abroad, 1798-2023 | [PDF](pdf/reports/R42738v39-2023-06-07-56826354b005b9a5.pdf) | [Markdown](markdown/reports/R42738v39-2023-06-07-56826354b005b9a5.md) |
+| 2026-11-10 | 2025-01-06 | R42724 v16 | The TRIO Programs: A Primer | [PDF](pdf/reports/R42724v16-2025-01-06-19d3546cabd16824.pdf) | [Markdown](markdown/reports/R42724v16-2025-01-06-19d3546cabd16824.md) |
+| 2026-11-10 | 2024-10-02 | R42704 v24 | The Purple Heart: Background and Issues for Congress | [PDF](pdf/reports/R42704v24-2024-10-02-8363a87136b79020.pdf) | [Markdown](markdown/reports/R42704v24-2024-10-02-8363a87136b79020.md) |
+| 2026-11-10 | 2025-03-24 | IN11563 v6 | Planning and Paying for College: Federal Government Resources | [PDF](pdf/insights/IN11563v6-2025-03-24-75bee27e0cc1ccbb.pdf) | [Markdown](markdown/insights/IN11563v6-2025-03-24-75bee27e0cc1ccbb.md) |
 | 2026-11-10 | 2026-10-23 | IF13295 v5 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.pdf) | [Markdown](markdown/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.md) |
+| 2026-11-10 | 2025-03-12 | IF12941 v1 | The History and Status of the Office of Federal Contract Compliance Programs (OFCCP) | [PDF](pdf/in-focus/IF12941v1-2025-03-12-a765334edf0f6998.pdf) | [Markdown](markdown/in-focus/IF12941v1-2025-03-12-a765334edf0f6998.md) |
 | 2026-11-10 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
+| 2026-11-10 | 2026-04-08 | IF12561 v2 | Connecting Constituents with Federal Assistance for the Arts and Humanities | [PDF](pdf/in-focus/IF12561v2-2026-04-08-5ae10181b1676045.pdf) | [Markdown](markdown/in-focus/IF12561v2-2026-04-08-5ae10181b1676045.md) |
+| 2026-11-10 | 2022-06-08 | IF11587 v3 | Removal of Nazi Symbols and Inscriptions on Headstones of Prisoners of War in VA National Cemeteries | [PDF](pdf/in-focus/IF11587v3-2022-06-08-c700198377aa64c2.pdf) | [Markdown](markdown/in-focus/IF11587v3-2022-06-08-c700198377aa64c2.md) |
+| 2026-11-10 | 2024-11-21 | IF11089 v17 | Defense Primer: Military Commissaries and Exchanges | [PDF](pdf/in-focus/IF11089v17-2024-11-21-86ba7fe5b8fb9e92.pdf) | [Markdown](markdown/in-focus/IF11089v17-2024-11-21-86ba7fe5b8fb9e92.md) |
+| 2026-11-10 | 2025-12-04 | IF10571 v11 | Defense Primer: Organization of U.S. Ground Forces | [PDF](pdf/in-focus/IF10571v11-2025-12-04-845c471eeaaaeeaa.pdf) | [Markdown](markdown/in-focus/IF10571v11-2025-12-04-845c471eeaaaeeaa.md) |
+| 2026-11-10 | 2021-07-12 | 98-756 v53 | Defense Authorization and Appropriations Bills: FY1961-FY2021 | [PDF](pdf/reports/98-756v53-2021-07-12-c3627dcf117ad168.pdf) | [Markdown](markdown/reports/98-756v53-2021-07-12-c3627dcf117ad168.md) |
 | 2026-11-07 | 2026-07-21 | IF10155 v19 | Somalia | [PDF](pdf/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.pdf) | [Markdown](markdown/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.md) |
+| 2026-11-06 | 2026-11-03 | R48244 v4 | Safe Driver Apprenticeship Pilot Program: In Brief | [PDF](pdf/reports/R48244v4-2026-11-03-2ce75c2b6c6f001f.pdf) | [Markdown](markdown/reports/R48244v4-2026-11-03-2ce75c2b6c6f001f.md) |
 | 2026-11-06 | 2018-06-27 | R45241 v3 | The Rule XIX Call to Order for Disorderly Language in Senate Debate | [PDF](pdf/reports/R45241v3-2018-06-27-daca76abc59b0bc9.pdf) | [Markdown](markdown/reports/R45241v3-2018-06-27-daca76abc59b0bc9.md) |
 | 2026-11-06 | 2026-11-02 | IF12466 v6 | U.S. Passport Services | [PDF](pdf/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.pdf) | [Markdown](markdown/in-focus/IF12466v6-2026-11-02-633c848cf50085a9.md) |
 | 2026-11-05 | 2026-11-02 | R49500 v3 | Social Security: Trust Funds, Financing, and the Projected Shortfall | [PDF](pdf/reports/R49500v3-2026-11-02-dd1cf15346d9fdc0.pdf) | [Markdown](markdown/reports/R49500v3-2026-11-02-dd1cf15346d9fdc0.md) |
 | 2026-11-05 | 2026-04-23 | R48933 v4 | Electricity Distribution Transformers: Supply, Tariffs, and Policy Options | [PDF](pdf/reports/R48933v4-2026-04-23-c780b642b1e45d91.pdf) | [Markdown](markdown/reports/R48933v4-2026-04-23-c780b642b1e45d91.md) |
 | 2026-11-05 | 2026-06-12 | IF13171 v3 | Rare Earth Elements and U.S. Supply Chains | [PDF](pdf/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.pdf) | [Markdown](markdown/in-focus/IF13171v3-2026-06-12-e9b5b9c629ffa582.md) |
+| 2026-11-05 | 2026-11-03 | IF12452 v8 | U.S. Sanctions on Iran: Background and Political Context | [PDF](pdf/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.pdf) | [Markdown](markdown/in-focus/IF12452v8-2026-11-03-2069ee22c663f795.md) |
 | 2026-11-04 | 2026-10-30 | R49499 v2 | The International Monetary Fund (IMF) | [PDF](pdf/reports/R49499v2-2026-10-30-39d7fdcb1d94c44e.pdf) | [Markdown](markdown/reports/R49499v2-2026-10-30-39d7fdcb1d94c44e.md) |
 | 2026-11-04 | 2026-10-30 | R49498 v6 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of National Historic Preservation Act Provisions | [PDF](pdf/reports/R49498v6-2026-10-30-96aacb5b8fef0b3b.pdf) | [Markdown](markdown/reports/R49498v6-2026-10-30-96aacb5b8fef0b3b.md) |
 | 2026-11-04 | 2026-09-30 | R49421 v2 | Connecting Constituents to Information About Census Bureau Surveys: Frequently Asked Questions | [PDF](pdf/reports/R49421v2-2026-09-30-f106d49d693c9b4b.pdf) | [Markdown](markdown/reports/R49421v2-2026-09-30-f106d49d693c9b4b.md) |
@@ -94,6 +115,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-04 | 2026-10-29 | R49188 v4 | Ecuador in Brief: Overview and U.S. Relations | [PDF](pdf/reports/R49188v4-2026-10-29-5f8c6a8898fe1bd5.pdf) | [Markdown](markdown/reports/R49188v4-2026-10-29-5f8c6a8898fe1bd5.md) |
 | 2026-11-04 | 2026-10-30 | R46943 v12 | Voter Registration Records and List Maintenance for Federal Elections | [PDF](pdf/reports/R46943v12-2026-10-30-384bf9ca476a2018.pdf) | [Markdown](markdown/reports/R46943v12-2026-10-30-384bf9ca476a2018.md) |
 | 2026-11-04 | 2026-10-30 | R44263 v18 | Veterans Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R44263v18-2026-10-30-b12a99e67d2814bd.pdf) | [Markdown](markdown/reports/R44263v18-2026-10-30-b12a99e67d2814bd.md) |
+| 2026-11-04 | 2026-11-03 | IN12754 v1 | Surplus Lines Insurance: An Introduction | [PDF](pdf/insights/IN12754v1-2026-11-03-d89c67932d7999d3.pdf) | [Markdown](markdown/insights/IN12754v1-2026-11-03-d89c67932d7999d3.md) |
+| 2026-11-04 | 2026-11-03 | IN12753 v2 | FY2027 Internal Revenue Service Budget Request | [PDF](pdf/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.pdf) | [Markdown](markdown/insights/IN12753v2-2026-11-03-47f8da2ca23b3910.md) |
 | 2026-11-04 | 2026-11-02 | IN12752 v2 | Congressional Considerations for Financial Institution Transaction Holds | [PDF](pdf/insights/IN12752v2-2026-11-02-8ec22542823c4813.pdf) | [Markdown](markdown/insights/IN12752v2-2026-11-02-8ec22542823c4813.md) |
 | 2026-11-04 | 2026-10-30 | IN12751 v2 | Israel: 2026 Elections and Government Formation | [PDF](pdf/insights/IN12751v2-2026-10-30-9297d1c430cd9bc2.pdf) | [Markdown](markdown/insights/IN12751v2-2026-10-30-9297d1c430cd9bc2.md) |
 | 2026-11-04 | 2026-09-28 | IN12741 v1 | Citizenship and Residence Criteria for the 2030 Census: Recent Developments | [PDF](pdf/insights/IN12741v1-2026-09-28-06b39026658cba91.pdf) | [Markdown](markdown/insights/IN12741v1-2026-09-28-06b39026658cba91.md) |
@@ -102,12 +125,5 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-04 | 2026-10-30 | IF13340 v3 | MSPB Moves Away from Douglas Factors in Misconduct Cases | [PDF](pdf/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.pdf) | [Markdown](markdown/in-focus/IF13340v3-2026-10-30-0b8f9289872b85ca.md) |
 | 2026-11-04 | 2026-09-08 | IF13308 v1 | Overview of FY2027 Budget Request for the Census Bureau | [PDF](pdf/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.pdf) | [Markdown](markdown/in-focus/IF13308v1-2026-09-08-421b20ac14e6105d.md) |
 | 2026-11-04 | 2026-10-30 | IF11734 v5 | The Federal Contested Election Act: Overview and Recent Contests in the House of Representatives | [PDF](pdf/in-focus/IF11734v5-2026-10-30-04ba85e7ad9edd5e.pdf) | [Markdown](markdown/in-focus/IF11734v5-2026-10-30-04ba85e7ad9edd5e.md) |
-| 2026-11-03 | 2026-10-30 | R49497 v2 | FY2026 District of Columbia Budget and Appropriations | [PDF](pdf/reports/R49497v2-2026-10-30-ca9147621e5bc479.pdf) | [Markdown](markdown/reports/R49497v2-2026-10-30-ca9147621e5bc479.md) |
-| 2026-11-03 | 2026-10-30 | R49496 v2 | U.S. Aluminum Manufacturing: Industry Trends and Policy Options | [PDF](pdf/reports/R49496v2-2026-10-30-9b6b2c713b11d1c0.pdf) | [Markdown](markdown/reports/R49496v2-2026-10-30-9b6b2c713b11d1c0.md) |
-| 2026-11-03 | 2026-11-02 | R49349 v3 | U.S. Tariffs on Canadian Imports: Section 338 of the Tariff Act of 1930 | [PDF](pdf/reports/R49349v3-2026-11-02-3dc1f3ae2c3cef0f.pdf) | [Markdown](markdown/reports/R49349v3-2026-11-02-3dc1f3ae2c3cef0f.md) |
-| 2026-11-03 | 2026-11-02 | R48174 v9 | Constitution Day and Citizenship Day: Fact Sheet | [PDF](pdf/reports/R48174v9-2026-11-02-3deb9bbe4f85d552.pdf) | [Markdown](markdown/reports/R48174v9-2026-11-02-3deb9bbe4f85d552.md) |
-| 2026-11-03 | 2026-10-30 | R46406 v10 | Voter Registration: Recent Developments and Issues for Congress | [PDF](pdf/reports/R46406v10-2026-10-30-502f3e6629e55598.pdf) | [Markdown](markdown/reports/R46406v10-2026-10-30-502f3e6629e55598.md) |
-| 2026-11-03 | 2026-05-12 | R43973 v21 | Memorial Day Speech Resources: Fact Sheet | [PDF](pdf/reports/R43973v21-2026-05-12-b24ffc7729a80852.pdf) | [Markdown](markdown/reports/R43973v21-2026-05-12-b24ffc7729a80852.md) |
-| 2026-11-03 | 2026-11-02 | IF12218 v2 | Farm Bill Primer: Farm Safety Net Programs | [PDF](pdf/in-focus/IF12218v2-2026-11-02-9e6fa182853de27f.pdf) | [Markdown](markdown/in-focus/IF12218v2-2026-11-02-9e6fa182853de27f.md) |
-| 2026-11-03 | 2026-11-02 | IF11346 v39 | Section 301 of the Trade Act of 1974 | [PDF](pdf/in-focus/IF11346v39-2026-11-02-b497415b1528e1e6.pdf) | [Markdown](markdown/in-focus/IF11346v39-2026-11-02-b497415b1528e1e6.md) |
-| 2026-11-03 | 2026-11-02 | IF10464 v29 | United Nations Issues: Congressional Representatives to the UN General Assembly | [PDF](pdf/in-focus/IF10464v29-2026-11-02-3fa7b0ef9fdeeee7.pdf) | [Markdown](markdown/in-focus/IF10464v29-2026-11-02-3fa7b0ef9fdeeee7.md) |
+| 2026-11-04 | 2026-11-03 | IF11449 v7 | Economic Development Revolving Loan Funds (ED-RLFs) | [PDF](pdf/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.pdf) | [Markdown](markdown/in-focus/IF11449v7-2026-11-03-cdb936f85f0bc85b.md) |
+| 2026-11-04 | 2026-11-03 | IF10545 v18 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.pdf) | [Markdown](markdown/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.md) |
