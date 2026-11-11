@@ -17,29 +17,24 @@
     "RL31618: original archive failed: Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
     "95-519: original archive failed: Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request"
   ],
-  "finished_at": "2026-11-11T02:01:08.001321+00:00",
+  "finished_at": "2026-11-11T02:16:53.883568+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "42942746776",
+  "github_run_id": "42944661132",
   "historical_new_pdf_versions": 0,
   "historical_pending_versions": 244,
   "last_successful_run_at": "2026-11-10T18:01:13.670833+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 7,
-  "new_pdf_versions": 29,
-  "official_current_pending": 1,
-  "official_current_required": 100,
-  "official_current_verified": 99,
-  "official_new_pdf_versions": 32,
-  "official_reconciled_at": "2026-11-11T02:09:39.058978+00:00",
+  "new_pdf_versions": 0,
   "pending_reports": 0,
   "pending_versions": 7,
   "planned_versions": 105,
-  "primary_new_pdf_versions": 29,
+  "primary_new_pdf_versions": 0,
   "primary_pdf_complete": false,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 5,
   "result": "failed",
-  "run_at": "2026-11-11T01:59:23.118104+00:00",
+  "run_at": "2026-11-11T02:15:36.315589+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -103,7 +98,6 @@
     }
   ],
   "total_archived_pdf_versions": 845,
-  "total_html_original_versions": 0,
   "total_html_snapshots": 606,
   "total_pdf_bytes": 692427840,
   "warnings": [
@@ -674,27 +668,6 @@
       ]
     },
     {
-      "id": "R48958",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
-      "id": "IF12561",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
-      "id": "IF10571",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
       "id": "IN11563",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
@@ -707,121 +680,13 @@
       ]
     },
     {
-      "id": "R42724",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: HTTP 403; not bypassing access restrictions"
-      ]
-    },
-    {
-      "id": "IF11089",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R42704",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R45325",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R45914",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "RS21405",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R47422",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R45674",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R47830",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R47248",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R42738",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "RL31693",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "RL33931",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R47208",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "IF11587",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R47071",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "98-756",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
-      "id": "R44959",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: unavailable for this run after access/rate-limit response"
-      ]
-    },
-    {
       "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "id": "R44732",
+      "id": "R44734",
       "scope": "optional historical backfill"
     },
     {
       "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "id": "R44733",
+      "id": "R44763",
       "scope": "optional historical backfill"
     },
     {
