@@ -1,0 +1,1798 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">The Every Student Succeeds Act: Accountability for Schools with Low Graduation Rates</div>
+<div class="CoverDate">Updated March 14, 2018
+            (R44700)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc509309629"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc509309630"><span class="Hyperlink">Measuring the Graduation Rate</span></a></li>
+<li class="TOC1"><a href="#_Toc509309631"><span class="Hyperlink">Improving National Trends</span></a></li>
+<li class="TOC1"><a href="#_Toc509309632"><span class="Hyperlink">State Distribution</span></a></li>
+<li class="TOC1"><a href="#_Toc509309633"><span class="Hyperlink">Implications for ESSA Accountability</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc509309622"><span class="Hyperlink">Figure 1. Percentage of Persons Ages 25 to 29 with a High School Diploma, Equivalent, or Higher Degree, 1940-2017</span></a></li>
+<li><a href="#_Toc509309623"><span class="Hyperlink">Figure 2. Adjusted Cohort Graduation Rates by State, Class of 2016</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc509309624"><span class="Hyperlink">Table 1. Four-Year Adjusted Cohort Graduation Rates by Subgroup, 2011-2016</span></a></li>
+<li><a href="#_Toc509309625"><span class="Hyperlink">Table 2. Adjusted Cohort Graduation Rates by State</span></a></li>
+<li><a href="#_Toc509309626"><span class="Hyperlink">Table 3. High Schools Reported in the ACGR Data for the 2014-2015 School Year</span></a></li>
+<li><a href="#_Toc509309627"><span class="Hyperlink">Table A-1. Ranges Used by EDFacts to Report ACGR Data</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc509309628"><span class="Hyperlink">Appendix. ACGR Technical Notes</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Every Student Succeeds Act (ESSA) comprehensively reauthorized the Elementary and Secondary Education Act of 1965 (ESEA). Among other changes, the ESSA amended federal K-12 educational accountability requirements for states and local educational agencies (LEAs) receiving ESEA funds, including those regarding the identification, support, and improvement of high schools with low graduation rates. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to new accountability rules, the ESSA provided the first definition of the high school graduation rate in federal education law. States and LEAs have been reporting their rates using the same definition, originally laid out in 2008 regulations, since the 2010-2011 school year. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The national graduation rate for the Class of 2016 was 84.1%—the highest rate recorded using the new methodology. The graduation rate for the Class of 2011 was 79.0%. This national-level improvement has been accompanied by improvements in nearly every state and across all reported groups of students, including all racial and ethnic subgroups, low-income students, English learners, and students with disabilities. Still, graduation rate gaps persist among several student subgroups.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">At the state level, 27 states were above the national average in 2016 and 23 were below. Three states graduated fewer than 75% of their students, nine states graduated 75%-79.9%, eleven states graduated 80%-84.9%, seventeen states graduated 85%-87.9%, and ten states graduated 88% or more. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Importantly for ESSA accountability implementation, analysis of 2014-2015 school-level data reveals that as many as 16% of high schools may fail to graduate at least one-third of their students. Thus, there are potentially thousands of high schools nationwide that may be identified for intervention in the coming years.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Every Student Succeeds Act (ESSA), signed into law on December 10, 2015 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+95)"><span class="Hyperlink">P.L. 114-95</span></a>), comprehensively reauthorized the Elementary and Secondary Education Act of 1965 (ESEA). Among other changes, the ESSA amended federal K-12 educational accountability requirements for states and local educational agencies (LEAs) receiving ESEA funds, including those regarding the identification, support, and improvement of high schools with low graduation rates. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the ESSA, states seeking Title I-A<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Title I-A is the ESEA's largest grant program, distributing more than $15 billion to schools with relatively high concentrations of students from low-income families in FY2017.">1</a></sup> funds are required to submit accountability plans to the Department of Education (ED) that must address, among other things, their approaches toward dealing with low high school graduation rates. In implementing these plans, states must identify for support and improvement all public schools failing to graduate one-third or more of their students. LEAs that serve schools identified for support and improvement are required to develop a plan to improve graduation rates. If a school does not improve within a state-determined number of years, the school is subject to more rigorous state-determined actions.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The national graduation rate for the Class of 2016 was 84.1%—the highest rate recorded since 2010-2011, when most states and LEAs began consistently reporting under 2008 federal guidelines.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='Moriah Balingit, " U.S. high school graduation rates rise to new high, " Washington Post , December 4, 2017, https://www.washingtonpost.com/news/education/wp/2017/12/04/u-s-high-school-graduation-rates-rise-to-new-high/?utm_term=.98175e626019 .'>2</a></sup> Improvement in the national rate has been accompanied by improvements in nearly every state and across all reported groups of students, including all racial and ethnic subgroups, low-income students, English learners, and students with disabilities. However, graduation rate gaps persist among the several student subgroups.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Moreover, the graduation rate varies enormously among individual high schools across the country, with a large number of schools doing poorly on this measure. Importantly for ESSA accountability implementation, CRS analysis of school-level data reveals that as many as 16% of high schools may fail to graduate at least one-third of their students. Thus, there are potentially thousands of high schools nationwide that may be identified for intervention in the coming years. Implementation of the accountability rule occurs in school year 2017-2018 and relies on additional criteria that would undoubtedly impact this estimate.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc465172988"></a><a name="_Toc465258950"></a><a name="_Toc465864137"></a><a name="_Toc466030658"></a><a name="_Toc466030735"></a><a name="_Toc468434291"></a><a name="_Toc468776901"></a><a name="_Toc468777109"></a><a name="_Toc468889685"></a><a name="_Toc479339494"></a><a name="_Toc479341303"></a><a name="_Toc507418540"></a><a name="_Toc507492692"></a><a name="_Toc508035546"></a><a name="_Toc508791229"></a><a name="_Toc509309630"></a>Measuring the Graduation Rate</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to new accountability rules, the ESSA provided the first definition of the high school graduation rate in federal education law.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="This definition first appeared in federal regulations issued in 2008 ( 34 C.F.R. §200.19 ); a modified version was adopted through the ESSA ( § 8101(25)).">3</a></sup> This was the culmination of years of effort at the national, state, and local levels to achieve national uniformity of measurement and establish statewide longitudinal data systems. Put simply, the ESSA defines the Four-Year Adjusted Cohort Graduation Rate (ACGR) as the number of students who graduate in four years with a regular high school diploma divided by the number of students who form the adjusted cohort for the graduating class.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">From the beginning of 9<sup>th</sup> grade, students entering that grade for the first time form a cohort that is adjusted by adding students who subsequently transfer into the cohort and subtracting students who subsequently transfer out, emigrate to another country, or die. The following formula provides an example of how the ACGR is calculated for the class of 2016:</p>
+<p class="" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:30.65pt;">
+<td style="width:270pt;border-top:0;border-left:0;border-bottom:1.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="BodyText" style="text-align:center;">Number of cohort members who earned a regular high school diploma by the end of the 2015-2016 school year</p>
+</td>
+</tr>
+<tr style="height:56.45pt;">
+<td style="width:270pt;border-top:1.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="BodyText" style="text-align:center;">Number of first-time 9<sup>th</sup> graders in fall 2012 plus students who transferred in, minus students who transferred out, emigrated, or died, during school years 2012-2013, 2013-2014, 2014-2015, and 2015-2016</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc465172989"></a><a name="_Toc465258951"></a><a name="_Toc465864138"></a><a name="_Toc466030659"></a><a name="_Toc466030736"></a><a name="_Toc468434292"></a><a name="_Toc468776902"></a><a name="_Toc468777110"></a><a name="_Toc468889686"></a><a name="_Toc479339495"></a><a name="_Toc479341304"></a><a name="_Toc507418541"></a><a name="_Toc507492693"></a><a name="_Toc508035547"></a><a name="_Toc508791230"></a><a name="_Toc509309631"></a>Improving National Trends</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As <a class="InternalLink" href="#_Ref447535222"><strong></strong><strong>Figure 1</strong></a> shows, the rate of high school completion in the United States increased dramatically after World War II. The rate displayed in this figure is not the ACGR; rather, it represents the number of persons ages 25 to 29 whose highest level of educational attainment was at least a high school diploma (or its equivalent). It is based on responses to the Current Population Survey (CPS). After 10-15 percentage-point increases every decade, this measure plateaued at about 85% in 1980 and stood at 92.5% in 2017. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the overall rate of high school completion has reached an historically high level, inequities persist among racial and ethnic groups. In general, these groups have made progress similar to the overall trend with one exception: Hispanics have seen a rapid increase in high school completion in recent years. Even with this increase, the attainment gap between white, non-Hispanics and Hispanics remains wide—13 percentage points in 2017. Black attainment also continues to lag behind that of Asians and non-Hispanic whites—maintaining a roughly five percentage point gap below the latter since the early 1990s.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CPS educational attainment rate is presented here (in <a class="InternalLink" href="#_Ref447535222"><strong></strong><strong>Figure 1</strong></a>) because it is useful for tracking long-term trends. It is important to note the differences between the ACGR and the CPS educational attainment rate. The CPS is a cross-sectional measure (i.e., taken at a single point in time) of those included in the survey sample. The ACGR is a longitudinal measure that tracks an entire cohort of students from entry into high school to graduation. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another distinction between the two measures is that the CPS includes diploma equivalencies (such as the General Educational Development (GED) test) in its rate, while the ACGR only includes "regular" diplomas. The inclusion of equivalencies may partly explain why the CPS rate is higher than the ACGR. Additionally, the CPS rate shown in <a class="InternalLink" href="#_Ref447535222"><strong></strong><strong>Figure 1</strong></a> is for people ages 25 to 29—giving them more time to complete high school or receive a GED compared to the four years allotted to cohorts in the ACGR. More broadly, while the ACGR is confined to those engaged in the school system, the CPS captures a wider population of persons in society, generally. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="Figure" style="padding-left:-31.65pt;padding-right:-31.65pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref447535222"></a><a name="_Toc465172980"></a><a name="_Toc465258942"></a><a name="_Toc465864129"></a><a name="_Toc466030650"></a><a name="_Toc466030727"></a><a name="_Toc468434283"></a><a name="_Toc468776893"></a><a name="_Toc468777101"></a><a name="_Toc468889677"></a><a name="_Toc479339486"></a><a name="_Toc479341295"></a><a name="_Toc507418532"></a><a name="_Toc507492684"></a><a name="_Toc508035538"></a><a name="_Toc508791221"></a><a name="_Toc509309622"></a>Figure 1. Percentage of Persons Ages 25 to 29 with a High School Diploma, Equivalent, or Higher Degree, 1940-2017</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R44700_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureNote"><strong>Source: </strong>U.S. Census Bureau, CPS Historical Time Series Tables, <a class="ExternalLink" href="https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html"><span class="Hyperlink">https://www.census.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">data/</span><span class="Hyperlink"></span><span class="Hyperlink">tables/</span><span class="Hyperlink"></span><span class="Hyperlink">time-series/</span><span class="Hyperlink"></span><span class="Hyperlink">demo/</span><span class="Hyperlink"></span><span class="Hyperlink">educational-attainment/</span><span class="Hyperlink"></span><span class="Hyperlink">cps-historical-time-series.html</span></a>, retrieved February 26, 2018.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Even with these differences, the overall ACGR collected since 2010-2011 shows similar trends. As <a class="InternalLink" href="#_Ref465166739"><strong></strong><strong>Table 1</strong></a> shows, the overall graduation rate increased five percentage points between 2011 and 2016—a rate similar to the three percentage point increase in the overall CPS educational attainment rate estimate for the same time period. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:418.34880000000004pt;">
+<p class="TableTitle"><a name="_Ref465166739"></a><a name="_Toc465172983"></a><a name="_Toc465258944"></a><a name="_Toc465864131"></a><a name="_Toc466030652"></a><a name="_Toc466030729"></a><a name="_Toc468434285"></a><a name="_Toc468776895"></a><a name="_Toc468777103"></a><a name="_Toc468889679"></a><a name="_Toc479339488"></a><a name="_Toc479341297"></a><a name="_Toc507418534"></a><a name="_Toc507492686"></a><a name="_Toc508035540"></a><a name="_Toc508791223"></a><a name="_Toc509309624"></a>Table 1. Four-Year Adjusted Cohort Graduation Rates by Subgroup, 2011-2016</p>
+</div>
+<table class="ReportTable" style="width:418.34880000000004pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Subgroup</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Class of 2011</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Class of 2012</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Class of 2013</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Class of 2014</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Class of 2015</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Class of 2016</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Change 2011 to 2016</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Total</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79.0%</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80.0%</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.4%</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.3%</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83.2%</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.1%</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">5.1%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">American Indian / Alaska Native</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">65.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">67.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">69.7</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">69.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.9</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">6.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Asian / Pacific Islander</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.7</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">89.4</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">90.2</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">90.8</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">3.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Hispanic</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">73.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.2</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76.3</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.8</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79.3</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8.3</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Black</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">67.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">69.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70.7</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">72.5</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">74.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76.4</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">9.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">White, non-Hispanic</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.2</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.3</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4.3</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Low Income Students</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">72.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">73.3</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">74.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76.1</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7.6</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">English Language Learners</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">57.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">59.0</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">61.1</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">62.6</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">65.1</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">66.9</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">9.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Students with Disabilities</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">59.0</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">61.0</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">61.9</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">63.1</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">64.6</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">65.5</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">6.5</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:418.34880000000004pt;">
+<p class="TableSource"><strong>Source: </strong>U.S. Department of Education, Data Express, <a class="ExternalLink" href="http://eddataexpress.ed.gov/index.cfm"><span class="Hyperlink">http://eddataexpress.ed.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">index.cfm</span></a><span class="Hyperlink">, retrieved February 26, 2018</span>.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The two high school completion measures show somewhat different trends among racial/ethnic groups. In the CPS data, the white, non-Hispanic rate increased less than 1% between 2011 and 2016, while it increased over 4% in the ACGR data. During the same period, the CPS rate for blacks increased less than 3%, while the ACGR for blacks increased over 9%. The CPS rate grew just over 1% for Asians while the ACGR grew almost 4%. Both measures had similar changes for Hispanics.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because the ESSA accountability requirements apply to both the total student body within schools as well as specified subgroups, states must report the ACGR for several subgroups including low-income students, English language learners, students with disabilities, and various racial/ethnic categories. The data spanning 2011-2016 indicate progress among all three of these subgroups: graduation rates among low-income students increased more than seven percentage points, English language learners increased nearly ten percentage points, and students with disabilities increased six and a half percentage points.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc465172990"></a><a name="_Toc465258952"></a><a name="_Toc465864139"></a><a name="_Toc466030660"></a><a name="_Toc466030737"></a><a name="_Toc468434293"></a><a name="_Toc468776903"></a><a name="_Toc468777111"></a><a name="_Toc468889687"></a><a name="_Toc479339496"></a><a name="_Toc479341305"></a><a name="_Toc507418542"></a><a name="_Toc507492694"></a><a name="_Toc508035548"></a><a name="_Toc508791231"></a><a name="_Toc509309632"></a>State Distribution</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The rate of on-time high school completion varies widely across the country. For the Class of 2016, the ACGR in 27 states was above the national average (84.1%) and below the national average in 23 states. New Mexico had the lowest ACGR (71%) and Iowa had the highest (91.3%). <a class="InternalLink" href="#_Ref442105325"><strong></strong><strong>Figure 2</strong></a> displays the ACGR for the Class of 2016 by state. Four states graduated fewer than 76.1% of their students, nineteen states graduated 76.2%-84.1%, seventeen states graduated 84.1%-87.7%, and ten states graduated 87.8% or more. </p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc468776894"></a><a name="_Toc468777102"></a><a name="_Toc468889678"></a><a name="_Toc479339487"></a><a name="_Toc479341296"></a><a name="_Toc507418533"></a><a name="_Ref442105325"></a><a name="_Toc465172981"></a><a name="_Toc465258943"></a><a name="_Toc465864130"></a><a name="_Toc466030651"></a><a name="_Toc466030728"></a><a name="_Toc468434284"></a><a name="_Toc507492685"></a><a name="_Toc508035539"></a><a name="_Toc508791222"></a><a name="_Toc509309623"></a>Figure 2. Adjusted Cohort Graduation Rates by State, Class of 2016</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R44700_files/1.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong><strong> </strong>U.S. Department of Education, Data Express website, <a class="ExternalLink" href="http://eddataexpress.ed.gov/index.cfm"><span class="Hyperlink">http://eddataexpress.ed.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">index.cfm</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown in <a class="InternalLink" href="#_Ref465168871"><strong></strong><strong>Table 2</strong></a>, graduation rates have increased or remained the same in every state between the graduating classes of 2011 and 2016. The largest increase occurred in Alabama, which saw an increase from 72% (which was below the national average), to 87.1% (which was above the national average). Four states—Alaska, Georgia, Nevada, and West Virginia—had increases of more than ten percentage-points. Three states—Indiana, South Dakota, and Vermont—saw increases of less than one percentage point over this same period.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref465168871"></a><a name="_Toc465172984"></a><a name="_Toc465258945"></a><a name="_Toc465864132"></a><a name="_Toc466030653"></a><a name="_Toc466030730"></a><a name="_Toc468434286"></a><a name="_Toc468776896"></a><a name="_Toc468777104"></a><a name="_Toc468889680"></a><a name="_Toc479339489"></a><a name="_Toc479341298"></a><a name="_Toc507418535"></a><a name="_Toc507492687"></a><a name="_Toc508035541"></a><a name="_Toc508791224"></a><a name="_Toc509309625"></a>Table 2. Adjusted Cohort Graduation Rates by State</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:4.9pt;">
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Class of 2011</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Class of 2012</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Class of 2013</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Class of 2014</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Class of 2015</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Class of          2016</p>
+</td>
+</tr>
+<tr style="height:4.9pt;">
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style=""><strong>United States </strong></p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>79</strong><strong>%</strong></p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>80</strong><strong>%</strong></p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>81.4</strong><strong>%</strong></p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>82.3</strong><strong>%</strong></p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>83.2</strong><strong>%</strong></p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>84.1</strong><strong>%</strong></p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="">Alabama </p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;">72</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;">75</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;">80.0</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;">86.3</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableText" style="text-align:center;">89.3</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">87.1</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Alaska </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.6</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">76.1</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Arizona </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.4</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">79.5</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Arkansas </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.9</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.9</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.9</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">87.0</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">California </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.0</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">83.0</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Colorado </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">74</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76.9</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.3</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">78.9</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Connecticut </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.2</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">87.4</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Delaware </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.6</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">85.5</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Florida </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.9</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">80.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Georgia </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">67</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">72.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78.8</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">79.4</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Hawaii </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.6</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">82.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Idaho </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">–</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">–</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">–</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78.9</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">79.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Illinois </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83.2</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.6</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">85.5</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Indiana </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.9</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.1</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">86.8</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Iowa </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">89</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">89.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">90.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">90.8</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">91.3</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Kansas </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.7</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">85.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Kentucky </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">–</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">–</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.0</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">88.6</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Louisiana </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">72</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">73.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">74.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.5</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">78.6</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Maine </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.5</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">87.0</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Maryland </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.0</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">87.6</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Massachusetts </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.3</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">87.5</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Michigan </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">74</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79.8</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">79.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Minnesota </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.2</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.9</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">79.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Mississippi </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.4</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">82.3</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Missouri </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.8</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">89.0</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Montana </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.0</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">85.6</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Nebraska </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">89.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.9</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">89.3</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Nevada </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">62</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">63</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.3</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">73.6</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">New Hampshire </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.2</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">New Jersey </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">89.7</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">90.1</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">New Mexico </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">63</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">70.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68.6</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">71.0</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">New York </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79.2</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">80.4</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">North Carolina </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83.9</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.6</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">85.9</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">North Dakota </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.2</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.6</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">87.5</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Ohio </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.2</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80.7</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">83.5</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Oklahoma </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">–</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">–</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.5</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">81.6</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Oregon </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">68.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">72.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">73.8</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">74.8</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Pennsylvania </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.8</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">86.1</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Rhode Island </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83.2</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">82.8</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">South Carolina </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">74</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80.1</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80.3</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">82.6</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">South Dakota </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.7</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83.9</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">83.9</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Tennessee </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.2</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.9</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">88.5</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Texas </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">89.0</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">89.1</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Utah </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83.9</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.8</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">85.2</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Vermont </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.8</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.7</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">87.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Virginia </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">83</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.3</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">85.7</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">86.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Washington </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">76.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78.2</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78.2</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">79.7</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">West Virginia </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">81.4</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">84.5</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.5</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">89.8</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Wisconsin </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">88.4</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">88.2</p>
+</td>
+</tr>
+<tr style="height:5pt;">
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="">Wyoming </p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">80</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77.0</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">78.6</p>
+</td>
+<td style="width:0pt;" valign="middle">
+<p class="TableText" style="text-align:center;">79.3</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="text-align:center;">80.0</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> U.S. Department of Education, Data Express website <a class="ExternalLink" href="http://eddataexpress.ed.gov/index.cfm"><span class="Hyperlink">http://eddataexpress.ed.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">index.cfm</span></a>.</p>
+<p class="TableNote"><strong>Notes:</strong> "–" = not available. Data for the classes of 2011 and 2012 were reported in whole numbers only.</p>
+</div>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc465172992"></a><a name="_Toc465258953"></a><a name="_Toc465864140"></a><a name="_Toc466030661"></a><a name="_Toc466030738"></a><a name="_Toc468434294"></a><a name="_Toc468776904"></a><a name="_Toc468777112"></a><a name="_Toc468889688"></a><a name="_Toc479339497"></a><a name="_Toc479341306"></a><a name="_Toc507418543"></a><a name="_Toc507492695"></a><a name="_Toc508035549"></a><a name="_Toc508791232"></a><a name="_Toc509309633"></a>Implications for ESSA Accountability</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ESSA provisions require that, beginning with the 2017-2018 school year, each state must use the ACGR as an indicator in their accountability systems and in calculating long-term and interim goals.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="ESSA regulations issued by the Obam a A dministration would have also required states to use the ACGR to identify schools in need of comprehensive support and improvement . However, President Trump sig ned legislation ( S.J.Res. 25 ) to nullify this requirement.">4</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Analysis of school-level data for the Class of 2015 reveals 2,512 high schools—16% of schools nationwide—had an ACGR of less than 70% (<a class="InternalLink" href="#_Ref465257862"><strong></strong><strong>Table 3</strong></a>). [Note that, due to privacy protections imposed on publically available data, this analysis uses 70% (instead of 66.7%) as the cutoff for schools to be identified for intervention.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="ED uses data suppression techniques to protect student privacy in schools with small enrollments . In some cases, t hese actions constrained the analysis because data were reported as a range rather than a number (e.g., 65%-70% instead of 67.5%). In other cases, these privacy protections prevented the reporting of any data for a given school . Out of a total of 18,213 high schools in the ACGR dataset, 2,851 schools could not be analyzed due to these limitations. More information...">5</a></sup> These limitations only apply to published data; states would not face such constraints as they have access to the complete data of actual rates reported for every school.] Because this analysis uses 70% instead of 66.7%, it likely overestimates the number of schools that may be identified for intervention due to low graduation rates. This analysis may further overestimate the number of schools that may be identified for intervention because the accountability provisions do not take effect until the 2017-2018 school year and graduation rates have been improving. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Even with these caveats, this analysis suggests that there are potentially thousands of high schools that may be identified for improvement due to failure to graduate more than one-third of their students. Whether or not these schools would be uniquely identified for intervention based upon graduation rates (or identified for other reasons as well) is unknown. That is, it is unclear how much overlap may exist among schools identified by graduation rate and those identified for other reasons (i.e., the lowest-performing 5% of Title I schools and those with chronically underperforming subgroups). Nonetheless, the number of schools identified as being in need of comprehensive support for this reason may be large in some states. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:335.5776pt;">
+<p class="TableTitle"><a name="_Ref465257862"></a><a name="_Toc465258946"></a><a name="_Toc465864133"></a><a name="_Toc466030654"></a><a name="_Toc466030731"></a><a name="_Toc468434287"></a><a name="_Toc468776897"></a><a name="_Toc468777105"></a><a name="_Toc468889681"></a><a name="_Toc479339490"></a><a name="_Toc479341299"></a><a name="_Toc507418536"></a><a name="_Toc507492688"></a><a name="_Toc508035542"></a><a name="_Toc508791225"></a><a name="_Toc509309626"></a>Table 3. High Schools Reported in the ACGR Data for the 2014-2015 School Year</p>
+</div>
+<table class="ReportTable" style="width:335.5776pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style=""></p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">High Schools</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">U.S. Total</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:right;padding-right:3.05pt;">18,213</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="padding-left:18pt;">Data Suppressed for Privacy Protection<a class="InternalLink" href="#_Ref466897261"><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup></a></p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:right;padding-right:3.05pt;">2,851</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="">Data Reported Without Suppression</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:right;padding-right:3.05pt;">15,362</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="padding-left:18pt;">ACGR less than 70%</p>
+</td>
+<td style="width:0pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:right;padding-right:3.05pt;">2,512</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="padding-left:36pt;">Percentage of Reported</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:right;padding-right:3.05pt;">16%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:335.5776pt;">
+<p class="TableSource"><strong>Source: </strong>CRS calculations using data from the U.S. Department of Education <em>EDFacts</em> data files available at <a class="ExternalLink" href="http://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html#acgr"><span class="Hyperlink">http://www2.ed.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">inits/</span><span class="Hyperlink"></span><span class="Hyperlink">ed/</span><span class="Hyperlink"></span><span class="Hyperlink">edfacts/</span><span class="Hyperlink"></span><span class="Hyperlink">data-files/</span><span class="Hyperlink"></span><span class="Hyperlink">index.html#acgr</span></a>.</p>
+<p class="TableNote"><strong>Notes: </strong>For analysis presented in this report, an ACGR of 70% (instead of 66.7%) was used as the cutoff for schools that may be identified, due to limitations in the published data. </p>
+<p class="TableNumberedNote">a. <a name="_Ref466897261"></a>Department of Education data suppression techniques were applied to schools with small enrollments to protect student privacy. These actions prevented the reporting of data for certain schools. More information on these issues is available in the <a class="InternalLink" href="#_Ref466030689"><strong></strong><strong>Appendix</strong></a>. </p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="Heading5" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix. <a name="_Toc465864135"></a><a name="_Toc466030656"></a><a name="_Ref466030689"></a><a name="_Ref466030712"></a><a name="_Toc466030733"></a><a name="_Ref466897260"></a><a name="_Toc468434289"></a><a name="_Toc468776899"></a><a name="_Toc468777107"></a><a name="_Toc468889683"></a><a name="_Toc479339492"></a><a name="_Toc479341301"></a><a name="_Toc507418538"></a><a name="_Toc507492690"></a><a name="_Toc508035544"></a><a name="_Toc508791227"></a><a name="_Toc509309628"></a>ACGR Technical Notes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Department of Education (ED) collects the Adjusted Cohort Graduation Rate (ACGR) from states through its EDFacts Initiative.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="More information on EDFacts may be found at http://www2.ed.gov/about/inits/ed/edfacts/index.html .">6</a></sup> These data are made public on ED's website. Disclosure avoidance techniques are applied to comply with privacy protections required by the Family Educational Rights and Privacy Act.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="20 U.S.C. §1232g; 34 C.F.R. Part 99.">7</a></sup> These steps result in complete suppression of the ACGR for schools with cohorts of fewer than 6 students, reporting of ACGR ranges for cohorts between 6 and 200 students, and reporting of exact rates for cohorts over 200 students. The widths of the ACGR ranges are determined by cohort size and get progressively wider as a cohort size decreases. The actual ACGR reported by states lies somewhere within the published range. ACGR ranges reported by EDFacts are shown in <a class="InternalLink" href="#_Ref456263979"><strong></strong><strong>Table A-1</strong></a>.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref456263979"></a><a name="_Toc456275205"></a><a name="_Toc456275219"></a><a name="_Toc456275307"></a><a name="_Toc456275351"></a><a name="_Toc456275367"></a><a name="_Toc456275437"></a><a name="_Toc456275861"></a><a name="_Toc456275913"></a><a name="_Toc456276072"></a><a name="_Toc456611817"></a><a name="_Toc456621700"></a><a name="_Toc457232474"></a><a name="_Toc457830645"></a><a name="_Toc457997048"></a><a name="_Toc465172985"></a><a name="_Toc465258947"></a><a name="_Toc465864134"></a><a name="_Toc466030655"></a><a name="_Toc466030732"></a><a name="_Toc468434288"></a><a name="_Toc468776898"></a><a name="_Toc468777106"></a><a name="_Toc468889682"></a><a name="_Toc479339491"></a><a name="_Toc479341300"></a><a name="_Toc507418537"></a><a name="_Toc507492689"></a><a name="_Toc508035543"></a><a name="_Toc508791226"></a><a name="_Toc509309627"></a>Table A-1. Ranges Used by EDFacts to Report ACGR Data</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:35.5pt;">
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cohort Size</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">ACGR Reported in EDFacts Data File</p>
+</td>
+</tr>
+<tr style="height:19.6pt;">
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">1-5</p>
+</td>
+<td style="width:0pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">Reported as "PS"</p>
+</td>
+</tr>
+<tr style="height:19.6pt;">
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="">6-15</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="">&lt;50%, ≥50%</p>
+</td>
+</tr>
+<tr style="height:20.45pt;">
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="">16-30</p>
+</td>
+<td style="width:0pt;" valign="top">
+<p class="TableText" style="">≤20%, 21%-39%, 40%-59%, 60%-79%, ≥80%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">31-60</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">≤10%, 11%-19%, 20%-29%, 30%-39%, 40%-49%, 50%-59%, 60%-69%, 70%-79%, 80%-89%, ≥90%</p>
+</td>
+</tr>
+<tr style="height:33.25pt;">
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">61-200</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">≤5%, 6%-9%, 10%-14%, 15%-19%, 20%-24%, 24%-29%, 30%-34%, 35%-39%, 40%-44%, 45%-49%, 50%-54%, 55%-59%, 60%-64%, 65%-69%, 70%-74%, 75%-79%, 80%-84%, 85%-89%, 90%-94%, ≥95%</p>
+</td>
+</tr>
+<tr style="height:17.65pt;">
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">201+ (301+ for subgroups)</p>
+</td>
+<td style="width:0pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">≤1%, [whole number percentages] 2%, 3%, ... , 98%, ≥99%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> <em>Regulatory Four Year Adjusted-Cohort Gra</em><em>duation Rates – School Year 2014</em><em>-1</em><em>5</em><em>, EDFacts Data Documentation</em>, U.S. Department of Education, <a class="ExternalLink" href="http://www2.ed.gov/about/inits/ed/edfacts/data-files/acgr-sy14-15-public-file-documentation.doc"><span class="Hyperlink">http://www2.ed.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">about/</span><span class="Hyperlink"></span><span class="Hyperlink">inits/</span><span class="Hyperlink"></span><span class="Hyperlink">ed/</span><span class="Hyperlink"></span><span class="Hyperlink">edfacts/</span><span class="Hyperlink"></span><span class="Hyperlink">data-files/</span><span class="Hyperlink"></span><span class="Hyperlink">acgr-sy14-15-public-file-documentation.doc</span></a>.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Jim Uzel provided GIS support for this report.</p>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Kenneth Fassel assisted with updating this report. </p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Title I-A is the ESEA's largest grant program, distributing more than $15 billion to schools with relatively high concentrations of students from low-income families in FY2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Moriah Balingit, "U.S. high school graduation rates rise to new high," <em>Washington Post</em>, December 4, 2017, <a class="ExternalLink" href="https://www.washingtonpost.com/news/education/wp/2017/12/04/u-s-high-school-graduation-rates-rise-to-new-high/?utm_term=.98175e626019"><span class="Hyperlink">https://www.washingtonpost.com/news/education/wp/2017/12/04/u-s-high-school-graduation-rates-rise-to-new-high/?utm_term=.98175e626019</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This definition first appeared in federal regulations issued in 2008 (34 C.F.R. §200.19); a modified version was adopted through the ESSA (§8101(25)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> ESSA regulations issued by the Obama Administration would have also required states to use the ACGR to identify schools in need of comprehensive support and improvement. However, President Trump signed legislation (S.J.Res. 25) to nullify this requirement. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> ED uses data suppression techniques to protect student privacy in schools with small enrollments. In some cases, these actions constrained the analysis because data were reported as a range rather than a number (e.g., 65%-70% instead of 67.5%). In other cases, these privacy protections prevented the reporting of any data for a given school. Out of a total of 18,213 high schools in the ACGR dataset, 2,851 schools could not be analyzed due to these limitations. More information on the limitations is available in the <a class="InternalLink" href="#_Ref466897260"><strong></strong><strong>Appendix</strong></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> More information on EDFacts may be found at <a class="ExternalLink" href="http://www2.ed.gov/about/inits/ed/edfacts/index.html"><span class="Hyperlink">http://www2.ed.gov/about/inits/ed/edfacts/index.html</span></a><span class="Hyperlink">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 20 U.S.C. §1232g; 34 C.F.R. Part 99.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
