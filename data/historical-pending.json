@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-12",
+      "last_error": "Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
+      "next_retry": "2026-11-14",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "3",
@@ -35,44 +37,6 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "461994",
         "title": "Short-Term, Small-Dollar Lending: Policy Issues and Implications",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2017-06-30",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44881",
-            "sha1": "bee1884b390c5a8da6bf742994561e63c0cfbc03",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20170630_R44881_bee1884b390c5a8da6bf742994561e63c0cfbc03.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44881",
-            "sha1": "022b2167ff98228ed3e6065674ae1eea15bb524f",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20170630_R44881_022b2167ff98228ed3e6065674ae1eea15bb524f.pdf"
-            ]
-          }
-        },
-        "id": "R44881",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44881",
-          "http://www.crs.gov/Reports/pdf/R44881"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "462325",
-        "title": "The Federal Budget: Overview and Issues for FY2018 and Beyond",
         "version": "unknown"
       }
     },

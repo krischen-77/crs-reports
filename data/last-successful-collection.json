@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-12T17:49:01.098445+00:00",
+  "run_at": "2026-11-12T18:24:18.715730+00:00",
   "window_start_inclusive": "2026-11-05",
   "window_end_inclusive": "2026-11-12",
   "lookback_days": 7,
@@ -494,13 +494,6 @@
       "note": "Advertised HTML or omitted PDF metadata retained for the authoritative current-original stage; not counted as archived PDFs."
     },
     {
-      "id": "R48973",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
       "id": "IN11563",
       "messages": [
         "HTML unavailable; preserve PDF and extract its text: www.congress.gov: Source bytes differ from the catalogued version checksum; www.everycrsreport.com: www.everycrsreport.com: HTTP 404"
@@ -513,32 +506,24 @@
       ]
     },
     {
-      "id": "IF12634",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: HTTP 403; not bypassing access restrictions"
-      ]
+      "id": "R44868",
+      "scope": "optional historical backfill",
+      "error": "Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
     },
     {
-      "id": "R44842",
+      "id": "R44881",
       "scope": "optional historical backfill",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ]
     },
     {
-      "id": "R44848",
-      "scope": "optional historical backfill",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ]
-    },
-    {
-      "historical_backfill_remaining": 237,
+      "historical_backfill_remaining": 236,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
   "errors": [],
-  "github_run_id": "43273189874",
+  "github_run_id": "43279301590",
   "github_run_attempt": "1",
   "archive_start_inclusive": "2026-09-17",
   "metadata_only_updates": 7,
@@ -571,20 +556,20 @@
   "planned_versions": 85,
   "attempted_versions": 83,
   "successful_versions": 83,
-  "new_pdf_versions": 4,
-  "total_archived_pdf_versions": 859,
-  "total_html_snapshots": 623,
-  "total_pdf_bytes": 705142907,
+  "new_pdf_versions": 1,
+  "total_archived_pdf_versions": 860,
+  "total_html_snapshots": 624,
+  "total_pdf_bytes": 706691516,
   "pending_reports": 0,
   "pending_versions": 2,
-  "historical_pending_versions": 237,
-  "historical_new_pdf_versions": 2,
-  "primary_new_pdf_versions": 2,
+  "historical_pending_versions": 236,
+  "historical_new_pdf_versions": 1,
+  "primary_new_pdf_versions": 0,
   "api_requests": 6,
   "api_remaining_quota": 4,
   "required_pdf_failures": 0,
   "primary_pdf_complete": true,
   "result": "success_with_warnings",
-  "finished_at": "2026-11-12T17:49:57.502385+00:00",
-  "last_successful_run_at": "2026-11-12T17:49:57.502385+00:00"
+  "finished_at": "2026-11-12T18:25:07.940703+00:00",
+  "last_successful_run_at": "2026-11-12T18:25:07.940703+00:00"
 }
