@@ -1,3 +1,5 @@
+**Official-current verification: 78/79. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-05 to 2026-11-12**. Older archived files are retained.
