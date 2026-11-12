@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-12T18:32:33.140179+00:00
+Watchdog checked UTC: 2026-11-12T23:41:15.028594+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -19,7 +19,6 @@ coverage-audit.yml: no verified refresh within 26 hours
 coverage-audit.yml: latest run failure
 Official-current coverage is incomplete
 No valid independent byte-verification receipt
-Official refresh finished, but independent verification did not follow
 
 ## Recovery
 
