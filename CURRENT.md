@@ -1,11 +1,17 @@
 # Official current CRS files
 
-Checked: 2026-11-12T03:16:42.831041+00:00. Official current entries verified: **78/79**.
+Checked: 2026-11-12T17:46:15.815829+00:00. Official current entries verified: **82/83**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
+| 2026-11-12 | 2026-11-10 | R49514 v1 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v1-2026-11-10-b0706f7c5e371a74.pdf) | [Markdown](markdown/reports/R49514v1-2026-11-10-b0706f7c5e371a74.md) |
+| 2026-11-12 | 2026-11-12 | R47044 v4 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.pdf) | [Markdown](markdown/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.md) |
+| 2026-11-12 | 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
+| 2026-11-12 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
+| 2026-11-12 | 2026-11-10 | RL30567 v? | Party Leaders in the United States Congress, 1789-2025 | UNVERIFIED | [Supplementary API summary; not original](metadata/official-api-text/RL30567-e64c2623b43b8c588b32.md) |
+| 2026-11-12 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
 | 2026-11-11 | 2026-11-10 | R49515 v1 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v1-2026-11-10-9a76e338985ddfcb.pdf) | [Markdown](markdown/reports/R49515v1-2026-11-10-9a76e338985ddfcb.md) |
 | 2026-11-11 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-11 | 2026-11-10 | R48918 v9 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v9-2026-11-10-3094973c5bb47405.pdf) | [Markdown](markdown/reports/R48918v9-2026-11-10-3094973c5bb47405.md) |
@@ -15,9 +21,7 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-11 | 2024-03-04 | R45914 v5 | K-12 Teacher Recruitment and Retention Policies in the Higher Education Act: In Brief | [PDF](pdf/reports/R45914v5-2024-03-04-d515c3256e78e87f.pdf) | [Markdown](markdown/reports/R45914v5-2024-03-04-d515c3256e78e87f.md) |
 | 2026-11-11 | 2025-01-06 | R42724 v18 | The TRIO Programs: A Primer | [PDF](pdf/reports/R42724v18-2025-01-06-dca1356c82c4d312.pdf) | [Markdown](markdown/reports/R42724v18-2025-01-06-dca1356c82c4d312.md) |
 | 2026-11-11 | 2026-11-09 | R44247 v13 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v13-2026-11-09-169168c9fb2137ed.pdf) | [Markdown](markdown/reports/R44247v13-2026-11-09-169168c9fb2137ed.md) |
-| 2026-11-11 | 2026-11-10 | RL30567 v? | Party Leaders in the United States Congress, 1789-2025 | UNVERIFIED | [Supplementary API summary; not original](metadata/official-api-text/RL30567-a959f77ef5086eb128fa.md) |
 | 2026-11-11 | 2026-11-09 | R49513 v2 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v2-2026-11-09-6ac8e8240585414f.pdf) | [Markdown](markdown/reports/R49513v2-2026-11-09-6ac8e8240585414f.md) |
-| 2026-11-11 | 2026-11-10 | R49514 v1 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v1-2026-11-10-b0706f7c5e371a74.pdf) | [Markdown](markdown/reports/R49514v1-2026-11-10-b0706f7c5e371a74.md) |
 | 2026-11-11 | 2019-05-16 | R43168 v7 | Military Sexual Assault: Chronology of Activity in the 113th-114th Congresses and Related Resources | [PDF](pdf/reports/R43168v7-2019-05-16-1246e40016c5072e.pdf) | [Markdown](markdown/reports/R43168v7-2019-05-16-1246e40016c5072e.md) |
 | 2026-11-11 | 2020-07-28 | R44959 v9 | Confederate Symbols: Relation to Federal Lands and Programs | [PDF](pdf/reports/R44959v9-2020-07-28-e3477c253f9e299e.pdf) | [Markdown](markdown/reports/R44959v9-2020-07-28-e3477c253f9e299e.md) |
 | 2026-11-11 | 2021-07-12 | 98-756 v56 | Defense Authorization and Appropriations Bills: FY1961-FY2021 | [PDF](pdf/reports/98-756v56-2021-07-12-8cc7b75e57827d9b.pdf) | [Markdown](markdown/reports/98-756v56-2021-07-12-8cc7b75e57827d9b.md) |

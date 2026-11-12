@@ -1,4 +1,4 @@
-**Official-current verification: 78/79. [View current official files](CURRENT.md).**
+**Official-current verification: 82/83. [View current official files](CURRENT.md).**
 
 # Recently archived CRS reports
 
@@ -6,6 +6,8 @@ Publication-date window (inclusive): **2026-11-05 to 2026-11-12**. Older archive
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-12 | R47044 v4 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.pdf) | [Markdown](markdown/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.md) |
+| 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
 | 2026-11-10 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v29-2026-11-10-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2026-11-10-97b460804175e3ce.md) |
 | 2026-11-10 | R49515 v1 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v1-2026-11-10-9a76e338985ddfcb.pdf) | [Markdown](markdown/reports/R49515v1-2026-11-10-9a76e338985ddfcb.md) |
 | 2026-11-10 | R49514 v1 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v1-2026-11-10-b0706f7c5e371a74.pdf) | [Markdown](markdown/reports/R49514v1-2026-11-10-b0706f7c5e371a74.md) |
@@ -62,6 +64,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-12 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
+| 2026-11-12 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
 | 2026-11-11 | 2024-02-05 | RS21405 v36 | U.S. Periods of War and Dates of Recent Conflicts | [PDF](pdf/reports/RS21405v36-2024-02-05-c698c81efadcb252.pdf) | [Markdown](markdown/reports/RS21405v36-2024-02-05-c698c81efadcb252.md) |
 | 2026-11-11 | 2023-05-08 | RL33931 v40 | The Corporation for National and Community Service: Overview of Programs and Funding | [PDF](pdf/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.pdf) | [Markdown](markdown/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.md) |
 | 2026-11-11 | 2023-05-25 | RL31693 v16 | U.S. Armed Forces Abroad: Selected Congressional Votes Since 1982 | [PDF](pdf/reports/RL31693v16-2023-05-25-c50650168ffba615.pdf) | [Markdown](markdown/reports/RL31693v16-2023-05-25-c50650168ffba615.md) |
