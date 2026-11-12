@@ -5,82 +5,6 @@
       "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "7",
-        "date": "2018-05-29",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44842",
-            "sha1": "e08ed339aeefc160ee8ca46550fa1c2322a6f5d9",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180529_R44842_e08ed339aeefc160ee8ca46550fa1c2322a6f5d9.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44842",
-            "sha1": "9ae34663137779d728bc57248fce7300e1f324b1",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180529_R44842_9ae34663137779d728bc57248fce7300e1f324b1.pdf"
-            ]
-          }
-        },
-        "id": "R44842",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44842",
-          "http://www.crs.gov/Reports/pdf/R44842"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "584732",
-        "title": "FBI Director Nominations, 1973-2017",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "12",
-        "date": "2018-09-25",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R44848",
-            "sha1": "c363128396cb499ec7a4cd9297498e03b7290aac",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180925_R44848_c363128396cb499ec7a4cd9297498e03b7290aac.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R44848",
-            "sha1": "ed72d7e8a17e3269e94af34c48db881f76e5749c",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20180925_R44848_ed72d7e8a17e3269e94af34c48db881f76e5749c.pdf"
-            ]
-          }
-        },
-        "id": "R44848",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R44848",
-          "http://www.crs.gov/Reports/pdf/R44848"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "585721",
-        "title": "Federal Reserve: Legislation in the 115th Congress",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "3",
         "date": "2017-06-14",
         "formats": {
@@ -9515,6 +9439,52 @@
         "source_record": "456963",
         "title": "Staff Tenure in Selected Positions in House Member Offices, 2006-2016",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-13",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "3",
+        "date": "2022-03-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R47044",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2022-03-08_R47044_692b02d9a74fe6bad443633081b9a352a30df6cf.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R47044",
+            "sha1": "692b02d9a74fe6bad443633081b9a352a30df6cf",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R47044/1",
+              "https://www.everycrsreport.com/files/2022-03-08_R47044_692b02d9a74fe6bad443633081b9a352a30df6cf.pdf"
+            ]
+          }
+        },
+        "id": "R47044",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-12T12:39:06Z",
+        "required_by_recent_update": false,
+        "source_record": "R47044_1_2022-03-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2022-03-08",
+          "id": "R47044",
+          "official_pdf_sha256": "0b817d7055a8d8d2dca2e5ec69340b79034d3195000920f3e7e5c0864885e093",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R47044/R47044.4.pdf",
+          "official_publication": "2026-11-12",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "USDA Rural Housing Programs: An Overview",
+        "version": "1"
       }
     },
     {
