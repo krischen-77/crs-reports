@@ -1,4 +1,4 @@
-**Official-current verification: 76/77. [View current official files](CURRENT.md).**
+**Official-current verification: 77/78. [View current official files](CURRENT.md).**
 
 # Recently archived CRS reports
 
@@ -56,9 +56,10 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-12 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
-| 2026-11-12 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
-| 2026-11-12 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
+| 2026-11-13 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
+| 2026-11-13 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
+| 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
+| 2026-11-13 | 2026-11-03 | IF10545 v18 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.pdf) | [Markdown](markdown/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.md) |
 | 2026-11-11 | 2024-02-05 | RS21405 v36 | U.S. Periods of War and Dates of Recent Conflicts | [PDF](pdf/reports/RS21405v36-2024-02-05-c698c81efadcb252.pdf) | [Markdown](markdown/reports/RS21405v36-2024-02-05-c698c81efadcb252.md) |
 | 2026-11-11 | 2023-05-08 | RL33931 v40 | The Corporation for National and Community Service: Overview of Programs and Funding | [PDF](pdf/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.pdf) | [Markdown](markdown/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.md) |
 | 2026-11-11 | 2023-05-25 | RL31693 v16 | U.S. Armed Forces Abroad: Selected Congressional Votes Since 1982 | [PDF](pdf/reports/RL31693v16-2023-05-25-c50650168ffba615.pdf) | [Markdown](markdown/reports/RL31693v16-2023-05-25-c50650168ffba615.md) |
