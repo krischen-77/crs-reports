@@ -1,0 +1,1559 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Issues in Corporate Tax Reform</div>
+<div class="CoverDate">November 13, 2026
+            (R49516)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc245461069"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc245461070"><span class="Hyperlink">The Corporate Tax As A Revenue Source</span></a></li>
+<li class="TOC2"><a href="#_Toc245461071"><span class="Hyperlink">Magnitude And Historical Pattern</span></a></li>
+<li class="TOC2"><a href="#_Toc245461072"><span class="Hyperlink">The Role of the Corporate Tax in Backstopping the Individual Tax</span></a></li>
+<li class="TOC1"><a href="#_Toc245461073"><span class="Hyperlink">Effects on Investment, the Revenue-Maximizing Tax Rate, and Distributional Effects</span></a></li>
+<li class="TOC2"><a href="#_Toc245461074"><span class="Hyperlink">Investment Effects</span></a></li>
+<li class="TOC2"><a href="#_Toc245461075"><span class="Hyperlink">The Revenue-Maximizing Tax Rate</span></a></li>
+<li class="TOC2"><a href="#_Toc245461076"><span class="Hyperlink">Distributional Effects</span></a></li>
+<li class="TOC1"><a href="#_Toc245461077"><span class="Hyperlink">Efficiency Effects</span></a></li>
+<li class="TOC2"><a href="#_Toc245461078"><span class="Hyperlink">Domestic Investment</span></a></li>
+<li class="TOC2"><a href="#_Toc245461079"><span class="Hyperlink">International Investment</span></a></li>
+<li class="TOC1"><a href="#_Toc245461080"><span class="Hyperlink">Potential Revisions</span></a></li>
+<li class="TOC2"><a href="#_Toc245461081"><span class="Hyperlink">Narrowing Differentials Across Assets And/Or Forms of Finance</span></a></li>
+<li class="TOC3"><a href="#_Toc245461082"><span class="Hyperlink">Substituting Partial Expensing For All Assets</span></a></li>
+<li class="TOC3"><a href="#_Toc245461083"><span class="Hyperlink">Substituting Partial Expensing For All Assets and Disallowing Proportionate Interest Deductions</span></a></li>
+<li class="TOC3"><a href="#_Toc245461084"><span class="Hyperlink">Substituting A Cash Flow Tax</span></a></li>
+<li class="TOC3"><a href="#_Toc245461085"><span class="Hyperlink">Substituting A Destination-Based Cash Flow Tax</span></a></li>
+<li class="TOC3"><a href="#_Toc245461086"><span class="Hyperlink">Disallowing Deductions For The Inflation Portion of Interest</span></a></li>
+<li class="TOC2"><a href="#_Toc245461087"><span class="Hyperlink">Revisions In The International Tax Regime</span></a></li>
+<li class="TOC2"><a href="#_Toc245461088"><span class="Hyperlink">Tax Treatment of Intangible Investments</span></a></li>
+<li class="TOC2"><a href="#_Toc245461089"><span class="Hyperlink">Other Corporate Tax Expenditures</span></a></li>
+<li class="TOC2"><a href="#_Toc245461090"><span class="Hyperlink">Taxing Large Partnerships As Corporations</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc245461060"><span class="Hyperlink">Figure 1. Federal Corporate Tax Revenues As A Percentage of GDP: 1951-2025</span></a></li>
+<li><a href="#_Toc245461061"><span class="Hyperlink">Figure 2. Federal Corporate Tax Revenues as a Percentage of Total Federal Revenues: 1951-2024</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc245461062"><span class="Hyperlink">Table 1. Effective Tax Rates for Alternative Forms of Organization at Top Individual Tax Rates</span></a></li>
+<li><a href="#_Toc245461063"><span class="Hyperlink">Table 2. Sources of Income by Income Class</span></a></li>
+<li><a href="#_Toc245461064"><span class="Hyperlink">Table 3. Marginal Effective Tax Rates (METRs)</span></a></li>
+<li><a href="#_Toc245461065"><span class="Hyperlink">Table 4. Statutory and Marginal Effective Tax Rates, Ten Largest Economies by GDP, 2023</span></a></li>
+<li><a href="#_Toc245461066"><span class="Hyperlink">Table 5. Countries with Largest Shares of Foreign Profits of U.S. Multinationals: Statutory and Marginal Effective Tax Rates, 2023</span></a></li>
+<li><a href="#_Toc245461067"><span class="Hyperlink">Table 6. Countries With Largest Shares of U.S. Tangible Capital Abroad</span></a></li>
+<li><a href="#_Toc245461068"><span class="Hyperlink">Table 7. Share of Foreign Profits and Foreign Tangible Capital in Selected Tax Haven Locations</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate tax is the third-largest source of federal revenue, but its importance as a revenue source has diminished considerably over time. Corporate tax receipts as a share of GDP declined from 6.2% in 1951 to 1.6% in 2025, while receipts as a share of federal revenue declined from 34% in 1951 to 9.6% in 2024. Most of that decline occurred before 1980 because of rate reductions and investment subsidies. The marginal effective corporate tax rate on investment in structures and equipment declined more significantly, from 63% in 1953 to 6% in 2025.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate tax is a backstop for the individual income tax: With no corporate tax, individuals could funnel business income into the corporate form. In some ways, the corporate tax changes in 2017 made the corporate tax a more attractive alternative for some high-income taxpayers, but not usually by significant amounts. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate tax reduces the demand for investment and thus the amount of capital and output in the economy. A reduction in output could reduce the tax base and cause revenues to fall with higher tax rates, so that a corporate tax increase could lose revenue. The reduction in capital could also cause some of the burden of the tax to fall on labor. Some evidence suggests that investment demand increases with lower taxes, but the supply of capital is limited, reducing the effects on output and wages. In addition, debt finance is subsidized by the corporate tax, and that subsidy increases as corporate tax rates increase. A corporate tax cut financed by debt could eventually crowd out capital through government borrowing. Studies of the effect of the 2017 corporate tax cut generally did not provide strong evidence of an effect on investment.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Recent studies estimating the rate at which revenue would start to fall with a tax increase tend to find that the revenue-maximizing tax rate is high, with a number of studies estimating about 70%. That is, in part, because a flow of capital from abroad decreases the pretax rate of return as it increases the capital stock. Other empirical studies found lower rates, but those findings may be explained by statistical issues. The limits on increases in capital also suggest it is likely that little, if any, of the burden of the corporate tax falls on wages, indicating that the corporate tax is progressive. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate <em>marginal</em> <em>effective tax rate</em> in the aggregate is estimated to be relatively low at 7.1%, according to a CRS model. For a given asset type, the noncorporate tax rate is similar, so there are no significant distortions between the corporate and noncorporate sectors. However, there are wide differences in the estimated tax rates by asset type and form of debt finance. Debt-financed investments are generally subject to subsidies, estimated at 18% of pretax profit (i.e., for each dollar of profit the government pays the investor $0.18), while equity-financed investment are subject to a tax of 19%. Equipment and intangibles are subject to low or negative rates, while most structures are subject to significant positive tax rates. At the average level of debt finance, aggregated groups of assets are subject to a range of tax from -15% (a negative tax rate or subsidy) for intangibles to 18% for certain structures.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">With the 2017 changes, the United States has become a low-tax country compared to other large countries. Among the 10 largest economies by GDP, the United States previously had the highest combined national and subnational statutory corporate tax rates, whereas it is now lower than all but three countries. The United States tended to have a marginal effective tax rate lower than most countries before the 2017 change, but it now has the second-lowest marginal effective tax rate (with only Italy having a lower rate). It also has lower statutory and effective tax rates than two smaller countries that are important trading partners, Canada and Mexico. This suggests that if national corporate tax rates are creating a distortion in the worldwide allocation of capital, it is to locate too much tangible capital in the United States. There is, however, a remaining issue of profit shifting to tax haven countries, and evidence suggests that such profit shifting continues.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the limits on investment and the limited differences in corporate and noncorporate taxation, potential revisions could focus on narrowing the differentials across assets and forms of finance. These could include providing partial expensing to all assets, disallowing a portion of interest deductions, or moving to a cash flow tax. There are also further international revisions that could address profit shifting. Some evidence suggests that the current subsidy for investments in research could be simplified and increased to more closely reflect spillover effects. There are also a few special tax provisions that could be reconsidered. Another potential revision would be to tax all large partnerships and Subchapter S corporations under the corporate rather than the individual tax. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The current corporate tax has become a relatively small share of GDP, due in part to lower rates and in part to provisions that reduce the base of the corporate tax. This report examines the changing importance of the corporate tax and reviews the issues that surround the tax, including its importance as a backstop to the individual income tax, and the effect of the tax on investment, revenues, distribution, and the allocation of investment by type, form of finance, organizational form, and location. The final sections discusses some options for revision.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109553"></a><a name="_Toc233185639"></a><a name="_Toc234244085"></a><a name="_Toc234412386"></a><a name="_Toc234914682"></a><a name="_Toc235805046"></a><a name="_Toc244854735"></a><a name="_Toc245101443"></a><a name="_Toc245189512"></a><a name="_Toc245367557"></a><a name="_Toc245461017"></a><a name="_Toc245461070"></a>The Corporate Tax As A Revenue Source</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate tax is the third-largest source of federal revenue, but its importance as a revenue source has diminished considerably over time.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc376955152"></a><a name="_Toc492375129"></a><a name="_Toc492552966"></a><a name="_Toc493769202"></a><a name="_Toc493837418"></a><a name="_Toc493862892"></a><a name="_Toc493863143"></a><a name="_Toc493863329"></a><a name="_Toc493863412"></a><a name="_Toc493863757"></a><a name="_Toc493863947"></a><a name="_Toc494211459"></a><a name="_Toc71732612"></a><a name="_Toc73626099"></a><a name="_Toc74124296"></a><a name="_Toc74316858"></a><a name="_Toc74658320"></a><a name="_Toc84583019"></a><a name="_Toc84583112"></a><a name="_Toc84598736"></a><a name="_Toc89332018"></a><a name="_Toc89424316"></a><a name="_Toc89432160"></a><a name="_Toc89689142"></a><a name="_Toc89689422"></a><a name="_Toc89775678"></a><a name="_Toc89869259"></a><a name="_Toc126042951"></a><a name="_Toc233109554"></a><a name="_Toc233185640"></a><a name="_Toc234244086"></a><a name="_Toc234412387"></a><a name="_Toc234914683"></a><a name="_Toc235805047"></a><a name="_Toc244854736"></a><a name="_Toc245101444"></a><a name="_Toc245189513"></a><a name="_Toc245367558"></a><a name="_Toc245461018"></a><a name="_Toc245461071"></a>Magnitude And Historical Pattern</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Current corporate taxes are low by historical standards, whether measured as a share of output or based on the effective tax rate on income. <a class="InternalLink" href="#_Ref234502971"><strong></strong><strong>Figure 1</strong></a> shows the decline in corporate tax revenues from 6.2% of GDP in 1951 to 1.6% in 2025, a 74% decline. The share is projected to decline further, to 1.3%, after the passage of the FY2025 reconciliation law.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Congressional Budget Office, see projections at https://www.cbo.gov/data/budget-economic-data#3 .">1</a></sup></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref234502971"></a><a name="_Toc233033309"></a><a name="_Toc233185630"></a><a name="_Toc234244075"></a><a name="_Toc234412376"></a><a name="_Toc234914672"></a><a name="_Toc235805036"></a><a name="_Toc244854725"></a><a name="_Toc245101433"></a><a name="_Toc245189502"></a><a name="_Toc245367547"></a><a name="_Toc245461007"></a><a name="_Toc245461060"></a>Figure 1. Federal Corporate Tax Revenues As A Percentage of GDP: 1951-2025</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R49516_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>U.S. Bureau of Economic Analysis, National Income and Product Accounts, "Table 1.1.5 Gross Domestic Product," and "Table 3.2 Current Federal Receipts and Expenditures," <a class="ExternalLink" href="https://www.bea.gov/itable/national-gdp-and-personal-income"><span class="Hyperlink">https://www.bea.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">itable/</span><span class="Hyperlink"></span><span class="Hyperlink">national-gdp-and-per</span><span class="Hyperlink">s</span><span class="Hyperlink">onal-income</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Overall federal receipts were a steady share of GDP (18%) from 1951 to 2024, but the corporate tax declined from 34% to 9.6% of federal receipts, as shown in <a class="InternalLink" href="#_Ref234394679"><strong></strong><strong>Figure 2</strong></a>. Today, the corporate tax is the third-largest federal revenue source, behind the individual income tax (which was 8.3% of GDP in 2024, and projected to rise to 9.4% in FY2031), and the payroll tax (about 6% of GDP in 2024). It is more significant than excise taxes (0.3% of GDP) and estate and gift taxes (0.1%).</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref234394679"></a><a name="_Toc233033310"></a><a name="_Toc233185631"></a><a name="_Toc234244076"></a><a name="_Toc234412377"></a><a name="_Toc234914673"></a><a name="_Toc235805037"></a><a name="_Toc244854726"></a><a name="_Toc245101434"></a><a name="_Toc245189503"></a><a name="_Toc245367548"></a><a name="_Toc245461008"></a><a name="_Toc245461061"></a>Figure 2. Federal Corporate Tax Revenues as a Percentage of Total Federal Revenues: 1951-2024 </p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R49516_files/1.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>U.S. Bureau of Economic Analysis, National Income and Product Accounts, "Table 3.2 Current Federal Receipts and Expenditures."</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Corporate tax revenues as a share of GDP are affected by both corporate profits as a share of GDP and the effective tax rate on those profits. The overall decline in corporate taxes as a percentage of GDP is due to legislative changes in the tax system, because corporate profits as a percentage of GDP grew over this period.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='Profits rose from 5% of GDP to 9.2% of GDP, according to the Federal Reserve Bank of St. Louis, " Shares of gross domestic income: Corporate profits with inventory valuation and capital consumption adjustm e nts, domestic industries: Profits after tax with inventory valuation and capital consumption adjustments ," FRED, https://fred.stlouisfed.org/series/W273RE1A156NBEA . This implies a relatively high effective tax rate in 1951, although profits can differ from taxable income for a variety...'>2</a></sup> The major legislative changes were the decrease in the top statutory corporate tax rate and changes in depreciation rules, as well as the provision of investment tax credits at some points. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The top statutory corporate tax rate fell from 52% to 34% from 1953 to 2017 (36% decrease), then to 21% in 2018 and after (a total 60% decrease). However, the decline was small in the initial period, with a reduction to 46% through 1986. During those years, however, more generous depreciation rules were enacted in 1953, 1963, 1971, and 1981, and an investment credit for equipment was allowed during most years from 1962 to 1986. In addition, the growing share of investment in intangibles—which receive favorable treatment, including a research credit enacted in 1981—contributed to lower tax rates. In the 21<sup>st</sup> century, many investments came to be expensed (deducted when incurred). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Depreciation changes delay the timing of taxes, reducing revenues more in the initial years after the change, and are responsible, along with business cycles, for fluctuation in the share of corporate taxes as a percentage of GDP. These changes have been important to investment incentives, and the value of depreciation can be accounted for if measured by the marginal effective tax rate (METR). The corporate firm-level METR on equipment and structures captures both the tax rate and other provisions—largely accelerated depreciation, including expensing (immediate deduction of the cost) of many investments, and interest deductions. From 1953 to 2025, the METR fell from 63% to 6%, a 90% decrease. These tax benefits tend to be imperfectly captured in overall receipts because they are timing benefits.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="See CRS Report RS21706, Historical Effective Marginal Tax Rates on Capital Income , by Jane G. Gravelle , for earlier estimates. Current estimates are based on the CRS Marginal Effective Tax Rate Model as described in CRS Report R48277, CRS Model Estimates of Marginal Effective Tax Rates on Investment Under Current Law , by Mark P. Keightley and Jane G. Gravelle . T he 63% rate may be slightly overstated because that rate does not capture the effect of intangible investments. Intangible i...">3</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc376955153"></a><a name="_Toc492375130"></a><a name="_Toc492552967"></a><a name="_Toc493769203"></a><a name="_Toc493837419"></a><a name="_Toc493862893"></a><a name="_Toc493863144"></a><a name="_Toc493863330"></a><a name="_Toc493863413"></a><a name="_Toc493863758"></a><a name="_Toc493863948"></a><a name="_Toc494211460"></a><a name="_Toc71732613"></a><a name="_Toc73626100"></a><a name="_Toc74124297"></a><a name="_Toc74316859"></a><a name="_Toc74658321"></a><a name="_Toc84583020"></a><a name="_Toc84583113"></a><a name="_Toc84598737"></a><a name="_Toc89332019"></a><a name="_Toc89424317"></a><a name="_Toc89432161"></a><a name="_Toc89689143"></a><a name="_Toc89689423"></a><a name="_Toc89775679"></a><a name="_Toc89869260"></a><a name="_Toc126042952"></a><a name="_Toc233109555"></a><a name="_Toc233185641"></a><a name="_Toc234244087"></a><a name="_Toc234412388"></a><a name="_Toc234914684"></a><a name="_Toc235805048"></a><a name="_Toc244854737"></a><a name="_Toc245101445"></a><a name="_Toc245189514"></a><a name="_Toc245367559"></a><a name="_Toc245461019"></a><a name="_Toc245461072"></a>The Role of the Corporate Tax in Backstopping the Individual Tax</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Measuring corporate tax revenue falls short of describing the tax's full role in contributing to federal revenues because the corporate tax protects the collection of individual income taxes. If taxes on individual income are imposed, a significant corporate income tax is necessary to forestall the use of the corporation as a tax shelter. Without a corporate tax, high-income individuals could channel funds into corporations, and, with a large part of earnings retained, obtain lower tax rates than if they operated in partnership, proprietorship, or S corporation (corporations with a limited number of shareholders that can elect to be taxed as individuals) form.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='Even the current corporate tax has raised issues of using corporations as a tax shelter because the rate is significantly below the top individual rate. See Adam Looney, " The N ext T ax S helter F or W ealthy Americans: C-corporations , " Brookings Institution, November 30, 2 017, https://www.brookings.edu/articles/the-next-tax-shelter-for-wealthy-americans-c-corporations/  .'>4</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The share of business income earned in the corporate sector has declined from 80% in 1980 to less than 50% in 2015.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='Tax Policy Center, " What A re P ass- T hrough B usinesses? ," updated January 2024, https://taxpolicycenter.org/briefing-book/what-are-pass-through-businesses .'>5</a></sup> In 2022, the most recent year of available data, corporations were responsible for 53% of business income.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='Based on IRS Statistics of Income data in " T able 1: All Partnerships: Total Assets, Trade or Business Income and Deductions, Portfolio Income, Rental Income, and Total Net Income (Loss), by Industrial Group , " https://www.irs.gov/statistics/soi-tax-stats-partnership-statistics-by-sector-or-industry ; " Table 2.3: Returns of Active Corporations, other than Forms 1120S, 1120-REIT, and 1120-RIC, Balance Sheet, Income Statement, and Selected Other Items ," and " Table 2.4: Returns of...'>6</a></sup> The share of unincorporated businesses grew due to increases in partnerships and S corporations; the share of proprietorships declined. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As suggested by the growth in unincorporated business forms, wealthy business owners may be quick to take advantage of tax rate differentials, which historically favored unincorporated businesses. In 1986, individual tax rates were lowered (the top rate fell from 70% to 28%, although they were eventually increased to 39.6%), but the combined corporate tax rate in 1986 (on the firm and on distributions) had been high relative to the individual tax rate. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the top tax rate on corporations prior to the 2017 revisions (35%) was close to the top individual rate (39.6%), the corporate tax was graduated. Consequently, high-income taxpayers had an incentive to shift part of their income into a corporation because corporate tax rates were graduated (15% on the first $50,000 and 25% on the next $25,000) and were lower than the top marginal tax rate. This opportunity, however, was restricted by (1) limiting to one the number of corporations income could be shifted to; (2) limiting the amounts on which rates were graduated; and (3) disallowing graduated rates for personal service corporations. In recognition of the potential use of corporations as shelters, past tax law has contained a tax on accumulated earnings. If dividends were taxed as ordinary income and the accumulated earnings tax was strict enough, it was difficult to use the corporate form to shelter a great deal of income.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This tax shelter constraint on lowering the corporate rate may have become more binding because of the lower rates on dividends enacted as part of the George W. Bush Administration's corporate relief package in the Jobs and Growth Tax Relief Reconciliation Act of 2003 (<a class="ExternalLink" href="https://www.congress.gov/law/108/pub/27"><span class="Hyperlink">P.L. 108-27</span></a>), although rates were increased in 2010 and 2013.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="The law lowered the top rate to 15%, although subsequent legislation taxed very high - income individuals' dividends and capital gains at 20%. In addition, a 3.8% additional tax was enacted in 2010, applying to dividends and capital gains beginning in 2013.">7</a></sup> The 2017 revision also changed the relative benefits of operating in corporate versus noncorporate form by lowering the top corporate rate to 21% and the top individual rate to 37%, which would tend to make the corporate form more attractive to high-income individuals. However, it also eliminated the graduated rates that allowed a restricted opportunity for use of the corporate form as a shelter. It also allowed a deduction for 20% of pass-through income for unincorporated businesses, although the deduction was phased out for certain taxpayers.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="The deduction is phased out at high income levels for personal service businesses. For other businesses, the phaseout is limited to a share of wages or a combination of wages and depreciable assets. See CRS In Focus IF13321, Estimated Effects on Effective Tax Rates and Revenues of Increasing the 199A Deduction for Pass-Through Businesses , by Mark P. Keightley .">8</a></sup> The individual provisions were scheduled to expire after 2025, but were made permanent in 2025; the corporate rate cut was permanent. Businesses at high income levels can be subject to an additional 3.8% tax on their income either due to the Medicare A hospital insurance tax or the net investment income tax applied to passive investment income, passive business income, dividends, and capital gains. Active income from a partnership or Subchapter S firm that is not wages is not subject to the tax. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref222628888"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong> calculates the effective tax rate for high-income taxpayers operating through a corporation versus an unincorporated business for several cases corresponding to historical tax regimes and taxpayer circumstances: </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2000 law, when dividends were taxed at ordinary rates, the top rate individual income tax rate was 39.6%, the corporate tax rate was 35%, and some passthroughs were subject to a 2.9% Medicare tax.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Between 2003 and 2013, when the corporate tax rate was 35%, dividends were taxed at a top rate of 15%, and ordinary income was taxed at 35% plus 2.9% a Medicare tax for some passthroughs.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Between 2013 and 2017 law, when the corporate tax rate was 35%, dividends were taxed at 20% plus 3.8% a net investment income tax, the top individual tax rate was 39.6%, and a Medicare/Net Investment income tax of 3.8% applied to some passthroughs.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Current law, with a 21% corporate tax rate, dividends taxed at 23.8%, a 37% top rate plus a 3.8% Medicare/Net investment income tax for some pass-throughs, and 20% pass-through deduction for some pass-throughs.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="The 3.8% additional tax on high-income individuals applies to all earnings of proprietors and general partners, because they are classified as labor income for purposes of the payroll tax, as well as the labor share of income in any other unincorporated business. Active participants in Subchapter S firms with a small amount of labor income could have lower taxes in the Subchapter S form, approaching the ordinary income tax rate.">9</a></sup> </li></ul><div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref222628888"></a><a name="_Toc376955128"></a><a name="_Toc492375107"></a><a name="_Toc492552944"></a><a name="_Toc493769180"></a><a name="_Toc493837396"></a><a name="_Toc493862870"></a><a name="_Toc493863121"></a><a name="_Toc493863307"></a><a name="_Toc493863390"></a><a name="_Toc493863735"></a><a name="_Toc493863925"></a><a name="_Toc494211437"></a><a name="_Toc71732590"></a><a name="_Toc73626078"></a><a name="_Toc74124275"></a><a name="_Toc74316837"></a><a name="_Toc74658299"></a><a name="_Toc84582997"></a><a name="_Toc84583090"></a><a name="_Toc84598714"></a><a name="_Toc89331995"></a><a name="_Toc89424293"></a><a name="_Toc89432137"></a><a name="_Toc89689119"></a><a name="_Toc89689399"></a><a name="_Toc89775655"></a><a name="_Toc89869236"></a><a name="_Toc126042928"></a><a name="_Toc233033311"></a><a name="_Toc233185632"></a><a name="_Toc234244077"></a><a name="_Toc234412378"></a><a name="_Toc234914674"></a><a name="_Toc235805038"></a><a name="_Toc244854727"></a><a name="_Toc245101435"></a><a name="_Toc245189504"></a><a name="_Toc245367549"></a><a name="_Toc245461009"></a><a name="_Toc245461062"></a>Table 1. Effective Tax Rates for Alternative Forms of Organization at Top Individual Tax Rates</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:105.7826304pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:33.65114112pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">100% of <br/>Income <br/>Distributed</p>
+</td>
+<td style="width:26.10071424pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">50% of <br/>Income <br/>Distributed</p>
+</td>
+<td style="width:26.10071424pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">No Income <br/>Distributed</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="" valign="middle">
+<p class="TableText" style=""><strong>Corporate Business</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">Corporate Tax Rate of 35%, Dividends Taxed at 39.6% (2000)</p>
+</td>
+<td style="width:33.65114112pt;" valign="middle">
+<p class="TableText" style="text-align:center;">60.7%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">47.9%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">35.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">Corporate Tax Rate of 35%, Dividends Taxed at 15% (2003-2017)</p>
+</td>
+<td style="width:33.65114112pt;" valign="middle">
+<p class="TableText" style="text-align:center;">44.8%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">39.9%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">35.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">Corporate Tax Rate of 35%, Dividends Taxed at 23.8% (2013-2017)</p>
+</td>
+<td style="width:33.65114112pt;" valign="middle">
+<p class="TableText" style="text-align:center;">50.5%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">42.7%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">35.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">Corporate Tax Rate of 21%, Dividends Taxed at 23.8% (2018)</p>
+</td>
+<td style="width:33.65114112pt;" valign="middle">
+<p class="TableText" style="text-align:center;">39.8%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">30.4%</p>
+</td>
+<td style="width:26.10071424pt;" valign="middle">
+<p class="TableText" style="text-align:center;">21.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style=""><strong>Unincorporated Business</strong></p>
+</td>
+<td style="width:33.65114112pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:26.10071424pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:26.10071424pt;" valign="middle"> <p class="TableText" style="text-align:center;"></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">39.6% (2000)</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">39.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">35% (2003-2012)</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">35.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">39.6% Plus Medicare Tax (2000)</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">42.5%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">35% plus Medicare Tax (2003-2017) </p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">37.9%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">39.6% plus 3.8% net investment income tax (NIIT)/Medicare Tax (2013-2017)</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">43.4%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">37% (2018)</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">37.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">37% With Net Investment Income Tax (2018)</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">40.8%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">37% With Passthrough Deduction</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">29.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.7826304pt;" valign="middle">
+<p class="TableText" style="">37% With Net Investment Income Tax With Pass-Through Deduction (20018)</p>
+</td>
+<td colspan="3" style="" valign="middle">
+<p class="TableText" style="text-align:center;">33.4%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source</strong><strong>: </strong>Congressional Research Service (CRS) analysis.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unless a corporation distributed little of its income, combined rates at the corporate and dividend level were usually higher than individual rates, favoring the unincorporated form even more for individuals subject to lower tax rates. After the 2017 revision, the top corporate and noncorporate rates were closer together for the top individual rates, although with little distribution of income the corporate form could sometimes become beneficial even without the graduated rates. If most income were distributed, the tax on the corporate form of investment would be higher than most individual rates. For the intermediate case of 50% distribution, the corporate tax moved from being less favorable to more favorable. Although the 2017 changes weakened the preference for noncorporate form and therefore could be argued to weaken the use of the corporation as a backstop for the individual tax, they also eliminated the graduated corporate rates that made the corporate form attractive for some taxpayers. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For moderate-income taxpayers, who are subject to lower rates and are more likely to benefit from the pass-through deduction, the individual form would still be favored. In general, the corporate tax still acts to protect the individual tax revenue. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109556"></a><a name="_Toc233185642"></a><a name="_Toc234244088"></a><a name="_Toc234412389"></a><a name="_Toc234914685"></a><a name="_Toc235805049"></a><a name="_Toc244854738"></a><a name="_Toc245101446"></a><a name="_Toc245189515"></a><a name="_Toc245367560"></a><a name="_Toc245461020"></a><a name="_Toc245461073"></a>Effects on Investment, the Revenue-Maximizing Tax Rate, and Distributional Effects</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate tax can discourage capital investment from abroad and encourage investment of U.S. savings in other countries. Investment flows should be determined by the marginal effective tax rate. A reduction in the capital stock can reduce output, revenues, and wages. These international investment flows underlie two issues. One is the revenue-maximizing tax rate, the rate at which further increases in the corporate tax would lose revenue. The other is the distributional effects. The corporate tax can fall on capital income or labor income. The share of the burden, if any, that reduces wages (i.e., that falls on labor income) makes the corporate tax less progressive. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109557"></a><a name="_Toc233185643"></a><a name="_Toc234244089"></a><a name="_Toc234412390"></a><a name="_Toc234914686"></a><a name="_Toc235805050"></a><a name="_Toc244854739"></a><a name="_Toc245101447"></a><a name="_Toc245189516"></a><a name="_Toc245367561"></a><a name="_Toc245461021"></a><a name="_Toc245461074"></a>Investment Effects</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the long run, the effect of the corporate tax is driven by the ease with which capital can be substituted with labor (the factor substitution elasticity), the willingness of investors and firms to shift assets across countries, and the substitutability of imports for domestic production.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="In the long run, the return to investment is in the form of consumption of the goods produced in the foreign versus domestic country, so this willingness to consume foreign products ultimately affects capital flows.">10</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The investment effect is based on the change in the user cost of capital, or the required output of an additional unit of investment, which has three parts: the after-tax return to shareholders and creditors, the tax paid over time, and the output necessary to replace depreciating capital. Taxes have a smaller proportional effect on short-lived investment because more of the user cost reflects economic depreciation.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The investment effect also depends on the ability to add capital to labor and thus to substitute capital for labor in the production process, measured by the factor substitution elasticity (the percentage change in the ratio of capital to labor divided by the percentage change in the ratio of user cost to wage). Most evidence suggests that this value is around -0.5 to -1.0, although it may be above 1.0 in absolute value.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='A meta-analysis (one that combines numerous studies and estimates) indicates elasticities of around 0.6 and 0.7. See Michael Knoblach , et al., " The Elasticity of Factor Substitution Between Capital and Labor in the U.S. Economy: A Meta-Regression Analysis , " September 2016, https://www.econstor.eu/bitstream/10419/146770/1/CEPIE_WP_03_2016.pdf . However, one recent study indicates that the econometric techniques used tend to bias the results downward. Thomas Von Brasch et al., "...'>11</a></sup> At a unitary factor substitution elasticity, a 1% decrease in the user cost of capital leads to a 1% increase in the capital stock. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">However, this measure alone does not capture the effect of a change, because responses in the economy also drive the effect. The expansion of capital causes wages to rise as labor becomes more productive. This rise in wages causes a greater effect on capital, generally the factor substitution elasticity divided by the share of labor income given a fixed price of output. With that share at around 75%, an initial decrease of 1% in the user cost causes an increase of 1.33% in investment.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Other factors, however, cause the expansion of capital to be smaller, most notably a limit in the supply of capital, either through imports of capital from abroad or limits on savings. The evidence suggests that capital flow from abroad, while relatively elastic, is far from infinite, with an elasticity of around 3.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title='A meta-analysis of the elasticity of substitution of foreign direct investment found a median semi - elasticity (elasticity with respect to a percentage point rate change) of 3.2. See Ruud de Mooij and Sjef Ederveen, "Taxation and Foreign Direct Investment: A Synthesis of Empirical Research," International Tax and Public Finance , vol. 10 (2003), pp. 673-693. Because elasticities are with respect to the after-tax return, this number should be multiplied by (1-t), where t is the tax rate; give...'>12</a></sup> According to a model estimating the effects of alternative elasticity, an elasticity of 3 reduces the effect on capital by 68% compared to the effect if capital were freely available at the same rate of return.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='Jane G. Gravelle and Kent A. Smetters, "Does the Open Economy Assumption Really Mean That Labor Bears the Burden of a Capital Income Tax?," Advances in Economic Analysis and Policy , vol. 6, no. 1 (August 2006), pp. 1-44 .'>13</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It is also possible that a decrease in the corporate tax rate could cause the capital stock to fall because it reduces the value of interest deductions, and thus discourages debt-financed investment. This effect could more than offset any positive effect on inflows of equity capital if debt is more internationally mobile than equity.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The capital stock could also expand through increased savings. However, domestic savings are a less likely source of an increased capital stock. While one model of savings predicts that savings are perfectly elastic with respect to the tax rate, this model requires some extreme assumptions about human behavior, such as perfect information, an infinite planning horizon, and no liquidity constraints. Models allowing for finite lives (such as the life-cycle models) find results that vary, but if the revenue loss is made up by higher taxes on labor, there is little or no effect. Some economists believe that these models are inappropriate, as they assume too much information and skill on the part of individuals; these economists suggest that individuals use rules of thumb, such as fixed savings rates or targets. These rules of thumb suggest that a cut in capital income taxes either has no effect on saving or reduces savings. These economists also point out that most empirical evidence does not point to an increase in savings; historically, savings rates do not appear to respond to reduced tax rates.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="See CRS Report R48092, Can Tax Policy Increase Saving? , by Jane G. Gravelle and Donald J. Marples .">14</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note also that the increased government debt due to a corporate tax cut directly reduces the capital stock. This debt compounds and grows without limit over time, and would eventually more than offset an investment increase. Thus, the effect of corporate tax cuts depends on whether they are offset with spending cuts or other tax increases. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some statistical studies of the effect of the corporate tax on investment focused on the effects of the 2017 tax revision. Several of these studies found significant effects on investment. However, a subsequent review found methodological issues that may have affected their results.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="See CRS Report R48485, Economic Effects of the Tax Cuts and Jobs Act , by Jane G. Gravelle and Donald J. Marples .">15</a></sup> In addition, the studies' findings were inconsistent with certain observed changes in investment following the revision.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Short-run investment effects are a limited guide to the long-run effects. The percentage change in investment can be larger in the short run as the economy is adjusting to the new long-run capital stock (and the accompanying change in the long-run investment level). It can also be smaller because of adjustment costs. In addition, any government debt due to a tax reduction compounds and grows over time. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109558"></a><a name="_Toc233185644"></a><a name="_Toc234244090"></a><a name="_Toc234412391"></a><a name="_Toc234914687"></a><a name="_Toc235805051"></a><a name="_Toc244854740"></a><a name="_Toc245101448"></a><a name="_Toc245189517"></a><a name="_Toc245367562"></a><a name="_Toc245461022"></a><a name="_Toc245461075"></a>The Revenue-Maximizing Tax Rate</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The revenue-maximizing tax rate depends on the same factors that drive investment. These issues are discussed in more detail in CRS Report R48913, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48913"><em><span class="Hyperlink">Corporate Taxation: The Revenue-Maximizing Tax Rate</span></em></a>. That report shows that economic models predict, even when setting the factors most conducive to a low tax rate, the revenue-maximizing tax rate is around 70%, and higher if there is imperfect portfolio substitution. The report also discusses empirical studies that found a lower rate of around 30% based on cross-country estimates and analyzes methodological issues that may have resulted in less accurate estimations at this lower rate. The report also examines a more recent body of research focused on the taxable income elasticity. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109559"></a><a name="_Toc233185645"></a><a name="_Toc234244091"></a><a name="_Toc234412392"></a><a name="_Toc234914688"></a><a name="_Toc235805052"></a><a name="_Toc244854741"></a><a name="_Toc245101449"></a><a name="_Toc245189518"></a><a name="_Toc245367563"></a><a name="_Toc245461023"></a><a name="_Toc245461076"></a>Distributional Effects</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The distributional effects of the corporate tax depend on the extent to which it falls on labor income rather than capital income. As shown in <a class="InternalLink" href="#_Ref234403165"><strong></strong><strong>Table 2</strong></a>, income becomes more concentrated in capital sources in the higher-income groups. While capital income is 32% of income overall, it is 11% of income in the lowest 40% of the population. For the top 20%, capital income is almost half of income. Within that top group, the share rises, reaching 73% for the top 1%. This concentration would be even greater if an important source of income for very high-income individuals, unrealized capital gains, were included. Thus, a greater share of the corporate tax falling on labor income would make the tax either less progressive or regressive. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref234403165"></a><a name="_Toc233185633"></a><a name="_Toc234244078"></a><a name="_Toc234412379"></a><a name="_Toc234914675"></a><a name="_Toc235805039"></a><a name="_Toc244854728"></a><a name="_Toc245101436"></a><a name="_Toc245189505"></a><a name="_Toc245367550"></a><a name="_Toc245461010"></a><a name="_Toc245461063"></a>Table 2. Sources of Income by Income Class</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:47.9088pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:47.94712704pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Social Insurance</p>
+</td>
+<td style="width:47.9088pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Labor Income</p>
+</td>
+<td style="width:47.87047296pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Capital Income</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">First Quintile</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">31.6%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">57.3%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">11.1%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Second Quintile</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">26.3%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">63.1%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Middle quintile</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">18.6%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">65.8%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">15.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Fourth Quintile</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">12.0%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">68.6%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">19.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Fifth Quintile</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.5%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">51.5%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">45.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">    81%-90%</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">7.6%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">70,1%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">22.3%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">    91%-95%</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">5.0%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">68.4%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">25.5%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">    96%-99%</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">2.9%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">58.9%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">38.1%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">    Top 1%</p>
+</td>
+<td style="width:47.94712704pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0.5%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">26.3%</p>
+</td>
+<td style="width:47.87047296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">73.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Total</p>
+</td>
+<td style="width:47.94712704pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">9.7%</p>
+</td>
+<td style="width:47.9088pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">58.2%</p>
+</td>
+<td style="width:47.87047296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">32.1%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>CRS calculations based on data from Congressional Budget Office, "Trends in the Distribution of Household Income From 1979 to 2021," Presentation, September 11, 2021, Supplementary Tables, "Income Before Taxes and Transfers," <a class="ExternalLink" href="https://www.cbo.gov/publication/60342"><span class="Hyperlink">https://www.cbo.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">publication/</span><span class="Hyperlink"></span><span class="Hyperlink">60342</span></a>.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If an increase in the corporate tax causes a decrease in net capital flows, the smaller capital stock can cause labor to become less productive and result in a falling wage. An extensive body of research has developed, through both (1) formal models that reflect underlying parameters that determine the burden on wages and (2) reduced-form statistical estimates based on relating wages to the corporate rate using cross-country or cross-state data. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This research is reviewed in CRS Report R49358, <a class="ExternalLink" href="http://www.crs.gov/Reports/R49358"><em><span class="Hyperlink">Analyzing the Incidence of the Corporate Income Tax: Models and Statistical Estimates</span></em></a>. In general, that analysis suggests that labor bears a small share of the tax (if any), likely not more than 20%, and examines methodological issues with certain statistical estimates that produce higher results. It is also possible that increasing the corporate tax reduces investment because it decreases the value of interest deductions, which may reduce net capital inflows if debt is more internationally mobile than equity.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109560"></a><a name="_Toc233185646"></a><a name="_Toc234244092"></a><a name="_Toc234412393"></a><a name="_Toc234914689"></a><a name="_Toc235805053"></a><a name="_Toc244854742"></a><a name="_Toc245101450"></a><a name="_Toc245189519"></a><a name="_Toc245367564"></a><a name="_Toc245461024"></a><a name="_Toc245461077"></a>Efficiency Effects</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109561"></a><a name="_Toc233185647"></a><a name="_Toc234244093"></a><a name="_Toc234412394"></a><a name="_Toc234914690"></a><a name="_Toc235805054"></a><a name="_Toc244854743"></a><a name="_Toc245101451"></a><a name="_Toc245189520"></a><a name="_Toc245367565"></a><a name="_Toc245461025"></a><a name="_Toc245461078"></a>Domestic Investment</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate tax and its effect on investment depend not only on the statutory tax rate, but also on the tax base, most importantly depreciation, or how quickly costs of investment are deducted. Most equipment and intangibles, as well as manufacturing structures and some costs of oil and gas extraction, are expensed. The effective tax rate for an expensed asset is zero. The tax rate is increased with shareholder taxes, and decreased with debt finance. Finally, the total cost of investment is affected by taxes paid on interest, dividends, and capital gains by creditors and shareholders. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate tax, therefore, can contribute to several types of potential investment distortions through differential tax treatment:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">distortions across types of investments;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">distortions between debt and equity; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">distortions between corporate and noncorporate investments; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">distortions in savings (i.e., between present and future consumptions).</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The tax treatment of different investments, as measured by the METR, is shown in <a class="InternalLink" href="#_Ref233197661"><strong></strong><strong>Table 3</strong></a>. In all columns, the differences between tax burdens by type of asset are shown. The variations across assets for the corporate-level tax reflect the difference in depreciation, as well as the research tax credit. The lowest tax rates are on intangibles, which are largely expensed (costs deducted immediately). In the case of research and development, taxes are reduced by the research tax credit, resulting in an overall negative tax rate (a subsidy). Equipment is also expensed, except for a small share of equipment used by regulated electric and gas utilities, leading to a rate close to zero. Overall, the provisions that reduce income subject to the tax reduce the effective tax rate from 21% to 12.9%, a 39% reduction. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref233197661"></a><a name="_Toc233033312"></a><a name="_Toc233185634"></a><a name="_Toc234244079"></a><a name="_Toc234412380"></a><a name="_Toc234914676"></a><a name="_Toc235805040"></a><a name="_Toc244854729"></a><a name="_Toc245101437"></a><a name="_Toc245189506"></a><a name="_Toc245367551"></a><a name="_Toc245461011"></a><a name="_Toc245461064"></a>Table 3. Marginal Effective Tax Rates (METRs)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:31.96475136pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Asset Type</p>
+</td>
+<td style="width:32.0030784pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Corporate-Level Tax </p>
+</td>
+<td style="width:31.92642432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Corporate Tax Plus Tax on Shareholders</p>
+</td>
+<td style="width:31.92642432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Effective Tax Rates on Debt-Financed Assets</p>
+</td>
+<td style="width:31.92642432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Effective Tax Rates Mixed Finance</p>
+</td>
+<td style="width:31.888097279999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Effective Tax Rates on Noncorporate Investment</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.96475136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Equipment</p>
+</td>
+<td style="width:32.0030784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">1.8%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">9.5%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-21.2%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-3.3%</p>
+</td>
+<td style="width:31.888097279999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:19.4pt;">-2.9%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.96475136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Intangibles</p>
+</td>
+<td style="width:32.0030784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">-14.3%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">-5.4%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-58.9%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-14.6%</p>
+</td>
+<td style="width:31.888097279999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:19.4pt;">-25.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.96475136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Nonresidential Structures</p>
+</td>
+<td style="width:32.0030784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">15.5%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">22.2%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-3.5%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">17.1%</p>
+</td>
+<td style="width:31.888097279999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:19.4pt;">17.3%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.96475136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Oil and Gas</p>
+</td>
+<td style="width:32.0030784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">10.1%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">17.1%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-7.6%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">12.9%</p>
+</td>
+<td style="width:31.888097279999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:19.4pt;">9.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.96475136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Power Structures</p>
+</td>
+<td style="width:32.0030784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">10.3%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">17.3%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-11.7%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">11.6%</p>
+</td>
+<td style="width:31.888097279999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:19.4pt;">9.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.96475136pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Residential Structures</p>
+</td>
+<td style="width:32.0030784pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">16.7%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">23.2%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-4.5%</p>
+</td>
+<td style="width:31.92642432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">17.7%</p>
+</td>
+<td style="width:31.888097279999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:19.4pt;">18.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:31.96475136pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Total</p>
+</td>
+<td style="width:32.0030784pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">12.9%</p>
+</td>
+<td style="width:31.92642432pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:17.1pt;">19.7%</p>
+</td>
+<td style="width:31.92642432pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">-18.1%</p>
+</td>
+<td style="width:31.92642432pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:16.7pt;">7.1%</p>
+</td>
+<td style="width:31.888097279999996pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:19.4pt;">11.7%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>CRS model for estimating marginal effective tax rates (METRs). See CRS Report R48277, <a class="ExternalLink" href="http://www.crs.gov/Reports/pdf/R48277"><em><span class="Hyperlink">CRS Model Estimates of Marginal Effective Tax Rates on Investment Under Current Law</span></em></a>, by Mark P. Keightley and Jane G. Gravelle, and CRS Report R48631, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48631"><em><span class="Hyperlink">Marginal Effective Tax Rates: Changes in P.L. 119-21, the 2025 Reconciliation Act</span></em></a>, by Mark P. Keightley and Jane G. Gravelle.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax rates on capital gains and dividends increase the tax rate by about 7 percentage points to 19.7% overall. Although these tax rates on dividends and capital gains are above 20%, most shareholders do not pay tax on these assets because they are held in tax-exempt retirement funds.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Debt finance significantly reduces effective tax rates because nominal interest is deducted while the real return on investment is taxed at effective rates that are lower than the statutory rate. Taxes paid by creditors do not provide much of an offset since most interest is not taxed because it is held through exempt retirement accounts or provided in the form of free banking services. Fully debt-financed investments are subsidized at an 18% rate, not taxed. There is a current limit on the deduction for interest that is considered excessive (interest above 30% of profits before interest, taxes, depreciation, and amortization), but this provision (which is incorporated in <a class="InternalLink" href="#_Ref233197661"><strong></strong><strong>Table 3</strong></a>) has a small effect on METRs. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Noncorporate and corporate investments are taxed at similar rates within most asset classes. Although the individual tax rates are higher than the corporate rate, some businesses are eligible for a pass-through deduction that reduces taxable income by 20%. The overall noncorporate tax rate is higher in part because noncorporate assets tend to be more concentrated in assets taxed more heavily. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Overall, the METR analysis indicates marked differences across assets and forms of finance, but relatively small differences between corporate and noncorporate investments. With an overall effective marginal tax rate of 7%, the distortion between savings and consumption is small. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109562"></a><a name="_Toc233185648"></a><a name="_Toc234244094"></a><a name="_Toc234412395"></a><a name="_Toc234914691"></a><a name="_Toc235805055"></a><a name="_Toc244854744"></a><a name="_Toc245101452"></a><a name="_Toc245189521"></a><a name="_Toc245367566"></a><a name="_Toc245461026"></a><a name="_Toc245461079"></a>International Investment</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax rules can affect the efficiency of capital allocation around the world, and if the U.S. corporate tax rate is different from other countries, it can cause misallocations of capital. The misallocations of physical capital are affected by the marginal effective tax rates. Taxes can also result in profit shifting, which depends on the statutory tax rate. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref233199445"><strong></strong><strong>Table 4</strong></a> compares the statutory corporate tax rates and the marginal effective tax rates of the 10 largest economies measured by GDP. These rates reflect both national and average subnational taxes, producing a statutory tax rate of 25.7% for the United States. For statutory tax rates, the U.S. rate is lower than all but three countries, which have a rate of 25%. The cut in corporate tax rates from 35% to 21% moved the United States from having the highest tax rate of the large countries (38.1%) to among the lowest.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Corporate tax rate from Tax Foundation, " Corporate Income Tax Rates around the World, 2017 ," September 7, 2017, https://taxfoundation.org/data/all/global/corporate-income-tax-rates-around-the-world-2017/  .'>16</a></sup>  The marginal effective tax rate of 3.7% makes the United States a low-corporate-income-tax country, although the METR for the United States before the 2017 revisions (22.97%) was still lower than most large countries'.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref233199445"></a><a name="_Toc233033313"></a><a name="_Toc233185635"></a><a name="_Toc234244080"></a><a name="_Toc234412381"></a><a name="_Toc234914677"></a><a name="_Toc235805041"></a><a name="_Toc244854730"></a><a name="_Toc245101438"></a><a name="_Toc245189507"></a><a name="_Toc245367552"></a><a name="_Toc245461012"></a><a name="_Toc245461065"></a>Table 4. Statutory and Marginal Effective Tax Rates, Ten Largest Economies by GDP, 2023</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:63.891175679999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Country </p>
+</td>
+<td style="width:63.891175679999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Corporate Statutory Rate</p>
+</td>
+<td style="width:63.85284864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Corporate Marginal Effective Tax Rate</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">United States</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">25.7%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">3.7%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">China</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">25.0%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">15.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Germany</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">30.1%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">11.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Japan</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">29.8%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">29.3%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">UK</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">25.0%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">11.5%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">India</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">35.1%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">23.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">France</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">36.0%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">15.4%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Italy</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">27.8%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">-22.7%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Russia</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">25.0%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">NA</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Brazil</p>
+</td>
+<td style="width:63.891175679999996pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">34.0%</p>
+</td>
+<td style="width:63.85284864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">36.3%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Ranking of countries by GDP from Statista, "Countries With The Largest Nominal GDP Worldwide in 2026", <a class="ExternalLink" href="https://www.statista.com/statistics/268173/countries-with-the-largest-gross-domestic-product-gdp/"><span class="Hyperlink">https://www.statista.com/</span><span class="Hyperlink"></span><span class="Hyperlink">statistics/</span><span class="Hyperlink"></span><span class="Hyperlink">268173/</span><span class="Hyperlink"></span><span class="Hyperlink">countries-with-the-largest-gross-domestic-product-gdp/</span></a><span class="Hyperlink"></span>. Statutory tax rate from<strong> </strong>Tax Foundation, "Corporate Tax Rates Around the World," <a class="ExternalLink" href="https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/"><span class="Hyperlink">https://taxfoundation.org/</span><span class="Hyperlink"></span><span class="Hyperlink">data/</span><span class="Hyperlink"></span><span class="Hyperlink">all/</span><span class="Hyperlink"></span><span class="Hyperlink">global/</span><span class="Hyperlink"></span><span class="Hyperlink">corporate-tax-rates-by-country-2025/</span></a><span class="Hyperlink"></span>; Organisation for Economic Co-operation and Development (OECD), "Corporate Effective Tax Rates, 2023," <a class="ExternalLink" href="https://data-explorer.oecd.org/vis?df%5bds%5d=dsDisseminateFinalDMZ&amp;df%5bid%5d=DSD_ETR%40DF_ETR_BASELINE&amp;df%5bag%5d=OECD.CTP.TPS&amp;df%5bvs%5d=1.1&amp;dq=.A.EATR%2BEMTR%20...%20FIXED.COMPOSITE.&amp;lom=LASTNPERIODS&amp;lo=5&amp;to%5bTIME_PERIOD%5d=false&amp;ly%5bcl%5d=TIME_PERIOD,MEASURE&amp;ly%5brw%5d=REF_AREA&amp;vw=tb"><span class="Hyperlink">https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_ETR%40DF_ETR_BASELINE&amp;df[ag]=OECD.CTP.TPS&amp;df[vs]=1.1&amp;dq=.A.EATR%2BEMTR ... FIXED.COMPOSITE.&amp;lom=LASTNPERIODS&amp;lo=5&amp;to[TIME_PERIOD]=false&amp;ly[cl]=TIME_PERIOD,MEASURE&amp;ly[rw]=REF_AREA&amp;vw=tb</span></a>. The METR for the United States is for 2022, which is closer to current law. </p>
+<p class="TableNote"><strong>Notes: </strong>NA =<strong> </strong>not available.<strong> </strong></p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These data indicate that the United States is a low-tax country with respect to investment, which would result in too much investment allocated to the United States for worldwide economic efficiency.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="The issues of efficiency in international taxation are discussed in greater detail in CRS Report RL34115, Reform of U.S. International Taxation: Alternatives , by Jane G. Gravelle .">17</a></sup> However, even with a 25.7% combined statutory tax rate, there is still an incentive to shift profits abroad to low-tax countries, which is particularly feasible with intangible assets. Profit shifting occurs when firms use intercompany transfer prices for the sale of intangible assets or the charging of royalties to foreign affiliates. By understating these prices, the firm can shift profits out of the United States. Another method of shifting profits is to locate debt (and therefore interest deductions) in the United States.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Profit shifting is partly due to not taxing foreign-source profits at the same rates that apply to domestic profits. This shifting is not due to the corporate effective tax rate, but rather to tax benefits for investment abroad. In 2017, the United States moved to a new system of international taxation that taxes income from foreign subsidiaries on a current basis (rather than only when paid as dividends) but at lower rates, with the tax aimed at profit shifting. The provisions were revised in 2025. Under current law, the minimum tax on foreign-source income (called net tested CFC income) is 40% lower than the rate on domestic profit. There is also a reduction in the tax rate for foreign-source income from assets held domestically (called foreign-derived deduction-eligible income, or FDDEI) that reduces the tax rate on this income by a third and is designed to achieve a similar treatment for assets held in the United States or abroad. The system also allows a credit against U.S. tax due (currently limited to 90% of taxes paid). The credit is limited to U.S. tax paid on foreign-source income, but this limit is applied on an overall basis (rather than country-by-country), so that taxes in high-tax countries can be used to offset U.S. taxes on income in low-tax or no-tax countries. In this case, income in tax havens can avoid any U.S. tax and could pay no taxes. The 2025 change also eliminated a deduction for a percentage of tangible assets, meant to focus the tax on intangible assets.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="The 2017 law allowed a 50% reduction on global intangible low-tax income (GILTI) and focused on intangible income by allowing a deduction for 10% of tangible assets as a proxy for the return on tangible investment. The system also allowed a deduction for part of the estimated earnings from foreign sources attributed to intangible assets owned in the United States (foreign-derived intangible income or FDII), to largely eliminate the difference in taxes on foreign-source income from intangible a...">18</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are indications of profit shifting, which can be shown by comparing the source of profits with the location of tangible investment. <a class="InternalLink" href="#_Ref233198260"><strong></strong><strong>Table 5</strong></a> shows the countries with the largest shares of foreign profits of U.S. multinationals and their tax rates. The three most common locations—Ireland, Singapore, and Switzerland—have been long viewed as tax havens, although Ireland has recently made changes that eliminate tax avoidance techniques and is participating in the worldwide global minimum tax regime. These three countries account for 30.5% of U.S. multinationals' foreign profits. Cyprus, also on the list, is considered a tax haven and has a noticeable share of profits although it is a small country. The average tax rates (cash taxes divided by profits) for these four countries are lower than those in the other countries: Ireland has an effective tax rate of 15.2%, and the tax rates for Singapore, Switzerland, and Cyprus are considerably below the statutory rate, while the rates for other countries are more in line with statutory tax rates. The profits for those countries, which are either large countries or geographically close, probably reflect real economic activity. The U.S. average effective tax rate is 22.8%, similar to the statutory rate. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref233198260"></a><a name="_Toc233033314"></a><a name="_Toc233185636"></a><a name="_Toc234244081"></a><a name="_Toc234412382"></a><a name="_Toc234914678"></a><a name="_Toc235805042"></a><a name="_Toc244854731"></a><a name="_Toc245101439"></a><a name="_Toc245189508"></a><a name="_Toc245367553"></a><a name="_Toc245461013"></a><a name="_Toc245461066"></a>Table 5. Countries with Largest Shares of Foreign Profits of U.S. Multinationals: Statutory and Marginal Effective Tax Rates, 2023</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:38.365367039999995pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:38.40369408pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Share of Foreign Profits</p>
+</td>
+<td style="width:38.327040000000004pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Statutory Tax Rate</p>
+</td>
+<td style="width:38.28871296pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Marginal Effective Tax Rate</p>
+</td>
+<td style="width:38.25038592pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Cash Taxes Paid as a Percentage of Earnings</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Ireland</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">13.6%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">12.5%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">13.2%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">15.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Singapore</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">9.5%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">17.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">13.2%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">6.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Switzerland</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">7.4%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">19.6%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">14.6%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">6.3%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">UK</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">5.7%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">25.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">11.5%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">30.9%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Canada</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">4.1%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">26.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">13.7%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">27.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">China </p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">3.3%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">25.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">15.6%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">30.8%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Mexico</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">2.5%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">30.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">20.3%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">36.4%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">India</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">2.5%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">35.1%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">23.2%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">28.5%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Cyprus</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">2.2%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">12.5%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">5.9%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">0.3%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Germany</p>
+</td>
+<td style="width:38.40369408pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">2.1%</p>
+</td>
+<td style="width:38.327040000000004pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">30.1%</p>
+</td>
+<td style="width:38.28871296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">11.7%</p>
+</td>
+<td style="width:38.25038592pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:25.7pt;">34.0%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Share of foreign profits and cash taxes as a percentage of earnings from Internal Revenue Service (IRS), "Statistics of Income, Country-by-Country Reports," 2023, <a class="ExternalLink" href="https://www.irs.gov/statistics/soi-tax-stats-country-by-country-report"><span class="Hyperlink">https://www.irs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">statistics/</span><span class="Hyperlink"></span><span class="Hyperlink">soi-tax-stats-country-by-country-report</span></a>. Statutory tax rates from<strong> </strong>Tax Foundation, "Corporate Tax Rates Around the World," <a class="ExternalLink" href="https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/"><span class="Hyperlink">https://taxfoundation.org/</span><span class="Hyperlink"></span><span class="Hyperlink">data/</span><span class="Hyperlink"></span><span class="Hyperlink">all/</span><span class="Hyperlink"></span><span class="Hyperlink">global/</span><span class="Hyperlink"></span><span class="Hyperlink">corporate-tax-rates-by-country-2025/</span></a><span class="Hyperlink"></span>; and Organisation for Economic Co-operation and Development (OECD), "Corporate Effective Tax Rates, 2023," <a class="ExternalLink" href="https://data-explorer.oecd.org/vis?df%5bds%5d=dsDisseminateFinalDMZ&amp;df%5bid%5d=DSD_ETR%40DF_ETR_BASELINE&amp;df%5bag%5d=OECD.CTP.TPS&amp;df%5bvs%5d=1.1&amp;dq=.A.EATR%2BEMTR%20...%20FIXED.COMPOSITE.&amp;lom=LASTNPERIODS&amp;lo=5&amp;to%5bTIME_PERIOD%5d=false&amp;ly%5bcl%5d=TIME_PERIOD,MEASURE&amp;ly%5brw%5d=REF_AREA&amp;vw=tb"><span class="Hyperlink">https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_ETR%40DF_ETR_BASELINE&amp;df[ag]=OECD.CTP.TPS&amp;df[vs]=1.1&amp;dq=.A.EATR%2BEMTR ... FIXED.COMPOSITE.&amp;lom=LASTNPERIODS&amp;lo=5&amp;to[TIME_PERIOD]=false&amp;ly[cl]=TIME_PERIOD,MEASURE&amp;ly[rw]=REF_AREA&amp;vw=tb</span></a>.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref233198575"><strong></strong><strong>Table 6</strong></a> shows a different pattern when examining the shares of tangible capital abroad. Shares of tangible capital tend to be located more broadly, and in countries with high statutory and average tax rates. They reflect a combination of nearby trading partners, long-standing economic ties, and size. These assets are less concentrated in specific countries.   </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref233198575"></a><a name="_Toc233033315"></a><a name="_Toc233185637"></a><a name="_Toc234244082"></a><a name="_Toc234412383"></a><a name="_Toc234914679"></a><a name="_Toc235805043"></a><a name="_Toc244854732"></a><a name="_Toc245101440"></a><a name="_Toc245189509"></a><a name="_Toc245367554"></a><a name="_Toc245461014"></a><a name="_Toc245461067"></a>Table 6. Countries With Largest Shares of U.S. Tangible Capital Abroad</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:38.365367039999995pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:38.40369408pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Share of Foreign Tangible Capital</p>
+</td>
+<td style="width:38.327040000000004pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Statutory Tax Rate</p>
+</td>
+<td style="width:38.28871296pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Marginal Effective Tax Rate</p>
+</td>
+<td style="width:38.25038592pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Cash Taxes Paid as a Percentage of Earnings</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">UK</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">7.4%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">25.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">11.5%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">30.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Canada</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">6.9%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">26.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">13.7%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">27.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Ireland</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">4.7%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">12.5%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">13.2%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">15.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Mexico</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">4.6%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">30.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">20.3%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">36.4%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">China</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">4.2%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">25.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">15.6%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">30.8%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Singapore</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">3.9%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">17.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">13.2%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">6.2%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Germany</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">3.7%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">30.1%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">11.0%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">34.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Australia</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">3.7%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">30.0%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">28.6%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">40.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Netherlands</p>
+</td>
+<td style="width:38.40369408pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">2.7%</p>
+</td>
+<td style="width:38.327040000000004pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">25.8%</p>
+</td>
+<td style="width:38.28871296pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">22.8%</p>
+</td>
+<td style="width:38.25038592pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">67.3%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:38.365367039999995pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Switzerland</p>
+</td>
+<td style="width:38.40369408pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:28pt;">2.5%</p>
+</td>
+<td style="width:38.327040000000004pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.2pt;">19.6%</p>
+</td>
+<td style="width:38.28871296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:24.95pt;">14.6%</p>
+</td>
+<td style="width:38.25038592pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:21.2pt;">6.3%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Share of foreign profits and cash taxes as a percentage of earnings from IRS, Statistics of Income, "Country-by-Country Reports," 2023, <a class="ExternalLink" href="https://www.irs.gov/statistics/soi-tax-stats-country-by-country-report"><span class="Hyperlink">https://www.irs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">statistics/</span><span class="Hyperlink"></span><span class="Hyperlink">soi-tax-stats-country-by-country-report</span></a>. Statutory tax rates from<strong> </strong>Tax Foundation, "Corporate Tax Rates Around the World," <a class="ExternalLink" href="https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/"><span class="Hyperlink">https://taxfoundation.org/</span><span class="Hyperlink"></span><span class="Hyperlink">data/</span><span class="Hyperlink"></span><span class="Hyperlink">all/</span><span class="Hyperlink"></span><span class="Hyperlink">global/</span><span class="Hyperlink"></span><span class="Hyperlink">corporate-tax-rates-by-country-2025/</span></a><span class="Hyperlink"></span>; and Organisation for Economic Co-operation and Development (OECD), "Corporate Effective Tax Rates, 2023," <a class="ExternalLink" href="https://data-explorer.oecd.org/vis?df%5bds%5d=dsDisseminateFinalDMZ&amp;df%5bid%5d=DSD_ETR%40DF_ETR_BASELINE&amp;df%5bag%5d=OECD.CTP.TPS&amp;df%5bvs%5d=1.1&amp;dq=.A.EATR%2BEMTR%20...%20FIXED.COMPOSITE.&amp;lom=LASTNPERIODS&amp;lo=5&amp;to%5bTIME_PERIOD%5d=false&amp;ly%5bcl%5d=TIME_PERIOD,MEASURE&amp;ly%5brw%5d=REF_AREA&amp;vw=tb"><span class="Hyperlink">https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_ETR%40DF_ETR_BASELINE&amp;df[ag]=OECD.CTP.TPS&amp;df[vs]=1.1&amp;dq=.A.EATR%2BEMTR ... FIXED.COMPOSITE.&amp;lom=LASTNPERIODS&amp;lo=5&amp;to[TIME_PERIOD]=false&amp;ly[cl]=TIME_PERIOD,MEASURE&amp;ly[rw]=REF_AREA&amp;vw=tb</span></a>.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This discrepancy can also be seen in the share of total profits earned abroad by U.S. multinationals (40.5%) compared to the share of tangible assets (26.9%).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Profit shifting can also occur in smaller countries, especially in islands in the Caribbean that impose little or no tax. <a class="InternalLink" href="#_Ref234409155"><strong></strong><strong>Table 7</strong></a> reports the share of profits and the share of tangible assets in some well-recognized tax havens. Puerto Rico is treated the same as foreign jurisdictions in the tax code. Some of these countries have zero tax rates, and others (Barbados, Puerto Rico, and Hong Kong) have a positive tax rate but provide special incentives for multinationals. Some may also commit to higher taxes under the new global minimum tax (OECD's Pillar 2) being adopted by most countries (although not by the United States).<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="CRS In Focus IF11874, International Tax Proposals Addressing Profit Shifting: Pillars 1 and 2 , by Jane G. Gravelle .">19</a></sup> Overall, these eight countries are responsible for 7.4% of U.S. multinationals' foreign profits, but 2.2% of tangible capital. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref234409155"></a><a name="_Toc234244083"></a><a name="_Toc234412384"></a><a name="_Toc234914680"></a><a name="_Toc235805044"></a><a name="_Toc244854733"></a><a name="_Toc245101441"></a><a name="_Toc245189510"></a><a name="_Toc245367555"></a><a name="_Toc245461015"></a><a name="_Toc245461068"></a>Table 7. Share of Foreign Profits and Foreign Tangible Capital in Selected Tax Haven Locations</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:63.891175679999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Location</p>
+</td>
+<td style="width:63.891175679999996pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Share of Foreign Profits</p>
+</td>
+<td style="width:63.85284864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Share of Foreign Tangible Capital</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Puerto Rico</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">2.1%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">1.1%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Hong Kong </p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">1.7%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.6%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Cayman Islands </p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">1.1%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.1%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Barbados</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.8%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Bermuda</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.5%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.4%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:both;">Jersey </p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.4%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">British Virgin Islands</p>
+</td>
+<td style="width:63.891175679999996pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.2%</p>
+</td>
+<td style="width:63.85284864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.0%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:63.891175679999996pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Bahamas</p>
+</td>
+<td style="width:63.891175679999996pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.1%</p>
+</td>
+<td style="width:63.85284864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:57.2pt;">0.0%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>IRS, Statistics of Income, "Country-by-Country Reports," 2023. For a discussion of tax havens and information on identifying them, see CRS Report R40623, <a class="ExternalLink" href="http://www.crs.gov/Reports/R40623"><em><span class="Hyperlink">Tax Havens: International Tax Avoidance and Evasion</span></em></a>, by Jane G. Gravelle. </p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An analysis by the Penn Wharton Budget Model found that the 2017 change in tax regime did not have much effect on the U.S. effective tax rate on foreign-source income, which remained around 2%.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Alexander Arnon and Zheli He , &quot; Effective Tax Rates on U.S. Multinationals' Foreign Income under Proposed Changes by House Ways and Means and the OECD , &quot; Penn Wharton Budget Model, September 28, 2021, https://budgetmodel.wharton.upenn.edu/p/2021-09-28-effective-tax-rates-on-us-multinationals-foreign-income/  .">20</a></sup> It also found the effective tax rate including foreign taxes remained about the same at around 13%. The U.S. rate would be higher under current law. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The elimination of the 10% deduction for tangible assets refocuses the tax regime on all income, not only tangible income, which has consequences for the allocation of capital investment across countries. That effect depends on the depreciation of foreign-source assets as well as tax rates. Investment in equipment abroad is treated less generously than domestic investment under U.S. tax rules used for measuring GILTI, as expensing is not allowed and the slower alternative depreciation system is imposed. This system allows recovery in equal amounts over 10 years for most equipment. There is little difference in the treatment of structures. However, the treatment also depends on how foreign countries treat recovery and would be reflected in the METRs in <a class="InternalLink" href="#_Ref233198575"><strong></strong><strong>Table 6</strong></a>, which are higher than the U.S. tax rate on domestic investment in equipment and structures. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc233109563"></a><a name="_Toc233185649"></a><a name="_Toc234244095"></a><a name="_Toc234412396"></a><a name="_Toc234914692"></a><a name="_Toc235805056"></a><a name="_Toc244854745"></a><a name="_Toc245101453"></a><a name="_Toc245189522"></a><a name="_Toc245367567"></a><a name="_Toc245461027"></a><a name="_Toc245461080"></a>Potential Revisions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are broad and narrow changes in the tax code that could potentially increase allocational efficiency, address international profit-shifting, and reduce favorable treatment for a narrow set of taxpayers.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244096"></a><a name="_Toc234412397"></a><a name="_Toc234914693"></a><a name="_Toc235805057"></a><a name="_Toc244854746"></a><a name="_Toc245101454"></a><a name="_Toc245189523"></a><a name="_Toc245367568"></a><a name="_Toc245461028"></a><a name="_Toc245461081"></a>Narrowing Differentials Across Assets And/Or Forms of Finance</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As shown in the discussion of economic efficiency, the METR on investment in equipment, structures, and intangibles is about 7%, a relatively small tax. However, this composite rate is the result of widely varying rates by asset type and form of finance. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress could consider various options to make the corporate (and noncorporate) tax more neutral across assets and forms of finance. These options could also be applied to noncorporate investments.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244097"></a><a name="_Toc234412398"></a><a name="_Toc234914694"></a><a name="_Toc235805058"></a><a name="_Toc244854747"></a><a name="_Toc245101455"></a><a name="_Toc245189524"></a><a name="_Toc245367569"></a><a name="_Toc245461029"></a><a name="_Toc245461082"></a>Substituting Partial Expensing For All Assets</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One option is to allow only partial expensing, but to allow it for all assets. Because partial expensing is a neutral subsidy, this option would eliminate most of the asset differentials in the corporate sector. Some variations would remain because the depreciation systems of the remaining assets also contain some subsidies, although they would be smaller. This expensing would not apply to land and inventories. Congress could choose an expensing ratio that aimed to maintain revenue neutrality over some time horizon.   </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244098"></a><a name="_Toc234412399"></a><a name="_Toc234914695"></a><a name="_Toc235805059"></a><a name="_Toc244854748"></a><a name="_Toc245101456"></a><a name="_Toc245189525"></a><a name="_Toc245367570"></a><a name="_Toc245461030"></a><a name="_Toc245461083"></a>Substituting Partial Expensing For All Assets and Disallowing Proportionate Interest Deductions </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This option would add to the partial expensing a disallowance for the share of interest deductions reflecting the share of investment expensed. It would allow a larger share of assets to be expensed with revenue neutrality due to the revenue gain from disallowing interest. It would narrow the differentials across both assets and forms of finance.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244099"></a><a name="_Toc234412400"></a><a name="_Toc234914696"></a><a name="_Toc235805060"></a><a name="_Toc244854749"></a><a name="_Toc245101457"></a><a name="_Toc245189526"></a><a name="_Toc245367571"></a><a name="_Toc245461031"></a><a name="_Toc245461084"></a>Substituting A Cash Flow Tax</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A cash flow tax would allow full expensing for investments and disallow interest deductions, effectively making the tax a consumption rather than an income tax. The METR would only reflect taxes of shareholders and creditors. The CRS METR model estimates effective tax rates of 12.6% for debt and 7.8% for equity, reflecting the average tax rates that apply to the share of interest, dividends, and capital gains that are taxed. The statutory tax rate could be adjusted to achieve a revenue objective.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An argument for such a move is that the current tax system contains some of the elements of a cash flow tax, but does not disallow the deduction for interest that is appropriate for a cash flow tax. However, the incidence of a cash flow tax using the corporate tax base is on old assets. Again, such a tax already effectively exists for a large share of the corporate income tax. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If assets such as land and inventories were excluded from the expensing regime, a partial deduction for interest could be allowed to reflect the shares represented by these assets.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some coordination would be needed for foreign-source income, where expensing is not allowed in computing the U.S. tax due or the limit on the foreign tax credit. The same rules could be applied to foreign-source income</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244100"></a><a name="_Toc234412401"></a><a name="_Toc234914697"></a><a name="_Toc235805061"></a><a name="_Toc244854750"></a><a name="_Toc245101458"></a><a name="_Toc245189527"></a><a name="_Toc245367572"></a><a name="_Toc245461032"></a><a name="_Toc245461085"></a>Substituting A Destination-Based Cash Flow Tax  </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A variation of the previous options is to substitute a destination-based cash flow tax (DBCFT). Such a proposal has recently been made in a Brookings Institution study.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='William G. Gale et al. , " Corporate Tax Reform In The Wake Of The 2025 Tax Law: Completing The Shift To A Corporate Cash-Flow Tax , " The Hamilton Project, June 16, 2026, https://www.hamiltonproject.org/publication/policy-proposal/corporate-tax-reform-in-the-wake-of-the-2025-tax-law-completing-the-shift-to-a-corporate-cash-flow-tax/  .'>21</a></sup> A proposal for a DBCFT was included in the Better Way Tax Reform Task Force Blueprint proposed by then-House Speaker Paul Ryan in 2016.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='See CRS Report R44823, The "Better Way" House Tax Plan: An Economic Analysis , by Jane G. Gravelle for a discussion.'>22</a></sup> A destination-based tax is designed to apply the tax only to domestic consumption, so the tax is imposed on imports and rebated on exports. This aspect of the tax created concerns from businesses relying on imports, although any effect on import or export prices should be eliminated by exchange rate adjustments.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="CRS In Focus IF10583, Border-Adjusted Taxes: A Primer , by Jane G. Gravelle , and CRS Report R44821, Border-Adjusted Consumption Taxes and Exchange Rate Movements: Theory and Evidence , by Grant A. Driessen and Mark P. Keightley .">23</a></sup> Imposing the tax only on production that is for domestic consumption would eliminate incentives to shift production abroad. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244101"></a><a name="_Toc234412402"></a><a name="_Toc234914698"></a><a name="_Toc235805062"></a><a name="_Toc244854751"></a><a name="_Toc245101459"></a><a name="_Toc245189528"></a><a name="_Toc245367573"></a><a name="_Toc245461033"></a><a name="_Toc245461086"></a>Disallowing Deductions For The Inflation Portion of Interest</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A narrower provision to reduce the favoritism to debt is to disallow a deduction for the portion of interest that reflects inflation. For example, if the interest rate is 6% and the inflation rate is 2%, one-third of deductions would be disallowed. An alternative method would be to include the gain from repaying debt in cheaper dollars, which has the same effect. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244102"></a><a name="_Toc234412403"></a><a name="_Toc234914699"></a><a name="_Toc235805063"></a><a name="_Toc244854752"></a><a name="_Toc245101460"></a><a name="_Toc245189529"></a><a name="_Toc245367574"></a><a name="_Toc245461034"></a><a name="_Toc245461087"></a>Revisions In The International Tax Regime </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It appears that additional tax on U.S.-source income from tangible investments abroad is not justified on efficiency grounds because the countries where the most tangible investment is located have higher METRs than those imposed on U.S. investment. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The main issue remaining that could be addressed by tax changes is profit shifting. Perhaps the most significant change that could address this issue is to apply the foreign tax credit on a country-by-country basis. This would prevent unused credits in high-tax jurisdictions from offsetting U.S. tax on low- or no-tax countries, where most profit shifting occurs. This change, along with full taxation of income of foreign subsidiaries, would also allow the elimination of the deduction for foreign-derived intangible income from intangibles in the United States. Another change to address profit shifting could allocate worldwide debt to each location depending on its share of assets or income. These provisions would raise revenues.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 119<sup>th</sup> Congress, the No Breaks For Outsourcing Act, <a class="ExternalLink" href="http://www.congress.gov/bill/119/s/409"><span class="Hyperlink">S. 409</span></a> and <a class="ExternalLink" href="http://www.congress.gov/bill/119/hr/995"><span class="Hyperlink">H.R. 995</span></a>, would address profit shifting by (1) taxing CFC income at the full rate, (2) imposing a per-country foreign tax credit limit, and (3) allocating interest based of the share of earnings before taxes, interest, depreciation, and amortization. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The bill would also make changes to inversions, where a U.S. firm generally merges with a foreign firm and the foreign location becomes the parent location.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="For a discussion of inversions see CRS Report R43568, Corporate Expatriation, Inversions, and Mergers: Tax Issues , by Donald J. Marples and Jane G. Gravelle .">24</a></sup> Currently, if the firm is 80% owned by the former U.S. company shareholders, it will be treated as a domestic firm, and if it is 60% to 80% owned, it will be limited in the deductions and credits it can take against U.S. income. The bill would change the 80% limit to 60% and the 60% limit to 50%. It would also treat firms managed and controlled in the United States as domestic firms. These anti-inversion rules are also proposed in <a class="ExternalLink" href="http://www.congress.gov/bill/119/s/3847"><span class="Hyperlink">S. 3847</span></a> and <a class="ExternalLink" href="http://www.congress.gov/bill/119/hr/7493"><span class="Hyperlink">H.R. 7493</span></a>.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One of the significant anti-inversion provisions enacted in 2017 is scheduled to end in 2027. This provision taxes unrepatriated accumulated gains at 35% rather than 8% and 15% for firms that inverted after the 2017 tax revision.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244103"></a><a name="_Toc234412404"></a><a name="_Toc234914700"></a><a name="_Toc235805064"></a><a name="_Toc244854753"></a><a name="_Toc245101461"></a><a name="_Toc245189530"></a><a name="_Toc245367575"></a><a name="_Toc245461035"></a><a name="_Toc245461088"></a>Tax Treatment of Intangible Investments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Intangible investments include those in research, human capital, advertising, computer software, and artistic and literary works (movies, television, sound recordings). Most of these intangible investments are expensed, although sound recordings are subject to a dollar limit and investments in literary works must be recovered over time based on income forecasts. Investments in research are also eligible for a research tax credit. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although these are all intangible investments, efficiency justifications vary. There is a case, some can argue, for subsidizing investments in research because these investments are estimated to provide spillover effects for the rest of the economy that are large relative to current tax subsidies. Thus, Congress might consider retaining expensing and simplifying and increasing the credit.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="For a discussion, see CRS Report R48848, The Federal Research and Development (R&amp;D) Tax Credit , by Jane G. Gravelle and Mark P. Keightley .">25</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Similar justifications generally do not appear for other intangible investments. In the case of advertising, there have been proposals over the years to capitalize these expenditures and deduct them over time. The Congressional Budget Office included a proposal in its budget options to amortize (deduct in equal amounts per year) half of advertising expenditures over 5 or 10 years.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="Congressional Budget Office, Options for Reducing the Deficit: 2025 to 2034 , December 12, 2024, https://www.cbo.gov/publication/60557 .">26</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244104"></a><a name="_Toc234412405"></a><a name="_Toc234914701"></a><a name="_Toc235805065"></a><a name="_Toc244854754"></a><a name="_Toc245101462"></a><a name="_Toc245189531"></a><a name="_Toc245367576"></a><a name="_Toc245461036"></a><a name="_Toc245461089"></a>Other Corporate Tax Expenditures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Special provisions for measuring corporate income are listed in tax expenditure lists, including a list compiled by the Joint Committee on Taxation.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="Joint Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2025-2029 , December 23, 2025, https://www.jct.gov/publications/2025/jcx-45-25/  .">27</a></sup> Most of the largest tax expenditures have already been discussed (international, research, accelerated depreciation, and expensing). One significant remaining one is the low-income housing credit, the major program for expanding the supply of affordable housing, estimated to cost $14.8 billion in FY2026.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="See CRS Report RS22389, An Introduction to the Low-Income Housing Tax Credit , by Mark P. Keightley .">28</a></sup> Many economists suggest that providing tenant subsidies would be a more effective method of providing affordable housing.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="CRS In Focus IF11335, The Low-Income Housing Tax Credit: Policy Issues , by Mark P. Keightley .">29</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Other tax expenditures that Congress might consider are the exemption of tax for credit unions and several provisions that reduce the taxation of insurance company income.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc234244105"></a><a name="_Toc234412406"></a><a name="_Toc234914702"></a><a name="_Toc235805066"></a><a name="_Toc244854755"></a><a name="_Toc245101463"></a><a name="_Toc245189532"></a><a name="_Toc245367577"></a><a name="_Toc245461037"></a><a name="_Toc245461090"></a>Taxing Large Partnerships As Corporations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Owing in part to changes in state law that allowed the creation of large limited-liability corporations that did not meet the standards for being taxed as corporations, very large partnerships are not subject to the corporate tax. Taxing these partnerships as corporations would bring the tax treatment of large, multiple-investor enterprises closer together. Similarly, because of increases in the numbers of shareholders allowed for S Corporations that elect partnership treatment, some of these enterprises are large. A recent study proposed treating partnerships and S corporations with gross receipts over $25 million as corporations.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='Miles Johnson et al. , " Toward A Uniform Business Tax System: Examining Proposals To Tax Large Pass-Through Entities As Corporations , " Brookings Institution, June 16, 2026, https://www.brookings.edu/articles/toward-a-uniform-business-tax-system-examining-proposals-to-tax-large-pass-through-entities-as-corporations/  .'>30</a></sup> Large real estate investment trusts (REITs) might also be considered for this treatment.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, see projections at <a class="ExternalLink" href="https://www.cbo.gov/data/budget-economic-data#3"><span class="Hyperlink">https://www.cbo.gov/data/budget-economic-data#3</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Profits rose from 5% of GDP to 9.2% of GDP, according to the Federal Reserve Bank of St. Louis, "Shares of gross domestic income: Corporate profits with inventory valuation and capital consumption adjustments, domestic industries: Profits after tax with inventory valuation and capital consumption adjustments," FRED, <a class="ExternalLink" href="https://fred.stlouisfed.org/series/W273RE1A156NBEA"><span class="Hyperlink">https://fred.stlouisfed.org/series/W273RE1A156NBEA</span></a>. This implies a relatively high effective tax rate in 1951, although profits can differ from taxable income for a variety of reasons. Much of this increase was offset by Subchapter S corporations (corporations that elect to be taxed as partnerships), which did not exist in 1951 but accounted for about 22% of corporate net income in 2023, according to Internal Revenue Service (IRS) Statistics of Income data, <a class="ExternalLink" href="https://www.irs.gov/statistics"><span class="Hyperlink">https://www.irs.gov/statistics</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report RS21706, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS21706"><em><span class="Hyperlink">Historical Effective Marginal Tax Rates on Capital Income</span></em></a>, by Jane G. Gravelle, for earlier estimates. Current estimates are based on the CRS Marginal Effective Tax Rate Model as described in CRS Report R48277, <a class="ExternalLink" href="http://www.crs.gov/Reports/pdf/R48277"><em><span class="Hyperlink">CRS Model Estimates of Marginal Effective Tax Rates on Investment Under Current Law</span></em></a>, by Mark P. Keightley and Jane G. Gravelle. The 63% rate may be slightly overstated because that rate does not capture the effect of intangible investments. Intangible investments were taxed at zero (but not at negative rates because there was no research tax credit). If the share of intangibles were the same as it is currently (23%), the tax rate in 1953 would have been 57%; however, intangibles were likely less important at that time. These tax rates are for equity investments.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Even the current corporate tax has raised issues of using corporations as a tax shelter because the rate is significantly below the top individual rate. See Adam Looney, "The Next Tax Shelter For Wealthy Americans: C-corporations," Brookings Institution, November 30, 2017, <a class="ExternalLink" href="https://www.brookings.edu/articles/the-next-tax-shelter-for-wealthy-americans-c-corporations/"><span class="Hyperlink">https://www.brookings.edu/articles/the-next-tax-shelter-for-wealthy-americans-c-corporations/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tax Policy Center, "What Are Pass-Through Businesses?," updated January 2024, <a class="ExternalLink" href="https://taxpolicycenter.org/briefing-book/what-are-pass-through-businesses"><span class="Hyperlink">https://taxpolicycenter.org/briefing-book/what-are-pass-through-businesses</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Based on IRS Statistics of Income data in "Table 1: All Partnerships: Total Assets, Trade or Business Income and Deductions, Portfolio Income, Rental Income, and Total Net Income (Loss), by Industrial Group," <a class="ExternalLink" href="https://www.irs.gov/statistics/soi-tax-stats-partnership-statistics-by-sector-or-industry"><span class="Hyperlink">https://www.irs.gov/statistics/soi-tax-stats-partnership-statistics-by-sector-or-industry</span></a>; "Table 2.3: Returns of Active Corporations, other than Forms 1120S, 1120-REIT, and 1120-RIC, Balance Sheet, Income Statement, and Selected Other Items," and "Table 2.4: Returns of Active Corporations, Form 1120S, Balance Sheet, Income Statement, and Selected Other Items," <a class="ExternalLink" href="https://www.irs.gov/statistics/soi-tax-stats-corporation-income-tax-returns-complete-report-publication-16"><span class="Hyperlink">https://www.irs.gov/statistics/soi-tax-stats-corporation-income-tax-returns-complete-report-publication-16</span></a>; and data on rents, royalties, and income from business and profession from "All Returns: Sources of Income, Adjustments Deductions and Exemptions, and Tax Items. Published as: Individual Complete Report (Publication 1304), Table 1.4," <a class="ExternalLink" href="https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income"><span class="Hyperlink">https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The law lowered the top rate to 15%, although subsequent legislation taxed very high-income individuals' dividends and capital gains at 20%. In addition, a 3.8% additional tax was enacted in 2010, applying to dividends and capital gains beginning in 2013.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The deduction is phased out at high income levels for personal service businesses. For other businesses, the phaseout is limited to a share of wages or a combination of wages and depreciable assets. See CRS In Focus IF13321, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF13321"><em><span class="Hyperlink">Estimated Effects on Effective Tax Rates and Revenues of Increasing the 199A Deduction for Pass-Through Businesses</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The 3.8% additional tax on high-income individuals applies to all earnings of proprietors and general partners, because they are classified as labor income for purposes of the payroll tax, as well as the labor share of income in any other unincorporated business. Active participants in Subchapter S firms with a small amount of labor income could have lower taxes in the Subchapter S form, approaching the ordinary income tax rate. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In the long run, the return to investment is in the form of consumption of the goods produced in the foreign versus domestic country, so this willingness to consume foreign products ultimately affects capital flows.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A meta-analysis (one that combines numerous studies and estimates) indicates elasticities of around 0.6 and 0.7. See Michael Knoblach, et al., "The Elasticity of Factor Substitution Between Capital and Labor in the U.S. Economy: A Meta-Regression Analysis," September 2016, <a class="ExternalLink" href="https://www.econstor.eu/bitstream/10419/146770/1/CEPIE_WP_03_2016.pdf"><span class="Hyperlink">https://www.econstor.eu/bitstream/10419/146770/1/CEPIE_WP_03_2016.pdf</span></a>. However, one recent study indicates that the econometric techniques used tend to bias the results downward. Thomas Von Brasch et al., "Identifying The Elasticity Of Substitution Between Capital and Labour: A Pooled GMM Panel Estimator," Discussion Paper 976, ZBW, 2022, <a class="ExternalLink" href="https://www.econstor.eu/bitstream/10419/268052/1/1796245917.pdf"><span class="Hyperlink">https://www.econstor.eu/bitstream/10419/268052/1/1796245917.pdf</span></a>. In an artificially constructed dataset where the substitution elasticity is set at 1.5, the standard estimator yielded an estimate of 0.6. That study suggests that the factor substitution elasticity may be above 1.0.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A meta-analysis of the elasticity of substitution of foreign direct investment found a median semi-elasticity (elasticity with respect to a percentage point rate change) of 3.2. See Ruud de Mooij and Sjef Ederveen, "Taxation and Foreign Direct Investment: A Synthesis of Empirical Research," <em>International Tax and Public Finance</em>, vol. 10 (2003), pp. 673-693. Because elasticities are with respect to the after-tax return, this number should be multiplied by (1-t), where t is the tax rate; given a tax rate around 25%, the elasticity would be about 2.5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jane G. Gravelle and Kent A. Smetters, "Does the Open Economy Assumption Really Mean That Labor Bears the Burden of a Capital Income Tax?," <em>Advances in Economic Analysis and Policy</em>, vol. 6, no. 1 (August 2006), pp. 1-44.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R48092, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48092"><em><span class="Hyperlink">Can Tax Policy Increase Saving?</span></em></a>, by Jane G. Gravelle and Donald J. Marples.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R48485, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48485"><em><span class="Hyperlink">Economic Effects of the Tax Cuts and Jobs Act</span></em></a>, by Jane G. Gravelle and Donald J. Marples.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Corporate tax rate from Tax Foundation, "Corporate Income Tax Rates around the World, 2017," September 7, 2017, <a class="ExternalLink" href="https://taxfoundation.org/data/all/global/corporate-income-tax-rates-around-the-world-2017/"><span class="Hyperlink">https://taxfoundation.org/data/all/global/corporate-income-tax-rates-around-the-world-2017/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The issues of efficiency in international taxation are discussed in greater detail in CRS Report RL34115, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34115"><em><span class="Hyperlink">Reform of U.S. International Taxation: Alternatives</span></em></a>, by Jane G. Gravelle.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The 2017 law allowed a 50% reduction on global intangible low-tax income (GILTI) and focused on intangible income by allowing a deduction for 10% of tangible assets as a proxy for the return on tangible investment. The system also allowed a deduction for part of the estimated earnings from foreign sources attributed to intangible assets owned in the United States (foreign-derived intangible income or FDII), to largely eliminate the difference in taxes on foreign-source income from intangible assets held in the United States or abroad. A foreign tax credit was allowed against this tax for 80% of foreign taxes paid. However, in addition to these exclusions, profits earned in low-tax countries could also be shielded from any U.S. tax by foreign tax credits from taxes paid in high-tax countries. While the credit against U.S. income for foreign taxes paid is limited to the U.S. tax due, the limit is applied on a worldwide basis, which allows for cross crediting. The 2025 reconciliation law (<a class="ExternalLink" href="https://www.congress.gov/law/119/pub/21"><span class="Hyperlink">P.L. 119-21</span></a>) made some changes to these regimes (see CRS In Focus IF13069, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF13069"><em><span class="Hyperlink">Changes To International Tax Provisions in P.L. 119-21, the FY2025 Reconciliation Law</span></em></a>, by Jane G. Gravelle). The deductions for GILTI and FDII were scheduled to be reduced in 2026, and the legislation reduced the reduction in the deduction, so that the deduction for GILTI was 40% rather than 50% and the deduction for FDII was 33.4% rather than 37.5%. The deduction for tangible assets was eliminated and the amount of foreign taxes that could be credited was increased to 90%. The overall limit on the foreign tax credit was not changed, and the system continues to allow cross crediting. The legislation also renamed GILTI to the tax on Net Controlled Foreign Corporation Tested Income (NCTI) and FDII to the tax on Foreign-Derived Deduction-Eligible Income (FDDEI).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS In Focus IF11874, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11874"><em><span class="Hyperlink">International Tax Proposals Addressing Profit Shifting: Pillars 1 and 2</span></em></a>, by Jane G. Gravelle. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style="">Alexander Arnon and Zheli He, "Effective Tax Rates on U.S. Multinationals' Foreign Income under Proposed Changes by House Ways and Means and the OECD," Penn Wharton Budget Model, September 28, 2021, <a class="ExternalLink" href="https://budgetmodel.wharton.upenn.edu/p/2021-09-28-effective-tax-rates-on-us-multinationals-foreign-income/"><span class="Hyperlink">https://budgetmodel.wharton.upenn.edu/p/2021-09-28-effective-tax-rates-on-us-multinationals-foreign-income/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style="">  William G. Gale et al., "Corporate Tax Reform In The Wake Of The 2025 Tax Law: Completing The Shift To A Corporate Cash-Flow Tax," The Hamilton Project, June 16, 2026, <a class="ExternalLink" href="https://www.hamiltonproject.org/publication/policy-proposal/corporate-tax-reform-in-the-wake-of-the-2025-tax-law-completing-the-shift-to-a-corporate-cash-flow-tax/"><span class="Hyperlink">https://www.hamiltonproject.org/publication/policy-proposal/corporate-tax-reform-in-the-wake-of-the-2025-tax-law-completing-the-shift-to-a-corporate-cash-flow-tax/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R44823, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44823"><em><span class="Hyperlink">The "Better Way" House Tax Plan: An Economic Analysis</span></em></a>, by Jane G. Gravelle for a discussion. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS In Focus IF10583, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10583"><em><span class="Hyperlink">Border-Adjusted Taxes: A Primer</span></em></a>, by Jane G. Gravelle, and CRS Report R44821, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44821"><em><span class="Hyperlink">Border-Adjusted Consumption Taxes and Exchange Rate Movements: Theory and Evidence</span></em></a>, by Grant A. Driessen and Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a discussion of inversions see CRS Report R43568, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43568"><em><span class="Hyperlink">Corporate Expatriation, Inversions, and Mergers: Tax Issues</span></em></a>, by Donald J. Marples and Jane G. Gravelle.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a discussion, see CRS Report R48848, <a class="ExternalLink" href="http://www.crs.gov/Reports/R48848"><em><span class="Hyperlink">The Federal Research and Development (R&amp;D) Tax Credit</span></em></a>, by Jane G. Gravelle and Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congressional Budget Office, <em>Options for Reducing the Deficit: 2025 to 2034</em>, December 12, 2024, <a class="ExternalLink" href="https://www.cbo.gov/publication/60557"><span class="Hyperlink">https://www.cbo.gov/publication/60557</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joint Committee on Taxation, <em>Estimates Of Federal Tax Expenditures For Fiscal Years 2025-2029</em>, December 23, 2025, <a class="ExternalLink" href="https://www.jct.gov/publications/2025/jcx-45-25/"><span class="Hyperlink">https://www.jct.gov/publications/2025/jcx-45-25/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report RS22389, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS22389"><em><span class="Hyperlink">An Introduction to the Low-Income Housing Tax Credit</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS In Focus IF11335, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11335"><em><span class="Hyperlink">The Low-Income Housing Tax Credit: Policy Issues</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Miles Johnson et al., "Toward A Uniform Business Tax System: Examining Proposals To Tax Large Pass-Through Entities As Corporations," Brookings Institution, June 16, 2026, <a class="ExternalLink" href="https://www.brookings.edu/articles/toward-a-uniform-business-tax-system-examining-proposals-to-tax-large-pass-through-entities-as-corporations/"><span class="Hyperlink">https://www.brookings.edu/articles/toward-a-uniform-business-tax-system-examining-proposals-to-tax-large-pass-through-entities-as-corporations/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

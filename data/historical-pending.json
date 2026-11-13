@@ -6,82 +6,6 @@
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
-        "date": "2017-10-31",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45004",
-            "sha1": "2cf0e6ee530ca32b4a12770470ff13e6f5427010",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20171031_R45004_2cf0e6ee530ca32b4a12770470ff13e6f5427010.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45004",
-            "sha1": "c996053338562197037469acb11573c3f3dfbe63",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20171031_R45004_c996053338562197037469acb11573c3f3dfbe63.pdf"
-            ]
-          }
-        },
-        "id": "R45004",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R45004",
-          "http://www.crs.gov/Reports/pdf/R45004"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "575026",
-        "title": "Presidential Appointments to Full-Time Positions in Executive Departments During the 114th Congress",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2017-11-08",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45014",
-            "sha1": "2041d5c12d842a93e7e587595425030fc0dbf22a",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20171108_R45014_2041d5c12d842a93e7e587595425030fc0dbf22a.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45014",
-            "sha1": "5e93c2ae9a29d8d7bd33af116ec24a8deec97098",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20171108_R45014_5e93c2ae9a29d8d7bd33af116ec24a8deec97098.pdf"
-            ]
-          }
-        },
-        "id": "R45014",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R45014",
-          "http://www.crs.gov/Reports/pdf/R45014"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "585862",
-        "title": "Government Printing, Publications, and Digital Information Management: Issues and Challenges",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "4",
         "date": "2017-11-28",
         "formats": {
           "HTML": {
@@ -9500,6 +9424,53 @@
       "next_retry": "2026-11-14",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
       "task": {
+        "api_version": "207",
+        "date": "2026-09-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "98-684",
+            "sha1": "d36be346b685e0b1286d9f5b9daf46007836a312",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/HTML/98-684.web.html",
+              "https://www.everycrsreport.com/files/2026-09-09_98-684_d36be346b685e0b1286d9f5b9daf46007836a312.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "98-684",
+            "sha1": "d6ef3e19147c29ab9106b03f6f522b224b7a8a10",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/PDF/98-684/98-684.227.pdf",
+              "https://www.everycrsreport.com/files/2026-09-09_98-684_d6ef3e19147c29ab9106b03f6f522b224b7a8a10.pdf"
+            ]
+          }
+        },
+        "id": "98-684",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-13T12:42:01Z",
+        "required_by_recent_update": false,
+        "source_record": "98-684_A227_2026-09-09",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-09-09",
+          "id": "98-684",
+          "official_pdf_sha256": "14439655ec5a133c9c0e8866f0ed99109f6fd470f8d556f83502eb97a622f91f",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/RS/PDF/98-684/98-684.227.pdf",
+          "official_publication": "2026-10-30",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Latin America and the Caribbean: Fact Sheet on Leaders and Elections",
+        "version": "227"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-14",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
         "api_version": "5",
         "date": "2020-04-13",
         "formats": {
@@ -9539,6 +9510,52 @@
         },
         "title": "Nuclear Waste Storage Sites in the United States",
         "version": "5"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-14",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "2",
+        "date": "2024-10-28",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48248",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-10-28_R48248_715bd326dc80b11fab9b09db01b16d8bebb3a89f.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48248",
+            "sha1": "715bd326dc80b11fab9b09db01b16d8bebb3a89f",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R48248/1",
+              "https://www.everycrsreport.com/files/2024-10-28_R48248_715bd326dc80b11fab9b09db01b16d8bebb3a89f.pdf"
+            ]
+          }
+        },
+        "id": "R48248",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-13T12:41:19Z",
+        "required_by_recent_update": false,
+        "source_record": "R48248_1_2024-10-28",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-10-28",
+          "id": "R48248",
+          "official_pdf_sha256": "bbd757350e99d09c1b2246c3c0a067fb536b438b86b3fde359468bf1504fbdf9",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48248/R48248.3.pdf",
+          "official_publication": "2026-11-09",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief",
+        "version": "1"
       }
     },
     {
