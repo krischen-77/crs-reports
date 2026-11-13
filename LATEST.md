@@ -1,3 +1,5 @@
+**Official-current verification: 82/82. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-06 to 2026-11-13**. Older archived files are retained.
@@ -11,6 +13,7 @@ Publication-date window (inclusive): **2026-11-06 to 2026-11-13**. Older archive
 | 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
 | 2026-11-12 | IF11201 v6 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.pdf) | [Markdown](markdown/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.md) |
 | 2026-11-10 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v29-2026-11-10-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2026-11-10-97b460804175e3ce.md) |
+| 2026-11-10 | RL30567 v32 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v32-2026-11-10-c7b1bd4e83daec55.pdf) | [Markdown](markdown/reports/RL30567v32-2026-11-10-c7b1bd4e83daec55.md) |
 | 2026-11-10 | R49515 v2 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v2-2026-11-10-215bcc02e4cbea82.pdf) | [Markdown](markdown/reports/R49515v2-2026-11-10-215bcc02e4cbea82.md) |
 | 2026-11-10 | R49515 v1 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v1-2026-11-10-9a76e338985ddfcb.pdf) | [Markdown](markdown/reports/R49515v1-2026-11-10-9a76e338985ddfcb.md) |
 | 2026-11-10 | R49514 v2 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v2-2026-11-10-273a6c8951393abd.pdf) | [Markdown](markdown/reports/R49514v2-2026-11-10-273a6c8951393abd.md) |
@@ -58,7 +61,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
 | 2026-11-13 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
-| 2026-11-13 | 2024-11-06 | R48255 v1 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v1-2024-11-06-f42d4a16fd0c4c5b.pdf) | [Markdown](markdown/reports/R48255v1-2024-11-06-f42d4a16fd0c4c5b.md) |
+| 2026-11-13 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
 | 2026-11-13 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
 | 2026-11-13 | 2026-10-30 | 98-684 v227 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v227-2026-10-30-14439655ec5a133c.pdf) | [Markdown](markdown/reports/98-684v227-2026-10-30-14439655ec5a133c.md) |

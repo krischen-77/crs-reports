@@ -1,12 +1,17 @@
 # Official current CRS files
 
-Checked: 2026-11-13T15:33:27.481580+00:00. Official current entries verified: **77/78**.
+Checked: 2026-11-13T17:56:27.443768+00:00. Official current entries verified: **82/82**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
-| 2026-11-13 | 2026-11-03 | IF10545 v18 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.pdf) | [Markdown](markdown/in-focus/IF10545v18-2026-11-03-f5a331d6821434ff.md) |
+| 2026-11-13 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
+| 2026-11-13 | 2026-10-30 | 98-684 v227 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v227-2026-10-30-14439655ec5a133c.pdf) | [Markdown](markdown/reports/98-684v227-2026-10-30-14439655ec5a133c.md) |
+| 2026-11-13 | 2026-11-13 | R49516 v1 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v1-2026-11-13-3be64129d62efd48.pdf) | [Markdown](markdown/reports/R49516v1-2026-11-13-3be64129d62efd48.md) |
+| 2026-11-13 | 2026-11-10 | RL30567 v32 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v32-2026-11-10-c7b1bd4e83daec55.pdf) | [Markdown](markdown/reports/RL30567v32-2026-11-10-c7b1bd4e83daec55.md) |
+| 2026-11-13 | 2026-11-09 | R48248 v3 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v3-2026-11-09-bbd757350e99d09c.pdf) | [Markdown](markdown/reports/R48248v3-2026-11-09-bbd757350e99d09c.md) |
+| 2026-11-13 | 2026-11-13 | IF10545 v19 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.pdf) | [Markdown](markdown/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.md) |
 | 2026-11-13 | 2026-11-10 | R43743 v32 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v32-2026-11-10-826a49a9ed776cdb.pdf) | [Markdown](markdown/reports/R43743v32-2026-11-10-826a49a9ed776cdb.md) |
 | 2026-11-13 | 2026-11-10 | R43744 v48 | Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works | [PDF](pdf/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.pdf) | [Markdown](markdown/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.md) |
 | 2026-11-13 | 2026-11-12 | IF11201 v6 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.pdf) | [Markdown](markdown/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.md) |
@@ -19,7 +24,6 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-13 | 2026-11-12 | R47044 v4 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.pdf) | [Markdown](markdown/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.md) |
 | 2026-11-13 | 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
 | 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
-| 2026-11-13 | 2026-11-10 | RL30567 v? | Party Leaders in the United States Congress, 1789-2025 | UNVERIFIED | [Supplementary API summary; not original](metadata/official-api-text/RL30567-78757eb9689aa7ed11b6.md) |
 | 2026-11-11 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-11 | 2026-11-10 | R48918 v9 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v9-2026-11-10-3094973c5bb47405.pdf) | [Markdown](markdown/reports/R48918v9-2026-11-10-3094973c5bb47405.md) |
 | 2026-11-11 | 2023-05-08 | RL33931 v40 | The Corporation for National and Community Service: Overview of Programs and Funding | [PDF](pdf/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.pdf) | [Markdown](markdown/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.md) |
