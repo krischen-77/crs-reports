@@ -1,130 +1,17 @@
 {
-  "api_remaining_quota": 0,
-  "api_requests": 10,
+  "api_remaining_quota": 9,
+  "api_requests": 1,
   "candidate_report_ids": 81,
-  "checked_at": "2026-11-14T02:29:14.774174+00:00",
+  "checked_at": "2026-11-14T02:38:09.709160+00:00",
   "end": "2026-11-14",
-  "finished_at": "2026-11-14T02:31:48.629377+00:00",
+  "finished_at": "2026-11-14T02:41:02.895007+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "43546526307",
+  "github_run_id": "43547355874",
   "invalid_files": [],
-  "missing": [
-    {
-      "id": "98-684",
-      "markdown": [],
-      "notices": [],
-      "official_pdf_url": "https://www.congress.gov/crs_external_products/RS/PDF/98-684/98-684.228.pdf",
-      "original_format": "PDF",
-      "original_paths": [],
-      "original_url": "https://www.congress.gov/crs_external_products/RS/PDF/98-684/98-684.228.pdf",
-      "pdf": [],
-      "scope": "official current",
-      "sha256": "adeeda63a4642870ecf5b0ea4645f87f5592bbc64cf96d3c53c665444e49bb75",
-      "title": "Latin America and the Caribbean: Fact Sheet on Leaders and Elections",
-      "verified": false,
-      "version": "228"
-    },
-    {
-      "id": "IF11105",
-      "markdown": [],
-      "notices": [],
-      "official_pdf_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF11105/IF11105.15.pdf",
-      "original_format": "PDF",
-      "original_paths": [],
-      "original_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF11105/IF11105.15.pdf",
-      "pdf": [],
-      "scope": "official current",
-      "sha256": "b2783a7219b7ded9e8b0adbafbcec345b3b74d89c755bee762a001441516d049",
-      "title": "Defense Primer: Emerging Technologies",
-      "verified": false,
-      "version": "15"
-    },
-    {
-      "id": "IF12938",
-      "markdown": [],
-      "notices": [],
-      "official_pdf_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF12938/IF12938.4.pdf",
-      "original_format": "PDF",
-      "original_paths": [],
-      "original_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF12938/IF12938.4.pdf",
-      "pdf": [],
-      "scope": "official current",
-      "sha256": "164f5795e3b2671a87dbf705f213894e0012822e03c4ac7d22e35c3e3ac64102",
-      "title": "U.S. Satellite Capabilities for Tracking the Wildfire Life Cycle",
-      "verified": false,
-      "version": "4"
-    },
-    {
-      "id": "IF13346",
-      "markdown": [],
-      "notices": [],
-      "official_pdf_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF13346/IF13346.3.pdf",
-      "original_format": "PDF",
-      "original_paths": [],
-      "original_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF13346/IF13346.3.pdf",
-      "pdf": [],
-      "scope": "official current",
-      "sha256": "edcd66c878019019167bf586869d24b1248ff5ee1af4abb9f805474480d097a7",
-      "title": "AI Investment and the U.S. Economy",
-      "verified": false,
-      "version": "3"
-    },
-    {
-      "id": "IF13348",
-      "markdown": [],
-      "notices": [],
-      "official_pdf_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF13348/IF13348.1.pdf",
-      "original_format": "PDF",
-      "original_paths": [],
-      "original_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF13348/IF13348.1.pdf",
-      "pdf": [],
-      "scope": "official current",
-      "sha256": "f1858990ede786d0f400b513dd7a3f260995fd8e8bdd55e38b3f1855943f1d79",
-      "title": "Offshore Energy Agency Appropriations, FY2027",
-      "verified": false,
-      "version": "1"
-    }
-  ],
-  "notices": [
-    {
-      "id": "98-684",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF10545",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF11105",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF11201",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF12938",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF13343",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF13346",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IF13348",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    },
-    {
-      "id": "IN12550",
-      "note": "Live signal changed or cached detail expired; official formats re-resolved before byte comparison"
-    }
-  ],
+  "missing": [],
+  "notices": [],
   "official_current_ids": 81,
-  "result": "failed",
+  "result": "verified_for_observed_sources",
   "scope": "Live official current originals and recent mirror-only discoveries; PDF or advertised HTML bytes independently redownloaded and compared. Derived PDF paths require matching live currentVersion, embedded report ID/revision and title. Mirror-only metadata exceptions are not counted as official-current declarations.",
   "sources": {
     "mirror_catalog": {
@@ -139,57 +26,10 @@
   "start": "2026-11-07",
   "supplementary_api_scope": "API summaries are independently compared separately and never counted as PDF/HTML originals; original failures remain unverified.",
   "supplementary_api_summaries_verified": 0,
-  "total_archive_versions": 879,
+  "total_archive_versions": 893,
   "total_html_original_versions": 0,
-  "unverified": [
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "LSB11499"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R43743"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R43744"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R46925"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R47044"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R48248"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R48255"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R48931"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R49515"
-    },
-    {
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "R49516"
-    },
-    {
-      "api_summary_independently_verified": false,
-      "error": "RuntimeError: Congress API remaining quota is zero; defer without another request",
-      "id": "RL30567"
-    }
-  ],
+  "unverified": [],
   "verified_current_html_files": 0,
-  "verified_current_original_files": 65,
-  "verified_current_pdf_files": 65,
-  "last_successful_finished_at": "2026-11-10T04:23:07.013856+00:00"
+  "verified_current_original_files": 81,
+  "verified_current_pdf_files": 81
 }
