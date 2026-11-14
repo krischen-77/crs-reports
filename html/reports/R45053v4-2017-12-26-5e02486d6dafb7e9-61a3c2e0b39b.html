@@ -1,0 +1,1994 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R45053.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">The Federal Tax System for the 2017 Tax Year</div>
+<div class="CoverDate">Updated December 26, 2017
+            (R45053)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc502242226"><span class="Hyperlink">The Federal Income Tax System</span></a></li>
+<li class="TOC2"><a href="#_Toc502242227"><span class="Hyperlink">The Individual Income Tax</span></a></li>
+<li class="TOC3"><a href="#_Toc502242228"><span class="Hyperlink">Gross Income and Adjustments</span></a></li>
+<li class="TOC3"><a href="#_Toc502242229"><span class="Hyperlink">Exemptions and Deductions</span></a></li>
+<li class="TOC3"><a href="#_Toc502242230"><span class="Hyperlink">Tax Rates</span></a></li>
+<li class="TOC3"><a href="#_Toc502242231"><span class="Hyperlink">Net Investment Income</span></a></li>
+<li class="TOC3"><a href="#_Toc502242232"><span class="Hyperlink">Tax Credits</span></a></li>
+<li class="TOC3"><a href="#_Toc502242233"><span class="Hyperlink">Alternative Minimum Tax</span></a></li>
+<li class="TOC2"><a href="#_Toc502242234"><span class="Hyperlink">The Corporate Income Tax</span></a></li>
+<li class="TOC3"><a href="#_Toc502242235"><span class="Hyperlink">Corporate Income Earned Abroad</span></a></li>
+<li class="TOC2"><a href="#_Toc502242236"><span class="Hyperlink">Social Insurance and Retirement Payroll Taxes</span></a></li>
+<li class="TOC2"><a href="#_Toc502242237"><span class="Hyperlink">Estate and Gift Taxes</span></a></li>
+<li class="TOC2"><a href="#_Toc502242238"><span class="Hyperlink">Excise Taxes</span></a></li>
+<li class="TOC1"><a href="#_Toc502242239"><span class="Hyperlink">Tax Statistics</span></a></li>
+<li class="TOC2"><a href="#_Toc502242240"><span class="Hyperlink">Taxes as a Share of the Economy</span></a></li>
+<li class="TOC2"><a href="#_Toc502242241"><span class="Hyperlink">Composition of Tax Revenue</span></a></li>
+<li class="TOC2"><a href="#_Toc502242242"><span class="Hyperlink">The Distribution of the Tax Burden</span></a></li>
+<li class="TOC2"><a href="#_Toc502242243"><span class="Hyperlink">International Comparisons</span></a></li>
+<li class="TOC1"><a href="#_Toc502242244"><span class="Hyperlink">Concluding Remarks</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc502242209"><span class="Hyperlink">Figure 1. Tax Returns Claiming Standard and Itemized Deductions, 1990-2015</span></a></li>
+<li><a href="#_Toc502242210"><span class="Hyperlink">Figure 2. Tax Returns Claiming Standard and Itemized Deductions, 1990-2015</span></a></li>
+<li><a href="#_Toc502242211"><span class="Hyperlink">Figure 3. Tax Returns and AGI by Statutory Tax Rate</span></a></li>
+<li><a href="#_Toc502242212"><span class="Hyperlink">Figure 4. Visualization of the U.S. Individual Income Tax System</span></a></li>
+<li><a href="#_Toc502242213"><span class="Hyperlink">Figure 5. C Corporation Shares of Net Income and Business Returns</span></a></li>
+<li><a href="#_Toc502242214"><span class="Hyperlink">Figure 6. Federal Revenue as a Percentage of GDP</span></a></li>
+<li><a href="#_Toc502242215"><span class="Hyperlink">Figure 7. Composition of Federal Revenue</span></a></li>
+<li><a href="#_Toc502242216"><span class="Hyperlink">Figure 8. Shares of Before-Tax Income and Federal Taxes</span></a></li>
+<li><a href="#_Toc502242217"><span class="Hyperlink">Figure 9. Federal Income and Payroll Taxes, 2016</span></a></li>
+<li><a href="#_Toc502242218"><span class="Hyperlink">Figure 10. Government Revenue as a Percentage of GDP</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc502242219"><span class="Hyperlink">Table 1. Personal Exemption and Standard Deduction, 2017</span></a></li>
+<li><a href="#_Toc502242220"><span class="Hyperlink">Table 2. Statutory Marginal Tax Rates, 2017</span></a></li>
+<li><a href="#_Toc502242221"><span class="Hyperlink">Table 3. Corporate Tax Rate Schedule</span></a></li>
+<li><a href="#_Toc502242222"><span class="Hyperlink">Table 4. U.S. Fiscal Position Compared to Other Industrialized Nations, 2017</span></a></li>
+<li><a href="#_Toc502242223"><span class="Hyperlink">Table A-1. Individual Income Tax Expenditures, 2016</span></a></li>
+<li><a href="#_Toc502242224"><span class="Hyperlink">Table A-2. Corporate Tax Expenditures, 2016</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc502242225"><span class="Hyperlink">Appendix. Largest Individual and Corporate Tax Expenditures</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 115<sup>th</sup> Congress has passed legislation that substantially changes the U.S. federal tax system (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d115:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>). This report describes the federal tax structure, provides some statistics on the tax system as a whole, as of 2017. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Historically, the largest component of the federal tax system, in terms of revenue generated, has been the individual income tax. In fiscal year (FY) 2016, $1.5 trillion, or 47% of the federal government's revenue, was collected from the individual income tax. The corporate income tax generated another $300 billion in revenue in FY2016, or 9% of total revenue. Social insurance or payroll taxes generated $1.1 trillion, or 34% of revenue in FY2016. Revenues in 2016 were 17.8% of GDP, slightly above the post-World War II average of 17.3%. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The federal individual income tax is levied on an individual's taxable income, which is adjusted gross income (AGI) less deductions and exemptions. Tax rates based on filing status (e.g., married filing jointly, head of household, or single individual) determine the level of tax liability. Tax rates in the United States are generally progressive, such that higher levels of income are typically taxed at higher rates. Once tentative tax liability is calculated, tax credits can be used to reduce tax liability. Tax deductions and tax credits are tools available to policymakers to increase or decrease the after-tax price of undertaking specific activities. Individuals with high levels of exemptions, deductions, and credits relative to income may be required to file under the alternative minimum tax (AMT). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Corporate taxable income is also subject to varying rates, where those with higher levels of income pay higher levels of taxes. Social Security and Medicare tax rates are, respectively, 12.4% and 2.9% of earnings. In 2017, Social Security taxes are levied on the first $127,200 of wages. Medicare taxes are assessed against all wage income. Federal excise taxes are levied on specific goods, such as transportation fuels, alcohol, and tobacco.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Looking at the tax system as a whole, several observations can be made. Notably, the composition of revenues has changed over time. Corporate income tax revenues have become a smaller share of overall tax revenues over time, while social insurance revenues have trended upwards as a share of total revenues. Social insurance revenues are a sizable component of the overall federal tax system. Most taxpayers pay more in payroll taxes than income taxes. Many taxpayers pay social insurance taxes but do not pay individual income taxes, having incomes below the amount that would generate a positive income tax liability. From an international perspective, the U.S. federal tax system tends to collect less in federal revenues as a percentage of GDP than other OECD countries. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report reflects the tax system as in effect in 2017. <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d115:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>, the 2017 tax revision, as passed in both the House and Senate, substantially modifies the federal tax system. The purpose of this report is to review the federal tax system in 2017. Any changes to the federal tax system enacted in the 115<sup>th</sup> Congress will be explored in subsequent reports and other CRS products.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span style="float: left;                       width: 0.75em;                       font-size: 400%;                       line-height: 80%;">T</span>he 115<sup>th</sup> Congress has passed legislation that substantially changes the U.S. federal tax system (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d115:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>). This legislation builds on the September 27, 2017, "Unified Framework for Fixing our Broken Tax Code."<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="The full framework is available at https://www.speaker.gov/sites/speaker.house.gov/files/Tax%20Framework.pdf .">1</a></sup> This framework was intended to guide the tax writing committees' development of tax legislation. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The issue of tax reform is not new in the 115<sup>th</sup> Congress. The tax code has long been criticized for being overly complicated, unfair, and inefficient. Early in 2005, for example, President George W. Bush announced the establishment of a bipartisan panel to provide options to make the tax code "simpler, fairer, and more pro-growth."<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="See the President's Advisory Panel on Federal Tax Reform website, archived at https://govinfo.library.unt.edu/taxreformpanel/    .">2</a></sup> Tax reform was also considered in the context of deficit reduction in 2010. President Barack Obama created the National Commission on Fiscal Responsibility and Reform in 2010 to address the deficit and national debt. In December 2010, the Fiscal Commission released its final report, "A Moment of Truth," which included base-broadening, rate-reducing, revenue-raising tax reform as part of a broader fiscal reform package. During the 112<sup>th</sup> and 113<sup>th</sup> Congress, then-Chairman of the Ways and Means Committee, Dave Camp, released a series of tax reform discussion drafts, which ultimately became the Tax Reform Act of 2014. This proposal, which was intended to "fix America's broken tax code by lowering tax rates and making the code simpler and fairer for families and job creators" in a revenue-neutral manner was later introduced as <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d115:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="A press release accompanying the release of The Tax Reform Act of 2014 in discussion draft form can be found at https://waysandmeans.house.gov/camp-releases-tax-reform-plan-to-strengthen-the-economy-and-make-the-tax-code-simpler-fairer-and-flatter/   .">3</a></sup> No further legislative action was taken. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The purpose of this report is to provide an overview of the federal tax system, including the individual income tax, corporate income tax, payroll taxes, estate and gift taxes, and federal excise taxes, as in effect through 2017. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472066304"></a><a name="_Toc472066334"></a><a name="_Toc472494537"></a><a name="_Toc482286959"></a><a name="_Toc482800887"></a><a name="_Toc482871956"></a><a name="_Toc483221679"></a><a name="_Toc484099660"></a><a name="_Toc484518955"></a><a name="_Toc485735861"></a><a name="_Toc487552745"></a><a name="_Toc491342847"></a><a name="_Toc496101630"></a><a name="_Toc499904723"></a><a name="_Toc500858447"></a><a name="_Toc501007957"></a><a name="_Toc502138511"></a><a name="_Toc502232363"></a><a name="_Toc502236069"></a><a name="_Toc502242226"></a>The Federal Income Tax System</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The federal income tax system has several components. The largest component, in terms of revenue generated, is the individual income tax. In fiscal year (FY) 2016, $1.5 trillion, or 47% of the federal government's revenue, came from the individual income tax.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="Historical data on federal receipts by source can be found in Table 2.1 of the Historical Tables published by the Office of Management and Budget (OMB), available at https://www.whitehouse.gov/omb/budget/Historicals .">4</a></sup> The corporate income tax generated another $300 billion in revenue in FY2016, or 9% of total revenue. Social insurance or payroll taxes generated $1.1 trillion, or 34% of revenue in FY2016. The remainder of federal revenue was collected through excise taxes (3%) or other sources (6%).<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="Other sources include estate and gift taxes, customs duties and fees, and deposits of earnings by the Federal Reserve System.">5</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472066305"></a><a name="_Toc472066335"></a><a name="_Toc472494538"></a><a name="_Toc482286960"></a><a name="_Toc482800888"></a><a name="_Toc482871957"></a><a name="_Toc483221680"></a><a name="_Toc484099661"></a><a name="_Toc484518956"></a><a name="_Toc485735862"></a><a name="_Toc487552746"></a><a name="_Toc491342848"></a><a name="_Toc496101631"></a><a name="_Toc499904724"></a><a name="_Toc500858448"></a><a name="_Ref500859277"></a><a name="_Toc501007958"></a><a name="_Toc502138512"></a><a name="_Toc502232364"></a><a name="_Toc502236070"></a><a name="_Toc502242227"></a>The Individual Income Tax<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="CRS Report RL30110, Federal Individual Income Tax Terms: An Explanation , by Mark P. Keightley .">6</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The individual income tax is the largest source of revenue in the federal income tax system. Most of the income reported on individual income tax returns is wages and salaries (68% in 2014).<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Internal Revenue Service, Statistics of Income, Individual Income Tax Statistics Table 1.4 provides information on sources of income, available at https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income .">7</a></sup> However, a large portion of business income in the United States is also taxed in the individual income tax system. Pass-through businesses, including sole proprietorships, partnerships, S corporations, and limited liability companies, generally pass business income through to the business's owners, where that income is then taxed under the individual income tax system.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="See CRS Report R43104, A Brief Overview of Business Types and Their Tax Treatment , by Mark P. Keightley ; and CRS Report R42359, Who Earns Pass-Through Business Income? An Analysis of Individual Tax Return Data , by Mark P. Keightley .">8</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc482286961"></a><a name="_Toc482800889"></a><a name="_Toc482871958"></a><a name="_Toc483221681"></a><a name="_Toc484099662"></a><a name="_Toc484518957"></a><a name="_Toc485735863"></a><a name="_Toc487552747"></a><a name="_Toc491342849"></a><a name="_Toc496101632"></a><a name="_Toc499904725"></a><a name="_Toc500858449"></a><a name="_Toc501007959"></a><a name="_Toc502138513"></a><a name="_Toc502232365"></a><a name="_Toc502236071"></a><a name="_Toc502242228"></a>Gross Income and Adjustments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To levy an income tax, income must first be defined. As a benchmark, economists often turn to the Haig-Simons comprehensive income definitions which can differ from the measure of income used in computing a taxpayer's taxes. Under the Haig-Simons definition, taxable resources are defined as changes in a taxpayer's ability to consume during the tax year.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title='The Haig-Simons comprehensive income definition was first developed in Robert Murray Haig, "The Concept of Income–Economic and Legal Aspects," in The Federal Income Tax , ed. Robert Murray Haig (New York, NY: Columbia University Press, 1921), pp. 1-28; and Henry C. Simons, Personal Income Taxation: The Definition of Income as a Problem of Fiscal Policy (Chicago, IL: University of Chicago Press, 1938). An overview of the concept can be found in Jonathan Gruber, Public Finance and Public Pol...'>9</a></sup> Using this definition of income, an employer's contributions toward employee health insurance would be counted toward the employee's income. This income, however, is not included in the employee's taxable income under current tax law. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In practice, the individual income tax is based on gross income individuals accrue from a variety of sources. Included in the individual income tax base are wages, salaries, tips, taxable interest and dividend income, business and farm income, realized net capital gains, income from rents, royalties, trusts, estates, partnerships, taxable pension and annuity income, and alimony received.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Gross income, for tax purposes, excludes certain items which may deviate from the Haig-Simmons definition of income. For example, employer-provided health insurance, pension contributions, and certain other employee benefits are excluded from income subject to tax.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title='Exclusions are a form of "tax expenditure." Tax expenditures are revenue losses associated with targeted provisions that move the income tax away from a " theoretical normal " tax system . For more information on individual income tax expenditures, see Table A-1 .'>10</a></sup> Employer contributions to Social Security are also excluded from wages. Amounts received under life insurance contracts are excluded from income. Another exclusion from income is the interest received on certain state and local bonds. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are special rules for income earned as capital gains or dividends.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="For additional information, see CRS Report 96-769, Capital Gains Taxes: An Overview , by Jane G. Gravelle ; and CRS Report R43418, The Taxation of Dividends: Background and Overview , by Jane G. Gravelle and Molly F. Sherlock .">11</a></sup> Capital gains (or losses) are realized when assets are sold.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Capital losses are generally deductible against capital gains. Taxpayers can also deduct up to $3,000 of capital losses from ordinary income per tax year.">12</a></sup> The tax base excludes unrealized capital gains.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='Unrealized capital gains are also excluded at death. This is discussed further in the " Estate and Gift Taxes " section below.'>13</a></sup> There are reduced tax rates for certain capital gains and dividends (discussed below in the "<a class="InternalLink" href="#_Ref502138105">Tax Rates</a>" section).<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Qualified dividends, which are generally dividends that have met certain holding period requirements, are taxed at the same reduced rate as capital gains.">14</a></sup> As with ordinary income, there may be exclusions. For example, certain capital gains on sales of primary residences are excluded from income. </p>
+<div class="TableBox" style="margin-left:9pt;margin-right:9pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:421.4592pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:370.15pt;">
+<td style="width:432.7pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Taxpayers Claiming the Standard Deduction: Trends over Time</p>
+<p class="TableText" style="">In 2015, there were 148.4 million individual income tax returns filed claiming either the standard or itemized deduction (see <a class="InternalLink" href="#_Ref502138439"><strong></strong><strong>Figure 1</strong></a>). In that same year, deductions were itemized on 44.6 million returns, with the rest of the returns filed using the standard deduction. Given these figures, 30% of taxpayers itemized deductions in 2015. The share of taxpayers itemizing deductions has declined in recent years. Between 2001 and 2008, the share of taxpayers itemizing deductions was closer to 35%. The share of taxpayers itemizing deductions in 2015 is closer to the share that itemized in the early to mid-1990s, when the itemization rate was below 30%. </p>
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref502138439"></a><a name="_Toc502138494"></a><a name="_Toc502232346"></a><a name="_Toc502236052"></a><a name="_Toc502242209"></a>Figure 1. Tax Returns Claiming Standard and Itemized Deductions, 1990-2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R45053_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong><strong> </strong>Internal Revenue Service, Statistics of Income.</p>
+</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Income from operating a business through a proprietorship, partnership, or small business corporation that elects to be treated similarly to a partnership (Subchapter S corporation), or through rental property is also subject to the individual income tax.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="For background on types of business organizations, see CRS Report R43104, A Brief Overview of Business Types and Their Tax Treatment , by Mark P. Keightley .">15</a></sup> This income is the net of gross receipts reduced by such deductible costs as payments to labor, depreciation, costs of goods acquired for resale and other inputs, interest, and taxes. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A taxpayer's adjusted gross income (AGI), the basic measure of income under the federal income tax, is determined by subtracting "above the line" deductions from gross income.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='A list of "above the line" deductions can be found in the Internal Revenue Code (IRC) §62.'>16</a></sup> Above-the-line deductions are available to taxpayers regardless of whether they itemize deductions, or claim the standard deduction.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="For additional information, see CRS Report R42872, Tax Deductions for Individuals: A Summary , by Sean Lowry .">17</a></sup> Above-the-line deductions may include contributions to qualified retirement plans by self-employed individuals, contributions to individual retirement accounts (IRAs), moving expenses, interest paid on student loans and higher education expenses, contributions to health savings accounts, and alimony payments. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc482286962"></a><a name="_Toc482800890"></a><a name="_Toc482871959"></a><a name="_Toc483221682"></a><a name="_Toc484099663"></a><a name="_Toc484518958"></a><a name="_Toc485735864"></a><a name="_Toc487552748"></a><a name="_Toc491342850"></a><a name="_Toc496101633"></a><a name="_Toc499904726"></a><a name="_Toc500858450"></a><a name="_Toc501007960"></a><a name="_Toc502138514"></a><a name="_Toc502232366"></a><a name="_Toc502236072"></a><a name="_Toc502242229"></a>Exemptions and Deductions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax liability depends on the filing status of the taxpayer. There are four main filing categories: married filing jointly, married filing separately, head of household, and single individual. The computation of taxpayers' tax liability depends on their filing status, as discussed further below. The amounts of the personal exemption and standard deduction also depend on filing status.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Taxpayers have a choice between claiming the standard deduction or claiming the sum of their itemized deductions. The standard deduction amount depends on filing status. The 2017 standard deduction for single filers is $6,350, while the standard deduction for married taxpayers filing jointly is twice that amount, or $12,700 (see <a class="InternalLink" href="#_Ref482260861"><strong></strong><strong>Table 1</strong></a>). There is an additional standard deduction for the elderly (taxpayers age 65 and older) and the blind.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="The additional standard deduction for married taxpayers filing jointly is $1,250 per spouse that is either blind or elderly (or $2,500 if both blind and elderly). For single and head of household taxpayers, the additional standard deduction is $1,550 (or $3,100 if both blind and elderly).">18</a></sup> The standard deduction amount is indexed for inflation.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After AGI is computed, personal exemptions and deductions are subtracted, further reducing the tax base. Exemptions are allowed for the taxpayer, the taxpayer's spouse, and each of the taxpayer's dependents. In 2017, the exemption amount per person is $4,050 (<a class="InternalLink" href="#_Ref482260861"><strong></strong><strong>Table 1</strong></a>). The exemption amount is indexed for inflation.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="For more information on personal exemption amounts over time, see CRS Report RL34498, Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017 , by Gary Guenther .">19</a></sup> The personal exemption is phased out for higher-income taxpayers. In 2017, the personal exemption phaseout (PEP) begins when a taxpayer's AGI exceeds $261,500 (for those filing as singles), $287,650 (for those filing as head of household), or $313,800 (for married individuals filing jointly). These threshold amounts are adjusted for inflation. The personal exemption phaseout reduces a taxpayer's personal exemption by 2% for each $2,500 in AGI above the phaseout threshold for married filers filing jointly ($1,250 for single filers).<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="For head of household filers, the personal exemption phaseout threshold is $287,650 in 2017.">20</a></sup> </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:366.59520000000003pt;">
+<p class="TableTitle"><a name="_Ref482260861"></a><a name="_Toc482286957"></a><a name="_Toc482800885"></a><a name="_Toc482871953"></a><a name="_Toc483221676"></a><a name="_Toc484099657"></a><a name="_Toc484518951"></a><a name="_Toc485735857"></a><a name="_Toc487552741"></a><a name="_Toc491342842"></a><a name="_Toc496101623"></a><a name="_Toc499904716"></a><a name="_Toc500858440"></a><a name="_Toc501007950"></a><a name="_Toc502138504"></a><a name="_Toc502232356"></a><a name="_Toc502236062"></a><a name="_Toc502242219"></a>Table 1. Personal Exemption and Standard Deduction, 2017</p>
+</div>
+<table class="ReportTable" style="width:366.59520000000003pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:48.55209984pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:211.74110208pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:161.16599808pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Amount</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="2" style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Personal Exemption</strong></p>
+</td>
+<td style="width:161.16599808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$4,050</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="2" style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Standard Deduction</strong><strong><a class="InternalLink" href="#_Ref502138440"></a></strong><sup></sup><strong></strong><strong></strong><sup><span class="TableTextFootnoteReference">a</span></sup><strong></strong></p>
+</td>
+<td style="width:161.16599808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:48.55209984pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:211.74110208pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Single or Married Filing Separately</p>
+</td>
+<td style="width:161.16599808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$6,350</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:48.55209984pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:211.74110208pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Head of Household</p>
+</td>
+<td style="width:161.16599808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$9,350</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:48.55209984pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:211.74110208pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Married Filing Jointly</p>
+</td>
+<td style="width:161.16599808pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">$12,700</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:366.59520000000003pt;">
+<p class="TableSource"><strong>Source: </strong>Internal Revenue Code.</p>
+<p class="TableNote"><strong>Notes: </strong>The personal exemption phases out for taxpayers above certain AGI thresholds. Additional information is provided in the text.</p>
+<p class="TableNumberedNote">a. <a name="_Ref502138440"></a>There is an additional standard deduction for the elderly and the blind. </p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Taxpayers also have the option of itemizing deductions. Deductions that can be itemized include deductions for state and local taxes (income taxes, sales taxes, and personal property taxes, sometimes referred to as SALT),<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="CRS Report RL32781, Federal Deductibility of State and Local Taxes , by Grant A. Driessen and Steven Maguire .">21</a></sup> the mortgage interest deduction,<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="CRS In Focus IF10584, Key Issues in Tax Reform: The Mortgage Interest Deduction , by Mark P. Keightley .">22</a></sup> the deduction for charitable contributions,<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="CRS Report RL34608, Tax Issues Relating to Charitable Contributions and Organizations , by Jane G. Gravelle and Molly F. Sherlock .">23</a></sup> and the deduction for real property taxes.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="CRS Report R41596, The Mortgage Interest and Property Tax Deductions: Analysis and Options , by Mark P. Keightley .">24</a></sup> Some deductions can only be itemized and claimed in excess of a floor. For example, medical expenses can be deducted to the extent they exceed 10% of AGI. Casualty and theft losses can also be deducted in excess of 10% of AGI. Other miscellaneous expenses can be deducted in excess of 2% of AGI.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="CRS Report R42872, Tax Deductions for Individuals: A Summary , by Sean Lowry .">25</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Itemized deductions are subject to limitation above certain income thresholds (this limitation is known as the Pease limitation).<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="The limitation on itemized deductions for certain higher-income taxpayers is known as the Pease limitation in reference to its originator, Rep. Donald J. Pease.">26</a></sup> This limitation reduces the amount of itemized deductions that can be claimed by 3% of the amount of certain thresholds. In 2017 these thresholds are AGI above $261,500 for single filers, $287,650 for head of household filers, $313,800 for married taxpayers filing jointly, and $156,900 for married taxpayers filing separately. These threshold amounts are adjusted for inflation. The total reduction in itemized deductions cannot be greater than 80% of total deductions (the taxpayer may also elect to claim the standard deduction). Certain deductions are not subject to the Pease limitation, including the deductions for medical expenses and casualty and theft losses.</p>
+<div class="TableBox" style="margin-left:9pt;margin-right:9pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:421.4592pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:370.15pt;">
+<td style="width:432.7pt;" valign="top">
+<p class="ShadedBoxHeading" style=""><a name="_Toc482286963"></a><a name="_Toc482800891"></a><a name="_Toc482871960"></a><a name="_Toc483221683"></a><a name="_Toc484099664"></a><a name="_Toc484518959"></a><a name="_Toc485735865"></a><a name="_Toc487552749"></a><a name="_Toc491342851"></a><a name="_Toc496101634"></a><a name="_Toc499904727"></a><a name="_Toc500858451"></a><a name="_Toc501007961"></a>Taxpayers Claiming the Standard Deduction: Trends over Time</p>
+<p class="TableText" style="">In 2015, there were 148.4 million individual income tax returns filed claiming either the standard or itemized deduction (see <a class="InternalLink" href="#_Ref482280445"><strong></strong><strong>Figure 2</strong></a>). In that same year, deductions were itemized on 44.6 million returns, with the rest of the returns filed using the standard deduction. Given these figures, 30% of taxpayers itemized deductions in 2015. The share of taxpayers itemizing deductions has declined in recent years. Between 2001 and 2008, the share of taxpayers itemizing deductions was closer to 35%. The share of taxpayers itemizing deductions in 2015 is closer to the share that itemized in the early to mid-1990s, when the itemization rate was below 30%.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="For more on this trend, see Chenxi Lu, The Rise and Fall of Itemized Deductions , TaxVox, Tax Policy Center, August 10, 2016, http://www.taxpolicycenter.org/taxvox/rise-and-fall-itemized-deductions .">27</a></sup> </p>
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref482280445"></a><a name="_Toc482286956"></a><a name="_Toc482800883"></a><a name="_Toc482871951"></a><a name="_Toc483221674"></a><a name="_Toc484099655"></a><a name="_Toc484518949"></a><a name="_Toc485735854"></a><a name="_Toc487552738"></a><a name="_Toc491342834"></a><a name="_Toc496101615"></a><a name="_Toc499904707"></a><a name="_Toc500858431"></a><a name="_Toc501007941"></a><a name="_Toc502138495"></a><a name="_Toc502232347"></a><a name="_Toc502236053"></a><a name="_Toc502242210"></a>Figure 2. Tax Returns Claiming Standard and Itemized Deductions, 1990-2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="R45053_files/1.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Internal Revenue Service, Statistics of Income.</p>
+</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref502138105"></a><a name="_Toc502138515"></a><a name="_Toc502232367"></a><a name="_Toc502236073"></a><a name="_Toc502242230"></a>Tax Rates</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The income tax system is designed to be progressive, with marginal tax rates increasing as income increases.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="A marginal tax rate is the tax rate on the last dollar earned.">28</a></sup> At a particular marginal tax rate, all individuals subject to the regular income tax, regardless of their overall level of earnings, pay the same tax rate on taxable income within the bracket. Once taxpayers' incomes surpass a threshold level, placing them in a higher marginal tax bracket, the higher marginal tax rate is only applied on income that exceeds that threshold value. Currently, the individual income tax system has seven marginal income tax rates: 10%, 15%, 25%, 28%, 33%, 35%, and 39.6%.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="For historical perspective on marginal tax rates, see CRS Report RL34498, Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017 , by Gary Guenther .">29</a></sup> These marginal income tax rates are applied to taxable income to arrive at a taxpayer's gross income tax liability.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="Take, for example, a single taxpayer with taxable income of $50,000. That taxpayer would fall in the 25% statutory rate bracket. However, that taxpayer's tax liability would be the sum of taxes applied to income falling within the first three brackets, the 10%, 15%, and 25% brackets. Specifically, the taxpayer would pay $932.50 (or 10%) on the first $9,325 in taxable income, $4,293.75 (or 15%) on the next $28,625 in taxable income, and $3,012.50 (or 25%) on the last $12,050 in income. Thus, th...">30</a></sup> Threshold levels associated with the rate brackets depend on filing status. Tax rates for 2017 are summarized in <a class="InternalLink" href="#_Ref482350335"><strong></strong><strong>Table 2</strong></a>.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:328.32pt;">
+<p class="TableTitle"><a name="_Ref482350335"></a><a name="_Toc482800886"></a><a name="_Toc482871954"></a><a name="_Toc483221677"></a><a name="_Toc484099658"></a><a name="_Toc484518952"></a><a name="_Toc485735858"></a><a name="_Toc487552742"></a><a name="_Toc491342843"></a><a name="_Toc496101624"></a><a name="_Toc499904717"></a><a name="_Toc500858441"></a><a name="_Toc501007951"></a><a name="_Toc502138505"></a><a name="_Toc502232357"></a><a name="_Toc502236063"></a><a name="_Toc502242220"></a>Table 2. Statutory Marginal Tax Rates, 2017</p>
+<p class="TableSubTitle">Tax Schedules by Filing Status</p>
+</div>
+<table class="ReportTable" style="width:328.32pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style=""><strong>Married Filing Jointly</strong></p>
+</td>
+<td style="width:264.08633472pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top"> <p class="TableText" style=""></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">If taxable income is:</p>
+</td>
+<td style="width:264.08633472pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">Then, <em>tax</em> is:</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$0</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$18,650</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">10% of the amount over $0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$18,650</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$75,900</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$1,865 plus 15% of the amount over $18,650</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$75,900</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$153,100</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$10,452.50 plus 25% of the amount over $75,900</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$153,100</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$233,350</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$29,752.50 plus 28% of the amount over $153,100</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$233,350</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$416,700</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$52,222.50 plus 33% of the amount over $233,350</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$416,700</p>
+</td>
+<td style="width:31.60944pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$470,700</p>
+</td>
+<td style="width:264.08633472pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:right;">$112,728 plus 35% of the amount over $416,700</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$470,700</p>
+</td>
+<td style="width:31.60944pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">plus</p>
+</td>
+<td style="width:67.18059647999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:264.08633472pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:right;">$131,628 plus 39.6% of the amount over $470,700</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style=""><strong>Single</strong></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">If taxable income is:</p>
+</td>
+<td style="width:264.08633472pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">Then, <em>tax</em> is:</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$0</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$9,325</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">10% of the amount over $0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$9,325</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$37,950</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$932.50 plus 15% of the amount over $9,325</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$37,950</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$91,900</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$5,226.25 plus 25% of the amount over $37,950</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$91,900</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$191,650</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$18,713.75 plus 28% of the amount over $91,900</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$191,650</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$416,700</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$46,643,75 plus 33% of the amount over $191,650</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$416,700</p>
+</td>
+<td style="width:31.60944pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$418,400</p>
+</td>
+<td style="width:264.08633472pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:right;">$120,910.25 plus 35% of the amount over $416,700</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$418,400</p>
+</td>
+<td style="width:31.60944pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">plus</p>
+</td>
+<td style="width:67.18059647999999pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:264.08633472pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:right;">$121,505.25 plus 39.6% of the amount over $418,400</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style=""><strong>Heads of Households</strong></p>
+</td>
+</tr>
+<tr style="">
+<td colspan="3" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">If taxable income is:</p>
+</td>
+<td style="width:264.08633472pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">Then, <em>tax</em> is:</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$0</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$13,350</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">10% of the amount over $0</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$13,350</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$50,800</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$1,335 plus 15% of the amount over $13,350</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$50,800</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$131,200</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$6,952.50 plus 25% of the amount over $50,800</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$131,200</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$212,500</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$27,052.50 plus 28% of the amount over $131,200</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$212,500</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$416,700</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$49,816.50 plus 33% of the amount over $212,500</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;" valign="top">
+<p class="TableText" style="text-align:center;">$416,700</p>
+</td>
+<td style="width:31.60944pt;" valign="top">
+<p class="TableText" style="text-align:center;">to</p>
+</td>
+<td style="width:67.18059647999999pt;" valign="top">
+<p class="TableText" style="text-align:center;">$444,550</p>
+</td>
+<td style="width:264.08633472pt;" valign="top">
+<p class="TableText" style="text-align:right;">$117,202.50 plus 35% of the amount over $416,700</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:58.58282880000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">$444,550</p>
+</td>
+<td style="width:31.60944pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">plus</p>
+</td>
+<td style="width:67.18059647999999pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:264.08633472pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:right;">$126,950 plus 39.6% of the amount over $444,550</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:328.32pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>Internal Revenue Code.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As was noted above, income earned from long-term capital gains and qualified dividends is taxed at lower rates. The maximum rate on long-term capital gains and qualified dividends is 20%. This 20% rate applies to taxpayers in the 39.6% bracket. Taxpayers in the 25%, 28%, 33%, and 35% tax brackets face a 15% tax rate on long-term capital gains and qualified dividends. The tax rate on capital gains and qualified dividends is 0% for taxpayers in the 10% and 15% tax brackets.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Higher-income individuals with a high ratio of exemptions and deductions to income may be subject to the alternative minimum tax (AMT). There are two marginal tax rates under the AMT, 26% and 28%, that are applied to an expanded base. The AMT is discussed in further detail below.</p>
+<div class="TableBox" style="margin-left:9pt;margin-right:9pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:425.2608pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:40.2pt;">
+<td style="width:436.6pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Tax Returns and AGI by Statutory Tax Bracket</p>
+<p class="TableText" style=""><a class="InternalLink" href="#_Ref482366214"><strong></strong><strong>Figure 3</strong></a> classifies returns according to the highest statutory tax rate applied to each return. Few tax returns filed fall into the top statutory tax bracket. In 2015, 88% of returns filed were for ordinary income in the 25% bracket or below. Less than 1% of returns filed in 2015 were in the 39.6% tax bracket.</p>
+<p class="TableText" style="">Returns filed in higher tax brackets contain a larger proportion of reported AGI. In 2015, nearly 16% of AGI was reported on returns filed in the top statutory rate bracket of 39.6%. Not all AGI reported on returns in the 39.6% statutory bracket is taxed at a rate of 39.6%. Roughly half of AGI reported on returns in the 39.6% bracket is taxed at a rate of 39.6%, with the rest taxed at lower rates, per the progressive rate structure. </p>
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref482366214"></a><a name="_Toc482800884"></a><a name="_Toc482871952"></a><a name="_Toc483221675"></a><a name="_Toc484099656"></a><a name="_Toc484518950"></a><a name="_Toc485735855"></a><a name="_Toc487552739"></a><a name="_Toc491342835"></a><a name="_Toc496101616"></a><a name="_Toc499904708"></a><a name="_Toc500858432"></a><a name="_Toc501007942"></a><a name="_Toc502138496"></a><a name="_Toc502232348"></a><a name="_Toc502236054"></a><a name="_Toc502242211"></a>Figure 3. Tax Returns and AGI by Statutory Tax Rate</p>
+<p class="FigureSubTitle">2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R45053_files/2.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Internal Revenue Service, Statistics of Income.</p>
+<p class="FigureNote"><strong>Notes:</strong> Returns are categorized according to the highest statutory rate applied to each return. Tax rate groups include tax rates applied to ordinary income as well as capital gains and dividends. Data on returns for which the top rate applied was for capital gains and dividends are the lighter portions of the bars. Separating out returns where the top rate applied was for capital gains and dividends makes the largest difference in the 15% bracket. Form 8615 returns (returns filed to report certain investment income of children) are excluded. Percentages may not sum to 100 due to rounding.</p>
+</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Few taxpayers file returns that are taxed at the top statutory tax rate (see <a class="InternalLink" href="#_Ref482366214"><strong></strong><strong>Figure 3</strong></a> and the related discussion). However, while less than 1% of returns filed are in the 39.6% tax bracket, nearly 16% of AGI was reported on returns that fell in the 39.6% bracket.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc482800892"></a><a name="_Toc482871961"></a><a name="_Toc483221684"></a><a name="_Toc484099665"></a><a name="_Toc484518960"></a><a name="_Toc485735866"></a><a name="_Toc487552750"></a><a name="_Toc491342852"></a><a name="_Toc496101635"></a><a name="_Toc499904728"></a><a name="_Toc500858452"></a><a name="_Toc501007962"></a><a name="_Toc502138516"></a><a name="_Toc502232368"></a><a name="_Toc502236074"></a><a name="_Toc502242231"></a>Net Investment Income</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Certain higher-income individuals may be subject to an additional 3.8% tax on net investment income. Specifically, the tax applies to the lesser of (1) net investment income, or (2) the amount by which modified AGI exceeds fixed threshold amounts.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="Modified AGI is AGI increased by the amount excluded from income as foreign earned income.">31</a></sup> The fixed threshold amounts are $250,000 for taxpayers filing jointly and $200,000 for other filers.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="The threshold amount is $125,000 for married taxpayers filing separate returns. These threshold amounts are not adjusted for inflation.">32</a></sup> The net investment income tax increases the maximum tax rate on capital gains and dividends to 23.8% for affected taxpayers. The maximum rate on other investment income, including interest, annuities, royalties, and rent is 43.4% for taxpayers with modified AGI above the threshold. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc482800893"></a><a name="_Toc482871962"></a><a name="_Toc483221685"></a><a name="_Toc484099666"></a><a name="_Toc484518961"></a><a name="_Toc485735867"></a><a name="_Toc487552751"></a><a name="_Toc491342853"></a><a name="_Toc496101636"></a><a name="_Toc499904729"></a><a name="_Toc500858453"></a><a name="_Toc501007963"></a><a name="_Toc502138517"></a><a name="_Toc502232369"></a><a name="_Toc502236075"></a><a name="_Toc502242232"></a>Tax Credits</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After a taxpayer's tax liability has been calculated, tax credits are subtracted from gross tax liability to arrive at a final tax liability (see <a class="InternalLink" href="#_Ref499123629"><strong></strong><strong>Figure 4</strong></a>). Tax credits offset tax liability on a dollar-for-dollar basis. There are two different types of tax credits: refundable and nonrefundable. If a tax credit is refundable, and the credit amount exceeds tax liability, a taxpayer receives the credit (or a portion of the credit) as a refund. If credits are not refundable, then the credit is limited to the amount of tax liability. In some cases, unused credits can be carried forward to offset tax liability in future tax years. Some credits are phased out as income rises to limit or eliminate benefits for higher-income taxpayers. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax credits that are refundable or have a refundable portion include the earned income tax credit (EITC)<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="CRS Report R43805, The Earned Income Tax Credit (EITC): An Overview , by Gene Falk and Margot L. Crandall-Hollick ; CRS Report R44057, The Earned Income Tax Credit (EITC): An Economic Analysis , by Margot L. Crandall-Hollick ; CRS Report R44825, The Earned Income Tax Credit (EITC): A Brief Legislative History , by Margot L. Crandall-Hollick ; and CRS Report R43873, The Earned Income Tax Credit (EITC): Administrative and Compliance Challenges , by Margot L. Crandall-Hollick .">33</a></sup> and the child tax credit (CTC).<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="CRS Report R41873, The Child Tax Credit: Current Law and Legislative History , by Margot L. Crandall-Hollick ; and CRS Report R41935, The Child Tax Credit: Economic Analysis and Policy Options , by Margot L. Crandall-Hollick .">34</a></sup> A nonrefundable tax credit can be claimed for child and dependent care expenses.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="CRS Report RS21466, Dependent Care: Current Tax Benefits and Legislative Issues , by Julie M. Whittaker (out-of-print; available to congressional clients upon request from the author of this report).">35</a></sup> There are also tax credits for other purposes, such as education<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="CRS Report R41967, Higher Education Tax Benefits: Brief Overview and Budgetary Effects , by Margot L. Crandall-Hollick .">36</a></sup> and health care. The American Opportunity Tax Credit (AOTC), for example, provides a partially refundable tax credit for tuition and other related expenses.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="CRS Report R42561, The American Opportunity Tax Credit: Overview, Analysis, and Policy Options , by Margot L. Crandall-Hollick .">37</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref499123629"></a><a name="_Toc499904709"></a><a name="_Toc500858433"></a><a name="_Toc501007943"></a><a name="_Toc502138497"></a><a name="_Toc502232349"></a><a name="_Toc502236055"></a><a name="_Toc502242212"></a>Figure 4. Visualization of the U.S. Individual Income Tax System</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R45053_files/3.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Congressional Research Service, CRS Infographic IG10010, <a class="ExternalLink" href="http://www.crs.gov/Reports/IG10010"><em><span class="Hyperlink">The U.S. Individual Income Tax System, 2017</span></em></a>, November 20, 2017.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc404614539"></a><a name="_Toc482286967"></a><a name="_Toc482800894"></a><a name="_Toc482871963"></a><a name="_Toc483221686"></a><a name="_Toc484099667"></a><a name="_Toc484518962"></a><a name="_Toc485735868"></a><a name="_Toc487552752"></a><a name="_Toc491342854"></a><a name="_Toc496101637"></a><a name="_Toc499904730"></a><a name="_Toc500858454"></a><a name="_Toc501007964"></a>Given the complexities of the tax code, effective marginal tax rates differ from statutory marginal tax rates for many taxpayers.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="For additional information, see CRS Report R44787, Statutory, Average, and Effective Marginal Tax Rates in the Federal Individual Income Tax: Background and Analysis , by Molly F. Sherlock .">38</a></sup> For example, the earned income tax credit (EITC) phases in as income increases, reducing a taxpayer's marginal tax rate. At higher income levels, as the credit phases out, the taxpayer faces a higher marginal tax rate during that phaseout range. Thus, effective marginal tax rates can be less than or greater than statutory rates.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc502138518"></a><a name="_Toc502232370"></a><a name="_Toc502236076"></a><a name="_Toc502242233"></a>Alternative Minimum Tax</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Individuals may also pay tax under the alternative minimum tax (AMT).<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="CRS Report R44494, The Alternative Minimum Tax for Individuals: In Brief , by Donald J. Marples .">39</a></sup> The AMT applies lower tax rates to a broader income base. The policy goal is to prevent certain higher-income taxpayers from using tax preferences to avoid paying anything in taxes. Under current law, to calculate the AMT, an individual first adds back various tax items, including personal exemptions and certain itemized deductions, to regular taxable income. This grossed up amount becomes the income base for the AMT. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The AMT exemption is subtracted from the AMT's income base. For 2017, the AMT exemption is $54,300 for single returns, and $84,500 for married taxpayers filing a joint return.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="The exemption for married individuals filing separately is half that of married filers filing jointly, as is the phaseout threshold.">40</a></sup> These exemption amounts are indexed for inflation. The AMT exemption is reduced by 25% of the amount by which a taxpayer's AMT taxable income exceeds certain threshold amounts. In 2017, the AMT exemption amount begins to phase out at $120,700 for single filers, or $160,900 for married couples filing jointly. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A two-tiered rate structure of 26% and 28% is assessed against AMT taxable income. The taxpayer compares his AMT tax liability to his regular tax liability and pays the greater of the two. Most nonrefundable personal tax credits are allowed against the AMT.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under current law, less than 4% of all tax filers pay the AMT.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="Tax Policy Center, T17-0149–Characteristics of Alternative Minimum Tax (AMT) Payers, 2016–2018 and 2027, April 28, 2017, available at http://www.taxpolicycenter.org/model-estimates/baseline-alternative-minimum-tax-amt-tables-april-2017/t17-0149-characteristics .">41</a></sup> Higher-income taxpayers are more likely to be subject to the AMT (for 2017, the Tax Policy Center estimates that 63% of tax units with income between $500,000 and $1 million will pay the AMT, and 20% of taxpayers with income of more than $1 million pay the AMT). Taxpayers with more children, and married taxpayers, are also more likely to pay the AMT.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472066307"></a><a name="_Toc472066337"></a><a name="_Toc472494540"></a><a name="_Toc482286969"></a><a name="_Toc482800896"></a><a name="_Toc482871965"></a><a name="_Toc483221688"></a><a name="_Toc484099668"></a><a name="_Toc484518963"></a><a name="_Toc485735869"></a><a name="_Toc487552753"></a><a name="_Toc491342855"></a><a name="_Toc496101638"></a><a name="_Toc499904731"></a><a name="_Toc500858455"></a><a name="_Toc501007965"></a><a name="_Toc502138519"></a><a name="_Toc502232371"></a><a name="_Toc502236077"></a><a name="_Toc502242234"></a><a name="_Toc472066306"></a><a name="_Toc472066336"></a><a name="_Toc472494539"></a><a name="_Toc482286968"></a><a name="_Toc482800895"></a><a name="_Toc482871964"></a><a name="_Toc483221687"></a>The Corporate Income Tax<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="For more information, see CRS Report R42726, The Corporate Income Tax System: Overview and Options for Reform , by Mark P. Keightley and Molly F. Sherlock .">42</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate income tax generally only applies to C corporations (also known as regular corporations). These corporations—named for Subchapter C of the Internal Revenue Code (IRC), which details their tax treatment—are generally treated as taxable entities separate from their shareholders.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="For more information, see CRS Report R43104, A Brief Overview of Business Types and Their Tax Treatment , by Mark P. Keightley .">43</a></sup> That is, corporate income is taxed once at the corporate level according to the corporate income tax system. When corporate dividend payments are made or capital gains are realized income is taxed again at the individual-shareholder level according to the individual tax system (discussed above). In contrast, non-corporate businesses, including S corporations<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="An S corporation is a closely held corporation that elects to be treated as a pass-through entity for tax purposes. S corporations are named for Subchapter S of the IRC, which details their tax treatment. By electing S corporation status, a business is able to combine many of the legal and business advantages of a C corporation with the tax advantages of a partnership. For more information, see CRS Report R43104, A Brief Overview of Business Types and Their Tax Treatment , by Mark P. Keigh...">44</a></sup> and partnerships,<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="A partnership is a joint venture consisting of at least two partners organized to operate a trade or business with each partner sharing profits, losses, deductions, credits, and the like. The most common partnerships include general partnerships, limited liability partnerships, limited partnerships, publicly traded partnerships, and electing large partnerships. For more information, see CRS Report R43104, A Brief Overview of Business Types and Their Tax Treatment , by Mark P. Keightley .">45</a></sup> pass their income through to owners who pay taxes. Collectively, these non-corporate business entities are referred to as pass-throughs. For these types of entities, business income is taxed only once, at individual income tax rates.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The corporate income tax is designed as a tax on corporate profits (also known as net income). Broadly defined, corporate profit is total income minus the cost associated with generating that income.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="The primary components of business income are revenues generated from the sale of goods and services. Other income sources include investment income, royalties, rents, and capital gains.">46</a></sup> Business expenses that may be deducted from income include employee compensation; the decline in value of machines, equipment, and structures (i.e., deprecation); general supplies and materials; advertising; and interest payments. The corporate income tax also allows for a number of other special deductions, credits, and tax preferences that reduce taxes paid by corporations.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title="For more on corporate tax expenditures, see Table A-2 .">47</a></sup> Oftentimes, these provisions are intended to promote particular policy goals.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A corporation's tax liability can be calculated as: </p>
+<p class="BodyText" style="text-align:center;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Taxes = [(Total Income – Expenses)(1 – <span class="Emphasis">p</span>) × <span class="Emphasis">t</span>] – Tax Credits,</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">where <span class="Emphasis">t</span> is the statutory tax rate and <span class="Emphasis">p</span> is the Section 199 production activities deduction. The Section 199 deduction effectively lowers the corporate tax rate for those corporations engaged in domestic manufacturing activities.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="For more information on the production activities deduction, see CRS Report R41988, The Section 199 Production Activities Deduction: Background and Analysis , by Molly F. Sherlock .">48</a></sup> For income not eligible for the Section 199 deduction, <em>p </em>is zero.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some corporations experience net operating losses (NOLs), which occur when total income less expenses is negative. A NOL can be "carried back" of "carried forward." If the firm had taxable income in the prior years and chooses to "carry back" the NOL it may be deducted from up to two prior years' taxable income. The corporation is then eligible for a refund equal to the difference between previously paid taxes and taxes owed after deducting the current year's loss. If the loss is too large to be fully carried back, it may be "carried forward" for up to 20 years and used to reduce future tax liabilities.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most corporate income is subject to a 35% statutory tax rate. <strong><a class="InternalLink" href="#_Ref244328099"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 3</strong><strong></strong> contains the marginal corporate tax rates faced by U.S. firms. Smaller firms face a progressive tax schedule.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="CRS Report RL32254, Small Business Tax Benefits: Current Law and Main Arguments For and Against Them , by Gary Guenther .">49</a></sup> To increase the effective tax rate for larger firms, the statutory rate increases above 35% for two brackets: the 39% bracket for income between $100,000 and $335,000 and the 38% bracket for income between $15,000,000 and $18,333,333. Having these "bubble" rates, or higher marginal tax rates along part of the schedule, increases the effective tax rate for higher-income corporations. Essentially, these higher "bubble" brackets serve to reduce any tax savings larger corporations would have incurred from having their first $75,000 in income taxed at lower rates.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In broad economic terms, the base of the corporate income tax is the return to equity capital. Wages are tax deductible, so labor's contribution to corporate revenue is excluded from the corporate tax base. Income produced by corporate capital investment includes that produced by corporate investment of borrowed funds, and that produced by investment of equity, or funds provided by stockholders. Profits from debt-financed investment are paid out as interest, which is deductible. Thus, the return to debt capital is excluded from the corporate tax base. Equity investments are financed by retained earnings and the sale of stock. The income equity investment generates is paid out as dividends and the capital gains that accrue as stock increases in value. Neither form of income is generally deductible. Thus, the base of the corporate income tax is largely the return to equity capital.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:295.488pt;">
+<p class="TableTitle"><a name="_Ref244328099"></a><a name="_Toc404614528"></a><a name="_Toc484518953"></a><a name="_Toc485735859"></a><a name="_Toc487552743"></a><a name="_Toc491342844"></a><a name="_Toc496101625"></a><a name="_Toc499904718"></a><a name="_Toc500858442"></a><a name="_Toc501007952"></a><a name="_Toc502138506"></a><a name="_Toc502232358"></a><a name="_Toc502236064"></a><a name="_Toc502242221"></a>Table 3. Corporate Tax Rate Schedule</p>
+</div>
+<table class="ReportTable" style="width:295.488pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Taxable Corporate Income</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Corporate Tax Rate</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$0-$49,999</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">15%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$50,000-$74,999</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">25%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$75,000-$99,999</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">34%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$100,000-$334,999</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">39%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$335,000-$9,999,999</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">34%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$10,000,000-$14,999,999</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">35%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$15,000,000-$18,333,332</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">38%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">$18,333,333 and over</p>
+</td>
+<td style="width:210.7296pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">35%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:295.488pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>Internal Revenue Code.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because of the nature of its base, the corporate income tax has several broad effects on the allocation of capital investment. First, it favors non-corporate investment—for example, unincorporated business and owner-occupied housing—over corporate investment. Second, it favors corporate debt over corporate equity investment since the former is not subject to the tax. However, while the base of the tax is largely equity income, the flow of capital out of the corporate sector and other economic adjustments probably cause the burden of the tax to spread to all owners of capital: owners of unincorporated business, bondholders, and homeowners. Government agencies analyzing the incidence of the corporate tax distribute most of the burden to owners of capital, with a smaller portion falling on labor income. Since owners of capital tend to be in higher income groups, and most of the corporate tax burden falls on capital, the corporate tax is widely viewed as being progressive.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc484518964"></a><a name="_Toc485735870"></a><a name="_Toc487552754"></a><a name="_Toc491342856"></a><a name="_Toc496101639"></a><a name="_Toc499904732"></a><a name="_Toc500858456"></a><a name="_Toc501007966"></a><a name="_Toc502138520"></a><a name="_Toc502232372"></a><a name="_Toc502236078"></a><a name="_Toc502242235"></a>Corporate Income Earned Abroad</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The United States has a worldwide (or resident-based) tax system.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="CRS Report R41852, U.S. International Corporate Taxation: Basic Concepts and Policy Issues , by Mark P. Keightley and CRS Report RL34115, Reform of U.S. International Taxation: Alternatives , by Jane G. Gravelle .">50</a></sup> As a result, U.S. corporations are generally liable for tax on their worldwide income. Under current law, corporations are allowed a credit, known as the foreign tax credit, for taxes paid to other countries.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="See IRC §901.">51</a></sup> The foreign tax credit may not reduce a corporation's tax liability below zero. Additionally, corporations are not required to pay U.S. tax on overseas income until income is repatriated to the United States. This ability to defer taxes is often known simply as "deferral." Deferral is not an option, however, with "Subpart F" income, which generally includes passive types of income such as interest, dividends, annuities, rents, and royalties.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title='Subpart F income is named after the section of the Internal Revenue Code whe re its tax treatment is defined. An exception to Subpart F income is for "active financing" income. Active financing income is income earned by American corporations that operate banking, financing, and insurance lines of business overseas.'>52</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432.69120000000003pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:443.5pt;" valign="top">
+<p class="ShadedBoxHeading" style="">The Decline of the C Corporation</p>
+<p class="TableText" style="">Since the 1980s, both the proportion of businesses filing tax returns as C corporations and their share of net income have declined.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="CRS Report R42113, Reasons for the Decline in Corporate Tax Revenues , by Mark P. Keightley .">53</a></sup> In 1980, 17% of business returns were filed by C corporations, which were also responsible for 75% of net income.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="The measure of net income used here is net income (less deficit). This measure of net income includes losses.">54</a></sup> By 2012, C corporations filed 5% of business returns, accounting for 36% of net income. </p>
+<p class="TableText" style="">Fluctuations in net income tend to follow the business cycle. During both the early 2000s recession and the Great Recession (2007–2009), the share of net income fell sharply, reflecting losses in the corporate sector. </p>
+<p class="Figure" style="">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBoxInsideTable" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc485735856"></a><a name="_Toc487552740"></a><a name="_Toc491342836"></a><a name="_Toc496101617"></a><a name="_Toc499904710"></a><a name="_Toc500858434"></a><a name="_Toc501007944"></a><a name="_Toc502138498"></a><a name="_Toc502232350"></a><a name="_Toc502236056"></a><a name="_Toc502242213"></a>Figure 5. C Corporation Shares of Net Income and Business Returns </p>
+<p class="FigureSubTitle">1980-2012</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image6.jpg" class="Figure" src="R45053_files/4.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>IRS SOI "Table 1. Number of Returns, Total Receipts, Business Receipts, Net Income (less deficit), and Deficit by Form of Business Tax Years 1980–2012," available at <a class="ExternalLink" href="https://www.irs.gov/uac/soi-tax-stats-integrated-business-data"><span class="Hyperlink">https://www.irs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">uac/</span><span class="Hyperlink"></span><span class="Hyperlink">soi-tax-stats-integrated-business-data</span></a>. </p>
+<p class="FigureNote"><strong>Note</strong><strong>:</strong> Net income (less deficit) includes losses.</p>
+</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc484099669"></a><a name="_Toc484518965"></a><a name="_Toc485735871"></a><a name="_Toc487552755"></a><a name="_Toc491342857"></a><a name="_Toc496101640"></a><a name="_Toc499904733"></a><a name="_Toc500858457"></a><a name="_Toc501007967"></a><a name="_Toc502138521"></a><a name="_Toc502232373"></a><a name="_Toc502236079"></a><a name="_Toc502242236"></a>Social Insurance and Retirement Payroll Taxes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Payroll taxes are used to fund specific programs, largely Social Security and Medicare.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="The taxes are also known as Federal Insurance Contributions Act (FICA) taxes.">55</a></sup> Social Security and Medicare taxes are generally paid at a combined rate of 15.3% of wages, with 7.65% being paid by the employee and employer alike.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="Self-employed taxpayers pay both the employer and employee share.">56</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Social Security part of the tax, or the old age, survivors, and disability insurance (OASDI) tax, is 6.2% for both employees and employers (12.4% in total).<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="CRS Report R42035, Social Security Primer , by Dawn Nuschler .">57</a></sup> In 2017, the tax applies to the first $127,200 in wages. This wage base is adjusted annually for inflation. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Medicare portion of the tax, or the Medicare hospital insurance (HI) tax, is 1.45% for both employees and employers (2.9% in total).<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="CRS Report R40425, Medicare Primer , coordinated by Patricia A. Davis .">58</a></sup> There is no wage cap for the HI tax (the Medicare HI tax applies to all wage earnings). Certain higher-income taxpayers may be subject to an additional HI tax of 0.9%. For married taxpayers filing jointly, combined wages above $250,000 are subject to the additional 0.9% HI tax.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title="The threshold amount for married taxpayers filing separately is $125,000.">59</a></sup> The threshold for single and head of household filers is $200,000. These threshold amounts are not indexed for inflation.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Employers may also be subject to a federal unemployment insurance payroll tax.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="CRS In Focus IF10336, The Fundamentals of Unemployment Compensation , by Julie M. Whittaker and Katelin P. Isaacs ; and CRS Report R44527, Unemployment Compensation: The Fundamentals of the Federal Unemployment Tax (FUTA) , by Julie M. Whittaker .">60</a></sup> This tax is 0.6% on the first $7,000 of wages.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title="The tax rate is 6% of total wages for each employee, up to $7,000. However, there is a federal credit of 5.4% for state unemployment taxes, making the effective federal tax rate 0.6%.">61</a></sup> Federal unemployment insurance payroll taxes are used to pay for the administrative costs of the unemployment insurance (UI) program. State UI taxes generally pay for UI benefits.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title="For more information, see CRS Report RL33362, Unemployment Insurance: Programs and Benefits , by Julie M. Whittaker and Katelin P. Isaacs .">62</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most taxpayers pay more in payroll taxes than income taxes. The Tax Policy Center estimates that in 2016, 75% of tax units had positive payroll tax liability (compared to 56% of tax units with positive income tax liability) (this is discussed further in the context of <a class="InternalLink" href="#_Ref490471662"><strong></strong><strong>Figure 9</strong></a>, below).<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title="Tax Policy Center, Table T16-0129 Distribution of Federal Payroll and Income Taxes by Expanded Cash Income Percentile, 2016 , July 18, 2016, available at http://www.taxpolicycenter.org/model-estimates/distribution-federal-payroll-and-income-taxes-july-2016/t16-0129-distribution .">63</a></sup> Of units with a positive tax liability (either positive payroll or income tax), 76% paid more in payroll taxes than income taxes. Payroll taxes are also regressive, with higher-income taxpayers paying a smaller share of their income in payroll taxes than lower-income taxpayers. This is a result of two factors. First, the OASDI tax wage cap results in income over that cap not being subject to the tax. Second, payroll taxes only apply to wage income, and non-wage income tends to be concentrated towards the higher end of the income distribution. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472066308"></a><a name="_Toc472066338"></a><a name="_Toc472494541"></a><a name="_Toc482286970"></a><a name="_Toc482800897"></a><a name="_Toc482871966"></a><a name="_Toc483221689"></a><a name="_Toc484099670"></a><a name="_Toc484518966"></a><a name="_Toc485735872"></a><a name="_Toc487552756"></a><a name="_Toc491342858"></a><a name="_Toc496101641"></a><a name="_Ref499121642"></a><a name="_Toc499904734"></a><a name="_Toc500858458"></a><a name="_Toc501007968"></a><a name="_Toc502138522"></a><a name="_Toc502232374"></a><a name="_Toc502236080"></a><a name="_Toc502242237"></a>Estate and Gift Taxes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Upon death, an individual's estate may be subject to tax.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title="CRS Report R42959, Recent Changes in the Estate and Gift Tax Provisions , by Jane G. Gravelle .">64</a></sup> The base of the federal estate tax is generally property transferred at death, less allowable deductions and exemptions. An unlimited marital deduction is allowed for property transferred to a surviving spouse. Other allowable deductions include estate administration expenses and charitable bequests. The effective estate tax exemption is $5.49 million for 2017.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title="Although estate tax rates of the tax are graduated, the exemption is applied in the form of a credit and offsets taxes applied at the lower rates.">65</a></sup> The value of the estate over the exemption amount is generally taxed at a rate of 40%.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title="The exemption amount is adjusted for inflation.">66</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The federal gift tax operates alongside the estate tax to prevent individuals from avoiding the estate tax by transferring property to heirs before dying.<em> </em>For 2017, the first $14,000 of gifts from one individual to another is excluded from taxation and does not apply to the lifetime exemption.<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="A married couple could each give a child $14,000 for a total gift of $28,000. This $28,000 in gifts would not apply to the lifetime exemption. Gifts can also be made to more than one child. The exemption amount is indexed for inflation in $1,000 increments.">67</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The gift tax and estate tax are unified in that the same lifetime exemption amount applies to both taxes ($5.49 million in 2017). Being unified, taxable gifts reduce the exemption amount that is available for estate tax purposes. The gift tax rate is 40%, the same as the top rate for the estate tax, for gifts beyond the exemption amount. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Few taxpayers pay the estate tax. In 2015, an estimated 11,917 estate tax returns were filed, and 41% (4,918) of those returns were taxable.<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title="Tax Policy Center, Number of Returns 2001–2015 , December 21, 2016, http://www.taxpolicycenter.org/statistics/number-returns-2001-2015 and Tax Policy Center, Returns by Credits , December 21, 2016, http://www.taxpolicycenter.org/statistics/returns-credits .">68</a></sup> Estimates suggest that through 2024, each year roughly 0.2% of decedents will face the estate tax.<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title="Joint Committee on Taxation, History, Present Law, And Analysis Of The Federal Wealth Transfer Tax System , March 16, 2015, https://www.jct.gov/publications.html?func=startdown&amp;id=4744 .">69</a></sup> The estate tax is also progressive, up to the very top of the income distribution. For taxpayers in the 95<sup>th</sup> to 99<sup>th</sup> percentile, the estate tax has been estimated to be 0.2% of cash income in 2016.<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title="Tax Policy Center, T17-0040 — Average Effective Federal Tax Rates — All Tax Units, By Expanded Cash Income Percentile, 2016 , March 17, 2017, http://www.taxpolicycenter.org/model-estimates/baseline-average-effective-tax-rates-march-2017/t17-0040-average-effective-federal .">70</a></sup> For taxpayers in the top 1% and top 0.1% of the income distribution, the estate tax has been estimated to be 0.5% of cash income in 2016.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc482871967"></a><a name="_Toc483221690"></a><a name="_Toc484099671"></a><a name="_Toc484518967"></a><a name="_Toc485735873"></a><a name="_Toc487552757"></a><a name="_Toc491342859"></a><a name="_Toc496101642"></a><a name="_Toc499904735"></a><a name="_Toc500858459"></a><a name="_Toc501007969"></a><a name="_Toc502138523"></a><a name="_Toc502232375"></a><a name="_Toc502236081"></a><a name="_Toc502242238"></a>Excise Taxes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Excise taxes are levied on the consumption of goods and services rather than income. Unlike sales taxes, they apply to particular commodities, rather than to broad categories. Historically, the federal government has levied excise taxes, but not a broad-based sales tax, instead leaving sales taxes to the states as a revenue source.<em> </em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal excise taxes are levied on a variety of products.<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title="CRS Report R43189, Federal Excise Taxes: An Introduction and General Analysis , by Sean Lowry .">71</a></sup> The collection point of the tax varies across products. For some goods, taxes are collected at the production level. Other excise taxes are collected on retail sales. In terms of receipts, the single largest tax is the excise tax on gasoline.<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title="CRS Report R43189, Federal Excise Taxes: An Introduction and General Analysis , by Sean Lowry .">72</a></sup> Other prominent excise taxes are those on diesel and other fuels; trucks, trailers, and tractors; aviation-related taxes and fees;<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title="CRS Report R44749, The Airport and Airway Trust Fund (AATF): An Overview , by Rachel Y. Tang and Bart Elias .">73</a></sup> excise taxes on beer, wine, and distilled spirits;<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title="CRS Report R43350, Alcohol Excise Taxes: Current Law and Economic Analysis , by Sean Lowry .">74</a></sup> taxes on tobacco products; Affordable Care Act (ACA) taxes and fees<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title="CRS In Focus IF10591, Taxes and Fees Enacted as Part of the Affordable Care Act , by Sean Lowry .">75</a></sup> (e.g., insurance provider fee,<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title="CRS Report R43225, Patient Protection and Affordable Care Act: Annual Fee on Health Insurers , by Suzanne M. Kirchhoff .">76</a></sup> medical device excise tax,<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title="CRS Report R43342, The Medical Device Excise Tax: Economic Analysis , by Jane G. Gravelle and Sean Lowry .">77</a></sup> branded pharmaceuticals fee); and taxes on firearms and ammunition.<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title="CRS Report R42992, Guns, Excise Taxes, and Wildlife Restoration , by R. Eliot Crafton and Jane G. Gravelle .">78</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most federal excise taxes are paid into federal trust funds devoted to specific federal activities, as opposed to remaining in the federal budget's general fund<em>.</em> In 2016, of the $95 billion in excise tax revenue, approximately 64% supported trust funds, with the remainder being general fund revenue.<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title="Office of Management and Budget, Historical Tables, Table 2.4, available at https://www.whitehouse.gov/omb/budget/Historicals .">79</a></sup> The largest trust fund is the Highway Trust Fund. Devoted revenue sources include excise taxes on fuels, trucks, and tires. Aviation-related excise taxes support the Airport and Airway Trust Fund, the second largest of the excise-tax-supported trust funds.<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title="CRS Report R44749, The Airport and Airway Trust Fund (AATF): An Overview , by Rachel Y. Tang and Bart Elias .">80</a></sup> General fund excise taxes include taxes on alcohol and tobacco and ACA-related excise taxes. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Excise taxes can result in consumers paying higher prices for goods and services. Overall, households from the lower part of the income distribution tend to pay a larger share of their income in excise taxes than higher-income households.<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title="Joseph Rosenberg, The Distributional Burden of Federal Excise Taxes , Tax Policy Center, September 2, 2015, available at http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000365-the-distributional-burden-of-federal-excise-taxes.pdf .">81</a></sup> Thus, taken as a whole, federal excise taxes are generally believed to be regressive. The degree of regressivity can vary for different types of excise taxes. For example, tobacco excise taxes are estimated to be more regressive than aviation-related excise taxes.<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title="Ibid.">82</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472066309"></a><a name="_Toc472066339"></a><a name="_Toc472494542"></a><a name="_Toc482286971"></a><a name="_Toc482800898"></a><a name="_Toc482871968"></a><a name="_Toc483221691"></a><a name="_Toc485215239"></a><a name="_Toc490727395"></a><a name="_Toc491342860"></a><a name="_Toc496101643"></a><a name="_Toc499904736"></a><a name="_Toc500858460"></a><a name="_Toc501007970"></a><a name="_Toc502138524"></a><a name="_Toc502232376"></a><a name="_Toc502236082"></a><a name="_Toc502242239"></a>Tax Statistics</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472066310"></a><a name="_Toc472066340"></a><a name="_Toc472494543"></a><a name="_Toc482286972"></a><a name="_Toc482800899"></a><a name="_Toc482871969"></a><a name="_Toc483221692"></a><a name="_Toc485215240"></a><a name="_Toc490727396"></a><a name="_Toc491342861"></a><a name="_Toc496101644"></a><a name="_Toc499904737"></a><a name="_Toc500858461"></a><a name="_Toc501007971"></a><a name="_Toc502138525"></a><a name="_Toc502232377"></a><a name="_Toc502236083"></a><a name="_Toc502242240"></a>Taxes as a Share of the Economy</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal revenues are derived from several sources and have collectively ranged from roughly one-fifth to one-sixth the size of the economy. <a class="InternalLink" href="#_Ref495493865"><strong></strong><strong>Figure 6</strong></a> displays total federal tax revenues and major sources of federal tax revenue as percentages of gross domestic product (GDP) since 1945. Revenues in 2016 were 17.8% of GDP, slightly above the post-World War II average of 17.3% of GDP.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since the mid-1940s, the individual income tax has been the most important single source of federal revenue (business income may also be taxed under the individual income tax system, as discussed above in "<a class="InternalLink" href="#_Ref500859277">The Individual Income Tax</a>"). Between 2000 and 2010, however, the individual income tax receipts decreased relative to the size of the economy, falling from nearly 10% of GDP in 2000 to just over 6% in 2010. Individual income tax receipts have subsequently increased to 8.4% of GDP in 2016. Over time, the corporate income tax has fallen from the second- to the third-most important source of revenue. In the late 1960s, corporate taxes were replaced by social insurance and retirement taxes as the second-leading revenue source. Excise taxes and estate and gift taxes have also decreased in relative importance over time.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref495493865"></a><a name="_Toc491342837"></a><a name="_Toc496101618"></a><a name="_Toc499904711"></a><a name="_Toc500858435"></a><a name="_Toc501007945"></a><a name="_Toc502138499"></a><a name="_Toc502232351"></a><a name="_Toc502236057"></a><a name="_Toc502242214"></a>Figure 6. Federal Revenue as a Percentage of GDP</p>
+<p class="FigureSubTitle">1945-2022</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image7.png" class="Figure" src="R45053_files/5.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS calculations using data from U.S. Office of Management and Budget, <span class="Emphasis">Budget of the U.S. Government, Fiscal Year 2017, Historical Tables</span> (Washington: GPO, 2017).</p>
+<p class="FigureNote"><strong>Notes:</strong> Revenues for 2017-2022 are projections based on the President's FY2017 budget proposal, which does not include the effects of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d115:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>. FY2017 is noted with the vertical dotted line.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc485215241"></a><a name="_Toc490727397"></a><a name="_Toc491342862"></a><a name="_Toc496101645"></a><a name="_Toc499904738"></a><a name="_Toc500858462"></a><a name="_Toc501007972"></a><a name="_Toc502138526"></a><a name="_Toc502232378"></a><a name="_Toc502236084"></a><a name="_Toc502242241"></a>Composition of Tax Revenue </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The changing shares of federal revenues over time are more clearly shown in <a class="InternalLink" href="#_Ref485643742"><strong></strong><strong>Figure 7</strong></a>. For example, the corporate income tax accounted for roughly 30% of federal revenue in 1946, but less than 10% in 2016.<sup><a class="FootnoteLink" href="#fn83" name="ifn83" title="CRS Report R42113, Reasons for the Decline in Corporate Tax Revenues , by Mark P. Keightley .">83</a></sup> Similarly, excise tax revenue is nearly 3% of federal receipts, down from nearly 18% in 1946. In contrast, receipts for social insurance and retirement taxes have risen post-World War II with the enactment of Social Security and Medicare and are now the second largest source of federal receipts at nearly 35%.</p>
+<p class="Figure" style="padding-left:-178.85pt;padding-right:-178.85pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref485643742"></a><a name="_Toc485215223"></a><a name="_Toc490727375"></a><a name="_Toc491342838"></a><a name="_Toc496101619"></a><a name="_Toc499904712"></a><a name="_Toc500858436"></a><a name="_Toc501007946"></a><a name="_Toc502138500"></a><a name="_Toc502232352"></a><a name="_Toc502236058"></a><a name="_Toc502242215"></a>Figure 7. Composition of Federal Revenue</p>
+<p class="FigureSubTitle">Selected Years 1946-2021</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image8.png" class="Figure" src="R45053_files/6.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CRS calculations using data from U.S. Office of Management and Budget, <span class="Emphasis">Budget of the U.S. Government, Fiscal Year 2017, Historical Tables</span> (Washington: GPO, 2017).</p>
+<p class="FigureNote"><strong>Note</strong><strong>:</strong> The composition of revenues for 2021 are projections based on the President's FY2017 budget proposal, which does not include the effects of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d115:H.R.1:"><span class="Hyperlink">H.R. 1</span></a>. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc472066312"></a><a name="_Toc472066342"></a><a name="_Toc472494545"></a><a name="_Toc482286974"></a><a name="_Toc482800901"></a><a name="_Toc482871971"></a><a name="_Toc483221694"></a><a name="_Toc485215242"></a><a name="_Toc490727398"></a><a name="_Toc491342863"></a><a name="_Toc496101646"></a><a name="_Toc499904739"></a><a name="_Toc500858463"></a><a name="_Toc501007973"></a><a name="_Toc502138527"></a><a name="_Toc502232379"></a><a name="_Toc502236085"></a><a name="_Toc502242242"></a>The Distribution of the Tax Burden<a name="_Toc472066311"></a><a name="_Toc472066341"></a><a name="_Toc472494544"></a><a name="_Toc482286973"></a><a name="_Toc482800900"></a><a name="_Toc482871970"></a><a name="_Toc483221693"></a> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The U.S. tax system is generally progressive. As shown in <a class="InternalLink" href="#_Ref485648922"><strong></strong><strong>Figure 8</strong></a>, households in the bottom four quintiles have greater shares of before-tax income than their share of federal taxes paid. In contrast, households in the top quintile received just over half of total before-tax income and paid over two-thirds of federal taxes. This is largely a result of the progressive rate structure of the individual income tax and results in a distribution of after-tax income that is slightly more even than the distribution of before-tax income.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref485648922"></a><a name="_Toc490727376"></a><a name="_Toc491342839"></a><a name="_Toc496101620"></a><a name="_Toc499904713"></a><a name="_Toc500858437"></a><a name="_Toc501007947"></a><a name="_Toc502138501"></a><a name="_Toc502232353"></a><a name="_Toc502236059"></a><a name="_Toc502242216"></a>Figure 8. Shares of Before-Tax Income and Federal Taxes</p>
+<p class="FigureSubTitle">By Before-Tax Income Group, 2013</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image9.png" class="Figure" src="R45053_files/7.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>CBO, Distribution of Household Income and Federal Taxes, 2013.</p>
+<p class="FigureNote"><strong>Note</strong><strong>:</strong> Federal taxes include individual income taxes, payroll taxes, corporate income taxes, and excise taxes.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While <a class="InternalLink" href="#_Ref485648922"><strong></strong><strong>Figure 8</strong></a> highlights the distribution of the aggregate federal taxes borne by individuals along the income distribution, it does not provide a clear picture of the relative importance of federal taxes to most taxpayers. <a class="InternalLink" href="#_Ref490471662"><strong></strong><strong>Figure 9</strong></a> highlights the relative importance of the two largest categories of taxes (income and payroll) faced by most taxpayers. According to estimates from the Tax Policy Center, 62.3% of taxpayers pay more in payroll taxes than income taxes, while nearly 20% pay more in income taxes than payroll taxes.<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title='Roberton C. Williams, "Most Americans Pay More Payroll Tax Than Income Tax," September 6, 2016, available at http://www.taxpolicycenter.org/taxvox/most-americans-pay-more-payroll-tax-income-tax .'>84</a></sup> The remaining 18% who do not pay either tax is split evenly between retirees and those without jobs.</p>
+<p class="Figure" style="padding-left:-139.5pt;padding-right:-139.5pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref490471662"></a><a name="_Toc490727377"></a><a name="_Toc491342840"></a><a name="_Toc496101621"></a><a name="_Toc499904714"></a><a name="_Toc500858438"></a><a name="_Toc501007948"></a><a name="_Toc502138502"></a><a name="_Toc502232354"></a><a name="_Toc502236060"></a><a name="_Toc502242217"></a>Figure 9. Federal Income and Payroll Taxes, 2016</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image10.jpg" class="Figure" src="R45053_files/8.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong> Urban-Brookings Tax Policy Center.</p>
+<p class="FigureNote"><strong>Note</strong><strong>:</strong> A "tax unit" is an individual or married couple that files a tax return, or would file a tax return if their income were high enough. </p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc490727399"></a><a name="_Toc491342864"></a><a name="_Toc496101647"></a><a name="_Toc499904740"></a><a name="_Toc500858464"></a><a name="_Toc501007974"></a><a name="_Toc502138528"></a><a name="_Toc502232380"></a><a name="_Toc502236086"></a><a name="_Toc502242243"></a>International Comparisons</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">How the U.S. tax system compares to those in other countries is a perennial tax policy question. As shown in <a class="InternalLink" href="#_Ref490473742"><strong></strong><strong>Figure 10</strong></a>, total U.S. taxes as a percentage of GDP is below the average for OECD countries. Four countries tend to have lower taxes as a percentage of GDP than the United States, with most others tending to have higher taxes relative to the size of the economy. Note that such a direct comparison can be difficult to interpret, as it does not take into account spending policies or deficit/surplus levels that provide more context.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">OECD Countries, 1987-2016<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref490473742"></a><a name="_Toc490727378"></a><a name="_Toc491342841"></a><a name="_Toc496101622"></a><a name="_Toc499904715"></a><a name="_Toc500858439"></a><a name="_Toc501007949"></a><a name="_Toc502138503"></a><a name="_Toc502232355"></a><a name="_Toc502236061"></a><a name="_Toc502242218"></a>Figure 10. Government Revenue as a Percentage of GDP</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image11.png" class="Figure" src="R45053_files/9.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>OECD Revenue Statistics.</p>
+<p class="FigureNote"><strong>Note</strong><strong>:</strong> Government revenue includes all federal, state, and local collections.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref490474524"><strong></strong><strong>Table 4</strong></a> provides this additional context for the United States and the other major democratic countries in the G-7. Among the G-7 countries, the United States has both the lowest revenue and spending as a percentage of GDP and the second highest deficit level.<sup><a class="FootnoteLink" href="#fn85" name="ifn85" title="The relatively low level of revenue collections in the United States may be partially explained by the lack of a federal-level consumption tax (like a Value-Added Tax), which is a feature of the other countries' tax systems. Similarly, the level of government spending may be partially explained by the lack of federal provision of health care that occurs in the other G-7 countries.">85</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref490474524"></a><a name="_Toc490727381"></a><a name="_Toc491342845"></a><a name="_Toc496101626"></a><a name="_Toc499904719"></a><a name="_Toc500858443"></a><a name="_Toc501007953"></a><a name="_Toc502138507"></a><a name="_Toc502232359"></a><a name="_Toc502236065"></a><a name="_Toc502242222"></a>Table 4. U.S. Fiscal Position Compared to Other Industrialized Nations, 2017</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:105.44909184pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:105.3648pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Government Revenues as a % of GDP</p>
+</td>
+<td style="width:105.28050816pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Government Expenditures as a % of GDP</p>
+</td>
+<td style="width:105.28050816pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Surplus/Deficit as a % of GDP</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.44909184pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Canada</p>
+</td>
+<td style="width:105.3648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">38.5</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">40.1</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-1.6</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.44909184pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">France</p>
+</td>
+<td style="width:105.3648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">53.2</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">56.1</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-2.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.44909184pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Germany</p>
+</td>
+<td style="width:105.3648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">44.9</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">43.8</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.44909184pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Italy</p>
+</td>
+<td style="width:105.3648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">47.0</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">49.2</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-2.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.44909184pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Japan</p>
+</td>
+<td style="width:105.3648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">33.9</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">38.8</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-4.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.44909184pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">United Kingdom</p>
+</td>
+<td style="width:105.3648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">38.2</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">40.5</p>
+</td>
+<td style="width:105.28050816pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-2.3</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:105.44909184pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">United States</p>
+</td>
+<td style="width:105.3648pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">33.0</p>
+</td>
+<td style="width:105.28050816pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">37.6</p>
+</td>
+<td style="width:105.28050816pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-4.6</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong><a class="ExternalLink" href="http://www.oecd.org/eco/outlook/economic-outlook-annex-tables.htm"><span class="Hyperlink">OECD</span></a><span class="Hyperlink"> Economic Outlook Annex Tables</span><span class="Hyperlink">.</span> </p>
+<p class="FigureNote"><strong>Note</strong><strong>:</strong> Government revenue and expenditures includes all federal, state, and local collections and spending.</p>
+</div>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc500858465"></a><a name="_Toc501007975"></a><a name="_Toc502138529"></a><a name="_Toc502232381"></a><a name="_Toc502236087"></a><a name="_Toc502242244"></a>Concluding Remarks</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d115:H.R.1:"><span class="Hyperlink">H.R. 1</span></a> includes broad changes to the federal tax system after the 2017 tax year. On the individual side, the act structurally changes the individual income tax system by repealing personal exemptions and increasing the standard deduction. Rates and brackets are modified, as are many individual income tax expenditures. The act also changes how businesses are taxed, with most pass-through business income being effectively taxed at rates that differ from the statutory tax rates under the individual income tax system. Corporations will face a reduced statutory tax rate, with many corporate and business tax expenditures otherwise modified. The act also moves towards a territorial tax system for multinational corporations. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides an overview of the federal tax system, as in effect in 2017. Changes to the federal tax system enacted in the 115<sup>th</sup> Congress will be addressed in subsequent CRS products. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="Heading5" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix. <a name="_Toc484099659"></a><a name="_Toc484518954"></a><a name="_Toc485735860"></a><a name="_Toc487552744"></a><a name="_Toc491342846"></a><a name="_Toc496101629"></a><a name="_Toc499904722"></a><a name="_Toc500858446"></a><a name="_Toc501007956"></a><a name="_Toc502138510"></a><a name="_Toc502232362"></a><a name="_Toc502236068"></a><a name="_Toc502242225"></a>Largest Individual and Corporate Tax Expenditures</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The largest individual income tax expenditures are listed in <a class="InternalLink" href="#_Ref495670659"><strong></strong><strong>Table A-1</strong></a>. In 2016, the sum of individual income tax expenditures was $1.2 trillion. Of this total, $844.2 billion (or 69%) is attributable to the top 10 provisions. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref495670659"></a><a name="_Toc496101627"></a><a name="_Toc499904720"></a><a name="_Toc500858444"></a><a name="_Toc501007954"></a><a name="_Toc502138508"></a><a name="_Toc502232360"></a><a name="_Toc502236066"></a><a name="_Toc502242223"></a>Table A-1. Individual Income Tax Expenditures, 2016</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:343.32066432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Individual Tax Expenditure</p>
+</td>
+<td style="width:78.13853568pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">$ billions</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Exclusion for Pension Contributions and Earnings</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">156</td><td valign="top">.1</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Exclusion for Employer Provided Health Care</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">155</td><td valign="top">.3</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Reduced Rates for Capital Gains and Dividends</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">130</td><td valign="top">.9</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Earned Income Tax Credit</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">73</td><td valign="top">.0</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deduction for State and Local Taxes</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">65</td><td valign="top">.4</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deduction for Mortgage Interest</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">59</td><td valign="top">.0</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deduction for Charitable Contributions</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">55</td><td valign="top">.2</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Child Tax Credit</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">55</td><td valign="top">.0</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Expensing under Section 179 of Depreciable Business Property</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">53</td><td valign="top">.0</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Subsidies for Insurance Purchased through Health Benefit Exchanges</p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">41</td><td valign="top">.3</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top"></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><em>Total (Top 10)</em></p>
+</td>
+<td style="width:78.13853568pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top"><em>844</em></td><td valign="top"><em>.2</em></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:343.32066432pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Total (All)</strong></p>
+</td>
+<td style="width:78.13853568pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:27pt;"><strong>1,219.8</strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 2016-2020,</em> JCX-3-17,<em> </em>January 30, 2017. </p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The largest corporate income tax expenditures are listed in <a class="InternalLink" href="#_Ref495670909"><strong></strong><strong>Table A-2</strong></a>. In 2016, the sum of corporate tax expenditures was $267.2 billion. Of this total, $222.8 billion (or 83%) is attributable to the top 10 provisions. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:430.7904pt;">
+<p class="TableTitle"><a name="_Ref495670909"></a><a name="_Toc496101628"></a><a name="_Toc499904721"></a><a name="_Toc500858445"></a><a name="_Toc501007955"></a><a name="_Toc502138509"></a><a name="_Toc502232361"></a><a name="_Toc502236067"></a><a name="_Toc502242224"></a>Table A-2. Corporate Tax Expenditures, 2016</p>
+</div>
+<table class="ReportTable" style="width:430.7904pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:344.3321664pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Corporate Tax Expenditures</p>
+</td>
+<td style="width:77.1270336pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">$ billions</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deferral of Active Income of Controlled Foreign Corporations</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">102</td><td valign="top">.7</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Expensing under Section 179 of Depreciable Business Property</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">34</td><td valign="top">.2</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Depreciation of Equipment in Excess of the Alternative Depreciation System </p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">17</td><td valign="top">.3</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deduction for Income Attributable to Domestic Production Activities</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">14</td><td valign="top">.5</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deferral of Gain on Like-Kind Exchanges</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">11</td><td valign="top">.1</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Exclusion of Interest on Public Purpose State and Local Government Bonds</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">9</td><td valign="top">.8</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Credit for Research and Experimentation</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">9</td><td valign="top">.4</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deferral of Active Finance Income</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">9</td><td valign="top">.1</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Credit for Low-Income Housing </p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">7</td><td valign="top">.9</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Deferral of Gain on Non-Dealer Installment Sales</p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top">6</td><td valign="top">.8</td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style=""></p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top"> <p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top"></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><em>Total (Top 10)</em></p>
+</td>
+<td style="width:77.1270336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:36pt;text-align:right;" valign="top"><em>222</em></td><td valign="top"><em>.8</em></td>
+</tr>
+</table>
+</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:344.3321664pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Total (All)</strong></p>
+</td>
+<td style="width:77.1270336pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:26.35pt;"><strong>267.2</strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:430.7904pt;">
+<p class="TableSource"><strong>Source: </strong>Joint Committee on Taxation, <em>Estimates of Federal Tax Expenditures for Fiscal Years 2016-2020,</em> JCX-3-17,<em> </em>January 30, 2017.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The full framework is available at <a class="ExternalLink" href="https://www.speaker.gov/sites/speaker.house.gov/files/Tax%20Framework.pdf"><span class="Hyperlink">https://www.speaker.gov/sites/speaker.house.gov/files/Tax%20Framework.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See the President's Advisory Panel on Federal Tax Reform website, archived at <a class="ExternalLink" href="https://govinfo.library.unt.edu/taxreformpanel/"><span class="Hyperlink">https://govinfo.library.unt.edu/taxreformpanel/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A press release accompanying the release of The Tax Reform Act of 2014 in discussion draft form can be found at <a class="ExternalLink" href="https://waysandmeans.house.gov/camp-releases-tax-reform-plan-to-strengthen-the-economy-and-make-the-tax-code-simpler-fairer-and-flatter/"><span class="Hyperlink">https://waysandmeans.house.gov/camp-releases-tax-reform-plan-to-strengthen-the-economy-and-make-the-tax-code-simpler-fairer-and-flatter/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Historical data on federal receipts by source can be found in Table 2.1 of the Historical Tables published by the Office of Management and Budget (OMB), available at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/budget/Historicals"><span class="Hyperlink">https://www.whitehouse.gov/omb/budget/Historicals</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Other sources include estate and gift taxes, customs duties and fees, and deposits of earnings by the Federal Reserve System. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report RL30110, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL30110"><em><span class="Hyperlink">Federal Individual Income Tax Terms: An Explanation</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Internal Revenue Service, Statistics of Income, Individual Income Tax Statistics Table 1.4 provides information on sources of income, available at <a class="ExternalLink" href="https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income"><span class="Hyperlink">https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R43104, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43104"><em><span class="Hyperlink">A Brief Overview of Business Types and Their Tax Treatment</span></em></a>, by Mark P. Keightley; and CRS Report R42359, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42359"><em><span class="Hyperlink">Who Earns Pass-Through Business Income? An Analysis of Individual Tax Return Data</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Haig-Simons comprehensive income definition was first developed in Robert Murray Haig, "The Concept of Income–Economic and Legal Aspects," in <em>The Federal Income Tax</em>, ed. Robert Murray Haig (New York, NY: Columbia University Press, 1921), pp. 1-28; and Henry C. Simons, <em>Personal Income Taxation: The Definition of Income as a Problem of Fiscal Policy</em> (Chicago, IL: University of Chicago Press, 1938). An overview of the concept can be found in Jonathan Gruber, <em>Public Finance and Public Policy</em>, 2<sup>nd</sup> ed. (New York, NY: Worth Publishers, 2007).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Exclusions are a form of "tax expenditure." Tax expenditures are revenue losses associated with targeted provisions that move the income tax away from a "theoretical normal" tax system. For more information on individual income tax expenditures, see <a class="InternalLink" href="#_Ref495670659"><strong></strong><strong>Table A-1</strong></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information, see CRS Report 96-769, <a class="ExternalLink" href="http://www.crs.gov/Reports/96-769"><em><span class="Hyperlink">Capital Gains Taxes: An Overview</span></em></a>, by Jane G. Gravelle; and CRS Report R43418, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43418"><em><span class="Hyperlink">The Taxation of Dividends: Background and Overview</span></em></a>, by Jane G. Gravelle and Molly F. Sherlock. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Capital losses are generally deductible against capital gains. Taxpayers can also deduct up to $3,000 of capital losses from ordinary income per tax year. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Unrealized capital gains are also excluded at death. This is discussed further in the "<a class="InternalLink" href="#_Ref499121642">Estate and Gift Taxes</a>" section below. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Qualified dividends, which are generally dividends that have met certain holding period requirements, are taxed at the same reduced rate as capital gains. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For background on types of business organizations, see CRS Report R43104, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43104"><em><span class="Hyperlink">A Brief Overview of Business Types and Their Tax Treatment</span></em></a>, by Mark P. Keightley. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A list of "above the line" deductions can be found in the Internal Revenue Code (IRC) §62.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information, see CRS Report R42872, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42872"><em><span class="Hyperlink">Tax Deductions for Individuals: A Summary</span></em></a>, by Sean Lowry. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The additional standard deduction for married taxpayers filing jointly is $1,250 per spouse that is either blind or elderly (or $2,500 if both blind and elderly). For single and head of household taxpayers, the additional standard deduction is $1,550 (or $3,100 if both blind and elderly). </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on personal exemption amounts over time, see CRS Report RL34498, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34498"><em><span class="Hyperlink">Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017</span></em></a>, by Gary Guenther. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For head of household filers, the personal exemption phaseout threshold is $287,650 in 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report RL32781, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL32781"><em><span class="Hyperlink">Federal Deductibility of State and Local Taxes</span></em></a>, by Grant A. Driessen and Steven Maguire. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS In Focus IF10584, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10584"><em><span class="Hyperlink">Key Issues in Tax Reform: The Mortgage Interest Deduction</span></em></a>, by Mark P. Keightley. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report RL34608, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34608"><em><span class="Hyperlink">Tax Issues Relating to Charitable Contributions and Organizations</span></em></a>, by Jane G. Gravelle and Molly F. Sherlock. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R41596, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41596"><em><span class="Hyperlink">The Mortgage Interest and Property Tax Deductions: Analysis and Options</span></em></a>, by Mark P. Keightley. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R42872, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42872"><em><span class="Hyperlink">Tax Deductions for Individuals: A Summary</span></em></a>, by Sean Lowry. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The limitation on itemized deductions for certain higher-income taxpayers is known as the Pease limitation in reference to its originator, Rep. Donald J. Pease. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more on this trend, see Chenxi Lu, <em>The Rise and Fall of Itemized Deductions</em>, TaxVox, Tax Policy Center, August 10, 2016, <a class="ExternalLink" href="http://www.taxpolicycenter.org/taxvox/rise-and-fall-itemized-deductions"><span class="Hyperlink">http://www.taxpolicycenter.org/taxvox/rise-and-fall-itemized-deductions</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A marginal tax rate is the tax rate on the last dollar earned.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For historical perspective on marginal tax rates, see CRS Report RL34498, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34498"><em><span class="Hyperlink">Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017</span></em></a>, by Gary Guenther.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Take, for example, a single taxpayer with taxable income of $50,000. That taxpayer would fall in the 25% statutory rate bracket. However, that taxpayer's tax liability would be the sum of taxes applied to income falling within the first three brackets, the 10%, 15%, and 25% brackets. Specifically, the taxpayer would pay $932.50 (or 10%) on the first $9,325 in taxable income, $4,293.75 (or 15%) on the next $28,625 in taxable income, and $3,012.50 (or 25%) on the last $12,050 in income. Thus, the taxpayer's total tax bill would be $8,238.75 on $50,000 in taxable income. Even though this taxpayer is in the 25% tax bracket, their average tax rate is 16.5%. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Modified AGI is AGI increased by the amount excluded from income as foreign earned income. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The threshold amount is $125,000 for married taxpayers filing separate returns. These threshold amounts are not adjusted for inflation. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43805, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43805"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): An Overview</span></em></a>, by Gene Falk and Margot L. Crandall-Hollick; CRS Report R44057, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44057"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): An Economic Analysis</span></em></a>, by Margot L. Crandall-Hollick; CRS Report R44825, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44825"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): A Brief Legislative History</span></em></a>, by Margot L. Crandall-Hollick; and CRS Report R43873, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43873"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): Administrative and Compliance Challenges</span></em></a>, by Margot L. Crandall-Hollick. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R41873, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41873"><em><span class="Hyperlink">The Child Tax Credit: Current Law and Legislative History</span></em></a>, by Margot L. Crandall-Hollick; and CRS Report R41935, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41935"><em><span class="Hyperlink">The Child Tax Credit: Economic Analysis and Policy Options</span></em></a>, by Margot L. Crandall-Hollick. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report RS21466, <em>Dependent Care: Current Tax Benefits and Legislative Issues</em>, by Julie M. Whittaker (out-of-print; available to congressional clients upon request from the author of this report).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R41967, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41967"><em><span class="Hyperlink">Higher Education Tax Benefits: Brief Overview and Budgetary Effects</span></em></a>, by Margot L. Crandall-Hollick. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R42561, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42561"><em><span class="Hyperlink">The American Opportunity Tax Credit: Overview, Analysis, and Policy Options</span></em></a>, by Margot L. Crandall-Hollick.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information, see CRS Report R44787, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44787"><em><span class="Hyperlink">Statutory, Average, and Effective Marginal Tax Rates in the Federal Individual Income Tax: Background and Analysis</span></em></a>, by Molly F. Sherlock.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R44494, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44494"><em><span class="Hyperlink">The Alternative Minimum Tax for Individuals: In Brief</span></em></a>, by Donald J. Marples. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The exemption for married individuals filing separately is half that of married filers filing jointly, as is the phaseout threshold.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tax Policy Center, <em>T17-0149–Characteristics of Alternative Minimum Tax (AMT) Payers, 2016–2018 and 2027, </em>April 28, 2017, available at <a class="ExternalLink" href="http://www.taxpolicycenter.org/model-estimates/baseline-alternative-minimum-tax-amt-tables-april-2017/t17-0149-characteristics"><span class="Hyperlink">http://www.taxpolicycenter.org/model-estimates/baseline-alternative-minimum-tax-amt-tables-april-2017/t17-0149-characteristics</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R42726, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42726"><em><span class="Hyperlink">The Corporate Income Tax System: Overview and Options for Reform</span></em></a>, by Mark P. Keightley and Molly F. Sherlock. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R43104, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43104"><em><span class="Hyperlink">A Brief Overview of Business Types and Their Tax Treatment</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An S corporation is a closely held corporation that elects to be treated as a pass-through entity for tax purposes. S corporations are named for Subchapter S of the IRC, which details their tax treatment. By electing S corporation status, a business is able to combine many of the legal and business advantages of a C corporation with the tax advantages of a partnership. For more information, see CRS Report R43104, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43104"><em><span class="Hyperlink">A Brief Overview of Business Types and Their Tax Treatment</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A partnership is a joint venture consisting of at least two partners organized to operate a trade or business with each partner sharing profits, losses, deductions, credits, and the like. The most common partnerships include general partnerships, limited liability partnerships, limited partnerships, publicly traded partnerships, and electing large partnerships. For more information, see CRS Report R43104, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43104"><em><span class="Hyperlink">A Brief Overview of Business Types and Their Tax Treatment</span></em></a>, by Mark P. Keightley.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The primary components of business income are revenues generated from the sale of goods and services. Other income sources include investment income, royalties, rents, and capital gains. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more on corporate tax expenditures, see <a class="InternalLink" href="#_Ref495670909"><strong></strong><strong>Table A-2</strong></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the production activities deduction, see CRS Report R41988, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41988"><em><span class="Hyperlink">The Section 199 Production Activities Deduction: Background and Analysis</span></em></a>, by Molly F. Sherlock.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report RL32254, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL32254"><em><span class="Hyperlink">Small Business Tax Benefits: Current Law and Main Arguments For and Against Them</span></em></a>, by Gary Guenther.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R41852, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41852"><em><span class="Hyperlink">U.S. International Corporate Taxation: Basic Concepts and Policy Issues</span></em></a>, by Mark P. Keightley and CRS Report RL34115, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34115"><em><span class="Hyperlink">Reform of U.S. International Taxation: Alternatives</span></em></a>, by Jane G. Gravelle. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See IRC §901.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Subpart F income is named after the section of the Internal Revenue Code where its tax treatment is defined. An exception to Subpart F income is for "active financing" income. Active financing income is income earned by American corporations that operate banking, financing, and insurance lines of business overseas. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R42113, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42113"><em><span class="Hyperlink">Reasons for the Decline in Corporate Tax Revenues</span></em></a>, by Mark P. Keightley. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The measure of net income used here is net income (less deficit). This measure of net income includes losses. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The taxes are also known as Federal Insurance Contributions Act (FICA) taxes. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Self-employed taxpayers pay both the employer and employee share.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R42035, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42035"><em><span class="Hyperlink">Social Security Primer</span></em></a>, by Dawn Nuschler. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R40425, <a class="ExternalLink" href="http://www.crs.gov/Reports/R40425"><em><span class="Hyperlink">Medicare Primer</span></em></a>, coordinated by Patricia A. Davis. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The threshold amount for married taxpayers filing separately is $125,000.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS In Focus IF10336, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10336"><em><span class="Hyperlink">The Fundamentals of Unemployment Compensation</span></em></a>, by Julie M. Whittaker and Katelin P. Isaacs; and CRS Report R44527, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44527"><em><span class="Hyperlink">Unemployment Compensation: The Fundamentals of the Federal Unemployment Tax (FUTA)</span></em></a>, by Julie M. Whittaker. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The tax rate is 6% of total wages for each employee, up to $7,000. However, there is a federal credit of 5.4% for state unemployment taxes, making the effective federal tax rate 0.6%.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report RL33362, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL33362"><em><span class="Hyperlink">Unemployment Insurance: Programs and Benefits</span></em></a>, by Julie M. Whittaker and Katelin P. Isaacs.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tax Policy Center, <em>Table T16-0129 Distribution of Federal Payroll and Income Taxes by Expanded Cash Income Percentile, 2016</em>, July 18, 2016, available at <a class="ExternalLink" href="http://www.taxpolicycenter.org/model-estimates/distribution-federal-payroll-and-income-taxes-july-2016/t16-0129-distribution"><span class="Hyperlink">http://www.taxpolicycenter.org/model-estimates/distribution-federal-payroll-and-income-taxes-july-2016/t16-0129-distribution</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R42959, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42959"><em><span class="Hyperlink">Recent Changes in the Estate and Gift Tax Provisions</span></em></a>, by Jane G. Gravelle. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although estate tax rates of the tax are graduated, the exemption is applied in the form of a credit and offsets taxes applied at the lower rates.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The exemption amount is adjusted for inflation. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> A married couple could each give a child $14,000 for a total gift of $28,000. This $28,000 in gifts would not apply to the lifetime exemption. Gifts can also be made to more than one child. The exemption amount is indexed for inflation in $1,000 increments. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tax Policy Center, <em>Number of Returns 2001–2015</em>, December 21, 2016, <a class="ExternalLink" href="http://www.taxpolicycenter.org/statistics/number-returns-2001-2015"><span class="Hyperlink">http://www.taxpolicycenter.org/statistics/number-returns-2001-2015</span></a> and Tax Policy Center, <em>Returns by Credits</em>, December 21, 2016, <a class="ExternalLink" href="http://www.taxpolicycenter.org/statistics/returns-credits"><span class="Hyperlink">http://www.taxpolicycenter.org/statistics/returns-credits</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joint Committee on Taxation, <em>History, Present Law, And Analysis Of The Federal Wealth Transfer Tax System</em>, March 16, 2015, <a class="ExternalLink" href="https://www.jct.gov/publications.html?func=startdown&amp;id=4744"><span class="Hyperlink">https://www.jct.gov/publications.html?func=startdown&amp;id=4744</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Tax Policy Center, <em>T17-0040</em><em>—</em><em>Average Effective Federal Tax Rates</em><em>—</em><em>All Tax Units, By Expanded Cash Income Percentile, 2016</em>, March 17, 2017, <a class="ExternalLink" href="http://www.taxpolicycenter.org/model-estimates/baseline-average-effective-tax-rates-march-2017/t17-0040-average-effective-federal"><span class="Hyperlink">http://www.taxpolicycenter.org/model-estimates/baseline-average-effective-tax-rates-march-2017/t17-0040-average-effective-federal</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43189, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43189"><em><span class="Hyperlink">Federal Excise Taxes: An Introduction and General Analysis</span></em></a>, by Sean Lowry. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43189, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43189"><em><span class="Hyperlink">Federal Excise Taxes: An Introduction and General Analysis</span></em></a>, by Sean Lowry. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R44749, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44749"><em><span class="Hyperlink">The Airport and Airway Trust Fund (AATF): An Overview</span></em></a>, by Rachel Y. Tang and Bart Elias. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43350, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43350"><em><span class="Hyperlink">Alcohol Excise Taxes: Current Law and Economic Analysis</span></em></a>, by Sean Lowry. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS In Focus IF10591, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10591"><em><span class="Hyperlink">Taxes and Fees Enacted as Part of the Affordable Care Act</span></em></a>, by Sean Lowry.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43225, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43225"><em><span class="Hyperlink">Patient Protection and Affordable Care Act: Annual Fee on Health Insurers</span></em></a>, by Suzanne M. Kirchhoff.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R43342, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43342"><em><span class="Hyperlink">The Medical Device Excise Tax: Economic Analysis</span></em></a>, by Jane G. Gravelle and Sean Lowry.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R42992, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42992"><em><span class="Hyperlink">Guns, Excise Taxes, and Wildlife Restoration</span></em></a>, by R. Eliot Crafton and Jane G. Gravelle. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Office of Management and Budget, Historical Tables, Table 2.4, available at <a class="ExternalLink" href="https://www.whitehouse.gov/omb/budget/Historicals"><span class="Hyperlink">https://www.whitehouse.gov/omb/budget/Historicals</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R44749, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44749"><em><span class="Hyperlink">The Airport and Airway Trust Fund (AATF): An Overview</span></em></a>, by Rachel Y. Tang and Bart Elias. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joseph Rosenberg, <em>The Distributional Burden of Federal Excise Taxes</em>, Tax Policy Center, September 2, 2015, available at <a class="ExternalLink" href="http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000365-the-distributional-burden-of-federal-excise-taxes.pdf"><span class="Hyperlink">http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000365-the-distributional-burden-of-federal-excise-taxes.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report R42113, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42113"><em><span class="Hyperlink">Reasons for the Decline in Corporate Tax Revenues</span></em></a>, by Mark P. Keightley. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Roberton C. Williams, "Most Americans Pay More Payroll Tax Than Income Tax," September 6, 2016, available at <a class="ExternalLink" href="http://www.taxpolicycenter.org/taxvox/most-americans-pay-more-payroll-tax-income-tax"><span class="Hyperlink">http://www.taxpolicycenter.org/taxvox/most-americans-pay-more-payroll-tax-income-tax</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The relatively low level of revenue collections in the United States may be partially explained by the lack of a federal-level consumption tax (like a Value-Added Tax), which is a feature of the other countries' tax systems. Similarly, the level of government spending may be partially explained by the lack of federal provision of health care that occurs in the other G-7 countries.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

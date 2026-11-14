@@ -1,5 +1,3 @@
-**Official-current verification: 81/81. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-07 to 2026-11-14**. Older archived files are retained.
@@ -55,12 +53,12 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
+| 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
+| 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
 | 2026-11-13 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
-| 2026-11-13 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
-| 2026-11-13 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
 | 2026-11-13 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
-| 2026-11-13 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
 | 2026-11-11 | 2024-02-05 | RS21405 v36 | U.S. Periods of War and Dates of Recent Conflicts | [PDF](pdf/reports/RS21405v36-2024-02-05-c698c81efadcb252.pdf) | [Markdown](markdown/reports/RS21405v36-2024-02-05-c698c81efadcb252.md) |
 | 2026-11-11 | 2023-05-08 | RL33931 v40 | The Corporation for National and Community Service: Overview of Programs and Funding | [PDF](pdf/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.pdf) | [Markdown](markdown/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.md) |
 | 2026-11-11 | 2023-05-25 | RL31693 v16 | U.S. Armed Forces Abroad: Selected Congressional Votes Since 1982 | [PDF](pdf/reports/RL31693v16-2023-05-25-c50650168ffba615.pdf) | [Markdown](markdown/reports/RL31693v16-2023-05-25-c50650168ffba615.md) |
