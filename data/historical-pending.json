@@ -1,46 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "4",
-        "date": "2017-11-28",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45028",
-            "sha1": "7c706dd3c95f89b416706669d9d957c5d0fea1e2",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20171128_R45028_7c706dd3c95f89b416706669d9d957c5d0fea1e2.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45028",
-            "sha1": "2bfa04f39964a94cf42771e7340db3e1e903e5f7",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20171128_R45028_2bfa04f39964a94cf42771e7340db3e1e903e5f7.pdf"
-            ]
-          }
-        },
-        "id": "R45028",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R45028",
-          "http://www.crs.gov/Reports/pdf/R45028"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "575877",
-        "title": "Presidential Appointments to Full-Time Positions in Independent and Other Agencies During the 114th Congress",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-14",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-16",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -9596,6 +9560,53 @@
         "source_record": "461994",
         "title": "Short-Term, Small-Dollar Lending: Policy Issues and Implications",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-15",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-04-28",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48931",
+            "sha1": "ba48e843bd7fa157d04faefd41152c508e4f1cc0",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48931.web.html",
+              "https://www.everycrsreport.com/files/2026-04-28_R48931_ba48e843bd7fa157d04faefd41152c508e4f1cc0.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48931",
+            "sha1": "37e42becef72ec7e9dbcbc3ecbfad82f2431e7f2",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48931/R48931.1.pdf",
+              "https://www.everycrsreport.com/files/2026-04-28_R48931_37e42becef72ec7e9dbcbc3ecbfad82f2431e7f2.pdf"
+            ]
+          }
+        },
+        "id": "R48931",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-13T21:25:22Z",
+        "required_by_recent_update": false,
+        "source_record": "R48931_A1_2026-04-28",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-04-28",
+          "id": "R48931",
+          "official_pdf_sha256": "1c9122e7b68eab8bc129900c05ef5a361e0b7ba7da2b6ca0e3541fa478fc7509",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48931/R48931.3.pdf",
+          "official_publication": "2026-11-13",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Sports Reform in the United States: College Athletics and the Olympic Sports Pipeline",
+        "version": "1"
       }
     }
   ],
