@@ -1,8 +1,6 @@
-**Official-current verification: 81/81. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-07 to 2026-11-14**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-08 to 2026-11-15**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -99,12 +97,3 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-10 | 2026-11-06 | IF13344 v3 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.pdf) | [Markdown](markdown/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.md) |
 | 2026-11-10 | 2026-10-23 | IF13295 v5 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.pdf) | [Markdown](markdown/in-focus/IF13295v5-2026-10-23-b2c5425d0132aa8e.md) |
 | 2026-11-10 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
-| 2026-11-07 | 2026-11-04 | RS21534 v128 | Oman: Politics, Security, and U.S. Policy | [PDF](pdf/reports/RS21534v128-2026-11-04-47042702dc437d24.pdf) | [Markdown](markdown/reports/RS21534v128-2026-11-04-47042702dc437d24.md) |
-| 2026-11-07 | 2026-11-05 | R49508 v3 | The Higher Blends Infrastructure Incentive Program (HBIIP): An Overview | [PDF](pdf/reports/R49508v3-2026-11-05-e66aa4e0b291efa7.pdf) | [Markdown](markdown/reports/R49508v3-2026-11-05-e66aa4e0b291efa7.md) |
-| 2026-11-07 | 2026-11-05 | R49507 v2 | Federal Statistical Research Data Centers: An Overview | [PDF](pdf/reports/R49507v2-2026-11-05-f8c2dd6e66cc3314.pdf) | [Markdown](markdown/reports/R49507v2-2026-11-05-f8c2dd6e66cc3314.md) |
-| 2026-11-07 | 2026-11-05 | R49504 v2 | Bipartisan American Affordability and Jobs Act of 2026 (BAAJA): Analysis of Endangered Species Act Provisions | [PDF](pdf/reports/R49504v2-2026-11-05-6d46961d0c4613a0.pdf) | [Markdown](markdown/reports/R49504v2-2026-11-05-6d46961d0c4613a0.md) |
-| 2026-11-07 | 2026-11-05 | R45190 v11 | From Slip Law to United States Code: A Guide to Federal Statutes for Congressional Offices | [PDF](pdf/reports/R45190v11-2026-11-05-d1d5c887fa44f6ee.pdf) | [Markdown](markdown/reports/R45190v11-2026-11-05-d1d5c887fa44f6ee.md) |
-| 2026-11-07 | 2026-11-05 | R44383 v9 | Deficits, Debt, and the Economy: An Introduction | [PDF](pdf/reports/R44383v9-2026-11-05-6fca56e9279000b3.pdf) | [Markdown](markdown/reports/R44383v9-2026-11-05-6fca56e9279000b3.md) |
-| 2026-11-07 | 2026-11-04 | R40977 v36 | U.S. Participation in the G7 and the G20 | [PDF](pdf/reports/R40977v36-2026-11-04-4a02e74d55e8b47a.pdf) | [Markdown](markdown/reports/R40977v36-2026-11-04-4a02e74d55e8b47a.md) |
-| 2026-11-07 | 2026-11-06 | IF12047 v20 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.pdf) | [Markdown](markdown/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.md) |
-| 2026-11-07 | 2026-07-21 | IF10155 v19 | Somalia | [PDF](pdf/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.pdf) | [Markdown](markdown/in-focus/IF10155v19-2026-07-21-bd8a0cc36377cefb.md) |
