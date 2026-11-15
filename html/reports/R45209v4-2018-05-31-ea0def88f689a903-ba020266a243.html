@@ -1,0 +1,1389 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R45209.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>The <em>House </em><em>Journal</em>: Origin, Purpose, and Approval</div>
+<div class="CoverDate">Updated May 31, 2018
+            (R45209)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc515621530"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc515621531"><span class="Hyperlink">What Is the </span><em><span class="Hyperlink">Journal</span></em><span class="Hyperlink">?</span></a></li>
+<li class="TOC2"><a href="#_Toc515621532"><span class="Hyperlink">Constitutional Requirements</span></a></li>
+<li class="TOC2"><a href="#_Toc515621533"><span class="Hyperlink">House Rules and Practice Requirements</span></a></li>
+<li class="TOC2"><a href="#_Toc515621534"><span class="Hyperlink">Statutory Requirements</span></a></li>
+<li class="TOC2"><a href="#_Toc515621535"><span class="Hyperlink">Excluded Information</span></a></li>
+<li class="TOC1"><a href="#_Toc515621536"><span class="Hyperlink">Origin, Purpose, and Use</span></a></li>
+<li class="TOC2"><a href="#_Toc515621537"><span class="Hyperlink">Duty to Keep and Publish a Journal of Proceedings</span></a></li>
+<li class="TOC2"><a href="#_Toc515621538"><span class="Hyperlink">Public Purpose</span></a></li>
+<li class="TOC2"><a href="#_Toc515621539"><span class="Hyperlink">Use as Official Record</span></a></li>
+<li class="TOC1"><a href="#_Toc515621540"><span class="Hyperlink">Approval Process</span></a></li>
+<li class="TOC2"><a href="#_Toc515621541"><span class="Hyperlink">The Clerk's Role</span></a></li>
+<li class="TOC2"><a href="#_Toc515621542"><span class="Hyperlink">The Speaker's Approval</span></a></li>
+<li class="TOC2"><a href="#_Toc515621543"><span class="Hyperlink">Member Objections</span></a></li>
+<li class="TOC2"><a href="#_Toc515621544"><span class="Hyperlink">Reading of the </span><em><span class="Hyperlink">Journal</span></em></a></li>
+<li class="TOC2"><a href="#_Toc515621545"><span class="Hyperlink">Amending the</span><em><span class="Hyperlink"> Journal</span></em></a></li>
+<li class="TOC2"><a href="#_Toc515621546"><span class="Hyperlink">Procedures That Occur If a Journal Vote Fails</span></a></li>
+<li class="TOC3"><a href="#_Toc515621547"><span class="Hyperlink">Failed Journal Approval Vote, March 19, 1990</span></a></li>
+<li class="TOC1"><a href="#_Toc515621548"><span class="Hyperlink">Reasons to Demand a Vote on or Vote Against Approval of the </span><em><span class="Hyperlink">Journal</span></em></a></li>
+<li class="TOC2"><a href="#_Toc515621549"><span class="Hyperlink">To Amend the </span><em><span class="Hyperlink">Journal</span></em></a></li>
+<li class="TOC2"><a href="#_Toc515621550"><span class="Hyperlink">As a Protest or Dilatory Action</span></a></li>
+<li class="TOC2"><a href="#_Toc515621551"><span class="Hyperlink">To Ascertain the Presence of a Quorum</span></a></li>
+<li class="TOC2"><a href="#_Toc515621552"><span class="Hyperlink">To Assemble Members Prior to a Major Vote or Announcement</span></a></li>
+<li class="TOC2"><a href="#_Toc515621553"><span class="Hyperlink">To Demonstrate Independence from Leadership</span></a></li>
+<li class="TOC1"><a href="#_Toc515621554"><em><span class="Hyperlink">Journal</span></em><span class="Hyperlink"> Approval and Record Vote Trends, 1991-2016 (102</span><sup><span class="Hyperlink">nd</span></sup><span class="Hyperlink">-114</span><sup><span class="Hyperlink">th</span></sup><span class="Hyperlink"> Congresses)</span></a></li>
+<li class="TOC2"><a href="#_Toc515621555"><span class="Hyperlink">Timing: Immediate Votes vs. Postponed Votes</span></a></li>
+<li class="TOC2"><a href="#_Toc515621556"><span class="Hyperlink">Method for Vote Request: Quorum Points of Order vs. Demands for Yeas and Nays</span></a></li>
+<li class="TOC3"><a href="#_Toc515621557"><span class="Hyperlink">Reasons to Choose the Quorum Point of Order or the Yeas and Nays Method</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc515621528"><span class="Hyperlink">Table 1. Journal Votes, 1991-2016 (102</span><sup><span class="Hyperlink">nd</span></sup><span class="Hyperlink"> Congress-114</span><sup><span class="Hyperlink">th</span></sup><span class="Hyperlink"> Congress)</span></a></li>
+<li><a href="#_Toc515621529"><span class="Hyperlink">Table 2. Timing of Record Votes, 1991-2016 (102</span><sup><span class="Hyperlink">nd</span></sup><span class="Hyperlink"> Congress-114</span><sup><span class="Hyperlink">th</span></sup><span class="Hyperlink"> Congress)</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The <em>Journal of the House of Representativ</em><em>es</em> is the official record of the chamber's legislative actions. The <em>Journal</em>'s contents include the titles of introduced legislation, the results of votes, presidential veto messages, and any other matters the House deems to be official proceedings. Unlike the <em>Congressional Record</em>, it is not a transcript of debate. Rather, the <em>Journal</em> is a listing of House actions without the debate accompanying those actions.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Constitution mandates that each House keep a journal of its proceedings (Art. 1, §5). The Constitution, House rules and practices, and, to a lesser extent, statutes direct which proceedings must be recorded. The <em>Journal </em>is public, enabling citizens to follow House actions, excepting those that require secrecy, such as matters of national security.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under House rules, the Speaker announces his or her approval of the <em>Journal </em>at the start of each legislative day. In current practice, approval is automatic unless a Member demands a vote. If that occurs, the Speaker then holds or postpones a voice or record vote to agree to the approval of the <em>Journal</em>. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members may call for a vote, or vote against the <em>Journal</em>'s approval, in order to pursue changes to the <em>Journal</em> or for strategic reasons unrelated to the <em>Journal</em>'s contents. For instance, Members may use votes to ascertain the presence of Members, delay proceedings, protest an action, assemble Members prior to a vote or announcement, or establish independence from leadership. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If the vote to approve the<em> Journal</em> fails, the <em>Journal</em> may be subject to amendment. In the period examined (1990-2016), no record vote on approval of the <em>Journal</em><em> </em>has failed. However, in 1990, a voice vote failed, allowing a Member to offer an amendment, which was approved.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report considers the origin and purpose of the <em>Journal</em> as well as the procedures related to its approval. It discusses why a Member might call for a vote and why a Member might vote against the <em>Journal</em>'s approval. The report also examines record approval votes from 1991 to 2016 (102<sup>nd</sup>-114<sup>th</sup> Congresses), addressing trends in the frequency of these votes, the percentage of votes initiated by majority party Members, and the procedures used to call for or postpone record votes.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581227"></a><a name="_Toc505774767"></a><a name="_Toc505774841"></a>The <em>Journal of the House of Representatives</em><em> of the United States</em> is the official record of House proceedings. The Constitution, House rules and practices, and certain statutes define which proceedings are to be recorded, while the House itself controls how and to what extent the <em>Journal</em>'s contents are presented.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The <em>Journal </em>enables Members, government officials, state legislatures, and members of the public to follow the actions of Congress. It is prepared under the direction of the Clerk of the House. After the close of a session, it is printed, distributed to Members and selected government offices, and posted on the U.S. Government Publishing Office (GPO) website.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title='Online copies are currently available from the 102 nd through 113 th Congresses. See GPO, " About Journal of the House o f Representatives ," https://www.gpo.gov/help/about_journal_of_the_house_of_representatives.htm .'>1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Speaker announces approval of the daily <em>Journal </em>at the start of each legislative day. In current practice, the House automatically agrees to approval unless a Member calls for a vote. Occasionally, a Member demands a <em>Journal</em> vote to reconsider the <em>Journal</em>'s content. More often, though, a <em>Journal</em> vote is called for unrelated reasons, such as to assemble Members before a major vote or to protest the actions of leadership. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505847141"></a><a name="_Toc506992288"></a><a name="_Toc506992384"></a><a name="_Toc508351021"></a><a name="_Toc508616586"></a><a name="_Toc511975333"></a><a name="_Toc512328945"></a><a name="_Toc513112743"></a><a name="_Toc514844076"></a><a name="_Toc514932599"></a><a name="_Toc514933409"></a><a name="_Toc514933467"></a><a name="_Toc515004765"></a><a name="_Toc515358415"></a><a name="_Toc515518308"></a><a name="_Toc515519088"></a><a name="_Toc515520704"></a><a name="_Toc515520895"></a><a name="_Toc515521126"></a><a name="_Toc515525057"></a><a name="_Toc515621531"></a>What Is the <em>Jou</em><em>r</em><em>nal</em>?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The <em>Journal</em><em> </em>is the official record of House proceedings. Unlike the <em>Congressional Record</em>, it is not a transcript of debate. Rather, it is a listing of legislative actions. If there is a discrepancy between the actions cited in the<em> Journal</em> and the <em>Congressional Record</em>, the <em>Jo</em><em>urnal</em> is considered the correct account of actions taken.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title='The Congressional Record began publication in 1873 and was preceded by the Annals of Congress , the Register of Debates , and the Congressional Globe . For more information on the recording of floor debates in Congress, see U.S. Senate, " Reporters of Debate and the Congressional Record ," https://www.senate.gov/artandhistory/history/common/briefing/Reporters_Debate_Congressional_Record.htm .'>2</a></sup> As such, it is the record of House activities that is provided as evidence in legal proceedings.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Since the J ournal is the official record of the proceedings of the House, its approval is not subject to the requirement that it correspond with the Congressional Record . See Lewis Deschler, Deschler's Precedents of the U.S. House of Representatives , 94 th Cong., 2 nd sess., 1977, H.Doc. 94-661 (Washington: GPO, 1977), ch. 5, §8, pp. 325-326.">3</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The term <em>House Journal</em> is used for both the daily<em> Journal</em> and the session <em>Journal</em>. After one legislative day adjourns, the Journal clerk prepares the day's minutes and presents them to the Speaker. At the start of the next legislative day, the Speaker announces his or her approval of the previous day's <em>Journal</em> (the daily <em>Journal</em>). When each session of Congress concludes, the minutes of all the legislative days are assembled together into a session <em>Journal</em>. GPO prints the session <em>Journal </em>as a bound book and posts a digital copy on its website. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a vote is called, it is for approval of the daily <em>Journal</em> containing those proceedings that occur between the commencement of one legislative day and its time of adjournment. In this report, all subsequent references to <em>Journal </em>are to the daily <em>Journal</em>.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581229"></a><a name="_Toc505774769"></a><a name="_Toc505774843"></a><a name="_Toc505847143"></a><a name="_Toc506992289"></a><a name="_Toc506992385"></a><a name="_Toc508351022"></a><a name="_Toc508616587"></a><a name="_Toc511975334"></a><a name="_Toc512328946"></a><a name="_Toc513112744"></a><a name="_Toc514844077"></a><a name="_Toc514932600"></a><a name="_Toc514933410"></a><a name="_Toc514933468"></a><a name="_Toc515004766"></a><a name="_Toc515358416"></a><a name="_Toc515518309"></a><a name="_Toc515519089"></a><a name="_Toc515520705"></a><a name="_Toc515520896"></a><a name="_Toc515521127"></a><a name="_Toc515525058"></a><a name="_Toc515621532"></a>Constitutional Requirements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581230"></a><a name="_Toc505774770"></a><a name="_Toc505774844"></a><a name="_Toc505847144"></a>The Constitution directs the two houses of Congress to maintain and publish journals of their proceedings: "Each House shall keep a Journal of its Proceedings, and from time to time publish the same, excepting such Parts as may in their Judgment require Secrecy."<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="U.S. Constitution, Art. I, §5.">4</a></sup> Article I, Sections 5 and 7, identifies two types of proceedings that must be entered: presidential veto messages and "yeas and nays" votes. The Members' yeas and nays are to be recorded at the "desire of one fifth of those present" or if the vote is a congressional attempt to override a presidential veto.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="The Constitution's Article I, Section 5, specifies that &quot; the Yeas and Nays of the Members of either House on any question shall, at the Desire of one fifth of those Present, be entered on the Journal. &quot; In Article I, Section 7, a final requirement is added: Each House must record presidential veto messages, as well as the names of Members voting for or against congressional attempts to override such vetoes.">5</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Constitution does not specify additional proceedings to record, allowing each chamber to identify the majority of its official actions.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='Official Senate proceedings to be recorded are outlined in Senate Standing Rule IV, paragraph 1(c): "The proceedings of the Senate shall be briefly and accurately stated on the Journal. Messages of the President in full; titles of bills and resolutions, and such parts as shall be affected by proposed amendments; every vote, and a brief statement of the contents of each petition, memorial, or paper presented to the Senate, shall be entered." The Senate records and divides its official proceedin...'>6</a></sup> Nor does the Constitution "indicate with what fullness" any proceeding should be documented—the manner in which a proceeding is recorded is up to the House to decide. Therefore, the House, not the Constitution, is in control of its <em>Journal</em> of proceedings.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Deschler's , c h . 5, §10, pp. 326-329.">7</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992290"></a><a name="_Toc506992386"></a><a name="_Toc508351023"></a><a name="_Toc508616588"></a><a name="_Toc511975335"></a><a name="_Toc512328947"></a><a name="_Toc513112745"></a><a name="_Toc514844078"></a><a name="_Toc514932601"></a><a name="_Toc514933411"></a><a name="_Toc514933469"></a><a name="_Toc515004767"></a><a name="_Toc515358417"></a><a name="_Toc515518310"></a><a name="_Toc515519090"></a><a name="_Toc515520706"></a><a name="_Toc515520897"></a><a name="_Toc515521128"></a><a name="_Toc515525059"></a><a name="_Toc515621533"></a>House Rules and Practice Requirements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581231"></a><a name="_Toc505774771"></a><a name="_Toc505774845"></a><a name="_Toc505847145"></a>Since the first Congress (1789-1791), the House has determined which proceedings, aside from the constitutional requirements, to include in the <em>Journal</em>. House-mandated proceedings include</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">the introduction of bills and resolutions (listed with number, title, sponsors, and committee(s) of referral); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">committee and conference reports (titles); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">documents, petitions, memorials, and points of order; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">the disposition of measures considered in the House or the Committee of the Whole; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">House, Senate, and presidential messages, as well as other executive communications; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">the times of daily commencement and adjournment; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">record votes, which in current practice are usually conducted by electronic device.<a name="_Ref515520302"></a><sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Voice votes ascertain the approval or disapproval on a question, while record votes also list the names of Members and how they voted. Record vote s are often referred to as roll call votes. There are three types of record votes: (1) those that are triggered by a sustained quorum point of order, in which case the yeas and nays are automatically ordered without the need for a sufficient second; (2) those that are triggered by a demand for the yeas and nays with the concurrence of one-fifth pre...">8</a></sup> </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Proceedings are defined in the <em>House Manual</em> (commonly referred to as <em>Jefferson's Manual</em>, due to the section originally authored by Thomas Jefferson); <em>House Practice</em><em>: A Guide to the Rules, Precedents, and Procedures of the House</em>; and the three collections of House precedents (Hinds, Cannon, and Deschler).<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="The House Manual 's full citation is Constitution, Jefferson's Manual and the Rules of the House , 114 th Cong., 2 nd Sess., 2017, H.Doc. 11 4-192 (Washington: GPO, 2017); Charles W. Johnson, John V. Sullivan, and Thomas J. Wickham Jr., House Practice: A Guide to the Rules, Precedents, and Procedures of the House (Washington: GPO, 2017); Hinds' and Cannon's Precedents of the House of Representatives (Washington: GPO, 1935-1941).">9</a></sup> These documents outline the inclusion of both routine and less common proceedings, such as discharge petitions, debate limitations under a special order of business (i.e., a "special rule"), unanimous consent agreements, expungements from the <em>Congressional Record</em>, and the disciplinary censure of a Member.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">House Rule XX provides specific requirements for the recording of votes and quorum calls. The <em>Journal</em> must state the general subject of all votes, record the results of votes and quorum calls, and list the names of Members with their responses to record votes and quorum calls. If Members do not vote, and a quorum is present, the Speaker or another Member can demand that their names be recorded in the <em>Jo</em><em>urnal</em>.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="House Manual , House Rule XX, clauses 2, 4, 5.">10</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992291"></a><a name="_Toc506992387"></a><a name="_Toc508351024"></a><a name="_Toc508616589"></a><a name="_Toc511975336"></a><a name="_Toc512328948"></a><a name="_Toc513112746"></a><a name="_Toc514844079"></a><a name="_Toc514932602"></a><a name="_Toc514933412"></a><a name="_Toc514933470"></a><a name="_Toc515004768"></a><a name="_Toc515358418"></a><a name="_Toc515518311"></a><a name="_Toc515519091"></a><a name="_Toc515520707"></a><a name="_Toc515520898"></a><a name="_Toc515521129"></a><a name="_Toc515525060"></a><a name="_Toc515621534"></a>Statutory Requirements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To a limited extent, statutes also identify proceedings that must be entered into the<em> Journal</em>. For instance, one statute requires newly sworn Members to take a signed copy of their oaths of office to the Clerk for entry into the <em>Journal</em>.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="2 U . S . C . § 25 .">11</a></sup> Another statute directs each chamber to count and confirm the presidential electoral vote. The announcement confirming the election results, along with the list of electoral votes by state, are to be recorded in the <em>Journal</em>.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="3 U . S . C . § 15 ; see Deschler's , c h. 5, § 10 , p. 327.">12</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581232"></a><a name="_Toc505774772"></a><a name="_Toc505774846"></a><a name="_Toc505847146"></a><a name="_Toc506992292"></a><a name="_Toc506992388"></a><a name="_Toc508351025"></a><a name="_Toc508616590"></a><a name="_Toc511975337"></a><a name="_Toc512328949"></a><a name="_Toc513112747"></a><a name="_Toc514844080"></a><a name="_Toc514932603"></a><a name="_Toc514933413"></a><a name="_Toc514933471"></a><a name="_Toc515004769"></a><a name="_Toc515358419"></a><a name="_Toc515518312"></a><a name="_Toc515519092"></a><a name="_Toc515520708"></a><a name="_Toc515520899"></a><a name="_Toc515521130"></a><a name="_Toc515525061"></a><a name="_Toc515621535"></a>Excluded Information</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As former House Parliamentarian Asher Hinds noted, "The <em>Journal </em>records acts, but not the reasons therefor."<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Hinds , vol. 4, ch. 84, §2811.">13</a></sup> Thus, the <em>Journal </em>does not provide a transcription of statements, deliberations, opinions, or debate made in the House or the Committee of the Whole—those discussions are printed in the <em>Congressional Record</em>.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition, the <em>Journal</em> does not record parliamentary inquiries or other matters not considered by the House to be legislative business.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Deschler's , p. 330.">14</a></sup> Nor does it record motions that are not entertained by the Speaker or motions that are withdrawn before the end of the legislative day. Likewise, any unanimous consent agreements, points of order, and discharge petitions that are not successful are not recorded.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="Deschler's , p. 327.">15</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">However, because the House controls the <em>Journal's</em> contents, it is the final arbiter on what constitutes its actions. The <em>Journal </em>may omit "things actually done" or record "things not done."<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="House Practice , ch. 28, §9, p. 627.">16</a></sup> In either case, it becomes the official record when the House agrees to the Speaker's approval either through tacit acceptance or as the result of a vote on the floor.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581233"></a><a name="_Toc505774773"></a><a name="_Toc505774847"></a><a name="_Toc505847147"></a><a name="_Toc506992293"></a><a name="_Toc506992389"></a><a name="_Toc508351026"></a><a name="_Toc508616591"></a><a name="_Toc511975338"></a><a name="_Toc512328950"></a><a name="_Toc513112748"></a><a name="_Toc514844081"></a><a name="_Toc514932604"></a><a name="_Toc514933414"></a><a name="_Toc514933472"></a><a name="_Toc515004770"></a><a name="_Toc515358420"></a><a name="_Toc515518313"></a><a name="_Toc515519093"></a><a name="_Toc515520709"></a><a name="_Toc515520900"></a><a name="_Toc515521131"></a><a name="_Toc515525062"></a><a name="_Toc515621536"></a>Origin, Purpose, and Use</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581234"></a><a name="_Toc505774774"></a><a name="_Toc505774848"></a><a name="_Toc505847148"></a><a name="_Toc506992294"></a><a name="_Toc506992390"></a><a name="_Toc508351027"></a><a name="_Toc508616592"></a><a name="_Toc511975339"></a><a name="_Toc512328951"></a><a name="_Toc513112749"></a><a name="_Toc514844082"></a><a name="_Toc514932605"></a><a name="_Toc514933415"></a><a name="_Toc514933473"></a><a name="_Toc515004771"></a><a name="_Toc515358421"></a><a name="_Toc515518314"></a><a name="_Toc515519094"></a><a name="_Toc515520710"></a><a name="_Toc515520901"></a><a name="_Toc515521132"></a><a name="_Toc515525063"></a><a name="_Toc515621537"></a>Duty to Keep and Publish a Journal of Proceedings</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The duty to keep a journal is mandated by the Constitution, following the practice of British Parliament.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="U.S. Constitution, Art. I, §5.">17</a></sup> The British House of Commons has maintained a record of decisions since the 1500s. The daily version, <em>Votes and Proceedings</em>, is later compiled into the <em>Journal</em>. Like the <em>House Journal</em>, the British version is a public account of actions taken, not a transcription of debate.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="McKay and Johnson, p. 97.">18</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Prior to the enactment of the Constitution, the Articles of Confederation defined the national government from 1781 to 1789. Article IX directed the Confederation Congress to publish a monthly journal of proceedings, including the yeas and nays on any question, which could be laid "before the legislatures of the several states."<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='Articles of Confederation, Art. IX: " The congress of the united states shall ... publish the Journal of their proceedings monthly, except such parts thereof relating to treaties, alliances or military operations, as in their judgment require secrecy; and the yeas and nays of the delegates of each state on any question shall be entered on the Journal, when it is desired by any delegate; and the delegates of a state, or any of them, at his or their request shall be furnished with a transcript...'>19</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The drafters of the U.S. Constitution were familiar with the British and American precedents. While the delegates to the Constitutional Convention (1787) easily accepted the need to keep legislative journals, they divided over the mandate to have them published. Delegate Oliver Ellsworth considered a publishing requirement unnecessary, as "[t]he Legislature will not fail to publish their proceedings from time to time." In defense of the mandate, Delegate James Wilson stated: "The people have a right to know what their Agents are doing or have done, and it should not be in the option of the Legislature to conceal their proceedings." On August 11, 1787, the delegates adopted provisions mandating the duty to keep<em> </em><em>and</em> publish House and Senate records of proceedings.<a name="_Toc505581237"></a><a name="_Toc505774777"></a><a name="_Toc505774851"></a><a name="_Toc505847151"></a><sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="James Madison, The Debates in the Federal Convention of 1787 Which Framed the Constitution of the United States of America , ed. Gaillard Hunt and James Brown Scott (Westport, CT: Greenwood Press, 1970), p. 381.">20</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992295"></a><a name="_Toc506992391"></a><a name="_Toc508351028"></a><a name="_Toc508616593"></a><a name="_Toc511975340"></a><a name="_Toc512328952"></a><a name="_Toc513112750"></a><a name="_Toc514844083"></a><a name="_Toc514932606"></a><a name="_Toc514933416"></a><a name="_Toc514933474"></a><a name="_Toc515004772"></a><a name="_Toc515358422"></a><a name="_Toc515518315"></a><a name="_Toc515519095"></a><a name="_Toc515520711"></a><a name="_Toc515520902"></a><a name="_Toc515521133"></a><a name="_Toc515525064"></a><a name="_Toc515621538"></a>Public Purpose</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since the Constitutional Convention, legal commentators have interpreted the Constitution's clauses and the justifications for them. Regarding the duty to keep a journal, Supreme Court Justice Joseph Story, in 1833, wrote: "The object of the whole clause is to insure publicity to the proceedings of the legislature, and a correspondent responsibility of the members to their respective constituents.... The public mind is enlightened by an attentive examination of the public measures."<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='The full quotation is: "The object of the whole clause is to insure publicity to the proceedings of the legislature, and a correspondent responsibility of the members to their respective constituents. And it is founded in sound policy and deep political foresight. Intrigue and cabal are thus deprived of some of their main resources, by plotting and devising measures in secrecy. The public mind is enlightened by an attentive examination of the public measures; patriotism and integrity and wisdo...'>21</a></sup> For Story, the legislative <em>Journals</em> provide three functions: transparency into the workings of Congress, stronger relations between Members and constituents, and an educated public.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>House Practice</em>, and the three published collections of House precedents, identify the main purpose of the <em>Journal</em> is "to ensure that the proceedings of the House be a matter of public record."<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="House Practice , ch. 28, §1, p. 621; Deschler's , ch. 5, §8, p. 325.">22</a></sup> In the House's earlier years, government officials and state legislators were the main parties that consulted the public record. Now any member of the public can access previous volumes of the <em>House Journal</em> online through GPO, Federal Depository Libraries, and the Library of Congress's Century of Lawmaking website.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="The House Journal , 1992-2014, is available from the GPO website at https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=HJOURNAL . The Library of Congress's Century of Lawmaking site posts the House Journal , 1789-1875, http://memory.loc.gov/ammem/amlaw/lwhj.html .">23</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581238"></a><a name="_Toc505774778"></a><a name="_Toc505774852"></a><a name="_Toc505847152"></a><a name="_Toc506992296"></a><a name="_Toc506992392"></a><a name="_Toc508351029"></a><a name="_Toc508616594"></a><a name="_Toc511975341"></a><a name="_Toc512328953"></a><a name="_Toc513112751"></a><a name="_Toc514844084"></a><a name="_Toc514932607"></a><a name="_Toc514933417"></a><a name="_Toc514933475"></a><a name="_Toc515004773"></a><a name="_Toc515358423"></a><a name="_Toc515518316"></a><a name="_Toc515519096"></a><a name="_Toc515520712"></a><a name="_Toc515520903"></a><a name="_Toc515521134"></a><a name="_Toc515525065"></a><a name="_Toc515621539"></a>Use as Official Record</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The<em> Journal</em> is the official record of House proceedings. As such, every Member may inspect it, "and anyone may take and publish votes therefrom."<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="Deschler's , ch. 5, §8, p. 325.">24</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When necessary, the <em>House Journal </em>is provided as evidence in legal proceedings. The courts review the <em>Journal</em>, rather than the <em>Congressional Record</em>, to confirm the outcome of votes, the presence of quorums, and that Members have taken the oath of office.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="United States v. Ballin, 144 U.S. 1, 4 (1892); Deschler's , c h. 5, § 9, p. 32 6 .">25</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581239"></a><a name="_Toc505774779"></a><a name="_Toc505774853"></a><a name="_Toc505847153"></a><a name="_Toc506992297"></a><a name="_Toc506992393"></a><a name="_Toc508351030"></a><a name="_Toc508616595"></a><a name="_Toc511975342"></a><a name="_Toc512328954"></a><a name="_Toc513112752"></a><a name="_Toc514844085"></a><a name="_Toc514932608"></a><a name="_Toc514933418"></a><a name="_Toc514933476"></a><a name="_Toc515004774"></a><a name="_Toc515358424"></a><a name="_Toc515518317"></a><a name="_Toc515519097"></a><a name="_Toc515520713"></a><a name="_Toc515520904"></a><a name="_Toc515521135"></a><a name="_Toc515525066"></a><a name="_Toc515621540"></a>Approval Process</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under House Rules I and XIV, the Speaker announces his or her approval of the <em>Journal </em>as the first order of business after the chaplain's prayer.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="House Manual , Rules I and XIV. While the legislative business does not occur before the Journal is approved, the following procedural matters may intervene while the Journal is pending: simple motions to adjourn, administration of the oath to a Member-elect, parliamentary inquiries, reception of messages from the Senate, questions of privileges affecting the House, and arraignments of impeachment. House Practice , ch. 8, §5, p. 625.">26</a></sup> Without objection, the <em>Journal </em>stands approved. However, if a Member does object, that Member may demand a vote on the Speaker's approval<a name="_Toc508351031"></a><a name="_Toc508616596"></a><a name="_Toc511975343"></a><a name="_Toc512328955"></a><a name="_Toc505581240"></a><a name="_Toc505774780"></a><a name="_Toc505774854"></a><a name="_Toc505847154"></a><a name="_Toc505581244"></a><a name="_Toc505774784"></a><a name="_Toc505774858"></a><a name="_Toc505847158"></a>.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc513112753"></a><a name="_Toc514844086"></a><a name="_Toc514932609"></a><a name="_Toc514933419"></a><a name="_Toc514933477"></a><a name="_Toc515004775"></a><a name="_Toc515358425"></a><a name="_Toc515518318"></a><a name="_Toc515519098"></a><a name="_Toc515520714"></a><a name="_Toc515520905"></a><a name="_Toc515521136"></a><a name="_Toc515525067"></a><a name="_Toc515621541"></a>The Clerk's Role</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992298"></a><a name="_Toc506992394"></a>During each daily session, the Journal clerk records handwritten notes into the "Journal Minute Book." At the end of the legislative day, another clerk types these minutes, adding additional details of the proceedings. The computer-generated manuscript (the daily <em>Journal</em>) is then proofed and presented to the House Parliamentarian for review.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title='See GPO, "Journal of the House of Representatives," https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=HJOURNAL .'>27</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc508351032"></a><a name="_Toc508616597"></a><a name="_Toc511975344"></a><a name="_Toc512328956"></a><a name="_Toc513112754"></a><a name="_Toc514844087"></a><a name="_Toc514932610"></a><a name="_Toc514933420"></a><a name="_Toc514933478"></a><a name="_Toc515004776"></a><a name="_Toc515358426"></a><a name="_Toc515518319"></a><a name="_Toc515519099"></a><a name="_Toc515520715"></a><a name="_Toc515520906"></a><a name="_Toc515521137"></a><a name="_Toc515525068"></a><a name="_Toc515621542"></a>The Speaker's Approval<a name="_Toc505581241"></a><a name="_Toc505774781"></a><a name="_Toc505774855"></a><a name="_Toc505847155"></a></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Prior to the start of each legislative day, the Speaker receives the previous day's <em>J</em><em>ournal</em> from the Journal clerk. Usually, after the chaplain's prayer, the Speaker (or the Speaker's designee) will say, "The Chair has examined the <em>Journal </em>of the last day's proceedings and announces to the House his (or her) approval thereof. Pursuant to clause 1, Rule I, the <em>Journal </em>stands approved."<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="Occasionally, the terms of a special rule will include the automatic approval of the Journal when the approval would normally occur during a pre-scheduled pro forma session. The special rule may state: &quot;On any legislative day during the period from _______ through _______, the Journal of the proceedings of the previous day shall be considered as approved.&quot; At the start of each legislative day specified by the special rule, the Speaker (or the Speaker's designee) will say, &quot;Pursu...">28</a></sup> If there is no objection, the House continues to the Pledge of Allegiance, followed by legislative business. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc508351033"></a><a name="_Toc508616598"></a><a name="_Toc511975345"></a><a name="_Toc512328957"></a><a name="_Toc513112755"></a><a name="_Toc514844088"></a><a name="_Toc514932611"></a><a name="_Toc514933421"></a><a name="_Toc514933479"></a><a name="_Toc515004777"></a><a name="_Toc515358427"></a><a name="_Toc515518320"></a><a name="_Toc515519100"></a><a name="_Toc515520716"></a><a name="_Toc515520907"></a><a name="_Toc515521138"></a><a name="_Toc515525069"></a><a name="_Toc515621543"></a>Member Objections</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a Member objects to the <em>Journal's</em> approval, however, the Member rises and says, "Mr. [or Madam] Speaker, pursuant to clause 1, Rule I, I demand a vote on agreeing to the Speaker's approval of the <em>Journal</em>." The Speaker will then conduct a voice vote and, in nearly every case, announce that the ayes appear to have it. A Member may then seek a record vote.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="See footnote 8 on the three types of record votes. During the period under consideration ( 1990-2016 ) , Members made a quorum point of order or demanded the yeas and nays in their initial effort to obtain a record vote on agreeing to the Speaker's approval of the Journal . If the record vote was postponed, during the later period of consideration, Members used all three procedural methods available to trigger a record vote.">29</a></sup> To do so, the Member may demand the yeas and nays. Provided that the request is supported by one-fifth of the Members present, the yeas and nays are ordered.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="U.S. Constitution, Art. 1, clause 5: &quot;The Yeas and Nays of the Members of either House on any question shall, at the Desire of one fifth of those Present, be entered in the Journal.&quot; The Member may also demand a recorded vote, which requires the support of one fifth of a quorum (44 Members). However, in the years under consideration (1990-2016), no demands for recorded votes were identified immediately following the Speaker's approval. Members did demand recorded votes after a postponed voice...">30</a></sup> In this case, a record vote is guaranteed, but it may be postponed until later in the legislative day pursuant to clause 8 of Rule XX. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Member may also object by noting the absence of a quorum. If the point of order is sustained, the yeas and nays are automatically ordered. In this scenario, the Member may say, "Mr. [or Madam] Speaker, I object to the vote on the grounds that a quorum is not present and make the point of order that a quorum is not present." The Speaker responds by either holding an immediate record vote by electronic device, which decides the motion and ascertains a quorum (218 Members), or says, "Pursuant to clause 8, Rule XX, further proceedings on this question will be postponed," and the point of no quorum is considered withdrawn.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="The Speaker's ability to postpone votes is outlin ed in House Rule XX, clause 8 . More information about postponed votes is in the &quot;Vote T rends&quot; section of this report.">31</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If the proceedings are postponed, the Speaker, later in the legislative day, puts the question on agreeing to the <em>Journal</em>'s approval <em>de novo</em> (as if new), and a voice vote occurs. The same or a different Member may object to the results of the voice vote by, depending on the situation, (1) noting the absence of a quorum, (2) demanding the yeas and nays, or (3) demanding a recorded vote. In the first case, the yeas and nays are automatically ordered provided that the quorum point of order is sustained. If the Member initially demands the yeas and nays, the yeas and nays are ordered if the demand receives the support of one-fifth present.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="The Speaker's count of the sufficient second is not subject to appeal. House Practice , ch. 5 8, §14, p. 950 .">32</a></sup> Alternatively, a Member may demand a recorded vote, which requires the support of 44 Members. In each of these cases, a record vote occurs assuming the specified requirements have been met. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992299"></a><a name="_Toc506992395"></a><a name="_Toc508351034"></a><a name="_Toc508616599"></a><a name="_Toc511975346"></a><a name="_Toc512328958"></a><a name="_Toc513112756"></a><a name="_Toc514844089"></a><a name="_Toc514932612"></a><a name="_Toc514933422"></a><a name="_Toc514933480"></a><a name="_Toc515004778"></a><a name="_Toc515358428"></a><a name="_Toc515518321"></a><a name="_Toc515519101"></a><a name="_Toc515520717"></a><a name="_Toc515520908"></a><a name="_Toc515521139"></a><a name="_Toc515525070"></a><a name="_Toc515621544"></a>Reading of the <em>Journal</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In current practice, the <em>Journal </em>is not read unless the House votes against the Speaker's approval.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="Until the 92 nd Congress (1971-1972), House rule s mandated the reading of the Journal each legislative day unless dispensed with by unanimous consent or suspension of the rules. From the 93 rd to the 95 th Congress (1973-1978), the Journal was considered read once the Speaker announced approval. However, the Speaker could order a reading , or a Member could make a privileged motion to have the Journal read in full. Deschler's , ch. 5, §11, p. 333.">33</a></sup> Should the House vote against approval, House Rule I authorizes one motion to have the <em>Journal</em> read. The motion is privileged, meaning it can be decided by the House without debate. Under this scenario, a Member may say: "Mr. [or Madam] Speaker, I move that the<em> Journal</em> be read." The Speaker replies: "The question is, shall the <em>Journal</em> be read?"<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="House Practice , ch. 28, §6, p. 625.">34</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If the question is decided in the affirmative by voice or record vote, the Clerk reads the previous day's <em>Journal</em>, omitting the names of Members responding to votes or the texts of messages unless a Member demands a full reading.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="House Practice , ch. 28, §7, p. 626.">35</a></sup> Once the reading is completed, or it is terminated by unanimous consent, a Member may move to approve the <em>Journal </em>"as read." </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The motion to approve the <em>Journal</em> "as read" may be tabled; otherwise, it is debatable until a Member moves the previous question and that motion is adopted. (Successful votes on the previous question close debate and force a vote on the pending question.)<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="For more information about the previous question, see CRS Report 98-427, Considering Measures in the House Under the One-Hour Rule , by James V. Saturno .">36</a></sup> If the motion to approve the<em> Journal</em> is adopted, no further motions related to the <em>Journal </em>are in order. However, if the House rejects the motion to approve the <em>Journal</em> "as read," the <em>Journal</em> is subject to amendment.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="House Practice , ch. 28, §8, p. 626 .">37</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581245"></a><a name="_Toc505774785"></a><a name="_Toc505774859"></a><a name="_Toc505847159"></a><a name="_Toc506992300"></a><a name="_Toc506992396"></a><a name="_Toc508351035"></a><a name="_Toc508616600"></a><a name="_Toc511975347"></a><a name="_Toc512328959"></a><a name="_Toc513112757"></a><a name="_Toc514844090"></a><a name="_Toc514932613"></a><a name="_Toc514933423"></a><a name="_Toc514933481"></a><a name="_Toc515004779"></a><a name="_Toc515358429"></a><a name="_Toc515518322"></a><a name="_Toc515519102"></a><a name="_Toc515520718"></a><a name="_Toc515520909"></a><a name="_Toc515521140"></a><a name="_Toc515525071"></a><a name="_Toc515621545"></a>Amending the<em> Journal</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505581247"></a><a name="_Toc505774787"></a><a name="_Toc505774861"></a><a name="_Toc505847161"></a>There are two ways to amend the <em>Journal</em>: by unanimous consent (used occasionally for noncontroversial alterations) and by motion (a rarely used procedure for more contentious changes). Changes by unanimous consent may correct the previous day's <em>Journal</em> as well as previous legislative days within the same Congress. Amendment by motion pertains to the prior day's<em> Journal</em> only following an unsuccessful vote to approve that day's <em>Journal</em>.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="Deschler's , ch. 5, §13, p. 347.">38</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The motion to amend occurs once the House rejects the Speaker's approval, the Clerk reads the <em>Journal</em>, or the reading is terminated by unanimous consent, and the House rejects the <em>Journal </em>"as read." The motion to amend is not in order after the House approves the <em>Journal</em> or if the previous question has been demanded on the motion to approve.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="House Manual , § 621 , p. 340 ; Deschler's , ch. 5 , §13.2- 3 , pp . 348-349.">39</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The motion to amend the <em>Journal</em> takes precedence over a motion to approve.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Deschler's , ch. 5, §13, p. 348.">40</a></sup> A Member may stand and, once recognized, say, "Mr. [or Madam] Speaker, I move to amend the <em>Journal</em> by inserting _____ (or by striking or by striking and inserting _______)." The Member is then to be recognized under the hour rule.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="See CRS Report 98-427, Considering Measures in the House Under the One-Hour Rule , by James V. Saturno .">41</a></sup> At the end of the hour, a Member may move the previous question, and the House, if the previous question is agreed to, votes on the amendment.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="House Practice , ch. 28, §9, p. 627.">42</a></sup> If the amendment is adopted, the House then votes to approve the <em>Journal</em> "as amended."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The amendment process reflects the House's ability to control its <em>Journal</em> and define its own proceedings. According to <em>Cannon's </em><em>Precedents</em>, this ability extends to "omitting things actually done or of recording things not done."<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="House Practice , ch. 28, § 9, p. 627.">43</a></sup> For instance, if the House neglects to perform a required procedure, the House can vote on a motion, or agree by unanimous consent, to amend the <em>Journal</em> to indicate that the procedure had been followed. In 1912, the Speaker was informed that a necessary procedural motion had not been observed, so he suggested amending the <em>Journal </em>"by common consent to make it show that the actual thing was done." In response to a Member's objection, the Speaker stated, "Mr. Speaker Cannon ruled a number of times that by unanimous consent anything can be done, and the Chair thinks he was right."<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="Cannon's Precedents , vol. 6, ch. 206, §634.">44</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992301"></a><a name="_Toc506992397"></a><a name="_Toc508351036"></a><a name="_Toc508616601"></a><a name="_Toc511975348"></a><a name="_Toc512328960"></a><a name="_Toc513112758"></a><a name="_Toc514844091"></a><a name="_Toc514932614"></a><a name="_Toc514933424"></a><a name="_Toc514933482"></a><a name="_Toc515004780"></a><a name="_Toc515358430"></a><a name="_Toc515518323"></a><a name="_Toc515519103"></a><a name="_Toc515520719"></a><a name="_Toc515520910"></a><a name="_Toc515521141"></a><a name="_Toc515525072"></a><a name="_Toc515621546"></a>Procedures That Occur If a Journal Vote Fails</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Journal</em> approval votes rarely fail. In fact, between 1990 and 2016, <em>Journal </em>approval never failed in a record vote.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="See the House Clerk's roll call vote database at http://clerk.house.gov/legislative/legvotes.aspx . This database covers 101 st Congress, 2 nd Session (1990) to 115 th Congress, 1 st Session (2017). The voting trends section of this report analyzes votes beginning with the 102 nd Congress, which is the first Congress that has both sessions tracked by the roll call vote database.">45</a></sup> The <em>House Manual</em>, however, did identify one voice vote, in 1990, when the House rejected the Speaker's approval.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="House Manual , Rule I, §621, p. 340.">46</a></sup> The occurrence illustrates the possible steps taken when the House votes against agreeing to the <em>Journal</em>'s approval.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992302"></a><a name="_Toc506992398"></a><a name="_Toc508351037"></a><a name="_Toc508616602"></a><a name="_Toc511975349"></a><a name="_Toc512328961"></a><a name="_Toc513112759"></a><a name="_Toc514844092"></a><a name="_Toc514932615"></a><a name="_Toc514933425"></a><a name="_Toc514933483"></a><a name="_Toc515004781"></a><a name="_Toc515358431"></a><a name="_Toc515518324"></a><a name="_Toc515519104"></a><a name="_Toc515520720"></a><a name="_Toc515520911"></a><a name="_Toc515521142"></a><a name="_Toc515525073"></a><a name="_Toc515621547"></a>Failed Journal Approval Vote, March 19, 1990</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On March 19, 1990, the Speaker pro tempore announced the approval of the <em>Journal</em>. In response, Representative Robert Walker, a member of the minority party, demanded a vote on agreeing to the approval. The Speaker pro tempore held a voice vote and declared that the noes appeared to have it. Representative Walker then moved that the <em>Journal </em>of the last day's proceedings be read. The motion was agreed to by voice vote. The Clerk began to read the <em>Journal</em>.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title="House debate, Congressional Record , vol. 136 (March 19, 1990), p. 4488.">47</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">During the reading, Walker asked for "unanimous consent that the <em>Journal</em> be considered as read and open to amendment at any point." There was no objection. Walker moved to amend the <em>Journal</em>, striking an executive communication that transmitted an annual report "in compliance with the Government in Sunshine Act." The Speaker pro tempore recognized the Member for one hour.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="House debate, Congressional Record , vol. 136 (March 19, 1990), p. 4488.">48</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While debating the amendment, Walker noted that the House was "unwilling to work in sunshine itself," so it should not accept communications relating to government transparency. Specifically, he objected to late changes in the House schedule and restrictions on floor amendments. Representative Jon Kyl, also in the minority party, noted that Walker was making a "symbolic point," to which Walker responded, "When I read through the <em>Journal</em> for last Thursday, this was about the best we could do in order to get a little bit of talk about what we think is a substantive issue."<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="House debate, Congressional Record , vol. 136 (March 19, 1990), p. 4488.">49</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As he concluded his remarks, Walker yielded back the remainder of his time. The Speaker pro tempore held a vote on the amendment, which was agreed to by voice vote. Finally, Representative George Miller, a member of the majority party, moved to approve the <em>Journal </em>"as amended." The House approved the <em>Journal</em>, as amended, by voice vote.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="House debate, Congressional Record , vol. 136 (March 19, 1990), p. 4488.">50</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774788"></a><a name="_Toc505774862"></a><a name="_Toc505847162"></a><a name="_Toc506992303"></a><a name="_Toc506992399"></a><a name="_Toc508351038"></a><a name="_Toc508616603"></a><a name="_Toc511975350"></a><a name="_Toc512328962"></a><a name="_Toc513112760"></a><a name="_Toc514844093"></a><a name="_Toc514932616"></a><a name="_Toc514933426"></a><a name="_Toc514933484"></a><a name="_Toc515004782"></a><a name="_Toc515358432"></a><a name="_Toc515518325"></a><a name="_Toc515519105"></a><a name="_Toc515520721"></a><a name="_Toc515520912"></a><a name="_Toc515521143"></a><a name="_Toc515525074"></a><a name="_Toc515621548"></a>Reasons to Demand a Vote on or Vote Against Approval of the <em>Journal</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774789"></a><a name="_Toc505774863"></a><a name="_Toc505847163"></a>According to the U.S. House of Representatives Roll Call Votes database, the House held 472 <em>Journal</em>-approval record votes from 1991 to 2016 (102<sup>nd</sup>-114<sup>th</sup> Congresses, <strong><a class="InternalLink" href="#_Ref515520217"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong>). None of these votes failed. Instead, such votes have received support, on average, from three out of four Members. The 75% approval rate is not a strict reflection of party-line division. However, party and political considerations may play a role in the decision to demand or vote against approval of the <em>Journal</em>.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="Members may also vote &quot;present&quot; rather than vote for or against the Speaker's approval. According to one Member, he votes &quot;present&quot; as a &quot;symbolic effort to express displeasure about something in the legislative process he didn't like.&quot; See Michael Teitelbaum, &quot;The Most Interesting Story You'll Ever Read on the House Journal,&quot; CQ Magazine , May 21, 2018. During the period under consideration, as many as nine Members voted &quot;present&quot; in response to a Journal record vote. The average number o...">51</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc506992304"></a><a name="_Toc506992400"></a><a name="_Toc508351039"></a><a name="_Toc508616604"></a><a name="_Toc511975351"></a><a name="_Toc512328963"></a><a name="_Toc513112761"></a><a name="_Toc514844094"></a><a name="_Toc514932617"></a><a name="_Toc514933427"></a><a name="_Toc514933485"></a><a name="_Toc515004783"></a><a name="_Toc515358433"></a><a name="_Toc515518326"></a><a name="_Toc515519106"></a><a name="_Toc515520722"></a><a name="_Toc515520913"></a><a name="_Toc515521144"></a><a name="_Toc515525075"></a><a name="_Toc515621549"></a>To Amend the <em>Journal</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When a Member demands a vote to agree to the Speaker's approval of the <em>Journal</em>, it may be seen as an attempt to amend the <em>Journal</em>'s contents. Indeed, motions to amend are in order only after the House votes against the Speaker's approval. The most common way to amend the <em>Journal</em>, however, is by unanimous consent, and such requests may be unrelated to a <em>Journal</em>-approval vote. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 1990 case discussed above, the Member stated that the primary purpose of his motion was to bring attention to the majority party's actions.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="Ibid.">52</a></sup> Thus, the original <em>Journa</em><em>l</em>-approval vote, which enabled the subsequent motion to amend, could be considered a party protest against leadership, using the motion to amend the<em> Journal</em>'s contents as a way to allow debate.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774792"></a><a name="_Toc505774866"></a><a name="_Toc505847166"></a><a name="_Toc506992307"></a><a name="_Toc506992403"></a><a name="_Toc508351040"></a><a name="_Toc508616605"></a><a name="_Toc511975352"></a><a name="_Toc512328964"></a><a name="_Toc513112762"></a><a name="_Toc514844095"></a><a name="_Toc514932618"></a><a name="_Toc514933428"></a><a name="_Toc514933486"></a><a name="_Toc515004784"></a><a name="_Toc515358434"></a><a name="_Toc515518327"></a><a name="_Toc515519107"></a><a name="_Toc515520723"></a><a name="_Toc515520914"></a><a name="_Toc515521145"></a><a name="_Toc515525076"></a><a name="_Toc515621550"></a>As a Protest or Dilatory Action</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Journal</em>-approval votes may be used to protest actions or delay legislative business. Such votes provide opportunities for Members to criticize practices that are related or unrelated to the <em>Journal</em>'s<em> </em>contents. Record votes, in particular, consume valuable floor time and can be used to disrupt committee meetings occurring concurrently. However, since a House rules change in 1983 (98<sup>th</sup> Congress), the Speaker has been able to postpone<em> Journal</em> record votes until later in the legislative day, allowing the House to consider other business before voting to agree to the <em>Journal</em>'s<em> </em>approval.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="H.Res. 5 (98 th Cong, 1 st Sess.).">53</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1985, Representative Harry Reid confirmed the use of <em>Jo</em><em>urnal</em> votes as an act of protest. Speaking on the House floor, he said, "We all recognize that the <em>Journal</em> or more specifically approval of the <em>Journal</em> can be used as a procedural tool; that is, Members that want to express disfavor with the preceding day's business can call for a vote, thus officially expressing their displeasure."<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="House debate, Congressional Record , vol. 131 (March 19, 1985), p. 5532.">54</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An example of a <em>Journal </em>vote that was both a protest and a dilatory action occurred in 1993 (103<sup>rd</sup> Congress). On March 2, Representative Gerald Solomon, a member of the minority party, demanded a vote on the <em>Journal</em>. Later, in debate, he stated that his party had called the <em>Journal</em> vote, as well as record votes on five noncontroversial items, due to leadership's restrictions on debate and amendments. He informed the Speaker: "We are not going to be pushed around by dictatorial policies of the Democrat leadership.... You are going to treat us fair, or else."<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="House debate, Congressional Record , vol. 139 (March 2, 1985), p. 3922.">55</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774790"></a><a name="_Toc505774864"></a><a name="_Toc505847164"></a><a name="_Toc506992305"></a><a name="_Toc506992401"></a><a name="_Toc508351041"></a><a name="_Toc508616606"></a><a name="_Toc511975353"></a><a name="_Toc512328965"></a><a name="_Toc513112763"></a><a name="_Toc514844096"></a><a name="_Toc514932619"></a><a name="_Toc514933429"></a><a name="_Toc514933487"></a><a name="_Toc515004785"></a><a name="_Toc515358435"></a><a name="_Toc515518328"></a><a name="_Toc515519108"></a><a name="_Toc515520724"></a><a name="_Toc515520915"></a><a name="_Toc515521146"></a><a name="_Toc515525077"></a><a name="_Toc515621551"></a>To Ascertain the Presence of a Quorum</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under House Rule XX, House Members may object to the results of a voice vote by noting the absence of a quorum.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="See CRS Report 98-870, Quorum Requirements in the House: Committee and Chamber , by Christopher M. Davis .">56</a></sup> This objection may trigger a subsequent record vote, which in addition to deciding the question, verifies the existence of a quorum. Thus, a Member may initiate a <em>Journal</em>-approval vote in order to ascertain the presence of a quorum.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="Rule changes in 1977 and 1979 (95 th and 96 th Congresses) eliminated the House quorum call. In the 95 th Congress, the House mandated—under what is now Rule XX, clause 7— that &quot;it shall not be in order to make or entertain a point of order that a quorum is not present unless the Speaker has put the pending motion or proposition to a vote . &quot; The following Congress, the House f urther eliminated the need for the appearance of a quorum before the Speaker's approval of the Journal in...">57</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1985, Representative Robert Walker contended that the changes to quorum procedures in Rule XX led to an increase in <em>Journal</em>-approval votes. In defense of his own call for a vote, he said the following: </p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The fact is that the reason why people get Journal votes is to find out who is here and whether or not there are enough people here to do business. The reason we have got to resort to that is because some years ago in their wisdom the Democratic Party decided that we would no longer have quorum calls, that we would no longer have a process around here by which we could get a quorum at the beginning of the day to find out who was here.... So the one way that you have early in the day to find out whether or not there are enough Members in town to even do business here is to get a vote on the Journal.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title='"The Journal Vote Problem," House debate, Congressional Record , vol. 131 (March 19, 1985), pp. 5568-5569.'>58</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774791"></a><a name="_Toc505774865"></a><a name="_Toc505847165"></a><a name="_Toc506992306"></a><a name="_Toc506992402"></a><a name="_Toc508351042"></a><a name="_Toc508616607"></a><a name="_Toc511975354"></a><a name="_Toc512328966"></a><a name="_Toc513112764"></a><a name="_Toc514844097"></a><a name="_Toc514932620"></a><a name="_Toc514933430"></a><a name="_Toc514933488"></a><a name="_Toc515004786"></a><a name="_Toc515358436"></a><a name="_Toc515518329"></a><a name="_Toc515519109"></a><a name="_Toc515520725"></a><a name="_Toc515520916"></a><a name="_Toc515521147"></a><a name="_Toc515525078"></a><a name="_Toc515621552"></a>To Assemble Members Prior to a Major Vote or Announcement</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The act of assessing a quorum is related to another use of <em>Journal</em>-approval votes: to assemble Members prior to a major vote or leadership announcement. Indeed, when Walker defended himself in 1985, he stated the reason he had called an earlier <em>Journal </em>vote:</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">That was on the day that we were going to have a very, very important vote from our side of the aisle which our leadership was very interested in ... and my leadership did ask me that day to make certain that we got a vote on the Journal, which I was glad to do.... I think it was fully justified to try to establish whether or not there was a quorum here and just who was here, given the fact that my leadership was going to come to the floor.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title='"The Journal Vote Problem."'>59</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Political scientist John W. Patty tested the "gathering Members" premise in a study examining record votes from 1991 to 2002 (102<sup>nd</sup>-107<sup>th</sup> Congresses).<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title='John W. Patty, "Dilatory or Anticipatory? Voting on the Journal in the House of Representatives," Public Choice , vol. 143 (April, 2010), pp. 121-133.'>60</a></sup> He found that on days that the House voted to agree to the Speaker's approval of the <em>Journal</em>, the chamber was more likely to vote on major legislation and that such votes were "more likely to be close and more likely to be party-line votes than those recorded on other days."<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title='Patty, "Dilatory or Anticipatory?," p. 121.'>61</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to Patty, leaders from both parties may prompt their Members to call <em>Journal</em>-approval votes in advance of high-priority measures. By doing so, Patty argues, they "block off" a voting period and "signal" the importance of the votes to come. Once the Members are on the floor, bill managers can "count heads, poll the rank and file, and potentially influence members' votes."<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title='Patty, "Dilatory or Anticipatory?," p. 122.'>62</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Party leaders also use a <em>Journal</em>-approval vote to assemble Members before an announcement or presentation. For instance, in 1999, a majority-party Member initiated an immediate record vote on the <em>Journal</em>. Minutes later, the House swore in a new Member, and Representative Bob Livingston gave his farewell remarks to Congress.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title='"The Journal," "Opening Remarks of the Honorable Johnny Isakson," "Farewell Remarks of Honorable Bob Livingston," Congressional Record , vol. 145 (February 25, 1999), pp. 3105-3106.'>63</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774793"></a><a name="_Toc505774867"></a><a name="_Toc505847167"></a><a name="_Toc506992308"></a><a name="_Toc506992404"></a><a name="_Toc508351043"></a><a name="_Toc508616608"></a><a name="_Toc511975355"></a><a name="_Toc512328967"></a><a name="_Toc513112765"></a><a name="_Toc514844098"></a><a name="_Toc514932621"></a><a name="_Toc514933431"></a><a name="_Toc514933489"></a><a name="_Toc515004787"></a><a name="_Toc515358437"></a><a name="_Toc515518330"></a><a name="_Toc515519110"></a><a name="_Toc515520726"></a><a name="_Toc515520917"></a><a name="_Toc515521148"></a><a name="_Toc515525079"></a><a name="_Toc515621553"></a>To Demonstrate Independence from Leadership</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members may vote against<em> Journal</em>-approval votes in order to demonstrate their independence from leadership.<em> Journal</em>-approval votes, in particular, provide ample opportunities for Members to vote in opposition to most of their fellow partisans without harming their parties' policy agendas.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Several associations, research groups, and media outlets rate Members by their positions on record votes. When Members vote contrary to their party, they decrease their party unity scores—a potential benefit to Members from competitive or moderate districts.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title="Each organization that publicizes party unity scores may use different criteria to calculate them. In general, they are created from an analysis of each Member's response to &quot;party unity&quot; votes. Party unity votes are defined as votes &quot;in which the majority of voting Democrats vote against a majority of voting Republicans.&quot; See Cantor and Herrnson, &quot;Party Campaign Activity and Party Unity in the U.S. House of Representatives,&quot; Legislative Studies Quarterly , vol. 22, no. 3 (August 1997), p. 41...">64</a></sup> However, some organizations, such as <em>Congressional Quarterly</em>, have begun to omit the results of procedural votes, including <em>Journal</em>-approval votes, from their ranking criteria in order to produce voting scores that are more relevant to constituent interests.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='Paul Kane, "Freshman Padding Their Independence; Procedural Votes Become Safe Nays," Washington Post , December 26, 2007, A19.'>65</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774794"></a><a name="_Toc505774868"></a><a name="_Toc505847168"></a><a name="_Toc506992309"></a><a name="_Toc506992405"></a><a name="_Toc508351044"></a><a name="_Toc508616609"></a><a name="_Toc511975356"></a><a name="_Toc512328968"></a><a name="_Toc513112766"></a><a name="_Toc514844099"></a><a name="_Toc514932622"></a><a name="_Toc514933432"></a><a name="_Toc514933490"></a><a name="_Toc515004788"></a><a name="_Toc515358438"></a><a name="_Toc515518331"></a><a name="_Toc515519111"></a><a name="_Toc515520727"></a><a name="_Toc515520918"></a><a name="_Toc515521149"></a><a name="_Toc515525080"></a><a name="_Toc515621554"></a><em>Journal</em> Approval and Record Vote Trends, 1991-2016 (102<sup>nd</sup>-114<sup>th</sup> Congresses)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc505774795"></a><a name="_Toc505774869"></a><a name="_Toc505847169"></a><a name="_Toc506992310"></a><a name="_Toc506992406"></a>From 1991 through 2016, there were 472 <em>Journal</em>-approval record votes (2.8% of the total number of record votes). In a single Congress, the number has ranged from a low of 8 in the 109<sup>th</sup> Congress (2005-2006) to a high of 77 in the 103<sup>rd</sup> Congress (1993-1994), with the average number of votes being 36.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title="The 109 th Congress had no Journal -approval votes during its second session. While the reason for the low number of Journal votes during the 109 th Congress is not known, it should be noted that the 2 nd session featured an interim majority leader and a replacement majority leader during the months leading up to the 2006 election.">66</a></sup> During the 35-year period, a Member of the party in power initiated 52.5% of all <em>Journal</em> record votes, showing that approval votes were requested in roughly equal amounts by members of the majority and minority (<strong><a class="InternalLink" href="#_Ref515520217"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong>). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>J</em><em>our</em><em>nal </em>voting and procedural trends that extend over several Congresses are considered below. Perhaps the most significant trend is the increased postponement of record <em>Journal </em>votes (<strong><a class="InternalLink" href="#_Ref515520255"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong>). These postponed votes are now frequently triggered by demands for yeas and nays, in addition to quorum points of order. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc508351045"></a><a name="_Toc508616610"></a><a name="_Toc511975357"></a><a name="_Toc512328969"></a><a name="_Toc513112767"></a><a name="_Toc514844100"></a><a name="_Toc514932623"></a><a name="_Toc514933433"></a><a name="_Toc514933491"></a><a name="_Toc515004789"></a><a name="_Toc515358439"></a><a name="_Toc515518332"></a><a name="_Toc515519112"></a><a name="_Toc515520728"></a><a name="_Toc515520919"></a><a name="_Toc515521150"></a><a name="_Toc515525081"></a><a name="_Toc515621555"></a>Timing: Immediate Votes vs. Postponed Votes</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1983 (98<sup>th</sup> Congress), the House amended what is now Rule XX, clause 8, to allow the Speaker to postpone <em>Journal </em>votes until later in the same legislative day.<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="See Wickham, pp. 340 , 860.">67</a></sup> However, Speakers (or their designees) continued to hold more immediate votes than postponed votes until the 104<sup>th</sup> Congress (1995-1996). In the 108<sup>th</sup> Congress (2003-2004), there was one immediate record vote. The 111<sup>th</sup><sup> </sup>Congress (2009-2010) also featured one immediate vote. All other <em>Journal</em>-approval record votes since the 108<sup>th</sup> Congress have been postponed until later in the legislative day (<strong><a class="InternalLink" href="#_Ref515520255"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong>). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In current practice, the Speaker is likely to postpone and group <em>Journal </em>votes with other record votes. The voting window is typically announced in advance, minimizing scheduling conflicts with Members and committees.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc508351046"></a><a name="_Toc508616611"></a><a name="_Toc512328970"></a><a name="_Toc513112768"></a><a name="_Toc514844101"></a><a name="_Toc514932624"></a><a name="_Toc514933434"></a><a name="_Toc514933492"></a><a name="_Toc515004790"></a><a name="_Toc515358440"></a><a name="_Toc515518333"></a><a name="_Toc515519113"></a><a name="_Toc515520729"></a><a name="_Toc515520920"></a><a name="_Toc515521151"></a><a name="_Toc515525082"></a><a name="_Toc515621556"></a><a name="_Toc511975358"></a>Method for Vote Request: Quorum Points of Order vs. Demands for Yeas and Nays </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Between the 102<sup>nd</sup> and the 105<sup>th</sup> Congresses (1991-1998), all <em>Journal</em>-approval record votes were triggered by a Member noting the absence of a quorum after a voice vote. Under this still-common procedure, the Speaker either responds with an immediate record vote to confirm the presence of a quorum or instead postpones the question until later in the legislative day, at which point the question is considered <em>de novo</em> (as if new), and a record vote may or may not be requested following a voice vote. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As of the 106<sup>th</sup> Congress (1999-2000), Members began initiating some <em>Journal</em> votes by demanding the yeas and nays. This demand guarantees a record vote within the legislative day provided that the demand has the support of one-fifth of the Members present. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When a quorum point of order was the initial triggering method, a record vote immediately followed in 40% of the occurrences. In contrast, when the initial method was a demand for the yeas and nays, the resulting vote was postponed in every instance.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">From 1991 to 2016, there were 396 record votes triggered by quorum points of order, compared to 76 votes triggered by a demand for the yeas and nays. However, from the 109<sup>th</sup> through the 114<sup>th</sup> Congresses (2005-2016), there were 72 yeas and nays initial requests compared to 62 quorum points of order, signifying an increase in the use of yeas and nays and a decrease in the point of order method to obtain a record vote.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc512328971"></a><a name="_Toc513112769"></a><a name="_Toc514844102"></a><a name="_Toc514932625"></a><a name="_Toc514933435"></a><a name="_Toc514933493"></a><a name="_Toc515004791"></a><a name="_Toc515358441"></a><a name="_Toc515518334"></a><a name="_Toc515519114"></a><a name="_Toc515520730"></a><a name="_Toc515520921"></a><a name="_Toc515521152"></a><a name="_Toc515525083"></a><a name="_Toc515621557"></a>Reasons to Choose the Quorum Point of Order or the Yeas and Nays Method</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When a Member objects to an initial voice vote on the Speaker's approval of the <em>Journal</em>, the Member may make a quorum point of order or demand the yeas and nays in an attempt to obtain a record vote. The quorum method requires no additional support on the floor at the time of the request. This is helpful for Members who have not enlisted fellow supporters prior to calling for a vote on the Speaker's approval. Making a successful quorum point of order ensures that the <em>Journal</em>'s approval will be considered again (immediately or at a later time) within the legislative day. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The yeas and nays method is useful when a Member desires a guaranteed record vote later in the day—so long as the demand receives sufficient support for a second. If the yeas and nays are ordered, the demand locks in a vote period, which is likely to include important votes on issues not connected to the<em> Journal</em>. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<p class="" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><br/></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:395.7984pt;">
+<p class="TableTitle"><a name="_Ref515520217"></a><a name="_Toc505847139"></a><a name="_Toc506992286"></a><a name="_Toc506992382"></a><a name="_Toc508351018"></a><a name="_Toc508616583"></a><a name="_Toc511975330"></a><a name="_Toc512328942"></a><a name="_Toc513112740"></a><a name="_Toc514844073"></a><a name="_Toc514932596"></a><a name="_Toc514933406"></a><a name="_Toc514933464"></a><a name="_Toc515004762"></a><a name="_Toc515358412"></a><a name="_Toc515518305"></a><a name="_Toc515519085"></a><a name="_Toc515520701"></a><a name="_Toc515520892"></a><a name="_Toc515521123"></a><a name="_Toc515525054"></a><a name="_Toc515621528"></a>Table 1. Journal Votes, 1991-2016 (102<sup>nd</sup> Congress-114<sup>th</sup> Congress)</p>
+<p class="TableSubTitle">Record Votes to Agree to the Speaker's Approval of the <em>Journal</em></p>
+</div>
+<table class="ReportTable" style="width:395.7984pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:67.20656832pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Congress</p>
+<p class="TableTextHeading" style="text-align:center;">(Years)</p>
+</td>
+<td style="width:53.35362432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Majority Party </p>
+</td>
+<td style="width:50.42471616000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Number of <em>Journal </em>Record Votes</p>
+</td>
+<td style="width:58.1823648pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Total Number of Record Votes in Congress</p>
+</td>
+<td style="width:58.34068416pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;"><em>Journal</em> Votes as Percentage of Total Record Votes</p>
+</td>
+<td style="width:48.920682240000005pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Average Support for Approval</p>
+</td>
+<td style="width:59.36976pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Initiated by Majority Party Member</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">102<sup>nd</sup></p>
+<p class="TableText" style="text-align:center;">(1991-1992)</p>
+</td>
+<td style="width:53.35362432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:50.42471616000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">45</p>
+</td>
+<td style="width:58.1823648pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">932</p>
+</td>
+<td style="width:58.34068416pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4.8%</p>
+</td>
+<td style="width:48.920682240000005pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">71.1%</p>
+</td>
+<td style="width:59.36976pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">19 (42.2%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">103<sup>rd</sup></p>
+<p class="TableText" style="text-align:center;">(1993-1994)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">77</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1122</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">6.9%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">61.8%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">49 (63.6%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">104<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(1995-1996)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">36</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1340</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">2.7%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">82.1%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">18 (50.0%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">105<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(1997-1998)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">40</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1187</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">3.4%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.5%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">24 (60.0%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">106<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(1999-2000)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">55</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1214</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4.5%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.9%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">21 (38.2%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">107<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2001-2002)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">65</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">996</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">6.5%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.4%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">27 (41.5%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">108<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2003-2004)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1221</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1.6%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">87.6%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">9 (45.0%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">109<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2005-2006)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8<a class="InternalLink" href="#_Ref515520303"><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup></a></p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1214</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0.7%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">86.9%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">5 (62.5%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">110<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2007-2008)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">31</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1876</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1.7%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">55.8%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">14 (45.2%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">111<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2009-2010)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">13</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1655</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0.8%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">57.6%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7 (53.8%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">112<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2011-2012)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">30</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1608</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1.9%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">75.5%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">20 (66.7%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">113<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2013-2014)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">34</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1205</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">2.8%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">67.6%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">22 (64.7%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">114<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2015-2016)</p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">18</p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1327</p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1.4%</p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">60.4%</p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">13 (72.2%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Total Number</strong></p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>—</strong></p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>472</strong></p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>16,897</strong></p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>—</strong></p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>—</strong></p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>248</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:67.20656832pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Average per Congress</strong><strong><a class="InternalLink" href="#_Ref515520304"></a></strong><sup></sup><strong></strong><strong></strong><sup><span class="TableTextFootnoteReference">b</span></sup><strong></strong></p>
+</td>
+<td style="width:53.35362432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>—</strong></p>
+</td>
+<td style="width:50.42471616000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>36.3</strong></p>
+</td>
+<td style="width:58.1823648pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>—</strong></p>
+</td>
+<td style="width:58.34068416pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>2.8</strong><strong>%</strong></p>
+</td>
+<td style="width:48.920682240000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>75.0</strong><strong>%</strong></p>
+</td>
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>19.07 (</strong><strong>52.5</strong><strong>%</strong><strong>)</strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:395.7984pt;">
+<p class="TableSource"><strong>Source</strong><strong>s</strong><strong>: </strong>Clerk of the House, Congress.gov, <em>Congressional Record</em>. </p>
+<p class="TableNumberedNote">a. <a name="_Ref515520303"></a>The 109<sup>th</sup> Congress had no<em> Journal</em>-approval record votes during its second session. </p>
+<p class="TableNumberedNote">b. <a name="_Ref515520304"></a>The average number of votes is based on <em>Journal</em>-approval record votes from 1991-2016. There were 472 <em>Journal</em>-approval votes out of a total of 16,897 record votes. The majority party initiated 248<em> Journal</em>-approval record votes out of the 472 total. </p>
+</div>
+</div>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:426.03839999999996pt;">
+<p class="TableTitle"><a name="_Ref515520255"></a><a name="_Toc508351019"></a><a name="_Toc508616584"></a><a name="_Toc511975331"></a><a name="_Toc512328943"></a><a name="_Toc513112741"></a><a name="_Toc514844074"></a><a name="_Toc514932597"></a><a name="_Toc514933407"></a><a name="_Toc514933465"></a><a name="_Toc515004763"></a><a name="_Toc515358413"></a><a name="_Toc515518306"></a><a name="_Toc515519086"></a><a name="_Toc515520702"></a><a name="_Toc515520893"></a><a name="_Toc515521124"></a><a name="_Toc515525055"></a><a name="_Toc515621529"></a>Table 2. Timing of Record Votes, 1991-2016 (102<sup>nd</sup> Congress-114<sup>th</sup> Congress)</p>
+<p class="TableSubTitle">Record Votes to Agree to the Speaker's Approval of the <em>Journal</em></p>
+</div>
+<table class="ReportTable" style="width:426.03839999999996pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:59.36976pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Congress (Years)</p>
+</td>
+<td style="width:53.03698560000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Majority Party</p>
+</td>
+<td style="width:53.03698560000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Immediate Votes</p>
+</td>
+<td style="width:73.22270400000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Immediate Votes Initiated by Majority<br/>(% of Total)</p>
+</td>
+<td style="width:69.73967808pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Postponed Votes</p>
+</td>
+<td style="width:87.39228672pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Postponed Votes Initiated by Majority<br/>(% of Total)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">102<sup>nd</sup></p>
+<p class="TableText" style="text-align:center;">(1991-1992)</p>
+</td>
+<td style="width:53.03698560000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:53.03698560000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">43 </p>
+</td>
+<td style="width:73.22270400000001pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">19 (44.2%)</p>
+</td>
+<td style="width:69.73967808pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="width:87.39228672pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0 (0.0%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">103<sup>rd</sup></p>
+<p class="TableText" style="text-align:center;">(1993-1994)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">65 </p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">41 (64.1%)</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">12</p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8 (61.5%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">104<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(1995-1996)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">15 </p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">3 (20.0%)</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">21 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">15 (71.4%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">105<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(1997-1998)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">11 </p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">6 (54.5%)</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">29 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">18 (62.1%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">106<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(1999-2000)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">18 </p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">4 (22.2%)</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">37 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">17 (45.9%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">107<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2001-2002)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">10 </p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">5 (50.0%)</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">55 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">22 (40.0%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">108<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2003-2004)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1 </p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0 (0.0%)</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">19 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">9 (47.4%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">109<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2005-2006)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">—</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8</p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">5 (62.5%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">110<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2007-2008)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">—</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">31 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">13 (41.9%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">111<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2009-2010)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Democratic</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1 </p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1 (100.0%)</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">12 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">6 (50.0%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">112<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2011-2012)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">—</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">30</p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">20 (66.7%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">113<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2013-2014)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">—</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">34 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">22 (64.7%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">114<sup>th</sup></p>
+<p class="TableText" style="text-align:center;">(2015-2016)</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">Republican</p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">0</p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">—</p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">18 </p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">13(72.2%)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Total Number</strong><strong> (Average)</strong></p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>—</strong></p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>164</strong></p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>79 (48.2%)</strong></p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>308</strong></p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>168 (54.5%)</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:59.36976pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>Average per Congress</strong></p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>—</strong></p>
+</td>
+<td style="width:53.03698560000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>12.6</strong><strong><a class="InternalLink" href="#_Ref515520305"></a></strong><sup></sup><strong></strong><strong></strong><sup><span class="TableTextFootnoteReference">a</span></sup><strong></strong></p>
+</td>
+<td style="width:73.22270400000001pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>9.9</strong><strong><a class="InternalLink" href="#_Ref515520306"></a></strong><sup></sup><strong></strong><strong></strong><sup><span class="TableTextFootnoteReference">b</span></sup><strong></strong></p>
+</td>
+<td style="width:69.73967808pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>23.7</strong><strong><a class="InternalLink" href="#_Ref515520305"></a></strong><sup></sup><strong></strong><strong></strong><sup><span class="TableTextFootnoteReference">a</span></sup><strong></strong></p>
+</td>
+<td style="width:87.39228672pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>12.9</strong><strong><a class="InternalLink" href="#_Ref515520305"></a></strong><sup></sup><strong></strong><strong></strong><sup><span class="TableTextFootnoteReference">a</span></sup><strong></strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:426.03839999999996pt;">
+<p class="TableSource"><strong>Source</strong><strong>s</strong><strong>: </strong>Clerk of the House, Congress.gov, <em>Congressional Record</em>.</p>
+<p class="TableNumberedNote">a. <a name="_Ref515520305"></a>This number was calculated by taking the total number of <em>Journal</em>-approval record votes in the category and dividing it by 13 (the number of Congresses under consideration). </p>
+<p class="TableNumberedNote">b. <a name="_Ref515520306"></a>This number was calculated by taking the total number of votes in the category and dividing it by the number of Congresses that featured votes in that category. For Immediate Votes, the number of Congresses was eight. </p>
+</div>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Online copies are currently available from the 102<sup>nd</sup> through 113<sup>th</sup> Congresses. See GPO, "About Journal of the House of Representatives," <a class="ExternalLink" href="https://www.gpo.gov/help/about_journal_of_the_house_of_representatives.htm"><span class="Hyperlink">https://www.gpo.gov/help/about_journal_of_the_house_of_representatives.htm</span></a><span class="Hyperlink">. </span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The <em>Congressional </em><em>Record</em> began publication in 1873 and was preceded by the <em>Annals of Congress</em>, the <em>Register of Debates</em>, and the <em>Congressional Globe</em>. For more information on the recording of floor debates in Congress, see U.S. Senate, "Reporters of Debate and the Congressional Record," <a class="ExternalLink" href="https://www.senate.gov/artandhistory/history/common/briefing/Reporters_Debate_Congressional_Record.htm"><span class="Hyperlink">https://www.senate.gov/artandhistory/history/common/briefing/Reporters_Debate_Congressional_Record.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Since the <em>J</em><em>ournal</em> is the official record of the proceedings of the House, its approval is not subject to the requirement that it correspond with the <em>Congressional Record</em>. See Lewis Deschler, <em>Deschler's Precedents of the U.S. House of Representatives</em>, 94<sup>th</sup> Cong., 2<sup>nd</sup> sess., 1977, H.Doc. 94-661 (Washington: GPO, 1977), ch. 5, §8, pp. 325-326.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Constitution, Art. I, §5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Constitution's Article I, Section 5, specifies that "the Yeas and Nays of the Members of either House on any question shall, at the Desire of one fifth of those Present, be entered on the Journal." In Article I, Section 7, a final requirement is added: Each House must record presidential veto messages, as well as the names of Members voting for or against congressional attempts to override such vetoes.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Official Senate proceedings to be recorded are outlined in Senate Standing Rule IV, paragraph 1(c): "The proceedings of the Senate shall be briefly and accurately stated on the Journal. Messages of the President in full; titles of bills and resolutions, and such parts as shall be affected by proposed amendments; every vote, and a brief statement of the contents of each petition, memorial, or paper presented to the Senate, shall be entered." The Senate records and divides its official proceedings into separate books: "the legislative, the executive, the confidential legislative proceedings, and the proceedings when sitting as a Court of Impeachment." See Matthew McGowan, <em>Senate Manual</em>, 113<sup>th</sup> Cong., 1<sup>st</sup> sess., S.Doc. 113-1 (Washington: GPO, 2014), pp. 4-5. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Deschler's</em>, ch. 5, §10, pp. 326-329.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Voice votes ascertain the approval or disapproval on a question, while record votes also list the names of Members and how they voted. Record votes are often referred to as roll call votes. There are three types of record votes: (1) those that are triggered by a sustained quorum point of order, in which case the yeas and nays are automatically ordered without the need for a sufficient second; (2) those that are triggered by a demand for the yeas and nays with the concurrence of one-fifth present; and (3) those that are triggered by a demand for a recorded vote with the concurrence of one-fifth of a quorum—44 Members. See CRS Report 95-563, <a class="ExternalLink" href="http://www.crs.gov/Reports/95-563"><em><span class="Hyperlink">The Legislative Process on the House Floor: An Introduction</span></em></a>, by Christopher M. Davis. For information about what the <em>Journal </em>is to record, see William McKay and Charles W. Johnson, <em>Parliament and Congress: Representation and Scrutiny in the Twenty-First Century</em> (Oxford: Oxford University Press, 2010), p. 96.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The <em>House Manual</em>'s<em> </em>full citation is <em>Constitution, Jefferson's Manual and the Rules of the House</em>, 114<sup>th</sup> Cong., 2<sup>nd</sup> Sess., 2017, H.Doc. 114-192 (Washington: GPO, 2017); Charles W. Johnson, John V. Sullivan, and Thomas J. Wickham Jr., <em>House Practice: A Guide to the Rules,</em><em> </em><em>Precedents, and Procedures of the House </em>(Washington: GPO, 2017); <em>Hinds'</em> and <em>Cannon's Precedents of the House of Representatives</em> (Washington: GPO, 1935-1941).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House </em><em>Manual</em>, House Rule XX, clauses 2, 4, 5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 2 U.S.C. §25.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 3 U.S.C. §15; see <em>Deschler's</em>, ch. 5, §10, p. 327.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Hinds</em>, vol. 4, ch. 84, §2811. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Deschler's</em>, p. 330.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Deschler's</em>, p. 327. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, ch. 28, §9, p. 627.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Constitution, Art. I, §5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> McKay and Johnson, p. 97. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Articles of Confederation, Art. IX: "The congress of the united states shall ... publish the Journal of their proceedings monthly, except such parts thereof relating to treaties, alliances or military operations, as in their judgment require secrecy; and the yeas and nays of the delegates of each state on any question shall be entered on the Journal, when it is desired by any delegate; and the delegates of a state, or any of them, at his or their request shall be furnished with a transcript of the said Journal, except such parts as are above excepted, to lay before the legislatures of the several states."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> James Madison, <em>The Debates in the Federal Convention of 1787 Which Framed the Constitution of the United States of America</em>, ed. Gaillard Hunt and James Brown Scott (Westport, CT: Greenwood Press, 1970), p. 381.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The full quotation is: "The object of the whole clause is to insure publicity to the proceedings of the legislature, and a correspondent responsibility of the members to their respective constituents. And it is founded in sound policy and deep political foresight. Intrigue and cabal are thus deprived of some of their main resources, by plotting and devising measures in secrecy. The public mind is enlightened by an attentive examination of the public measures; patriotism and integrity and wisdom obtain their due reward; and votes are ascertained not by vague conjecture, but by positive facts." Joseph Story, <em>Commentaries on the Constitution of the United States</em>, ed. Thomas M. Cooley, 4<sup>th</sup> ed., vol. I (Boston: Little, Brown, and Company, 1873), p. 591.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, ch. 28, §1, p. 621; <em>Deschler's</em>, ch. 5, §8, p. 325.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The <em>House Journal</em>, 1992-2014, is available from the GPO website at <a class="ExternalLink" href="https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=HJOURNAL"><span class="Hyperlink">https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=HJOURNAL</span></a>. The Library of Congress's Century of Lawmaking site posts the <em>House Journal</em>, 1789-1875, <a class="ExternalLink" href="http://memory.loc.gov/ammem/amlaw/lwhj.html"><span class="Hyperlink">http://memory.loc.gov/ammem/amlaw/lwhj.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""><span class="FootnoteReference"> </span><em>Deschler's</em>, ch. 5, §8, p. 325.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""><span class="FootnoteReference"> </span><span class="FootnoteReference">United States v. Ballin, 144 U.S. 1, 4 (1892); </span><em><span class="FootnoteReference">Deschler's</span></em><span class="FootnoteReference">,</span><span class="FootnoteReference"> </span>c<span class="FootnoteReference">h. 5, §</span>9, <span class="FootnoteReference">p. 32</span>6<span class="FootnoteReference">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, Rules I and XIV. While the legislative business does not occur before the <em>Journal</em> is approved, the following procedural matters may intervene while the <em>Journal</em> is pending: simple motions to adjourn, administration of the oath to a Member-elect, parliamentary inquiries, reception of messages from the Senate, questions of privileges affecting the House, and arraignments of impeachment. <em>House Practice</em>, ch. 8, §5, p. 625.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See GPO, "Journal of the House of Representatives," <a class="ExternalLink" href="https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=HJOURNAL"><span class="Hyperlink">https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=HJOURNAL</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Occasionally, the terms of a special rule will include the automatic approval of the <em>Journal</em> when the approval would normally occur during a pre-scheduled <em>pro forma</em> session. The special rule may state: "On any legislative day during the period from _______ through _______, the Journal of the proceedings of the previous day shall be considered as approved." At the start of each legislative day specified by the special rule, the Speaker (or the Speaker's designee) will say, "Pursuant to House Resolution ___, the Journal of the last day's proceedings is approved." </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See footnote <a class="InternalLink" href="#_Ref515520302">8</a> on the three types of record votes. During the period under consideration (1990-2016), Members made a quorum point of order or demanded the yeas and nays in their initial effort to obtain a record vote on agreeing to the Speaker's approval of the <em>Journal</em>. If the record vote was postponed, during the later period of consideration, Members used all three procedural methods available to trigger a record vote. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Constitution, Art. 1, clause 5: "The Yeas and Nays of the Members of either House on any question shall, at the Desire of one fifth of those Present, be entered in the Journal." The Member may also demand a recorded vote, which requires the support of one fifth of a quorum (44 Members). However, in the years under consideration (1990-2016), no demands for recorded votes were identified immediately following the Speaker's approval. Members did demand recorded votes after a postponed voice vote later in the legislative day. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Speaker's ability to postpone votes is outlined in House Rule XX, clause 8. More information about postponed votes is in the "Vote Trends" section of this report.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Speaker's count of the sufficient second is not subject to appeal. <em>House Practice</em>, ch. 58, §14, p. 950.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Until the 92<sup>nd</sup> Congress (1971-1972), House rules mandated the reading of the <em>Journal </em>each legislative day unless dispensed with by unanimous consent or suspension of the rules. From the 93<sup>rd</sup> to the 95<sup>th</sup> Congress (1973-1978), the <em>Journal</em> was considered read once the Speaker announced approval. However, the Speaker could order a reading, or a Member could make a privileged motion to have the <em>Journal</em> read in full. <em>Deschler's</em>, ch. 5, §11, p. 333.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, ch. 28, §6, p. 625.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, ch. 28, §7, p. 626.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information about the previous question, see CRS Report 98-427, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-427"><em><span class="Hyperlink">Considering Measures in the House Under the One-Hour Rule</span></em></a>, by James V. Saturno. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, ch. 28, §8, p. 626.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Deschler's</em>, ch. 5, §13, p. 347.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, §621, p. 340; <em>Deschler's</em>, ch. 5, §13.2-3, pp. 348-349.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Deschler's</em>, ch. 5, §13, p. 348.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report 98-427, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-427"><em><span class="Hyperlink">Considering Measures in the House Under the One-Hour Rule</span></em></a>, by James V. Saturno.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, ch. 28, §9, p. 627.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, ch. 28, §9, p. 627.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Cannon's Precedents</em>, vol. 6, ch. 206, §634.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See the House Clerk's roll call vote database at <a class="ExternalLink" href="http://clerk.house.gov/legislative/legvotes.aspx"><span class="Hyperlink">http://clerk.house.gov/legislative/legvotes.aspx</span></a>. This database covers 101<sup>st</sup> Congress, 2<sup>nd</sup> Session (1990) to 115<sup>th</sup> Congress, 1<sup>st</sup> Session (2017). The voting trends section of this report analyzes votes beginning with the 102<sup>nd</sup> Congress, which is the first Congress that has both sessions tracked by the roll call vote database.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, Rule I, §621, p. 340.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""><em> </em>House debate, <em>Congressional Record</em>, vol. 136 (March 19, 1990), p. 4488.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> House debate, <em>Congressional Record</em>, vol. 136 (March 19, 1990), p. 4488.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> House debate, <em>Congressional Record</em>, vol. 136 (March 19, 1990), p. 4488.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> House debate, <em>Congressional Record</em>, vol. 136 (March 19, 1990), p. 4488.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Members may also vote "present" rather than vote for or against the Speaker's approval. According to one Member, he votes "present" as a "symbolic effort to express displeasure about something in the legislative process he didn't like." See Michael Teitelbaum, "The Most Interesting Story You'll Ever Read on the House Journal," <em>CQ Magazine</em>, May 21, 2018. During the period under consideration, as many as nine Members voted "present" in response to a <em>Journal</em> record vote. The average number of "present" votes, however, was less than one per record vote. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d098:H.Res.5:"><span class="Hyperlink">H.Res. 5</span></a> (98<sup>th</sup> Cong, 1<sup>st</sup> Sess.).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> House debate, <em>Congressional Record</em>, vol. 131 (March 19, 1985), p. 5532.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> House debate, <em>Congressional Record</em>, vol. 139 (March 2, 1985), p. 3922.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report 98-870, <a class="ExternalLink" href="http://www.crs.gov/Reports/98-870"><em><span class="Hyperlink">Quorum Requirements in the House: Committee and Chamber</span></em></a>, by Christopher M. Davis.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Rule changes in 1977 and 1979 (95<sup>th</sup> and 96<sup>th</sup> Congresses) eliminated the House quorum call. In the 95<sup>th</sup> Congress, the House mandated—under what is now Rule XX, clause 7—that "it shall not be in order to make or entertain a point of order that a quorum is not present unless the Speaker has put the pending motion or proposition to a vote." The following Congress, the House further eliminated the need for the appearance of a quorum before the Speaker's approval of the <em>Journal</em> in <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d096:H.Res.5:"><span class="Hyperlink">H.Res. 5</span></a> (96<sup>th</sup> Cong., 1<sup>st</sup> Sess.). See Thomas J. Wickham, Parliamentarian, <em>Jefferson's Manual and Rules of the House of Representatives of the United States, One Hundred Fifteenth Congress</em>, 114<sup>th</sup> Cong., 2<sup>nd</sup> sess., H.Doc. 114-192 (Washington: GPO, 2017), pp. 340, 858.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "The Journal Vote Problem," House debate, <em>Congressional Record</em>, vol. 131 (March 19, 1985), pp. 5568-5569.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "The Journal Vote Problem."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> John W. Patty, "Dilatory or Anticipatory? Voting on the<em> Journal</em> in the House of Representatives," <em>Public Choice</em>, vol. 143 (April, 2010), pp. 121-133. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Patty, "Dilatory or Anticipatory?," p. 121.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Patty, "Dilatory or Anticipatory?," p. 122.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "The Journal," "Opening Remarks of the Honorable Johnny Isakson," "Farewell Remarks of Honorable Bob Livingston," <em>Congressional Record</em>, vol. 145 (February 25, 1999), pp. 3105-3106.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Each organization that publicizes party unity scores may use different criteria to calculate them. In general, they are created from an analysis of each Member's response to "party unity" votes. Party unity votes are defined as votes "in which the majority of voting Democrats vote against a majority of voting Republicans." See Cantor and Herrnson, "Party Campaign Activity and Party Unity in the U.S. House of Representatives," <em>Legislative Studies Quarterly</em>, vol. 22, no. 3 (August 1997), p. 413. For information on a CQPolitics study on party unity votes, see Greg Giroux, "Vulnerable Newcomers Stray from Democrats' Party Line," <em>New York Times/Congressional Quarterly</em>, June 5, 2007, <a class="ExternalLink" href="https://archive.nytimes.com/www.nytimes.com/cq/2007/06/06/cq_2847.html"><span class="Hyperlink">https://archive.nytimes.com/www.nytimes.com/cq/2007/06/06/cq_2847.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Paul Kane, "Freshman Padding Their Independence; Procedural Votes Become Safe Nays," <em>Washington Post</em>, December 26, 2007, A19.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The 109<sup>th</sup> Congress had no <em>Journal</em>-approval votes during its second session. While the reason for the low number of <em>Journal </em>votes during the 109<sup>th</sup> Congress is not known, it should be noted that the 2<sup>nd</sup> session featured an interim majority leader and a replacement majority leader during the months leading up to the 2006 election. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Wickham, pp. 340, 860.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
