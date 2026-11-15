@@ -1,10 +1,10 @@
 {
   "result": "healthy",
   "errors": [],
-  "checked_at": "2026-11-15T09:31:42.662186+00:00",
+  "checked_at": "2026-11-15T17:14:36.637448+00:00",
   "monitor_result": "completed",
   "notices": [],
-  "recovery_stage": null,
+  "recovery_stage": "crs-backup.yml",
   "source_times": {
     "crs-backup.yml": "2026-11-15T01:59:28.984451+00:00",
     "official-reconcile.yml": "2026-11-15T02:05:39.960068+00:00",
@@ -37,17 +37,13 @@
       "updated_at": "2026-11-15T02:09:09Z"
     }
   },
-  "daily_delivery": {
-    "date_beijing": "2026-11-14",
-    "new_original_versions": 20,
-    "persisted_attempts": 4,
-    "interpretation": "No new originals is a delivery notice, not by itself proof of refresh failure."
-  },
+  "recovery_action": "Dispatched crs-backup.yml; completion is NOT yet verified",
+  "daily_delivery": null,
   "notification_severity": "none",
   "notification_required": false,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
   "alert_issue": "https://github.com/krischen-77/crs-reports/issues/1",
-  "github_run_id": "43699665109",
+  "github_run_id": "43739969514",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
