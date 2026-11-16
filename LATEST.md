@@ -1,12 +1,17 @@
+**Official-current verification: 85/85. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-09 to 2026-11-16**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-16 | R49517 v1 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.pdf) | [Markdown](markdown/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.md) |
+| 2026-11-16 | R44279 v19 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v19-2026-11-16-e2685c046911266b.pdf) | [Markdown](markdown/reports/R44279v19-2026-11-16-e2685c046911266b.md) |
 | 2026-11-16 | IF13350 v1 | Exchange Visitor Program: J-1 Visa Overview and Policy Considerations | [PDF](pdf/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.pdf) | [Markdown](markdown/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.md) |
 | 2026-11-16 | IF13349 v1 | The Role of Circular Finance in Funding AI Investment | [PDF](pdf/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.pdf) | [Markdown](markdown/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.md) |
 | 2026-11-16 | IF13295 v6 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.pdf) | [Markdown](markdown/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.md) |
+| 2026-11-16 | IF13269 v5 | Artificial Intelligence and Biosecurity Issues | [PDF](pdf/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.pdf) | [Markdown](markdown/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.md) |
 | 2026-11-16 | IF12962 v5 | DNA Methylation: Applications to Living Marine Resource Management | [PDF](pdf/in-focus/IF12962v5-2026-11-16-ed624a510dff2270.pdf) | [Markdown](markdown/in-focus/IF12962v5-2026-11-16-ed624a510dff2270.md) |
 | 2026-11-16 | IF12869 v2 | The Defense Innovation Ecosystem | [PDF](pdf/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.pdf) | [Markdown](markdown/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.md) |
 | 2026-11-16 | IF12148 v8 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.pdf) | [Markdown](markdown/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.md) |
@@ -14,6 +19,7 @@ Publication-date window (inclusive): **2026-11-09 to 2026-11-16**. Older archive
 | 2026-11-16 | IF10782 v12 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.pdf) | [Markdown](markdown/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.md) |
 | 2026-11-16 | IF10113 v15 | The Child Support Enforcement (CSE) Program | [PDF](pdf/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.pdf) | [Markdown](markdown/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.md) |
 | 2026-11-13 | R49516 v1 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v1-2026-11-13-3be64129d62efd48.pdf) | [Markdown](markdown/reports/R49516v1-2026-11-13-3be64129d62efd48.md) |
+| 2026-11-13 | R49516 v2 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v2-2026-11-13-582ec08d22ea1358.pdf) | [Markdown](markdown/reports/R49516v2-2026-11-13-582ec08d22ea1358.md) |
 | 2026-11-13 | R48931 v3 | Sports Reform in the United States: College Athletics and the Olympic Sports Pipeline | [PDF](pdf/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.pdf) | [Markdown](markdown/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.md) |
 | 2026-11-13 | LSB11499 v1 | Supreme Court Considers Religious Schools, Public Funding, and Nondiscrimination Law | [PDF](pdf/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.pdf) | [Markdown](markdown/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.md) |
 | 2026-11-13 | IF12938 v4 | U.S. Satellite Capabilities for Tracking the Wildfire Life Cycle | [PDF](pdf/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.pdf) | [Markdown](markdown/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.md) |
@@ -21,6 +27,7 @@ Publication-date window (inclusive): **2026-11-09 to 2026-11-16**. Older archive
 | 2026-11-13 | IF10545 v19 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.pdf) | [Markdown](markdown/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.md) |
 | 2026-11-12 | R47044 v4 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.pdf) | [Markdown](markdown/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.md) |
 | 2026-11-12 | R47044 v5 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v5-2026-11-12-494473ce42d9bd47.pdf) | [Markdown](markdown/reports/R47044v5-2026-11-12-494473ce42d9bd47.md) |
+| 2026-11-12 | R45931 v22 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v22-2026-11-12-8ff7437b2d6c11f9.pdf) | [Markdown](markdown/reports/R45931v22-2026-11-12-8ff7437b2d6c11f9.md) |
 | 2026-11-12 | IF13348 v1 | Offshore Energy Agency Appropriations, FY2027 | [PDF](pdf/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.pdf) | [Markdown](markdown/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.md) |
 | 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |
 | 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
@@ -62,10 +69,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-16 | 2026-10-01 | R49457 v1 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.pdf) | [Markdown](markdown/reports/R49457v1-2026-10-01-0e6a97e905e86a4f.md) |
-| 2026-11-16 | 2024-10-15 | R45931 v13 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v13-2024-10-15-938c179966661aec.pdf) | [Markdown](markdown/reports/R45931v13-2024-10-15-938c179966661aec.md) |
-| 2026-11-16 | 2025-11-19 | R44279 v17 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v17-2025-11-19-da8c90e0d8473cbd.pdf) | [Markdown](markdown/reports/R44279v17-2025-11-19-da8c90e0d8473cbd.md) |
-| 2026-11-16 | 2026-09-15 | IF13269 v4 | Artificial Intelligence and Biosecurity Issues | [PDF](pdf/in-focus/IF13269v4-2026-09-15-c616af29255f4206.pdf) | [Markdown](markdown/in-focus/IF13269v4-2026-09-15-c616af29255f4206.md) |
+| 2026-11-16 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
 | 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
 | 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
