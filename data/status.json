@@ -1,28 +1,23 @@
 {
   "active_update_candidates": 72,
   "active_updates_with_older_publication": 46,
-  "api_remaining_quota": 6,
-  "api_requests": 4,
+  "api_remaining_quota": 7,
+  "api_requests": 3,
   "archive_start_inclusive": "2026-09-17",
   "attempted_versions": 72,
   "candidate_reports": 72,
   "catalog_reports": 23623,
   "deferred_official_format_ids": [],
   "errors": [],
-  "finished_at": "2026-11-15T17:17:22.149999+00:00",
+  "finished_at": "2026-11-16T02:15:21.477049+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "43740022015",
-  "historical_new_pdf_versions": 2,
-  "historical_pending_versions": 227,
-  "last_successful_run_at": "2026-11-15T17:17:22.149999+00:00",
+  "github_run_id": "43790904432",
+  "historical_new_pdf_versions": 1,
+  "historical_pending_versions": 225,
+  "last_successful_run_at": "2026-11-16T02:15:21.477049+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 4,
-  "new_pdf_versions": 2,
-  "official_current_pending": 0,
-  "official_current_required": 72,
-  "official_current_verified": 72,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-11-15T17:22:33.350907+00:00",
+  "new_pdf_versions": 1,
   "pending_reports": 0,
   "pending_versions": 2,
   "planned_versions": 73,
@@ -31,13 +26,13 @@
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 0,
   "result": "success_with_warnings",
-  "run_at": "2026-11-15T17:16:42.590152+00:00",
+  "run_at": "2026-11-16T02:14:45.349543+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
       "ok": true,
-      "reported_count": 81,
-      "reports": 81,
+      "reported_count": 76,
+      "reports": 76,
       "scope": "update-date window"
     },
     "everycrsreport": {
@@ -62,10 +57,9 @@
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     }
   ],
-  "total_archived_pdf_versions": 901,
-  "total_html_original_versions": 0,
-  "total_html_snapshots": 651,
-  "total_pdf_bytes": 746222780,
+  "total_archived_pdf_versions": 902,
+  "total_html_snapshots": 652,
+  "total_pdf_bytes": 747848121,
   "warnings": [
     {
       "api_version": 15,
@@ -456,24 +450,17 @@
       ]
     },
     {
-      "id": "R45209",
+      "id": "R45235",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "R45229",
-      "messages": [
-        "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
-      ],
-      "scope": "optional historical backfill"
-    },
-    {
-      "historical_backfill_remaining": 227,
+      "historical_backfill_remaining": 225,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
-  "window_end_inclusive": "2026-11-15",
-  "window_start_inclusive": "2026-11-08"
+  "window_end_inclusive": "2026-11-16",
+  "window_start_inclusive": "2026-11-09"
 }
