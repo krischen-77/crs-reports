@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-16",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-18",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-16",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-18",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -9227,6 +9231,238 @@
         "source_record": "576149",
         "title": "Presidential Appointments to Full-Time Positions on Regulatory and Other Collegial Boards and Commissions, 114th Congress",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "13",
+        "date": "2026-01-13",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10113",
+            "sha1": "24b251cb5adf5d48ee258a848a748807b1d3ea01",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10113.web.html",
+              "https://www.everycrsreport.com/files/2026-01-13_IF10113_24b251cb5adf5d48ee258a848a748807b1d3ea01.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10113",
+            "sha1": "ff72e588069661efcfecae931be3bc86bba83c8d",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10113/IF10113.14.pdf",
+              "https://www.everycrsreport.com/files/2026-01-13_IF10113_ff72e588069661efcfecae931be3bc86bba83c8d.pdf"
+            ]
+          }
+        },
+        "id": "IF10113",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-16T14:53:32Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10113_A14_2026-01-13",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-13",
+          "id": "IF10113",
+          "official_pdf_sha256": "a68f92efe98a43be1aceafd2dfe937ec5548ced8a271aac5c5eeb01b0d971fba",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10113/IF10113.15.pdf",
+          "official_publication": "2026-11-16",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Child Support Enforcement (CSE) Program",
+        "version": "14"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "11",
+        "date": "2024-09-26",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10782",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-09-26_IF10782_899c2c4ee92fb33141972ba42ae34bf2c64ffac1.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10782",
+            "sha1": "899c2c4ee92fb33141972ba42ae34bf2c64ffac1",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF10782/11",
+              "https://www.everycrsreport.com/files/2024-09-26_IF10782_899c2c4ee92fb33141972ba42ae34bf2c64ffac1.pdf"
+            ]
+          }
+        },
+        "id": "IF10782",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-16T14:53:39Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10782_11_2024-09-26",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-09-26",
+          "id": "IF10782",
+          "official_pdf_sha256": "8f077a9323c947f5e5e6c2c4f685cc9e91ba476f53373eababda8f7cf9570d91",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10782/IF10782.12.pdf",
+          "official_publication": "2026-11-16",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Provisions in P.L. 115-97, Tax Cuts and Jobs Act",
+        "version": "11"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "3",
+        "date": "2018-11-26",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11028",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2018-11-26_IF11028_553f67381203793e99c73ebfd3758cedf9f8c455.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11028",
+            "sha1": "553f67381203793e99c73ebfd3758cedf9f8c455",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF11028/2",
+              "https://www.everycrsreport.com/files/2018-11-26_IF11028_553f67381203793e99c73ebfd3758cedf9f8c455.pdf"
+            ]
+          }
+        },
+        "id": "IF11028",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-16T14:53:35Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11028_2_2018-11-26",
+        "superseded_by_official_current": {
+          "historical_publication": "2018-11-26",
+          "id": "IF11028",
+          "official_pdf_sha256": "6cc730f261a431f08a8d9036b1a73c506663042f19383112cf1640f78f554dc7",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11028/IF11028.4.pdf",
+          "official_publication": "2026-11-16",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change",
+        "version": "2"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2025-01-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12869",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2025-01-08_IF12869_380ce9488dbae41925dfb675a6df846cedb51f62.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12869",
+            "sha1": "380ce9488dbae41925dfb675a6df846cedb51f62",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12869/1",
+              "https://www.everycrsreport.com/files/2025-01-08_IF12869_380ce9488dbae41925dfb675a6df846cedb51f62.pdf"
+            ]
+          }
+        },
+        "id": "IF12869",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-16T14:53:42Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12869_1_2025-01-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-01-08",
+          "id": "IF12869",
+          "official_pdf_sha256": "cac42f1e77b7210121f146ca690b3bb3364d51113ff3f17f600d8aea87b31ea6",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12869/IF12869.2.pdf",
+          "official_publication": "2026-11-16",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Defense Innovation Ecosystem",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-07-15",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12962",
+            "sha1": "ec7fdbb70de570ba13b0a2a46b2412231e00878c",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12962.web.html",
+              "https://www.everycrsreport.com/files/2026-07-15_IF12962_ec7fdbb70de570ba13b0a2a46b2412231e00878c.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12962",
+            "sha1": "bb00df851f02252c55c58d1111e0cb02495f8475",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12962/IF12962.4.pdf",
+              "https://www.everycrsreport.com/files/2026-07-15_IF12962_bb00df851f02252c55c58d1111e0cb02495f8475.pdf"
+            ]
+          }
+        },
+        "id": "IF12962",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-16T14:53:42Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12962_A4_2026-07-15",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-07-15",
+          "id": "IF12962",
+          "official_pdf_sha256": "ed624a510dff2270e2622563e348d19f16c4c4b81b8ff83f74c4f2bf59b83210",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12962/IF12962.5.pdf",
+          "official_publication": "2026-11-16",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "DNA Methylation: Applications to Living Marine Resource Management",
+        "version": "4"
       }
     }
   ],
