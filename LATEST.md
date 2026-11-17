@@ -1,8 +1,6 @@
-**Official-current verification: 85/85. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-09 to 2026-11-16**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-10 to 2026-11-17**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -13,10 +11,12 @@ Publication-date window (inclusive): **2026-11-09 to 2026-11-16**. Older archive
 | 2026-11-16 | IF13295 v6 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.pdf) | [Markdown](markdown/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.md) |
 | 2026-11-16 | IF13269 v5 | Artificial Intelligence and Biosecurity Issues | [PDF](pdf/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.pdf) | [Markdown](markdown/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.md) |
 | 2026-11-16 | IF12962 v5 | DNA Methylation: Applications to Living Marine Resource Management | [PDF](pdf/in-focus/IF12962v5-2026-11-16-ed624a510dff2270.pdf) | [Markdown](markdown/in-focus/IF12962v5-2026-11-16-ed624a510dff2270.md) |
+| 2026-11-16 | IF12899 v2 | Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence | [PDF](pdf/in-focus/IF12899v2-2026-11-16-78fba3fce758bf0f.pdf) | [Markdown](markdown/in-focus/IF12899v2-2026-11-16-78fba3fce758bf0f.md) |
 | 2026-11-16 | IF12869 v2 | The Defense Innovation Ecosystem | [PDF](pdf/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.pdf) | [Markdown](markdown/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.md) |
 | 2026-11-16 | IF12148 v8 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.pdf) | [Markdown](markdown/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.md) |
 | 2026-11-16 | IF11028 v4 | Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change | [PDF](pdf/in-focus/IF11028v4-2026-11-16-6cc730f261a431f0.pdf) | [Markdown](markdown/in-focus/IF11028v4-2026-11-16-6cc730f261a431f0.md) |
 | 2026-11-16 | IF10782 v12 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.pdf) | [Markdown](markdown/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.md) |
+| 2026-11-16 | IF10149 v27 | African Growth and Opportunity Act (AGOA) | [PDF](pdf/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.pdf) | [Markdown](markdown/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.md) |
 | 2026-11-16 | IF10113 v15 | The Child Support Enforcement (CSE) Program | [PDF](pdf/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.pdf) | [Markdown](markdown/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.md) |
 | 2026-11-13 | R49516 v1 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v1-2026-11-13-3be64129d62efd48.pdf) | [Markdown](markdown/reports/R49516v1-2026-11-13-3be64129d62efd48.md) |
 | 2026-11-13 | R49516 v2 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v2-2026-11-13-582ec08d22ea1358.pdf) | [Markdown](markdown/reports/R49516v2-2026-11-13-582ec08d22ea1358.md) |
@@ -47,21 +47,6 @@ Publication-date window (inclusive): **2026-11-09 to 2026-11-16**. Older archive
 | 2026-11-10 | R43743 v32 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v32-2026-11-10-826a49a9ed776cdb.pdf) | [Markdown](markdown/reports/R43743v32-2026-11-10-826a49a9ed776cdb.md) |
 | 2026-11-10 | IN12550 v4 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v4-2026-11-10-a695b70126b320d2.pdf) | [Markdown](markdown/insights/IN12550v4-2026-11-10-a695b70126b320d2.md) |
 | 2026-11-10 | IN12550 v5 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.pdf) | [Markdown](markdown/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.md) |
-| 2026-11-09 | R49513 v2 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v2-2026-11-09-6ac8e8240585414f.pdf) | [Markdown](markdown/reports/R49513v2-2026-11-09-6ac8e8240585414f.md) |
-| 2026-11-09 | R49513 v1 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v1-2026-11-09-73fbad1f1910b276.pdf) | [Markdown](markdown/reports/R49513v1-2026-11-09-73fbad1f1910b276.md) |
-| 2026-11-09 | R49512 v1 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v1-2026-11-09-52f7a3f708591afc.pdf) | [Markdown](markdown/reports/R49512v1-2026-11-09-52f7a3f708591afc.md) |
-| 2026-11-09 | R49512 v3 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v3-2026-11-09-7f82da5ad19244b3.pdf) | [Markdown](markdown/reports/R49512v3-2026-11-09-7f82da5ad19244b3.md) |
-| 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
-| 2026-11-09 | R48248 v3 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v3-2026-11-09-bbd757350e99d09c.pdf) | [Markdown](markdown/reports/R48248v3-2026-11-09-bbd757350e99d09c.md) |
-| 2026-11-09 | R44759 v25 | Lebanon: Background and U.S. Relations | [PDF](pdf/reports/R44759v25-2026-11-09-4c07856214aeed82.pdf) | [Markdown](markdown/reports/R44759v25-2026-11-09-4c07856214aeed82.md) |
-| 2026-11-09 | R44759 v24 | Lebanon: Background and U.S. Relations | [PDF](pdf/reports/R44759v24-2026-11-09-5bce8af5ebb0ff61.pdf) | [Markdown](markdown/reports/R44759v24-2026-11-09-5bce8af5ebb0ff61.md) |
-| 2026-11-09 | R44247 v13 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v13-2026-11-09-169168c9fb2137ed.pdf) | [Markdown](markdown/reports/R44247v13-2026-11-09-169168c9fb2137ed.md) |
-| 2026-11-09 | R44247 v12 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v12-2026-11-09-acc06da9e2ef035b.pdf) | [Markdown](markdown/reports/R44247v12-2026-11-09-acc06da9e2ef035b.md) |
-| 2026-11-09 | IN12746 v2 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v2-2026-11-09-c555793512fef262.pdf) | [Markdown](markdown/insights/IN12746v2-2026-11-09-c555793512fef262.md) |
-| 2026-11-09 | IF13345 v1 | Federal Sexual Assault Offenses | [PDF](pdf/in-focus/IF13345v1-2026-11-09-fb51cfebade8222c.pdf) | [Markdown](markdown/in-focus/IF13345v1-2026-11-09-fb51cfebade8222c.md) |
-| 2026-11-09 | IF12680 v3 | The Board of Veterans’ Appeals: A Brief Introduction | [PDF](pdf/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.pdf) | [Markdown](markdown/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.md) |
-| 2026-11-09 | IF10753 v9 | ENERGY STAR Program | [PDF](pdf/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.pdf) | [Markdown](markdown/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.md) |
-| 2026-11-09 | IF10266 v18 | Child Nutrition Reauthorization (CNR): An Overview | [PDF](pdf/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.pdf) | [Markdown](markdown/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -70,6 +55,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
 | 2026-11-16 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
+| 2026-11-16 | 2026-11-09 | R48248 v3 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v3-2026-11-09-bbd757350e99d09c.pdf) | [Markdown](markdown/reports/R48248v3-2026-11-09-bbd757350e99d09c.md) |
+| 2026-11-16 | 2026-10-08 | IF13034 v7 | Offshore Wind: Status and Issues for the 119th Congress | [PDF](pdf/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.pdf) | [Markdown](markdown/in-focus/IF13034v7-2026-10-08-fc5804b7dbedef2c.md) |
 | 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
 | 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
 | 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
@@ -80,6 +67,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-11 | 2023-05-08 | RL33931 v40 | The Corporation for National and Community Service: Overview of Programs and Funding | [PDF](pdf/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.pdf) | [Markdown](markdown/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.md) |
 | 2026-11-11 | 2023-05-25 | RL31693 v16 | U.S. Armed Forces Abroad: Selected Congressional Votes Since 1982 | [PDF](pdf/reports/RL31693v16-2023-05-25-c50650168ffba615.pdf) | [Markdown](markdown/reports/RL31693v16-2023-05-25-c50650168ffba615.md) |
 | 2026-11-11 | 2018-02-20 | RL31618 v42 | Campus-Based Student Financial Aid Programs Under the Higher Education Act | [PDF](pdf/reports/RL31618v42-2018-02-20-c18595247678fc81.pdf) | [Markdown](markdown/reports/RL31618v42-2018-02-20-c18595247678fc81.md) |
+| 2026-11-11 | 2026-11-09 | R49513 v2 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v2-2026-11-09-6ac8e8240585414f.pdf) | [Markdown](markdown/reports/R49513v2-2026-11-09-6ac8e8240585414f.md) |
+| 2026-11-11 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-11 | 2026-11-06 | R49510 v9 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v9-2026-11-06-59f0acc9e9f02869.pdf) | [Markdown](markdown/reports/R49510v9-2026-11-06-59f0acc9e9f02869.md) |
 | 2026-11-11 | 2026-05-27 | R48958 v3 | National Foundation on the Arts and Humanities: FY2026 Appropriations | [PDF](pdf/reports/R48958v3-2026-05-27-541256602215af2d.pdf) | [Markdown](markdown/reports/R48958v3-2026-05-27-541256602215af2d.md) |
 | 2026-11-11 | 2023-11-06 | R47830 v3 | Education for Homeless Children and Youths: Data and Issues | [PDF](pdf/reports/R47830v3-2023-11-06-4077b807c38c9052.pdf) | [Markdown](markdown/reports/R47830v3-2023-11-06-4077b807c38c9052.md) |
@@ -93,12 +82,15 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-11 | 2024-09-20 | R45325 v10 | Military Survivor Benefit Plan: Background and Issues for Congress | [PDF](pdf/reports/R45325v10-2024-09-20-6701d4d74097b82d.pdf) | [Markdown](markdown/reports/R45325v10-2024-09-20-6701d4d74097b82d.md) |
 | 2026-11-11 | 2020-07-28 | R44959 v9 | Confederate Symbols: Relation to Federal Lands and Programs | [PDF](pdf/reports/R44959v9-2020-07-28-e3477c253f9e299e.pdf) | [Markdown](markdown/reports/R44959v9-2020-07-28-e3477c253f9e299e.md) |
 | 2026-11-11 | 2021-02-22 | R44906 v5 | The Rural Education Achievement Program: Title V-B of the Elementary and Secondary Education Act | [PDF](pdf/reports/R44906v5-2021-02-22-69f197f9fe32075e.pdf) | [Markdown](markdown/reports/R44906v5-2021-02-22-69f197f9fe32075e.md) |
+| 2026-11-11 | 2026-11-09 | R44759 v25 | Lebanon: Background and U.S. Relations | [PDF](pdf/reports/R44759v25-2026-11-09-4c07856214aeed82.pdf) | [Markdown](markdown/reports/R44759v25-2026-11-09-4c07856214aeed82.md) |
 | 2026-11-11 | 2018-03-14 | R44700 v7 | The Every Student Succeeds Act: Accountability for Schools with Low Graduation Rates | [PDF](pdf/reports/R44700v7-2018-03-14-cb6397186d8f2927.pdf) | [Markdown](markdown/reports/R44700v7-2018-03-14-cb6397186d8f2927.md) |
+| 2026-11-11 | 2026-11-09 | R44247 v13 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v13-2026-11-09-169168c9fb2137ed.pdf) | [Markdown](markdown/reports/R44247v13-2026-11-09-169168c9fb2137ed.md) |
 | 2026-11-11 | 2019-05-16 | R43168 v7 | Military Sexual Assault: Chronology of Activity in the 113th-114th Congresses and Related Resources | [PDF](pdf/reports/R43168v7-2019-05-16-1246e40016c5072e.pdf) | [Markdown](markdown/reports/R43168v7-2019-05-16-1246e40016c5072e.md) |
 | 2026-11-11 | 2023-06-07 | R42738 v42 | Instances of Use of United States Armed Forces Abroad, 1798-2023 | [PDF](pdf/reports/R42738v42-2023-06-07-0a95de5b4beae219.pdf) | [Markdown](markdown/reports/R42738v42-2023-06-07-0a95de5b4beae219.md) |
 | 2026-11-11 | 2025-01-06 | R42724 v18 | The TRIO Programs: A Primer | [PDF](pdf/reports/R42724v18-2025-01-06-dca1356c82c4d312.pdf) | [Markdown](markdown/reports/R42724v18-2025-01-06-dca1356c82c4d312.md) |
 | 2026-11-11 | 2024-10-02 | R42704 v26 | The Purple Heart: Background and Issues for Congress | [PDF](pdf/reports/R42704v26-2024-10-02-740fa4834e0db787.pdf) | [Markdown](markdown/reports/R42704v26-2024-10-02-740fa4834e0db787.md) |
 | 2026-11-11 | 2025-03-24 | IN11563 v7 | Planning and Paying for College: Federal Government Resources | [PDF](pdf/insights/IN11563v7-2025-03-24-88e41b65cd72516c.pdf) | [Markdown](markdown/insights/IN11563v7-2025-03-24-88e41b65cd72516c.md) |
+| 2026-11-11 | 2026-11-09 | IF13345 v1 | Federal Sexual Assault Offenses | [PDF](pdf/in-focus/IF13345v1-2026-11-09-fb51cfebade8222c.pdf) | [Markdown](markdown/in-focus/IF13345v1-2026-11-09-fb51cfebade8222c.md) |
 | 2026-11-11 | 2025-03-12 | IF12941 v2 | The History and Status of the Office of Federal Contract Compliance Programs (OFCCP) | [PDF](pdf/in-focus/IF12941v2-2025-03-12-419fe12317f1c001.pdf) | [Markdown](markdown/in-focus/IF12941v2-2025-03-12-419fe12317f1c001.md) |
 | 2026-11-11 | 2026-04-08 | IF12561 v3 | Connecting Constituents with Federal Assistance for the Arts and Humanities | [PDF](pdf/in-focus/IF12561v3-2026-04-08-0236818f0e63b2e8.pdf) | [Markdown](markdown/in-focus/IF12561v3-2026-04-08-0236818f0e63b2e8.md) |
 | 2026-11-11 | 2022-06-08 | IF11587 v6 | Removal of Nazi Symbols and Inscriptions on Headstones of Prisoners of War in VA National Cemeteries | [PDF](pdf/in-focus/IF11587v6-2022-06-08-2b4c9236e70b0b3f.pdf) | [Markdown](markdown/in-focus/IF11587v6-2022-06-08-2b4c9236e70b0b3f.md) |
@@ -111,5 +103,9 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-10 | 2026-11-06 | R44868 v5 | Short-Term, Small-Dollar Lending: Policy Issues and Implications | [PDF](pdf/reports/R44868v5-2026-11-06-cf101aee082a4207.pdf) | [Markdown](markdown/reports/R44868v5-2026-11-06-cf101aee082a4207.md) |
 | 2026-11-10 | 2026-11-06 | LSB11498 v1 | Congressional Court Watcher: Circuit Splits from September 2026 | [PDF](pdf/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.pdf) | [Markdown](markdown/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.md) |
 | 2026-11-10 | 2026-11-06 | IN12755 v2 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.pdf) | [Markdown](markdown/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.md) |
+| 2026-11-10 | 2026-11-09 | IN12746 v2 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v2-2026-11-09-c555793512fef262.pdf) | [Markdown](markdown/insights/IN12746v2-2026-11-09-c555793512fef262.md) |
 | 2026-11-10 | 2026-11-06 | IF13344 v3 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.pdf) | [Markdown](markdown/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.md) |
 | 2026-11-10 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
+| 2026-11-10 | 2026-11-09 | IF12680 v3 | The Board of Veterans’ Appeals: A Brief Introduction | [PDF](pdf/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.pdf) | [Markdown](markdown/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.md) |
+| 2026-11-10 | 2026-11-09 | IF10753 v9 | ENERGY STAR Program | [PDF](pdf/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.pdf) | [Markdown](markdown/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.md) |
+| 2026-11-10 | 2026-11-09 | IF10266 v18 | Child Nutrition Reauthorization (CNR): An Overview | [PDF](pdf/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.pdf) | [Markdown](markdown/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.md) |

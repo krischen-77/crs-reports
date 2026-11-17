@@ -2,87 +2,9 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-11-16",
+      "last_attempt": "2026-11-17",
       "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-18",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "2",
-        "date": "2018-10-09",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45337",
-            "sha1": "524b1ebe14f25d9f7364f08d6f5f202ac0b76024",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181009_R45337_524b1ebe14f25d9f7364f08d6f5f202ac0b76024.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45337",
-            "sha1": "0bab545c2b55b87fdd1dfeb2c6bb65f0a0edfcbf",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181009_R45337_0bab545c2b55b87fdd1dfeb2c6bb65f0a0edfcbf.pdf"
-            ]
-          }
-        },
-        "id": "R45337",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45337",
-          "https://www.crs.gov/Reports/pdf/R45337"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "586225",
-        "title": "Social Media Adoption by Members of Congress: Trends and Congressional Considerations",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-16",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-18",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2018-10-09",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45339",
-            "sha1": "0f3467522eb2b74342b2cc6ed57ddfd2bf72a625",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181009_R45339_0f3467522eb2b74342b2cc6ed57ddfd2bf72a625.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45339",
-            "sha1": "38a1577108875655678b403baa4f8b44437174bb",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181009_R45339_38a1577108875655678b403baa4f8b44437174bb.pdf"
-            ]
-          }
-        },
-        "id": "R45339",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/R45339",
-          "http://www.crs.gov/Reports/pdf/R45339"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "586249",
-        "title": "Banking: Current Expected Credit Loss (CECL)",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "next_retry": "2026-11-19",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -115,44 +37,6 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "587503",
         "title": "Lame Duck Sessions of Congress Following a Majority-Changing Election: In Brief",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "5",
-        "date": "2018-12-11",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45433",
-            "sha1": "82cf0363ef48a10093b2616b932d9025c9cd70b2",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181211_R45433_82cf0363ef48a10093b2616b932d9025c9cd70b2.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45433",
-            "sha1": "d8e706e63fad851eb5a16950501d26253e4c40f6",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181211_R45433_d8e706e63fad851eb5a16950501d26253e4c40f6.pdf"
-            ]
-          }
-        },
-        "id": "R45433",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45433",
-          "https://www.crs.gov/Reports/pdf/R45433"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "596487",
-        "title": "USDA Domestic Food Assistance Programs: FY2018 Appropriations",
         "version": "unknown"
       }
     },
@@ -9390,6 +9274,99 @@
       }
     },
     {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "24",
+        "date": "2026-02-17",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10149",
+            "sha1": "55c37a0e358b416fbb0fcfed0a5bed240f26a40c",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10149.web.html",
+              "https://www.everycrsreport.com/files/2026-02-17_IF10149_55c37a0e358b416fbb0fcfed0a5bed240f26a40c.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10149",
+            "sha1": "5fb68f0021cfcdd170223d1fdf6ad6b92c9ffd8c",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10149/IF10149.25.pdf",
+              "https://www.everycrsreport.com/files/2026-02-17_IF10149_5fb68f0021cfcdd170223d1fdf6ad6b92c9ffd8c.pdf"
+            ]
+          }
+        },
+        "id": "IF10149",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-16T22:54:54Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10149_A25_2026-02-17",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-02-17",
+          "id": "IF10149",
+          "official_pdf_sha256": "8a27e5dc88a2baf6c3d36cac95a79e5d779191a4fc0f6aa796af0a9439210453",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10149/IF10149.27.pdf",
+          "official_publication": "2026-11-16",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "African Growth and Opportunity Act (AGOA)",
+        "version": "25"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2025-02-05",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12899",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2025-02-05_IF12899_3351bcbbdd5a5b7b5cf364fd2a7d3655ebe0437b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12899",
+            "sha1": "3351bcbbdd5a5b7b5cf364fd2a7d3655ebe0437b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12899/1",
+              "https://www.everycrsreport.com/files/2025-02-05_IF12899_3351bcbbdd5a5b7b5cf364fd2a7d3655ebe0437b.pdf"
+            ]
+          }
+        },
+        "id": "IF12899",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-16T22:54:46Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12899_1_2025-02-05",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-02-05",
+          "id": "IF12899",
+          "official_pdf_sha256": "78fba3fce758bf0f7b5866cfcb6841a5bf369446cc3c379248755c9ae68168d8",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12899/IF12899.2.pdf",
+          "official_publication": "2026-11-16",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence",
+        "version": "1"
+      }
+    },
+    {
       "attempts": 1,
       "last_attempt": "2026-11-16",
       "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
@@ -9466,6 +9443,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "585594",
         "title": "Exchange-Traded Funds (ETFs): Issues for Congress",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-16",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-18",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "2",
+        "date": "2018-10-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45337",
+            "sha1": "524b1ebe14f25d9f7364f08d6f5f202ac0b76024",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181009_R45337_524b1ebe14f25d9f7364f08d6f5f202ac0b76024.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45337",
+            "sha1": "0bab545c2b55b87fdd1dfeb2c6bb65f0a0edfcbf",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181009_R45337_0bab545c2b55b87fdd1dfeb2c6bb65f0a0edfcbf.pdf"
+            ]
+          }
+        },
+        "id": "R45337",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45337",
+          "https://www.crs.gov/Reports/pdf/R45337"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "586225",
+        "title": "Social Media Adoption by Members of Congress: Trends and Congressional Considerations",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-16",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-18",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "3",
+        "date": "2018-10-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45339",
+            "sha1": "0f3467522eb2b74342b2cc6ed57ddfd2bf72a625",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181009_R45339_0f3467522eb2b74342b2cc6ed57ddfd2bf72a625.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45339",
+            "sha1": "38a1577108875655678b403baa4f8b44437174bb",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181009_R45339_38a1577108875655678b403baa4f8b44437174bb.pdf"
+            ]
+          }
+        },
+        "id": "R45339",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/R45339",
+          "http://www.crs.gov/Reports/pdf/R45339"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "586249",
+        "title": "Banking: Current Expected Credit Loss (CECL)",
         "version": "unknown"
       }
     }
