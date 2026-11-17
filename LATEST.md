@@ -1,11 +1,14 @@
-**Official-current verification: 90/90. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-10 to 2026-11-17**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-17 | R48854 v4 | Poverty in the United States in 2025 | [PDF](pdf/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.pdf) | [Markdown](markdown/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.md) |
+| 2026-11-17 | LSB10922 v11 | Generative Artificial Intelligence and Copyright Law | [PDF](pdf/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.pdf) | [Markdown](markdown/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.md) |
+| 2026-11-17 | IF13352 v1 | Farm Bill Primer: Selected Title I and Title XII Dairy Provisions | [PDF](pdf/in-focus/IF13352v1-2026-11-17-5141200570025655.pdf) | [Markdown](markdown/in-focus/IF13352v1-2026-11-17-5141200570025655.md) |
+| 2026-11-17 | IF12024 v8 | Farm Bill Primer: Conservation Title | [PDF](pdf/in-focus/IF12024v8-2026-11-17-c720121f827a2229.pdf) | [Markdown](markdown/in-focus/IF12024v8-2026-11-17-c720121f827a2229.md) |
+| 2026-11-16 | R49518 v2 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v2-2026-11-16-ea646f3de38fb994.pdf) | [Markdown](markdown/reports/R49518v2-2026-11-16-ea646f3de38fb994.md) |
 | 2026-11-16 | R49517 v3 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.pdf) | [Markdown](markdown/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.md) |
 | 2026-11-16 | R49517 v1 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.pdf) | [Markdown](markdown/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.md) |
 | 2026-11-16 | R44279 v19 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v19-2026-11-16-e2685c046911266b.pdf) | [Markdown](markdown/reports/R44279v19-2026-11-16-e2685c046911266b.md) |
@@ -62,7 +65,13 @@ API update dates can describe metadata or file changes. These current PDF files 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
+| 2026-11-17 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
+| 2026-11-17 | 2026-11-09 | R44247 v13 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v13-2026-11-09-169168c9fb2137ed.pdf) | [Markdown](markdown/reports/R44247v13-2026-11-09-169168c9fb2137ed.md) |
+| 2026-11-17 | 2026-08-03 | IN11982 v25 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v25-2026-08-03-7c978a75ad77c19f.pdf) | [Markdown](markdown/insights/IN11982v25-2026-08-03-7c978a75ad77c19f.md) |
+| 2026-11-17 | 2025-04-16 | IF12968 v1 | Competition and Antitrust Concerns Related to Generative AI | [PDF](pdf/in-focus/IF12968v1-2025-04-16-aeb9453d6a5eedc9.pdf) | [Markdown](markdown/in-focus/IF12968v1-2025-04-16-aeb9453d6a5eedc9.md) |
+| 2026-11-17 | 2026-05-08 | IF12835 v15 | The Rice’s Whale: Conservation Efforts, Implications for Ocean Sectors, and Considerations for Congress | [PDF](pdf/in-focus/IF12835v15-2026-05-08-581178bc8a540c7f.pdf) | [Markdown](markdown/in-focus/IF12835v15-2026-05-08-581178bc8a540c7f.md) |
+| 2026-11-17 | 2024-12-04 | IF12589 v3 | Research Security Policies: An Overview | [PDF](pdf/in-focus/IF12589v3-2024-12-04-666fdb00d509bcf5.pdf) | [Markdown](markdown/in-focus/IF12589v3-2024-12-04-666fdb00d509bcf5.md) |
 | 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
 | 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
 | 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
@@ -90,7 +99,6 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-11 | 2021-02-22 | R44906 v5 | The Rural Education Achievement Program: Title V-B of the Elementary and Secondary Education Act | [PDF](pdf/reports/R44906v5-2021-02-22-69f197f9fe32075e.pdf) | [Markdown](markdown/reports/R44906v5-2021-02-22-69f197f9fe32075e.md) |
 | 2026-11-11 | 2026-11-09 | R44759 v25 | Lebanon: Background and U.S. Relations | [PDF](pdf/reports/R44759v25-2026-11-09-4c07856214aeed82.pdf) | [Markdown](markdown/reports/R44759v25-2026-11-09-4c07856214aeed82.md) |
 | 2026-11-11 | 2018-03-14 | R44700 v7 | The Every Student Succeeds Act: Accountability for Schools with Low Graduation Rates | [PDF](pdf/reports/R44700v7-2018-03-14-cb6397186d8f2927.pdf) | [Markdown](markdown/reports/R44700v7-2018-03-14-cb6397186d8f2927.md) |
-| 2026-11-11 | 2026-11-09 | R44247 v13 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v13-2026-11-09-169168c9fb2137ed.pdf) | [Markdown](markdown/reports/R44247v13-2026-11-09-169168c9fb2137ed.md) |
 | 2026-11-11 | 2019-05-16 | R43168 v7 | Military Sexual Assault: Chronology of Activity in the 113th-114th Congresses and Related Resources | [PDF](pdf/reports/R43168v7-2019-05-16-1246e40016c5072e.pdf) | [Markdown](markdown/reports/R43168v7-2019-05-16-1246e40016c5072e.md) |
 | 2026-11-11 | 2023-06-07 | R42738 v42 | Instances of Use of United States Armed Forces Abroad, 1798-2023 | [PDF](pdf/reports/R42738v42-2023-06-07-0a95de5b4beae219.pdf) | [Markdown](markdown/reports/R42738v42-2023-06-07-0a95de5b4beae219.md) |
 | 2026-11-11 | 2025-01-06 | R42724 v18 | The TRIO Programs: A Primer | [PDF](pdf/reports/R42724v18-2025-01-06-dca1356c82c4d312.pdf) | [Markdown](markdown/reports/R42724v18-2025-01-06-dca1356c82c4d312.md) |

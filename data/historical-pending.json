@@ -3,46 +3,8 @@
     {
       "attempts": 1,
       "last_attempt": "2026-11-17",
-      "last_error": "www.congress.gov: www.congress.gov: network failure after four attempts",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
       "next_retry": "2026-11-19",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "2",
-        "date": "2019-03-04",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45552",
-            "sha1": "f7633b4c9e823351de60b08687ee970e2d799d35",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190304_R45552_f7633b4c9e823351de60b08687ee970e2d799d35.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45552",
-            "sha1": "e8e5140bc6a8f00882d9ae7d1893062c92544fb4",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190304_R45552_e8e5140bc6a8f00882d9ae7d1893062c92544fb4.pdf"
-            ]
-          }
-        },
-        "id": "R45552",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45552",
-          "https://www.crs.gov/Reports/pdf/R45552"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "592762",
-        "title": "Changes to House Rules Affecting the Congressional Budget Process Included in H.Res. 6 (116th Congress)",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -79,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-17",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-19",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -9173,6 +9137,53 @@
       "next_retry": "2026-11-18",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
       "task": {
+        "api_version": "5",
+        "date": "2026-04-13",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12024",
+            "sha1": "80aa5f36ad8f82e32b52f6323d129f48cd27ce63",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12024.web.html",
+              "https://www.everycrsreport.com/files/2026-04-13_IF12024_80aa5f36ad8f82e32b52f6323d129f48cd27ce63.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12024",
+            "sha1": "799e071064c3021000362d6280f77b82608c8286",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12024/IF12024.6.pdf",
+              "https://www.everycrsreport.com/files/2026-04-13_IF12024_799e071064c3021000362d6280f77b82608c8286.pdf"
+            ]
+          }
+        },
+        "id": "IF12024",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T14:10:44Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12024_A6_2026-04-13",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-04-13",
+          "id": "IF12024",
+          "official_pdf_sha256": "c720121f827a2229619c33a7836a570f7d35edfe94f07c9c470f53d86b803c17",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12024/IF12024.8.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Farm Bill Primer: Conservation Title",
+        "version": "6"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
         "api_version": "1",
         "date": "2025-02-05",
         "formats": {
@@ -9212,6 +9223,100 @@
         },
         "title": "Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence",
         "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "6",
+        "date": "2025-07-18",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "LSB10922",
+            "sha1": "ef98ccd99aac640afc65e9d68489b34258cfa14d",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/LSB/HTML/LSB10922.web.html",
+              "https://www.everycrsreport.com/files/2025-07-18_LSB10922_ef98ccd99aac640afc65e9d68489b34258cfa14d.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "LSB10922",
+            "sha1": "ddc94a1a9f291258f1153929276a3ceb610ecd7a",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/LSB/PDF/LSB10922/LSB10922.10.pdf",
+              "https://www.everycrsreport.com/files/2025-07-18_LSB10922_ddc94a1a9f291258f1153929276a3ceb610ecd7a.pdf"
+            ]
+          }
+        },
+        "id": "LSB10922",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T14:10:21Z",
+        "required_by_recent_update": false,
+        "source_record": "LSB10922_A10_2025-07-18",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-07-18",
+          "id": "LSB10922",
+          "official_pdf_sha256": "fdf3974e6b2b9c4c3b9c70bbdda949a1108a857eedf646aadefdd3ed922cda21",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB10922/LSB10922.11.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Generative Artificial Intelligence and Copyright Law",
+        "version": "10"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-02-11",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48854",
+            "sha1": "896a6f6036c325ec738fa4f60558824560876d9e",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48854.web.html",
+              "https://www.everycrsreport.com/files/2026-02-11_R48854_896a6f6036c325ec738fa4f60558824560876d9e.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48854",
+            "sha1": "d5b09997495459296d059bd0ae1e97736353c7d8",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48854/R48854.3.pdf",
+              "https://www.everycrsreport.com/files/2026-02-11_R48854_d5b09997495459296d059bd0ae1e97736353c7d8.pdf"
+            ]
+          }
+        },
+        "id": "R48854",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T14:10:46Z",
+        "required_by_recent_update": false,
+        "source_record": "R48854_A3_2026-02-11",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-02-11",
+          "id": "R48854",
+          "official_pdf_sha256": "a3dbed4c927af1f211a96aae0cd23169fb0b2e9013b9d4c272249b312fabe52c",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48854/R48854.4.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Poverty in the United States in 2024",
+        "version": "3"
       }
     },
     {
@@ -9491,6 +9596,46 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "592463",
         "title": "Suspension of the Rules: House Practice in the 114th Congress (2015-2016)",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-17",
+      "last_error": "www.congress.gov: www.congress.gov: network failure after four attempts",
+      "next_retry": "2026-11-19",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "2",
+        "date": "2019-03-04",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45552",
+            "sha1": "f7633b4c9e823351de60b08687ee970e2d799d35",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190304_R45552_f7633b4c9e823351de60b08687ee970e2d799d35.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45552",
+            "sha1": "e8e5140bc6a8f00882d9ae7d1893062c92544fb4",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190304_R45552_e8e5140bc6a8f00882d9ae7d1893062c92544fb4.pdf"
+            ]
+          }
+        },
+        "id": "R45552",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45552",
+          "https://www.crs.gov/Reports/pdf/R45552"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "592762",
+        "title": "Changes to House Rules Affecting the Congressional Budget Process Included in H.Res. 6 (116th Congress)",
         "version": "unknown"
       }
     }
