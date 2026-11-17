@@ -7,84 +7,6 @@
       "next_retry": "2026-11-19",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "2",
-        "date": "2019-04-17",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45693",
-            "sha1": "c6b820621b4b6e1f387c51928097895d6eb14973",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190417_R45693_c6b820621b4b6e1f387c51928097895d6eb14973.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45693",
-            "sha1": "01142998298c9e6feec6aba5c48b6ff238a58886",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190417_R45693_01142998298c9e6feec6aba5c48b6ff238a58886.pdf"
-            ]
-          }
-        },
-        "id": "R45693",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45693",
-          "https://www.crs.gov/Reports/pdf/R45693"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "596602",
-        "title": "Tax Equity Financing: An Introduction and Policy Considerations",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-17",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-19",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "4",
-        "date": "2020-04-15",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45724",
-            "sha1": "6511b15ed3fcd10d2d5069f99e340238524ef17b",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200415_R45724_6511b15ed3fcd10d2d5069f99e340238524ef17b.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45724",
-            "sha1": "e091224e0ffacf515cb4de4c5db79c7936013e77",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200415_R45724_e091224e0ffacf515cb4de4c5db79c7936013e77.pdf"
-            ]
-          }
-        },
-        "id": "R45724",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45724",
-          "https://www.crs.gov/Reports/pdf/R45724"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "622361",
-        "title": "House Select Committee on the Modernization of Congress: Structure and Procedures",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "3",
         "date": "2019-05-21",
         "formats": {
@@ -119,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-17",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-19",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -9137,6 +9061,99 @@
       "next_retry": "2026-11-18",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
       "task": {
+        "api_version": "6",
+        "date": "2022-08-10",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10719",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2022-08-10_IF10719_52d60a6bc7e738c4ca79ab1d5f144a353a26c23a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10719",
+            "sha1": "52d60a6bc7e738c4ca79ab1d5f144a353a26c23a",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF10719/5",
+              "https://www.everycrsreport.com/files/2022-08-10_IF10719_52d60a6bc7e738c4ca79ab1d5f144a353a26c23a.pdf"
+            ]
+          }
+        },
+        "id": "IF10719",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T17:25:59Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10719_5_2022-08-10",
+        "superseded_by_official_current": {
+          "historical_publication": "2022-08-10",
+          "id": "IF10719",
+          "official_pdf_sha256": "a75c222e161033003eff4ce9b6080b032682b7a1e023d6dccaed854511ba6ff1",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10719/IF10719.7.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Forecasting Tropical Cyclones: NOAA’s Role",
+        "version": "5"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "18",
+        "date": "2026-06-25",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11643",
+            "sha1": "f42f123e3663b5d6aef757a78d6406c1af3dc8be",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF11643.web.html",
+              "https://www.everycrsreport.com/files/2026-06-25_IF11643_f42f123e3663b5d6aef757a78d6406c1af3dc8be.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11643",
+            "sha1": "77a7769501c048e5b4c9174a1a5d583b9a725dcc",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF11643/IF11643.22.pdf",
+              "https://www.everycrsreport.com/files/2026-06-25_IF11643_77a7769501c048e5b4c9174a1a5d583b9a725dcc.pdf"
+            ]
+          }
+        },
+        "id": "IF11643",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T17:24:48Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11643_A22_2026-06-25",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-06-25",
+          "id": "IF11643",
+          "official_pdf_sha256": "a5ae81b472a23fc4aa46bf627da5b326e296ec0add3077936e38be38e42b8a6f",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11643/IF11643.24.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Artemis: NASA’s Program to Return Humans to the Moon",
+        "version": "22"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
         "api_version": "5",
         "date": "2026-04-13",
         "formats": {
@@ -9184,6 +9201,98 @@
       "next_retry": "2026-11-18",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
       "task": {
+        "api_version": "32",
+        "date": "2025-02-04",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12508",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2025-02-04_IF12508_dea124065335d7852598f54b1b209d4518b17025.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12508",
+            "sha1": "dea124065335d7852598f54b1b209d4518b17025",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12508/32",
+              "https://www.everycrsreport.com/files/2025-02-04_IF12508_dea124065335d7852598f54b1b209d4518b17025.pdf"
+            ]
+          }
+        },
+        "id": "IF12508",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T17:24:43Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12508_32_2025-02-04",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-02-04",
+          "id": "IF12508",
+          "official_pdf_sha256": "c6c48fbf8690e8da43f467458298f203672567e0b211d48eed158a37b7107965",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12508/IF12508.34.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Commercial Human Spaceflight Safety Regulations",
+        "version": "32"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "3",
+        "date": "2024-12-04",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12589",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-12-04_IF12589_d7b1a6e6db4f428bf9f21ca93028542330070b5e.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12589",
+            "sha1": "d7b1a6e6db4f428bf9f21ca93028542330070b5e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12589/3",
+              "https://www.everycrsreport.com/files/2024-12-04_IF12589_d7b1a6e6db4f428bf9f21ca93028542330070b5e.pdf"
+            ]
+          }
+        },
+        "id": "IF12589",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T17:24:42Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12589_3_2024-12-04",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-12-04",
+          "id": "IF12589",
+          "official_pdf_sha256": "63aae3e87ba0ec8aa9b2eb8a21d172103a185128060ed1b50531061e1ce964f8",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12589/IF12589.4.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Research Security Policies: An Overview",
+        "version": "3"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
         "api_version": "1",
         "date": "2025-02-05",
         "formats": {
@@ -9222,6 +9331,147 @@
           "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
         },
         "title": "Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2025-04-16",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12968",
+            "sha1": "1849f14933a537a8b6d40ab24c35889edb70b7dc",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12968.web.html",
+              "https://www.everycrsreport.com/files/2025-04-16_IF12968_1849f14933a537a8b6d40ab24c35889edb70b7dc.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12968",
+            "sha1": "6175c6458b1667bd3990da0762653aabe5bd0734",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12968/IF12968.1.pdf",
+              "https://www.everycrsreport.com/files/2025-04-16_IF12968_6175c6458b1667bd3990da0762653aabe5bd0734.pdf"
+            ]
+          }
+        },
+        "id": "IF12968",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T17:24:43Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12968_A1_2025-04-16",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-04-16",
+          "id": "IF12968",
+          "official_pdf_sha256": "db15224499f02f54b405c4211b11ad7ee1842246aa345c87a09667fee8a84af6",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12968/IF12968.2.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Competition and Antitrust Concerns Related to Generative AI",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-07-22",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13257",
+            "sha1": "76ee8fcbe93eb7a50170a6cab7313b25a72aff19",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13257.web.html",
+              "https://www.everycrsreport.com/files/2026-07-22_IF13257_76ee8fcbe93eb7a50170a6cab7313b25a72aff19.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13257",
+            "sha1": "cb05fefeb23e56e988da822037f19a2cce745a65",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13257/IF13257.2.pdf",
+              "https://www.everycrsreport.com/files/2026-07-22_IF13257_cb05fefeb23e56e988da822037f19a2cce745a65.pdf"
+            ]
+          }
+        },
+        "id": "IF13257",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T17:25:57Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13257_A2_2026-07-22",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-07-22",
+          "id": "IF13257",
+          "official_pdf_sha256": "deecfe38456e3e3c303294db8a6bf805053ff192d266fef7b04c8b3b6e2df8f9",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13257/IF13257.3.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Role of U.S. In Situ Ocean Observation Networks: A Case Study of the Atlantic Meridional Overturning Circulation",
+        "version": "2"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-18",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-08-05",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13282",
+            "sha1": "dde87fb9f780a719d7c4b800d52eb64cccc8cffd",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13282.web.html",
+              "https://www.everycrsreport.com/files/2026-08-05_IF13282_dde87fb9f780a719d7c4b800d52eb64cccc8cffd.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13282",
+            "sha1": "15da6ed564904e157bf56add7afff808bc18aa4b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13282/IF13282.1.pdf",
+              "https://www.everycrsreport.com/files/2026-08-05_IF13282_15da6ed564904e157bf56add7afff808bc18aa4b.pdf"
+            ]
+          }
+        },
+        "id": "IF13282",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-17T17:25:58Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13282_A1_2026-08-05",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-08-05",
+          "id": "IF13282",
+          "official_pdf_sha256": "2918f095ae6905504ee75b9c9db0392c4605acc166622d16fae5e835be4ecb1e",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13282/IF13282.2.pdf",
+          "official_publication": "2026-11-17",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Freight Rail Automation: Driverless Trains, Automated Inspections, and Other Technologies",
         "version": "1"
       }
     },
@@ -9636,6 +9886,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "592762",
         "title": "Changes to House Rules Affecting the Congressional Budget Process Included in H.Res. 6 (116th Congress)",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-17",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-19",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "2",
+        "date": "2019-04-17",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45693",
+            "sha1": "c6b820621b4b6e1f387c51928097895d6eb14973",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190417_R45693_c6b820621b4b6e1f387c51928097895d6eb14973.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45693",
+            "sha1": "01142998298c9e6feec6aba5c48b6ff238a58886",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190417_R45693_01142998298c9e6feec6aba5c48b6ff238a58886.pdf"
+            ]
+          }
+        },
+        "id": "R45693",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45693",
+          "https://www.crs.gov/Reports/pdf/R45693"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "596602",
+        "title": "Tax Equity Financing: An Introduction and Policy Considerations",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-17",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-19",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "4",
+        "date": "2020-04-15",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45724",
+            "sha1": "6511b15ed3fcd10d2d5069f99e340238524ef17b",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20200415_R45724_6511b15ed3fcd10d2d5069f99e340238524ef17b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45724",
+            "sha1": "e091224e0ffacf515cb4de4c5db79c7936013e77",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20200415_R45724_e091224e0ffacf515cb4de4c5db79c7936013e77.pdf"
+            ]
+          }
+        },
+        "id": "R45724",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45724",
+          "https://www.crs.gov/Reports/pdf/R45724"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "622361",
+        "title": "House Select Committee on the Modernization of Congress: Structure and Procedures",
         "version": "unknown"
       }
     }

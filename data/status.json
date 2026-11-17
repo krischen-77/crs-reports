@@ -1,45 +1,47 @@
 {
-  "active_update_candidates": 100,
+  "active_update_candidates": 108,
   "active_updates_with_older_publication": 62,
   "api_remaining_quota": 0,
   "api_requests": 10,
   "archive_start_inclusive": "2026-09-17",
-  "attempted_versions": 103,
-  "candidate_reports": 100,
-  "catalog_reports": 23629,
+  "attempted_versions": 106,
+  "candidate_reports": 108,
+  "catalog_reports": 23631,
   "deferred_official_format_ids": [],
   "errors": [
-    "R43755: original archive failed: Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+    "IF13353: metadata resolution failed: www.everycrsreport.com: HTTP 404; official fallback: Congress API remaining quota is zero; defer without another request",
+    "IF13354: metadata resolution failed: www.everycrsreport.com: HTTP 404; official fallback: Congress API remaining quota is zero; defer without another request",
+    "LSB10922: metadata resolution failed: Congress API remaining quota is zero; defer without another request; official fallback: Congress API remaining quota is zero; defer without another request",
+    "R44906: metadata resolution failed: Congress API remaining quota is zero; defer without another request; official fallback: Congress API remaining quota is zero; defer without another request",
+    "R45546: metadata resolution failed: Congress API remaining quota is zero; defer without another request; official fallback: Congress API remaining quota is zero; defer without another request",
+    "R48854: metadata resolution failed: Congress API remaining quota is zero; defer without another request; official fallback: Congress API remaining quota is zero; defer without another request",
+    "R49518: metadata resolution failed: www.everycrsreport.com: HTTP 404; official fallback: Congress API remaining quota is zero; defer without another request",
+    "R43755: original archive failed: Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request"
   ],
-  "finished_at": "2026-11-17T19:15:37.586376+00:00",
+  "finished_at": "2026-11-17T22:29:36.290630+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "44156252407",
+  "github_run_id": "44190201209",
   "historical_new_pdf_versions": 0,
-  "historical_pending_versions": 233,
+  "historical_pending_versions": 240,
   "last_successful_run_at": "2026-11-16T02:15:21.477049+00:00",
   "lookback_days": 7,
-  "metadata_only_updates": 4,
-  "new_pdf_versions": 10,
-  "official_current_pending": 8,
-  "official_current_required": 100,
-  "official_current_verified": 92,
-  "official_new_pdf_versions": 3,
-  "official_reconciled_at": "2026-11-17T19:21:42.810672+00:00",
-  "pending_reports": 0,
+  "metadata_only_updates": 10,
+  "new_pdf_versions": 9,
+  "pending_reports": 7,
   "pending_versions": 3,
-  "planned_versions": 107,
-  "primary_new_pdf_versions": 10,
+  "planned_versions": 114,
+  "primary_new_pdf_versions": 9,
   "primary_pdf_complete": false,
   "reconciled_pending_discoveries": [],
-  "required_pdf_failures": 1,
+  "required_pdf_failures": 8,
   "result": "failed",
-  "run_at": "2026-11-17T19:14:02.514568+00:00",
+  "run_at": "2026-11-17T22:27:58.081091+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
       "ok": true,
-      "reported_count": 104,
-      "reports": 104,
+      "reported_count": 118,
+      "reports": 118,
       "scope": "update-date window"
     },
     "everycrsreport": {
@@ -53,8 +55,32 @@
       "scope": "supplement only; feed is not the complete catalog"
     }
   },
-  "successful_versions": 102,
+  "successful_versions": 105,
   "superseded_historical_versions": [
+    {
+      "historical_publication": "2026-08-05",
+      "id": "IF13282",
+      "official_pdf_sha256": "2918f095ae6905504ee75b9c9db0392c4605acc166622d16fae5e835be4ecb1e",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13282/IF13282.2.pdf",
+      "official_publication": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+    },
+    {
+      "historical_publication": "2026-07-22",
+      "id": "IF13257",
+      "official_pdf_sha256": "deecfe38456e3e3c303294db8a6bf805053ff192d266fef7b04c8b3b6e2df8f9",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13257/IF13257.3.pdf",
+      "official_publication": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+    },
+    {
+      "historical_publication": "2026-06-25",
+      "id": "IF11643",
+      "official_pdf_sha256": "a5ae81b472a23fc4aa46bf627da5b326e296ec0add3077936e38be38e42b8a6f",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11643/IF11643.24.pdf",
+      "official_publication": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+    },
     {
       "historical_publication": "2026-04-13",
       "id": "IF12024",
@@ -64,34 +90,41 @@
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     },
     {
-      "historical_publication": "2026-02-11",
-      "id": "R48854",
-      "official_pdf_sha256": "a3dbed4c927af1f211a96aae0cd23169fb0b2e9013b9d4c272249b312fabe52c",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48854/R48854.4.pdf",
+      "historical_publication": "2025-04-16",
+      "id": "IF12968",
+      "official_pdf_sha256": "db15224499f02f54b405c4211b11ad7ee1842246aa345c87a09667fee8a84af6",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12968/IF12968.2.pdf",
       "official_publication": "2026-11-17",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     },
     {
-      "historical_publication": "2025-07-18",
-      "id": "LSB10922",
-      "official_pdf_sha256": "fdf3974e6b2b9c4c3b9c70bbdda949a1108a857eedf646aadefdd3ed922cda21",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB10922/LSB10922.11.pdf",
+      "historical_publication": "2025-02-04",
+      "id": "IF12508",
+      "official_pdf_sha256": "c6c48fbf8690e8da43f467458298f203672567e0b211d48eed158a37b7107965",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12508/IF12508.34.pdf",
       "official_publication": "2026-11-17",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     },
     {
-      "historical_publication": "2021-02-17",
-      "id": "R44906",
-      "official_pdf_sha256": "69f197f9fe32075e20b727523821ab1d556c90aefd6378fb2e5cc009de3d063b",
-      "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R44906/R44906.5.pdf",
-      "official_publication": "2021-02-22",
+      "historical_publication": "2024-12-04",
+      "id": "IF12589",
+      "official_pdf_sha256": "63aae3e87ba0ec8aa9b2eb8a21d172103a185128060ed1b50531061e1ce964f8",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12589/IF12589.4.pdf",
+      "official_publication": "2026-11-17",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+    },
+    {
+      "historical_publication": "2022-08-10",
+      "id": "IF10719",
+      "official_pdf_sha256": "a75c222e161033003eff4ce9b6080b032682b7a1e023d6dccaed854511ba6ff1",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10719/IF10719.7.pdf",
+      "official_publication": "2026-11-17",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     }
   ],
-  "total_archived_pdf_versions": 943,
-  "total_html_original_versions": 0,
-  "total_html_snapshots": 679,
-  "total_pdf_bytes": 779874712,
+  "total_archived_pdf_versions": 952,
+  "total_html_snapshots": 688,
+  "total_pdf_bytes": 783976977,
   "warnings": [
     {
       "api_version": 15,
@@ -158,6 +191,14 @@
       ]
     },
     {
+      "api_version": 6,
+      "id": "IF10719",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
       "api_version": 3,
       "id": "IF10753",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
@@ -211,6 +252,14 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "3"
+      ]
+    },
+    {
+      "api_version": 18,
+      "id": "IF11643",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "22"
       ]
     },
     {
@@ -299,6 +348,14 @@
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
       "pdf_revisions": [
         "8"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13257",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "2"
       ]
     },
     {
@@ -486,6 +543,14 @@
       ]
     },
     {
+      "api_version": 42,
+      "id": "R45546",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "52"
+      ]
+    },
+    {
       "api_version": 4,
       "id": "R45914",
       "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
@@ -622,28 +687,14 @@
       ]
     },
     {
-      "id": "IN11982",
+      "id": "R48854",
       "messages": [
         "www.congress.gov: Source bytes differ from the catalogued version checksum",
         "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
       ]
     },
     {
-      "id": "IF12835",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
-      "id": "R48648",
-      "messages": [
-        "www.congress.gov: Source bytes differ from the catalogued version checksum",
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ]
-    },
-    {
-      "id": "IF12968",
+      "id": "LSB10922",
       "messages": [
         "www.congress.gov: Source bytes differ from the catalogued version checksum",
         "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
@@ -662,23 +713,17 @@
       ]
     },
     {
-      "id": "IF12589",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: HTTP 403; not bypassing access restrictions"
-      ]
-    },
-    {
       "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "id": "R45693",
+      "id": "R45731",
       "scope": "optional historical backfill"
     },
     {
       "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "id": "R45724",
+      "id": "R45736",
       "scope": "optional historical backfill"
     },
     {
-      "historical_backfill_remaining": 233,
+      "historical_backfill_remaining": 240,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
