@@ -7,44 +7,6 @@
       "next_retry": "2026-11-19",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "2",
-        "date": "2018-11-13",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45402",
-            "sha1": "795aa5f7a806f5a5c68bf77b26f723284b07c2a9",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181113_R45402_795aa5f7a806f5a5c68bf77b26f723284b07c2a9.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45402",
-            "sha1": "a53cebad9943afc5d328bc8707a9d7c8243904de",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181113_R45402_a53cebad9943afc5d328bc8707a9d7c8243904de.pdf"
-            ]
-          }
-        },
-        "id": "R45402",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45402",
-          "https://www.crs.gov/Reports/pdf/R45402"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "587503",
-        "title": "Lame Duck Sessions of Congress Following a Majority-Changing Election: In Brief",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "1",
         "date": "2019-01-22",
         "formats": {
@@ -79,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-17",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-19",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -9523,6 +9487,46 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "586249",
         "title": "Banking: Current Expected Credit Loss (CECL)",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-17",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-19",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "2",
+        "date": "2018-11-13",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45402",
+            "sha1": "795aa5f7a806f5a5c68bf77b26f723284b07c2a9",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181113_R45402_795aa5f7a806f5a5c68bf77b26f723284b07c2a9.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45402",
+            "sha1": "a53cebad9943afc5d328bc8707a9d7c8243904de",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181113_R45402_a53cebad9943afc5d328bc8707a9d7c8243904de.pdf"
+            ]
+          }
+        },
+        "id": "R45402",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45402",
+          "https://www.crs.gov/Reports/pdf/R45402"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "587503",
+        "title": "Lame Duck Sessions of Congress Following a Majority-Changing Election: In Brief",
         "version": "unknown"
       }
     }
