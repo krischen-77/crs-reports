@@ -1,3 +1,5 @@
+**Official-current verification: 92/100. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-10 to 2026-11-17**. Older archived files are retained.
@@ -6,7 +8,9 @@ Publication-date window (inclusive): **2026-11-10 to 2026-11-17**. Older archive
 |---|---|---|---|---|
 | 2026-11-17 | R48854 v4 | Poverty in the United States in 2025 | [PDF](pdf/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.pdf) | [Markdown](markdown/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.md) |
 | 2026-11-17 | LSB10922 v11 | Generative Artificial Intelligence and Copyright Law | [PDF](pdf/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.pdf) | [Markdown](markdown/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.md) |
+| 2026-11-17 | IN11982 v27 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v27-2026-11-17-8b682da73020b261.pdf) | [Markdown](markdown/insights/IN11982v27-2026-11-17-8b682da73020b261.md) |
 | 2026-11-17 | IF13352 v1 | Farm Bill Primer: Selected Title I and Title XII Dairy Provisions | [PDF](pdf/in-focus/IF13352v1-2026-11-17-5141200570025655.pdf) | [Markdown](markdown/in-focus/IF13352v1-2026-11-17-5141200570025655.md) |
+| 2026-11-17 | IF12835 v16 | The Rice’s Whale: Conservation Efforts, Implications for Ocean Sectors, and Considerations for Congress | [PDF](pdf/in-focus/IF12835v16-2026-11-17-711e3a814f43539a.pdf) | [Markdown](markdown/in-focus/IF12835v16-2026-11-17-711e3a814f43539a.md) |
 | 2026-11-17 | IF12024 v8 | Farm Bill Primer: Conservation Title | [PDF](pdf/in-focus/IF12024v8-2026-11-17-c720121f827a2229.pdf) | [Markdown](markdown/in-focus/IF12024v8-2026-11-17-c720121f827a2229.md) |
 | 2026-11-16 | R49518 v2 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v2-2026-11-16-ea646f3de38fb994.pdf) | [Markdown](markdown/reports/R49518v2-2026-11-16-ea646f3de38fb994.md) |
 | 2026-11-16 | R49517 v3 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.pdf) | [Markdown](markdown/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.md) |
@@ -67,10 +71,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-17 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
-| 2026-11-17 | 2026-11-09 | R44247 v13 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v13-2026-11-09-169168c9fb2137ed.pdf) | [Markdown](markdown/reports/R44247v13-2026-11-09-169168c9fb2137ed.md) |
-| 2026-11-17 | 2026-08-03 | IN11982 v25 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v25-2026-08-03-7c978a75ad77c19f.pdf) | [Markdown](markdown/insights/IN11982v25-2026-08-03-7c978a75ad77c19f.md) |
+| 2026-11-17 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
 | 2026-11-17 | 2025-04-16 | IF12968 v1 | Competition and Antitrust Concerns Related to Generative AI | [PDF](pdf/in-focus/IF12968v1-2025-04-16-aeb9453d6a5eedc9.pdf) | [Markdown](markdown/in-focus/IF12968v1-2025-04-16-aeb9453d6a5eedc9.md) |
-| 2026-11-17 | 2026-05-08 | IF12835 v15 | The Rice’s Whale: Conservation Efforts, Implications for Ocean Sectors, and Considerations for Congress | [PDF](pdf/in-focus/IF12835v15-2026-05-08-581178bc8a540c7f.pdf) | [Markdown](markdown/in-focus/IF12835v15-2026-05-08-581178bc8a540c7f.md) |
 | 2026-11-17 | 2024-12-04 | IF12589 v3 | Research Security Policies: An Overview | [PDF](pdf/in-focus/IF12589v3-2024-12-04-666fdb00d509bcf5.pdf) | [Markdown](markdown/in-focus/IF12589v3-2024-12-04-666fdb00d509bcf5.md) |
 | 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
 | 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
