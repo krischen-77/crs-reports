@@ -1,8 +1,6 @@
-**Official-current verification: 108/108. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-10 to 2026-11-17**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -60,21 +58,6 @@ Publication-date window (inclusive): **2026-11-10 to 2026-11-17**. Older archive
 | 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
 | 2026-11-12 | IF13346 v3 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v3-2026-11-12-edcd66c878019019.pdf) | [Markdown](markdown/in-focus/IF13346v3-2026-11-12-edcd66c878019019.md) |
 | 2026-11-12 | IF11201 v6 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.pdf) | [Markdown](markdown/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.md) |
-| 2026-11-10 | RL30567 v33 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v33-2026-11-10-008c428880dee84b.pdf) | [Markdown](markdown/reports/RL30567v33-2026-11-10-008c428880dee84b.md) |
-| 2026-11-10 | RL30567 v29 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v29-2026-11-10-97b460804175e3ce.pdf) | [Markdown](markdown/reports/RL30567v29-2026-11-10-97b460804175e3ce.md) |
-| 2026-11-10 | RL30567 v32 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v32-2026-11-10-c7b1bd4e83daec55.pdf) | [Markdown](markdown/reports/RL30567v32-2026-11-10-c7b1bd4e83daec55.md) |
-| 2026-11-10 | R49515 v2 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v2-2026-11-10-215bcc02e4cbea82.pdf) | [Markdown](markdown/reports/R49515v2-2026-11-10-215bcc02e4cbea82.md) |
-| 2026-11-10 | R49515 v1 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v1-2026-11-10-9a76e338985ddfcb.pdf) | [Markdown](markdown/reports/R49515v1-2026-11-10-9a76e338985ddfcb.md) |
-| 2026-11-10 | R49514 v2 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v2-2026-11-10-273a6c8951393abd.pdf) | [Markdown](markdown/reports/R49514v2-2026-11-10-273a6c8951393abd.md) |
-| 2026-11-10 | R49514 v1 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v1-2026-11-10-b0706f7c5e371a74.pdf) | [Markdown](markdown/reports/R49514v1-2026-11-10-b0706f7c5e371a74.md) |
-| 2026-11-10 | R48918 v9 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v9-2026-11-10-3094973c5bb47405.pdf) | [Markdown](markdown/reports/R48918v9-2026-11-10-3094973c5bb47405.md) |
-| 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
-| 2026-11-10 | R43744 v47 | Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works | [PDF](pdf/reports/R43744v47-2026-11-10-257804c4d5299cf8.pdf) | [Markdown](markdown/reports/R43744v47-2026-11-10-257804c4d5299cf8.md) |
-| 2026-11-10 | R43744 v48 | Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works | [PDF](pdf/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.pdf) | [Markdown](markdown/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.md) |
-| 2026-11-10 | R43743 v31 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v31-2026-11-10-17c511c94b7bdb95.pdf) | [Markdown](markdown/reports/R43743v31-2026-11-10-17c511c94b7bdb95.md) |
-| 2026-11-10 | R43743 v32 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v32-2026-11-10-826a49a9ed776cdb.pdf) | [Markdown](markdown/reports/R43743v32-2026-11-10-826a49a9ed776cdb.md) |
-| 2026-11-10 | IN12550 v4 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v4-2026-11-10-a695b70126b320d2.pdf) | [Markdown](markdown/insights/IN12550v4-2026-11-10-a695b70126b320d2.md) |
-| 2026-11-10 | IN12550 v5 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.pdf) | [Markdown](markdown/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -83,13 +66,20 @@ API update dates can describe metadata or file changes. These current PDF files 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
+| 2026-11-17 | 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
 | 2026-11-17 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
 | 2026-11-17 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
+| 2026-11-14 | 2026-11-10 | RL30567 v33 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v33-2026-11-10-008c428880dee84b.pdf) | [Markdown](markdown/reports/RL30567v33-2026-11-10-008c428880dee84b.md) |
 | 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
 | 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
 | 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
+| 2026-11-13 | 2026-11-10 | R49515 v2 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v2-2026-11-10-215bcc02e4cbea82.pdf) | [Markdown](markdown/reports/R49515v2-2026-11-10-215bcc02e4cbea82.md) |
+| 2026-11-13 | 2026-11-10 | R49514 v2 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v2-2026-11-10-273a6c8951393abd.pdf) | [Markdown](markdown/reports/R49514v2-2026-11-10-273a6c8951393abd.md) |
 | 2026-11-13 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
+| 2026-11-13 | 2026-11-10 | R43744 v48 | Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works | [PDF](pdf/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.pdf) | [Markdown](markdown/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.md) |
+| 2026-11-13 | 2026-11-10 | R43743 v32 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v32-2026-11-10-826a49a9ed776cdb.pdf) | [Markdown](markdown/reports/R43743v32-2026-11-10-826a49a9ed776cdb.md) |
+| 2026-11-13 | 2026-11-10 | IN12550 v5 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.pdf) | [Markdown](markdown/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.md) |
 | 2026-11-13 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
 | 2026-11-11 | 2024-02-05 | RS21405 v36 | U.S. Periods of War and Dates of Recent Conflicts | [PDF](pdf/reports/RS21405v36-2024-02-05-c698c81efadcb252.pdf) | [Markdown](markdown/reports/RS21405v36-2024-02-05-c698c81efadcb252.md) |
@@ -126,14 +116,3 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-11 | 2025-12-04 | IF10571 v12 | Defense Primer: Organization of U.S. Ground Forces | [PDF](pdf/in-focus/IF10571v12-2025-12-04-c100d7e695fca49a.pdf) | [Markdown](markdown/in-focus/IF10571v12-2025-12-04-c100d7e695fca49a.md) |
 | 2026-11-11 | 2021-07-12 | 98-756 v56 | Defense Authorization and Appropriations Bills: FY1961-FY2021 | [PDF](pdf/reports/98-756v56-2021-07-12-8cc7b75e57827d9b.pdf) | [Markdown](markdown/reports/98-756v56-2021-07-12-8cc7b75e57827d9b.md) |
 | 2026-11-11 | 2015-08-18 | 95-519 v16 | Medal of Honor: History and Issues | [PDF](pdf/reports/95-519v16-2015-08-18-39554e1dcc46596a.pdf) | [Markdown](markdown/reports/95-519v16-2015-08-18-39554e1dcc46596a.md) |
-| 2026-11-10 | 2026-11-06 | R49511 v2 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Project Certainty Provisions | [PDF](pdf/reports/R49511v2-2026-11-06-a4c80e9bf586fbed.pdf) | [Markdown](markdown/reports/R49511v2-2026-11-06-a4c80e9bf586fbed.md) |
-| 2026-11-10 | 2026-11-05 | R49505 v3 | Connecting Constituents to Federal Assistance for Law Enforcement | [PDF](pdf/reports/R49505v3-2026-11-05-810cf2b1bb075843.pdf) | [Markdown](markdown/reports/R49505v3-2026-11-05-810cf2b1bb075843.md) |
-| 2026-11-10 | 2026-11-06 | R44868 v5 | Short-Term, Small-Dollar Lending: Policy Issues and Implications | [PDF](pdf/reports/R44868v5-2026-11-06-cf101aee082a4207.pdf) | [Markdown](markdown/reports/R44868v5-2026-11-06-cf101aee082a4207.md) |
-| 2026-11-10 | 2026-11-06 | LSB11498 v1 | Congressional Court Watcher: Circuit Splits from September 2026 | [PDF](pdf/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.pdf) | [Markdown](markdown/sidebars/LSB11498v1-2026-11-06-488eb088520c5966.md) |
-| 2026-11-10 | 2026-11-06 | IN12755 v2 | FY2027 Proposed Military Construction Appropriations: A Summary | [PDF](pdf/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.pdf) | [Markdown](markdown/insights/IN12755v2-2026-11-06-a69de5432ab7f4fb.md) |
-| 2026-11-10 | 2026-11-09 | IN12746 v2 | The Bipartisan American Affordability and Jobs Act of 2026 and the Federal Energy Regulatory Commission’s Backstop Siting Authority | [PDF](pdf/insights/IN12746v2-2026-11-09-c555793512fef262.pdf) | [Markdown](markdown/insights/IN12746v2-2026-11-09-c555793512fef262.md) |
-| 2026-11-10 | 2026-11-06 | IF13344 v3 | The Unfolding Conflict in Ethiopia | [PDF](pdf/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.pdf) | [Markdown](markdown/in-focus/IF13344v3-2026-11-06-4d152bae50ed1536.md) |
-| 2026-11-10 | 2026-07-15 | IF12761 v8 | Sports Betting and Consumer Finance | [PDF](pdf/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.pdf) | [Markdown](markdown/in-focus/IF12761v8-2026-07-15-8488cfd6b0ce72a4.md) |
-| 2026-11-10 | 2026-11-09 | IF12680 v3 | The Board of Veterans’ Appeals: A Brief Introduction | [PDF](pdf/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.pdf) | [Markdown](markdown/in-focus/IF12680v3-2026-11-09-551f093cf468b94b.md) |
-| 2026-11-10 | 2026-11-09 | IF10753 v9 | ENERGY STAR Program | [PDF](pdf/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.pdf) | [Markdown](markdown/in-focus/IF10753v9-2026-11-09-520c0e472f80c784.md) |
-| 2026-11-10 | 2026-11-09 | IF10266 v18 | Child Nutrition Reauthorization (CNR): An Overview | [PDF](pdf/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.pdf) | [Markdown](markdown/in-focus/IF10266v18-2026-11-09-c432d55ec9732724.md) |
