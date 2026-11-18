@@ -1,3 +1,5 @@
+**Official-current verification: 114/114. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archived files are retained.
@@ -6,6 +8,9 @@ Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archive
 |---|---|---|---|---|
 | 2026-11-18 | R49520 v1 | Taxing AI: Alternative Approaches | [PDF](pdf/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.pdf) | [Markdown](markdown/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.md) |
 | 2026-11-18 | R44258 v25 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v25-2026-11-18-92c46dd771a01188.pdf) | [Markdown](markdown/reports/R44258v25-2026-11-18-92c46dd771a01188.md) |
+| 2026-11-18 | LSB11500 v1 | Federal District Court Holds That 18 U.S.C. § 611, the Federal Bar on Alien Voting, Is Unconstitutional | [PDF](pdf/sidebars/LSB11500v1-2026-11-18-d3bb50fde1a70edb.pdf) | [Markdown](markdown/sidebars/LSB11500v1-2026-11-18-d3bb50fde1a70edb.md) |
+| 2026-11-18 | IN12757 v1 | Autonomous Warfare Command: Background and Considerations for Congress | [PDF](pdf/insights/IN12757v1-2026-11-18-667a88d9e8c21fb8.pdf) | [Markdown](markdown/insights/IN12757v1-2026-11-18-667a88d9e8c21fb8.md) |
+| 2026-11-18 | IN12756 v1 | Nationwide Aircraft Ground Stop Raises Concerns over Aviation System Modernization | [PDF](pdf/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.pdf) | [Markdown](markdown/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.md) |
 | 2026-11-18 | IF13355 v1 | National Institute of Standards and Technology (NIST) FY2027 Funding | [PDF](pdf/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.pdf) | [Markdown](markdown/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.md) |
 | 2026-11-18 | IF13288 v2 | Federal Air Quality and Wildland Fire Smoke Forecasting | [PDF](pdf/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.pdf) | [Markdown](markdown/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.md) |
 | 2026-11-18 | IF13226 v8 | Seabed Mining on the U.S. Outer Continental Shelf: Recent Developments | [PDF](pdf/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.pdf) | [Markdown](markdown/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.md) |
@@ -22,6 +27,7 @@ Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archive
 | 2026-11-17 | LSB10922 v11 | Generative Artificial Intelligence and Copyright Law | [PDF](pdf/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.pdf) | [Markdown](markdown/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.md) |
 | 2026-11-17 | IN11982 v27 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v27-2026-11-17-8b682da73020b261.pdf) | [Markdown](markdown/insights/IN11982v27-2026-11-17-8b682da73020b261.md) |
 | 2026-11-17 | IF13354 v1 | The White House Office of Science and Technology Policy: Overview and Considerations for Congress | [PDF](pdf/in-focus/IF13354v1-2026-11-17-1e5d106f31a44bac.pdf) | [Markdown](markdown/in-focus/IF13354v1-2026-11-17-1e5d106f31a44bac.md) |
+| 2026-11-17 | IF13353 v2 | Certain National Firearms Act Requirements Will Not Be Administratively Enforced Following Court Ruling That These Provisions Exceed Congress’s Constitutional Powers | [PDF](pdf/in-focus/IF13353v2-2026-11-17-40abcef79339612f.pdf) | [Markdown](markdown/in-focus/IF13353v2-2026-11-17-40abcef79339612f.md) |
 | 2026-11-17 | IF13353 v1 | Certain National Firearms Act Requirements Will Not Be Administratively Enforced Following Court Ruling That These Provisions Exceed Congress’s Constitutional Powers | [PDF](pdf/in-focus/IF13353v1-2026-11-17-4e8751d284b84448.pdf) | [Markdown](markdown/in-focus/IF13353v1-2026-11-17-4e8751d284b84448.md) |
 | 2026-11-17 | IF13352 v1 | Farm Bill Primer: Selected Title I and Title XII Dairy Provisions | [PDF](pdf/in-focus/IF13352v1-2026-11-17-5141200570025655.pdf) | [Markdown](markdown/in-focus/IF13352v1-2026-11-17-5141200570025655.md) |
 | 2026-11-17 | IF13282 v2 | Freight Rail Automation: Driverless Trains, Automated Inspections, and Other Technologies | [PDF](pdf/in-focus/IF13282v2-2026-11-17-2918f095ae690550.pdf) | [Markdown](markdown/in-focus/IF13282v2-2026-11-17-2918f095ae690550.md) |
@@ -40,6 +46,7 @@ Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archive
 | 2026-11-16 | R49517 v4 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.pdf) | [Markdown](markdown/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.md) |
 | 2026-11-16 | R49517 v1 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.pdf) | [Markdown](markdown/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.md) |
 | 2026-11-16 | R44279 v19 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v19-2026-11-16-e2685c046911266b.pdf) | [Markdown](markdown/reports/R44279v19-2026-11-16-e2685c046911266b.md) |
+| 2026-11-16 | R43755 v5 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.pdf) | [Markdown](markdown/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.md) |
 | 2026-11-16 | R43755 v4 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v4-2026-11-16-56a28b47f224d4e7.pdf) | [Markdown](markdown/reports/R43755v4-2026-11-16-56a28b47f224d4e7.md) |
 | 2026-11-16 | IF13351 v1 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v1-2026-11-16-6952747c322641f5.pdf) | [Markdown](markdown/in-focus/IF13351v1-2026-11-16-6952747c322641f5.md) |
 | 2026-11-16 | IF13351 v2 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v2-2026-11-16-7951363433c8a3ae.pdf) | [Markdown](markdown/in-focus/IF13351v2-2026-11-16-7951363433c8a3ae.md) |
@@ -53,6 +60,7 @@ Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archive
 | 2026-11-16 | IF12899 v3 | Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence | [PDF](pdf/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.pdf) | [Markdown](markdown/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.md) |
 | 2026-11-16 | IF12869 v2 | The Defense Innovation Ecosystem | [PDF](pdf/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.pdf) | [Markdown](markdown/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.md) |
 | 2026-11-16 | IF12148 v8 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.pdf) | [Markdown](markdown/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.md) |
+| 2026-11-16 | IF11028 v5 | Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change | [PDF](pdf/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.pdf) | [Markdown](markdown/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.md) |
 | 2026-11-16 | IF11028 v4 | Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change | [PDF](pdf/in-focus/IF11028v4-2026-11-16-6cc730f261a431f0.pdf) | [Markdown](markdown/in-focus/IF11028v4-2026-11-16-6cc730f261a431f0.md) |
 | 2026-11-16 | IF10782 v12 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.pdf) | [Markdown](markdown/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.md) |
 | 2026-11-16 | IF10782 v13 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.pdf) | [Markdown](markdown/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.md) |
@@ -84,7 +92,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-18 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
 | 2026-11-18 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
-| 2026-11-18 | 2026-03-25 | IF11934 v7 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v7-2026-03-25-3bd043a0a64a58fd.pdf) | [Markdown](markdown/in-focus/IF11934v7-2026-03-25-3bd043a0a64a58fd.md) |
+| 2026-11-18 | 2026-03-25 | IF11934 v8 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.pdf) | [Markdown](markdown/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.md) |
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-17 | 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
