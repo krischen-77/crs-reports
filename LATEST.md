@@ -1,5 +1,3 @@
-**Official-current verification: 103/103. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archived files are retained.
@@ -10,7 +8,14 @@ Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archive
 | 2026-11-18 | R44258 v25 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v25-2026-11-18-92c46dd771a01188.pdf) | [Markdown](markdown/reports/R44258v25-2026-11-18-92c46dd771a01188.md) |
 | 2026-11-18 | IF13355 v1 | National Institute of Standards and Technology (NIST) FY2027 Funding | [PDF](pdf/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.pdf) | [Markdown](markdown/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.md) |
 | 2026-11-18 | IF13288 v2 | Federal Air Quality and Wildland Fire Smoke Forecasting | [PDF](pdf/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.pdf) | [Markdown](markdown/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.md) |
+| 2026-11-18 | IF13226 v8 | Seabed Mining on the U.S. Outer Continental Shelf: Recent Developments | [PDF](pdf/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.pdf) | [Markdown](markdown/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.md) |
+| 2026-11-18 | IF13198 v2 | Satellite Direct-to-Cellular (D2C) Service: Emergence, Use Cases, and Considerations for Congress | [PDF](pdf/in-focus/IF13198v2-2026-11-18-753b0b6d1450e322.pdf) | [Markdown](markdown/in-focus/IF13198v2-2026-11-18-753b0b6d1450e322.md) |
+| 2026-11-18 | IF13151 v4 | Agentic Artificial Intelligence and Cyberattacks | [PDF](pdf/in-focus/IF13151v4-2026-11-18-7e0d043a5c45fde8.pdf) | [Markdown](markdown/in-focus/IF13151v4-2026-11-18-7e0d043a5c45fde8.md) |
 | 2026-11-18 | IF12421 v14 | The U.S. Army’s Indirect Fire Protection Capability System | [PDF](pdf/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.pdf) | [Markdown](markdown/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.md) |
+| 2026-11-18 | IF12054 v4 | Farm Bill Primer: Forestry Title | [PDF](pdf/in-focus/IF12054v4-2026-11-18-c67407a3a5bb4373.pdf) | [Markdown](markdown/in-focus/IF12054v4-2026-11-18-c67407a3a5bb4373.md) |
+| 2026-11-18 | IF12006 v32 | Arctic National Wildlife Refuge: Status of Oil and Gas Program | [PDF](pdf/in-focus/IF12006v32-2026-11-18-a54bf4a836510825.pdf) | [Markdown](markdown/in-focus/IF12006v32-2026-11-18-a54bf4a836510825.md) |
+| 2026-11-18 | IF11779 v8 | Hydrofluorocarbon Phasedown: Background and Issues Facing Congress | [PDF](pdf/in-focus/IF11779v8-2026-11-18-40dd508c268ea10c.pdf) | [Markdown](markdown/in-focus/IF11779v8-2026-11-18-40dd508c268ea10c.md) |
+| 2026-11-18 | 97-615 v79 | Salaries of Members of Congress: Congressional Votes, 1990-2026 | [PDF](pdf/reports/97-615v79-2026-11-18-79ebd4f1c67f67cf.pdf) | [Markdown](markdown/reports/97-615v79-2026-11-18-79ebd4f1c67f67cf.md) |
 | 2026-11-17 | R49519 v1 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v1-2026-11-17-b217bd9aaa033053.pdf) | [Markdown](markdown/reports/R49519v1-2026-11-17-b217bd9aaa033053.md) |
 | 2026-11-17 | R48854 v4 | Poverty in the United States in 2025 | [PDF](pdf/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.pdf) | [Markdown](markdown/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.md) |
 | 2026-11-17 | R45546 v54 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v54-2026-11-17-074dd953ae31522e.pdf) | [Markdown](markdown/reports/R45546v54-2026-11-17-074dd953ae31522e.md) |
@@ -75,9 +80,11 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-18 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-18 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
 | 2026-11-18 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
+| 2026-11-18 | 2026-03-25 | IF11934 v7 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v7-2026-03-25-3bd043a0a64a58fd.pdf) | [Markdown](markdown/in-focus/IF11934v7-2026-03-25-3bd043a0a64a58fd.md) |
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-17 | 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
@@ -97,7 +104,6 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-11 | 2023-05-25 | RL31693 v16 | U.S. Armed Forces Abroad: Selected Congressional Votes Since 1982 | [PDF](pdf/reports/RL31693v16-2023-05-25-c50650168ffba615.pdf) | [Markdown](markdown/reports/RL31693v16-2023-05-25-c50650168ffba615.md) |
 | 2026-11-11 | 2018-02-20 | RL31618 v42 | Campus-Based Student Financial Aid Programs Under the Higher Education Act | [PDF](pdf/reports/RL31618v42-2018-02-20-c18595247678fc81.pdf) | [Markdown](markdown/reports/RL31618v42-2018-02-20-c18595247678fc81.md) |
 | 2026-11-11 | 2026-11-09 | R49513 v2 | The Kyrgyz Republic: In Brief | [PDF](pdf/reports/R49513v2-2026-11-09-6ac8e8240585414f.pdf) | [Markdown](markdown/reports/R49513v2-2026-11-09-6ac8e8240585414f.md) |
-| 2026-11-11 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-11 | 2026-11-06 | R49510 v9 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Division A, Title I, Including National Environmental Policy Act Provisions | [PDF](pdf/reports/R49510v9-2026-11-06-59f0acc9e9f02869.pdf) | [Markdown](markdown/reports/R49510v9-2026-11-06-59f0acc9e9f02869.md) |
 | 2026-11-11 | 2026-05-27 | R48958 v3 | National Foundation on the Arts and Humanities: FY2026 Appropriations | [PDF](pdf/reports/R48958v3-2026-05-27-541256602215af2d.pdf) | [Markdown](markdown/reports/R48958v3-2026-05-27-541256602215af2d.md) |
 | 2026-11-11 | 2023-11-06 | R47830 v3 | Education for Homeless Children and Youths: Data and Issues | [PDF](pdf/reports/R47830v3-2023-11-06-4077b807c38c9052.pdf) | [Markdown](markdown/reports/R47830v3-2023-11-06-4077b807c38c9052.md) |
