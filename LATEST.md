@@ -1,3 +1,5 @@
+**Official-current verification: 97/97. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archived files are retained.
@@ -23,6 +25,7 @@ Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archive
 | 2026-11-16 | R49518 v3 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.pdf) | [Markdown](markdown/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.md) |
 | 2026-11-16 | R49518 v2 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v2-2026-11-16-ea646f3de38fb994.pdf) | [Markdown](markdown/reports/R49518v2-2026-11-16-ea646f3de38fb994.md) |
 | 2026-11-16 | R49517 v3 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.pdf) | [Markdown](markdown/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.md) |
+| 2026-11-16 | R49517 v4 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.pdf) | [Markdown](markdown/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.md) |
 | 2026-11-16 | R49517 v1 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.pdf) | [Markdown](markdown/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.md) |
 | 2026-11-16 | R44279 v19 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v19-2026-11-16-e2685c046911266b.pdf) | [Markdown](markdown/reports/R44279v19-2026-11-16-e2685c046911266b.md) |
 | 2026-11-16 | R43755 v4 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v4-2026-11-16-56a28b47f224d4e7.pdf) | [Markdown](markdown/reports/R43755v4-2026-11-16-56a28b47f224d4e7.md) |
