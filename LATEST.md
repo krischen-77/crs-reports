@@ -1,3 +1,5 @@
+**Official-current verification: 103/103. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archived files are retained.
@@ -19,6 +21,7 @@ Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archive
 | 2026-11-17 | IF13352 v1 | Farm Bill Primer: Selected Title I and Title XII Dairy Provisions | [PDF](pdf/in-focus/IF13352v1-2026-11-17-5141200570025655.pdf) | [Markdown](markdown/in-focus/IF13352v1-2026-11-17-5141200570025655.md) |
 | 2026-11-17 | IF13282 v2 | Freight Rail Automation: Driverless Trains, Automated Inspections, and Other Technologies | [PDF](pdf/in-focus/IF13282v2-2026-11-17-2918f095ae690550.pdf) | [Markdown](markdown/in-focus/IF13282v2-2026-11-17-2918f095ae690550.md) |
 | 2026-11-17 | IF13257 v3 | The Role of U.S. In Situ Ocean Observation Networks: A Case Study of the Atlantic Meridional Overturning Circulation | [PDF](pdf/in-focus/IF13257v3-2026-11-17-deecfe38456e3e3c.pdf) | [Markdown](markdown/in-focus/IF13257v3-2026-11-17-deecfe38456e3e3c.md) |
+| 2026-11-17 | IF12968 v3 | Competition and Antitrust Concerns Related to Generative AI | [PDF](pdf/in-focus/IF12968v3-2026-11-17-5a3d8d9ad6bbdc5c.pdf) | [Markdown](markdown/in-focus/IF12968v3-2026-11-17-5a3d8d9ad6bbdc5c.md) |
 | 2026-11-17 | IF12968 v2 | Competition and Antitrust Concerns Related to Generative AI | [PDF](pdf/in-focus/IF12968v2-2026-11-17-db15224499f02f54.pdf) | [Markdown](markdown/in-focus/IF12968v2-2026-11-17-db15224499f02f54.md) |
 | 2026-11-17 | IF12835 v16 | The Rice’s Whale: Conservation Efforts, Implications for Ocean Sectors, and Considerations for Congress | [PDF](pdf/in-focus/IF12835v16-2026-11-17-711e3a814f43539a.pdf) | [Markdown](markdown/in-focus/IF12835v16-2026-11-17-711e3a814f43539a.md) |
 | 2026-11-17 | IF12589 v4 | Research Security Policies: An Overview | [PDF](pdf/in-focus/IF12589v4-2026-11-17-63aae3e87ba0ec8a.pdf) | [Markdown](markdown/in-focus/IF12589v4-2026-11-17-63aae3e87ba0ec8a.md) |
