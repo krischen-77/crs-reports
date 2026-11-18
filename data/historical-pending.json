@@ -1,46 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "2",
-        "date": "2019-09-03",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45899",
-            "sha1": "5c6763ea14561bfe96eee267b9214df56328e901",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190903_R45899_5c6763ea14561bfe96eee267b9214df56328e901.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45899",
-            "sha1": "ec24a05f6d227b4e272b2ff5de0359ac5d3e80b7",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190903_R45899_ec24a05f6d227b4e272b2ff5de0359ac5d3e80b7.pdf"
-            ]
-          }
-        },
-        "id": "R45899",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45899",
-          "https://www.crs.gov/Reports/pdf/R45899"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "604352",
-        "title": "Recent Recommendations by the Judicial Conference for New U.S. Circuit and District Court Judgeships: Overview and Analysis",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-18",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-20",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -9419,6 +9383,100 @@
         "source_record": "586249",
         "title": "Banking: Current Expected Credit Loss (CECL)",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-19",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "10",
+        "date": "2026-04-16",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12421",
+            "sha1": "9beb3569b8843b7b9a52241cea661e711abb60f0",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12421.web.html",
+              "https://www.everycrsreport.com/files/2026-04-16_IF12421_9beb3569b8843b7b9a52241cea661e711abb60f0.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12421",
+            "sha1": "876f062056c04c3aaff1d514380da0380efd2d60",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12421/IF12421.13.pdf",
+              "https://www.everycrsreport.com/files/2026-04-16_IF12421_876f062056c04c3aaff1d514380da0380efd2d60.pdf"
+            ]
+          }
+        },
+        "id": "IF12421",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-18T13:41:10Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12421_A13_2026-04-16",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-04-16",
+          "id": "IF12421",
+          "official_pdf_sha256": "6facbe3786cd3a4a18c15f6e2af3a3faaca937a81908ccfe0c8bef2af3175f93",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12421/IF12421.14.pdf",
+          "official_publication": "2026-11-18",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The U.S. Army’s Indirect Fire Protection Capability (IFPC) System",
+        "version": "13"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-19",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-08-14",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13288",
+            "sha1": "16f3c4920932063543f2792ab3266ad9a2ba36c3",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13288.web.html",
+              "https://www.everycrsreport.com/files/2026-08-14_IF13288_16f3c4920932063543f2792ab3266ad9a2ba36c3.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13288",
+            "sha1": "620c66b9e147d973d3746fcfc7749ec61313e68d",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13288/IF13288.1.pdf",
+              "https://www.everycrsreport.com/files/2026-08-14_IF13288_620c66b9e147d973d3746fcfc7749ec61313e68d.pdf"
+            ]
+          }
+        },
+        "id": "IF13288",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-18T13:41:14Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13288_A1_2026-08-14",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-08-14",
+          "id": "IF13288",
+          "official_pdf_sha256": "e6a03cd590896c1ee2176fcfd3ba2e997bf90675234cb1e3dde21273d54d48eb",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13288/IF13288.2.pdf",
+          "official_publication": "2026-11-18",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Federal Air Quality and Wildfire Smoke Forecasting",
+        "version": "1"
       }
     },
     {

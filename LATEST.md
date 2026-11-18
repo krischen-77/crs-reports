@@ -1,11 +1,14 @@
-**Official-current verification: 98/98. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-11 to 2026-11-18**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-18 | R49520 v1 | Taxing AI: Alternative Approaches | [PDF](pdf/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.pdf) | [Markdown](markdown/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.md) |
+| 2026-11-18 | R44258 v25 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v25-2026-11-18-92c46dd771a01188.pdf) | [Markdown](markdown/reports/R44258v25-2026-11-18-92c46dd771a01188.md) |
+| 2026-11-18 | IF13355 v1 | National Institute of Standards and Technology (NIST) FY2027 Funding | [PDF](pdf/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.pdf) | [Markdown](markdown/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.md) |
+| 2026-11-18 | IF13288 v2 | Federal Air Quality and Wildland Fire Smoke Forecasting | [PDF](pdf/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.pdf) | [Markdown](markdown/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.md) |
+| 2026-11-18 | IF12421 v14 | The U.S. Army’s Indirect Fire Protection Capability System | [PDF](pdf/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.pdf) | [Markdown](markdown/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.md) |
 | 2026-11-17 | R49519 v1 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v1-2026-11-17-b217bd9aaa033053.pdf) | [Markdown](markdown/reports/R49519v1-2026-11-17-b217bd9aaa033053.md) |
 | 2026-11-17 | R48854 v4 | Poverty in the United States in 2025 | [PDF](pdf/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.pdf) | [Markdown](markdown/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.md) |
 | 2026-11-17 | R45546 v54 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v54-2026-11-17-074dd953ae31522e.pdf) | [Markdown](markdown/reports/R45546v54-2026-11-17-074dd953ae31522e.md) |
@@ -71,6 +74,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 |---|---|---|---|---|---|
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-18 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
+| 2026-11-18 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-17 | 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
@@ -84,7 +88,6 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-13 | 2026-11-10 | R43744 v48 | Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works | [PDF](pdf/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.pdf) | [Markdown](markdown/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.md) |
 | 2026-11-13 | 2026-11-10 | R43743 v32 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v32-2026-11-10-826a49a9ed776cdb.pdf) | [Markdown](markdown/reports/R43743v32-2026-11-10-826a49a9ed776cdb.md) |
 | 2026-11-13 | 2026-11-10 | IN12550 v5 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.pdf) | [Markdown](markdown/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.md) |
-| 2026-11-13 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
 | 2026-11-11 | 2024-02-05 | RS21405 v36 | U.S. Periods of War and Dates of Recent Conflicts | [PDF](pdf/reports/RS21405v36-2024-02-05-c698c81efadcb252.pdf) | [Markdown](markdown/reports/RS21405v36-2024-02-05-c698c81efadcb252.md) |
 | 2026-11-11 | 2023-05-08 | RL33931 v40 | The Corporation for National and Community Service: Overview of Programs and Funding | [PDF](pdf/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.pdf) | [Markdown](markdown/reports/RL33931v40-2023-05-08-b5ef96bcffbdad19.md) |
