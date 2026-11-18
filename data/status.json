@@ -20,29 +20,24 @@
     "R49518: metadata resolution failed: www.everycrsreport.com: HTTP 404; official fallback: Congress API remaining quota is zero; defer without another request",
     "R43755: original archive failed: Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request"
   ],
-  "finished_at": "2026-11-18T03:46:19.187932+00:00",
+  "finished_at": "2026-11-18T04:30:35.721055+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "44232486382",
+  "github_run_id": "44237595763",
   "historical_new_pdf_versions": 0,
   "historical_pending_versions": 239,
   "last_successful_run_at": "2026-11-16T02:15:21.477049+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 11,
-  "new_pdf_versions": 1,
-  "official_current_pending": 0,
-  "official_current_required": 97,
-  "official_current_verified": 97,
-  "official_new_pdf_versions": 1,
-  "official_reconciled_at": "2026-11-18T03:52:19.815245+00:00",
+  "new_pdf_versions": 0,
   "pending_reports": 7,
   "pending_versions": 3,
   "planned_versions": 102,
-  "primary_new_pdf_versions": 1,
+  "primary_new_pdf_versions": 0,
   "primary_pdf_complete": false,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 8,
   "result": "failed",
-  "run_at": "2026-11-18T03:44:57.871867+00:00",
+  "run_at": "2026-11-18T04:29:20.405276+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -122,7 +117,6 @@
     }
   ],
   "total_archived_pdf_versions": 961,
-  "total_html_original_versions": 1,
   "total_html_snapshots": 690,
   "total_pdf_bytes": 790652227,
   "warnings": [
@@ -641,21 +635,13 @@
       ]
     },
     {
-      "id": "IF12508",
-      "messages": [
-        "crsreports.congress.gov: crsreports.congress.gov: HTTP 403; not bypassing access restrictions"
-      ]
-    },
-    {
-      "id": "R45743",
-      "messages": [
-        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
-      ],
+      "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "id": "R45780",
       "scope": "optional historical backfill"
     },
     {
       "error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "id": "R45778",
+      "id": "R45787",
       "scope": "optional historical backfill"
     },
     {

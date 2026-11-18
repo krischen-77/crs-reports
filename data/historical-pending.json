@@ -7,44 +7,6 @@
       "next_retry": "2026-11-20",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "5",
-        "date": "2019-06-19",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45778",
-            "sha1": "092b5e4d7f8b83266f7043b2d8273654a298c5fa",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190619_R45778_092b5e4d7f8b83266f7043b2d8273654a298c5fa.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45778",
-            "sha1": "4f0f35de7875a04503c8afc4412f3b4c877b19de",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20190619_R45778_4f0f35de7875a04503c8afc4412f3b4c877b19de.pdf"
-            ]
-          }
-        },
-        "id": "R45778",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45778",
-          "https://www.crs.gov/Reports/pdf/R45778"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "603541",
-        "title": "Exceptions to the Budget Control Act’s Discretionary Spending Limits",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "4",
         "date": "2019-06-20",
         "formats": {
@@ -79,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-18",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-20",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "1",
@@ -9930,6 +9894,46 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "600013",
         "title": "The Economic Effects of the 2017 Tax Revision: Preliminary Observations",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-18",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-20",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "5",
+        "date": "2019-06-19",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45778",
+            "sha1": "092b5e4d7f8b83266f7043b2d8273654a298c5fa",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190619_R45778_092b5e4d7f8b83266f7043b2d8273654a298c5fa.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45778",
+            "sha1": "4f0f35de7875a04503c8afc4412f3b4c877b19de",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20190619_R45778_4f0f35de7875a04503c8afc4412f3b4c877b19de.pdf"
+            ]
+          }
+        },
+        "id": "R45778",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45778",
+          "https://www.crs.gov/Reports/pdf/R45778"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "603541",
+        "title": "Exceptions to the Budget Control Act’s Discretionary Spending Limits",
         "version": "unknown"
       }
     }
