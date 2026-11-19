@@ -1,3 +1,5 @@
+**Official-current verification: 88/88. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archived files are retained.
@@ -5,8 +7,10 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
 | 2026-11-19 | R49522 v1 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v1-2026-11-19-1479c1133bcca618.pdf) | [Markdown](markdown/reports/R49522v1-2026-11-19-1479c1133bcca618.md) |
+| 2026-11-19 | R49521 v3 | Employee Stock Ownership Plans (ESOPs): Background and Policy | [PDF](pdf/reports/R49521v3-2026-11-19-f2c4dd5f63aef437.pdf) | [Markdown](markdown/reports/R49521v3-2026-11-19-f2c4dd5f63aef437.md) |
 | 2026-11-19 | LSB11501 v1 | Fourth Circuit: District Court May Hear Schools’ Challenge to Education Department’s Title IX Funding Decision | [PDF](pdf/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.pdf) | [Markdown](markdown/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.md) |
 | 2026-11-19 | IF13356 v1 | Private Equity and Professional Sports | [PDF](pdf/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.pdf) | [Markdown](markdown/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.md) |
+| 2026-11-19 | IF10256 v37 | U.S.-Taiwan Trade and Economic Relations | [PDF](pdf/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.pdf) | [Markdown](markdown/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.md) |
 | 2026-11-18 | R49520 v1 | Taxing AI: Alternative Approaches | [PDF](pdf/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.pdf) | [Markdown](markdown/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.md) |
 | 2026-11-18 | R44258 v25 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v25-2026-11-18-92c46dd771a01188.pdf) | [Markdown](markdown/reports/R44258v25-2026-11-18-92c46dd771a01188.md) |
 | 2026-11-18 | LSB11500 v1 | Federal District Court Holds That 18 U.S.C. § 611, the Federal Bar on Alien Voting, Is Unconstitutional | [PDF](pdf/sidebars/LSB11500v1-2026-11-18-d3bb50fde1a70edb.pdf) | [Markdown](markdown/sidebars/LSB11500v1-2026-11-18-d3bb50fde1a70edb.md) |
@@ -54,6 +58,7 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-16 | R43755 v4 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v4-2026-11-16-56a28b47f224d4e7.pdf) | [Markdown](markdown/reports/R43755v4-2026-11-16-56a28b47f224d4e7.md) |
 | 2026-11-16 | IF13351 v1 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v1-2026-11-16-6952747c322641f5.pdf) | [Markdown](markdown/in-focus/IF13351v1-2026-11-16-6952747c322641f5.md) |
 | 2026-11-16 | IF13351 v2 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v2-2026-11-16-7951363433c8a3ae.pdf) | [Markdown](markdown/in-focus/IF13351v2-2026-11-16-7951363433c8a3ae.md) |
+| 2026-11-16 | IF13351 v3 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.pdf) | [Markdown](markdown/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.md) |
 | 2026-11-16 | IF13350 v1 | Exchange Visitor Program: J-1 Visa Overview and Policy Considerations | [PDF](pdf/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.pdf) | [Markdown](markdown/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.md) |
 | 2026-11-16 | IF13349 v1 | The Role of Circular Finance in Funding AI Investment | [PDF](pdf/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.pdf) | [Markdown](markdown/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.md) |
 | 2026-11-16 | IF13295 v6 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.pdf) | [Markdown](markdown/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.md) |
@@ -96,7 +101,6 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-19 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-19 | 2026-03-25 | IF11934 v8 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.pdf) | [Markdown](markdown/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.md) |
-| 2026-11-19 | 2026-03-26 | IF10256 v36 | U.S.-Taiwan Trade and Economic Relations | [PDF](pdf/in-focus/IF10256v36-2026-03-26-6b2963f7738b75fe.pdf) | [Markdown](markdown/in-focus/IF10256v36-2026-03-26-6b2963f7738b75fe.md) |
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-18 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
