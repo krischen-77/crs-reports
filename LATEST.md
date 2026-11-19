@@ -1,3 +1,5 @@
+**Official-current verification: 83/83. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archived files are retained.
@@ -24,6 +26,7 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-17 | R49519 v1 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v1-2026-11-17-b217bd9aaa033053.pdf) | [Markdown](markdown/reports/R49519v1-2026-11-17-b217bd9aaa033053.md) |
 | 2026-11-17 | R48854 v4 | Poverty in the United States in 2025 | [PDF](pdf/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.pdf) | [Markdown](markdown/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.md) |
 | 2026-11-17 | R45546 v54 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v54-2026-11-17-074dd953ae31522e.pdf) | [Markdown](markdown/reports/R45546v54-2026-11-17-074dd953ae31522e.md) |
+| 2026-11-17 | R45546 v55 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v55-2026-11-17-c7a5d1f70c12f5b4.pdf) | [Markdown](markdown/reports/R45546v55-2026-11-17-c7a5d1f70c12f5b4.md) |
 | 2026-11-17 | LSB10922 v11 | Generative Artificial Intelligence and Copyright Law | [PDF](pdf/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.pdf) | [Markdown](markdown/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.md) |
 | 2026-11-17 | IN11982 v27 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v27-2026-11-17-8b682da73020b261.pdf) | [Markdown](markdown/insights/IN11982v27-2026-11-17-8b682da73020b261.md) |
 | 2026-11-17 | IF13354 v1 | The White House Office of Science and Technology Policy: Overview and Considerations for Congress | [PDF](pdf/in-focus/IF13354v1-2026-11-17-1e5d106f31a44bac.pdf) | [Markdown](markdown/in-focus/IF13354v1-2026-11-17-1e5d106f31a44bac.md) |
@@ -76,6 +79,7 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-12 | R47044 v4 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.pdf) | [Markdown](markdown/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.md) |
 | 2026-11-12 | R47044 v5 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v5-2026-11-12-494473ce42d9bd47.pdf) | [Markdown](markdown/reports/R47044v5-2026-11-12-494473ce42d9bd47.md) |
 | 2026-11-12 | R45931 v22 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v22-2026-11-12-8ff7437b2d6c11f9.pdf) | [Markdown](markdown/reports/R45931v22-2026-11-12-8ff7437b2d6c11f9.md) |
+| 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |
 | 2026-11-12 | IF13348 v1 | Offshore Energy Agency Appropriations, FY2027 | [PDF](pdf/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.pdf) | [Markdown](markdown/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.md) |
 | 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |
 | 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
