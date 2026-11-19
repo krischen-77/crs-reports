@@ -1,0 +1,1167 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;R/PDF/R45979.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Financial Inclusion and Credit Access Policy Issues</div>
+<div class="CoverDate">Updated October 24, 2019
+            (R45979)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc23409968"><span class="Hyperlink">Financial Inclusion Overview</span></a></li>
+<li class="TOC2"><a href="#_Toc23409969"><span class="Hyperlink">Financial Product Access and Financial Well-Being</span></a></li>
+<li class="TOC1"><a href="#_Toc23409970"><span class="Hyperlink">Access to Checking and Other Banking Accounts</span></a></li>
+<li class="TOC2"><a href="#_Toc23409971"><span class="Hyperlink">The Unbanked and Underbanked</span></a></li>
+<li class="TOC2"><a href="#_Toc23409972"><span class="Hyperlink">Checking and Savings Accounts: Banking Economics</span></a></li>
+<li class="TOC2"><a href="#_Toc23409973"><span class="Hyperlink">Banking Account Alternatives</span></a></li>
+<li class="TOC2"><a href="#_Toc23409974"><span class="Hyperlink">Access to Emergency Savings and Savings Accounts</span></a></li>
+<li class="TOC2"><a href="#_Toc23409975"><span class="Hyperlink">Possible Policy Responses</span></a></li>
+<li class="TOC1"><a href="#_Toc23409976"><span class="Hyperlink">Access to the Credit Reporting System</span></a></li>
+<li class="TOC2"><a href="#_Toc23409977"><span class="Hyperlink">Credit Invisibles and Unscorables</span></a></li>
+<li class="TOC2"><a href="#_Toc23409978"><span class="Hyperlink">Barriers to Entering the Credit System</span></a></li>
+<li class="TOC2"><a href="#_Toc23409979"><span class="Hyperlink">Expanding Credit Visibility Policy Issues</span></a></li>
+<li class="TOC3"><a href="#_Toc23409980"><span class="Hyperlink">Expanding Use of Currently Reported Products</span></a></li>
+<li class="TOC3"><a href="#_Toc23409981"><span class="Hyperlink">Using Alternative Data in Credit Reports</span></a></li>
+<li class="TOC1"><a href="#_Toc23409982"><span class="Hyperlink">Access to Affordable Small-Dollar Credit</span></a></li>
+<li class="TOC2"><a href="#_Toc23409983"><span class="Hyperlink">Access to Traditional Bank Credit Products</span></a></li>
+<li class="TOC2"><a href="#_Toc23409984"><span class="Hyperlink">Credit Alternative Financial Products</span></a></li>
+<li class="TOC2"><a href="#_Toc23409985"><span class="Hyperlink">New Technology and Market Developments</span></a></li>
+<li class="TOC2"><a href="#_Toc23409986"><span class="Hyperlink">Possible Policy Responses</span></a></li>
+<li class="TOC1"><a href="#_Toc23409987"><span class="Hyperlink">Conclusion</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc23409966"><span class="Hyperlink">Figure 1. Percentage of American Households Unbanked or Underbanked</span></a></li>
+<li><a href="#_Toc23409967"><span class="Hyperlink">Figure 2. Credit Invisible and Unscorable Consumers as of 2010</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Access to basic financial products and services is generally considered foundational for households to manage their financial affairs, improve their financial well-being, and graduate to wealth building activities in the future. Financial inclusion in three domains can be particularly important for households: </p><ul><li class="ListBulletSummary" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">access to bank and other payment accounts;</li>
+<li class="ListBulletSummary" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">access to the credit reporting system; and </li>
+<li class="ListBulletSummary" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">access to affordable short-term small-dollar credit. </li></ul><p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the United States, robust consumer credit markets allow most consumers to access financial services and credit products to meet their needs in traditional financial markets. For example, the vast majority of consumers have a bank account, a credit score, a credit card, and other types of credit products. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some consumers—who tend to be younger adults, low- and moderate-income (LMI) or possess an imperfect credit repayment history—can find gaining access to these banking and credit products and services difficult. Currently, consumers tend to rely on family or community connections to get their first bank account, establish a credit history, and gain access to affordable and safe credit. For those excluded, consumers may find managing their financial lives expensive and difficult. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Different barriers affect different populations. For some younger consumers, a lack of a co-signer might make it more difficult to build a credit report history or a lack of knowledge or familiarity with financial institutions may be a barrier to obtaining a bank account. For consumers living paycheck to paycheck, a bad credit history or a lack of money could serve as barriers to obtaining affordable credit or a bank account. For immigrants, the absence of a credit history in the United States or language differences could be critical access barriers. For consumers who do not have familiarity or access to the internet or mobile phones, a group in which older Americans may be overrepresented, technology can be a barrier to accessing financial products and services.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Financial institutions may find serving these consumers expensive or difficult, given their business model and safety and soundness regulation requirements. For example, lower-balance or less credit-worthy consumers may generally be less profitable for banks to serve. Likewise, some consumers may lack a credit history, making it difficult for lenders to determine their credit risk on a future loan. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">New technology has the potential to lower the cost of financial products and expand access to underserved consumers. For example, alternative (nontraditional) data may be able to better price default risk for lenders, which could expand credit access or make credit less expensive for some consumers. In addition, internet-based mobile wallets may provide affordable access to payment services for unbanked consumers. Yet, relevant consumer protection and data security laws and regulations may need to be reconsidered or updated in response to these technological developments. Policymakers debate whether existing regulation can accommodate financial innovation or whether a new regulatory framework is needed.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the importance of financial inclusion to financial well-being, and the challenges facing certain segments of the population, this topic may continue to be the subject of congressional interest and legislative proposals. In the 116<sup>th</sup> Congress, the House Financial Services Committee marked up and ordered reported <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.4067:"><span class="Hyperlink">H.R. 4067</span></a>, directing the Bureau of Consumer Financial Protection (CFPB) to report to Congress on these issues. In general, political debates around how to best achieve financial inclusion for underserved consumers relate to whether policy changes could help expand consumers' affordable access to these financial products and services. Disagreements exist about whether government programs or regulation should be used to directly support financial inclusion or whether laws and regulations make it more difficult for the private sector to create new or existing products targeted at serving underserved consumers. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span style="float: left;                       width: 0.75em;                       font-size: 400%;                       line-height: 80%;">S</span>afe and affordable financial services are an important tool for most American households to avoid financial hardship, build assets, and achieve financial security over the course of their lives. In the United States, robust consumer credit markets allow most consumers to access financial services and credit products to meet their needs in traditional financial markets. The vast majority of consumers have, for example, a bank account, a credit score, a credit card, and other types of credit products. However, some consumers—who tend to be younger adults, low- and moderate-income (LMI) consumers or possess imperfect credit repayment history—can find gaining access to these products and services difficult. For those excluded, consumers may find managing their financial lives expensive and difficult. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides an overview on financial inclusion. It then focuses on three areas: (1) access to bank and other payment accounts; (2) inclusion in the credit reporting system; and (3) access to affordable short-term credit. These areas are generally considered foundational for households to successfully manage their financial affairs and graduate to wealth building activities in the future. Wealth building activities—such as access to homeownership, education, and other financial investments—are outside the scope of this report.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="For more information on homeownership, see CRS Report R42995, An Overview of the Housing Finance System in the United States , by N. Eric Weiss and Katie Jones . For more information on education finance, see CRS Report R43351, The Higher Education Act (HEA): A Primer , by Alexandra Hegji . For more information on saving and investing for retirement, see CRS Report RL34397, Traditional and Roth Individual Retirement Accounts (IRAs): A Primer , by John J. Topoleski and CRS Report R40707...">1</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981950"></a><a name="_Toc17986082"></a><a name="_Toc20932483"></a><a name="_Toc22650636"></a><a name="_Toc22889449"></a><a name="_Toc23409968"></a>Financial Inclusion Overview</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Financial inclusion</em> refers to the idea that individuals "have access to useful and affordable financial products and services that meet their needs—transactions, payments, savings, credit, and insurance—delivered in a responsible and sustainable way."<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="The World Bank's definition of financial inclusion , see The World Bank, &quot;Financial Inclusion,&quot; October 2, 2018, at https://www.worldbank.org/en/topic/financialinclusion/overview .">2</a></sup> Access to financial products allows households to better manage their financial lives, such as storing funds safely, making payments in exchange for goods and services, and coping with unforeseen financial emergencies, such as medical expenses or car or home repairs.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the United States, most households rely on financial products found at traditional depository intuitions—commercial banks or credit unions. Some households also use financial products and services outside of the banking system, either by choice or due to a lack of access to traditional institutions. While products outside the banking sector may better suit some households' needs, these products might also lack consumer protections or other benefits that traditional financial institutions tend to provide.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Different barriers affect different populations. For some younger consumers, a lack of a co-signer might make it more difficult to build a credit report history or a lack of knowledge or familiarity with financial institutions may be a barrier to obtaining a bank account. For consumers living paycheck to paycheck, a bad credit history or a lack of money could serve as barriers to obtaining affordable credit or a bank account. For immigrants, the absence of a credit history in the United States or language differences could be critical access barriers. For consumers who do not have familiarity or access to the internet or mobile phones, a group in which older Americans may be overrepresented, technology can be a barrier to accessing financial products and services.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981951"></a><a name="_Toc17986083"></a><a name="_Toc20932484"></a><a name="_Toc22650637"></a><a name="_Toc22889450"></a><a name="_Toc23409969"></a>Financial Product Access and Financial Well-Being</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some consumers face barriers that make it more difficult for them to access traditional bank products, such as a bank account, enter the credit system, and gain access to financial product and service offerings in traditional financial markets. These barriers can be significant because they may disadvantage these consumers from effectively managing their financial lives and achieving financial well-being, which the Bureau of Consumer Financial Protection (CFPB) defines as</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. having control over day-to-day, month-to-month finances;</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. having the ability to absorb a financial shock;</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. being on track to meet financial goals; and</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. being able to make choices that allow a person to enjoy life.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Bureau of Consumer Financial Protection (CFPB), Financial Well-being: The Goal of Financial Education , January 2015, p. 5, at https://files.consumerfinance.gov/f/201501_cfpb_report_financial-well-being.pdf . (Hereinafter CFPB, Financial Well-being in America .)">3</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Research has examined the factors involved in achieving financial well-being. For example, a CFPB study found that—after controlling for certain economic factors—money management is strongly associated with financial well-being.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="CFPB, Pathways to Financial Well-Being: The Role of Financial Capability , September 2018, pp. 7-11, at https://files.consumerfinance.gov/f/documents/bcfp_financial-well-being_pathways-role-financial-capability_research-brief.pdf .">4</a></sup> In addition, the CFPB has found that not having a bank account and nonbank transaction product use (e.g., check cashing or money orders) is correlated with lower financial well-being.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="CFPB, Financial Well-being in America , September 2017, p. 57, at https://files.consumerfinance.gov/f/documents/201709_cfpb_financial-well-being-in-America.pdf .">5</a></sup> Although nonbank short-term credit is also correlated with lower financial well-being, the effect is not as large as the financial products previously mentioned.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="CFPB, Financial Well-being in America , p. 57.">6</a></sup> Lastly, holding liquid savings<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="L iquid savings are financial assets , su ch as a savings account, from which the household can easily access funds . In contrast, illiquid wealth includes valuable items, such as a car or home, that a household owns. For more information on U.S. households' balance sheet, see CRS Report R45813, An Overview of Consumer Finance and Policy Issues , by Cheryl R. Cooper .">7</a></sup> is highly correlated with the CFPB's financial well-being scale.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="CFPB, Financial Well-being in America , pp. 49-53.">8</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Academic research conducted abroad also suggests the importance of access to financial products to improve financial well-being.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Yet, because these studies were generally conducted abroad, it is possible that these effects may differ in the U.S. context.">9</a></sup> For example, some studies suggest that access to bank accounts can lead to more savings.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Dean Karlan et al., Research and Impacts of Digital Financial Services , National Bureau of Economic Research (NBER), Working Paper no. 22633 , September 2016, p.2. (Hereinafter Karlan etal., Research and Impacts of Digital Financial Services .)">10</a></sup> In particular, debit accounts seem to have strong effects, by helping consumers save more by reducing money spent on financial services and monitoring costs.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Pierre Bachas et al., How Debit Cards Enable the Poor to Save More , NBER, Working Paper no. 23252 , October 2018.">11</a></sup> Moreover, access to faster and more secure payment services has also been shown to provide significant benefits to consumers, including helping lower-income consumers better handle financial shocks.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Financial shocks are unexpected expenses, such as a car or home repair, a medical expense, or a pay cut; Karlan et al., Research and Impacts of Digital Financial Services , p.3.">12</a></sup> Likewise, inclusion in credit bureaus also have positive effects on consumers by reducing market information asymmetry and allowing some consumers to obtain better terms of credit.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Karlan et al., Research and Impacts of Digital Financial Services , pp.4-5.">13</a></sup> In contrast, the evidence on the effect of small-dollar short-term credit on individuals' financial well-being is mixed.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Karlan et al., Research and Impacts of Digital Financial Services , p.1.">14</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many Americans have low financial well-being and live paycheck to paycheck. National surveys suggest that about 40% of Americans find "covering expenses and bills in a typical month is somewhat or very difficult,"<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="CFPB, Financial Well-being in America , p. 72.">15</a></sup> and they could not pay all of their bills on time in the past year.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="Financial Health Network (formerly CFSI), U.S. Financial Health Pulse: 2018 Baseline Survey Results , May 2019, p.4, at https://finhealthnetwork.org/research/u-s-financial-health-pulse-2018-baseline-survey-results/  .">16</a></sup> In addition, more than 40% of households did not set aside any money in the past year for emergency expenses.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="Gerald Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , October 2018, p. 43, at https://www.fdic.gov/householdsurvey/2017/2017report.pdf . (Hereinafter Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households .)">17</a></sup> Therefore, a sizable portion of the adult population report they would have difficulty meeting an unexpected expense. If faced with a $400 unexpected expense, 39% of adults say they would borrow, sell something, or not be able to cover the expense.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="Federal Reserve, Report on the Economic Well-Being of U.S. Households in 2018 , May 2019, p. 2, at https://www.federalreserve.gov/publications/files/2018-report-economic-well-being-us-households-201905.pdf .">18</a></sup> These financial struggles lead to real impacts on the health and wellness of these families; those with low financial well-being are more likely to face material hardship.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="CFPB, Financial Well-being in America , p. 6.">19</a></sup> </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981953"></a><a name="_Toc17986085"></a><a name="_Toc22650638"></a><a name="_Toc20932485"></a><a name="_Toc22889451"></a><a name="_Toc17981959"></a><a name="_Toc17986091"></a><a name="_Toc23409970"></a>Access to Checking and Other Banking Accounts</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The banking sector provides valuable financial services for households that allow them to save, make payments, and access credit.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="The banking sector includes both banks and credit unions.">20</a></sup> Most U.S. consumers choose to open a bank account because it is a safe and secure way to store money.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="In this report, bank accounts refer to checking, savings, and other accounts at all depository institutions, including banks and credit unions.">21</a></sup> For example, the Federal Deposit Insurance Corporation (FDIC) insures up to $250,000 per depositor against an institution's failure. In addition, consumers gain access to payment services through checking accounts, such as bill pay and paper checks. Frequently, a checking account includes access to a debit card, which increases a consumer's ability to make payment transactions through the account.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="For more information on checking accounts, see CRS Report R43364, Recent Trends in Consumer Retail Payment Services Delivered by Depository Institutions , by Darryl E. Getter .">22</a></sup> For most consumers, a checking or savings account is less expensive than alternative ways to access these types of services. Some studies suggest that affordable access to payment transactions may be particularly important for consumers to manage their financial lives.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="CFPB, Financial Well-being in America , p. 57; and Karlan et al., Research and Impacts of Digital Financial Services , p. 3.">23</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For most consumers, opening a bank account is relatively easy. Consumers undergo an account verification process and sometimes provide a small initial opening deposit of money into the account.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="For a bank account, the initial opening deposit is usually under $100. Some banks do not require an initial deposit. For more information, see Melissa Lambarena, What You Need to Open a Bank Account , NerdWallet, October 30, 2018, at https://www.nerdwallet.com/blog/banking/how-to-open-a-bank-account-what-you-need/  .">24</a></sup> Many consumers open their first depository account when they get their first job or start post-secondary education. Checking and savings accounts are often the first relationship that a consumer has with a financial institution, which can later progress into other types of financial products and services, such as loan products or financial investments.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Safe and affordable financial services, especially for families with unpredictable income or expenses, have the potential to help households avoid financial hardship. However, many U.S. households—often those with low incomes, lack of credit histories, or credit histories marked with missed debt payments—do not use banking services. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981954"></a><a name="_Toc17986086"></a><a name="_Toc20932486"></a><a name="_Toc22650639"></a><a name="_Toc22889452"></a><a name="_Toc23409971"></a>The Unbanked and Underbanked</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to the FDIC's 2017 National Survey of Unbanked and Underbanked Households, 6.5% of households in the United States were <em>unbanked</em>, meaning that these households do not have a bank account (see <strong><a class="InternalLink" href="#_Ref22650550"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 1</strong><strong></strong>).<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 1.">25</a></sup> In addition, another 18.7% of households were <em>underbanked</em>, meaning that although these households had a bank account, they still obtained one or more of certain financial products and services outside of the banking system in the past year.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 1.">26</a></sup> These specified nonbank financial products, called <em>alternative financial services</em>, include check cashing, money orders, payday loans, auto title loans, pawn shop loans, refund anticipation loans, and rent-to-own services. Unbanked consumers tend to be lower-income, younger, have less formal education, of a racial or ethnic minority, disabled, and have incomes that varied substantially from month to month compared with the general U.S. population.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 19.">27</a></sup></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Toc20932481"></a><a name="_Ref22650550"></a><a name="_Toc22650634"></a><a name="_Toc22889447"></a><a name="_Toc23409966"></a>Figure 1. Percentage of American Households Unbanked or Underbanked</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="R45979_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Gerald Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, October 2018, p. 2, at <a class="ExternalLink" href="https://www.fdic.gov/householdsurvey/2017/2017report.pdf"><span class="Hyperlink">https://www.fdic.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">householdsurvey/</span><span class="Hyperlink"></span><span class="Hyperlink">2017/</span><span class="Hyperlink"></span><span class="Hyperlink">2017report.pdf</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unbanked persons may be electing not to open a bank account due to costs, a lack of trust, or other barriers. According to the survey, these households report that they do not have a bank account because they do not have enough money, do not trust banks, and to avoid high and unpredictable bank fees.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p.4.">28</a></sup> In addition, for immigrants, the account verification process may be more challenging to complete, and the consumer's country of origin may influence their trust of banks.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title='Vanessa Gail Perry, "Acculturation, Microculture and Banking: An Analysis of Hispanic Consumers in the USA," Journal of Services Marketing , vol. 22, no. 6 (2008), p. 427.'>29</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the past decade or so, the availability of free or low-cost checking accounts has reportedly diminished, and fees associated with checking accounts have grown.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="CFPB, CFPB Study of Overdraft Programs: A White Paper of Initial Data Findings , June 2013, pp. 15-17, at https://files.consumerfinance.gov/f/201306_cfpb_whitepaper_overdraft-practices.pdf ; and Federal Deposit Insurance Corporation ( FDIC), FDIC Quarterly Banking Profile: Quarterly Income Time-Series Data , 2019, at https://www.fdic.gov/bank/analytical/qbp/  .">30</a></sup> Some bank accounts require minimum account balances to avoid certain maintenance or service fees. The most common fees that checking account consumers incur are overdraft and nonsufficient fund fees.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="Trevor Bakker et al., Data Point: Checking Account Overdraft , CFPB, July 2014, p. 5, at https://files.consumerfinance.gov/f/201407_cfpb_report_data-point_overdrafts.pdf .">31</a></sup> Overdraft services can help consumers pay bills on time, but fees can be costly particularly if used repeatedly. For consumers living paycheck to paycheck, maintaining bank account minimums and avoiding account overdrafts might be difficult, leading to unaffordable account fees. In addition, unpaid fees can lead to involuntary account closures, making it more difficult to obtain a bank account in the future.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981955"></a><a name="_Toc17986087"></a><a name="_Toc20932487"></a><a name="_Toc22650640"></a><a name="_Toc22889453"></a><a name="_Toc23409972"></a>Checking and Savings Accounts: Banking Economics</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Depository institutions incur expenses to provide checking and savings accounts to consumers.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="Depository institutions refer to both banks and credit unions.">32</a></sup> In addition to specific account maintenance costs, physical banking branches incur costs to hire staff and maintain retail locations. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To recoup these costs, depository institutions make money from interest rate spreads (i.e., loaning out funds in checking and savings accounts) and account fees. Historically, some banks were willing to lose money on these types of accounts to begin a relationship with a client and later get more profitable business from the client, such as a credit card or mortgage loan.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title='Robert Barba, "The True Cost of Free Checking," Bankrate , March 7, 2018, at https://www.bankrate.com/banking/checking/free-checking-is-not-really-free/  .'>33</a></sup> In fact, checking and savings accounts data might allow a bank to better underwrite and price loans to a consumer.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title='Loretta J. Mester, Leonard I. Nakamura, and Micheline Renault, "Checking Accounts and Bank Monitoring," FRB of Philadelphia Working Paper No. 01-3 , March 2001; Lars Norden and Martin Weber, "Credit Line Usage, Checking Account Activity, and Default Risk of Bank Borrowers," Review of Financial Studies , vol. 23 (2010), pp. 3665-3699.'>34</a></sup> In this way, banks with a checking account relationship with a consumer might be able to provide more attractive loan terms than other banks without this relationship.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given these dynamics, lower-balance or less credit-worthy consumers may generally be less profitable for banks to serve. Consumers with low checking or savings account balances provide banks minimal funds to lend out and make a profit with. Moreover, less credit-worthy consumers may be less likely to develop into a profitable relationship for the banks if the consumer is not in a position to obtain loans from the bank in the near future. Therefore, bank fees may be seen as the best way for banks to recoup their account costs for these consumers. Because of the way bank fees are structured, consumers with lower balances using checking and savings accounts tend to incur more fees than consumers with higher balances.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Bank access may also have a geographic component, as some observers are concerned that <em>banking des</em><em>erts</em><em>—</em>areas without a bank branch nearby<em>—</em>exist in certain communities. Branch offices are still important to many consumers, even as mobile and online banking has become more popular. For example, most banked households visit a bank branch regularly, and one-third of banked households visit 10 or more times in a year.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 14.">35</a></sup> However, in the past 10 years, the number of bank branch offices has declined in the United States due to many causes, such as bank consolidations and the rise of online banking.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="Although some traditional banks have tried to compete in the digital banking space to provide cheaper products to consumers, banks have not always been successful with the online product channel. See Penny Crosman, &quot;Where did JPMorgan Chase 's Finn experiment go wrong?&quot; American Banker , June 6, 2019.">36</a></sup> Some argue that this has left some communities without any nearby bank branches, making it more difficult to access quality banking services, particularly in lower-income, non-urban areas.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='Drew Dahl and Michelle Franke, "Banking Deserts" Become a Concern as Branches Dry Up , Federal Reserve Bank of St. Louis, July 25, 2017, at https://www.stlouisfed.org/publications/regional-economist/second-quarter-2017/banking-deserts-become-a-concern-as-branches-dry-up ; Donald Morgan, Maxim Pinkovskiy, and Bryan Yang, Banking Deserts, Branch Closings, and Soft Information , Federal Reserve Bank of New York, March 7, 2016, at https://libertystreeteconomics.newyorkfed.org/2016/03/ba...'>37</a></sup> Yet others argue that banking deserts are not a major issue in the United States because they have been stable over time, and minority areas are less likely to be affected than other areas of the country.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="Donald Morgan, Maxim Pinkovskiy, and Bryan Yang, Banking Deserts, Branch Closings, and Soft Information , Federal Reserve Bank of New York, March 7, 2016, at https://libertystreeteconomics.newyorkfed.org/2016/03/banking-deserts-branch-closings-and-soft-information.html ; and Francisco Covas, Some Facts About Bank Branches and LMI Customers , Bank Policy Institute, April 4, 2019, at https://bpi.com/notes-papers-presentations/some-facts-about-bank-branches-and-lmi-customers/ ">38</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981956"></a><a name="_Toc17986088"></a><a name="_Toc20932488"></a><a name="_Toc22650641"></a><a name="_Toc22889454"></a><a name="_Toc17981957"></a><a name="_Toc17986089"></a><a name="_Toc23409973"></a>Banking Account Alternatives</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unbanked households rely on nonbank alternative financial products and services. Both unbanked and underbanked households are more likely to use transaction alternative financial products than credit alternative financial products.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 8.">39</a></sup> Transaction alternative financial products include check cashing, money orders, and other nonbank transaction products. In a typical month, unbanked consumers are more likely to use cash, nonbank money orders, and prepaid cards to pay bills and receive income, in contrast to banked consumers, who are most likely to use direct deposit, electronic bank payments, personal checks, debit cards, and credit cards.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 12.">40</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Alternative financial products can sometimes be less expensive, faster, and more convenient for some consumers.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="Lisa Servon, The Unbanking of America: How the New Middle Class Survives (Mariner Books, 2017).">41</a></sup> For example, although check cashing, money orders, and other nonbank transaction products might charge high fees, some consumers may incur higher or less predictable fees with a checking account. In addition, such alternative financial products might allow consumers to access cash more quickly, which might be valuable for consumers with tight budgets and little liquid savings or credit to manage financial shocks or other expenses. Lastly, nonbank stores often are open longer hours including evenings and weekends than banks, which might be more convenient for working households. Moreover, these nonbank stores might also be more likely to cater to a local ethnic or racial community, for example, by hiring staff who speak a native language and live in the local community. Although consumers may find benefits in using alternative financial products substitutes, these products may not always have all of the benefits of bank accounts, such as FDIC insurance or other consumer protections.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">General-purpose prepaid cards are another popular alternative to a traditional checking account. Use of prepaid cards is more prevalent among unbanked households—26.9% of unbanked and 14.5% of underbanked households used a prepaid card in the past year.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 7.">42</a></sup> These cards can be obtained through a bank, at a retail store, or online, and they can be used in payment networks, such as Visa and MasterCard. General-purpose reloadable prepaid cards generally have features similar to debit and checking accounts, such as the ability to pay bills electronically, get cash at an ATM, make purchases at stores or online, and receive direct deposits.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 34.">43</a></sup> However, unlike checking accounts, prepaid card funds are not always federally insured against an institution's failure.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="For more information on prepaid cards, see, CRS Report R43364, Recent Trends in Consumer Retail Payment Services Delivered by Depository Institutions , by Darryl E. Getter .">44</a></sup> Prepaid cards often have a monthly maintenance fee and other particular service fees, such as using an ATM or reloading cash. Some banks offer prepaid cards, yet unbanked consumers are much more likely to use a prepaid card from a store or website that is not a bank.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 38.">45</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Nonbank private-sector innovation could also provide more affordable financial products to unbanked and underbanked consumers. Whereas bank products may be expensive to provide to lower-income or less credit-worthy consumers, technology may be able to reduce the cost. For example, internet-based mobile wallets may provide access to payment services for unbanked consumers.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="For more information, see CFPB, Mobile Financial Services: A Summary of Comments from the Public on Opportunities, Challenges, and Risks for the Underserved , November 2015, p.7, at https://files.consumerfinance.gov/f/201511_cfpb_mobile-financial-services.pdf .">46</a></sup> Alternatives to a banking-based payment system have been proposed or pursued in other countries. For example, the M-pesa, a mobile payment system that does not use banks, has achieved a relatively high level of usage in parts of Africa.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='For more information on M-pesa, see "Why does Kenya lead the World in Mobile Money?" The Economist , March 2, 2015.'>47</a></sup> In addition, new mobile products aim to help consumers manage their money better and save by automating savings behavior.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="For more information on popular savings apps, see Melanie Lockert, The Best Money Apps for Saving and Investing , Credit Karma, January 24, 2018, at https://www.creditkarma.com/advice/i/best-money-saving-apps/  .">48</a></sup> Yet, concerns continue to exist for internet-based products around data privacy and cybersecurity issues. Policymakers debate whether existing regulation can accommodate financial innovation or whether a new regulatory framework is needed.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="For more information, see CRS In Focus IF11195, Financial Innovation: Reducing Fintech Regulatory Uncertainty , by David W. Perkins, Cheryl R. Cooper, and Eva Su .">49</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc20932489"></a><a name="_Toc22650642"></a><a name="_Toc22889455"></a><a name="_Toc23409974"></a>Access to Emergency Savings and Savings Accounts</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some research suggests that emergency savings is crucial for a household's financial stability. The ability to meet unexpected expenses is particularly important, because within any given year, most households face an unexpected financial shock.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="According to a Pew Charitable Trusts survey, 60% of households face a financial shock within 12 months, such as a major car or home repair, a trip to the hospital, a pay cut, or another large expense. The median cost of a household's most expensive shock during a year is $2,000. For more information, see The Pew Charitable Trusts, How Do Families Cope With Financial Shocks? The Role of Emergency Savings in Family Financial Security , October 2015, pp. 4-5, at https://www.pewtrusts.org/~/me...">50</a></sup> For example, one study found that families with even a relatively small amount of non-retirement savings (e.g., $250-$750) are less likely in a financial shock to be evicted, miss a housing or utility payment, or receive means-tested public benefits.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="Signe-Mary McKernan et al., Thriving Residents, Thriving Cities: Family Financial Security Matters for Cities , The Urban Institute, April 2016, p. 2, at https://www.urban.org/research/publication/thriving-residents-thriving-cities-family-financial-security-matters-cities .">51</a></sup> These findings are consistent throughout the income spectrum, not only for lower-income families.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="McKernan et al., Thriving Residents, Thriving Cities , pp. 6-9.">52</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One barrier for building emergency savings may include not having a separate account dedicated to saving. For example, money in a transaction account intended for emergencies can be vulnerable to unintentional overspending.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="For more information on consumer financial biases, see CRS Report R45813, An Overview of Consumer Finance and Policy Issues , by Cheryl R. Cooper .">53</a></sup> Although almost all banked households report having a checking account, roughly a quarter do not have a savings account.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 4.">54</a></sup> These households tend to be lower-income and living in rural areas and are more likely to be an ethnic or racial minority or working-age disabled compared with the U.S. population.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 44.">55</a></sup> Moreover, unbanked households are much less likely to report saving for unexpected expenses and emergencies (17.4%) than banked households (61.6%).<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 8.">56</a></sup> Whereas most households save using a checking or savings account, most unbanked households save at home or with family or friends.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 9.">57</a></sup> In addition, saving with a prepaid card is much more common for unbanked households.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 9.">58</a></sup> Some recent research suggests that saving, not only through a savings account, but also through savings wallets on prepaid cards, can help consumers avoid high-cost credit and alternative financial services.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title='Cheryl Cooper et al., Tools for Saving: Using Prepaid Accounts to Set Aside Funds , CFPB, September 2016, at https://files.consumerfinance.gov/f/documents/092016_cfpb_ToolsForSavingPrepaidAccounts.pdf ; Mathieu Despard et al., "Effects of a Tax-Time Savings Intervention on Use of Alternative Financial Services among Lower-Income Households," Journal of Consumer Affairs , vol. 51, no. 2 (2017); and Gregory Mills et al., "First‐Year Impacts on Savings and Economic Well‐Being from the Asset...'>59</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc20932490"></a><a name="_Toc22650643"></a><a name="_Toc22889456"></a><a name="_Toc23409975"></a>Possible Policy Responses</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In regard to accessing financial products and services that help consumers manage their finances and achieve financial success, some research suggests that consumers may particularly benefit from (1) access to affordable electronic payment system services, for example, through a traditional bank account; and (2) a safe way to accumulate and hold emergency savings. The government, the private sector, and the nonprofit sector all may be in a position to help increase access to these types of financial products for the underserved. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some propose changes to bank regulation to try to increase access to bank accounts. For example, the Community Reinvestment Act (CRA) encourages banking institutions to meet the credit needs of the areas they serve, particularly in LMI neighborhoods.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="P.L. 95-128 ; for more information on the Community Reinvestment Act (CRA), see CRS Report R43661, The Effectiveness of the Community Reinvestment Act , by Darryl E. Getter .">60</a></sup> Banks receive "CRA credits" for qualifying activities, such as mortgage, consumer, and business loans. Currently, providing bank accounts to LMI consumers or neighborhoods is not included in the calculation. Bank regulators are considering updating the CRA, and they recently received public comments on reforming implementation of the law.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title='On April 3, 2018, the U.S. Department of the Treasury (Treasury) released recommendations to modernize CRA in a memorandum to the federal banking regulators (Office of the Comptroller of the Currency [OCC], FCIC, and the Federal Reserve). One of their recommendations to modernize the CRA is to expand the types of loans, investments, and services that qualify for CRA credit. For more information, see U.S. Department of the Treasury, "Memorandum for the Office of the Comptroller of the Curren...'>61</a></sup> The Federal Reserve indicated that it is considering, due to public feedback, expanding the list of products and services that are eligible for CRA credits, including "financial services and products aimed at helping consumers get on a healthier financial path," such as affordable checking and savings accounts for LMI consumers.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title="Federal Reserve, Perspectives from Main Street: Stakeholder Feedback on Modernizing the Community Reinvestment Act , June 2019, p. 9, at https://www.federalreserve.gov/publications/files/stakeholder-feedback-on-modernizing-the-community-reinvestment-act-201906.pdf . For more information on the potential to encourage banks to provide basic bank services and small-dollar, nonmortgage loans to low- and moderate-income consumers, see U.S. Government Accountability Office, Community Reinves...">62</a></sup> Bank regulators may need to balance expanding CRA credit for these products with the CRA's statutory purpose, which was focused on encouraging bank lending activities to meet local communities' credit needs.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Payment system improvements, either by the government or the private sector, may also have the potential to improve welfare for unbanked or underbanked consumers. Many of these consumers choose alternative financial payment products such as check cashers to access their funds quickly.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title="Aaron Klein, The Fastest Way to Address Income Inequality? Implement a Real Time Payment System, Brookings Institution, January 2, 2019, at https://www.brookings.edu/research/the-fastest-way-to-address-income-inequality-implement-a-real-time-payment-system .">63</a></sup> These consumers might not require such alternative services if bank payment systems operated faster than they normally do. Both the private sector and the government are currently working on initiatives to make the bank payment system faster.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='Several private-sector initiatives are underway to implement faster payments. For an overview, see Nacha, Faster Payments 101 , at https://www.nacha.org/system/files/2019-05/FasterPayments101_2019.pdf . Notably, the Clearing House introduced its real time payment network (with real-time settlement) in November 2017; according to the Clearing House , it currently "reaches 50% of U.S. transaction accounts, and is on track to reach nearly all U.S. accounts in the next several years." For...'>64</a></sup> For example, the Federal Reserve plans to introduce a real time payment system called FedNow in 2023 or 2024, which would allow consumers access to funds quickly after initiating the transfer.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='The Federal Reserve stated, "it will likely take longer for any service, whether the FedNow Service or a private-sector service, to achieve nationwide reach regardless of when the service is initially available." Board of Governors of the Federal Reserve, Federal Reserve Actions to Support Interbank Settlement of Faster Payments , August 5, 2019, Docket No. OP-1670, at https://www.federalreserve.gov/newsevents/pressreleases/files/other20190805a1.pdf .'>65</a></sup> Faster payments may help some consumers avoid overdraft fees on checking accounts.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title="CFPB, Consumer Voices on Overdraft Programs , November 2017, pp. 16-19, at https://files.consumerfinance.gov/f/documents/cfpb_consumer-voices-on-overdraft-programs_report_112017.pdf .">66</a></sup> However, some payments that households make would also be cleared faster—debiting their accounts more quickly—which could be disadvantageous to some of these households compared with the current system.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Other policy proposals include the government directly providing accounts to retail customers. For example, offering banking services through postal offices<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="Mehrsa Baradaran, &quot;It's Time for Postal Banking,&quot; Harvard Law Review Forum , vol. 127 (February 2014), pp. 165-175; and Mehrsa Baradaran, How the Other Half Banks: Exclusion, Exploitation, and the Threat to Democracy (Cambridge, MA: Harvard University Press, 2015).">67</a></sup> or providing banking services online to the public through the Federal Reserve, which already provides accounts to banks.<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title='Morgan Ricks, John Crawford, and Lev Menand, " A Public Option for Bank Account s (or Central Banking for All)," Vanderbilt Law Research Paper 18-33 &amp; UC Hastings Research Paper No. 287 , January 26, 2019 .'>68</a></sup> Opposition to these proposals often centers on the appropriate role for the government. Some argue that the government should not be competing with the private sector to provide these services to consumers, especially in the competitive banking market.<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title="Eric Grover, &quot;Return to Sender: Here 's What's Wrong with Postal Banking,&quot; American Banker , May 17, 2018.">69</a></sup> Moreover, government bank accounts may not attract consumer demand. For example, the Treasury Department's myRA account program—which provided workers without a work retirement account a vehicle for retirement savings—closed after about three years, in part due to lack of participation.<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title="Katie Lobosco, &quot;Treasury Ends the MyRA, Obama's Retirement Savings Program,&quot; CNN Money , July 28, 2017.">70</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Financial education programs or outreach initiatives coordinated by the government, nonprofit organizations, and financial institutions could support financial inclusion as well.<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title="Adele Atkinson and Flore-Anne Messy, Promoting Financial Inclusion through Financial Education: OECD/INFE Evidence, Policies and Practice , Organisation for Economic Co-operation and Development ( OECD), OECD Working Papers on Finance, Insurance and Private Pensions no. 34, 2013, at https://www.oecd-ilibrary.org/docserver/5k3xz6m88smp-en.pdf .">71</a></sup> Given the importance of emergency savings, in 2019, CFPB Director Kraninger announced that the CFPB wants to focus on increasing consumer savings, through financial education initiatives<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title="CFPB, CFPB Announces Start Small, Save Up Initiative , February 25, 2019, at https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-start-small-save-initiative/  .">72</a></sup> and joint research projects with the financial industry.<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title='Yuka Hayashi, "Consumer Watchdog Wants to Work With Financial Companies to Encourage Saving," The Wall Street Journal , July 17, 2019.'>73</a></sup> In addition, the "Bank On" movement—a coalition between city, state, and federal government agencies, community organizations, financial institutions, and others—aims to encourage unbanked consumers to open and use bank accounts. Bank accounts associated with the movement must have no overdraft fees, charge a minimal amount of monthly fees, have deposits that are federally insured, and offer traditional banking services, such as direct deposit, debit or prepaid cards, and online banking.<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title="Heather Hennerich, A Look at the Affordable Banking Movement , Federal Reserve Bank of St. Louis, January 23, 2019, at https://www.stlouisfed.org/open-vault/2019/january/affordable-banking-movement .">74</a></sup> Nearly 3 million accounts have been opened through the movement, generally to new bank customers, and consumers tend to actively use these accounts.<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title="Hennerich, A Look at the Affordable Banking Movement .">75</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This topic may continue to be the subject of congressional interest and legislative proposals. In the 116<sup>th</sup> Congress, the House Financial Services Committee marked up and ordered reported <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.4067:"><span class="Hyperlink">H.R. 4067</span></a>, directing the CFPB to report to Congress on unbanked, underbanked, and underserved consumers.<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title='The Congressional Budget Office (CBO) has released a cost estimate on H.R. 4067 , finding that " enacting H.R. 4067 would increase direct spending by $10 million over the 2020-2029 period for the CFPB. " CBO, " H.R. 4067, Financial Inclusion in Banking Act of 2019 ," October 21, 2019, at https://www.cbo.gov/publication/55750 .'>76</a></sup> In addition, other legislation introduced proposes establishing an office within the CFPB to work on unbanked and underbanked issues (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.1285:"><span class="Hyperlink">H.R. 1285</span></a>) and proposes developing short-term non-retirement savings accounts for consumers with their employers automatically deducting from their paychecks (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:S.1019:"><span class="Hyperlink">S. 1019</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.2120:"><span class="Hyperlink">H.R. 2120</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:S.1053:"><span class="Hyperlink">S. 1053</span></a>) or using their tax refund to save (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.2112:"><span class="Hyperlink">H.R. 2112</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:S.1018:"><span class="Hyperlink">S. 1018</span></a> ).</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc20932491"></a><a name="_Toc22650644"></a><a name="_Toc22889457"></a><a name="_Toc23409976"></a>Access to the Credit Reporting System</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The credit reporting industry collects information on consumers and uses it to estimate the probability of future financial behaviors, such as successfully repaying a loan or defaulting on it. The information collected has largely related to consumers' past financial performance and repayment history on traditional credit products. Consumer files generally do not contain information on consumer income or assets or on alternative financial services. Credit bureaus collect and store payment data reported to them by financial firms, and they or other credit scoring companies use this data to estimate individual consumers' creditworthiness, generally expressed as a numerical "score." The three largest credit bureaus—Equifax, Experian, and TransUnion—provide credit reports nationwide that include repayment histories.<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title='For a list of consumer reporting agencies, see "List of Consumer Reporting Agencies," issued by CFPB, at https://files.consumerfinance.gov/f/documents/cfpb_consumer-reporting-companies-list.pdf .'>77</a></sup> Credit reports generally may not include information on items such as race or ethnicity, religious or political preference, or medical history.<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title="For more information on the credit reporting industry, see CRS Report R44125, Consumer Credit Reporting, Credit Bureaus, Credit Scoring, and Related Policy Issues , by Cheryl R. Cooper and Darryl E. Getter .">78</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This industry significantly affects consumer access to financial products, because lenders and other financial firms use consumer data when deciding whether to provide credit or other products to an individual and under what terms. Consumers who find it challenging to enter the traditional credit reporting system face challenges accessing many consumer credit products, such as mortgages or credit cards, because creditors are unable to assess the consumer's credit worthiness. This section examines some consumer credit reporting issues and related developments and policy issues.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981960"></a><a name="_Toc17986092"></a><a name="_Toc20932492"></a><a name="_Toc22650645"></a><a name="_Toc22889458"></a><a name="_Toc23409977"></a>Credit Invisibles and Unscorables</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to the CFPB, credit scores cannot be generated for approximately 20% of the U.S. population due to their limited credit histories.<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title="Kenneth P. Brevoort, Philipp Grimm, and Michelle Kambara, Data Point: Credit Invisibles , CFPB, May 2015, p. 6, at http://files.consumerfinance.gov/f/201505_cfpb_data-point-credit-invisibles.pdf . (Hereinafter Brevoort, Grimm, and Kambara, Data Point: Credit Invisibles .)">79</a></sup> The CFPB categorizes consumers with limited credit histories into several groups. One category of consumers, referred to as <span class="Emphasis">credit invisibles</span>, have no credit record at the three nationwide credit reporting agencies and, thus, do not exist for the purposes of credit reporting. Credit invisibles represents 11% of the U.S. adult population, or 26 million consumers (see <strong><a class="InternalLink" href="#_Ref22650561"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong>). Another category of consumers have a credit record and thus exist, but they cannot be scored or are considered <span class="Emphasis">un</span><span class="Emphasis">scorable</span>. Unscorable consumers either have insufficient (short) histories or stale (outdated) histories. The insufficient and stale unscored groups, each containing more than 9 million individuals, collectively represent 8.3% of the U.S. adult population, or approximately 19 million consumers.<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title="Brevoort, Grimm, and Kambara, Data Point: Credit Invisibles , p. 6.">80</a></sup></p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref22650561"></a><a name="_Toc20932482"></a><a name="_Toc22650635"></a><a name="_Toc22889448"></a><a name="_Toc23409967"></a>Figure 2. Credit Invisible and Unscorable Consumers as of 2010</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="R45979_files/1.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>See Kenneth P. Brevoort, Philipp Grimm, and Michelle Kambara, <em>Data Point: Credit Invisibles</em>, CFPB, May 2015, p. 6, <a class="ExternalLink" href="http://files.consumerfinance.gov/f/201505_cfpb_data-point-credit-invisibles.pdf"><span class="Hyperlink">http://files.consumerfinance.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">f/</span><span class="Hyperlink"></span><span class="Hyperlink">201505_cfpb_data-point-credit-invisibles.pdf</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Limited credit history is correlated with age, income, race, and ethnicity. Many consumers that are credit invisible or unscorable are young. For example, 40% of credit invisibles are under 25 years old.<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title="Brevoort, Grimm, and Kambara, Data Point: Credit Invisibles , p.14.">81</a></sup> Moreover, consumers who live in lower-income neighborhoods or are black or Hispanic are also disproportionately credit invisible or unscorable compared with the U.S. population.<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title="Brevoort, Grimm, and Kambara, Data Point: Credit Invisibles , pp.16-23.">82</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981961"></a><a name="_Toc17986093"></a><a name="_Toc20932493"></a><a name="_Toc22650646"></a><a name="_Toc22889459"></a><a name="_Toc23409978"></a>Barriers to Entering the Credit System</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most young adults transition into the credit reporting system in their early twenties—80% of consumers transition out of credit invisibility before age 25 and 90% before age 30.<sup><a class="FootnoteLink" href="#fn83" name="ifn83" title="Kenneth P. Brevoort and Michelle Kambara, Data Point: Becoming Credit Visible , CFPB, June 2017, pp. 5 and 8, at https://files.consumerfinance.gov/f/documents/BecomingCreditVisible_Data_Point_Final.pdf .">83</a></sup> For young consumers, the most common ways to become credit visible is through credit cards, student loans, and <em>piggybacking</em> (i.e., becoming a joint account holder or authorized user on another person's account, such as a parent's account).<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title="Brevoort and Kambara, Data Point: Becoming Credit Visible, p. 13; and CFPB, Building a Bridge to Credit Visibility: A Report on the CFPB 's September 2018 Building a Bridge to Credit Visibility Symposium, July 2019, p. 12, at https://files.consumerfinance.gov/f/documents/cfpb_building-a-bridge-to-credit-visibility_report.pdf .">84</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Young adults in LMI neighborhoods tend to make the transition to credit visibility at older ages than young adults in higher-income neighborhoods. In urban areas, consumers over 25 years old from LMI neighborhoods have higher rates of credit invisibility than those in middle and upper income areas.<sup><a class="FootnoteLink" href="#fn85" name="ifn85" title="Kenneth Brevoort et al., Data Point: The Geography of Credit Invisibility , CFPB, September 2018, pp. 10-11, at http://s3.amazonaws.com/files.consumerfinance.gov/f/documents/bcfp_data-point_the-geography-of-credit-invisibility.pdf .">85</a></sup> In addition, the highest rates of credit invisibility for consumers over 25 years old are in rural areas, and these rates do not vary much based on neighborhood income.<sup><a class="FootnoteLink" href="#fn86" name="ifn86" title="Brevoort et al., Data Point: The Geography of Credit Invisibility , pp. 11-12.">86</a></sup> Credit invisible consumers in LMI and rural areas are less likely to enter the credit bureaus through a credit card than credit invisible consumers in other parts of the country,<sup><a class="FootnoteLink" href="#fn87" name="ifn87" title="Brevoort et al., Data Point: The Geography of Credit Invisibility , p. 13.">87</a></sup> possibly because piggybacking is notably less common in LMI communities.<sup><a class="FootnoteLink" href="#fn88" name="ifn88" title="Brevoort and Kambara, Data Point: Becoming Credit Visible , p. 6.">88</a></sup> Moreover, using student loans to become credit visible is also less common in LMI areas.<sup><a class="FootnoteLink" href="#fn89" name="ifn89" title="Brevoort and Kambara, Data Point: Becoming Credit Visible , p. 17.">89</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Recent immigrants also have trouble entering the credit system when they come to the United States. Existing credit history from other countries does not transfer to the U.S. system. In addition, immigrants' alternative forms of identification, such as the Individual Taxpayer Identification Numbers (ITINs) might not be accepted by some financial services providers.<sup><a class="FootnoteLink" href="#fn90" name="ifn90" title="CFPB, Building a Bridge to Credit Visibility: A Report on the CFPB 's September 2018 Building a Bridge to Credit Visibility Symposium , July 2019, p. 8, at https://files.consumerfinance.gov/f/documents/cfpb_building-a-bridge-to-credit-visibility_report.pdf . (Hereinafter CFPB, Building a Bridge to Credit Visibility .)">90</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981962"></a><a name="_Toc17986094"></a><a name="_Toc20932494"></a><a name="_Toc22650647"></a><a name="_Toc22889460"></a><a name="_Toc23409979"></a>Expanding Credit Visibility Policy Issues</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Consumers without a credit record have trouble accessing credit, but without access to credit, a consumer cannot establish a credit record. In general, there are two ways that policymakers tend to approach this issue, either by (1) expanding uptake of financial products reported in the current system or (2) expanding the types of information in the credit reporting system using alternative data.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc20932495"></a><a name="_Toc22650648"></a><a name="_Toc22889461"></a><a name="_Toc23409980"></a>Expanding Use of Currently Reported Products</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The first approach often focuses on financial education and entry-level products. Financial education and partnerships between financial services providers and nonprofit groups may help consumers learn how credit reporting works, develop a credit history, and become scorable.<sup><a class="FootnoteLink" href="#fn91" name="ifn91" title="CFPB, Building a Bridge to Credit Visibility , p. 9.">91</a></sup> For example, financial wellness programs at workplaces are a growing way to deliver these types of programs.<sup><a class="FootnoteLink" href="#fn92" name="ifn92" title="CFPB, Financial Wellness at Work: A Review of Promising Practices and Policies , August 2014, at https://files.consumerfinance.gov/f/201408_cfpb_report_financial-wellness-at-work.pdf ; and Diana Elliott, Christine Heffernan, and Adaeze Okoli, Credit Building at the Workplace: Assessing Outcomes for Participants in Working Credit NFP , Urban Institute, June 20, 2019, at https://www.urban.org/research/publication/credit-building-workplace-assessing-outcomes-participants-working-credit-n...">92</a></sup> Yet financial education, coaching, and counseling can be expensive and difficult to provide to consumers.<sup><a class="FootnoteLink" href="#fn93" name="ifn93" title="CFPB, Building a Bridge to Credit Visibility , pp. 22-23.">93</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On the financial product side, tensions exist between expanding credit access to build a credit history and upholding consumer protection. For example, credit cards are the most common first product reported to credit bureaus, yet consumer protection regulations, such as the CARD Act of 2009,<sup><a class="FootnoteLink" href="#fn94" name="ifn94" title="P.L. 111-24 .">94</a></sup> reduce young consumers' access to credit cards.<sup><a class="FootnoteLink" href="#fn95" name="ifn95" title="Brevoort and Kambara, Data Point: Becoming Credit Visible , p. 6.">95</a></sup> Stakeholders believe that large financial services providers should develop entry-level credit products that are profitable and sustainable, without sacrificing consumer protections.<sup><a class="FootnoteLink" href="#fn96" name="ifn96" title="CFPB, Building a Bridge to Credit Visibility , p. 22.">96</a></sup> For example, secured credit cards—which are "secured" by a consumer deposit, so the issuer faces little risk of default—can help establish a credit history, but currently, are less likely to move consumers to credit visibility than unsecured (regular) credit cards.<sup><a class="FootnoteLink" href="#fn97" name="ifn97" title="Brevoort and Kambara, Data Point: Becoming Credit Visible , p. 15.">97</a></sup> Some consumer advocates believe that the security deposit is an obstacle for lower-income consumers.<sup><a class="FootnoteLink" href="#fn98" name="ifn98" title="CFPB, Building a Bridge to Credit Visibility , p. 12.">98</a></sup> This issue epitomizes the difficulty in developing credit-building financial products for unscorable consumers that are safe, accessible, and prudent for the financial institution. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981963"></a><a name="_Toc17986095"></a><a name="_Toc20932496"></a><a name="_Toc22650649"></a><a name="_Toc22889462"></a><a name="_Toc23409981"></a>Using Alternative Data in Credit Reports</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Alternative data generally refers to data that the national consumer reporting agencies do not traditionally use (e.g., information other than traditional financial institution credit repayments) to calculate a credit score. It can include both financial and nonfinancial data. In a 2017 Request for Information, the CFPB included examples of alternative data, such as payments on telecommunications; rent or utilities; checking account transaction information; educational or occupational attainment; how consumers shop, browse, or use devices; and social media information.<sup><a class="FootnoteLink" href="#fn99" name="ifn99" title='CFPB, "Request for Information Regarding Use of Alternative Data and Modeling Techniques in the Credit Process," 82 Federal Register 11185, February 21, 2017.'>99</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Alternative data could potentially be used to expand access to credit for current credit invisible or unscorable consumers, but it also could create data security risks or consumer protection violations. <em><span class="Emphasis">Alternative</span></em> data used in credit scoring could increase accuracy, visibility, and scorability in credit reporting by including additional information beyond that which is traditionally used. The ability to calculate scores for the credit invisible or unscoreable consumer groups could allow lenders using these scores to better determine the creditworthiness of people in these groups. Arguably, this would increase access to—and lower the cost of—credit for some credit invisible or unscorable individuals, as lenders using alternative data are able to find new creditworthy consumers. However, in cases where the alternative data includes negative or derogatory information, it has the potential to harm some consumers' existing credit scores. Some prospective borrowers may be unaware that alternative data has been used in credit decisions, raising privacy and consumer protection concerns.<sup><a class="FootnoteLink" href="#fn100" name="ifn100" title="For more information on data privacy and data protection law, see CRS Report R45631, Data Protection Law: An Overview , by Stephen P. Mulligan, Wilson C. Freeman, and Chris D. Linebaugh .">100</a></sup> Moreover, alternative data may pose fair lending risks if the data used are correlated with characteristics, such as race or ethnicity.<sup><a class="FootnoteLink" href="#fn101" name="ifn101" title='For example, a Charles River Associates report suggests that "geographic location, use of banking services, educational attainment, college or university attended and use of nonprime credit tend to be correlated with race and ethnicity." Bank regulatory agencies have not made it clear whether using this information is a legitimate business justification (like using credit bureau information is a legitimate business justification). For more information, see Marsha J. Courchane and David M. S...'>101</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Using alternative data for credit reporting raises regulatory compliance questions, which may be why adaption of alternative data in the credit reporting system is currently limited. The main statute regulating the credit reporting industry is the Fair Credit Reporting Act (FCRA),<sup><a class="FootnoteLink" href="#fn102" name="ifn102" title="15 U.S.C. §1681 et seq.">102</a></sup> which establishes consumers' rights in relation to their credit reports, as well as permissible uses of credit reports. It also imposes certain responsibilities on those who collect, furnish, and use the information contained in consumers' credit reports. Alternative data providers outside of the traditional consumer credit industry may find FCRA data furnishing requirements burdensome. Some alternative data may have accuracy issues, and managing consumer disputes requires time and resources. These regulations may discourage some organizations from furnishing alternative data, even if the data could help some consumers become scorable or increase their credit scores. In an effort to address such concerns, many consumer data industry firms use alternative data only when consumers' opt-in.<sup><a class="FootnoteLink" href="#fn103" name="ifn103" title='For example, FICO recently introduced the UltraFICO Score, a voluntary opt-in product that relies on bank account transaction data. For more information, see FICO, "Introducing UltraFICO Score," October 2, 2019, at https://www.fico.com/ultrafico/  . For the unscorable population, FICO also developed FICO Score XD for bankcard issuers by using landline phone, mobile phone, and cable payments history data. For more information, see FICO, "FICO Score XD," October 2, 2019, at https://www.f...'>103</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Using alternative data for credit reporting may continue to be the subject of congressional interest and legislative proposals. In the 116<sup>th</sup> Congress, the House Financial Services Committee marked up and ordered reported <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.3629:"><span class="Hyperlink">H.R. 3629</span></a>, which among other things directs the CFPB to report to Congress on the impact of using nontraditional data on credit scoring.<sup><a class="FootnoteLink" href="#fn104" name="ifn104" title='CBO estimates that H.R. 3629 would " would increase direct spending by $10 million over the 2020-2029 period. " See CBO, " H.R. 3629, Clarity in Credit Score Formation Act of 2019 ," October 7, 2019, at https://www.cbo.gov/publication/55700 .'>104</a></sup> In addition, other legislation introduced allows types of alternative data to be furnished to the credit bureaus (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:S.1828:"><span class="Hyperlink">S. 1828</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.4231:"><span class="Hyperlink">H.R. 4231</span></a>).</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981964"></a><a name="_Toc17986096"></a><a name="_Toc20932497"></a><a name="_Toc22650650"></a><a name="_Toc22889463"></a><a name="_Toc23409982"></a>Access to Affordable Small-Dollar Credit</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Short-term, small-dollar loans are consumer loans with relatively low initial principal amounts, often less than $1,000, with relatively short repayment periods, generally for a small number of weeks or months. Small-dollar loans can be offered in various forms and by both traditional financial institutions (e.g., banks) and alternative financial services providers (e.g., payday lenders). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many U.S. consumers do not have access to affordable small-dollar credit; often for these consumers, small-dollar credit is either expensive or difficult to access. The extent to which borrowers' financial situations would be harmed by using expensive credit or having limited access to credit is widely debated. Credit is an important way households pay for unexpected expenses and compensate for emergencies, such as a car or home repair, a medical expense, or a pay cut. Credit that can be paid back flexibly is particularly valued by consumers, especially those living paycheck to paycheck.<sup><a class="FootnoteLink" href="#fn105" name="ifn105" title="Daryl Collins et al., Portfolios of the Poor: How the World 's Poor Live on $2 a Day (Princeton, NJ: Princeton University Press, 2009), chapters 3 and 7.">105</a></sup> Research suggests that access to this type of short-term credit can help households during short-term emergencies, yet unsustainable debt can harm households.<sup><a class="FootnoteLink" href="#fn106" name="ifn106" title='CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 84 Federal Register 4292-4294, February 14, 2019; and CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 82 Federal Register 54842-54846, November 17, 2017.'>106</a></sup> Consumer groups often raise concerns regarding the affordability of small-dollar loans. Some borrowers may fall into <em>debt traps</em>, situations where borrowers repeatedly roll over existing loans into new loans and find it difficult to repay outstanding balances. Regulations aimed at reducing costs for borrowers may result in higher costs for lenders, possibly limiting or reducing credit availability for financially distressed individuals.<sup><a class="FootnoteLink" href="#fn107" name="ifn107" title="For more information on small-dollar lending markets, see CRS Report R44868, Short-Term, Small-Dollar Lending: Policy Issues and Implications , by Darryl E. Getter .">107</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This section focuses on expanding access to affordable small-dollar credit. Policymakers continue to be interested in ways to increase access to affordable credit because it is an important step in achieving financial stability. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981965"></a><a name="_Toc17986097"></a><a name="_Toc20932498"></a><a name="_Toc22650651"></a><a name="_Toc22889464"></a><a name="_Toc23409983"></a>Access to Traditional Bank Credit Products</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">About 80% of U.S. households have access to bank or traditional financial institution credit products, such as a general or store credit card, a mortgage, an auto loan, a student loan, or a bank personal loan.<sup><a class="FootnoteLink" href="#fn108" name="ifn108" title="Gerald Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , October 2018, p. 48, at https://www.fdic.gov/householdsurvey/2017/2017report.pdf .">108</a></sup> Credit cards are the most common form of credit, and they are what most households use for small-dollar credit needs.<sup><a class="FootnoteLink" href="#fn109" name="ifn109" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 9.">109</a></sup> In general, banks require a credit score or other information about the consumer to prudently underwrite a loan. Scorable and credit-worthy consumers are in a position to gain access to credit from traditional sources. Financial institutions also sometimes provide consumer loans to existing customers, even if the borrower lacks a credit score (e.g., a consumer with a checking account who is a student or young worker). Some institutions make these loans to build long-term relationships. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The remaining 20% of households do not have access to any traditional bank credit products,<sup><a class="FootnoteLink" href="#fn110" name="ifn110" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 48.">110</a></sup> generally because they are either unscorable or have a blemished credit history. They are more likely to be unbanked, low-income, and minority households.<sup><a class="FootnoteLink" href="#fn111" name="ifn111" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , pp. 9-10.">111</a></sup> Not having access to traditional bank credit is also correlated with age, formal education, disability status, and being a foreign-born noncitizen.<sup><a class="FootnoteLink" href="#fn112" name="ifn112" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 50.">112</a></sup> According to an FDIC estimate, 12.9% of households had unmet demand for bank small-dollar credit.<sup><a class="FootnoteLink" href="#fn113" name="ifn113" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 10.">113</a></sup> Of these households interested in bank credit, over three-quarters were current on bills in the last year, suggesting these households might be creditworthy.<sup><a class="FootnoteLink" href="#fn114" name="ifn114" title="Apaam et al ., FDIC National Survey of Unbanked and Underbanked Households , p. 55.">114</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Policymakers often face a trade-off between consumer protection and access to credit when regulating the banking sector. Consumer protection laws at the state and federal levels often limit the profitability of small-dollar, short-term loans. For example, legislation such as the CARD Act of 2009 placed restrictions on subprime credit card lending.<sup><a class="FootnoteLink" href="#fn115" name="ifn115" title="P.L. 111-24 .">115</a></sup> Small-dollar, short-term loans can be expensive for banks to provide. Although many of the underwriting and servicing costs are somewhat fixed regardless of size, smaller loans earn less total interest income, making them more likely to be unprofitable.<sup><a class="FootnoteLink" href="#fn116" name="ifn116" title="CFPB, Building a Bridge to Credit Visibility , p. 13.">116</a></sup> Moreover, excluded consumers often are either unscorable or have a blemished credit history, making it difficult for banks to prudently underwrite loans for these consumers. In addition, banks face various regulatory restrictions on their permissible activities, in contrast to nonbanks. For these reasons, many banks choose not to offer credit products to some consumers.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Nevertheless, banks have demonstrated interest in providing certain small-dollar financial services such as direct deposit advances, subprime credit cards, and overdraft protection services. In these cases, banks may face regulatory disincentives to providing these services, because bank regulators and legislators have sometimes demonstrated concerns about banks providing these products. For example, before 2013, some banks offered <em>deposit advance</em> products to consumers with bank accounts, which were short-term loans paid back automatically out of the borrower's next qualifying electronic deposit.<sup><a class="FootnoteLink" href="#fn117" name="ifn117" title="CFPB, Payday Loans and Deposit Advance Products: A White Paper of Initial Data Findings , April 24, 2013, pp. 6-7, at https://files.consumerfinance.gov/f/201304_cfpb_payday-dap-whitepaper.pdf .">117</a></sup> Research findings from the CFPB suggest that although deposit advance was designed to be a short-term product, many consumers used it intensively. In the CFPB's sample, the median user was in debt for 31% of the year.<sup><a class="FootnoteLink" href="#fn118" name="ifn118" title="CFPB, Payday Loans and Deposit Advance Products , p. 36.">118</a></sup> Because of this sustained use and concerns about consumer default risk, in 2013, the Office of the Comptroller of the Currency (OCC), FDIC, and Federal Reserve issued supervisory guidance, advising banks to make sure deposit advance products complied with consumer protection and safety and soundness regulations.<sup><a class="FootnoteLink" href="#fn119" name="ifn119" title='OCC, "Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products" 78 Federal Register 70624, November 26, 2013; FDIC, "Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products," 78 Federal Register 70552, November 26, 2013; and Federal Reserve, Statement on Deposit Advance Products , CA 13-7, April 25, 2013, at https://www.federalreserve.gov/supervisionreg/caletters/CA13-07attachment.pdf .'>119</a></sup> Many banks subsequently discontinued offering deposit advances.<sup><a class="FootnoteLink" href="#fn120" name="ifn120" title='Danielle Douglas, "Wells Fargo, U.S. Bank to End Deposit Advance Loans, Citing Tougher Regulation," January 17, 2014, at https://www.washingtonpost.com/business/economy/wells-fargo-us-bank-to-end-payday-loans-citing-tougher-regulation/2014/01/17/b65f0512-7f82-11e3-93c1-0e888170b723_story.html .'>120</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">At the same time, regulators and policymakers have implemented policies aimed at increasing credit availability. Regulation implemented pursuant to the CRA (the 1977 law discussed in the "Access to Checking and Other Banking Accounts" section above) encourages banking institutions to meet the credit needs of consumers in the areas they serve, particularly in LMI neighborhoods that tend to include these excluded consumers. However, the CRA applies only to individuals with an established relationship with a bank, excluding unbanked consumers in an area. Likewise, many small-dollar loan products may not be considered qualifying activities. Moreover, the CRA does not encourage banks from engaging in unprofitable activities, so the incentives it creates might be limited. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981966"></a><a name="_Toc17986098"></a><a name="_Toc20932499"></a><a name="_Toc22650652"></a><a name="_Toc22889465"></a><a name="_Toc23409984"></a>Credit Alternative Financial Products</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Credit alternative financial products include payday loans, pawn shop loans, auto title loans, and other types of loan products from nonbank providers. According to the FDIC, 6.9% of American households used a credit alternative financial service in 2017.<sup><a class="FootnoteLink" href="#fn121" name="ifn121" title="Apaam et al . , FDIC National Survey of Unbanked and Underbanked Households , p. 39.">121</a></sup> Households that rely on credit alternative financial services are more likely to be lower-income, younger, and a racial or ethnic minority compared with the general U.S. population.<sup><a class="FootnoteLink" href="#fn122" name="ifn122" title="Apaam et al., FDIC National Survey of Unbanked and Underbanked Households , p. 40 .">122</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some argue that credit alternative financial products are expensive and are more likely than bank products to lead to debt traps. Bank small-dollar credit may be less expensive for prime borrowers with credit histories or relationships with banks. For other consumers, credit alternative financial products might better serve their needs due to fee structure or less stringent underwriting. Yet, some of these consumers may not have access to bank products and thus rely on credit alternative financial products for their credit needs.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc20932500"></a><a name="_Toc22650653"></a><a name="_Toc22889466"></a><a name="_Toc23409985"></a>New Technology and Market Developments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">New technology may have the potential to help expand access to affordable credit to underserved consumers. For example, new nonbank digital or mobile-based financial products may lower the cost to provide small-dollar loans, making it easier to expand credit access to the underserved. Other nonbank products try to reduce default risk, for example, through employer-based lending models, to expand access to credit for more consumers.<sup><a class="FootnoteLink" href="#fn123" name="ifn123" title="For more information on employer-based loan market, see Chris Opfer, &quot;'Early Wage' Apps Aim to Disrupt Payday Loans, Two-Week Cycle,&quot; Bloomberg Law , August 1, 2019; and Ben Horowitz, How Small-Dollar Loan Programs can be a Big Benefit for Employees (and their Employers) , Minneapolis Federal Reserve Bank, June 19, 2018, at https://www.minneapolisfed.org/publications/community-dividend/how-small-dollar-loan-programs-can-be-a-big-benefit-for-employees-and-their-employers .">123</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition, some lenders choose not to rely solely on the credit reporting system, and instead use alternative data directly to make credit decisions. New products that use alternative data on prospective borrowers—either publicly or with the borrower's permission—may be able to better price lenders' default risk, which could expand credit access or make credit cheaper for some consumers.<sup><a class="FootnoteLink" href="#fn124" name="ifn124" title="See Julapa Jagtiani and Catharine Lemieux, The Roles of Alternative Data and Machine Learning in Fintech Lending: Evidence from the LendingClub Consumer Platform , Federal Reserve Bank of Philadelphia, Consumer Finance Institute, Working Paper no. 18-15, at https://www.philadelphiafed.org/-/media/research-and-data/publications/working-papers/2018/wp18-15r.pdf .">124</a></sup> Recent findings suggest that some types of alternative data—such as education, employment, and cash-flow information—might be promising ways to expand access to credit. For example, initial results from the Upstart Network's credit model, which uses alternative data to make credit and pricing decisions, shows that the model expands the number of consumers approved for credit, lowers the rate consumers pay for credit on average, and does not increase disparities based on race, ethnicity, gender, or age.<sup><a class="FootnoteLink" href="#fn125" name="ifn125" title="Patrice Ficklin and Paul Watkins, An Update on Credit Access and the Bureau's First No-Action Letter , CFPB, August 6, 2019, at https://www.consumerfinance.gov/about-us/blog/update-credit-access-and-no-action-letter/  .">125</a></sup> Moreover, another recent study suggests that cash-flow data may more accurately predict creditworthiness, and its use would expand credit access to more borrowers, while meeting fair lending rules.<sup><a class="FootnoteLink" href="#fn126" name="ifn126" title="FinRegLab, The Use of Cash-Flow Data in Underwriting Credit: Empirical Research Findings , July 2019, at https://finreglab.org/wp-content/uploads/2019/07/FRL_Research-Report_Final.pdf .">126</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One market segment is particularly illustrative of this practice. With the proliferation of internet access and data availability, some new lenders—often referred to as marketplace lenders or fintech lenders—rely on online platforms and frequently underwrite loans using alternative data. Although fintech lending remains a small part of the consumer lending market, it has grown rapidly in recent years. According to the Government Accountability Office (GAO), "in 2017, personal loans provided by these lenders totaled about $17.7 billion, up from about $2.5 billion in 2013."<sup><a class="FootnoteLink" href="#fn127" name="ifn127" title="For a more detailed discussion of relevant laws fintech lenders must comply with and the lack of detailed guidance from regulators, see GAO, Financial Technology: Agencies Should Provide Clarification on Lenders' Use of Alternative Data , GAO-19-111, December 2018, at https://www.gao.gov/assets/700/696149.pdf .">127</a></sup> In addition, incumbent bank and nonbank lenders have adopted certain of these technologies and practices to varying degrees, and in some cases have partnered or contracted with fintech companies to build or run online, algorithmic platforms. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Yet, despite the potential of new technology in small-dollar lending markets, these technologies also create risks for consumers. For example, new digital technology exposes consumers to data security risks. In addition, lenders' alternative data used to make credit decisions could result in disparate impacts or other consumer protection violations. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc20932501"></a><a name="_Toc22650654"></a><a name="_Toc22889467"></a><a name="_Toc23409986"></a>Possible Policy Responses</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Policymakers and observers will likely continue to explore ways to make affordable and safe credit accessible to a greater portion of the population (in addition to including more people in the credit reporting system, as discussed in a previous section of the report).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Changes to bank regulation could encourage more banking institutions to increase access to credit to underserved consumers. For example, some question the effectiveness of how the CRA is currently implemented, particularly with regard to short-term, small-dollar loans. As bank regulators consider updating the CRA, the Federal Reserve said that another area they are considering changing, due to public feedback, is expanding CRA-eligible products and services, such as payday loan alternatives and other small-dollar short-term loans for LMI consumers.<sup><a class="FootnoteLink" href="#fn128" name="ifn128" title="Federal Reserve, Perspectives from Main Street: Stakeholder Feedback on Modernizing the Community Reinvestment Act , June 2019, p. 9, at https://www.federalreserve.gov/publications/files/stakeholder-feedback-on-modernizing-the-community-reinvestment-act-201906.pdf . For more information on the potential to encourage banks to provide basic bank services and small-dollar, nonmortgage loans to LMI consumers, see U.S. Government Accountability Office, Community Reinvestment Act: Options for...">128</a></sup> Yet, as stated earlier in the report, bank regulators need to balance new CRA criteria with federal prudential regulations for <em><span class="Emphasis">safety and soundness</span></em>, which requires banks to prudently undertake CRA-qualified activities and not engage in activities that are likely unprofitable to the bank.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reducing regulatory barriers may also allow more banking institutions to increase access to credit to underserved consumers. Financial regulators have taken recent steps to encourage banks to re-enter the small-dollar lending market. In October 2017, the OCC rescinded the 2013 guidance, and in May 2018 issued a new bulletin to encourage their banks to enter this market.<sup><a class="FootnoteLink" href="#fn129" name="ifn129" title='OCC, Core Lending Principles for Short-Term, Small-Dollar Installment Lending , May 23, 2018, at https://www.occ.gov/news-issuances/bulletins/2018/bulletin-2018-14.html ; and OCC, "Rescission of Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products," 82 Federal Register 196, October 12, 2017.'>129</a></sup> In November 2018, the FDIC solicited advice about how to encourage more banks to offer small-dollar credit products.<sup><a class="FootnoteLink" href="#fn130" name="ifn130" title='FDIC, "Request for Information on Small-Dollar Lending," RIN 3064-ZA04 Federal Register , 2018, at https://www.govinfo.gov/content/pkg/FR-2018-11-20/pdf/2018-25257.pdf .'>130</a></sup> It is unclear whether these efforts will encourage banks to enter the small-dollar market with a product similar to deposit advance.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In terms of using new technology and alternative data in consumer lending, questions exist about how to comply with fair lending and other consumer protection regulations.<sup><a class="FootnoteLink" href="#fn131" name="ifn131" title="For example, the Equal Credit Opportunity Act (ECOA;,15 U.S.C. §§1691-1691f) generally prohibits discrimination in credit transactions based upon certain protected classes, including sex, race, color, national origin, religion, marital status, age, and &quot;because all or part of the applicant 's income derives from any public assistance program.&quot; ECOA has historically been interpreted to prohibit both intentional discrimination and disparate impact discrimination, in which a facially neutral...">131</a></sup> Currently, the federal financial regulators are monitoring these new technologies, but they have not provided detailed guidance.<sup><a class="FootnoteLink" href="#fn132" name="ifn132" title="For more information, see GAO, Financial Technology: Agencies Should Provide Clarification on Lenders' Use of Alternative Data, GAO-19-111, December 2018, p. 40, at https://www.gao.gov/assets/700/696149.pdf .">132</a></sup> In February 2017, the CFPB requested information from the public about the use of alternative data and modeling techniques in the credit process.<sup><a class="FootnoteLink" href="#fn133" name="ifn133" title='CFPB, "Request for Information Regarding Use of Alternative Data and Modeling Techniques in the Credit Process," 82 Federal Register 11185, February 21, 2017.'>133</a></sup> Information from this request led the CFPB to outline principles for consumer-authorized financial data sharing and aggregation in October 2017.<sup><a class="FootnoteLink" href="#fn134" name="ifn134" title="CFPB, Consumer Protection Principles: Consumer-Authorized Financial Data Sharing and Aggregation , October 18, 2017, at https://files.consumerfinance.gov/f/documents/cfpb_consumer-protection-principles_data-aggregation.pdf . For a summary of the feedback that informed these principals, see CFPB, Consumer-Authorized Financial Data Sharing and Aggregation: Stakeholder Insights That Inform the Consumer Protection Principles , October 18, 2017, at https://files.consumerfinance.gov/f/docum...">134</a></sup> These nine principles include, among other things, consumer access and usability, consumer control and informed consent, and data security and accuracy.<sup><a class="FootnoteLink" href="#fn135" name="ifn135" title="CFPB, Consumer Protection Principles , pp. 3-5.">135</a></sup> According to the GAO, both fintech lenders and federally regulated banks that work with fintech lenders reported that additional regulatory clarification would be helpful.<sup><a class="FootnoteLink" href="#fn136" name="ifn136" title="GAO, Financial Technology: Agencies Should Provide Clarification on Lenders' Use of Alternative Data , GAO-19-111, December 2018, p. 42, at https://www.gao.gov/assets/700/696149.pdf .">136</a></sup> Therefore, the GAO recommended "that the CFPB and the federal banking regulators communicate in writing to fintech lenders and banks that partner with fintech lenders, respectively, on the appropriate use of alternative data in the underwriting process."<sup><a class="FootnoteLink" href="#fn137" name="ifn137" title="GAO, Financial Technology , p. 45.">137</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Lastly, some advocate for the federal government providing small-dollar short-term loans to consumers directly if the private sector leaves some underserved, for example, through postal offices.<sup><a class="FootnoteLink" href="#fn138" name="ifn138" title="Mehrsa Baradaran, &quot;It's Time for Postal Banking,&quot; Harvard Law Review Forum , vol. 127 (February 2014), pp. 165-175; and Mehrsa Baradaran, How the Other Half Banks: Exclusion, Exploitation, and the Threat to Democracy ( Cambridge, MA : Harvard University Press, 2015).">138</a></sup> Yet, providing credit to consumers is more risky than providing bank accounts or other banking services because some consumers will default on their loans. Opponents of the government directly providing consumer loans often centers on concerns about the federal government managing the credit risks it would undertake.<sup><a class="FootnoteLink" href="#fn139" name="ifn139" title="Peter Conti-Brown, Why the Next Big Bank Shouldn't be the USPS , The Brookings Institution, May 31, 2018, at https://www.brookings.edu/research/why-the-next-big-bank-shouldnt-be-the-usps/  ; and Rebeca Romero Rainey, &quot;Postal Banking Should be a Dead Letter,&quot; American Banker , May 7, 2018.">139</a></sup> These opponents generally argue that the private sector is in a more appropriate position to take these risks.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17981969"></a><a name="_Toc17986101"></a><a name="_Toc20932502"></a><a name="_Toc22650655"></a><a name="_Toc22889468"></a><a name="_Toc23409987"></a>Conclusion</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Access to bank and other payment accounts, the credit reporting system, and affordable short-term small-dollar credit are generally considered foundational for households to manage their financial affairs, improve their financial well-being, and graduate to wealth building activities in the future. In the United States, robust consumer credit markets allow most consumers to access financial services and credit products to meet their needs in traditional financial markets. Yet currently, consumers tend to rely on family or community connections to get their first bank account, establish a credit history, and gain access to affordable and safe credit. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the importance of financial inclusion to financial well-being, and the challenges facing certain segments of the population, this topic is likely to continue to be the subject of congressional interest and legislative proposals. As markets develop and technology continues to change, new financial products have the potential to lower costs and expand access. Yet, as this report described, relevant laws and regulations may need to be reconsidered or updated in response to these technological developments. Moreover, policymakers may consider whether other policy changes could help expand consumers' affordable access to these financial products and services. Disagreements will continue to exist around whether government programs or regulation should be used to directly support financial inclusion or whether laws and regulations make it more difficult for the private sector to create new or existing products targeted at underserved consumers. </p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on homeownership, see CRS Report R42995, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42995"><em><span class="Hyperlink">An Overview of the Housing Finance System in the United States</span></em></a>, by N. Eric Weiss and Katie Jones. For more information on education finance, see CRS Report R43351, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43351"><em><span class="Hyperlink">The Higher Education Act (HEA): A Primer</span></em></a>, by Alexandra Hegji. For more information on saving and investing for retirement, see CRS Report RL34397, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34397"><em><span class="Hyperlink">Traditional and Roth Individual Retirement Accounts (IRAs): A Primer</span></em></a>, by John J. Topoleski and CRS Report R40707, <a class="ExternalLink" href="http://www.crs.gov/Reports/R40707"><em><span class="Hyperlink">401(k) Plans and Retirement Savings: Issues for Congress</span></em></a>, by John J. Topoleski.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The World Bank's definition of <em>financial inclusion</em>, see The World Bank, "Financial Inclusion," October 2, 2018, at <a class="ExternalLink" href="https://www.worldbank.org/en/topic/financialinclusion/overview"><span class="Hyperlink">https://www.worldbank.org/en/topic/financialinclusion/overview</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Bureau of Consumer Financial Protection (CFPB), <em>Financial Well-being: The Goal of Financial Education</em>, January 2015, p. 5, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/201501_cfpb_report_financial-well-being.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/201501_cfpb_report_financial-well-being.pdf</span></a>. (Hereinafter CFPB, <em>Financial Well-being in America</em>.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Pathways to Financial Well-Being: The Role of Financial Capability</em>, September 2018, pp. 7-11, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/bcfp_financial-well-being_pathways-role-financial-capability_research-brief.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/bcfp_financial-well-being_pathways-role-financial-capability_research-brief.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Financial Well-being in America</em>, September 2017, p. 57, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/201709_cfpb_financial-well-being-in-America.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/201709_cfpb_financial-well-being-in-America.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Financial Well-being in America</em>, p. 57.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Liquid savings are financial assets, such as a savings account, from which the household can easily access funds. In contrast, illiquid wealth includes valuable items, such as a car or home, that a household owns. For more information on U.S. households' balance sheet, see CRS Report R45813, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45813"><em><span class="Hyperlink">An Overview of Consumer Finance and Policy Issues</span></em></a>, by Cheryl R. Cooper.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Financial Well-being in America</em>, pp. 49-53.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Yet, because these studies were generally conducted abroad, it is possible that these effects may differ in the U.S. context.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Dean Karlan et al., <em>Research and Impacts of Digital Financial Services</em>, National Bureau of Economic Research (NBER), Working Paper no. 22633, September 2016, p.2. (Hereinafter Karlan etal., <em>Research and Impacts of Digital Financial Services</em>.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Pierre Bachas et al., <em>How Debit Cards Enable the Poor to Save More</em>, NBER, Working Paper no. 23252, October 2018.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Financial shocks are unexpected expenses, such as a car or home repair, a medical expense, or a pay cut; Karlan et al., <em>Research and Impacts of Digital Financial Services</em>, p.3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Karlan et al., <em>Research and Impacts of Digital Financial Services</em>, pp.4-5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Karlan et al., <em>Research and Impacts of Digital Financial Services</em>, p.1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Financial Well-being in America</em>, p. 72.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Financial Health Network (formerly CFSI), <em>U.S. Financial Health Pulse: 2018 Baseline Survey Results</em>, May 2019, p.4, at <a class="ExternalLink" href="https://finhealthnetwork.org/research/u-s-financial-health-pulse-2018-baseline-survey-results/"><span class="Hyperlink">https://finhealthnetwork.org/research/u-s-financial-health-pulse-2018-baseline-survey-results/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Gerald Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, October 2018, p. 43, at <a class="ExternalLink" href="https://www.fdic.gov/householdsurvey/2017/2017report.pdf"><span class="Hyperlink">https://www.fdic.gov/householdsurvey/2017/2017report.pdf</span></a>. (Hereinafter Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, <em>Report on the Economic Well-Being of U.S. Households in 2018</em>, May 2019, p. 2, at <a class="ExternalLink" href="https://www.federalreserve.gov/publications/files/2018-report-economic-well-being-us-households-201905.pdf"><span class="Hyperlink">https://www.federalreserve.gov/publications/files/2018-report-economic-well-being-us-households-201905.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Financial Well-being in America</em>, p. 6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The banking sector includes both banks and credit unions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In this report, <em>bank accounts</em> refer to checking, savings, and other accounts at all depository institutions, including banks and credit unions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on checking accounts, see CRS Report R43364, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43364"><em><span class="Hyperlink">Recent Trends in Consumer Retail Payment Services Delivered by Depository Institutions</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Financial Well-being in America</em>, p. 57; and Karlan et al., <em>Research and Impacts of Digital Financial Services</em>, p. 3.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a bank account, the initial opening deposit is usually under $100. Some banks do not require an initial deposit. For more information, see Melissa Lambarena, <em>What You Need to Open a Bank Account</em>, NerdWallet, October 30, 2018, at <a class="ExternalLink" href="https://www.nerdwallet.com/blog/banking/how-to-open-a-bank-account-what-you-need/"><span class="Hyperlink">https://www.nerdwallet.com/blog/banking/how-to-open-a-bank-account-what-you-need/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 19.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p.4.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Vanessa Gail Perry, "Acculturation, Microculture and Banking: An Analysis of Hispanic Consumers in the USA," <em>Journal of Services Marketing</em>, vol. 22, no. 6 (2008), p. 427.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>CFPB</em> <em>Study of Overdraft Programs: A White Paper of Initial Data Findings</em>, June 2013, pp. 15-17, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/201306_cfpb_whitepaper_overdraft-practices.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/201306_cfpb_whitepaper_overdraft-practices.pdf</span></a>; and Federal Deposit Insurance Corporation (FDIC), <em>FDIC Quarterly Banking Profile: Quarterly Income Time-Series Data</em>, 2019, at <a class="ExternalLink" href="https://www.fdic.gov/bank/analytical/qbp/"><span class="Hyperlink">https://www.fdic.gov/bank/analytical/qbp/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Trevor Bakker et al., <em>Data Point: Checking Account Overdraft</em>, CFPB, July 2014, p. 5, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/201407_cfpb_report_data-point_overdrafts.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/201407_cfpb_report_data-point_overdrafts.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Depository institutions refer to both banks and credit unions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Robert Barba, "The True Cost of Free Checking," <em>Bankrate</em>, March 7, 2018, at <a class="ExternalLink" href="https://www.bankrate.com/banking/checking/free-checking-is-not-really-free/"><span class="Hyperlink">https://www.bankrate.com/banking/checking/free-checking-is-not-really-free/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Loretta J. Mester, Leonard I. Nakamura, and Micheline Renault, "Checking Accounts and Bank Monitoring," <em>FRB of Philadelphia Working Paper No. 01-3</em>, March 2001; Lars Norden and Martin Weber, "Credit Line Usage, Checking Account Activity, and Default Risk of Bank Borrowers," <em>Review of Financial Studies</em>, vol. 23 (2010), pp. 3665-3699.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although some traditional banks have tried to compete in the digital banking space to provide cheaper products to consumers, banks have not always been successful with the online product channel. See Penny Crosman, "Where did JPMorgan Chase's Finn experiment go wrong?" <em>American Banker</em>, June 6, 2019.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Drew Dahl and Michelle Franke, <em>"Banking Deserts" Become a Concern as Branches Dry Up</em>, Federal Reserve Bank of St. Louis, July 25, 2017, at <a class="ExternalLink" href="https://www.stlouisfed.org/publications/regional-economist/second-quarter-2017/banking-deserts-become-a-concern-as-branches-dry-up"><span class="Hyperlink">https://www.stlouisfed.org/publications/regional-economist/second-quarter-2017/banking-deserts-become-a-concern-as-branches-dry-up</span></a>; Donald Morgan, Maxim Pinkovskiy, and Bryan Yang, <em>Banking Deserts, Branch Closings, and Soft Information</em>, Federal Reserve Bank of New York, March 7, 2016, at <a class="ExternalLink" href="https://libertystreeteconomics.newyorkfed.org/2016/03/banking-deserts-branch-closings-and-soft-information.html"><span class="Hyperlink">https://libertystreeteconomics.newyorkfed.org/2016/03/banking-deserts-branch-closings-and-soft-information.html</span></a>; and Francisco Covas, <em>Some Facts About Bank Branches and LMI Customers</em>, Bank Policy Institute, April 4, 2019, at <a class="ExternalLink" href="https://bpi.com/notes-papers-presentations/some-facts-about-bank-branches-and-lmi-customers/"><span class="Hyperlink">https://bpi.com/notes-papers-presentations/some-facts-about-bank-branches-and-lmi-customers/</span></a><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Donald Morgan, Maxim Pinkovskiy, and Bryan Yang, <em>Banking Deserts, Branch Closings, and Soft Information</em>, Federal Reserve Bank of New York, March 7, 2016, at <a class="ExternalLink" href="https://libertystreeteconomics.newyorkfed.org/2016/03/banking-deserts-branch-closings-and-soft-information.html"><span class="Hyperlink">https://libertystreeteconomics.newyorkfed.org/2016/03/banking-deserts-branch-closings-and-soft-information.html</span></a>; and Francisco Covas, <em>Some Facts About Bank Branches and LMI Customers</em>, Bank Policy Institute, April 4, 2019, at <a class="ExternalLink" href="https://bpi.com/notes-papers-presentations/some-facts-about-bank-branches-and-lmi-customers/"><span class="Hyperlink">https://bpi.com/notes-papers-presentations/some-facts-about-bank-branches-and-lmi-customers/</span></a><span class="Hyperlink"></span> </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 8.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 12.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Lisa Servon, <em>The Unbanking of America: How the New Middle Class Survives</em> (Mariner Books, 2017).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 7.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 34.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on prepaid cards, see, CRS Report R43364, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43364"><em><span class="Hyperlink">Recent Trends in Consumer Retail Payment Services Delivered by Depository Institutions</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 38.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CFPB, <em>Mobile Financial Services: A Summary of Comments from the Public on Opportunities, Challenges, and Risks for the Underserved</em>, November 2015, p.7, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/201511_cfpb_mobile-financial-services.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/201511_cfpb_mobile-financial-services.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on M-pesa, see "Why does Kenya lead the World in Mobile Money?" <em>The Economist</em>, March 2, 2015.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on popular savings apps, see Melanie Lockert, <em>The Best Money Apps for Saving and Investing</em>, Credit Karma, January 24, 2018, at <a class="ExternalLink" href="https://www.creditkarma.com/advice/i/best-money-saving-apps/"><span class="Hyperlink">https://www.creditkarma.com/advice/i/best-money-saving-apps/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS In Focus IF11195, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11195"><em><span class="Hyperlink">Financial Innovation: Reducing Fintech Regulatory Uncertainty</span></em></a>, by David W. Perkins, Cheryl R. Cooper, and Eva Su.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> According to a Pew Charitable Trusts survey, 60% of households face a financial shock within 12 months, such as a major car or home repair, a trip to the hospital, a pay cut, or another large expense. The median cost of a household's most expensive shock during a year is $2,000. For more information, see The Pew Charitable Trusts, <em>How Do Families Cope With Financial Shocks? The Role of Emergency Savings in Family Financial Security</em>, October 2015, pp. 4-5, at <a class="ExternalLink" href="https://www.pewtrusts.org/~/media/assets/2015/10/emergency-savings-report-1_artfinal.pdf"><span class="Hyperlink">https://www.pewtrusts.org/~/media/assets/2015/10/emergency-savings-report-1_artfinal.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Signe-Mary McKernan et al., <em>Thriving Residents, Thriving Cities: Family Financial Security Matters for Cities</em>, The Urban Institute, April 2016, p. 2, at <a class="ExternalLink" href="https://www.urban.org/research/publication/thriving-residents-thriving-cities-family-financial-security-matters-cities"><span class="Hyperlink">https://www.urban.org/research/publication/thriving-residents-thriving-cities-family-financial-security-matters-cities</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> McKernan et al., <em>Thriving Residents, Thriving Cities</em>, pp. 6-9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on consumer financial biases, see CRS Report R45813, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45813"><em><span class="Hyperlink">An Overview of Consumer Finance and Policy Issues</span></em></a>, by Cheryl R. Cooper.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 4.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 44.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 8.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Cheryl Cooper et al., <em>Tools for Saving: Using Prepaid Accounts to Set Aside Funds</em>, CFPB, September 2016, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/092016_cfpb_ToolsForSavingPrepaidAccounts.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/092016_cfpb_ToolsForSavingPrepaidAccounts.pdf</span></a>; Mathieu Despard et al., "Effects of a Tax-Time Savings Intervention on Use of Alternative Financial Services among Lower-Income Households," <em>Journal of Consumer Affairs</em>, vol. 51, no. 2 (2017); and Gregory Mills et al., "First‐Year Impacts on Savings and Economic Well‐Being from the Assets for Independence Program Randomized Evaluation," <em>Journal of Consumer Affairs</em>, vol. 53, no. 1 (Summer 2019).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d095:FLD002:@1(95+128)"><span class="Hyperlink">P.L. 95-128</span></a>; for more information on the Community Reinvestment Act (CRA), see CRS Report R43661, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43661"><em><span class="Hyperlink">The Effectiveness of the Community Reinvestment Act</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> On April 3, 2018, the U.S. Department of the Treasury (Treasury) released recommendations to modernize CRA in a memorandum to the federal banking regulators (Office of the Comptroller of the Currency [OCC], FCIC, and the Federal Reserve). One of their recommendations to modernize the CRA is to expand the types of loans, investments, and services that qualify for CRA credit. For more information, see U.S. Department of the Treasury, "Memorandum for the Office of the Comptroller of the Currency, the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation," April 3, 2018, at <a class="ExternalLink" href="https://home.treasury.gov/sites/default/files/2018-04/4-3-18%20CRA%20memo.pdf"><span class="Hyperlink">https://home.treasury.gov/sites/default/files/2018-04/4-3-18%20CRA%20memo.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, <em>Perspectives from Main Street: Stakeholder Feedback on Modernizing the Community Reinvestment Act</em>, June 2019, p. 9, at <a class="ExternalLink" href="https://www.federalreserve.gov/publications/files/stakeholder-feedback-on-modernizing-the-community-reinvestment-act-201906.pdf"><span class="Hyperlink">https://www.federalreserve.gov/publications/files/stakeholder-feedback-on-modernizing-the-community-reinvestment-act-201906.pdf</span></a>. For more information on the potential to encourage banks to provide basic bank services and small-dollar, nonmortgage loans to low- and moderate-income consumers, see U.S. Government Accountability Office, <em>Community Reinvestment Act: Options for Treasury to Consider to Encourage Services and Small-Dollar Loans When Reviewing Framework</em>, GAO-18-244, February 2018, at <a class="ExternalLink" href="https://www.gao.gov/assets/700/690050.pdf"><span class="Hyperlink">https://www.gao.gov/assets/700/690050.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Aaron Klein, <em>The Fastest Way to Address Income Inequality? Implement a Real Time Payment System, </em>Brookings Institution, January 2, 2019, at <a class="ExternalLink" href="https://www.brookings.edu/research/the-fastest-way-to-address-income-inequality-implement-a-real-time-payment-system"><span class="Hyperlink">https://www.brookings.edu/research/the-fastest-way-to-address-income-inequality-implement-a-real-time-payment-system</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Several private-sector <a class="ExternalLink" href="https://www.nacha.org/system/files/2019-05/FasterPayments101_2019.pdf"><span class="Hyperlink">initiatives</span></a> are underway to implement faster payments. For an overview, see Nacha, <em>Faster Payments 101</em>, at <a class="ExternalLink" href="https://www.nacha.org/system/files/2019-05/FasterPayments101_2019.pdf"><span class="Hyperlink">https://www.nacha.org/system/files/2019-05/FasterPayments101_2019.pdf</span></a>. Notably, the Clearing House introduced its real time payment network (with real-time settlement) in November 2017; <a class="ExternalLink" href="https://www.theclearinghouse.org/payment-systems/rtp/institution"><span class="Hyperlink">according to the Clearing House</span></a>, it currently "reaches 50% of U.S. transaction accounts, and is on track to reach nearly all U.S. accounts in the next several years." For more information, see The Clearing House, <em>The RTP Network: For All Financial Institutions</em>, webpage, at <a class="ExternalLink" href="https://www.theclearinghouse.org/payment-systems/rtp/institution"><span class="Hyperlink">https://www.theclearinghouse.org/payment-systems/rtp/institution</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Federal Reserve stated, "it will likely take longer for any service, whether the FedNow Service or a private-sector service, to achieve nationwide reach regardless of when the service is initially available." Board of Governors of the Federal Reserve, <em>Federal Reserve Actions to Support Interbank Settlement of Faster Payments</em>, August 5, 2019, Docket No. OP-1670, at <a class="ExternalLink" href="https://www.federalreserve.gov/newsevents/pressreleases/files/other20190805a1.pdf"><span class="Hyperlink">https://www.federalreserve.gov/newsevents/pressreleases/files/other20190805a1.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Consumer Voices on Overdraft Programs</em>, November 2017, pp. 16-19, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/cfpb_consumer-voices-on-overdraft-programs_report_112017.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/cfpb_consumer-voices-on-overdraft-programs_report_112017.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mehrsa Baradaran, "It's Time for Postal Banking," <em>Harvard Law Review Forum</em>, vol. 127 (February 2014), pp. 165-175; and Mehrsa Baradaran, <em>How the Other Half Banks: Exclusion, Exploitation, and the Threat to Democracy</em> (Cambridge, MA: Harvard University Press, 2015).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Morgan Ricks, John Crawford, and Lev Menand, "A Public Option for Bank Accounts (or Central Banking for All)," <em>Vanderbilt Law Research Paper 18-33 &amp; UC Hastings Research Paper No. 287</em>, January 26, 2019.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Eric Grover, "Return to Sender: Here's What's Wrong with Postal Banking," <em>American Banker</em>, May 17, 2018.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Katie Lobosco, "Treasury Ends the MyRA, Obama's Retirement Savings Program," <em>CNN Money</em>, July 28, 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Adele Atkinson and Flore-Anne Messy, <em>Promoting Financial Inclusion through Financial Education: OECD/INFE Evidence, Policies and Practice</em>, Organisation for Economic Co-operation and Development (OECD), OECD Working Papers on Finance, Insurance and Private Pensions no. 34, 2013, at <a class="ExternalLink" href="https://www.oecd-ilibrary.org/docserver/5k3xz6m88smp-en.pdf"><span class="Hyperlink">https://www.oecd-ilibrary.org/docserver/5k3xz6m88smp-en.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>CFPB Announces Start Small, Save Up Initiative</em>, February 25, 2019, at <a class="ExternalLink" href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-start-small-save-initiative/"><span class="Hyperlink">https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-start-small-save-initiative/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Yuka Hayashi, "Consumer Watchdog Wants to Work With Financial Companies to Encourage Saving," <em>The Wall Street Journal</em>, July 17, 2019.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Heather Hennerich, <em>A Look at the Affordable Banking Movement</em>, Federal Reserve Bank of St. Louis, January 23, 2019, at <a class="ExternalLink" href="https://www.stlouisfed.org/open-vault/2019/january/affordable-banking-movement"><span class="Hyperlink">https://www.stlouisfed.org/open-vault/2019/january/affordable-banking-movement</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Hennerich, <em>A Look at the Affordable Banking Movement</em>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Congressional Budget Office (CBO) has released a cost estimate on <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.4067:"><span class="Hyperlink">H.R. 4067</span></a>, finding that "enacting <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.4067:"><span class="Hyperlink">H.R. 4067</span></a> would increase direct spending by $10 million over the 2020-2029 period for the CFPB." CBO, "H.R. 4067, Financial Inclusion in Banking Act of 2019," October 21, 2019, at <a class="ExternalLink" href="https://www.cbo.gov/publication/55750"><span class="Hyperlink">https://www.cbo.gov/publication/55750</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a list of consumer reporting agencies, see "List of Consumer Reporting Agencies," issued by CFPB, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/cfpb_consumer-reporting-companies-list.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/cfpb_consumer-reporting-companies-list.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the credit reporting industry, see CRS Report R44125, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44125"><em><span class="Hyperlink">Consumer Credit Reporting, Credit Bureaus, Credit Scoring, and Related Policy Issues</span></em></a>, by Cheryl R. Cooper and Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kenneth P. Brevoort, Philipp Grimm, and Michelle Kambara, <em>Data Point: Credit Invisibles</em>, CFPB, May 2015, p. 6, at <a class="ExternalLink" href="http://files.consumerfinance.gov/f/201505_cfpb_data-point-credit-invisibles.pdf"><span class="Hyperlink">http://files.consumerfinance.gov/f/201505_cfpb_data-point-credit-invisibles.pdf</span></a>. (Hereinafter Brevoort, Grimm, and Kambara, <em>Data Point: Credit Invisibles</em>.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort, Grimm, and Kambara, <em>Data Point: Credit Invisibles</em>, p. 6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort, Grimm, and Kambara, <em>Data Point: Credit Invisibles</em>, p.14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort, Grimm, and Kambara, <em>Data Point: Credit Invisibles</em>, pp.16-23. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kenneth P. Brevoort and Michelle Kambara, <em>Data Point: Becoming Credit Visible</em>, CFPB, June 2017, pp. 5 and 8, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/BecomingCreditVisible_Data_Point_Final.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/BecomingCreditVisible_Data_Point_Final.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort and Kambara, Data Point: Becoming Credit Visible, p. 13; and CFPB, Building a Bridge to Credit Visibility: A Report on the CFPB's September 2018 Building a Bridge to Credit Visibility Symposium, July 2019, p. 12, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/cfpb_building-a-bridge-to-credit-visibility_report.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/cfpb_building-a-bridge-to-credit-visibility_report.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn85" name="fn85">85</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kenneth Brevoort et al., <em>Data Point: The Geography of Credit Invisibility</em>, CFPB, September 2018, pp. 10-11, at <a class="ExternalLink" href="http://s3.amazonaws.com/files.consumerfinance.gov/f/documents/bcfp_data-point_the-geography-of-credit-invisibility.pdf"><span class="Hyperlink">http://s3.amazonaws.com/files.consumerfinance.gov/f/documents/bcfp_data-point_the-geography-of-credit-invisibility.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn86" name="fn86">86</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort et al., <em>Data Point: The Geography of Credit Invisibility</em>, pp. 11-12.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn87" name="fn87">87</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort et al., <em>Data Point: The Geography of Credit Invisibility</em>, p. 13.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn88" name="fn88">88</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort and Kambara, <em>Data Point: Becoming Credit Visible</em>, p. 6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn89" name="fn89">89</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort and Kambara, <em>Data Point: Becoming Credit Visible</em>, p. 17.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn90" name="fn90">90</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Building a Bridge to Credit Visibility: A Report on the CFPB</em><em>'s</em><em> September 2018 Building a Bridge to Credit Visibility Symposium</em>, July 2019, p. 8, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/cfpb_building-a-bridge-to-credit-visibility_report.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/cfpb_building-a-bridge-to-credit-visibility_report.pdf</span></a>. (Hereinafter CFPB, <em>Building a Bridge to Credit Visibility</em>.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn91" name="fn91">91</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Building a Bridge to Credit Visibility</em>, p. 9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn92" name="fn92">92</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Financial Wellness at Work: A Review of Promising Practices and Policies</em>, August 2014, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/201408_cfpb_report_financial-wellness-at-work.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/201408_cfpb_report_financial-wellness-at-work.pdf</span></a>; and Diana Elliott, Christine Heffernan, and Adaeze Okoli, <em>Credit Building at the Workplace: Assessing Outcomes for Participants in Working Credit NFP</em>, Urban Institute, June 20, 2019, at <a class="ExternalLink" href="https://www.urban.org/research/publication/credit-building-workplace-assessing-outcomes-participants-working-credit-nfp"><span class="Hyperlink">https://www.urban.org/research/publication/credit-building-workplace-assessing-outcomes-participants-working-credit-nfp</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn93" name="fn93">93</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Building a Bridge to Credit Visibility</em>, pp. 22-23.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn94" name="fn94">94</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+24)"><span class="Hyperlink">P.L. 111-24</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn95" name="fn95">95</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort and Kambara, <em>Data Point: Becoming Credit Visible</em>, p. 6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn96" name="fn96">96</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Building a Bridge to Credit Visibility</em>, p. 22.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn97" name="fn97">97</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brevoort and Kambara, <em>Data Point: Becoming Credit Visible</em>, p. 15.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn98" name="fn98">98</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Building a Bridge to Credit Visibility</em>, p. 12.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn99" name="fn99">99</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, "Request for Information Regarding Use of Alternative Data and Modeling Techniques in the Credit Process," 82<em> Federal Register</em> 11185, February 21, 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn100" name="fn100">100</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on data privacy and data protection law, see CRS Report R45631, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45631"><em><span class="Hyperlink">Data Protection Law: An Overview</span></em></a>, by Stephen P. Mulligan, Wilson C. Freeman, and Chris D. Linebaugh.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn101" name="fn101">101</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, a Charles River Associates report suggests that "geographic location, use of banking services, educational attainment, college or university attended and use of nonprime credit tend to be correlated with race and ethnicity." Bank regulatory agencies have not made it clear whether using this information is a <em>legitimate business justification</em> (like using credit bureau information is a legitimate business justification). For more information, see Marsha J. Courchane and David M. Skanderson, <em>Fair Lending in the Brave New World of Big Data</em>, Charles River Associates, May 2017, p. 5, at <a class="ExternalLink" href="https://www.crai.com/sites/default/files/publications/FE-Fair-Lending-whitepaper-050317.pdf"><span class="Hyperlink">https://www.crai.com/sites/default/files/publications/FE-Fair-Lending-whitepaper-050317.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn102" name="fn102">102</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 15 U.S.C. §1681 et seq.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn103" name="fn103">103</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <span class="FootnoteTextChar">For example, FICO recently introduced the UltraFICO Score, a voluntary opt-in product that relies on bank account transaction data. For more information, see FICO, "Introducing UltraFICO Score," October 2, 2019, </span><span class="FootnoteTextChar">at </span><a class="ExternalLink" href="https://www.fico.com/ultrafico/"><span class="Hyperlink">https://www.fico.com/ultrafico/</span></a><span class="FootnoteTextChar"></span><span class="FootnoteTextChar">. For the unscorable population, FICO also developed FICO Score XD for bankcard issuers by using landline phone, mobile phone, and cable payments history data. For more information, see FICO, "FICO Score XD," October 2, 2019,</span><span class="FootnoteTextChar"> at</span><span class="FootnoteTextChar"> </span><a class="ExternalLink" href="https://www.fico.com/en/products/fico-score-xd"><span class="Hyperlink">https://www.fico.com/en/products/fico-score-xd</span></a><span class="FootnoteTextChar">. Experian recently launched ExperianBoost, which allows consumers to include utility and telecom bill payments in their credit record. For more information, see Susan</span><span class="FootnoteTextChar"> </span><span class="FootnoteTextChar">Henson</span><span class="FootnoteTextChar">, "Introducing Experian Boost, a New Way to Instantly Improve Your Credit Scores," Experian, December 19, 2018,</span><span class="FootnoteTextChar"> at</span><span class="FootnoteTextChar"> </span><a class="ExternalLink" href="https://www.experian.com/blogs/ask-experian/introducing-experian-boost/"><span class="Hyperlink">https://www.experian.com/blogs/ask-experian/introducing-experian-boost/</span></a><span class="FootnoteTextChar"></span><span class="FootnoteTextChar">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn104" name="fn104">104</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CBO estimates that <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d116:H.R.3629:"><span class="Hyperlink">H.R. 3629</span></a> would "would increase direct spending by $10 million over the 2020-2029 period." See CBO, "H.R. 3629, Clarity in Credit Score Formation Act of 2019," October 7, 2019, at <a class="ExternalLink" href="https://www.cbo.gov/publication/55700"><span class="Hyperlink">https://www.cbo.gov/publication/55700</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn105" name="fn105">105</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Daryl Collins et al., <span class="Emphasis">Portfolios of the Poor: How the World</span><span class="Emphasis">'s</span><span class="Emphasis"> Poor Live on $2 a Day</span> (Princeton, NJ: Princeton University Press, 2009), chapters 3 and 7.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn106" name="fn106">106</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 84 <span class="Emphasis">Federal Register </span>4292-4294, February 14, 2019; and CFPB, "Payday, Vehicle Title, and Certain High-Cost Installment Loans," 82 <span class="Emphasis">Federal Register </span>54842-54846, November 17, 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn107" name="fn107">107</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on small-dollar lending markets, see CRS Report R44868, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44868"><em><span class="Hyperlink">Short-Term, Small-Dollar Lending: Policy Issues and Implications</span></em></a>, by Darryl E. Getter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn108" name="fn108">108</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Gerald Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, October 2018, p. 48, at <a class="ExternalLink" href="https://www.fdic.gov/householdsurvey/2017/2017report.pdf"><span class="Hyperlink">https://www.fdic.gov/householdsurvey/2017/2017report.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn109" name="fn109">109</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 9.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn110" name="fn110">110</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 48.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn111" name="fn111">111</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, pp. 9-10.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn112" name="fn112">112</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 50.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn113" name="fn113">113</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 10.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn114" name="fn114">114</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <em>FDIC National Survey of Unbanked and Underbanked Households</em>, p. 55.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn115" name="fn115">115</a>.
+            </td>
+<td>
+<p class="BodyText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+24)"><span class="Hyperlink">P.L. 111-24</span></a><span class="Hyperlink3">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn116" name="fn116">116</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Building a Bridge to Credit Visibility</em>, p. 13.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn117" name="fn117">117</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Payday Loans and Deposit Advance Products: A White Paper of Initial Data Findings</em>, April 24, 2013, pp. 6-7, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/201304_cfpb_payday-dap-whitepaper.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/201304_cfpb_payday-dap-whitepaper.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn118" name="fn118">118</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Payday Loans and Deposit Advance Products</em>, p. 36.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn119" name="fn119">119</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OCC, "Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products" 78<em> Federal Register</em> 70624, November 26, 2013; FDIC, "Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products," 78<em> Federal Register</em> 70552, November 26, 2013; and Federal Reserve, <em>Statement on Deposit Advance Products</em>, CA 13-7, April 25, 2013, at <a class="ExternalLink" href="https://www.federalreserve.gov/supervisionreg/caletters/CA13-07attachment.pdf"><span class="Hyperlink">https://www.federalreserve.gov/supervisionreg/caletters/CA13-07attachment.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn120" name="fn120">120</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Danielle Douglas, "Wells Fargo, U.S. Bank to End Deposit Advance Loans, Citing Tougher Regulation," January 17, 2014, at <a class="ExternalLink" href="https://www.washingtonpost.com/business/economy/wells-fargo-us-bank-to-end-payday-loans-citing-tougher-regulation/2014/01/17/b65f0512-7f82-11e3-93c1-0e888170b723_story.html"><span class="Hyperlink">https://www.washingtonpost.com/business/economy/wells-fargo-us-bank-to-end-payday-loans-citing-tougher-regulation/2014/01/17/b65f0512-7f82-11e3-93c1-0e888170b723_story.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn121" name="fn121">121</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <span class="Emphasis">FDIC National Survey of Unbanked and Underbanked Households</span>, p. 39.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn122" name="fn122">122</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Apaam et al., <span class="Emphasis">FDIC National Survey of Unbanked and Underbanked Households</span>, p. 40.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn123" name="fn123">123</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on employer-based loan market, see Chris Opfer, "'Early Wage' Apps Aim to Disrupt Payday Loans, Two-Week Cycle," <em>Bloomberg Law</em>, August 1, 2019; and Ben Horowitz, <em>How Small-Dollar Loan Programs can be a Big Benefit for Employees (and their Employers)</em>, Minneapolis Federal Reserve Bank, June 19, 2018, at <a class="ExternalLink" href="https://www.minneapolisfed.org/publications/community-dividend/how-small-dollar-loan-programs-can-be-a-big-benefit-for-employees-and-their-employers"><span class="Hyperlink">https://www.minneapolisfed.org/publications/community-dividend/how-small-dollar-loan-programs-can-be-a-big-benefit-for-employees-and-their-employers</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn124" name="fn124">124</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Julapa Jagtiani and Catharine Lemieux, <em>The Roles of Alternative Data and Machine Learning in Fintech Lending: Evidence from the LendingClub Consumer Platform</em>, Federal Reserve Bank of Philadelphia, Consumer Finance Institute, Working Paper no. 18-15, at <a class="ExternalLink" href="https://www.philadelphiafed.org/-/media/research-and-data/publications/working-papers/2018/wp18-15r.pdf"><span class="Hyperlink">https://www.philadelphiafed.org/-/media/research-and-data/publications/working-papers/2018/wp18-15r.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn125" name="fn125">125</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Patrice Ficklin and Paul Watkins, <em>An Update on Credit Access and the Bureau's First No-Action Letter</em>, CFPB, August 6, 2019, at <a class="ExternalLink" href="https://www.consumerfinance.gov/about-us/blog/update-credit-access-and-no-action-letter/"><span class="Hyperlink">https://www.consumerfinance.gov/about-us/blog/update-credit-access-and-no-action-letter/</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn126" name="fn126">126</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FinRegLab, <em>The Use of Cash-Flow Data in Underwriting Credit: Empirical Research Findings</em>, July 2019, at <a class="ExternalLink" href="https://finreglab.org/wp-content/uploads/2019/07/FRL_Research-Report_Final.pdf"><span class="Hyperlink">https://finreglab.org/wp-content/uploads/2019/07/FRL_Research-Report_Final.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn127" name="fn127">127</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a more detailed discussion of relevant laws fintech lenders must comply with and the lack of detailed guidance from regulators, see GAO, <em>Financial Technology: Agencies Should Provide Clarification on Lenders' Use of Alternative Data</em>, GAO-19-111, December 2018, at <a class="ExternalLink" href="https://www.gao.gov/assets/700/696149.pdf"><span class="Hyperlink">https://www.gao.gov/assets/700/696149.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn128" name="fn128">128</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, <em>Perspectives from Main Street: Stakeholder Feedback on Modernizing the Community Reinvestment Act</em>, June 2019, p. 9, at <a class="ExternalLink" href="https://www.federalreserve.gov/publications/files/stakeholder-feedback-on-modernizing-the-community-reinvestment-act-201906.pdf"><span class="Hyperlink">https://www.federalreserve.gov/publications/files/stakeholder-feedback-on-modernizing-the-community-reinvestment-act-201906.pdf</span></a>. For more information on the potential to encourage banks to provide basic bank services and small-dollar, nonmortgage loans to LMI consumers, see U.S. Government Accountability Office, <em>Community Reinvestment Act: Options for Treasury to Consider to Encourage Services and Small-Dollar Loans When Reviewing Framework</em>, GAO-18-244, February 2018, at <a class="ExternalLink" href="https://www.gao.gov/assets/700/690050.pdf"><span class="Hyperlink">https://www.gao.gov/assets/700/690050.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn129" name="fn129">129</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OCC, <em>Core Lending Principles for Short-Term, Small-Dollar Installment Lending</em>, May 23, 2018, at <a class="ExternalLink" href="https://www.occ.gov/news-issuances/bulletins/2018/bulletin-2018-14.html"><span class="Hyperlink">https://www.occ.gov/news-issuances/bulletins/2018/bulletin-2018-14.html</span></a>; and OCC, "Rescission of Guidance on Supervisory Concerns and Expectations Regarding Deposit Advance Products," 82<em> Federal Register</em> 196, October 12, 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn130" name="fn130">130</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> FDIC, "Request for Information on Small-Dollar Lending," RIN 3064-ZA04<em> Federal Register</em>, 2018, at <a class="ExternalLink" href="https://www.govinfo.gov/content/pkg/FR-2018-11-20/pdf/2018-25257.pdf"><span class="Hyperlink">https://www.govinfo.gov/content/pkg/FR-2018-11-20/pdf/2018-25257.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn131" name="fn131">131</a>.
+            </td>
+<td>
+<p class="BodyText" style=""><span class="FootnoteTextChar"> For example, the Equal Credit Opportunity Act (ECOA;,15 U.S.C. §§1691-1691f) generally prohibits discrimination in credit transactions based upon certain protected classes, including sex, race, color, national origin, religion, marital status, age, and "because all or part of the applicant</span><span class="FootnoteTextChar">'s</span><span class="FootnoteTextChar"> income derives from any public assistance program." </span><span class="FootnoteTextChar">ECOA has </span><span class="FootnoteTextChar">historically </span><span class="FootnoteTextChar">been interpreted to prohibit both intentional discrimination and disparate impact discrimination, in which a facially neutral business decision has a discriminatory effect on a protected class. However, the Supreme Court</span><span class="FootnoteTextChar">'</span><span class="FootnoteTextChar">s reasoning in a June 2015 decision involving the Fair Housing Act, another federal antidiscrimination law, has sparked </span><a class="ExternalLink" href="https://buckleyfirm.com/articles/2015-06-29/special-alert-disparate-impact-under-equal-credit-opportunity-act-after-inclusive-communities"><span class="FootnoteTextChar">debate</span></a><span class="FootnoteTextChar"> about whether disparate impact claims are covered under ECOA. For background on disparate impact claims,</span><span class="FootnoteTextChar"> </span>CRS Report R44203, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44203"><em><span class="Hyperlink">Disparate Impact Claims Under the Fair Housing Act</span></em></a>, by David H. Carpenter<span class="FootnoteTextChar">.</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn132" name="fn132">132</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see GAO, Financial Technology: Agencies Should Provide Clarification on Lenders' Use of Alternative Data, GAO-19-111, December 2018, p. 40, at <a class="ExternalLink" href="https://www.gao.gov/assets/700/696149.pdf"><span class="Hyperlink">https://www.gao.gov/assets/700/696149.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn133" name="fn133">133</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, "Request for Information Regarding Use of Alternative Data and Modeling Techniques in the Credit Process," 82<em> Federal Register</em> 11185, February 21, 2017.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn134" name="fn134">134</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Consumer Protection Principles: Consumer-Authorized Financial Data Sharing and Aggregation</em>, October 18, 2017, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/cfpb_consumer-protection-principles_data-aggregation.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/cfpb_consumer-protection-principles_data-aggregation.pdf</span></a>. For a summary of the feedback that informed these principals, see CFPB, <em>Consumer-Authorized Financial Data Sharing and Aggregation: Stakeholder Insights That Inform the Consumer Protection Principles</em>, October 18, 2017, at <a class="ExternalLink" href="https://files.consumerfinance.gov/f/documents/cfpb_consumer-protection-principles_data-aggregation_stakeholder-insights.pdf"><span class="Hyperlink">https://files.consumerfinance.gov/f/documents/cfpb_consumer-protection-principles_data-aggregation_stakeholder-insights.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn135" name="fn135">135</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CFPB, <em>Consumer Protection Principles</em>, pp. 3-5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn136" name="fn136">136</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, <em>Financial Technology: Agencies Should Provide Clarification on Lenders' Use of Alternative Data</em>, GAO-19-111, December 2018, p. 42, at <a class="ExternalLink" href="https://www.gao.gov/assets/700/696149.pdf"><span class="Hyperlink">https://www.gao.gov/assets/700/696149.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn137" name="fn137">137</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, <em>Financial Technology</em>, p. 45.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn138" name="fn138">138</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Mehrsa Baradaran, "It's Time for Postal Banking," <em>Harvard Law Review Forum</em>, vol. 127 (February 2014), pp. 165-175; and Mehrsa Baradaran, <em>How the Other Half Banks: Exclusion, Exploitation, and the Threat to Democracy</em> (Cambridge, MA: Harvard University Press, 2015).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn139" name="fn139">139</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Peter Conti-Brown, <em>Why the Next Big Bank Shouldn't be the USPS</em>, The Brookings Institution, May 31, 2018, at <a class="ExternalLink" href="https://www.brookings.edu/research/why-the-next-big-bank-shouldnt-be-the-usps/"><span class="Hyperlink">https://www.brookings.edu/research/why-the-next-big-bank-shouldnt-be-the-usps/</span></a>; and Rebeca Romero Rainey, "Postal Banking Should be a Dead Letter," <em>American Banker</em>, May 7, 2018.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
