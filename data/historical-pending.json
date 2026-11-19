@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-19",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-21",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-19",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-21",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -9857,6 +9861,286 @@
         },
         "title": "Salaries of Members of Congress: Recent Actions and Historical Tables",
         "version": "101"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-20",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2019-02-26",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11119",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2019-02-26_IF11119_b8fae9fe68494165297c448c330243395d2ffd59.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11119",
+            "sha1": "b8fae9fe68494165297c448c330243395d2ffd59",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF11119/1",
+              "https://www.everycrsreport.com/files/2019-02-26_IF11119_b8fae9fe68494165297c448c330243395d2ffd59.pdf"
+            ]
+          }
+        },
+        "id": "IF11119",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-19T17:11:26Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11119_1_2019-02-26",
+        "superseded_by_official_current": {
+          "historical_publication": "2019-02-26",
+          "id": "IF11119",
+          "official_pdf_sha256": "fb4adba49105f533e9b535d078e78811ae3af8442bf185d225981795ff215b6a",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11119/IF11119.3.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Federal Records: Types and Treatments",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-20",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "16",
+        "date": "2025-12-01",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11361",
+            "sha1": "6f8d4ff583566a3b21819e8b3cb135dd5eacacfd",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF11361.web.html",
+              "https://www.everycrsreport.com/files/2025-12-01_IF11361_6f8d4ff583566a3b21819e8b3cb135dd5eacacfd.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11361",
+            "sha1": "c2d6c56f17b5136a96a1556f176a5e034245c194",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF11361/IF11361.17.pdf",
+              "https://www.everycrsreport.com/files/2025-12-01_IF11361_c2d6c56f17b5136a96a1556f176a5e034245c194.pdf"
+            ]
+          }
+        },
+        "id": "IF11361",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-19T17:12:07Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11361_A17_2025-12-01",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-12-01",
+          "id": "IF11361",
+          "official_pdf_sha256": "c49f390d142b71a849ef4c040e3564100917e97e1b6ce5fd08fadce40bc5d125",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11361/IF11361.18.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The World Bank",
+        "version": "17"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-20",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2025-09-15",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13103",
+            "sha1": "5f1db7c5c2990ec713e11aa0e4ffc3ef935bbf25",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13103.web.html",
+              "https://www.everycrsreport.com/files/2025-09-15_IF13103_5f1db7c5c2990ec713e11aa0e4ffc3ef935bbf25.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13103",
+            "sha1": "8d5984f94ddf6e7211f75e76cd7f5488f03ced88",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13103/IF13103.1.pdf",
+              "https://www.everycrsreport.com/files/2025-09-15_IF13103_8d5984f94ddf6e7211f75e76cd7f5488f03ced88.pdf"
+            ]
+          }
+        },
+        "id": "IF13103",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-19T17:11:05Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13103_A1_2025-09-15",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-09-15",
+          "id": "IF13103",
+          "official_pdf_sha256": "8dc8f2f92466167a1bd1ba483fb487641a26fc3e0d0d7f4eadb41c05f0463295",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13103/IF13103.3.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Artificial Intelligence in Capital Markets: Policy Issues",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-20",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-07-24",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IN12717",
+            "sha1": "5a147cc9219df67929b92f7a28f1cc0a66659345",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IN/HTML/IN12717.web.html",
+              "https://www.everycrsreport.com/files/2026-07-24_IN12717_5a147cc9219df67929b92f7a28f1cc0a66659345.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IN12717",
+            "sha1": "e7dc502f8b339e483ab9887df6639d4ff03c7cde",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IN/PDF/IN12717/IN12717.1.pdf",
+              "https://www.everycrsreport.com/files/2026-07-24_IN12717_e7dc502f8b339e483ab9887df6639d4ff03c7cde.pdf"
+            ]
+          }
+        },
+        "id": "IN12717",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-19T17:11:04Z",
+        "required_by_recent_update": false,
+        "source_record": "IN12717_A1_2026-07-24",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-07-24",
+          "id": "IN12717",
+          "official_pdf_sha256": "de6391e68931d7b959ca96eeb82cb1787ee03ca2f968ab6fecca4d0457f41418",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IN/PDF/IN12717/IN12717.6.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Nuclear Risk Reduction: Executive Branch Policies and Congressional Approaches in the 119th Congress",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-20",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "19",
+        "date": "2024-10-04",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R46785",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-10-04_R46785_dd3b8d3478ebdaa1d6c21f0f367dac7f8a23bf74.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R46785",
+            "sha1": "dd3b8d3478ebdaa1d6c21f0f367dac7f8a23bf74",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R46785/17",
+              "https://www.everycrsreport.com/files/2024-10-04_R46785_dd3b8d3478ebdaa1d6c21f0f367dac7f8a23bf74.pdf"
+            ]
+          }
+        },
+        "id": "R46785",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-19T17:11:37Z",
+        "required_by_recent_update": false,
+        "source_record": "R46785_17_2024-10-04",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-10-04",
+          "id": "R46785",
+          "official_pdf_sha256": "ad21a618fb19a97834d149c37977f6f5d47066e316868f5a2595c3a2bc41e53c",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R46785/R46785.20.pdf",
+          "official_publication": "2026-11-06",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Federal Support for Reproductive Health Services: Frequently Asked Questions",
+        "version": "17"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-20",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-07-29",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48641",
+            "sha1": "9b6bf9d1d30d89a7f883f954573828d533cce5b4",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48641.web.html",
+              "https://www.everycrsreport.com/files/2026-07-29_R48641_9b6bf9d1d30d89a7f883f954573828d533cce5b4.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48641",
+            "sha1": "b7bd43ecbccae025c6fb5f370085798a4be44897",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48641/R48641.16.pdf",
+              "https://www.everycrsreport.com/files/2026-07-29_R48641_b7bd43ecbccae025c6fb5f370085798a4be44897.pdf"
+            ]
+          }
+        },
+        "id": "R48641",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-19T17:11:07Z",
+        "required_by_recent_update": false,
+        "source_record": "R48641_A16_2026-07-29",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-07-29",
+          "id": "R48641",
+          "official_pdf_sha256": "6cab44dbf57495e8a1a57ef5e79f668d26d72c71aeead588ff37a50aa9f06334",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48641/R48641.18.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Proposals to Limit Member of Congress Financial Activities: Analysis of Introduced Legislation in the 119th Congress",
+        "version": "16"
       }
     },
     {
