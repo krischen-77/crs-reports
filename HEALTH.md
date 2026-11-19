@@ -2,20 +2,19 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-19T03:35:58.782581+00:00
+Watchdog checked UTC: 2026-11-19T03:50:54.039840+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
 | Production stage | Last source/verification receipt (UTC) |
 |---|---|
 | crs-backup.yml | 2026-11-16T02:15:21.477049+00:00 |
-| official-reconcile.yml | 2026-11-18T22:13:42.379201+00:00 |
-| coverage-audit.yml | 2026-11-18T14:24:04.058939+00:00 |
+| official-reconcile.yml | 2026-11-19T03:46:45.873816+00:00 |
+| coverage-audit.yml | 2026-11-19T03:50:34.491986+00:00 |
 
 ## Findings
 
 crs-backup.yml: no verified refresh within 26 hours
-coverage-audit.yml: latest run failure
 Collector has unresolved required failures
 
 ## Recovery
