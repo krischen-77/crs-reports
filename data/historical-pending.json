@@ -2,87 +2,9 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-11-18",
+      "last_attempt": "2026-11-19",
       "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-20",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "1",
-        "date": "2019-10-07",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45946",
-            "sha1": "41fec052db8b5b690104bf4bd1de7ea701944389",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20191007_R45946_41fec052db8b5b690104bf4bd1de7ea701944389.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45946",
-            "sha1": "8249dcaabe9e960a42d5f684e6eccf4c13d572d6",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20191007_R45946_8249dcaabe9e960a42d5f684e6eccf4c13d572d6.pdf"
-            ]
-          }
-        },
-        "id": "R45946",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45946",
-          "https://www.crs.gov/Reports/pdf/R45946"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "605940",
-        "title": "Executive Branch Service and the “Revolving Door” in Cabinet Departments: Background and Issues for Congress",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-18",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-20",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "7",
-        "date": "2019-10-11",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R45957",
-            "sha1": "63c2abc881c89b1bb87cba0121f7d181db808345",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20191011_R45957_63c2abc881c89b1bb87cba0121f7d181db808345.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R45957",
-            "sha1": "a9d2cde93adb3a3bc47759881b96c633b4a1ae61",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20191011_R45957_a9d2cde93adb3a3bc47759881b96c633b4a1ae61.pdf"
-            ]
-          }
-        },
-        "id": "R45957",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R45957",
-          "https://www.crs.gov/Reports/pdf/R45957"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "606258",
-        "title": "Capital Markets: Asset Management and Related Policy Issues",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "next_retry": "2026-11-21",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "6",
@@ -119,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-19",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-21",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -10045,6 +9969,53 @@
       }
     },
     {
+      "attempts": 0,
+      "next_retry": "2026-11-20",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "97",
+        "date": "2026-05-06",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "97-1011",
+            "sha1": "f3f1ab82689feb24bc412b23307dc3c9522276f1",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/HTML/97-1011.web.html",
+              "https://www.everycrsreport.com/files/2026-05-06_97-1011_f3f1ab82689feb24bc412b23307dc3c9522276f1.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "97-1011",
+            "sha1": "88a4d773c187625c5da5125b427efdbc19032787",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/PDF/97-1011/97-1011.101.pdf",
+              "https://www.everycrsreport.com/files/2026-05-06_97-1011_88a4d773c187625c5da5125b427efdbc19032787.pdf"
+            ]
+          }
+        },
+        "id": "97-1011",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-18T22:26:49Z",
+        "required_by_recent_update": false,
+        "source_record": "97-1011_A101_2026-05-06",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-05-06",
+          "id": "97-1011",
+          "official_pdf_sha256": "53f2b9b77db83071965c590c7f446e8f206e021972ba75bedaa8296c46782eb9",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/RS/PDF/97-1011/97-1011.102.pdf",
+          "official_publication": "2026-11-18",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Salaries of Members of Congress: Recent Actions and Historical Tables",
+        "version": "101"
+      }
+    },
+    {
       "attempts": 1,
       "last_attempt": "2026-11-18",
       "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
@@ -10201,6 +10172,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "605532",
         "title": "U.S. Payment System Policy Issues: Faster Payments and Innovation",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-18",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-20",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "1",
+        "date": "2019-10-07",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45946",
+            "sha1": "41fec052db8b5b690104bf4bd1de7ea701944389",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20191007_R45946_41fec052db8b5b690104bf4bd1de7ea701944389.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45946",
+            "sha1": "8249dcaabe9e960a42d5f684e6eccf4c13d572d6",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20191007_R45946_8249dcaabe9e960a42d5f684e6eccf4c13d572d6.pdf"
+            ]
+          }
+        },
+        "id": "R45946",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45946",
+          "https://www.crs.gov/Reports/pdf/R45946"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "605940",
+        "title": "Executive Branch Service and the “Revolving Door” in Cabinet Departments: Background and Issues for Congress",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-18",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-20",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "7",
+        "date": "2019-10-11",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R45957",
+            "sha1": "63c2abc881c89b1bb87cba0121f7d181db808345",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20191011_R45957_63c2abc881c89b1bb87cba0121f7d181db808345.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R45957",
+            "sha1": "a9d2cde93adb3a3bc47759881b96c633b4a1ae61",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20191011_R45957_a9d2cde93adb3a3bc47759881b96c633b4a1ae61.pdf"
+            ]
+          }
+        },
+        "id": "R45957",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R45957",
+          "https://www.crs.gov/Reports/pdf/R45957"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "606258",
+        "title": "Capital Markets: Asset Management and Related Policy Issues",
         "version": "unknown"
       }
     }
