@@ -1,3 +1,5 @@
+**Official-current verification: 95/95. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archived files are retained.
@@ -15,9 +17,12 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-19 | IF11361 v18 | The World Bank | [PDF](pdf/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.pdf) | [Markdown](markdown/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.md) |
 | 2026-11-19 | IF11119 v3 | Federal Records: Types and Treatments | [PDF](pdf/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.pdf) | [Markdown](markdown/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.md) |
 | 2026-11-19 | IF10256 v37 | U.S.-Taiwan Trade and Economic Relations | [PDF](pdf/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.pdf) | [Markdown](markdown/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.md) |
+| 2026-11-18 | R49520 v3 | Taxing AI: Alternative Approaches | [PDF](pdf/reports/R49520v3-2026-11-18-9d5a0d67b5e57b38.pdf) | [Markdown](markdown/reports/R49520v3-2026-11-18-9d5a0d67b5e57b38.md) |
 | 2026-11-18 | R49520 v1 | Taxing AI: Alternative Approaches | [PDF](pdf/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.pdf) | [Markdown](markdown/reports/R49520v1-2026-11-18-b0fc8cf5fab96fcb.md) |
 | 2026-11-18 | R44258 v25 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v25-2026-11-18-92c46dd771a01188.pdf) | [Markdown](markdown/reports/R44258v25-2026-11-18-92c46dd771a01188.md) |
+| 2026-11-18 | LSB11500 v2 | Federal District Court Holds That 18 U.S.C. § 611, the Federal Bar on Alien Voting, Is Unconstitutional | [PDF](pdf/sidebars/LSB11500v2-2026-11-18-d04d66adb272abf0.pdf) | [Markdown](markdown/sidebars/LSB11500v2-2026-11-18-d04d66adb272abf0.md) |
 | 2026-11-18 | LSB11500 v1 | Federal District Court Holds That 18 U.S.C. § 611, the Federal Bar on Alien Voting, Is Unconstitutional | [PDF](pdf/sidebars/LSB11500v1-2026-11-18-d3bb50fde1a70edb.pdf) | [Markdown](markdown/sidebars/LSB11500v1-2026-11-18-d3bb50fde1a70edb.md) |
+| 2026-11-18 | IN12757 v2 | Autonomous Warfare Command: Background and Considerations for Congress | [PDF](pdf/insights/IN12757v2-2026-11-18-193fd359c41c35b4.pdf) | [Markdown](markdown/insights/IN12757v2-2026-11-18-193fd359c41c35b4.md) |
 | 2026-11-18 | IN12757 v1 | Autonomous Warfare Command: Background and Considerations for Congress | [PDF](pdf/insights/IN12757v1-2026-11-18-667a88d9e8c21fb8.pdf) | [Markdown](markdown/insights/IN12757v1-2026-11-18-667a88d9e8c21fb8.md) |
 | 2026-11-18 | IN12756 v1 | Nationwide Aircraft Ground Stop Raises Concerns over Aviation System Modernization | [PDF](pdf/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.pdf) | [Markdown](markdown/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.md) |
 | 2026-11-18 | IF13355 v1 | National Institute of Standards and Technology (NIST) FY2027 Funding | [PDF](pdf/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.pdf) | [Markdown](markdown/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.md) |
@@ -38,6 +43,7 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-17 | R45546 v55 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v55-2026-11-17-c7a5d1f70c12f5b4.pdf) | [Markdown](markdown/reports/R45546v55-2026-11-17-c7a5d1f70c12f5b4.md) |
 | 2026-11-17 | LSB10922 v11 | Generative Artificial Intelligence and Copyright Law | [PDF](pdf/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.pdf) | [Markdown](markdown/sidebars/LSB10922v11-2026-11-17-fdf3974e6b2b9c4c.md) |
 | 2026-11-17 | IN11982 v27 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v27-2026-11-17-8b682da73020b261.pdf) | [Markdown](markdown/insights/IN11982v27-2026-11-17-8b682da73020b261.md) |
+| 2026-11-17 | IN11982 v28 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v28-2026-11-17-97a87d328e6b4ed2.pdf) | [Markdown](markdown/insights/IN11982v28-2026-11-17-97a87d328e6b4ed2.md) |
 | 2026-11-17 | IF13354 v1 | The White House Office of Science and Technology Policy: Overview and Considerations for Congress | [PDF](pdf/in-focus/IF13354v1-2026-11-17-1e5d106f31a44bac.pdf) | [Markdown](markdown/in-focus/IF13354v1-2026-11-17-1e5d106f31a44bac.md) |
 | 2026-11-17 | IF13353 v2 | Certain National Firearms Act Requirements Will Not Be Administratively Enforced Following Court Ruling That These Provisions Exceed Congress’s Constitutional Powers | [PDF](pdf/in-focus/IF13353v2-2026-11-17-40abcef79339612f.pdf) | [Markdown](markdown/in-focus/IF13353v2-2026-11-17-40abcef79339612f.md) |
 | 2026-11-17 | IF13353 v1 | Certain National Firearms Act Requirements Will Not Be Administratively Enforced Following Court Ruling That These Provisions Exceed Congress’s Constitutional Powers | [PDF](pdf/in-focus/IF13353v1-2026-11-17-4e8751d284b84448.pdf) | [Markdown](markdown/in-focus/IF13353v1-2026-11-17-4e8751d284b84448.md) |
@@ -51,6 +57,7 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-17 | IF12508 v34 | Commercial Human Spaceflight Safety Regulations | [PDF](pdf/in-focus/IF12508v34-2026-11-17-c6c48fbf8690e8da.pdf) | [Markdown](markdown/in-focus/IF12508v34-2026-11-17-c6c48fbf8690e8da.md) |
 | 2026-11-17 | IF12024 v8 | Farm Bill Primer: Conservation Title | [PDF](pdf/in-focus/IF12024v8-2026-11-17-c720121f827a2229.pdf) | [Markdown](markdown/in-focus/IF12024v8-2026-11-17-c720121f827a2229.md) |
 | 2026-11-17 | IF11643 v24 | Artemis: NASA’s Program to Return Humans to the Moon | [PDF](pdf/in-focus/IF11643v24-2026-11-17-a5ae81b472a23fc4.pdf) | [Markdown](markdown/in-focus/IF11643v24-2026-11-17-a5ae81b472a23fc4.md) |
+| 2026-11-17 | IF10719 v8 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v8-2026-11-17-724bc35218013e2e.pdf) | [Markdown](markdown/in-focus/IF10719v8-2026-11-17-724bc35218013e2e.md) |
 | 2026-11-17 | IF10719 v7 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v7-2026-11-17-a75c222e16103300.pdf) | [Markdown](markdown/in-focus/IF10719v7-2026-11-17-a75c222e16103300.md) |
 | 2026-11-16 | R49518 v3 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.pdf) | [Markdown](markdown/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.md) |
 | 2026-11-16 | R49518 v2 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v2-2026-11-16-ea646f3de38fb994.pdf) | [Markdown](markdown/reports/R49518v2-2026-11-16-ea646f3de38fb994.md) |
