@@ -1,11 +1,14 @@
-**Official-current verification: 96/96. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-20 | R48191 v7 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v7-2026-11-20-53e65f875cc50cce.pdf) | [Markdown](markdown/reports/R48191v7-2026-11-20-53e65f875cc50cce.md) |
+| 2026-11-20 | IF13359 v1 | Income Tax Treatment of Cryptocurrency | [PDF](pdf/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.pdf) | [Markdown](markdown/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.md) |
+| 2026-11-20 | IF13358 v1 | Preserving Trust: Government Data, Disclosure Avoidance, and Privacy Enhancing Techniques (PETs) | [PDF](pdf/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.pdf) | [Markdown](markdown/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.md) |
+| 2026-11-20 | IF13144 v5 | Assisted Reproductive Technology Regulation and Oversight | [PDF](pdf/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.pdf) | [Markdown](markdown/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.md) |
+| 2026-11-20 | IF12905 v3 | The Native American Housing Assistance and Self-Determination Act (NAHASDA) | [PDF](pdf/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.pdf) | [Markdown](markdown/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.md) |
 | 2026-11-19 | R49522 v1 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v1-2026-11-19-1479c1133bcca618.pdf) | [Markdown](markdown/reports/R49522v1-2026-11-19-1479c1133bcca618.md) |
 | 2026-11-19 | R49521 v3 | Employee Stock Ownership Plans (ESOPs): Background and Policy | [PDF](pdf/reports/R49521v3-2026-11-19-f2c4dd5f63aef437.pdf) | [Markdown](markdown/reports/R49521v3-2026-11-19-f2c4dd5f63aef437.md) |
 | 2026-11-19 | R48641 v18 | Proposals to Limit Member of Congress Financial Activities: Analysis of Introduced Legislation in the 119th Congress | [PDF](pdf/reports/R48641v18-2026-11-19-6cab44dbf57495e8.pdf) | [Markdown](markdown/reports/R48641v18-2026-11-19-6cab44dbf57495e8.md) |
@@ -17,6 +20,8 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-19 | IF13356 v1 | Private Equity and Professional Sports | [PDF](pdf/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.pdf) | [Markdown](markdown/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.md) |
 | 2026-11-19 | IF13103 v3 | Artificial Intelligence in Capital Markets: Policy Issues | [PDF](pdf/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.pdf) | [Markdown](markdown/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.md) |
 | 2026-11-19 | IF11361 v18 | The World Bank | [PDF](pdf/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.pdf) | [Markdown](markdown/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.md) |
+| 2026-11-19 | IF11208 v17 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.pdf) | [Markdown](markdown/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.md) |
+| 2026-11-19 | IF11147 v16 | Defense Primer: Active Component Enlisted Recruiting | [PDF](pdf/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.pdf) | [Markdown](markdown/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.md) |
 | 2026-11-19 | IF11119 v3 | Federal Records: Types and Treatments | [PDF](pdf/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.pdf) | [Markdown](markdown/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.md) |
 | 2026-11-19 | IF10256 v37 | U.S.-Taiwan Trade and Economic Relations | [PDF](pdf/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.pdf) | [Markdown](markdown/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.md) |
 | 2026-11-18 | R49520 v3 | Taxing AI: Alternative Approaches | [PDF](pdf/reports/R49520v3-2026-11-18-9d5a0d67b5e57b38.pdf) | [Markdown](markdown/reports/R49520v3-2026-11-18-9d5a0d67b5e57b38.md) |
@@ -105,6 +110,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-20 | 2026-10-15 | R48136 v5 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.pdf) | [Markdown](markdown/reports/R48136v5-2026-10-15-4d8a97003d4ddb98.md) |
 | 2026-11-20 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-19 | 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |

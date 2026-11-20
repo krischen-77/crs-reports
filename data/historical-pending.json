@@ -1,46 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2020-02-05",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R46212",
-            "sha1": "9f8e130e1f1534d185216984ef547e5005e198cf",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200205_R46212_9f8e130e1f1534d185216984ef547e5005e198cf.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R46212",
-            "sha1": "1f3b076fbd318e142f4cd3e04c4c813cdda1d9a8",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200205_R46212_1f3b076fbd318e142f4cd3e04c4c813cdda1d9a8.pdf"
-            ]
-          }
-        },
-        "id": "R46212",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R46212",
-          "https://www.crs.gov/Reports/pdf/R46212"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "616181",
-        "title": "Wage Inequality and the Stagnation of Earnings of Low-Wage Workers: Contributing Factors and Policy Options",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-20",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-22",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "1",
@@ -10149,6 +10113,239 @@
         "source_record": "606258",
         "title": "Capital Markets: Asset Management and Related Policy Issues",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "13",
+        "date": "2026-01-20",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11147",
+            "sha1": "7fa5a8c72fb27a0100046270998b814d4e0a7c66",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF11147.web.html",
+              "https://www.everycrsreport.com/files/2026-01-20_IF11147_7fa5a8c72fb27a0100046270998b814d4e0a7c66.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11147",
+            "sha1": "68e7337e01b9e79cbb058d0d9de6ac2403b162fa",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF11147/IF11147.14.pdf",
+              "https://www.everycrsreport.com/files/2026-01-20_IF11147_68e7337e01b9e79cbb058d0d9de6ac2403b162fa.pdf"
+            ]
+          }
+        },
+        "id": "IF11147",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T13:26:36Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11147_A14_2026-01-20",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-20",
+          "id": "IF11147",
+          "official_pdf_sha256": "549c6e0927542a24fb988832bc93f2b8d3f5a75d7102783524bde1c2d3877829",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11147/IF11147.16.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Defense Primer: Active Component Enlisted Recruiting",
+        "version": "14"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "16",
+        "date": "2024-11-07",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11208",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-11-07_IF11208_04b7eb01ef212a1023d94e5ee8e9bf1a227d77a6.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11208",
+            "sha1": "04b7eb01ef212a1023d94e5ee8e9bf1a227d77a6",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF11208/14",
+              "https://www.everycrsreport.com/files/2024-11-07_IF11208_04b7eb01ef212a1023d94e5ee8e9bf1a227d77a6.pdf"
+            ]
+          }
+        },
+        "id": "IF11208",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T13:26:41Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11208_14_2024-11-07",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-11-07",
+          "id": "IF11208",
+          "official_pdf_sha256": "e68b2a2ac4c1efda43e164b48c8b2c9301b57eec5b2c1555d8e5f3174aa5e6e9",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11208/IF11208.17.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Pacific Islands: Background and Issues for Congress",
+        "version": "14"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "2",
+        "date": "2025-02-11",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12905",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2025-02-11_IF12905_075eee7298e8db0465ce495096c7cfcfb3ac07a6.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12905",
+            "sha1": "075eee7298e8db0465ce495096c7cfcfb3ac07a6",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12905/1",
+              "https://www.everycrsreport.com/files/2025-02-11_IF12905_075eee7298e8db0465ce495096c7cfcfb3ac07a6.pdf"
+            ]
+          }
+        },
+        "id": "IF12905",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T13:26:40Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12905_1_2025-02-11",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-02-11",
+          "id": "IF12905",
+          "official_pdf_sha256": "709e1d11af0c6909d17ecc87711f94766008bcac0334515148b178848287bbf7",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12905/IF12905.3.pdf",
+          "official_publication": "2026-11-20",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Native American Housing Assistance and Self-Determination Act (NAHASDA)",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-01-06",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13144",
+            "sha1": "3683a78f701b6927ddac5bd5c45aaaf54037a157",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13144.web.html",
+              "https://www.everycrsreport.com/files/2026-01-06_IF13144_3683a78f701b6927ddac5bd5c45aaaf54037a157.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13144",
+            "sha1": "0cd39c146887f7bc613df0c35f5afbc826be6fee",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13144/IF13144.1.pdf",
+              "https://www.everycrsreport.com/files/2026-01-06_IF13144_0cd39c146887f7bc613df0c35f5afbc826be6fee.pdf"
+            ]
+          }
+        },
+        "id": "IF13144",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T13:26:39Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13144_A1_2026-01-06",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-06",
+          "id": "IF13144",
+          "official_pdf_sha256": "08f0d30ee13fb2e1d67c88f412b524b346ab9a22f640f5d50e563c1b2ad0a70c",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13144/IF13144.5.pdf",
+          "official_publication": "2026-11-20",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Assisted Reproductive Technology Regulation and Oversight",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "2",
+        "date": "2026-03-27",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48191",
+            "sha1": "3d32ad16476ce26d0dc86928bb8aaf49611da212",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48191.web.html",
+              "https://www.everycrsreport.com/files/2026-03-27_R48191_3d32ad16476ce26d0dc86928bb8aaf49611da212.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48191",
+            "sha1": "2671204cdadb00d03e9814d6659d6ee5cece91ac",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48191/R48191.6.pdf",
+              "https://www.everycrsreport.com/files/2026-03-27_R48191_2671204cdadb00d03e9814d6659d6ee5cece91ac.pdf"
+            ]
+          }
+        },
+        "id": "R48191",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T13:26:44Z",
+        "required_by_recent_update": false,
+        "source_record": "R48191_A6_2026-03-27",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-03-27",
+          "id": "R48191",
+          "official_pdf_sha256": "53e65f875cc50cce1a184e566d07563b94e87a24ffd071d2df3356b5033def4d",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48191/R48191.7.pdf",
+          "official_publication": "2026-11-20",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Connecting Constituents to Health Information and Services: Resources for Congressional Offices",
+        "version": "6"
       }
     },
     {
