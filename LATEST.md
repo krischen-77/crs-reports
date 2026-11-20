@@ -1,8 +1,6 @@
-**Official-current verification: 95/95. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -11,7 +9,9 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-19 | R48641 v18 | Proposals to Limit Member of Congress Financial Activities: Analysis of Introduced Legislation in the 119th Congress | [PDF](pdf/reports/R48641v18-2026-11-19-6cab44dbf57495e8.pdf) | [Markdown](markdown/reports/R48641v18-2026-11-19-6cab44dbf57495e8.md) |
 | 2026-11-19 | LSB11502 v1 | Supreme Court Determines Clear and Convincing Evidence Not Required for Admissibility Determinations for Returning Lawful Permanent Residents | [PDF](pdf/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.pdf) | [Markdown](markdown/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.md) |
 | 2026-11-19 | LSB11501 v1 | Fourth Circuit: District Court May Hear Schools’ Challenge to Education Department’s Title IX Funding Decision | [PDF](pdf/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.pdf) | [Markdown](markdown/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.md) |
+| 2026-11-19 | IN12717 v7 | Nuclear Risk Reduction: Executive Branch Policies and Congressional Approaches in the 119th Congress | [PDF](pdf/insights/IN12717v7-2026-11-19-62057c2bc5568818.pdf) | [Markdown](markdown/insights/IN12717v7-2026-11-19-62057c2bc5568818.md) |
 | 2026-11-19 | IN12717 v6 | Nuclear Risk Reduction: Executive Branch Policies and Congressional Approaches in the 119th Congress | [PDF](pdf/insights/IN12717v6-2026-11-19-de6391e68931d7b9.pdf) | [Markdown](markdown/insights/IN12717v6-2026-11-19-de6391e68931d7b9.md) |
+| 2026-11-19 | IF13357 v1 | Infrastructure Spending in States and Congressional Districts | [PDF](pdf/in-focus/IF13357v1-2026-11-19-41430004906f3d22.pdf) | [Markdown](markdown/in-focus/IF13357v1-2026-11-19-41430004906f3d22.md) |
 | 2026-11-19 | IF13356 v1 | Private Equity and Professional Sports | [PDF](pdf/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.pdf) | [Markdown](markdown/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.md) |
 | 2026-11-19 | IF13103 v3 | Artificial Intelligence in Capital Markets: Policy Issues | [PDF](pdf/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.pdf) | [Markdown](markdown/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.md) |
 | 2026-11-19 | IF11361 v18 | The World Bank | [PDF](pdf/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.pdf) | [Markdown](markdown/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.md) |
@@ -93,15 +93,6 @@ Publication-date window (inclusive): **2026-11-12 to 2026-11-19**. Older archive
 | 2026-11-13 | IF12938 v4 | U.S. Satellite Capabilities for Tracking the Wildfire Life Cycle | [PDF](pdf/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.pdf) | [Markdown](markdown/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.md) |
 | 2026-11-13 | IF11105 v15 | Defense Primer: Emerging Technologies | [PDF](pdf/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.pdf) | [Markdown](markdown/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.md) |
 | 2026-11-13 | IF10545 v19 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.pdf) | [Markdown](markdown/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.md) |
-| 2026-11-12 | R47044 v4 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.pdf) | [Markdown](markdown/reports/R47044v4-2026-11-12-0b817d7055a8d8d2.md) |
-| 2026-11-12 | R47044 v5 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v5-2026-11-12-494473ce42d9bd47.pdf) | [Markdown](markdown/reports/R47044v5-2026-11-12-494473ce42d9bd47.md) |
-| 2026-11-12 | R45931 v22 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v22-2026-11-12-8ff7437b2d6c11f9.pdf) | [Markdown](markdown/reports/R45931v22-2026-11-12-8ff7437b2d6c11f9.md) |
-| 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |
-| 2026-11-12 | IF13348 v1 | Offshore Energy Agency Appropriations, FY2027 | [PDF](pdf/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.pdf) | [Markdown](markdown/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.md) |
-| 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |
-| 2026-11-12 | IF13346 v1 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.pdf) | [Markdown](markdown/in-focus/IF13346v1-2026-11-12-8977be027bc180a1.md) |
-| 2026-11-12 | IF13346 v3 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v3-2026-11-12-edcd66c878019019.pdf) | [Markdown](markdown/in-focus/IF13346v3-2026-11-12-edcd66c878019019.md) |
-| 2026-11-12 | IF11201 v6 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.pdf) | [Markdown](markdown/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -111,6 +102,8 @@ API update dates can describe metadata or file changes. These current PDF files 
 |---|---|---|---|---|---|
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-19 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
+| 2026-11-19 | 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |
+| 2026-11-19 | 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |
 | 2026-11-19 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-19 | 2026-03-25 | IF11934 v8 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.pdf) | [Markdown](markdown/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.md) |
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
@@ -120,7 +113,10 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
 | 2026-11-14 | 2026-11-10 | RL30567 v33 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v33-2026-11-10-008c428880dee84b.pdf) | [Markdown](markdown/reports/RL30567v33-2026-11-10-008c428880dee84b.md) |
 | 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
+| 2026-11-14 | 2026-11-12 | R47044 v5 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v5-2026-11-12-494473ce42d9bd47.pdf) | [Markdown](markdown/reports/R47044v5-2026-11-12-494473ce42d9bd47.md) |
 | 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
+| 2026-11-14 | 2026-11-12 | IF13348 v1 | Offshore Energy Agency Appropriations, FY2027 | [PDF](pdf/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.pdf) | [Markdown](markdown/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.md) |
+| 2026-11-14 | 2026-11-12 | IF13346 v3 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v3-2026-11-12-edcd66c878019019.pdf) | [Markdown](markdown/in-focus/IF13346v3-2026-11-12-edcd66c878019019.md) |
 | 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
 | 2026-11-13 | 2026-11-10 | R49515 v2 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v2-2026-11-10-215bcc02e4cbea82.pdf) | [Markdown](markdown/reports/R49515v2-2026-11-10-215bcc02e4cbea82.md) |
 | 2026-11-13 | 2026-11-10 | R49514 v2 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v2-2026-11-10-273a6c8951393abd.pdf) | [Markdown](markdown/reports/R49514v2-2026-11-10-273a6c8951393abd.md) |
@@ -129,3 +125,4 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-13 | 2026-11-10 | R43743 v32 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v32-2026-11-10-826a49a9ed776cdb.pdf) | [Markdown](markdown/reports/R43743v32-2026-11-10-826a49a9ed776cdb.md) |
 | 2026-11-13 | 2026-11-10 | IN12550 v5 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.pdf) | [Markdown](markdown/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.md) |
 | 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
+| 2026-11-13 | 2026-11-12 | IF11201 v6 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.pdf) | [Markdown](markdown/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.md) |
