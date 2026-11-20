@@ -1,5 +1,3 @@
-**Official-current verification: 104/104. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archived files are retained.
@@ -7,8 +5,10 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
 | 2026-11-20 | R48191 v7 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v7-2026-11-20-53e65f875cc50cce.pdf) | [Markdown](markdown/reports/R48191v7-2026-11-20-53e65f875cc50cce.md) |
+| 2026-11-20 | R46234 v16 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.pdf) | [Markdown](markdown/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.md) |
 | 2026-11-20 | IF13359 v1 | Income Tax Treatment of Cryptocurrency | [PDF](pdf/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.pdf) | [Markdown](markdown/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.md) |
 | 2026-11-20 | IF13358 v1 | Preserving Trust: Government Data, Disclosure Avoidance, and Privacy Enhancing Techniques (PETs) | [PDF](pdf/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.pdf) | [Markdown](markdown/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.md) |
+| 2026-11-20 | IF13248 v3 | Farm Bill Primer: Rural Broadband Provisions | [PDF](pdf/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.pdf) | [Markdown](markdown/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.md) |
 | 2026-11-20 | IF13144 v5 | Assisted Reproductive Technology Regulation and Oversight | [PDF](pdf/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.pdf) | [Markdown](markdown/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.md) |
 | 2026-11-20 | IF12905 v3 | The Native American Housing Assistance and Self-Determination Act (NAHASDA) | [PDF](pdf/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.pdf) | [Markdown](markdown/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.md) |
 | 2026-11-19 | R49522 v1 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v1-2026-11-19-1479c1133bcca618.pdf) | [Markdown](markdown/reports/R49522v1-2026-11-19-1479c1133bcca618.md) |
@@ -21,6 +21,7 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-19 | IF13357 v1 | Infrastructure Spending in States and Congressional Districts | [PDF](pdf/in-focus/IF13357v1-2026-11-19-41430004906f3d22.pdf) | [Markdown](markdown/in-focus/IF13357v1-2026-11-19-41430004906f3d22.md) |
 | 2026-11-19 | IF13356 v1 | Private Equity and Professional Sports | [PDF](pdf/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.pdf) | [Markdown](markdown/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.md) |
 | 2026-11-19 | IF13103 v3 | Artificial Intelligence in Capital Markets: Policy Issues | [PDF](pdf/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.pdf) | [Markdown](markdown/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.md) |
+| 2026-11-19 | IF12390 v7 | U.S. Economic Sanctions: Overview for the 120th Congress | [PDF](pdf/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.pdf) | [Markdown](markdown/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.md) |
 | 2026-11-19 | IF11361 v18 | The World Bank | [PDF](pdf/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.pdf) | [Markdown](markdown/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.md) |
 | 2026-11-19 | IF11208 v17 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.pdf) | [Markdown](markdown/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.md) |
 | 2026-11-19 | IF11147 v16 | Defense Primer: Active Component Enlisted Recruiting | [PDF](pdf/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.pdf) | [Markdown](markdown/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.md) |
@@ -112,6 +113,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-20 | 2026-04-14 | R48909 v1 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v1-2026-04-14-3d659233a28009cb.pdf) | [Markdown](markdown/reports/R48909v1-2026-04-14-3d659233a28009cb.md) |
 | 2026-11-20 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
 | 2026-11-20 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |

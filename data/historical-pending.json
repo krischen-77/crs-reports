@@ -7,44 +7,6 @@
       "next_retry": "2026-11-22",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "1",
-        "date": "2020-03-13",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R46271",
-            "sha1": "c840edb1a8565d49a3b417002308b5c449b66d42",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200313_R46271_c840edb1a8565d49a3b417002308b5c449b66d42.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R46271",
-            "sha1": "c70c1dfa0ddbe16f487c7d482b644a7b90ae268e",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200313_R46271_c70c1dfa0ddbe16f487c7d482b644a7b90ae268e.pdf"
-            ]
-          }
-        },
-        "id": "R46271",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R46271",
-          "https://www.crs.gov/Reports/pdf/R46271"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "619731",
-        "title": "Business Tax Provisions Expiring in 2020, 2021, and 2022 (“Tax Extenders”)",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "20",
         "date": "2020-04-28",
         "formats": {
@@ -79,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-20",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-22",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "2",
@@ -10213,6 +10177,53 @@
       "next_retry": "2026-11-21",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
       "task": {
+        "api_version": "4",
+        "date": "2025-09-04",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12390",
+            "sha1": "fcaa5bb32fb3618aa5968c5249463b3d75594d4a",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12390.web.html",
+              "https://www.everycrsreport.com/files/2025-09-04_IF12390_fcaa5bb32fb3618aa5968c5249463b3d75594d4a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12390",
+            "sha1": "89150effdefa6ce077c3ef7bdfe49dc38deaa4bd",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12390/IF12390.6.pdf",
+              "https://www.everycrsreport.com/files/2025-09-04_IF12390_89150effdefa6ce077c3ef7bdfe49dc38deaa4bd.pdf"
+            ]
+          }
+        },
+        "id": "IF12390",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T16:11:24Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12390_A6_2025-09-04",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-09-04",
+          "id": "IF12390",
+          "official_pdf_sha256": "4c4f739986ddb072b7016733ef4e4cb53857d29717aa39183fad380bbb036288",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12390/IF12390.7.pdf",
+          "official_publication": "2026-11-19",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "U.S. Sanctions: Overview for the 119th Congress",
+        "version": "6"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
         "api_version": "2",
         "date": "2025-02-11",
         "formats": {
@@ -10299,6 +10310,100 @@
         },
         "title": "Assisted Reproductive Technology Regulation and Oversight",
         "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-06-18",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13248",
+            "sha1": "6480c1c9935985e87a83adf6287834cfb7f50c74",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13248.web.html",
+              "https://www.everycrsreport.com/files/2026-06-18_IF13248_6480c1c9935985e87a83adf6287834cfb7f50c74.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13248",
+            "sha1": "96ad7c2814733f97d908fc64a05e71bb74fdaa15",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13248/IF13248.1.pdf",
+              "https://www.everycrsreport.com/files/2026-06-18_IF13248_96ad7c2814733f97d908fc64a05e71bb74fdaa15.pdf"
+            ]
+          }
+        },
+        "id": "IF13248",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T16:11:26Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13248_A1_2026-06-18",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-06-18",
+          "id": "IF13248",
+          "official_pdf_sha256": "9f5d69fb23e3118deeec49974f75baf37a450d933c736a57b6c306c5336526fe",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13248/IF13248.3.pdf",
+          "official_publication": "2026-11-20",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Farm Bill Primer: Rural Broadband Provisions",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-21",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "12",
+        "date": "2025-07-16",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R46234",
+            "sha1": "c60a16a6b72e98e96ea973f439e856b2f562eee8",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R46234.web.html",
+              "https://www.everycrsreport.com/files/2025-07-16_R46234_c60a16a6b72e98e96ea973f439e856b2f562eee8.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R46234",
+            "sha1": "e1a3e3afc34e1640198bb7c1ee92ff016643c92d",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R46234/R46234.15.pdf",
+              "https://www.everycrsreport.com/files/2025-07-16_R46234_e1a3e3afc34e1640198bb7c1ee92ff016643c92d.pdf"
+            ]
+          }
+        },
+        "id": "R46234",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-20T16:11:03Z",
+        "required_by_recent_update": false,
+        "source_record": "R46234_A15_2025-07-16",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-07-16",
+          "id": "R46234",
+          "official_pdf_sha256": "7f68b0a8e2b0525c07345e4e1c04a42e9d4d51d0db06edd068999d212afb9939",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R46234/R46234.16.pdf",
+          "official_publication": "2026-11-20",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "School Meals and Other Child Nutrition Programs: Background and Funding",
+        "version": "15"
       }
     },
     {
@@ -10669,6 +10774,46 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "614774",
         "title": "Petitions for Rulemaking: An Overview",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-20",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-22",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "1",
+        "date": "2020-03-13",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R46271",
+            "sha1": "c840edb1a8565d49a3b417002308b5c449b66d42",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20200313_R46271_c840edb1a8565d49a3b417002308b5c449b66d42.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R46271",
+            "sha1": "c70c1dfa0ddbe16f487c7d482b644a7b90ae268e",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20200313_R46271_c70c1dfa0ddbe16f487c7d482b644a7b90ae268e.pdf"
+            ]
+          }
+        },
+        "id": "R46271",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R46271",
+          "https://www.crs.gov/Reports/pdf/R46271"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "619731",
+        "title": "Business Tax Provisions Expiring in 2020, 2021, and 2022 (“Tax Extenders”)",
         "version": "unknown"
       }
     }
