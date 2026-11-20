@@ -1,3 +1,5 @@
+**Official-current verification: 96/96. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archived files are retained.
@@ -36,7 +38,9 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-18 | IF12006 v32 | Arctic National Wildlife Refuge: Status of Oil and Gas Program | [PDF](pdf/in-focus/IF12006v32-2026-11-18-a54bf4a836510825.pdf) | [Markdown](markdown/in-focus/IF12006v32-2026-11-18-a54bf4a836510825.md) |
 | 2026-11-18 | IF11779 v8 | Hydrofluorocarbon Phasedown: Background and Issues Facing Congress | [PDF](pdf/in-focus/IF11779v8-2026-11-18-40dd508c268ea10c.pdf) | [Markdown](markdown/in-focus/IF11779v8-2026-11-18-40dd508c268ea10c.md) |
 | 2026-11-18 | 97-615 v79 | Salaries of Members of Congress: Congressional Votes, 1990-2026 | [PDF](pdf/reports/97-615v79-2026-11-18-79ebd4f1c67f67cf.pdf) | [Markdown](markdown/reports/97-615v79-2026-11-18-79ebd4f1c67f67cf.md) |
+| 2026-11-18 | 97-615 v80 | Salaries of Members of Congress: Congressional Votes, 1990-2026 | [PDF](pdf/reports/97-615v80-2026-11-18-d9c70834cded69ea.pdf) | [Markdown](markdown/reports/97-615v80-2026-11-18-d9c70834cded69ea.md) |
 | 2026-11-18 | 97-1011 v102 | Salaries of Members of Congress: Recent Actions and Historical Tables | [PDF](pdf/reports/97-1011v102-2026-11-18-53f2b9b77db83071.pdf) | [Markdown](markdown/reports/97-1011v102-2026-11-18-53f2b9b77db83071.md) |
+| 2026-11-18 | 97-1011 v103 | Salaries of Members of Congress: Recent Actions and Historical Tables | [PDF](pdf/reports/97-1011v103-2026-11-18-733ad003f1198b14.pdf) | [Markdown](markdown/reports/97-1011v103-2026-11-18-733ad003f1198b14.md) |
 | 2026-11-17 | R49519 v1 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v1-2026-11-17-b217bd9aaa033053.pdf) | [Markdown](markdown/reports/R49519v1-2026-11-17-b217bd9aaa033053.md) |
 | 2026-11-17 | R48854 v4 | Poverty in the United States in 2025 | [PDF](pdf/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.pdf) | [Markdown](markdown/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.md) |
 | 2026-11-17 | R45546 v54 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v54-2026-11-17-074dd953ae31522e.pdf) | [Markdown](markdown/reports/R45546v54-2026-11-17-074dd953ae31522e.md) |
@@ -60,6 +64,7 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-17 | IF10719 v8 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v8-2026-11-17-724bc35218013e2e.pdf) | [Markdown](markdown/in-focus/IF10719v8-2026-11-17-724bc35218013e2e.md) |
 | 2026-11-17 | IF10719 v7 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v7-2026-11-17-a75c222e16103300.pdf) | [Markdown](markdown/in-focus/IF10719v7-2026-11-17-a75c222e16103300.md) |
 | 2026-11-16 | R49518 v3 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.pdf) | [Markdown](markdown/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.md) |
+| 2026-11-16 | R49518 v4 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v4-2026-11-16-ad70ece15ad9db8a.pdf) | [Markdown](markdown/reports/R49518v4-2026-11-16-ad70ece15ad9db8a.md) |
 | 2026-11-16 | R49518 v2 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v2-2026-11-16-ea646f3de38fb994.pdf) | [Markdown](markdown/reports/R49518v2-2026-11-16-ea646f3de38fb994.md) |
 | 2026-11-16 | R49517 v3 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.pdf) | [Markdown](markdown/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.md) |
 | 2026-11-16 | R49517 v4 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.pdf) | [Markdown](markdown/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.md) |
