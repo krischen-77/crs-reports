@@ -1,9 +1,12 @@
+**Official-current verification: 108/108. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-20 | R48909 v2 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.pdf) | [Markdown](markdown/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.md) |
 | 2026-11-20 | R48191 v7 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v7-2026-11-20-53e65f875cc50cce.pdf) | [Markdown](markdown/reports/R48191v7-2026-11-20-53e65f875cc50cce.md) |
 | 2026-11-20 | R46234 v16 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.pdf) | [Markdown](markdown/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.md) |
 | 2026-11-20 | IF13359 v1 | Income Tax Treatment of Cryptocurrency | [PDF](pdf/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.pdf) | [Markdown](markdown/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.md) |
@@ -12,6 +15,7 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-20 | IF13144 v5 | Assisted Reproductive Technology Regulation and Oversight | [PDF](pdf/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.pdf) | [Markdown](markdown/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.md) |
 | 2026-11-20 | IF12905 v3 | The Native American Housing Assistance and Self-Determination Act (NAHASDA) | [PDF](pdf/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.pdf) | [Markdown](markdown/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.md) |
 | 2026-11-19 | R49522 v1 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v1-2026-11-19-1479c1133bcca618.pdf) | [Markdown](markdown/reports/R49522v1-2026-11-19-1479c1133bcca618.md) |
+| 2026-11-19 | R49521 v4 | Employee Stock Ownership Plans (ESOPs): Background and Policy | [PDF](pdf/reports/R49521v4-2026-11-19-207dc8809bb663f2.pdf) | [Markdown](markdown/reports/R49521v4-2026-11-19-207dc8809bb663f2.md) |
 | 2026-11-19 | R49521 v3 | Employee Stock Ownership Plans (ESOPs): Background and Policy | [PDF](pdf/reports/R49521v3-2026-11-19-f2c4dd5f63aef437.pdf) | [Markdown](markdown/reports/R49521v3-2026-11-19-f2c4dd5f63aef437.md) |
 | 2026-11-19 | R48641 v18 | Proposals to Limit Member of Congress Financial Activities: Analysis of Introduced Legislation in the 119th Congress | [PDF](pdf/reports/R48641v18-2026-11-19-6cab44dbf57495e8.pdf) | [Markdown](markdown/reports/R48641v18-2026-11-19-6cab44dbf57495e8.md) |
 | 2026-11-19 | LSB11502 v1 | Supreme Court Determines Clear and Convincing Evidence Not Required for Admissibility Determinations for Returning Lawful Permanent Residents | [PDF](pdf/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.pdf) | [Markdown](markdown/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.md) |
@@ -39,6 +43,7 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-18 | IF13288 v2 | Federal Air Quality and Wildland Fire Smoke Forecasting | [PDF](pdf/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.pdf) | [Markdown](markdown/in-focus/IF13288v2-2026-11-18-e6a03cd590896c1e.md) |
 | 2026-11-18 | IF13226 v8 | Seabed Mining on the U.S. Outer Continental Shelf: Recent Developments | [PDF](pdf/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.pdf) | [Markdown](markdown/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.md) |
 | 2026-11-18 | IF13198 v2 | Satellite Direct-to-Cellular (D2C) Service: Emergence, Use Cases, and Considerations for Congress | [PDF](pdf/in-focus/IF13198v2-2026-11-18-753b0b6d1450e322.pdf) | [Markdown](markdown/in-focus/IF13198v2-2026-11-18-753b0b6d1450e322.md) |
+| 2026-11-18 | IF13151 v5 | Agentic Artificial Intelligence and Cyberattacks | [PDF](pdf/in-focus/IF13151v5-2026-11-18-3a9ca698a0932240.pdf) | [Markdown](markdown/in-focus/IF13151v5-2026-11-18-3a9ca698a0932240.md) |
 | 2026-11-18 | IF13151 v4 | Agentic Artificial Intelligence and Cyberattacks | [PDF](pdf/in-focus/IF13151v4-2026-11-18-7e0d043a5c45fde8.pdf) | [Markdown](markdown/in-focus/IF13151v4-2026-11-18-7e0d043a5c45fde8.md) |
 | 2026-11-18 | IF12608 v22 | U.S. Interest in Seabed Mining in Areas Beyond National Jurisdiction: Brief Background and Recent Developments | [PDF](pdf/in-focus/IF12608v22-2026-11-18-9ed8d14f4516133b.pdf) | [Markdown](markdown/in-focus/IF12608v22-2026-11-18-9ed8d14f4516133b.md) |
 | 2026-11-18 | IF12421 v14 | The U.S. Army’s Indirect Fire Protection Capability System | [PDF](pdf/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.pdf) | [Markdown](markdown/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.md) |
@@ -49,6 +54,8 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-18 | 97-615 v80 | Salaries of Members of Congress: Congressional Votes, 1990-2026 | [PDF](pdf/reports/97-615v80-2026-11-18-d9c70834cded69ea.pdf) | [Markdown](markdown/reports/97-615v80-2026-11-18-d9c70834cded69ea.md) |
 | 2026-11-18 | 97-1011 v102 | Salaries of Members of Congress: Recent Actions and Historical Tables | [PDF](pdf/reports/97-1011v102-2026-11-18-53f2b9b77db83071.pdf) | [Markdown](markdown/reports/97-1011v102-2026-11-18-53f2b9b77db83071.md) |
 | 2026-11-18 | 97-1011 v103 | Salaries of Members of Congress: Recent Actions and Historical Tables | [PDF](pdf/reports/97-1011v103-2026-11-18-733ad003f1198b14.pdf) | [Markdown](markdown/reports/97-1011v103-2026-11-18-733ad003f1198b14.md) |
+| 2026-11-18 | 97-1011 v104 | Salaries of Members of Congress: Recent Actions and Historical Tables | [PDF](pdf/reports/97-1011v104-2026-11-18-ed8ef68100c0df2f.pdf) | [Markdown](markdown/reports/97-1011v104-2026-11-18-ed8ef68100c0df2f.md) |
+| 2026-11-17 | R49519 v2 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v2-2026-11-17-a748fdf4825cd699.pdf) | [Markdown](markdown/reports/R49519v2-2026-11-17-a748fdf4825cd699.md) |
 | 2026-11-17 | R49519 v1 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v1-2026-11-17-b217bd9aaa033053.pdf) | [Markdown](markdown/reports/R49519v1-2026-11-17-b217bd9aaa033053.md) |
 | 2026-11-17 | R48854 v4 | Poverty in the United States in 2025 | [PDF](pdf/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.pdf) | [Markdown](markdown/reports/R48854v4-2026-11-17-a3dbed4c927af1f2.md) |
 | 2026-11-17 | R45546 v54 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v54-2026-11-17-074dd953ae31522e.pdf) | [Markdown](markdown/reports/R45546v54-2026-11-17-074dd953ae31522e.md) |
@@ -113,7 +120,6 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-20 | 2026-04-14 | R48909 v1 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v1-2026-04-14-3d659233a28009cb.pdf) | [Markdown](markdown/reports/R48909v1-2026-04-14-3d659233a28009cb.md) |
 | 2026-11-20 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
 | 2026-11-20 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
