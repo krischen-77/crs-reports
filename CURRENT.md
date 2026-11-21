@@ -1,6 +1,6 @@
 # Official current CRS files
 
-Checked: 2026-11-21T11:26:16.003947+00:00. Official current entries verified: **104/104**.
+Checked: 2026-11-21T17:47:57.218628+00:00. Official current entries verified: **104/104**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
@@ -20,8 +20,8 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-21 | 2026-11-19 | R49522 v2 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v2-2026-11-19-2648d0b27a3dc608.pdf) | [Markdown](markdown/reports/R49522v2-2026-11-19-2648d0b27a3dc608.md) |
 | 2026-11-21 | 2026-11-17 | IF13257 v4 | The Role of U.S. In Situ Ocean Observation Networks: A Case Study of the Atlantic Meridional Overturning Circulation | [PDF](pdf/in-focus/IF13257v4-2026-11-17-df1ae2e2b262db46.pdf) | [Markdown](markdown/in-focus/IF13257v4-2026-11-17-df1ae2e2b262db46.md) |
 | 2026-11-21 | 2026-10-07 | IF12766 v5 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.pdf) | [Markdown](markdown/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.md) |
-| 2026-11-21 | 2026-11-16 | IF12148 v9 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.pdf) | [Markdown](markdown/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.md) |
 | 2026-11-21 | 2026-11-20 | R48909 v2 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.pdf) | [Markdown](markdown/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.md) |
+| 2026-11-21 | 2026-11-16 | IF12148 v9 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.pdf) | [Markdown](markdown/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.md) |
 | 2026-11-21 | 2026-11-19 | LSB11502 v1 | Supreme Court Determines Clear and Convincing Evidence Not Required for Admissibility Determinations for Returning Lawful Permanent Residents | [PDF](pdf/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.pdf) | [Markdown](markdown/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.md) |
 | 2026-11-21 | 2026-11-18 | IF13151 v5 | Agentic Artificial Intelligence and Cyberattacks | [PDF](pdf/in-focus/IF13151v5-2026-11-18-3a9ca698a0932240.pdf) | [Markdown](markdown/in-focus/IF13151v5-2026-11-18-3a9ca698a0932240.md) |
 | 2026-11-21 | 2026-11-20 | IF13248 v3 | Farm Bill Primer: Rural Broadband Provisions | [PDF](pdf/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.pdf) | [Markdown](markdown/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.md) |
