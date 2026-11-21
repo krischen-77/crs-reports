@@ -1,8 +1,6 @@
-**Official-current verification: 108/108. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-14 to 2026-11-21**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -106,13 +104,6 @@ Publication-date window (inclusive): **2026-11-13 to 2026-11-20**. Older archive
 | 2026-11-16 | IF10782 v13 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.pdf) | [Markdown](markdown/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.md) |
 | 2026-11-16 | IF10149 v27 | African Growth and Opportunity Act (AGOA) | [PDF](pdf/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.pdf) | [Markdown](markdown/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.md) |
 | 2026-11-16 | IF10113 v15 | The Child Support Enforcement (CSE) Program | [PDF](pdf/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.pdf) | [Markdown](markdown/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.md) |
-| 2026-11-13 | R49516 v1 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v1-2026-11-13-3be64129d62efd48.pdf) | [Markdown](markdown/reports/R49516v1-2026-11-13-3be64129d62efd48.md) |
-| 2026-11-13 | R49516 v2 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v2-2026-11-13-582ec08d22ea1358.pdf) | [Markdown](markdown/reports/R49516v2-2026-11-13-582ec08d22ea1358.md) |
-| 2026-11-13 | R48931 v3 | Sports Reform in the United States: College Athletics and the Olympic Sports Pipeline | [PDF](pdf/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.pdf) | [Markdown](markdown/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.md) |
-| 2026-11-13 | LSB11499 v1 | Supreme Court Considers Religious Schools, Public Funding, and Nondiscrimination Law | [PDF](pdf/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.pdf) | [Markdown](markdown/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.md) |
-| 2026-11-13 | IF12938 v4 | U.S. Satellite Capabilities for Tracking the Wildfire Life Cycle | [PDF](pdf/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.pdf) | [Markdown](markdown/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.md) |
-| 2026-11-13 | IF11105 v15 | Defense Primer: Emerging Technologies | [PDF](pdf/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.pdf) | [Markdown](markdown/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.md) |
-| 2026-11-13 | IF10545 v19 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.pdf) | [Markdown](markdown/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -121,7 +112,11 @@ API update dates can describe metadata or file changes. These current PDF files 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
 | 2026-11-20 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
+| 2026-11-20 | 2026-10-28 | R48078 v6 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v6-2026-10-28-dff0bf14d99981c8.pdf) | [Markdown](markdown/reports/R48078v6-2026-10-28-dff0bf14d99981c8.md) |
 | 2026-11-20 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
+| 2026-11-20 | 2026-10-07 | IF12766 v4 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v4-2026-10-07-4da025a1f39cfef4.pdf) | [Markdown](markdown/in-focus/IF12766v4-2026-10-07-4da025a1f39cfef4.md) |
+| 2026-11-20 | 2026-10-29 | IF11769 v7 | Law Enforcement and Technology: The “Lawful Access” Debate | [PDF](pdf/in-focus/IF11769v7-2026-10-29-1fcd6520009dc1bc.pdf) | [Markdown](markdown/in-focus/IF11769v7-2026-10-29-1fcd6520009dc1bc.md) |
+| 2026-11-20 | 2026-11-12 | IF11201 v6 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.pdf) | [Markdown](markdown/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.md) |
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-19 | 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |
 | 2026-11-19 | 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |
@@ -129,21 +124,19 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-19 | 2026-03-25 | IF11934 v8 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.pdf) | [Markdown](markdown/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.md) |
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-18 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
+| 2026-11-17 | 2026-11-13 | R49516 v2 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v2-2026-11-13-582ec08d22ea1358.pdf) | [Markdown](markdown/reports/R49516v2-2026-11-13-582ec08d22ea1358.md) |
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-17 | 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
 | 2026-11-14 | 2026-11-10 | RL30567 v33 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v33-2026-11-10-008c428880dee84b.pdf) | [Markdown](markdown/reports/RL30567v33-2026-11-10-008c428880dee84b.md) |
+| 2026-11-14 | 2026-11-13 | R48931 v3 | Sports Reform in the United States: College Athletics and the Olympic Sports Pipeline | [PDF](pdf/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.pdf) | [Markdown](markdown/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.md) |
 | 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
 | 2026-11-14 | 2026-11-12 | R47044 v5 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v5-2026-11-12-494473ce42d9bd47.pdf) | [Markdown](markdown/reports/R47044v5-2026-11-12-494473ce42d9bd47.md) |
 | 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
+| 2026-11-14 | 2026-11-13 | LSB11499 v1 | Supreme Court Considers Religious Schools, Public Funding, and Nondiscrimination Law | [PDF](pdf/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.pdf) | [Markdown](markdown/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.md) |
 | 2026-11-14 | 2026-11-12 | IF13348 v1 | Offshore Energy Agency Appropriations, FY2027 | [PDF](pdf/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.pdf) | [Markdown](markdown/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.md) |
 | 2026-11-14 | 2026-11-12 | IF13346 v3 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v3-2026-11-12-edcd66c878019019.pdf) | [Markdown](markdown/in-focus/IF13346v3-2026-11-12-edcd66c878019019.md) |
+| 2026-11-14 | 2026-11-13 | IF12938 v4 | U.S. Satellite Capabilities for Tracking the Wildfire Life Cycle | [PDF](pdf/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.pdf) | [Markdown](markdown/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.md) |
+| 2026-11-14 | 2026-11-13 | IF11105 v15 | Defense Primer: Emerging Technologies | [PDF](pdf/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.pdf) | [Markdown](markdown/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.md) |
+| 2026-11-14 | 2026-11-13 | IF10545 v19 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.pdf) | [Markdown](markdown/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.md) |
 | 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
-| 2026-11-13 | 2026-11-10 | R49515 v2 | Foreign Ownership of U.S. Agricultural Land and AFIDA: Overview and Issues | [PDF](pdf/reports/R49515v2-2026-11-10-215bcc02e4cbea82.pdf) | [Markdown](markdown/reports/R49515v2-2026-11-10-215bcc02e4cbea82.md) |
-| 2026-11-13 | 2026-11-10 | R49514 v2 | Connecting Constituents with Federal Assistance for Local Emergency Communications Projects | [PDF](pdf/reports/R49514v2-2026-11-10-273a6c8951393abd.pdf) | [Markdown](markdown/reports/R49514v2-2026-11-10-273a6c8951393abd.md) |
-| 2026-11-13 | 2026-06-08 | R48973 v3 | Vegetation Management for Wildfire Mitigation Along Electric Power Line Rights-of-Way on Federal Lands | [PDF](pdf/reports/R48973v3-2026-06-08-d41b74f1f067827c.pdf) | [Markdown](markdown/reports/R48973v3-2026-06-08-d41b74f1f067827c.md) |
-| 2026-11-13 | 2026-11-10 | R43744 v48 | Monuments and Memorials Authorized Under the Commemorative Works Act in the District of Columbia: Current Development of In-Progress and Lapsed Works | [PDF](pdf/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.pdf) | [Markdown](markdown/reports/R43744v48-2026-11-10-d7fcb89b3bffe8d1.md) |
-| 2026-11-13 | 2026-11-10 | R43743 v32 | Monuments and Memorials Authorized and Completed Under the Commemorative Works Act in the District of Columbia | [PDF](pdf/reports/R43743v32-2026-11-10-826a49a9ed776cdb.pdf) | [Markdown](markdown/reports/R43743v32-2026-11-10-826a49a9ed776cdb.md) |
-| 2026-11-13 | 2026-11-10 | IN12550 v5 | Healthy Start: Overview and Policy Considerations | [PDF](pdf/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.pdf) | [Markdown](markdown/insights/IN12550v5-2026-11-10-d0e79c543b59d1c1.md) |
-| 2026-11-13 | 2024-04-16 | IF12634 v2 | The Deliberative Process Privilege in Congress | [PDF](pdf/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.pdf) | [Markdown](markdown/in-focus/IF12634v2-2024-04-16-948b2971bcf9cfe2.md) |
-| 2026-11-13 | 2026-11-12 | IF11201 v6 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.pdf) | [Markdown](markdown/in-focus/IF11201v6-2026-11-12-54c8f612663c3e87.md) |
