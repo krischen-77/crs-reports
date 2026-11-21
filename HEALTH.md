@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-21T03:44:34.456304+00:00
+Watchdog checked UTC: 2026-11-21T11:15:20.258628+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
@@ -19,7 +19,7 @@ Collector has unresolved required failures
 
 ## Recovery
 
-Retry cooldown/cap active; failure remains visible
+Dispatched crs-backup.yml; completion is NOT yet verified
 
 Hourly checks; overdue after 26 hours; retry at most once per stage per six hours and four times total per 24 hours.
 A GitHub-wide outage can also stop this watchdog. External monitoring is a separate safety net.
