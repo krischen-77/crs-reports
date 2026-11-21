@@ -1,5 +1,3 @@
-**Official-current verification: 104/104. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-14 to 2026-11-21**. Older archived files are retained.
@@ -124,12 +122,12 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-20 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
-| 2026-11-20 | 2026-10-28 | R48078 v7 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v7-2026-10-28-74788cd9eced2ad7.pdf) | [Markdown](markdown/reports/R48078v7-2026-10-28-74788cd9eced2ad7.md) |
+| 2026-11-21 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
+| 2026-11-21 | 2026-10-28 | R48078 v7 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v7-2026-10-28-74788cd9eced2ad7.pdf) | [Markdown](markdown/reports/R48078v7-2026-10-28-74788cd9eced2ad7.md) |
+| 2026-11-21 | 2026-10-07 | IF12766 v5 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.pdf) | [Markdown](markdown/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.md) |
+| 2026-11-21 | 2026-10-29 | IF11769 v8 | Law Enforcement and Technology: The “Lawful Access” Debate | [PDF](pdf/in-focus/IF11769v8-2026-10-29-ad3696b78c9fcc5e.pdf) | [Markdown](markdown/in-focus/IF11769v8-2026-10-29-ad3696b78c9fcc5e.md) |
+| 2026-11-21 | 2026-11-12 | IF11201 v8 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v8-2026-11-12-00a5c28b603ac828.pdf) | [Markdown](markdown/in-focus/IF11201v8-2026-11-12-00a5c28b603ac828.md) |
 | 2026-11-20 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
-| 2026-11-20 | 2026-10-07 | IF12766 v5 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.pdf) | [Markdown](markdown/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.md) |
-| 2026-11-20 | 2026-10-29 | IF11769 v8 | Law Enforcement and Technology: The “Lawful Access” Debate | [PDF](pdf/in-focus/IF11769v8-2026-10-29-ad3696b78c9fcc5e.pdf) | [Markdown](markdown/in-focus/IF11769v8-2026-10-29-ad3696b78c9fcc5e.md) |
-| 2026-11-20 | 2026-11-12 | IF11201 v8 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v8-2026-11-12-00a5c28b603ac828.pdf) | [Markdown](markdown/in-focus/IF11201v8-2026-11-12-00a5c28b603ac828.md) |
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-19 | 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |
 | 2026-11-19 | 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |

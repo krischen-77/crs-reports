@@ -3,84 +3,9 @@
     {
       "attempts": 1,
       "last_attempt": "2026-11-21",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
       "next_retry": "2026-11-23",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "2",
-        "date": "2020-04-28",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R46333",
-            "sha1": "2cd0cac2fa4fb6675a23007b9ed3c8d6590077c1",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200428_R46333_2cd0cac2fa4fb6675a23007b9ed3c8d6590077c1.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R46333",
-            "sha1": "19f1ed5392343333e617b3ff00f188e518b2e6bc",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200428_R46333_19f1ed5392343333e617b3ff00f188e518b2e6bc.pdf"
-            ]
-          }
-        },
-        "id": "R46333",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R46333",
-          "https://www.crs.gov/Reports/pdf/R46333"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "623178",
-        "title": "Fintech: Overview of Financial Regulators and Recent Policy Approaches",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "3",
-        "date": "2020-05-19",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R46364",
-            "sha1": "a859ad2300cd89caec17956773473143e1c209b1",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200519_R46364_a859ad2300cd89caec17956773473143e1c209b1.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R46364",
-            "sha1": "b59212cfa1e885841bb8d4ae1bc3eae6cab6060a",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200519_R46364_b59212cfa1e885841bb8d4ae1bc3eae6cab6060a.pdf"
-            ]
-          }
-        },
-        "id": "R46364",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/R46364",
-          "https://www.crs.gov/Reports/pdf/R46364"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "625112",
-        "title": "Suspension of the Rules: House Practice in the 115th Congress (2017-2018)",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "pdf_preserved": true,
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "6",
@@ -10782,6 +10707,46 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "623187",
         "title": "Fintech: Overview of Innovative Financial Technology and Selected Policy Issues",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-21",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-23",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "2",
+        "date": "2020-04-28",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R46333",
+            "sha1": "2cd0cac2fa4fb6675a23007b9ed3c8d6590077c1",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20200428_R46333_2cd0cac2fa4fb6675a23007b9ed3c8d6590077c1.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R46333",
+            "sha1": "19f1ed5392343333e617b3ff00f188e518b2e6bc",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20200428_R46333_19f1ed5392343333e617b3ff00f188e518b2e6bc.pdf"
+            ]
+          }
+        },
+        "id": "R46333",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/R46333",
+          "https://www.crs.gov/Reports/pdf/R46333"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "623178",
+        "title": "Fintech: Overview of Financial Regulators and Recent Policy Approaches",
         "version": "unknown"
       }
     }
