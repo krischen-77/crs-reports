@@ -3,83 +3,8 @@
     {
       "attempts": 1,
       "last_attempt": "2026-11-21",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "last_error": "Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum",
       "next_retry": "2026-11-23",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "6",
-        "date": "2023-03-09",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "R46911",
-            "sha1": "",
-            "source_format": "pymupdf",
-            "urls": [
-              "https://www.everycrsreport.com/files/2023-03-09_R46911_a4a2e6b54fd93427196a7f540d4e09e41c27d74b.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "R46911",
-            "sha1": "a4a2e6b54fd93427196a7f540d4e09e41c27d74b",
-            "source_format": "original PDF",
-            "urls": [
-              "https://crsreports.congress.gov/product/pdf/R/R46911/5",
-              "https://www.everycrsreport.com/files/2023-03-09_R46911_a4a2e6b54fd93427196a7f540d4e09e41c27d74b.pdf"
-            ]
-          }
-        },
-        "id": "R46911",
-        "ignored_nonpublic_source_urls": [],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "R46911_5_2023-03-09",
-        "title": "Drought in the United States: Science, Policy, and Selected Federal Authorities",
-        "version": "5"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "110",
-        "date": "2020-02-06",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "RL30354",
-            "sha1": "a60cbcd459e4dad34d1f634a9dda76eeb18eb6da",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200206_RL30354_a60cbcd459e4dad34d1f634a9dda76eeb18eb6da.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "RL30354",
-            "sha1": "d2620ae4bc0820cb5e4fbe4987bf64bc6e46e87d",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20200206_RL30354_d2620ae4bc0820cb5e4fbe4987bf64bc6e46e87d.pdf"
-            ]
-          }
-        },
-        "id": "RL30354",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/RL30354",
-          "https://www.crs.gov/Reports/pdf/RL30354"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "616200",
-        "title": "Monetary Policy and the Federal Reserve: Current Policy and Conditions",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "29",
@@ -10748,6 +10673,45 @@
         "source_record": "623178",
         "title": "Fintech: Overview of Financial Regulators and Recent Policy Approaches",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-21",
+      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
+      "next_retry": "2026-11-23",
+      "pdf_preserved": true,
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "6",
+        "date": "2023-03-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R46911",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2023-03-09_R46911_a4a2e6b54fd93427196a7f540d4e09e41c27d74b.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R46911",
+            "sha1": "a4a2e6b54fd93427196a7f540d4e09e41c27d74b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R46911/5",
+              "https://www.everycrsreport.com/files/2023-03-09_R46911_a4a2e6b54fd93427196a7f540d4e09e41c27d74b.pdf"
+            ]
+          }
+        },
+        "id": "R46911",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "R46911_5_2023-03-09",
+        "title": "Drought in the United States: Science, Policy, and Selected Federal Authorities",
+        "version": "5"
       }
     }
   ],

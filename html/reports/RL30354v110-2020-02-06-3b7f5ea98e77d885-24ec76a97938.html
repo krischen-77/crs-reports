@@ -1,0 +1,1071 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;RL/PDF/RL30354.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Monetary Policy and the Federal Reserve: Current Policy and Conditions</div>
+<div class="CoverDate">Updated February 6, 2020
+            (RL30354)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc31891648"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc31891649"><span class="Hyperlink">Recent Monetary Policy Developments</span></a></li>
+<li class="TOC1"><a href="#_Toc31891650"><span class="Hyperlink">How Does the Federal Reserve Execute Monetary Policy?</span></a></li>
+<li class="TOC2"><a href="#_Toc31891651"><span class="Hyperlink">Policy Tools</span></a></li>
+<li class="TOC3"><a href="#_Toc31891652"><span class="Hyperlink">Targeting Interest Rates versus Targeting the Money Supply</span></a></li>
+<li class="TOC3"><a href="#_Toc31891653"><span class="Hyperlink">Real versus Nominal Interest Rates</span></a></li>
+<li class="TOC2"><a href="#_Toc31891654"><span class="Hyperlink">Economic Effects of Monetary Policy in the Short Run and Long Run</span></a></li>
+<li class="TOC2"><a href="#_Toc31891655"><span class="Hyperlink">Low Interest Rates and the Neutral Rate</span></a></li>
+<li class="TOC2"><a href="#_Toc31891656"><span class="Hyperlink">Monetary versus Fiscal Policy</span></a></li>
+<li class="TOC1"><a href="#_Toc31891657"><span class="Hyperlink">Unconventional Monetary Policy and the Fed's Balance Sheet during and after the Financial Crisis</span></a></li>
+<li class="TOC1"><a href="#_Toc31891658"><span class="Hyperlink">The "Exit Strategy": Normalization of Monetary Policy after QE</span></a></li>
+<li class="TOC1"><a href="#_Toc31891659"><span class="Hyperlink">The Federal Reserve's Response to Repo Market Turmoil in September 2019</span></a></li>
+<li class="TOC1"><a href="#_Toc31891660"><span class="Hyperlink">The Federal Reserve's Review of Monetary Policy Strategy, Tools, and Communications</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc31891644"><span class="Hyperlink">Figure 1. Direct Fed Assistance to the Financial Sector</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc31891645"><span class="Hyperlink">Table 1. The Federal Funds Rate at the Peak of Expansions</span></a></li>
+<li><a href="#_Toc31891646"><span class="Hyperlink">Table 2. Quantitative Easing (QE): </span><span class="Hyperlink">Changes in Asset Holdings on the Fed's Balance Sheet</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Appendixes</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc31891647"><span class="Hyperlink">Appendix. Regulatory Responsibilities</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress has delegated responsibility for monetary policy to the Federal Reserve (the Fed), the nation's central bank, but retains oversight responsibilities for ensuring that the Fed is adhering to its statutory mandate of "maximum employment, stable prices, and moderate long-term interest rates." To meet its price stability mandate, the Fed has set a longer-run goal of 2% inflation.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed's control over monetary policy stems from its exclusive ability to alter the money supply and credit conditions more broadly. Normally, the Fed conducts monetary policy by setting a target for the <em>federal funds rate</em>, the rate at which banks borrow and lend reserves on an overnight basis. It meets its target through <em>open market operations</em>, financial transactions traditionally involving U.S. Treasury securities. Beginning in 2007, the federal funds target was reduced from 5.25% to a range of 0% to 0.25% in December 2008, which economists call the <em>zero lower bound</em>. By historical standards, rates were kept unusually low for an unusually long time to mitigate the effects of the 2007-2009 financial crisis and its aftermath. Starting in December 2015, the Fed began raising interest rates. In total, the Fed raised rates nine times between 2015 and 2018, by 0.25 percentage points each time. In light of increased economic uncertainty, the Fed then reduced interest rates by 0.25 percentage points in a series of steps beginning in July 2019.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed influences interest rates to affect interest-sensitive spending, such as business capital spending on plant and equipment, household spending on consumer durables, and residential investment. In addition, when interest rates diverge between countries, it causes capital flows that affect the exchange rate between foreign currencies and the dollar, which in turn affects spending on exports and imports. Through these channels, monetary policy can be used to stimulate or slow aggregate spending in the short run. In the long run, monetary policy mainly affects inflation. A low and stable rate of inflation promotes price transparency and, thereby, sounder economic decisions. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed's relative independence from Congress and the Administration has been justified by many economists on the grounds that it reduces political pressure to make monetary policy decisions that are inconsistent with a long-term focus on stable inflation. But independence reduces accountability to Congress and the Administration, and recent criticism of the Fed by the President has raised the question about the proper balance between the two.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While the federal funds target was at the zero lower bound, the Fed attempted to provide additional stimulus through unsterilized purchases of Treasury and mortgage-backed securities (MBS), a practice popularly referred to as <em>quantitative easing</em> (QE). Between 2009 and 2014, the Fed undertook three rounds of QE. The third round was completed in October 2014, at which point the Fed's balance sheet was $4.5 trillion—five times its precrisis size. After QE ended, the Fed maintained the balance sheet at the same level until September 2017, when it began to very gradually reduce it to a more normal size. The Fed has raised interest rates in the presence of a large balance sheet through the use of two new tools—by paying banks interest on reserves held at the Fed and by engaging in reverse repurchase agreements (<em>reverse repos</em>) through a new overnight facility. In January 2019, the Fed announced that it would continue using these tools to set interest rates permanently. In August 2019, it stopped reducing the balance sheet from its current size of $3.8 trillion. However, the remaining MBS on its balance sheet would gradually be replaced with Treasury securities as they mature. In response to turmoil in the repo market in September 2019, the Fed began intervening in the repo market and began expanding its balance sheet again in October 2019.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">With regard to its mandate, the Fed believes that unemployment is currently lower than the rate that it considers consistent with maximum employment, and inflation is running slightly below the Fed's 2% goal by the Fed's preferred measure. Monetary policy is still considered expansionary, which is unusual at this stage of an expansion, and is being coupled with a stimulative fiscal policy (larger structural budget deficit). The decision to cut rates in 2019 was controversial. The Fed justified the cut on the grounds that risks of a growth slowdown had intensified and inflation was still below 2%. But it also argued that the economy was still strong, and some of the risks to the economy, such as higher tariffs, had not yet materialized at the time of the decision. Overly stimulative monetary policy in a strong expansion risks economic overheating, high inflation, or asset bubbles.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Reserve's (the Fed's) responsibilities as the nation's central bank fall into four main categories: monetary policy, provision of emergency liquidity through the lender of last resort function, supervision of certain types of banks and other financial firms for safety and soundness, and provision of payment system services to financial firms and the government.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="For background on the makeup of the Federal Reserve, see CRS In Focus IF10054, Introduction to Financial Services: The Federal Reserve , by Marc Labonte .">1</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress has delegated responsibility for monetary policy to the Fed, but retains oversight responsibilities to ensure that the Fed is adhering to its statutory mandate of "maximum employment, stable prices, and moderate long-term interest rates."<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="Section 2A of the Federal Reserve Act, 12 U.S.C. § 225a.">2</a></sup> The Fed has defined stable prices as a longer-run goal of 2% inflation—the change in overall prices, as measured by the Personal Consumption Expenditures (PCE) price index. By contrast, the Fed states that "it would not be appropriate to specify a fixed goal for employment; rather, the Committee's policy decisions must be informed by assessments of the maximum level of employment, recognizing that such assessments are necessarily uncertain and subject to revision."<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Federal Reserve, Statement on Longer-Run Goals and Monetary Policy Strategy , January 24, 2012, at http://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf .">3</a></sup> Monetary policy can be used to stabilize business cycle fluctuations (alternating periods of economic expansions and recessions) in the short run, while it mainly affects inflation in the long run. The Fed's conventional tool for monetary policy is to target the <em>federal funds rate</em>—the overnight, interbank lending rate.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="Current and past monetary policy announcements can be accessed at http://www.federalreserve.gov/monetarypolicy/fomccalendars.htm . For more information on the business cycle, see CRS In Focus IF10411, Introduction to U.S. Economy: The Business Cycle and Growth , by Jeffrey M. Stupak .">4</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report provides an overview of how monetary policy works and recent developments, a summary of the Fed's actions following the financial crisis, and ends with a brief overview of the Fed's regulatory responsibilities. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc441225001"></a><a name="_Toc441225064"></a><a name="_Toc441568877"></a><a name="_Toc441828819"></a><a name="_Toc473725889"></a><a name="_Toc474226640"></a><a name="_Toc474402298"></a><a name="_Toc485390602"></a><a name="_Toc485807296"></a><a name="_Toc485808855"></a><a name="_Toc485914086"></a><a name="_Toc503252411"></a><a name="_Toc524616960"></a><a name="_Toc532572081"></a><a name="_Toc532572473"></a><a name="_Toc534035355"></a><a name="_Toc534035386"></a><a name="_Toc534035417"></a><a name="_Toc535417327"></a><a name="_Toc535417460"></a><a name="_Toc535563208"></a><a name="_Toc535563287"></a><a name="_Toc535588151"></a><a name="_Toc1743151"></a><a name="_Toc1743180"></a><a name="_Toc17816658"></a><a name="_Toc18493723"></a><a name="_Toc18502288"></a><a name="_Toc18924306"></a><a name="_Toc31726503"></a><a name="_Toc31726635"></a><a name="_Toc31727144"></a><a name="_Toc31814851"></a><a name="_Toc31814934"></a><a name="_Toc31815031"></a><a name="_Toc31891649"></a>Recent Monetary Policy Developments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In response to the 2007-2009 financial crisis and the "Great Recession," the federal funds target was reduced to a range of 0% to 0.25% in December 2008—referred to as the <em>zero lower bound</em>—for the first time ever. The recession ended in 2009, but as the economic recovery consistently proved weaker than expected in the years that followed, the Fed repeatedly pushed back its time frame for raising interest rates.<strong> </strong>As a result, the economic expansion was in its seventh year and the unemployment rate was already near the Fed's estimate of full employment at the time when it began raising rates on December 16, 2015. This was a departure from past practice—in the previous two economic expansions, the Fed began raising rates within three years of the preceding recession ending. The Fed then raised rates in a series of steps to incrementally tighten monetary policy. The Fed raised rates—by 0.25 percentage points each time—once in 2016, three times in 2017, and four times in 2018. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2019, the expansion became the longest in U.S. history. Beginning in July 2019, the Fed reduced the federal funds target in a series of steps, by 0.25 percentage points at a time. Usually, when the Fed begins cutting interest rates, it subsequently makes several reductions over a series of months in response to the onset of a recession, although sometimes the rate cuts are more modest and short-lived "mid-cycle corrections."<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="See CRS Insight IN11152, Why Is the Federal Reserve Reducing Interest Rates? , by Marc Labonte .">5</a></sup> If the range of 2.25%-2.5% turns out to be the highest that the federal funds target reached in the current expansion, then it will have been much lower than at the peak of previous expansions in either nominal or inflation-adjusted terms, as shown in <a class="InternalLink" href="#_Ref17907715"><strong></strong><strong>Table 1</strong></a>.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref17907715"></a><a name="_Toc18493719"></a><a name="_Toc18502284"></a><a name="_Toc18924302"></a><a name="_Toc31726499"></a><a name="_Toc31726631"></a><a name="_Toc31727140"></a><a name="_Toc31814847"></a><a name="_Toc31814930"></a><a name="_Toc31815027"></a><a name="_Toc31891645"></a>Table 1. The Federal Funds Rate at the Peak of Expansions</p>
+<p class="TableSubTitle">1957-2019</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:47.9088pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="">Date of Peak Rate</p>
+</td>
+<td style="width:47.9088pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Peak Rate (Nominal)</p>
+</td>
+<td style="width:47.9088pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Peak Rate (Inflation-Adjusted)</p>
+</td>
+<td style="width:47.9088pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Cumulative Subsequent Reduction in Nominal Rate (Percentage Points)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">October 1957</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">3.5%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">0.6%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">2.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">February 1960</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">4.0%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">2.6%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">2.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">September 1969</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">9.2%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">3.5%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">5.5</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">July 1974</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">12.9%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">1.4%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">7.7</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">April 1980</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">17.6%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">3.0%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">4.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">June 1981</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">19.1%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">9.4%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">10.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">May 1989</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">9.8%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">4.5%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">5.3</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">November 2000</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">6.5%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">3.1%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">4.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">July 2007</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">5.3%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">2.9%</p>
+</td>
+<td style="width:47.9088pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">5.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:47.9088pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">As of<em> </em>July 2019</p>
+</td>
+<td style="width:47.9088pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">2.4%</p>
+</td>
+<td style="width:47.9088pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;padding-right:34.85pt;">0.6%</p>
+</td>
+<td style="width:47.9088pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:right;">potential max of 2.4</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source</strong><strong>s</strong><strong>:</strong> CRS calculations based on Fed data; David Reifschneider, "Gauging the Ability of the FOMC to Respond to Future Recessions," Federal Reserve, <em>Finance and Economics Discussion Series 2016-068</em>, August 2016.</p>
+<p class="TableNote"><strong>Notes: </strong>Federal funds rate adjusted for inflation using the consumption price index.<strong> </strong>In early expansions in the table, the federal funds rate was not the explicit target of monetary policy. The table presents the average effective federal funds rate.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The rate cuts seem to have been in response to a slowdown in growth. After being persistently low by historical standards throughout the expansion, economic growth accelerated from the third quarter of 2017 through the third quarter of 2018. Since the fourth quarter of 2018, economic growth appears to have slowed from this elevated pace back toward the previous trend, where projections expect it to stay in the coming quarters.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="For more information, see CRS Report R46200, Recent Slower Economic Growth in the United States: Policy Implications , by Marc Labonte .">6</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed's decision to reduce rates can be evaluated in terms of its statutory mandate. Based on the maximum employment mandate, tight labor market conditions did not support the series of rate cuts, considering monetary policy was still slightly stimulative—adjusted for inflation, rates were close to zero even before they were cut. The unemployment rate has been below 5% since 2015 and is now lower than the rate believed to be consistent with full employment. Other labor market indicators are also consistent with full employment, with the possible exception of the still-low labor force participation rate. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Based on the price stability mandate, lower rates could be justified to avoid a potentially long-lasting decline in inflation (which would be unexpected, given labor market tightness). After remaining persistently below the Fed's 2% target from mid-2012 to early 2018 as measured by core PCE, inflation hovered around 2% in 2018 as measured by headline or core PCE. Inflation then dipped slightly below 2% again in 2019. Economic theory posits that lower unemployment will lead to higher inflation in the short run, but inflation has not proven responsive to lower unemployment in recent years.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="For more information, see CRS Report R44663, Unemployment and Inflation: Implications for Policymaking , by Marc Labonte .">7</a></sup> Arguably, the experiences of Japan since the 1990s and the euro area since the financial crisis demonstrate that persistently lower-than-desirable inflation has become a harder problem than high inflation for central banks to solve.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc31814852"></a>Monetary policy works with a lag, and if economic conditions were to deteriorate in the near future, it would be helpful to have cut rates ahead of time. Financial volatility has increased, and the Fed has argued that there are heightened risks to the economic outlook coming from the slowdown in growth abroad and the potential for economic disruptions from "trade policy uncertainty."<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="See CRS Insight IN10971, Escalating U.S. Tariffs: Affected Trade , coordinated by Brock R. Williams .">8</a></sup> (Distinct from monetary stimulus, the Fed has intervened in repo markets since September 2019 in response to repo market volatility. For more information, see the section below entitled "<a class="InternalLink" href="#_Ref31815058">The Federal Reserve's Response to Repo Market Turmoil in September 2019</a>.")</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although it believes the most likely scenario is sustained expansion, the Fed has justified the 2019 rate cuts in risk-management terms as "insurance cuts." But cutting rates also poses risks.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Federal Reserve, &quot; Transcript of Chairman Powell's Press Conference ,&quot; July 31, 2019, at https://www.federalreserve.gov/mediacenter/file s /FOMCpresconf20190731.pdf .">9</a></sup> The Fed has little headroom to lower rates more aggressively during the next economic downturn—the potential two-percentage-point reduction in rates remaining before hitting the zero bound is currently smaller than the rate cuts that the Fed has undertaken in past recessions, as shown in the right hand column of <a class="InternalLink" href="#_Ref17907715"><strong></strong><strong>Table 1</strong></a>.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Janet Yellen, &quot;The Federal Reserve's Monetary Policy Toolkit,&quot; speech at Jackson Hole, WY, August 26, 2016, at https://www.federalreserve.gov/newsevents/speech/yellen20160826a.htm .">10</a></sup> Fed Chair Jerome Powell and other Fed officials have argued that, with limited headroom, it is better to cut rates aggressively when risks rise to nip a potential downturn in the bud.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Nick Timiraos, &quot;Powell Says Fed Won't Bend to Political Pressure,&quot; Wall Street Journal , June 25, 2019, at https://www.wsj.com/articles/feds-powell-trade-uncertainty-global-growth-worries-could-prompt-rate-cuts-11561481986 .">11</a></sup> The counterargument is that when your arsenal is limited, it is better to keep your powder dry until you are sure it is needed. By cutting rates in 2019, the Fed leaves itself less scope for monetary stimulus in the future. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There is upside risk to cutting rates as well. If downside risks to the outlook do not materialize (for example, if a trade war is averted), monetary stimulus could cause the economy to overheat, resulting in high inflation and posing risk to financial stability. The Fed has signaled it intends to keep interest rates at their current level for now, even though some of these downside risks seem to be diminishing. As an example of how overly stimulative monetary policy can lead to financial instability, critics contend that the Fed contributed to the precrisis housing bubble by keeping interest rates too low for too long during the economic recovery starting in 2001. Critics see these risks as outweighing any marginal benefit associated with monetary stimulus when the economy is already so close to full employment.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title='See, for example, John Taylor, "A Monetary Policy for the Future," speech at the International Monetary Fund, April 15, 2015, at http://web.stanford.edu/~johntayl/2015_pdfs/A_Monetary_Policy_For_the_Future-4-15-15.pdf .'>12</a></sup> Finally, there is reputational risk to the Fed's independence if it appears that the Fed is cutting rates in response to political pressure from the President (see the text box "Federal Reserve Independence" below).</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref402863870"></a><a name="_Toc422846850"></a><a name="_Toc433284239"></a><a name="_Toc433284387"></a><a name="_Toc433284423"></a><a name="_Toc433284632"></a><a name="_Toc437508077"></a><a name="_Toc441225002"></a><a name="_Toc441225065"></a><a name="_Toc441568878"></a><a name="_Toc441828820"></a><a name="_Toc473725890"></a><a name="_Toc474226641"></a><a name="_Toc474402299"></a><a name="_Toc485390603"></a><a name="_Toc485807297"></a><a name="_Toc485808856"></a><a name="_Toc485914087"></a><a name="_Toc503252412"></a><a name="_Toc524616961"></a><a name="_Toc532572082"></a><a name="_Toc532572474"></a><a name="_Toc534035356"></a><a name="_Toc534035387"></a><a name="_Toc534035418"></a><a name="_Toc535417328"></a><a name="_Toc535417461"></a><a name="_Toc535563209"></a><a name="_Toc535563288"></a><a name="_Toc535588152"></a><a name="_Toc1743152"></a><a name="_Toc1743181"></a><a name="_Toc17816659"></a><a name="_Toc18493724"></a><a name="_Toc18502289"></a><a name="_Toc18924307"></a><a name="_Toc31726504"></a><a name="_Toc31726636"></a><a name="_Toc31727145"></a><a name="_Toc31814853"></a><a name="_Toc31814935"></a><a name="_Toc31815032"></a><a name="_Toc31891650"></a>How Does the Federal Reserve Execute Monetary Policy?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Monetary policy refers to the actions the Fed undertakes to influence the availability and cost of money and credit to promote the goals mandated by Congress, a stable price level and maximum sustainable employment. Because the expectations of households as consumers and businesses as purchasers of capital goods exert an important influence on the major portion of spending in the United States, and because these expectations are influenced in important ways by the Fed's actions, a broader definition of monetary policy would include the directives, policies, statements, economic forecasts, and other Fed actions, especially those made by or associated with the chairman of its Board of Governors, who is the nation's central banker.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed's Federal Open Market Committee (FOMC) meets every six weeks to choose a federal funds target and sometimes meets on an ad hoc basis if it wants to change the target between regularly scheduled meetings. The FOMC is composed of the 7 Fed governors, the President of the Federal Reserve Bank of New York, and 4 of the other 11 regional Federal Reserve Bank presidents serving on a rotating basis.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Of the monetary policy tools described below, the board is generally responsible for setting reserve requirements and interest rates paid by the Fed, whereas the federal funds target is set by the FOMC. The discount rate is set by the 12 Federal Reserve banks, subject to the board's approval. In practice, the board and FOMC coordinate the use of these tools to implement a consistent monetary policy stance. The New York Fed determines what open market operations are necessary on an ongoing basi...">13</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed generally tries to avoid policy surprises, and FOMC members regularly communicate their views on the future direction of monetary policy to the public. The Fed describes its monetary policy plans as "data dependent," meaning they would be altered if actual employment or inflation deviate from its forecast.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc441225066"></a><a name="_Toc441568879"></a><a name="_Toc441828821"></a><a name="_Toc473725891"></a><a name="_Toc474226642"></a><a name="_Toc474402300"></a><a name="_Toc485390604"></a><a name="_Toc485807298"></a><a name="_Toc485808857"></a><a name="_Toc485914088"></a><a name="_Toc503252413"></a><a name="_Toc524616962"></a><a name="_Toc532572083"></a><a name="_Toc532572475"></a><a name="_Toc534035357"></a><a name="_Toc534035388"></a><a name="_Toc534035419"></a><a name="_Toc535417329"></a><a name="_Toc535417462"></a><a name="_Toc535563210"></a><a name="_Toc535563289"></a><a name="_Toc535588153"></a><a name="_Toc1743153"></a><a name="_Toc1743182"></a><a name="_Toc17816660"></a><a name="_Toc18493725"></a><a name="_Toc18502290"></a><a name="_Toc18924308"></a><a name="_Toc31726505"></a><a name="_Toc31726637"></a><a name="_Toc31727146"></a><a name="_Toc31814854"></a><a name="_Toc31814936"></a><a name="_Toc31815033"></a><a name="_Toc31891651"></a>Policy Tools</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed targets the federal funds rate to carry out monetary policy. The federal funds rate is determined in the private market for overnight reserves of depository institutions (called the federal funds market). At the end of a given period, usually a day, depository institutions must calculate how many dollars of reserves they want or need to hold against their reservable liabilities (deposits).<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Depository institutions are obligated by law to hold some fraction of their deposit liabilities as reserves. T hey are also likely to hold additional or excess reserves based on certain risk assessments they make about their portfolios and liabilities.">14</a></sup> Some institutions may discover a reserve shortage (too few reservable assets relative to those they want to hold), whereas others may have reservable assets in excess of their wants. These reserves can be borrowed and lent on an overnight basis in a private market called the federal funds market. The interest rate in this market is called the federal funds rate. If it wishes to expand money and credit, the Fed will lower the target, which encourages more lending activity and, thus, greater demand in the economy. Conversely, if it wishes to tighten money and credit, the Fed will raise the target. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The federal funds rate is linked to the interest rates that banks and other financial institutions charge for loans. Thus, whereas the Fed may directly influence only a very short-term interest rate, this rate influences other longer-term rates. However, this relationship is far from being on a one-to-one basis because longer-term market rates are influenced not only by what the Fed is doing today, but also by what it is expected to do in the future and by what inflation is expected to be in the future. This fact highlights the importance of expectations in explaining market interest rates. For that reason, a growing body of literature urges the Fed to be very transparent in explaining what its policy is, will be, and in making a commitment to adhere to that policy.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='S ee , for example, Anthony M. Santomero , "Great Expectations: The Role of Beliefs in Economics and Monetary Policy , " Business Review, Federal Reserve Bank of Philadelphia , Second Quarter 2004, pp. 1-6, and Gordon H. Sellon , Jr., "Expectations and the Monetary Policy Transmission Mechanism," Economic Review , Federal Reserve Bank of Kansas City, Fourth Quarter 2004, pp. 4-42.'>15</a></sup> The Fed has responded to this literature and is increasingly transparent in explaining its policy measures and what these measures are expected to accomplish.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Reserve uses two methods to maintain its target for the federal funds rate:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Traditionally, the Fed primarily relied on <em>open market operations</em>, which involves the Fed buying existing U.S. Treasury securities in the secondary market (i.e., those that have already been issued and sold to private investors).<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='The Fed is legally forbidden from buying securities directly from the Department of the Treasury. Instead, it buys them on secondary markets from primary dealers. For a technical explanation of how open market operations are conducted , see Chery l L. Edwards , "Open Market Operations in the 1990s," Federal Reserve Bulletin , November 1997, pp. 859-872; and Benjamin Friedman and Kenneth Kuttner, Implementation of Monetary Policy: How Do Central Banks Set Interest Rates? , Natio...'>16</a></sup> Should the Fed buy securities, it does so with the equivalent of newly issued currency (Federal Reserve notes), which expands the reserve base and increases the ability of depository institutions to make loans and expand money and credit. The reverse is true if the Fed decides to sell securities from its portfolio. The Fed must stand ready to buy or sell as many securities as necessary to maintain its federal funds target. Outright purchases of securities were used for QE from 2009 to 2014, but normal open market operations are typically conducted through repos instead, described in the text box. When the Fed wishes to add liquidity to the banking system, it enters into repos. When it wishes to remove liquidity, the Fed enters into reverse repos.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='In addition to open market operations, the Fed has entered into reverse repos since 2013 through a newly created facility, the Overnight Reverse Repurchase Operations Facility. See the section below entitled " The "Exit Strategy": Normalization of Monetary Policy after QE ."'>17</a></sup> Because of the large increase in bank reserves caused by QE, open market operations alone can no longer effectively maintain the federal funds target.</li>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:431pt;" valign="top">
+<p class="ShadedBoxHeading" style="">What Are Repos?</p>
+<p class="TableText" style="">Repurchase agreements (repos) are agreements between two parties to purchase and then repurchase securities at a fixed price and future date, often overnight. Although legally structured as a pair of security sales, they are economically equivalent to a collateralized loan. The difference in price between the first and second transaction determines the interest rate on the loan. The repo market is one of the largest short-term lending markets, where banks and other financial institutions are active borrowers and lenders. For the seller of the security, who receives the cash, the transaction is called a repo. For the purchaser of the security, who lends the cash, it is called a reverse repo. (When describing transactions, the Fed uses the terminology from the perspective of its counterparty.) Collateral protects the lender against potential default. In principle, any type of security can be used as collateral, but the most common collateral—and the types used by the Fed—are Treasury securities, agency MBS, and agency debt.</p>
+<p class="TableText" style="">Note: For background on the repo market, see CRS In Focus IF11383, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF11383"><em><span class="Hyperlink">Repurchase Agreements (Repos): A Primer</span></em></a>, by Marc Labonte; and Tobias Adrian et al., "Repo and Securities Lending," Federal Reserve Bank of New York, Staff Report no. 529, December 2011, available at <a class="ExternalLink" href="http://www.newyorkfed.org/research/staff_reports/sr529.pdf"><span class="Hyperlink">http://www.newyorkfed.org/</span><span class="Hyperlink"></span><span class="Hyperlink">research/</span><span class="Hyperlink"></span><span class="Hyperlink">staff_reports/</span><span class="Hyperlink"></span><span class="Hyperlink">sr529.pdf</span></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed can also change the two interest rates it administers directly by fiat, and these interest rates influence market rates—the rate it charges to borrowers and the rate it pays to depositors. </li>
+<li class="ListBullet2" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed permits depository institutions to borrow from it directly on a temporary basis at the discount window.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="All depository institutions, as defined by 12 U.S.C. § 461, may borrow from the discount window and are subject to reserve requirements regardless of whether they are members of the Federal Reserve.">18</a></sup> That is, these institutions can discount at the Fed some of their own assets to provide a temporary means for obtaining reserves. Discounts are usually on an overnight basis. For this privilege banks are charged an interest rate called the <em>discount rate</em>, which is set by the Fed at a small markup over the federal funds rate.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="Until 2003, the discount rate was set slightly below the federal funds target, and the Fed used moral suasion to discourage healthy banks from profiting from this low rate. To reduce the need for moral suasion, lending rules were altered in early 2003. Since that time, the discount rate has been set at a penalty rate above the feder al funds rate target. However, during the financial crisis, the Fed en couraged banks to use the discount window.">19</a></sup> The Fed is referred to as the "lender of last resort" because direct lending, from the discount window and other recently created lending facilities, is negligible under normal financial conditions such as the present but was an important source of liquidity during the financial crisis. </li>
+<li class="ListBullet2" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In October 2008, the Federal Reserve began to pay <em>interest on reserves</em> that banks deposit at the Fed. (It pays interest on both required and excess reserves.) Since 2008, this has been the primary tool for maintaining the federal funds target. Reducing the opportunity cost for banks of holding that money as reserves at the Fed as opposed to lending it out influences the rates at which banks are willing to lend reserves to each other, such as the federal funds rate.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc31814937"></a><a name="_Toc31814855"></a>Since the financial crisis, interest on reserves has been the primary tool for influencing the federal funds rate. However, the Fed has also used reverse repos and began using repos again after repo market turmoil in September 2019 (see the section below entitled "<a class="InternalLink" href="#_Ref31815085">The Federal Reserve's Response to Repo Market Turmoil in September 2019</a>"). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed can also change the federal funds rate by changing reserve requirements, which specify what portion of customer deposits (primarily checking accounts) banks must hold as vault cash or on deposit at the Fed. Thus, reserve requirements affect the liquidity available within the federal funds market. Statute sets the numerical levels of reserve requirements, although the Fed has some discretion to adjust them. Currently, banks are required to hold 0% to 10% of customer deposits that qualify as net transaction accounts in reserves, depending on the size of the bank's deposits.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Checking accounts are subject to reserve requirements, but savings accounts are not. As a result, the Fed defines by regulation the different characteristics that checking and savings accounts may have. For example, savings accounts are subject to a limit on monthly withdrawals.">20</a></sup> This tool is used rarely—the percentage was last changed in 1992.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="The deposit threshold is regularly adjusted for inflation. For current reserve requirements, see http://www.federalreserve.gov/monetarypolicy/reservereq.htm .">21</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Each of these tools works by altering the overall liquidity available for use by the banking system, which influences the amount of assets these institutions can acquire. These assets are often called <em>credit</em> because they represent loans the institutions have made to businesses and households, among others.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc532572084"></a><a name="_Toc532572476"></a><a name="_Toc534035358"></a><a name="_Toc534035389"></a><a name="_Toc534035420"></a><a name="_Toc535417330"></a><a name="_Toc535417463"></a><a name="_Toc535563211"></a><a name="_Toc535563290"></a><a name="_Toc535588154"></a><a name="_Toc1743154"></a><a name="_Toc1743183"></a><a name="_Toc17816661"></a><a name="_Toc18493726"></a><a name="_Toc18502291"></a><a name="_Toc18924309"></a><a name="_Toc31726506"></a><a name="_Toc31726638"></a><a name="_Toc31727147"></a><a name="_Toc31814856"></a><a name="_Toc31814938"></a><a name="_Toc31815034"></a><a name="_Toc31891652"></a>Targeting Interest Rates versus Targeting the Money Supply</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed's control over monetary policy stems from its exclusive ability to alter the money supply and credit conditions more broadly. The Fed directly controls the <em>monetary base</em>, which is made up of currency (Federal Reserve notes) and bank reserves. The size of the monetary base, in turn, influences broader measures of the money supply, which include close substitutes to currency, such as demand deposits (e.g., checking accounts) held at banks.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed's definition of monetary policy as the actions it undertakes to influence the availability and cost of money and credit suggests two ways to measure the stance of monetary policy. One is to look at the cost of money and credit as measured by the rate of interest relative to inflation (or inflation projections), and the other is to look at the growth of money and credit itself. Thus, it is possible to look at either interest rates or the growth in the supply of money and credit in coming to a conclusion about the current stance of monetary policy—that is, whether it is expansionary (adding stimulus to the economy), contractionary (slowing economic activity), or neutral.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">During the high inflation experience of the 1970s the Fed placed greater emphasis on money supply growth, but since then, most central banks including the Fed have preferred to formulate monetary policy in terms of the cost of money and credit rather than in terms of their supply. The Fed conducts monetary policy by focusing on the cost of money and credit as proxied by the federal funds rate. </p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc532572085"></a><a name="_Toc532572477"></a><a name="_Toc534035359"></a><a name="_Toc534035390"></a><a name="_Toc534035421"></a><a name="_Toc535417331"></a><a name="_Toc535417464"></a><a name="_Toc535563212"></a><a name="_Toc535563291"></a><a name="_Toc535588155"></a><a name="_Toc1743155"></a><a name="_Toc1743184"></a><a name="_Toc17816662"></a><a name="_Toc18493727"></a><a name="_Toc18502292"></a><a name="_Toc18924310"></a><a name="_Toc31726507"></a><a name="_Toc31726639"></a><a name="_Toc31727148"></a><a name="_Toc31814857"></a><a name="_Toc31814939"></a><a name="_Toc31815035"></a><a name="_Toc31891653"></a>Real versus Nominal Interest Rates</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A simple comparison of market interest rates over time as an indicator of changes in the stance of monetary policy is potentially misleading, however. Economists call the interest rate that is essential to decisions made by households and businesses to buy capital goods the <em>real</em> interest rate. It is often proxied by subtracting from the market interest rate the actual or expected rate of inflation. If inflation rises and market interest rates remain the same, then real interest rates have fallen, with a similar economic effect as if market rates (called <em>nominal</em> rates) had fallen by the same amount with a constant inflation rate. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The federal funds rate is only one of the many interest rates in the financial system that determines economic activity. For these other rates, the real rate is largely independent of the amount of money and credit over the longer run because it is determined by the interaction of saving and investment (or the demand for capital goods). The internationalization of capital markets means that for most developed countries the relevant interaction between saving and investment that determines the real interest rate is on a global basis. Thus, real rates in the United States depend not only on U.S. national saving and investment but also on the saving and investment of other countries. For that reason, national interest rates are influenced by international credit conditions and business cycles.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc422846851"></a><a name="_Toc433284240"></a><a name="_Toc433284388"></a><a name="_Toc433284424"></a><a name="_Toc433284633"></a><a name="_Toc437508078"></a><a name="_Toc441225003"></a><a name="_Toc441225067"></a><a name="_Toc441568880"></a><a name="_Toc441828822"></a><a name="_Toc473725892"></a><a name="_Toc474226643"></a><a name="_Toc474402301"></a><a name="_Toc485390605"></a><a name="_Toc485807299"></a><a name="_Toc485808858"></a><a name="_Toc485914089"></a><a name="_Toc503252414"></a><a name="_Toc524616963"></a><a name="_Toc532572086"></a><a name="_Toc532572478"></a><a name="_Toc535417332"></a><a name="_Toc535417465"></a><a name="_Toc535563213"></a><a name="_Toc535563292"></a><a name="_Toc534035360"></a><a name="_Toc534035391"></a><a name="_Toc534035422"></a><a name="_Toc535588156"></a><a name="_Toc1743156"></a><a name="_Toc1743185"></a><a name="_Toc17816663"></a><a name="_Toc18493728"></a><a name="_Toc18502293"></a><a name="_Toc18924311"></a><a name="_Toc31726508"></a><a name="_Toc31726640"></a><a name="_Toc31727149"></a><a name="_Toc31814858"></a><a name="_Toc31814940"></a><a name="_Toc31815036"></a><a name="_Toc31891654"></a>Economic Effects of Monetary Policy in the Short Run and Long Run</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">How do changes in short-term interest rates affect the overall economy? In the short run, an expansionary monetary policy that reduces interest rates increases interest-sensitive spending, all else equal. Interest-sensitive spending includes physical investment (i.e., plant and equipment) by firms, residential investment (housing construction), and consumer-durable spending (e.g., automobiles and appliances) by households. As discussed in the next section, it also encourages exchange rate depreciation that causes exports to rise and imports to fall, all else equal. To reduce spending in the economy, the Fed raises interest rates and the process works in reverse. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An examination of U.S. economic history will show that money- and credit-induced demand expansions can have a positive effect on U.S. GDP growth and total employment. In the Fed's model of the economy, a one percentage point increase in the federal funds rate would increase the output gap by 0.2-0.5 percentage points and decrease inflation by 0.2-0.8 percentage points at its peak (after about two years).<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title='The output gap measures the difference between actual GDP and potential GDP (when all labor and capital resources in the economy are fully employed). See Flint Brayton, Thomas La ubach, and David Reifschneider, " The FRB/US Model: A Tool for Macroeconom ic Policy Analysis," Board of Governors of the Federal Reserve System, FEDS Notes , April 03, 2014, at https://doi.org/10.17016/2380-71 7 2.0012 .'>22</a></sup> The extent to which greater interest-sensitive spending results in an increase in overall spending in the economy in the short run will depend in part on how close the economy is to full employment. When the economy is near full employment, the increase in spending is likely to be dissipated through higher inflation more quickly. When the economy is far below full employment, inflationary pressures are more likely to be muted. This same history, however, also suggests that over the longer run, a more rapid rate of growth of money and credit is largely dissipated in a more rapid rate of inflation with little, if any, lasting effect on real GDP and employment.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="During the financial crisis, the historical relationship between money growth and inflation did not hold, as will be discussed below in the section entitled &quot; Unconventional Monetary Policy and the Fed's Balance Sheet during and after the Financial Crisis .&quot;">23</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Economists have two explanations for this paradoxical behavior. First, they note that, in the short run, many economies have an elaborate system of contracts (both implicit and explicit) that makes it difficult in a short period for significant adjustments to take place in wages and prices in response to a more rapid growth of money and credit. Second, they note that expectations for one reason or another are slow to adjust to the longer-run consequences of major changes in monetary policy. This slow adjustment also adds rigidities to wages and prices. Because of these rigidities, changes in the growth of money and credit that change aggregate demand can have a large initial effect on output and employment, albeit with a policy lag of six to eight quarters before the broader economy fully responds to monetary policy measures. Over the longer run, as contracts are renegotiated and expectations adjust, wages and prices rise in response to the change in demand and much of the change in output and employment is undone. Thus, monetary policy can matter in the short run but be fairly neutral for GDP growth and employment in the longer run.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='Two interesting papers bearing on what monetary policy can accomplish by two former officials of the Federal Reserve are Anthony M. Santomero , "What Monetary Policy Can and Cannot Do , " Business Review , Federal Reserve Bank of Philadelphia, First Quarter 2002, pp. 1-4, and Frederic S. Mishkin , "What Should Central Banks Do?, " Review, Federal Reserve Bank of St. Louis, November/December 2000, pp. 1-14.'>24</a></sup> In the Fed's model, the effect of higher rates on the output gap disappears after five years.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In societies in which high rates of inflation are endemic, price adjustments are very rapid. During the final stages of very rapid inflations, called hyperinflation, the ability of more rapid rates of growth of money and credit to alter GDP growth and employment is virtually nonexistent, if not negative.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:431pt;" valign="top">
+<p class="ShadedBoxHeading" style="">Federal Reserve Independence</p>
+<p class="TableText" style="">The Fed is more independent from Congress and the Administration than most other agencies. Its independence is attributable to structural reasons, such as 14-year terms of office for its governors, "for cause" removal, and budgetary independence,<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="The Fed earns interest on its securities holdings, and it uses this in terest to fund its operations. It sets its own budget and is not subject to the appropriations process.">25</a></sup> and as a result of unofficial norms, such as the President refraining from opining on monetary policy decisions in recent decades.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="For more information, see CRS Report R43391, Independence of Federal Financial Regulators: Structure, Funding, and Other Issues , by Henry B. Hogue, Marc Labonte, and Baird Webel .">26</a></sup> Beginning in 2018, President Trump has upended these norms with a series of statements criticizing the Fed for first raising interest rates and then not cutting rates more quickly.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="Christopher Condon, &quot;A Timeline of Trump's Quotes on Powell and the Fed,&quot; Bloomberg, December 17, 2018.">27</a></sup> </p>
+<p class="TableText" style="">Economists have justified this independence on the grounds that the mismatch between short-term and long-term benefits of monetary policy decisions (discussed above) creates political pressure to pursue interest rate targets that are too low to be consistent with stable inflation.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="Note that this prediction has not always held over time—at times, some Members of Congress have criticized the Fed for keeping interest rates too low.">28</a></sup> Independence, it is argued, insulates the Fed's decisionmaking from this political pressure, and may help explain why the Fed has successfully kept inflation consistently low since the early 1990s.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="See CRS Report RL31056, Economics of Federal Reserve Independence , by Marc Labonte .">29</a></sup> Furthermore, independence enhances the Fed's credibility that it will maintain stable inflation, it is argued, and this makes interest rate changes more potent than if inflation expectations increased whenever the Fed pursued expansionary monetary policy. For better or worse, the trade-off of more independence is less accountability to Congress and the President, however.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17816664"></a><a name="_Toc18493729"></a><a name="_Toc18502294"></a><a name="_Toc18924312"></a><a name="_Toc31726509"></a><a name="_Toc31726641"></a><a name="_Toc31727150"></a><a name="_Toc31814859"></a><a name="_Toc31814941"></a><a name="_Toc31815037"></a><a name="_Toc31891655"></a><a name="_Toc422846852"></a><a name="_Toc433284241"></a><a name="_Toc433284389"></a><a name="_Toc433284425"></a><a name="_Toc433284634"></a><a name="_Toc437508079"></a><a name="_Toc441225004"></a><a name="_Toc441225068"></a><a name="_Toc441568881"></a><a name="_Toc441828823"></a><a name="_Toc473725893"></a><a name="_Toc474226644"></a><a name="_Toc474402302"></a><a name="_Toc485390606"></a><a name="_Toc485807300"></a><a name="_Toc485808859"></a><a name="_Toc485914090"></a><a name="_Toc503252415"></a><a name="_Toc524616964"></a><a name="_Toc532572087"></a><a name="_Toc532572479"></a><a name="_Toc534035361"></a><a name="_Toc534035392"></a><a name="_Toc534035423"></a><a name="_Toc535417334"></a><a name="_Toc535417466"></a><a name="_Toc535563214"></a><a name="_Toc535563293"></a><a name="_Toc535588157"></a><a name="_Toc1743157"></a><a name="_Toc1743186"></a>Low Interest Rates and the Neutral Rate</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Economists judge monetary policy to be contractionary or stimulative based on whether the actual federal funds rate is above or below, respectively, the neutral rate. The neutral interest rate (sometimes called r* or the natural rate of interest) is conceptual and not directly observed—it is the idea that at any given time there is some level for the federal funds rate that will neither stimulate nor hold back economic activity. Various statistical techniques can be used to infer the neutral rate.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since the crisis, the federal funds rate (as well as long-term rates) has been very low by historical standards—it was nearly zero from 2008 to 2015. Before the crisis, many economists assumed that the real (inflation-adjusted) neutral rate was about 2% and fairly constant over time. At the prevailing inflation rate of 2%, that would translate to a neutral rate of about 4%. If the actual federal funds rate is consistently below the neutral rate—in other words, if monetary policy is persistently stimulative—at full employment, inflation would be expected to rise. Yet the actual federal funds rate has now been below 4% since 2008 without any noticeable sustained increase in inflation, even as the economy has returned to full employment. This outcome is consistent with a decline in the neutral rate. According to some estimates, the real neutral rate has fallen by more than a percentage point since 2008.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='See, for example, Federal Reserve Bank of New York, " Measuring the Natural Rate of Interest , " at https://www.newyorkfed.org/research/policy/rstar .'>30</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Despite the drop in the neutral rate, monetary policy has largely remained stimulative since the crisis because the federal funds rate has remained below the estimated neutral rate. (As the Fed raised interest rates, it remained stimulative, but less stimulative than previously.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A decline in the neutral rate has implications for monetary policy. It means that any given federal funds rate is less stimulative or more contractionary than it would have been before the neutral rate fell. As a result, a simple historical comparison of prevailing federal funds rates before and after the crisis would give the misleading impression that monetary policy since the crisis has been more stimulative than it actually was. (Also, inflation has been lower since the crisis than it was in earlier decades, so the difference in real rates over the decades is smaller than the difference in actual rates.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the neutral rate is a useful concept for framing monetary policy decisions, uncertainty about its true value points to the difficulty of basing policy on a variable that cannot be directly observed. Choosing to set interest rates equal to the neutral rate would be intended to neither slow down nor speed up economic activity. But if the Fed has incorrectly estimated that the neutral rate has fallen more than it has, then monetary policy is still stimulative, and the risk of inflation rising or economic overheating is greater. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In light of this uncertainty, the neutral rate could be de-emphasized in policymaking, but without it, policy decisions may become less forward-looking, as the difference between actual rates and the neutral rate helps project future employment and inflation. Thus, a de-emphasis could lead to worse outcomes because of lags between policy changes and economic outcomes. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc31726642"></a><a name="_Toc31726510"></a>A lower neutral rate also limits how much monetary stimulus is potentially available to fight the next economic downturn before hitting the zero lower bound. This could make it necessary in the next downturn for the Fed to revive some of the unconventional tools it used in response to the financial crisis (see the section below entitled "<a class="InternalLink" href="#_Ref31801524">Unconventional Monetary Policy and the Fed's Balance Sheet during and after the Financial Crisis</a>") or try to develop alternative monetary policy strategies (as discussed in the section below "<a class="InternalLink" href="#_Ref31789370">The Federal Reserve's Review of Monetary Policy Strategy, Tools, and Communications</a>").<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title='John Williams, "Monetary Policy Strategies for a Low-Neutral-Interest-Rate World," speech, November 30, 2018, at https://www.newyorkfed.org/newsevents/speeches/20 1 8/wil181130 .'>31</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc17816665"></a><a name="_Toc18493730"></a><a name="_Toc18502295"></a><a name="_Toc18924313"></a><a name="_Toc31726511"></a><a name="_Toc31726643"></a><a name="_Toc31727151"></a><a name="_Toc31814860"></a><a name="_Toc31814942"></a><a name="_Toc31815038"></a><a name="_Toc31891656"></a>Monetary versus Fiscal Policy</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Either fiscal policy (defined here as changes in the structural budget deficit, caused by policy changes to government spending or taxes) or monetary policy can be used to alter overall spending in the economy. However, there are several important differences to consider between the two.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">First, economic conditions change rapidly, and in practice monetary policy can be more nimble than fiscal policy. The Fed meets every six weeks to consider changes in interest rates and can call an unscheduled meeting any time. Large changes to fiscal policy typically occur once a year at most. Once a decision to alter fiscal policy has been made, the proposal must travel through a long and arduous legislative process that can last months before it can become law, whereas monetary policy changes are made instantly.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="To some extent, fiscal policy automatically mitigates changes in the business cycle without any policy changes because tax revenue falls relative to GDP and certain mandatory spending (such as unemployment insurance) rises when economic growth slows and vice versa.">32</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Both monetary and fiscal policy measures are thought to take more than a year to achieve their full impact on the economy due to pipeline effects. In the case of monetary policy, interest rates throughout the economy may change rapidly, but it takes longer for economic actors to change their spending patterns in response. For example, in response to a lower interest rate, a business must put together a loan proposal, apply for a loan, receive approval for the loan, and then put the funds to use. In the case of fiscal policy, once legislation has been enacted, it may take some time for authorized spending to be outlaid. An agency must approve projects and select and negotiate with contractors before funds can be released. In the case of transfers or tax cuts, recipients must receive the funds and then alter their private spending patterns before the economy-wide effects are felt. For both monetary and fiscal policy, further rounds of private and public decisionmaking must occur before multiplier or ripple effects are fully felt.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Second, monetary policy is determined based only on the Fed's mandate, whereas fiscal policy is determined based on competing political goals. Fiscal policy changes have macroeconomic implications regardless of whether that was policymakers' primary intent. Political constraints have prevented increases in budget deficits from being fully reversed during expansions. Over the course of the business cycle, aggregate spending in the economy can be expected to be too high as often as it is too low. This means that stabilization policy should be tightened as often as it is loosened, yet increasing the budget deficit has proven to be much more popular than implementing the spending cuts or tax increases necessary to reduce it. As a result, the budget has been in deficit in all but five years since 1961, which has led to an accumulation of federal debt that gives policymakers less leeway to potentially undertake a robust expansionary fiscal policy, if needed, in the future. By contrast, the Fed is more insulated from political pressures, as discussed in the previous section, and experience shows that it is willing to raise or lower interest rates.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Third, the long-run consequences of fiscal and monetary policy differ. Expansionary fiscal policy creates federal debt that must be serviced by future generations. Some of this debt will be "owed to ourselves," but some (presently, about half) will be owed to foreigners. To the extent that expansionary fiscal policy crowds out private investment, it leaves future national income lower than it otherwise would have been.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="An exception to the rule would be a situation in which the economy is far enough below full employment that virtually no crowding out takes place because the stimulus to spending generates enough resources to finance new capital spending.">33</a></sup> Monetary policy does not have this effect on generational equity, although different levels of interest rates will affect borrowers and lenders differently. Furthermore, the government faces a budget constraint that limits the scope of expansionary fiscal policy—it can only issue debt as long as investors believe the debt will be honored, even if economic conditions require larger deficits to restore equilibrium.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Fourth, openness of an economy to highly mobile capital flows changes the relative effectiveness of fiscal and monetary policy. Expansionary fiscal policy would be expected to lead to higher interest rates, all else equal, which would attract foreign capital looking for a higher rate of return, causing the value of the dollar to rise.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="For more information, see CRS Report R45723, Fiscal Policy: Economic Effects , by Jeffrey M. Stupak .">34</a></sup> Foreign capital can only enter the United States on net through a trade deficit. Thus, higher foreign capital inflows lead to higher imports, which reduce spending on domestically produced substitutes and lower spending on exports. The increase in the trade deficit would cancel out the expansionary effects of the increase in the budget deficit to some extent (in theory, entirely if capital is perfectly mobile). Expansionary monetary policy would have the opposite effect—lower interest rates would cause capital to flow abroad in search of higher rates of return elsewhere, causing the value of the dollar to fall. Foreign capital outflows would reduce the trade deficit through an increase in spending on exports and domestically produced import substitutes. Thus, foreign capital flows would (tend to) magnify the expansionary effects of monetary policy.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="These exchange rate effects require a change in domestic interest rates relative to foreign interest rates. If fiscal or monetary policy moves synchronously among trading partners (e.g., all countries expand monetary policy simultaneously), then there would be no change in relative interest rates and therefore no change in exchange rates or the trade balance.">35</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Fifth, fiscal policy can be targeted to specific recipients. In the case of normal open market operations, monetary policy cannot. This difference could be considered an advantage or a disadvantage. On the one hand, policymakers could target stimulus to aid the sectors of the economy most in need or most likely to respond positively to stimulus. On the other hand, stimulus could be allocated on the basis of political or other noneconomic factors that reduce the macroeconomic effectiveness of the stimulus. As a result, both fiscal and monetary policy have distributional implications, but the latter's are largely incidental whereas the former's can be explicitly chosen.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In cases in which economic activity is extremely depressed, monetary policy may lose some of its effectiveness. When interest rates become extremely low, interest-sensitive spending may no longer be very responsive to further rate cuts. Furthermore, interest rates cannot be lowered below zero so traditional monetary policy is limited by this "zero lower bound." In this scenario, fiscal policy may be more effective. As is discussed in the next section, some argue that the U.S. economy experienced this scenario following the recent financial crisis.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of course, using monetary and fiscal policy to stabilize the economy are not mutually exclusive policy options. But because of the Fed's independence from Congress and the Administration, the two policy options are not always coordinated. If Congress and the Fed were to choose compatible fiscal and monetary policies, respectively, then the economic effects would be more powerful than if either policy were implemented in isolation. For example, if stimulative monetary and fiscal policies were implemented, the resulting economic stimulus would be larger than if one policy were stimulative and the other were neutral. Alternatively, if Congress and the Fed were to select incompatible policies, these policies could partially negate each other. For example, a stimulative fiscal policy and contractionary monetary policy may end up having little net effect on aggregate demand (although there may be considerable distributional effects). Thus, when fiscal and monetary policymakers disagree in the current system, they can potentially choose policies with the intent of offsetting each other's actions.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="It is important to take this possibility into consideration when evaluating the potential effects of fiscal policy on the business cycle. Because the Fed presumably chooses (and continually updates) a monetary policy that aims to keep the economy at full employment, the Fed would need to alter its policy to offset the effects of any stimulative fiscal policy changes that moved the economy above full employment. Thus, the actual net stimulative effect of a fiscal policy change (after taking int...">36</a></sup> Whether this arrangement is better or worse for the economy depends on what policies are chosen. If one actor chooses inappropriate policies, then the lack of coordination allows the other actor to try to negate its effects.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc441225005"></a><a name="_Toc441225069"></a><a name="_Toc441568882"></a><a name="_Toc441828824"></a><a name="_Toc473725894"></a><a name="_Toc474226645"></a><a name="_Toc474402303"></a><a name="_Toc485390607"></a><a name="_Toc485807301"></a><a name="_Toc485808860"></a><a name="_Toc485914091"></a><a name="_Toc503252416"></a><a name="_Toc524616965"></a><a name="_Toc532572088"></a><a name="_Toc532572481"></a><a name="_Toc534035362"></a><a name="_Toc534035393"></a><a name="_Toc534035424"></a><a name="_Toc535417335"></a><a name="_Toc535417467"></a><a name="_Toc535563215"></a><a name="_Toc535563294"></a><a name="_Toc535588158"></a><a name="_Toc1743158"></a><a name="_Toc1743187"></a><a name="_Toc17816666"></a><a name="_Toc18493731"></a><a name="_Toc18502296"></a><a name="_Toc18924314"></a><a name="_Toc31726512"></a><a name="_Toc31726644"></a><a name="_Toc31727152"></a><a name="_Ref31801524"></a><a name="_Toc31814861"></a><a name="_Toc31814943"></a><a name="_Toc31815039"></a><a name="_Ref31815118"></a><a name="_Toc31891657"></a>Unconventional Monetary Policy and the Fed's Balance Sheet during and after the Financial Crisis</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 2007-2009 financial crisis was the worst crisis since the Great Depression, freezing virtually all parts of the financial system. To restore liquidity and stability to financial markets, the Fed responded by taking a series of unprecedented actions that can be divided into three categories.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="For a detailed account of the Fed's role in the financial crisis, see CRS Report RL34427, Financial Turmoil: Federal Reserve Policy Responses , by Marc Labonte .">37</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The first category involved actions related to the federal funds rate. The Fed reduced interest rates from 5.25% in September 2007 to the zero lower bound in December 2008 for the first time ever to stimulate economic activity.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="The Fed did not target the federal funds rate as its monetary policy instrument until the late 1980s or early 1990s. (See Daniel Thornton, When Did the FOMC Begin Targeting the Federal Funds Rate? , Federal Reserve Bank of St. Louis , Working Paper no. 2004-015B, May 2005, at http://research.stlouisfed.org/wp/2004/2004-015.pdf .) Data on the federal funds rate back to 1914 are not available. Before 2008, the Fed had not set its discount rate (the rate charged at the Fed's discount...">38</a></sup> The fundamental problem the Fed faced at the zero lower bound was that traditional monetary policy could not provide any further stimulus, yet the severity of the crisis required more stimulus to restore economic normalcy. Its other actions attempted to provide stimulus through other channels. For example, the Fed subsequently made a series of pledges, called <em>forward guidance</em><em>, </em>to keep future interest rates low. Because long-term rates today depend on market views of future short-term rates, a credible promise by the Fed to keep short-term rates low in the future could potentially lower long-term rates today.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The second category involved actions that provided direct assistance to the financial sector in the Fed's capacity as the <em>lender of last resort</em>. Traditionally, the Fed acted as lender of last resort by making short-term collateralized loans to banks at the discount window. The Fed made discount window loans during the crisis, but it also created a series of emergency facilities that were unlike anything the Fed had done before in its 100-year history. The first facility was introduced in December 2007, and several more were added after the worsening of the crisis in September 2008. Through these facilities, the Fed provided liquidity to nonbank firms for the first time since the Great Depression. In a handful of cases, the Fed also provided assistance to prevent the failure of a specific firm (such as AIG) or facilitate the takeover of a failing firm (such as Bear Stearns), which have been popularly called <em>bailouts</em>. These firms were viewed as <em>too big to fail</em>, meaning that their failure could have exacerbated the overall crisis. The Fed's lender of last resort actions were taken under both the Fed's traditional authority (e.g., lending to banks) and rarely used emergency authority under Section 13(3) of the Federal Reserve Act (12 U.S.C. §343).<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="See CRS Report R44185, Federal Reserve: Emergency Lending , by Marc Labonte .">39</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The amount of assistance provided during the crisis was an order of magnitude larger than in normal times, as shown in <a class="InternalLink" href="#_Ref502247209"><strong></strong><strong>Figure 1</strong></a>. Total assistance from the Federal Reserve at the beginning of August 2007 was approximately $234 million provided through liquidity facilities, with no direct support given. In mid-December 2008, this number reached a high of $1.6 trillion, with a near-high of $108 billion given in direct support. Once financial stability was restored, most of these programs were wound down relatively quickly.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Central bank liquidity swaps (temporary currency exchanges between the Fed and central foreign banks) are the only facility created during the crisis still active, but they have not been used on a large scale since 2012.">40</a></sup> Assistance provided through liquidity facilities fell below $100 billion in February 2010, when many facilities were allowed to expire, and support to specific institutions fell below $100 billion in January 2011.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title='Data from "Recent Balance Sheet Trends," Credit and Liquidity Programs and the Balance Sheet , at http://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm . Values include totals from credit extended through Federal Reserve liquidity facilities and support for specific institutions.'>41</a></sup> All outstanding assistance was eventually repaid in full with interest. The last loan from the crisis was repaid on October 29, 2014.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="Federal Reserve, Quarterly Report on Federal Reserve Balance Sheet Developments , November 2014, at http://www.federalreserve.gov/monetarypolicy/bsd-content-201411.htm .">42</a></sup> In 2010, the Dodd-Frank Wall Street Reform and Consumer Protection Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+203)"><span class="Hyperlink">P.L. 111-203</span></a>) changed Section 13(3) to rule out direct support to specific institutions in the future.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref502247209"></a><a name="_Toc503252406"></a><a name="_Toc524616955"></a><a name="_Toc532572075"></a><a name="_Toc532572467"></a><a name="_Toc534035349"></a><a name="_Toc534035380"></a><a name="_Toc534035411"></a><a name="_Toc535417321"></a><a name="_Toc535417454"></a><a name="_Toc535563204"></a><a name="_Toc535563283"></a><a name="_Toc535588147"></a><a name="_Toc1743147"></a><a name="_Toc1743176"></a><a name="_Toc17816654"></a><a name="_Toc18493718"></a><a name="_Toc18502283"></a><a name="_Toc18924301"></a><a name="_Toc31726498"></a><a name="_Toc31726630"></a><a name="_Toc31727139"></a><a name="_Toc31814846"></a><a name="_Toc31814929"></a><a name="_Toc31815026"></a><a name="_Toc31891644"></a>Figure 1. Direct Fed Assistance to the Financial Sector</p>
+<p class="FigureSubTitle">(August 1, 2007-December 31, 2013)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="RL30354_files/0.png" style="border-top:1pt solid #000000;border-bottom:1pt solid #000000;border-left:1pt solid #000000;border-right:1pt solid #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Fed, <em>Recent Balance Sheet Trends</em>, <a class="ExternalLink" href="https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm"><span class="Hyperlink">https://www.federalreserve.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">monetarypolicy/</span><span class="Hyperlink"></span><span class="Hyperlink">bst_recenttrends.htm</span></a>.</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The third category of actions involved large-scale asset purchases. Over three rounds of what was popularly referred to as <em>quantitative easing (QE) </em>between 2009 and 2014, the Fed purchased Treasury securities. Given the role of mortgages at the heart of the financial crisis (and its limited statutory authority), it also purchased mortgage-backed securities and debt issued by the government-sponsored enterprises (Fannie Mae and Freddie Mac and the Federal Home Loan Banks) and government agencies (Ginnie Mae). <a class="InternalLink" href="#_Ref399155545"><strong></strong><strong>Table 2</strong></a> summarizes the change in the Fed's securities holdings during the QE programs. In addition, between QE2 and QE3, the Fed initiated the Maturity Extension Program, popularly referred to as <em>Operation Twist</em><em>.</em> In this program, it replaced short-term securities on its balance sheet with long-term securities. The goal of these actions was to reduce long-term interest rates to provide further stimulus at the zero lower bound. Long-term interest rates were very low over this period, and many studies have tried to tease out the extent to which that should be attributed to QE.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="See Saroj Bhattarai and Christopher Neely, A Survey of the Empirical Literature on U.S. Unconventional Monetary Policy , Federal Reserve Bank of St. Louis, Working Paper 2016-021A, October 2016, at https://dx.doi.org/10.20955/wp.2016.021 .">43</a></sup></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:415.2384pt;">
+<p class="TableTitle"><a name="_Ref399155545"></a><a name="_Toc422846845"></a><a name="_Toc433284234"></a><a name="_Toc433284382"></a><a name="_Toc433284418"></a><a name="_Toc433284627"></a><a name="_Toc437508072"></a><a name="_Toc441224996"></a><a name="_Toc441225059"></a><a name="_Toc441568872"></a><a name="_Toc441828814"></a><a name="_Toc473725885"></a><a name="_Toc474226636"></a><a name="_Toc474402294"></a><a name="_Toc485390598"></a><a name="_Toc485807292"></a><a name="_Toc485808851"></a><a name="_Toc485914082"></a><a name="_Toc503252407"></a><a name="_Toc524616956"></a><a name="_Toc532572076"></a><a name="_Toc532572468"></a><a name="_Toc534035350"></a><a name="_Toc534035381"></a><a name="_Toc534035412"></a><a name="_Toc535417322"></a><a name="_Toc535417455"></a><a name="_Toc535563205"></a><a name="_Toc535563284"></a><a name="_Toc535588148"></a><a name="_Toc1743148"></a><a name="_Toc1743177"></a><a name="_Toc17816655"></a><a name="_Ref18487610"></a><a name="_Toc18493720"></a><a name="_Toc18502285"></a><a name="_Toc18924303"></a><a name="_Toc31726500"></a><a name="_Toc31726632"></a><a name="_Toc31727141"></a><a name="_Toc31814848"></a><a name="_Toc31814931"></a><a name="_Toc31815028"></a><a name="_Toc31891646"></a>Table 2. Quantitative Easing (QE):<br/>Changes in Asset Holdings on the Fed's Balance Sheet</p>
+<p class="TableSubTitle">(billions of dollars)</p>
+</div>
+<table class="ReportTable" style="width:415.2384pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:51.9331392pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:40.4350272pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Treasury Security Holdings</p>
+</td>
+<td style="width:34.8776064pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Agency MBS Holdings</p>
+</td>
+<td style="width:35.29920384pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Agency Debt Holdings</p>
+</td>
+<td style="width:29.09022336pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Total Assets</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:51.9331392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">QE1 <br/>(Mar. 2009-May 2010)</p>
+</td>
+<td style="width:40.4350272pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$302</p>
+</td>
+<td style="width:34.8776064pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$1,129</p>
+</td>
+<td style="width:35.29920384pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$168</p>
+</td>
+<td style="width:29.09022336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$451</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:51.9331392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">QE2 <br/>(Nov. 2010-July 2011)</p>
+</td>
+<td style="width:40.4350272pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$788</p>
+</td>
+<td style="width:34.8776064pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-$142</p>
+</td>
+<td style="width:35.29920384pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-$35</p>
+</td>
+<td style="width:29.09022336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$578</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:51.9331392pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">QE3 <br/>(Oct. 2012-Oct. 2014)</p>
+</td>
+<td style="width:40.4350272pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$810</p>
+</td>
+<td style="width:34.8776064pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+874</p>
+</td>
+<td style="width:35.29920384pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-$48</p>
+</td>
+<td style="width:29.09022336pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">+$1,663</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:51.9331392pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>Total </strong><strong><br/>(Mar. 2009-Oct. 2014)</strong><strong> </strong></p>
+</td>
+<td style="width:40.4350272pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>+$1,987</strong></p>
+</td>
+<td style="width:34.8776064pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>+$1,718</strong></p>
+</td>
+<td style="width:35.29920384pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>+$40</strong></p>
+</td>
+<td style="width:29.09022336pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>+$2,587</strong></p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:415.2384pt;">
+<p class="TableSource"><strong>Source: </strong>CRS calculations based on Fed data.</p>
+<p class="TableNote"><strong>Notes:</strong> The first round of QE, QE1, was announced in March 2009. The "QE1" and "total" rows include agency securities and mortgage-backed securities (MBS) that the Fed began purchasing in September 2008 and January 2009, respectively. The final column does not equal the sum of the first three columns because of changes in other items (not shown) on the Fed's balance sheet. The final row does not equal the sum of the first three rows because it includes changes in holdings between the three rounds of QE. The figures in the table are based on actual data, not announced amounts at the onset of the program. The two can differ because of timing and the maturity of prior holdings, which decrease the amounts shown in the table.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The size of actions in the second and third categories can be seen in data on the Fed's balance sheet. Loans and securities are assets on the Fed's balance sheet, so the Fed's balance sheet grew when it made loans and provided other financial assistance during the financial crisis and bought securities under QE. In total, the Fed's balance sheet increased from $0.9 trillion in August 2008 to $4.5 trillion when QE3 ended in October 2014, making it about five times larger than it was before the crisis. The effect this had on the Fed's profits is discussed in the text box below. The increase in the Fed's assets was matched by an equal increase in its liabilities. The two largest liabilities on the Fed's balance sheet are currency (Federal Reserve notes) and bank reserves that banks deposit in their reserve account at the Fed.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="All insured depositories and a handful of other financial firms may have accounts at the Fed.">44</a></sup> The Fed financed its loans and asset purchases by increasing bank reserves—in essence, "printing money."<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="At first, the Fed financed emergency assistance by selling Treasury securities and keeping its balance sheet constant, but the assistance outstanding would have quickly outpaced its securities holdings.">45</a></sup> (Reserves increase because when the Fed makes loans or purchases assets, it credits the proceeds to the recipients' reserve accounts at the Fed.) As a result, bank reserves in excess of reserve requirements rose from virtually zero before the financial crisis to over $2.5 trillion at their peak. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The increase in the Fed's balance sheet had the potential to be inflationary because bank reserves are a component of the portion of the money supply controlled by the Fed (called the <em>monetary base</em>), which grew at an unprecedented pace. In practice, overall measures of the money supply did not grow as quickly as the monetary base, and inflation has mostly remained below the Fed's goal of 2% since 2008. The growth in the monetary base did not translate into higher inflation because it did not lead to a commensurate increase in lending or asset purchases by banks.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:1pt;border-left:0;border-bottom:1pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:431pt;" valign="top">
+<p class="ShadedBoxHeading" style=""><a name="_Toc422846860"></a>How Has QE Affected the Fed's Profits and the Federal Budget Deficit?</p>
+<p class="TableText" style="">The Fed earns interest on its securities holdings, and it uses this interest to fund its operations. (It receives no appropriations from Congress.) The Fed's income exceeds its expenses, and it remits most of its net income to the Treasury, which uses it to reduce the budget deficit. Although the increases in, first, direct lending and, later, holdings of mortgage-related securities increased the potential riskiness of the Fed's balance sheet, it had the ex post facto effect of more than doubling the Fed's net income and remittances to Treasury. Remittances from net income to Treasury rose from $35 billion in 2007 to more than $75 billion annually from 2010 to 2017. However, normalization is likely to continue reducing remittances because of the smaller portfolio holdings and rising costs associated with paying higher interest on bank reserves and reverse repos, with remittances from net income falling to $55 billion in 2019. Although some analysts have raised concerns that the Fed could have negative net income as a result of normalization, the New York Fed is not currently projecting that will occur under various interest-rate and balance-sheet scenarios. Instead, it projects that remittances will decline from the higher levels that have prevailed since the crisis to closer to precrisis levels.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="Federal Reserve Bank of New York, Projections for the SOMA Portfolio and Net Income , April 2018, at https://www.newyorkfed.org/markets/annual_reports.html .">46</a></sup> If the Fed were to generate negative net income, its accounting conventions preclude the possibility of insolvency or transfers from Treasury.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref402863824"></a><a name="_Toc422846859"></a><a name="_Toc433284248"></a><a name="_Toc433284396"></a><a name="_Toc433284432"></a><a name="_Toc433284641"></a><a name="_Toc437508086"></a><a name="_Toc441225011"></a><a name="_Toc441225075"></a><a name="_Toc441568888"></a><a name="_Toc441828830"></a><a name="_Toc473725900"></a><a name="_Toc474226651"></a><a name="_Toc474402309"></a><a name="_Toc485390613"></a><a name="_Toc485807307"></a><a name="_Toc485808866"></a><a name="_Toc485914097"></a><a name="_Toc503252422"></a><a name="_Toc524616971"></a><a name="_Toc532572094"></a><a name="_Toc532572485"></a><a name="_Toc534035366"></a><a name="_Toc534035397"></a><a name="_Toc534035428"></a><a name="_Toc535417339"></a><a name="_Toc535417471"></a><a name="_Toc535563219"></a><a name="_Toc535563298"></a><a name="_Toc535588162"></a><a name="_Toc1743162"></a><a name="_Toc1743191"></a><a name="_Toc17816670"></a><a name="_Toc18493735"></a><a name="_Toc18502300"></a><a name="_Toc18924318"></a><a name="_Toc31726516"></a><a name="_Toc31726648"></a><a name="_Toc31727156"></a><a name="_Toc31814862"></a><a name="_Toc31814944"></a><a name="_Toc31815040"></a><a name="_Toc31891658"></a><a name="_Toc31726517"></a><a name="_Toc31726649"></a><a name="_Toc31727157"></a><a name="_Ref31789211"></a><a name="_Ref31789306"></a><a name="_Ref31790916"></a><a name="_Toc17816671"></a><a name="_Ref17900082"></a><a name="_Toc18493736"></a><a name="_Toc18502301"></a><a name="_Toc18924319"></a>The "Exit Strategy": Normalization of Monetary Policy after QE</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">On October 29, 2014, the Fed announced that it would stop making large-scale asset purchases at the end of the month.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title='Federal Reserve, "Federal Reserve issues FOMC statement," press release, October 29, 2014, at http://f e deralreserve.gov/newsevents/press/monetary/20141029a.htm .'>47</a></sup> With QE ending, the Fed laid out its plans to normalize monetary policy in a statement in September 2014, also called the "exit strategy."<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="Federal Reserve, &quot; Federal Reserve Issues FOMC Statement on Policy Normalization Principles and Plans ,&quot; press release, September 17, 2014, at http://federalreserve.gov/newsevents/press/monetary/20140917c.htm . For more information on the Fed's exit strategy, see Stanley Fischer, &quot;Conducting Monetary Policy with a Large Balance Sheet,&quot; speech at Monetary Policy Forum, February 27, 2015, at http://www.federalreserve.gov/newsevents/speech/fischer20150227a.htm ; and Simon Potter, &quot;Mone...">48</a></sup> In the 2014 announcement, the Fed announced it would continue to implement monetary policy by targeting the federal funds rate.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title='In the normalization statement, the Fed announced it would continue setting a target range for the federal funds rate (e.g., 0% to 0.25%), whereas before rates reached the zero bound, the Fed set a point target. See Simon Potter, "Interest Rate Control During Normalization," speech at SIFMA conference, October 7, 2014, at http://www.newyorkfed.org/newsevents/speeches/2014/pot141007.html .'>49</a></sup> The basic challenge to doing so is that the Fed cannot effectively alter the federal funds rate by altering reserve levels (as it did before the crisis) because QE has flooded the market with excess bank reserves. In other words, in the presence of more than $1 trillion in bank reserves, the market-clearing federal funds rate is close to zero even if the Fed would like it to be higher.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="The decline in turnover in the federal funds market since the beginning of unconventional monetary policy is chronicled in Gara Afonso et al., &quot;Who's Borrowing in the Fed Funds Market , &quot; Liberty Street Economics , Federal Reserve Bank of New York, December 9, 2013, at http://libertystreeteconomics.newyorkfed.org/2013/12/whos-borrowing-in-the-fed-funds-market.html#more .">50</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One option to return to normal monetary policy would be to remove the bulk of those excess reserves by shrinking the balance sheet through asset sales. The Fed did not sell any securities during normalization, however.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="As a result of QE, the Fed has become a major holder of Treasuries and MBS. Thus, rapid asset sales could cause volatility in those markets, but modest and gradual sales likely would not pose that risk.">51</a></sup> From 2014 to 2017, it kept the size of the balance sheet constant at $4.5 trillion by rolling over securities as they matured. In September 2017, it gradually reduced the balance sheet by ceasing to roll over some securities as they mature. At the peak of the runoff, the Fed allowed $30 billion of Treasuries and $20 billion of MBS to run off each month. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed's goal was to reduce the balance sheet until it held "no more securities than necessary to implement monetary policy efficiently and effectively."<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title='Federal Reserve, "FOMC Issues Addendum to the Policy Normalization Principles and Plans," p ress r elease , June 14, 2017, at https://www.federalreserve.gov/newsevents/pressreleases/monetary20170614c.htm .'>52</a></sup> The Fed has stated that a balance sheet that is consistent with this goal will be larger than it was before the crisis. In part, that is because other liabilities on the Fed's balance sheet are larger—there is more currency in circulation now than there was before the crisis, and the Treasury has kept larger balances on average in its account at the Fed. But the balance sheet is also significantly larger because the Fed decided in January 2019 to continue using its new method of targeting the federal funds rate even after normalization is completed.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title='Federal Reserve, "Statement Regarding Monetary Policy Implementation and Balance Sheet Normalization," press release, January 30, 2019, at https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130c.htm .'>53</a></sup> Under the new method, the federal funds rate is not determined by supply and demand in the market for bank reserves, and the Fed would prefer to maintain abundant bank reserves so that it does not have to use open market operations to respond to changes in banks' demand for reserves. By contrast, if it had gone back to the pre-crisis method of targeting the federal funds rate, only minimal excess reserve balances would be necessary (but perhaps more than before the crisis), so its balance sheet could have been much smaller. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed ended the balance sheet wind-down in August 2019, but resumed balance sheet growth in September 2019 in response to repo market turmoil (see the section below entitled "<a class="InternalLink" href="#_Ref31815156">The Federal Reserve's Response to Repo Market Turmoil in September 2019</a>"). In August, the size of the balance sheet was about $3.8 trillion, and bank reserves were about $1.5 trillion. Going forward, the Fed will continue to allow $20 billion in MBS to run off the balance sheet each month but will now replace the maturing MBS with Treasury securities instead of allowing the balance sheet to shrink by that amount. Although the Fed has stated that it intends to eventually stop holding MBS, at this rate the Fed would still have sizable MBS holdings in 2025, according to projections from the New York Fed.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="Federal Reserve Bank of New York, Domestic Open Market Operations During 201 7 , April 2018, p. PDF-35, at https://www.newyorkfed.org/medialibrary/media/markets/omo/omo2016-pdf.pdf .">54</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In order to raise the federal funds rate in the presence of large reserves, the Fed has raised the two market interest rates that are close substitutes—it has directly raised the rate it pays banks on reserves held at the Fed and used large-scale reverse repurchase agreements (repos) to alter repo rates.<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title="See Federal Reserve Bank of New York, FAQs: Overnight Fixed-Rate Reverse Repurchase Agreement Operational Exercise , September 19, 2014, at http://www.newyorkfed.org/markets/rrp_faq.html . For a list of the Fed's current counterparties, see http://www.newyorkfed.org/markets/expanded_counterparties.html . See also Josh Frost et al., &quot;Overnight RRP Operations as a Monetary Policy Tool,&quot; Finance and Economics Discussion Series 2015-010 , February 19, 2015, at http://www.federalreserve....">55</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2008, Congress granted the Fed the authority to pay interest on reserves.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="The authority (12 U.S.C. § 461(b)) for the Fed to pay interest on reserves was originally granted in the Financial Services Regulatory Relief Act of 2006, beginning in 2011. The start date was changed to immediately in the Emergency Economic Stabilization Act of 2008 ( P.L. 110-343 ).">56</a></sup> Because banks can earn interest on excess reserves by lending them in the federal funds market or by depositing them at the Fed, raising the interest rate on bank reserves should also raise the federal funds rate.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="The interest rate on reserves might be expected to set a floor on the federal funds rate, but in practice the actual federal funds rate was slightly lower than the interest rate on reserves since the Fed began paying interest in 2008 until 2019. This discrepancy has been ascribed to the fact that some participants in the federal funds market, such as Fannie Mae, Freddie Mac, and the Federal Home Loan Banks, do not earn interest on reserves held at the Fed. See Gara Afonso et al., &quot; Who's Lend...">57</a></sup> In this way, the Fed can lock up excess liquidity to avoid any potentially inflationary effects because reserves kept at the Fed cannot be put to use by banks to finance activity in the broader economy.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="Removing reserves through asset sales would have the same effect on bank lending as paying banks to keep reserves at the Fed.">58</a></sup> In practice, because reserves were so abundant, the interest rate that the Fed paid banks on reserves was slightly higher than the actual federal funds rate until 2019, which some have criticized as a subsidy to banks.<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title='Joseph Gagnon, "Should the Fed Subsidize Banks?," Peterson Institute for International Economics, December 9, 2015, at http://blogs.piie.com/realtime/?p=5299 . The difference between the federal funds rate and the interest rate paid on reserves is not intentional but comes about because of differences in eligible market participants.'>59</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reverse repos are another tool for draining liquidity from the system and influencing short-term market rates. They drain liquidity from the financial system because cash is transferred from market participants to the Fed. As a result, interest rates in the repo market, one of the largest short-term lending markets, rise. The Fed has long conducted open market operations through the repo market, but since 2013 it has engaged in a much larger volume of reverse repos with a broader range of nonbank counterparties, including the government-sponsored enterprises (such as Fannie Mae and Freddie Mac) and certain money market funds, through a new Overnight Reverse Repurchase Operations Facility. The Fed is currently not capping the amount of overnight reverse repos offered through this facility. There has been some concern about the potential ramifications of the Fed becoming a dominant participant in this market and expanding its counterparties. For example, will counterparties only be willing to transact with the Fed in a panic, and will the Fed be exposed to counterparty risk with nonbanks that it does not regulate?<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="See, for example, Sheila Bair, &quot;The Federal Reserve's Risky Reverse Repurchase Scheme,&quot; Wall Street Journal , July 24, 2014. For a counterargument that increased use of reverse repos could enhance financial stability, see Robin Greenwood, Samuel Hanson, and Jeremy Stein, &quot; The Federal Reserve's Balance Sheet as a Financial Stability Tool , &quot; working paper p repared for the Federal Reserve Bank of Kansas City's 2016 Economic Policy Symposium , Jackson Hole, WY, September 2016, at https:...">60</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc31814863"></a><a name="_Toc31814945"></a><a name="_Toc31815041"></a><a name="_Ref31815058"></a><a name="_Ref31815085"></a><a name="_Ref31815156"></a><a name="_Toc31891659"></a>The Federal Reserve's Response to Repo Market Turmoil in September 2019</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Repo rates suddenly spiked on September 17, 2019.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title="For background on repos, see the text box above.">61</a></sup> For the day, the average repo rate, as measured by the Secured Overnight Financing Rate, was 5.25%—more than double the average on the previous day. According to media reports, at one point in the day, repo rates hit 10%.<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title='" U.S. Repo Rate Falls After Fed Repo Operation ," Reuters , September 20, 2019, at https://www.reuters.com/article/us-usa-repo/u-s-repo-rate-falls-after-fed-repo-operation-idUSKBN1W51AW .'>62</a></sup> Because of the interrelationship between the repo market and the federal funds market, the Fed intervened to prevent this spike from leading to an upward movement in the federal funds rate. Nevertheless, the average effective federal funds rate that day rose 0.05 percentage points above the top of the target range.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There is no indication that the recent spike in repo rates was caused by a panic—the markets were not experiencing wider financial disruption and no problems with particular participants were seen. Instead, it was caused by a temporary increase in demand for cash and decrease in supply of bank reserves that have been attributed to three factors. First, federal tax payments were due on September 15. When taxes are paid, money is initially transferred out of the reserve account of the taxpayer's bank into the Treasury's general account at the Fed. Second, relatively large Treasury debt issuance at that time similarly transferred money out of the reserve accounts of banks (who purchased the securities for themselves or customers) and into the Treasury general account. Finally, financial reporting requirements at the end of the third quarter made banks temporarily less willing to lend in the repo market.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title='New York Fed Senior Vice President Lorie K. Logan, "Money Market Developments: Views from the Desk," s peech, November 04, 2019, at https://www.newyorkfed.org/newsevents/speeches/2019/log191104 .'>63</a></sup> In the words of former New York Fed President Bill Dudley, "the spike ... was not a 'canary in the coal mine' signaling bigger problems in the financial system. Instead, it reflects the difficulty in forecasting the demand for reserves given the changes in regulations."<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title='Bill Dudley, "The Fed Should Keep Looking Forward, Not Retreat to the Past," Bloomberg , January 6, 2020, at https://www.bloomberg.com/opinion/articles/2020-01-06/fed - should-keep-looking-forward-not-retreat-to-the-past .'>64</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since September 2019, the Fed has responded in two ways to avoid further repo market turmoil. First, since the turmoil began, it has engaged in daily repos, and has pledged to continue to do so at least through April 2020. Second, since October, it has purchased $60 billion in Treasury bills per month, and has pledged to do so at least into the second quarter of 2020. Both achieve the same aim—they increase market liquidity and the supply of bank reserves. Repo rates and the federal funds rate have been stable since the Fed began these operations.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Fed repos outstanding rose from an average of zero the week of September 11, 2019, to $82 billion the week of September 25, 2019, to over $200 billion since the week of October 30. A focus on the Fed's repos only presents one side of the Fed's influence on repo market liquidity and bank reserves, however. The Fed intervenes on both sides of the repo market—that is, it simultaneously injects liquidity into markets by entering into repos and it withdraws liquidity by entering into reverse repos. While the Fed had not used repos from 2009 to September 2019, it had regularly used reverse repos during that period. Since the financial crisis, the Fed has been withdrawing liquidity from repo markets on net because its reverse repos have exceeded its repos. That is still true—despite the liquidity shortfall—even since the Fed's intervention beginning in September 2019. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The reason the Fed's repo activity is still withdrawing liquidity on net is mainly because of the Fed's foreign repo pool, which invests foreign central banks' and international institutions' excess balances held at the Fed in reverse repos with the Fed.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title='Federal Reserve Bank of New York, "Central Bank and International Account Services," at https://www.newyorkfed.org/markets/central-bank-and-international-account-services .'>65</a></sup> Note that this service is available to these institutions on demand, so the amount of reverse repos outstanding is determined by the institutions. It is not a tool of monetary policy, but it has the same effect on market liquidity as domestic reverse repos, which are a tool of monetary policy. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some observers have suggested that regulation played a role in September's repo market turmoil.<sup><a class="FootnoteLink" href="#fn66" name="ifn66" title='Gregg Robb, "Dimon Says Money-Market Turmoil Last Month Risks Morphing Into A Crisis If Fed Falters," Marketwatch , Oct ober 18, 2019, at https://www.market w atch.com/story/dimon-says-money-market-turmoil-last-month-risks-morphing-into-a-crisis-if-fed-falters-2019-10-18 .'>66</a></sup> Other observers have disputed the assertion that reforms have created disincentives for large banks to participate in repo markets.<sup><a class="FootnoteLink" href="#fn67" name="ifn67" title="Sheila Bair, &quot; Why Banks Shouldn't Blame The 'Repo Rupture' On Regulation ,&quot; yahoo!finance , October 19, 2019, at https://finance.yahoo.com/news/sheila-bair-repo-market-malfunctions-143450318.html ; and Daniel Tarullo, &quot;The September Repo Price Spike: Immediate and Longer-Term Issues,&quot; speech at the Brookings Institution, December 5, 2019, at https://www.brookings.edu/wp-content/uploads/2019/11/BrookingsTalkonRepoMarketDisruption.pdf .">67</a></sup> Specifically, postcrisis financial stability reforms pursuant to Title I of the Dodd-Frank Act and Basel III, an international accord, have required large banks to hold more liquid assets and to hold more capital against loans (i.e., to reduce their leverage).<sup><a class="FootnoteLink" href="#fn68" name="ifn68" title="For more information on the large bank regulations discussed in this section, see CRS Report R45711, Enhanced Prudential Regulation of Large Banks , by Marc Labonte .">68</a></sup> Both could potentially raise the cost or reduce the scope for large banks to borrow and lend in repo markets, making participation in repo markets less attractive to them.<sup><a class="FootnoteLink" href="#fn69" name="ifn69" title="Primary dealers, not banks, are traditionally viewed as the market makers in the repo market. The postcrisis reforms applied to large banks discussed here do not apply to primary dealers unless they are subsidiaries of large banks—which many are. Others are owned by foreign bank organizations, which are subject to similar regulatory requirements.">69</a></sup> In this sense, such reforms could make banks safer while making financial markets more fragile. But fragility in repo markets of the type experienced in September can be contained as long as the Fed is willing to intervene. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Viewed more broadly, the policy question becomes what mix of monetary policy tools is most appropriate—a question with wider implications than only which tool best delivers interest rate stability. As discussed above, repos were the primary tool for targeting the federal funds rate before the Fed expanded its balance sheet. The main difference since September 2019 was the greater magnitude of the Fed's intervention. A lesser reliance on repos necessitates a larger Fed balance sheet and higher bank reserves, and vice versa, to effectively target the federal funds rate.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc31726518"></a><a name="_Toc31726650"></a><a name="_Toc31727158"></a><a name="_Ref31789370"></a><a name="_Toc31814864"></a><a name="_Toc31814946"></a><a name="_Toc31815042"></a><a name="_Toc31891660"></a>The Federal Reserve's Review of Monetary Policy Strategy, Tools, and Communications</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In November 2018, the Fed announced a "broad review of the strategy, tools, and communication practices it uses to pursue the monetary policy goals established by the Congress: maximum employment and price stability."<sup><a class="FootnoteLink" href="#fn70" name="ifn70" title='Federal Reserve, " Review of Monetary Policy Strategy, Tools, and Communications ," at https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications.htm .'>70</a></sup> The mand<a name="_GoBack"></a>ate itself and the Fed's 2% inflation target are not part of the review. The Fed has been holding town halls with stakeholders and a research conference as part of the review.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">According to Chair Powell, one purpose of the review is to evaluate whether changes are needed in how monetary policy is carried out in response to the economic changes that have occurred since the Great Recession.<sup><a class="FootnoteLink" href="#fn71" name="ifn71" title='Chair Jerome H. Powell, "Economic Outlook and Monetary Policy Review," June 25, 2019, at https://www.federalreserve.gov/newsevents/speech/powell20190625a.htm .'>71</a></sup> For example, inflation is less responsive to changes in unemployment, and the peak federal funds rate is much lower than in the previous nine expansions for which data are available.<sup><a class="FootnoteLink" href="#fn72" name="ifn72" title="Federal Reserve Vice Chair Richard H. Clarida, &quot;The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices,&quot; February 22, 2019, at https://www.federalreserve.gov/newsevents/speech/clarida20190222a.htm .">72</a></sup> Because the Fed is much closer to the zero lower bound than in previous expansions, it has much less scope to stimulate the economy (if necessary) using reductions in the federal funds rate. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As part of the review, the FOMC has discussed "makeup" strategies as a way to potentially deliver more stimulus given the zero lower bound problem.<sup><a class="FootnoteLink" href="#fn73" name="ifn73" title='Federal Open Market Committee, " Minutes of the Federal Open Market Committee ," July 30-31, 2019, at https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20190731.pdf .'>73</a></sup> Given the tendency for inflation to undershoot the 2% target during downturns, the idea behind the makeup strategy is to explicitly pledge to deliver an equivalent amount of inflation above 2% at other times, so that inflation will average 2% over the business cycle.<sup><a class="FootnoteLink" href="#fn74" name="ifn74" title='For example, former Fed Chair Ben Bernanke proposed a temporary price level target. See Ben Bernanke, " Evaluating Lower-for-Longer Policies: Temporary Price-Level Targeting ," Brookings Institution, February 21, 2019, at https://www.brookings.edu/blog/ben-bernanke/2019/02/21/evaluating-lower-for-longer-policies-temporary-price-level-targeting/   . See also John Williams, "Monetary Policy Strategies for a Low-Neutral-Interest-Rate World," November 30, 2018, at https://www.newyorkfe...'>74</a></sup> (It is already Fed policy that the 2% target should be met on average, as opposed to a policy that inflation should be no higher than 2%.<sup><a class="FootnoteLink" href="#fn75" name="ifn75" title="For example, the FOMC's Statement on Longer-Run Goals states &quot;The Committee would be concerned if inflation were running persistently above or below this objective. Communicating this symmetric inflation goal clearly to the public helps keep longer-term inflation expectations firmly anchored .... &quot; See Federal Reserve, Statement on Longer-Run Goals and Monetary Policy Strategy , January 24, 2012, at http://www.federalreserve.gov/monetarypolicy/files/FO M C_LongerRunGoals.pdf .">75</a></sup>) A challenge to the success of makeup strategies has been the Fed's inability to get inflation to even reach the 2% target in this expansion: If it cannot even deliver 2% inflation, how will it deliver inflation above 2%? Another challenge is that makeup strategies could be hard to communicate to the public and could risk undermining the stability of the public's inflation expectations. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The review is also considering whether there are other tools to provide stimulus that the Fed should use at the zero lower bound besides forward guidance and QE. For example, Vice Chair Richard Clarida noted that some other countries have targeted government bond yields to provide additional stimulus.<sup><a class="FootnoteLink" href="#fn76" name="ifn76" title="Clarida, &quot;The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices.&quot;">76</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The review is also considering potential changes to how the Fed communicates monetary policy decisions to the public.<a name="_Ref391483033"></a><a name="_Toc422846864"></a><a name="_Toc433284253"></a><a name="_Toc433284401"></a><a name="_Toc433284437"></a><a name="_Toc433284646"></a><a name="_Toc437508088"></a><a name="_Toc441225012"></a><a name="_Toc441225076"></a><a name="_Toc441568889"></a><a name="_Toc441828831"></a><a name="_Toc473725901"></a><a name="_Toc474226652"></a><a name="_Toc474402310"></a><a name="_Toc485390614"></a><a name="_Toc485807308"></a><a name="_Toc485808867"></a><a name="_Toc485914098"></a><a name="_Toc503252423"></a><a name="_Toc524616972"></a><a name="_Toc532572077"></a><a name="_Toc532572469"></a><a name="_Toc534035351"></a><a name="_Toc534035382"></a><a name="_Toc534035413"></a><a name="_Toc535417323"></a><a name="_Toc535417456"></a><a name="_Toc535563206"></a><a name="_Toc535563285"></a><a name="_Toc535588149"></a><a name="_Toc1743149"></a><a name="_Toc1743178"></a><a name="_Toc17816656"></a> The review is scheduled to conclude in the first half of 2020.</p>
+<p class="Heading5" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appendix. <a name="_Toc18493721"></a><a name="_Toc18502286"></a><a name="_Toc18924304"></a><a name="_Toc31726501"></a><a name="_Toc31726633"></a><a name="_Toc31727142"></a><a name="_Toc31814849"></a><a name="_Toc31814932"></a><a name="_Toc31815029"></a><a name="_Toc31891647"></a>Regulatory Responsibilities</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed has distinct roles as a central bank and a regulator. Its main regulatory responsibilities are as follows:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>B</strong><strong>ank regulation</strong><strong>.</strong> The Fed supervises bank holding companies (BHCs) and thrift holding companies (THCs), which include all large and thousands of small depositories, for safety and soundness.<sup><a class="FootnoteLink" href="#fn77" name="ifn77" title="The Fed was assigned regulatory responsibility for thrift holding companies as a result of the Dodd-Frank Act, which eliminated the Office of Thrift Supervision.">77</a></sup> The Dodd-Frank Act requires the Fed to subject BHCs with more than $50 billion in consolidated assets to enhanced prudential regulation (i.e., stricter standards than are applied to similar firms) in an effort to mitigate the systemic risk they pose.<sup><a class="FootnoteLink" href="#fn78" name="ifn78" title='For more information, see CRS Report R42150, Systemically Important or "Too Big to Fail" Financial Institutions , by Marc Labonte .'>78</a></sup> The Fed is also the prudential regulator of U.S. branches of foreign banks and state banks that have elected to become members of the Federal Reserve System. Often in concert with the other banking regulators,<sup><a class="FootnoteLink" href="#fn79" name="ifn79" title="The federal banking regulatory system is charter based. Other types of depositories are regulated by the Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation. A bank holding company is typically regulated by the Fed at the holding company level and the other banking regulators at the bank subsidiary level. For more information, see CRS Report R44918, Who Regulates Whom? An Overview of the U.S. Financial Regulatory Framework , by Marc Labonte .">79</a></sup> it promulgates rules and supervisory guidelines that apply to banks in areas such as capital adequacy, and examines depository firms under its supervision to ensure that those rules are being followed and those firms are conducting business prudently. The Fed's supervisory authority includes consumer protection for banks under its jurisdiction that have $10 billion or less in assets.<sup><a class="FootnoteLink" href="#fn80" name="ifn80" title="The Dodd-Frank Act transferred the Fed's authority to promulgate consumer protection rules to the Consumer Financial Protection Bureau (CFPB), but the Fed retained supervisory responsibilities for banks under its jurisdiction that have $10 billion or less in assets. Although the CFPB was created as a bureau of the Fed, the Fed has no authority to select CFPB's leadership or employees or to set or modify CFPB policy. The CFPB's budget is financed by a transfer from the Fed; the amount is set in...">80</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>P</strong><strong>rudential </strong><strong>regulat</strong><strong>ion of nonbank systemically important financial institutions</strong><strong>.</strong> The Dodd-Frank Act allows the Financial Stability Oversight Council (FSOC)<sup><a class="FootnoteLink" href="#fn81" name="ifn81" title="The FSOC is an interagency council consisting of financial regulators and headed by the Treasury Secretary. For more information, see CRS Report R45052, Financial Stability Oversight Council (FSOC): Structure and Activities , by Jeffrey M. Stupak .">81</a></sup> to designate nonbank financial firms as systemically important (SIFIs). Designated firms are supervised by the Fed for safety and soundness. Since enactment, the number of designated firms has ranged from four, initially, to none today.<sup><a class="FootnoteLink" href="#fn82" name="ifn82" title="See CRS Insight IN10982, After Prudential, Are There Any Systemically Important Nonbanks? , by Marc Labonte and Baird Webel .">82</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>R</strong><strong>egulation of the payment system</strong><strong>.</strong> The Fed regulates the retail and wholesale payment system for safety and soundness. It also operates parts of the payment system, such as interbank settlements and check clearing.<sup><a class="FootnoteLink" href="#fn83" name="ifn83" title="For information on the Fed's real time payments initiative, see CRS Report R45927, U.S. Payment System Policy Issues: Faster Payments and Innovation , by Cheryl R. Cooper, Marc Labonte, and David W. Perkins .">83</a></sup> The Dodd-Frank Act subjects payment, clearing, and settlement systems designated as systemically important by the FSOC to enhanced supervision by the Fed (along with the Securities and Exchange Commission and the Commodity Futures Trading Commission, depending on the type of system).</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong>M</strong><strong>argin requirements</strong><strong>.</strong> The Fed sets margin requirements on the purchases of certain securities, such as stocks, in certain private transactions. The purpose of margin requirements is to mandate what proportion of the purchase can be made on credit.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Fed attempts to mitigate systemic risk and prevent financial instability through these regulatory responsibilities, as well as through its lender of last resort activities and participation on the FSOC (whose mandate is to identify risks and respond to emerging threats to financial stability). The Fed has focused more on attempting to mitigate systemic risk through its regulations since the financial crisis, and has also restructured its internal operations to facilitate a macroprudential approach to supervision and regulation.<sup><a class="FootnoteLink" href="#fn84" name="ifn84" title='Then-Fed Chairman Ben Bernanke , " Implementing a Macroprudential Approach to Supervision and Regulation, " speech a t the 47 th Annual Conference on Bank Structure and Competition, Chicago, Illinois, Federal Reserve, May 5, 2011, at http://www.federalreserve.gov/newsevents/speech/bernanke20110505a.htm .'>84</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report was originally authored by Gail E. Makinen, formerly of the Congressional Research Service.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For background on the makeup of the Federal Reserve, see CRS In Focus IF10054, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10054"><em><span class="Hyperlink">Introduction to Financial Services: The Federal Reserve</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 2A of the Federal Reserve Act, 12 U.S.C. §225a.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, <em>Statement on Longer-Run Goals and Monetary Policy Strategy</em>,<em> </em>January 24, 2012, at <a class="ExternalLink" href="http://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf"><span class="Hyperlink">http://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Current and past monetary policy announcements can be accessed at <a class="ExternalLink" href="http://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"><span class="Hyperlink">http://www.federalreserve.gov/monetarypolicy/fomccalendars.htm</span></a>. For more information on the business cycle, see CRS In Focus IF10411, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10411"><em><span class="Hyperlink">Introduction to U.S. Economy: The Business Cycle and Growth</span></em></a>, by Jeffrey M. Stupak.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Insight IN11152, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN11152"><em><span class="Hyperlink">Why Is the Federal Reserve Reducing Interest Rates?</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R46200, <a class="ExternalLink" href="http://www.crs.gov/Reports/R46200"><em><span class="Hyperlink">Recent Slower Economic Growth in the United States: Policy Implications</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R44663, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44663"><em><span class="Hyperlink">Unemployment and Inflation: Implications for Policymaking</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Insight IN10971, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN10971"><em><span class="Hyperlink">Escalating U.S. Tariffs: Affected Trade</span></em></a>, coordinated by Brock R. Williams. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "Transcript of Chairman Powell's Press Conference," July 31, 2019, at <a class="ExternalLink" href="https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20190731.pdf"><span class="Hyperlink">https://www.federalreserve.gov/mediacenter/file</span><span class="Hyperlink">s</span><span class="Hyperlink">/FOMCpresconf20190731.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Janet Yellen, "The Federal Reserve's Monetary Policy Toolkit," speech at Jackson Hole, WY, August 26, 2016, at <a class="ExternalLink" href="https://www.federalreserve.gov/newsevents/speech/yellen20160826a.htm"><span class="Hyperlink">https://www.federalreserve.gov/newsevents/speech/yellen20160826a.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Nick Timiraos, "Powell Says Fed Won't Bend to Political Pressure," <em>Wall Street Journal</em>, June 25, 2019, at <a class="ExternalLink" href="https://www.wsj.com/articles/feds-powell-trade-uncertainty-global-growth-worries-could-prompt-rate-cuts-11561481986"><span class="Hyperlink">https://www.wsj.com/articles/feds-powell-trade-uncertainty-global-growth-worries-could-prompt-rate-cuts-11561481986</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, John Taylor, "A Monetary Policy for the Future," speech at the International Monetary Fund, April 15, 2015, at <a class="ExternalLink" href="http://web.stanford.edu/~johntayl/2015_pdfs/A_Monetary_Policy_For_the_Future-4-15-15.pdf"><span class="Hyperlink">http://web.stanford.edu/~johntayl/2015_pdfs/A_Monetary_Policy_For_the_Future-4-15-15.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Of the monetary policy tools described below, the board is generally responsible for setting reserve requirements and interest rates paid by the Fed, whereas the federal funds target is set by the FOMC. The discount rate is set by the 12 Federal Reserve banks, subject to the board's approval. In practice, the board and FOMC coordinate the use of these tools to implement a consistent monetary policy stance. The New York Fed determines what open market operations are necessary on an ongoing basis to maintain the federal funds target.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Depository institutions are obligated by law to hold some fraction of their deposit liabilities as reserves. They are also likely to hold additional or excess reserves based on certain risk assessments they make about their portfolios and liabilities. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, Anthony M. Santomero, "Great Expectations: The Role of Beliefs in Economics and Monetary Policy," <em>Business Review, </em>Federal Reserve Bank of<em> </em>Philadelphia, Second Quarter 2004, pp. 1-6, and Gordon H. Sellon, Jr., "Expectations and the Monetary Policy Transmission Mechanism," <em>Economic Review</em>, Federal Reserve Bank of Kansas City, Fourth Quarter 2004, pp. 4-42.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Fed is legally forbidden from buying securities directly from the Department of the Treasury. Instead, it buys them on secondary markets from primary dealers. For a technical explanation of how open market operations are conducted, see Cheryl L. Edwards, "Open Market Operations in the 1990s," <em>Federal Reserve Bulletin</em>,<em> </em>November 1997, pp. 859-872; and Benjamin Friedman and Kenneth Kuttner, <em>Implementation of Monetary Policy: How Do Central Banks Set Interest Rates?</em>, National Bureau of Economic Research, Working Paper no. 16165, March 2011.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In addition to open market operations, the Fed has entered into reverse repos since 2013 through a newly created facility, the Overnight Reverse Repurchase Operations Facility. See the section below entitled "<a class="InternalLink" href="#_Ref402863824">The "Exit Strategy": Normalization of Monetary Policy after QE</a>."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> All depository institutions, as defined by 12 U.S.C. §461, may borrow from the discount window and are subject to reserve requirements regardless of whether they are members of the Federal Reserve.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Until 2003, the discount rate was set slightly below the federal funds target, and the Fed used moral suasion to discourage healthy banks from profiting from this low rate. To reduce the need for moral suasion, lending rules were altered in early 2003. Since that time, the discount rate has been set at a penalty rate above the federal funds rate target. However, during the financial crisis, the Fed encouraged banks to use the discount window.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Checking accounts are subject to reserve requirements, but savings accounts are not. As a result, the Fed defines by regulation the different characteristics that checking and savings accounts may have. For example, savings accounts are subject to a limit on monthly withdrawals.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The deposit threshold is regularly adjusted for inflation. For current reserve requirements, see  <a class="ExternalLink" href="http://www.federalreserve.gov/monetarypolicy/reservereq.htm"><span class="Hyperlink">http://www.federalreserve.gov/monetarypolicy/reservereq.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The output gap measures the difference between actual GDP and potential GDP (when all labor and capital resources in the economy are fully employed). See Flint Brayton, Thomas Laubach, and David Reifschneider, "The FRB/US Model: A Tool for Macroeconomic Policy Analysis," Board of Governors of the Federal Reserve System, <em>FEDS Notes</em>, April 03, 2014, at <a class="ExternalLink" href="https://doi.org/10.17016/2380-7172.0012"><span class="Hyperlink">https://doi.org/10.17016/2380-71</span><span class="Hyperlink">7</span><span class="Hyperlink">2.0012</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> During the financial crisis, the historical relationship between money growth and inflation did not hold, as will be discussed below in the section entitled "<a class="InternalLink" href="#_Ref31815118">Unconventional Monetary Policy and the Fed's Balance Sheet during and after the Financial Crisis</a>."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Two interesting papers bearing on what monetary policy can accomplish by two former officials of the Federal Reserve are Anthony M. Santomero, "What Monetary Policy Can and Cannot Do," <em>Business Review</em>, Federal Reserve Bank of Philadelphia, First Quarter 2002, pp. 1-4, and Frederic S. Mishkin, "What Should Central Banks Do?," <em>Review,</em> Federal Reserve Bank of St. Louis, November/December 2000, pp. 1-14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Fed earns interest on its securities holdings, and it uses this interest to fund its operations. It sets its own budget and is not subject to the appropriations process.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R43391, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43391"><em><span class="Hyperlink">Independence of Federal Financial Regulators: Structure, Funding, and Other Issues</span></em></a>, by Henry B. Hogue, Marc Labonte, and Baird Webel.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Christopher Condon, "A Timeline of Trump's Quotes on Powell and the Fed," <em>Bloomberg, </em>December 17, 2018.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Note that this prediction has not always held over time—at times, some Members of Congress have criticized the Fed for keeping interest rates too low.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report RL31056, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL31056"><em><span class="Hyperlink">Economics of Federal Reserve Independence</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, Federal Reserve Bank of New York, "Measuring the Natural Rate of Interest," at <a class="ExternalLink" href="https://www.newyorkfed.org/research/policy/rstar"><span class="Hyperlink">https://www.newyorkfed.org/research/policy/rstar</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> John Williams, "Monetary Policy Strategies for a Low-Neutral-Interest-Rate World," speech, November 30, 2018, at <a class="ExternalLink" href="https://www.newyorkfed.org/newsevents/speeches/2018/wil181130"><span class="Hyperlink">https://www.newyorkfed.org/newsevents/speeches/20</span><span class="Hyperlink">1</span><span class="Hyperlink">8/wil181130</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> To some extent, fiscal policy automatically mitigates changes in the business cycle without any policy changes because tax revenue falls relative to GDP and certain mandatory spending (such as unemployment insurance) rises when economic growth slows and vice versa.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An exception to the rule would be a situation in which the economy is far enough below full employment that virtually no crowding out takes place because the stimulus to spending generates enough resources to finance new capital spending.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R45723, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45723"><em><span class="Hyperlink">Fiscal Policy: Economic Effects</span></em></a>, by Jeffrey M. Stupak. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> These exchange rate effects require a change in domestic interest rates relative to foreign interest rates. If fiscal or monetary policy moves synchronously among trading partners (e.g., all countries expand monetary policy simultaneously), then there would be no change in relative interest rates and therefore no change in exchange rates or the trade balance.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> It is important to take this possibility into consideration when evaluating the potential effects of fiscal policy on the business cycle. Because the Fed presumably chooses (and continually updates) a monetary policy that aims to keep the economy at full employment, the Fed would need to alter its policy to offset the effects of any stimulative fiscal policy changes that moved the economy above full employment. Thus, the actual net stimulative effect of a fiscal policy change (after taking into account monetary policy adjustments) could be less than the effects in isolation.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a detailed account of the Fed's role in the financial crisis, see CRS Report RL34427, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34427"><em><span class="Hyperlink">Financial Turmoil: Federal Reserve Policy Responses</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Fed did not target the federal funds rate as its monetary policy instrument until the late 1980s or early 1990s. (See Daniel Thornton, <em>When Did the FOMC Begin Targeting the Federal Funds Rate?</em>, Federal Reserve Bank of St.</p>
+<p class="FootnoteText" style=""><em> </em>Louis, Working Paper no. 2004-015B, May 2005, at <a class="ExternalLink" href="http://research.stlouisfed.org/wp/2004/2004-015.pdf"><span class="Hyperlink">http://research.stlouisfed.org/wp/2004/2004-015.pdf</span></a>.) Data on the federal funds rate back to 1914 are not available. Before 2008, the Fed had not set its discount rate (the rate charged at the Fed's discount window) as low as 0.5% since 1914.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R44185, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44185"><em><span class="Hyperlink">Federal Reserve: Emergency Lending</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Central bank liquidity swaps (temporary currency exchanges between the Fed and central foreign banks) are the only facility created during the crisis still active, but they have not been used on a large scale since 2012.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Data from "Recent Balance Sheet Trends," <em>Credit and Liquidity Programs and the Balance Sheet</em>, at <a class="ExternalLink" href="http://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm"><span class="Hyperlink">http://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm</span></a>. Values include totals from credit extended through Federal Reserve liquidity facilities and support for specific institutions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, <em>Quarterly Report on Federal Reserve Balance Sheet Developments</em>, November 2014, at <a class="ExternalLink" href="http://www.federalreserve.gov/monetarypolicy/bsd-content-201411.htm"><span class="Hyperlink">http://www.federalreserve.gov/monetarypolicy/bsd-content-201411.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Saroj Bhattarai and Christopher Neely, <em>A Survey of the Empirical Literature on U.S. Unconventional Monetary Policy</em>, Federal Reserve Bank of St. Louis, Working Paper 2016-021A, October 2016, at <a class="ExternalLink" href="https://dx.doi.org/10.20955/wp.2016.021"><span class="Hyperlink">https://dx.doi.org/10.20955/wp.2016.021</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> All insured depositories and a handful of other financial firms may have accounts at the Fed.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> At first, the Fed financed emergency assistance by selling Treasury securities and keeping its balance sheet constant, but the assistance outstanding would have quickly outpaced its securities holdings.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve Bank of New York, <em>Projections for the SOMA Portfolio and Net Income</em>, April 2018, at <a class="ExternalLink" href="https://www.newyorkfed.org/markets/annual_reports.html"><span class="Hyperlink">https://www.newyorkfed.org/markets/annual_reports.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "Federal Reserve issues FOMC statement," press release, October 29, 2014, at <a class="ExternalLink" href="http://federalreserve.gov/newsevents/press/monetary/20141029a.htm"><span class="Hyperlink">http://f</span><span class="Hyperlink">e</span><span class="Hyperlink">deralreserve.gov/newsevents/press/monetary/20141029a.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "Federal Reserve Issues FOMC Statement on Policy Normalization Principles and Plans," press release, September 17, 2014, at <a class="ExternalLink" href="http://federalreserve.gov/newsevents/press/monetary/20140917c.htm"><span class="Hyperlink">http://federalreserve.gov/newsevents/press/monetary/20140917c.htm</span></a>. For more information on the Fed's exit strategy, see Stanley Fischer, "Conducting Monetary Policy with a Large Balance Sheet," speech at Monetary Policy Forum, February 27, 2015, at <a class="ExternalLink" href="http://www.federalreserve.gov/newsevents/speech/fischer20150227a.htm"><span class="Hyperlink">http://www.federalreserve.gov/newsevents/speech/fischer20150227a.htm</span></a>; and Simon Potter, "Money Markets and Monetary Policy Normalization," speech at New York University, April 15, 2015, at <a class="ExternalLink" href="http://www.newyorkfed.org/newsevents/speeches/2015/pot150415.html"><span class="Hyperlink">http://www.newyorkfed.org/newsevents/speeches/2015/pot150415.html</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In the normalization statement, the Fed announced it would continue setting a target range for the federal funds rate (e.g., 0% to 0.25%), whereas before rates reached the zero bound, the Fed set a point target. See Simon Potter, "Interest Rate Control During Normalization," speech at SIFMA conference, October 7, 2014, at <a class="ExternalLink" href="http://www.newyorkfed.org/newsevents/speeches/2014/pot141007.html"><span class="Hyperlink">http://www.newyorkfed.org/newsevents/speeches/2014/pot141007.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The decline in turnover in the federal funds market since the beginning of unconventional monetary policy is chronicled in Gara Afonso et al., "Who's Borrowing in the Fed Funds Market," <em>Liberty Street Economics</em>, Federal Reserve Bank of New York, December 9, 2013, at <a class="ExternalLink" href="http://libertystreeteconomics.newyorkfed.org/2013/12/whos-borrowing-in-the-fed-funds-market.html#more"><span class="Hyperlink">http://libertystreeteconomics.newyorkfed.org/2013/12/whos-borrowing-in-the-fed-funds-market.html#more</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> As a result of QE, the Fed has become a major holder of Treasuries and MBS. Thus, rapid asset sales could cause volatility in those markets, but modest and gradual sales likely would not pose that risk.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "FOMC Issues Addendum to the Policy Normalization Principles and Plans," press release, June 14, 2017, at <a class="ExternalLink" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20170614c.htm"><span class="Hyperlink">https://www.federalreserve.gov/newsevents/pressreleases/monetary20170614c.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "Statement Regarding Monetary Policy Implementation and Balance Sheet Normalization," press release, January 30, 2019, at <a class="ExternalLink" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130c.htm"><span class="Hyperlink">https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130c.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve Bank of New York, <em>Domestic Open Market Operations During 201</em><em>7</em>, April 2018, p. PDF-35, at <a class="ExternalLink" href="https://www.newyorkfed.org/medialibrary/media/markets/omo/omo2016-pdf.pdf"><span class="Hyperlink">https://www.newyorkfed.org/medialibrary/media/markets/omo/omo2016-pdf.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Federal Reserve Bank of New York, <em>FAQs: Overnight Fixed-Rate Reverse Repurchase Agreement Operational Exercise</em>, September 19, 2014, at <a class="ExternalLink" href="http://www.newyorkfed.org/markets/rrp_faq.html"><span class="Hyperlink">http://www.newyorkfed.org/markets/rrp_faq.html</span></a>. For a list of the Fed's current counterparties, see <a class="ExternalLink" href="http://www.newyorkfed.org/markets/expanded_counterparties.html"><span class="Hyperlink">http://www.newyorkfed.org/markets/expanded_counterparties.html</span></a>. See also Josh Frost et al., "Overnight RRP Operations as a Monetary Policy Tool," <em>Finance and Economics Discussion Series 2015-010</em>, February 19, 2015, at <a class="ExternalLink" href="http://www.federalreserve.gov/econresdata/feds/2015/files/2015010pap.pdf"><span class="Hyperlink">http://www.federalreserve.gov/econresdata/feds/2015/files/2015010pap.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The authority (12 U.S.C. §461(b)) for the Fed to pay interest on reserves was originally granted in the Financial Services Regulatory Relief Act of 2006, beginning in 2011. The start date was changed to immediately in the Emergency Economic Stabilization Act of 2008 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d110:FLD002:@1(110+343)"><span class="Hyperlink">P.L. 110-343</span></a>).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The interest rate on reserves might be expected to set a floor on the federal funds rate, but in practice the actual federal funds rate was slightly lower than the interest rate on reserves since the Fed began paying interest in 2008 until 2019. This discrepancy has been ascribed to the fact that some participants in the federal funds market, such as Fannie Mae, Freddie Mac, and the Federal Home Loan Banks, do not earn interest on reserves held at the Fed. See Gara Afonso et al., "Who's Lending in the Fed Funds Market," <em>Liberty Street Economics</em>, Federal Reserve Bank of New York, December 2, 2013, at <a class="ExternalLink" href="http://libertystreeteconomics.newyorkfed.org/2013/12/whos-lending-in-the-fed-funds-market.html#.VDWOgxYXOmo"><span class="Hyperlink">http://libertystreeteconomics.newyorkfed.org/2013/12/whos-lending-in-the-fed-funds-market.html#.VDWOgxYXOmo</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Removing reserves through asset sales would have the same effect on bank lending as paying banks to keep reserves at the Fed.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joseph Gagnon, "Should the Fed Subsidize Banks?," Peterson Institute for International Economics, December 9, 2015, at <a class="ExternalLink" href="http://blogs.piie.com/realtime/?p=5299"><span class="Hyperlink">http://blogs.piie.com/realtime/?p=5299</span></a>. The difference between the federal funds rate and the interest rate paid on reserves is not intentional but comes about because of differences in eligible market participants. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, Sheila Bair, "The Federal Reserve's Risky Reverse Repurchase Scheme," <em>Wall Street Journal</em>, July 24, 2014. For a counterargument that increased use of reverse repos could enhance financial stability, see Robin Greenwood, Samuel Hanson, and Jeremy Stein, "The Federal Reserve's Balance Sheet as a Financial Stability Tool," working paper prepared for the Federal Reserve Bank of Kansas City's 2016 Economic Policy Symposium, Jackson Hole, WY, September 2016, at <a class="ExternalLink" href="https://www.kansascityfed.org/~/media/files/publicat/sympos/2016/econsymposium-greenwood-hanson-stein-paper.pdf"><span class="Hyperlink">https://www.kans</span><span class="Hyperlink">a</span><span class="Hyperlink">scityfed.org/~/media/files/publicat/sympos/2016/econsymposium-greenwood-hanson-stein-paper.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For background on repos, see the text box above.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "U.S. Repo Rate Falls After Fed Repo Operation," Reuters, September 20, 2019, at <a class="ExternalLink" href="https://www.reuters.com/article/us-usa-repo/u-s-repo-rate-falls-after-fed-repo-operation-idUSKBN1W51AW"><span class="Hyperlink">https://www.reuters.com/article/us-usa-repo/u-s-repo-rate-falls-after-fed-repo-operation-idUSKBN1W51AW</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> New York Fed Senior Vice President Lorie K. Logan, "Money Market Developments: Views from the Desk," speech, November 04, 2019, at <a class="ExternalLink" href="https://www.newyorkfed.org/newsevents/speeches/2019/log191104"><span class="Hyperlink">https://www.newyorkfed.org/newsevents/speeches/2019/log191104</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Bill Dudley, "The Fed Should Keep Looking Forward, Not Retreat to the Past," <em>Bloomberg</em>, January 6, 2020, at <a class="ExternalLink" href="https://www.bloomberg.com/opinion/articles/2020-01-06/fed-should-keep-looking-forward-not-retreat-to-the-past"><span class="Hyperlink">https://www.bloomberg.com/opinion/articles/2020-01-06/fed</span><span class="Hyperlink">-</span><span class="Hyperlink">should-keep-looking-forward-not-retreat-to-the-past</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve Bank of New York, "Central Bank and International Account Services," at <a class="ExternalLink" href="https://www.newyorkfed.org/markets/central-bank-and-international-account-services"><span class="Hyperlink">https://www.newyorkfed.org/markets/central-bank-and-international-account-services</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn66" name="fn66">66</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Gregg Robb, "Dimon Says Money-Market Turmoil Last Month Risks Morphing Into A Crisis If Fed Falters," Marketwatch, October 18, 2019, at <a class="ExternalLink" href="https://www.marketwatch.com/story/dimon-says-money-market-turmoil-last-month-risks-morphing-into-a-crisis-if-fed-falters-2019-10-18"><span class="Hyperlink">https://www.market</span><span class="Hyperlink">w</span><span class="Hyperlink">atch.com/story/dimon-says-money-market-turmoil-last-month-risks-morphing-into-a-crisis-if-fed-falters-2019-10-18</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn67" name="fn67">67</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sheila Bair, "Why Banks Shouldn't Blame The 'Repo Rupture' On Regulation," yahoo!finance<em>,</em> October 19, 2019, at <a class="ExternalLink" href="https://finance.yahoo.com/news/sheila-bair-repo-market-malfunctions-143450318.html"><span class="Hyperlink">https://finance.yahoo.com/news/sheila-bair-repo-market-malfunctions-143450318.html</span></a>; and Daniel Tarullo, "The September Repo Price Spike: Immediate and Longer-Term Issues," speech at the Brookings Institution, December 5, 2019, at <a class="ExternalLink" href="https://www.brookings.edu/wp-content/uploads/2019/11/BrookingsTalkonRepoMarketDisruption.pdf"><span class="Hyperlink">https://www.brookings.edu/wp-content/uploads/2019/11/BrookingsTalkonRepoMarketDisruption.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn68" name="fn68">68</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the large bank regulations discussed in this section, see CRS Report R45711, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45711"><em><span class="Hyperlink">Enhanced Prudential Regulation of Large Banks</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn69" name="fn69">69</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Primary dealers, not banks, are traditionally viewed as the market makers in the repo market. The postcrisis reforms applied to large banks discussed here do not apply to primary dealers unless they are subsidiaries of large banks—which many are. Others are owned by foreign bank organizations, which are subject to similar regulatory requirements.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn70" name="fn70">70</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve, "Review of Monetary Policy Strategy, Tools, and Communications," at <a class="ExternalLink" href="https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications.htm"><span class="Hyperlink">https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn71" name="fn71">71</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Chair Jerome H. Powell, "Economic Outlook and Monetary Policy Review," June 25, 2019, at <a class="ExternalLink" href="https://www.federalreserve.gov/newsevents/speech/powell20190625a.htm"><span class="Hyperlink">https://www.federalreserve.gov/newsevents/speech/powell20190625a.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn72" name="fn72">72</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Reserve Vice Chair Richard H. Clarida, "The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices," February 22, 2019, at <a class="ExternalLink" href="https://www.federalreserve.gov/newsevents/speech/clarida20190222a.htm"><span class="Hyperlink">https://www.federalreserve.gov/newsevents/speech/clarida20190222a.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn73" name="fn73">73</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal Open Market Committee, "Minutes of the Federal Open Market Committee," July 30-31, 2019, at <a class="ExternalLink" href="https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20190731.pdf"><span class="Hyperlink">https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20190731.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn74" name="fn74">74</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, former Fed Chair Ben Bernanke proposed a temporary price level target. See Ben Bernanke, "Evaluating Lower-for-Longer Policies: Temporary Price-Level Targeting," Brookings Institution, February 21, 2019, at <a class="ExternalLink" href="https://www.brookings.edu/blog/ben-bernanke/2019/02/21/evaluating-lower-for-longer-policies-temporary-price-level-targeting/"><span class="Hyperlink">https://www.brookings.edu/blog/ben-bernanke/2019/02/21/evaluating-lower-for-longer-policies-temporary-price-level-targeting/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>. See also John Williams, "Monetary Policy Strategies for a Low-Neutral-Interest-Rate World," November 30, 2018, at <a class="ExternalLink" href="https://www.newyorkfed.org/newsevents/speeches/2018/wil181130"><span class="Hyperlink">https://www.newyorkfed.org/newsevents/speeches/2018/wil181130</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn75" name="fn75">75</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, the FOMC's <em>Statement on Longer-Run Goals</em> states "The Committee would be concerned if inflation were running persistently above or below this objective. Communicating this symmetric inflation goal clearly to the public helps keep longer-term inflation expectations firmly anchored...." See Federal Reserve, <em>Statement on Longer-Run Goals and Monetary Policy Strategy</em>,<em> </em>January 24, 2012, at <a class="ExternalLink" href="http://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf"><span class="Hyperlink">http://www.federalreserve.gov/monetarypolicy/files/FO</span><span class="Hyperlink">M</span><span class="Hyperlink">C_LongerRunGoals.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn76" name="fn76">76</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clarida, "The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn77" name="fn77">77</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Fed was assigned regulatory responsibility for thrift holding companies as a result of the Dodd-Frank Act, which eliminated the Office of Thrift Supervision.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn78" name="fn78">78</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information, see CRS Report R42150, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42150"><em><span class="Hyperlink">Systemically Important or "Too Big to Fail" Financial Institutions</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn79" name="fn79">79</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The federal banking regulatory system is charter based. Other types of depositories are regulated by the Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation. A bank holding company is typically regulated by the Fed at the holding company level and the other banking regulators at the bank subsidiary level. For more information, see CRS Report R44918, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44918"><em><span class="Hyperlink">Who Regulates Whom? An Overview of the U.S. Financial Regulatory Framework</span></em></a>, by Marc Labonte.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn80" name="fn80">80</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Dodd-Frank Act transferred the Fed's authority to promulgate consumer protection rules to the Consumer Financial Protection Bureau (CFPB), but the Fed retained supervisory responsibilities for banks under its jurisdiction that have $10 billion or less in assets. Although the CFPB was created as a bureau of the Fed, the Fed has no authority to select CFPB's leadership or employees or to set or modify CFPB policy. The CFPB's budget is financed by a transfer from the Fed; the amount is set in statute and cannot be altered by the Fed. For more information, see CRS In Focus IF10031, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10031"><em><span class="Hyperlink">Introduction to Financial Services: The Bureau of Consumer Financial Protection (CFPB)</span></em></a>, by Cheryl R. Cooper and David H. Carpenter.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn81" name="fn81">81</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The FSOC is an interagency council consisting of financial regulators and headed by the Treasury Secretary. For more information, see CRS Report R45052, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45052"><em><span class="Hyperlink">Financial Stability Oversight Council (FSOC): Structure and Activities</span></em></a>, by Jeffrey M. Stupak.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn82" name="fn82">82</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Insight IN10982, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN10982"><em><span class="Hyperlink">After Prudential, Are There Any Systemically Important Nonbanks?</span></em></a>, by Marc Labonte and Baird Webel. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn83" name="fn83">83</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For information on the Fed's real time payments initiative, see CRS Report R45927, <a class="ExternalLink" href="http://www.crs.gov/Reports/R45927"><em><span class="Hyperlink">U.S. Payment System Policy Issues: Faster Payments and Innovation</span></em></a>, by Cheryl R. Cooper, Marc Labonte, and David W. Perkins.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn84" name="fn84">84</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Then-Fed Chairman Ben Bernanke, "Implementing a Macroprudential Approach to Supervision and Regulation," speech at the 47<sup>th</sup> Annual Conference on Bank Structure and Competition, Chicago, Illinois, Federal Reserve, May 5, 2011, at <a class="ExternalLink" href="http://www.federalreserve.gov/newsevents/speech/bernanke20110505a.htm"><span class="Hyperlink">http://www.federalreserve.gov/newsevents/speech/bernanke20110505a.htm</span></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
