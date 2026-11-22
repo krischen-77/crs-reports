@@ -1,6 +1,6 @@
 # Official current CRS files
 
-Checked: 2026-11-21T17:55:53.613068+00:00. Official current entries verified: **104/104**.
+Checked: 2026-11-22T02:27:55.422432+00:00. Official current entries verified: **92/92**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
@@ -20,10 +20,10 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-21 | 2026-11-19 | R49522 v2 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v2-2026-11-19-2648d0b27a3dc608.pdf) | [Markdown](markdown/reports/R49522v2-2026-11-19-2648d0b27a3dc608.md) |
 | 2026-11-21 | 2026-11-17 | IF13257 v4 | The Role of U.S. In Situ Ocean Observation Networks: A Case Study of the Atlantic Meridional Overturning Circulation | [PDF](pdf/in-focus/IF13257v4-2026-11-17-df1ae2e2b262db46.pdf) | [Markdown](markdown/in-focus/IF13257v4-2026-11-17-df1ae2e2b262db46.md) |
 | 2026-11-21 | 2026-10-07 | IF12766 v5 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.pdf) | [Markdown](markdown/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.md) |
-| 2026-11-21 | 2026-11-20 | R48909 v2 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.pdf) | [Markdown](markdown/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.md) |
 | 2026-11-21 | 2026-11-16 | IF12148 v9 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.pdf) | [Markdown](markdown/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.md) |
-| 2026-11-21 | 2026-11-19 | LSB11502 v1 | Supreme Court Determines Clear and Convincing Evidence Not Required for Admissibility Determinations for Returning Lawful Permanent Residents | [PDF](pdf/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.pdf) | [Markdown](markdown/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.md) |
+| 2026-11-21 | 2026-11-20 | R48909 v2 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.pdf) | [Markdown](markdown/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.md) |
 | 2026-11-21 | 2026-11-18 | IF13151 v5 | Agentic Artificial Intelligence and Cyberattacks | [PDF](pdf/in-focus/IF13151v5-2026-11-18-3a9ca698a0932240.pdf) | [Markdown](markdown/in-focus/IF13151v5-2026-11-18-3a9ca698a0932240.md) |
+| 2026-11-21 | 2026-11-19 | LSB11502 v1 | Supreme Court Determines Clear and Convincing Evidence Not Required for Admissibility Determinations for Returning Lawful Permanent Residents | [PDF](pdf/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.pdf) | [Markdown](markdown/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.md) |
 | 2026-11-21 | 2026-11-20 | IF13248 v3 | Farm Bill Primer: Rural Broadband Provisions | [PDF](pdf/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.pdf) | [Markdown](markdown/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.md) |
 | 2026-11-21 | 2026-11-19 | IF12390 v7 | U.S. Economic Sanctions: Overview for the 120th Congress | [PDF](pdf/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.pdf) | [Markdown](markdown/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.md) |
 | 2026-11-21 | 2026-11-20 | R46234 v16 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.pdf) | [Markdown](markdown/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.md) |
@@ -98,15 +98,3 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-17 | 2026-11-16 | IF10113 v15 | The Child Support Enforcement (CSE) Program | [PDF](pdf/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.pdf) | [Markdown](markdown/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.md) |
 | 2026-11-17 | 2026-11-16 | R44279 v19 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v19-2026-11-16-e2685c046911266b.pdf) | [Markdown](markdown/reports/R44279v19-2026-11-16-e2685c046911266b.md) |
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
-| 2026-11-14 | 2026-11-13 | IF12938 v4 | U.S. Satellite Capabilities for Tracking the Wildfire Life Cycle | [PDF](pdf/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.pdf) | [Markdown](markdown/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.md) |
-| 2026-11-14 | 2026-11-13 | LSB11499 v1 | Supreme Court Considers Religious Schools, Public Funding, and Nondiscrimination Law | [PDF](pdf/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.pdf) | [Markdown](markdown/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.md) |
-| 2026-11-14 | 2026-11-12 | IF13346 v3 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v3-2026-11-12-edcd66c878019019.pdf) | [Markdown](markdown/in-focus/IF13346v3-2026-11-12-edcd66c878019019.md) |
-| 2026-11-14 | 2026-11-12 | R47044 v5 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v5-2026-11-12-494473ce42d9bd47.pdf) | [Markdown](markdown/reports/R47044v5-2026-11-12-494473ce42d9bd47.md) |
-| 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
-| 2026-11-14 | 2026-11-13 | IF11105 v15 | Defense Primer: Emerging Technologies | [PDF](pdf/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.pdf) | [Markdown](markdown/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.md) |
-| 2026-11-14 | 2026-11-13 | R48931 v3 | Sports Reform in the United States: College Athletics and the Olympic Sports Pipeline | [PDF](pdf/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.pdf) | [Markdown](markdown/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.md) |
-| 2026-11-14 | 2026-11-12 | IF13348 v1 | Offshore Energy Agency Appropriations, FY2027 | [PDF](pdf/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.pdf) | [Markdown](markdown/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.md) |
-| 2026-11-14 | 2026-11-10 | RL30567 v33 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v33-2026-11-10-008c428880dee84b.pdf) | [Markdown](markdown/reports/RL30567v33-2026-11-10-008c428880dee84b.md) |
-| 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
-| 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |
-| 2026-11-14 | 2026-11-13 | IF10545 v19 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.pdf) | [Markdown](markdown/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.md) |
