@@ -1,0 +1,1261 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;RL/PDF/RL33755.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Federal Income Tax Treatment of the Family</div>
+<div class="CoverDate">Updated November 23, 2016
+            (RL33755)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc467660973"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc467660974"><span class="Hyperlink">Development of Current Tax Treatment of the Family</span></a></li>
+<li class="TOC2"><a href="#_Toc467660975"><span class="Hyperlink">Personal Exemptions and Child Credits</span></a></li>
+<li class="TOC2"><a href="#_Toc467660976"><span class="Hyperlink">Standard Deduction or Flat Exclusion and Itemized Deductions</span></a></li>
+<li class="TOC2"><a href="#_Toc467660977"><span class="Hyperlink">Rate Structure</span></a></li>
+<li class="TOC2"><a href="#_Toc467660978"><span class="Hyperlink">Earned Income Tax Credit</span></a></li>
+<li class="TOC2"><a href="#_Toc467660979"><span class="Hyperlink">Child or Dependent Care Credit</span></a></li>
+<li class="TOC2"><a href="#_Toc467660980"><span class="Hyperlink">Alternative Minimum Tax</span></a></li>
+<li class="TOC2"><a href="#_Toc467660981"><span class="Hyperlink">Other Provisions</span></a></li>
+<li class="TOC1"><a href="#_Toc467660982"><span class="Hyperlink">Equity and Distributional Issues</span></a></li>
+<li class="TOC2"><a href="#_Toc467660983"><span class="Hyperlink">Vertical Equity</span></a></li>
+<li class="TOC2"><a href="#_Toc467660984"><span class="Hyperlink">Horizontal Equity</span></a></li>
+<li class="TOC3"><a href="#_Toc467660985"><span class="Hyperlink">Theories of Equitable Taxation</span></a></li>
+<li class="TOC3"><a href="#_Toc467660986"><span class="Hyperlink">Family Arrangements as Personal Choices</span></a></li>
+<li class="TOC3"><a href="#_Toc467660987"><span class="Hyperlink">Ability-to-Pay Approaches</span></a></li>
+<li class="TOC3"><a href="#_Toc467660988"><span class="Hyperlink">Targeted Family Assistance</span></a></li>
+<li class="TOC1"><a href="#_Toc467660989"><span class="Hyperlink">Applying the Ability-to-Pay Horizontal Equity Standard to Current Law</span></a></li>
+<li class="TOC1"><a href="#_Toc467660990"><span class="Hyperlink">Marriage Penalties and Marriage Bonuses</span></a></li>
+<li class="TOC1"><a href="#_Toc467660991"><span class="Hyperlink">Conclusion</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc467660969"><span class="Hyperlink">Table 1. Average Effective Income Tax Rates by Type of Return, Family Size, and Income: Lower and Middle Incomes</span></a></li>
+<li><a href="#_Toc467660970"><span class="Hyperlink">Table 2. Average Effective Income Tax Rates by Type of Return, Family Size, and Income: Higher Incomes</span></a></li>
+<li><a href="#_Toc467660971"><span class="Hyperlink">Table 3. Average Effective Income Tax Rates for Joint Returns and Unmarried Couples, by Size of Income and Degree of Split: Lower and Middle Incomes</span></a></li>
+<li><a href="#_Toc467660972"><span class="Hyperlink">Table 4. Average Effective Income Tax Rates for Joint Returns and Unmarried Couples, by Size of Income and Degree of Split: Higher Incomes</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Individual income tax provisions have shifted over time, first in increasing the burden on larger families, and then in decreasing it. These shifts were caused by changing tax code features: personal exemptions, standard and itemized deductions, rates, the earned income credit (EIC), the child credit, and other standard structural aspects of the tax. Some of these features reflect changes made by the 2001 Bush tax cuts, which were extended for an additional two years by <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+312)"><span class="Hyperlink">P.L. 111-312</span></a> and largely made permanent by the American Taxpayer Relief Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d112:FLD002:@1(112+240)"><span class="Hyperlink">P.L. 112-240</span></a>). The most recent legislative change was making the temporary provisions liberalizing the child credit and earned income credit enacted in the American Recovery and Reinvestment Act of 2009 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+5)"><span class="Hyperlink">P.L. 111-5</span></a>), and subsequently extended, permanent. These provisions were made permanent at the end of 2015 by the Protecting Americans from Tax Hikes (PATH) Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+113)"><span class="Hyperlink">P.L. 114-113</span></a>). </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Taxes as a share of income have decreased for lower-income families and to a lesser extent for middle-income families, while remaining at approximately the same level for higher-income families. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While several standards may be considered in determining equitable treatment of families over family type and size, a standard approach is based on ability to pay, so that large families with the same income as small ones pay less tax. Based on this standard, the analysis of equity across families suggests that families with children are paying lower rates of tax (or receiving larger negative tax rates) than single individuals and married couples at lower and middle incomes. However, families with children are being taxed more heavily at higher-income levels. At the lowest income levels, the EIC provides the largest tax subsidies to families with three children. The smallest subsidies go to childless couples. At middle-income levels, families with many children will have the most favorable treatment, due to the effect of the child credit, which has a very large effect relative to tax liability. At higher-income levels, large families are penalized because the adjustments for children, such as personal exemptions and child credits, are too small or are phased out, while graduated rates cause larger families that need more income to maintain a given living standard to pay higher taxes. Tax rates are more variable at lower-income levels. At all but the lowest and highest income levels, singles pay higher taxes than married couples.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The analysis of the marriage penalty indicates that marriage penalties have largely been eliminated for those without children throughout the middle-income range, but this change has inevitably expanded marriage bonuses. Marriage penalties remain at the high and low income levels and could also apply to those with children, where the penalty or bonus is not very well defined. But by and large, the current system is likely to encourage rather than discourage marriage and favors married couples over singles.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The analysis of equity across families suggests that increases in earned income tax credits for those without children would lead to more equal treatment based on the ability to pay approach, while full refundability of the child credit would exacerbate inequalities. At the higher end of the scale, eliminating phase outs of provisions that differentiate across families would probably lead to more equitable treatment, and limiting or repealing the alternative minimum tax would reduce the burden of taxes on families with children at upper middle-income levels as well as marriage penalties.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent"><a name="_Toc467657702" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc467592623" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc467592579" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc467590303" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc466886551" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc467499214" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc467656493" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><a name="_Toc467660973" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Recent years have been times of significant changes in the income tax treatment of the family. For lower-income families, the most important of these have been the expansion of the earned income credit (EIC) in 1990, 1993, and 2009. For middle-income families, the introduction of the child credit in 1997 and its expansion in 2001, along with the expansion of rate brackets and standard deductions to address the marriage penalty, have been important features. For higher-income families, the lowering of tax rates in 2001 are important changes. In December 2010, the 2001-2003 tax cuts, which were set to expire after 2010, were extended for an additional two years (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+312)"><span class="Hyperlink">P.L. 111-312</span></a>). The American Taxpayer Relief Act of 2012, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d112:FLD002:@1(112+240)"><span class="Hyperlink">P.L. 112-240</span></a>, made these provisions permanent for all except a tiny fraction of taxpayers.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Joint returns with taxable income over $450,000 and single returns with taxable income over $400,000 had an increase in the top rate from 35% to 39.6% and an increase in the tax rate on dividends and capital gains from 15% to 20%. Joint returns with adjusted gross income over $300,000 and single returns with adjusted gross income of over $250,000 remain subject to the phase out of itemized deductions and personal exemptions. These were the amounts at that time, and they have increased because...">1</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The American Recovery and Reinvestment Act of 2009 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+5)"><span class="Hyperlink">P.L. 111-5</span></a>) contained temporary provisions that are aimed at middle-class and lower-income families. These provisions included a refundable payroll tax credit based on earnings limited to $800 for joint returns ($400 for singles) and phased out as income rises. It also includes an increase in the earned income tax credit, with a higher rate of 45% for families with three or more children and an increase in the phase-out level for joint returns, aimed at reducing the marriage penalty. It also included a provision increasing the refundability of the child credit by allowing some refundability for incomes over $3,000. A jobs bill passed in the House in December (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d111:H.R.2847:"><span class="Hyperlink">H.R. 2847</span></a>) temporarily eliminated the $3,000 floor for 2010. These provisions expired after two years, although <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+312)"><span class="Hyperlink">P.L. 111-312</span></a> extended the $3,000 child credit floor and earned income credit provisions for two additional years. These provisions were extended through 2017 by the American Taxpayer Relief Act of 2012 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d112:FLD002:@1(112+1240)"><span class="Hyperlink">P.L. 112-1240</span></a>) and made permanent at the end of 2015 by the Protecting Americans from Tax Hikes (PATH) Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+113)"><span class="Hyperlink">P.L. 114-113</span></a>). The child credit and the earned income credit have their largest relative impact on low-income taxpayers. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although an array of issues might be considered in discussing tax rules and their effects, this paper considers two questions in detail: (1) to what extent does the tax code provide an equitable treatment of families of different sizes, and (2) what are the effects of the tax code on marriage penalties and bonuses?</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The first section summarizes the major features of the tax law affecting families and family choices, and how they developed over time, including the relatively recent introduction of large benefits for children at low and moderate income levels, a reversal of a trend in the past that tended to reduce these benefits through the erosion of the real value of the personal exemptions. It also summarizes the origin of the marriage penalty and marriage bonus.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The following two sections first discuss general equity issues, and then apply the ability-to-pay standard to examine how tax burdens vary by family size, across the income spectrum. The final section examines the marriage penalties and bonuses.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689891"></a><a name="_Toc465848705"></a><a name="_Toc466886552"></a><a name="_Toc467499215"></a><a name="_Toc467590304"></a><a name="_Toc467592580"></a><a name="_Toc467592624"></a><a name="_Toc467656494"></a><a name="_Toc467657703"></a><a name="_Toc467660974"></a>Development of Current Tax Treatment of the Family</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Current federal income tax law differentiates among families by type and structure in several ways. This differentiation has changed considerably over the years and includes personal exemptions, standard deductions, rate schedules, and various other features such as child care credits, age exemptions, and earned income credits.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A number of rules are differentiated by the type of tax return. Joint returns are filed by married couples, head-of-household returns by single heads with dependents, and single returns by singles without dependents. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689892"></a><a name="_Toc465848706"></a><a name="_Toc466886553"></a><a name="_Toc467499216"></a><a name="_Toc467590305"></a><a name="_Toc467592581"></a><a name="_Toc467592625"></a><a name="_Toc467656495"></a><a name="_Toc467657704"></a><a name="_Toc467660975"></a>Personal Exemptions and Child Credits</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Personal exemptions allow a certain amount per person to be exempt from tax. Combined with standard deductions, which vary by family type, they exclude a minimum level of income from tax. In 1986, these combined amounts were roughly set at the poverty level. Personal exemptions can also play a part in marriage bonuses when only one spouse works: a single individual cannot claim an unmarried companion as a dependent, whereas a husband can claim a wife (and vice versa).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The tax laws have always allowed some relief for family size through exemptions, although the original 1913 act allowed deductions only for the individual taxpayer ($3,000) and spouse ($1,000). These amounts were very large relative to incomes, but the initial income tax was not intended to reach a broad group of individuals. Even when dependent exemptions were allowed in 1917, they were only $200, small relative to the basic exemptions. The practice of allowing an equal exemption for each family member began in the early 1940s.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Personal exemptions were reduced in the initial years of the tax, then increased, then reduced again; they were last reduced in the early 1940s. The real value of the exemptions was also affected by inflation. For example, the personal exemption remained constant at $600 from 1948 through 1969, while its real value was heavily eroded through inflation. It was gradually increased over the next 10 years to $1,000, where it again remained constant until 1985. From 1948 through 1984, the personal exemption lost 63% of its purchasing power. In large part due to diminution of the real value of personal exemptions, the tax burden had shifted over time to fall more heavily on larger families. In 1986, personal exemptions were increased and indexed, so that today the personal exemption of $4,050 has lost only about 21% of its purchasing power.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="The ratio of prices in 20 16 to those in 1948 using the GDP deflator is 8.5 , while personal exemptions have increased from $600 to $ 4,050 , a ratio of 6 . 75 .">2</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This shift of burden to families with children was changed dramatically by the adoption of the $500 child credits in the Taxpayer Relief Act of 1997 and by the increase in that credit to $1,000 in the Economic Growth and Tax Relief Reconciliation Act of 2001.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="For additional information on the child credit see CRS Report R41935, The Child Tax Credit: Economic Analysis and Policy Options , by Margot L. Crandall-Hollick ; and CRS Report R41873, The Child Tax Credit: Current Law and Legislative History , by Margot L. Crandall-Hollick .">3</a></sup> The $500 increase in the credit (to $1,000) has been made permanent. In the cases where these credits apply (for children under 17), they cause the personal exemption plus the deduction equivalent of the $1,000 credit to be 110% larger than its 1948 value for families in the 15% rate bracket.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="The deduction equivalent of the credit for the 15% bracket is $6,666.66 ($1,000/0.15).">4</a></sup> The credit is not, however, indexed for inflation, and absent indexation its real value will diminish. The $500 increase in the credit has been made permanent.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Not all taxpayers receive the credit. It is phased out for higher incomes at 5% of adjusted gross income (for 2016) over $110,000 for joint returns and $75,000 for head-of-household returns. The initial credit was not generally refundable, and therefore families with no tax liability or insufficient liability to use the full credit would not receive the full benefit. An exception was made for families with three or more children, where the credit could offset payroll tax in excess of the earned income tax credit. When the child credit was doubled under the temporary provisions of the 2001 tax, an additional refundability provision was allowed for all families for income in excess of $10,000 (beginning at 10% and rising to 15%), indexed for inflation. The additional child credit was phased in initially, but accelerated in legislation adopted in 2003 and 2004. The current rule, adopted initially in 2009 and made permanent in 2015, allows refundability for 15% of income over $3,000. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The personal exemption is also phased out for higher incomes, although that phaseout now applies only to very high income taxpayers. For 2016, the personal exemption is phased out between $311,300 and $433,800 for joint returns, between $285,350 and $407,850 for head-of-household returns, and between $259,400 and $381,900 for single returns. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689893"></a><a name="_Toc465848707"></a><a name="_Toc466886554"></a><a name="_Toc467499217"></a><a name="_Toc467590306"></a><a name="_Toc467592582"></a><a name="_Toc467592626"></a><a name="_Toc467656496"></a><a name="_Toc467657705"></a><a name="_Toc467660976"></a>Standard Deduction or Flat Exclusion and Itemized Deductions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Standard deductions, which vary across the types of returns (single, joint, and head of household), also affect tax burdens across families. Standard deductions are beneficial when itemized deductions (such as taxes, mortgage interest, and charitable contributions) are smaller than the standard amount. Prior to the 2001 tax revision, the standard deductions for singles and heads of household were 60% and 80%, respectively, of the size of the deduction for joint returns. The standard deduction can contribute to a marriage penalty if it is larger than half the deduction for married couples: two singles who both work and marry will have a smaller combined deduction. It can also contribute to a marriage bonus, if there is only one earner in the couple, because the joint deduction is larger than the single deduction. In 2001, joint standard deductions were increased, so as to eliminate the marriage penalty relative to singles without children and reduce it relative to heads of household (where the deduction is 73% as large). These changes increased the marriage bonus. Current standard deductions (for 2016) are $12,600 for joint returns, $9,300 for head-of-household returns, and $6,300 for single returns. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Virtually from its inception, the tax law allowed itemized deductions for taxes, interest, charitable contributions, and certain other personal expenses. In 1944, a standard deduction of 10% of adjusted gross income with a ceiling of $500 was allowed as a substitute for these itemized deductions.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="In general, floors and ceilings for standard deductions for joint returns were halved for married couples filing separate returns.">5</a></sup> A major reason for this exemption was to reduce the number of itemizers and make tax filing less complex. In 1964, a minimum standard deduction of $200 plus $100 for each exemption with a $1,000 ceiling was added. Beginning in 1969, these standard deductions were increased substantially. The percentage standard deduction was gradually increased to 16% and the ceiling increased to $2,000. A low-income allowance of $1,100, to be reduced by $50 in each of the next two years, was substituted for the minimum standard deduction. (These reductions were included because of the rise in the personal exemption that was increasing total exempt amounts.) The low-income allowance was increased to $1,300 in 1972.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1975, the low-income allowance was once again differentiated, but based on family type (joint, head of household, single) rather than size. Joint returns received a $2,100 allowance by 1976. The ceiling on the percentage standard deduction was also differentiated by family type and was raised to $2,800 for joint returns by 1976. In 1977, the low-income allowance and the percentage standard deduction were consolidated into a single flat allowance called the zero-bracket amount, which was set at $3,200 in 1977 and at $3,400 in 1978. This zero-bracket amount was indexed in 1981, so that it would rise with inflation. The Tax Reform Act of 1986 raised the flat deduction amount, but continued to differentiate it with respect to family status (but not family size). The 2001 act increased the standard deduction for joint returns to twice that of single returns.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="For historical standard deductions since 1988, see CRS Report RL34498, Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017 , by Gary Guenther .">6</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In comparing the relative benefits over time, it is important to consider the changes in all flat allowances as well, not just the personal exemption. For example, while the real value of the personal exemption has declined about 21% since 1948, the exempt amount for a family of four (joint return) was very close to the exempt amount had 1948 values been indexed for inflation (using the GDP deflator) prior to the 2001 tax changes. Current levels are about 27% larger than those that would have occurred had the exempt level in 1948 been indexed.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="In 20 16 , the personal exemption was $ 4 , 050 and the standard deduction $1 2 , 600 , for a total of $2 8 ,800. The exempt allowance in 1948 was $2,667 (600 times 4 divided by 0.9).">7</a></sup> Ignoring the child credit, most families have more generous exempt levels today, with smaller families having larger relative amounts. For example (again, ignoring the child credit), exempt allowances are larger in real terms today for singles (83% larger), for heads of households with one child or two children (53% and 26% larger, respectively), and for joint returns with one to four children (46%, 27%, 16%, and 9% larger, respectively). Real levels are larger for heads of household with four and five members (12% and 4%) and about the same for a six-person family. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Heads of household and joint returns with children eligible for the child credit, however, have greater exempt levels, although the size depends on the imperfect refundability of the child credit and the phaseout. But the effects are large. For example, a married couple with an eligible child can have income of $24,450 (standard deduction plus three personal exemptions) plus another $10,000 to generate a $1,000 child credit at a 10% tax rate, for a total exempt level of $34,400, which is 104% larger in real terms than the 1948 value. This family will also receive an earned income credit and thus pay a negative tax rate. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note, however, that changes in benefits compared with past levels do not necessarily have implications for the appropriate treatment of different families. If past family differentiation was not due to a theory about equitable treatment of differing families, there is no economic reason that current tax treatment should conform to any past standards.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most taxpayers take the standard deduction but about a third itemize, largely at the higher-income levels. Itemized deductions tend to keep pace with income levels. They are technically subject to a phaseout but the effect of the phaseout is to increase marginal tax rates, since it is triggered by income and not deductions and since it is unlikely to exhaust deductions, which rise with income. The phaseout is 3% of income in excess of the same starting point as the phaseout of personal exemptions. The most significant itemized deductions in dollar terms are the deduction for state and local taxes, the mortgage interest deduction, and the deduction for charitable contributions.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="For additional information about itemized deductions, see CRS Report R43012, Itemized Tax Deductions for Individuals: Data Analysis , by Sean Lowry ; and CRS Report R43079, Restrictions on Itemized Tax Deductions: Policy Options and Analysis , by Jane G. Gravelle and Sean Lowry .">8</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689894"></a><a name="_Toc465848708"></a><a name="_Toc466886555"></a><a name="_Toc467499218"></a><a name="_Toc467590307"></a><a name="_Toc467592583"></a><a name="_Toc467592627"></a><a name="_Toc467656497"></a><a name="_Toc467657706"></a><a name="_Toc467660977"></a>Rate Structure</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two important aspects of the rate structure are the unit of taxation and the progressivity of the rate structure (i.e., how tax rates rise as increments of income increase). Current tax rates are imposed at 10%, 15%, 25%, 28%, 33%, 35%, and 39.6%. Under the provisions of the 2001 tax cut, the 39.6% rate had been eliminated, and the top rate was 35%; those provisions were originally scheduled to expire in 2010, with the 10% rate rising to 15% and the top four rates rising to 28%, 31%, 36%, and 39.6%. The American Taxpayer Relief Act of 2012 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d112:FLD002:@1(112+240)"><span class="Hyperlink">P.L. 112-240</span></a>) made the lower rates permanent except for the highest rate for joint returns with over $466,950 of taxable income in 2016 and single returns with over $415,050 of taxable income in 2016. Taxes are imposed on family units. Married couples cannot use the single rate schedules (although they can file separately with a rate structure that offers no advantage over joint filing). Most taxpayers have income that is not adequate to generate any tax (24% of returns) or taxes them at no more than 10% (18% of returns), no more than 15% (29% of returns), and no more than 25% (17% of returns).<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Internal Revenue Service, Statistics of Income , Table 3.4, 2014, https://www.irs.gov/uac/soi-tax-stats-individual-statistical-tables-by-tax-rate-and-income-percentile .">9</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The width of the brackets is greatest for joint returns and smallest for singles, although all types of returns reach the 35% rate at the same point. For single returns the 10% and 15% brackets are half the width of joint returns, the 25% bracket is 70% as large, and the next two brackets are about 124% as large (longer brackets at the top being necessary to get to the same income for the top bracket). For heads of household the 10% and 15% brackets are 72% and 66% as wide, the next two about the same length and the final bracket 111% as wide.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Details of the tax rates for 2016 can be found in Internal Revenue Service, Revenue Procedure 2015-53, https://www.irs.gov/pub/irs-drop/rp-15-53.pdf .">10</a></sup> There are also, as noted earlier, phaseouts of itemized deductions, personal exemptions, and child credits at higher-income levels. The higher rates and the phaseouts apply to only a small fraction of taxpayers. Less than 17% of taxpayers had adjusted gross income over $100,000 in 2014, and less than 6% had incomes over $200,000.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="Internal Revenue Service, Statistics of Income , Table 1.1, 2014, https://www.irs.gov/uac/soi-tax-stats-individual-statistical-tables-by-tax-rate-and-income-percentile .">11</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the original 1913 tax law, a single rate structure was applied to all taxpayers as individuals. In 1948, joint returns were allowed that effectively permitted income splitting. This change had little to do with any theory regarding the tax treatment of the family. Rather, it occurred because married couples in community property states were successfully claiming the right to divide their income evenly for tax purposes. Under a graduated rate structure, this income-splitting reduces the total tax burden by reducing the amount of income subject to higher rates. Income-splitting was adopted to equalize treatment across the states and to forestall a major tax-induced disruption in state property laws. This move created the familiar joint and single returns. Both the community property treatment and the legislated income-splitting resulted in a tax subsidy for marriage. Individuals who married would experience lower tax liabilities due to the rate structure as long as their incomes were unequal. Shortly after, in 1951, a head-of-household schedule for unmarried taxpayers with dependents was introduced, which allowed half the benefits from income-splitting (i.e., wider tax brackets). This treatment could, in theory, create a marriage penalty for families with children, although this point received virtually no attention.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Criticism from singles, arguing that their taxes were too high, led in 1969 to a singles rate schedule with wider brackets. This difference in rate schedules, however, also created a marriage penalty for certain types of families, including those without children. If both spouses worked, tax bills could increase with marriage. Many people were uncomfortable with a tax provision that encouraged couples to live together without benefit of matrimony. Coupled with increasing female labor force participation and a changing social structure, the marriage penalty created considerable concern. For this reason, a capped deduction for the secondary earner in a family was adopted in 1981. The provision allowed 10% of income to be deducted, subject to a cap of $3,000. This deduction was an imperfect device that partly alleviated the problem of the marriage penalty and, for individuals below the cap, reduced the marginal tax rate on the secondary worker. It was repealed in 1986, when the flatter rate structure caused the marriage penalty to be less severe. The marriage penalty was increased for very high-income individuals in 1993 with the addition of higher tax rates. These changes affected, however, only a very small fraction of the population.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The degree of progression in the rate structure interacts to affect the tax burden that applies to taxpayers in different circumstances. The rate structure has varied significantly over time, but a major revision in the 1986 act reduced the brackets to two (15% and 28%) as well as lowering the top bracket. Certain benefits were phased out. In 1990, the "bubble" due to these phaseouts was eliminated in exchange for adding a new tax rate of 31%.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Although there were two statutory rate brackets after 1986, 15% and 28%, there was also a surcharge that was designed to phase out the benefits of the 15% rate and the personal exemptions for high - income taxpayers. This surcharge effectively increased the tax rate by 5 percentage points, to 33%, and created a bubble: rates were 15%, then 28%, then 33%, and then fell back to 28%.">12</a></sup> (Capital gains were held to a 28% rate.) However, personal exemptions were still phased out. Itemized deductions were also phased out, on a temporary basis, reduced by 3% of adjusted gross income (AGI) above a limit. Because itemized deductions tend to rise with income faster than the reductions due to the phaseout, this phaseout is the equivalent of increasing taxable income by 3%, and an additional percentage point or so in tax. (Each dollar of adjusted gross income taxed leads to a reduction in deductions of $0.03, and if the marginal tax rate is around a third, then the additional tax per dollar of income is around $0.01.) In 1993, two marginal tax rates were added at the upper income levels, 36% and 39.6%; this legislation made the itemized deduction and personal exemption phaseouts permanent.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="For a history of the rate structures since 1988, see CRS Report RL34498, Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017 , by Gary Guenther .">13</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 2001 tax cut, in addition to lowering the top tax rates and introducing a new 10% rate, eliminated the marriage penalty for most taxpayers by increasing the standard deduction, new 10% rate bracket, and the 15% rate bracket to make these values twice as large as for singles, returning to the pre-1969 treatment for most taxpayers. That tax cut also prospectively eliminated the personal exemption phaseout (to begin in 2006 and be complete in 2010) and the itemized deduction phaseout (in 2010). Later legislation in early 2013 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d112:FLD002:@1(112+240)"><span class="Hyperlink">P.L. 112-240</span></a>) eliminated these phaseouts for all but the highest-income taxpayers.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689895"></a><a name="_Toc465848709"></a><a name="_Toc466886556"></a><a name="_Toc467499219"></a><a name="_Toc467590308"></a><a name="_Toc467592584"></a><a name="_Toc467592628"></a><a name="_Toc467656498"></a><a name="_Toc467657707"></a><a name="_Toc467660978"></a>Earned Income Tax Credit</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The earned income tax credit (EIC) is a refundable credit (or negative tax) that provides a wage subsidy for low-income working individuals.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="For additional discussion of the earned income tax credit see CRS Report R43805, The Earned Income Tax Credit (EITC): An Overview , by Gene Falk and Margot L. Crandall-Hollick ; CRS Report R44057, The Earned Income Tax Credit (EITC): An Economic Analysis , by Margot L. Crandall-Hollick ; and CRS Report R43873, The Earned Income Tax Credit (EITC): Administrative and Compliance Challenges , by Margot L. Crandall-Hollick .">14</a></sup> The credit is a percentage of earned income, which reaches a maximum fixed amount that continues over a segment of income and then is eventually phased out. The permanent credit rates are currently 7.65% for families without children, 34% for families with one child, 40% for families with two children, and 45% for families with three or more children. The phase-out rate is 7.65% for families with no children, 15.98% for families with one child, and 21.06% for families with two or more children. The phase-out levels are higher for families with children than for those without children. In 2016, the year data were analyzed, the credit reached its maximum value of $506 for families with no children at an income of $6,610; the credit was phased out at incomes between $8,270 and $14,880 for singles and between $13,820 and $20,430 for joint returns. For families with one child, the maximum credit of $3,373 is reached at $9,920; the credit is phased out between $18,190 and $39,296 for single heads and between $23,740 and $44,846 for married couples. For families with two children, the maximum credit of $5,572 is reached at $13,930 and is phased out between $18,190 and $44,648 for single heads and between $23,740 and $50,198 for married couples. For families with three or more children, the maximum credit of $6,269 is reached at $13,930 and is phased out between $18,190 and $47,955 for single heads and between $23,740 and $53,505 for married couples. These values are indexed for inflation.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unlike some other provisions, there is no differentiation by family type except for the phase-out ranges; rather, the differences, like the child credit, depend on the number of children. The EIC plays a role in creating a marriage penalty for lower-income families. If individuals with low earnings marry, the couple's higher combined income may phase out more of the earned income tax credit. At the same time, marriage can reduce taxes if a single individual marries someone with children but with little or no income, because he or she becomes eligible for the larger credit for families with children. The EIC has also been found to encourage single parents to enter the workforce.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="See a review of the evidence in CRS Report R44057, The Earned Income Tax Credit (EITC): An Economic Analysis , by Margot L. Crandall-Hollick">15</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The EIC was first enacted in the Tax Reduction Act of 1975 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d094:FLD002:@1(94+12)"><span class="Hyperlink">P.L. 94-12</span></a>). This provision provided a refundable tax credit for 10% of earned income, phased out at a rate of 10% of income over $4,000. Because the credit was refundable, individuals who paid no income tax were nevertheless eligible for a benefit. There were a variety of rationales for the EIC: to provide a work incentive, to offset the Social Security tax burden, and to provide relief for recent price increases in food and fuel. The credit was, however, only allowed to individuals who maintained a household for dependent children; thus, like the major welfare program of the time, AFDC (Aid to Families with Dependent Children), the EIC as originally enacted was not extended to singles and childless couples.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The EIC has been revised in various ways, and in 1990 was differentiated between families with one or with two or more children. In 1993, the credits were increased substantially and a small credit was added for families without children. The 2001 tax cut expanded the phase-out range for married couples, which slightly reduced the marriage penalty in the EIC. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The American Recovery and Reinvestment Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d111:FLD002:@1(111+5)"><span class="Hyperlink">P.L. 111-5</span></a>) made two temporary changes to the credit beginning in 2009: an increase in the credit rate to 45% for families with three or more children and an increase in the phase-out level for married couples. These provisions were extended on two occasions and were made permanent by the PATH Act (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d114:FLD002:@1(114+113)"><span class="Hyperlink">P.L. 114-113</span></a>). These provisions benefit large low-income families and reduce the marriage penalty. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689896"></a><a name="_Toc465848710"></a><a name="_Toc466886557"></a><a name="_Toc467499220"></a><a name="_Toc467590309"></a><a name="_Toc467592585"></a><a name="_Toc467592629"></a><a name="_Toc467656499"></a><a name="_Toc467657708"></a><a name="_Toc467660979"></a>Child or Dependent Care Credit</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another provision allows for credits for paid child care expenses for children under 13 and disabled dependents. A deduction for these costs was first allowed in 1954 and converted to a credit in 1976. The credit is 35% of eligible expenses but is phased down to 20% as income rises from $15,000 to $43,000. Eligible expenses are limited to $3,000 for one child and $6,000 for two or more children. The credit is available only to single parents or married couples where both parents work and is limited to the smaller earned income. It is not indexed for inflation. </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689897"></a><a name="_Toc465848711"></a><a name="_Toc466886558"></a><a name="_Toc467499221"></a><a name="_Toc467590310"></a><a name="_Toc467592586"></a><a name="_Toc467592630"></a><a name="_Toc467656500"></a><a name="_Toc467657709"></a><a name="_Toc467660980"></a>Alternative Minimum Tax</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The alternative minimum tax (AMT) calculates a tax on a broader income base with a large flat exemption (in 2016, $83,800 for married couples and $53,900 for singles) and at rates of 26% and 28%. Exemptions are phased out by 25% of AMT taxable income greater than $159,700 for joint returns and $119,700 for other returns. The 28% rate applies at AMT taxable income greater than $186,000. If the AMT tax is higher than the regular tax, the difference in tax is added to the taxpayer's liability.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="For additional information see CRS Report R44494, The Alternative Minimum Tax for Individuals: In Brief , by Donald J. Marples .">16</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Currently, the AMT does not affect very many taxpayers. Because its effect grows over time unless legislative changes are made, including an increase in the exemption and indexing of the exemptions, numerous temporary "patches" have been enacted. The American Taxpayer Relief Act of 2012 (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d112:FLD002:@1(112+240)"><span class="Hyperlink">P.L. 112-240</span></a>) made this patch, which indexes exemptions for inflation and prevents the spread of AMT coverage into lower incomes, permanent.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The AMT originated in 1969 as an add-on tax on tax preferences, and the most important preference was capital gains. At that time, there was an exclusion for a share of capital gains, and the excluded share was taxed under the add-on tax. The add-on tax was eventually paired with and then displaced by the AMT. In 1986 the capital gains preference was ended, and the number of individuals affected by the tax, already small, fell further. Over time, however, the coverage of the AMT began to grow as rates increased and because the exemption was not indexed, while exemptions in the regular tax were. The potential coverage was also increased with the 2001 tax cut, which cut regular rates but not AMT rates. The focus of preferences has also changed. The preference for capital gains enacted in 1997 and extended in 2003, and for dividends enacted in 2003, was not included in the AMT. The major preference items are personal exemptions and certain itemized deductions. (The child credit was allowed against the AMT after it became clear that failure to do so would push many families onto the tax.) </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689898"></a><a name="_Toc465848712"></a><a name="_Toc466886559"></a><a name="_Toc467499222"></a><a name="_Toc467590311"></a><a name="_Toc467592587"></a><a name="_Toc467592631"></a><a name="_Toc467656501"></a><a name="_Toc467657710"></a><a name="_Toc467660981"></a>Other Provisions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition to these basic provisions—rate structures, personal exemptions, standard allowances, and credits—several other provisions related to family structure are summarized here, although the subsequent analysis focuses on these basic provisions. First, there are specific provisions that relate to family structure or characteristics. There are additional standard deductions for elderly and blind taxpayers (provisions that give little benefit to high-income individuals who tend to itemize deductions). In addition, there is a 15% tax credit for the elderly and disabled that is phased out; because the base for the credit is offset by Social Security, it tends to benefit elderly and disabled individuals who do not receive Social Security. Another explicit family tax provision, originally adopted in 1986, is the "kiddie tax," which taxes unearned income of children under the age of 14 at the parents' tax rate; this provision expanded to apply to those under the age of 18 in 2006 and under the age of 19 in 2008.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A taxpayer might have a variety of exclusions (some Social Security benefits, welfare payments, in-kind benefits, employer-provided fringe benefits such as health insurance or employer-provided child care) and deductions or credits (medical expenses, educational expenses), which benefit families of certain income levels and characteristics. Moreover, because the tax law does not apply to certain imputed income, families who prefer owner-occupied homes or in-home provision of goods and services, or the consumption of leisure over other goods, have greater tax benefits. These benefits are, in some cases, associated with family characteristics. For example, families with higher incomes and at certain ages are more likely to live in owner-occupied homes. One-earner married couples benefit from the services provided in the home by the nonworking spouse, which are not subject to tax.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="This concept be may seem unfamiliar, particularly to readers who think of spouses working at home as making a monetary sacrifice, perhaps to stay with their children. While their income is smaller, they save the taxes that would have been paid on outside earnings. However, these spouses do not give up all of their income, since there are cost savings, as in lower child care payments or not having to pay for other services (e.g., dry cleaning, household help). It is this value that provides...">17</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Investment income may be treated favorably for a variety of reasons, not only because of the benefits of imputed rent on owner-occupied housing, but also because of various benefits such as tax-exempt retirement accounts and tax preferences such as accelerated depreciation.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="For calculations of effective tax rates as compared to statutory rates that show these effective rates are lower overall, see CRS Report R44638, Corporate Tax Integration and Tax Reform , by Jane G. Gravelle .">18</a></sup> These provisions largely affect upper-middle and higher-income taxpayers. In the structural analysis that follows, all income is treated as subject to ordinary rates.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Finally, the payroll tax can alter the relative net tax burden between different types of families, with consequences that could matter for concerns of equity and efficiency (such as work choice). The Social Security system may confer a marriage bonus that can increase the implicit tax on work effort for second earners. Spouses receive a benefit, without necessarily paying any payroll taxes of their own; a second-earner spouse pays additional Social Security taxes but his or her benefit is only the net of a benefit based on the individual earnings record and the benefit for spouses—and this amount may not be positive. That is, the spouse's benefit based on the partner's earning record may be better than the benefit a spouse receives on his or her own earnings record, and there is, therefore, no return to payroll taxes paid. Thus, the net tax on a second-earner spouse is effectively larger than it would be in the absence of a benefit for spouses, because little or no additional benefits occur as a result of those payments. There are also implicit taxes that affect behavior in the transfer system, where increases in income through work or marriage may cause a reduction in benefits, thereby discouraging these behaviors.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689899"></a><a name="_Toc465848713"></a><a name="_Toc466886560"></a><a name="_Toc467499223"></a><a name="_Toc467590312"></a><a name="_Toc467592588"></a><a name="_Toc467592632"></a><a name="_Toc467656502"></a><a name="_Toc467657711"></a><a name="_Toc467660982"></a>Equity and Distributional Issues</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Tax proposals can be evaluated on many grounds, but one issue is that of fairness. This issue of fairness can involve two elements: vertical equity, or the equity of changes in tax burdens as income rises for an otherwise identical family; and horizontal equity, or how taxes should be fairly differentiated between families of different sizes and structures. This analysis focuses primarily on the issue of horizontal equity, because this is an issue that can be addressed in a more analytical framework. First, however, the issue of vertical equity is briefly discussed.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689900"></a><a name="_Toc465848714"></a><a name="_Toc466886561"></a><a name="_Toc467499224"></a><a name="_Toc467590313"></a><a name="_Toc467592589"></a><a name="_Toc467592633"></a><a name="_Toc467656503"></a><a name="_Toc467657712"></a><a name="_Toc467660983"></a>Vertical Equity</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The individual income tax is progressive in rate structure and in actual outcomes: higher-income taxpayers pay larger shares of their income than do lower-income taxpayers, and at the lowest income levels taxpayers received overall subsidies through the EIC. Because the desired degree of redistribution cannot be easily established, issues of vertical equity involve value judgments to a considerable degree.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="Progressivity in the tax system is typically based on an equal sacrifice notion and the notion that a dollar to a poor person is much more valuable than a dollar to the wealthy person. These theories do not easily pin down the desired degree of progressivity, however. For a more extensive discussion of distributional issues and of the distribution of the income tax , see out-of-print CRS Report RL32693, Distribution of the Tax Burden Across Individuals: An Overview , by Jane G. Gravelle...">19</a></sup> By and large, overall effective tax rates are about the same for the top 20% of taxpayers compared to 1980, but rates for the remaining families have fallen. This reduction in effective tax rates for most taxpayers that began in the early 1990s probably reflects the changes in the earned income credit (which more than offset the growth in payroll taxes) and the child credit, as well as the introduction of a lower 10% tax rate bracket.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="See Congressional Budget Office, The Distribution of Household and Federal Taxes, 2013, June 2016 , https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/51361-HouseholdIncomeFedTaxes_OneCol.pdf .">20</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">How different tax revisions affect the progressivity of the income tax depends on several factors.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">First, a significant fraction of taxpayers do not have income tax liability. Positive income taxes do not apply in most cases until individuals are above the poverty line. In the Tax Reform Act of 1986, the combination of standard deductions and personal exemptions was set to roughly approximate the poverty line—the income levels above which families of different sizes are not considered poor. The allowances for single individuals are below the poverty line and cause some poor single individuals to be taxed. The expansion of the earned income credit and the addition of the child credit mean that taxpayers with qualifying children well above the poverty line would not be subject to tax. These taxpayers would not be affected by a tax cut.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An exception is when tax cuts are refundable. An expansion of the EIC, which is a refundable credit (or negative tax), would affect low-income individuals. The child credit is also refundable in some circumstances.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Certain types of revisions tend to benefit higher-income individuals, whereas others tend to provide little benefit to that group. For example, although lowering the top rates clearly benefited higher-income individuals in 2001, it is also clear that widening the 15% rate bracket for joint returns also benefited higher-income individuals. In 2000, prior to the tax cut, according to the Internal Revenue Service's statistical data, of 129 million returns, approximately 69 million returns paid tax at the 15% rate and another 25 million had no tax liability. Thus, the widening of the 15% bracket, which helped only those paying tax above that rate, benefited approximately the top 25% of taxpayers. Higher-income individuals are also more likely to itemize deductions, and changes that increase the standard deduction will tend to focus more benefits to moderate-income taxpayers than high-income taxpayers. Similarly, expansions of benefits that are phased out, such as the child credits, would not benefit high-income individuals. The 10% bracket also favored lower-income families.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689901"></a><a name="_Toc465848715"></a><a name="_Toc466886562"></a><a name="_Toc467499225"></a><a name="_Toc467590314"></a><a name="_Toc467592590"></a><a name="_Toc467592634"></a><a name="_Toc467656504"></a><a name="_Toc467657713"></a><a name="_Toc467660984"></a>Horizontal Equity</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Horizontal equity has to do with equal treatment of equals and is an important focus of this analysis. For the income tax, this standard might mean that families of the same size with the same income should pay the same tax. But it could also be taken to mean that two individuals with the same income should pay the same tax. In a progressive tax system, these two standards can be incompatible, and indeed this incompatibility causes marriage penalties and bonuses in a system where the family is the tax unit. Thus, the basic challenge of assessing standards of horizontal equity is to determine how to treat different taxpayers equitably. First, the economic principles that could be used in that assessment are reviewed. Second, considered in further detail is the ability-to-pay concept, which seems most consistent with the equal-sacrifice principles of horizontal equity.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As the recent history of the tax law suggests and the following discussion reveals, tax policy has not generally been guided by a consistent theory of fairness or equity across different types of families. Indeed, it is clear that many of the structural changes in the treatment of the family were haphazard. Income splitting, perhaps one of the most important aspects of family tax differentials, was adopted in reaction to a legal situation. Other changes were contemporary reactions to a set of complaints or concerns about behavioral response (such as the singles rate schedule or attempts to fix the marriage penalty).</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689902"></a><a name="_Toc465848716"></a><a name="_Toc466886563"></a><a name="_Toc467499226"></a><a name="_Toc467590315"></a><a name="_Toc467592591"></a><a name="_Toc467592635"></a><a name="_Toc467656505"></a><a name="_Toc467657714"></a><a name="_Toc467660985"></a>Theories of Equitable Taxation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For taxation purposes, there are two fundamental attributes of families: the type of head (a married couple or a single individual) and the size. Families can be composed of single persons, single parents with children, childless couples, and married couples with children. And, in turn, there are two important features of the tax system that relate to these differences. First, should the unit of taxation be the individual, or the family? The U.S. tax system imposes taxes on families and differentiates in its rate structure between singles, head of households (single parents with children), and married couples. However, an alternative would be to apply a single rate schedule to each individual on his or her own earnings. Although some preference for this view of individual taxation may have to do with philosophical matters, one argument for treating the individual rather than the family as a taxpaying unit has to do with marriage neutrality and efficiency, discussed subsequently. That is, if individuals could be taxed solely on their own earnings, there would be no tax consequences of being married, and the married state would not affect incentives to work via tax differentials.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The second issue is how one should adjust for family size, or, in the case of individual taxation, for the number of dependents. Despite the thrust of recent legislation that added substantial tax credits for children, some of the debate over differentiating by taxpayer characteristics has been over whether personal exemptions for dependents should be allowed at all. Under some theories of how the family should be taxed, no differentiation should be allowed for dependents; indeed, arguments are made that individuals should be taxed on their income without regard to their family arrangements. For that matter, individual taxation does not preclude allowances for number of dependents; rather, its focus is on treating working adults, even though married, as separate entities.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='See Harvey E. Brazer, "Income Tax Treatment of the Family," and Alicia Munnell, "The Couple vs. The Individual under the Federal Personal Income Tax," both in The Economics of Taxation , ed. Henry J. Aaron and Michael J. Boskin, Washington, DC, Brookings Institution, 1980.'>21</a></sup> (In practice, such a tax system must always deal with the possibility of income splitting of capital income by transfers of assets within the family, as well as the allocation of deductions.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Clearly, the family involves a social and economic unit that differs from unrelated groupings. Although taxation of the family has received limited attention in the economics literature, various principles have been advanced about how to treat family characteristics. Three such approaches are outlined here: treating living arrangements and children as personal choices that should not be addressed by the tax law, equating post-tax standards of living for families with the same pretax standard of living, and family assistance.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This analysis does not consider another alternative principle of taxation, the benefit principle, which would set taxes to reflect the amount of government services received. It could be argued that large families, particularly families with children, are greater beneficiaries of public spending, such as education. Although some taxes are explicitly formulated as benefit taxes (e.g., the gasoline tax that is used to build roads), the individual income tax has generally been based on other principles, such as the ones described here.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689903"></a><a name="_Toc465848717"></a><a name="_Toc466886564"></a><a name="_Toc467499227"></a><a name="_Toc467590316"></a><a name="_Toc467592592"></a><a name="_Toc467592636"></a><a name="_Toc467656506"></a><a name="_Toc467657715"></a><a name="_Toc467660986"></a>Family Arrangements as Personal Choices</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">People are relatively free to choose whether to marry and have children, and an argument can be made that such choices should not lead to tax relief. From this perspective, if they choose to have children, they are not worse off, because the enjoyment they receive from their children outweighs any cost. Thus, one could think of children as part of the consumption of the parents.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="The notion of children as consumption can be traced to Henry Simons, Personal Income Taxation ( Chicago: University of Chicago Press, 1938 ) .">22</a></sup> At a minimum, this approach suggests that no allowance be made for the additional cost of supporting children, treating the choice to have children as a consumption item, no different from the decision to consume food or clothing. Similarly, the choice of a spouse could be seen as a consumption or investment choice, which should not alter the tax paid by the individual or the combined tax of the two spouses. In this case, the individual should be the tax unit.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although the argument that children constitute consumption to their parents may be a defensible one, using this view as a guide to making tax policy is problematic. Even if the adults have made a choice, a troublesome aspect of this treatment of children as consumption is that it considers only the well-being of the parent or parents. Parents' tastes for children aside, the material level of consumption for children as well as for adults is affected by the number of others in the family.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some theories have suggested that children could be seen as an investment, perhaps for support in old age. There is some justification for this theory of parental motivation, although it must surely be less than universal because many parents leave bequests to their children, rather than being supported by them in old age. If investment were the objective of having children, then there would be some justification for tax relief, because the cost of such an investment should, in theory, be recovered; at the same time, returns (such as help in old age) should be taxed to the parents. Our tax system is not designed along these lines, and, in any case, the children-as-investment theory also suffers from a lack of focus on the well-being of the children.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689904"></a><a name="_Toc465848718"></a><a name="_Toc466886565"></a><a name="_Toc467499228"></a><a name="_Toc467590317"></a><a name="_Toc467592593"></a><a name="_Toc467592637"></a><a name="_Toc467656507"></a><a name="_Toc467657716"></a><a name="_Toc467660987"></a>Ability-to-Pay Approaches</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another approach is simply that of ability to pay, which is the cornerstone of progressive taxation. Applying this ability-to-pay standard of taxation is straightforward in theory if one begins with the proposition that families with equal standards of living before tax should have equal standards of living after tax. If all family members were more or less identical in their needs and if all goods consumed were purely private in nature, this standard would suggest full income splitting of total family income among all members of the family. Merely, all family income could be divided evenly and then subject each share to an identical rate structure. In a progressive tax system, larger families would pay smaller taxes than smaller families with the same total income.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One difficulty with this straightforward prescription is the existence of "club" goods within the family. Some goods are more or less purely private goods, such as food. If one person consumes food, it is not available to anyone else. Other goods have elements of a club nature (one person can consume the good without interfering with another's consumption). Such club goods include housing and some furnishings, reading materials, and the family car. None of these goods are pure shared goods because individual preferences may not be identical and congestion may occur, but they do provide scale advantages in consumption within a family. These scale advantages in family consumption are recognized in construction of the poverty line, which varies with family size, yet does not increase in full proportion to it.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another problem is that adults and children may differ in the amount of private goods they need or desire.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If correct scaling of ability to pay by family size and characteristics were known, design of the income tax would be theoretically straightforward. The method would be as follows. Choose a representative family (e.g., a family of two). Devise the tax rate schedule to achieve the desired degree of progression, setting the exempt level at the poverty level or whatever other level is desired. The solution to horizontal equity is then, simply, an averaging approach. For example, consider a larger family that needs 50% more income than the basic reference family. This means that a larger family that has $75,000 of income should have the same average tax rate as a smaller (reference) family with $50,000 of income. Simply apply the basic tax rate schedule to two-thirds of the larger family's income and multiply the resulting tax liability by 1.5. This approach will produce the same effective tax rate for the larger family as for the reference family. (The larger family, which has more income, will still pay more taxes, but the fraction paid will be the same as that of the smaller family.) The two families will have the same (although smaller) standard of living after tax just as they had the same standard of living before tax.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When exempt levels of tax are set roughly at the poverty rate, as was the intent of the 1986 Tax Reform Act, families whose income falls within the first rate bracket (the 15% tax bracket at that point) tend to have equal effective tax rates, if the relative poverty measures across families are correct (ignoring the earned income tax credit). These effects will not hold, however, when higher-income families are considered or when other provisions, such as the child credit and the earned income credit, are considered, or with a new small bracket such as the 10% bracket introduced in 2001. Moreover, families with one earner are better off than families with two earners at the same income because of the expenses of working, including child care, and the benefits of home production of the nonworking spouse. Thus, credits for child care expenses or allowances for working spouses can move the system toward more equitable treatment, at least vis-a-vis one-earner couples.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689905"></a><a name="_Toc465848719"></a><a name="_Toc466886566"></a><a name="_Toc467499229"></a><a name="_Toc467590318"></a><a name="_Toc467592594"></a><a name="_Toc467592638"></a><a name="_Toc467656508"></a><a name="_Toc467657717"></a><a name="_Toc467660988"></a>Targeted Family Assistance</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">At the opposite end of the spectrum is the notion of targeted family assistance, especially for lower-income families, and often targeted toward children. To accomplish this targeting, allowances for family size differentials (e.g., personal allowances) are often made refundable, they take the form of a credit rather than an exemption, and benefits are often phased out as incomes rise. Several of these features, including the EIC and the child credit, have made their way into current law.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This view of family allowances differs from the philosophy that personal exemptions, along with other exclusions, should be used to exempt a minimum subsistence amount from the income base, the philosophy underlying the 1986 revisions, and one which is more in line with the ability-to-pay standard. Similarly, a benefit for child care would be more appropriately made through a deduction, if child care were viewed as one of the costs of working under an ability-to-pay approach.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Proposals that are driven by this philosophy are often simultaneously addressing differentiation across family types and a vertical distribution objective. This objective is not necessarily inconsistent with the ability-to-pay objective addressed previously, even though it often appears to be because of the mechanisms chosen, such as credits that are phased out. For a given family size, any degree of vertical equity can be obtained through either exemptions or credits or by arranging the tax rate schedule appropriately. But, the differentiation across families at the same income level (or ability-to-pay) can be achieved only by selecting the sizes of personal exemptions for different family members. An ability-to-pay approach would include differentiation of families of different sizes at either high or low income levels. When a vanishing exemption or credit is chosen in the interest of vertical equity, the actual result is to allow no differentiation for family size at higher-income levels.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="One argument along these lines is that progressive taxation could be justified by the need to maintain human resources at the bottom of the scale (which justifies some minimum exclusion) and curb the accumulation of power at the top. Since the accumulation of power is undiminished by family size, there should be little differentiation at the top of the scale. See Harold M. Groves, Federal Tax Treatment of the Family , Washington, DC, The Brookings Institution, 1963.">23</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Finally, it is important to recognize that the income tax system exists side-by-side with a welfare system, and many conclude that targeted family assistance might be better addressed through the welfare system.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689906"></a><a name="_Toc465848720"></a><a name="_Toc466886567"></a><a name="_Toc467499230"></a><a name="_Toc467590319"></a><a name="_Toc467592595"></a><a name="_Toc467592639"></a><a name="_Toc467656509"></a><a name="_Toc467657718"></a><a name="_Toc467660989"></a>Applying the Ability-to-Pay Horizontal Equity Standard to Current Law</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The ability-to-pay approach seems the most consistent and, to many, appealing of the three approaches to dealing with tax differentiation based on family size. This method considers the welfare of all in society rather than focusing exclusively on adults or children. One study used this approach to estimate effective tax rates in 2005, and how various provisions of the tax law affected these rates, using an equivalency scale similar to the variations in poverty lines across family types.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='Jane Gravelle and Jennifer Gravelle, "Horizontal Equity and Family Tax Treatment: The Orphan Child of Tax Policy," National Tax Journal , vol . 59, September 2006, pp. 631-649. This study calculated stylized effective tax rates reflecting personal exemptions, itemized or standard deductions, the child credit, and the earned income credit . The equivalency formula used was (A+0.7K) 0.7 based on Constance F. Citro and Robert T. Michael, Measuring Poverty: A New Approach , Washington, DC, N...'>24</a></sup> Because the tax system has been indexed, the findings of this study, published in 2006, remain largely applicable, although income levels refer to 2005 values (excluding temporary provisions but including the alternative minimum income tax patch). This 2006 analysis, however, does not include the temporary benefits from the earned income credit and child credit that were adopted in 2009 and are now permanent. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The remainder of this section updates the effective tax rate calculations to reflect 2016 income and tax law (including the changes in the earned income credit and child credit). In defining families that have the same ability to pay, an adjustment based on a research study used in the 2006 study and similar to that of adjusting for official poverty levels for different family sizes was used, which has a smaller adjustment for children than for adults. Under this standard, a single person requires about 62% of the income of a married couple; a couple with four kids requires about three times the income. Thus, for a married couple with no children with $20,000 of income, an equivalent single person would need slightly over $12,000, and a married couple with four children would need $60,000. Provisions included in the calculations are the rate structure, the most beneficial of standard deductions or itemized deductions (the latter are assumed to be 15% of income, with 5% of income reflecting state and local taxes included in the alternative minimum tax base), personal exemptions, the earned income credit, the child credit, and the alternative minimum tax. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref203818117"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong> reports the 2016 effective tax rates for low- and middle-income taxpayers at different levels of income, for family sizes of up to seven individuals, and for the three basic types of returns—single, joint, and head of household. <strong><a class="InternalLink" href="#_Ref203818122"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong> reports the tax rates for higher-income families. The column heading indicates the income level for married couples. Families in each column have the same estimated ability to pay, so that larger families have more income and singles and a head of household with one child have less. The rates across families should be compared by looking down the columns. For example, in <strong><a class="InternalLink" href="#_Ref203818117"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong>, a married couple with $25,000 in income pays 1.7% of income in taxes, but a married couple with one child with the same ability to pay receives a subsidy of 8.5%, whereas a single with an equivalent before-tax standard of living pays 3.3%.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These numbers assume that dependents are children eligible for the child credit and that the families are eligible for the earned income tax credit (a provision not allowed for those over the age of 65 or for those without children under the age of 25). These are illustrative calculations that do not account for any other tax preferences and are designed to show how the basic structural, family-related features of the tax law affect burdens. Tax rates for returns paying the AMT are bolded.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref203818117"></a><a name="_Toc355689885"></a><a name="_Toc465848700"></a><a name="_Toc466886547"></a><a name="_Toc467499210"></a><a name="_Toc467590299"></a><a name="_Toc467592575"></a><a name="_Toc467592619"></a><a name="_Toc467656489"></a><a name="_Toc467657698"></a><a name="_Toc467660969"></a>Table 1. Average Effective Income Tax Rates by Type of Return, Family Size, and Income: Lower and Middle Incomes</p>
+<p class="TableSubTitle">(2016 tax law and income levels)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Type–Size</p>
+</td>
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Income Level for Married Couple Without Children (Joint–2)</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$10,000</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$15,000</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$25,000</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$50,000</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Single–1</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-7.7%</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-4.6%</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.3%</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8.4%</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–2</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-7.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-2.8</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">6.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–3</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-35.4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-23.6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-8.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">5.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-50.3</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-34.8</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-11.6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">5.0</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-50.2</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-36.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-9.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">4.3</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-46.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-33.0</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-8.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.7</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-43.6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-29.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-7.9</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.0</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–2</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-47.8</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-32.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-14.1</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">5.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–3</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-51.0</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-44.4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-16.6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">4.6</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-56.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-41.3</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-15.0</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-52.1</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-35.0</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-12.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-48.0</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-30.4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-10.8</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.0</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-44.8</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-26.9</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-10.0</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">4.1</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>CRS calculations. </p>
+<p class="TableNote"><strong>Note:</strong> The dollar amounts refer to the income for a married couple with no children; larger families in each column would have more income, and singles and heads of household with two family members (one child) would have less income.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These tables suggest that the pattern of tax burden by family size varies across the income scale, as it reflects the complications of the earned income credit, the child credit, and graduated rates, including phase-out effects. Moreover, the variation across families that have the same ability to pay is substantial. At low incomes, families with children, whether headed by a married couple or a single parent, are favored because of the earned income tax credit and the child credit. The largest negative tax rates tend to accrue to returns with around three children, because the largest EICs are available for three or more children and the child credits increase with the number of children. The rate declines because larger families need more income, which may phase them out of the EIC.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As incomes rise, families with children are still favored, but it is the largest families that have the largest subsidies or the smallest tax rates, because the combination of the personal exemptions and the child credit lowers taxes so much for these families. Eventually, large families began to be penalized because the value of the child credit and personal exemptions relative to income declines and larger families that require more income are pushed up through the rate brackets. That effect is increased because more families with children are subjected to the AMT since the personal exemptions are not allowed under the AMT rules. At higher-income levels, credits and exemptions begin to be phased out. As incomes reach very high levels, however, the rates converge as the tax becomes a flat tax. Note that itemized deductions are assumed to be a constant fraction of income, and so is a proportional exclusion. The AMT does not apply at the highest income levels because eventually ordinary tax rates are higher than the AMT rates. Also, the AMT is more likely to raise taxes for head-of-household families because the exemptions are smaller and are not differentiated by family size. </p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref203818122"></a><a name="_Toc355689886"></a><a name="_Toc465848701"></a><a name="_Toc466886548"></a><a name="_Toc467499211"></a><a name="_Toc467590300"></a><a name="_Toc467592576"></a><a name="_Toc467592620"></a><a name="_Toc467656490"></a><a name="_Toc467657699"></a><a name="_Toc467660970"></a>Table 2. Average Effective Income Tax Rates by Type of Return, Family Size, and Income: Higher Incomes</p>
+<p class="TableSubTitle">(2016 tax law and income levels)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:19.4pt;">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Type–Size</p>
+</td>
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Income Level for a Married Couple Without Children (Joint–2)</p>
+</td>
+</tr>
+<tr style="height:14.9pt;">
+<td style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$75,000</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$100,000</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$250,000</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$500,000</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Single–1</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.4%</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">12.7%</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong><strong>8</strong><strong>.</strong><strong>5</strong><strong>%</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>2</strong><strong>.</strong><strong>8</strong><strong>%</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–2</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">9.6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.8</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">17.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>24.</strong><strong>2</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–3</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">11.7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>18.8</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">25.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">7.9</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">12.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>0</strong><strong>.4</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">26.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–5</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8.5</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">12.9</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>2</strong><strong>.</strong><strong>5</strong></p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">27.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–6</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8.8</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">13.2</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>3</strong><strong>.</strong><strong>5</strong></p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">28.5</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">Joint–7</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">9.1</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">13.4</p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>24.</strong><strong>3</strong></p>
+</td>
+<td style="border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">29.1</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–2</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">12.4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>19.5</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>24.</strong><strong>5</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–3</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">9.3</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">13.5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>1</strong><strong>.</strong><strong>9</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">25.7</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–4</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.1</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">14.1</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>3</strong><strong>.</strong><strong>7</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">27.2</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–5</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.0</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong><strong>5</strong><strong>.</strong><strong>3</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>24.</strong><strong>7</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">28.2</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–6</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong><strong>2</strong><strong>.</strong><strong>4</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong><strong>6</strong><strong>.</strong><strong>9</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>5</strong><strong>.6</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">29.0</p>
+</td>
+</tr>
+<tr style="">
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">H/H–7</p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong><strong>2</strong><strong>.</strong><strong>7</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>1</strong><strong>8</strong><strong>.</strong><strong>1</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>6</strong><strong>.</strong><strong>2</strong></p>
+</td>
+<td style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">29.5</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>CRS calculations.</p>
+<p class="TableNote"><strong>Note: </strong>The dollar amounts refer to the income for a married couple with no children; larger families in each column would have more income, and singles and heads of household with two family members (one child) would have less income.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Overall, these calculations suggest, first, that singles are taxed more heavily than childless couples in the middle-income ranges but less heavily at very high and some low income levels, but these differences are small. The higher tax rates for joint returns at high income levels occur because the brackets above 15% are not relatively as wide, and the smaller amount of income needed by a single person places them in overall lower rate brackets. At lower-income levels—for example, at $15,000—joint returns are phased out of the earned income credit more quickly. Second, when the child credit and EIC are available, families with children tend to be favored over families without children at low and moderate income levels. Third, the number of children in a family sometimes causes more beneficial treatment and sometimes less depending on how the EIC and child credit are being phased out. Finally, the graduated rate structure causes large families at higher-income levels to be taxed at higher effective tax rates, an effect exacerbated by the AMT.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These effects result from the fundamental structural effects of phase-out provisions and rate brackets. Phase-out points and rate brackets should be based on family size if the ability to pay criterion is being used to determine the tax structure. The flat amount of the child credit and personal exemption also causes them to have little effect on relative tax liabilities at high income levels; phasing them out increases the over-taxation of large families relative to small ones at higher-income levels.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">At low income levels, however, the family comparisons are affected by the earned income tax credit, and differences in tax burdens by family size can be striking. If there were no earned income credit or refundable child credit, effective tax rates would be relatively uniform at the lower-income levels, at zero or a small positive percentage amount. The EIC introduces disparities. First, the EIC rate is much lower for single taxpayers or two-member joint returns where there are no qualifying children than it is for families with children. Second, if one accepts the ability-to-pay standard, the EIC has an inappropriate adjustment for family size. There is no reason to vary the rate of the EIC by family size, but the base (or maximum creditable wage) and the phase-out levels should be varied according to the ability-to-pay standard. That is, both dollar amounts—the amount on which the EIC applies and the income at which the phaseout begins—should be tied to family size according to the ability-to-pay standard, whereas the EIC rate should be the same for all families.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To make the EIC neutral across families, using the ability-to-pay standard, would require, in addition to allowing it at a common rate for all families, changing the base levels and the phase-out levels for family size. Changing the rate, as was done in 1990 and retained when the EIC was expanded in 1993, does not accomplish equal treatment across families of different sizes, providing too much adjustment for some families and not enough for others.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The child credit also contributes to the favorable treatment of families with children, including in the middle and upper middle income levels where it is not phased out. The increased refundability of the credit enacted into recent law increases the relatively beneficial treatment of larger families at lower-income levels. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 2005 study previously cited also considered the effects of other aspects of the tax system. One is the availability of the child care credit. The analysis in that paper indicated that including the child care credit (at the maximum) does not have very important effects. The dependent care credit is not effectively available to low-income families who do not have sufficient tax liability to use the credit, and is capped and unimportant in a relative sense for high-income taxpayers. In the middle-income levels, it lowers the tax rate for families with children.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another issue has to do with the treatment of married couples where only one individual works outside the home. These families are better off because the spouse not employed outside the home can perform services at home that result in cost savings, perform household tasks that increase leisure time for the rest of the family, or enjoy leisure. The value of this time, which is not counted in the measured transactions of the economy, is referred to as "imputed income." This imputed income is not taxed, and it would probably be impractical to tax it. Nevertheless, the tax burden as a percentage of cash plus imputed income is lower for such a family.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Imputed income is not easily valued, and this issue is explored in the 2005 study by limiting the imputed income to the value of child care using the cap for the expenses eligible for a child care credit and excluding this amount from income. For low-income families, this change actually increased taxes by reducing earned income credits. At moderate and middle incomes, it benefited married couples with children, who already tend to be favored.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The authors also considered some of the potential changes and whether those changes would increase horizontal equity or exacerbate it. In the interest of increased horizontal equity, the analysis would support an increase in the earned income credit for those without children; a reduction of the AMT; and an elimination of phaseouts for child credits, personal exemptions, and itemized deductions. Making the child credit fully refundable would increase disparities in tax rates at the lower-income levels.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These calculations should be considered with caution, as they depend on the precision of the family equivalency scales, which do not take into account the heterogeneity of the cost of rearing children, and are aimed at measuring cash needs to attain a given standard of living. Lower-income families with younger children who need child care may find their standard of living in material matters lower than other types of families, because of the higher cost of that care relative to their income. In that case, the lower rates due to child care credits or exclusion of imputed income may be appropriate. At higher-income levels, child care costs are probably much smaller relative to income, even if more is spent on care. The child care credit, however, has little effect on effective tax rates at these income levels.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689907"></a><a name="_Toc465848721"></a><a name="_Toc466886568"></a><a name="_Toc467499231"></a><a name="_Toc467590320"></a><a name="_Toc467592596"></a><a name="_Toc467592640"></a><a name="_Toc467656510"></a><a name="_Toc467657719"></a><a name="_Toc467660990"></a>Marriage Penalties and Marriage Bonuses</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Concerns about the marriage penalty reflect a reluctance to penalize marriage in a society that upholds such traditions. As the tax law shifts to reduce the marriage penalty, as it did in 2001, it also expands marriage bonuses. These choices have consequences not only for incentives but for equitable treatment of singles and married couples. As shown above in <strong><a class="InternalLink" href="#_Ref203818117"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong><strong> </strong>and<strong> </strong><strong><a class="InternalLink" href="#_Ref203818122"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong>, in the middle-income brackets, where the marriage penalty was largely eliminated, singles with the same ability to pay are subject to higher taxes than married couples. Singles benefit at lower-income levels because their lower required incomes do not phase them out of the earned income credit. And at very high incomes married couples may pay a larger share of their income because of marriage penalties that remain in the AMT and the upper brackets of the rate structure.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This section explores the treatment of married couples and singles in an additional dimension by assuming that singles live together and share the same economies of scale that married couples do. These individuals could be roommates, but they could also be partners who differ from married couples only in that they are not legally married.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title='For other discussions of this issue, see Daniel Feenberg, "The Tax Treatment of Married Couples and the 1981 Tax Law," In Taxing the Family , Ed. Rudolph G. Penner, Washington: American Enterprise Institute for Public Policy Research, 1983; Harvey Rosen, "The Marriage Tax is Down But Not Out," National Tax Journal , Vol. 40, December, 1987, pp. 567-576; Daniel R. Feenberg and Harvey S. Rosen." Recent Developments in the Marriage Tax." National Tax Journal , Vol. 48, March 1995, pp. 91-101....'>25</a></sup> Single individuals who live together in the same fashion as married couples have the same ability to pay with the same income. However, remaining single can alter their tax liability. Remaining single can cause tax liability either to rise or fall, depending on the split of income between the two spouses. If one individual earns most of the income, tax burdens will be higher for two individuals who are not married than for a married couple with the same total income, because the standard deductions are smaller and the rate brackets narrower. If income is evenly split between the two individuals, there can be a benefit from remaining single. Married individuals have to combine their income, and the rate brackets for joint returns at the higher-income brackets, whereas wider than those for single individuals, are not twice as wide. At all levels they are not wider than those for heads of household. In addition, the earned income credit contains marriage penalties and bonuses.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The marriage penalty or bonus might, in the context of the measures of household ability to pay, also be described as a singles bonus or penalty. In any case, in considering both the incentive and equity dimension to this issue, the tax rates of these families should be compared with the tax rates of other households. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref250707039"><strong></strong><strong>Table 3</strong></a> and <a class="InternalLink" href="#_Ref465849364"><strong></strong><strong>Table 4</strong></a> show the effective tax rates for married couples and for unmarried couples with the same combined income, both where income is evenly split and where all income is received by one person. In one case there is no child and in the other a single child. These income splits represent the extremes of the marriage penalty and the marriage bonus. The same reference income classes and equivalency scales in <strong><a class="InternalLink" href="#_Ref203818117"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong><strong> </strong>and<strong> </strong><strong><a class="InternalLink" href="#_Ref203818122"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong> are used.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Note that uneven income splits in the case of a family with a child can yield different results depending on whether the individual with the income can claim the child and therefore receive the benefits of the head-of-household rate structure, the higher earned income credit, the dependency exemption, and the child credit. If not, that individual files as a single.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:416.1888pt;">
+<p class="TableTitle"><a name="_Ref250707039"></a><a name="_Toc355689887"></a><a name="_Toc465848702"></a><a name="_Toc466886549"></a><a name="_Toc467499212"></a><a name="_Toc467590301"></a><a name="_Toc467592577"></a><a name="_Toc467592621"></a><a name="_Toc467656491"></a><a name="_Toc467657700"></a><a name="_Toc467660971"></a>Table 3. Average Effective Income Tax Rates for Joint Returns and Unmarried Couples, by Size of Income and Degree of Split: Lower and Middle Incomes</p>
+<p class="TableSubTitle">(2016 levels of income)</p>
+</div>
+<table class="ReportTable" style="width:416.1888pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:194.4864pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Type–Size</p>
+</td>
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;padding-left:-20.7pt;">Income Level for Married Couple</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:58.83839999999999pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$10,000</p>
+</td>
+<td style="width:59.184000000000005pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$15,000</p>
+</td>
+<td style="width:60.048pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$25,000</p>
+</td>
+<td style="width:59.4432pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$50,000</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="5" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>No Child </strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:18.9pt;text-indent:-18.9pt;">Joint</p>
+</td>
+<td style="width:58.83839999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-7.7%</p>
+</td>
+<td style="width:59.184000000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-2.8%</p>
+</td>
+<td style="width:60.048pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1.7%</p>
+</td>
+<td style="width:59.4432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">6.9%</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:18.9pt;text-indent:-18.9pt;">Single 50/50 Split</p>
+</td>
+<td style="width:58.83839999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-7.7</p>
+</td>
+<td style="width:59.184000000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-6.7</p>
+</td>
+<td style="width:60.048pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">0.2</p>
+</td>
+<td style="width:59.4432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">6.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:18.9pt;text-indent:-18.9pt;">Single 100/0 Split</p>
+</td>
+<td style="width:58.83839999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-5.1</p>
+</td>
+<td style="width:59.184000000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">3.1</p>
+</td>
+<td style="width:60.048pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">6.9</p>
+</td>
+<td style="width:59.4432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.8</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="5" style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>One Child</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Joint</p>
+</td>
+<td style="width:58.83839999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-35.4</p>
+</td>
+<td style="width:59.184000000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-23.6</p>
+</td>
+<td style="width:60.048pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">-0.7</p>
+</td>
+<td style="width:59.4432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">6.6</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">50/50 Split, One Single, One Head of  Household</p>
+</td>
+<td style="width:58.83839999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-24.79</p>
+</td>
+<td style="width:59.184000000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-25.6</p>
+</td>
+<td style="width:60.048pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-12.5</p>
+</td>
+<td style="width:59.4432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">1.3</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">100/0 Split, Single Return</p>
+</td>
+<td style="width:58.83839999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">1.6</p>
+</td>
+<td style="width:59.184000000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">4.4</p>
+</td>
+<td style="width:60.048pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8.5</p>
+</td>
+<td style="width:59.4432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">12.8</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:194.4864pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">100/0 Split, Head-of-Household Return</p>
+</td>
+<td style="width:58.83839999999999pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-35.4</p>
+</td>
+<td style="width:59.184000000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">-22.8</p>
+</td>
+<td style="width:60.048pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">3.3</p>
+</td>
+<td style="width:59.4432pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8.1</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:416.1888pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>CRS calculations. </p>
+</div>
+</div>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:409.2768pt;">
+<p class="TableTitle"><a name="_Ref250707032"></a><a name="_Ref465849364"></a><a name="_Toc355689888"></a><a name="_Toc465848703"></a><a name="_Toc466886550"></a><a name="_Toc467499213"></a><a name="_Toc467590302"></a><a name="_Toc467592578"></a><a name="_Toc467592622"></a><a name="_Toc467656492"></a><a name="_Toc467657701"></a><a name="_Toc467660972"></a>Table 4. Average Effective Income Tax Rates for Joint Returns and Unmarried Couples, by Size of Income and Degree of Split: Higher Incomes</p>
+<p class="TableSubTitle">(2016 levels of income)</p>
+</div>
+<table class="ReportTable" style="width:409.2768pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:196.56pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Type–Size</p>
+</td>
+<td colspan="4" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Income Level for Married Couple</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:57.8016pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$75,000</p>
+</td>
+<td style="width:58.752pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$100,000</p>
+</td>
+<td style="width:64.8pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$250,000</p>
+</td>
+<td style="width:54.086400000000005pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">$500,000</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="5" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>No Child </strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Joint</p>
+</td>
+<td style="width:57.8016pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">9.6%</p>
+</td>
+<td style="width:58.752pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.8%</p>
+</td>
+<td style="width:64.8pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">17.1<strong>%</strong></p>
+</td>
+<td style="width:54.086400000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>24.</strong><strong>2</strong><strong> %</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Single 50/50 Split</p>
+</td>
+<td style="width:57.8016pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">9.6</p>
+</td>
+<td style="width:58.752pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">10.8</p>
+</td>
+<td style="width:64.8pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">17.3</p>
+</td>
+<td style="width:54.086400000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">20.9</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Single 100/0 Split</p>
+</td>
+<td style="width:57.8016pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">14.3</p>
+</td>
+<td style="width:58.752pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">16.0</p>
+</td>
+<td style="width:64.8pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">20.9</p>
+</td>
+<td style="width:54.086400000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">24.7</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="5" style="padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><strong>One Child</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Joint</p>
+</td>
+<td style="width:57.8016pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">8.7</p>
+</td>
+<td style="width:58.752pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">11.7</p>
+</td>
+<td style="width:64.8pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>18</strong><strong>.8</strong></p>
+</td>
+<td style="width:54.086400000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">25.4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">50/50 Split, One Single, One Head of Household</p>
+</td>
+<td style="width:57.8016pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">7.2</p>
+</td>
+<td style="width:58.752pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">8.9</p>
+</td>
+<td style="width:64.8pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">17.4</p>
+</td>
+<td style="width:54.086400000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>2</strong><strong>.</strong><strong>4</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">100/0 Split, Single Return</p>
+</td>
+<td style="width:57.8016pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">15.6</p>
+</td>
+<td style="width:58.752pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">17.2</p>
+</td>
+<td style="width:64.8pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">22.6</p>
+</td>
+<td style="width:54.086400000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="text-align:center;">27.2</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:196.56pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">100/0 Split, Head-of-Household Return</p>
+</td>
+<td style="width:57.8016pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">12.1</p>
+</td>
+<td style="width:58.752pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">14.6</p>
+</td>
+<td style="width:64.8pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;"><strong>2</strong><strong>2</strong><strong>.2</strong></p>
+</td>
+<td style="width:54.086400000000005pt;padding-left:5.75pt;padding-right:5.75pt;" valign="middle">
+<p class="TableText" style="text-align:center;">25.4</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:409.2768pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>CRS calculations. </p>
+<p class="TableNote"><strong>Note:</strong> Effective tax rate does not always rise across incomes due to rounding.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The tables indicate that both marriage penalties and bonuses persist. In the case of families without children, however, penalties do not exist in the middle-income ranges, only bonuses. In this case, singles who live together and who have uneven incomes would see their tax rates fall if they got married. Both bonuses and penalties exist at the lower-income levels because of the earned income tax credit. If income is evenly split, the phase-out ranges are not reached as quickly for singles because each of the partners has only half the income. If all of the income is earned by one of the singles in the single partnership, phase out of the credit still occurs and the individual also has a smaller standard deduction, and thus pays a higher tax. The smaller deductions and narrower rate brackets also cause the higher tax rates through the middle-income brackets. At very high-income levels, marriage penalties can also occur. Some of the penalty is due to not doubling the rate brackets after the 15% bracket, but some is due to the marriage penalties in the AMT. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The provisions that increase the phase-out level for the earned income credit reduce tax burdens for low-income joint returns and further reduce marriage penalties and increase marriage bonuses. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Matters are more complex for families with one child. At the lowest income level, and a 50/50 split, one of the singles files a single return with a very small negative rate because of the small earned income credit for those without children, while the other claims a child and has a much higher negative tax rate than a married couple because there is no phaseout of benefits. The combination also involves a smaller child credit because it is not completely refundable. The  combined result is a lower benefit than that of a married couple, and thus there is a marriage bonus. This eventually becomes a marriage penalty because of the favorable head-of-household standard deduction and rate structure. The AMT contributes to this penalty at some point. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">With one of the pair earning all of the income, the results depend on whether the partner with the income can claim the child. If that person cannot, the tax burden is higher throughout the income scale, reflecting the loss of benefits from the child and the rate structure. If the person with the income can claim the child, joint returns are still favored (except at the lowest income levels), but not by nearly as much.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Which of these last two assumptions seems more likely depends on the circumstances. When couples divorce, they typically move to different residences, and the most usual outcome is that the mother, who typically has lower earnings, would have the child. According to the Census Bureau, 83% of children who live with one parent live with their mother.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title='U.S. Census Bureau, " Table C2: Household Relationships and Living Arrangements of Children Under 18 ," http://www.census.gov/population/www/socdemo/hh-fam/cps2005.html .'>26</a></sup> In that case there would likely be a marriage bonus. If the couple divorce but live together, presumably the higher-income spouse would claim the child. However, if a couple never married and the child is only related to one parent, that person, more likely the mother and more likely to have low income, would claim the child. If such a couple married and had low incomes, they could obtain the earned income credit, and a study of low-income families indicates that this latter effect, the bonus, is the most common effect of the EIC.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title='See Stacy Dickert-Conlin and Scott Houser , "Taxes and Transfers: A New Look at the Marriage Penalty , " National Tax Journal , vol. 51 ( June 1998 ) , pp. 175-217.'>27</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Which circumstances are more characteristic of the economy? Note first that, although people refer to the marriage penalty for a particular family situation or the aggregate size of the marriage penalty, it is really not possible, in many cases, to determine the size of the penalty or bonus. The effect of assignment of a child is demonstrated in <a class="InternalLink" href="#_Ref250707039"><strong></strong><strong>Table 3</strong></a> and <a class="InternalLink" href="#_Ref465849364"><strong></strong><strong>Table 4</strong></a>, but other features matter. Only when a married couple has only earned income, no dependent children, and no itemized deductions or other special characteristics, and only if it is assumed that their behavior would not have been different if their marital status had been different, can one actually measure the size of the marriage penalty or bonus. There is no way to know who would have custody of the children and therefore which of the partners might be eligible for head-of-household status and for the accompanying personal exemptions and child credits.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There is reason to expect that unmarried individuals are penalized in the aggregate. Prior to the 2001 tax cut, which increased bonuses and reduced penalties, using an allocation that reflects typical behavior of married couples with respect to child custody, the Congressional Budget Office (CBO) estimated that 37% of married couples had penalties ($24 billion), 3% were unaffected, and 60% had bonuses ($73 billion). (Itemized deductions and earned income were assigned in proportion to earnings.) The net bonus was $49 billion.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="These and other numbers discussed in this paragraph are from an update of a study by the U.S. Congressional Budget Office, For Better or for Worse: Marriage and the Federal Income Tax , Washington, DC, June 1997. These numbers were updated for 1999 in a memorandum from Bob Williams and David Weiner of CBO dated September 18, 1998.">28</a></sup> However, in most of its analysis, the CBO study relied on a measure of marriage penalties and bonuses that assumed child custody would be based on a tax-minimizing strategy. For example, if parents of two children had similar individual earnings, each would be assumed to have custody of one of the children so that both would be eligible for head-of-household status. Even using that standard, net bonuses occurred: 43% of married couples had penalties amounting to $32 billion, and 52% had bonuses of $43 billion, for a net bonus of $11 billion. Nevertheless, a significant proportion of married taxpayers—between 37% and 43%—paid marriage penalties.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A study using Treasury data and other assumptions produced different measures of the marriage bonus or penalty.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title='Nicholas Bull, Janet Holtzblatt, James R. Nunns, and Robert Rebelein , " Assessing Marriage Penalties and Bonuses ," Proceedings of the 91 st Annual Conference of the National Tax Association , 1998, pp. 327-340. An updated version of this paper is published as Office of Tax Analysis , Defining and Measuring Marriage Penalties and Bonuses , Paper 82, November 1999 , http://www.ustreas.gov/ota/ota82_revised.pdf .'>29</a></sup> Using an assumption that divorced parents occupied the same residence, and thus only one could qualify for head-of-household status, the authors found that 48% had a penalty ($28.3 billion) and 41% had a bonus ($26.7 billion), for a net penalty of $1.6 billion. This study also provided several other ways of measuring penalties and bonuses, including estimating $30.2 billion in singles penalties because these individuals could not use joint return rate schedules. Some of the penalty applied to families with children because of the benefits of head-of-household status. Without head-of-household status, the Treasury found that 46% of couples had bonuses ($36.6 billion) while 43% had penalties ($20.8 billion), and the net effect was a bonus of $15.8 billion.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Treasury researchers did a subsequent study using the standard assumption for the effects of the 2001 tax cut and for 2004 income levels.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='Robert Gillette, Janet Holtzblatt, and Emily Y. Yin, " Marriage Penalties and Bonuses: A Longer Term, Proceeding of the National Tax Association, " 2004, Washington, DC, National Tax Association, pp. 468-478.'>30</a></sup> As before, they essentially found a penalty (of $3.7 billion) without the 2001 tax cut, but found a $30 billion bonus with 2004 tax law (which included explicit marriage relief provisions and other provisions such as rate reductions). About 60% of couples have bonuses, and 23% have penalties (while some have no effect). The study also warned that penalties will grow substantially if the AMT continues to grow as projected; however, the AMT has been continually patched so that these general results should still be largely correct.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the shift away from penalties and toward bonuses in 2001, it seems clear that the current situation is characterized by bonuses rather than penalties. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An alternative measurement is the bonuses and penalties of single individuals who are cohabitating, a much smaller group of people. In 2005, according to the Census Bureau, there were 58 million married households, but only 5 million unmarried couple households (with partners of the opposite sex).<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="See http://www.census.gov/population/www/socdemo/hh-fam/cps2005.html .">31</a></sup> (There were 77 million households altogether.) Thus, assuming that these households were similar to married households, the "single penalties and bonuses" measured by looking at unmarried cohabitating households would be about 9% of the size of "marriage bonuses and penalties" measured by looking at married households.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A study has been made of penalties and bonuses for existing cohabiting couples with children, which assign the children to the biological parent, or, if both partners are biological parents, to the higher earner.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title='Elaine Maag, "Taxes and Marriage for Cohabiting Parents," Tax Notes , May 23, 2005, p. 1031.'>32</a></sup> This study found that under 2003 law, 42% of these couples would experience a bonus averaging $1,893, whereas 50.7% would experience a penalty of $1,497. Under 2003 law, 48.5% receive an average bonus of $2,236, and 44.1% receive a penalty of $1,513. Bonuses are more prevalent in low-income households because marriage often increases the earned income credit. These bonuses should increase with the increase in the additional phase-out amounts for married couples enacted in 2009. However, a study using data on low-income families in urban areas with young children found that penalties were more common.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="Angekla Rachidi , The Earned I ncome Tax Credit and Marriage Penalties: Does a Childless Worker Expansion Make T hem Worse? , November 2015, https://www.aei.org/wp-content/uploads/2015/10/The-earned-income-tax-credit-and-marriage-penalties.pdf .">33</a></sup> That study also examined the effect of increasing the earned income credit for childless workers, as has been proposed by the President and some Members of Congress, and found small effects on marriage penalties. The study also contains references to mixed evidence of the effect of marriage penalties on marriage. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The marriage penalty cannot be easily addressed because the tax rules cannot simultaneously achieve three apparently desired income tax objectives: a progressive tax, a marriage neutral tax, and equal treatment of couples with the same total incomes, but with different income shares. Moreover, even if horizontal equity were chosen, the achievement of that system would require information on living arrangements of unmarried individuals that is not available to the tax authorities. The current system, however, appears to lean toward benefiting marriage overall.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc355689908"></a><a name="_Toc465848722"></a><a name="_Toc466886569"></a><a name="_Toc467499232"></a><a name="_Toc467590321"></a><a name="_Toc467592597"></a><a name="_Toc467592641"></a><a name="_Toc467656511"></a><a name="_Toc467657720"></a><a name="_Toc467660991"></a>Conclusion</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The analysis of equity across families suggests that, based on an ability-to-pay standard, families with children are paying lower rates of tax (or receiving larger negative tax rates) than single individuals and married couples at lower and middle incomes, while families with children are being taxed more heavily at higher-income levels. At the lowest income levels, the EIC plus child credits provide the largest tax subsidies to families with two to four children. The smallest subsidies go to childless couples or individuals. At middle-income levels, families with many children will have the most favorable treatment because of the effect of the child credit, which has a very large effect relative to tax liability. At higher-income levels, large families are penalized because the adjustments for children such as personal exemptions and child credits are too small or are phased out, while graduated rates cause larger families that need more income to maintain a given living standard to pay higher taxes. Tax rates are more variable at lower-income levels. At all but the lowest and highest income levels, singles pay higher taxes than married couples without children.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">After the 2001 tax cut, the vast majority of taxpayers without children receive a marriage bonus rather than a penalty, with penalties occurring only at the bottom and at the top—the latter due partly to the AMT. The comparison of families with children is less easily defined. Overall, marriage appears to be rewarded, but there is some conflict in the evidence for lower-income families. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There has been continuing interest in increasing the earned income credit for singles and childless couples, which would increase the equity of the current tax system measured by ability to pay, and apparently have small effects on marriage penalties. </p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Joint returns with taxable income over $450,000 and single returns with taxable income over $400,000 had an increase in the top rate from 35% to 39.6% and an increase in the tax rate on dividends and capital gains from 15% to 20%. Joint returns with adjusted gross income over $300,000 and single returns with adjusted gross income of over $250,000 remain subject to the phase out of itemized deductions and personal exemptions. These were the amounts at that time, and they have increased because they are indexed for inflation. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The ratio of prices in 2016 to those in 1948 using the GDP deflator is 8.5, while personal exemptions have increased from $600 to $4,050, a ratio of 6.75.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information on the child credit see CRS Report R41935, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41935"><em><span class="Hyperlink">The Child Tax Credit: Economic Analysis and Policy Options</span></em></a>, by Margot L. Crandall-Hollick; and CRS Report R41873, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41873"><em><span class="Hyperlink">The Child Tax Credit: Current Law and Legislative History</span></em></a>, by Margot L. Crandall-Hollick. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The deduction equivalent of the credit for the 15% bracket is $6,666.66 ($1,000/0.15).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In general, floors and ceilings for standard deductions for joint returns were halved for married couples filing separate returns.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For historical standard deductions since 1988, see CRS Report RL34498, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34498"><em><span class="Hyperlink">Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017</span></em></a>, by Gary Guenther.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In 2016, the personal exemption was $4,050 and the standard deduction $12,600, for a total of $28,800. The exempt allowance in 1948 was $2,667 (600 times 4 divided by 0.9).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information about itemized deductions, see CRS Report R43012, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43012"><em><span class="Hyperlink">Itemized Tax Deductions for Individuals: Data Analysis</span></em></a>, by Sean Lowry; and CRS Report R43079, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43079"><em><span class="Hyperlink">Restrictions on Itemized Tax Deductions: Policy Options and Analysis</span></em></a>, by Jane G. Gravelle and Sean Lowry.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style="">  Internal Revenue Service, <em>Statistics of Income</em>, Table 3.4, 2014, <a class="ExternalLink" href="https://www.irs.gov/uac/soi-tax-stats-individual-statistical-tables-by-tax-rate-and-income-percentile"><span class="Hyperlink">https://www.irs.gov/uac/soi-tax-stats-individual-statistical-tables-by-tax-rate-and-income-percentile</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Details of the tax rates for 2016 can be found in Internal Revenue Service, Revenue Procedure 2015-53, <a class="ExternalLink" href="https://www.irs.gov/pub/irs-drop/rp-15-53.pdf"><span class="Hyperlink">https://www.irs.gov/pub/irs-drop/rp-15-53.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Internal Revenue Service, <em>Statistics of Income</em>, Table 1.1, 2014, <a class="ExternalLink" href="https://www.irs.gov/uac/soi-tax-stats-individual-statistical-tables-by-tax-rate-and-income-percentile"><span class="Hyperlink">https://www.irs.gov/uac/soi-tax-stats-individual-statistical-tables-by-tax-rate-and-income-percentile</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although there were two statutory rate brackets after 1986, 15% and 28%, there was also a surcharge that was designed to phase out the benefits of the 15% rate and the personal exemptions for high-income taxpayers. This surcharge effectively increased the tax rate by 5 percentage points, to 33%, and created a bubble: rates were 15%, then 28%, then 33%, and then fell back to 28%.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a history of the rate structures since 1988, see CRS Report RL34498, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34498"><em><span class="Hyperlink">Individual Income Tax Rates and Other Key Elements of the Federal Individual Income Tax: 1988 to 2017</span></em></a>, by Gary Guenther.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional discussion of the earned income tax credit see CRS Report R43805, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43805"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): An Overview</span></em></a>, by Gene Falk and Margot L. Crandall-Hollick; CRS Report R44057, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44057"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): An Economic Analysis</span></em></a>, by Margot L. Crandall-Hollick; and CRS Report R43873, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43873"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): Administrative and Compliance Challenges</span></em></a>, by Margot L. Crandall-Hollick.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See a review of the evidence in CRS Report R44057, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44057"><em><span class="Hyperlink">The Earned Income Tax Credit (EITC): An Economic Analysis</span></em></a>, by Margot L. Crandall-Hollick </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information see CRS Report R44494, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44494"><em><span class="Hyperlink">The Alternative Minimum Tax for Individuals: In Brief</span></em></a>, by Donald J. Marples.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This concept be may seem unfamiliar, particularly to readers who think of spouses working at home as making a monetary sacrifice, perhaps to stay with their children. While their income is smaller, they save the taxes that would have been paid on outside earnings. However, these spouses do not give up all of their income, since there are cost savings, as in lower child care payments or not having to pay for other services (e.g., dry cleaning, household help). It is this value that provides a benefit to one-earner families and is the imputed income not subject to tax.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For calculations of effective tax rates as compared to statutory rates that show these effective rates are lower overall, see CRS Report R44638, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44638"><em><span class="Hyperlink">Corporate Tax Integration and Tax Reform</span></em></a>, by Jane G. Gravelle.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Progressivity in the tax system is typically based on an equal sacrifice notion and the notion that a dollar to a poor person is much more valuable than a dollar to the wealthy person. These theories do not easily pin down the desired degree of progressivity, however. For a more extensive discussion of distributional issues and of the distribution of the income tax, see out-of-print CRS Report RL32693, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=RL32693"><em>Distribution of the Tax Burden Across Individuals: An Overview</em></a>, by Jane G. Gravelle, available to congressional clients upon request.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Congressional Budget Office, <em>The Distribution of Household and Federal Taxes, 2013, </em>June 2016, <a class="ExternalLink" href="https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/51361-HouseholdIncomeFedTaxes_OneCol.pdf"><span class="Hyperlink">https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/51361-HouseholdIncomeFedTaxes_OneCol.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Harvey E. Brazer, "Income Tax Treatment of the Family," and Alicia Munnell, "The Couple vs. The Individual under the Federal Personal Income Tax," both in <em>The Economics of Taxation</em>, ed. Henry J. Aaron and Michael J. Boskin, Washington, DC, Brookings Institution, 1980.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The notion of children as consumption can be traced to Henry Simons, <em>Personal Income Taxation</em> (Chicago: University of Chicago Press, 1938).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> One argument along these lines is that progressive taxation could be justified by the need to maintain human resources at the bottom of the scale (which justifies some minimum exclusion) and curb the accumulation of power at the top. Since the accumulation of power is undiminished by family size, there should be little differentiation at the top of the scale. See Harold M. Groves, <em>Federal Tax Treatment of the Family</em>, Washington, DC, The Brookings Institution, 1963.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jane Gravelle and Jennifer Gravelle, "Horizontal Equity and Family Tax Treatment: The Orphan Child of Tax Policy," <em>National Tax Journal</em>, vol. 59, September 2006, pp. 631-649. This study calculated stylized effective tax rates reflecting personal exemptions, itemized or standard deductions, the child credit, and the earned income credit. The equivalency formula used was (A+0.7K)<sup>0.7</sup> based on Constance F. Citro and Robert T. Michael, <em>Measuring Poverty: A New Approach</em>, Washington, DC, National Academy Press, 1995. Using this formula, a single person would need 62% of the income of a married couple without children to achieve the same standard of income. A married couple with one child would need 23% more, and a married couple with two children would need 45% more.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For other discussions of this issue, see Daniel Feenberg, "The Tax Treatment of Married Couples and the 1981 Tax Law," In <em>Taxing the Family</em>, Ed. Rudolph G. Penner, Washington: American Enterprise Institute for Public Policy Research, 1983; Harvey Rosen, "The Marriage Tax is Down But Not Out," <em>National Tax Journal</em>, Vol. 40, December, 1987, pp. 567-576; Daniel R. Feenberg and Harvey S. Rosen." Recent Developments in the Marriage Tax." <em>National Tax Journal</em>, Vol. 48, March 1995, pp. 91-101. Rosen, Harvey, "Is It Time to Abandon Joint Filing?" <em>National Tax Journal</em>, Vol. 30 (December 1977): 423-428. U.S. Congressional Budget Office. <em>For Better or for Worse: Marriage and the Federal Income Tax</em>. Washington, DC, June 1997.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, "Table C2: Household Relationships and Living Arrangements of Children Under 18," <a class="ExternalLink" href="http://www.census.gov/population/www/socdemo/hh-fam/cps2005.html"><span class="Hyperlink">http://www.census.gov/population/www/socdemo/hh-fam/cps2005.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Stacy Dickert-Conlin and Scott Houser, "Taxes and Transfers: A New Look at the Marriage Penalty," <em>National Tax Journal</em>, vol. 51 (June 1998), pp. 175-217.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> These and other numbers discussed in this paragraph are from an update of a study by the U.S. Congressional Budget Office, <em>For Better or for Worse: Marriage and the Federal Income Tax</em><em>,</em> Washington, DC, June 1997. These numbers were updated for 1999 in a memorandum from Bob Williams and David Weiner of CBO dated September 18, 1998.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Nicholas Bull, Janet Holtzblatt, James R. Nunns, and Robert Rebelein, "Assessing Marriage Penalties and Bonuses," <em>Proceedings of the 91</em><em><sup>st</sup></em><em> Annual Conference of the National Tax Association</em>, 1998, pp. 327-340. An updated version of this paper is published as Office of Tax Analysis, <em>Defining and Measuring Marriage Penalties and Bonuses</em>, Paper 82, November 1999, <a class="ExternalLink" href="http://www.ustreas.gov/ota/ota82_revised.pdf"><span class="Hyperlink">http://www.ustreas.gov/ota/ota82_revised.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Robert Gillette, Janet Holtzblatt, and Emily Y. Yin, "Marriage Penalties and Bonuses: A Longer Term, Proceeding of the National Tax Association," 2004, Washington, DC, National Tax Association, pp. 468-478.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See <a class="ExternalLink" href="http://www.census.gov/population/www/socdemo/hh-fam/cps2005.html"><span class="Hyperlink">http://www.census.gov/population/www/socdemo/hh-fam/cps2005.html</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Elaine Maag, "Taxes and Marriage for Cohabiting Parents," <em>Tax Notes</em>, May 23, 2005, p. 1031.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Angekla Rachidi<em>, The Earned </em><em>I</em><em>ncome Tax Credit and Marriage Penalties: Does a Childless Worker Expansion Make </em><em>T</em><em>hem Worse?</em><em>,</em><em> </em>November 2015, <a class="ExternalLink" href="https://www.aei.org/wp-content/uploads/2015/10/The-earned-income-tax-credit-and-marriage-penalties.pdf"><span class="Hyperlink">https://www.aei.org/wp-content/uploads/2015/10/The-earned-income-tax-credit-and-marriage-penalties.pdf</span></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
