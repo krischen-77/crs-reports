@@ -1,6 +1,6 @@
 # Official current CRS files
 
-Checked: 2026-11-22T02:38:56.915405+00:00. Official current entries verified: **92/92**.
+Checked: 2026-11-22T15:35:25.844797+00:00. Official current entries verified: **92/92**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
@@ -78,7 +78,7 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-18 | 2026-11-16 | IF12899 v3 | Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence | [PDF](pdf/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.pdf) | [Markdown](markdown/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.md) |
 | 2026-11-18 | 2026-11-17 | IF13282 v2 | Freight Rail Automation: Driverless Trains, Automated Inspections, and Other Technologies | [PDF](pdf/in-focus/IF13282v2-2026-11-17-2918f095ae690550.pdf) | [Markdown](markdown/in-focus/IF13282v2-2026-11-17-2918f095ae690550.md) |
 | 2026-11-18 | 2026-11-17 | IF11643 v24 | Artemis: NASA’s Program to Return Humans to the Moon | [PDF](pdf/in-focus/IF11643v24-2026-11-17-a5ae81b472a23fc4.pdf) | [Markdown](markdown/in-focus/IF11643v24-2026-11-17-a5ae81b472a23fc4.md) |
-| 2026-11-18 | 2026-11-17 | IF12508 v34 | Commercial Human Spaceflight Safety Regulations | [PDF](pdf/in-focus/IF12508v34-2026-11-17-c6c48fbf8690e8da.pdf) | [Markdown](markdown/in-focus/IF12508v34-2026-11-17-c6c48fbf8690e8da.md) |
+| 2026-11-18 | 2026-11-17 | IF12508 v34 | Commercial Human Spaceflight Safety Regulations | [HTML](html/originals/IF12508v34-2026-11-17-dbfe44e8c6d41c54.html) | [Markdown](markdown/originals/IF12508v34-2026-11-17-dbfe44e8c6d41c54.md) |
 | 2026-11-18 | 2026-11-17 | IF12589 v4 | Research Security Policies: An Overview | [PDF](pdf/in-focus/IF12589v4-2026-11-17-63aae3e87ba0ec8a.pdf) | [Markdown](markdown/in-focus/IF12589v4-2026-11-17-63aae3e87ba0ec8a.md) |
 | 2026-11-18 | 2026-11-17 | IF12024 v8 | Farm Bill Primer: Conservation Title | [PDF](pdf/in-focus/IF12024v8-2026-11-17-c720121f827a2229.pdf) | [Markdown](markdown/in-focus/IF12024v8-2026-11-17-c720121f827a2229.md) |
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
