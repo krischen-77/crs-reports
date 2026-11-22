@@ -2,15 +2,15 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-22T02:32:25.330243+00:00
+Watchdog checked UTC: 2026-11-22T02:43:27.617610+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
 | Production stage | Last source/verification receipt (UTC) |
 |---|---|
 | crs-backup.yml | 2026-11-16T02:15:21.477049+00:00 |
-| official-reconcile.yml | 2026-11-22T02:27:55.422432+00:00 |
-| coverage-audit.yml | 2026-11-22T02:32:11.915312+00:00 |
+| official-reconcile.yml | 2026-11-22T02:38:56.915405+00:00 |
+| coverage-audit.yml | 2026-11-22T02:43:14.482488+00:00 |
 
 ## Findings
 
@@ -19,7 +19,7 @@ Collector has unresolved required failures
 
 ## Recovery
 
-Dispatched crs-backup.yml; completion is NOT yet verified
+Retry cooldown/cap active; failure remains visible
 
 Hourly checks; overdue after 26 hours; retry at most once per stage per six hours and four times total per 24 hours.
 A GitHub-wide outage can also stop this watchdog. External monitoring is a separate safety net.
