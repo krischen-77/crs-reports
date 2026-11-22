@@ -1,8 +1,6 @@
-**Official-current verification: 104/104. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-14 to 2026-11-21**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-15 to 2026-11-22**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
@@ -141,15 +139,3 @@ API update dates can describe metadata or file changes. These current PDF files 
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-17 | 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
-| 2026-11-14 | 2026-11-10 | RL30567 v33 | Party Leaders in the United States Congress, 1789-2025 | [PDF](pdf/reports/RL30567v33-2026-11-10-008c428880dee84b.pdf) | [Markdown](markdown/reports/RL30567v33-2026-11-10-008c428880dee84b.md) |
-| 2026-11-14 | 2026-11-13 | R48931 v3 | Sports Reform in the United States: College Athletics and the Olympic Sports Pipeline | [PDF](pdf/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.pdf) | [Markdown](markdown/reports/R48931v3-2026-11-13-1c9122e7b68eab8b.md) |
-| 2026-11-14 | 2024-11-06 | R48255 v2 | National Foundation on the Arts and Humanities: FY2024 Appropriations | [PDF](pdf/reports/R48255v2-2024-11-06-5f857d09008fb3ca.pdf) | [Markdown](markdown/reports/R48255v2-2024-11-06-5f857d09008fb3ca.md) |
-| 2026-11-14 | 2026-11-12 | R47044 v5 | USDA Rural Housing Programs: An Overview | [PDF](pdf/reports/R47044v5-2026-11-12-494473ce42d9bd47.pdf) | [Markdown](markdown/reports/R47044v5-2026-11-12-494473ce42d9bd47.md) |
-| 2026-11-14 | 2024-07-11 | R46925 v11 | Department of Defense Directed Energy Weapons: Background and Issues for Congress | [PDF](pdf/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.pdf) | [Markdown](markdown/reports/R46925v11-2024-07-11-95e8f98bbf9e352c.md) |
-| 2026-11-14 | 2026-11-13 | LSB11499 v1 | Supreme Court Considers Religious Schools, Public Funding, and Nondiscrimination Law | [PDF](pdf/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.pdf) | [Markdown](markdown/sidebars/LSB11499v1-2026-11-13-85933a7d14e944b2.md) |
-| 2026-11-14 | 2026-11-12 | IF13348 v1 | Offshore Energy Agency Appropriations, FY2027 | [PDF](pdf/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.pdf) | [Markdown](markdown/in-focus/IF13348v1-2026-11-12-f1858990ede786d0.md) |
-| 2026-11-14 | 2026-11-12 | IF13346 v3 | AI Investment and the U.S. Economy | [PDF](pdf/in-focus/IF13346v3-2026-11-12-edcd66c878019019.pdf) | [Markdown](markdown/in-focus/IF13346v3-2026-11-12-edcd66c878019019.md) |
-| 2026-11-14 | 2026-11-13 | IF12938 v4 | U.S. Satellite Capabilities for Tracking the Wildfire Life Cycle | [PDF](pdf/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.pdf) | [Markdown](markdown/in-focus/IF12938v4-2026-11-13-164f5795e3b2671a.md) |
-| 2026-11-14 | 2026-11-13 | IF11105 v15 | Defense Primer: Emerging Technologies | [PDF](pdf/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.pdf) | [Markdown](markdown/in-focus/IF11105v15-2026-11-13-b2783a7219b7ded9.md) |
-| 2026-11-14 | 2026-11-13 | IF10545 v19 | Defense Primer: U.S. Special Operations Forces | [PDF](pdf/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.pdf) | [Markdown](markdown/in-focus/IF10545v19-2026-11-13-33d9fd56ee518d39.md) |
-| 2026-11-14 | 2026-10-30 | 98-684 v228 | Latin America and the Caribbean: Fact Sheet on Leaders and Elections | [PDF](pdf/reports/98-684v228-2026-10-30-adeeda63a4642870.pdf) | [Markdown](markdown/reports/98-684v228-2026-10-30-adeeda63a4642870.md) |

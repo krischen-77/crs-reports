@@ -1,0 +1,683 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;RL/PDF/RL31055.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">House Offset Amendments to Appropriations Bills: Procedural Considerations</div>
+<div class="CoverDate">Updated February 6, 2019
+            (RL31055)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc361352"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc361353"><span class="Hyperlink">Parliamentary Context</span></a></li>
+<li class="TOC2"><a href="#_Toc361354"><span class="Hyperlink">Spending Ceilings and Offset Amendments</span></a></li>
+<li class="TOC2"><a href="#_Toc361355"><span class="Hyperlink">Appropriations Measures: Selected Content</span></a></li>
+<li class="TOC3"><a href="#_Toc361356"><span class="Hyperlink">Lump-Sum and Line-Item Appropriations</span></a></li>
+<li class="TOC3"><a href="#_Toc361357"><span class="Hyperlink">Funding Set-Asides</span></a></li>
+<li class="TOC1"><a href="#_Toc361358"><span class="Hyperlink">Types of Offset Amendments</span></a></li>
+<li class="TOC2"><a href="#_Toc361359"><span class="Hyperlink">Clause 2(f) Offset Amendments</span></a></li>
+<li class="TOC3"><a href="#_Toc361360"><span class="Hyperlink">Must Offset Both Budget Authority and Outlays</span></a></li>
+<li class="TOC3"><a href="#_Toc361361"><span class="Hyperlink">Can Only Include Language Transferring Appropriations</span></a></li>
+<li class="TOC3"><a href="#_Toc361362"><span class="Hyperlink">May Contain Certain Unauthorized Appropriations</span></a></li>
+<li class="TOC3"><a href="#_Toc361363"><span class="Hyperlink">Exempt from a "Demand for a Division of the Question"</span></a></li>
+<li class="TOC2"><a href="#_Toc361364"><span class="Hyperlink">Reachback Offset Amendments</span></a></li>
+<li class="TOC3"><a href="#_Toc361365"><span class="Hyperlink">Must Offset Budget Authority But Not Necessarily Outlays</span></a></li>
+<li class="TOC3"><a href="#_Toc361366"><span class="Hyperlink">May Add New Appropriations (and Set-Asides)</span></a></li>
+<li class="TOC3"><a href="#_Toc361367"><span class="Hyperlink">May Not Include Unauthorized Appropriations</span></a></li>
+<li class="TOC3"><a href="#_Toc361368"><span class="Hyperlink">Must Be Drafted to Avoid a "Demand for a Division of the Question"</span></a></li>
+<li class="TOC3"><a href="#_Toc361369"><span class="Hyperlink">May Provide Across-the-Board Spending Reductions as Offsets</span></a></li>
+<li class="TOC1"><a href="#_Toc361370"><span class="Hyperlink">Procedural Considerations</span></a></li>
+<li class="TOC2"><a href="#_Toc361371"><span class="Hyperlink">Opportunities to Waive Parliamentary Rules</span></a></li>
+<li class="TOC2"><a href="#_Toc361372"><span class="Hyperlink">Selected Procedural Advantages of Clause 2(f) Amendments</span></a></li>
+<li class="TOC3"><a href="#_Toc361373"><span class="Hyperlink">May Include Unauthorized Appropriations</span></a></li>
+<li class="TOC3"><a href="#_Toc361374"><span class="Hyperlink">Considered Earlier</span></a></li>
+<li class="TOC2"><a href="#_Toc361375"><span class="Hyperlink">Selected Procedural Advantages of Reachback Amendments</span></a></li>
+<li class="TOC3"><a href="#_Toc361376"><span class="Hyperlink">May Add New Lump-Sum Appropriations or Set-Asides</span></a></li>
+<li class="TOC3"><a href="#_Toc361377"><span class="Hyperlink">May Provide Across-the-Board Cuts in Spending</span></a></li>
+<li class="TOC3"><a href="#_Toc361378"><span class="Hyperlink">May Not Necessarily Have to Offset Outlays</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc361350"><span class="Hyperlink">Table 1. Distribution of Outlays</span></a></li>
+<li><a href="#_Toc361351"><span class="Hyperlink">Table 2. Budget Authority, Spendout Rate, and Outlays</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One of the most common methods for changing spending priorities in appropriations bills on the House floor is through <em>offset amendments</em>. House offset amendments may generally change spending priorities in a pending appropriations measure by increasing spending for certain activities (or creating spending for new activities not previously included in the bill) and offsetting the increase with funding decreases in other activities in the bill. Offset amendments are needed to avoid points of order under Sections 302(f) and 311(a) of the Congressional Budget Act, enforcing certain spending ceilings affecting regular appropriations bills, continuing resolutions (CRs), and supplemental appropriations measures (supplementals). In addition, amendments to general appropriations bills that would increase total spending provided in the bill must be entirely offset.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two types of House offset amendments are considered in the Committee of the Whole House on the State of the Union (Committee of the Whole): clause 2(f) and reachback (or fetchback) amendments. As provided under House Rule XXI, <em>clause 2(f) offset amendments</em> consist of two or more amendments considered together (or en bloc) that would change amounts by directly adding text or changing text in the body of the bill. Taken as a whole, the amendment does not increase the amount of funding in the pending bill. Such amendments (1) must provide offsets in both new budget authority and outlays, (2) can only include language transferring appropriations in the bill, and (3) may contain certain unauthorized appropriations.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Reachback offset amendments</em> are generally offered at the end of the bill and change funding amounts in the pending bill by reference. These amendments (1) must provide offsets in new budget authority, but not necessarily outlays; (2) may add new appropriations (and spending set-asides within certain restrictions); (3) cannot include unauthorized appropriations; and (4) may provide across-the-board spending reductions as offsets.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Parliamentary rules governing consideration of offset amendments may be suspended or waived, typically by House adoption of a special rule but also by unanimous consent.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The advantages of clause 2(f) amendments over reachback amendments are that clause 2(f) amendments may contain certain unauthorized appropriations and are typically considered before reachback amendments, sometimes limiting offset opportunities for reachback amendments. The main advantages of reachback amendments are that they may not have to offset outlays, may add new appropriations, and may include across-the-board spending reductions.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One of the most common methods for redistributing spending priorities in appropriations bills on the House floor is through offset amendments. House <em>offset amendments</em> generally change spending priorities in a pending appropriations measure by increasing spending for certain activities (or creating spending for new activities not previously included in the bill) and offsetting the increase(s) by decreasing or striking funding for other activities in the bill. For example, an amendment increasing funding for one agency funded in the bill by $3 million and decreasing funding for another agency by the same amount in the same bill would be an offset amendment.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These amendments may transfer funds between two activities or among several activities. In addition, certain offset amendments may reduce funding with across-the-board spending reductions.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Representatives use offset amendments for a variety of reasons, including to (1) ensure that proposals increasing funding for certain activities in any appropriations measure<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Appropriations acts are characteristically annual , and funding generally expires at the end of a federal fiscal year. The federal fiscal year begins on October 1 and ends the following September 30. There are three major types of appropriations measures: regular appropriations bills, supplemental appropriations measures (or supplementals), and continuing resolutions. Of the three types, regular appropriations bills generally provide most of the funding (either as separate acts or in o...">1</a></sup> do not violate parliamentary rules enforcing certain spending ceilings; (2) comply with the prohibition against increasing total spending in a general appropriations bill;<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="General appropriations bills are defined by the House as regular appropriations bills and supplemental measures providing funding to two or more agencies ( Rules of the House of Representatives, in House Manual, One Hundred Fourteenth Congress , H.Doc. 11 3 -1 8 1, 11 3 th Congress , 2 nd session , [compiled by] Thomas J. Wickham , Parliamentarian (Washington: GPO, 201 5 ) ( hereinafter House Manual ), § 1044). The prohibition against increasing total spending is in H.Res. 5 (11...">2</a></sup> (3) garner support for efforts to reduce funding for certain activities by transferring those funds to popular programs; and (4) provide a focal point for discussion of a particular issue.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report is an introduction to selected House rules and practices governing the consideration of offset amendments to appropriations measures considered in the Committee of the Whole House on the State of the Union (or Committee of the Whole).<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Clause 3 of House Rule XVIII requires that appropriations measures be considered in the Committee of the Whole before the House votes on passage of the measures ; however, continuing resolutions are typically considered in the House. ( For more information on considering measures in the House or the Committee of the Whole, see CRS Report 95-563, The Legislative Process on the House Floor: An Introduction , by Christopher M. Davis ; and CRS Report RL32200, Debate, Motions, and Other...">3</a></sup> It analyzes the parliamentary context providing the need for offset amendments; the two types of offset amendments, clause 2(f) and reachback (or fetchback) offset amendments, including procedural factors regarding each; and the mechanisms for waiving House rules. The report concludes with highlights on the procedural advantages of each offset amendment type.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report is not an official statement of House procedures. The House Parliamentarian advises the presiding officer on procedural issues regarding offset amendments and other matters. Although this report provides useful background information, it should not be considered a substitute for consultation with the Parliamentarian on specific procedural problems and opportunities.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855787"></a><a name="_Toc468177996"></a><a name="_Toc468180716"></a><a name="_Toc468181452"></a><a name="_Toc468181765"></a><a name="_Toc468269336"></a><a name="_Toc339485"></a><a name="_Toc361353"></a>Parliamentary Context</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Offset amendments are needed to ensure amendments increasing funding for certain activities in a regular appropriations bill, supplemental appropriations bill, or continuing resolution<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="The House typically agrees to prohibit floor amendments to continuing resolutions . A notable exception was consideration of H.R. 1 (112 th Congress), Full- Year Continuing Appropriations Act, 2011.">4</a></sup> do not also cause spending ceilings associated with the annual budget resolution to be exceeded. Additionally, a separate order of the House prohibits amendments increasing the total spending level in a general appropriations bill.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855788"></a><a name="_Toc468177997"></a><a name="_Toc468180717"></a><a name="_Toc468181453"></a><a name="_Toc468181766"></a><a name="_Toc468269337"></a><a name="_Toc339486"></a><a name="_Toc361354"></a>Spending Ceilings and Offset Amendments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the Congressional Budget Act of 1974,<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="P.L. 93-344 , as amended. For more information, see CRS Report R42388, The Congressional Appropriations Process: An Introduction , coordinated by James V. Saturno ; and CRS Report 97-865, Points of Order in the Congressional Budget Process , by James V. Saturno .">5</a></sup> as amended, Congress typically considers an annual budget resolution each spring.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="In cases in which Congress delays completion of the annual budget resolution (or does not adopt one), each chamber may adopt a deeming resolution (s ee CRS Report R44296, Deeming Resolutions: Budget Enforcement in the Absence of a Budget Resolution , by Megan S. Lynch ).">6</a></sup> These measures are under the jurisdiction of the House and Senate Budget Committees. Each budget resolution establishes, in part, total new budget authority<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="Congress provides spending to agencies in the form of budget authority , which does not represent cash provided to, or reserved for, agencies. Instead, the term refers to authority provided by federal law to enter into contracts or other financial obligations that will result in immediate or future expenditures (or outlays ) involving federal government funds. Most appropriations are a form of budget authority that also provide legal authority to make the subsequent payments from the Treas...">7</a></sup> and outlay ceilings for federal government activities for the upcoming fiscal year. Once these figures are finalized, under Section 302(a) of the Congressional Budget Act, the new budget authority and outlays are required to be allocated among the House committees with jurisdiction over spending, and each committee is given specific spending ceilings (referred to as the <em>302(a) allocations</em>). The House Appropriations Committee receives separate allocations for discretionary and direct spending<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Congress divides budget authority and outlays into two categories: discretionary and direct (or mandatory ) spending . Discretionary spending is controlled by annual appropriations acts, which are under the jurisdiction of the House and Senate Committees on Appropriations. Direct spending is controlled by legislative acts under the jurisdiction of the authorizing committees , although the authority to finance these obligations may be included in appropriations acts. Such direct s...">8</a></sup> and, in turn, is required under Section 302(b) to subdivide its 302(a) allocations among its 12 appropriations subcommittees,<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Each House appropriations subcommittee has responsibility for drafting one of the 12 regular annual appropriations bills.">9</a></sup> providing each subcommittee with its spending ceiling (<em>302(b) subdivisions</em>). In the case of the Appropriations Committee, these allocations are only established for the upcoming fiscal year because appropriations measures are annual.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two Congressional Budget Act points of order, under Sections 302(f) and 311(a), enforce selected spending ceilings. The 302(f) point of order prohibits, in part, floor consideration of any committee-reported appropriations measure and related amendments<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Both the 302(f) and 311(a) points of order also apply to conference reports to appropriations measures.">10</a></sup> providing new budget authority for the upcoming fiscal year that would cause the applicable 302(a) or 302(b) allocations of new budget authority for that fiscal year to be exceeded. In effect, the application of this point of order on appropriations legislation is generally limited to discretionary spending. If, for example, the 302(b) subdivision in new discretionary budget authority for a fiscal year is $24 billion and the reported bill would provide the same amount for the same fiscal year, any amendment proposing an increase in new discretionary budget authority for activities in the bill (or creating new discretionary budget authority) would cause the 302(b) limit for that bill to be exceeded, triggering the 302(f) point of order. An offset amendment, however, that also includes a commensurate decrease in new discretionary budget authority for activities in the bill would not prevent a violation of the rule.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="This point of order to enforce 302(b) subdivisions was previously supplemented by two separate orders. One, first adopted during the 109 th Congress (2005-2006) as a freestanding resolution ( H.Res. 248 ), provided that a motion that the Committee of the Whole rise and report an appropriations bill to the House was not in order if the bill, as amended, exc eeded the applicable 302(b) subdivisio n. This provision was subsequently adopted as a separate order for the 110 th -115 th Congresses...">11</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The second rule, the 311(a) point of order, prohibits, in part, floor consideration of any committee-reported appropriations measure and related amendments providing new budget authority for the upcoming fiscal year that would cause the applicable total budget authority and outlay ceilings in the budget resolution for that fiscal year to be exceeded.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Under Section 311(b) , however, the point of order would not apply to appropriations measures and related amendments that would not also cause the 302( a ) allocation to be exceeded . This is referred to as the Fazio exception .">12</a></sup> As the amounts of all the spending measures considered in the House accumulate, they could potentially reach or exceed these ceilings. This point of order would typically affect the last spending bills to be considered, such as supplemental appropriations measures or the last regular appropriations bills.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a Representative raises a point of order that an amendment violates either rule and the presiding officer sustains the point of order, the amendment falls.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appropriations measures considered on the House floor are typically at or just below the level of the subcommittee's 302(b) subdivision and, in some cases, the committee's 302(a) allocation and the total spending ceiling as well.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855790"></a><a name="_Toc468177999"></a><a name="_Toc468180719"></a><a name="_Toc468181455"></a><a name="_Toc468181768"></a><a name="_Toc468269339"></a><a name="_Toc339487"></a><a name="_Toc361355"></a>Appropriations Measures: Selected Content</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The structure of appropriations measures has a direct impact on the form of offset amendments. Because regular appropriations bills and supplementals generally include several lump-sum and line-item appropriations, adding a new appropriation or increasing funding for an appropriation in the bill typically requires an offset. The procedural necessity of an offset for a funding set-aside within a lump-sum appropriation is dependent on the structure of the appropriation in the bill.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855791"></a><a name="_Toc468178000"></a><a name="_Toc468180720"></a><a name="_Toc468181456"></a><a name="_Toc468181769"></a><a name="_Toc468269340"></a><a name="_Toc339488"></a><a name="_Toc361356"></a>Lump-Sum and Line-Item Appropriations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Regular appropriations bills and supplemental appropriations measures generally contain numerous unnumbered paragraphs. Most paragraphs provide a lump-sum amount (usually an appropriation) for similar programs, projects, or activities. Such paragraphs are referred to as <em>lump-sum appropriations</em>. A few paragraphs may provide an appropriation for a single program or project, referred to as a <em>line-item appropriation</em>.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="Each large agency, whether under a department or independent, is typically funded by several appropriations accounts . All programs, projects, and activities under a small agency may be funded with a single account .">13</a></sup> Most appropriations paragraphs correspond to a unique budget account.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The total net spending levels provided in an appropriations bill include all lump-sum and line-item appropriations, rescissions,<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title='"A rescission is a provision of law that cancels the availability of budget authority previously enacted before the authority would otherwise expire." Glossary of Terms Used in the Federal Budget Process , p. 85.'>14</a></sup> and other provisions affecting spending. An amendment increasing a lump-sum or line-item appropriation as well as adding a new appropriation to a general appropriations bill would violate Section 3(d)(3) unless it was accompanied by a commensurate offset regardless of the level of spending in the measure. In addition, appropriations bills initially considered on the House floor are typically near or at the level of the subcommittee's 302(b) subdivision and, in some cases (particularly supplementals), the committee's 302(a) allocation and the total spending ceilings as well. An amendment increasing a lump-sum or line-item appropriation, therefore, could increase the amount of funding in the bill, causing it to exceed these ceilings. As a result, such an amendment typically requires an offset for it to be in order.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855792"></a><a name="_Toc468178001"></a><a name="_Toc468180721"></a><a name="_Toc468181457"></a><a name="_Toc468181770"></a><a name="_Toc468269341"></a><a name="_Toc339489"></a><a name="_Toc361357"></a>Funding Set-Asides</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Within a lump-sum appropriation, separate amounts are sometimes included in the bill that set aside spending for specified programs, projects, or activities (for purposes of this report, they are referred to as <em>funding set-asides</em>).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An amendment proposing to increase (or create) a funding set-aside in a lump-sum appropriation that has been entirely set aside in the bill would procedurally require a commensurate offset. In the example below, the three set-asides total $200 million, which is the total lump-sum amount. An amendment proposing an increase in any of the three set-asides that does not include an offset in one of the other set-asides would require an increase of the lump-sum amount.</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For necessary expenses, including salaries and related expenses, of the Executive Office for YYY, to implement program activities, $200,000,000, of which <em>$100,000,000</em> is for the yellow program, <em>$50,000,000</em> for the green program, and <em>$50,000,000</em> for the blue program.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">By contrast, certain set-aside amendments would not increase lump-sum amounts. If a bill contains a lump-sum amount with no set-asides, for example, an amendment designating part (or all) of the funds for a particular purpose would not increase spending. In cases in which the lump-sum appropriation includes a set-aside(s) that does not affect the entire amount, an amendment setting aside only the remaining funds or a portion of those funds would also not increase spending. If enacted, the effect of either case would be reductions in funding for activities that were not set aside to accommodate funding in the bill that was specified as set-asides. To avoid such reductions, amendments may include offsets from other appropriations in the bill.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855793"></a><a name="_Toc468178002"></a><a name="_Toc468180722"></a><a name="_Toc468181458"></a><a name="_Toc468181771"></a><a name="_Toc468269342"></a><a name="_Toc339490"></a><a name="_Toc361358"></a>Types of Offset Amendments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are two types of offset amendments, clause 2(f) and reachback (or fetchback) amendments, available during consideration of regular and supplemental appropriations bills in the Committee of the Whole. Clause 2(f) refers to clause 2(f) of House Rule XXI, which establishes some of the parliamentary procedures governing the consideration of such amendments.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='C lause 2(f ) of House Rule XXI : " During the reading of an appropriation bill for amendment in the Committee of the Whole House on the state of the Union, it shall be in order to consider en bloc amendments proposing only to transfer appropriations among objects in the bill without increasing the levels of budget authority or outlays in the bill. When considered en bloc under this paragraph, such amendments may amend portions of the bill not yet read for amendment (following disposition...'>15</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855794"></a><a name="_Toc468178003"></a><a name="_Toc468180723"></a><a name="_Toc468181459"></a><a name="_Toc468181772"></a><a name="_Toc468269343"></a><a name="_Toc339491"></a><a name="_Toc361359"></a>Clause 2(f) Offset Amendments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Clause 2(f) offset amendments</em> consist of two or more amendments considered together (or en bloc)<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="Under the clause 2(f) of House Rule XXI, amendments are allowed to be considered en bloc. Other amendments may generally not be considered en bloc unless by unanimous consent or pursuant to the terms of a special rule. See W[illia]m Holmes Brown, Charles W. Johnson, and John V. Sullivan, House Practice: A Guide to the Rules, Precedents and Procedures of the House , 112 th Congress , 1 st session (Washington: GPO, 2011) ( hereinafter House Practice ), chapter 2, §30.">16</a></sup> that would change amounts by directly adding text or changing text in the body of the bill. <em>Reachback offset amendments</em>, by contrast, are generally offered at the end of the bill, that change funding amounts by reference. The clause 2(f) offset amendment transfers appropriations among objects<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title='Objects would include accounts or activities, programs, or projects within an account. In addition, during the 112 th -115 th C ongresses, the House adopted a s eparate order requiring that all general appropriations bills include a spending reduction account. This "account" was a provision in the last section of the bill that could function as a temporary deposit box into which amendments could transfer budget authority that would not be available as an offset for further amendments...'>17</a></sup> in the pending bill and, taken as a whole, does not cause the bill to exceed the total new budget authority or outlay levels already provided in the bill. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An example of a clause 2(f) offset amendment follows. This amendment would have decreased the lump-sum appropriation for the Bureau of the Census, Periodic Censuses and Programs account by $10 million; increased the lump-sum appropriation for the Office of Justice Programs, State and Local Law Enforcement Assistance account by $10 million; and increased a set-aside within the latter appropriation for the Southwest Border Prosecutor Initiative by the same amount.</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Page 6, line 23, after t<a name="_GoBack"></a>he dollar amount insert "(reduced by $10,000,000)."</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Page 42, line 8, after the dollar amount insert "(increased by $10,000,000)."</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Page 43, line 8, after the dollar amount insert "(increased by $10,000,000)."<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="Representative Capito, remarks in the House, Congressional Record (daily edition), vol. 153 (July 25, 2007), p. H8435. The amendment was offered to the FY2008 Commerce, Justice, and Science appropriations bill.">18</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">These offset amendments typically change a spending level by inserting after the amount a parenthetic increase or decrease (see example above). Under House rules, an amendment generally cannot amend previously amended text.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="House Manual , § 469.">19</a></sup> Changing a monetary figure by a parenthetic increase or decrease placed after the amount text, rather than changing the amount in the text, however, is allowed.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="House Practice , c hapter 2, § 42.">20</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under House rules, clause 2(f) offset amendments must be offered when the first portion of the bill to be amended is pending. In practice, however, they may be offered at other times if no Member objects. In the Committee of the Whole, appropriations bills are generally read for amendment sequentially by paragraph. After the reading clerk reads or designates a paragraph, the presiding officer entertains any points of order against that paragraph, and then Members may propose amendments to it. After the clerk has designated or begun reading the next paragraph, amendments to the former paragraph are not in order.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="During consideration of appropriations measures, the Committee of the Whole may agree by unanimous consent to open the bill for amendment at any point a portion of the bill, such as several paragraphs or a title. Such an agreement eliminates the requirement that amendments be proposed to the specified portion of the bill in sequential order.">21</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Prior to consideration of a proposed clause 2(f) offset amendment, the presiding officer asks if any Member wants to raise a point of order against any provision the en bloc amendment would change. If a point of order against such a provision is sustained, the provision is stricken from the bill and is no longer amendable. Therefore, the offset amendment would fall as well, unless appropriately modified or amended by unanimous consent.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are four additional procedural implications regarding clause 2(f) offset amendments. These amendments (1) must offset any increase in both budget authority and outlays, (2) can only include language transferring appropriations, (3) may contain certain unauthorized appropriations, and (4) are exempt from a "demand for a division of the question."<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="House Manual , § 1063a.">22</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855795"></a><a name="_Toc468178004"></a><a name="_Toc468180724"></a><a name="_Toc468181460"></a><a name="_Toc468181773"></a><a name="_Toc468269344"></a><a name="_Toc339492"></a><a name="_Toc361360"></a>Must Offset Both Budget Authority and Outlays</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under clause 2(f) of House Rule XXI, any spending increases in a clause 2(f) offset amendment must be offset by commensurate reductions in both new budget authority and outlays. The 302(f) point of order enforcing 302(a) and 302(b) allocations and Section 3(d)(3) only apply to budget authority.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="The 311(a) point of order enforces total new budget authority and outlays.">23</a></sup> The spending increases and decreases contained in an offset amendment must be provided in the same fiscal year, the year of the pending appropriations bill.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Offset amendments providing equal increases and decreases in new budget authority might not produce equal amounts of outlays in the same fiscal year. The amount of resulting outlays may vary among different accounts because the length of time needed to complete the activities funded may differ. It takes less time to purchase office supplies than to complete construction of an aircraft carrier. For example, in <strong><a class="InternalLink" href="#_Ref218943843"></a></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong>, the distribution of outlays from $20 million in new budget authority varies between two accounts.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref218943843"></a><a name="_Toc399855782"></a><a name="_Toc468177993"></a><a name="_Toc468180713"></a><a name="_Toc468181449"></a><a name="_Toc468181762"></a><a name="_Toc468269333"></a><a name="_Toc339482"></a><a name="_Toc361350"></a>Table 1. Distribution of Outlays</p>
+<p class="TableSubTitle">(in millions of dollars)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Account</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">FY2017</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">FY2018</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">FY2019</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">FY2020</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Total</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="">Operating Expenses</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">18</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">—</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">—</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style="">Construction</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">8</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">8</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> Table compiled by the Congressional Research Service.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Based on historical spending practices, the Congressional Budget Office (CBO) each year estimates the speed at which outlays from each appropriation will occur, referred to as the <em>spendout rates</em> (or <em>outlay rates</em>). A spendout rate is the rate at which budget authority is expected to be spent (outlays) in a fiscal year.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="Glossary of Terms Used in the Federal Budget Process , p. 91.">24</a></sup> In the example in <strong><a class="InternalLink" href="#_Ref218943843"></a></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong>, the FY2017 spending rate for the operating expenses account is 90%, whereas the rate for the construction account is 10%.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The varying spendout rates of appropriations sometimes complicate efforts to increase budget authority. In the example in <strong><a class="InternalLink" href="#_Ref218943880"></a></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong>Table 2</strong><strong></strong>, increasing FY2017 budget authority for an operating expenses account by $20 million produces $18 million in outlays. Decreasing a construction account by the same amount in budget authority, however, produces only $2 million in outlays. Under this scenario, reductions in three accounts produce the $18 million in outlays needed to fund the $20 million budget authority increase in operating expenses. By contrast, increasing the construction account by $20 million in budget authority would be easier because only $2 million in outlays would be required.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref218943880"></a><a name="_Toc399855783"></a><a name="_Toc468177994"></a><a name="_Toc468180714"></a><a name="_Toc468181450"></a><a name="_Toc468181763"></a><a name="_Toc468269334"></a><a name="_Toc339483"></a><a name="_Toc361351"></a>Table 2. Budget Authority, Spendout Rate, and Outlays</p>
+<p class="TableSubTitle">(in millions of dollars)</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:139.8816pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">Budget Authority</p>
+</td>
+<td style="width:99.5328pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">FY2017 Budget Authority</p>
+</td>
+<td style="width:99.5328pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">FY2017 Spendout Rate </p>
+</td>
+<td style="width:93.0528pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="text-align:center;">FY2017 Outlays</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="" valign="top">
+<p class="TableText" style=""><strong>Increase</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:139.8816pt;" valign="top">
+<p class="TableText" style="">Operating Expenses</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">90%</p>
+</td>
+<td style="width:93.0528pt;" valign="top">
+<p class="TableText" style="text-align:center;">18</p>
+</td>
+</tr>
+<tr style="">
+<td colspan="4" style="" valign="top">
+<p class="TableText" style=""><strong>Offsets</strong></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:139.8816pt;" valign="top">
+<p class="TableText" style="">Construction</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">10</p>
+</td>
+<td style="width:93.0528pt;" valign="top">
+<p class="TableText" style="text-align:center;">2</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:139.8816pt;" valign="top">
+<p class="TableText" style="">Government Assistance Program</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+<td style="width:93.0528pt;" valign="top">
+<p class="TableText" style="text-align:center;">4</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:139.8816pt;" valign="top">
+<p class="TableText" style="">Security</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">20</p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">60</p>
+</td>
+<td style="width:93.0528pt;" valign="top">
+<p class="TableText" style="text-align:center;">12</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:139.8816pt;" valign="top">
+<p class="TableText" style=""><strong>Total</strong></p>
+</td>
+<td style="width:99.5328pt;" valign="top">
+<p class="TableText" style="text-align:center;">60</p>
+</td>
+<td style="width:99.5328pt;" valign="top"> <p class="TableText" style="text-align:center;"></p>
+</td>
+<td style="width:93.0528pt;" valign="top">
+<p class="TableText" style="text-align:center;">18</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong> Table compiled by the Congressional Research Service.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Representatives (or their staff) routinely ask CBO to estimate the budgetary effects of their clause 2(f) offset amendments for informational purposes. If a point of order is raised under clause 2(f), the chair relies on determinations made by the House Appropriations Committee as to the budgetary effects of the amendment.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="See, for example, the proceedings in Congressional Record , daily edition, vol. 160, part 95 (June 18, 2014), pp. H5445-H5446 . For amendments subject to 302(f) and 311(a) points of order in the House, Section 312(a) of t he Congressional Budget Act provides that levels of new budget authority and outlays shall be determined on the basis of estimates made by the House Budget Committee. Clause 4 of House Rule XXIX clarifies that the chair of the committee may provide such authoritative gu...">25</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855796"></a><a name="_Toc468178005"></a><a name="_Toc468180725"></a><a name="_Toc468181461"></a><a name="_Toc468181774"></a><a name="_Toc468269345"></a><a name="_Toc339493"></a><a name="_Toc361361"></a>Can Only Include Language Transferring Appropriations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Clause 2(f) offset amendments are, in part, amendments "proposing <em>only</em> to transfer appropriations among objects in the bill"<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="Clause 2(f) of House Rule XXI.">26</a></sup> by directly changing dollar amounts. Provisions that would not be considered "transferring appropriations" include adding a new lump-sum appropriation or spending set-aside, changing the amount of a rescission, providing an across-the-board spending reduction, or reaching back to provisions in the bill the House has already considered.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="House Manual , § 1063a.">27</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855797"></a><a name="_Toc468178006"></a><a name="_Toc468180726"></a><a name="_Toc468181462"></a><a name="_Toc468181775"></a><a name="_Toc468269346"></a><a name="_Toc339494"></a><a name="_Toc361362"></a>May Contain Certain Unauthorized Appropriations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Clause 2(a) of House Rule XXI generally prohibits unauthorized appropriations in certain committee-reported appropriations bills and amendments to such bills.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="Ibid . , § 1036.">28</a></sup> Certain amendments, such as clause 2(f) offset amendments, however, may increase the level of funding for certain unauthorized appropriations already in the bill.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under clause 2(a), appropriations must generally be for purposes authorized by prior enactment of legislation concerning a program (or an agency, account, project, or activity). An "[a]uthorization for a program may be derived from a specific law providing authority for that particular program or from a more general existing law—'organic law'—authorizing appropriations for such programs."<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="House Practice , c ha pter 4, § 12.">29</a></sup> Authorizations of subsequent appropriations may be permanent or they may be multi-year or annual, expiring at the end of a specific time period.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The rule prohibits floor consideration of appropriations for a purpose or program whose authorization has expired or whose budget authority exceeds the ceiling authorized, if any. Appropriations violating these restrictions are <em>unauthorized appropriations</em>.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="Unauthorized appropriations for works and projects in progress are allowed. This prohibition applies to general appropriations bills . Because c ontinuing resolutions are not considered general appropriations bills , they may include unauthorized appropriations . House Manual , § 1044.">30</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appropriations bills frequently include unauthorized appropriations. Such appropriations are allowed to remain in an appropriations bill when the House adopts a special rule waiving points of order against the appropriation or, less frequently, when no one raises a point of order against it.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="Prior to consideration of a regular or supplemental appropriations bill, the House typically adopts a special rule waiving, in part, this rule for the entire bill or the entire bill with selected exceptions.">31</a></sup> Under House precedents, a germane amendment that merely perfects an unauthorized appropriation permitted to remain in the bill is allowed.<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="House Practice , chapter 4, § 69.">32</a></sup> An example would be an amendment that would only increase the unauthorized amount and would do so by either amending the amount text or by inserting a parenthetical increase after the amount (such as an en bloc clause 2(f) offset amendment). One scenario for providing such funding would follow the following steps:</p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. An authorization act provided an authorization of appropriations of $2 million for program yellow through FY2016; as of the close of FY2016, the entire amount of the authorization had expired.</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. Subsequently, an FY2017 regular appropriations bill provides an unauthorized appropriation of $2 million for program yellow.</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">3. The House adopts a special rule waiving clause 2(a) of House Rule XXI against all provisions in the bill, allowing the above appropriation to remain.</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">4. A clause 2(f) offset amendment parenthetically increasing the unauthorized appropriation by $1 million for program yellow is allowed.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Although clause 2(f) offset amendments may increase an unauthorized appropriation, they remain subject to budget authority and the outlay offset requirements of clause 2(f) of House Rule XXI.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A clause 2(f) amendment may not propose to increase an "authorized appropriation" in an appropriations bill beyond the authorized level.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="House Manual , § 1063a.">33</a></sup> For example, if an authorization act included a $2 million authorization for FY2017 and the regular appropriations bill provided that amount, an offset amendment increasing the amount above that level would be prohibited.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855798"></a><a name="_Toc468178007"></a><a name="_Toc468180727"></a><a name="_Toc468181463"></a><a name="_Toc468181776"></a><a name="_Toc468269347"></a><a name="_Toc339495"></a><a name="_Toc361363"></a>Exempt from a "Demand for a Division of the Question"</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under clause 2(f) of House Rule XXI, these amendments are not subject to a "demand for a division of the question in the House or in the Committee of the Whole."<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="Clause 2(f) of House Rule XXI.">34</a></sup> That is, a Member cannot demand separate consideration of two or more provisions in such en bloc amendments. Instead. the House must consider the amendment as a whole.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="For more information on a &quot;demand for a division of the question,&quot; see &quot;Must Be Drafted to Avoid a 'Demand for a Division of the Question'&quot; under reachback amendments below.">35</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855799"></a><a name="_Toc468178008"></a><a name="_Toc468180728"></a><a name="_Toc468181464"></a><a name="_Toc468181777"></a><a name="_Toc468269348"></a><a name="_Toc339496"></a><a name="_Toc361364"></a>Reachback Offset Amendments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Reachback</em> (or <em>fetchback</em>) <em>offset amendments</em> add a new section (or title), typically at the end of an appropriations measure, that reaches back to change amounts previously considered by reference.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="In cases in which the amount has already been amended, reachback amendments do not violate House rules prohibiting amendments that would amend previously amended text be c aus e reachback amendments change amounts by reference as opposed to by changing the text.">36</a></sup> For example, the following amendment inserted a new section at the end of the committee-reported FY2008 Labor, Health and Human Services, and Education regular appropriations bill (<a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.3043:">H.R. 3043</a>, 110<sup>th</sup> Congress):</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Title VI—Additional General Provisions</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Sec. 601. The amounts otherwise provided by this Act are revised by reducing the amount made available for the "Department of Labor, Employment and Training Administration, Training and Employment Services", by increasing the amount made available for the "National Institutes of Health, National Cancer Institute", and by increasing the amount made available for the "National Institutes of Health, National Institute of Neurological Disorders and Stroke" by $49,000,000, $10,000,000, and $10,000,000, respectively.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="Representative Garrett, remarks in the House, Congressional Record (daily edition), vol. 153, July 19, 2007, p. H8131. The House adopted the amendment by voice vote on July 19, 2007.">37</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Prior to adoption of Section 3(d)(3) of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.Res.5:">H.Res. 5</a> (112<sup>th</sup> Congress), reachback amendments to general appropriations bills could have been offered that increased spending provided in the bill as long as they did not violate the 302(f) and 311(a) points of order. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reachback amendments</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">must offset budget authority, but not necessarily outlays; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">may add new lump-sum appropriations and set-asides, subject to certain restrictions;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">may not include unauthorized appropriations; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">must be drafted to avoid a demand for a division of the question; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">may provide across-the-board spending reductions as offsets.</li></ul><p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855800"></a><a name="_Toc468178009"></a><a name="_Toc468180729"></a><a name="_Toc468181465"></a><a name="_Toc468181778"></a><a name="_Toc468269349"></a><a name="_Toc339497"></a><a name="_Toc361365"></a>Must Offset Budget Authority But Not Necessarily Outlays</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under the 3(d)(3) and 302(f) points of order, only budget authority offsets are needed; but the 311(a) point of order applies to both new budget authority and outlays. Generally, the most restrictive points of order are those under 3(d)(3) and 302(f) enforcing the 302(b) subdivisions, which both enforce only budget authority. Furthermore, only the last spending measures considered for a fiscal year, such as supplementals or the last regular bills, are likely to breach the overall spending limit and violate the 311(a) point of order. For reachback amendments, budget authority offsets are generally the primary procedural concern.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Opponents of a reachback amendment may, however, raise the lack of outlay offsets as a concern for policy reasons. They may also argue that the resulting outlay increases might present a procedural problem for the bill in the Senate or in conference.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the case of reachback amendments that also provide sufficient new budget authority reductions to offset any outlay increases, Representatives (or their staff) routinely ask CBO to estimate the outlay effect of their amendments.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title='See "Must Offset Both Budget Authority and Outlays" under clause 2(f) offset amendments above.'>38</a></sup> The spending increases and decreases contained in an offset amendment must be provided in the same fiscal year, the year of the pending appropriations bill.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855801"></a><a name="_Toc468178010"></a><a name="_Toc468180730"></a><a name="_Toc468181466"></a><a name="_Toc468181779"></a><a name="_Toc468269350"></a><a name="_Toc339498"></a><a name="_Toc361366"></a>May Add New Appropriations (and Set-Asides)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reachback amendments may contain new appropriations and set-asides for certain activities not already included in the bill. Such new appropriations and set-asides must be germane to the bill.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under clause 7 of House Rule XVI,<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="House Manual , clause 7 of House Rule XVI .">39</a></sup> all amendments must be <em>germane</em> to the pending bill. That is, they may not add new subject matter to the bill. Reachback amendments offered at the end of the bill must be germane to the bill, and those offered at the end of a title must be germane to the title. Regular appropriations measures generally have broad subject matter, which may provide flexibility for reachback amendments.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Set-asides may not, however, violate a House rule prohibiting legislation on a general appropriations bill (or legislation). Clause 2(b) of House Rule XXI prohibits legislation in committee-reported general appropriations bills, and clause 2(c) prohibits legislation in amendments to those measures.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="House Manual , clause 2(b) and (c) of House Rule XXI .">40</a></sup> For purposes of this rule, <em>legislation</em> refers to any provision in a general appropriations bill or related amendment that changes existing law, such as proposals amending or repealing existing law or creating new law. The following are examples of legislative language: abolishing a department, agency, or program; providing, changing, limiting, or waiving an authorization; or proposing new rescissions in the appropriations bill.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="Although the House Appropriations Committee may report rescissions, amendments may not include them.">41</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">One of the guiding principles in interpreting this prohibition is that an amendment designating funds may not interfere with an executive branch official's statutory authority. For example, such amendments may not significantly alter the official's discretion. Language doing so changes existing law and is therefore prohibited. For example, if an authorization law provides an agency head with the authority to make decisions allocating funds within a particular lump-sum appropriation, an amendment proposing a new set-aside would alter the agency head's authority and would thus be out of order.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="For further information, see CRS Report R41634, Limitations in Appropriations Measures: An Overview of Procedural Issues , by James V. Saturno .">42</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In cases where a new set-aside would violate the rules, an amendment sponsor frequently does not include the set-aside in the amendment; instead, the sponsor merely discusses that set-aside in terms of intent and expectation during debate on the amendment. This approach is used to avoid the point of order against the amendment. The amendment's sponsor may also urge conferees to include the set-aside in any subsequent conference report.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Recent House practice has also included amendments for which both the increase and the offset apply to the same provision in an appropriation bill. These amendments use the form of en bloc offset amendments in order to allow Members the opportunity to discuss a new set aside or other agency guidance without changing the overall level of funding provided in the bill. At the end of consideration, such amendments are withdrawn by unanimous consent.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title='For an example, see Representative Meehan , "Amendment No. 5 Offered by Mr. Meehan," Congressional Record (daily edition), vol. 1 62 , Ju ne 1 5 , 20 16 , p p. H 3 8 66-38868 .'>43</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855802"></a><a name="_Toc468178011"></a><a name="_Toc468180731"></a><a name="_Toc468181467"></a><a name="_Toc468181780"></a><a name="_Toc468269351"></a><a name="_Toc339499"></a><a name="_Toc361367"></a>May Not Include Unauthorized Appropriations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under clause 2(a) of House Rule XXI, new appropriations and set-asides included in amendments must be proposed for authorized purposes. All new set-asides must also be proposed to authorized lump-sum appropriations.<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="House Manual , clause 2(a) of House Rule XXI .">44</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In contrast to clause 2(f) offset amendments, reachback amendments may not increase unauthorized appropriations permitted to remain in the bill because they do not change the text of the bill. The section added by a reachback amendment is considered adding a further unauthorized appropriation, as opposed to merely perfecting the text.<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title='House Manual , § 1058. For an explanation of unauthorized appropriations, see "May Contain Certain Unauthorized Appropriations" under clause 2(f) offset amendments above.'>45</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855803"></a><a name="_Toc468178012"></a><a name="_Toc468180732"></a><a name="_Toc468181468"></a><a name="_Toc468181781"></a><a name="_Toc468269352"></a><a name="_Toc339500"></a><a name="_Toc361368"></a>Must Be Drafted to Avoid a "Demand for a Division of the Question"</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under clause 5 of House Rule XVI,<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="House Manual , clause 5 of House Rule XVI .">46</a></sup> a Member may demand separate consideration of two or more individual portions of an amendment if each portion identified, when standing alone, is a separate, substantive proposition and is grammatically separate "so that if one proposition is rejected a separate proposition will logically remain."</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Because reachback amendments are potentially subject to a demand for a division of the question, if the presiding officer rules that an amendment is divisible, each divided portion of the amendment will be considered separately and subject to separate debate and amendment, as well as a separate vote.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Members often demand a division of the question on an amendment to more easily defeat one or more of the portions of that amendment separately. For example, a majority of Members might be opposed to the portion of an offset amendment that decreases funds for a particular program. One of them might demand a division of the question that, if granted, would allow a separate vote on the funding decrease portion of the amendment. Even if the amendment as a whole was not subject to a point of order, once one portion is defeated the remainder may be subject to the Section 3(d)(3) or Congressional Budget Act points of order.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855804"></a><a name="_Toc468178013"></a><a name="_Toc468180733"></a><a name="_Toc468181469"></a><a name="_Toc468181782"></a><a name="_Toc468269353"></a><a name="_Toc339501"></a><a name="_Toc361369"></a>May Provide Across-the-Board Spending Reductions as Offsets</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reachback amendments may include as an offset across-the-board spending cuts. Clause 2(f) amendments may only directly change amounts in the bill.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855805"></a><a name="_Toc468178014"></a><a name="_Toc468180734"></a><a name="_Toc468181470"></a><a name="_Toc468181783"></a><a name="_Toc468269354"></a><a name="_Toc339502"></a><a name="_Toc361370"></a>Procedural Considerations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Parliamentary rules may be suspended or waived to consider offset amendments that violate these rules, typically by House adoption of a special rule. However, this approach has been used infrequently.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are certain procedural advantages of clause 2(f) amendments over reachback amendments and vice versa.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Ref278201246"></a><a name="_Toc399855806"></a><a name="_Toc468178015"></a><a name="_Toc468180735"></a><a name="_Toc468181471"></a><a name="_Toc468181784"></a><a name="_Toc468269355"></a><a name="_Toc339503"></a><a name="_Toc361371"></a>Opportunities to Waive Parliamentary Rules</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are generally three limited opportunities to suspend or waive the rules governing consideration of an offset amendment: (1) if no one raises a point of order; (2) if the House adopts a special rule explicitly waiving points of order against the amendment; or (3) if the House agrees by unanimous consent to waive the rules. Otherwise, if the presiding officer sustains a point of order against an amendment for violating the parliamentary rules previously discussed, the amendment falls.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">First, House rules are not generally self-enforcing. A Representative must raise a point of order that an amendment violates a specific rule. If no one opposes an amendment, a point of order does not have to be raised.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Second, under current practice, the House Rules Committee usually reports a special rule setting additional procedural parameters for the consideration of appropriations measures. The House typically adopts the special rule and then considers the particular appropriations measure pursuant to it. If an offset amendment would violate one or more parliamentary rules, the sponsor may ask the Rules Committee to include a waiver protecting the amendment from the point(s) of order. Special rules generally do not provide special protection for offset amendments to appropriations bills.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Third, a Member might ask to consider an amendment violating the rules by unanimous consent. A single Member, however, can prevent such consideration by simply objecting to the unanimous consent request.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To attain their policy objectives, sponsors of offset amendments generally select either a clause 2(f) or reachback amendment and work within the rules governing their consideration.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855807"></a><a name="_Toc468178016"></a><a name="_Toc468180736"></a><a name="_Toc468181472"></a><a name="_Toc468181785"></a><a name="_Toc468269356"></a><a name="_Toc339504"></a><a name="_Toc361372"></a>Selected Procedural Advantages of Clause 2(f) Amendments</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855808"></a><a name="_Toc468178017"></a><a name="_Toc468180737"></a><a name="_Toc468181473"></a><a name="_Toc468181786"></a><a name="_Toc468269357"></a><a name="_Toc339505"></a><a name="_Toc361373"></a>May Include Unauthorized Appropriations</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Appropriations bills typically include some unauthorized appropriations. Generally, the House Rules Committee reports a special rule adopted by the House, waiving the prohibition against unauthorized appropriations for most or all unauthorized appropriations in a reported bill. Clause 2(f) amendments can increase those unauthorized appropriations allowed to remain. Reachback amendments, however, can only increase authorized appropriations in the bill to their authorized level (if there is one).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In some cases, entire bills or significant portions of bills have consisted of unauthorized appropriations. As a result, reachback amendments could not increase those amounts. For example, many of the lump-sum appropriations provided in the committee-reported regular defense appropriations bills have typically been unauthorized because of the timing of consideration of the annual defense authorization bill. The House has adopted special rules regarding each bill waiving the application of clause 2 of House Rule XXI. As a result, clause 2(f) amendments to those bills were in order, but reachback amendments were limited to the few, if any, authorized appropriations.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855809"></a><a name="_Toc468178018"></a><a name="_Toc468180738"></a><a name="_Toc468181474"></a><a name="_Toc468181787"></a><a name="_Toc468269358"></a><a name="_Toc339506"></a><a name="_Toc361374"></a>Considered Earlier</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The timing of clause 2(f) amendments is sometimes an advantage over reachback amendments because clause 2(f) amendments are offered earlier in a bill's consideration. By the time reachback amendments are considered, there may be fewer politically appealing offset options available. Amendments, including clause 2(f) amendments, may have already been adopted that reduced the account a reachback amendment sponsor selected for offsets. The account might be reduced to a point where there is no support for further reductions.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855810"></a><a name="_Toc468178019"></a><a name="_Toc468180739"></a><a name="_Toc468181475"></a><a name="_Toc468181788"></a><a name="_Toc468269359"></a><a name="_Toc339507"></a><a name="_Toc361375"></a>Selected Procedural Advantages of Reachback Amendments</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855811"></a><a name="_Toc468178020"></a><a name="_Toc468180740"></a><a name="_Toc468181476"></a><a name="_Toc468181789"></a><a name="_Toc468269360"></a><a name="_Toc339508"></a><a name="_Toc361376"></a>May Add New Lump-Sum Appropriations or Set-Asides</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reachback amendments may add new lump-sum appropriations and set-asides within certain restrictions. Clause 2(f) amendments, by contrast, are limited to transferring appropriations among objects already in the bill.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855812"></a><a name="_Toc468178021"></a><a name="_Toc468180741"></a><a name="_Toc468181477"></a><a name="_Toc468181790"></a><a name="_Toc468269361"></a><a name="_Toc339509"></a><a name="_Toc361377"></a>May Provide Across-the-Board Cuts in Spending</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Reachback amendments may include as an offset an across-the-board spending cut, but clause 2(f) amendments may only directly change amounts in the bill.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc399855813"></a><a name="_Toc468178022"></a><a name="_Toc468180742"></a><a name="_Toc468181478"></a><a name="_Toc468181791"></a><a name="_Toc468269362"></a><a name="_Toc339510"></a><a name="_Toc361378"></a>May Not Necessarily Have to Offset Outlays</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Another limited advantage of reachback amendments is that for most appropriations bills, reachback amendments must offset only new budget authority. Clause 2(f) amendments must offset both new budget authority and outlays. In practice, however, this advantage of reachback amendments over clause 2(f) amendments is limited because sponsors sometimes provide offsets in both budget authority and outlays to garner political support for reachback amendments.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report is based on earlier CRS reports authored and updated by Sandy Streeter and Jessica Tollestrup, former Analysts on Congress and the Legislative Process. This edition of the report was produced by James Saturno, who is available to respond to inquiries on the subject from congressional clients. The authors would also like to acknowledge Ira Forstater, House Office of the Legislative Counsel, and Thomas J. Wickham, House Parliamentarian, for their comments.</p>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Appropriations acts are characteristically annual, and funding generally expires at the end of a federal fiscal year. The federal <em>fiscal year</em> begins on October 1 and ends the following September 30. There are three major types of appropriations measures: regular appropriations bills, supplemental appropriations measures (or supplementals), and continuing resolutions. Of the three types, <em>regular appropriations bills</em> generally provide most of the funding (either as separate acts or in omnibus acts). <em>Supplemental appropriations measures</em> (or supplementals) generally increase funding for selected activities previously funded in the regular bills. <em>Continuing resolutions</em> (or <em>CR</em><em>s</em>) generally extend funding for agencies if any regular appropriations bill does not become law by the beginning of the federal fiscal year. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>General appropriations bills</em> are defined by the House as regular appropriations bills and supplemental measures providing funding to two or more agencies (Rules of the House of Representatives, in <em>House Manual, One Hundred Fourteenth Congress</em>, H.Doc. 113-181, 113<sup>th</sup> Congress, 2<sup>nd</sup> session, [compiled by] Thomas J. Wickham, Parliamentarian (Washington: GPO, 2015) (hereinafter <em>House Manual</em>), §1044). The prohibition against increasing total spending is in <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d114:H.Res.5:"><span class="Hyperlink">H.Res. 5</span></a> (114<sup>th</sup> Congress), Section 3(d).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clause 3 of House Rule XVIII requires that appropriations measures be considered in the Committee of the Whole before the House votes on passage of the measures; however, continuing resolutions are typically considered in the House. (For more information on considering measures in the House or the Committee of the Whole, see CRS Report 95-563, <a class="ExternalLink" href="http://www.crs.gov/Reports/95-563"><em><span class="Hyperlink">The Legislative Process on the House Floor: An Introduction</span></em></a>, by Christopher M. Davis; and CRS Report RL32200, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL32200"><em><span class="Hyperlink">Debate, Motions, and Other Actions in the Committee of the Whole</span></em></a>, by Bill Heniff Jr. and Elizabeth Rybicki.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The House typically agrees to prohibit floor amendments to continuing resolutions. A notable exception was consideration of <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d112:H.R.1:">H.R. 1</a> (112<sup>th</sup> Congress), Full-Year Continuing Appropriations Act, 2011.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/R?d093:FLD002:@1(93+344)"><span class="Hyperlink">P.L. 93-344</span></a>, as amended. For more information, see CRS Report R42388, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42388"><em><span class="Hyperlink">The Congressional Appropriations Process: An Introduction</span></em></a>, coordinated by James V. Saturno; and CRS Report 97-865, <a class="ExternalLink" href="http://www.crs.gov/Reports/97-865"><em><span class="Hyperlink">Points of Order in the Congressional Budget Process</span></em></a>, by James V. Saturno.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In cases in which Congress delays completion of the annual budget resolution (or does not adopt one), each chamber may adopt a deeming resolution (see CRS Report R44296, <a class="ExternalLink" href="http://www.crs.gov/Reports/R44296"><em><span class="Hyperlink">Deeming Resolutions: Budget Enforcement in the Absence of a Budget Resolution</span></em></a>, by Megan S. Lynch).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congress provides spending to agencies in the form of <span class="Emphasis">budget authority</span>, which does not represent cash provided to, or reserved for, agencies. Instead, the term refers to authority provided by federal law to enter into contracts or other financial <span class="Emphasis1">obligations</span> that will result in immediate or future expenditures (or <em><span class="Emphasis1">outlays</span></em>) involving federal government funds. Most appropriations are a form of budget authority that also provide legal authority to make the subsequent payments from the Treasury. Government Accountability Office, <em>A Glossary of Terms Used in the Federal Budget Process</em> (hereinafter <em>Glossary of Terms Used in the Federal Budget Process</em>), GAO-05-734SP, September 2005, pp. 20-21, <a class="ExternalLink" href="http://www.gao.gov/"><span class="Hyperlink">http://www.gao.gov/</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Congress divides budget authority and outlays into two categories: <em>discretionary</em> and <em>direct</em> (or <em>mandatory</em>) <em>spending</em>. Discretionary spending is controlled by annual appropriations acts, which are under the jurisdiction of the House and Senate Committees on Appropriations. Direct spending is controlled by legislative acts under the jurisdiction of the authorizing committees, although the authority to finance these obligations may be included in appropriations acts. Such direct spending, as well as all discretionary spending, is included in the annual appropriations measures.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Each House appropriations subcommittee has responsibility for drafting one of the 12 regular annual appropriations bills.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Both the 302(f) and 311(a) points of order also apply to conference reports to appropriations measures.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This point of order to enforce 302(b) subdivisions was previously supplemented by two separate orders. One, first adopted during the 109<sup>th</sup> Congress (2005-2006) as a freestanding resolution (H.Res. 248), provided that a motion that the Committee of the Whole rise and report an appropriations bill to the House was not in order if the bill, as amended, exceeded the applicable 302(b) subdivision. This provision was subsequently adopted as a separate order for the 110<sup>th</sup>-115<sup>th</sup> Congresses but is not applicable for the 116<sup>th</sup> Congress.</p>
+<p class="FootnoteText" style="">The House also previously supplemented enforcement of 302(b) subdivisions through language prohibiting amendments to general appropriations bills that would result in a net increase in the level of budget authority in the bill. This did not, however, prohibit amendments that would increase budget authority for an item in the bill if the amendment also included an equal or greater offset. This prohibition was adopted as a separate order in the 112<sup>th</sup>, 113<sup>th</sup>, and 114<sup>th</sup> Congresses and as part of House Rule XXI for the 115<sup>th</sup> Congress but is not applicable for the 116<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Under Section 311(b), however, the point of order would not apply to appropriations measures and related amendments that would not also cause the 302(a) allocation to be exceeded. This is referred to as the <em>Fazio exception</em>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Each large agency, whether under a department or independent, is typically funded by several appropriations accounts. All programs, projects, and activities under a small agency may be funded with a single account.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "A <em>rescission</em> is a provision of law that cancels the availability of budget authority previously enacted before the authority would otherwise expire." <em>Glossary of Terms Used in the Federal Budget Process</em>, p. 85.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clause 2(f) of House Rule XXI: "During the reading of an appropriation bill for amendment in the Committee of the Whole House on the state of the Union, it shall be in order to consider en bloc amendments proposing only to transfer appropriations among objects in the bill without increasing the levels of budget authority or outlays in the bill. When considered en bloc under this paragraph, such amendments may amend portions of the bill not yet read for amendment (following disposition of any points of order against such portions) and are not subject to a demand for division of the question in the House or in the Committee of the Whole." <em>House Manual</em>, §1042.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Under the clause 2(f) of House Rule XXI, amendments are allowed to be considered en bloc. Other amendments may generally not be considered en bloc unless by unanimous consent or pursuant to the terms of a special rule. See W[illia]m Holmes Brown, Charles W. Johnson, and John V. Sullivan, <em>House Practice: A Guide to the Rules, Precedents and Procedures of the House</em>, 112<sup>th</sup> Congress, 1<sup>st</sup> session (Washington: GPO, 2011) (hereinafter <em>House Practice</em>), chapter 2, §30.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Objects would include accounts or activities, programs, or projects within an account. In addition, during the 112<sup>th</sup>-115<sup>th</sup> Congresses, the House adopted a separate order requiring that all general appropriations bills include a spending reduction account. This "account" was a provision in the last section of the bill that could function as a temporary deposit box into which amendments could transfer budget authority that would not be available as an offset for further amendments during consideration of that bill. This language was not adopted for the 116<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Representative Capito, remarks in the House, <em>Congressional Record</em> (daily edition), vol. 153 (July 25, 2007), p. H8435. The amendment was offered to the FY2008 Commerce, Justice, and Science appropriations bill.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, §469.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, chapter 2, §42.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> During consideration of appropriations measures, the Committee of the Whole may agree by unanimous consent to open the bill for amendment at any point a portion of the bill, such as several paragraphs or a title. Such an agreement eliminates the requirement that amendments be proposed to the specified portion of the bill in sequential order.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, §1063a.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The 311(a) point of order enforces total new budget authority and outlays.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""><em>Glossary of Terms Used in the Federal Budget Process</em>, p. 91.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, the proceedings in <em>Congressional Record</em>, daily edition, vol. 160, part 95 (June 18, 2014), pp. H5445-H5446. For amendments subject to 302(f) and 311(a) points of order in the House, Section 312(a) of the Congressional Budget Act provides that levels of new budget authority and outlays shall be determined on the basis of estimates made by the House Budget Committee. Clause 4 of House Rule XXIX clarifies that the chair of the committee may provide such authoritative guidance.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clause 2(f) of House Rule XXI.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, §1063a. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., §1036. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, chapter 4, §12.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Unauthorized appropriations for works and projects in progress are allowed. This prohibition applies to general appropriations bills. Because continuing resolutions are not considered general appropriations bills, they may include unauthorized appropriations. <em>House Manual</em>, §1044.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Prior to consideration of a regular or supplemental appropriations bill, the House typically adopts a special rule waiving, in part, this rule for the entire bill or the entire bill with selected exceptions.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Practice</em>, chapter 4, §69.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, §1063a.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Clause 2(f) of House Rule XXI.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on a "demand for a division of the question," see "Must Be Drafted to Avoid a 'Demand for a Division of the Question'" under reachback amendments below.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In cases in which the amount has already been amended, reachback amendments do not violate House rules prohibiting amendments that would amend previously amended text because reachback amendments change amounts by reference as opposed to by changing the text.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Representative Garrett, remarks in the House, <em>Congressional Record</em> (daily edition), vol. 153, July 19, 2007, p. H8131. The House adopted the amendment by voice vote on July 19, 2007.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See "Must Offset Both Budget Authority and Outlays" under clause 2(f) offset amendments above.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, clause 7 of House Rule XVI.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, clause 2(b) and (c) of House Rule XXI.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although the House Appropriations Committee may report rescissions, amendments may not include them.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For further information, see CRS Report R41634, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41634"><em><span class="Hyperlink">Limitations in Appropriations Measures: An Overview of Procedural Issues</span></em></a>, by James V. Saturno.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For an example, see Representative Meehan, "Amendment No. 5 Offered by Mr. Meehan," <em>Congressional Record</em> (daily edition), vol. 162, June 15, 2016, pp. H3866-38868.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, clause 2(a) of House Rule XXI.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, §1058. For an explanation of unauthorized appropriations, see "May Contain Certain Unauthorized Appropriations" under clause 2(f) offset amendments above.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>House Manual</em>, clause 5 of House Rule XVI.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
