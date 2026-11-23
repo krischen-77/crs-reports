@@ -1,3 +1,5 @@
+**Official-current verification: 103/103. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-16 to 2026-11-23**. Older archived files are retained.
@@ -8,6 +10,7 @@ Publication-date window (inclusive): **2026-11-16 to 2026-11-23**. Older archive
 | 2026-11-23 | R49523 v1 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v1-2026-11-23-9d073522bccaf92d.pdf) | [Markdown](markdown/reports/R49523v1-2026-11-23-9d073522bccaf92d.md) |
 | 2026-11-23 | R48943 v4 | Income and Poverty by State and Congressional District | [PDF](pdf/reports/R48943v4-2026-11-23-a54255be243dee7f.pdf) | [Markdown](markdown/reports/R48943v4-2026-11-23-a54255be243dee7f.md) |
 | 2026-11-23 | R48940 v3 | Current Foreign-Born Population by State and Congressional District | [PDF](pdf/reports/R48940v3-2026-11-23-372fe8b30c31cfa2.pdf) | [Markdown](markdown/reports/R48940v3-2026-11-23-372fe8b30c31cfa2.md) |
+| 2026-11-23 | R46658 v7 | Social Security: Benefit Calculation | [PDF](pdf/reports/R46658v7-2026-11-23-c73157be0596ca5a.pdf) | [Markdown](markdown/reports/R46658v7-2026-11-23-c73157be0596ca5a.md) |
 | 2026-11-23 | IF13299 v2 | U.S. Army’s Patriot Air and Missile Defense System | [PDF](pdf/in-focus/IF13299v2-2026-11-23-b1c237f9c7499129.pdf) | [Markdown](markdown/in-focus/IF13299v2-2026-11-23-b1c237f9c7499129.md) |
 | 2026-11-23 | IF12831 v3 | Fiji: Background and Issues for Congress | [PDF](pdf/in-focus/IF12831v3-2026-11-23-5719954d5b377ece.pdf) | [Markdown](markdown/in-focus/IF12831v3-2026-11-23-5719954d5b377ece.md) |
 | 2026-11-23 | IF12233 v23 | Farm Bill Primer: Budget Dynamics | [PDF](pdf/in-focus/IF12233v23-2026-11-23-3331cdf0e7f2b7b0.pdf) | [Markdown](markdown/in-focus/IF12233v23-2026-11-23-3331cdf0e7f2b7b0.md) |
@@ -16,12 +19,16 @@ Publication-date window (inclusive): **2026-11-16 to 2026-11-23**. Older archive
 | 2026-11-20 | R49518 v5 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v5-2026-11-20-4d6addd9f7940dcf.pdf) | [Markdown](markdown/reports/R49518v5-2026-11-20-4d6addd9f7940dcf.md) |
 | 2026-11-20 | R48909 v2 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.pdf) | [Markdown](markdown/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.md) |
 | 2026-11-20 | R48191 v7 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v7-2026-11-20-53e65f875cc50cce.pdf) | [Markdown](markdown/reports/R48191v7-2026-11-20-53e65f875cc50cce.md) |
+| 2026-11-20 | R48191 v8 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v8-2026-11-20-915315513e63a18a.pdf) | [Markdown](markdown/reports/R48191v8-2026-11-20-915315513e63a18a.md) |
 | 2026-11-20 | R46234 v16 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.pdf) | [Markdown](markdown/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.md) |
 | 2026-11-20 | IF13359 v1 | Income Tax Treatment of Cryptocurrency | [PDF](pdf/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.pdf) | [Markdown](markdown/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.md) |
+| 2026-11-20 | IF13359 v2 | Income Tax Treatment of Cryptocurrency | [PDF](pdf/in-focus/IF13359v2-2026-11-20-8ca5c647856255cd.pdf) | [Markdown](markdown/in-focus/IF13359v2-2026-11-20-8ca5c647856255cd.md) |
 | 2026-11-20 | IF13358 v1 | Preserving Trust: Government Data, Disclosure Avoidance, and Privacy Enhancing Techniques (PETs) | [PDF](pdf/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.pdf) | [Markdown](markdown/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.md) |
 | 2026-11-20 | IF13248 v3 | Farm Bill Primer: Rural Broadband Provisions | [PDF](pdf/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.pdf) | [Markdown](markdown/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.md) |
 | 2026-11-20 | IF13144 v5 | Assisted Reproductive Technology Regulation and Oversight | [PDF](pdf/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.pdf) | [Markdown](markdown/in-focus/IF13144v5-2026-11-20-08f0d30ee13fb2e1.md) |
+| 2026-11-20 | IF13144 v6 | Assisted Reproductive Technology Regulation and Oversight | [PDF](pdf/in-focus/IF13144v6-2026-11-20-653e367d2dda18b3.pdf) | [Markdown](markdown/in-focus/IF13144v6-2026-11-20-653e367d2dda18b3.md) |
 | 2026-11-20 | IF12905 v3 | The Native American Housing Assistance and Self-Determination Act (NAHASDA) | [PDF](pdf/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.pdf) | [Markdown](markdown/in-focus/IF12905v3-2026-11-20-709e1d11af0c6909.md) |
+| 2026-11-20 | IF12905 v4 | The Native American Housing Assistance and Self-Determination Act (NAHASDA) | [PDF](pdf/in-focus/IF12905v4-2026-11-20-eb8121ed54a28d3c.pdf) | [Markdown](markdown/in-focus/IF12905v4-2026-11-20-eb8121ed54a28d3c.md) |
 | 2026-11-19 | R49522 v1 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v1-2026-11-19-1479c1133bcca618.pdf) | [Markdown](markdown/reports/R49522v1-2026-11-19-1479c1133bcca618.md) |
 | 2026-11-19 | R49522 v2 | Buy America and the Department of Transportation: In Brief | [PDF](pdf/reports/R49522v2-2026-11-19-2648d0b27a3dc608.pdf) | [Markdown](markdown/reports/R49522v2-2026-11-19-2648d0b27a3dc608.md) |
 | 2026-11-19 | R49521 v4 | Employee Stock Ownership Plans (ESOPs): Background and Policy | [PDF](pdf/reports/R49521v4-2026-11-19-207dc8809bb663f2.pdf) | [Markdown](markdown/reports/R49521v4-2026-11-19-207dc8809bb663f2.md) |
@@ -131,8 +138,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-23 | 2026-01-26 | R46658 v5 | Social Security: Benefit Calculation | [PDF](pdf/reports/R46658v5-2026-01-26-f824eec3b18ca6a7.pdf) | [Markdown](markdown/reports/R46658v5-2026-01-26-f824eec3b18ca6a7.md) |
-| 2026-11-23 | 2026-11-06 | IF12047 v20 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.pdf) | [Markdown](markdown/in-focus/IF12047v20-2026-11-06-bf2973498fc6348a.md) |
+| 2026-11-23 | 2026-11-06 | IF12047 v23 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v23-2026-11-06-3687af069e68221f.pdf) | [Markdown](markdown/in-focus/IF12047v23-2026-11-06-3687af069e68221f.md) |
 | 2026-11-21 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
 | 2026-11-21 | 2026-10-28 | R48078 v7 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v7-2026-10-28-74788cd9eced2ad7.pdf) | [Markdown](markdown/reports/R48078v7-2026-10-28-74788cd9eced2ad7.md) |
 | 2026-11-21 | 2026-10-07 | IF12766 v5 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.pdf) | [Markdown](markdown/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.md) |
