@@ -2,43 +2,42 @@
   "result": "unhealthy",
   "errors": [
     "crs-backup.yml: no verified refresh within 26 hours",
-    "coverage-audit.yml: latest run failure",
     "Collector has unresolved required failures"
   ],
-  "checked_at": "2026-11-23T02:52:06.024312+00:00",
+  "checked_at": "2026-11-23T03:04:12.475253+00:00",
   "monitor_result": "completed",
   "notices": [],
   "recovery_stage": "crs-backup.yml",
   "source_times": {
     "crs-backup.yml": "2026-11-16T02:15:21.477049+00:00",
-    "official-reconcile.yml": "2026-11-22T22:01:39.805095+00:00",
-    "coverage-audit.yml": "2026-11-22T15:39:46.830085+00:00"
+    "official-reconcile.yml": "2026-11-23T02:59:40.748494+00:00",
+    "coverage-audit.yml": "2026-11-23T03:03:59.088084+00:00"
   },
   "active_stages": [],
   "latest_runs": {
     "crs-backup.yml": {
-      "id": 45074466686,
+      "id": 45102709424,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/45074466686",
-      "run_started_at": "2026-11-22T21:51:56Z",
-      "updated_at": "2026-11-22T21:53:36Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/45102709424",
+      "run_started_at": "2026-11-23T02:53:02Z",
+      "updated_at": "2026-11-23T02:54:43Z"
     },
     "official-reconcile.yml": {
-      "id": 45074614209,
+      "id": 45102855882,
       "status": "completed",
       "conclusion": "success",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/45074614209",
-      "run_started_at": "2026-11-22T21:53:33Z",
-      "updated_at": "2026-11-22T22:02:00Z"
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/45102855882",
+      "run_started_at": "2026-11-23T02:54:39Z",
+      "updated_at": "2026-11-23T02:59:59Z"
     },
     "coverage-audit.yml": {
-      "id": 45075375582,
+      "id": 45103331153,
       "status": "completed",
-      "conclusion": "failure",
-      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/45075375582",
-      "run_started_at": "2026-11-22T22:01:57Z",
-      "updated_at": "2026-11-22T22:02:46Z"
+      "conclusion": "success",
+      "html_url": "https://github.com/krischen-77/crs-reports/actions/runs/45103331153",
+      "run_started_at": "2026-11-23T02:59:56Z",
+      "updated_at": "2026-11-23T03:04:06Z"
     }
   },
   "recovery_action": "Retry cooldown/cap active; failure remains visible",
@@ -52,7 +51,7 @@
   "notification_required": true,
   "notification_policy": "Recoverable partial results remain visible and retryable, but do not fail Actions. Alert on integrity loss, disabled/stalled workflows, no successful refresh/verification for 26h, persistent required failures, or once per completed Beijing day with zero new originals.",
   "alert_issue": "https://github.com/krischen-77/crs-reports/issues/1",
-  "github_run_id": "45102602448",
+  "github_run_id": "45103737753",
   "stale_after_hours": 26,
   "recovery_due_hours": 14,
   "retry_cooldown_hours": 6,
