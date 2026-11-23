@@ -1,45 +1,40 @@
 {
-  "active_update_candidates": 92,
+  "active_update_candidates": 93,
   "active_updates_with_older_publication": 21,
-  "api_remaining_quota": 6,
-  "api_requests": 4,
+  "api_remaining_quota": 5,
+  "api_requests": 5,
   "archive_start_inclusive": "2026-09-17",
-  "attempted_versions": 94,
-  "candidate_reports": 92,
+  "attempted_versions": 95,
+  "candidate_reports": 93,
   "catalog_reports": 23645,
   "deferred_official_format_ids": [],
   "errors": [
     "R43755: original archive failed: Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
   ],
-  "finished_at": "2026-11-23T02:54:31.132817+00:00",
+  "finished_at": "2026-11-23T13:01:12.204310+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "45102709424",
+  "github_run_id": "45179503476",
   "historical_new_pdf_versions": 2,
-  "historical_pending_versions": 239,
+  "historical_pending_versions": 238,
   "last_successful_run_at": "2026-11-16T02:15:21.477049+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 26,
-  "new_pdf_versions": 2,
-  "official_current_pending": 0,
-  "official_current_required": 92,
-  "official_current_verified": 92,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-11-23T02:59:40.748494+00:00",
+  "new_pdf_versions": 3,
   "pending_reports": 0,
   "pending_versions": 1,
-  "planned_versions": 94,
-  "primary_new_pdf_versions": 0,
+  "planned_versions": 96,
+  "primary_new_pdf_versions": 1,
   "primary_pdf_complete": false,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 1,
   "result": "failed",
-  "run_at": "2026-11-23T02:53:45.920258+00:00",
+  "run_at": "2026-11-23T13:00:18.658479+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
       "ok": true,
-      "reported_count": 118,
-      "reports": 118,
+      "reported_count": 119,
+      "reports": 119,
       "scope": "update-date window"
     },
     "everycrsreport": {
@@ -53,11 +48,20 @@
       "scope": "supplement only; feed is not the complete catalog"
     }
   },
-  "successful_versions": 93,
-  "total_archived_pdf_versions": 1071,
-  "total_html_original_versions": 1,
-  "total_html_snapshots": 758,
-  "total_pdf_bytes": 878130492,
+  "successful_versions": 94,
+  "superseded_historical_versions": [
+    {
+      "historical_publication": "2026-01-12",
+      "id": "RS22380",
+      "official_pdf_sha256": "4ad7e4974c5a20d0a421f83f9be9f3a15b5695376af9b12e99dda7511fd66ac2",
+      "official_pdf_source": "https://www.congress.gov/crs_external_products/RS/PDF/RS22380/RS22380.49.pdf",
+      "official_publication": "2026-11-23",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+    }
+  ],
+  "total_archived_pdf_versions": 1074,
+  "total_html_snapshots": 761,
+  "total_pdf_bytes": 880903242,
   "warnings": [
     {
       "api_version": 97,
@@ -605,21 +609,29 @@
       ]
     },
     {
-      "id": "RL34405",
+      "api_version": 46,
+      "id": "RS22380",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "47"
+      ]
+    },
+    {
+      "id": "RL34491",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "RL34424",
+      "id": "RL34603",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "historical_backfill_remaining": 239,
+      "historical_backfill_remaining": 238,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],

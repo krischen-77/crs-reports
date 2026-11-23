@@ -1,0 +1,746 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Child Support Enforcement: Program Basics</div>
+<div class="CoverDate">Updated November 23, 2026
+            (RS22380)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc246310899"><span class="Hyperlink">Background</span></a></li>
+<li class="TOC1"><a href="#_Toc246310900"><span class="Hyperlink">Program Elements</span></a></li>
+<li class="TOC2"><a href="#_Toc246310901"><span class="Hyperlink">Parent Location</span></a></li>
+<li class="TOC2"><a href="#_Toc246310902"><span class="Hyperlink">Paternity Establishment</span></a></li>
+<li class="TOC2"><a href="#_Toc246310903"><span class="Hyperlink">Establishment of Child Support Orders</span></a></li>
+<li class="TOC2"><a href="#_Toc246310904"><span class="Hyperlink">Review and Modification of Support Orders</span></a></li>
+<li class="TOC2"><a href="#_Toc246310905"><span class="Hyperlink">Enforcement</span></a></li>
+<li class="TOC2"><a href="#_Toc246310906"><span class="Hyperlink">Financing</span></a></li>
+<li class="TOC2"><a href="#_Toc246310907"><span class="Hyperlink">Collection and Disbursement</span></a></li>
+<li class="TOC2"><a href="#_Toc246310908"><span class="Hyperlink">Distribution of Support</span></a></li>
+<li class="TOC2"><a href="#_Toc246310909"><span class="Hyperlink">Medical Child Support</span></a></li>
+<li class="TOC1"><a href="#_Toc246310910"><span class="Hyperlink">Noncustodial Parent Access to and Engagement with Their Children</span></a></li>
+<li class="TOC2"><a href="#_Toc246310911"><span class="Hyperlink">Access and Visitation Grants and Parenting Time Agreements</span></a></li>
+<li class="TOC2"><a href="#_Toc246310912"><span class="Hyperlink">Responsible Fatherhood Programs</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc246310897"><span class="Hyperlink">Table 1. Preliminary Child Support Data—FY2025</span></a></li>
+<li><a href="#_Toc246310898"><span class="Hyperlink">Table 2. State Child Support Case Registry: Selected Data Elements</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Child Support Enforcement (CSE) program was enacted in 1975 as a federal-state program (established in Title IV-D of the Social Security Act). The primary purpose of this program was to reduce public expenditures for recipients of cash assistance by obtaining ongoing support from noncustodial parents that could be used to reimburse the state and federal governments for part of that assistance. (This purpose often is referred to as <em>public assistance </em><em>cost-recovery</em>.) Relatedly, the program also sought to strengthen families by securing financial support for children from their noncustodial parents on a consistent and continuing basis to enable some of those families to remain off public assistance. Over the years, CSE has evolved into a multifaceted program. While public assistance cost-recovery still remains an important function of the program, its other aspects include service delivery to the general child support population and promoting economic self-sufficiency and parental responsibility. The CSE program has different rules for assistance families (e.g., those receiving cash benefits under the Temporary Assistance for Needy Families program; TANF) and non-assistance families.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSE program provides seven major services on behalf of children: (1) parent location, (2) paternity establishment, (3) establishment of child support orders, (4) review and modification of child support orders, (5) collection of child support payments, (6) distribution of child support payments, and (7) establishment and enforcement of medical support.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSE program has a vast array of enforcement methods at its disposal. Most child support payments are collected from noncustodial parents through income withholding. Other methods of enforcement include intercepting federal and state income tax refunds; intercepting unemployment compensation; filing liens against property; sending insurance settlement information to CSE agencies; intercepting lottery winnings, judgments, or settlements; seizing debtor parent assets held by public or private retirement funds and financial institutions; withholding, suspending, or restricting driver's licenses, professional or occupational licenses, and recreational or sporting licenses; and denying, revoking, or restricting passports. </p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSE program is funded via a number of sources. The program is a federal-state matching grant program under which states must spend money in order to receive federal funding. For every dollar a state spends on CSE expenditures, it generally is reimbursed 66 cents from the federal government. This reimbursement requirement is "open ended," in that there is no upper limit or ceiling on the federal government's match of those expenditures. In addition to matching funds, states receive CSE incentive payments from the federal government. States also collect child support on behalf of families receiving TANF assistance to reimburse themselves (and the federal government) for the cost of that assistance to the families. Fees and costs recovered also help finance the CSE program.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In FY2025, the CSE program paid to families $25.8 billion in child support and served more than 11.3 million child support cases. The program collected 65.4% of current child support obligations for which it has responsibility (19.1% if payments on past-due child support are taken into account) and collected payments for 59.5% of its caseload. In FY2025, total CSE expenditures amounted to $7.0 billion. On average, in FY2025 the CSE program collected $4.01 in child support payments for each $1 spent on the program.</p>
+<p class="BodySummaryText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In recent decades, CSE programs have been increasingly concerned with the issues of noncustodial parents' access to and engagement with their children. The $10 million per year CSE Access and Visitation Grants Program, issues related to parenting time agreements, and the $75 million per year Responsible Fatherhood Program (administered elsewhere within HHS) are described in the final section of the report.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Background</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In general, child support is the cash payment that noncustodial parents are obligated to pay for the financial support of their children. These payments enable parents who do not live with their children to fulfill their financial responsibility to them by contributing to childrearing costs. Child support orders generally are established when parents divorce or separate, or when the custodial parent applies for certain public benefits.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Child Support Enforcement (CSE) program was enacted in 1975 as a federal-state program (established in Title IV-D of the Social Security Act).<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="The CS E program statutory authorities are found in Sections 451 - 469B of the Social Security Act (42 U.S.C. § §651 - 669b). The CSE federal regulations are found in 45 C.F.R. § § 301 - 310.">1</a></sup> The primary purpose of this program was to reduce public expenditures for recipients of cash assistance by obtaining ongoing support from noncustodial parents that could be used to reimburse the state and federal governments for part of that assistance. (This purpose often is referred to as <em>p</em><em>ublic assistance cost-recovery</em>.) Relatedly, the program also sought to strengthen families by securing financial support for children from their noncustodial parents on a consistent and continuing basis to enable some of those families to remain off public assistance.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="See S. Rept. 93-1356, pp. 42-55.">2</a></sup> Over the years, CSE has evolved into a multifaceted program.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='See, for example, HHS, Office of the Assistant Secretary for Planning and Evaluation (ASPE), "The Personal Responsibility and Work Opportunity Reconciliation Act of 1996, August 31, 1996, https://aspe.hhs.gov/reports/personal-responsibility-work-opportunity-reconciliation-act-1996 .'>3</a></sup> While public assistance cost-recovery still remains an important function of the program, its other aspects include service delivery to the general child support population and promoting economic self-sufficiency and parental responsibility. The CSE program has different rules for assistance families (e.g., those receiving cash benefits under the Temporary Assistance for Needy Families program [TANF]) and non-assistance families (e.g., those not receiving TANF cash assistance).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSE program is administered by the Office of Child Support Enforcement (OCSE) in the U.S. Department of Health and Human Services (HHS).<a name="_Hlk192589124"></a><sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="For a period from 2023 through 2025, this office was referred to as the Office of Child Support Services, and the program it administers as the Child Support Services Program. On June 5, 2023, HHS published a notice in the Federal Register changing the name of the program and administering entity within HHS to the Office of Child Support Services in Part K of the Statement of Organization, Functions, and Delegations of Authority of the Department of Health and Human Services, Administrati...">4</a></sup> The program receives mandatory funding each fiscal year in the Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act. All 50 states, the District of Columbia, Guam, Puerto Rico, the U.S. Virgin Islands, operate CSE programs and are entitled to federal matching funds. In addition, 63 tribes operate their own CSE programs pursuant to Section 456(f) of the Social Security Act.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="States were historically required to provide CS E services to Indian tribes and tribal organizations as part of their CS E caseloads. Tribes were not specifically included in the CSE statute until the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA, P.L. 104-193 ), although several tribes had previously negotiated agreements (e.g., informal, cooperative, intergovernmental, and joint powers) with some states in a mutual effort to serve Native American chil...">5</a></sup> The CSE program is estimated to handle the majority of all child support cases;<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="Elaine Sorensen, Arthur Pashi, and Melody Morales, Characteristics of Families Served by the Child Support (IV-D) Program: 2016 Census Survey Results , Office of Child Support Enforcement, November 2018, p. 3, https://acf.gov/sites/default/files/documents/ocse/iv_d_characteristics_2016_census_results.pdf .">6</a></sup> the remaining cases are handled by private attorneys, collection agencies, or through mutual agreements between the parents.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under federal law, families receiving cash benefits through the Temporary Assistance for Needy Families program (Title IV-A of the Social Security Act) or Medicaid coverage (Title XIX of the Social Security Act)—and, at state option, families receiving Supplemental Nutrition Assistance Program (SNAP) assistance—are required to cooperate with the CSE program as a condition of receiving benefits.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='In addition, families who are required by the state Supplemental Nutrition Assistance Program (SNAP) to cooperate with the CS E agency automatically qualify for CS E services free of charge. One or both parents of a child who is placed in foster care may be ordered to pay child support, but the determination of whether this requirement should be made is left up to the state child welfare agency. Section 471(a)(17) of the Social Security Act requires the child welfare agency "where appropri...'>7</a></sup> These assistance families are not charged for CSE services. Collections on behalf of families receiving cash TANF benefits are used, in part, to reimburse state and federal governments for the TANF payments made to the family. Other families must apply for CSE services, and states must charge all non-assistance families an annual user fee that cannot exceed $35.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title='Roughly half of states have opted to require that the custodial parent cooperate with the CS E program as a condition of receiving child care subsidies (see HHS, ASPE , Child Support Cooperation Requirements in Child Care Subsidy Programs and SNAP: Key Policy Considerations ," November 1, 2018, https://aspe.hhs.gov/pdf-report/child-support-cooperation-requirements-child-care-subsidy-programs-and-snap-key-policy-considerations ). If a state opts to exempt these families from the annual u...'>8</a></sup> Child support collected by CSE agencies on behalf of non-TANF families goes to the family, usually through the state disbursement unit.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Child support payments distributed by CSE agencies increased from $1 billion in FY1978 to $26.6 billion in FY2025.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="Unless otherwise noted, all FY202 5 data in this report are from HHS, O CSE , FY202 5 Preliminary Data Report and Tables , Department of Health and Human Services , https://acf.gov/sites/default/files/documents/ocse/FY_2025_Preliminary_Report.pdf .">9</a></sup> (The CSE program also distributed an additional $2.7 billion in child support for non-Title IV-D cases.) Over the same period, the number of children whose paternity was established or acknowledged each year increased from 111,000 to 1.275 million. The program collected payments for 59.5% of its caseload, and 65.4% of current support owed. When taking account of past-due child support (i.e., "arrearages") as well as current support, the program collected 19.1% of total child support obligations for which it has responsibility.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="In FY202 5 , $ 14 4.1 billion in child support obligations ($ 3 0 . 8 billion in current support and $ 11 3.4 billion in past-due support) was owed to families receiving CS E services and $ 27. 5 billion was paid ($ 20. 1 billion current, $ 7. 4 billion past-due; numbers do not sum to total due to rounding).">10</a></sup> In FY2025, total CSE expenditures (federal and state) amounted to $7.0 billion. On average, in FY2025 the CSE program collected $4.01 in child support payments for each $1 spent on the program. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><strong><a class="InternalLink" href="#_Ref400442035"></a></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong><strong> </strong>provides FY2025 data on the CSE program, including total collections and expenditures, caseload numbers, and the number of paternities and child support orders established. The balance of this report describes each of the major program elements of the CSE program. It also includes a discussion of CSE Access and Visitation Grants, issues related to parenting time agreements, and the Responsible Fatherhood Program (administered elsewhere within HHS).</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref400442035"></a><a name="_Toc419473970"></a><a name="_Toc433805798"></a><a name="_Toc449103646"></a><a name="_Toc462236824"></a><a name="_Toc462410867"></a><a name="_Toc480363454"></a><a name="_Toc480461728"></a><a name="_Toc15049859"></a><a name="_Toc15391650"></a><a name="_Toc60986169"></a><a name="_Toc60997897"></a><a name="_Toc114042942"></a><a name="_Toc140672996"></a><a name="_Toc140834589"></a><a name="_Toc141278359"></a><a name="_Toc176333782"></a><a name="_Toc176442121"></a><a name="_Toc193290663"></a><a name="_Toc193888549"></a><a name="_Toc193893675"></a><a name="_Toc193893780"></a><a name="_Toc219194080"></a><a name="_Toc219300929"></a><a name="_Toc244514591"></a><a name="_Toc244934897"></a><a name="_Toc246310722"></a><a name="_Toc246310830"></a><a name="_Toc246310897"></a>Table 1. Preliminary Child Support Data—FY2025</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:55.1909376pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Total CSE caseload</p>
+</td>
+<td style="width:136.44426239999998pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><em>Total</em>, 11.3 million; <em>TANF families</em>, 0.8 million; <em>former</em><em> </em><em>TANF families</em>, 4.2 million; <em>never</em><em> </em><em>TANF families</em>, 6.3 million</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Total CSE distributed collections</p>
+</td>
+<td style="width:136.44426239999998pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><em>Total</em>, $26.590 billion; <em>TANF</em> families, $0.621 billion; <em>former</em><em> </em><em>TANF</em>, $6.439 billion; <em>never</em><em> </em><em>TANF</em>, $10.024 billion (plus $9.506 billion on behalf of Medicaid-only families)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Payments to families</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><em>Total</em>, $25.795 billion; <em>TANF</em>, $0.101 billion; <em>former</em><em> </em><em>TANF</em>, $5.900 billion; <em>never</em><em> </em><em>TANF</em>, $9.831 billion (plus $9.127 billion on behalf of Medicaid-only families); in addition, $617 million in <em>medical support</em>, $114 million <em>passed through to current TANF families</em>, and<em> </em>$105 million <em>passed through to former TANF families</em></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">Federal share of TANF reimbursement</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">$406 million</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="padding-left:18pt;">State share of TANF reimbursement</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">$320 million</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Total CSE administrative expenditures</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">$6.990 billion; <em>federal share</em>, $4.223 billion, <em>state share</em>, $2.767 billion</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Incentive payments to states (estimated)</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Data not available for FY2025. FY2024 amount was $544 million.</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Paternities established and acknowledged</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">1,275,043</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Cases for which support orders were established</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">563,303 (includes only new orders; excludes modifications)</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:55.1909376pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style="">Cases for which collections were made</p>
+</td>
+<td style="width:136.44426239999998pt;padding-left:5.75pt;padding-right:5.75pt;" valign="top">
+<p class="TableText" style=""><em>Total,</em> 6,723,635: <em>TANF</em>, 274,489; <em>former</em><em> </em><em>TANF</em>, 2,405,554; <em>never</em><em> </em><em>TANF</em>, 4,043,592</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source</strong>: Table prepared by the Congressional Research Service, based on data from HHS, Office of Child Support Services, FY2025 Preliminary Data Report, <a class="ExternalLink" href="https://acf.gov/sites/default/files/documents/ocse/FY_2025_Preliminary_Report.pdf"><span class="Hyperlink">https://acf.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">sites/</span><span class="Hyperlink"></span><span class="Hyperlink">default/</span><span class="Hyperlink"></span><span class="Hyperlink">files/</span><span class="Hyperlink"></span><span class="Hyperlink">documents/</span><span class="Hyperlink"></span><span class="Hyperlink">ocse/</span><span class="Hyperlink"></span><span class="Hyperlink">FY_2025_Preliminary_Report.pdf</span></a>.</p>
+<p class="TableNote"><strong>Note</strong><strong>s</strong><strong>:</strong><strong> </strong>Numbers may not add to totals due to rounding. "TANF" amounts include both TANF families (Title IV-A of the Social Security Act) and collections on behalf of children receiving foster care support pursuant to Title IV-E of the Social Security Act.</p>
+</div>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473973"></a><a name="_Toc433805801"></a><a name="_Toc449103649"></a><a name="_Toc462236827"></a><a name="_Toc462410870"></a><a name="_Toc480363459"></a><a name="_Toc480461733"></a><a name="_Toc15049864"></a><a name="_Toc15391655"></a><a name="_Toc60986174"></a><a name="_Toc60997900"></a><a name="_Toc114042945"></a><a name="_Toc140672999"></a><a name="_Toc140834592"></a><a name="_Toc141278362"></a><a name="_Toc176333785"></a><a name="_Toc176442124"></a><a name="_Toc193290666"></a><a name="_Toc193888552"></a><a name="_Toc193893678"></a><a name="_Toc193893783"></a><a name="_Toc219194083"></a><a name="_Toc219300932"></a><a name="_Toc244514594"></a><a name="_Toc244934900"></a><a name="_Toc246310725"></a><a name="_Toc246310833"></a><a name="_Toc246310900"></a>Program Elements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSE program provides seven major services on behalf of children: (1) parent location, (2) paternity establishment, (3) establishment of child support orders, (4) review and modification of child support orders, (5) collection of child support payments, (6) distribution of child support payments, and (7) establishment and enforcement of medical support.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473974"></a><a name="_Toc433805802"></a><a name="_Toc449103650"></a><a name="_Toc462236828"></a><a name="_Toc462410871"></a><a name="_Toc480363460"></a><a name="_Toc480461734"></a><a name="_Toc15049865"></a><a name="_Toc15391656"></a><a name="_Toc60986175"></a><a name="_Toc60997901"></a><a name="_Toc114042946"></a><a name="_Toc140673000"></a><a name="_Toc140834593"></a><a name="_Toc141278363"></a><a name="_Toc176333786"></a><a name="_Toc176442125"></a><a name="_Toc193290667"></a><a name="_Toc193888553"></a><a name="_Toc193893679"></a><a name="_Toc193893784"></a><a name="_Toc219194084"></a><a name="_Toc219300933"></a><a name="_Toc244514595"></a><a name="_Toc244934901"></a><a name="_Toc246310726"></a><a name="_Toc246310834"></a><a name="_Toc246310901"></a>Parent Location</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If a state's CSE program cannot locate the noncustodial parent with the information provided by the custodial parent, it must try to locate the noncustodial parent through the State Parent Locator Service (SPLS). The SPLS in each state is an assembly of systems that includes the State Child Support Case Registry and the State Directory of New Hires. The automated State Child Support Case Registry, as required by federal law, contains records of each case in which CSE services are being provided and all new or modified child support orders. The registry includes information on the case, the child or children in the case, and both parents, as listed in <a class="InternalLink" href="#_Ref476671622"><strong></strong><strong>Table 2</strong></a>.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref476671622"></a><a name="_Toc480363455"></a><a name="_Toc480461729"></a><a name="_Toc15049860"></a><a name="_Toc15391651"></a><a name="_Toc60986170"></a><a name="_Toc60997898"></a><a name="_Toc114042943"></a><a name="_Toc140672997"></a><a name="_Toc140834590"></a><a name="_Toc141278360"></a><a name="_Toc176333783"></a><a name="_Toc176442122"></a><a name="_Toc193290664"></a><a name="_Toc193888550"></a><a name="_Toc193893676"></a><a name="_Toc193893781"></a><a name="_Toc219194081"></a><a name="_Toc219300930"></a><a name="_Toc244514592"></a><a name="_Toc244934898"></a><a name="_Toc246310723"></a><a name="_Toc246310831"></a><a name="_Toc246310898"></a>Table 2. State Child Support Case Registry: Selected Data Elements</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:192.9pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Case Information</p>
+</td>
+<td style="width:117pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Information on the Child(ren)</p>
+</td>
+<td style="width:120.9pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Information on Both Parents</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:192.9pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"><ul><li class="ListBulletTableText">case identification number</li>
+<li class="ListBulletTableText">case status</li>
+<li class="ListBulletTableText">child support owed under the order</li>
+<li class="ListBulletTableText">amounts collected</li>
+<li class="ListBulletTableText">amounts distributed</li>
+<li class="ListBulletTableText">any arrearages, interest, or late penalty charges</li>
+<li class="ListBulletTableText">any liens imposed with respect to the order</li></ul></td>
+<td style="width:117pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"><ul><li class="ListBulletTableText">name</li>
+<li class="ListBulletTableText">date of birth</li>
+<li class="ListBulletTableText">Social Security number</li></ul></td>
+<td style="width:120.9pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.75pt;padding-right:5.75pt;" valign="top"><ul><li class="ListBulletTableText">name</li>
+<li class="ListBulletTableText">date of birth</li>
+<li class="ListBulletTableText">Social Security number</li></ul></td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>HHS,<strong> </strong>OCSE, Policy Responses Regarding the State Case Registry and the Federal Case Registry, AT-98-08, March 5, 1998, <a class="ExternalLink" href="https://www.acf.hhs.gov/css/policy-guidance/policy-responses-regarding-state-case-registry-and-federal-case-registry"><span class="Hyperlink">https://www.acf.hhs.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">css/</span><span class="Hyperlink"></span><span class="Hyperlink">policy-guidance/</span><span class="Hyperlink"></span><span class="Hyperlink">policy-responses-regarding-state-case-registry-and-federal-case-registry</span></a>.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The State Directory of New Hires includes information from employers, including federal, state, and local governments and labor organizations. For each newly hired employee, this directory must include the name, address, and Social Security number of the employee, and the employer's name, address, and tax identification number. This information generally is supplied to the directory within 20 days after the employee is hired. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The SPLS also may use other information sources, such as telephone directories, motor vehicle registries, tax files, and employment and unemployment records.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Parent Locator Service (FPLS) is an assembly of systems, including the state systems discussed above, operated by the OCSE. Developed by HHS in cooperation with the states, employers, federal agencies, and the judiciary, the FPLS includes the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The National Directory of New Hires (NDNH): a central repository of employment, unemployment insurance, and wage data from state directories of new hires, state workforce agencies, and federal agencies.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title='Within three business days after receipt of new hire information from the employer, the state directory of new hires (SDNH) is required to furnish the information to the NDNH. (For additional information, see "System Components and Data Processes" in CRS Report RS22889, The National Directory of New Hires: An Overview .)'>11</a></sup></li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Case Registry (FCR): a national database that contains information on individuals in child support cases and child support orders from the state child support case registries.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Offset Program (FOP): a program that collects past-due child support payments from the tax refunds of parents who have been ordered to pay child support.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Federal Administrative Offset Program (FAOP): a program that intercepts certain federal payments to collect past-due child support.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Passport Denial Program (PDP): a program that works with the Secretary of State in denying passports of any person who has been certified as owing a child support debt greater than $2,500.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Multistate Financial Institution Data Match (MSFIDM): a program that allows child support agencies a means of locating financial assets of individuals owing child support.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="For additional information on the FPLS, see https://www.acf.hhs.gov/css/training-technical-assistance/overview-federal-parent-locator-service .">12</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition, the component systems of the FPLS can access data from the Social Security Administration, the Internal Revenue Service, the Department of Defense, the Department of Veterans Affairs, the National Security Agency, the Federal Bureau of Investigation, and State Employment Security Agencies.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='T he Department of Defense is "using a secondary Department of War designation" under Executive Order 14347 dated September 5, 2025.'>13</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">States can use the FPLS for any of the following purposes:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Parent location</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Establishing parentage</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Establishing, setting the amount of, modifying, or enforcing child support obligations</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Enforcing child custody or visitation orders<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="PRWORA ( P.L. 104-193 ) permits both custodial and certain noncustodial parents to obtain information from the FPLS. The Balanced Budget Act of 1997 ( P.L. 105-33 ), however, prohibits FPLS information from being disclosed to noncustodial parents in cases where there is evidence of domestic violence or child abuse, and the local court determines that disclosure may result in harm to the custodial parent or child.">14</a></sup> </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some federal and state agencies have statutory authority to use certain FPLS components (e.g., the NDNH) for specified non-CSE purposes, including identifying overpayments and fraud and assessing benefits.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='For a discussion of these with regard to the NDNH, see the report section, "Entities that May Receive NDNH Data:" in CRS Report RS22889, The National Directory of New Hires: An Overview , by Jessica Tollestrup .'>15</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Automation is critical to the operation and success of the CSE program so that records in the various parent location systems can be cross-checked to aid in the location of noncustodial parents.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="The Child Support Performance and Incentive Act of 1998 ( P.L. 105-200 ) imposes financial penalties on states that failed to meet the law's automated data systems requirements by a certain deadline . The HHS Secretary is required to reduce the amount the state would otherwise have received in federal CS E funding by the penalty amount for the fiscal year in question. Section 455(a)(4)(B) of the Social Security Act (42 U.S.C. §655(a)(4)(B)) stipulates that the penalty amount percentage...">16</a></sup> Federal law requires that a designated state agency (directly or by contract) conduct automated comparisons of the Social Security numbers reported by employers to the state directory of new hires and those associated with CSE cases that appear in the State Child Support Case Registry. It also requires the HHS Secretary to conduct similar comparisons of the federal directories.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="When a match occurs, the SDNH is required to report to the state CS E agency the name, address, and Social Security number of the employee, and the employer's name, address, and identification number. Within two business days, the CS E agency then instructs appropriate employers to withhold child support obligations from the employee's paycheck, unless the employee's income is not subject to income withholding.">17</a></sup> </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473975"></a><a name="_Toc433805803"></a><a name="_Toc449103651"></a><a name="_Toc462236829"></a><a name="_Toc462410872"></a><a name="_Toc480363461"></a><a name="_Toc480461735"></a><a name="_Toc15049866"></a><a name="_Toc15391657"></a><a name="_Toc60986176"></a><a name="_Toc60997902"></a><a name="_Toc114042947"></a><a name="_Toc140673001"></a><a name="_Toc140834594"></a><a name="_Toc141278364"></a><a name="_Toc176333787"></a><a name="_Toc176442126"></a><a name="_Toc193290668"></a><a name="_Toc193888554"></a><a name="_Toc193893680"></a><a name="_Toc193893785"></a><a name="_Toc219194085"></a><a name="_Toc219300934"></a><a name="_Toc244514596"></a><a name="_Toc244934902"></a><a name="_Toc246310727"></a><a name="_Toc246310835"></a><a name="_Toc246310902"></a>Paternity Establishment<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title='On September 26, 2023, OCSS issued a Notice of Proposed Rulemaking that would have replace d the term "paternity" with "parentage , " and replace d the terms "mother" and "father" with the term "parentage , " throughout 45 C . F . R . C hapter III. It also proposed additional changes to clarify that "full faith and credit requirements apply to paternity determinations, however, States and Tribes would have been permitted , at their option, to recognize same-sex parentage establishm...'>18</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Legally identifying the father is a prerequisite for obtaining a child support order. For any child born into a marriage consisting of a husband and wife, the husband is generally deemed to be the father. Therefore, in divorce cases for those marriages, paternity generally does not need to be affirmatively established. In nonmarital birth cases, however, paternity must be established prior to when a child support order is obtained. (With regard to same-sex parents, states are permitted by Title IV-D of the Social Security Act to adopt gender-neutral processes for establishing parentage. However, the procedures that are specified in Title IV-D related to genetic testing would generally not be applicable in such cases.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title='For further information, see Federal Register , Vol. 88, No. 185, p. 65931, September 26, 2023, which quotes from HHS, OCSE, "Same-Sex Parents and Child Support Program Requirements," PIQ-22-02, March 29, 2022 .'>19</a></sup>)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law requires states to have procedures that permit the establishment of paternity for all children under the age of 18.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Section 466(a)(5) of the Social Security Act (42 U.S.C. §666(a)(5)). The DRA ( P.L. 109-171 ) reduced the 90% federal financial participation rate for laboratory costs associated with paternity establishment to 66% as of October 1, 2006.">20</a></sup> TANF applicants and recipients are legally required to cooperate in establishing paternity or obtaining support payments, and may be penalized for noncooperation. If it is determined that an individual is not cooperating and that individual does not qualify for any good cause or other exception, the state must reduce the family's TANF cash assistance benefit by at least 25%, and may eliminate it entirely. Additional federal requirements associated with paternity establishment include the following:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">state CSE programs must establish paternity for at least 90% of the CSE cases needing such a determination; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">each state must implement a simple civil process for establishing paternity; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">an affidavit must be available to voluntarily acknowledge paternity and a completed affidavit must be entitled to full faith and credit in any state;<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='Section 466(a)(5)(D) of the Social Security Act (42 U.S.C. §666(a)(5)(D)) stipulates that when parents are unmarried, the "father" shall be included in the birth record only if both parents have signed a voluntary acknowledgement of paternity , or a court or administrative agency has issued an adjudication of paternity .'>21</a></sup> </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">a signed acknowledgment of paternity must be considered a legal finding of paternity unless it is rescinded within 60 days, and thereafter may be challenged in court only on the basis of fraud, duress, or material mistake of fact; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">no judicial or administrative action will be needed to ratify an acknowledgment that is not challenged.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Sections 452(g) and 466 of the Social Security Act (42 U.S.C. § § 652(g) and 666 ) .">22</a></sup></li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For contested paternity cases, federal law further requires that all parties submit to genetic testing.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="Federal law requires states to have procedures that create a rebuttable or, at the option of the state, conclusive presumption of paternity upon genetic testing results indicating a threshold probability that the alleged father is the actual father of the child (Section 466(a)(5)(G) of the Social Security Act) (42 U.S.C. §666(a)(5)(G)).">23</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473976"></a><a name="_Toc433805804"></a><a name="_Toc449103652"></a><a name="_Toc462236830"></a><a name="_Toc462410873"></a><a name="_Toc480363462"></a><a name="_Toc480461736"></a><a name="_Toc15049867"></a><a name="_Toc15391658"></a><a name="_Toc60986177"></a><a name="_Toc60997903"></a><a name="_Toc114042948"></a><a name="_Toc140673002"></a><a name="_Toc140834595"></a><a name="_Toc141278365"></a><a name="_Toc176333788"></a><a name="_Toc176442127"></a><a name="_Toc193290669"></a><a name="_Toc193888555"></a><a name="_Toc193893681"></a><a name="_Toc193893786"></a><a name="_Toc219194086"></a><a name="_Toc219300935"></a><a name="_Toc244514597"></a><a name="_Toc244934903"></a><a name="_Toc246310728"></a><a name="_Toc246310836"></a><a name="_Toc246310903"></a>Establishment of Child Support Orders</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">A child support order is a legal document that obligates a noncustodial parent to provide financial support for their children, and stipulates the amount of the obligation and how it is to be paid. It is usually established at the time of divorce or when an unmarried couple dissolves their relationship. It also may be established when cooperation is required as a condition of receiving public assistance.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title="Families required to cooperate with the CS E agency under federal law include those receiving TANF cash assistance or Medicaid coverage, and those in states that have adopted cooperation requirements for their SNAP programs. Roughly half of states have additionally opted under their own laws to require cooperation of recipients of child care subsidies.">24</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The child support order is established administratively by a state/county CSE agency, or judicially through the state courts. Federal law requires states to use their state-established guidelines in establishing child support orders.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="See the Family Support Act of 1988 ( P.L. 100-485 ).">25</a></sup> These guidelines are a set of rules and tables that are used to determine the amount of the child support order. Child support guidelines are designed to protect the best interests of the child or children in question by trying to ensure that they continue to benefit from the financial resources of both parents in situations in which the parents go their separate ways. They are also intended to make the calculation of child support fair, objective, consistent, and predictable (which in many instances can have the added benefit of reducing conflict and tension between the parents).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">States decide child support amounts based on the noncustodial parent's income or based on both parents' incomes. Other factors that may be considered include the age of child, whether a stepparent is in the home, whether the child is disabled, and the number of siblings. As of 2020, states used one of three basic types of guidelines to determine child support award amounts (i.e., the child support order):<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="The District of Columbia uses a hybrid model that starts as a percentage of income model and is then reduced by a formula based on the custodial parent's income. Information was not available for Puerto Rico. See National Conference of State Legislatures, Child Support Guideline Models by State , July 10, 2020, https://www.ncsl.org/human-services/child-support-guideline-models .">26</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">"Income shares," which prorates the combined incomes of both parents to determine the child support obligation of the noncustodial parent (41 states, Guam, and the U.S. Virgin Islands); </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">"Percentage of income," in which only the noncustodial parent's income (factoring in the number of children to which child support is to be paid) is used to determine the support obligation (6 states); and </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">"Melson-Delaware," which provides a minimum self-support reserve for parents before the cost of rearing the children is prorated between the parents to determine the award amount (3 states).<span class="FootnoteReference"> </span></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473977"></a><a name="_Toc433805805"></a><a name="_Toc449103653"></a><a name="_Toc462236831"></a><a name="_Toc462410874"></a><a name="_Toc480363463"></a><a name="_Toc480461737"></a><a name="_Toc15049868"></a><a name="_Toc15391659"></a><a name="_Toc60986178"></a><a name="_Toc60997904"></a><a name="_Toc114042949"></a><a name="_Toc140673003"></a><a name="_Toc140834596"></a><a name="_Toc141278366"></a><a name="_Toc176333789"></a><a name="_Toc176442128"></a><a name="_Toc193290670"></a><a name="_Toc193888556"></a><a name="_Toc193893682"></a><a name="_Toc193893787"></a><a name="_Toc219194087"></a><a name="_Toc219300936"></a><a name="_Toc244514598"></a><a name="_Toc244934904"></a><a name="_Toc246310729"></a><a name="_Toc246310837"></a><a name="_Toc246310904"></a>Review and Modification of Support Orders</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The circumstances of both the noncustodial parent and custodial family can change with time. As these changes occur, child support obligations can become inadequate or inequitable. Effective review and modification of child support orders are important steps in ensuring that noncustodial parents continue to comply with realistic orders based on an actual ability to pay them.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="See Office of Child Support Enforcement, Providing Expedited Review and Modification Assistance , Child Support Fact Sheet Series, n o. 2, https://www.acf.hhs.gov/sites/default/files/documents/ocse/providing_expedited_review_and_modification.pdf .">27</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law requires that states review and, if appropriate, adjust child support orders for TANF family cases at least once every three years.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="Section 466(a)(10) of the Social Security Act (42 U.S.C. §666(a)(10)).">28</a></sup> For non-TANF family cases, such a review is not required to be automatic but either one of the parents can request it every three years. If a request for review and modification is made prior to when that three-year cycle has been completed, the requesting party must demonstrate that there was a substantial change in circumstances. Child support adjustments and modifications must be in accordance with a state's child support guidelines.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CSE programs usually rely on one of the parents to request a modification of the child support order. It is usually important for parents facing job loss, incarceration, or other substantial changes in circumstances to seek a modification to their order quickly so that they do not fall behind in their payments and thereby have to contend with past-due child support payments. Pursuant to federal law, the court cannot retroactively reduce the arrearages that a noncustodial parent owes.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="Section 466(a)(9) of the Social Security Act (42 U.S.C. §666(a)(9)).">29</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473978"></a><a name="_Toc433805806"></a><a name="_Toc449103654"></a><a name="_Toc462236832"></a><a name="_Toc462410875"></a><a name="_Toc480363464"></a><a name="_Toc480461738"></a><a name="_Toc15049869"></a><a name="_Toc15391660"></a><a name="_Toc60986179"></a><a name="_Toc60997905"></a><a name="_Toc114042950"></a><a name="_Toc140673004"></a><a name="_Toc140834597"></a><a name="_Toc141278367"></a><a name="_Toc176333790"></a><a name="_Toc176442129"></a><a name="_Toc193290671"></a><a name="_Toc193888557"></a><a name="_Toc193893683"></a><a name="_Toc193893788"></a><a name="_Toc219194088"></a><a name="_Toc219300937"></a><a name="_Toc244514599"></a><a name="_Toc244934905"></a><a name="_Toc246310730"></a><a name="_Toc246310838"></a><a name="_Toc246310905"></a>Enforcement</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSE program has a vast array of enforcement methods at its disposal to help ensure that child support payments are made on time and in the full amount that is owed. Most payments are collected from noncustodial parents through income withholding.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="There are three exceptions to the immediate income withholding rule: (1) if one of the parties demonstrates, and the court (or administrative process) finds that there is good cause not to require immediate withholding, (2) if both parties agree in writing to an alternative arrangement, or (3) at the HHS Secretary's discretion, if a state can demonstrate that the rule will not increase the effectiveness or efficiency of the state's CS E program.">30</a></sup> In FY2025, 70.4% of collections were obtained through income withholding.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="This includes collections received from IV-D and non-IV-D child support cases processed through the State Disbursement Unit.">31</a></sup> Other methods of enforcement include<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="An overview of state methods to enforce past-due child support is at OCS E , &quot;How It's Enforced,&quot; June 2, 2023, https://acf.gov/css/parents/understanding-child-support/how-its-enforced . Federal enforcement methods are summarized in OCS E , &quot;Overview of the Federal Collections and Enforcement Program,&quot; November 21, 2024, https://acf.gov/css/training-technical-assistance/overview-federal-collections-and-enforcement-program .">32</a></sup> </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">intercepting federal and state income tax refunds; </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">intercepting unemployment compensation;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">filing liens against property;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">subjecting insurance settlements to withholding;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">intercepting lottery winnings, judgments, or settlements;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">seizing debtor parent assets held by public or private retirement funds and financial institutions;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">withholding, suspending, or restricting driver's licenses, professional or occupational licenses, and recreational or sporting licenses; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">denying, revoking, or restricting passports. </li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Past-due child support may accumulate if the noncustodial parent is unable or unwilling to pay the child support that is owed. In addition to collecting child support arrearages through the enforcement methods above, all jurisdictions have civil or criminal contempt-of-court procedures and criminal nonsupport laws. Federal criminal penalties also may be imposed in certain cases. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law requires states to enact and implement the Uniform Interstate Family Support Act (UIFSA) and give full faith and credit procedures for child support orders issued by other states.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="Section 466(f) of the Social Security Act (42 U.S.C. §666(f)).">33</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law also provides for international enforcement of child support.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="The United States has reciprocal agreements with certain countries to process cases and enforce child support orders. These countries include those that have joined the Hague Child Support Convention, and countries and Canadian provinces/territories that have bilateral agreements with the U.S. government and are not parties to the Hague Convention. OCS E maintains a list of these countries at https://www.acf.hhs.gov/css/partners/international   .">34</a></sup> The Preventing Sex Trafficking and Strengthening Families Act (<a class="ExternalLink" href="https://www.congress.gov/law/113/pub/183"><span class="Hyperlink">P.L. 113-183</span></a>) contained provisions designed to improve child support collections in cases where the custodial parent lives in one country and the noncustodial parent lives in another country.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="For more information on P.L. 113-183 , see CRS Report R43757, Child Welfare and Child Support: The Preventing Sex Trafficking and Strengthening Families Act (P.L. 113-183) .">35</a></sup> Specifically, this act included implementing legislation for The Hague Convention on the International Recovery of Child Support and Other Forms of Family Maintenance (the Convention).<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="The Convention was adopted at the Hague Conference on Private International Law on November 23, 2007. On August 30, 2016, President Obama signed the instrument of ratification for the Convention.">36</a></sup> (The Convention is in force between the United States and European Union member countries, plus 25 additional countries.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title='See OCSE, "International," September 22, 2026 , https://acf.gov/css/partners/international ; Status Table, Convention of 23 November 2007 on the International Recovery of Child Support and Other Forms of Family Maintenance, https://www.hcch.net/en/instruments/conventions/status-table/?cid=131 . Canada , which is included in the count of additional countries, ratified the convention in 2007 . As of the date of this report, the Hague Convention is o nly in effect in the B...'>37</a></sup>) The enactment of <a class="ExternalLink" href="https://www.congress.gov/law/113/pub/18"><span class="Hyperlink">P.L. 113-18</span></a> also ensured that the United States continued to be compliant with any multilateral child support enforcement treaties and, as part of this, required states to update their UIFSA law to incorporate verbatim any amendments adopted as of September 30, 2008, by the National Conference of Commissioners on Uniform State Laws. Additionally, the act facilitated greater access to the FPLS by foreign countries and tribal governments as part of improving child support collections. The act also amended federal law so that the federal income tax refund offset program would be available for use by a state to handle CSE requests from foreign reciprocating countries and foreign treaty countries.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="For additional information, see CRS Report R43779, Child Support Enforcement and the Hague Convention on Recovery of International Child Support .">38</a></sup><a name="_Toc419473979"></a><a name="_Toc433805807"></a><a name="_Toc449103655"></a><a name="_Toc462236833"></a><a name="_Toc462410876"></a><a name="_Toc480363465"></a><a name="_Toc480461739"></a><a name="_Toc15049870"></a><a name="_Toc15391661"></a> Foreign reciprocating countries are Austria, most provinces and territories in Canada, Israel, and Switzerland.<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="See OCSE, Foreign Reciprocating Countries (FRCs), https://acf.gov/ocse/partners/international/frcs . The Canadia Provinces that are FRCs are Alberta, New Brunswick, Newfoundland &amp; Labrador, Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island, Saskatchewan, Yukon. The British Columbia, Manitoba and Ontario provinces operate under the Hague Convention.">39</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc60986180"></a><a name="_Toc60997906"></a><a name="_Toc114042951"></a><a name="_Toc140673005"></a><a name="_Toc140834598"></a><a name="_Toc141278368"></a><a name="_Toc176333791"></a><a name="_Toc176442130"></a><a name="_Toc193290672"></a><a name="_Toc193888558"></a><a name="_Toc193893684"></a><a name="_Toc193893789"></a><a name="_Toc219194089"></a><a name="_Toc219300938"></a><a name="_Toc244514600"></a><a name="_Toc244934906"></a><a name="_Toc246310731"></a><a name="_Toc246310839"></a><a name="_Toc246310906"></a>Financing</p>
+<div class="TableBox" style="margin-left:9pt;margin-right:9pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="height:112pt;">
+<td style="width:221.1pt;" valign="top">
+<p class="TableText" style="text-align:center;"><strong>CS</strong><strong>E</strong><strong> Funding Elements</strong></p><ul><li class="ListBulletTableText">State dollars</li>
+<li class="ListBulletTableText">Federal financial participation (i.e., 66% of general state CSE expenditures)</li>
+<li class="ListBulletTableText">Retained child support collections from noncustodial parents on behalf of TANF families</li>
+<li class="ListBulletTableText">Incentive payments to states</li>
+<li class="ListBulletTableText">Fees and costs recovered</li></ul></td>
+</tr>
+</table>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSE program is funded with both state and federal dollars. There are five funding streams associated with the CSE program. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">First, states spend their own money to operate a CSE program; the level of funding allocated by the state and/or localities determines the amount of resources available to CSE agencies.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Second, the federal government reimburses each state 66% of all allowable expenditures on CSE activities, referred to as <em>federal financial participation</em> or <em>federal matching funds</em>.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="In contrast to the federal financial participation of 66% for CS E programs run by the states or territories, pursuant to PRWORA ( P.L. 104-193 ), the CS E program provides tribes and tribal organizations direct federal funding equal to 100% of approved and allowable CS E expenditures. ( For background on the elimination of the requirement for nonfederal funding, see CRS Insight IN12164, Overview of Tribal Child Support Enforcement (CSE) Program Financing . ) According to OCS E , as...">40</a></sup> The federal government's reimbursement is open-ended in that it pays its percentage of allowable state and local government expenditures with no upper limit or ceiling. For the purposes of the federal budget process, this funding is considered to be mandatory spending, and is appropriated each fiscal year in the Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Third, states collect child support on behalf of families receiving TANF assistance to reimburse themselves (and the federal government) for the cost of TANF cash payments to the family. (See the "<a class="InternalLink" href="#_Ref140834073">Distribution of Support</a>" section, below.)</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Fourth, the federal government provides states with an incentive payment to encourage them to operate effective programs.<sup><a class="FootnoteLink" href="#fn41" name="ifn41" title="The CS E incentive payment—which is based in part on five performance measures related to establishment of paternity and child support orders, collection of current and past-due child support payments, and cost-effectiveness—was statutorily set by the Child Support Performance and Incentive Act of 1998 ( P.L. 105-200 ). In the aggregate, incentive payments to states may not exceed $458 million for FY2006, $471 million for FY2007, and $483 million for FY2008 (to be increased for inflation...">41</a></sup> Federal law requires states to reinvest CSE incentive payments back into the CSE program or related activities.<sup><a class="FootnoteLink" href="#fn42" name="ifn42" title="The DRA ( P.L. 109-171 ) , effective October 1, 2007, prohibited federal financial participation from including a 66% reimbursement of state expenditure of federal child support incentive payments. However, the American Recovery and Reinvestment Act of 2009 ( P.L. 111-5 ) required HHS to temporarily provide federal matching funds at the 66% rate (in FY2009 and FY2010) on incentive payments that states reinvest back into the IV-D program. Currently, CS E incentive payments that are...">42</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Fifth, fees and costs recovered may help finance the CSE program. Families receiving TANF benefits or Medicaid coverage, as well as families required by their state SNAP program to cooperate with the CSE agency, automatically qualify for CSE services free of charge.<sup><a class="FootnoteLink" href="#fn43" name="ifn43" title="The DRA ( P.L. 109-171 ).">43</a></sup> The CSE agency must charge all other families a fee when they apply for CSE services, not to exceed $25. CS cases that have never received TANF benefits also are charged an annual user fee, not to exceed $35, when child support enforcement efforts on their behalf are successful (i.e., at least $550 annually is collected on their behalf).<sup><a class="FootnoteLink" href="#fn44" name="ifn44" title="In addition, the state cannot charge a fee to a custodial parent or noncustodial parent who is cooperating with the CSE program as a condition of SNAP eligibility (45 C.F.R., Ch. III, 302.33(a)(3), (e)(3)(i-iii)).">44</a></sup> The CSE agency may charge these fees to the custodial or noncustodial parent, pay the fee out of state funds (or, in the case of the annual user fee, deduct it from child support paid to the family).<sup><a class="FootnoteLink" href="#fn45" name="ifn45" title="For more information on the CS E annual user fee, CRS Report RS22753, Child Support Services Annual User Fee: In Brief .">45</a></sup> In addition, fees may be charged in other circumstances, including for performing genetic tests (for purposes of paternity establishment) on any individual who is not a recipient of TANF assistance or Medicaid. Finally, a state may at its option recover administrative costs in excess of the fees, either from the custodial parent or the noncustodial parent. Fees and administrative costs recovered must be subtracted from the state's total administrative costs before calculating the federal reimbursement amount (i.e., 66% federal financial participation).</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473980"></a><a name="_Toc433805808"></a><a name="_Toc449103656"></a><a name="_Toc462236834"></a><a name="_Toc462410877"></a><a name="_Toc480363466"></a><a name="_Toc480461740"></a><a name="_Toc15049871"></a><a name="_Toc15391662"></a><a name="_Toc60986181"></a><a name="_Toc60997907"></a><a name="_Toc114042952"></a><a name="_Toc140673006"></a><a name="_Toc140834599"></a><a name="_Toc141278369"></a><a name="_Toc176333792"></a><a name="_Toc176442131"></a><a name="_Toc193290673"></a><a name="_Toc193888559"></a><a name="_Toc193893685"></a><a name="_Toc193893790"></a><a name="_Toc219194090"></a><a name="_Toc219300939"></a><a name="_Toc244514601"></a><a name="_Toc244934907"></a><a name="_Toc246310732"></a><a name="_Toc246310840"></a><a name="_Toc246310907"></a>Collection and Disbursement</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To make the processing of child support payments more efficient and economical, all states are required to have a centralized automated State Collection and Disbursement Unit (SDU) to which child support payments are paid and from which they are distributed.<sup><a class="FootnoteLink" href="#fn46" name="ifn46" title="Sections 454(27) and 454B of the Social Security Act (42 U.S.C. § § 654(27) and 654B).">46</a></sup> SDUs assist the income withholding process by providing employers with a single location in each state to send the withheld child support payments. In addition to collecting and promptly distributing money to custodial parents or other states, SDUs</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">generate orders and notices of withholding to employers, </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">create and maintain records associated with each payment, and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">furnish parents with a record of the current status of child support payments.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The SDU must use automated procedures, electronic processes, and computer-driven technology to the maximum extent that is feasible, efficient, and economical.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The SDU must be operated directly by the state CSE agency, by two or more state CSE agencies under a regional cooperative agreement, or by a contractor responsible directly to the state CSE agency. Alternatively, instead of a single state system, a SDU may be established by linking local disbursement units through an automated information network. In such cases, the Secretary of HHS must first agree that the system will not cost more, take more time to establish, or take more time to operate, than a single state system. Like single state systems, linked systems must give employers only one location for submitting withheld income.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law generally requires employers to remit to the SDU income withheld within seven business days after the employee's payday. Then, the SDU is required to send child support payments to custodial parents within two business days of when they are received.<sup><a class="FootnoteLink" href="#fn47" name="ifn47" title="S ections 454B(c)(1) and 466(4)(6)(A(i) of the Social Security Act (42 U.S.C. § § 654B(c)(1) and 666(4)(6)(A(i)).">47</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473981"></a><a name="_Toc433805809"></a><a name="_Toc449103657"></a><a name="_Toc462236835"></a><a name="_Toc462410878"></a><a name="_Ref479171226"></a><a name="_Toc480363467"></a><a name="_Toc480461741"></a><a name="_Toc15049872"></a><a name="_Toc15391663"></a><a name="_Toc60986182"></a><a name="_Toc60997908"></a><a name="_Toc114042953"></a><a name="_Toc140673007"></a><a name="_Ref140834073"></a><a name="_Toc140834600"></a><a name="_Toc141278370"></a><a name="_Toc176333793"></a><a name="_Toc176442132"></a><a name="_Toc193290674"></a><a name="_Toc193888560"></a><a name="_Toc193893686"></a><a name="_Toc193893791"></a><a name="_Toc219194091"></a><a name="_Toc219300940"></a><a name="_Toc244514602"></a><a name="_Toc244934908"></a><a name="_Toc246310733"></a><a name="_Toc246310841"></a><a name="_Toc246310908"></a>Distribution of Support</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When child support is owed to a current or former TANF family, distribution rules determine whether the family or the state retains any support that is collected. These distribution rules are important when a payment is not enough to cover the current support, or if any arrearages are due for those claims. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To reimburse the states and federal government for the cost of TANF cash benefits, TANF families are required by federal law to assign their child support rights to the state. While the family receives TANF, the states and federal government generally retain any current support and any assigned arrearages collected up to the cumulative amount of TANF benefits paid to the family.<sup><a class="FootnoteLink" href="#fn48" name="ifn48" title="The DRA ( P.L. 109-171 ), effective October 1, 2009, or at state option, October 1, 2008, provides that the assignment only covers child support that accrues while the family receives TANF.">48</a></sup> While states may opt to pass through (i.e., pay) to the family some or all of the state share of the child support (thereby forgoing its share of those collections), they generally still must pay the federal government its share of child support collected on behalf of TANF families. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To help states pay for the cost of their CSE pass-through policies, federal law waives the federal government's share of child support collections that are passed through by states, up to $100 per month for one child or up to $200 per month for two or more children. (The state also must disregard the passed-through payments as income for the purposes of determining TANF eligibility in order for the federal government to waive its share.<sup><a class="FootnoteLink" href="#fn49" name="ifn49" title="See Section 457 of the Social Security Act (42 U.S.C. §657) for the applicable child support distribution procedures for pass-through and disregard.">49</a></sup>) Based on May 2023 data, 26 states, the District of Columbia, and Puerto Rico have a CSE pass-through and disregard policy; 24 states, Guam, and the U.S. Virgin Islands do not.<sup><a class="FootnoteLink" href="#fn50" name="ifn50" title="National Conference of State Legislatures, Child Support Pass-Through and Disregard Policies for Public Assistance Recipients , May 30 , 202 3 , https://www.ncsl.org/human-services/child-support-pass-through-and-disregard-policies-for-public-assistance-recipients .">50</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">States must distribute to former TANF families the following child support collections before the state and the federal government are reimbursed: </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">all current child support, and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">any child support arrearages that accrue after the family leaves TANF (these arrearages are called never-assigned arrearages), and any arrearages that accrued before the family began receiving TANF benefits. (Any child support arrearages that accrue during the time the family is on TANF belong to the state and federal government.<sup><a class="FootnoteLink" href="#fn51" name="ifn51" title="The DRA ( P.L. 109-171 ) gave states the option of distributing to former TANF families the full amount of child support collected on their behalf (i.e., both current support and all child support arrearages—including arrearages collected through the federal income tax refund offset program). This provision took effect on October 1, 2009, or October 1, 2008, at state option.">51</a></sup>) <a name="_Toc419473982"></a><a name="_Toc433805810"></a><a name="_Toc449103658"></a><a name="_Toc462236836"></a><a name="_Toc462410879"></a><a name="_Toc480363468"></a><a name="_Toc480461742"></a><a name="_Toc15049873"></a><a name="_Toc15391664"></a></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc140673008"></a><a name="_Toc140834601"></a><a name="_Toc141278371"></a><a name="_Toc176333794"></a><a name="_Toc176442133"></a><a name="_Toc193290675"></a><a name="_Toc193888561"></a><a name="_Toc193893687"></a><a name="_Toc193893792"></a><a name="_Toc219194092"></a><a name="_Toc219300941"></a><a name="_Toc244514603"></a><a name="_Toc244934909"></a><a name="_Toc246310734"></a><a name="_Toc246310842"></a><a name="_Toc246310909"></a>Medical Child Support </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">"Medical child support" is defined as the legal provision of payment of medical, dental, prescription, and other health care expenses for children living apart from one of their parents.<sup><a class="FootnoteLink" href="#fn52" name="ifn52" title="For additional information on medical child support, see CRS Report R43020, Medical Child Support: Background and Current Policy .">52</a></sup> It can include provisions for health care coverage (including payment of costs of premiums, co-payments, and deductibles) as well as cash payments for a child's medical expenses. By connecting children to coverage—through either of their parents' employers, Medicaid, State Children's Health Insurance Program (CHIP), Health Insurance Exchanges, or other options—the CSE program can try to ensure that children will have continuous, stable access to health care as they grow up, and that the resources of both parents are being used most effectively for the child. The establishment and enforcement of medical support is also intended to promote fairness in allocating childrearing costs between the parents and, when employer-sponsored health care is obtained, it saves federal and state dollars.<sup><a class="FootnoteLink" href="#fn53" name="ifn53" title="Health care coverage of children and medical child support are not synonymous. A child could be covered by a custodial parent 's health insurance plan and the child support order may not contain any provision for medical support. Conversely, a child may be receiving cash medical support but not be insured.">53</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law requires every Title IV-D child support order to include a provision for health care coverage.<sup><a class="FootnoteLink" href="#fn54" name="ifn54" title="The regulations implementing this provision recognize that state CS E agencies generally do not establish child support orders. Rather , many orders are established under a judicial, quasi-judicial, or administrative process outside of the CS E agency. When orders are established through the courts, state CS E agencies can petition but cannot require inclusion of medical support provisions. State child support guidelines are also required to provide for the inclusion of medical support,...">54</a></sup> It requires that medical support for a child be provided by either or both parents and that it must be enforced. It authorizes the state CSE agency to enforce medical support against a custodial or noncustodial parent whenever health care coverage is available to that parent at "reasonable cost."<sup><a class="FootnoteLink" href="#fn55" name="ifn55" title='45 C.F.R. § 303.31(a)(3) provides that "cash medical support or the cost of health insurance is considered reasonable in cost if the cost to the parent responsible for providing medical support does not exceed five percent of their gross income or, at State option, a reasonable alternative income-based numeric standard." For state-specific definitions of reasonable cost , see https://ocsp.acf.hhs.gov/irg/irgpdf.pdf?geoType=OGP&amp;groupCode=EMP&amp;addrType=NMS&amp;addrClassType=EMP .'>55</a></sup> It also stipulates that medical support may include health care coverage (including payment of costs of premiums, co-payments, and deductibles) and payment of medical expenses for a child. States generally seek medical child support as sequenced below:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The noncustodial or custodial parent may be ordered to provide health insurance if it is available at reasonable cost through the parent's employer. </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The noncustodial parent may be ordered to pay for other private health insurance (health care coverage) premiums.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The noncustodial parent may be ordered to reimburse the custodial parent for all or a portion of the costs of health insurance obtained by the custodial parent (on behalf of the child[ren]).</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If neither parent is able to obtain health insurance at a reasonable cost, the custodial parent may be ordered to apply on behalf of the child to a government-funded medical program such as Medicaid or CHIP. The cost of any Medicaid expenses or CHIP coverage (including premiums, co-pays, or coinsurance costs) may be added to the noncustodial parent's monthly child support payment.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Both parents may be required to pay a percentage of out-of-pocket medical expenses that are not covered through insurance. The percentage is determined by the financial circumstances of each parent.</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">If neither parent has private insurance and the children are not eligible for Medicaid or CHIP, the court may order the noncustodial parent to provide cash medical support in addition to the monthly child support payment; and/or the noncustodial parent may be ordered to pay additional amounts to cover a portion of ongoing medical bills or as reimbursement for uninsured medical costs.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When the noncustodial parent is ordered to pay cash medical support, generally it is included in the cash child support order and a single notice of income withholding is sent to the employer to withhold from the parent's paycheck. If the parent is ordered to provide insurance through the employer, the employer is required to enroll the child in health insurance coverage and withhold the necessary premium payments from the parent's income.<sup><a class="FootnoteLink" href="#fn56" name="ifn56" title="This requirement is effectuated through the National Medical Support Notice. (See OMB 0970-0222 and 1210-0113, National Medical Support Notice Forms &amp; Instructions , January 19, 2023, https://www.acf.hhs.gov/css/form/national-medical-support-notice-forms-instructions .)">56</a></sup> The employer is required to send any amount withheld directly to the health care plan. In addition, employers must promptly notify the CSE agency whenever the employment of the noncustodial parent (and, at state option, the custodial parent) is terminated.<sup><a class="FootnoteLink" href="#fn57" name="ifn57" title="State CS E agencies are also required to promptly notify the employer when there is no longer a current medical support order in effect (45 C.F.R. § 303.32(c)).">57</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc60986183"></a><a name="_Toc60997909"></a><a name="_Toc114042954"></a><a name="_Toc140673009"></a><a name="_Toc140834602"></a><a name="_Toc141278372"></a><a name="_Toc176333795"></a><a name="_Toc176442134"></a><a name="_Toc193290676"></a><a name="_Toc193888562"></a><a name="_Toc193893688"></a><a name="_Toc193893793"></a><a name="_Toc219194093"></a><a name="_Toc219300942"></a><a name="_Toc244514604"></a><a name="_Toc244934910"></a><a name="_Toc246310735"></a><a name="_Toc246310843"></a><a name="_Toc246310910"></a>Noncustodial Parent Access to and Engagement with Their Children</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc419473983"></a><a name="_Toc433805811"></a><a name="_Toc449103659"></a><a name="_Toc462236837"></a><a name="_Toc462410880"></a><a name="_Toc480363469"></a><a name="_Toc480461743"></a><a name="_Toc15049874"></a><a name="_Toc15391665"></a><a name="_Toc60986184"></a><a name="_Toc60997910"></a><a name="_Toc114042955"></a><a name="_Toc140673010"></a><a name="_Toc140834603"></a><a name="_Toc141278373"></a><a name="_Toc176333796"></a><a name="_Toc176442135"></a><a name="_Toc193290677"></a><a name="_Toc193888563"></a><a name="_Toc193893689"></a><a name="_Toc193893794"></a><a name="_Toc219194094"></a><a name="_Toc219300943"></a><a name="_Toc244514605"></a><a name="_Toc244934911"></a><a name="_Toc246310736"></a><a name="_Toc246310844"></a><a name="_Toc246310911"></a>Access and Visitation Grants and Parenting Time Agreements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Hlk219128577"></a>A noncustodial parent's right to visit with one's children is commonly referred to as visitation or child access (and more recently as voluntary parenting time agreements). State domestic relations or family laws almost universally treat child support and visitation as completely separate issues. Historically, the federal government also has agreed that visitation and child support should be legally separate issues, and that only child support should be under the purview of the CSE program. Both federal and state policymakers have maintained that denial of visitation rights should not be considered a reason for stopping child support payments.<sup><a class="FootnoteLink" href="#fn58" name="ifn58" title="See HHS, OCSE, Child Support and Parenting Time: Improving Coordination to Benefit Children , July 2013, https://acf.gov/sites/default/files/documents/ocse/13_child_support_and_parenting_time_final.pdf .">58</a></sup> However, in recognition of the negative long-term consequences for children associated with the absence of their noncustodial parent, as well as evidence that contact between the child and noncustodial parent can make it more likely that child support responsibilities will be met,<sup><a class="FootnoteLink" href="#fn59" name="ifn59" title="See HHS, OCSE, Noncustodial Parents: Summaries of Research, Grants and Practices , July 2009, https://acf.gov/archive/css/policy-guidance/noncustodial-parents-summaries-research-grants-and-practices .">59</a></sup> federal and state policymakers have increasingly promoted efforts that address child support and access and visitation in the same forum.<sup><a class="FootnoteLink" href="#fn60" name="ifn60" title="For further background on this issue , see CRS In Focus IF13043, Parenting Time Agreements and Child Support .">60</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To promote visitation and better relations between custodial and noncustodial parents, the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (<a class="ExternalLink" href="https://www.congress.gov/law/104/pub/193"><span class="Hyperlink">P.L. 104-193</span></a>) provides mandatory spending in the amount of $10 million each fiscal year from the federal CSE budget account for grants to states for access and visitation programs.<sup><a class="FootnoteLink" href="#fn61" name="ifn61" title="Even before PRWORA ( P.L. 104-193 ), the Family Support Act of 1988 ( P.L. 100-485 ) authorized a limited number of grants to states for demonstration projects to develop, improve, or expand activities designed to increase compliance with child access provisions of court orders.">61</a></sup> Eligible activities include but are not limited to mediation, counseling, education, development of parenting plans, visitation enforcement, and development of guidelines for visitation and alternative custody arrangements.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 2019, OCSE reported the results of their multiyear pilot program, Parenting Time Opportunities for Children (PTOC). The purpose of PTOC was to evaluate <a name="_Hlk219128697"></a>the extent to which CSE agencies could implement integrated processes for the establishment of child support orders and parenting time agreements. The study also examined the feasibility of sufficient family violence safeguards, and whether the establishment of parenting time would result in greater parental involvement or child support payments. According to the agency, "evaluators of the project sites confirmed that parents appreciate the opportunity to address parenting time and feel that it increases the fairness of child support. Furthermore, PTOC appears to help some parents with improved relationships, more time with their children, and some small increases in child support compliance."<sup><a class="FootnoteLink" href="#fn62" name="ifn62" title="HHS, OCSE, Parenting Time Opportunities for Children Research Brief , August 2019, p. 1, https://acf.gov/sites/default/files/documents/ocse/ptoc_research_brief.pdf .">62</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><span class="result-title">CS</span><span class="result-title">E</span><span class="result-title"> administrative costs related to parenting time arrangements are not considered to be eligible expenditures for federal reimbursement. </span>However, there has been congressional interest in these arrangements and the feasibility of implementing them on a more widespread basis using existing funding sources.<span class="result-title"> The Preventing Sex Trafficking and Strengthening Families Act </span>(<a class="ExternalLink" href="https://www.congress.gov/law/113/pub/183"><span class="Hyperlink">P.L. 113-183</span></a>) included a Sense of the Congress statement that </p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">establishing parenting time arrangements (also known as visitation) when obtaining child support orders is an important goal that should be accompanied by strong family violence safeguards; and </li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">states should use existing funding sources to support the establishment of parenting time arrangements, including child support incentives, Access and Visitation Grants, and Healthy Marriage Promotion and Responsible Fatherhood Grants. <a name="_Toc419473984"></a><a name="_Toc433805812"></a><a name="_Toc449103660"></a><a name="_Toc462236838"></a><a name="_Toc462410881"></a><a name="_Toc480363470"></a><a name="_Toc480461744"></a><a name="_Toc15049875"></a><a name="_Toc15391666"></a></li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc60986185"></a><a name="_Toc60997911"></a><a name="_Toc114042956"></a><a name="_Toc140673011"></a><a name="_Toc140834604"></a><a name="_Toc141278374"></a><a name="_Toc176333797"></a><a name="_Toc176442136"></a><a name="_Toc193290678"></a><a name="_Toc193888564"></a><a name="_Toc193893690"></a><a name="_Toc193893795"></a><a name="_Toc219194095"></a><a name="_Toc219300944"></a><a name="_Toc244514606"></a><a name="_Toc244934912"></a><a name="_Toc246310737"></a><a name="_Toc246310845"></a><a name="_Toc246310912"></a>Responsible Fatherhood Programs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The federal government has also sought to engage noncustodial parents in the lives of their children through what are known as <em>responsible fatherhood programs</em>.<sup><a class="FootnoteLink" href="#fn63" name="ifn63" title="Although programs that seek to help fathers initiate or maintain contact with their children and become emotionally involved in their children's lives are usually referred to as &quot; fatherhood&quot; programs, the programs are generally gender neutral. Their underlying goal is participation of the noncustodial parent in the lives of their children.">63</a></sup> Based on the premise that committed, involved, and responsible fathers are important in the lives of their children, these programs seek to promote the financial and personal responsibility of noncustodial parents for their children, and increase the participation of fathers in their children's lives. Some responsible fatherhood programs help noncustodial parents strengthen their parenting skills. Other programs try to discourage youth from becoming parents until they are married and ready for the responsibility. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The Deficit Reduction Act of 2005 (<a class="ExternalLink" href="https://www.congress.gov/law/109/pub/171"><span class="Hyperlink">P.L. 109-171</span></a>) included a provision that provided mandatory funding for a Healthy Marriage Promotion and Responsible Fatherhood (HMRF) grants program (in Title IV-A of the Social Security Act). For FY2006-FY2010, that program was provided up to $50 million per year for competitive responsible fatherhood grants. For FY2011, funding for those fatherhood grants was increased to $75 million.<sup><a class="FootnoteLink" href="#fn64" name="ifn64" title="See the Claims Resolution Act of 2010 ( P.L. 111-291 ).">64</a></sup> Since FY2011, $75 million in mandatory funding for HMRF has been provided each year.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Most responsible fatherhood programs include parenting education; training in responsible decisionmaking, conflict resolution, and coping with stress; mediation services for both parents; problem-solving skills; peer support; and job-training opportunities.<sup><a class="FootnoteLink" href="#fn65" name="ifn65" title="For more information on responsible fatherhood programs, see CRS Report RL31025, Fatherhood Initiatives: Connecting Fathers to Their Children .">65</a></sup> Grantees include states, territories, Indian tribes and tribal organizations, and public and nonprofit community groups (including religious organizations).</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Carmen Solomon-Fears, retired CRS Specialist in Social Policy, authored earlier versions of this report. Joe Angert, CRS Research Assistant, assisted with the most recent report update. </p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The CSE program statutory authorities are found in Sections 451-469B of the Social Security Act (42 U.S.C. §§651-669b). The CSE federal regulations are found in 45 C.F.R. §§301-310. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See S. Rept. 93-1356, pp. 42-55.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See, for example, HHS, Office of the Assistant Secretary for Planning and Evaluation (ASPE), "The Personal Responsibility and Work Opportunity Reconciliation Act of 1996, August 31, 1996, <a class="ExternalLink" href="https://aspe.hhs.gov/reports/personal-responsibility-work-opportunity-reconciliation-act-1996"><span class="Hyperlink">https://aspe.hhs.gov/reports/personal-responsibility-work-opportunity-reconciliation-act-1996</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a name="_Hlk218880755"></a>For a period from 2023 through 2025, this office was referred to as the Office of Child Support Services, and the program it administers as the Child Support Services Program. On June 5, 2023, HHS published a notice in the <em>Federal Register</em> changing the name of the program and administering entity within HHS to the Office of Child Support Services in Part K of the Statement of Organization, Functions, and Delegations of Authority of the Department of Health and Human Services, Administration for Children and Families (ACF) (<em>Federal Register</em>, Vol. 88, No. 107, June 5, 2023, p. 36587). No conforming changes were proposed to 45 C.F.R. until December 31, 2024, when OCSS published a direct final rule in the <em>Federal Register</em> that would have further effectuated the name change of the office and made related changes to the program name. This direct final rule was to have been effective 60 days after its publication (<em>Federal Register</em>, Vol. 89, No. 250, December 31, 2024, p. 107015)." However, on February 27, 2025, HHS re-opened the comment period and delayed the effective date, and then subsequently withdrew the direct final rule (<em>Federal Register</em>, Vol. 90, No. 77, April 23, 2025, p. 17012). On December 19, 2025, HHS published a notice in the <em>Federal Register</em> changing the name of the program and administering entity back to the Office of Child Support Enforcement (OCSE) in Part K of the Statement of Organization, Functions, and Delegations of Authority of the Department of Health and Human Services, Administration for Children and Families (<em>Federal Register</em>, Vol. 90, No. 242, December 19, 2025, p. 59525). In cases where HHS actions were taken under the OCSS name, this report refers to the entity using that name. Similarly, for citations this report uses the name of the entity and program listed in the cited publication.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> States were historically required to provide CSE services to Indian tribes and tribal organizations as part of their CSE caseloads. Tribes were not specifically included in the CSE statute until the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA, <a class="ExternalLink" href="https://www.congress.gov/law/104/pub/193"><span class="Hyperlink">P.L. 104-193</span></a>), although several tribes had previously negotiated agreements (e.g., informal, cooperative, intergovernmental, and joint powers) with some states in a mutual effort to serve Native American children. Section 456(f) of the Social Security Act allows direct federal funding of approved tribal CSE programs. In general, Native American children living on Indian reservations that have a tribal CSE program are covered by that specific tribal CSE program; Native American children who do not live on Indian reservations are covered by the state's CSE program. For further information, see <a class="ExternalLink" href="https://www.acf.hhs.gov/css/child-support-professionals/tribal-agencies"><span class="Hyperlink">https://www.acf.hhs.gov/css/child-support-professionals/tribal-agencies</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Elaine Sorensen, Arthur Pashi, and Melody Morales, <em>Characteristics of Families Served by the Child Support (IV-D) Program: 2016 Census Survey Results</em>, Office of Child Support Enforcement, November 2018, p. 3, <a class="ExternalLink" href="https://acf.gov/sites/default/files/documents/ocse/iv_d_characteristics_2016_census_results.pdf"><span class="Hyperlink">https://acf.gov/sites/default/files/documents/ocse/iv_d_characteristics_2016_census_results.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In addition, families who are required by the state Supplemental Nutrition Assistance Program (SNAP) to cooperate with the CSE agency automatically qualify for CSE services free of charge. One or both parents of a child who is placed in foster care may be ordered to pay child support, but the determination of whether this requirement should be made is left up to the state child welfare agency. Section 471(a)(17) of the Social Security Act requires the child welfare agency "where appropriate" to secure assignment of child support rights on behalf of any child receiving foster care support pursuant to Title IV-E of the Social Security Act. However, the establishment of a child support order is not a condition of Title IV-E foster care support.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Roughly half of states have opted to require that the custodial parent cooperate with the CSE program as a condition of receiving child care subsidies (see HHS, ASPE, <em>Child Support Cooperation Requirements in Child Care Subsidy Programs and SNAP: Key Policy Considerations</em>," November 1, 2018, <a class="ExternalLink" href="https://aspe.hhs.gov/pdf-report/child-support-cooperation-requirements-child-care-subsidy-programs-and-snap-key-policy-considerations"><span class="Hyperlink">https://aspe.hhs.gov/pdf-report/child-support-cooperation-requirements-child-care-subsidy-programs-and-snap-key-policy-considerations</span></a>). If a state opts to exempt these families from the annual user fee, the state must reimburse the federal government its portion of the fees that otherwise would have been collected.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Unless otherwise noted, all FY2025 data in this report are from HHS, OCSE, <em>FY202</em><em>5</em><em> Preliminary Data Report</em><em> and Tables</em><em>, Department of Health and Human Services</em>, <a class="ExternalLink" href="https://acf.gov/sites/default/files/documents/ocse/FY_2025_Preliminary_Report.pdf"><span class="Hyperlink">https://acf.gov/sites/default/files/documents/ocse/FY_2025_Preliminary_Report.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In FY2025, $144.1 billion in child support obligations ($30.8 billion in current support and $113.4 billion in past-due support) was owed to families receiving CSE services and $27.5 billion was paid ($20.1 billion current, $7.4 billion past-due; numbers do not sum to total due to rounding).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Within three business days after receipt of new hire information from the employer, the state directory of new hires (SDNH) is required to furnish the information to the NDNH. (For additional information, see "System Components and Data Processes" in CRS Report RS22889, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS22889"><em><span class="Hyperlink">The National Directory of New Hires: An Overview</span></em></a>.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information on the FPLS, see <a class="ExternalLink" href="https://www.acf.hhs.gov/css/training-technical-assistance/overview-federal-parent-locator-service"><span class="Hyperlink">https://www.acf.hhs.gov/css/training-technical-assistance/overview-federal-parent-locator-service</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Department of Defense is "using a secondary Department of War designation" under Executive Order 14347 dated September 5, 2025.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <span class="result-title">PRWORA</span><span class="result-title"> </span>(<a class="ExternalLink" href="https://www.congress.gov/law/104/pub/193"><span class="Hyperlink">P.L. 104-193</span></a>) permits both custodial and certain noncustodial parents to obtain information from the FPLS. The <span class="result-title">Balanced Budget Act of 1997</span> (<a class="ExternalLink" href="https://www.congress.gov/law/105/pub/33"><span class="Hyperlink">P.L. 105-33</span></a>), however, prohibits FPLS information from being disclosed to noncustodial parents in cases where there is evidence of domestic violence or child abuse, and the local court determines that disclosure may result in harm to the custodial parent or child.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a discussion of these with regard to the NDNH, see the report section, "Entities that May Receive NDNH Data:" in CRS Report RS22889, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS22889"><em><span class="Hyperlink">The National Directory of New Hires: An Overview</span></em></a>, by Jessica Tollestrup.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The <span class="result-title">Child Support Performance and Incentive Act of 1998</span> (<a class="ExternalLink" href="https://www.congress.gov/law/105/pub/200"><span class="Hyperlink">P.L. 105-200</span></a>) imposes financial penalties on states that failed to meet the law's automated data systems requirements by a certain deadline. The HHS Secretary is required to reduce the amount the state would otherwise have received in federal CSE funding by the penalty amount for the fiscal year in question. Section 455(a)(4)(B) of the Social Security Act (42 U.S.C. §655(a)(4)(B)) stipulates that the penalty amount percentage is 4% in the case of the first year of noncompliance; 8% in the second year; 16% in the third year; 25% in the fourth year; and 30% in the fifth or any subsequent year.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> When a match occurs, the SDNH is required to report to the state CSE agency the name, address, and Social Security number of the employee, and the employer's name, address, and identification number. Within two business days, the CSE agency then instructs appropriate employers to withhold child support obligations from the employee's paycheck, unless the employee's income is not subject to income withholding.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> On September 26, 2023, OCSS issued a Notice of Proposed Rulemaking that would have replaced the term "paternity" with "parentage," and replaced the terms "mother" and "father" with the term "parentage," throughout 45 C.F.R. Chapter III. It also proposed additional changes to clarify that "full faith and credit requirements apply to paternity determinations, however, States and Tribes would have been permitted, at their option, to recognize same-sex parentage establishment determined in accordance with the laws and procedures of another State or Tribe." (<em>Federal Register</em>, Vol. 88, No. 185, pp.<em> </em>65928-65937, September 26, 2023). The requirements in Title IV-D of the Social Security Act with regard to "paternity establishment" would have been unchanged. This NPRM was withdrawn on January 15, 2025 (<em>Federal Register</em>, Vol. 90, No. 9, pp.<em> </em>3752-3753).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For further information, see <em>Federal Register</em>, Vol. 88, No. 185, p. 65931, September 26, 2023, which quotes from HHS, OCSE, "Same-Sex Parents and Child Support Program Requirements," PIQ-22-02, March 29, 2022. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 466(a)(5) of the Social Security Act (42 U.S.C. §666(a)(5)). The DRA (<a class="ExternalLink" href="https://www.congress.gov/law/109/pub/171"><span class="Hyperlink">P.L. 109-171</span></a>) reduced the 90% federal financial participation rate for laboratory costs associated with paternity establishment to 66% as of October 1, 2006.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 466(a)(5)(D) of the Social Security Act (42 U.S.C. §666(a)(5)(D)) stipulates that when parents are unmarried, the "father" shall be included in the birth record only if both parents have signed a voluntary acknowledgement of paternity, or a court or administrative agency has issued an adjudication of paternity.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sections 452(g) and 466 of the Social Security Act (42 U.S.C. §§652(g) and 666).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Federal law requires states to have procedures that create a rebuttable or, at the option of the state, conclusive presumption of paternity upon genetic testing results indicating a threshold probability that the alleged father is the actual father of the child (Section 466(a)(5)(G) of the Social Security Act) (42 U.S.C. §666(a)(5)(G)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Families required to cooperate with the CSE agency under federal law include those receiving TANF cash assistance or Medicaid coverage, and those in states that have adopted cooperation requirements for their SNAP programs. Roughly half of states have additionally opted under their own laws to require cooperation of recipients of child care subsidies. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See the <span class="result-title">Family Support Act of 1988</span> (<a class="ExternalLink" href="https://www.congress.gov/law/100/pub/485"><span class="Hyperlink">P.L. 100-485</span></a>).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The District of Columbia uses a hybrid model that starts as a percentage of income model and is then reduced by a formula based on the custodial parent's income. Information was not available for Puerto Rico. See National Conference of State Legislatures, <em>Child Support Guideline Models by State</em>, July 10, 2020, <a class="ExternalLink" href="https://www.ncsl.org/human-services/child-support-guideline-models"><span class="Hyperlink">https://www.ncsl.org/human-services/child-support-guideline-models</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Office of Child Support Enforcement, <em>Providing Expedited Review and Modification Assistance</em>, Child Support Fact Sheet Series, no. 2, <a class="ExternalLink" href="https://www.acf.hhs.gov/sites/default/files/documents/ocse/providing_expedited_review_and_modification.pdf"><span class="Hyperlink">https://www.acf.hhs.gov/sites/default/files/documents/ocse/providing_expedited_review_and_modification.pdf</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 466(a)(10) of the Social Security Act (42 U.S.C. §666(a)(10)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 466(a)(9) of the Social Security Act (42 U.S.C. §666(a)(9)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> There are three exceptions to the immediate income withholding rule: (1) if one of the parties demonstrates, and the court (or administrative process) finds that there is good cause not to require immediate withholding, (2) if both parties agree in writing to an alternative arrangement, or (3) at the HHS Secretary's discretion, if a state can demonstrate that the rule will not increase the effectiveness or efficiency of the state's CSE program.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This includes collections received from IV-D and non-IV-D child support cases processed through the State Disbursement Unit.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> An overview of state methods to enforce past-due child support is at OCSE, "How It's Enforced," June 2, 2023, <a class="ExternalLink" href="https://acf.gov/css/parents/understanding-child-support/how-its-enforced"><span class="Hyperlink">https://acf.gov/css/parents/understanding-child-support/how-its-enforced</span></a>. Federal enforcement methods are summarized in OCSE, "Overview of the Federal Collections and Enforcement Program," November 21, 2024, <a class="ExternalLink" href="https://acf.gov/css/training-technical-assistance/overview-federal-collections-and-enforcement-program"><span class="Hyperlink">https://acf.gov/css/training-technical-assistance/overview-federal-collections-and-enforcement-program</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Section 466(f) of the Social Security Act (42 U.S.C. §666(f)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The United States has reciprocal agreements with certain countries to process cases and enforce child support orders. These countries include those that have joined the Hague Child Support Convention, and countries and Canadian provinces/territories that have bilateral agreements with the U.S. government and are not parties to the Hague Convention. OCSE maintains a list of these countries at <a class="ExternalLink" href="https://www.acf.hhs.gov/css/partners/international"><span class="Hyperlink">https://www.acf.hhs.gov/css/partners/international</span></a><span class="Hyperlink"></span><span class="Hyperlink"></span>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on <a class="ExternalLink" href="https://www.congress.gov/law/113/pub/183"><span class="Hyperlink">P.L. 113-183</span></a>, see CRS Report R43757, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43757"><em><span class="Hyperlink">Child Welfare and Child Support: The Preventing Sex Trafficking and Strengthening Families Act (P.L. 113-183)</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Convention was adopted at the Hague Conference on Private International Law on November 23, 2007. On August 30, 2016, President Obama signed the instrument of ratification for the Convention. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See OCSE, "International," September 22, 2026, <a class="ExternalLink" href="https://acf.gov/css/partners/international"><span class="Hyperlink">https://acf.gov/css/partners/international</span></a>; Status Table, Convention of 23 November 2007 on the International Recovery of Child Support and Other Forms of Family Maintenance, <a class="ExternalLink" href="https://www.hcch.net/en/instruments/conventions/status-table/?cid=131"><span class="Hyperlink">https://www.hcch.net/en/instruments/conventions/status-table/?cid=131</span></a>. Canada, which is included in the count of additional countries, ratified the convention in 2007. As of the date of this report, the Hague Convention is only in effect in the British Columbia, Manitoba and Ontario provinces. Other provinces operate as Foreign Reciprocating Countries with the United States (see Canada entry in OCSE, <em>Foreign Reciprocating Countries (FRCs)</em>, <a class="ExternalLink" href="https://acf.gov/ocse/partners/international/frcs"><span class="Hyperlink">https://acf.gov/ocse/partners/international/frcs</span></a>).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information, see CRS Report R43779, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43779"><em><span class="Hyperlink">Child Support Enforcement and the Hague Convention on Recovery of International Child Support</span></em></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See OCSE, Foreign Reciprocating Countries (FRCs), <a class="ExternalLink" href="https://acf.gov/ocse/partners/international/frcs"><span class="Hyperlink">https://acf.gov/ocse/partners/international/frcs</span></a>. The Canadia Provinces that are FRCs are Alberta, New Brunswick, Newfoundland &amp; Labrador, Northwest Territories, Nova Scotia, Nunavut, Prince Edward Island, Saskatchewan, Yukon. The British Columbia, Manitoba and Ontario provinces operate under the Hague Convention.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In contrast to the federal financial participation of 66% for CSE programs run by the states or territories, pursuant to PRWORA (<a class="ExternalLink" href="https://www.congress.gov/law/104/pub/193"><span class="Hyperlink">P.L. 104-193</span></a>), the CSE program provides tribes and tribal organizations direct federal funding equal to 100% of approved and allowable CSE expenditures. (For background on the elimination of the requirement for nonfederal funding, see CRS Insight IN12164, <a class="ExternalLink" href="http://www.crs.gov/Reports/IN12164"><em><span class="Hyperlink">Overview of Tribal Child Support Enforcement (CSE) Program Financing</span></em></a>.) According to OCSE, as of May 21, 2026, 63 Indian tribes or tribal organizations operated comprehensive tribal CSE programs. For a listing of the tribal programs, see <a class="ExternalLink" href="https://www.acf.hhs.gov/css/training-technical-assistance/tribal-child-support-agency-contacts"><span class="Hyperlink">https://www.acf.hhs.gov/css/training-technical-assistance/tribal-child-support-agency-contacts</span></a>. For additional information, see CRS Report R41204, <a class="ExternalLink" href="http://www.crs.gov/Reports/R41204"><em><span class="Hyperlink">Child Support Enforcement: Tribal Programs</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn41" name="fn41">41</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The CSE incentive payment—which is based in part on five performance measures related to establishment of paternity and child support orders, collection of current and past-due child support payments, and cost-effectiveness—was statutorily set by the <span class="result-title">Child Support Performance and Incentive Act of 1998</span> (<a class="ExternalLink" href="https://www.congress.gov/law/105/pub/200"><span class="Hyperlink">P.L. 105-200</span></a>). In the aggregate, incentive payments to states may not exceed $458 million for FY2006, $471 million for FY2007, and $483 million for FY2008 (to be increased for inflation in years thereafter). According to OCSE estimates, FY2024 incentive payments totaled $544 million. (FY2025 estimates were not provided in the <em>FY202</em><em>5</em><em> Preliminary Data Report and Tables</em>.) For additional information on CSE incentive payments, see CRS Report RL34203, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL34203"><em><span class="Hyperlink">Child Support Enforcement Program Incentive Payments: Background and Policy Issues</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn42" name="fn42">42</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The <span class="result-title">DRA (</span><a class="ExternalLink" href="https://www.congress.gov/law/109/pub/171"><span class="Hyperlink">P.L. 109-171</span></a>), effective October 1, 2007, prohibited federal financial participation from including a 66% reimbursement of state expenditure of federal child support incentive payments. However, the <span class="result-title">American Recovery and Reinvestment Act of 2009</span> (<a class="ExternalLink" href="https://www.congress.gov/law/111/pub/5"><span class="Hyperlink">P.L. 111-5</span></a>) required HHS to temporarily provide federal matching funds at the 66% rate (in FY2009 and FY2010) on incentive payments that states reinvest back into the IV-D program. Currently, CSE incentive payments that are received by states and reinvested in the CSE program are not eligible for federal reimbursement.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn43" name="fn43">43</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The <span class="result-title">DRA</span> (<a class="ExternalLink" href="https://www.congress.gov/law/109/pub/171"><span class="Hyperlink">P.L. 109-171</span></a>).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn44" name="fn44">44</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> In addition, the state cannot charge a fee to a custodial parent or noncustodial parent who is cooperating with the CSE program as a condition of SNAP eligibility (45 C.F.R., Ch. III, 302.33(a)(3), (e)(3)(i-iii)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn45" name="fn45">45</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on the CSE annual user fee, CRS Report RS22753, <a class="ExternalLink" href="http://www.crs.gov/Reports/RS22753"><em><span class="Hyperlink">Child Support Services Annual User Fee: In Brief</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn46" name="fn46">46</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sections 454(27) and 454B of the Social Security Act (42 U.S.C. §§654(27) and 654B).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn47" name="fn47">47</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sections 454B(c)(1) and 466(4)(6)(A(i) of the Social Security Act (42 U.S.C. §§654B(c)(1) and 666(4)(6)(A(i)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn48" name="fn48">48</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The DRA (<a class="ExternalLink" href="https://www.congress.gov/law/109/pub/171"><span class="Hyperlink">P.L. 109-171</span></a>), effective October 1, 2009, or at state option, October 1, 2008, provides that the assignment only covers child support that accrues while the family receives TANF.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn49" name="fn49">49</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See Section 457 of the Social Security Act (42 U.S.C. §657) for the applicable child support distribution procedures for pass-through and disregard. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn50" name="fn50">50</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> National Conference of State Legislatures, <em>Child Support Pass-Through and Disregard Policies for Public Assistance Recipients</em>, May 30, 2023, <a class="ExternalLink" href="https://www.ncsl.org/human-services/child-support-pass-through-and-disregard-policies-for-public-assistance-recipients"><span class="Hyperlink">https://www.ncsl.org/human-services/child-support-pass-through-and-disregard-policies-for-public-assistance-recipients</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn51" name="fn51">51</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The DRA (<a class="ExternalLink" href="https://www.congress.gov/law/109/pub/171"><span class="Hyperlink">P.L. 109-171</span></a>) gave states the option of distributing to former TANF families the full amount of child support collected on their behalf (i.e., both current support and all child support arrearages—including arrearages collected through the federal income tax refund offset program). This provision took effect on October 1, 2009, or October 1, 2008, at state option.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn52" name="fn52">52</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For additional information on medical child support, see CRS Report R43020, <a class="ExternalLink" href="http://www.crs.gov/Reports/R43020"><em><span class="Hyperlink">Medical Child Support: Background and Current Policy</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn53" name="fn53">53</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Health care coverage of children and medical child support are not synonymous. A child could be covered by a custodial parent's health insurance plan and the child support order may not contain any provision for medical support. Conversely, a child may be receiving cash medical support but not be insured.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn54" name="fn54">54</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The regulations implementing this provision recognize that state CSE agencies generally do not establish child support orders. Rather, many orders are established under a judicial, quasi-judicial, or administrative process outside of the CSE agency. When orders are established through the courts, state CSE agencies can petition but cannot require inclusion of medical support provisions. State child support guidelines are also required to provide for the inclusion of medical support, but judges and administrative officials can deviate from those guidelines if appropriate. For a discussion of establishment provisions, see the Lewin Group, <em>Administrative and Judicial Processes for Establishing Child Support Orders</em>, for OCSE, ACF, HHS, June 2002, <a class="ExternalLink" href="https://www.acf.hhs.gov/sites/default/files/documents/ocse/dcl_03_15a.pdf"><span class="Hyperlink">https://www.acf.hhs.gov/sites/default/files/documents/ocse/dcl_03_15a.pdf</span></a>. For information on the requirements to petition for inclusion of medical support, see 45 C.F.R. §303.31(b).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn55" name="fn55">55</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 45 C.F.R. §303.31(a)(3) provides that "cash medical support or the cost of health insurance is considered reasonable in cost if the cost to the parent responsible for providing medical support does not exceed five percent of their gross income or, at State option, a reasonable alternative income-based numeric standard." For state-specific definitions of <em>reasonable cost</em>, see <a class="ExternalLink" href="https://ocsp.acf.hhs.gov/irg/irgpdf.pdf?geoType=OGP&amp;groupCode=EMP&amp;addrType=NMS&amp;addrClassType=EMP"><span class="Hyperlink">https://ocsp.acf.hhs.gov/irg/irgpdf.pdf?geoType=OGP&amp;groupCode=EMP&amp;addrType=NMS&amp;addrClassType=EMP</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn56" name="fn56">56</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This requirement is effectuated through the National Medical Support Notice. (See OMB 0970-0222 and 1210-0113, <em>National Medical Support Notice Forms &amp; Instructions</em>, January 19, 2023, <a class="ExternalLink" href="https://www.acf.hhs.gov/css/form/national-medical-support-notice-forms-instructions"><span class="Hyperlink">https://www.acf.hhs.gov/css/form/national-medical-support-notice-forms-instructions</span></a>.)</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn57" name="fn57">57</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> State CSE agencies are also required to promptly notify the employer when there is no longer a current medical support order in effect (45 C.F.R. §303.32(c)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn58" name="fn58">58</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See HHS, OCSE, <em>Child Support and Parenting Time: Improving Coordination to Benefit Children</em>, July 2013, <a class="ExternalLink" href="https://acf.gov/sites/default/files/documents/ocse/13_child_support_and_parenting_time_final.pdf"><span class="Hyperlink">https://acf.gov/sites/default/files/documents/ocse/13_child_support_and_parenting_time_final.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn59" name="fn59">59</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See HHS, OCSE, <em>Noncustodial Parents: Summaries of Research, Grants and Practices</em>, July 2009, <a class="ExternalLink" href="https://acf.gov/archive/css/policy-guidance/noncustodial-parents-summaries-research-grants-and-practices"><span class="Hyperlink">https://acf.gov/archive/css/policy-guidance/noncustodial-parents-summaries-research-grants-and-practices</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn60" name="fn60">60</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For further background on this issue, see CRS In Focus IF13043, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF13043"><em><span class="Hyperlink">Parenting Time Agreements and Child Support</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn61" name="fn61">61</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Even before PRWORA (<a class="ExternalLink" href="https://www.congress.gov/law/104/pub/193"><span class="Hyperlink">P.L. 104-193</span></a>), the Family Support Act of 1988 (<a class="ExternalLink" href="https://www.congress.gov/law/100/pub/485"><span class="Hyperlink">P.L. 100-485</span></a>) authorized a limited number of grants to states for demonstration projects to develop, improve, or expand activities designed to increase compliance with child access provisions of court orders.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn62" name="fn62">62</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> HHS, OCSE, <em>Parenting Time Opportunities for Children Research Brief</em>, August 2019, p. 1, <a class="ExternalLink" href="https://acf.gov/sites/default/files/documents/ocse/ptoc_research_brief.pdf"><span class="Hyperlink">https://acf.gov/sites/default/files/documents/ocse/ptoc_research_brief.pdf</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn63" name="fn63">63</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Although programs that seek to help fathers initiate or maintain contact with their children and become emotionally involved in their children's lives are usually referred to as "fatherhood" programs, the programs are generally gender neutral. Their underlying goal is participation of the noncustodial parent in the lives of their children.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn64" name="fn64">64</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See the Claims Resolution Act of 2010 (<a class="ExternalLink" href="https://www.congress.gov/law/111/pub/291"><span class="Hyperlink">P.L. 111-291</span></a><span class="Hyperlink">).</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn65" name="fn65">65</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more information on responsible fatherhood programs, see CRS Report RL31025, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL31025"><em><span class="Hyperlink">Fatherhood Initiatives: Connecting Fathers to Their Children</span></em></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>

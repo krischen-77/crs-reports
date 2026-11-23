@@ -5,82 +5,6 @@
       "next_retry": "",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "5",
-        "date": "2009-05-12",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "RL34491",
-            "sha1": "cc2cf8a5c7320174c582878b1799dfe746040c30",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20090512_RL34491_cc2cf8a5c7320174c582878b1799dfe746040c30.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "RL34491",
-            "sha1": "cdc4d1a13b0c03b143743401cf0ed6b288b03b7d",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20090512_RL34491_cdc4d1a13b0c03b143743401cf0ed6b288b03b7d.pdf"
-            ]
-          }
-        },
-        "id": "RL34491",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/RL34491",
-          "http://www.crs.gov/Reports/pdf/RL34491"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "348621",
-        "title": "Unanimous Consent Agreements Establishing a 60-Vote Threshold for Passage of Legislation in the Senate",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "26",
-        "date": "2014-12-18",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "RL34603",
-            "sha1": "1a0cb3f0df5fdbef3a440ce3ba961134e21dc7b3",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20141218_RL34603_1a0cb3f0df5fdbef3a440ce3ba961134e21dc7b3.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "RL34603",
-            "sha1": "e54779153e5c7b0d3c1703519f28a80e951b5de1",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20141218_RL34603_e54779153e5c7b0d3c1703519f28a80e951b5de1.pdf"
-            ]
-          }
-        },
-        "id": "RL34603",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/RL34603",
-          "http://www.crs.gov/Reports/pdf/RL34603"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "436465",
-        "title": "The U.S. Secret Service: History and Missions",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "9",
         "date": "2012-07-25",
         "formats": {
@@ -10180,6 +10104,53 @@
         "source_record": "604350",
         "title": "Party Leaders in the United States Congress, 1789-2019",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "46",
+        "date": "2026-01-12",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "RS22380",
+            "sha1": "d2dffdd562747695fcb9d54aa4540c195edf95ed",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/HTML/RS22380.web.html",
+              "https://www.everycrsreport.com/files/2026-01-12_RS22380_d2dffdd562747695fcb9d54aa4540c195edf95ed.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "RS22380",
+            "sha1": "08f8c540859fd57978172b19ca5cc7479189473b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/RS/PDF/RS22380/RS22380.47.pdf",
+              "https://www.everycrsreport.com/files/2026-01-12_RS22380_08f8c540859fd57978172b19ca5cc7479189473b.pdf"
+            ]
+          }
+        },
+        "id": "RS22380",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T07:53:18Z",
+        "required_by_recent_update": false,
+        "source_record": "RS22380_A47_2026-01-12",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-12",
+          "id": "RS22380",
+          "official_pdf_sha256": "4ad7e4974c5a20d0a421f83f9be9f3a15b5695376af9b12e99dda7511fd66ac2",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/RS/PDF/RS22380/RS22380.49.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Child Support Enforcement: Program Basics",
+        "version": "47"
       }
     }
   ],

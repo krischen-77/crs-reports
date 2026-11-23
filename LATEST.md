@@ -1,11 +1,10 @@
-**Official-current verification: 92/92. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-16 to 2026-11-23**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-23 | RS22380 v49 | Child Support Enforcement: Program Basics | [PDF](pdf/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.pdf) | [Markdown](markdown/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.md) |
 | 2026-11-20 | R49518 v5 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v5-2026-11-20-4d6addd9f7940dcf.pdf) | [Markdown](markdown/reports/R49518v5-2026-11-20-4d6addd9f7940dcf.md) |
 | 2026-11-20 | R48909 v2 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.pdf) | [Markdown](markdown/reports/R48909v2-2026-11-20-88cfcaf699dee5f8.md) |
 | 2026-11-20 | R48191 v7 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v7-2026-11-20-53e65f875cc50cce.pdf) | [Markdown](markdown/reports/R48191v7-2026-11-20-53e65f875cc50cce.md) |
