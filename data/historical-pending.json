@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-23",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-25",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "9",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-23",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-25",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "11",
@@ -10104,6 +10108,334 @@
         "source_record": "604350",
         "title": "Party Leaders in the United States Congress, 1789-2019",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "6",
+        "date": "2026-01-26",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF11747",
+            "sha1": "a84fdbec3f2ccabeec199bc3415c38ca7b193001",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF11747.web.html",
+              "https://www.everycrsreport.com/files/2026-01-26_IF11747_a84fdbec3f2ccabeec199bc3415c38ca7b193001.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF11747",
+            "sha1": "52ca6186d8cd1d5d2604caeeb0158e2b1240c94a",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF11747/IF11747.7.pdf",
+              "https://www.everycrsreport.com/files/2026-01-26_IF11747_52ca6186d8cd1d5d2604caeeb0158e2b1240c94a.pdf"
+            ]
+          }
+        },
+        "id": "IF11747",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T16:53:52Z",
+        "required_by_recent_update": false,
+        "source_record": "IF11747_A7_2026-01-26",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-26",
+          "id": "IF11747",
+          "official_pdf_sha256": "ad2ae95629e457d90c598a3cf1510fac8a75ba35979735a2d6fcc32b1f74425c",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF11747/IF11747.9.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Social Security: Benefit Calculation Overview",
+        "version": "7"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "4",
+        "date": "2026-04-21",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12155",
+            "sha1": "6118cfb2288f2e1b690bc4d289d618bde4bcc29a",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12155.web.html",
+              "https://www.everycrsreport.com/files/2026-04-21_IF12155_6118cfb2288f2e1b690bc4d289d618bde4bcc29a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12155",
+            "sha1": "60c6bb150448ffa77db6c878d9f72f1df9792e83",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12155/IF12155.7.pdf",
+              "https://www.everycrsreport.com/files/2026-04-21_IF12155_60c6bb150448ffa77db6c878d9f72f1df9792e83.pdf"
+            ]
+          }
+        },
+        "id": "IF12155",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T16:54:22Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12155_A7_2026-04-21",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-04-21",
+          "id": "IF12155",
+          "official_pdf_sha256": "a6a4a0f96e5080576400315c5cd8eda6e3883a80f1ed8c038a42dc85a2e82ca5",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12155/IF12155.13.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Farm Bill Primer: Trade and Export Promotion Programs",
+        "version": "7"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "21",
+        "date": "2026-06-01",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12233",
+            "sha1": "527a1727591f6861a9e9b180c7c032ba9580b6e1",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF12233.web.html",
+              "https://www.everycrsreport.com/files/2026-06-01_IF12233_527a1727591f6861a9e9b180c7c032ba9580b6e1.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12233",
+            "sha1": "6cc6e804bb1b0b5c6bce8eaa9a2824af46821135",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF12233/IF12233.22.pdf",
+              "https://www.everycrsreport.com/files/2026-06-01_IF12233_6cc6e804bb1b0b5c6bce8eaa9a2824af46821135.pdf"
+            ]
+          }
+        },
+        "id": "IF12233",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T16:54:08Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12233_A22_2026-06-01",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-06-01",
+          "id": "IF12233",
+          "official_pdf_sha256": "3331cdf0e7f2b7b0429c14d0572bc36cda1fddd5445650348e397fdd8b056589",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12233/IF12233.23.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Farm Bill Primer: Budget Dynamics",
+        "version": "22"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "2",
+        "date": "2024-11-29",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF12831",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-11-29_IF12831_003b67d3b631654f89dd24b9f9654d97ccdb4374.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF12831",
+            "sha1": "003b67d3b631654f89dd24b9f9654d97ccdb4374",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/IF/IF12831/1",
+              "https://www.everycrsreport.com/files/2024-11-29_IF12831_003b67d3b631654f89dd24b9f9654d97ccdb4374.pdf"
+            ]
+          }
+        },
+        "id": "IF12831",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T16:54:01Z",
+        "required_by_recent_update": false,
+        "source_record": "IF12831_1_2024-11-29",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-11-29",
+          "id": "IF12831",
+          "official_pdf_sha256": "5719954d5b377ecef135cc36b343633ddc4e27040afa22d08d7d7e870345bb7b",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF12831/IF12831.3.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Fiji: Background and Issues Facing Congress",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-08-27",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF13299",
+            "sha1": "9d79c6935c96c3a3318f04417ea0f910c244185a",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF13299.web.html",
+              "https://www.everycrsreport.com/files/2026-08-27_IF13299_9d79c6935c96c3a3318f04417ea0f910c244185a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF13299",
+            "sha1": "299f9ebf8dccb09e5a7f8d4830947a804f9796a2",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF13299/IF13299.1.pdf",
+              "https://www.everycrsreport.com/files/2026-08-27_IF13299_299f9ebf8dccb09e5a7f8d4830947a804f9796a2.pdf"
+            ]
+          }
+        },
+        "id": "IF13299",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T16:54:07Z",
+        "required_by_recent_update": false,
+        "source_record": "IF13299_A1_2026-08-27",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-08-27",
+          "id": "IF13299",
+          "official_pdf_sha256": "b1c237f9c7499129be2d0a6e35e834b2945977ab66b994f2ddc2001d46a51d2a",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF13299/IF13299.2.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "U.S. Army’s Patriot Air and Missile Defense System",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-05-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48940",
+            "sha1": "00405b5a3976c51785e9ad8cab5021372a342247",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48940.web.html",
+              "https://www.everycrsreport.com/files/2026-05-08_R48940_00405b5a3976c51785e9ad8cab5021372a342247.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48940",
+            "sha1": "c9cc7fe094074263229b722a929a1e0627e2f271",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48940/R48940.1.pdf",
+              "https://www.everycrsreport.com/files/2026-05-08_R48940_c9cc7fe094074263229b722a929a1e0627e2f271.pdf"
+            ]
+          }
+        },
+        "id": "R48940",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T16:54:13Z",
+        "required_by_recent_update": false,
+        "source_record": "R48940_A1_2026-05-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-05-08",
+          "id": "R48940",
+          "official_pdf_sha256": "372fe8b30c31cfa28c9122bd300c67af4ae1562731a5d789193b60321815b710",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48940/R48940.3.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Current Foreign-Born Population by State and Congressional District",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-24",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2026-05-12",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48943",
+            "sha1": "53ef308855e7ab25f8902e72d89f7698d936fe3a",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48943.web.html",
+              "https://www.everycrsreport.com/files/2026-05-12_R48943_53ef308855e7ab25f8902e72d89f7698d936fe3a.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48943",
+            "sha1": "d3e66899bc57be1fca1b4e4f0fd99632ceb50edb",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48943/R48943.2.pdf",
+              "https://www.everycrsreport.com/files/2026-05-12_R48943_d3e66899bc57be1fca1b4e4f0fd99632ceb50edb.pdf"
+            ]
+          }
+        },
+        "id": "R48943",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-23T16:54:16Z",
+        "required_by_recent_update": false,
+        "source_record": "R48943_A2_2026-05-12",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-05-12",
+          "id": "R48943",
+          "official_pdf_sha256": "a54255be243dee7fc424ed3331a93ae4d14aad191199b12955aa42c48bfa3933",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48943/R48943.4.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Income and Poverty by State and Congressional District",
+        "version": "2"
       }
     },
     {
