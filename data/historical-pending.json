@@ -7,84 +7,6 @@
       "next_retry": "2026-11-26",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
-        "api_version": "4",
-        "date": "2008-03-20",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "RS20368",
-            "sha1": "a07b66442f5d75917ffa5046e81fc3d1fea44e5e",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20080320_RS20368_a07b66442f5d75917ffa5046e81fc3d1fea44e5e.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "RS20368",
-            "sha1": "6bf53b35d47219c82fbabe78eb0f030a2c40f8e2",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20080320_RS20368_6bf53b35d47219c82fbabe78eb0f030a2c40f8e2.pdf"
-            ]
-          }
-        },
-        "id": "RS20368",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/RS20368",
-          "http://www.crs.gov/Reports/pdf/RS20368"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "346056",
-        "title": "Overview of the Congressional Budget Process",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-24",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-26",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "18",
-        "date": "2018-11-05",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "RS20881",
-            "sha1": "dade34178561a006c4d8f97e07b41297bf3bedc8",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181105_RS20881_dade34178561a006c4d8f97e07b41297bf3bedc8.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "RS20881",
-            "sha1": "965e7205e85dceeb0fcbef7973efb0ebb8dfdf94",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20181105_RS20881_965e7205e85dceeb0fcbef7973efb0ebb8dfdf94.pdf"
-            ]
-          }
-        },
-        "id": "RS20881",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/RS20881",
-          "https://www.crs.gov/Reports/pdf/RS20881"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "587303",
-        "title": "Party Leaders in the House: Election, Duties, and Responsibilities",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
         "api_version": "20",
         "date": "2020-05-14",
         "formats": {
@@ -119,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-24",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-26",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "25",
@@ -10490,6 +10414,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "445667",
         "title": "Queen-of-the-Hill Rules in the House of Representatives",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-24",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-26",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "4",
+        "date": "2008-03-20",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "RS20368",
+            "sha1": "a07b66442f5d75917ffa5046e81fc3d1fea44e5e",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20080320_RS20368_a07b66442f5d75917ffa5046e81fc3d1fea44e5e.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "RS20368",
+            "sha1": "6bf53b35d47219c82fbabe78eb0f030a2c40f8e2",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20080320_RS20368_6bf53b35d47219c82fbabe78eb0f030a2c40f8e2.pdf"
+            ]
+          }
+        },
+        "id": "RS20368",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/RS20368",
+          "http://www.crs.gov/Reports/pdf/RS20368"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "346056",
+        "title": "Overview of the Congressional Budget Process",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-24",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-26",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "18",
+        "date": "2018-11-05",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "RS20881",
+            "sha1": "dade34178561a006c4d8f97e07b41297bf3bedc8",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181105_RS20881_dade34178561a006c4d8f97e07b41297bf3bedc8.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "RS20881",
+            "sha1": "965e7205e85dceeb0fcbef7973efb0ebb8dfdf94",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20181105_RS20881_965e7205e85dceeb0fcbef7973efb0ebb8dfdf94.pdf"
+            ]
+          }
+        },
+        "id": "RS20881",
+        "ignored_nonpublic_source_urls": [
+          "https://www.crs.gov/Reports/RS20881",
+          "https://www.crs.gov/Reports/pdf/RS20881"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "587303",
+        "title": "Party Leaders in the House: Election, Duties, and Responsibilities",
         "version": "unknown"
       }
     }
