@@ -2,7 +2,7 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-24T06:37:53.257087+00:00
+Watchdog checked UTC: 2026-11-24T11:01:57.120847+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
