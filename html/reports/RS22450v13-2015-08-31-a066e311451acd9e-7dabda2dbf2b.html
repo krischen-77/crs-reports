@@ -1,0 +1,321 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;RS/PDF/RS22450.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title"><a name="_GoBack" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a>Procedural Analysis of Private Laws Enacted: 1986-2015</div>
+<div class="CoverDate">Updated August 31, 2015
+            (RS22450)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc428774403"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc428774404"><span class="Hyperlink">Subject Matter of Private Laws</span></a></li>
+<li class="TOC1"><a href="#_Toc428774405"><span class="Hyperlink">Introduction Stage: Chamber of Origin</span></a></li>
+<li class="TOC1"><a href="#_Toc428774406"><span class="Hyperlink">Committee Referral</span></a></li>
+<li class="TOC2"><a href="#_Toc428774407"><span class="Hyperlink">Party Sponsorship</span></a></li>
+<li class="TOC2"><a href="#_Toc428774408"><span class="Hyperlink">Geographic Sponsorship</span></a></li>
+<li class="TOC2"><a href="#_Toc428774409"><span class="Hyperlink">Cosponsors</span></a></li>
+<li class="TOC2"><a href="#_Toc428774410"><span class="Hyperlink">Companion Bills</span></a></li>
+<li class="TOC1"><a href="#_Toc428774411"><span class="Hyperlink">Method of Consideration</span></a></li>
+<li class="TOC2"><a href="#_Toc428774412"><span class="Hyperlink">House</span></a></li>
+<li class="TOC2"><a href="#_Toc428774413"><span class="Hyperlink">Senate</span></a></li>
+<li class="TOC1"><a href="#_Toc428774414"><span class="Hyperlink">Bills Passed Over in the House</span></a></li>
+<li class="TOC1"><a href="#_Toc428774415"><span class="Hyperlink">Amendments to Private Bills</span></a></li>
+<li class="TOC2"><a href="#_Toc428774416"><span class="Hyperlink">House</span></a></li>
+<li class="TOC2"><a href="#_Toc428774417"><span class="Hyperlink">Senate</span></a></li>
+<li class="TOC1"><a href="#_Toc428774418"><span class="Hyperlink">Resolving Differences</span></a></li>
+<li class="TOC1"><a href="#_Toc428774419"><span class="Hyperlink">Time to Enactment</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Figures</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc428774398"><span class="Hyperlink">Figure 1. Subject of Private Laws: 1986-2015</span></a></li>
+<li><a href="#_Toc428774399"><span class="Hyperlink">Figure 2. House Committee Referrals for Private Bills Enacted, 1986-2015</span></a></li>
+<li><a href="#_Toc428774400"><span class="Hyperlink">Figure 3. Senate Committee Referrals for Private Bills Enacted, 1986-2015</span></a></li>
+</ul>
+</div>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc428774401"><span class="Hyperlink">Table 1. Party Sponsorship of Private Laws: 1986-2015</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Between 1986 and 2015 (99<sup>th</sup>-114<sup>th</sup> Congresses), 170 private laws were enacted. As of this writing, no private laws have been enacted in the 114<sup>th</sup> Congress (2015-2016). Most private laws during this period dealt with immigration issues or claims against the government. Of these measures, 65% originated in the House, 9% had cosponsors, and 23% had companion bills. Most were enacted without amendment or need to resolve differences with the other house. This report examines the broad distinctions among these measures in terms of their subject matter, introduction, sponsorship and cosponsorship, referral, method of consideration, amendment, and reconciling of differences between the chambers' versions of the bill. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report will be updated as necessary.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unlike public law, which applies to public matters and deals with individuals only by classes, the provisions of private law apply to "one or several specified persons, corporations, [or] institutions."<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Asher C. Hinds, Hinds' Precedents of the House of Representatives of the United States (Washington: GPO, 1917), vol. 4, §3285.">1</a></sup> Private legislation is premised on the idea that general law cannot cover all situations equitably, and sometimes Congress must approve legislation to address unique problems that public law either created or overlooked. Private legislation has its foundation in the right to "petition the government for a redress of grievances"<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="U.S. Congress, House, Constitution , Jefferson's Manual, and Rules of the House of Representatives , H.Doc. 1 13-181, 113 th Cong., 2 nd sess. (Washington: GPO, 20 15), §208 .">2</a></sup> guaranteed to all citizens by the First Amendment to the U.S. Constitution. While once much more common, in modern practice private laws are rare and designed to grant relief in those few situations where no other legal or administrative remedies are available to a petitioner.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Between 1986 and 2015 (99<sup>th</sup>-114<sup>th</sup> Congresses), 170 private laws were enacted. This report examines the broad distinctions that appear among these 170 measures in terms of their subject matter, introduction, sponsorship and cosponsorship, referral, method of consideration in each chamber, amendment, and ways in which any differences between the chambers' versions of the bill were reconciled. No private laws were enacted in the 113<sup>th</sup> Congress (2013-2014) and, as of this writing, none has been enacted in the 114<sup>th</sup> Congress (2015-2016).</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741462"></a><a name="_Toc427742033"></a><a name="_Toc428774404"></a>Subject Matter of Private Laws</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As <a class="InternalLink" href="#_Ref353276295"><strong></strong><strong>Figure 1</strong></a> demonstrates, from 1986 to 2015, the subject matter of private laws enacted fell into five broad categories. The largest subject category, immigration, is composed primarily of measures that confer lawful permanent resident status on a petitioner "by waiving a general law provision which prevents the granting or maintenance" of such status.<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="For a discussion of private immigration measures, see CRS Report RL33024, Private Immigration Legislation , by Margaret Mikyung Lee .">3</a></sup> The second category includes a broad variety of claims against the government. The remaining private laws during the period studied are divided among three smaller categories: the conveyance of public lands, civil service issues, and vessel documentation.</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref353276295"></a><a name="_Ref222710841"></a><a name="_Toc353280492"></a><a name="_Toc427742027"></a><a name="_Toc428774398"></a>Figure 1. Subject of Private Laws: 1986-2015</p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image3.png" class="Figure" src="RS22450_files/0.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong><strong> </strong>Legislation Information System (LIS).</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741463"></a><a name="_Toc427742034"></a><a name="_Toc428774405"></a>Introduction Stage: Chamber of Origin</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the 170 private laws enacted between 1986 and 2015, 59 (35%) originated in the Senate, and 111 (65%) originated in the House of Representatives.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741464"></a><a name="_Toc427742035"></a><a name="_Toc428774406"></a>Committee Referral</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Historically, most private legislation introduced in Congress was considered either by various claims committees established in each chamber<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="David T. Canon, Garrison Nelson, Charles Stewart III, Committees in the U.S. Congress, 1789-1946 , vol. 1 (Washington: CQ Press, 2002), pp. VI-XXXV.">4</a></sup> or by committees overseeing immigration.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="U.S. Congress, House Committee on the Judiciary, History of the Committee on the Judiciary of the House of Representatives , committee print, 92 nd Cong. 2 nd sess. (Washington: GPO, 1972), p. 5.">5</a></sup> The 1946 Legislative Reorganization Act,<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="P.L. 79-601, 60 Stat. 812.">6</a></sup> however, transferred jurisdiction over both immigration and claims bills to the Committees on the Judiciary. Since 1947, only a small fraction of private measures dealing with matters such as public lands, vessel documentation, military awards, veterans' benefits, and tax and tariffs have been referred to committees other than the Committees on the Judiciary.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As <strong><a class="InternalLink" href="#_Ref222280771"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 2</strong><strong></strong><strong> </strong>and<strong> </strong><strong><a class="InternalLink" href="#_Ref222711080"></a></strong><strong></strong><strong></strong><strong></strong><strong>Figure 3</strong><strong></strong> demonstrate, while other committees have been referred and a small percentage of private measures subsequently enacted, the House and Senate Judiciary Committees have processed the largest percentage of private laws over the past 20 years. Five bills were referred to more than one Senate committee and were counted multiple times in the corresponding table. (For purposes of clarity, the table identifies the relevant House and Senate committees by their current name and jurisdiction, even if some might have had different names or jurisdiction at various points over the period studied.)</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref222280771"></a><a name="_Toc353280493"></a><a name="_Toc427742028"></a><a name="_Toc428774399"></a>Figure 2. House Committee Referrals for Private Bills Enacted, 1986-2015</p>
+<p class="FigureSubTitle"></p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image4.png" class="Figure" src="RS22450_files/1.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source:</strong><strong> </strong>Legislation Information System (LIS).</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Figure" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<table align="" border="0" cellpadding="0" cellspacing="0" class="FigureBox" width="5">
+<tr>
+<td>
+<p class="FigureTitle"><a name="_Ref222711080"></a><a name="_Toc353280494"></a><a name="_Toc427742029"></a><a name="_Toc428774400"></a>Figure 3. Senate Committee Referrals for Private Bills Enacted, 1986-2015</p>
+<p class="FigureSubTitle"></p>
+</td>
+</tr>
+<tr>
+<td><img alt="media/image5.png" class="Figure" src="RS22450_files/2.png" style="border-top:1pt  #000000;border-bottom:1pt  #000000;border-left:1pt  #000000;border-right:1pt  #000000;"/></td>
+</tr>
+<tr>
+<td>
+<p class="FigureSource"><strong>Source: </strong>Legislation Information System (LIS).</p>
+</td>
+</tr>
+</table>
+</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741465"></a><a name="_Toc427742036"></a><a name="_Toc428774407"></a>Party Sponsorship</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">It is generally accepted that Congress acts on significantly more measures sponsored by majority party members than by minority party members. For example, between 1987 and 2004, 71% to 88% of the measures passing the House under the Suspension of the Rules procedure were authored by majority party members.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="CRS Report 97-901, Suspension of Rules in the House: Measure Sponsorship by Party , by Thomas P. Carr .">7</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">An examination of the 170 private laws enacted since the 99<sup>th</sup> Congress, however, reveals a more balanced breakdown by party affiliation. Over the two decade period, 73 private laws were sponsored by Republican Members of Congress and 97 by Democratic Members. As <strong><a class="InternalLink" href="#_Ref222280167"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong> shows, both parties sponsored substantial percentages of private bills that became law. This is true not only during periods of split party control of Congress but also during times when one party held the majority in both chambers.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref222280167"></a><a name="_Toc353280495"></a><a name="_Toc427742030"></a><a name="_Toc428774401"></a>Table 1. Party Sponsorship of Private Laws: 1986-2015</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="middle">
+<p class="TableTextHeading" style="">Congressional Majority</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Republican-Sponsored <br/>Private Laws</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableTextHeading" style="text-align:center;">Democratic-Sponsored <br/>Private Laws</p>
+</td>
+</tr>
+<tr style="">
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style=""><strong>Democratic</strong></p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">38%</p>
+</td>
+<td style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;" valign="top">
+<p class="TableText" style="text-align:center;">62%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style=""><strong>Republican </strong></p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">56%</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">44%</p>
+</td>
+</tr>
+<tr style="">
+<td style="" valign="top">
+<p class="TableText" style=""><strong>Chambers Split </strong></p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">43%</p>
+</td>
+<td style="" valign="top">
+<p class="TableText" style="text-align:center;">57%</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>Legislation Information System (LIS).</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The data suggest that party membership is not the exclusive factor in determining whether a private measure is successful or not. <strong><a class="InternalLink" href="#_Ref222280167"></a></strong><strong></strong><strong></strong><strong></strong><strong>Table 1</strong><strong></strong> tends to show higher proportions of measures both for Democratic in comparison with Republican majorities and for Democratic in comparison with Republican minorities. This effect, however, may arise simply because, during the period studied, both the Democratic majorities and minorities that occurred tended to be larger than the corresponding Republican ones.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741466"></a><a name="_Toc427742037"></a><a name="_Toc428774408"></a>Geographic Sponsorship</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The geographic distribution of the sponsorship of private laws from the 99<sup>th</sup> through the 114<sup>th</sup> Congress reveals, not surprisingly, that Members from the most populous states collectively authored the most private laws. The nation's four most populous states—California, Texas, New York, and Florida<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="U.S. Census Bureau, 2006 Population Estimates, http://www.census.gov/popest/estimates.php .">8</a></sup>—were also the top four states in which Members sponsored private laws during this period. However, Members from Alaska and Wyoming—the 47<sup>th</sup>- and 50<sup>th</sup>-ranked states in population—each sponsored four private laws, more than Members from significantly larger states, such as Ohio, Illinois, and New Jersey. These data suggest that the state or region of a sponsor is not a major factor in whether a private measure is enacted.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741467"></a><a name="_Toc427742038"></a><a name="_Toc428774409"></a>Cosponsors</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under House Rule XIII, private bills may not be cosponsored.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="William Holmes Brown, Charles W. Johnson, and John V. Sullivan, House Practice : A Guide to the Rules, Precedents and Procedures of the House (Washington: GPO, 20 11 ), ch. 6, §15, p. 179.">9</a></sup> Notwithstanding this prohibition, one House measure that subsequently became law in the period examined did have cosponsors.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="H.R. 2032 , 100 th Congress .">10</a></sup> The Senate places no limits on the cosponsorship of private measures. Of the 170 private laws examined, 15 Senate bills had cosponsors.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741468"></a><a name="_Toc427742039"></a><a name="_Toc428774410"></a>Companion Bills</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Just 23% of the 170 bills that became private laws enacted between 1986 and 2015 had companion measures introduced in the other chamber during the Congress they were enacted. This, along with the cosponsorship statistics noted above, suggests that, in contrast with public policy measures, private bills' sponsors view it as less necessary to build formal coalitions in advance in support of passage of a private measure, perhaps because the measure will be judged on the merit of the specific case at hand and the relatively narrow precedents governing which requests for relief are acted upon.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741469"></a><a name="_Toc427742040"></a><a name="_Toc428774411"></a>Method of Consideration</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741470"></a><a name="_Toc427742041"></a><a name="_Toc428774412"></a>House</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The House has special procedures for considering private measures through a call of its Private Calendar.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="See CRS Report 98-628, Private Bills: Procedure in the House , by Richard S. Beth .">11</a></sup> Of the 170 private laws enacted between the 99<sup>th</sup> and 114<sup>th</sup> Congresses, 151 were considered under these procedures. Eleven bills were considered by unanimous consent; seven were considered under the Suspension of the Rules procedure; and one passed under the call of the Consent Calendar (a procedure that has since been abolished.)</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741471"></a><a name="_Toc427742042"></a><a name="_Toc428774413"></a>Senate</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Unlike the House, the Senate does not have unique procedures for the consideration of private measures; they are dealt with in the same way as public bills. All 170 private measures enacted between the 99<sup>th</sup> and 114<sup>th</sup> Congress were considered in the Senate by unanimous consent.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741472"></a><a name="_Toc427742043"></a><a name="_Toc428774414"></a>Bills Passed Over in the House</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the House, on the special days set aside for the call of the Private Calendar, bills are acted upon in the order listed on the calendar. A bill may be, by unanimous consent, passed over "without prejudice," however, meaning that it does not lose its place on the calendar even though it is not being acted upon at the time.<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Deschler's Precedents of the U.S. House of Representatives (Washington: GPO, 1977), ch. 22 §12.4-12.6.">12</a></sup> Of the private laws examined, seven were passed over at least once before finally gaining House passage. One private claims bill, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d099:H.R.1598:"><span class="Hyperlink">H.R. 1598</span></a> from the 99<sup>th</sup> Congress, was passed over without prejudice 16 times before being approved by the House.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title='News reports suggest that House consideration was likely delayed while bill supporters worked to convince the President to withdraw a veto threat of the measure. See James Hannah, "Law Helps Ohio Man, Deformed at Birth, Seek Damages," Associated Press , October 22, 1986.'>13</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741473"></a><a name="_Toc427742044"></a><a name="_Toc428774415"></a>Amendments to Private Bills</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As with public legislation, committees of jurisdiction exercise judgment not only over whether a private bill merits consideration by their chamber but also over the content of the bill. Simply put, committees do not always accept the remedy suggested by the author of an introduced private measure. As such, private bills are sometimes amended in committee or on the floor.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741474"></a><a name="_Toc427742045"></a><a name="_Toc428774416"></a>House</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the 170 private laws enacted between 1986 and 2015:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">11 were reported from House committee with an amendment in the nature of a substitute;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">25 were reported from committee with perfecting amendments; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">12 were amended on the House floor.</li></ul><p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741475"></a><a name="_Toc427742046"></a><a name="_Toc428774417"></a>Senate</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Of the 170 private laws enacted between 1986 and 2015:</p><ul><li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">10 were reported from Senate committee with an amendment in the nature of a substitute;</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2 were reported from Senate committee with perfecting amendments; and</li>
+<li class="ListBullet" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">15 private bills were amended on the Senate floor.</li></ul><p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741476"></a><a name="_Toc427742047"></a><a name="_Toc428774418"></a>Resolving Differences</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Only 13% of the private laws enacted between 1986 and 2015 were amended by the second chamber, thus requiring the two chambers to resolve differences. Of this 13%, none was resolved by conference committee. In every instance, an exchange of amendments ("ping-ponging" the bill) between the House and Senate was used to come into agreement.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc427741477"></a><a name="_Toc427742048"></a><a name="_Toc428774419"></a>Time to Enactment</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Like public bills, a private bill must be enacted within the Congress in which it was introduced, and if it is not adopted by adjournment, it dies and must be reintroduced in the next Congress. This often happens in private bill cases in which the time for Congress to deal with a particular case may be longer than a single Congress. Between 1986 and 2015, the average time from the first introduction of private legislation in Congress requesting relief to resolution of the case by enactment of a private law was over two years. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">During the same period, the longest case took more than 8,934 days—more than 24 years—from the first introduction of a private bill to enactment of a private law resolving the claim.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="See S. 2042 , 108 th Congress.">14</a></sup> The shortest time from first introduction of a private bill to enactment of a law resolving the case was 29 days.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="See H.R. 2731 and H.R. 2732 , 105 th Congress.">15</a></sup></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a></div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Asher C. Hinds, <em>Hinds' Precedents of the House of Representatives of the United States</em> (Washington: GPO, 1917), vol. 4, §3285.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Congress, House, <em>Constitution</em><em>, Jefferson's Manual, and Rules of the House of Representatives</em>, H.Doc. 113-181, 113<sup>th</sup> Cong., 2<sup>nd</sup> sess. (Washington: GPO, 2015), §208.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For a discussion of private immigration measures, see CRS Report RL33024, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=RL33024"><em>Private Immigration Legislation</em></a>, by Margaret Mikyung Lee.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> David T. Canon, Garrison Nelson, Charles Stewart III, <em>Committees in the U.S. Congress, 1789-1946</em>, vol. 1 (Washington: CQ Press, 2002), pp. VI-XXXV.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Congress, House Committee on the Judiciary, <em>History of the Committee on the Judiciary of the House of Representatives</em>, committee print, 92<sup>nd</sup> Cong. 2<sup>nd</sup> sess. (Washington: GPO, 1972), p. 5.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> P.L. 79-601, 60 Stat. 812.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> CRS Report 97-901, <a class="ExternalLink" href="http://www.crs.gov/products/rs/pdf/97-901.pdf"><em>Suspension of Rules in the House: Measure Sponsorship by Party</em></a>, by Thomas P. Carr.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Census Bureau, 2006 Population Estimates, <a class="ExternalLink" href="http://www.census.gov/popest/estimates.php"><span class="Hyperlink">http://www.census.gov/popest/estimates.php</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> William Holmes Brown, Charles W. Johnson, and John V. Sullivan, <em>House Practice</em><em>:</em> <em>A Guide to the Rules, Precedents and Procedures of the House</em> (Washington: GPO, 2011), ch. 6, §15, p. 179.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d100:H.R.2032:"><span class="Hyperlink">H.R. 2032</span></a>, 100<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report 98-628, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=98-628"><em>Private Bills: Procedure in the House</em></a>, by Richard S. Beth.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <em>Deschler's Precedents of the U.S. House of Representatives</em> (Washington: GPO, 1977), ch. 22 §12.4-12.6.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> News reports suggest that House consideration was likely delayed while bill supporters worked to convince the President to withdraw a veto threat of the measure. See James Hannah, "Law Helps Ohio Man, Deformed at Birth, Seek Damages," Associated Press, October 22, 1986.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d108:S.2042:"><span class="Hyperlink">S. 2042</span></a>, 108<sup>th</sup> Congress.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d105:H.R.2731:"><span class="Hyperlink">H.R. 2731</span></a> and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d105:H.R.2732:"><span class="Hyperlink">H.R. 2732</span></a>, 105<sup>th</sup> Congress. </p>
+</td>
+</tr>
+</table>
+</div>
+</div>

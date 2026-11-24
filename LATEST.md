@@ -1,11 +1,13 @@
-**Official-current verification: 103/103. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-17 to 2026-11-24**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-24 | R49186 v3 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v3-2026-11-24-5f529b73ed954eea.pdf) | [Markdown](markdown/reports/R49186v3-2026-11-24-5f529b73ed954eea.md) |
+| 2026-11-24 | R45160 v26 | Federal Election Commission: Membership and Policymaking Quorum, In Brief | [PDF](pdf/reports/R45160v26-2026-11-24-7f51896cd4e86493.pdf) | [Markdown](markdown/reports/R45160v26-2026-11-24-7f51896cd4e86493.md) |
+| 2026-11-24 | IG10103 v1 | Understanding Electricity Rates | [PDF](pdf/infographics/IG10103v1-2026-11-24-3a5a32acef324dff.pdf) | [Markdown](markdown/infographics/IG10103v1-2026-11-24-3a5a32acef324dff.md) |
+| 2026-11-24 | IF13360 v1 | The Federal Death Penalty | [PDF](pdf/in-focus/IF13360v1-2026-11-24-4db215a1195ddf19.pdf) | [Markdown](markdown/in-focus/IF13360v1-2026-11-24-4db215a1195ddf19.md) |
 | 2026-11-23 | RS22380 v49 | Child Support Enforcement: Program Basics | [PDF](pdf/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.pdf) | [Markdown](markdown/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.md) |
 | 2026-11-23 | R49523 v1 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v1-2026-11-23-9d073522bccaf92d.pdf) | [Markdown](markdown/reports/R49523v1-2026-11-23-9d073522bccaf92d.md) |
 | 2026-11-23 | R48943 v4 | Income and Poverty by State and Congressional District | [PDF](pdf/reports/R48943v4-2026-11-23-a54255be243dee7f.pdf) | [Markdown](markdown/reports/R48943v4-2026-11-23-a54255be243dee7f.md) |
