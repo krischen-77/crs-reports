@@ -2,87 +2,9 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-11-23",
+      "last_attempt": "2026-11-24",
       "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-25",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "11",
-        "date": "2013-09-09",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "RS20199",
-            "sha1": "b441e402abfb018674db78da26c6892f821f7356",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20130909_RS20199_b441e402abfb018674db78da26c6892f821f7356.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "RS20199",
-            "sha1": "6cbd0f3f87261cefb1ee765a38abdede606bffdc",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20130909_RS20199_6cbd0f3f87261cefb1ee765a38abdede606bffdc.pdf"
-            ]
-          }
-        },
-        "id": "RS20199",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/RS20199",
-          "http://www.crs.gov/Reports/pdf/RS20199"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "424200",
-        "title": "Ordering a Roll Call Vote in the Senate",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-11-23",
-      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
-      "next_retry": "2026-11-25",
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "6",
-        "date": "2015-09-24",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "RS20313",
-            "sha1": "d98b0f434de97471f3876406aa4d94dc6aed8a30",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150924_RS20313_d98b0f434de97471f3876406aa4d94dc6aed8a30.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "RS20313",
-            "sha1": "700b7e8475e55bd6b1fcb3298094a639eb4864d1",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20150924_RS20313_700b7e8475e55bd6b1fcb3298094a639eb4864d1.pdf"
-            ]
-          }
-        },
-        "id": "RS20313",
-        "ignored_nonpublic_source_urls": [
-          "http://www.crs.gov/Reports/RS20313",
-          "http://www.crs.gov/Reports/pdf/RS20313"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "445667",
-        "title": "Queen-of-the-Hill Rules in the House of Representatives",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 0,
-      "next_retry": "",
+      "next_retry": "2026-11-26",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "4",
@@ -119,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-24",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-26",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "18",
@@ -10486,6 +10410,86 @@
         "metadata_source": "EveryCRSReport.com",
         "source_record": "414543",
         "title": "Entitlements and Appropriated Entitlements in the Federal Budget Process",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-23",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-25",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "11",
+        "date": "2013-09-09",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "RS20199",
+            "sha1": "b441e402abfb018674db78da26c6892f821f7356",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20130909_RS20199_b441e402abfb018674db78da26c6892f821f7356.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "RS20199",
+            "sha1": "6cbd0f3f87261cefb1ee765a38abdede606bffdc",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20130909_RS20199_6cbd0f3f87261cefb1ee765a38abdede606bffdc.pdf"
+            ]
+          }
+        },
+        "id": "RS20199",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/RS20199",
+          "http://www.crs.gov/Reports/pdf/RS20199"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "424200",
+        "title": "Ordering a Roll Call Vote in the Senate",
+        "version": "unknown"
+      }
+    },
+    {
+      "attempts": 1,
+      "last_attempt": "2026-11-23",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-25",
+      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
+      "task": {
+        "api_version": "6",
+        "date": "2015-09-24",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "RS20313",
+            "sha1": "d98b0f434de97471f3876406aa4d94dc6aed8a30",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150924_RS20313_d98b0f434de97471f3876406aa4d94dc6aed8a30.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "RS20313",
+            "sha1": "700b7e8475e55bd6b1fcb3298094a639eb4864d1",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.everycrsreport.com/files/20150924_RS20313_700b7e8475e55bd6b1fcb3298094a639eb4864d1.pdf"
+            ]
+          }
+        },
+        "id": "RS20313",
+        "ignored_nonpublic_source_urls": [
+          "http://www.crs.gov/Reports/RS20313",
+          "http://www.crs.gov/Reports/pdf/RS20313"
+        ],
+        "metadata_source": "EveryCRSReport.com",
+        "source_record": "445667",
+        "title": "Queen-of-the-Hill Rules in the House of Representatives",
         "version": "unknown"
       }
     }

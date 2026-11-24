@@ -1,19 +1,19 @@
-**Official-current verification: 103/103. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
-Publication-date window (inclusive): **2026-11-16 to 2026-11-23**. Older archived files are retained.
+Publication-date window (inclusive): **2026-11-17 to 2026-11-24**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
 | 2026-11-23 | RS22380 v49 | Child Support Enforcement: Program Basics | [PDF](pdf/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.pdf) | [Markdown](markdown/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.md) |
 | 2026-11-23 | R49523 v1 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v1-2026-11-23-9d073522bccaf92d.pdf) | [Markdown](markdown/reports/R49523v1-2026-11-23-9d073522bccaf92d.md) |
 | 2026-11-23 | R48943 v4 | Income and Poverty by State and Congressional District | [PDF](pdf/reports/R48943v4-2026-11-23-a54255be243dee7f.pdf) | [Markdown](markdown/reports/R48943v4-2026-11-23-a54255be243dee7f.md) |
+| 2026-11-23 | R48943 v5 | Income and Poverty by State and Congressional District | [PDF](pdf/reports/R48943v5-2026-11-23-fe10b4113ab74f9b.pdf) | [Markdown](markdown/reports/R48943v5-2026-11-23-fe10b4113ab74f9b.md) |
 | 2026-11-23 | R48940 v3 | Current Foreign-Born Population by State and Congressional District | [PDF](pdf/reports/R48940v3-2026-11-23-372fe8b30c31cfa2.pdf) | [Markdown](markdown/reports/R48940v3-2026-11-23-372fe8b30c31cfa2.md) |
 | 2026-11-23 | R46658 v7 | Social Security: Benefit Calculation | [PDF](pdf/reports/R46658v7-2026-11-23-c73157be0596ca5a.pdf) | [Markdown](markdown/reports/R46658v7-2026-11-23-c73157be0596ca5a.md) |
 | 2026-11-23 | IF13299 v2 | U.S. Army’s Patriot Air and Missile Defense System | [PDF](pdf/in-focus/IF13299v2-2026-11-23-b1c237f9c7499129.pdf) | [Markdown](markdown/in-focus/IF13299v2-2026-11-23-b1c237f9c7499129.md) |
 | 2026-11-23 | IF12831 v3 | Fiji: Background and Issues for Congress | [PDF](pdf/in-focus/IF12831v3-2026-11-23-5719954d5b377ece.pdf) | [Markdown](markdown/in-focus/IF12831v3-2026-11-23-5719954d5b377ece.md) |
 | 2026-11-23 | IF12233 v23 | Farm Bill Primer: Budget Dynamics | [PDF](pdf/in-focus/IF12233v23-2026-11-23-3331cdf0e7f2b7b0.pdf) | [Markdown](markdown/in-focus/IF12233v23-2026-11-23-3331cdf0e7f2b7b0.md) |
+| 2026-11-23 | IF12155 v14 | Farm Bill Primer: Trade and Export Promotion Programs | [PDF](pdf/in-focus/IF12155v14-2026-11-23-8f0e67492c849ca0.pdf) | [Markdown](markdown/in-focus/IF12155v14-2026-11-23-8f0e67492c849ca0.md) |
 | 2026-11-23 | IF12155 v13 | Farm Bill Primer: Trade and Export Promotion Programs | [PDF](pdf/in-focus/IF12155v13-2026-11-23-a6a4a0f96e508057.pdf) | [Markdown](markdown/in-focus/IF12155v13-2026-11-23-a6a4a0f96e508057.md) |
 | 2026-11-23 | IF11747 v9 | Social Security: Benefit Calculation Overview | [PDF](pdf/in-focus/IF11747v9-2026-11-23-ad2ae95629e457d9.pdf) | [Markdown](markdown/in-focus/IF11747v9-2026-11-23-ad2ae95629e457d9.md) |
 | 2026-11-20 | R49518 v5 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v5-2026-11-20-4d6addd9f7940dcf.pdf) | [Markdown](markdown/reports/R49518v5-2026-11-20-4d6addd9f7940dcf.md) |
@@ -101,36 +101,6 @@ Publication-date window (inclusive): **2026-11-16 to 2026-11-23**. Older archive
 | 2026-11-17 | IF10719 v8 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v8-2026-11-17-724bc35218013e2e.pdf) | [Markdown](markdown/in-focus/IF10719v8-2026-11-17-724bc35218013e2e.md) |
 | 2026-11-17 | IF10719 v9 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v9-2026-11-17-9dd0a62bc72e1518.pdf) | [Markdown](markdown/in-focus/IF10719v9-2026-11-17-9dd0a62bc72e1518.md) |
 | 2026-11-17 | IF10719 v7 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v7-2026-11-17-a75c222e16103300.pdf) | [Markdown](markdown/in-focus/IF10719v7-2026-11-17-a75c222e16103300.md) |
-| 2026-11-16 | R49518 v3 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.pdf) | [Markdown](markdown/reports/R49518v3-2026-11-16-1e02c0c2ee3bcd90.md) |
-| 2026-11-16 | R49518 v4 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v4-2026-11-16-ad70ece15ad9db8a.pdf) | [Markdown](markdown/reports/R49518v4-2026-11-16-ad70ece15ad9db8a.md) |
-| 2026-11-16 | R49518 v2 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v2-2026-11-16-ea646f3de38fb994.pdf) | [Markdown](markdown/reports/R49518v2-2026-11-16-ea646f3de38fb994.md) |
-| 2026-11-16 | R49517 v3 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.pdf) | [Markdown](markdown/reports/R49517v3-2026-11-16-2b8331d20fd9aef3.md) |
-| 2026-11-16 | R49517 v4 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.pdf) | [Markdown](markdown/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.md) |
-| 2026-11-16 | R49517 v1 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.pdf) | [Markdown](markdown/reports/R49517v1-2026-11-16-4763ddf3f2c5024a.md) |
-| 2026-11-16 | R44279 v19 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v19-2026-11-16-e2685c046911266b.pdf) | [Markdown](markdown/reports/R44279v19-2026-11-16-e2685c046911266b.md) |
-| 2026-11-16 | R43755 v5 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.pdf) | [Markdown](markdown/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.md) |
-| 2026-11-16 | R43755 v4 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v4-2026-11-16-56a28b47f224d4e7.pdf) | [Markdown](markdown/reports/R43755v4-2026-11-16-56a28b47f224d4e7.md) |
-| 2026-11-16 | IF13351 v1 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v1-2026-11-16-6952747c322641f5.pdf) | [Markdown](markdown/in-focus/IF13351v1-2026-11-16-6952747c322641f5.md) |
-| 2026-11-16 | IF13351 v2 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v2-2026-11-16-7951363433c8a3ae.pdf) | [Markdown](markdown/in-focus/IF13351v2-2026-11-16-7951363433c8a3ae.md) |
-| 2026-11-16 | IF13351 v3 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.pdf) | [Markdown](markdown/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.md) |
-| 2026-11-16 | IF13350 v1 | Exchange Visitor Program: J-1 Visa Overview and Policy Considerations | [PDF](pdf/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.pdf) | [Markdown](markdown/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.md) |
-| 2026-11-16 | IF13349 v1 | The Role of Circular Finance in Funding AI Investment | [PDF](pdf/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.pdf) | [Markdown](markdown/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.md) |
-| 2026-11-16 | IF13295 v6 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.pdf) | [Markdown](markdown/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.md) |
-| 2026-11-16 | IF13269 v5 | Artificial Intelligence and Biosecurity Issues | [PDF](pdf/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.pdf) | [Markdown](markdown/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.md) |
-| 2026-11-16 | IF13034 v8 | Offshore Wind: Status and Issues for Congress | [PDF](pdf/in-focus/IF13034v8-2026-11-16-bcc77c5c2006f5ef.pdf) | [Markdown](markdown/in-focus/IF13034v8-2026-11-16-bcc77c5c2006f5ef.md) |
-| 2026-11-16 | IF12962 v6 | DNA Methylation: Applications to Living Marine Resource Management | [PDF](pdf/in-focus/IF12962v6-2026-11-16-5eecc30cc4fdf0be.pdf) | [Markdown](markdown/in-focus/IF12962v6-2026-11-16-5eecc30cc4fdf0be.md) |
-| 2026-11-16 | IF12962 v5 | DNA Methylation: Applications to Living Marine Resource Management | [PDF](pdf/in-focus/IF12962v5-2026-11-16-ed624a510dff2270.pdf) | [Markdown](markdown/in-focus/IF12962v5-2026-11-16-ed624a510dff2270.md) |
-| 2026-11-16 | IF12899 v2 | Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence | [PDF](pdf/in-focus/IF12899v2-2026-11-16-78fba3fce758bf0f.pdf) | [Markdown](markdown/in-focus/IF12899v2-2026-11-16-78fba3fce758bf0f.md) |
-| 2026-11-16 | IF12899 v3 | Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence | [PDF](pdf/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.pdf) | [Markdown](markdown/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.md) |
-| 2026-11-16 | IF12869 v2 | The Defense Innovation Ecosystem | [PDF](pdf/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.pdf) | [Markdown](markdown/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.md) |
-| 2026-11-16 | IF12148 v8 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.pdf) | [Markdown](markdown/in-focus/IF12148v8-2026-11-16-8c4424c3ec434bbe.md) |
-| 2026-11-16 | IF12148 v9 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.pdf) | [Markdown](markdown/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.md) |
-| 2026-11-16 | IF11028 v5 | Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change | [PDF](pdf/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.pdf) | [Markdown](markdown/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.md) |
-| 2026-11-16 | IF11028 v4 | Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change | [PDF](pdf/in-focus/IF11028v4-2026-11-16-6cc730f261a431f0.pdf) | [Markdown](markdown/in-focus/IF11028v4-2026-11-16-6cc730f261a431f0.md) |
-| 2026-11-16 | IF10782 v12 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.pdf) | [Markdown](markdown/in-focus/IF10782v12-2026-11-16-8f077a9323c947f5.md) |
-| 2026-11-16 | IF10782 v13 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.pdf) | [Markdown](markdown/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.md) |
-| 2026-11-16 | IF10149 v27 | African Growth and Opportunity Act (AGOA) | [PDF](pdf/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.pdf) | [Markdown](markdown/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.md) |
-| 2026-11-16 | IF10113 v15 | The Child Support Enforcement (CSE) Program | [PDF](pdf/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.pdf) | [Markdown](markdown/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.md) |
 
 ## Active reports updated in this window with older publication dates
 
@@ -138,21 +108,38 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-23 | 2026-11-06 | IF12047 v23 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v23-2026-11-06-3687af069e68221f.pdf) | [Markdown](markdown/in-focus/IF12047v23-2026-11-06-3687af069e68221f.md) |
+| 2026-11-24 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
+| 2026-11-24 | 2026-11-06 | IF12047 v23 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v23-2026-11-06-3687af069e68221f.pdf) | [Markdown](markdown/in-focus/IF12047v23-2026-11-06-3687af069e68221f.md) |
 | 2026-11-21 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
 | 2026-11-21 | 2026-10-28 | R48078 v7 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v7-2026-10-28-74788cd9eced2ad7.pdf) | [Markdown](markdown/reports/R48078v7-2026-10-28-74788cd9eced2ad7.md) |
+| 2026-11-21 | 2026-11-16 | IF12962 v6 | DNA Methylation: Applications to Living Marine Resource Management | [PDF](pdf/in-focus/IF12962v6-2026-11-16-5eecc30cc4fdf0be.pdf) | [Markdown](markdown/in-focus/IF12962v6-2026-11-16-5eecc30cc4fdf0be.md) |
 | 2026-11-21 | 2026-10-07 | IF12766 v5 | 4.9 GHz Public Safety Band: Competing Views on Use | [PDF](pdf/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.pdf) | [Markdown](markdown/in-focus/IF12766v5-2026-10-07-9a829b4eb430e324.md) |
+| 2026-11-21 | 2026-11-16 | IF12148 v9 | Regulating PFAS Under the Clean Water Act | [PDF](pdf/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.pdf) | [Markdown](markdown/in-focus/IF12148v9-2026-11-16-ffc9251f349394d7.md) |
 | 2026-11-21 | 2026-10-29 | IF11769 v8 | Law Enforcement and Technology: The “Lawful Access” Debate | [PDF](pdf/in-focus/IF11769v8-2026-10-29-ad3696b78c9fcc5e.pdf) | [Markdown](markdown/in-focus/IF11769v8-2026-10-29-ad3696b78c9fcc5e.md) |
 | 2026-11-21 | 2026-11-12 | IF11201 v8 | Nuclear Waste Storage Sites in the United States | [PDF](pdf/in-focus/IF11201v8-2026-11-12-00a5c28b603ac828.pdf) | [Markdown](markdown/in-focus/IF11201v8-2026-11-12-00a5c28b603ac828.md) |
-| 2026-11-20 | 2026-11-06 | R46785 v20 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v20-2026-11-06-ad21a618fb19a978.pdf) | [Markdown](markdown/reports/R46785v20-2026-11-06-ad21a618fb19a978.md) |
+| 2026-11-20 | 2026-11-16 | IF13351 v3 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.pdf) | [Markdown](markdown/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.md) |
 | 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
 | 2026-11-19 | 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |
+| 2026-11-19 | 2026-11-16 | R43755 v5 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.pdf) | [Markdown](markdown/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.md) |
 | 2026-11-19 | 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |
 | 2026-11-19 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
 | 2026-11-19 | 2026-03-25 | IF11934 v8 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.pdf) | [Markdown](markdown/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.md) |
+| 2026-11-19 | 2026-11-16 | IF11028 v5 | Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change | [PDF](pdf/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.pdf) | [Markdown](markdown/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.md) |
+| 2026-11-18 | 2026-11-16 | R49517 v4 | Credit Card Debt: Analysis of Trends, Causes, and Policy Options | [PDF](pdf/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.pdf) | [Markdown](markdown/reports/R49517v4-2026-11-16-3613ad2fbc0a3a63.md) |
 | 2026-11-18 | 2025-08-27 | R48648 v1 | Electric Vehicle Technologies and Selected Policy Issues for the 119th Congress | [PDF](pdf/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.pdf) | [Markdown](markdown/reports/R48648v1-2025-08-27-0b68c4ef2ff5932c.md) |
 | 2026-11-18 | 2026-11-09 | R44247 v14 | A Survey of House and Senate Committee Rules on Subpoenas | [PDF](pdf/reports/R44247v14-2026-11-09-231b935904953fb4.pdf) | [Markdown](markdown/reports/R44247v14-2026-11-09-231b935904953fb4.md) |
+| 2026-11-18 | 2026-11-16 | IF13350 v1 | Exchange Visitor Program: J-1 Visa Overview and Policy Considerations | [PDF](pdf/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.pdf) | [Markdown](markdown/in-focus/IF13350v1-2026-11-16-5d636779ecbc7452.md) |
+| 2026-11-18 | 2026-11-16 | IF12899 v3 | Data Centers and Cloud Computing: Information Technology Infrastructure for Artificial Intelligence | [PDF](pdf/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.pdf) | [Markdown](markdown/in-focus/IF12899v3-2026-11-16-dfa653fcba5afab7.md) |
+| 2026-11-18 | 2026-11-16 | IF10782 v13 | Arctic National Wildlife Refuge (ANWR) Oil and Gas Program: Establishment and Provisions for Leasing and Development | [PDF](pdf/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.pdf) | [Markdown](markdown/in-focus/IF10782v13-2026-11-16-dee4f994bce99d74.md) |
 | 2026-11-17 | 2026-11-13 | R49516 v2 | Issues in Corporate Tax Reform | [PDF](pdf/reports/R49516v2-2026-11-13-582ec08d22ea1358.pdf) | [Markdown](markdown/reports/R49516v2-2026-11-13-582ec08d22ea1358.md) |
 | 2026-11-17 | 2026-10-01 | R49457 v3 | Measuring Housing Affordability | [PDF](pdf/reports/R49457v3-2026-10-01-be1444ad805e8bba.pdf) | [Markdown](markdown/reports/R49457v3-2026-10-01-be1444ad805e8bba.md) |
 | 2026-11-17 | 2026-11-10 | R48918 v10 | The 2026 Farm Bill: Comparison of the House-Passed and Senate Committee-Reported Bills with Current Law | [PDF](pdf/reports/R48918v10-2026-11-10-f2d191fcb6417daa.pdf) | [Markdown](markdown/reports/R48918v10-2026-11-10-f2d191fcb6417daa.md) |
 | 2026-11-17 | 2026-11-09 | R48248 v4 | Paris Agreement: Nationally Determined Contributions Conditional on International Support—In Brief | [PDF](pdf/reports/R48248v4-2026-11-09-fc416014d10381f0.pdf) | [Markdown](markdown/reports/R48248v4-2026-11-09-fc416014d10381f0.md) |
+| 2026-11-17 | 2026-11-16 | R44279 v19 | Thanksgiving: Fact Sheet | [PDF](pdf/reports/R44279v19-2026-11-16-e2685c046911266b.pdf) | [Markdown](markdown/reports/R44279v19-2026-11-16-e2685c046911266b.md) |
+| 2026-11-17 | 2026-11-16 | IF13349 v1 | The Role of Circular Finance in Funding AI Investment | [PDF](pdf/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.pdf) | [Markdown](markdown/in-focus/IF13349v1-2026-11-16-0464df2616b502c2.md) |
+| 2026-11-17 | 2026-11-16 | IF13295 v6 | Immigration Removals to Third Countries | [PDF](pdf/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.pdf) | [Markdown](markdown/in-focus/IF13295v6-2026-11-16-6ad45d9cf1de9289.md) |
+| 2026-11-17 | 2026-11-16 | IF13269 v5 | Artificial Intelligence and Biosecurity Issues | [PDF](pdf/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.pdf) | [Markdown](markdown/in-focus/IF13269v5-2026-11-16-18a987848c8a4499.md) |
+| 2026-11-17 | 2026-11-16 | IF13034 v8 | Offshore Wind: Status and Issues for Congress | [PDF](pdf/in-focus/IF13034v8-2026-11-16-bcc77c5c2006f5ef.pdf) | [Markdown](markdown/in-focus/IF13034v8-2026-11-16-bcc77c5c2006f5ef.md) |
+| 2026-11-17 | 2026-11-16 | IF12869 v2 | The Defense Innovation Ecosystem | [PDF](pdf/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.pdf) | [Markdown](markdown/in-focus/IF12869v2-2026-11-16-cac42f1e77b72101.md) |
+| 2026-11-17 | 2026-11-16 | IF10149 v27 | African Growth and Opportunity Act (AGOA) | [PDF](pdf/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.pdf) | [Markdown](markdown/in-focus/IF10149v27-2026-11-16-8a27e5dc88a2baf6.md) |
+| 2026-11-17 | 2026-11-16 | IF10113 v15 | The Child Support Enforcement (CSE) Program | [PDF](pdf/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.pdf) | [Markdown](markdown/in-focus/IF10113v15-2026-11-16-a68f92efe98a43be.md) |
