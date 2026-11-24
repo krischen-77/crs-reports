@@ -1,3 +1,5 @@
+**Official-current verification: 107/107. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-17 to 2026-11-24**. Older archived files are retained.
@@ -25,6 +27,7 @@ Publication-date window (inclusive): **2026-11-17 to 2026-11-24**. Older archive
 | 2026-11-20 | R48191 v7 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v7-2026-11-20-53e65f875cc50cce.pdf) | [Markdown](markdown/reports/R48191v7-2026-11-20-53e65f875cc50cce.md) |
 | 2026-11-20 | R48191 v8 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v8-2026-11-20-915315513e63a18a.pdf) | [Markdown](markdown/reports/R48191v8-2026-11-20-915315513e63a18a.md) |
 | 2026-11-20 | R46234 v16 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.pdf) | [Markdown](markdown/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.md) |
+| 2026-11-20 | R46234 v17 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v17-2026-11-20-cd56cfa82a3baf5c.pdf) | [Markdown](markdown/reports/R46234v17-2026-11-20-cd56cfa82a3baf5c.md) |
 | 2026-11-20 | IF13359 v1 | Income Tax Treatment of Cryptocurrency | [PDF](pdf/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.pdf) | [Markdown](markdown/in-focus/IF13359v1-2026-11-20-8a5eeb24edbeaff5.md) |
 | 2026-11-20 | IF13359 v2 | Income Tax Treatment of Cryptocurrency | [PDF](pdf/in-focus/IF13359v2-2026-11-20-8ca5c647856255cd.pdf) | [Markdown](markdown/in-focus/IF13359v2-2026-11-20-8ca5c647856255cd.md) |
 | 2026-11-20 | IF13358 v1 | Preserving Trust: Government Data, Disclosure Avoidance, and Privacy Enhancing Techniques (PETs) | [PDF](pdf/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.pdf) | [Markdown](markdown/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.md) |
@@ -50,6 +53,7 @@ Publication-date window (inclusive): **2026-11-17 to 2026-11-24**. Older archive
 | 2026-11-19 | IF12390 v7 | U.S. Economic Sanctions: Overview for the 120th Congress | [PDF](pdf/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.pdf) | [Markdown](markdown/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.md) |
 | 2026-11-19 | IF11361 v19 | The World Bank | [PDF](pdf/in-focus/IF11361v19-2026-11-19-22a12e250c452826.pdf) | [Markdown](markdown/in-focus/IF11361v19-2026-11-19-22a12e250c452826.md) |
 | 2026-11-19 | IF11361 v18 | The World Bank | [PDF](pdf/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.pdf) | [Markdown](markdown/in-focus/IF11361v18-2026-11-19-c49f390d142b71a8.md) |
+| 2026-11-19 | IF11208 v18 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.pdf) | [Markdown](markdown/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.md) |
 | 2026-11-19 | IF11208 v17 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.pdf) | [Markdown](markdown/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.md) |
 | 2026-11-19 | IF11147 v16 | Defense Primer: Active Component Enlisted Recruiting | [PDF](pdf/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.pdf) | [Markdown](markdown/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.md) |
 | 2026-11-19 | IF11119 v3 | Federal Records: Types and Treatments | [PDF](pdf/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.pdf) | [Markdown](markdown/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.md) |

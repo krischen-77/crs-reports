@@ -1,19 +1,17 @@
 # Official current CRS files
 
-Checked: 2026-11-24T06:32:58.865779+00:00. Official current entries verified: **103/103**.
+Checked: 2026-11-24T20:52:32.204791+00:00. Official current entries verified: **107/107**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
-| 2026-11-24 | 2026-11-23 | R46658 v7 | Social Security: Benefit Calculation | [PDF](pdf/reports/R46658v7-2026-11-23-c73157be0596ca5a.pdf) | [Markdown](markdown/reports/R46658v7-2026-11-23-c73157be0596ca5a.md) |
-| 2026-11-24 | 2026-11-23 | IF11747 v9 | Social Security: Benefit Calculation Overview | [PDF](pdf/in-focus/IF11747v9-2026-11-23-ad2ae95629e457d9.pdf) | [Markdown](markdown/in-focus/IF11747v9-2026-11-23-ad2ae95629e457d9.md) |
-| 2026-11-24 | 2026-11-20 | IF12905 v4 | The Native American Housing Assistance and Self-Determination Act (NAHASDA) | [PDF](pdf/in-focus/IF12905v4-2026-11-20-eb8121ed54a28d3c.pdf) | [Markdown](markdown/in-focus/IF12905v4-2026-11-20-eb8121ed54a28d3c.md) |
-| 2026-11-24 | 2026-11-17 | R49519 v2 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v2-2026-11-17-a748fdf4825cd699.pdf) | [Markdown](markdown/reports/R49519v2-2026-11-17-a748fdf4825cd699.md) |
-| 2026-11-24 | 2026-11-18 | IN12756 v1 | Nationwide Aircraft Ground Stop Raises Concerns over Aviation System Modernization | [PDF](pdf/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.pdf) | [Markdown](markdown/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.md) |
-| 2026-11-24 | 2026-11-20 | IF13144 v6 | Assisted Reproductive Technology Regulation and Oversight | [PDF](pdf/in-focus/IF13144v6-2026-11-20-653e367d2dda18b3.pdf) | [Markdown](markdown/in-focus/IF13144v6-2026-11-20-653e367d2dda18b3.md) |
-| 2026-11-24 | 2026-11-06 | IF12047 v23 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v23-2026-11-06-3687af069e68221f.pdf) | [Markdown](markdown/in-focus/IF12047v23-2026-11-06-3687af069e68221f.md) |
-| 2026-11-24 | 2026-11-23 | RS22380 v49 | Child Support Enforcement: Program Basics | [PDF](pdf/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.pdf) | [Markdown](markdown/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.md) |
+| 2026-11-24 | 2026-11-24 | IG10103 v1 | Understanding Electricity Rates | [PDF](pdf/infographics/IG10103v1-2026-11-24-3a5a32acef324dff.pdf) | [Markdown](markdown/infographics/IG10103v1-2026-11-24-3a5a32acef324dff.md) |
+| 2026-11-24 | 2026-11-24 | R49186 v3 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v3-2026-11-24-5f529b73ed954eea.pdf) | [Markdown](markdown/reports/R49186v3-2026-11-24-5f529b73ed954eea.md) |
+| 2026-11-24 | 2026-11-20 | R46234 v17 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v17-2026-11-20-cd56cfa82a3baf5c.pdf) | [Markdown](markdown/reports/R46234v17-2026-11-20-cd56cfa82a3baf5c.md) |
+| 2026-11-24 | 2026-11-24 | IF13360 v1 | The Federal Death Penalty | [PDF](pdf/in-focus/IF13360v1-2026-11-24-4db215a1195ddf19.pdf) | [Markdown](markdown/in-focus/IF13360v1-2026-11-24-4db215a1195ddf19.md) |
+| 2026-11-24 | 2026-11-19 | IF11208 v18 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.pdf) | [Markdown](markdown/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.md) |
+| 2026-11-24 | 2026-11-24 | R45160 v26 | Federal Election Commission: Membership and Policymaking Quorum, In Brief | [PDF](pdf/reports/R45160v26-2026-11-24-7f51896cd4e86493.pdf) | [Markdown](markdown/reports/R45160v26-2026-11-24-7f51896cd4e86493.md) |
 | 2026-11-24 | 2026-11-06 | R46785 v21 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v21-2026-11-06-57284d0d93849b22.pdf) | [Markdown](markdown/reports/R46785v21-2026-11-06-57284d0d93849b22.md) |
 | 2026-11-24 | 2026-11-23 | IF12155 v14 | Farm Bill Primer: Trade and Export Promotion Programs | [PDF](pdf/in-focus/IF12155v14-2026-11-23-8f0e67492c849ca0.pdf) | [Markdown](markdown/in-focus/IF12155v14-2026-11-23-8f0e67492c849ca0.md) |
 | 2026-11-24 | 2026-11-23 | R48943 v5 | Income and Poverty by State and Congressional District | [PDF](pdf/reports/R48943v5-2026-11-23-fe10b4113ab74f9b.pdf) | [Markdown](markdown/reports/R48943v5-2026-11-23-fe10b4113ab74f9b.md) |
@@ -24,6 +22,14 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-24 | 2026-11-20 | R48191 v8 | Connecting Constituents to Health Information and Services: Resources for Congressional Offices | [PDF](pdf/reports/R48191v8-2026-11-20-915315513e63a18a.pdf) | [Markdown](markdown/reports/R48191v8-2026-11-20-915315513e63a18a.md) |
 | 2026-11-24 | 2026-11-23 | R49523 v1 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v1-2026-11-23-9d073522bccaf92d.pdf) | [Markdown](markdown/reports/R49523v1-2026-11-23-9d073522bccaf92d.md) |
 | 2026-11-24 | 2026-11-23 | IF12831 v3 | Fiji: Background and Issues for Congress | [PDF](pdf/in-focus/IF12831v3-2026-11-23-5719954d5b377ece.pdf) | [Markdown](markdown/in-focus/IF12831v3-2026-11-23-5719954d5b377ece.md) |
+| 2026-11-24 | 2026-11-23 | R46658 v7 | Social Security: Benefit Calculation | [PDF](pdf/reports/R46658v7-2026-11-23-c73157be0596ca5a.pdf) | [Markdown](markdown/reports/R46658v7-2026-11-23-c73157be0596ca5a.md) |
+| 2026-11-24 | 2026-11-23 | IF11747 v9 | Social Security: Benefit Calculation Overview | [PDF](pdf/in-focus/IF11747v9-2026-11-23-ad2ae95629e457d9.pdf) | [Markdown](markdown/in-focus/IF11747v9-2026-11-23-ad2ae95629e457d9.md) |
+| 2026-11-24 | 2026-11-20 | IF12905 v4 | The Native American Housing Assistance and Self-Determination Act (NAHASDA) | [PDF](pdf/in-focus/IF12905v4-2026-11-20-eb8121ed54a28d3c.pdf) | [Markdown](markdown/in-focus/IF12905v4-2026-11-20-eb8121ed54a28d3c.md) |
+| 2026-11-24 | 2026-11-17 | R49519 v2 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v2-2026-11-17-a748fdf4825cd699.pdf) | [Markdown](markdown/reports/R49519v2-2026-11-17-a748fdf4825cd699.md) |
+| 2026-11-24 | 2026-11-18 | IN12756 v1 | Nationwide Aircraft Ground Stop Raises Concerns over Aviation System Modernization | [PDF](pdf/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.pdf) | [Markdown](markdown/insights/IN12756v1-2026-11-18-c5e2cc6db2cd1f9e.md) |
+| 2026-11-24 | 2026-11-20 | IF13144 v6 | Assisted Reproductive Technology Regulation and Oversight | [PDF](pdf/in-focus/IF13144v6-2026-11-20-653e367d2dda18b3.pdf) | [Markdown](markdown/in-focus/IF13144v6-2026-11-20-653e367d2dda18b3.md) |
+| 2026-11-24 | 2026-11-06 | IF12047 v23 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v23-2026-11-06-3687af069e68221f.pdf) | [Markdown](markdown/in-focus/IF12047v23-2026-11-06-3687af069e68221f.md) |
+| 2026-11-24 | 2026-11-23 | RS22380 v49 | Child Support Enforcement: Program Basics | [PDF](pdf/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.pdf) | [Markdown](markdown/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.md) |
 | 2026-11-21 | 2026-11-18 | IF13288 v3 | Federal Air Quality and Wildland Fire Smoke Forecasting | [PDF](pdf/in-focus/IF13288v3-2026-11-18-bee7f887227a1c5c.pdf) | [Markdown](markdown/in-focus/IF13288v3-2026-11-18-bee7f887227a1c5c.md) |
 | 2026-11-21 | 2026-10-28 | R48078 v7 | Credible Fear and Defensive Asylum Processes: Frequently Asked Questions | [PDF](pdf/reports/R48078v7-2026-10-28-74788cd9eced2ad7.pdf) | [Markdown](markdown/reports/R48078v7-2026-10-28-74788cd9eced2ad7.md) |
 | 2026-11-21 | 2026-11-17 | IF10719 v9 | Forecasting Tropical Cyclones | [PDF](pdf/in-focus/IF10719v9-2026-11-17-9dd0a62bc72e1518.pdf) | [Markdown](markdown/in-focus/IF10719v9-2026-11-17-9dd0a62bc72e1518.md) |
@@ -44,11 +50,9 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-21 | 2026-11-19 | LSB11502 v1 | Supreme Court Determines Clear and Convincing Evidence Not Required for Admissibility Determinations for Returning Lawful Permanent Residents | [PDF](pdf/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.pdf) | [Markdown](markdown/sidebars/LSB11502v1-2026-11-19-67690cf745c5b3a7.md) |
 | 2026-11-21 | 2026-11-20 | IF13248 v3 | Farm Bill Primer: Rural Broadband Provisions | [PDF](pdf/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.pdf) | [Markdown](markdown/in-focus/IF13248v3-2026-11-20-9f5d69fb23e3118d.md) |
 | 2026-11-21 | 2026-11-19 | IF12390 v7 | U.S. Economic Sanctions: Overview for the 120th Congress | [PDF](pdf/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.pdf) | [Markdown](markdown/in-focus/IF12390v7-2026-11-19-4c4f739986ddb072.md) |
-| 2026-11-21 | 2026-11-20 | R46234 v16 | School Meals and Other Child Nutrition Programs: Background and Funding | [PDF](pdf/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.pdf) | [Markdown](markdown/reports/R46234v16-2026-11-20-7f68b0a8e2b0525c.md) |
 | 2026-11-21 | 2026-11-18 | 97-1011 v104 | Salaries of Members of Congress: Recent Actions and Historical Tables | [PDF](pdf/reports/97-1011v104-2026-11-18-ed8ef68100c0df2f.pdf) | [Markdown](markdown/reports/97-1011v104-2026-11-18-ed8ef68100c0df2f.md) |
 | 2026-11-21 | 2026-10-15 | R48136 v6 | National Park Service Deferred Maintenance: Overview and Issues | [PDF](pdf/reports/R48136v6-2026-10-15-f6afc6420fa5966f.pdf) | [Markdown](markdown/reports/R48136v6-2026-10-15-f6afc6420fa5966f.md) |
 | 2026-11-21 | 2026-11-19 | R49521 v4 | Employee Stock Ownership Plans (ESOPs): Background and Policy | [PDF](pdf/reports/R49521v4-2026-11-19-207dc8809bb663f2.pdf) | [Markdown](markdown/reports/R49521v4-2026-11-19-207dc8809bb663f2.md) |
-| 2026-11-21 | 2026-11-19 | IF11208 v17 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.pdf) | [Markdown](markdown/in-focus/IF11208v17-2026-11-19-e68b2a2ac4c1efda.md) |
 | 2026-11-21 | 2026-11-20 | IF13358 v1 | Preserving Trust: Government Data, Disclosure Avoidance, and Privacy Enhancing Techniques (PETs) | [PDF](pdf/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.pdf) | [Markdown](markdown/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.md) |
 | 2026-11-21 | 2026-11-19 | IF11147 v16 | Defense Primer: Active Component Enlisted Recruiting | [PDF](pdf/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.pdf) | [Markdown](markdown/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.md) |
 | 2026-11-20 | 2026-11-19 | IN12717 v7 | Nuclear Risk Reduction: Executive Branch Policies and Congressional Approaches in the 119th Congress | [PDF](pdf/insights/IN12717v7-2026-11-19-62057c2bc5568818.pdf) | [Markdown](markdown/insights/IN12717v7-2026-11-19-62057c2bc5568818.md) |
