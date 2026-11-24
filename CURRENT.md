@@ -1,6 +1,6 @@
 # Official current CRS files
 
-Checked: 2026-11-24T20:52:32.204791+00:00. Official current entries verified: **107/107**.
+Checked: 2026-11-24T21:02:08.950641+00:00. Official current entries verified: **107/107**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
