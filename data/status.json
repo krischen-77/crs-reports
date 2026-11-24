@@ -11,29 +11,24 @@
   "errors": [
     "R43755: original archive failed: Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
   ],
-  "finished_at": "2026-11-24T20:43:12.265314+00:00",
+  "finished_at": "2026-11-24T20:56:19.711884+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "45483415029",
+  "github_run_id": "45485637739",
   "historical_new_pdf_versions": 2,
-  "historical_pending_versions": 245,
+  "historical_pending_versions": 243,
   "last_successful_run_at": "2026-11-16T02:15:21.477049+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 26,
-  "new_pdf_versions": 6,
-  "official_current_pending": 0,
-  "official_current_required": 107,
-  "official_current_verified": 107,
-  "official_new_pdf_versions": 2,
-  "official_reconciled_at": "2026-11-24T20:52:32.204791+00:00",
+  "new_pdf_versions": 2,
   "pending_reports": 0,
   "pending_versions": 1,
   "planned_versions": 110,
-  "primary_new_pdf_versions": 4,
+  "primary_new_pdf_versions": 0,
   "primary_pdf_complete": false,
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 1,
   "result": "failed",
-  "run_at": "2026-11-24T20:42:12.163985+00:00",
+  "run_at": "2026-11-24T20:55:18.879184+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -72,10 +67,9 @@
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
     }
   ],
-  "total_archived_pdf_versions": 1100,
-  "total_html_original_versions": 1,
-  "total_html_snapshots": 778,
-  "total_pdf_bytes": 901882537,
+  "total_archived_pdf_versions": 1102,
+  "total_html_snapshots": 780,
+  "total_pdf_bytes": 903504938,
   "warnings": [
     {
       "api_version": 97,
@@ -710,21 +704,21 @@
       ]
     },
     {
-      "id": "RS21629",
+      "id": "RS22649",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "RS22450",
+      "id": "RS22689",
       "messages": [
         "Recovered using independent official PDF: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "historical_backfill_remaining": 245,
+      "historical_backfill_remaining": 243,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],

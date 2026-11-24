@@ -1,0 +1,308 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div><a class="pdfico_r" href="&lt;%= REPORT_PDF_LOCATION %&gt;RS/PDF/RS22689.pdf" target="_top">View/Print PDF</a></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Taxation of Hedge Fund and Private Equity Managers</div>
+<div class="CoverDate">Updated March 7, 2014
+            (RS22689)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc1559860"><span class="Hyperlink">Background</span></a></li>
+<li class="TOC2"><a href="#_Toc1559861"><span class="Hyperlink">Private Equity</span></a></li>
+<li class="TOC2"><a href="#_Toc1559862"><span class="Hyperlink">Hedge Funds</span></a></li>
+<li class="TOC2"><a href="#_Toc1559863"><span class="Hyperlink">The Boom and Bust</span></a></li>
+<li class="TOC1"><a href="#_Toc1559864"><span class="Hyperlink">Fund Structure and Compensation</span></a></li>
+<li class="TOC2"><a href="#_Toc1559865"><span class="Hyperlink">Types of Compensation</span></a></li>
+<li class="TOC2"><a href="#_Toc1559866"><span class="Hyperlink">Amounts of Compensation</span></a></li>
+<li class="TOC1"><a href="#_Toc1559867"><span class="Hyperlink">Tax Issues and Proposals</span></a></li>
+<li class="TOC2"><a href="#_Toc1559868"><span class="Hyperlink">Tax Treatment of Carried Interest</span></a></li>
+<li class="TOC2"><a href="#_Toc1559869"><span class="Hyperlink">The Tax Benefits from the Deferral of Income</span></a></li>
+<li class="TOC2"><a href="#_Toc1559870"><span class="Hyperlink">Enterprise Value</span></a></li>
+<li class="TOC2"><a href="#_Toc1559871"><span class="Hyperlink">Tax Treatment of Publicly Traded Partnerships</span></a></li>
+</ul>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Private equity and hedge funds are investment pools generally available only to institutions and individuals able to make investments in excess of $200,000. Private equity funds acquire ownership stakes in other companies and seek to profit by improving operating results or through financial restructuring. Hedge funds follow many strategies, investing in any market where managers see profit opportunities. The two kinds of funds are generally structured as partnerships: the fund managers act as general partners, while the outside investors are limited partners. Fund managers are compensated in two ways. First, to the extent that they invest their own capital in the funds, they share in the appreciation of fund assets. Second, they charge the outside investors two kinds of annual fees: a percentage of total fund assets, and a percentage of the fund's earnings. The latter performance fee is called "carried interest" and is treated as capital gains under current tax rules.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Since the 110<sup>th</sup> Congress, concerns have been raised that the current tax rules are inequitable and inconsistent with some tax policy principles. Proposals that address this concern have focused on taxing some portion (or all in some cases) of carried interest as ordinary income. In the 113<sup>th</sup> Congress, the Tax Reform Act of 2014 would tax carried interest, exempting income earned from real estate, as ordinary income. <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.268:"><span class="Hyperlink">S. 268</span></a> and the President's FY2014 Budget Proposal would tax carried interest as ordinary income, while taxing another form of compensation, known as enterprise value, as capital gains income. According to the Joint Committee on Taxation, the provision in the Tax Reform Act of 2014 would raise $3.1 billion in revenue in the FY2014-FY2023 budget window, while the provision in the President's FY2014 Budget Proposal would raise $17.4 billion in revenue in the FY2014-FY2023 budget window.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report discusses the major issues surrounding the tax treatment of hedge fund and private equity managers and will be updated as legislative developments warrant.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Background</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964062"></a><a name="_Toc1559861"></a>Private Equity</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Private equity firms buy and sell other businesses. The industry can be roughly divided into two parts: venture capital and buyout funds. Venture capitalists invest in small, startup firms, providing financing and management expertise. Their payoff usually comes when the firms are sold, either by selling shares into the public stock market through an initial public offering (IPO), or by an outright sale to a larger company.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Buyout funds acquire ownership stakes in businesses of all sizes. The best-known form of buyout transaction is the leveraged buyout (LBO). In an LBO, an existing publically traded company is purchased using a combination of equity and debt and then taken private.<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="Since the debt component of the purchase price has a lower cost of capital than the equity component, the returns on the equity increase as the percentage funded through debt increases. The debt thus effectively serves as a lever to increase returns which explains the origin of the term LBO.">1</a></sup> For example, in the proposed $24.4 billion LBO of Dell Computers by a group headed by Dell founder and CEO Michael Dell a consortium of banks is being used to fund the debt portion of the proposed deal.<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="Aaron Ricadela, &quot;Dell Sets Vote on CEO's Buyout, Dismissing Icahn Offer,&quot; Bloomberg.com , May 31, 2013.">2</a></sup> If the LBO is completed the company will stop being traded on a public stock exchange (go private).<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title="Unlike the majority of LBOs, the Dell LBO may be driven by accounting and tax considerations as opposed to business strategy. See Matthew Yglesias, &quot;Dell's Gigantic Tax Dodge,&quot; Slate , February 5, 2013.">3</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The LBO deal can be very lucrative for the private equity investors: they receive a premium above the going market price for their stake in the target, and at the end of the transaction they own the entire target company, even though they have sold their shares. After completion of the LBO, as owners of a private corporation, they can pay themselves fees, salaries, and dividends without having to answer to public shareholders or Wall Street analysts. An increasingly common practice is to issue debt and use the proceeds to pay a special dividend to the shareholders—who are the private equity investors themselves.<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title='Kate Kelly, "Executives Hedge Their Own IPOs," Wall Street Journal , April 13, 2007, p. C1.'>4</a></sup> At the end of the process, usually several years after the acquisition, the company is resold, either to public investors through an IPO (in this case called a "reverse LBO"), or to another firm.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964063"></a><a name="_Toc1559862"></a>Hedge Funds</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Hedge funds trade in all financial markets, employing a very broad range of investment strategies. Some take simple speculative positions on the direction of prices of financial assets—stocks, bonds, commodities, currencies, etc.—while others construct very complex portfolios based on price relationships across asset classes and across markets, designed to produce positive returns whatever the direction of prices in the underlying markets. Some funds follow high risk strategies; others are quite conservative. Hedge fund trading is not always based on short-term strategies, but in general their investment horizons are shorter than those of private equity funds, whose holding periods average 6 to 10 years.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The line between private equity and hedge funds is often blurred. A significant subset of hedge funds, called "activist" funds, also operates in the corporate takeover market. Such funds typically buy a stake in a public company and then pressure the target firm to make changes in operations (such as spinning off underperforming units or assets), governance (e.g., replacing top executives or appointing a hedge fund designee to the board of directors), or financial structure (announcing a stock buyback or a special dividend) that will boost the share price. If these efforts do not succeed in the short term, the funds may hold on to their investments for years, in essence replicating the strategy of value investors like Warren Buffett.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964064"></a><a name="_Toc1559863"></a>The Boom and Bust</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Between 2000 and 2007, both private equity and hedge funds grew rapidly in size and number, because of a number of factors that some call a "perfect storm." When the bull market ended in 2000 and interest rates fell, institutional investors such as pension funds and foundations turned to "alternative" investments to make up for low yields in traditional asset classes. Hedge funds and private equity were the primary beneficiaries of this shift. Falling share prices and the availability of low-cost debt capital created an unusually favorable situation for private equity funds: they could borrow to finance acquisitions at relatively low cost, and expect to sell into a recovering stock market.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Private equity and hedge fund performance, however, has not been immune to the economic turmoil which began in 2008. Hedge funds ended 2008 and 2011 with negative aggregate returns for the first times on record (since 2000).<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title='"HFN Hedge Fund Aggregate Index: Monthly Performance Report: December 2011," evestment.com , January 2012.'>5</a></sup> Similarly, private equity returns are forecast significantly below historical levels through 2014.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While there are no official or comprehensive statistics on the size of either industry, an often cited estimate is that there are now over 9,000 hedge funds, with over $2.2 trillion in investor funds under management.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title='"HFN Hedge Fund Aggregate Index: Monthly Performance Report: November 2012," evestment.com , December 2012, and "Hedge Fund Numbers, Assets Hit Record," Hedge Fund &amp; Private Equity News , December 12, 2012.'>6</a></sup> A decade ago, the comparable estimates were 2,500 funds and $200 billion in capital. In private equity, firms have raised more than $1 trillion in the past decade, with about $200 billion-$250 billion in 2006 alone. In 2012, LBOs accounted for 9% of the dollar value of all corporate mergers, up from about 2% in the late 1990s but within the range of 3% to 29% observed in the past 10 years.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title='" Leveraged Buyout Market, " Mergers &amp; Acquisitions , February 20 12 .'>7</a></sup> In short, private equity and hedge funds, once marginal players, now exert what could be characterized as significant influence in the markets where they operate. As a result, how those who operate in this industry are taxed, relative to other participants in this industry and the general public, has come under increased congressional scrutiny. </p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964065"></a><a name="_Toc1559864"></a>Fund Structure and Compensation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While private equity firms and hedge funds may differ in their investment strategies, their structures are similar. Nearly all are organized as partnerships, which means that their earnings are not taxed at the firm level. Most partnerships are simply straightforward conduits of taxable income or loss and tax attributes to the individual partners.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="Examples of tax attributes that pass-through to the individual partners include tax credits and net operating losses (NOLs).">8</a></sup> They can, however, also be used to manipulate the allocation of tax attributes and to shelter income and assets from taxation as a result of the allocation of tax attributes.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">There are two kinds of partners. The fund managers, who guide the investment strategy, are general partners. Their background typically includes experience at a Wall Street investment bank, although two former Secretaries of the Treasury and a former Securities and Exchange Commission (SEC) chairman now run hedge funds. The general partners often invest their own capital in the funds, but this is usually a small share of the total managed by the fund.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="According to media reports, general partners accounted for about 3% of funds raised by private equity firms in 2005. &quot;Here's Where the Capital Came From In 2005,&quot; Dow Jones Private Equity Analyst , April 2006, p. 16.">9</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Outside investors, who contribute capital but have no say in investment or management decisions, are the limited partners. They are generally institutional investors—public and corporate pension funds, insurance companies, foundations, and endowments—or individual investors with significant amounts of resources. In contrast to the general partners, the contributions of limited partners is usually a large share of the total managed by the fund.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Hedge funds typically establish multiple funds to accommodate the tax planning preferences of different investors. While they generally share a common pool of underlying assets, they are chartered in different jurisdictions to cater to different clientele. By one estimate, nearly 11,000 hedge funds, or about 80% of the total, are registered in the Cayman Islands as well as their home country.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="Eric Sabo, &quot;Hedge Fund Havens Weigh Taxes as Caribbean's Debt Rivals Greece,&quot; Bloomberg.com , October 25, 2012.">10</a></sup> Foreign investors and U.S. tax-exempt institutions may prefer to invest in foreign-chartered funds, while other types of U.S. investors find it disadvantageous to invest in foreign funds.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="For example, foreign investors may prefer to invest in non-U.S. funds to avoid creating a U.S. tax presence or paying U.S. tax on the fund's earnings, while tax-exempt institutions may prefer non-U.S. funds (relative to other U.S. investors) because they do not pay taxes on repatriated earnings.">11</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Small public investors are generally not able to invest in hedge funds, because they lack either the assets or income. Under U.S. law, the sale of shares, or interests, in an investment partnership constitutes an offering of securities, and must be registered with the SEC if the offering is public. In order to avoid registration, and the associated disclosure requirements,<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Public offerors of securities must make public audited financial statements and detailed figures on executive pay, among other information.">12</a></sup> most funds rely on exemptions in the securities laws that allow them to make unregulated "private" offerings. In order to qualify for these exemptions, prospective limited partners must meet various income and asset thresholds. (The most basic is the "accredited investor" standard—income of $200,000 or more in the past two years and at least $1 million in assets.)<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="http://www.sec.gov/answers/accred.htm .">13</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Recently, a number of hedge funds and private equity partnerships have gone public, by selling shares (or units) in an IPO. Their securities are now traded on the New York Stock Exchange and other major markets, and may be purchased by anyone. These firms, which include the Fortress Investment Group and Blackstone, will operate much as before, but will be required to file quarterly and annual financial statements and make the full range of disclosures required by the SEC.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964066"></a><a name="_Toc1559865"></a>Types of Compensation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">When the funds' investments yield a positive return, both limited and general partners receive income, as the value of their share of the fund increases. This income, as mentioned above, is not taxed at the partnership level; only the individual partners pay taxes, usually at the capital gains rate.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition, the general partners receive compensation from the limited partners. Compensation structures may vary from fund to fund, but the standard pay formula is called "2 and 20." That is, fund managers take 2% of the fund's assets each year as a management fee, and 20% of the total profits as a kind of performance bonus.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="The actual percentages may be higher or lower, but the fees charged by hedge funds and private equity are generally very high compared to other investments—public mutual fund fees, for example, average about 1.1% of the value of the fund .">14</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The percentage-of-assets management fee is usually paid in cash and is taxed at ordinary income rates.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The 20% performance fee is sometimes paid in cash, and sometimes credited to the manager's account. Because the amount is often carried over from year to year until a cash payment is made, usually following the closing out of an investment, it is called "carried interest." The carried interest is taxed at the capital gains rate (20%) which is currently below the top ordinary income tax rate (39.6%).</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964067"></a><a name="_Toc1559866"></a>Amounts of Compensation</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Given the fact that these funds are private, no comprehensive figures on managers' compensation are available, although a number of consultants and trade groups do publish estimates. According to <em>Alpha</em> magazine, the top 25 hedge fund managers earned $14.4 billion in 2012, down from more than $22 billion in 2010.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title='" Tepper, Dalio, Cohen Highest-Paid Hedge Fund Managers ," http://www.finalternatives.com/node/23397 , April 15, 2013.'>15</a></sup> Comparable annual lists are not published for private equity managers, probably because cash distributions occur less frequently than in hedge funds, and there is greater year-to-year variation. One estimate is that managers earned $45 billion over the past six years.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title='Jenny Anderson and Andrew Ross Sorkin, "Hedge Fund Operators May Lose U.S. Tax Break: Lawmakers Look at Private Equity Wealth," International Herald Tribune , June 22, 2007, p. 14.'>16</a></sup></p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964068"></a><a name="_Toc1559867"></a>Tax Issues and Proposals</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congressional proposals have evolved since the 110<sup>th</sup> Congress from the full taxation of carried interest as ordinary income to more nuanced approaches that account for "enterprise value" and tax carried interest at some blend of the capital gains and ordinary income tax rates. Similarly, the President's FY2014 Budget Proposal calls for the taxation of carried interest as ordinary income less compensation from "enterprise value." </p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964069"></a><a name="_Toc1559868"></a>Tax Treatment of Carried Interest</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">As noted above, carried interest is the portion of fund managers' compensation that represents a percentage of the funds' total investment gains. Under current tax rules, it is generally taxed at the capital gains rate (generally 20%) when realized. The current law treatment follows from the long-standing principle that the distributions of a partnership should be taxed the same as underlying income—or that the income should retain its character. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">However, the current law treatment, according to a particular point of view, violates the economic principle of horizontal equity. According to this point of view, fund managers provide labor to the fund the same as other workers provide to their employers. As such, the principle of horizontal equity says the fund manager and worker should be taxed similarly. One option to correct this potential issue would be to tax carried interest as ordinary income.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 113<sup>th</sup> Congress, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.268:"><span class="Hyperlink">S. 268</span></a> and the President's FY2014 Budget Proposal take a nuanced approach that treats carried interest as a mix of capital gains and ordinary income. The Tax Reform Act of 2014 would exempt carried interests derived from real estate but tax a portion of the remainder as ordinary income. As a result, each proposal would treat a portion of carried interest as ordinary income and the remainder as capital gains income.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="S. 268 would allow enterprise value (largely from goodwill) to be taxed as capital gains income, but tax the remainder as ordinary income, while the President's FY2014 Budget Proposal states that the Administration is committed to working with Congress to develop mechanisms to assure the proper amount of enterprise value is taxed as capital gains income.">17</a></sup> According to the Joint Committee on Taxation, the provision in the Tax Reform Act of 2014 would raise $3.1 billion in revenue in the FY2014-FY2023 budget window, while the provision in the President's FY2014 Budget Proposal would raise $17.4 billion in revenue in the FY2014-FY2023 budget window.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="U.S. Congress, Joint Committee on Taxation, Description of Certain Revenue Provisions Contained in the President's Fiscal Year 2014 Budget Proposal , committee print, 113 th Cong., 1 st sess., December 20, 2013, JCS-4-13 and U.S. Congress, Joint Committee on Taxation, Estimated Revenue Effects of the &quot;Tax Reform Act of 2014,&quot; committee print, 113 th Cong., 2 nd sess., February 26, 2014, JCS-20-14.">18</a></sup> Supporters of these proposals have argued that carried interest is essentially a fee for investment advisory services, and that the appropriate treatment is to tax it like other ordinary income. Opponents maintained that since the source of carried interest is earnings on the fund's investments, it should be treated like any other investment income: capital gains if held for more than a year, ordinary income if the holding period is less.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964070"></a><a name="_Toc1559869"></a>The Tax Benefits from the Deferral of Income</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Along with its reduced tax rates, capital gains income receives another benefit—termed a tax deferral—because it is not taxed until realized. Carried interest shares this benefit. The concept of tax deferral relates to the timing of tax payments—with the idea that a taxpayer prefers to pay taxes in the future, rather than today because he or she can control the funds longer, use them in some other way, and benefit from the time value of money.<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="The time value of money is t he idea that taxes paid in the future are less costly than the same amount of taxes paid presently due to the potential earning capacity of the delayed tax payment.">19</a></sup> Deferral increases in value with both the length of the deferral period and the taxpayer's marginal tax rate. Carried interest, discussed above, benefits from deferral since it is only taxed when realized—as is the case with capital gains.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In addition, hedge fund managers can amplify the benefits of deferral by electing to receive their compensation in shares of foreign-chartered funds. As mentioned earlier, these foreign-chartered funds may appeal to different types of investors than their U.S.-chartered counterparts. In addition to deferring U.S. tax as long as the money is held offshore, and not related to the conduct of a trade or business, the returns on the investment can compound tax-free—resulting in a substantial tax advantage.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="Deferred compensation arrangements are si gnificantly less common in U.S.- chartered funds, because they result in investors losing the deduction associated with compensation and facing higher tax liabilities.">20</a></sup> The advantage is such that the <em>New York Times</em> reported that a single hedge fund, Citadel, has deferred at least $1.7 billion since it was founded in 1990.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title='Jenny Anderson, "Managers Use Hedge Funds as Big IRAs," New York Times , April 17, 2007, p. A1.'>21</a></sup> In the 110<sup>th</sup> Congress, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.3996:"><span class="Hyperlink">H.R. 3996</span></a>, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.4351:"><span class="Hyperlink">H.R. 4351</span></a>, and <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.6049:"><span class="Hyperlink">H.R. 6049</span></a>, all introduced by then Committee on Ways and Means Chairman Rangel, would have included compensation deferred through foreign-chartered funds in the gross income of the hedge fund manager in the year the income is earned. As mentioned above, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.3996:"><span class="Hyperlink">H.R. 3996</span></a> was passed by both the House of Representatives and the Senate, though the Senate amended the bill to remove this provision. <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.4351:"><span class="Hyperlink">H.R. 4351</span></a> was passed by the House of Representatives and referred to the Senate Committee on Finance on January 22, 2008. <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:H.R.6049:"><span class="Hyperlink">H.R. 6049</span></a> was passed by the House of Representatives on May 21, 2008.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964071"></a><a name="_Toc1559870"></a>Enterprise Value</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The value of investment services management partnerships is generally viewed as the present value of the future returns from fees and carried interest plus the value of traditional capital assets like stockholdings in companies, real estate, and goodwill (often referred to as enterprise value).<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Goodwill can be viewed as the portion of the partnership's value that is in excess of the value of its physical assets and future income streams.">22</a></sup> How to tax this enterprise value has been central to the more recent debates concerning carried interest.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">While there is a general common ground in the definition of enterprise value, there is not a consensus on its proper tax treatment. From one perspective, the current law treatment of enterprise value (as a capital gain) is entirely unjustified<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="Victor Fleischer, &quot;private equity and the so-called 'enterprise value tax,'&quot; June 19, 2010, available at http://victorfleischer.com/archives/137 .">23</a></sup> and violates economic equity principles<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='Cory M. Vargo, "Carried Interest Taxation and Private (and Horizontal) Equity," Tax Notes , October 22, 2012, and Jack S. Levin, Donald E. Rocap, and William R. Welke, "Carried Interest Legislative Proposals and Enterprise Value Tax," Tax Notes , November 1, 2010.'>24</a></sup> and long-standing tax policy principles on the treatment of business income.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="Steve Rosenthal, &quot;Taxing Private Equity Funds as Corporate 'Developers,'&quot; Tax Notes Today , January 22, 2013.">25</a></sup> The alternative view is that the current tax law treatment is justified on the grounds of long-standing tax policy principles on the treatment of pass-through income<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="This principle is that the character of income (capital gains or ordinary) earned by a partnership should be maintained as it is distributed to the partners.">26</a></sup> and is consistent with the treatment of other businesses.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title='Jack S. Levin, Donald E. Rocap, and William R. Welke, "Carried Interest Legislative Proposals and Enterprise Value Tax," Tax Notes , November 1, 2010, and U.S. Chamber of Commerce, "Taxation of Carried Interest," available at http://www.uschamber.com/sites/default/files/issues/econtax/files/TAXATION%20OF%20CARRIED%20INTEREST%2012%2021%2010vfinal.pdf .'>27</a></sup> </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The unsettled nature of how to tax enterprise value is, perhaps, reflected in <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.268:"><span class="Hyperlink">S. 268</span></a> and the President's FY2014 Budget Proposal. These proposals both reflect the position that enterprise value contains characteristics of both capital and ordinary income. As a result, each proposal would allow enterprise value that is separable from other partnership value and unrelated to the provision of investment services to be taxed as capital gains.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc381964072"></a><a name="_Toc1559871"></a>Tax Treatment of Publicly Traded Partnerships</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Instead of changing the tax treatment of fund managers' income, another approach would change the tax treatment of some hedge funds that are organized as publicly traded partnerships. Publicly traded partnerships are partnerships whose interests are traded on an established exchange or in a secondary market.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="See CRS Report R41893, Master Limited Partnerships: A Policy Option for the Renewable Energy Industry , by Molly F. Sherlock and Mark P. Keightley , for additional information surrounding publicly traded partnerships.">28</a></sup> They are generally treated as corporations for tax purposes and subject to the corporation income tax with its 35% general rate, with two exceptions. One exception consists of partnerships with at least 90% of their gross income from passive investments, such as dividends, interest, rents, capital gains, and mining and natural resources income. A second exception consists of those partnerships that were publicly traded on December 17, 1987; these partnerships, originally grandfathered in for 10 years, may now elect to retain partnership treatment by paying a tax of 3.5% of gross income from the active conduct of business. These partnerships are not taxed at the corporate level.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the 110<sup>th</sup> Congress, <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d110:S.1624:"><span class="Hyperlink">S. 1624</span></a>, introduced on June 14, 2007, by Senator Max Baucus, and others, with Senator Chuck Grassley as an original co-sponsor, would have changed the tax treatment of publicly traded partnerships that provide investment advisory and related asset management services: they would have been taxed as though they were corporations. That is, they would have had to pay the corporate income tax on their earnings, rather than pass those earnings through to be taxed only as the partners' individual income. In a news release, Senator Baucus stated that the bill was needed</p>
+<p class="BlockText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">to ensure that some corporations are not disadvantaged because they conduct business in the corporate form and pay taxes as a corporation. Asset management service and investment advisory partnerships provide the same types of active business services as their corporate competitors. Our tax system functions best when it is fair. The tax law ought to treat similarly situated taxpayers the same. Thus, these publicly traded partnerships should be taxed as corporations.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title='Sen. Max Baucus, "Statement of Introduction on Publicly Traded Partnership Bill," June 13, 2007.'>29</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The bill was criticized by Henry Paulson, then Secretary of the Treasury, on the grounds that tax policy ought not to single out one industry sector.<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title='Brett Ferguson, "Paulson Objects to Senate Bill on Private Equity Firms," BNA Daily Tax Report , June 28, 2007, p. G9.'>30</a></sup> Chairman Baucus held a hearing on the bill in the Finance Committee in August 2007. The bill was referred to the Senate Finance Committee but did not advance.</p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report was originally co-authored with Mark Jickling, Specialist in Financial Economics.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Since the debt component of the purchase price has a lower cost of capital than the equity component, the returns on the equity increase as the percentage funded through debt increases. The debt thus effectively serves as a lever to increase returns which explains the origin of the term LBO.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Aaron Ricadela, "Dell Sets Vote on CEO's Buyout, Dismissing Icahn Offer," <em>Bloomberg.com</em>, May 31, 2013.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Unlike the majority of LBOs, the Dell LBO may be driven by accounting and tax considerations as opposed to business strategy. See Matthew Yglesias, "Dell's Gigantic Tax Dodge," <em>Slate</em>, February 5, 2013.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Kate Kelly, "Executives Hedge Their Own IPOs," <em>Wall Street Journal</em>, April 13, 2007, p. C1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "HFN Hedge Fund Aggregate Index: Monthly Performance Report: December 2011," <em>evestment.com</em>, January 2012.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "HFN Hedge Fund Aggregate Index: Monthly Performance Report: November 2012," <em>evestment.com</em>, December 2012, and "Hedge Fund Numbers, Assets Hit Record," <em>Hedge Fund &amp; Private Equity News</em>, December 12, 2012.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Leveraged Buyout Market," <em>Mergers &amp; Acquisitions</em>, February 2012. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Examples of tax attributes that pass-through to the individual partners include tax credits and net operating losses (NOLs). </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> According to media reports, general partners accounted for about 3% of funds raised by private equity firms in 2005. "Here's Where the Capital Came From In 2005," <em>Dow Jones Private Equity Analyst</em>, April 2006, p. 16.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Eric Sabo, "Hedge Fund Havens Weigh Taxes as Caribbean's Debt Rivals Greece," <em>Bloomberg.com</em>, October 25, 2012.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, foreign investors may prefer to invest in non-U.S. funds to avoid creating a U.S. tax presence or paying U.S. tax on the fund's earnings, while tax-exempt institutions may prefer non-U.S. funds (relative to other U.S. investors) because they do not pay taxes on repatriated earnings.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Public offerors of securities must make public audited financial statements and detailed figures on executive pay, among other information.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.sec.gov/answers/accred.htm"><span class="Hyperlink">http://www.sec.gov/answers/accred.htm</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The actual percentages may be higher or lower, but the fees charged by hedge funds and private equity are generally very high compared to other investments—public mutual fund fees, for example, average about 1.1% of the value of the fund.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> "Tepper, Dalio, Cohen Highest-Paid Hedge Fund Managers," <a class="ExternalLink" href="http://www.finalternatives.com/node/23397"><span class="Hyperlink">http://www.finalternatives.com/node/23397</span></a>, April 15, 2013.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jenny Anderson and Andrew Ross Sorkin, "Hedge Fund Operators May Lose U.S. Tax Break: Lawmakers Look at Private Equity Wealth," <em>International Herald Tribune</em>, June 22, 2007, p. 14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> <a class="ExternalLink" href="http://www.congress.gov/cgi-lis/bdquery/z?d113:S.268:">S. 268</a> would allow enterprise value (largely from goodwill) to be taxed as capital gains income, but tax the remainder as ordinary income, while the President's FY2014 Budget Proposal states that the Administration is committed to working with Congress to develop mechanisms to assure the proper amount of enterprise value is taxed as capital gains income.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. Congress, Joint Committee on Taxation, <em>Description of Certain Revenue Provisions Contained in the President's Fiscal Year 2014 Budget Proposal</em>, committee print, 113<sup>th</sup> Cong., 1<sup>st</sup> sess., December 20, 2013, JCS-4-13 and U.S. Congress, Joint Committee on Taxation, <em>Estimated Revenue Effects of the "Tax Reform Act of 2014,"</em> committee print, 113<sup>th</sup> Cong., 2<sup>nd</sup> sess., February 26, 2014, JCS-20-14.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The time value of money is the idea that taxes paid in the future are less costly than the same amount of taxes paid presently due to the potential earning capacity of the delayed tax payment.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Deferred compensation arrangements are significantly less common in U.S.-chartered funds, because they result in investors losing the deduction associated with compensation and facing higher tax liabilities.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jenny Anderson, "Managers Use Hedge Funds as Big IRAs," <em>New York Times</em>, April 17, 2007, p. A1.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Goodwill can be viewed as the portion of the partnership's value that is in excess of the value of its physical assets and future income streams. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Victor Fleischer, "private equity and the so-called 'enterprise value tax,'" June 19, 2010, available at <a class="ExternalLink" href="http://victorfleischer.com/archives/137"><span class="Hyperlink">http://victorfleischer.com/archives/137</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Cory M. Vargo, "Carried Interest Taxation and Private (and Horizontal) Equity," <em>Tax Notes</em>, October 22, 2012, and Jack S. Levin, Donald E. Rocap, and William R. Welke, "Carried Interest Legislative Proposals and Enterprise Value Tax," <em>Tax Notes</em>, November 1, 2010. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Steve Rosenthal, "Taxing Private Equity Funds as Corporate 'Developers,'" <em>Tax Notes Today</em>, January 22, 2013.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> This principle is that the character of income (capital gains or ordinary) earned by a partnership should be maintained as it is distributed to the partners.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Jack S. Levin, Donald E. Rocap, and William R. Welke, "Carried Interest Legislative Proposals and Enterprise Value Tax," <em>Tax Notes</em>, November 1, 2010, and U.S. Chamber of Commerce, "Taxation of Carried Interest," available at <a class="ExternalLink" href="http://www.uschamber.com/sites/default/files/issues/econtax/files/TAXATION%20OF%20CARRIED%20INTEREST%2012%2021%2010vfinal.pdf"><span class="Hyperlink">http://www.uschamber.com/sites/default/files/issues/econtax/files/TAXATION%20OF%20CARRIED%20INTEREST%2012%2021%2010vfinal.pdf</span></a>.</p>
+<p class="FootnoteText" style=""></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> See CRS Report R41893, <a class="ExternalLink" href="http://www.crs.gov/pages/Reports.aspx?PRODCODE=R41893"><em>Master Limited Partnerships: A Policy Option for the Renewable Energy Industry</em></a>, by Molly F. Sherlock and Mark P. Keightley, for additional information surrounding publicly traded partnerships.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Sen. Max Baucus, "Statement of Introduction on Publicly Traded Partnership Bill," June 13, 2007.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Brett Ferguson, "Paulson Objects to Senate Bill on Private Equity Firms," <em>BNA Daily Tax Report</em>, June 28, 2007, p. G9.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
