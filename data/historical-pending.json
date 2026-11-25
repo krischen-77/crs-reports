@@ -2,88 +2,6 @@
   "entries": [
     {
       "attempts": 1,
-      "last_attempt": "2026-10-08",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-10",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "8",
-        "date": "2017-01-23",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "98-427",
-            "sha1": "34e653ed0bde43cc995cc39af103a028766af6a8",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20170123_98-427_34e653ed0bde43cc995cc39af103a028766af6a8.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "98-427",
-            "sha1": "54696476d91e239c50ae9b38e332a45c4a9a43c3",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20170123_98-427_54696476d91e239c50ae9b38e332a45c4a9a43c3.pdf"
-            ]
-          }
-        },
-        "id": "98-427",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/98-427",
-          "https://www.crs.gov/Reports/pdf/98-427"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "586981",
-        "title": "Considering Measures in the House Under the One-Hour Rule",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
-      "last_attempt": "2026-10-08",
-      "last_error": "Original PDF saved; auxiliary HTML still unavailable",
-      "next_retry": "2026-10-10",
-      "pdf_preserved": true,
-      "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
-      "task": {
-        "api_version": "14",
-        "date": "2017-04-21",
-        "formats": {
-          "HTML": {
-            "allow_transformed_html": true,
-            "report_id": "98-429",
-            "sha1": "8de381b7909e7c41fb288480c400d6f22748e038",
-            "source_format": "source HTML",
-            "urls": [
-              "https://www.everycrsreport.com/files/20170421_98-429_8de381b7909e7c41fb288480c400d6f22748e038.html"
-            ]
-          },
-          "PDF": {
-            "allow_transformed_html": false,
-            "report_id": "98-429",
-            "sha1": "9cb1ff24c9faedbe42a68284684880215e00f9d0",
-            "source_format": "original PDF",
-            "urls": [
-              "https://www.everycrsreport.com/files/20170421_98-429_9cb1ff24c9faedbe42a68284684880215e00f9d0.pdf"
-            ]
-          }
-        },
-        "id": "98-429",
-        "ignored_nonpublic_source_urls": [
-          "https://www.crs.gov/Reports/98-429",
-          "https://www.crs.gov/Reports/pdf/98-429"
-        ],
-        "metadata_source": "EveryCRSReport.com",
-        "source_record": "586774",
-        "title": "The Senate’s Calendar of Business",
-        "version": "unknown"
-      }
-    },
-    {
-      "attempts": 1,
       "last_attempt": "2026-10-09",
       "last_error": "Original PDF saved; auxiliary HTML still unavailable",
       "next_retry": "2026-10-11",
@@ -10173,6 +10091,53 @@
       "next_retry": "2026-11-26",
       "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
       "task": {
+        "api_version": "17",
+        "date": "2026-01-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10483",
+            "sha1": "810fec0ca1b467443e32a18d24ef5f6a746df9b2",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10483.web.html",
+              "https://www.everycrsreport.com/files/2026-01-08_IF10483_810fec0ca1b467443e32a18d24ef5f6a746df9b2.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10483",
+            "sha1": "86e45d496294fe59f4fb3b9083b13eceae0667e3",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10483/IF10483.18.pdf",
+              "https://www.everycrsreport.com/files/2026-01-08_IF10483_86e45d496294fe59f4fb3b9083b13eceae0667e3.pdf"
+            ]
+          }
+        },
+        "id": "IF10483",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-25T10:40:14Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10483_A18_2026-01-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-01-08",
+          "id": "IF10483",
+          "official_pdf_sha256": "390d7e29aab4d09f3dfd609b9ca550359ad1a52094aec95872bd7d5bdf580ef3",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10483/IF10483.19.pdf",
+          "official_publication": "2026-11-25",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Defense Primer: Military Retirement",
+        "version": "18"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-26",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
         "api_version": "15",
         "date": "2026-02-12",
         "formats": {
@@ -10352,6 +10317,53 @@
         },
         "title": "Retirement Benefits for Federal Law Enforcement Personnel",
         "version": "15"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-26",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "5",
+        "date": "2026-06-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R48295",
+            "sha1": "5a9166364234e711b9d23adf9d7617357ca249ea",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/HTML/R48295.web.html",
+              "https://www.everycrsreport.com/files/2026-06-08_R48295_5a9166364234e711b9d23adf9d7617357ca249ea.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R48295",
+            "sha1": "731d15c8c955f2b22e36b13d8334cd0bde922f92",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/R/PDF/R48295/R48295.10.pdf",
+              "https://www.everycrsreport.com/files/2026-06-08_R48295_731d15c8c955f2b22e36b13d8334cd0bde922f92.pdf"
+            ]
+          }
+        },
+        "id": "R48295",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-25T10:39:50Z",
+        "required_by_recent_update": false,
+        "source_record": "R48295_A10_2026-06-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-06-08",
+          "id": "R48295",
+          "official_pdf_sha256": "0aa1b566fe3752ddbdecff6385c1ec45569aed8d06f8dec71bc9f3893df8dddf",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R48295/R48295.12.pdf",
+          "official_publication": "2026-11-25",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "The Consumer Financial Protection Bureau Budget: Background, Trends, and Policy Options",
+        "version": "10"
       }
     },
     {

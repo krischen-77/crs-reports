@@ -1,11 +1,11 @@
-**Official-current verification: 102/102. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-18 to 2026-11-25**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-25 | R48295 v12 | The Consumer Financial Protection Bureau Budget: Background, Policy Options, and Legislation in the 119th Congress | [PDF](pdf/reports/R48295v12-2026-11-25-0aa1b566fe3752dd.pdf) | [Markdown](markdown/reports/R48295v12-2026-11-25-0aa1b566fe3752dd.md) |
+| 2026-11-25 | IF10483 v19 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v19-2026-11-25-390d7e29aab4d09f.pdf) | [Markdown](markdown/in-focus/IF10483v19-2026-11-25-390d7e29aab4d09f.md) |
 | 2026-11-24 | R49492 v5 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v5-2026-11-24-6049a0c6f988ffae.pdf) | [Markdown](markdown/reports/R49492v5-2026-11-24-6049a0c6f988ffae.md) |
 | 2026-11-24 | R49186 v3 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v3-2026-11-24-5f529b73ed954eea.pdf) | [Markdown](markdown/reports/R49186v3-2026-11-24-5f529b73ed954eea.md) |
 | 2026-11-24 | R45160 v26 | Federal Election Commission: Membership and Policymaking Quorum, In Brief | [PDF](pdf/reports/R45160v26-2026-11-24-7f51896cd4e86493.pdf) | [Markdown](markdown/reports/R45160v26-2026-11-24-7f51896cd4e86493.md) |
