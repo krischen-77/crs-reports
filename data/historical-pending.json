@@ -1,8 +1,10 @@
 {
   "entries": [
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-25",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-27",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "19",
@@ -39,8 +41,10 @@
       }
     },
     {
-      "attempts": 0,
-      "next_retry": "",
+      "attempts": 1,
+      "last_attempt": "2026-11-25",
+      "last_error": "Original source failed: www.everycrsreport.com: Source bytes differ from the catalogued version checksum; official recovery failed: Congress API remaining quota is zero; defer without another request",
+      "next_retry": "2026-11-27",
       "reason": "Publication predates all requested archive windows; retained as optional historical backfill",
       "task": {
         "api_version": "10",
@@ -10277,6 +10281,239 @@
         "source_record": "445667",
         "title": "Queen-of-the-Hill Rules in the House of Representatives",
         "version": "unknown"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-26",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "22",
+        "date": "2026-04-27",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10209",
+            "sha1": "39610ba772326dd3c2a41f126ac4138058875f9f",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10209.web.html",
+              "https://www.everycrsreport.com/files/2026-04-27_IF10209_39610ba772326dd3c2a41f126ac4138058875f9f.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10209",
+            "sha1": "129ccc5637685ff87bcde3013b8a0701859441e7",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10209/IF10209.27.pdf",
+              "https://www.everycrsreport.com/files/2026-04-27_IF10209_129ccc5637685ff87bcde3013b8a0701859441e7.pdf"
+            ]
+          }
+        },
+        "id": "IF10209",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-24T23:54:35Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10209_A27_2026-04-27",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-04-27",
+          "id": "IF10209",
+          "official_pdf_sha256": "8d3973abf86afc69106f63333b1a53b71971e27214d5001db75004b6a09e8712",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10209/IF10209.29.pdf",
+          "official_publication": "2026-11-23",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "U.S.-Vietnam Relations",
+        "version": "27"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-26",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "15",
+        "date": "2026-02-12",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IF10834",
+            "sha1": "105a5b3e23deb44c2c4f88219b6024a5aa1d72ec",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/HTML/IF10834.web.html",
+              "https://www.everycrsreport.com/files/2026-02-12_IF10834_105a5b3e23deb44c2c4f88219b6024a5aa1d72ec.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IF10834",
+            "sha1": "46930bccd7cb8b27aceb135f7f0168d11c51d15b",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IF/PDF/IF10834/IF10834.16.pdf",
+              "https://www.everycrsreport.com/files/2026-02-12_IF10834_46930bccd7cb8b27aceb135f7f0168d11c51d15b.pdf"
+            ]
+          }
+        },
+        "id": "IF10834",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-24T23:54:31Z",
+        "required_by_recent_update": false,
+        "source_record": "IF10834_A16_2026-02-12",
+        "superseded_by_official_current": {
+          "historical_publication": "2026-02-12",
+          "id": "IF10834",
+          "official_pdf_sha256": "b0c90d5781891b5fab3e0ac230b8f0946f5b0958ca7cd6f61ee3e96bc33a613e",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IF/PDF/IF10834/IF10834.17.pdf",
+          "official_publication": "2026-11-24",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Defense Primer: Under Secretary of Defense for Research and Engineering",
+        "version": "16"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-26",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "5",
+        "date": "2025-04-22",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "IN11911",
+            "sha1": "86c088b43111aba7e95b4fc73d2c6f71a79a91a3",
+            "source_format": "source HTML",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IN/HTML/IN11911.web.html",
+              "https://www.everycrsreport.com/files/2025-04-22_IN11911_86c088b43111aba7e95b4fc73d2c6f71a79a91a3.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "IN11911",
+            "sha1": "57806041d80be7654d36f8fc29fb67b25ceea779",
+            "source_format": "original PDF",
+            "urls": [
+              "https://www.congress.gov/crs_external_products/IN/PDF/IN11911/IN11911.6.pdf",
+              "https://www.everycrsreport.com/files/2025-04-22_IN11911_57806041d80be7654d36f8fc29fb67b25ceea779.pdf"
+            ]
+          }
+        },
+        "id": "IN11911",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-24T23:54:41Z",
+        "required_by_recent_update": false,
+        "source_record": "IN11911_A6_2025-04-22",
+        "superseded_by_official_current": {
+          "historical_publication": "2025-04-22",
+          "id": "IN11911",
+          "official_pdf_sha256": "8badbe67aeb5fd5688f06296b7e54d11e9696657e821ce52fe205223b2be4650",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/IN/PDF/IN11911/IN11911.7.pdf",
+          "official_publication": "2026-11-24",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Floodplain Buyouts: Federal Funding for Property Acquisition",
+        "version": "6"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-26",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "1",
+        "date": "2024-04-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "LSB11143",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-04-08_LSB11143_2f8fb43728739873a556b40d2a6415f0a7bd4ad0.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "LSB11143",
+            "sha1": "2f8fb43728739873a556b40d2a6415f0a7bd4ad0",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/LSB/LSB11143/1",
+              "https://www.everycrsreport.com/files/2024-04-08_LSB11143_2f8fb43728739873a556b40d2a6415f0a7bd4ad0.pdf"
+            ]
+          }
+        },
+        "id": "LSB11143",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-24T23:54:40Z",
+        "required_by_recent_update": false,
+        "source_record": "LSB11143_1_2024-04-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-04-08",
+          "id": "LSB11143",
+          "official_pdf_sha256": "80c7a523ccac5f43671edef749d86f51f343809a8c288595d4a8756da5e55c2f",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11143/LSB11143.2.pdf",
+          "official_publication": "2026-11-24",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Vanda Pharmaceuticals, Inc. v. United States: Fifth Amendment Takings Claims for Alleged Disclosures of Trade Secrets and Confidential Information",
+        "version": "1"
+      }
+    },
+    {
+      "attempts": 0,
+      "next_retry": "2026-11-26",
+      "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete.",
+      "task": {
+        "api_version": "17",
+        "date": "2024-08-08",
+        "formats": {
+          "HTML": {
+            "allow_transformed_html": true,
+            "report_id": "R42631",
+            "sha1": "",
+            "source_format": "pymupdf",
+            "urls": [
+              "https://www.everycrsreport.com/files/2024-08-08_R42631_2291bce4a8d69a27b02c484adf5f0b52bba7fde0.html"
+            ]
+          },
+          "PDF": {
+            "allow_transformed_html": false,
+            "report_id": "R42631",
+            "sha1": "2291bce4a8d69a27b02c484adf5f0b52bba7fde0",
+            "source_format": "original PDF",
+            "urls": [
+              "https://crsreports.congress.gov/product/pdf/R/R42631/15",
+              "https://www.everycrsreport.com/files/2024-08-08_R42631_2291bce4a8d69a27b02c484adf5f0b52bba7fde0.pdf"
+            ]
+          }
+        },
+        "id": "R42631",
+        "ignored_nonpublic_source_urls": [],
+        "metadata_source": "EveryCRSReport.com",
+        "observed_update_date": "2026-11-24T23:54:43Z",
+        "required_by_recent_update": false,
+        "source_record": "R42631_15_2024-08-08",
+        "superseded_by_official_current": {
+          "historical_publication": "2024-08-08",
+          "id": "R42631",
+          "official_pdf_sha256": "4bb44ba424ec547ec532da3a8e6e6d7ab4fc8378951912619c0734f72e1811a0",
+          "official_pdf_source": "https://www.congress.gov/crs_external_products/R/PDF/R42631/R42631.18.pdf",
+          "official_publication": "2026-11-24",
+          "reason": "Newer freshly resolved official original is archived and hash-verified; obsolete mirror predates every requested archive window. Exact historical task retained, not claimed complete."
+        },
+        "title": "Retirement Benefits for Federal Law Enforcement Personnel",
+        "version": "15"
       }
     },
     {

@@ -1,0 +1,793 @@
+<head><meta charset="utf-8"/></head>
+    &lt;%@ Control Language="C#" ClassName="CRSgov.UI.Product" %&gt;
+    <script language="C#" runat="server" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+      public string REPORT_HTML_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_HTML_LOCATION"];
+      public string REPORT_PDF_LOCATION = System.Configuration.ConfigurationSettings.AppSettings["REPORT_PDF_LOCATION"];
+    </script><div class="Report" xmlns:ns1="http://schemas.crs.loc.gov/ap/metadata">
+<div class="HeaderLinks">
+<div></div>
+</div>
+<div class="ReportHeader">
+<div class="Title">Retirement Benefits for Federal Law Enforcement Personnel</div>
+<div class="CoverDate">Updated November 24, 2026
+            (R42631)
+          <br/><a href="#Content">Jump to Main Text of Report</a></div>
+
+</div>
+<hr color="#003399"/>
+<div class="TOC">
+<h1>Contents</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li class="TOC1"><a href="#_Toc246430441"><span class="Hyperlink">Introduction</span></a></li>
+<li class="TOC1"><a href="#_Toc246430442"><span class="Hyperlink">Federal Law Enforcement Officers and Related Personnel</span></a></li>
+<li class="TOC2"><a href="#_Toc246430443"><span class="Hyperlink">Statutory Definition of LEO</span></a></li>
+<li class="TOC2"><a href="#_Toc246430444"><span class="Hyperlink">Additional Regulations Defining LEOs</span></a></li>
+<li class="TOC2"><a href="#_Toc246430445"><span class="Hyperlink">Administrative Process for Determining LEO Status</span></a></li>
+<li class="TOC1"><a href="#_Toc246430446"><span class="Hyperlink">Legislative Rationale for Enhanced Retirement Benefits</span></a></li>
+<li class="TOC1"><a href="#_Toc246430447"><span class="Hyperlink">Retirement Coverage for Federal Law Enforcement Personnel</span></a></li>
+<li class="TOC2"><a href="#_Toc246430448"><span class="Hyperlink">Civil Service Retirement System</span></a></li>
+<li class="TOC2"><a href="#_Toc246430449"><span class="Hyperlink">Federal Employees' Retirement System</span></a></li>
+<li class="TOC1"><a href="#_Toc246430450"><span class="Hyperlink">Eligibility and Benefit Amounts Under CSRS and FERS</span></a></li>
+<li class="TOC2"><a href="#_Toc246430451"><span class="Hyperlink">Age and Length of Service Requirements</span></a></li>
+<li class="TOC3"><a href="#_Toc246430452"><span class="Hyperlink">Mandatory Retirement</span></a></li>
+<li class="TOC3"><a href="#_Toc246430453"><span class="Hyperlink">Maximum Age of Entry</span></a></li>
+<li class="TOC3"><a href="#_Toc246430454"><span class="Hyperlink">Minimum Retirement Age</span></a></li>
+<li class="TOC2"><a href="#_Toc246430455"><span class="Hyperlink">Required Contributions</span></a></li>
+<li class="TOC3"><a href="#_Toc246430456"><span class="Hyperlink">Contributions Under CSRS</span></a></li>
+<li class="TOC3"><a href="#_Toc246430457"><span class="Hyperlink">Contributions Under FERS</span></a></li>
+<li class="TOC2"><a href="#_Toc246430458"><span class="Hyperlink">Pension Plan Benefits</span></a></li>
+<li class="TOC3"><a href="#_Toc246430459"><span class="Hyperlink">High-Three Average Salary</span></a></li>
+<li class="TOC3"><a href="#_Toc246430460"><span class="Hyperlink">Accrual Rates</span></a></li>
+<li class="TOC3"><a href="#_Toc246430461"><span class="Hyperlink">Pension Formulas</span></a></li>
+<li class="TOC3"><a href="#_Toc246430462"><span class="Hyperlink">Federal Law Enforcement Personnel with Both CSRS and FERS Coverage</span></a></li>
+<li class="TOC3"><a href="#_Toc246430463"><span class="Hyperlink">The FERS Supplement</span></a></li>
+<li class="TOC2"><a href="#_Toc246430464"><span class="Hyperlink">Cost-of-Living Adjustments</span></a></li>
+<li class="TOC2"><a href="#_Toc246430465"><span class="Hyperlink">Replacement Rates</span></a></li>
+<li class="TOC1"><a href="#_Toc246430466"><span class="Hyperlink">Extending Enhanced Benefits to Other Occupational Groups</span></a></li>
+</ul>
+<div class="TableOfGeneric">
+<h1>Tables</h1>
+<ul xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<li><a href="#_Toc246430438"><span class="Hyperlink">Table 1. Major Occupational Groups Eligible for Enhanced Benefits</span></a></li>
+<li><a href="#_Toc246430439"><span class="Hyperlink">Table 2. Major Occupational Groups Added to the Definition of LEO or Provided with LEO-Equivalent Benefits via Direct Legislation</span></a></li>
+<li><a href="#_Toc246430440"><span class="Hyperlink">Table 3. CSRS and FERS Benefits for Federal Law Enforcement Personnel: Selected Details</span></a></li>
+</ul>
+</div>
+</div><a name="Summary"></a><div class="ReportSummary">
+<p class="SummaryHeading">Summary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Certain federal employees who perform specific duties, as defined in statute, are classified as law enforcement officers (LEOs) for the purpose of federal retirement benefits. LEOs and a few legislatively designated groups, including federal firefighters and air traffic controllers, are eligible for enhanced retirement benefits under the Civil Service Retirement System (CSRS) for individuals hired before 1984 or the Federal Employees' Retirement System (FERS) for individuals hired in 1984 or later.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The availability of enhanced retirement benefits for LEOs and similar groups is linked to an expectation of limited federal service. This limited service is due, in turn, to the rigorous physical demands of law enforcement duties and the mandatory retirement age to which these individuals are subject. LEO enhanced retirement benefits are designed to provide adequate retirement income for federal employees with careers that end at an earlier age with fewer years of service than regular civilian federal employees.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In general, law enforcement personnel are subject to mandatory retirement at age 57 or as soon as 20 years of service have been completed after age 57. The maximum age of entry, which is intended to ensure full retirement benefits upon reaching mandatory retirement age, is typically age 37. Under both CSRS and FERS, law enforcement personnel are eligible for their enhanced benefits at the age of 50 provided they have completed the minimum requirement of 20 years of service. Under FERS, law enforcement personnel with 25 years of service are eligible for retirement regardless of age.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Law enforcement personnel in CSRS and their employing agencies each contribute 7.5% of payroll. CSRS law enforcement personnel accrue benefits at the rate of 2.5% per year for their first 20 years of service and 2% for each year after the 20<sup>th</sup> year of service. Law enforcement personnel in FERS accrue benefits at the rate of 1.7% per year for the first 20 years of service and 1% per year for each year thereafter. FERS contribution rates vary by date of hire. Law enforcement personnel in FERS first hired before 2013 contribute 1.3% of pay, and, beginning in FY2024, their agencies contribute 38.2% of pay. Under <a class="ExternalLink" href="https://www.congress.gov/law/112/pub/96"><span class="Hyperlink">P.L. 112-96</span></a>, FERS law enforcement personnel first hired in 2013 contribute 3.6% of pay, and their agencies contribute 36.4% of pay, beginning in FY2024. Finally, under <a class="ExternalLink" href="https://www.congress.gov/law/113/pub/67"><span class="Hyperlink">P.L. 113-67</span></a>, FERS law enforcement personnel first hired in 2014 or later contribute 4.9% of pay, but their agencies still contribute 36.4% of pay, beginning in FY2024. FERS benefit accrual rates remain unchanged for law enforcement personnel first hired in 2013 or later (including individuals first hired in 2014 or later). In addition to these FERS contributions, both employees and agencies make required Social Security contributions (6.2% of covered wages from both employees and agencies). Employees may also contribute to the Thrift Savings Plan (TSP). An agency employing FERS employees makes a 1% automatic TSP contribution and a matching contribution equal to 100% of the worker's first 3% of pay and 50% of the next 2% of pay. </p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many employees in law enforcement occupations are not recognized as LEOs by their agencies and the Office of Personnel Management for the purposes of federal retirement coverage and, consequently, are not eligible to receive enhanced retirement benefits. Several employee groups and unions representing individuals in these occupations have sought enhanced retirement benefits through additional legislation. Recent Congresses have responded by introducing legislation that would provide enhanced retirement benefits to additional personnel. Though granting more groups such benefits may alleviate problems of attrition and perceived inequity across law enforcement occupations, it would also increase personnel costs for employing agencies as well as overall federal expenditures on civilian federal retirement benefits.</p>
+<hr color="#003399"/>
+</div><a name="Content"></a><div class="ContentTitle"></div>
+<div class="ReportContent">
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Introduction</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Federal law enforcement officers, as defined in statute, and a few related occupations—such as federal firefighters and air traffic controllers (ATCs)—are eligible for enhanced retirement benefits. Congress decided that these occupations should be composed of young men and women who possess the strength and endurance necessary to perform the required duties. Enhanced retirement benefits help to maintain this type of workforce by permitting employees in these positions to retire earlier and accrue pension benefits faster during earlier years of service than regular civilian federal employees. Many individuals and employee groups who work in law-enforcement-related positions but have not qualified as law enforcement officers for retirement purposes have sought enhanced benefits through legislation in recent Congresses. Incorporating additional occupations may address problems of attrition and perceived inequity across law-enforcement-related positions. However, expanding access to enhanced retirement benefits also generates concerns over additional expenditures on federal retirement benefits.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221170"></a><a name="_Toc492373307"></a><a name="_Toc492379415"></a><a name="_Toc492379521"></a><a name="_Toc492380226"></a><a name="_Toc492385547"></a><a name="_Toc492386917"></a><a name="_Toc492386972"></a><a name="_Toc492387112"></a><a name="_Toc492387177"></a><a name="_Toc492387338"></a><a name="_Toc492644703"></a><a name="_Toc173913992"></a><a name="_Toc173920462"></a><a name="_Toc173996832"></a><a name="_Toc174107087"></a><a name="_Toc174532483"></a><a name="_Toc174532560"></a><a name="_Toc245905219"></a><a name="_Toc246430442"></a>Federal Law Enforcement Officers and Related Personnel</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Currently, the definition of a federal <em>law enforcement officer</em> (LEO) for retirement purposes is limited to employees who perform certain duties defined in statute under either the Civil Service Retirement System (CSRS), which covers federal employees hired before 1984, or the Federal Employees' Retirement System (FERS), which covers federal employees hired in 1984 or later. Individuals employed in positions that meet the statutory definition of LEO, as well as certain personnel who have obtained LEO-equivalent benefits through direct legislation, are eligible to retire earlier with fewer years of service and receive a benefit accrual rate during the first 20 years of service that is higher than the benefit accrual rate for regular federal civilian employees. LEOs and employees who have enhanced retirement benefits also contribute more to their own benefits than do regular civilian federal employees and are subject to a mandatory retirement age.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221171"></a><a name="_Toc492373308"></a><a name="_Toc492379416"></a><a name="_Toc492379522"></a><a name="_Toc492380227"></a><a name="_Toc492385548"></a><a name="_Toc492386918"></a><a name="_Toc492386973"></a><a name="_Toc492387113"></a><a name="_Toc492387178"></a><a name="_Toc492387339"></a><a name="_Toc492644704"></a><a name="_Toc173913993"></a><a name="_Toc173920463"></a><a name="_Toc173996833"></a><a name="_Toc174107088"></a><a name="_Toc174532484"></a><a name="_Toc174532561"></a><a name="_Toc245905220"></a><a name="_Toc246430443"></a>Statutory Definition of LEO</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under CSRS, a LEO is an employee whose <em>primary</em> duties are "the investigation, apprehension, or detention of individuals suspected or convicted of offenses against the criminal laws of the United States, including an employee engaged in this activity who is transferred to a supervisory or administrative position."<sup><a class="FootnoteLink" href="#fn1" name="ifn1" title="5 U.S.C. §8331(20). Primary duties is defined by t he Code of Federal Regulations ( 5 C.F.R. § 831.802 ) as &quot; those duties of a position which—(a) Are paramount in influence or weight; that is, constitute the basic reasons for the existence of the position; (b) Occupy a substantial portion of the individual's working time over a typical work cycle; and (c) Are assigned on a regular and recurring basis. Duties that are of an emergency, incidental, or temporary nature cannot be consi...">1</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The definition of LEO under FERS is nearly identical to the CSRS definition but more specific. In addition to employees whose <em>primary</em> duties are "the investigation, apprehension, or detention of individuals suspected or convicted of offenses against the United States," the FERS definition includes employees whose <em>primary</em> duties are "the protection of officials of the United States against threats to personal safety."<sup><a class="FootnoteLink" href="#fn2" name="ifn2" title="5 U.S.C. §8401(17).">2</a></sup> The FERS statutory definition of LEO also provides an explicit standard for rigorous duty. For those employees whose <em>primary</em> duties are as described above, these duties must be "sufficiently rigorous that employment should be limited to young and physically vigorous individuals."<sup><a class="FootnoteLink" href="#fn3" name="ifn3" title='5 U.S.C. § § 8401(1 4 ) and 8401(17), respectively . R igorous position is defined in federal r egulations ( 5 C.F.R. § 3307(e) ) as " a position the duties of which are so rigorous that employment opportunities should, as soon as reasonably possible, be limited (through establishment of a maximum entry age and physical qualifications) to young and physically vigorous individuals."'>3</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221172"></a><a name="_Toc492373309"></a><a name="_Toc492379417"></a><a name="_Toc492379523"></a><a name="_Toc492380228"></a><a name="_Toc492385549"></a><a name="_Toc492386919"></a><a name="_Toc492386974"></a><a name="_Toc492387114"></a><a name="_Toc492387179"></a><a name="_Toc492387340"></a><a name="_Toc492644705"></a><a name="_Toc173913994"></a><a name="_Toc173920464"></a><a name="_Toc173996834"></a><a name="_Toc174107089"></a><a name="_Toc174532485"></a><a name="_Toc174532562"></a><a name="_Toc245905221"></a><a name="_Toc246430444"></a>Additional Regulations Defining LEOs</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The implementing regulations for the Office of Personnel Management (OPM), which administers CSRS and FERS benefits, establish that the definition of LEO "does not include an employee whose primary duties involve maintaining law and order, protecting life and property, guarding against or inspecting for violations of law, or investigating persons other than persons who are suspected or convicted of offenses against the criminal laws of the United States."<sup><a class="FootnoteLink" href="#fn4" name="ifn4" title="5 C.F.R. § 831.920 .">4</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Furthermore, qualification for enhanced retirement benefits does not depend on the law enforcement mission of an agency, nor does it depend on the classification of a position within an occupational series of the Federal Classification and Job Grading System. Effectively, this has excluded police officers, guards, and inspectors from the definition of LEO for federal retirement purposes.<sup><a class="FootnoteLink" href="#fn5" name="ifn5" title="For recent research that compares the retirement benefits of federal police and federal law enforcement officers, see U.S. Government Accountability Office (GAO), Federal Police Officers: Considerations on Retirement and Pay , GAO-25-107099, April 2025, https://www.gao.gov/products/gao-25-107099.">5</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221173"></a><a name="_Toc492373310"></a><a name="_Toc492379418"></a><a name="_Toc492379524"></a><a name="_Toc492380229"></a><a name="_Toc492385550"></a><a name="_Toc492386920"></a><a name="_Toc492386975"></a><a name="_Toc492387115"></a><a name="_Toc492387180"></a><a name="_Toc492387341"></a><a name="_Toc492644706"></a><a name="_Toc173913995"></a><a name="_Toc173920465"></a><a name="_Toc173996835"></a><a name="_Toc174107090"></a><a name="_Toc174532486"></a><a name="_Toc174532563"></a><a name="_Toc245905222"></a><a name="_Toc246430445"></a>Administrative Process for Determining LEO Status</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Typically, for a group of employees to be eligible for enhanced retirement benefits under CSRS or FERS, the employing agency must determine that the duties of the position meet the statutory definition of LEO and submit its evaluation to OPM. OPM rarely overturns the decision of the head of an agency but retains the right to do so.<sup><a class="FootnoteLink" href="#fn6" name="ifn6" title="GAO , Federal Law Enforcement Retirement: Information on Enhanced Retirement Benefits for Law Enforcement Personnel , GAO-09-727, July 2009 , https://www.gao.gov/products/gao-09-727 .">6</a></sup> Alternatively, some groups whose agencies and OPM have determined that they do not meet the statutory definition of LEO have gained access to enhanced retirement benefits through direct legislation that either added them to the statutory definition of LEO or provided benefits similar to those received by LEOs. If an employee feels that he or she has been unjustly excluded from the LEO definition and the concomitant retirement benefits, that individual may appeal the final decision of the relevant agency to the Merit Systems Protection Board.<sup><a class="FootnoteLink" href="#fn7" name="ifn7" title="5 C.F.R. § § 831. 308 and 84 1.308 .">7</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref328488221"><strong></strong><strong>Table 1</strong></a> provides a list of groups of employees eligible for enhanced retirement benefits as LEOs or similar positions. The left column includes examples of groups of employees that meet the statutory definition of LEO under CSRS or FERS. The right column lists employee groups that have been either added to the LEO definition or granted enhanced retirement benefits through direct legislation. As described above, LEO determinations are made on the basis of position duties or by direct legislation. Therefore, the list in <a class="InternalLink" href="#_Ref328488221"><strong></strong><strong>Table 1</strong></a> is presented for illustrative purposes and is not intended to be exhaustive.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref328488221"></a><a name="_Toc401221164"></a><a name="_Toc492373303"></a><a name="_Toc492379411"></a><a name="_Toc492379517"></a><a name="_Toc492380222"></a><a name="_Toc492385543"></a><a name="_Toc492386913"></a><a name="_Toc492386968"></a><a name="_Toc492387108"></a><a name="_Toc492387173"></a><a name="_Toc492387334"></a><a name="_Toc492644699"></a><a name="_Toc173913988"></a><a name="_Toc173920458"></a><a name="_Toc173996828"></a><a name="_Toc174107083"></a><a name="_Toc174532479"></a><a name="_Toc174532556"></a><a name="_Toc245905215"></a><a name="_Toc246430438"></a>Table 1. Major Occupational Groups Eligible for Enhanced Benefits</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:212.0256pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Meet LEO Definitional Criteria via OPM Administrative Process</p>
+</td>
+<td colspan="2" style="border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Added to LEO Definition or Provided LEO-Equivalent Benefits via Direct Legislation</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:212.0256pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Border Patrol Agents</p>
+<p class="TableText" style="">Drug Enforcement Administration Special Agents</p>
+<p class="TableText" style="">FBI Special Agents</p>
+<p class="TableText" style="">Federal Air Marshals</p>
+<p class="TableText" style="">Immigration Enforcement Agents and Detention/Deportation Officers</p>
+<p class="TableText" style="">IRS Special Agents</p>
+<p class="TableText" style="">U.S. Marshals </p>
+<p class="TableText" style="">U.S. Park Rangers</p>
+<p class="TableText" style="">U.S. Secret Service Special Agents</p>
+</td>
+<td style="width:217.12320000000002pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Air Traffic Controllers </p>
+<p class="TableText" style="">Bureau of Prisons Correction Institute Staff</p>
+<p class="TableText" style="">Customs and Border Protection Officers</p>
+<p class="TableText" style="">Firefighters</p>
+<p class="TableText" style="">Nuclear Materials Couriers</p>
+<p class="TableText" style="">U.S. Park Police<sup><a class="InternalLink" href="#_Ref331503228"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup><sup></sup></p>
+<p class="TableText" style="">U.S. Secret Service Officers Uniformed Division<sup><a class="InternalLink" href="#_Ref331503228"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup><sup></sup></p>
+<p class="TableText" style="">U.S. Capitol Police</p>
+<p class="TableText" style="">U.S. Supreme Court Police</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>Compiled by CRS using information from the Office of Personnel Management and Government Accountability Office.</p>
+<p class="TableNote"><strong>Notes</strong><strong>:</strong> This list of LEO employee groups is presented for illustrative purposes and is not intended to be exhaustive. LEO determinations are made on the basis of position duties and/or by direct legislation.</p>
+<p class="TableNumberedNote">a. <a name="_Ref331503228"></a>Applies in the case of FERS coverage only. These groups were covered by the District of Columbia Police Officers' and Firefighters' Retirement System prior to 1984 rather than CSRS.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref329693334"><strong></strong><strong>Table 2</strong></a> provides further details on major occupational groups that have been either added to the LEO definition or granted enhanced retirement benefits through direct legislation. The center column lists the public law that provides enhanced retirement benefits for each group. The far-right column shows the year in which each law was enacted.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref329693334"></a><a name="_Toc401221165"></a><a name="_Toc492373304"></a><a name="_Toc492379412"></a><a name="_Toc492379518"></a><a name="_Toc492380223"></a><a name="_Toc492385544"></a><a name="_Toc492386914"></a><a name="_Toc492386969"></a><a name="_Toc492387109"></a><a name="_Toc492387174"></a><a name="_Toc492387335"></a><a name="_Toc492644700"></a><a name="_Toc173913989"></a><a name="_Toc173920459"></a><a name="_Toc173996829"></a><a name="_Toc174107084"></a><a name="_Toc174532480"></a><a name="_Toc174532557"></a><a name="_Toc245905216"></a><a name="_Toc246430439"></a>Table 2. Major Occupational Groups Added to the Definition of LEO or Provided with LEO-Equivalent Benefits via Direct Legislation</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0.5pt;border-left:0;border-bottom:0.5pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Occupational Group</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Public Law</p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Year Enacted</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Air Traffic Controllers</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">P.L. 92-297</p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1972</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Bureau of Prisons Correction Institute Staff</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">P.L. 84-854</p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1956</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Customs and Border Protection Officers</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.congress.gov/law/110/pub/161"><span class="Hyperlink">P.L. 110-161</span></a></p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2008</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Firefighters</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">P.L. 92-382</p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1972</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Nuclear Materials Couriers</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.congress.gov/law/105/pub/261"><span class="Hyperlink">P.L. 105-261</span></a></p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1998</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">U.S. Park Police</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.congress.gov/law/100/pub/238"><span class="Hyperlink">P.L. 100-238</span></a></p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1988</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">U.S. Secret Service Agents Uniformed Division</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.congress.gov/law/100/pub/238"><span class="Hyperlink">P.L. 100-238</span></a></p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1988</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">U.S. Capitol Police</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.congress.gov/law/101/pub/428"><span class="Hyperlink">P.L. 101-428</span></a></p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1990</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:252.6336pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">U.S. Supreme Court Police</p>
+</td>
+<td style="width:95.1264pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;"><a class="ExternalLink" href="https://www.congress.gov/law/106/pub/553"><span class="Hyperlink">P.L. 106-553</span></a></p>
+</td>
+<td style="width:84.24000000000001pt;border-top:0;border-left:0;border-bottom:.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">2000</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source:</strong><strong> </strong>Compiled by CRS using information from the <em>U.S. Statutes at Large</em>.</p>
+</div>
+</div>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In the remainder of this report, the above-mentioned groups are referred to collectively as law enforcement personnel. Differences in retirement benefits pertaining to any specific occupational group are noted.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221174"></a><a name="_Toc492373311"></a><a name="_Toc492379419"></a><a name="_Toc492379525"></a><a name="_Toc492380230"></a><a name="_Toc492385551"></a><a name="_Toc492386921"></a><a name="_Toc492386976"></a><a name="_Toc492387116"></a><a name="_Toc492387181"></a><a name="_Toc492387342"></a><a name="_Toc492644707"></a><a name="_Toc173913996"></a><a name="_Toc173920466"></a><a name="_Toc173996836"></a><a name="_Toc174107091"></a><a name="_Toc174532487"></a><a name="_Toc174532564"></a><a name="_Toc245905223"></a><a name="_Toc246430446"></a>Legislative Rationale for Enhanced Retirement Benefits</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The duties of law enforcement personnel place unique physical and psychological demands on individuals employed in those positions. Because physical and mental health decline with age, Congress deemed it necessary to maintain a youthful workforce to ensure the quality of law enforcement services. Law enforcement personnel are subject to a mandatory retirement age to maintain this goal, which leads to an expectation of limited federal service for these employees. Consequently, Congress has established enhanced retirement benefits for individuals in these occupations.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The provision of enhanced retirement benefits for law enforcement personnel was initially implemented with two primary intentions. The first was to create a retirement system under which it is financially reasonable for officers to retire at an earlier age with fewer years of service than regular civilian federal employees. Second, the enhanced retirement benefits—which encourage entry at a young age, continuous service, and early retirement—are intended to help maintain a young and vigorous federal law enforcement workforce. Enhanced retirement benefits, however, are not intended as compensation for the stress and hazard of the duties that federal law enforcement personnel perform.<sup><a class="FootnoteLink" href="#fn8" name="ifn8" title="GAO , Statement of H. L. Krieger, Director, Federal Perso nnel and Compensation Division, on a General Accounting Office Report Entitled 'Special Retirement Policy for Federal Law Enforcement and Firefighter Personnel Needs Reevaluation,' FPCD-76-97, February 24, 1977 , September 27, 1977. P.L. 93-350 deleted hazard as a criterion for entitlement.">8</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1947, Congress first legislated enhanced retirement benefits and an early retirement age but only for Federal Bureau of Investigation (FBI) agents.<sup><a class="FootnoteLink" href="#fn9" name="ifn9" title="P.L. 80-168.">9</a></sup> At the time, the agency was losing agents to more lucrative employment in nonfederal positions.<sup><a class="FootnoteLink" href="#fn10" name="ifn10" title="GAO , Special Retirement Policy for Federal Law Enforcement and Firefighter Personnel Needs Reevaluation , FPCD-76-97 , February 1977 .">10</a></sup> A more generous retirement program was considered necessary to retain youthful individuals for career service. Shortly thereafter, many federal employee groups with comparable duties to FBI agents began to petition for enhanced benefits.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">In 1948, the House Committee on Post Office and Civil Service reported to Congress that it would not oppose granting benefits to groups of employees similar to the FBI agents that Congress had previously approved for enhanced benefits.<sup><a class="FootnoteLink" href="#fn11" name="ifn11" title="U.S. House of Representatives, Committee on Post Office and Civil Service, Amending the Civil Service Retirement Act to Provide Annuities for Certain Federal Employees , H.Rept. 2034 (Washington: GPO, May 1948).">11</a></sup> The committee report stated that "it is only fair to grant such retirement benefits that are provided for under the bill to law-enforcement agents in all parts of the Government at an earlier age, because it is physically impossible to carry on the necessary strenuous activities after reaching 50 years of age."<sup><a class="FootnoteLink" href="#fn12" name="ifn12" title="Ibid., p. 2 .">12</a></sup> Rather than recognize individual groups, Congress developed a blanket definition to authorize benefits for these occupational groups. The legislation that followed defined LEO and expanded the provision of enhanced retirement benefits to individuals employed in the relevant occupations.<sup><a class="FootnoteLink" href="#fn13" name="ifn13" title="P.L. 80-879.">13</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Following the 1948 decision by Congress, legislation has done little to alter the definition of LEO for retirement purposes. FERS was enacted in 1986 (<a class="ExternalLink" href="https://www.congress.gov/law/99/pub/335"><span class="Hyperlink">P.L. 99-335</span></a>) and sought to mimic the policies put in place by its predecessor, CSRS. Consequently, the definition of LEO under FERS is similar to the definition under CSRS and maintains enhanced retirement benefits for those personnel.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221175"></a><a name="_Toc492373312"></a><a name="_Toc492379420"></a><a name="_Toc492379526"></a><a name="_Toc492380231"></a><a name="_Toc492385552"></a><a name="_Toc492386922"></a><a name="_Toc492386977"></a><a name="_Toc492387117"></a><a name="_Toc492387182"></a><a name="_Toc492387343"></a><a name="_Toc492644708"></a><a name="_Toc173913997"></a><a name="_Toc173920467"></a><a name="_Toc173996837"></a><a name="_Toc174107092"></a><a name="_Toc174532488"></a><a name="_Toc174532565"></a><a name="_Toc245905224"></a><a name="_Toc246430447"></a>Retirement Coverage for Federal Law Enforcement Personnel</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For retirement purposes, most federal employees are covered under either the Civil Service Retirement System, for those hired before 1984, or the Federal Employees' Retirement System, for those hired in 1984 or later. Congress passed the Civil Service Retirement Act of 1920 (P.L 66-215) to create a pension plan for civilian federal employees. The Social Security system followed in 1935 to create a retirement plan for private sector workers. Federal employees were excluded from Social Security until Congress passed the Social Security Amendments of 1983 (<a class="ExternalLink" href="https://www.congress.gov/law/98/pub/21"><span class="Hyperlink">P.L. 98-21</span></a>) and the Federal Employees' Retirement System Act of 1986 (<a class="ExternalLink" href="https://www.congress.gov/law/99/pub/335"><span class="Hyperlink">P.L. 99-335</span></a>), which together incorporated all civilian federal employees hired in 1984 or after into Social Security as part of a new federal retirement system. Additionally, FERS covers employees who were hired before 1984 and were covered by CSRS but elected to switch to FERS during the "open seasons" that Congress authorized in 1987 and 1998.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221176"></a><a name="_Toc492373313"></a><a name="_Toc492379421"></a><a name="_Toc492379527"></a><a name="_Toc492380232"></a><a name="_Toc492385553"></a><a name="_Toc492386923"></a><a name="_Toc492386978"></a><a name="_Toc492387118"></a><a name="_Toc492387183"></a><a name="_Toc492387344"></a><a name="_Toc492644709"></a><a name="_Toc173913998"></a><a name="_Toc173920468"></a><a name="_Toc173996838"></a><a name="_Toc174107093"></a><a name="_Toc174532489"></a><a name="_Toc174532566"></a><a name="_Toc245905225"></a><a name="_Toc246430448"></a>Civil Service Retirement System</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The CSRS annuity is the primary retirement benefit available to eligible individuals under CSRS. Employees covered by CSRS generally do not pay Social Security taxes, nor do they claim Social Security benefits based on the employment covered by CSRS.<sup><a class="FootnoteLink" href="#fn14" name="ifn14" title="Some CSRS employees might have other employment covered by Social Security (e.g., before or after employment as federal LEO s or other CSRS-covered position) . For additional information on Social Security benefits, see CRS In Focus IF10426, Social Security Overview .">14</a></sup> The CSRS annuity is a monthly pension based on years of service, the average of the three highest consecutive years of pay, and the accrual rate for each year of service. Employees covered under CSRS may participate in the Thrift Savings Plan (TSP), but they receive no matching contributions from employing agencies. The TSP is a defined contribution retirement plan much like plans authorized under Section 401(k) of the Internal Revenue Code for private sector employers. Contributions to the TSP are at the discretion of the employee up to an annual limit.<sup><a class="FootnoteLink" href="#fn15" name="ifn15" title="For more details on the TSP , see CRS Report R47084, Federal Retirement Plans: Frequently Asked Questions .">15</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221177"></a><a name="_Toc492373314"></a><a name="_Toc492379422"></a><a name="_Toc492379528"></a><a name="_Toc492380233"></a><a name="_Toc492385554"></a><a name="_Toc492386924"></a><a name="_Toc492386979"></a><a name="_Toc492387119"></a><a name="_Toc492387184"></a><a name="_Toc492387345"></a><a name="_Toc492644710"></a><a name="_Toc173913999"></a><a name="_Toc173920469"></a><a name="_Toc173996839"></a><a name="_Toc174107094"></a><a name="_Toc174532490"></a><a name="_Toc174532567"></a><a name="_Toc245905226"></a><a name="_Toc246430449"></a>Federal Employees' Retirement System</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Retirement benefits under FERS have three components: the FERS basic annuity, Social Security, and the TSP. Employees covered by FERS pay Social Security taxes and receive Social Security benefits.<sup><a class="FootnoteLink" href="#fn16" name="ifn16" title="Employing agencies also contribute Social Security payroll taxes on behalf of FERS-covered employees. For more information on Social Security payroll taxes, see CRS Report R47062, Payroll Taxes: An Overview of Taxes Imposed and Past Payroll Tax Relief .">16</a></sup> The annuity, as under CSRS, is a monthly pension based on years of service, the average of the three highest consecutive years of pay, and the accrual rate for each year of service. However, the annuity portion is smaller compared with CSRS, as it is supplemented with Social Security and the TSP. Like CSRS, employees may participate in the TSP, but FERS employees are also eligible for contributions from their employer agencies. Specifically, federal agencies contribute an amount equal to 1% of pay to the TSP for each employee under FERS whether or not the employee chooses to contribute anything to the plan. In addition, the federal government matches contributions of up to 5% of pay made by employees under FERS. Specifically, there is an agency match equal to 100% of the worker's first 3% of pay and 50% of the next 2% of pay.</p>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221178"></a><a name="_Toc492373315"></a><a name="_Toc492379423"></a><a name="_Toc492379529"></a><a name="_Toc492380234"></a><a name="_Toc492385555"></a><a name="_Toc492386925"></a><a name="_Toc492386980"></a><a name="_Toc492387120"></a><a name="_Toc492387185"></a><a name="_Toc492387346"></a><a name="_Toc492644711"></a><a name="_Toc173914000"></a><a name="_Toc173920470"></a><a name="_Toc173996840"></a><a name="_Toc174107095"></a><a name="_Toc174532491"></a><a name="_Toc174532568"></a><a name="_Toc245905227"></a><a name="_Toc246430450"></a>Eligibility and Benefit Amounts Under CSRS and FERS</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221179"></a><a name="_Toc492373316"></a><a name="_Toc492379424"></a><a name="_Toc492379530"></a><a name="_Toc492380235"></a><a name="_Toc492385556"></a><a name="_Toc492386926"></a><a name="_Toc492386981"></a><a name="_Toc492387121"></a><a name="_Toc492387186"></a><a name="_Toc492387347"></a><a name="_Toc492644712"></a><a name="_Toc173914001"></a><a name="_Toc173920471"></a><a name="_Toc173996841"></a><a name="_Toc174107096"></a><a name="_Toc174532492"></a><a name="_Toc174532569"></a><a name="_Toc245905228"></a><a name="_Toc246430451"></a>Age and Length of Service Requirements</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under both CSRS and FERS, the date an employee is eligible to retire and receive an annuity depends on his or her age and years of service. As described above, to provide quality law enforcement services, and in consideration of the physical and psychological demands imposed on law enforcement personnel, Congress has deemed it necessary to maintain a young and vigorous workforce. For that reason, Congress has made provisions for a mandatory retirement age and, subsequently, a maximum age of entry for law enforcement personnel. Law enforcement personnel may be eligible for enhanced benefits after achieving the minimum retirement age and years of service.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221180"></a><a name="_Toc492373317"></a><a name="_Toc492379425"></a><a name="_Toc492379531"></a><a name="_Toc492380236"></a><a name="_Toc492385557"></a><a name="_Toc492386927"></a><a name="_Toc492386982"></a><a name="_Toc492387122"></a><a name="_Toc492387187"></a><a name="_Toc492387348"></a><a name="_Toc492644713"></a><a name="_Toc173914002"></a><a name="_Toc173920472"></a><a name="_Toc173996842"></a><a name="_Toc174107097"></a><a name="_Toc174532493"></a><a name="_Toc174532570"></a><a name="_Toc245905229"></a><a name="_Toc246430452"></a>Mandatory Retirement</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Congress has set in statute a mandatory retirement age for law enforcement personnel. Under both CSRS and FERS, law enforcement personnel are required by law to retire at the age of 57 or as soon as 20 years of service have been completed after the age of 57.<sup><a class="FootnoteLink" href="#fn17" name="ifn17" title="5 U.S.C. § 8 335(b) for CSRS ; 5 U.S.C. §8425(b) for FERS.">17</a></sup> The maximum retirement age for an ATC with 20 years of service is 56.<sup><a class="FootnoteLink" href="#fn18" name="ifn18" title="5 U.S.C. § 8335 (a ) for CSRS ; 5 U.S.C. § 8425 (a ) for FERS.">18</a></sup> Law enforcement personnel may be exempt from the mandatory retirement age until the age of 60, or 61 for an ATC, if the head of an employing agency determines that "the public interest so requires."<sup><a class="FootnoteLink" href="#fn19" name="ifn19" title="5 U.S.C. § 8335(b) for CSRS ; 5 U.S.C. § 8425(b) for FERS.">19</a></sup> Effective upon enactment on May 29, 2026, <a class="ExternalLink" href="http://www.congress.gov/law/119/pub/95"><span class="Hyperlink">P.L. 119-95</span></a> increased the age for this public interest exemption from 60 to 62 for U.S. Capitol Police officers.<sup><a class="FootnoteLink" href="#fn20" name="ifn20" title="5 U.S.C. §8335(c) for CSRS; 5 U.S.C. §8425(c) for FERS.">20</a></sup> Additionally, the President, by executive order, may exempt a LEO from mandatory separation if the President determines it is in the public interest to do so.<sup><a class="FootnoteLink" href="#fn21" name="ifn21" title="5 U.S.C. § 8335 (f ) for CSRS ; 5 U.S.C. § 8425 (e ) for FERS.">21</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221181"></a><a name="_Toc492373318"></a><a name="_Toc492379426"></a><a name="_Toc492379532"></a><a name="_Toc492380237"></a><a name="_Toc492385558"></a><a name="_Toc492386928"></a><a name="_Toc492386983"></a><a name="_Toc492387123"></a><a name="_Toc492387188"></a><a name="_Toc492387349"></a><a name="_Toc492644714"></a><a name="_Toc173914003"></a><a name="_Toc173920473"></a><a name="_Toc173996843"></a><a name="_Toc174107098"></a><a name="_Toc174532494"></a><a name="_Toc174532571"></a><a name="_Toc245905230"></a><a name="_Toc246430453"></a>Maximum Age of Entry</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Though federal law generally prohibits federal agencies from establishing a maximum age for individuals appointed to positions as federal employees, there is an exception in the case of law enforcement personnel.<sup><a class="FootnoteLink" href="#fn22" name="ifn22" title="Title 5 , Section 3307 , of the U.S. Code designates that ATCs , U.S. Park Police, LEOs , firefighters, nuclear materials couriers, and C ustoms and B order P rotection officers may be sub ject to a maximum age of entry.">22</a></sup> To ensure that law enforcement personnel are eligible for retirement benefits at the mandatory retirement age, certain agencies have also been allowed to implement a maximum age of entry.<sup><a class="FootnoteLink" href="#fn23" name="ifn23" title="5 U.S.C. §3307 .">23</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The head of a federal agency may establish a maximum age of entry—typically 37—for an individual who is appointed to a position as a LEO. This is the highest age at which an individual can be hired into a law enforcement position and complete 20 years of service by the time he or she reaches the mandatory retirement age of 57.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Some exceptions to the maximum age of entry at age 37 have been made. U.S. Customs and Border Protection, for instance, increased the maximum age of entry by three years to the age of 40 for veterans entering Border Patrol agency positions.<sup><a class="FootnoteLink" href="#fn24" name="ifn24" title='GAO, Federal Law Enforcement Retirement . GAO states, "Some agencies have extended their maximum hiring age for LEOs to around 40 to facilitate the hiring of certain highly-skilled armed services veterans who have completed a military career" (p. 10). The Secretary of Homeland Security, like other agency heads, may provide for an exemption from the mandatory retirement age of 57 for Border Patrol agents until the age of 60 under certain conditions as authorized under Title 5 , Section 8...'>24</a></sup></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221182"></a><a name="_Toc492373319"></a><a name="_Toc492379427"></a><a name="_Toc492379533"></a><a name="_Toc492380238"></a><a name="_Toc492385559"></a><a name="_Toc492386929"></a><a name="_Toc492386984"></a><a name="_Toc492387124"></a><a name="_Toc492387189"></a><a name="_Toc492387350"></a><a name="_Toc492644715"></a><a name="_Toc173914004"></a><a name="_Toc173920474"></a><a name="_Toc173996844"></a><a name="_Toc174107099"></a><a name="_Toc174532495"></a><a name="_Toc174532572"></a><a name="_Toc245905231"></a><a name="_Toc246430454"></a>Minimum Retirement Age</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under both CSRS and FERS, the minimum retirement age is 50 for law enforcement personnel with 20 years of service. Under FERS, employees are eligible for retirement at any age after completing 25 years of service.</p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221183"></a><a name="_Toc492373320"></a><a name="_Toc492379428"></a><a name="_Toc492379534"></a><a name="_Toc492380239"></a><a name="_Toc492385560"></a><a name="_Toc492386930"></a><a name="_Toc492386985"></a><a name="_Toc492387125"></a><a name="_Toc492387190"></a><a name="_Toc492387351"></a><a name="_Toc492644716"></a><a name="_Toc173914005"></a><a name="_Toc173920475"></a><a name="_Toc173996845"></a><a name="_Toc174107100"></a><a name="_Toc174532496"></a><a name="_Toc174532573"></a><a name="_Toc245905232"></a><a name="_Toc246430455"></a>Required Contributions</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">CSRS and FERS both require law enforcement personnel and their agencies to contribute a larger percentage of pay to their retirement system compared to regular civilian employees. Specifically, law enforcement personnel contribute an additional 0.5 percentage points of pay compared to regular federal employees hired at the same time.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221184"></a><a name="_Toc492373321"></a><a name="_Toc492379429"></a><a name="_Toc492379535"></a><a name="_Toc492380240"></a><a name="_Toc492385561"></a><a name="_Toc492386931"></a><a name="_Toc492386986"></a><a name="_Toc492387126"></a><a name="_Toc492387191"></a><a name="_Toc492387352"></a><a name="_Toc492644717"></a><a name="_Toc173914006"></a><a name="_Toc173920476"></a><a name="_Toc173996846"></a><a name="_Toc174107101"></a><a name="_Toc174532497"></a><a name="_Toc174532574"></a><a name="_Toc245905233"></a><a name="_Toc246430456"></a>Contributions Under CSRS</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Regular federal employees covered by CSRS contribute 7.0% of pay to CSRS. The employing agencies contribute another 7.0%. Law enforcement personnel contribute 7.5% of pay, as do their agencies.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221185"></a><a name="_Toc492373322"></a><a name="_Toc492379430"></a><a name="_Toc492379536"></a><a name="_Toc492380241"></a><a name="_Toc492385562"></a><a name="_Toc492386932"></a><a name="_Toc492386987"></a><a name="_Toc492387127"></a><a name="_Toc492387192"></a><a name="_Toc492387353"></a><a name="_Toc492644718"></a><a name="_Toc173914007"></a><a name="_Toc173920477"></a><a name="_Toc173996847"></a><a name="_Toc174107102"></a><a name="_Toc174532498"></a><a name="_Toc174532575"></a><a name="_Toc245905234"></a><a name="_Toc246430457"></a>Contributions Under FERS</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Regular federal employees first hired before 2013 contribute 0.8% of pay to FERS. Employing agencies currently contribute 18.4% of payroll on behalf of regular FERS employees hired before 2013. Under <a class="ExternalLink" href="https://www.congress.gov/law/112/pub/96"><span class="Hyperlink">P.L. 112-96</span></a>, regular federal employees first hired in 2013 contribute 3.1% of pay. <a class="ExternalLink" href="https://www.congress.gov/law/113/pub/67"><span class="Hyperlink">P.L. 113-67</span></a> further increased the FERS contribution for regular federal employees first hired in 2014 or later to be 4.4% of pay. Employing agencies of regular FERS employees hired in 2013 or later (including individuals hired in 2014 or later) currently contribute 16.5% of pay.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">By comparison, law enforcement personnel first hired before 2013 contribute 1.3% of pay, while their agencies currently contribute 38.2% of pay. Under <a class="ExternalLink" href="https://www.congress.gov/law/112/pub/96"><span class="Hyperlink">P.L. 112-96</span></a>, law enforcement personnel first hired in 2013 contribute 3.6% of pay to FERS. <a class="ExternalLink" href="https://www.congress.gov/law/113/pub/67"><span class="Hyperlink">P.L. 113-67</span></a> increased the FERS contribution rate for law enforcement personnel first hired in 2014 or later to 4.9% of pay. Agencies employing law enforcement personnel hired in 2013 or later (including individuals hired in 2014 or later) currently contribute 36.4% of pay.<sup><a class="FootnoteLink" href="#fn25" name="ifn25" title="OPM , &quot; Changes to Agency Contributions for the Federal Employees Retirement System , &quot; June 2023, https://www.opm.gov/retirement-center/publications-forms/benefits-administration-letters/2023/23-306.pdf . FERS agency contribution rates may be adjusted in future fiscal years based on changes in OPM's annual actuarial calculations of the dynamic normal cost of FERS benefits as well as any changes in required employee contribution rates. For a discussion of the dynamic normal cost...">25</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221186"></a><a name="_Toc492373323"></a><a name="_Toc492379431"></a><a name="_Toc492379537"></a><a name="_Toc492380242"></a><a name="_Toc492385563"></a><a name="_Toc492386933"></a><a name="_Toc492386988"></a><a name="_Toc492387128"></a><a name="_Toc492387193"></a><a name="_Toc492387354"></a><a name="_Toc492644719"></a><a name="_Toc173914008"></a><a name="_Toc173920478"></a><a name="_Toc173996848"></a><a name="_Toc174107103"></a><a name="_Toc174532499"></a><a name="_Toc174532576"></a><a name="_Toc245905235"></a><a name="_Toc246430458"></a>Pension Plan Benefits</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Annuities under both CSRS and FERS are computed according to (1) the number of years of service completed under the retirement plan, (2) the retiree's average annual salary for the three consecutive years of highest pay, and (3) the accrual rate at which benefits accumulate for each year of service.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221187"></a><a name="_Toc492373324"></a><a name="_Toc492379432"></a><a name="_Toc492379538"></a><a name="_Toc492380243"></a><a name="_Toc492385564"></a><a name="_Toc492386934"></a><a name="_Toc492386989"></a><a name="_Toc492387129"></a><a name="_Toc492387194"></a><a name="_Toc492387355"></a><a name="_Toc492644720"></a><a name="_Toc173914009"></a><a name="_Toc173920479"></a><a name="_Toc173996849"></a><a name="_Toc174107104"></a><a name="_Toc174532500"></a><a name="_Toc174532577"></a><a name="_Toc245905236"></a><a name="_Toc246430459"></a>High-Three Average Salary</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under both CSRS and FERS, the salary used in the annuity calculation is the average of the highest three consecutive years of base pay. This is commonly called "high-three" average salary. In some cases, special pay provisions provide higher rates of pay for law enforcement personnel.<sup><a class="FootnoteLink" href="#fn26" name="ifn26" title="OPM , Federal Law Enforcement Pay and Benefits: Report to Congress , July 2004.">26</a></sup> To the extent that these pay schemes increase the basic pay of employees, there will be accompanying increases in retirement benefits.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221188"></a><a name="_Toc492373325"></a><a name="_Toc492379433"></a><a name="_Toc492379539"></a><a name="_Toc492380244"></a><a name="_Toc492385565"></a><a name="_Toc492386935"></a><a name="_Toc492386990"></a><a name="_Toc492387130"></a><a name="_Toc492387195"></a><a name="_Toc492387356"></a><a name="_Toc492644721"></a><a name="_Toc173914010"></a><a name="_Toc173920480"></a><a name="_Toc173996850"></a><a name="_Toc174107105"></a><a name="_Toc174532501"></a><a name="_Toc174532578"></a><a name="_Toc245905237"></a><a name="_Toc246430460"></a>Accrual Rates</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The accrual rate is the pension benefit earned for each year of service, expressed as a percentage of the salary base. Under both CSRS and FERS, law enforcement personnel accrue benefits at a higher rate than do regular federal employees in their first 20 years of service.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under CSRS, the accrual rates increase with years of service. A regular CSRS employee earns 1.5% of high-three average pay for each of the first five years of service, 1.75% for years six through 10, and 2% for each year beyond the 10<sup>th</sup> year. For their first 20 years of service, CSRS law enforcement personnel accrue benefits at the rate of 2.5% per year and 2% for each year after the 20<sup>th</sup> year of service.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under FERS, a regular federal employee either accrues benefits at the rate of 1% per year of service or, if the employee has at least 20 years of service and works until the age of 62, accrues benefits at the rate of 1.1% per year of service. Law enforcement personnel accrue FERS benefits at the rate of 1.7% per year for the first 20 years of service and 1% per year for each year thereafter.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221189"></a><a name="_Toc492373326"></a><a name="_Toc492379434"></a><a name="_Toc492379540"></a><a name="_Toc492380245"></a><a name="_Toc492385566"></a><a name="_Toc492386936"></a><a name="_Toc492386991"></a><a name="_Toc492387131"></a><a name="_Toc492387196"></a><a name="_Toc492387357"></a><a name="_Toc492644722"></a><a name="_Toc173914011"></a><a name="_Toc173920481"></a><a name="_Toc173996851"></a><a name="_Toc174107106"></a><a name="_Toc174532502"></a><a name="_Toc174532579"></a><a name="_Toc245905238"></a><a name="_Toc246430461"></a>Pension Formulas</p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">General Formula for Federal Employees</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Generally, the annuity for a federal employee is:</p>
+<p class="BodyText" style="text-align:center;padding-left:18pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>Annual Pension = Years of Service </em><em>×</em><em> High-Three Salary </em><em>×</em><em> Accru</em><em>al Rate</em></p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Formula for Law Enforcement Personnel Under CSRS</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under CSRS, using the appropriate accrual rates, the annuity for law enforcement personnel would be:</p>
+<p class="BodyText" style="text-align:center;padding-left:113.75pt;padding-right:-9pt;text-indent:-113.75pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>CSRS Annual</em><em> Pension </em><em>= </em><em>[Years of Service (not exceeding 20 years) × High-Three Salary ×</em><em> </em><em>0.025] + [Years of Service (exceeding 20) × High-Three Salary × 0.02]</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">ATCs have a special provision under CSRS that guarantees them a minimum benefit. An ATC is entitled to receive the greater of the annuity calculated under the CSRS formula or 50% of his or her high-three average salary.<sup><a class="FootnoteLink" href="#fn27" name="ifn27" title="5 U.S.C. § 8 339(e).">27</a></sup></p>
+<p class="Heading4" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Formula for Law Enforcement Personnel Under FERS</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Similarly, under FERS, the annuity for law enforcement personnel would be:</p>
+<p class="BodyText" style="text-align:center;padding-left:113.75pt;padding-right:-9pt;text-indent:-113.75pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>FE</em><em>RS Annual Pension = </em><em>[</em><em>Years of Service (</em><em>not exceeding 20 years) × </em><em>High-Three Salary </em><em>×</em><em> </em><em>0.017] </em><em>+</em><em> [Years of S</em><em>ervice (</em><em>exceeding 20) × High-Three Salary ×0</em><em>.0</em><em>1]</em></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">For example, law enforcement personnel retiring with 25 years of service would receive a pension equal to:</p>
+<p class="BodyText" style="text-align:center;padding-left:113.75pt;text-indent:-113.75pt;" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><em>FERS A</em><em>nnual Pension = </em><em>[20 </em><em>×</em><em> High-Three Salary </em><em>×</em><em>0</em><em>.0</em><em>17]</em><em> + </em><em>[</em><em>5</em><em> </em><em>×</em><em> </em><em>High-Three Salary</em><em> </em><em>×0</em><em>.0</em><em>1]</em></p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221190"></a><a name="_Toc492373327"></a><a name="_Toc492379435"></a><a name="_Toc492379541"></a><a name="_Toc492380246"></a><a name="_Toc492385567"></a><a name="_Toc492386937"></a><a name="_Toc492386992"></a><a name="_Toc492387132"></a><a name="_Toc492387197"></a><a name="_Toc492387358"></a><a name="_Toc492644723"></a><a name="_Toc173914012"></a><a name="_Toc173920482"></a><a name="_Toc173996852"></a><a name="_Toc174107107"></a><a name="_Toc174532503"></a><a name="_Toc174532580"></a><a name="_Toc245905239"></a><a name="_Toc246430462"></a>Federal Law Enforcement Personnel with Both CSRS and FERS Coverage</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Individuals who chose to transfer from coverage under CSRS to FERS with five or more years of creditable civilian service as of the effective date of the transfer, excluding service covered by both CSRS and Social Security deductions, have a CSRS component to their annuities.<sup><a class="FootnoteLink" href="#fn28" name="ifn28" title="5 C.F.R. § 8 46.304 .">28</a></sup> The CSRS component is calculated based on the standard CSRS annuity formula for law enforcement personnel. For the FERS component, service years under CSRS do not count toward the 20-year requirement for the 1.7% accrual rate.</p>
+<p class="Heading3" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221191"></a><a name="_Toc492373328"></a><a name="_Toc492379436"></a><a name="_Toc492379542"></a><a name="_Toc492380247"></a><a name="_Toc492385568"></a><a name="_Toc492386938"></a><a name="_Toc492386993"></a><a name="_Toc492387133"></a><a name="_Toc492387198"></a><a name="_Toc492387359"></a><a name="_Toc492644724"></a><a name="_Toc173914013"></a><a name="_Toc173920483"></a><a name="_Toc173996853"></a><a name="_Toc174107108"></a><a name="_Toc174532504"></a><a name="_Toc174532581"></a><a name="_Toc245905240"></a><a name="_Toc246430463"></a>The FERS Supplement</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The FERS basic annuity was designed as a complement to Social Security retirement benefits. FERS employees, including law enforcement personnel, who retire before they are eligible for Social Security may receive temporary supplements paid from the time of retirement until the Social Security eligibility age of 62. The amount of the supplement is equal to an estimate of the amount of Social Security benefits accrued from federal service.<sup><a class="FootnoteLink" href="#fn29" name="ifn29" title="5 U.S.C. §8421.">29</a></sup> The supplement ends at the age of 62 regardless of whether the individual claims Social Security benefits at that time. Similar to Social Security benefits received before the full retirement age,<sup><a class="FootnoteLink" href="#fn30" name="ifn30" title="The Social Security full retirement age is the age at which unreduced Social Security retirement benefits are first payable. The Social Security full retirement age ranges from 65 to 67, depending on the individual's year of birth. For more details, see CRS Report R42035, Social Security Primer .">30</a></sup> the supplement is subject to an earnings test and reduced if the retiree has earnings above a specified limit.<sup><a class="FootnoteLink" href="#fn31" name="ifn31" title="5 U.S.C. §8421a.">31</a></sup> Retired law enforcement personnel are not subject to this retirement earnings test prior to attaining the FERS minimum retirement age (age 57 for individuals born in 1970 or later).<sup><a class="FootnoteLink" href="#fn32" name="ifn32" title="5 U.S.C. §8421a(b)(4)(B).">32</a></sup> There is also an exemption from the retirement earnings test for the FERS supplement in the case of certain retired ATCs who are employed full-time under contract with the Federal Aviation Administration.<sup><a class="FootnoteLink" href="#fn33" name="ifn33" title="5 U.S.C. §8421a(c).">33</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221192"></a><a name="_Toc492373329"></a><a name="_Toc492379437"></a><a name="_Toc492379543"></a><a name="_Toc492380248"></a><a name="_Toc492385569"></a><a name="_Toc492386939"></a><a name="_Toc492386994"></a><a name="_Toc492387134"></a><a name="_Toc492387199"></a><a name="_Toc492387360"></a><a name="_Toc492644725"></a><a name="_Toc173914014"></a><a name="_Toc173920484"></a><a name="_Toc173996854"></a><a name="_Toc174107109"></a><a name="_Toc174532505"></a><a name="_Toc174532582"></a><a name="_Toc245905241"></a><a name="_Toc246430464"></a>Cost-of-Living Adjustments</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">To offset inflation and preserve the purchasing power of retirees' income, CSRS and FERS annuities include a cost-of-living adjustment (COLA). All CSRS retirees and survivors—law enforcement personnel included—receive COLAs. The COLA is based on the rate of inflation as measured by the Consumer Price Index for Urban Wage Earners and Clerical Workers (CPI-W). The CSRS COLA is equal to the annual change in the CPI-W, which is the same COLA calculation used for Social Security benefits.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under FERS, the COLA is also contingent on changes in the CPI-W. If the annual change in the CPI-W is less than 2.0%, then the FERS COLA will match this inflation change. If the annual change in the CPI-W is between 2.0% and 3.0%, then the FERS COLA is capped at 2.0%. For annual change in the CPI-W greater than 3.0%, the FERS COLA is equal to the annual change in the CPI-W less 1 percentage point. Under FERS, nondisabled retirees under the age of 62 do not receive COLAs. However, law enforcement personnel under the age of 62 who retire in accordance with the age and eligibility requirements receive the COLAs.<sup><a class="FootnoteLink" href="#fn34" name="ifn34" title="For more details on COLAs for CSRS and FERS annuities, see CRS Report 94-834, Cost-of-Living Adjustments for Federal Civil Service Annuities .">34</a></sup> Because FERS employees are eligible for Social Security, they also receive separate Social Security COLAs applied to their Social Security benefits.<sup><a class="FootnoteLink" href="#fn35" name="ifn35" title="For more details on COLAs for Social Security benefits, see CRS Report 94-803, Social Security: Cost-of-Living Adjustments .">35</a></sup></p>
+<p class="Heading2" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221193"></a><a name="_Toc492373330"></a><a name="_Toc492379438"></a><a name="_Toc492379544"></a><a name="_Toc492380249"></a><a name="_Toc492385570"></a><a name="_Toc492386940"></a><a name="_Toc492386995"></a><a name="_Toc492387135"></a><a name="_Toc492387200"></a><a name="_Toc492387361"></a><a name="_Toc492644726"></a><a name="_Toc173914015"></a><a name="_Toc173920485"></a><a name="_Toc173996855"></a><a name="_Toc174107110"></a><a name="_Toc174532506"></a><a name="_Toc174532583"></a><a name="_Toc245905242"></a><a name="_Toc246430465"></a>Replacement Rates</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The replacement rate is often used to measure the income adequacy of retirement benefits. The measure is a ratio of annual retirement benefit to annual pre-retirement earnings. The annual retirement benefit typically includes the retiree's pension and his or her Social Security benefit.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Under CSRS, law enforcement personnel do not receive Social Security benefits, and so the replacement rate can be calculated using only the annuity benefit. Because of the more generous annuity, law enforcement personnel have higher replacement rates than do regular federal employees. CSRS law enforcement personnel who retire with 20 years of service at the age of 50 will have a replacement rate of 50%, and those with 25 years of service will have a replacement rate of 60%.<sup><a class="FootnoteLink" href="#fn36" name="ifn36" title="For example, ( 20 × 0.025 × High-Three Salary )/High-Three Salary = 0.50 or 50%; [ ( 20 × 0.025 × High-Three Salary ) + (5 × 0.02 × High-Three Salary)] /High-Three Salary = 0 . 6 0 or 60%.">36</a></sup> A regular CSRS employee with 20 years of service would have a replacement rate of 36.25%.<sup><a class="FootnoteLink" href="#fn37" name="ifn37" title="For example, ( 5 × 0 .0 15 × High-Three Salary + 5 × 0.0175 × High-Three Salary + 10 × 0.02 × High-Three Salary ) /High-Three Salary = 0 . 3625 or 36.25 % . Current law limits the maximum CSRS annuity for regular CSRS employees and law enforcement personnel to 80% of high-three salary (5 U.S.C. §8339(f)).">37</a></sup></p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">The FERS annuity was designed as a complement to Social Security and the TSP. Considering all three components of FERS introduces significant variation in the replacement rate. Estimates of the replacement rate for an employee earning enhanced benefits range from 54% to 91% depending on work history and TSP contributions of the worker.<sup><a class="FootnoteLink" href="#fn38" name="ifn38" title="GAO , Capitol Police: Retireme n t Benefits, Pay, Duties, and Attrition Compared to Other Federal Police Forces , GAO-12-58 , January 2012 , https://www.gao.gov/products/gao-12-58 .">38</a></sup> Focusing only on the annuity portion, law enforcement personnel with 20 years of service would replace 34% of pre-retirement earnings with their annuities and with 25 years of service would replace 39%. A regular federal employee with 20 years of service would earn an annuity equal to 20% of his or her pre-retirement earnings.</p><a name="_Ref329694207" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"></a><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a class="InternalLink" href="#_Ref330390095"><strong></strong><strong>Table 3</strong></a> provides a summary of certain aspects of civilian federal retirement benefits under both CSRS and FERS. It also compares the CSRS and FERS program rules for regular civilian federal employees and federal law enforcement personnel.</p>
+<div class="TableBox" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<div class="TableTitle" style="width:432pt;">
+<p class="TableTitle"><a name="_Ref330390095"></a><a name="_Toc401221166"></a><a name="_Toc492373305"></a><a name="_Toc492379413"></a><a name="_Toc492379519"></a><a name="_Toc492380224"></a><a name="_Toc492385545"></a><a name="_Toc492386915"></a><a name="_Toc492386970"></a><a name="_Toc492387110"></a><a name="_Toc492387175"></a><a name="_Toc492387336"></a><a name="_Toc492644701"></a><a name="_Toc173913990"></a><a name="_Toc173920460"></a><a name="_Toc173996830"></a><a name="_Toc174107085"></a><a name="_Toc174532481"></a><a name="_Toc174532558"></a><a name="_Toc245905217"></a><a name="_Toc246430440"></a>Table 3. CSRS and FERS Benefits for Federal Law Enforcement Personnel: Selected Details</p>
+</div>
+<table class="ReportTable" style="width:432pt;border-top:0pt;border-left:0;border-bottom:0pt;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">
+<tr style="">
+<td style="width:80.352pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">CSRS</p>
+</td>
+<td colspan="2" style="border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:single;border-right:0;border-style:outset;border-color:#000000;border-collapse:collapse;">FERS</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom"> <p class="TableTextHeading" style="text-align:center;"></p>
+</td>
+<td style="width:87.9552pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Law Enforcement Personnel</p>
+</td>
+<td style="width:87.9552pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Regular Employees</p>
+</td>
+<td style="width:87.9552pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Law Enforcement Personnel</p>
+</td>
+<td style="width:87.7824pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="bottom">
+<p class="TableTextHeading" style="text-align:center;">Regular Employees</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Minimum Retirement Age</p>
+</td>
+<td style="width:87.9552pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">50<sup><a class="InternalLink" href="#_Ref327952868"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">a</span></sup><sup></sup></p>
+</td>
+<td style="width:87.9552pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">60<sup><a class="InternalLink" href="#_Ref327952948"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">b</span></sup><sup></sup></p>
+</td>
+<td style="width:87.9552pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">50<sup><a class="InternalLink" href="#_Ref327953042"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">c</span></sup><sup></sup></p>
+</td>
+<td style="width:87.7824pt;border-top:0.5pt;border-top-style:solid;border-left:0;border-bottom:0;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">60<sup><a class="InternalLink" href="#_Ref327953132"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">d</span></sup><sup></sup></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Mandatory Retirement Age</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">57<sup><a class="InternalLink" href="#_Ref327953275"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">e</span></sup><sup></sup></p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">N/A</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">57<sup><a class="InternalLink" href="#_Ref327953275"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">e</span></sup><sup></sup> </p>
+</td>
+<td style="width:87.7824pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">N/A</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Maximum Entry Age</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">37<sup><a class="InternalLink" href="#_Ref331503383"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">f</span></sup><sup></sup></p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">N/A</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">37<sup><a class="InternalLink" href="#_Ref331503383"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">f</span></sup><sup></sup></p>
+</td>
+<td style="width:87.7824pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">N/A</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Accrual Rates by Years of Service</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">2.5% for years 1-20</p>
+<p class="TableText" style="text-align:center;">2% for years 21+</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1.5% for years 1-5</p>
+<p class="TableText" style="text-align:center;">1.75% for years 6-10</p>
+<p class="TableText" style="text-align:center;">2% for years 11+</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1.7% for years 1-20</p>
+<p class="TableText" style="text-align:center;">1% for years 21+</p>
+</td>
+<td style="width:87.7824pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1%<sup><a class="InternalLink" href="#_Ref331503448"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">g</span></sup><sup></sup></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Agency Contribution</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">7.5%</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">7%</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">38.2% for those hired before 2013</p>
+<p class="TableText" style="text-align:center;">36.4% for those hired in 2013 or later<sup><a class="InternalLink" href="#_Ref331503461"></a></sup><sup></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">h</span></sup><sup></sup></p>
+</td>
+<td style="width:87.7824pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">18.4% for those hired before 2013</p>
+<p class="TableText" style="text-align:center;">16.5% for those hired in 2013 or later<sup><a class="InternalLink" href="#_Ref331503461"></a></sup><sup></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">h</span></sup><sup></sup><sup><span class="TableTextFootnoteReference"> </span></sup></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Employee Contribution</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">7.5%</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">7%</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">1.3% for those hired before 2013</p>
+<p class="TableText" style="text-align:center;">3.6% for those hired in 2013</p>
+<p class="TableText" style="text-align:center;">4.9% for those hired in 2014 or later</p>
+</td>
+<td style="width:87.7824pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">0.8% for those hired before 2013</p>
+<p class="TableText" style="text-align:center;">3.1% for those hired in 2013</p>
+<p class="TableText" style="text-align:center;">4.4% for those hired in 2014 or later</p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">Replacement Rate with 20 Years of Service</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">50%</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">36.25%</p>
+</td>
+<td style="width:87.9552pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">34%<sup><a class="InternalLink" href="#_Ref331503512"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">i</span></sup><sup></sup></p>
+</td>
+<td style="width:87.7824pt;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">20%<sup><a class="InternalLink" href="#_Ref331503512"></a></sup><sup></sup><sup></sup><sup></sup><sup><span class="TableTextFootnoteReference">i</span></sup><sup></sup></p>
+</td>
+</tr>
+<tr style="">
+<td style="width:80.352pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="">TSP Agency Contributions<a class="InternalLink" href="#_Ref331503513"><sup></sup><sup><span class="TableTextFootnoteReference">j</span></sup></a></p>
+</td>
+<td style="width:87.9552pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">No</p>
+</td>
+<td style="width:87.9552pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">No</p>
+</td>
+<td style="width:87.9552pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Yes</p>
+</td>
+<td style="width:87.7824pt;border-top:0;border-left:0;border-bottom:0.5pt;border-bottom-style:solid;border-right:0;border-color:#000000;border-collapse:collapse;padding-left:5.8pt;padding-right:5.8pt;" valign="top">
+<p class="TableText" style="text-align:center;">Yes</p>
+</td>
+</tr>
+</table>
+<div class="TableNotes" style="width:432pt;">
+<p class="TableSource"><strong>Source: </strong>CRS.</p>
+<p class="TableNumberedNote">a. <a name="_Ref327952868"></a>Applies to those with 20 years of service. </p>
+<p class="TableNumberedNote">b. <a name="_Ref327952948"></a>Applies to those with 20 years of service. Those with 30 years of service may retire at the age of 55 and those with only five years of service may retire at the age of 62. </p>
+<p class="TableNumberedNote">c. <a name="_Ref327953042"></a>Applies to those with 20 years of service. Otherwise employees are eligible for retirement at any age upon completing 25 years of service. </p>
+<p class="TableNumberedNote">d. <a name="_Ref327953132"></a>Applies to those with 20 years of service. Those with 30 years of service may retire at a minimum retirement age that increases with birth year. For those born in 1970 or later, the FERS minimum retirement age is 57 with 30 years of service. Those with only five years of service may retire at the age of 62.</p>
+<p class="TableNumberedNote">e. <a name="_Ref327953275"></a>Applies to those with 20 years of service or as soon as they have completed 20 years of service if not completed by the age of 57 (or 56 for an ATC). </p>
+<p class="TableNumberedNote">f. <a name="_Ref327953443"></a><a name="_Ref331503383"></a>In some agencies the maximum entry age has been increased up to three years for veterans. </p>
+<p class="TableNumberedNote">g. <a name="_Ref327953638"></a><a name="_Ref331503448"></a>For employees with at least 20 years of service who continue working until the age of 62, the accrual rate is 1.1%. </p>
+<p class="TableNumberedNote">h. <a name="_Ref331503461"></a>These agency contribution rates were effective beginning October 1, 2023. OPM, <em>Changes to Agency Contributions for the Federal Employees Retirement System</em>, June 2023, <a class="ExternalLink" href="https://www.opm.gov/retirement-center/publications-forms/benefits-administration-letters/2023/23-306.pdf"><span class="Hyperlink">https://www.opm.gov/</span><span class="Hyperlink"></span><span class="Hyperlink">retirement-center/</span><span class="Hyperlink"></span><span class="Hyperlink">publications-forms/</span><span class="Hyperlink"></span><span class="Hyperlink">benefits-administration-letters/</span><span class="Hyperlink"></span><span class="Hyperlink">2023/</span><span class="Hyperlink"></span><span class="Hyperlink">23-306.pdf</span></a>. The FERS agency contribution rate for ATCs first hired before 2013 is 39.1%. For ATCs first hired in 2013 or later, the FERS agency contribution rate is 37.3%. FERS agency contribution rates may be adjusted in future fiscal years based on changes in OPM's annual actuarial calculations of the dynamic normal cost of FERS benefits as well as any changes in required employee contribution rates.</p>
+<p class="TableNumberedNote">i. <a name="_Ref327954125"></a><a name="_Ref331503512"></a>Includes only the annuity and applies to those with 20 years of service. </p>
+<p class="TableNumberedNote">j. <a name="_Ref331503513"></a>Federal agencies contribute an amount equal to 1% of pay to the TSP for each employee under FERS whether or not the employee chooses to contribute anything to the plan. In addition, the federal government matches contributions of up to 5% of pay made by employees under FERS—specifically, a match equal to 100% of the worker's first 3% of pay and 50% of the next 2% of pay.</p>
+</div>
+</div>
+<p class="Heading1" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples"><a name="_Toc401221194"></a><a name="_Toc492373331"></a><a name="_Toc492379439"></a><a name="_Toc492379545"></a><a name="_Toc492380250"></a><a name="_Toc492385571"></a><a name="_Toc492386941"></a><a name="_Toc492386996"></a><a name="_Toc492387136"></a><a name="_Toc492387201"></a><a name="_Toc492387362"></a><a name="_Toc492644727"></a><a name="_Toc173914016"></a><a name="_Toc173920486"></a><a name="_Toc173996856"></a><a name="_Toc174107111"></a><a name="_Toc174532507"></a><a name="_Toc174532584"></a><a name="_Toc245905243"></a><a name="_Toc246430466"></a>Extending Enhanced Benefits to Other Occupational Groups</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Many employees in law enforcement occupations are not recognized as LEOs by their agencies and OPM, and consequently they are not eligible to receive enhanced retirement benefits. Several employee groups and unions representing individuals in these occupations have sought enhanced benefits through additional legislation. Generally, this legislation proposes to either include these groups as LEOs for retirement purposes or grant them LEO-equivalent benefits. For instance, in the 119<sup>th</sup> Congress, legislation has been introduced (e.g., <a class="ExternalLink" href="https://www.congress.gov/bill/119/hr/3226"><span class="Hyperlink">H.R. 3226</span></a>, the Law Enforcement Officers Equity Act, and <a class="ExternalLink" href="http://www.congress.gov/bill/119/s/5701"><span class="Hyperlink">S. 5701</span></a>, the Law Enforcement Officers Parity Act) that would expand the definition of LEO—and, therefore, provide enhanced retirement benefits—to include (1) employees who investigate or apprehend individuals suspected or convicted of offenses against the criminal laws of the United States and carry firearms; (2) Internal Revenue Service employees whose duties are primarily the collection of delinquent taxes and the securing of delinquent returns, (3) employees of the U.S. Postal Inspection Service, (4) police officers at the Department of Veterans Affairs, and (5) U.S. Customs and Border Protection employees who are seized-property specialists.</p>
+<p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Two primary reasons are offered in support of extending enhanced benefit entitlement for law enforcement positions that are currently excluded:<sup><a class="FootnoteLink" href="#fn39" name="ifn39" title="GAO, Federal Law Enforcement Retirement .">39</a></sup></p><ul><li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">1. Attrition rates are high among those currently not receiving enhanced benefits.</li>
+<li class="ListNumber" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">2. Employees perform duties that are similar to law enforcement personnel currently receiving enhanced benefits, which may create the appearance of inequity.</li></ul><p class="BodyText" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">Extending enhanced retirement benefits to other occupational groups would result in higher costs to employing agencies and the federal government. The majority of personnel pursuing enhanced benefits in the future would be covered under FERS and would have most of the costs of their enhanced benefits covered by higher agency contributions. Currently, agencies are required to contribute nearly 20 additional percentage points of basic pay for law enforcement personnel in comparison with regular FERS employees. Agency contributions are based on OPM's annual actuarial calculations of the dynamic normal cost of FERS benefits as well as the required employee contributions under current law. These agency contributions may be subject to change in the future.<sup><a class="FootnoteLink" href="#fn40" name="ifn40" title="Changes to FERS agency contribution rates effective beginning in FY 2024 by employee category were announced in OPM , &quot; Changes to Agency Contributions for the Federal Employees Retirement System , &quot; June 2023, https://www.opm.gov/retirement-center/publications-forms/benefits-administration-letters/2023/23-306.pdf . For a discussion of the dynamic normal cost of FERS benefits, including the calculation of agency contributions, see CRS Report RL30023, Federal Employees' Retirem...">40</a></sup></p>
+</div>
+<div class="Acknowledgments">
+<a name="contactauthors"></a><br/><a name="acknowledgments"></a>
+<p class="EndTextAcknowledgments" style="" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">This report was coauthored with Tessa Conroy, then an intern with CRS. Tessa is currently an associate professor in the Department of Agricultural and Applied Economics at the University of Wisconsin–Madison.</p>
+</div>
+<div class="Footnotes">
+<h1>Footnotes</h1>
+<table border="0" cellpadding="0" cellspacing="5" xmlns:ns2="http://schemas.microsoft.com/vsto/samples">
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn1" name="fn1">1</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8331(20). <em>Primary duties</em> is defined by the <em>Code of Federal Regulations</em> (5 C.F.R. §831.802) as "those duties of a position which—(a) Are paramount in influence or weight; that is, constitute the basic reasons for the existence of the position; (b) Occupy a substantial portion of the individual's working time over a typical work cycle; and (c) Are assigned on a regular and recurring basis. Duties that are of an emergency, incidental, or temporary nature cannot be considered 'primary' even if they meet the substantial portion of time criterion."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn2" name="fn2">2</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8401(17). </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn3" name="fn3">3</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §§8401(14) and 8401(17), respectively. <em>R</em><em>igorous position</em> is defined in federal regulations (5 C.F.R. §3307(e)) as "a position the duties of which are so rigorous that employment opportunities should, as soon as reasonably possible, be limited (through establishment of a maximum entry age and physical qualifications) to young and physically vigorous individuals."</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn4" name="fn4">4</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 C.F.R. §831.920.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn5" name="fn5">5</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For recent research that compares the retirement benefits of federal police and federal law enforcement officers, see U.S. Government Accountability Office (GAO), <em>Federal Police Officers: Considerations on Retirement and Pay</em>, GAO-25-107099, April 2025, https://www.gao.gov/products/gao-25-107099.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn6" name="fn6">6</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, <em>Federal Law Enforcement Retirement: Information on Enhanced Retirement Benefits for Law Enforcement Personnel</em>, GAO-09-727, July 2009, <a class="ExternalLink" href="https://www.gao.gov/products/gao-09-727"><span class="Hyperlink">https://www.gao.gov/products/gao-09-727</span></a>. </p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn7" name="fn7">7</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 C.F.R. §§831.308 and 841.308.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn8" name="fn8">8</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, <em>Statement of H.</em><em> </em><em>L. Krieger, Director, Federal Perso</em><em>nnel and Compensation Division, </em><em>on a General Accounting Office </em><em>Report Entitled </em><em>'Special Retirement Policy for Federal Law Enforcement and Firefighter Personnel Needs Reevaluation,' FPCD-76-97, February 24, 1977</em>, September 27, 1977. <a class="ExternalLink" href="https://www.congress.gov/law/93/pub/350"><span class="Hyperlink">P.L. 93-350</span></a> deleted hazard as a criterion for entitlement.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn9" name="fn9">9</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> P.L. 80-168.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn10" name="fn10">10</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, <em>Special</em><em> Retirement </em><em>Policy</em><em> for </em><em>Federal </em><em>Law Enforcement </em><em>and Firefighter </em><em>Personnel</em><em> Needs Reevaluation</em>, FPCD-76-97, February 1977.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn11" name="fn11">11</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> U.S. House of Representatives, Committee on Post Office and Civil Service, <em>Amending the Civil Service Retirement Act to Provide Annuities for Certain Federal Employees</em>, H.Rept. 2034 (Washington: GPO, May 1948).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn12" name="fn12">12</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Ibid., p. 2.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn13" name="fn13">13</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> P.L. 80-879.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn14" name="fn14">14</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Some CSRS employees might have other employment covered by Social Security (e.g., before or after employment as federal LEOs or other CSRS-covered position). For additional information on Social Security benefits, see CRS In Focus IF10426, <a class="ExternalLink" href="http://www.crs.gov/Reports/IF10426"><em><span class="Hyperlink">Social Security Overview</span></em></a><em>.</em></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn15" name="fn15">15</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more details on the TSP, see CRS Report R47084, <a class="ExternalLink" href="http://www.crs.gov/Reports/R47084"><em><span class="Hyperlink">Federal Retirement Plans: Frequently Asked Questions</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn16" name="fn16">16</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Employing agencies also contribute Social Security payroll taxes on behalf of FERS-covered employees. For more information on Social Security payroll taxes, see CRS Report R47062, <a class="ExternalLink" href="http://www.crs.gov/Reports/R47062"><em><span class="Hyperlink">Payroll Taxes: An Overview of Taxes Imposed and Past Payroll Tax Relief</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn17" name="fn17">17</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8335(b) for CSRS; 5 U.S.C. §8425(b) for FERS.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn18" name="fn18">18</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8335(a) for CSRS; 5 U.S.C. §8425(a) for FERS.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn19" name="fn19">19</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8335(b) for CSRS; 5 U.S.C. §8425(b) for FERS.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn20" name="fn20">20</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8335(c) for CSRS; 5 U.S.C. §8425(c) for FERS.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn21" name="fn21">21</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8335(f) for CSRS; 5 U.S.C. §8425(e) for FERS.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn22" name="fn22">22</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Title 5, Section 3307, of the <em>U.S. Code</em> designates that ATCs, U.S. Park Police, LEOs, firefighters, nuclear materials couriers, and Customs and Border Protection officers may be subject to a maximum age of entry.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn23" name="fn23">23</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §3307.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn24" name="fn24">24</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, <em>Federal Law Enforcement Retirement</em>. GAO states, "Some agencies have extended their maximum hiring age for LEOs to around 40 to facilitate the hiring of certain highly-skilled armed services veterans who have completed a military career" (p. 10). The Secretary of Homeland Security, like other agency heads, may provide for an exemption from the mandatory retirement age of 57 for Border Patrol agents until the age of 60 under certain conditions as authorized under Title 5, Section 8425(c), of the <em>U.S. Code</em>. See 5 C.F.R. §842.1006. Mandatory separation at the age of 60 would allow Border Patrol agents who enter service at (or before) the age of 40 to accrue the 20 years of service required for LEO retirement.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn25" name="fn25">25</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, "Changes to Agency Contributions for the Federal Employees Retirement System," June 2023, <a class="ExternalLink" href="https://www.opm.gov/retirement-center/publications-forms/benefits-administration-letters/2023/23-306.pdf"><span class="Hyperlink">https://www.opm.gov/retirement-center/publications-forms/benefits-administration-letters/2023/23-306.pdf</span></a>. FERS agency contribution rates may be adjusted in future fiscal years based on changes in OPM's annual actuarial calculations of the dynamic normal cost of FERS benefits as well as any changes in required employee contribution rates. For a discussion of the dynamic normal cost of FERS benefits, including the calculation of agency contributions, see CRS Report RL30023, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL30023"><em><span class="Hyperlink">Federal Employees' Retirement System: Budget and Trust Fund Issues</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn26" name="fn26">26</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> OPM, <em>Federal Law Enforcement Pay and Benefits: Report to Congress</em>, July 2004.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn27" name="fn27">27</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8339(e).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn28" name="fn28">28</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 C.F.R. §846.304.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn29" name="fn29">29</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8421.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn30" name="fn30">30</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> The Social Security full retirement age is the age at which unreduced Social Security retirement benefits are first payable. The Social Security full retirement age ranges from 65 to 67, depending on the individual's year of birth. For more details, see CRS Report R42035, <a class="ExternalLink" href="http://www.crs.gov/Reports/R42035"><em><span class="Hyperlink">Social Security Primer</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn31" name="fn31">31</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8421a.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn32" name="fn32">32</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8421a(b)(4)(B).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn33" name="fn33">33</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> 5 U.S.C. §8421a(c).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn34" name="fn34">34</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more details on COLAs for CSRS and FERS annuities, see CRS Report 94-834, <a class="ExternalLink" href="http://www.crs.gov/Reports/94-834"><em><span class="Hyperlink">Cost-of-Living Adjustments for Federal Civil Service Annuities</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn35" name="fn35">35</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For more details on COLAs for Social Security benefits, see CRS Report 94-803, <a class="ExternalLink" href="http://www.crs.gov/Reports/94-803"><em><span class="Hyperlink">Social Security: Cost-of-Living Adjustments</span></em></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn36" name="fn36">36</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, (<em>20 × 0.025 × </em><em>High-Three Salary</em><em>)/High-Three Salary = 0.50 or 50%; [</em>(<em>20 × 0.025 × </em><em>High-Three Salary</em><em>) + (5 × 0.02 × High-Three Salary)]</em><em>/High-Three Salary</em><em> </em><em>=</em><em> 0</em><em>.</em><em>6</em><em>0 or </em><em>60%.</em></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn37" name="fn37">37</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> For example, (<em>5 × 0</em><em>.0</em><em>15 × </em><em>High-Three Salary</em><em> + 5 × 0.0175 × High-Three Salary </em><em>+</em><em> 10 × 0.02 × </em><em>High-Three Salary</em><em>)</em><em>/High-Three Salary</em><em> </em><em>=</em><em> 0</em><em>.</em><em>3625</em><em> or </em><em>36.25</em><em>%</em><em>.</em> Current law limits the maximum CSRS annuity for regular CSRS employees and law enforcement personnel to 80% of high-three salary (5 U.S.C. §8339(f)).</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn38" name="fn38">38</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, Capitol Police: Retirement Benefits, Pay, Duties, and Attrition Compared to Other Federal Police Forces, GAO-12-58, January 2012, <a class="ExternalLink" href="https://www.gao.gov/products/gao-12-58"><span class="Hyperlink">https://www.gao.gov/products/gao-12-58</span></a>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn39" name="fn39">39</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> GAO, <em>Federal Law Enforcement Retirement</em>.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a class="FootnoteBL" href="#ifn40" name="fn40">40</a>.
+            </td>
+<td>
+<p class="FootnoteText" style=""> Changes to FERS agency contribution rates effective beginning in FY2024 by employee category were announced in OPM, "Changes to Agency Contributions for the Federal Employees Retirement System," June 2023, <a class="ExternalLink" href="https://www.opm.gov/retirement-center/publications-forms/benefits-administration-letters/2023/23-306.pdf"><span class="Hyperlink">https://www.opm.gov/retirement-center/publications-forms/benefits-administration-letters/2023/23-306.pdf</span></a>. For a discussion of the dynamic normal cost of FERS benefits, including the calculation of agency contributions, see CRS Report RL30023, <a class="ExternalLink" href="http://www.crs.gov/Reports/RL30023"><em><span class="Hyperlink">Federal Employees' Retirement System: Budget and Trust Fund Issues</span></em></a>.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
