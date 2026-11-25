@@ -4,12 +4,16 @@ Publication-date window (inclusive): **2026-11-18 to 2026-11-25**. Older archive
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-25 | R48295 v13 | The Consumer Financial Protection Bureau Budget: Background, Policy Options, and Legislation in the 119th Congress | [PDF](pdf/reports/R48295v13-2026-11-25-0575cba17182e333.pdf) | [Markdown](markdown/reports/R48295v13-2026-11-25-0575cba17182e333.md) |
 | 2026-11-25 | R48295 v12 | The Consumer Financial Protection Bureau Budget: Background, Policy Options, and Legislation in the 119th Congress | [PDF](pdf/reports/R48295v12-2026-11-25-0aa1b566fe3752dd.pdf) | [Markdown](markdown/reports/R48295v12-2026-11-25-0aa1b566fe3752dd.md) |
+| 2026-11-25 | IN12758 v1 | ANCHOR-CI: A New Public-Private Partnership Framework for Critical Infrastructure Stakeholders | [PDF](pdf/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.pdf) | [Markdown](markdown/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.md) |
 | 2026-11-25 | IF10483 v19 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v19-2026-11-25-390d7e29aab4d09f.pdf) | [Markdown](markdown/in-focus/IF10483v19-2026-11-25-390d7e29aab4d09f.md) |
+| 2026-11-25 | IF10483 v20 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v20-2026-11-25-8d0082abe6c80f64.pdf) | [Markdown](markdown/in-focus/IF10483v20-2026-11-25-8d0082abe6c80f64.md) |
 | 2026-11-24 | R49492 v5 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v5-2026-11-24-6049a0c6f988ffae.pdf) | [Markdown](markdown/reports/R49492v5-2026-11-24-6049a0c6f988ffae.md) |
 | 2026-11-24 | R49186 v3 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v3-2026-11-24-5f529b73ed954eea.pdf) | [Markdown](markdown/reports/R49186v3-2026-11-24-5f529b73ed954eea.md) |
 | 2026-11-24 | R45160 v26 | Federal Election Commission: Membership and Policymaking Quorum, In Brief | [PDF](pdf/reports/R45160v26-2026-11-24-7f51896cd4e86493.pdf) | [Markdown](markdown/reports/R45160v26-2026-11-24-7f51896cd4e86493.md) |
 | 2026-11-24 | R42631 v18 | Retirement Benefits for Federal Law Enforcement Personnel | [PDF](pdf/reports/R42631v18-2026-11-24-4bb44ba424ec547e.pdf) | [Markdown](markdown/reports/R42631v18-2026-11-24-4bb44ba424ec547e.md) |
+| 2026-11-24 | LSB11503 v1 | Congressional Court Watcher: Circuit Splits from October 2026 | [PDF](pdf/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.pdf) | [Markdown](markdown/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.md) |
 | 2026-11-24 | LSB11143 v2 | Vanda Pharmaceuticals, Inc. v. United States: Fifth Amendment Takings Claims for Alleged Disclosures of Trade Secrets and Confidential Information | [PDF](pdf/sidebars/LSB11143v2-2026-11-24-80c7a523ccac5f43.pdf) | [Markdown](markdown/sidebars/LSB11143v2-2026-11-24-80c7a523ccac5f43.md) |
 | 2026-11-24 | IN11911 v7 | Floodplain Buyouts: Federal Funding for Property Acquisition | [PDF](pdf/insights/IN11911v7-2026-11-24-8badbe67aeb5fd56.pdf) | [Markdown](markdown/insights/IN11911v7-2026-11-24-8badbe67aeb5fd56.md) |
 | 2026-11-24 | IG10103 v1 | Understanding Electricity Rates | [PDF](pdf/infographics/IG10103v1-2026-11-24-3a5a32acef324dff.pdf) | [Markdown](markdown/infographics/IG10103v1-2026-11-24-3a5a32acef324dff.md) |
@@ -101,6 +105,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-25 | 2025-02-03 | IF12275 v6 | Farm Bill Primer: USDA Support for Aquaculture Operations | [PDF](pdf/in-focus/IF12275v6-2025-02-03-951b6b890c40d4dd.pdf) | [Markdown](markdown/in-focus/IF12275v6-2025-02-03-951b6b890c40d4dd.md) |
 | 2026-11-24 | 2026-11-17 | R49519 v2 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v2-2026-11-17-a748fdf4825cd699.pdf) | [Markdown](markdown/reports/R49519v2-2026-11-17-a748fdf4825cd699.md) |
 | 2026-11-24 | 2026-11-06 | R46785 v21 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v21-2026-11-06-57284d0d93849b22.pdf) | [Markdown](markdown/reports/R46785v21-2026-11-06-57284d0d93849b22.md) |
 | 2026-11-24 | 2026-11-06 | IF12047 v23 | Farm Bill Primer: Overview and Status | [PDF](pdf/in-focus/IF12047v23-2026-11-06-3687af069e68221f.pdf) | [Markdown](markdown/in-focus/IF12047v23-2026-11-06-3687af069e68221f.md) |
