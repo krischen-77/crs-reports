@@ -1,3 +1,5 @@
+**Official-current verification: 94/94. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-19 to 2026-11-26**. Older archived files are retained.
@@ -15,6 +17,7 @@ Publication-date window (inclusive): **2026-11-19 to 2026-11-26**. Older archive
 | 2026-11-24 | R49186 v3 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v3-2026-11-24-5f529b73ed954eea.pdf) | [Markdown](markdown/reports/R49186v3-2026-11-24-5f529b73ed954eea.md) |
 | 2026-11-24 | R45160 v26 | Federal Election Commission: Membership and Policymaking Quorum, In Brief | [PDF](pdf/reports/R45160v26-2026-11-24-7f51896cd4e86493.pdf) | [Markdown](markdown/reports/R45160v26-2026-11-24-7f51896cd4e86493.md) |
 | 2026-11-24 | R42631 v18 | Retirement Benefits for Federal Law Enforcement Personnel | [PDF](pdf/reports/R42631v18-2026-11-24-4bb44ba424ec547e.pdf) | [Markdown](markdown/reports/R42631v18-2026-11-24-4bb44ba424ec547e.md) |
+| 2026-11-24 | R42631 v19 | Retirement Benefits for Federal Law Enforcement Personnel | [PDF](pdf/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.pdf) | [Markdown](markdown/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.md) |
 | 2026-11-24 | LSB11504 v1 | District Court Upholds Civil Service Protections Over Arguments for Executive Power in Comey v. DOJ | [PDF](pdf/sidebars/LSB11504v1-2026-11-24-a280c809f20fe2a4.pdf) | [Markdown](markdown/sidebars/LSB11504v1-2026-11-24-a280c809f20fe2a4.md) |
 | 2026-11-24 | LSB11503 v1 | Congressional Court Watcher: Circuit Splits from October 2026 | [PDF](pdf/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.pdf) | [Markdown](markdown/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.md) |
 | 2026-11-24 | LSB11143 v2 | Vanda Pharmaceuticals, Inc. v. United States: Fifth Amendment Takings Claims for Alleged Disclosures of Trade Secrets and Confidential Information | [PDF](pdf/sidebars/LSB11143v2-2026-11-24-80c7a523ccac5f43.pdf) | [Markdown](markdown/sidebars/LSB11143v2-2026-11-24-80c7a523ccac5f43.md) |
@@ -24,6 +27,7 @@ Publication-date window (inclusive): **2026-11-19 to 2026-11-26**. Older archive
 | 2026-11-24 | IF13360 v1 | The Federal Death Penalty | [PDF](pdf/in-focus/IF13360v1-2026-11-24-4db215a1195ddf19.pdf) | [Markdown](markdown/in-focus/IF13360v1-2026-11-24-4db215a1195ddf19.md) |
 | 2026-11-24 | IF10834 v17 | Defense Primer: Under Secretary of Defense for Research and Engineering | [PDF](pdf/in-focus/IF10834v17-2026-11-24-b0c90d5781891b5f.pdf) | [Markdown](markdown/in-focus/IF10834v17-2026-11-24-b0c90d5781891b5f.md) |
 | 2026-11-23 | RS22380 v49 | Child Support Enforcement: Program Basics | [PDF](pdf/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.pdf) | [Markdown](markdown/reports/RS22380v49-2026-11-23-4ad7e4974c5a20d0.md) |
+| 2026-11-23 | R49523 v3 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v3-2026-11-23-6f61f85213423ac4.pdf) | [Markdown](markdown/reports/R49523v3-2026-11-23-6f61f85213423ac4.md) |
 | 2026-11-23 | R49523 v1 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v1-2026-11-23-9d073522bccaf92d.pdf) | [Markdown](markdown/reports/R49523v1-2026-11-23-9d073522bccaf92d.md) |
 | 2026-11-23 | R49523 v2 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v2-2026-11-23-f928e01e064c39ae.pdf) | [Markdown](markdown/reports/R49523v2-2026-11-23-f928e01e064c39ae.md) |
 | 2026-11-23 | R48943 v4 | Income and Poverty by State and Congressional District | [PDF](pdf/reports/R48943v4-2026-11-23-a54255be243dee7f.pdf) | [Markdown](markdown/reports/R48943v4-2026-11-23-a54255be243dee7f.md) |
