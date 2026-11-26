@@ -1,23 +1,23 @@
 # Official current CRS files
 
-Checked: 2026-11-26T09:45:51.199146+00:00. Official current entries verified: **94/94**.
+Checked: 2026-11-26T19:50:58.480046+00:00. Official current entries verified: **94/94**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
-| 2026-11-26 | 2026-11-23 | R46658 v8 | Social Security: Benefit Calculation | [PDF](pdf/reports/R46658v8-2026-11-23-41674b9e32a94695.pdf) | [Markdown](markdown/reports/R46658v8-2026-11-23-41674b9e32a94695.md) |
 | 2026-11-26 | 2026-11-24 | R42631 v19 | Retirement Benefits for Federal Law Enforcement Personnel | [PDF](pdf/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.pdf) | [Markdown](markdown/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.md) |
 | 2026-11-26 | 2026-11-24 | LSB11504 v1 | District Court Upholds Civil Service Protections Over Arguments for Executive Power in Comey v. DOJ | [PDF](pdf/sidebars/LSB11504v1-2026-11-24-a280c809f20fe2a4.pdf) | [Markdown](markdown/sidebars/LSB11504v1-2026-11-24-a280c809f20fe2a4.md) |
 | 2026-11-26 | 2026-11-23 | R49523 v3 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v3-2026-11-23-6f61f85213423ac4.pdf) | [Markdown](markdown/reports/R49523v3-2026-11-23-6f61f85213423ac4.md) |
 | 2026-11-26 | 2026-11-24 | R49186 v4 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v4-2026-11-24-06f5594ba2528d7e.pdf) | [Markdown](markdown/reports/R49186v4-2026-11-24-06f5594ba2528d7e.md) |
-| 2026-11-26 | 2026-11-25 | IN12758 v1 | ANCHOR-CI: A New Public-Private Partnership Framework for Critical Infrastructure Stakeholders | [PDF](pdf/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.pdf) | [Markdown](markdown/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.md) |
 | 2026-11-26 | 2026-11-25 | IF12275 v8 | Farm Bill Primer: USDA Support for Aquaculture Operations | [PDF](pdf/in-focus/IF12275v8-2026-11-25-de513cdcdbd2d5c3.pdf) | [Markdown](markdown/in-focus/IF12275v8-2026-11-25-de513cdcdbd2d5c3.md) |
+| 2026-11-26 | 2026-11-25 | IN12758 v1 | ANCHOR-CI: A New Public-Private Partnership Framework for Critical Infrastructure Stakeholders | [PDF](pdf/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.pdf) | [Markdown](markdown/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.md) |
 | 2026-11-26 | 2026-11-24 | LSB11503 v1 | Congressional Court Watcher: Circuit Splits from October 2026 | [PDF](pdf/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.pdf) | [Markdown](markdown/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.md) |
 | 2026-11-26 | 2026-11-25 | IF10483 v20 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v20-2026-11-25-8d0082abe6c80f64.pdf) | [Markdown](markdown/in-focus/IF10483v20-2026-11-25-8d0082abe6c80f64.md) |
 | 2026-11-26 | 2026-11-25 | R48295 v13 | The Consumer Financial Protection Bureau Budget: Background, Policy Options, and Legislation in the 119th Congress | [PDF](pdf/reports/R48295v13-2026-11-25-0575cba17182e333.pdf) | [Markdown](markdown/reports/R48295v13-2026-11-25-0575cba17182e333.md) |
 | 2026-11-26 | 2026-11-23 | IF12831 v4 | Fiji: Background and Issues for Congress | [PDF](pdf/in-focus/IF12831v4-2026-11-23-191082ce3cb2e304.pdf) | [Markdown](markdown/in-focus/IF12831v4-2026-11-23-191082ce3cb2e304.md) |
 | 2026-11-26 | 2026-11-20 | R48909 v3 | Artificial Intelligence: CRS Products | [PDF](pdf/reports/R48909v3-2026-11-20-4e15a1fbc9929070.pdf) | [Markdown](markdown/reports/R48909v3-2026-11-20-4e15a1fbc9929070.md) |
+| 2026-11-26 | 2026-11-23 | R46658 v8 | Social Security: Benefit Calculation | [PDF](pdf/reports/R46658v8-2026-11-23-41674b9e32a94695.pdf) | [Markdown](markdown/reports/R46658v8-2026-11-23-41674b9e32a94695.md) |
 | 2026-11-25 | 2026-11-20 | R49518 v6 | Saudi Arabia’s Nuclear Energy Program and Proposed U.S.-Saudi Nuclear Cooperation | [PDF](pdf/reports/R49518v6-2026-11-20-ac0739d23d154101.pdf) | [Markdown](markdown/reports/R49518v6-2026-11-20-ac0739d23d154101.md) |
 | 2026-11-25 | 2026-11-23 | IF12155 v15 | Farm Bill Primer: Trade and Export Promotion Programs | [PDF](pdf/in-focus/IF12155v15-2026-11-23-f9e9d7b0adc3cc8d.pdf) | [Markdown](markdown/in-focus/IF12155v15-2026-11-23-f9e9d7b0adc3cc8d.md) |
 | 2026-11-25 | 2026-11-24 | IN11911 v7 | Floodplain Buyouts: Federal Funding for Property Acquisition | [PDF](pdf/insights/IN11911v7-2026-11-24-8badbe67aeb5fd56.pdf) | [Markdown](markdown/insights/IN11911v7-2026-11-24-8badbe67aeb5fd56.md) |
