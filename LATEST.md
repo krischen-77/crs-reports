@@ -1,3 +1,5 @@
+**Official-current verification: 79/79. [View current official files](CURRENT.md).**
+
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-20 to 2026-11-27**. Older archived files are retained.
@@ -12,13 +14,16 @@ Publication-date window (inclusive): **2026-11-20 to 2026-11-27**. Older archive
 | 2026-11-25 | IN12758 v1 | ANCHOR-CI: A New Public-Private Partnership Framework for Critical Infrastructure Stakeholders | [PDF](pdf/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.pdf) | [Markdown](markdown/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.md) |
 | 2026-11-25 | IF12275 v8 | Farm Bill Primer: USDA Support for Aquaculture Operations | [PDF](pdf/in-focus/IF12275v8-2026-11-25-de513cdcdbd2d5c3.pdf) | [Markdown](markdown/in-focus/IF12275v8-2026-11-25-de513cdcdbd2d5c3.md) |
 | 2026-11-25 | IF10483 v19 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v19-2026-11-25-390d7e29aab4d09f.pdf) | [Markdown](markdown/in-focus/IF10483v19-2026-11-25-390d7e29aab4d09f.md) |
+| 2026-11-25 | IF10483 v21 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.pdf) | [Markdown](markdown/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.md) |
 | 2026-11-25 | IF10483 v20 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v20-2026-11-25-8d0082abe6c80f64.pdf) | [Markdown](markdown/in-focus/IF10483v20-2026-11-25-8d0082abe6c80f64.md) |
+| 2026-11-25 | IF10253 v23 | Thailand: Background and U.S. Relations | [PDF](pdf/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.pdf) | [Markdown](markdown/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.md) |
 | 2026-11-24 | R49492 v5 | Bipartisan American Affordability and Jobs Act (BAAJA) of 2026: Analysis of Clean Water Act Provisions | [PDF](pdf/reports/R49492v5-2026-11-24-6049a0c6f988ffae.pdf) | [Markdown](markdown/reports/R49492v5-2026-11-24-6049a0c6f988ffae.md) |
 | 2026-11-24 | R49186 v4 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v4-2026-11-24-06f5594ba2528d7e.pdf) | [Markdown](markdown/reports/R49186v4-2026-11-24-06f5594ba2528d7e.md) |
 | 2026-11-24 | R49186 v3 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v3-2026-11-24-5f529b73ed954eea.pdf) | [Markdown](markdown/reports/R49186v3-2026-11-24-5f529b73ed954eea.md) |
 | 2026-11-24 | R45160 v26 | Federal Election Commission: Membership and Policymaking Quorum, In Brief | [PDF](pdf/reports/R45160v26-2026-11-24-7f51896cd4e86493.pdf) | [Markdown](markdown/reports/R45160v26-2026-11-24-7f51896cd4e86493.md) |
 | 2026-11-24 | R42631 v18 | Retirement Benefits for Federal Law Enforcement Personnel | [PDF](pdf/reports/R42631v18-2026-11-24-4bb44ba424ec547e.pdf) | [Markdown](markdown/reports/R42631v18-2026-11-24-4bb44ba424ec547e.md) |
 | 2026-11-24 | R42631 v19 | Retirement Benefits for Federal Law Enforcement Personnel | [PDF](pdf/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.pdf) | [Markdown](markdown/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.md) |
+| 2026-11-24 | LSB11504 v2 | District Court Upholds Civil Service Protections Over Arguments for Executive Power in Comey v. DOJ | [PDF](pdf/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.pdf) | [Markdown](markdown/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.md) |
 | 2026-11-24 | LSB11504 v1 | District Court Upholds Civil Service Protections Over Arguments for Executive Power in Comey v. DOJ | [PDF](pdf/sidebars/LSB11504v1-2026-11-24-a280c809f20fe2a4.pdf) | [Markdown](markdown/sidebars/LSB11504v1-2026-11-24-a280c809f20fe2a4.md) |
 | 2026-11-24 | LSB11503 v1 | Congressional Court Watcher: Circuit Splits from October 2026 | [PDF](pdf/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.pdf) | [Markdown](markdown/sidebars/LSB11503v1-2026-11-24-4489433e5cbc80a8.md) |
 | 2026-11-24 | LSB11143 v2 | Vanda Pharmaceuticals, Inc. v. United States: Fifth Amendment Takings Claims for Alleged Disclosures of Trade Secrets and Confidential Information | [PDF](pdf/sidebars/LSB11143v2-2026-11-24-80c7a523ccac5f43.pdf) | [Markdown](markdown/sidebars/LSB11143v2-2026-11-24-80c7a523ccac5f43.md) |
@@ -69,7 +74,6 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
-| 2026-11-27 | 2026-01-28 | IF10253 v21 | Thailand: Background and U.S. Relations | [PDF](pdf/in-focus/IF10253v21-2026-01-28-268231c0697cf12b.pdf) | [Markdown](markdown/in-focus/IF10253v21-2026-01-28-268231c0697cf12b.md) |
 | 2026-11-25 | 2026-11-19 | IF11208 v18 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.pdf) | [Markdown](markdown/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.md) |
 | 2026-11-24 | 2026-11-17 | R49519 v2 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v2-2026-11-17-a748fdf4825cd699.pdf) | [Markdown](markdown/reports/R49519v2-2026-11-17-a748fdf4825cd699.md) |
 | 2026-11-24 | 2026-11-06 | R46785 v21 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v21-2026-11-06-57284d0d93849b22.pdf) | [Markdown](markdown/reports/R46785v21-2026-11-06-57284d0d93849b22.md) |
