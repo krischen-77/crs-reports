@@ -1,0 +1,517 @@
+{
+  "active_update_candidates": 75,
+  "active_updates_with_older_publication": 40,
+  "api_remaining_quota": 8,
+  "api_requests": 2,
+  "archive_start_inclusive": "2026-09-17",
+  "attempted_versions": 77,
+  "candidate_reports": 76,
+  "catalog_reports": 23652,
+  "deferred_official_format_ids": [],
+  "errors": [
+    "R43755: original archive failed: Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
+  ],
+  "finished_at": "2026-11-27T04:20:03.118826+00:00",
+  "github_run_attempt": "1",
+  "github_run_id": "45939188394",
+  "historical_new_pdf_versions": 0,
+  "historical_pending_versions": 230,
+  "last_successful_run_at": "2026-11-16T02:15:21.477049+00:00",
+  "lookback_days": 7,
+  "metadata_only_updates": 1,
+  "new_pdf_versions": 0,
+  "pending_reports": 0,
+  "pending_versions": 1,
+  "planned_versions": 77,
+  "primary_new_pdf_versions": 0,
+  "primary_pdf_complete": false,
+  "reconciled_pending_discoveries": [],
+  "required_pdf_failures": 1,
+  "result": "failed",
+  "run_at": "2026-11-27T04:19:31.247140+00:00",
+  "sources": {
+    "congress_api": {
+      "credential": "public DEMO_KEY",
+      "ok": true,
+      "reported_count": 76,
+      "reports": 76,
+      "scope": "update-date window"
+    },
+    "everycrsreport": {
+      "coverage": "complete published CSV, not a claim of complete official CRS coverage",
+      "ok": true,
+      "reports": 23652
+    },
+    "rss": {
+      "items": 25,
+      "ok": true,
+      "scope": "supplement only; feed is not the complete catalog"
+    }
+  },
+  "successful_versions": 76,
+  "total_archived_pdf_versions": 1129,
+  "total_html_snapshots": 815,
+  "total_pdf_bytes": 923207524,
+  "warnings": [
+    {
+      "api_version": 97,
+      "id": "97-1011",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "102"
+      ]
+    },
+    {
+      "api_version": 77,
+      "id": "97-615",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "79"
+      ]
+    },
+    {
+      "api_version": 22,
+      "id": "IF10209",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "29"
+      ]
+    },
+    {
+      "api_version": 31,
+      "id": "IF10256",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "37"
+      ]
+    },
+    {
+      "api_version": 17,
+      "id": "IF10483",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "20"
+      ]
+    },
+    {
+      "api_version": 6,
+      "id": "IF10719",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "7"
+      ]
+    },
+    {
+      "api_version": 15,
+      "id": "IF10834",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "17"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF11119",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 13,
+      "id": "IF11147",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "16"
+      ]
+    },
+    {
+      "api_version": 5,
+      "id": "IF11201",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "6"
+      ]
+    },
+    {
+      "api_version": 16,
+      "id": "IF11208",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "17"
+      ]
+    },
+    {
+      "api_version": 16,
+      "id": "IF11361",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "18"
+      ]
+    },
+    {
+      "api_version": 6,
+      "id": "IF11747",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "9"
+      ]
+    },
+    {
+      "api_version": 4,
+      "id": "IF11769",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "7"
+      ]
+    },
+    {
+      "api_version": 14,
+      "id": "IF12047",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "20"
+      ]
+    },
+    {
+      "api_version": 5,
+      "id": "IF12148",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "8"
+      ]
+    },
+    {
+      "api_version": 4,
+      "id": "IF12155",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "14"
+      ]
+    },
+    {
+      "api_version": 21,
+      "id": "IF12233",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "23"
+      ]
+    },
+    {
+      "api_version": 6,
+      "id": "IF12275",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "8"
+      ]
+    },
+    {
+      "api_version": 4,
+      "id": "IF12390",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "7"
+      ]
+    },
+    {
+      "api_version": 2,
+      "id": "IF12766",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "4"
+      ]
+    },
+    {
+      "api_version": 2,
+      "id": "IF12831",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 3,
+      "id": "IF12835",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "16"
+      ]
+    },
+    {
+      "api_version": 2,
+      "id": "IF12905",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF12962",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13103",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13144",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13151",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "4"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13248",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13257",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13288",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "2"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IF13299",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "2"
+      ]
+    },
+    {
+      "api_version": 5,
+      "id": "IN11911",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "7"
+      ]
+    },
+    {
+      "api_version": 17,
+      "id": "IN11982",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "27"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "IN12717",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "7"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "LSB11143",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "2"
+      ]
+    },
+    {
+      "api_version": 17,
+      "id": "R42631",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "18"
+      ]
+    },
+    {
+      "api_version": 3,
+      "id": "R43755",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "4"
+      ]
+    },
+    {
+      "api_version": 18,
+      "id": "R45160",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "26"
+      ]
+    },
+    {
+      "api_version": 12,
+      "id": "R46234",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "16"
+      ]
+    },
+    {
+      "api_version": 4,
+      "id": "R46658",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "7"
+      ]
+    },
+    {
+      "api_version": 19,
+      "id": "R46785",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "20"
+      ]
+    },
+    {
+      "api_version": 4,
+      "id": "R48078",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
+      "api_version": 4,
+      "id": "R48136",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
+      "api_version": 2,
+      "id": "R48191",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "7"
+      ]
+    },
+    {
+      "api_version": 5,
+      "id": "R48295",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "13"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R48641",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "18"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R48909",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "2"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R48940",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R48943",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R49186",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R49492",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R49518",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "5"
+      ]
+    },
+    {
+      "api_version": 1,
+      "id": "R49521",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "3"
+      ]
+    },
+    {
+      "api_version": 46,
+      "id": "RS22380",
+      "note": "Version namespaces differ; publication coverage checked separately, not claimed byte-equivalent",
+      "pdf_revisions": [
+        "49"
+      ]
+    },
+    {
+      "id": "98-835",
+      "messages": [
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ],
+      "scope": "optional historical backfill"
+    },
+    {
+      "id": "98-870",
+      "messages": [
+        "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
+      ],
+      "scope": "optional historical backfill"
+    },
+    {
+      "historical_backfill_remaining": 230,
+      "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
+    }
+  ],
+  "window_end_inclusive": "2026-11-27",
+  "window_start_inclusive": "2026-11-20"
+}

@@ -11,20 +11,15 @@
   "errors": [
     "R43755: original archive failed: Mirror failed and official publication date differs: www.everycrsreport.com: Source bytes differ from the catalogued version checksum"
   ],
-  "finished_at": "2026-11-27T02:56:11.277263+00:00",
+  "finished_at": "2026-11-27T04:20:03.118826+00:00",
   "github_run_attempt": "1",
-  "github_run_id": "45931086224",
+  "github_run_id": "45939188394",
   "historical_new_pdf_versions": 0,
-  "historical_pending_versions": 232,
+  "historical_pending_versions": 230,
   "last_successful_run_at": "2026-11-16T02:15:21.477049+00:00",
   "lookback_days": 7,
   "metadata_only_updates": 1,
   "new_pdf_versions": 0,
-  "official_current_pending": 0,
-  "official_current_required": 75,
-  "official_current_verified": 75,
-  "official_new_pdf_versions": 0,
-  "official_reconciled_at": "2026-11-27T03:03:07.466404+00:00",
   "pending_reports": 0,
   "pending_versions": 1,
   "planned_versions": 77,
@@ -33,7 +28,7 @@
   "reconciled_pending_discoveries": [],
   "required_pdf_failures": 1,
   "result": "failed",
-  "run_at": "2026-11-27T02:55:39.439601+00:00",
+  "run_at": "2026-11-27T04:19:31.247140+00:00",
   "sources": {
     "congress_api": {
       "credential": "public DEMO_KEY",
@@ -55,8 +50,7 @@
   },
   "successful_versions": 76,
   "total_archived_pdf_versions": 1129,
-  "total_html_original_versions": 1,
-  "total_html_snapshots": 813,
+  "total_html_snapshots": 815,
   "total_pdf_bytes": 923207524,
   "warnings": [
     {
@@ -500,21 +494,21 @@
       ]
     },
     {
-      "id": "98-814",
+      "id": "98-835",
       "messages": [
         "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "id": "98-815",
+      "id": "98-870",
       "messages": [
         "Saved provider HTML derivative; bytes differ from upstream HTML SHA-1, original PDF remains authoritative"
       ],
       "scope": "optional historical backfill"
     },
     {
-      "historical_backfill_remaining": 232,
+      "historical_backfill_remaining": 230,
       "note": "Out-of-scope historical tasks retained separately; NOT claimed complete. Current-window PDF failures remain fatal."
     }
   ],
