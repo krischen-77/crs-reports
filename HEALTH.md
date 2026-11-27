@@ -2,15 +2,15 @@
 
 **UNHEALTHY**
 
-Watchdog checked UTC: 2026-11-27T03:07:18.713507+00:00
+Watchdog checked UTC: 2026-11-27T04:28:51.004885+00:00
 
 Monitor commits are NOT source refreshes. No new reports can be normal; stale verification is not.
 
 | Production stage | Last source/verification receipt (UTC) |
 |---|---|
 | crs-backup.yml | 2026-11-16T02:15:21.477049+00:00 |
-| official-reconcile.yml | 2026-11-27T03:03:07.466404+00:00 |
-| coverage-audit.yml | 2026-11-27T03:07:00.361445+00:00 |
+| official-reconcile.yml | 2026-11-27T04:24:46.817685+00:00 |
+| coverage-audit.yml | 2026-11-27T04:28:37.882430+00:00 |
 
 ## Findings
 
