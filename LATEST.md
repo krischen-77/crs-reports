@@ -1,11 +1,12 @@
-**Official-current verification: 75/75. [View current official files](CURRENT.md).**
-
 # Recently archived CRS reports
 
 Publication-date window (inclusive): **2026-11-20 to 2026-11-27**. Older archived files are retained.
 
 | Date | Report | Title | Original | Text |
 |---|---|---|---|---|
+| 2026-11-27 | IN12759 v1 | The Bipartisan American Affordability and Jobs Act of 2026: Changes to When National Environmental Policy Act Reviews Are Required | [PDF](pdf/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.pdf) | [Markdown](markdown/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.md) |
+| 2026-11-27 | IN11532 v9 | TRICARE Cost-Sharing Changes in 2027 | [PDF](pdf/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.pdf) | [Markdown](markdown/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.md) |
+| 2026-11-27 | IF11235 v12 | Defense Primer: Senior Reserve Officers’ Training Corps | [PDF](pdf/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.pdf) | [Markdown](markdown/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.md) |
 | 2026-11-25 | R48295 v13 | The Consumer Financial Protection Bureau Budget: Background, Policy Options, and Legislation in the 119th Congress | [PDF](pdf/reports/R48295v13-2026-11-25-0575cba17182e333.pdf) | [Markdown](markdown/reports/R48295v13-2026-11-25-0575cba17182e333.md) |
 | 2026-11-25 | R48295 v12 | The Consumer Financial Protection Bureau Budget: Background, Policy Options, and Legislation in the 119th Congress | [PDF](pdf/reports/R48295v12-2026-11-25-0aa1b566fe3752dd.pdf) | [Markdown](markdown/reports/R48295v12-2026-11-25-0aa1b566fe3752dd.md) |
 | 2026-11-25 | IN12758 v1 | ANCHOR-CI: A New Public-Private Partnership Framework for Critical Infrastructure Stakeholders | [PDF](pdf/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.pdf) | [Markdown](markdown/insights/IN12758v1-2026-11-25-0fa5f583af51f0ac.md) |
@@ -68,6 +69,7 @@ API update dates can describe metadata or file changes. These current PDF files 
 
 | API update | Original publication | Report | Title | Original | Text |
 |---|---|---|---|---|---|
+| 2026-11-27 | 2026-01-28 | IF10253 v21 | Thailand: Background and U.S. Relations | [PDF](pdf/in-focus/IF10253v21-2026-01-28-268231c0697cf12b.pdf) | [Markdown](markdown/in-focus/IF10253v21-2026-01-28-268231c0697cf12b.md) |
 | 2026-11-25 | 2026-11-19 | IF11208 v18 | Pacific Primer: The Pacific Island Countries | [PDF](pdf/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.pdf) | [Markdown](markdown/in-focus/IF11208v18-2026-11-19-a88fb8de5a000d77.md) |
 | 2026-11-24 | 2026-11-17 | R49519 v2 | Poverty in the United States in 2025 | [PDF](pdf/reports/R49519v2-2026-11-17-a748fdf4825cd699.pdf) | [Markdown](markdown/reports/R49519v2-2026-11-17-a748fdf4825cd699.md) |
 | 2026-11-24 | 2026-11-06 | R46785 v21 | Federal Support for Reproductive Health Services: Frequently Asked Questions | [PDF](pdf/reports/R46785v21-2026-11-06-57284d0d93849b22.pdf) | [Markdown](markdown/reports/R46785v21-2026-11-06-57284d0d93849b22.md) |
