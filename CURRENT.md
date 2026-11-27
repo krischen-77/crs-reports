@@ -1,6 +1,6 @@
 # Official current CRS files
 
-Checked: 2026-11-26T19:50:58.480046+00:00. Official current entries verified: **94/94**.
+Checked: 2026-11-27T03:03:07.466404+00:00. Official current entries verified: **75/75**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
@@ -81,22 +81,3 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-20 | 2026-11-19 | LSB11501 v1 | Fourth Circuit: District Court May Hear Schools’ Challenge to Education Department’s Title IX Funding Decision | [PDF](pdf/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.pdf) | [Markdown](markdown/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.md) |
 | 2026-11-20 | 2026-11-19 | IF10256 v37 | U.S.-Taiwan Trade and Economic Relations | [PDF](pdf/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.pdf) | [Markdown](markdown/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.md) |
 | 2026-11-20 | 2026-11-17 | IF13353 v2 | Certain National Firearms Act Requirements Will Not Be Administratively Enforced Following Court Ruling That These Provisions Exceed Congress’s Constitutional Powers | [PDF](pdf/in-focus/IF13353v2-2026-11-17-40abcef79339612f.pdf) | [Markdown](markdown/in-focus/IF13353v2-2026-11-17-40abcef79339612f.md) |
-| 2026-11-19 | 2026-11-12 | R45931 v23 | Federal Student Loans Made Through the William D. Ford Federal Direct Loan Program: Terms and Conditions for Borrowers | [PDF](pdf/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.pdf) | [Markdown](markdown/reports/R45931v23-2026-11-12-f5bbfc5fb33407fd.md) |
-| 2026-11-19 | 2026-11-18 | IF12608 v22 | U.S. Interest in Seabed Mining in Areas Beyond National Jurisdiction: Brief Background and Recent Developments | [PDF](pdf/in-focus/IF12608v22-2026-11-18-9ed8d14f4516133b.pdf) | [Markdown](markdown/in-focus/IF12608v22-2026-11-18-9ed8d14f4516133b.md) |
-| 2026-11-19 | 2026-11-17 | R45546 v55 | Management of the Colorado River: Water Allocations, Drought, and the Federal Role | [PDF](pdf/reports/R45546v55-2026-11-17-c7a5d1f70c12f5b4.pdf) | [Markdown](markdown/reports/R45546v55-2026-11-17-c7a5d1f70c12f5b4.md) |
-| 2026-11-19 | 2026-11-18 | IF13226 v8 | Seabed Mining on the U.S. Outer Continental Shelf: Recent Developments | [PDF](pdf/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.pdf) | [Markdown](markdown/in-focus/IF13226v8-2026-11-18-fc157af1ce604693.md) |
-| 2026-11-19 | 2026-11-16 | IF11028 v5 | Administration of the House of Representatives: Actions Taken During a New Congress and Following a Majority Change | [PDF](pdf/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.pdf) | [Markdown](markdown/in-focus/IF11028v5-2026-11-16-51b3190918123b2b.md) |
-| 2026-11-19 | 2026-11-18 | IF11779 v8 | Hydrofluorocarbon Phasedown: Background and Issues Facing Congress | [PDF](pdf/in-focus/IF11779v8-2026-11-18-40dd508c268ea10c.pdf) | [Markdown](markdown/in-focus/IF11779v8-2026-11-18-40dd508c268ea10c.md) |
-| 2026-11-19 | 2026-11-18 | IF13198 v2 | Satellite Direct-to-Cellular (D2C) Service: Emergence, Use Cases, and Considerations for Congress | [PDF](pdf/in-focus/IF13198v2-2026-11-18-753b0b6d1450e322.pdf) | [Markdown](markdown/in-focus/IF13198v2-2026-11-18-753b0b6d1450e322.md) |
-| 2026-11-19 | 2026-03-25 | IF11934 v8 | Terrorist and Other Militant Groups in Pakistan | [PDF](pdf/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.pdf) | [Markdown](markdown/in-focus/IF11934v8-2026-03-25-1be6f556a96d5d72.md) |
-| 2026-11-19 | 2026-11-09 | R49512 v6 | Identifying Federal Political Appointees: The Plum Book and Plum Reporting Website | [PDF](pdf/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.pdf) | [Markdown](markdown/reports/R49512v6-2026-11-09-e797c6bccbf0fdb4.md) |
-| 2026-11-19 | 2026-11-18 | IF12054 v4 | Farm Bill Primer: Forestry Title | [PDF](pdf/in-focus/IF12054v4-2026-11-18-c67407a3a5bb4373.pdf) | [Markdown](markdown/in-focus/IF12054v4-2026-11-18-c67407a3a5bb4373.md) |
-| 2026-11-19 | 2026-11-18 | IF12006 v32 | Arctic National Wildlife Refuge: Status of Oil and Gas Program | [PDF](pdf/in-focus/IF12006v32-2026-11-18-a54bf4a836510825.pdf) | [Markdown](markdown/in-focus/IF12006v32-2026-11-18-a54bf4a836510825.md) |
-| 2026-11-19 | 2026-11-16 | R43755 v5 | Phased Retirement: In Brief | [PDF](pdf/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.pdf) | [Markdown](markdown/reports/R43755v5-2026-11-16-1653ad12fbcdc5aa.md) |
-| 2026-11-19 | 2026-11-18 | IF13355 v1 | National Institute of Standards and Technology (NIST) FY2027 Funding | [PDF](pdf/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.pdf) | [Markdown](markdown/in-focus/IF13355v1-2026-11-18-b637c767454ac1c3.md) |
-| 2026-11-19 | 2026-11-12 | IF13347 v1 | Partisan Messaging in Official Agency Communications | [PDF](pdf/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.pdf) | [Markdown](markdown/in-focus/IF13347v1-2026-11-12-4e2f683ba09cd6be.md) |
-| 2026-11-19 | 2026-11-18 | IF12421 v14 | The U.S. Army’s Indirect Fire Protection Capability System | [PDF](pdf/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.pdf) | [Markdown](markdown/in-focus/IF12421v14-2026-11-18-6facbe3786cd3a4a.md) |
-| 2026-11-19 | 2026-11-05 | IF13343 v2 | The Hatch Act: Special Considerations for High-Level Administration Officials | [PDF](pdf/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.pdf) | [Markdown](markdown/in-focus/IF13343v2-2026-11-05-2af4c02e732bb0e6.md) |
-| 2026-11-19 | 2026-11-17 | IF12968 v3 | Competition and Antitrust Concerns Related to Generative AI | [PDF](pdf/in-focus/IF12968v3-2026-11-17-5a3d8d9ad6bbdc5c.pdf) | [Markdown](markdown/in-focus/IF12968v3-2026-11-17-5a3d8d9ad6bbdc5c.md) |
-| 2026-11-19 | 2026-11-18 | R44258 v25 | Native American Heritage Month: Fact Sheet | [PDF](pdf/reports/R44258v25-2026-11-18-92c46dd771a01188.pdf) | [Markdown](markdown/reports/R44258v25-2026-11-18-92c46dd771a01188.md) |
-| 2026-11-19 | 2026-02-11 | R48854 v5 | Poverty in the United States in 2024 | [PDF](pdf/reports/R48854v5-2026-02-11-caacd4aaada23bcb.pdf) | [Markdown](markdown/reports/R48854v5-2026-02-11-caacd4aaada23bcb.md) |
