@@ -1,14 +1,14 @@
 # Official current CRS files
 
-Checked: 2026-11-27T19:47:52.707178+00:00. Official current entries verified: **79/79**.
+Checked: 2026-11-28T04:05:52.929108+00:00. Official current entries verified: **66/66**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
 | 2026-11-27 | 2026-11-27 | IN11532 v9 | TRICARE Cost-Sharing Changes in 2027 | [PDF](pdf/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.pdf) | [Markdown](markdown/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.md) |
-| 2026-11-27 | 2026-11-25 | IF10483 v21 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.pdf) | [Markdown](markdown/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.md) |
 | 2026-11-27 | 2026-11-24 | LSB11504 v2 | District Court Upholds Civil Service Protections Over Arguments for Executive Power in Comey v. DOJ | [PDF](pdf/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.pdf) | [Markdown](markdown/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.md) |
+| 2026-11-27 | 2026-11-25 | IF10483 v21 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.pdf) | [Markdown](markdown/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.md) |
 | 2026-11-27 | 2026-11-27 | IN12759 v1 | The Bipartisan American Affordability and Jobs Act of 2026: Changes to When National Environmental Policy Act Reviews Are Required | [PDF](pdf/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.pdf) | [Markdown](markdown/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.md) |
 | 2026-11-27 | 2026-11-27 | IF11235 v12 | Defense Primer: Senior Reserve Officers’ Training Corps | [PDF](pdf/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.pdf) | [Markdown](markdown/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.md) |
 | 2026-11-27 | 2026-11-25 | IF10253 v23 | Thailand: Background and U.S. Relations | [PDF](pdf/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.pdf) | [Markdown](markdown/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.md) |
@@ -72,16 +72,3 @@ The original cover date is distinct from the API update date. Only verified rows
 | 2026-11-21 | 2026-11-19 | R49521 v4 | Employee Stock Ownership Plans (ESOPs): Background and Policy | [PDF](pdf/reports/R49521v4-2026-11-19-207dc8809bb663f2.pdf) | [Markdown](markdown/reports/R49521v4-2026-11-19-207dc8809bb663f2.md) |
 | 2026-11-21 | 2026-11-20 | IF13358 v1 | Preserving Trust: Government Data, Disclosure Avoidance, and Privacy Enhancing Techniques (PETs) | [PDF](pdf/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.pdf) | [Markdown](markdown/in-focus/IF13358v1-2026-11-20-7c8d065a5e45e6f5.md) |
 | 2026-11-21 | 2026-11-19 | IF11147 v16 | Defense Primer: Active Component Enlisted Recruiting | [PDF](pdf/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.pdf) | [Markdown](markdown/in-focus/IF11147v16-2026-11-19-549c6e0927542a24.md) |
-| 2026-11-20 | 2026-11-19 | IN12717 v7 | Nuclear Risk Reduction: Executive Branch Policies and Congressional Approaches in the 119th Congress | [PDF](pdf/insights/IN12717v7-2026-11-19-62057c2bc5568818.pdf) | [Markdown](markdown/insights/IN12717v7-2026-11-19-62057c2bc5568818.md) |
-| 2026-11-20 | 2026-11-18 | 97-615 v80 | Salaries of Members of Congress: Congressional Votes, 1990-2026 | [PDF](pdf/reports/97-615v80-2026-11-18-d9c70834cded69ea.pdf) | [Markdown](markdown/reports/97-615v80-2026-11-18-d9c70834cded69ea.md) |
-| 2026-11-20 | 2026-11-17 | IN11982 v28 | Responding to Drought in the Colorado River Basin | [PDF](pdf/insights/IN11982v28-2026-11-17-97a87d328e6b4ed2.pdf) | [Markdown](markdown/insights/IN11982v28-2026-11-17-97a87d328e6b4ed2.md) |
-| 2026-11-20 | 2026-11-19 | IF11119 v3 | Federal Records: Types and Treatments | [PDF](pdf/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.pdf) | [Markdown](markdown/in-focus/IF11119v3-2026-11-19-fb4adba49105f533.md) |
-| 2026-11-20 | 2026-11-18 | LSB11500 v2 | Federal District Court Holds That 18 U.S.C. § 611, the Federal Bar on Alien Voting, Is Unconstitutional | [PDF](pdf/sidebars/LSB11500v2-2026-11-18-d04d66adb272abf0.pdf) | [Markdown](markdown/sidebars/LSB11500v2-2026-11-18-d04d66adb272abf0.md) |
-| 2026-11-20 | 2026-11-19 | IF13103 v3 | Artificial Intelligence in Capital Markets: Policy Issues | [PDF](pdf/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.pdf) | [Markdown](markdown/in-focus/IF13103v3-2026-11-19-8dc8f2f92466167a.md) |
-| 2026-11-20 | 2026-11-18 | R49520 v3 | Taxing AI: Alternative Approaches | [PDF](pdf/reports/R49520v3-2026-11-18-9d5a0d67b5e57b38.pdf) | [Markdown](markdown/reports/R49520v3-2026-11-18-9d5a0d67b5e57b38.md) |
-| 2026-11-20 | 2026-11-18 | IN12757 v2 | Autonomous Warfare Command: Background and Considerations for Congress | [PDF](pdf/insights/IN12757v2-2026-11-18-193fd359c41c35b4.pdf) | [Markdown](markdown/insights/IN12757v2-2026-11-18-193fd359c41c35b4.md) |
-| 2026-11-20 | 2026-11-19 | IF13356 v1 | Private Equity and Professional Sports | [PDF](pdf/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.pdf) | [Markdown](markdown/in-focus/IF13356v1-2026-11-19-4fcf2245cd6f7f36.md) |
-| 2026-11-20 | 2026-11-16 | IF13351 v3 | Defense Primer: Military Special and Incentive Pays | [PDF](pdf/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.pdf) | [Markdown](markdown/in-focus/IF13351v3-2026-11-16-86070c5c7cadcd84.md) |
-| 2026-11-20 | 2026-11-19 | LSB11501 v1 | Fourth Circuit: District Court May Hear Schools’ Challenge to Education Department’s Title IX Funding Decision | [PDF](pdf/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.pdf) | [Markdown](markdown/sidebars/LSB11501v1-2026-11-19-65421cde3aabea03.md) |
-| 2026-11-20 | 2026-11-19 | IF10256 v37 | U.S.-Taiwan Trade and Economic Relations | [PDF](pdf/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.pdf) | [Markdown](markdown/in-focus/IF10256v37-2026-11-19-a6c29c47c11e4373.md) |
-| 2026-11-20 | 2026-11-17 | IF13353 v2 | Certain National Firearms Act Requirements Will Not Be Administratively Enforced Following Court Ruling That These Provisions Exceed Congress’s Constitutional Powers | [PDF](pdf/in-focus/IF13353v2-2026-11-17-40abcef79339612f.pdf) | [Markdown](markdown/in-focus/IF13353v2-2026-11-17-40abcef79339612f.md) |
