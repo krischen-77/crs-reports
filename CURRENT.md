@@ -1,17 +1,17 @@
 # Official current CRS files
 
-Checked: 2026-11-28T04:05:52.929108+00:00. Official current entries verified: **66/66**.
+Checked: 2026-11-28T13:16:29.774462+00:00. Official current entries verified: **66/66**.
 
 The original cover date is distinct from the API update date. Only verified rows link to a current official original (PDF preferred, HTML when supplied).
 
 | API update | Cover date | Report | Title | Current original | Full text |
 |---|---|---|---|---|---|
-| 2026-11-27 | 2026-11-27 | IN11532 v9 | TRICARE Cost-Sharing Changes in 2027 | [PDF](pdf/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.pdf) | [Markdown](markdown/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.md) |
-| 2026-11-27 | 2026-11-24 | LSB11504 v2 | District Court Upholds Civil Service Protections Over Arguments for Executive Power in Comey v. DOJ | [PDF](pdf/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.pdf) | [Markdown](markdown/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.md) |
-| 2026-11-27 | 2026-11-25 | IF10483 v21 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.pdf) | [Markdown](markdown/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.md) |
-| 2026-11-27 | 2026-11-27 | IN12759 v1 | The Bipartisan American Affordability and Jobs Act of 2026: Changes to When National Environmental Policy Act Reviews Are Required | [PDF](pdf/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.pdf) | [Markdown](markdown/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.md) |
-| 2026-11-27 | 2026-11-27 | IF11235 v12 | Defense Primer: Senior Reserve Officers’ Training Corps | [PDF](pdf/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.pdf) | [Markdown](markdown/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.md) |
-| 2026-11-27 | 2026-11-25 | IF10253 v23 | Thailand: Background and U.S. Relations | [PDF](pdf/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.pdf) | [Markdown](markdown/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.md) |
+| 2026-11-28 | 2026-11-27 | IN11532 v9 | TRICARE Cost-Sharing Changes in 2027 | [PDF](pdf/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.pdf) | [Markdown](markdown/insights/IN11532v9-2026-11-27-1c9c8d3435bc55d0.md) |
+| 2026-11-28 | 2026-11-25 | IF10483 v21 | Defense Primer: Military Retirement | [PDF](pdf/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.pdf) | [Markdown](markdown/in-focus/IF10483v21-2026-11-25-85acf9e37d68c373.md) |
+| 2026-11-28 | 2026-11-24 | LSB11504 v2 | District Court Upholds Civil Service Protections Over Arguments for Executive Power in Comey v. DOJ | [PDF](pdf/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.pdf) | [Markdown](markdown/sidebars/LSB11504v2-2026-11-24-6858d92ba8df1906.md) |
+| 2026-11-28 | 2026-11-27 | IN12759 v1 | The Bipartisan American Affordability and Jobs Act of 2026: Changes to When National Environmental Policy Act Reviews Are Required | [PDF](pdf/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.pdf) | [Markdown](markdown/insights/IN12759v1-2026-11-27-faed0d90fa9bcce7.md) |
+| 2026-11-28 | 2026-11-27 | IF11235 v12 | Defense Primer: Senior Reserve Officers’ Training Corps | [PDF](pdf/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.pdf) | [Markdown](markdown/in-focus/IF11235v12-2026-11-27-1c8f78070aca723a.md) |
+| 2026-11-28 | 2026-11-25 | IF10253 v23 | Thailand: Background and U.S. Relations | [PDF](pdf/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.pdf) | [Markdown](markdown/in-focus/IF10253v23-2026-11-25-35904f58ead7a055.md) |
 | 2026-11-26 | 2026-11-24 | R42631 v19 | Retirement Benefits for Federal Law Enforcement Personnel | [PDF](pdf/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.pdf) | [Markdown](markdown/reports/R42631v19-2026-11-24-61c2dcc63df7ba16.md) |
 | 2026-11-26 | 2026-11-23 | R49523 v3 | U.S. Army Aviation: Background and Issues for Congress | [PDF](pdf/reports/R49523v3-2026-11-23-6f61f85213423ac4.pdf) | [Markdown](markdown/reports/R49523v3-2026-11-23-6f61f85213423ac4.md) |
 | 2026-11-26 | 2026-11-24 | R49186 v4 | Venezuela’s Post-Maduro Political Transition and U.S. Policy | [PDF](pdf/reports/R49186v4-2026-11-24-06f5594ba2528d7e.pdf) | [Markdown](markdown/reports/R49186v4-2026-11-24-06f5594ba2528d7e.md) |
